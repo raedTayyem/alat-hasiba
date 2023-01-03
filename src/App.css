@@ -1,0 +1,49 @@
+:root {
+  /*   color variables */
+  --clr-primary: #6aeeb5;
+  --clr-primary-hover: #29e6a7;
+  --clr-primary-dark: #039d69;
+  --clr-gray100: #f0f7f8;
+  --clr-gray200: #cfd8dc;
+  --clr-gray300: #a7b7be;
+  --clr-gray400: #6b7e86;
+  --clr-gray500: #425a65;
+
+  /*   border radius */
+  --radius: 0.2rem;
+}
+
+.app {
+  direction: rtl;
+  display: flex;
+}
+
+.main {
+  margin-right: 450px;
+}
+
+.content {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  gap: 100px;
+}
+
+.main-app {
+  display: flex;
+  margin: 20px;
+  border-radius: 50px;
+  gap: 50px;
+  /* background-color: black; */
+}
+
+@media screen and (max-width: 768px) {
+  .main {
+    margin-right: 20px;
+    margin-top: 120px;
+  }
+  .main-app {
+    flex-direction: column;
+    gap: 0;
+  }
+}

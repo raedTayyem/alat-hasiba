@@ -1,0 +1,29 @@
+.invstCalc {
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+
+.invstCalc > div {
+    display: flex;
+    gap: 10px;
+    height: 50px;
+}
+
+.invstCalc h3 {
+    width: 200px;
+    margin: 0;
+}
+
+.invstCalc input {
+    font-size: 18px;
+    height: 20px;
+    width: 100px;
+}
+
+.invstCalc button {
+    font-size: 20px;
+    width: 80px;
+    height: 30px;
+    cursor: pointer;
+}

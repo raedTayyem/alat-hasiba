@@ -1,0 +1,127 @@
+.AgeCalculator {
+  position: relative;
+  min-width: 550px;
+  form label {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  form label span {
+    width: 80px;
+    display: inline-block;
+    margin-bottom: 10px;
+  }
+
+  form:nth-of-type(2) label span {
+    width: fit-content;
+    margin-left: 10px;
+  }
+
+  .persons {
+    margin-top: 70px;
+    font-size: 18px;
+  }
+
+  .person {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    width: calc(100% - 60px);
+    margin: auto;
+    margin-top: 10px;
+    box-shadow: 0 0 3px lighten(#000, 60%);
+    padding: 10px;
+    & > div {
+      display: flex;
+      position: relative;
+      // margin-right: 20px;
+      & > p{
+        margin: 5px;
+        margin-left: 0;
+      }
+    }
+  }
+
+  button,
+  input,
+  select {
+    padding: 7px 13px;
+    background: transparent;
+    border: 2px solid #33333355;
+    border-radius: 8px;
+    cursor: pointer;
+  }
+
+  input[type="text"] {
+    width: calc(100% - 127px);
+    border-radius: 8px;
+  }
+
+  input[type="time"] {
+    border-radius: 8px 0 0 8px;
+    padding-left: 0px;
+  }
+
+  input[type="date"] {
+    border-radius: 0 8px 8px 0;
+    border-left: none;
+    padding-left: 0px;
+  }
+
+  button.remove {
+    position: absolute;
+    left: 5%;
+    top: 30%;
+    font-size: 20px;
+  }
+
+  .remove:hover {
+    background-color: red;
+  }
+
+  .formFooter {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .formFooter button {
+    /* float: right; */
+    width: 150px;
+    margin-top: 3px;
+    height: 2.4rem;
+    &:hover {
+      font-size: 14px;
+      color: darkblue;
+    }
+  }
+
+  .submit {
+    border-radius: 0 8px 8px 0;
+  }
+
+  .reset {
+    border-radius: 8px 0 0 8px;
+  }
+
+  .forms {
+    display: flex;
+  }
+
+  @media screen and (min-width: 769px) {
+    form:nth-of-type(2) {
+      margin-left: 2rem;
+    }
+  }
+
+  @media screen and (max-width: 768px) {
+    .forms {
+      flex-flow: column;
+    }
+    form:nth-of-type(2) {
+      margin-top: 2rem;
+    }
+  }
+}

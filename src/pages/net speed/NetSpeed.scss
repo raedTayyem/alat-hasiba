@@ -1,0 +1,43 @@
+.netSpeed{
+    position: relative;
+    min-width: 550px;
+  
+      .checkBtn{
+        cursor: pointer;
+         background: none;
+          border: none;
+          border: 2px solid #8883A5;
+          color:#8883A5;
+          font-weight: 600;
+          height: 40px;
+          width: auto;
+        user-select: none;
+        outline: none;
+          padding: 10px 20px;
+          border-radius: 25px;
+          user-select: none;
+          outline: none;
+          transition: all ease-in 0.4s;
+          &:hover{
+            background: #8883A5;
+            color: white;
+          }
+          }
+      .loading{
+          background-color: transparent;
+          border: 4px solid #ABA8AF;
+          border-top-color: #4C2F80;
+          user-select: none;
+           font-size: 0;
+          outline: none;
+          height: 40px;
+          width: 40px;
+          border-radius: 50%;
+          animation: rotate 0.8s linear infinite;
+        }
+      @keyframes rotate{
+        0% {transform: rotate(0deg)};
+        100% {transform:rotate(360deg)};
+      }
+      
+}
