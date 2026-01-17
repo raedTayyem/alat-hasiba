@@ -332,7 +332,9 @@
     "selectOption": "اختر...",
     "search": "بحث...",
     "enterAmount": "أدخل المبلغ",
-    "enterName": "أدخل الاسم"
+    "enterName": "أدخل الاسم",
+    "coordinateX": "س",
+    "coordinateY": "ص"
   },
   "nothingFound": "لم يتم العثور على شيء.",
   "calendar": {
@@ -362,6 +364,10 @@
   },
   "toast": {
     "dismiss": "إخفاء الإشعار",
+    "close": "إغلاق"
+  },
+  "aria": {
+    "notifications": "الإشعارات",
     "close": "إغلاق"
   },
   "shared": {
@@ -435,6 +441,13 @@
     "supportButton": "ادعمنا بفنجان قهوة"
   },
   "monetization": {
+    "messages": {
+      "productLinkComing": "سيتم إضافة رابط المنتج قريباً. يرجى التحقق لاحقاً!",
+      "productLinkComingSoon": "سيتم إضافة رابط المنتج قريباً!"
+    },
+    "buttons": {
+      "getIt": "احصل عليه"
+    },
     "leadForm": {
       "finance": {
         "title": "احصل على استشارة مالية شخصية",

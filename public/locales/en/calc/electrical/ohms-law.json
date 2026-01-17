@@ -1,0 +1,380 @@
+{
+  "ohms_law": {
+    "title": "Ohm's Law Calculator",
+    "description": "Calculate Voltage, Current, Resistance, and Power using Ohm's Law.",
+    "calculate_for": "Calculate For",
+    "calculate_for_tooltip": "Select the parameter you want to calculate",
+    "voltage": "Voltage (V)",
+    "current": "Current (I)",
+    "resistance": "Resistance (R)",
+    "power": "Power (P)",
+    "enter_voltage": "Enter voltage in Volts",
+    "enter_current": "Enter current in Amperes",
+    "enter_resistance": "Enter resistance in Ohms",
+    "about_title": "About Ohm's Law",
+    "about_desc": "Ohm's Law is a fundamental principle in electricity that relates voltage, current, and resistance in an electrical circuit.",
+    "formulas_title": "Formulas Used",
+    "voltage_formula": "Voltage = Current × Resistance",
+    "current_formula": "Current = Voltage / Resistance",
+    "resistance_formula": "Resistance = Voltage / Current",
+    "power_formula": "Power = Voltage × Current",
+    "results_title": "Calculation Results",
+    "watts": "Watts",
+    "electrical_parameters": "Electrical Parameters",
+    "power_calculations": "Power Calculations",
+    "unit_voltage": "V",
+    "unit_current": "A",
+    "unit_resistance": "Ω",
+    "unit_kilo_ohm": "kΩ",
+    "unit_milli_henry": "mH",
+    "unit_micro_farad": "µF",
+    "unit_kilo_hertz": "kHz",
+    "unit_rad_s": "rad/s",
+    "unit_joule": "J",
+    "unit_milli_joule": "mJ",
+    "unit_volt_ampere_kilo": "kVA",
+    "unit_volt_ampere_reactive_kilo": "kVAR",
+    "unit_power": "W",
+    "unit_milli_watt": "mW",
+    "unit_milli_amp": "mA",
+    "unit_watt_hour": "Wh",
+    "unit_amp_hour": "Ah",
+    "unit_volt_ampere": "VA",
+    "unit_volt_ampere_reactive": "VAR",
+    "unit_kilo_watt": "kW",
+    "unit_kilo_watt_hour": "kWh",
+    "formula_v": "V = I × R",
+    "formula_i": "I = V / R",
+    "formula_r": "R = V / I",
+    "formula_p": "P = V × I = I² × R = V² / R",
+    "formula_p_vi": "P = V × I",
+    "formula_p_i2r": "P = I² × R",
+    "formula_p_v2r": "P = V² / R",
+    "unit_hp": "HP",
+    "unit_mega_ohm": "MΩ",
+    "unit_hertz": "Hz",
+    "howItWorks": {
+      "title": "How Ohm's Law Calculator Works",
+      "formula": "V = I × R, P = V × I",
+      "explanation": "Ohm's Law is the foundation of electrical engineering, describing the relationship between voltage, current, and resistance. Voltage equals current times resistance, and power equals voltage times current.",
+      "steps": [
+        "Select the parameter to calculate (Voltage, Current, Resistance, or Power)",
+        "Enter the two known values",
+        "The calculator automatically computes the unknown value",
+        "Review results including power consumption"
+      ]
+    },
+    "useCases": [
+      "Designing electrical and electronic circuits",
+      "Calculating device power consumption",
+      "Selecting appropriate resistors for circuits",
+      "Determining wire and cable sizes"
+    ],
+    "seoTips": [
+      "Remember Ohm's Law only applies to linear circuits",
+      "Use consistent units (Volts, Amps, Ohms)",
+      "Power in Watts helps select properly rated components",
+      "Calculate power to avoid exceeding component ratings"
+    ],
+    "commonMistakes": [
+      "Mixing units (milliamps instead of amps)",
+      "Applying Ohm's Law to non-linear components",
+      "Neglecting power dissipation calculations",
+      "Not accounting for temperature effects on resistance"
+    ],
+    "faqs": [
+      {
+        "question": "What's the difference between voltage and current?",
+        "answer": "Voltage is the electrical pressure difference (like water pressure), while current is the flow of electrons (like water flow rate). Resistance limits this flow."
+      },
+      {
+        "question": "Can I use Ohm's Law for AC circuits?",
+        "answer": "Yes, but for AC circuits with inductors or capacitors, use impedance (Z) instead of resistance (R)."
+      },
+      {
+        "question": "How do I calculate resistance if I only know power and voltage?",
+        "answer": "Use the formula R = V²/P. For example: a 60W bulb at 220V has R = 220²/60 = 807Ω."
+      }
+    ]
+  },
+  "voltage_divider": {
+    "title": "Voltage Divider Calculator",
+    "description": "Calculate the output voltage of a voltage divider consisting of two resistors.",
+    "input_voltage": "Input Voltage (Vin)",
+    "input_voltage_tooltip": "The electrical voltage applied to the divider",
+    "resistor_1": "Resistor 1 (R1)",
+    "resistor_1_tooltip": "First resistor connected to input voltage",
+    "resistor_2": "Resistor 2 (R2)",
+    "resistor_2_tooltip": "Second resistor connected to ground",
+    "enter_vin": "Enter input voltage",
+    "enter_r1": "Enter R1 value",
+    "enter_r2": "Enter R2 value",
+    "results_title": "Voltage Divider Results",
+    "output_voltage": "Output Voltage (Vout)",
+    "voltage_ratio": "Voltage Ratio (Vout/Vin)",
+    "total_current": "Total Circuit Current",
+    "total_power": "Total Power Consumption",
+    "power_r1": "Power Dissipated in R1",
+    "power_r2": "Power Dissipated in R2",
+    "about_title": "About Voltage Dividers",
+    "about_desc": "A voltage divider is a simple circuit that converts a large voltage into a smaller one using resistors.",
+    "empty_state": "Enter input voltage and resistor values to calculate output voltage",
+    "footer_note": "Ensure resistors have sufficient power rating for the calculated dissipation.",
+    "howItWorks": {
+      "title": "How the Voltage Divider Calculator Works",
+      "formula": "Vout = Vin × R2 / (R1 + R2)",
+      "explanation": "A voltage divider splits input voltage proportionally based on resistor values. The voltage across R2 equals the ratio of R2 to total resistance multiplied by input voltage.",
+      "steps": [
+        "Enter the input voltage (Vin)",
+        "Enter the first resistor value (R1)",
+        "Enter the second resistor value (R2)",
+        "Get output voltage, current, and power dissipation"
+      ]
+    },
+    "useCases": [
+      "Reducing voltage for microcontroller inputs",
+      "Measuring high voltage with ADC",
+      "Creating reference voltages for circuits",
+      "Biasing transistors and op-amps"
+    ],
+    "seoTips": [
+      "Use 1% tolerance resistors for sensitive applications",
+      "Consider load effect on output voltage",
+      "Choose high resistance values to minimize current draw",
+      "Verify resistor power ratings to prevent burnout"
+    ],
+    "commonMistakes": [
+      "Ignoring load resistance effect on output voltage",
+      "Using resistors too low causing high power consumption",
+      "Not accounting for resistor tolerance in calculations",
+      "Using voltage dividers for high current applications"
+    ],
+    "faqs": [
+      {
+        "question": "Can I use a voltage divider as a voltage regulator?",
+        "answer": "Not recommended because output voltage changes with load. Use a regulator like LM317 for varying loads."
+      },
+      {
+        "question": "How do I choose appropriate resistor values?",
+        "answer": "Choose resistors so that divider current is at least 10x expected load current to minimize load effect."
+      },
+      {
+        "question": "Does a voltage divider work with AC?",
+        "answer": "Yes, but use impedance instead of resistance if there are capacitors or inductors in the circuit."
+      }
+    ]
+  },
+  "led_resistor": {
+    "title": "LED Resistor Calculator",
+    "description": "Calculate the correct resistor value to protect a Light Emitting Diode (LED).",
+    "supply_voltage": "Supply Voltage (Vs)",
+    "supply_voltage_tooltip": "Voltage from the battery or power supply",
+    "led_voltage": "LED Forward Voltage (Vf)",
+    "led_voltage_tooltip": "Voltage drop across the LED (typically 1.8V - 3.3V depending on color)",
+    "led_current": "LED Forward Current (If)",
+    "led_current_tooltip": "Desired current through the LED (typically 20mA)",
+    "num_leds": "Number of LEDs",
+    "num_leds_tooltip": "Number of LEDs connected in series",
+    "enter_vs": "Enter supply voltage",
+    "enter_vf": "Enter LED voltage",
+    "enter_if": "Enter current in mA",
+    "results_title": "Calculation Results",
+    "calculated_resistance": "Calculated Resistance",
+    "standard_resistance": "Nearest Standard Resistance (E24)",
+    "standard_desc": "Use this commercially available value",
+    "power_rating": "Power Dissipation",
+    "actual_current": "Actual Current",
+    "about_title": "Why is a Resistor Needed?",
+    "about_desc": "LEDs need a resistor to limit current; without it, the LED may burn out immediately due to excessive current.",
+    "empty_state": "Enter LED and power supply parameters to calculate resistance",
+    "footer_note": "Always choose a resistor with a higher Watt rating than the calculated dissipation.",
+    "use_resistor": "Use a {{rating}} Watt resistor",
+    "voltage_too_low": "Supply voltage is too low for the selected LEDs!",
+    "howItWorks": {
+      "title": "How the LED Resistor Calculator Works",
+      "formula": "R = (Vs - Vf) / If",
+      "explanation": "Calculates the resistor needed to limit current through an LED. Resistance equals the voltage difference (supply minus LED forward voltage) divided by desired current.",
+      "steps": [
+        "Enter the supply voltage (battery or power supply)",
+        "Enter LED forward voltage (varies by color)",
+        "Enter desired current (typically 20mA)",
+        "Specify number of LEDs in series"
+      ]
+    },
+    "useCases": [
+      "Protecting LEDs in electronics projects",
+      "Designing LED lighting panels",
+      "Arduino and Raspberry Pi projects",
+      "Car dashboard and indicator lights"
+    ],
+    "seoTips": [
+      "LED forward voltage: Red 1.8-2V, Green/Yellow 2-2.2V, Blue/White 3-3.4V",
+      "Use 10-20mA for normal brightness",
+      "Choose resistor power rating 50% higher than calculated",
+      "For parallel LEDs, use one resistor per LED"
+    ],
+    "commonMistakes": [
+      "Forgetting to add a resistor, burning the LED instantly",
+      "Using wrong LED voltage (varies by color)",
+      "Connecting parallel LEDs with a single resistor",
+      "Not accounting for resistor power rating (Watts)"
+    ],
+    "faqs": [
+      {
+        "question": "Why does LED voltage vary by color?",
+        "answer": "Forward voltage depends on semiconductor material. Blue and white LEDs use materials with higher bandgap energy, requiring higher voltage."
+      },
+      {
+        "question": "What happens if I use a smaller resistor than needed?",
+        "answer": "Higher current flows through the LED, reducing its lifespan or burning it instantly. Always use equal or higher resistance."
+      },
+      {
+        "question": "Can I connect multiple LEDs in series?",
+        "answer": "Yes, but ensure total LED voltages are at least 2-3V less than supply voltage for the resistor to work properly."
+      }
+    ]
+  },
+  "resistor_color_code": {
+    "title": "Resistor Color Code Calculator",
+    "description": "Determine resistor value based on band colors, or vice versa.",
+    "num_bands": "Number of Bands",
+    "num_bands_tooltip": "Choose the number of color bands on the resistor",
+    "band_4": "4 Bands",
+    "band_5": "5 Bands",
+    "band": "Band",
+    "multiplier": "Multiplier",
+    "tolerance": "Tolerance",
+    "results_title": "Resistor Results",
+    "resistance_value": "Resistance Value",
+    "range": "Allowable Value Range",
+    "min": "Minimum",
+    "max": "Maximum",
+    "visual": "Visual Representation",
+    "about_title": "How to Read Colors",
+    "about_desc": "Bands are read from left to right. The last band (or slightly separated one) represents the tolerance.",
+    "colors": {
+      "black": "Black",
+      "brown": "Brown",
+      "red": "Red",
+      "orange": "Orange",
+      "yellow": "Yellow",
+      "green": "Green",
+      "blue": "Blue",
+      "violet": "Violet",
+      "gray": "Gray",
+      "white": "White",
+      "gold": "Gold",
+      "silver": "Silver",
+      "none": "None"
+    },
+    "howItWorks": {
+      "title": "How the Resistor Color Code Calculator Works",
+      "formula": "Value = (Band1 × 10 + Band2) × Multiplier ± Tolerance%",
+      "explanation": "Resistors use colored bands to indicate their resistance value. Each color represents a digit (0-9), a multiplier (power of 10), or a tolerance percentage. Reading bands left to right gives the resistance value.",
+      "steps": [
+        "Select the number of bands (4 or 5)",
+        "Choose colors for each band from the dropdown",
+        "The calculator displays the resistance value",
+        "View the tolerance range for the resistor"
+      ]
+    },
+    "useCases": [
+      "Identifying unlabeled resistors in circuits",
+      "Verifying resistor values before installation",
+      "Teaching electronics color code standards",
+      "Quality control in electronics manufacturing"
+    ],
+    "seoTips": [
+      "4-band: 2 digits + multiplier + tolerance",
+      "5-band: 3 digits + multiplier + tolerance (precision resistors)",
+      "Gold multiplier = 0.1, Silver multiplier = 0.01",
+      "Tolerance: Gold = 5%, Silver = 10%, Brown = 1%"
+    ],
+    "commonMistakes": [
+      "Reading bands in wrong direction (start from the side with bands closer together)",
+      "Confusing brown and red, or orange and yellow",
+      "Mixing up gold/silver tolerance vs. multiplier bands",
+      "Not accounting for tolerance when selecting resistors"
+    ],
+    "faqs": [
+      {
+        "question": "How do I know which end to start reading from?",
+        "answer": "Start from the end with bands grouped closer together. The tolerance band (gold/silver) is usually slightly separated and read last."
+      },
+      {
+        "question": "What's the difference between 4-band and 5-band resistors?",
+        "answer": "5-band resistors have an extra significant digit, providing higher precision (e.g., 1% tolerance) compared to 4-band resistors (typically 5% or 10%)."
+      },
+      {
+        "question": "Why do some resistors have no tolerance band?",
+        "answer": "No tolerance band indicates 20% tolerance. These are older or very inexpensive resistors rarely used in precision applications."
+      }
+    ]
+  },
+  "resistors_parallel": {
+    "title": "Series & Parallel Resistors Calculator",
+    "description": "Calculate total resistance, current, and power for a group of resistors connected in series or parallel.",
+    "connection_type": "Connection Type",
+    "connection_type_tooltip": "Choose the type of resistor connection",
+    "series": "Series",
+    "parallel": "Parallel",
+    "resistor_values": "Resistor Values",
+    "add_resistor": "Add Resistor",
+    "total_resistance": "Total Resistance",
+    "total_current": "Total Current",
+    "total_power": "Total Power",
+    "individual_results": "Individual Results for Each Resistor",
+    "how_it_works": "How is this Calculated?",
+    "series_formula_1": "Total Resistance: R = R1 + R2 + R3 + ...",
+    "series_formula_2": "Current is identical through all resistors",
+    "series_formula_3": "Voltage is distributed according to each resistor's value",
+    "parallel_formula_1": "Total Resistance: 1/R = 1/R1 + 1/R2 + 1/R3 + ...",
+    "parallel_formula_2": "Voltage is identical across all resistors",
+    "parallel_formula_3": "Current is distributed according to each resistor's value",
+    "empty_state": "Enter voltage and resistor values to see results",
+    "footer_note": "Ensure correct connection type is selected before calculating.",
+    "howItWorks": {
+      "title": "How the Series & Parallel Calculator Works",
+      "formula": "Series: R = R1+R2+... | Parallel: 1/R = 1/R1+1/R2+...",
+      "explanation": "Calculates total resistance for resistors in series (add values) or parallel (add reciprocals). Also shows current and power distribution across each resistor.",
+      "steps": [
+        "Select connection type (series or parallel)",
+        "Enter the supply voltage",
+        "Add resistor values one by one",
+        "View total resistance and individual results"
+      ]
+    },
+    "useCases": [
+      "Designing voltage dividers and current sharing",
+      "Creating custom resistance values",
+      "Analyzing existing circuit networks",
+      "Teaching basic circuit theory"
+    ],
+    "seoTips": [
+      "Series: same current, voltage divides proportionally",
+      "Parallel: same voltage, current divides inversely",
+      "Total parallel resistance is always less than smallest resistor",
+      "Use 1% resistors for precision voltage dividers"
+    ],
+    "commonMistakes": [
+      "Using series formula for parallel circuits",
+      "Forgetting that parallel resistance is less than any single resistor",
+      "Not checking individual resistor power ratings",
+      "Mixing series and parallel formulas in complex networks"
+    ],
+    "faqs": [
+      {
+        "question": "Why use series resistors?",
+        "answer": "Series resistors increase total resistance and divide voltage proportionally. Useful for voltage dividers, current limiting, and creating specific resistance values."
+      },
+      {
+        "question": "Why use parallel resistors?",
+        "answer": "Parallel resistors decrease total resistance, increase current capacity, and provide redundancy. If one fails, the circuit may still work."
+      },
+      {
+        "question": "How do I analyze a circuit with both series and parallel?",
+        "answer": "Simplify step by step: first combine parallel groups into single equivalents, then add series resistances. Repeat until you have one equivalent resistance."
+      }
+    ]
+  }
+}

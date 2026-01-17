@@ -1,0 +1,552 @@
+{
+  "ev-range-calculator": {
+    "title": "EV Range Calculator - Electric Vehicle Distance Tool",
+    "description": "Calculate electric vehicle range and battery distance coverage. Free EV range calculator for accurate driving distance estimates.",
+    "howItWorks": {
+      "title": "How EV Range Calculation Works",
+      "formula": "Range = (Battery Capacity × Battery Health × Efficiency Factor) / Energy Consumption",
+      "explanation": "EV range depends on battery capacity, state of charge, driving conditions, and energy consumption rate. This calculator accounts for factors like temperature, terrain, driving style, and battery degradation to provide realistic range estimates.",
+      "steps": [
+        {
+          "name": "Enter Battery Capacity",
+          "text": "Input your EV's total battery capacity in kWh"
+        },
+        {
+          "name": "Set Current Charge",
+          "text": "Enter current battery percentage or starting charge level"
+        },
+        {
+          "name": "Adjust for Conditions",
+          "text": "Factor in temperature, terrain, and driving style"
+        },
+        {
+          "name": "View Range Estimate",
+          "text": "See estimated driving range under specified conditions"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Trip Planning",
+        "description": "Plan routes and charging stops based on realistic range estimates"
+      },
+      {
+        "title": "Winter Driving",
+        "description": "Estimate reduced range in cold weather for safe trip planning"
+      },
+      {
+        "title": "Battery Health Assessment",
+        "description": "Track range over time to monitor battery degradation"
+      },
+      {
+        "title": "Vehicle Comparison",
+        "description": "Compare real-world range between different EV models"
+      }
+    ],
+    "seoTips": [
+      "Real-world range is typically 15-30% less than EPA/WLTP estimates",
+      "Cold weather can reduce range by 20-40% due to battery chemistry and heating",
+      "Highway driving uses more energy than city driving in EVs (opposite of gas cars)",
+      "Preconditioning while plugged in preserves range for temperature control",
+      "Battery health typically remains above 80% for 8-10 years of normal use"
+    ],
+    "commonMistakes": [
+      "Planning trips based on maximum range without safety buffer",
+      "Not accounting for significant cold weather range reduction",
+      "Assuming highway efficiency matches city driving in EVs",
+      "Forgetting that AC and heating significantly impact range"
+    ],
+    "faqs": [
+      {
+        "question": "Why is my EV range less than advertised?",
+        "answer": "EPA/WLTP tests use ideal conditions. Real driving includes weather extremes, highway speeds, climate control, and elevation changes that reduce range. Expect 15-30% less than rated range in typical conditions."
+      },
+      {
+        "question": "How does temperature affect EV range?",
+        "answer": "Cold weather reduces range 20-40% due to battery chemistry slowdown and cabin heating needs. Hot weather has less impact but AC use reduces range by 10-15%. Preconditioning while plugged in helps."
+      },
+      {
+        "question": "Why do EVs get worse range on highways?",
+        "answer": "Unlike gas cars, EVs cannot use regenerative braking at constant highway speeds. Aerodynamic drag increases with speed, consuming more energy. EVs excel in stop-and-go city driving where regen captures braking energy."
+      },
+      {
+        "question": "How fast do EV batteries degrade?",
+        "answer": "Most EV batteries retain 80-90% capacity after 100,000-150,000 miles. Degradation depends on charging habits, climate, and usage. Avoiding frequent fast charging and extreme states of charge helps longevity."
+      }
+    ]
+  },
+  "ev_range": {
+    "title": "EV Range Calculator",
+    "description": "Calculate electric vehicle driving range based on battery capacity, efficiency, and driving conditions.",
+    "battery_capacity": "Battery Capacity",
+    "battery_capacity_tooltip": "Total battery capacity in kilowatt-hours (kWh)",
+    "efficiency": "Energy Consumption",
+    "efficiency_tooltip": "Energy used per mile (typical EVs: 0.25-0.35 kWh/mile)",
+    "battery_health": "Battery Health (%)",
+    "battery_health_tooltip": "Current battery capacity as percentage of original (defaults to 100%)",
+    "temperature": "Outside Temperature (°F)",
+    "temperature_tooltip": "Ambient temperature affects battery efficiency",
+    "terrain": "Terrain Type",
+    "terrain_tooltip": "Type of terrain for your drive",
+    "terrain_flat": "Flat - Highway or level roads",
+    "terrain_hilly": "Hilly - Some elevation changes",
+    "terrain_mountainous": "Mountainous - Significant elevation changes",
+    "driving_speed": "Driving Style",
+    "driving_speed_tooltip": "Your typical driving speed",
+    "speed_city": "City - Stop and go, under 35 mph",
+    "speed_normal": "Normal - Mixed driving, 35-55 mph",
+    "speed_highway": "Highway - Sustained high speed, 65+ mph",
+    "estimated_range": "Estimated Range",
+    "miles": "miles",
+    "detailed_results": "Range Factors",
+    "usable_battery": "Usable Battery",
+    "adjusted_efficiency": "Adjusted Efficiency",
+    "temp_impact": "Temperature Impact",
+    "terrain_impact": "Terrain Impact",
+    "speed_impact": "Speed Impact",
+    "formula_title": "How It's Calculated",
+    "formula_explanation": "Range = Usable Battery (kWh) / Adjusted Efficiency (kWh/mile). Efficiency is adjusted for temperature, terrain, and driving style.",
+    "about_title": "About EV Range",
+    "about_description": "Electric vehicle range varies based on many factors including temperature, driving style, terrain, and battery condition.",
+    "typical_values_title": "Typical Values",
+    "typical_efficiency": "Efficiency: 0.25-0.35 kWh/mile for most EVs",
+    "typical_battery": "Battery: 40-100 kWh for typical EVs",
+    "typical_range": "Range: 200-350 miles for modern EVs",
+    "error_missing_inputs": "Please enter battery capacity and efficiency",
+    "error_positive_values": "Battery capacity and efficiency must be greater than zero",
+    "error_calculation": "An error occurred during calculation",
+    "placeholders": {
+      "battery_capacity": "75",
+      "efficiency": "0.30",
+      "battery_health": "100",
+      "temperature": "70"
+    },
+    "howItWorks": {
+      "title": "How EV Range Calculation Works",
+      "formula": "Range = (Battery Capacity × Battery Health%) / Adjusted Efficiency",
+      "explanation": "EV range depends on usable battery capacity divided by energy consumption per mile. The calculator adjusts for factors like temperature, terrain, and driving style that significantly impact real-world range.",
+      "steps": [
+        "Enter your EV's battery capacity in kWh",
+        "Enter energy consumption rate (kWh per mile)",
+        "Adjust battery health percentage if not 100%",
+        "Enter outside temperature and select terrain/driving conditions",
+        "View estimated range with factor adjustments"
+      ]
+    },
+    "useCases": [
+      "Plan road trips to ensure sufficient charging stops",
+      "Estimate winter range vs summer range",
+      "Understand how driving style affects range",
+      "Compare range potential between different EVs"
+    ],
+    "seoTips": [
+      "Real-world range is typically 15-30% less than EPA estimates",
+      "Cold weather can reduce range by 20-40%",
+      "Highway driving uses more energy than city driving in EVs",
+      "Preconditioning the cabin while plugged in preserves range"
+    ],
+    "commonMistakes": [
+      "Planning trips based on maximum range without margin",
+      "Not accounting for cold weather range reduction",
+      "Forgetting that highway speeds use significantly more energy",
+      "Assuming full battery capacity on older EVs with degraded batteries"
+    ],
+    "faqs": [
+      {
+        "question": "Why is my real-world range less than advertised?",
+        "answer": "EPA and WLTP estimates use controlled conditions. Real driving includes cold/hot weather, highway speeds, climate control use, elevation changes, and aggressive driving - all of which reduce range significantly."
+      },
+      {
+        "question": "How much does cold weather affect EV range?",
+        "answer": "Cold weather can reduce range by 20-40%. Batteries are less efficient in cold, and heating the cabin uses significant energy. Preconditioning while plugged in and using seat heaters instead of cabin heat helps."
+      },
+      {
+        "question": "Why does highway driving reduce EV range more than gas cars?",
+        "answer": "EVs are very efficient at low speeds with regenerative braking in stop-and-go traffic. At highway speeds, aerodynamic drag dominates and EVs lose their efficiency advantage. Gas cars are relatively more efficient at steady highway speeds."
+      },
+      {
+        "question": "How does battery degradation affect range?",
+        "answer": "EV batteries typically retain 80-90% capacity after 8-10 years. A 300-mile EV might have 240-270 miles range after significant degradation. Most EVs show battery health percentage to help estimate real capacity."
+      },
+      {
+        "question": "What efficiency should I use for calculations?",
+        "answer": "Typical EVs use 0.25-0.35 kWh/mile in mixed driving. Smaller, efficient EVs like Model 3 are around 0.25-0.28. Larger EVs like trucks and SUVs can be 0.35-0.45 kWh/mile."
+      }
+    ]
+  },
+  "ev-charging-calculator": {
+    "title": "EV Charging Calculator - Electric Car Cost & Time Tool",
+    "description": "Calculate EV charging time and electricity costs. Free electric vehicle charging calculator for cost estimation and planning.",
+    "howItWorks": {
+      "title": "How EV Charging Calculation Works",
+      "formula": "Charging Time = (Battery Capacity × (Target% - Current%)) / (Charger Power × Efficiency)",
+      "explanation": "This calculator determines how long it takes to charge your electric vehicle based on battery size, current charge level, target level, and charger power output. It also calculates the electricity cost based on your local rates.",
+      "steps": [
+        {
+          "name": "Enter Battery Capacity",
+          "text": "Input your EV's total battery capacity in kWh"
+        },
+        {
+          "name": "Set Charge Levels",
+          "text": "Enter current and target battery percentages"
+        },
+        {
+          "name": "Select Charger Type",
+          "text": "Choose Level 1, Level 2, or DC Fast Charging power level"
+        },
+        {
+          "name": "Enter Electricity Rate",
+          "text": "Input your cost per kWh for cost calculation"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Home Charging Planning",
+        "description": "Determine if overnight charging meets your daily driving needs"
+      },
+      {
+        "title": "Road Trip Stops",
+        "description": "Calculate charging stop duration at public DC fast chargers"
+      },
+      {
+        "title": "Cost Comparison",
+        "description": "Compare charging costs between home, work, and public charging"
+      },
+      {
+        "title": "Charger Selection",
+        "description": "Decide what level home charger to install based on your needs"
+      }
+    ],
+    "seoTips": [
+      "Level 2 home charging (240V) is the best balance of speed and cost for most owners",
+      "Charge to 80% daily - charging slows significantly above 80% to protect battery",
+      "Off-peak electricity rates can reduce charging costs by 30-50%",
+      "DC fast charging is convenient but costs 2-4x more than home charging",
+      "Factor in 10-15% efficiency loss when calculating total electricity needed"
+    ],
+    "commonMistakes": [
+      "Expecting linear charging times - speed drops significantly above 80%",
+      "Not accounting for charging efficiency losses in cost calculations",
+      "Comparing Level 2 times to DC fast charging without noting the cost difference",
+      "Overusing DC fast charging which can accelerate battery degradation"
+    ],
+    "faqs": [
+      {
+        "question": "How long does it take to charge an EV at home?",
+        "answer": "With Level 1 (120V), expect 2-5 miles of range per hour. Level 2 (240V) provides 25-30 miles per hour. A typical overnight charge (8-10 hours) on Level 2 fully charges most EVs."
+      },
+      {
+        "question": "How much does it cost to charge an EV?",
+        "answer": "At average US electricity rates ($0.12/kWh), charging a 75 kWh battery from 20% to 80% costs about $5.40. This is equivalent to paying about $1.00/gallon for gas in a 30 MPG car."
+      },
+      {
+        "question": "Why does charging slow down after 80%?",
+        "answer": "EV batteries taper charging speed above 80% to prevent overheating and degradation. The last 20% can take as long as the first 80%. This is why manufacturers recommend daily charging to 80%."
+      },
+      {
+        "question": "Is DC fast charging bad for the battery?",
+        "answer": "Occasional DC fast charging is fine, but frequent use generates heat that can accelerate battery wear. For daily driving, Level 2 home charging is better for battery longevity."
+      }
+    ]
+  },
+  "ev_charging": {
+    "title": "EV Charging Calculator",
+    "description": "Calculate electric vehicle charging time and cost based on battery capacity, charger power, and electricity rates.",
+    "battery_capacity": "Battery Capacity (kWh)",
+    "battery_capacity_tooltip": "Total battery capacity of your electric vehicle in kilowatt-hours",
+    "current_charge": "Current Charge (%)",
+    "current_charge_tooltip": "Current battery charge level as a percentage",
+    "target_charge": "Target Charge (%)",
+    "target_charge_tooltip": "Desired battery charge level as a percentage",
+    "charger_power": "Charger Power (kW)",
+    "charger_power_tooltip": "Power output of your charger in kilowatts (optional, defaults to Level 2)",
+    "electricity_rate": "Electricity Rate ($/kWh)",
+    "electricity_rate_tooltip": "Cost of electricity per kilowatt-hour (optional)",
+    "result_title": "Charging Time",
+    "energy_needed": "energy needed",
+    "total_cost": "total cost",
+    "charger_comparison": "Charger Level Comparison",
+    "level1": "Level 1",
+    "level2": "Level 2",
+    "dcfast": "DC Fast",
+    "hours": "hours",
+    "minutes": "min",
+    "days": "days",
+    "formula_title": "How It Works",
+    "formula_explanation": "Energy Needed = Battery Capacity × (Target% - Current%) / 100. Charge Time = Energy Needed / Charger Power. Cost = Energy Needed × Electricity Rate.",
+    "about_title": "About EV Charging",
+    "about_description": "Plan your electric vehicle charging sessions by estimating time and cost. Different charger levels provide varying charging speeds.",
+    "charger_types_title": "Charger Types",
+    "level1_description": "Level 1 (1.4 kW): Standard 120V outlet, slowest charging, best for overnight",
+    "level2_description": "Level 2 (7.2 kW): 240V home charger, most common for daily charging",
+    "dcfast_description": "DC Fast (50 kW): Public fast chargers, ideal for quick top-ups on the go",
+    "error_missing_inputs": "Please enter battery capacity, current charge, and target charge",
+    "error_positive_capacity": "Battery capacity must be greater than zero",
+    "error_valid_current": "Current charge must be between 0 and 100%",
+    "error_valid_target": "Target charge must be between 0 and 100%",
+    "error_target_greater": "Target charge must be greater than current charge",
+    "error_positive_power": "Charger power must be greater than zero",
+    "error_positive_rate": "Electricity rate cannot be negative",
+    "error_calculation": "An error occurred during calculation",
+    "placeholders": {
+      "battery_capacity": "75",
+      "current_charge": "20",
+      "target_charge": "80",
+      "charger_power": "7.2",
+      "electricity_rate": "0.12"
+    },
+    "howItWorks": {
+      "title": "How EV Charging Calculation Works",
+      "formula": "Charging Time = (Battery Capacity × (Target% - Current%)) / (Charger Power × 100)",
+      "explanation": "This calculator determines how long it takes to charge your electric vehicle and the electricity cost. Charging time depends on battery size, current charge level, target level, and charger power output.",
+      "steps": [
+        "Enter your EV's total battery capacity in kWh",
+        "Enter current battery charge percentage",
+        "Enter your target charge percentage",
+        "Optionally specify charger power and electricity rate",
+        "View charging time for different charger levels and total cost"
+      ]
+    },
+    "useCases": [
+      "Plan overnight charging sessions to ensure full charge by morning",
+      "Estimate charging time during road trips using public chargers",
+      "Compare charging costs between home and public charging stations",
+      "Calculate monthly electricity costs for EV ownership"
+    ],
+    "seoTips": [
+      "Charge to 80% daily to maximize battery longevity - only charge to 100% when needed",
+      "Use time-of-use electricity rates to charge during off-peak hours for savings",
+      "Level 2 home chargers offer the best balance of speed and cost",
+      "DC fast charging is convenient but can degrade battery life if overused"
+    ],
+    "commonMistakes": [
+      "Expecting linear charging times - charging slows significantly above 80%",
+      "Not accounting for charging efficiency losses (typically 10-15%)",
+      "Comparing charger costs without considering charging speed differences",
+      "Using DC fast charging daily when Level 2 would suffice"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between Level 1, Level 2, and DC Fast Charging?",
+        "answer": "Level 1 uses standard 120V outlets (3-5 miles range per hour). Level 2 uses 240V (25-30 miles per hour). DC Fast Charging bypasses the onboard charger for rapid charging (100-200+ miles in 30 minutes). Home charging is typically Level 1 or 2."
+      },
+      {
+        "question": "Why does charging slow down after 80%?",
+        "answer": "To protect battery health, EVs slow charging speed significantly above 80%. This tapering prevents overheating and reduces battery degradation. That's why manufacturers recommend daily charging to 80% and only charging to 100% for long trips."
+      },
+      {
+        "question": "How much does it cost to charge an EV at home?",
+        "answer": "At the US average of $0.12/kWh, charging a 75 kWh battery from 20% to 80% costs about $5.40. This is typically 3-4x cheaper than the equivalent gasoline. Off-peak rates can reduce costs further."
+      },
+      {
+        "question": "Is it bad to use DC fast charging frequently?",
+        "answer": "Occasional DC fast charging is fine, but frequent use can accelerate battery degradation due to heat generated during rapid charging. Most manufacturers recommend limiting DC fast charging to when necessary for trips."
+      },
+      {
+        "question": "How do I calculate EV fuel cost vs gasoline?",
+        "answer": "Compare cost per mile: EV at 3.5 miles/kWh and $0.12/kWh = $0.034/mile. Gas car at 30 MPG and $3.50/gallon = $0.117/mile. EVs typically cost 1/3 to 1/4 as much to fuel as gasoline vehicles."
+      }
+    ]
+  },
+  "hybrid-savings-calculator": {
+    "title": "Hybrid Savings Calculator - Fuel Economy Tool",
+    "description": "Calculate fuel savings from hybrid vehicles vs gas cars. Free online hybrid car savings calculator for cost comparison and ROI.",
+    "howItWorks": {
+      "title": "How Hybrid Savings Calculation Works",
+      "formula": "Annual Savings = (Annual Miles / Gas MPG - Annual Miles / Hybrid MPG) × Fuel Price",
+      "explanation": "This calculator compares fuel costs between a hybrid vehicle and a conventional gas vehicle based on their respective fuel economies and your driving habits. It calculates annual savings and payback period for the hybrid premium.",
+      "steps": [
+        {
+          "name": "Enter Annual Mileage",
+          "text": "Input how many miles you drive per year"
+        },
+        {
+          "name": "Compare Fuel Economy",
+          "text": "Enter MPG for both the hybrid and comparable gas vehicle"
+        },
+        {
+          "name": "Enter Fuel Price",
+          "text": "Input current gasoline price per gallon"
+        },
+        {
+          "name": "Add Price Premium",
+          "text": "Enter the additional cost of the hybrid over the gas version"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Purchase Decision",
+        "description": "Determine if hybrid premium is worth it based on your driving patterns"
+      },
+      {
+        "title": "Payback Calculation",
+        "description": "Calculate how long it takes to recoup the hybrid price premium in fuel savings"
+      },
+      {
+        "title": "Total Cost Comparison",
+        "description": "Compare 5-year ownership costs between hybrid and gas versions"
+      },
+      {
+        "title": "Environmental Impact",
+        "description": "Quantify reduced fuel consumption and emissions from choosing hybrid"
+      }
+    ],
+    "seoTips": [
+      "Hybrids save the most in city driving where regenerative braking is most effective",
+      "Higher annual mileage means faster payback of the hybrid premium",
+      "Consider resale value - hybrids often hold value better in high gas price markets",
+      "Plug-in hybrids offer greater savings if you can charge daily for short commutes",
+      "Maintenance costs are similar to conventional cars despite the hybrid system"
+    ],
+    "commonMistakes": [
+      "Comparing hybrid to non-comparable gas vehicle (different size or features)",
+      "Not considering that hybrids excel in city driving but advantage shrinks on highways",
+      "Forgetting that hybrid batteries may need replacement in older vehicles",
+      "Assuming current gas prices will remain constant for payback calculations"
+    ],
+    "faqs": [
+      {
+        "question": "How much can I save with a hybrid?",
+        "answer": "Savings depend on driving patterns and gas prices. A typical hybrid saves $500-1,500 per year over comparable gas vehicles. City drivers see the biggest savings; highway-only drivers may see minimal benefit."
+      },
+      {
+        "question": "How long does it take to pay off the hybrid premium?",
+        "answer": "With typical $2,000-4,000 premiums and $800-1,200 annual savings, payback takes 2-5 years. High-mileage drivers in cities with expensive gas see faster payback."
+      },
+      {
+        "question": "Do hybrids need special maintenance?",
+        "answer": "Regular maintenance is similar to conventional cars. Hybrid batteries typically last 150,000+ miles and are covered by 8-10 year warranties. Brake wear is often less due to regenerative braking."
+      },
+      {
+        "question": "Are hybrids worth it for highway driving?",
+        "answer": "Hybrids provide less benefit on highways where regenerative braking isn't used. The fuel economy advantage may only be 10-15% on highways versus 30-50% in city driving."
+      }
+    ]
+  },
+  "travel-time-calculator": {
+    "title": "Travel Time Calculator - Free Drive Duration Tool",
+    "description": "Calculate travel time and arrival based on distance and speed. Free online calculator for accurate journey duration estimates.",
+    "howItWorks": {
+      "title": "How Travel Time Calculation Works",
+      "formula": "Travel Time = Distance / Average Speed + Stop Time",
+      "explanation": "This calculator estimates total journey duration by dividing distance by your expected average speed and adding time for planned stops. It accounts for rest breaks, fuel stops, and other delays to give you realistic arrival time estimates.",
+      "steps": [
+        {
+          "name": "Enter Distance",
+          "text": "Input total trip distance in miles or kilometers"
+        },
+        {
+          "name": "Set Average Speed",
+          "text": "Enter expected average driving speed for the journey"
+        },
+        {
+          "name": "Add Stops",
+          "text": "Include planned rest stops, fuel stops, and their durations"
+        },
+        {
+          "name": "Set Departure Time",
+          "text": "Enter when you plan to leave to calculate arrival time"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Trip Planning",
+        "description": "Plan departure time to arrive at your destination on schedule"
+      },
+      {
+        "title": "Meeting Deadlines",
+        "description": "Calculate when to leave to arrive at appointments or events on time"
+      },
+      {
+        "title": "Rest Stop Planning",
+        "description": "Plan breaks during long drives while maintaining arrival schedule"
+      },
+      {
+        "title": "Multi-Stop Journeys",
+        "description": "Calculate total time for trips with multiple destinations or stops"
+      }
+    ],
+    "seoTips": [
+      "Average speed on highways is typically lower than speed limits due to traffic and stops",
+      "Add 10-15% buffer time for unexpected delays, traffic, and weather",
+      "Plan rest stops every 2-3 hours of driving for safety and alertness",
+      "Consider time zone changes for cross-country trips when calculating arrival",
+      "Rush hour traffic can significantly extend travel time in urban areas"
+    ],
+    "commonMistakes": [
+      "Using speed limit as average speed instead of realistic driving speed",
+      "Forgetting to add time for fuel stops on long journeys",
+      "Not accounting for traffic during peak hours in metropolitan areas",
+      "Underestimating time needed for rest stops and meals"
+    ],
+    "faqs": [
+      {
+        "question": "What average speed should I use for highway trips?",
+        "answer": "For interstate highways, 60-65 mph is realistic accounting for traffic, construction, and urban slowdowns. For rural two-lane roads, use 45-55 mph. City driving averages 25-35 mph."
+      },
+      {
+        "question": "How often should I take breaks on long drives?",
+        "answer": "Safety experts recommend stopping every 2 hours or 100 miles. Plan for 15-30 minute breaks. Longer trips should include a meal stop. Fatigue significantly increases accident risk."
+      },
+      {
+        "question": "How does traffic affect travel time?",
+        "answer": "Rush hour can double or triple travel time in major cities. Check traffic apps before departure and consider leaving earlier or later to avoid peak congestion periods."
+      },
+      {
+        "question": "Should I add buffer time to my estimate?",
+        "answer": "Yes, always add 10-20% buffer for unexpected delays. For important appointments, add more. Weather, accidents, and construction are unpredictable but common."
+      }
+    ]
+  },
+  "travel_time": {
+    "title": "Travel Time Calculator",
+    "description": "Calculate travel time and estimated arrival based on distance and speed.",
+    "inputs": {
+      "distance": "Distance",
+      "average_speed": "Average Speed",
+      "stops": "Number of Stops",
+      "stop_duration": "Stop Duration",
+      "departure_time": "Departure Time"
+    },
+    "tooltips": {
+      "distance": "Total travel distance",
+      "average_speed": "Expected average driving speed",
+      "stops": "Number of planned rest stops",
+      "stop_duration": "Average duration per stop",
+      "departure_time": "Time you plan to leave"
+    },
+    "placeholders": {
+      "distance": "500",
+      "average_speed": "80",
+      "stops": "2",
+      "stop_duration": "15"
+    },
+    "units": {
+      "metric": "Metric (km, km/h)",
+      "imperial": "Imperial (miles, mph)"
+    },
+    "results": {
+      "driving_time": "Driving Time",
+      "total_time": "Total Travel Time",
+      "arrival_time": "Estimated Arrival",
+      "stop_time": "Total Stop Time"
+    },
+    "day": "day",
+    "next_day": "(+{{count}} day)",
+    "formula_title": "Calculation Formula",
+    "formula": "Travel Time = Distance / Speed + (Stops × Stop Duration)",
+    "info_title": "About Travel Time Calculator",
+    "info_description": "Plan your road trip by calculating accurate travel times including rest stops.",
+    "use_cases_title": "Use Cases",
+    "use_case_1": "Plan arrival time for appointments",
+    "use_case_2": "Estimate road trip duration",
+    "use_case_3": "Account for rest stops on long journeys",
+    "errors": {
+      "invalid_inputs": "Please enter valid values",
+      "positive_values": "Values must be positive"
+    }
+  }
+}

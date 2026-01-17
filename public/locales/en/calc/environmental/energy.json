@@ -1,0 +1,441 @@
+{
+  "energy_saving": {
+    "title": "Energy Saving Calculator",
+    "description": "Calculate savings from energy efficiency improvements",
+    "section_title": "Efficiency Improvement",
+    "improvement_type": "Improvement Type",
+    "improvement_type_tooltip": "Type of energy-saving improvement",
+    "current_usage": "Current Usage (kWh/day)",
+    "current_usage_tooltip": "Current device or system usage",
+    "quantity": "Quantity/Number",
+    "quantity_tooltip": "Number of units or area (depends on type)",
+    "enter_usage": "Enter usage",
+    "enter_quantity": "Enter quantity",
+    "calculate_btn": "Calculate Savings",
+    "reset_btn": "Reset",
+    "results_title": "Annual Energy Savings",
+    "energy_saved": "Energy Saved Annually",
+    "money_saved": "Money Saved Annually",
+    "co2_reduction": "CO₂ Reduction Annually",
+    "investment_cost": "Investment Cost",
+    "payback_period": "Payback Period",
+    "years": "years",
+    "tips_title": "Additional Tips",
+    "tip_payback": "Start with improvements having shortest payback period",
+    "tip_combine": "Combine multiple improvements for best results",
+    "tip_finance": "Take advantage of green financing programs",
+    "empty_state": "Enter improvement details to calculate expected savings",
+    "footer_note": "Estimates are based on average consumption and local prices.",
+    "options": {
+      "led": "LED Bulbs",
+      "ac_upgrade": "Efficient AC",
+      "insulation": "Home Insulation",
+      "solar_heater": "Solar Water Heater",
+      "smart_thermostat": "Smart Thermostat"
+    },
+    "howItWorks": {
+      "title": "How Does the Energy Saving Calculator Work?",
+      "formula": "Annual Savings = Current Usage × Efficiency Gain × 365 × Electricity Rate",
+      "explanation": "This calculator estimates potential energy and cost savings from various home efficiency improvements by comparing current consumption with projected consumption after upgrades.",
+      "steps": [
+        "Select the type of energy improvement",
+        "Enter your current daily energy usage in kWh",
+        "Enter the quantity or number of units",
+        "Click Calculate to see annual savings",
+        "View payback period and CO₂ reduction"
+      ]
+    },
+    "useCases": [
+      "Plan home energy upgrades with best return on investment",
+      "Compare different efficiency improvements by payback period",
+      "Calculate CO₂ reduction from energy efficiency projects",
+      "Budget for home improvement projects"
+    ],
+    "seoTips": [
+      "LED bulbs use 75% less energy than incandescent bulbs",
+      "Modern AC units are 30-50% more efficient than older models",
+      "Proper insulation can reduce heating/cooling costs by 30%",
+      "Smart thermostats save 10-15% on heating and cooling",
+      "Solar water heaters can provide 50-80% of hot water needs"
+    ],
+    "commonMistakes": [
+      "Not considering the full cost including installation",
+      "Overestimating savings by not accounting for actual usage patterns",
+      "Ignoring maintenance costs for some improvements",
+      "Not prioritizing improvements with shortest payback period"
+    ],
+    "faqs": [
+      {
+        "question": "Which improvement has the best ROI?",
+        "answer": "LED bulbs typically have the fastest payback (under 1 year). Smart thermostats and insulation follow with 2-3 year payback periods."
+      },
+      {
+        "question": "How much can LED bulbs save?",
+        "answer": "LED bulbs use 75% less energy than incandescent and 25% less than CFLs. A typical home can save $100-200 per year."
+      },
+      {
+        "question": "Is a smart thermostat worth it?",
+        "answer": "Yes, smart thermostats typically save 10-15% on heating and cooling, paying for themselves in 1-2 years."
+      },
+      {
+        "question": "How long do solar water heaters take to pay back?",
+        "answer": "Solar water heaters typically pay back in 4-8 years depending on local sun hours and electricity costs."
+      },
+      {
+        "question": "Should I improve insulation or replace the AC first?",
+        "answer": "Generally, improve insulation first. Better insulation reduces the load on your AC, potentially allowing a smaller, cheaper replacement unit."
+      }
+    ]
+  },
+  "home_energy_audit": {
+    "title": "Home Energy Audit Calculator",
+    "description": "Calculate your home energy consumption and annual cost",
+    "section_title": "Monthly Consumption (kWh)",
+    "lighting": "Lighting & General Electric",
+    "lighting_tooltip": "Lighting and general electricity consumption",
+    "heating": "Heating",
+    "heating_tooltip": "Heating consumption",
+    "cooling": "Air Conditioning",
+    "cooling_tooltip": "Air conditioning consumption",
+    "water_heater": "Water Heater",
+    "water_heater_tooltip": "Water heater consumption",
+    "appliances": "Home Appliances",
+    "appliances_tooltip": "Home appliances consumption",
+    "enter_consumption": "Enter consumption",
+    "calculate_btn": "Calculate Audit",
+    "reset_btn": "Reset",
+    "results_title": "Audit Results",
+    "total_consumption": "Total Monthly Consumption",
+    "monthly_cost": "Monthly Cost",
+    "annual_cost": "Annual Cost",
+    "annual_emissions": "Annual Emissions",
+    "potential_savings": "Potential Annual Savings",
+    "tips_title": "Energy Saving Tips",
+    "tip_led": "Use LED bulbs instead of traditional bulbs",
+    "tip_ac": "Set AC to 24°C",
+    "tip_unplug": "Unplug unused devices",
+    "tip_insulation": "Home insulation reduces energy by 30%",
+    "empty_state": "Enter energy consumption to perform audit",
+    "footer_note": "Prices are approximate and based on Saudi electricity tariffs.",
+    "howItWorks": {
+      "title": "How Does the Home Energy Audit Calculator Work?",
+      "formula": "Total Cost = Σ (Category kWh × Monthly × 12 × Electricity rate)",
+      "explanation": "This calculator analyzes your home energy consumption by category, calculating monthly costs, annual expenses, CO₂ emissions, and identifying potential savings opportunities.",
+      "steps": [
+        "Enter monthly lighting and general electricity usage in kWh",
+        "Enter heating consumption",
+        "Enter air conditioning consumption",
+        "Enter water heater consumption",
+        "Enter home appliances consumption",
+        "Click Calculate to see detailed audit results"
+      ]
+    },
+    "useCases": [
+      "Identify which categories consume the most energy in your home",
+      "Calculate annual energy costs for budgeting",
+      "Find potential areas for energy savings",
+      "Track energy consumption over time"
+    ],
+    "seoTips": [
+      "Heating and cooling typically account for 50% of home energy use",
+      "Water heating is often the second-largest energy expense at 15-20%",
+      "Standby power (phantom load) wastes 5-10% of home electricity",
+      "Energy-efficient appliances can reduce consumption by 25-50%",
+      "LED lighting uses 75% less energy than incandescent bulbs"
+    ],
+    "commonMistakes": [
+      "Forgetting to include standby power consumption",
+      "Not accounting for seasonal variations in heating/cooling",
+      "Underestimating water heater consumption",
+      "Ignoring inefficient appliances that should be replaced"
+    ],
+    "faqs": [
+      {
+        "question": "What is the biggest energy user in most homes?",
+        "answer": "Heating and cooling typically account for 40-50% of home energy use, followed by water heating at 15-20%."
+      },
+      {
+        "question": "How can I reduce my energy consumption quickly?",
+        "answer": "Quick wins include: adjusting thermostat by 2°C, using LED bulbs, unplugging unused devices, and running appliances during off-peak hours."
+      },
+      {
+        "question": "How much energy does air conditioning use?",
+        "answer": "Air conditioning can use 3-5 kWh per hour of operation. Setting to 24°C instead of 20°C can save 20-30% of cooling costs."
+      },
+      {
+        "question": "Should I turn off appliances or leave them on standby?",
+        "answer": "Turn them off. Standby power can account for 5-10% of your electricity bill - about 50-100 kWh per month for a typical home."
+      },
+      {
+        "question": "How often should I do an energy audit?",
+        "answer": "Do a basic audit seasonally and a comprehensive audit annually. Track consumption monthly to identify unusual increases."
+      }
+    ]
+  },
+  "solar_roi": {
+    "title": "Solar Panel ROI Calculator",
+    "description": "Calculate solar panel investment return and payback period",
+    "section_title": "Solar System Information",
+    "system_size": "System Size (kW)",
+    "system_size_tooltip": "Total capacity of solar panels",
+    "install_cost": "Installation Cost (SAR)",
+    "install_cost_tooltip": "Total system and installation cost",
+    "monthly_bill": "Monthly Electric Bill (SAR)",
+    "monthly_bill_tooltip": "Average monthly electricity bill",
+    "sun_hours": "Daily Sun Hours",
+    "sun_hours_tooltip": "Average daily useful sun hours",
+    "enter_size": "Enter size",
+    "enter_cost": "Enter cost",
+    "enter_bill": "Enter bill",
+    "enter_hours": "Enter hours",
+    "calculate_btn": "Calculate ROI",
+    "reset_btn": "Reset",
+    "results_title": "ROI Analysis",
+    "payback_period": "Payback Period",
+    "annual_production": "Annual Production",
+    "annual_savings": "Annual Savings",
+    "roi_25": "ROI (25 years)",
+    "annual_offset": "Annual CO₂ Offset",
+    "trees_equivalent": "Equivalent to Planting",
+    "trees": "trees",
+    "years": "years",
+    "benefits_title": "Solar Energy Benefits",
+    "benefit_lifespan": "Solar panels last 25-30 years",
+    "benefit_independence": "Reduce dependency on electricity grid",
+    "benefit_value": "Increase property value by 3-4%",
+    "benefit_maintenance": "Very low maintenance required",
+    "empty_state": "Enter solar system details to calculate ROI",
+    "footer_note": "Calculations are estimates based on installation conditions and local sun hours.",
+    "howItWorks": {
+      "title": "How Does the Solar Panel ROI Calculator Work?",
+      "formula": "Annual Production = System size (kW) × Sun hours × 365 × 0.8 (efficiency factor)",
+      "explanation": "This calculator estimates your return on investment for solar panels by calculating annual energy production, savings, and the time needed to recover your investment.",
+      "steps": [
+        "Enter your solar system size in kilowatts",
+        "Enter the total installation cost",
+        "Enter your average monthly electricity bill",
+        "Enter average daily peak sun hours in your area",
+        "Click Calculate to see payback period and ROI"
+      ]
+    },
+    "useCases": [
+      "Evaluate financial viability of residential solar installation",
+      "Compare different system sizes and their payback periods",
+      "Calculate long-term savings over the 25-year panel lifespan",
+      "Plan financing based on expected savings"
+    ],
+    "seoTips": [
+      "Solar panels typically last 25-30 years with minimal degradation",
+      "Most systems pay for themselves in 5-10 years",
+      "Solar increases property value by 3-4% on average",
+      "Peak sun hours range from 3-6 hours depending on location",
+      "Panel efficiency degrades about 0.5% per year"
+    ],
+    "commonMistakes": [
+      "Not accounting for panel degradation over time (0.5% per year)",
+      "Forgetting to include inverter replacement cost (every 10-15 years)",
+      "Overestimating sun hours without considering local conditions",
+      "Not considering roof orientation and shading"
+    ],
+    "faqs": [
+      {
+        "question": "How long do solar panels last?",
+        "answer": "Quality solar panels last 25-30 years. Most maintain 80% efficiency after 25 years. Warranties typically guarantee 25 years."
+      },
+      {
+        "question": "What is a good payback period?",
+        "answer": "A payback period of 6-10 years is typical and considered good. After payback, you enjoy essentially free electricity."
+      },
+      {
+        "question": "How much roof space do I need?",
+        "answer": "Roughly 5-7 square meters per kW of solar capacity. A 5kW system needs about 25-35 square meters of roof space."
+      },
+      {
+        "question": "Do solar panels work on cloudy days?",
+        "answer": "Yes, but at reduced efficiency (10-25% of full capacity). Annual production estimates account for average weather conditions."
+      },
+      {
+        "question": "Should I get battery storage?",
+        "answer": "Batteries add cost but provide energy independence and backup power. They're most valuable with time-of-use electricity rates."
+      }
+    ]
+  },
+  "waste": {
+    "title": "Waste Calculator",
+    "description": "Calculate your waste generation and environmental impact",
+    "section_title": "Daily Waste (kg)",
+    "food_waste": "Food Waste",
+    "food_waste_tooltip": "Daily food waste amount",
+    "plastic_waste": "Plastic Waste",
+    "plastic_waste_tooltip": "Daily plastic waste amount",
+    "paper_waste": "Paper Waste",
+    "paper_waste_tooltip": "Daily paper waste amount",
+    "other_waste": "Other Waste",
+    "other_waste_tooltip": "Daily other waste amount",
+    "household_size": "Household Size",
+    "household_size_tooltip": "Number of people in household",
+    "enter_amount": "Enter amount",
+    "enter_number": "Enter number",
+    "calculate_btn": "Calculate Waste",
+    "reset_btn": "Reset",
+    "results_title": "Results",
+    "total_annual": "Total Annual Waste",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "per_person": "Per Person Daily",
+    "landfill_emissions": "Landfill Emissions",
+    "methane_emissions": "Methane Emissions",
+    "tips_title": "Waste Reduction Tips",
+    "tip_meal": "Plan meals to reduce food waste",
+    "tip_recycle": "Recycle plastic and paper",
+    "tip_reusable": "Use reusable bags and containers",
+    "tip_compost": "Compost organic waste",
+    "empty_state": "Enter waste amounts to calculate total production",
+    "footer_note": "Average person produces 1.5-2 kg of waste daily.",
+    "howItWorks": {
+      "title": "How Does the Waste Calculator Work?",
+      "formula": "Annual Waste = Daily waste × 365 | Landfill Emissions = Organic waste × Methane factor",
+      "explanation": "This calculator estimates your household waste production and its environmental impact, including landfill emissions from organic waste decomposition.",
+      "steps": [
+        "Enter daily food waste in kilograms",
+        "Enter daily plastic waste",
+        "Enter daily paper waste",
+        "Enter daily other waste",
+        "Enter household size for per-capita calculations",
+        "Click Calculate to see total waste and emissions"
+      ]
+    },
+    "useCases": [
+      "Track household waste generation over time",
+      "Identify which waste categories can be reduced",
+      "Calculate environmental impact of waste for sustainability goals",
+      "Compare waste per capita against averages"
+    ],
+    "seoTips": [
+      "Average person produces 1.5-2 kg of waste daily",
+      "Food waste in landfills produces methane, 25x worse than CO₂",
+      "40% of household waste can be composted or recycled",
+      "Plastic takes 400-1000 years to decompose in landfills",
+      "Zero-waste lifestyle can reduce waste by 90%"
+    ],
+    "commonMistakes": [
+      "Not tracking all waste categories including hidden packaging",
+      "Underestimating food waste which is often the largest category",
+      "Forgetting to count waste produced outside the home",
+      "Confusing recycled waste with total waste"
+    ],
+    "faqs": [
+      {
+        "question": "How much waste does the average person produce?",
+        "answer": "The global average is about 1.2 kg per day, but this ranges from 0.5 kg in low-income countries to over 2 kg in high-income countries."
+      },
+      {
+        "question": "What percentage of waste is food?",
+        "answer": "Food waste typically makes up 30-40% of household waste. Much of this could be composted instead of landfilled."
+      },
+      {
+        "question": "Why does organic waste produce methane?",
+        "answer": "Organic matter decomposing without oxygen (as in landfills) produces methane. Composting with oxygen produces CO₂, which is 25x less harmful."
+      },
+      {
+        "question": "How can I reduce my waste?",
+        "answer": "Follow the 5 Rs: Refuse what you don't need, Reduce what you do need, Reuse what you can, Recycle what you can't reuse, Rot (compost) the rest."
+      },
+      {
+        "question": "What is the biggest contributor to household waste?",
+        "answer": "Food and food packaging typically account for 40-50% of household waste by weight."
+      }
+    ]
+  },
+  "solar-panel-roi-calculator": {
+    "title": "Solar Panel ROI Calculator",
+    "description": "Calculate your solar panel investment return and payback period.",
+    "input_title": "Solar Panel ROI Calculator",
+    "system_size": "System Size (kW)",
+    "system_size_tooltip": "Total capacity of your solar panel system",
+    "enter_size": "Enter size",
+    "install_cost": "Installation Cost",
+    "install_cost_tooltip": "Total cost including panels and installation",
+    "enter_cost": "Enter cost",
+    "currency": "SAR",
+    "monthly_bill": "Monthly Electricity Bill",
+    "monthly_bill_tooltip": "Your average monthly electricity bill",
+    "enter_bill": "Enter bill amount",
+    "sun_hours": "Average Sun Hours/Day",
+    "sun_hours_tooltip": "Average daily peak sun hours in your area",
+    "enter_hours": "Enter hours",
+    "calculate_btn": "Calculate ROI",
+    "reset_btn": "Reset",
+    "results_title": "Investment Analysis",
+    "annual_production": "Annual Energy Production",
+    "annual_savings": "Annual Savings",
+    "payback_period": "Payback Period",
+    "roi_25_years": "ROI Over 25 Years",
+    "co2_offset": "Annual CO₂ Offset",
+    "trees_equivalent": "Trees Equivalent",
+    "kwh_year": "kWh/year",
+    "years": "years",
+    "kg_year": "kg/year",
+    "trees": "trees",
+    "info_title": "About Solar ROI",
+    "info_description": "Solar panels typically last 25+ years and can significantly reduce electricity costs.",
+    "benefit_1": "Reduce electricity bills",
+    "benefit_2": "Increase property value",
+    "benefit_3": "Environmental benefits",
+    "empty_state": "Enter your solar system details to calculate ROI",
+    "hours": "hours",
+    "kg": "kg",
+    "benefits_title": "Solar Energy Benefits",
+    "benefit_4": "Very low maintenance",
+    "footer_note": "Calculations are estimates based on installation conditions and local sun hours.",
+    "howItWorks": {
+      "title": "How Does the Solar Panel ROI Calculator Work?",
+      "formula": "ROI = ((Annual savings × 25 years) - Installation cost) / Installation cost × 100%",
+      "explanation": "This calculator projects your solar investment return by estimating annual energy production based on system size and local sun hours, then calculating savings over the typical 25-year panel lifespan.",
+      "steps": [
+        "Enter your proposed solar system size in kilowatts",
+        "Enter the total installation cost including panels and labor",
+        "Enter your current average monthly electricity bill",
+        "Enter average peak sun hours in your area",
+        "Click Calculate to see payback period and ROI"
+      ]
+    },
+    "useCases": [
+      "Evaluate solar panel investment before purchase",
+      "Compare quotes from different solar installers",
+      "Understand long-term financial benefits of solar",
+      "Plan financing based on payback timeline"
+    ],
+    "seoTips": [
+      "Average payback period for solar is 6-10 years",
+      "Solar panels maintain 80%+ efficiency after 25 years",
+      "ROI over 25 years typically exceeds 200-400%",
+      "Solar can increase home value by 3-4%",
+      "Peak sun hours vary from 3-6 hours by location"
+    ],
+    "commonMistakes": [
+      "Not factoring in panel degradation of 0.5% per year",
+      "Forgetting inverter replacement costs every 10-15 years",
+      "Overestimating sun hours without considering local weather",
+      "Ignoring roof orientation impact on production"
+    ],
+    "faqs": [
+      {
+        "question": "What affects solar ROI the most?",
+        "answer": "Installation cost, local electricity rates, sun hours, and roof orientation have the biggest impact on ROI."
+      },
+      {
+        "question": "How accurate is the payback estimate?",
+        "answer": "Estimates are within 10-15% for most installations. Actual results depend on weather patterns and electricity rate changes."
+      },
+      {
+        "question": "Should I wait for better technology?",
+        "answer": "Solar technology improves slowly (1-2% per year), while electricity costs rise. Waiting usually costs more than it saves."
+      },
+      {
+        "question": "What is the typical system size for a home?",
+        "answer": "Most homes need 5-10 kW systems. A 5kW system powers an average home and requires about 30-35 m² of roof space."
+      }
+    ]
+  }
+}

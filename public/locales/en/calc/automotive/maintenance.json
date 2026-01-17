@@ -1,0 +1,433 @@
+{
+  "car-maintenance-calculator": {
+    "title": "Car Maintenance Cost Calculator - Annual Service Tool",
+    "description": "Calculate annual car maintenance costs and service expenses. Free online tool to estimate vehicle upkeep budget and repair costs.",
+    "howItWorks": {
+      "title": "How Maintenance Cost Calculation Works",
+      "formula": "Annual Cost = Sum of (Annual Mileage / Service Interval × Cost per Service) for each maintenance item",
+      "explanation": "This calculator estimates yearly maintenance expenses by determining how often each service is needed based on your driving, then totaling the costs. It includes routine items like oil changes, tires, brakes, filters, and fluid services.",
+      "steps": [
+        {
+          "name": "Enter Annual Mileage",
+          "text": "Input how many miles you drive per year"
+        },
+        {
+          "name": "Set Service Intervals",
+          "text": "Enter mileage intervals for each maintenance item"
+        },
+        {
+          "name": "Enter Service Costs",
+          "text": "Input typical costs for each service in your area"
+        },
+        {
+          "name": "View Annual Budget",
+          "text": "See total annual maintenance cost and per-service breakdown"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Budget Planning",
+        "description": "Plan annual vehicle maintenance expenses for household budget"
+      },
+      {
+        "title": "Ownership Cost Comparison",
+        "description": "Compare maintenance costs between different vehicles"
+      },
+      {
+        "title": "DIY vs Professional",
+        "description": "Evaluate savings potential from doing maintenance yourself"
+      },
+      {
+        "title": "Vehicle Purchase Decision",
+        "description": "Factor maintenance costs into total ownership cost when buying"
+      }
+    ],
+    "seoTips": [
+      "Budget $0.05-0.10 per mile for regular cars, more for luxury vehicles",
+      "Luxury and European cars typically cost 2-3x more to maintain",
+      "Following manufacturer schedules is usually more cost-effective than over-servicing",
+      "DIY oil changes and filter replacements can save hundreds annually",
+      "Unexpected repairs should be budgeted separately from routine maintenance"
+    ],
+    "commonMistakes": [
+      "Underestimating tire costs - they are a significant expense",
+      "Ignoring manufacturer intervals in favor of aggressive shop recommendations",
+      "Not budgeting for unexpected repairs beyond routine maintenance",
+      "Using average costs without researching your specific vehicle"
+    ],
+    "faqs": [
+      {
+        "question": "How much should I budget for maintenance?",
+        "answer": "Budget $0.05-0.10 per mile for Japanese/Korean cars, $0.10-0.20 for European/luxury. At 12,000 miles yearly, that's $600-2,400 annually. Older vehicles typically need more."
+      },
+      {
+        "question": "Which cars are cheapest to maintain?",
+        "answer": "Toyota, Honda, and Korean brands (Hyundai, Kia) are typically cheapest. European brands (BMW, Mercedes, Audi) are most expensive. American brands fall in between. Research specific model reliability ratings."
+      },
+      {
+        "question": "Can I reduce maintenance costs?",
+        "answer": "Learn basic DIY tasks (oil, filters, wipers). Follow manufacturer schedules, not shop recommendations. Buy parts online. Get multiple quotes. Keep up with maintenance to prevent expensive repairs."
+      },
+      {
+        "question": "What is the most important maintenance?",
+        "answer": "Oil changes are critical and inexpensive. Tire maintenance affects safety and fuel economy. Brake inspections prevent expensive rotor damage. Fluid changes prevent transmission/cooling failures."
+      }
+    ]
+  },
+  "car_maintenance": {
+    "title": "Car Maintenance Calculator",
+    "description": "Calculate annual maintenance costs based on mileage and service intervals.",
+    "annual_mileage": "Annual Mileage",
+    "annual_mileage_tooltip": "How many miles you drive per year",
+    "oil_service": "Oil Change Service",
+    "oil_interval": "Oil Change Interval (miles)",
+    "oil_interval_tooltip": "Miles between oil changes",
+    "oil_cost": "Cost per Oil Change",
+    "oil_cost_tooltip": "Cost including oil and filter",
+    "tire_service": "Tire Service",
+    "tire_interval": "Tire Replacement (miles)",
+    "tire_interval_tooltip": "Miles before tires need replacement",
+    "tire_cost": "Cost for 4 Tires",
+    "tire_cost_tooltip": "Cost for a full set of tires",
+    "brake_service": "Brake Service",
+    "brake_interval": "Brake Pad Interval (miles)",
+    "brake_interval_tooltip": "Miles before brake pads need replacement",
+    "brake_cost": "Brake Service Cost",
+    "brake_cost_tooltip": "Cost for brake pad replacement",
+    "filter_service": "Filter Service",
+    "filter_interval": "Filter Interval (miles)",
+    "filter_interval_tooltip": "Miles between air and cabin filter changes",
+    "filter_cost": "Filter Replacement Cost",
+    "filter_cost_tooltip": "Cost for air and cabin filters",
+    "fluid_service": "Fluid Service",
+    "fluid_interval": "Fluid Flush Interval (miles)",
+    "fluid_interval_tooltip": "Miles between transmission and coolant flushes",
+    "fluid_cost": "Fluid Service Cost",
+    "fluid_cost_tooltip": "Cost for fluid flush services",
+    "annual_cost_label": "Total Annual Maintenance",
+    "month": "month",
+    "cost_breakdown": "Cost Breakdown",
+    "oil_changes": "Oil Changes",
+    "tires": "Tires",
+    "brakes": "Brakes",
+    "filters": "Filters",
+    "fluids": "Fluids",
+    "per_year": "per year",
+    "cost_per_mile": "Cost per Mile",
+    "formula_title": "How it's Calculated",
+    "formula_explanation": "Annual Cost = Sum of (Annual Mileage / Service Interval × Cost per Service)",
+    "about_title": "About Car Maintenance",
+    "about_description": "Regular maintenance keeps your vehicle running efficiently and prevents costly repairs.",
+    "tips_title": "Maintenance Tips",
+    "tip_1": "Follow manufacturer-recommended service intervals",
+    "tip_2": "Keep records of all maintenance performed",
+    "tip_3": "Address issues early before they become major repairs",
+    "error_missing_mileage": "Please enter annual mileage",
+    "error_positive_mileage": "Annual mileage must be greater than zero",
+    "error_positive_intervals": "All service intervals must be greater than zero",
+    "error_calculation": "An error occurred during calculation",
+    "placeholders": {
+      "annual_mileage": "12000"
+    },
+    "howItWorks": {
+      "title": "How Maintenance Cost Calculation Works",
+      "formula": "Annual Cost = Sum of (Annual Mileage / Service Interval × Service Cost)",
+      "explanation": "This calculator estimates annual maintenance by calculating how often each service is needed based on your driving, then multiplying by service costs. It includes oil changes, tires, brakes, filters, and fluid services.",
+      "steps": [
+        "Enter your annual mileage",
+        "Review and adjust service intervals for your vehicle",
+        "Enter costs for each maintenance item",
+        "View total annual maintenance cost and per-service breakdown"
+      ]
+    },
+    "useCases": [
+      "Budget annual vehicle maintenance expenses",
+      "Compare ownership costs between different vehicles",
+      "Plan maintenance reserves and timing",
+      "Evaluate whether DIY maintenance is worth it"
+    ],
+    "seoTips": [
+      "Luxury and European cars typically cost 2-3x more to maintain",
+      "Following manufacturer schedules is usually more cost-effective than shops that recommend frequent services",
+      "DIY oil changes and filter replacements can save significantly",
+      "Building a maintenance fund prevents financial surprises"
+    ],
+    "commonMistakes": [
+      "Underestimating tire costs - they're a significant annual expense",
+      "Ignoring fluid changes (transmission, coolant) that prevent major repairs",
+      "Using average costs without researching your specific vehicle",
+      "Not budgeting for unexpected repairs beyond routine maintenance"
+    ],
+    "faqs": [
+      {
+        "question": "How much should I budget for maintenance?",
+        "answer": "A general rule is $0.05-0.10 per mile for regular cars, $0.10-0.20 for luxury vehicles. At 12,000 miles/year, budget $600-1,200 for regular cars, more for luxury. Older cars typically need more."
+      },
+      {
+        "question": "What maintenance is most important?",
+        "answer": "Oil changes are critical and inexpensive insurance. Brake maintenance is essential for safety. Tire maintenance (pressure, rotation, replacement) affects safety and fuel economy. Fluid changes prevent expensive transmission/cooling system failures."
+      },
+      {
+        "question": "Should I go to the dealer for maintenance?",
+        "answer": "Dealer service isn't required to maintain warranty (legally protected). Independent mechanics often charge 20-50% less for the same work. However, some complex issues or recalls are best handled at dealers."
+      },
+      {
+        "question": "How can I reduce maintenance costs?",
+        "answer": "Learn basic DIY tasks (oil, filters, wipers). Follow manufacturer intervals, not shop recommendations. Buy parts online. Get multiple quotes for major work. Keep up with maintenance to prevent expensive repairs."
+      },
+      {
+        "question": "What about unexpected repairs?",
+        "answer": "Beyond routine maintenance, budget for unexpected repairs - more for older vehicles. Having $1,000-2,000 in a car repair fund prevents financial stress when something breaks unexpectedly."
+      }
+    ]
+  },
+  "oil-change-calculator": {
+    "title": "Oil Change Calculator - Engine Maintenance Reminder",
+    "description": "Calculate when to change engine oil based on mileage and time. Free oil change interval calculator for optimal vehicle maintenance.",
+    "howItWorks": {
+      "title": "How Oil Change Calculation Works",
+      "formula": "Next Change = Current Mileage + Change Interval | Annual Changes = Annual Mileage / Interval",
+      "explanation": "This calculator helps track oil change schedules based on mileage and manufacturer recommendations. It estimates when your next change is due, calculates annual maintenance costs, and suggests oil capacity based on engine size.",
+      "steps": [
+        {
+          "name": "Enter Current Mileage",
+          "text": "Input your vehicle's current odometer reading"
+        },
+        {
+          "name": "Set Change Interval",
+          "text": "Enter recommended miles between oil changes"
+        },
+        {
+          "name": "Add Engine Details",
+          "text": "Input engine size for oil capacity estimation"
+        },
+        {
+          "name": "View Schedule",
+          "text": "See next change mileage and annual cost projection"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Maintenance Scheduling",
+        "description": "Track when your next oil change is due"
+      },
+      {
+        "title": "Cost Planning",
+        "description": "Budget annual oil change expenses"
+      },
+      {
+        "title": "Interval Comparison",
+        "description": "Compare costs between conventional and synthetic oil schedules"
+      },
+      {
+        "title": "Fleet Management",
+        "description": "Track oil changes for multiple vehicles"
+      }
+    ],
+    "seoTips": [
+      "Modern cars with synthetic oil can go 7,500-10,000 miles between changes",
+      "The old 3,000-mile rule is outdated for most modern vehicles",
+      "Synthetic oil costs more but extends intervals, often saving money overall",
+      "Severe driving conditions (short trips, extreme temps) require more frequent changes",
+      "Time matters too - change oil at least annually even with low mileage"
+    ],
+    "commonMistakes": [
+      "Following outdated 3,000-mile intervals when cars allow longer",
+      "Ignoring time-based changes for low-mileage vehicles",
+      "Not checking oil level between changes",
+      "Using incorrect oil weight or type for the engine"
+    ],
+    "faqs": [
+      {
+        "question": "How often should I really change my oil?",
+        "answer": "Check your owner's manual. Most modern vehicles with synthetic oil go 7,500-10,000 miles. Severe conditions (short trips, extreme temps, towing) may require 5,000 miles. Conventional oil typically needs 5,000-7,500 mile intervals."
+      },
+      {
+        "question": "Is synthetic oil worth the extra cost?",
+        "answer": "Usually yes. Synthetic costs 2-3x more per change but lasts 2-3x longer, so cost evens out. Synthetic provides better protection in extreme temperatures and can improve fuel economy slightly."
+      },
+      {
+        "question": "What happens if I go too long between changes?",
+        "answer": "Oil breaks down and loses protective properties. Going too long causes increased wear, sludge buildup, and potentially engine damage. However, modern cars can usually tolerate moderate over-runs without immediate harm."
+      },
+      {
+        "question": "Should I change oil by time or mileage?",
+        "answer": "Whichever comes first. Even with low mileage, oil degrades from moisture, oxidation, and contamination. Change at least annually even if you drive very few miles."
+      }
+    ]
+  },
+  "oil_change": {
+    "title": "Oil Change Calculator",
+    "description": "Calculate when your next oil change is due.",
+    "current_mileage": "Current Mileage",
+    "current_mileage_tooltip": "Your vehicle's current odometer reading",
+    "change_interval": "Change Interval",
+    "change_interval_tooltip": "Recommended miles between oil changes",
+    "engine_size": "Engine Size (L)",
+    "engine_size_tooltip": "Engine displacement in liters",
+    "oil_price": "Oil Price ($)",
+    "oil_price_tooltip": "Cost of oil per quart/liter",
+    "annual_mileage": "Annual Mileage",
+    "annual_mileage_tooltip": "Estimated miles driven per year",
+    "next_change": "Next Oil Change",
+    "maintenance_plan": "Maintenance Plan",
+    "oil_capacity": "Oil Capacity",
+    "cost_per_change": "Est. Cost per Change",
+    "changes_per_year": "Changes per Year",
+    "annual_cost_label": "Annual Cost",
+    "recommendation_title": "Recommendation",
+    "recommendation_text": "Regular oil changes are crucial for engine longevity. Follow your manufacturer's guidelines.",
+    "about_title": "About Oil Changes",
+    "about_description": "Tracking your oil changes helps prevent engine wear and maintains vehicle performance.",
+    "error_missing_inputs": "Please enter all fields",
+    "error_positive_values": "Values must be positive",
+    "error_calculation": "Calculation error",
+    "placeholders": {
+      "current_mileage": "50000",
+      "change_interval": "5000",
+      "engine_size": "2.0",
+      "oil_price": "25",
+      "annual_mileage": "12000"
+    },
+    "howItWorks": {
+      "title": "How Oil Change Calculation Works",
+      "formula": "Next Change = Current Mileage + Change Interval | Annual Changes = Annual Mileage / Interval",
+      "explanation": "This calculator helps you track oil change schedules based on your mileage and manufacturer recommendations. It estimates when your next change is due, annual maintenance costs, and oil capacity based on engine size.",
+      "steps": [
+        "Enter your current odometer reading",
+        "Enter your oil change interval (typically 3,000-10,000 miles)",
+        "Enter your engine size for oil capacity estimation",
+        "Add oil price and annual mileage for cost projections"
+      ]
+    },
+    "useCases": [
+      "Schedule oil changes before they become overdue",
+      "Budget annual maintenance costs for vehicle ownership",
+      "Compare costs between conventional and synthetic oil intervals",
+      "Track maintenance for multiple vehicles"
+    ],
+    "seoTips": [
+      "Follow manufacturer recommendations rather than outdated 3,000-mile rules",
+      "Consider driving conditions - severe conditions require more frequent changes",
+      "Synthetic oil typically allows longer intervals (7,500-10,000 miles)",
+      "Keep receipts and records for resale value and warranty compliance"
+    ],
+    "commonMistakes": [
+      "Using old 3,000-mile intervals when modern cars and oils allow longer",
+      "Ignoring time-based changes - oil degrades even with low mileage",
+      "Not checking oil level between changes",
+      "Using incorrect oil weight or type for the engine"
+    ],
+    "faqs": [
+      {
+        "question": "How often should I really change my oil?",
+        "answer": "Modern vehicles with synthetic oil can typically go 7,500-10,000 miles between changes. Check your owner's manual for the manufacturer recommendation. Severe driving conditions (short trips, extreme temperatures, towing) may require more frequent changes."
+      },
+      {
+        "question": "Is synthetic oil worth the extra cost?",
+        "answer": "Yes, for most drivers. Synthetic oil lasts longer (often 2-3x conventional intervals), provides better protection in extreme temperatures, and can improve fuel economy slightly. The extended intervals often make it cheaper overall despite higher per-quart cost."
+      },
+      {
+        "question": "What happens if I go too long between oil changes?",
+        "answer": "Oil breaks down over time, losing its protective properties. Going too long can cause increased engine wear, sludge buildup, reduced fuel economy, and potentially catastrophic engine damage. However, modern cars can usually tolerate going somewhat over the interval without immediate damage."
+      },
+      {
+        "question": "Should I change oil based on time or mileage?",
+        "answer": "Whichever comes first. Even if you drive very few miles, oil should typically be changed at least once a year because it degrades over time from moisture absorption, oxidation, and contaminant accumulation."
+      },
+      {
+        "question": "How much oil does my car need?",
+        "answer": "Most passenger cars need 4-6 quarts, with larger engines requiring more. Check your owner's manual or dipstick for exact capacity. Don't overfill - too much oil can damage seals and cause foaming."
+      }
+    ]
+  },
+  "battery_life": {
+    "title": "Car Battery Life Calculator",
+    "description": "Estimate the remaining life of your car battery.",
+    "install_date": "Installation Date",
+    "install_date_tooltip": "When was the battery installed?",
+    "engine_size": "Engine Size (L)",
+    "engine_size_tooltip": "Engine displacement in liters (e.g., 2.0)",
+    "current_cca": "Current CCA (Optional)",
+    "current_cca_tooltip": "Cold Cranking Amps measured by a tester",
+    "climate": "Climate",
+    "climate_tooltip": "Average climate conditions",
+    "climate_cold": "Cold",
+    "climate_moderate": "Moderate",
+    "climate_hot": "Hot",
+    "about_title": "About Battery Life",
+    "about_description": "Car batteries typically last 3-5 years depending on usage and climate.",
+    "battery_age_label": "Battery Age",
+    "years": "years",
+    "condition_good": "Good Condition",
+    "condition_fair": "Fair Condition",
+    "condition_aging": "Aging",
+    "condition_old": "Old / Replace",
+    "recommendation_monitor": "Monitor regularly.",
+    "recommendation_test_annually": "Test annually.",
+    "recommendation_replace_soon": "Consider replacing soon.",
+    "recommendation_replace_now": "Replace now to avoid failure.",
+    "recommendation_replace_insufficient_cca": "Replace - Insufficient CCA",
+    "battery_details": "Battery Details",
+    "recommended_cca_label": "Recommended CCA",
+    "life_remaining_label": "Est. Life Remaining",
+    "recommendation_title": "Recommendation",
+    "error_missing_date": "Please enter installation date",
+    "error_invalid_engine_size": "Invalid engine size",
+    "error_calculation": "Calculation error",
+    "placeholders": {
+      "engine_size": "2.5",
+      "current_cca": "600"
+    },
+    "howItWorks": {
+      "title": "How Battery Life Estimation Works",
+      "formula": "Estimated Life = Base Life (3-5 years) × Climate Factor × Usage Factor",
+      "explanation": "This calculator estimates battery condition based on installation date, engine size requirements, climate conditions, and optionally measured CCA (Cold Cranking Amps). Batteries degrade over time and faster in extreme temperatures.",
+      "steps": [
+        "Enter the battery installation date",
+        "Enter your engine size for CCA recommendations",
+        "Optionally enter current CCA if you have tested the battery",
+        "Select your typical climate conditions",
+        "View estimated remaining life and recommendations"
+      ]
+    },
+    "useCases": [
+      "Plan battery replacement before unexpected failure leaves you stranded",
+      "Verify if a used car battery needs immediate replacement",
+      "Understand if your battery has sufficient CCA for your engine size",
+      "Schedule preventive maintenance for your vehicle"
+    ],
+    "seoTips": [
+      "Test battery CCA at least annually for accurate life estimation",
+      "Replace batteries proactively before the typical 3-5 year lifespan ends",
+      "Consider climate when estimating battery life - heat kills batteries faster than cold",
+      "Keep records of battery installation dates for all vehicles"
+    ],
+    "commonMistakes": [
+      "Waiting until the battery fails to consider replacement",
+      "Not accounting for extreme hot weather which degrades batteries faster than cold",
+      "Installing a battery with insufficient CCA for the engine size",
+      "Ignoring warning signs like slow cranking or dimming lights"
+    ],
+    "faqs": [
+      {
+        "question": "How long do car batteries typically last?",
+        "answer": "Most car batteries last 3-5 years. In hot climates, batteries may only last 2-3 years due to heat accelerating chemical degradation. In moderate climates, batteries can last 4-6 years with proper care."
+      },
+      {
+        "question": "What is CCA and why does it matter?",
+        "answer": "CCA (Cold Cranking Amps) measures the battery's ability to start an engine in cold conditions. Larger engines and colder climates require higher CCA. Generally, you need about 1 CCA per cubic inch of engine displacement."
+      },
+      {
+        "question": "What kills car batteries the fastest?",
+        "answer": "Extreme heat is the biggest battery killer, causing fluid evaporation and internal corrosion. Short trips that don't fully recharge the battery, leaving lights on, and vibration from poor mounting also significantly reduce battery life."
+      },
+      {
+        "question": "How can I extend my battery's life?",
+        "answer": "Keep the battery clean and terminals corrosion-free, ensure it's properly secured, avoid deep discharges, drive longer trips to fully recharge, and park in shade during hot weather when possible."
+      }
+    ]
+  }
+}

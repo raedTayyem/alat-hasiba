@@ -1,0 +1,762 @@
+{
+  "bonus": {
+    "title": "Bonus Calculator",
+    "description": "Calculate employee bonuses based on base salary, bonus percentage, and performance factor.",
+    "inputs": {
+      "base_salary": "Base Salary",
+      "base_salary_tooltip": "Annual base salary before bonus",
+      "base_salary_placeholder": "e.g. 60000",
+      "bonus_percentage": "Target Bonus (%)",
+      "bonus_percentage_tooltip": "Target bonus as percentage of base salary",
+      "bonus_percentage_placeholder": "e.g. 15",
+      "performance_factor": "Performance Factor",
+      "performance_factor_tooltip": "Multiplier based on performance (1.0 = meets expectations)",
+      "performance_factor_placeholder": "e.g. 1.0"
+    },
+    "errors": {
+      "percentage_too_high": "Bonus percentage cannot exceed 100%",
+      "factor_too_high": "Performance factor cannot exceed 3.0"
+    },
+    "ratings": {
+      "exceptional": "Exceptional Performance",
+      "exceeds_expectations": "Exceeds Expectations",
+      "meets_expectations": "Meets Expectations",
+      "needs_improvement": "Needs Improvement",
+      "below_expectations": "Below Expectations"
+    },
+    "results": {
+      "bonus_amount": "Bonus Amount",
+      "breakdown": "Compensation Breakdown",
+      "base_salary": "Base Salary",
+      "annual": "annual",
+      "total_compensation": "Total Compensation",
+      "salary_plus_bonus": "salary + bonus",
+      "effective_rate": "Effective Bonus Rate",
+      "after_performance": "after performance adjustment",
+      "monthly_bonus": "Monthly Bonus",
+      "per_month": "per month",
+      "performance_impact": "Performance Impact",
+      "target_bonus": "Target Bonus",
+      "formula_title": "Formula",
+      "formula": "Bonus = Base Salary × (Bonus % / 100) × Performance Factor"
+    },
+    "info": {
+      "title": "About Bonus Calculator",
+      "performance_factors": "Performance Factor Guide",
+      "factor_1": "0.5 - Below expectations (50% of target)",
+      "factor_2": "0.75 - Needs improvement (75% of target)",
+      "factor_3": "1.0 - Meets expectations (100% of target)",
+      "factor_4": "1.25 - Exceeds expectations (125% of target)",
+      "factor_5": "1.5+ - Exceptional performance (150%+ of target)",
+      "use_cases": "Use Cases",
+      "use_case_1": "Estimate expected bonus payout",
+      "use_case_2": "Plan total compensation packages",
+      "use_case_3": "Set performance-based incentive goals"
+    },
+    "howItWorks": {
+      "title": "How Bonus Calculation Works",
+      "formula": "Bonus = Base Salary × (Target Bonus % / 100) × Performance Factor",
+      "explanation": "Performance bonuses are calculated as a percentage of base salary, adjusted by a performance multiplier. Target bonus represents expected payout for meeting expectations; the performance factor scales this up or down based on actual performance.",
+      "steps": [
+        "Enter your annual base salary",
+        "Input your target bonus percentage (stated in offer letter)",
+        "Specify the performance factor based on your review",
+        "Calculator applies performance factor to target bonus",
+        "View actual bonus amount and total compensation"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Bonus Estimation",
+        "description": "Estimate expected bonus payout based on your performance rating before official announcement."
+      },
+      {
+        "title": "Job Offer Comparison",
+        "description": "Compare total compensation across job offers with different base salaries and bonus structures."
+      },
+      {
+        "title": "Performance Goal Setting",
+        "description": "Understand bonus implications of different performance levels to set appropriate goals."
+      },
+      {
+        "title": "Financial Planning",
+        "description": "Plan finances and budgets by understanding expected bonus timing and amounts."
+      }
+    ],
+    "seoTips": [
+      "Typical target bonuses: Entry-level 5-10%, Mid-level 10-20%, Senior 20-40%, Executive 50%+",
+      "Performance factors usually range from 0% (no bonus) to 150-200% for top performers",
+      "Bonus is typically paid annually, but some companies pay quarterly",
+      "Company performance often affects bonus pool independently of individual performance",
+      "Signing bonuses and spot bonuses are separate from annual performance bonuses"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Assuming Bonus is Guaranteed",
+        "description": "Discretionary bonuses depend on company and individual performance. Budget based on base salary, not expected bonus."
+      },
+      {
+        "title": "Ignoring Tax Impact",
+        "description": "Bonuses are often withheld at a higher rate (22% federal supplemental rate) though total tax is the same as regular income."
+      },
+      {
+        "title": "Not Understanding Performance Criteria",
+        "description": "Clarify how performance is evaluated and what factors determine the multiplier. Subjective vs. objective criteria matter."
+      },
+      {
+        "title": "Overlooking Company Performance Component",
+        "description": "Many bonus structures include company-wide performance factors. Strong personal performance with poor company results may still yield reduced bonus."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a typical performance bonus?",
+        "answer": "Varies by role and company. Entry-level: 5-10% of salary. Manager: 15-25%. Director/VP: 25-50%. Executive: 50-100%+."
+      },
+      {
+        "question": "When are bonuses typically paid?",
+        "answer": "Most commonly Q1 of the following year (January-March). Some companies pay quarterly or upon project completion."
+      },
+      {
+        "question": "Are bonuses taxed higher than salary?",
+        "answer": "Same tax rate, but federal withholding uses 22% supplemental rate. You may owe more or get a refund at tax time."
+      },
+      {
+        "question": "What if I leave before bonus payout?",
+        "answer": "Depends on company policy. Many require employment on payout date. Some prorate for partial year. Check your employment agreement."
+      },
+      {
+        "question": "How can I maximize my bonus?",
+        "answer": "Understand evaluation criteria, document achievements, align with company goals, and have performance discussions before review time."
+      }
+    ]
+  },
+  "salary": {
+    "title": "Salary Calculator",
+    "description": "Convert salary between different pay frequencies - annual, monthly, bi-weekly, weekly, and hourly rates.",
+    "inputs": {
+      "salary": "Salary Amount",
+      "salary_tooltip": "Enter your salary in any frequency",
+      "salary_placeholder": "e.g. 50000",
+      "pay_frequency": "Pay Frequency",
+      "pay_frequency_tooltip": "How often you receive your pay",
+      "frequency_annual": "Annual",
+      "frequency_monthly": "Monthly",
+      "frequency_biweekly": "Bi-Weekly",
+      "frequency_weekly": "Weekly",
+      "frequency_hourly": "Hourly",
+      "hours_per_week": "Hours Per Week",
+      "hours_per_week_tooltip": "Standard work hours per week",
+      "hours_per_week_placeholder": "e.g. 40",
+      "weeks_per_year": "Weeks Per Year",
+      "weeks_per_year_tooltip": "Working weeks per year (excluding vacation)",
+      "weeks_per_year_placeholder": "e.g. 52"
+    },
+    "errors": {
+      "hours_too_high": "Hours per week cannot exceed 168",
+      "weeks_too_high": "Weeks per year cannot exceed 52"
+    },
+    "results": {
+      "annual_salary": "Annual Salary",
+      "breakdown": "Salary Breakdown",
+      "monthly": "Monthly",
+      "per_month": "per month",
+      "semi_monthly": "Semi-Monthly",
+      "twice_monthly": "twice per month",
+      "bi_weekly": "Bi-Weekly",
+      "every_two_weeks": "every two weeks",
+      "weekly": "Weekly",
+      "per_week": "per week",
+      "daily": "Daily",
+      "per_day": "per day",
+      "hourly": "Hourly",
+      "per_hour": "per hour",
+      "note_title": "Note",
+      "note": "Calculations assume standard work week. Actual take-home pay may vary based on taxes, benefits, and deductions."
+    },
+    "info": {
+      "title": "About Salary Calculator",
+      "use_cases": "Use Cases",
+      "use_case_1": "Compare job offers with different pay structures",
+      "use_case_2": "Budget planning based on pay schedule",
+      "use_case_3": "Negotiate salary in preferred frequency"
+    },
+    "howItWorks": {
+      "title": "How Salary Calculation Works",
+      "formula": "Annual Salary = Hourly Rate × Hours Per Week × Weeks Per Year",
+      "explanation": "The salary calculator converts compensation between different pay frequencies: annual, monthly, bi-weekly, weekly, and hourly. It accounts for work hours and weeks to provide accurate conversions for comparing job offers or budgeting.",
+      "steps": [
+        "Enter your salary amount in any frequency",
+        "Select the pay frequency (annual, monthly, hourly, etc.)",
+        "Specify hours per week if converting to/from hourly",
+        "Enter weeks worked per year (typically 52)",
+        "Calculator converts to all other pay frequencies"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Job Offer Comparison",
+        "description": "Convert salaries to the same frequency to compare offers - one quoted annually vs. one quoted hourly."
+      },
+      {
+        "title": "Budget Planning",
+        "description": "Understand your monthly or bi-weekly take-home for budgeting based on annual salary figures."
+      },
+      {
+        "title": "Salary Negotiation",
+        "description": "Convert your desired annual salary to hourly rate for contractor negotiations, or vice versa."
+      },
+      {
+        "title": "Freelance Pricing",
+        "description": "Determine hourly rate needed to match a target annual income considering billable hours."
+      }
+    ],
+    "seoTips": [
+      "Standard full-time is 40 hours/week, 52 weeks/year = 2,080 hours annually",
+      "Account for unpaid time off when converting - 50 weeks may be more realistic than 52",
+      "Gross salary differs from net (take-home) - factor in taxes and deductions",
+      "Benefits have value too - healthcare, 401k match add to total compensation",
+      "Bi-weekly pay means 26 paychecks/year, not 24 (important for budgeting)"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting Benefits Value",
+        "description": "A lower salary with good benefits (health insurance, 401k match) may exceed a higher salary without benefits in total value."
+      },
+      {
+        "title": "Confusing Bi-Weekly and Semi-Monthly",
+        "description": "Bi-weekly is every 2 weeks (26 pay periods). Semi-monthly is twice per month (24 periods). The difference adds up."
+      },
+      {
+        "title": "Not Accounting for Taxes",
+        "description": "Gross salary isn't what you take home. Factor in federal, state, local taxes and deductions for realistic budgeting."
+      },
+      {
+        "title": "Ignoring Overtime Eligibility",
+        "description": "Salaried employees may be exempt from overtime. Hourly workers earning overtime may exceed comparable salaries."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How do I convert annual salary to hourly?",
+        "answer": "Divide annual salary by total work hours. For standard full-time: Annual / 2,080 hours. $52,000 / 2,080 = $25/hour."
+      },
+      {
+        "question": "Is bi-weekly the same as twice a month?",
+        "answer": "No. Bi-weekly is every 2 weeks (26 paychecks/year). Semi-monthly is twice per month (24 paychecks/year). Bi-weekly pays slightly more over a year."
+      },
+      {
+        "question": "What's considered a good salary?",
+        "answer": "Depends on location and industry. US median is about $60,000. Consider cost of living - $80K in NYC may equal $50K in the Midwest."
+      },
+      {
+        "question": "How do I account for unpaid time off?",
+        "answer": "Reduce weeks per year. If you take 2 weeks unpaid vacation, use 50 weeks instead of 52 for more accurate hourly conversion."
+      },
+      {
+        "question": "Should I include bonuses in salary calculations?",
+        "answer": "For budgeting, use base salary only since bonuses aren't guaranteed. For total compensation comparison, include expected bonuses."
+      }
+    ]
+  },
+  "hourly_wage": {
+    "title": "Hourly Wage Calculator",
+    "description": "Convert annual salary to hourly wage and calculate earnings across different time periods.",
+    "inputs": {
+      "annual_salary": "Annual Salary",
+      "annual_salary_tooltip": "Your total yearly salary before taxes",
+      "annual_salary_placeholder": "e.g. 52000",
+      "hours_per_week": "Hours Per Week",
+      "hours_per_week_tooltip": "Standard work hours per week",
+      "hours_per_week_placeholder": "e.g. 40",
+      "weeks_per_year": "Weeks Per Year",
+      "weeks_per_year_tooltip": "Working weeks per year",
+      "weeks_per_year_placeholder": "e.g. 52"
+    },
+    "errors": {
+      "hours_too_high": "Hours per week cannot exceed 168",
+      "weeks_too_high": "Weeks per year cannot exceed 52"
+    },
+    "results": {
+      "hourly_rate": "Hourly Rate",
+      "per_hour": "per hour",
+      "breakdown": "Earnings Breakdown",
+      "daily": "Daily",
+      "per_day": "per 8-hour day",
+      "weekly": "Weekly",
+      "per_week": "per week",
+      "bi_weekly": "Bi-Weekly",
+      "every_two_weeks": "every two weeks",
+      "monthly": "Monthly",
+      "per_month": "per month",
+      "annual": "Annual",
+      "total_hours": "total hours per year",
+      "formula_title": "Formula",
+      "formula": "Hourly Rate = Annual Salary / (Hours Per Week × Weeks Per Year)"
+    },
+    "info": {
+      "title": "About Hourly Wage Calculator",
+      "use_cases": "Use Cases",
+      "use_case_1": "Determine true hourly value of salary",
+      "use_case_2": "Compare salaried vs hourly positions",
+      "use_case_3": "Calculate freelance or consulting rates"
+    },
+    "howItWorks": {
+      "title": "How Hourly Wage Calculation Works",
+      "formula": "Hourly Rate = Annual Salary / (Hours Per Week × Weeks Per Year)",
+      "explanation": "Converting annual salary to hourly rate reveals true earning power per hour worked. This is essential for comparing salaried positions to hourly jobs, calculating freelance rates, or understanding the value of your time.",
+      "steps": [
+        "Enter your annual salary (gross, before taxes)",
+        "Input standard hours worked per week (typically 40)",
+        "Specify weeks worked per year (52, or less for unpaid time off)",
+        "Calculator divides salary by total annual hours",
+        "View hourly rate and breakdowns by day, week, and month"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Salary to Hourly Comparison",
+        "description": "Compare a salaried job offer to an hourly position by converting both to the same unit."
+      },
+      {
+        "title": "Freelance Rate Setting",
+        "description": "Determine minimum hourly rate needed as a freelancer to match current salary, accounting for self-employment costs."
+      },
+      {
+        "title": "Overtime Valuation",
+        "description": "Understand what your time is worth when deciding whether to work extra unpaid hours."
+      },
+      {
+        "title": "Side Job Evaluation",
+        "description": "Compare side gig hourly rates to your main job's effective hourly rate."
+      }
+    ],
+    "seoTips": [
+      "Standard calculation uses 2,080 hours (40 hours × 52 weeks)",
+      "For freelancing, add 30-40% to account for self-employment taxes and benefits",
+      "Consider actual hours worked, not just scheduled hours, for true rate",
+      "Include unpaid overtime for realistic comparison between jobs",
+      "Factor in commute time for total time cost of employment"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Ignoring Unpaid Work",
+        "description": "Many salaried employees work beyond 40 hours. Include actual hours worked for true hourly rate."
+      },
+      {
+        "title": "Not Adjusting for Benefits",
+        "description": "When comparing to freelance work, add 25-40% to cover healthcare, retirement, and self-employment taxes you'd pay."
+      },
+      {
+        "title": "Using Wrong Weeks Per Year",
+        "description": "If you have unpaid vacation time, reduce weeks accordingly. Using 52 weeks overstates hourly rate."
+      },
+      {
+        "title": "Comparing Gross to Net",
+        "description": "Ensure you're comparing like to like - both gross or both net. Mixing leads to inaccurate comparisons."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How many work hours are in a year?",
+        "answer": "Standard full-time is 2,080 hours (40 hours × 52 weeks). Excluding vacation and holidays: 1,920-2,000 hours is more realistic."
+      },
+      {
+        "question": "What's a good hourly rate?",
+        "answer": "Depends on industry and location. US average is about $30/hour. Tech and specialized fields can be $50-150+/hour."
+      },
+      {
+        "question": "How do I set freelance rates from salary?",
+        "answer": "Take your hourly equivalent and add 30-50% for self-employment taxes, healthcare, retirement, equipment, and downtime between projects."
+      },
+      {
+        "question": "Should I include bonuses in the calculation?",
+        "answer": "For guaranteed bonuses, yes. For performance-based bonuses, calculate both with and without for range. Don't include uncertain income."
+      },
+      {
+        "question": "Is hourly or salary better?",
+        "answer": "Depends on circumstances. Hourly guarantees payment for all hours worked including overtime. Salary offers stability but may mean unpaid overtime."
+      }
+    ]
+  },
+  "overtime": {
+    "title": "Overtime Calculator",
+    "description": "Calculate overtime pay based on regular hours, overtime hours, and pay multipliers.",
+    "inputs": {
+      "regular_hours": "Regular Hours",
+      "regular_hours_tooltip": "Standard work hours before overtime",
+      "regular_hours_placeholder": "e.g. 40",
+      "overtime_hours": "Overtime Hours",
+      "overtime_hours_tooltip": "Extra hours worked beyond regular schedule",
+      "overtime_hours_placeholder": "e.g. 10",
+      "hourly_rate": "Hourly Rate",
+      "hourly_rate_tooltip": "Your standard hourly pay rate",
+      "hourly_rate_placeholder": "e.g. 25",
+      "overtime_multiplier": "Overtime Multiplier",
+      "overtime_multiplier_tooltip": "OT pay rate multiplier (e.g., 1.5 for time-and-a-half)",
+      "overtime_multiplier_placeholder": "e.g. 1.5"
+    },
+    "errors": {
+      "hours_too_high": "Total hours cannot exceed 168 per week"
+    },
+    "results": {
+      "total_pay": "Total Pay",
+      "hours_worked": "hours worked",
+      "breakdown": "Pay Breakdown",
+      "regular_pay": "Regular Pay",
+      "overtime_pay": "Overtime Pay",
+      "overtime_rate": "Overtime Rate",
+      "per_hour": "per hour",
+      "effective_rate": "Effective Rate",
+      "average_per_hour": "average per hour",
+      "hours": "hours",
+      "overtime_percentage": "Overtime % of Total Pay",
+      "formula_title": "Formula",
+      "formula": "Total Pay = (Regular Hours × Rate) + (OT Hours × Rate × Multiplier)"
+    },
+    "info": {
+      "title": "About Overtime Calculator",
+      "use_cases": "Use Cases",
+      "use_case_1": "Calculate expected overtime earnings",
+      "use_case_2": "Verify paycheck accuracy",
+      "use_case_3": "Plan work schedule for income goals",
+      "common_multipliers": "Common Overtime Multipliers",
+      "multiplier_1": "1.5x - Time and a half (standard overtime)",
+      "multiplier_2": "2.0x - Double time (holidays, excessive hours)",
+      "multiplier_3": "2.5x - Premium time (special circumstances)"
+    },
+    "howItWorks": {
+      "title": "How Overtime Pay Calculation Works",
+      "formula": "Total Pay = (Regular Hours × Rate) + (Overtime Hours × Rate × Multiplier)",
+      "explanation": "Overtime pay compensates workers for hours beyond the standard work week, typically 40 hours in the US. The Fair Labor Standards Act requires non-exempt employees receive at least 1.5x their regular rate for overtime hours.",
+      "steps": [
+        "Enter your regular hours (usually up to 40)",
+        "Input overtime hours worked beyond regular schedule",
+        "Enter your standard hourly rate",
+        "Select overtime multiplier (typically 1.5x)",
+        "Calculator computes regular pay, overtime pay, and total"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Paycheck Verification",
+        "description": "Verify that your employer has correctly calculated overtime pay on your paycheck."
+      },
+      {
+        "title": "Income Planning",
+        "description": "Calculate potential earnings when considering overtime opportunities to meet financial goals."
+      },
+      {
+        "title": "Employer Budgeting",
+        "description": "Estimate labor costs including overtime for project staffing and budget planning."
+      },
+      {
+        "title": "Schedule Optimization",
+        "description": "Determine optimal work schedule to maximize earnings within legal and personal limits."
+      }
+    ],
+    "seoTips": [
+      "FLSA requires 1.5x pay for hours over 40/week for non-exempt employees",
+      "Some states (California) require daily overtime after 8 hours",
+      "Salaried employees may be exempt from overtime depending on duties and salary",
+      "Double time is often required for hours over 60/week or on holidays",
+      "Keep records of all hours worked to ensure proper overtime compensation"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Not Knowing Exemption Status",
+        "description": "Many employees misunderstand whether they're exempt or non-exempt. Salary alone doesn't determine exemption - job duties matter."
+      },
+      {
+        "title": "Ignoring State Laws",
+        "description": "Some states have stricter overtime laws than federal FLSA. California requires daily overtime; some states have no overtime laws."
+      },
+      {
+        "title": "Calculating on Wrong Base Rate",
+        "description": "Overtime should be calculated on the regular rate of pay including shift differentials and some bonuses, not just base rate."
+      },
+      {
+        "title": "Averaging Hours Across Weeks",
+        "description": "Overtime is calculated weekly, not averaged. Working 50 hours one week and 30 the next still requires OT pay for the 50-hour week."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Who is entitled to overtime pay?",
+        "answer": "Non-exempt employees working over 40 hours/week. Exemptions apply to some salaried professionals, executives, and administrators based on job duties."
+      },
+      {
+        "question": "What is time and a half?",
+        "answer": "1.5 times your regular hourly rate. If you earn $20/hour, time and a half is $30/hour for overtime hours."
+      },
+      {
+        "question": "Can my employer force overtime?",
+        "answer": "Generally yes, employers can require overtime as a condition of employment, subject to labor laws and union agreements."
+      },
+      {
+        "question": "Is overtime taxed differently?",
+        "answer": "Overtime is taxed at your normal income rate. It may seem higher due to withholding, but annual tax is the same rate."
+      },
+      {
+        "question": "What is double time?",
+        "answer": "2x regular pay, required in some states (California) for hours over 12/day or work on the 7th consecutive day."
+      }
+    ]
+  },
+  "commission": {
+    "title": "Commission Calculator",
+    "description": "Calculate sales commission.",
+    "inputs": {
+      "sales_amount": "Sales Amount",
+      "sales_amount_tooltip": "Total value of sales",
+      "sales_amount_placeholder": "e.g. 10000",
+      "commission_rate": "Commission Rate (%)",
+      "commission_rate_tooltip": "Percentage earned per sale",
+      "commission_rate_placeholder": "e.g. 5",
+      "base_salary": "Base Salary (Optional)",
+      "base_salary_tooltip": "Fixed salary amount",
+      "base_salary_placeholder": "e.g. 2000"
+    },
+    "results": {
+      "total_commission": "Total Commission",
+      "total_earnings": "Total Earnings",
+      "commission_amount": "Commission Amount",
+      "sales_total": "Sales Total",
+      "rate_label": "Commission Rate",
+      "commission_only": "Commission Only"
+    },
+    "info": {
+      "title": "About Commission",
+      "description": "Commission is a fee paid to an agent or employee for transacting a piece of business or performing a service.",
+      "formula_title": "Formula",
+      "formula_explanation": "Commission = Sales Amount × (Commission Rate / 100)"
+    },
+    "howItWorks": {
+      "title": "How Commission Calculation Works",
+      "formula": "Commission = Sales Amount × (Commission Rate / 100)",
+      "explanation": "Commission compensates salespeople based on their sales performance. It can be the sole compensation (straight commission) or combined with a base salary. Total earnings equal base salary plus commission earned.",
+      "steps": [
+        "Enter the total sales amount generated",
+        "Input the commission rate percentage",
+        "Optionally add a base salary amount",
+        "Calculator computes the commission earned",
+        "View total earnings (base + commission)"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Sales Compensation",
+        "description": "Calculate earnings for sales representatives based on their closed deals and commission structure."
+      },
+      {
+        "title": "Real Estate Transactions",
+        "description": "Determine agent commissions on property sales, typically ranging from 2.5% to 6% of sale price."
+      },
+      {
+        "title": "Affiliate Marketing",
+        "description": "Calculate earnings from affiliate sales and referrals based on agreed commission percentages."
+      },
+      {
+        "title": "Recruiter Fees",
+        "description": "Compute placement fees for recruiters, often 15-25% of the placed candidate's first-year salary."
+      }
+    ],
+    "seoTips": [
+      "Understand your commission structure - flat rate, tiered, or graduated",
+      "Track sales and commissions separately for accurate income planning",
+      "Consider how returns and cancellations affect commission (chargebacks)",
+      "Factor in commission caps if your plan has maximum earnings limits",
+      "Calculate effective hourly rate to compare commission vs salaried positions"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Not Accounting for Taxes",
+        "description": "Commission income is fully taxable. Set aside 25-35% for taxes to avoid surprises at tax time."
+      },
+      {
+        "title": "Ignoring Commission Splits",
+        "description": "In team sales or brokerage, commissions may be split. Calculate your actual share, not gross commission."
+      },
+      {
+        "title": "Forgetting Clawbacks",
+        "description": "Some commission plans require payback if customers cancel or return. Track potential clawback exposure."
+      },
+      {
+        "title": "Miscalculating Tiered Rates",
+        "description": "Tiered commission structures pay different rates at different levels. Calculate each tier separately, don't apply top rate to all sales."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a typical sales commission rate?",
+        "answer": "Varies by industry: Real estate 2.5-6%, Car sales $100-500 per vehicle, SaaS 10-20% of contract value, Retail 1-10%, Insurance 5-20% first year."
+      },
+      {
+        "question": "What's the difference between draw and commission?",
+        "answer": "A draw is an advance against future commissions, providing steady income. You must earn enough commission to 'pay back' the draw before earning additional commission."
+      },
+      {
+        "question": "How do tiered commissions work?",
+        "answer": "You earn different rates at different sales levels. Example: 5% on first $50K, 7% on $50K-100K, 10% above $100K. Higher sales unlock higher rates."
+      },
+      {
+        "question": "Should I choose salary + commission or straight commission?",
+        "answer": "Straight commission offers higher earning potential but more risk. Base + commission provides stability. Consider your industry, experience, and risk tolerance."
+      },
+      {
+        "question": "When is commission typically paid?",
+        "answer": "Usually monthly or bi-weekly. Some companies pay upon deal close, others upon customer payment. Understand your company's commission payment cycle."
+      }
+    ]
+  },
+  "labor_cost": {
+    "title": "Labor Cost Calculator",
+    "description": "Calculate total labor costs including wages, hours, benefits, and overhead.",
+    "hourly_rate": "Hourly Rate ($)",
+    "hourly_rate_tooltip": "Base hourly wage before benefits",
+    "hourly_rate_placeholder": "e.g. 25",
+    "hours_per_week": "Hours Per Week",
+    "hours_per_week_tooltip": "Regular hours worked per week",
+    "hours_per_week_placeholder": "e.g. 40",
+    "benefits_percentage": "Benefits Percentage (%)",
+    "benefits_percentage_tooltip": "Benefits as percentage of wages (health, retirement, taxes)",
+    "benefits_percentage_placeholder": "e.g. 25",
+    "overhead_percentage": "Overhead Percentage (%)",
+    "overhead_percentage_tooltip": "Administrative and operational costs as percentage of wages",
+    "overhead_percentage_placeholder": "e.g. 15",
+    "number_of_employees": "Number of Employees",
+    "number_of_employees_tooltip": "Total employees to calculate for",
+    "number_of_employees_placeholder": "e.g. 5",
+    "errors": {
+      "invalid_benefits": "Benefits percentage must be between 0 and 200",
+      "invalid_overhead": "Overhead percentage must be between 0 and 200",
+      "invalid_employees": "Number of employees must be at least 1"
+    },
+    "results": {
+      "weekly_total": "Weekly Labor Cost",
+      "per_week": "per week",
+      "cost_breakdown": "Cost Breakdown",
+      "base_wages": "Base Wages",
+      "benefits_cost": "Benefits Cost",
+      "overhead_cost": "Overhead Cost",
+      "effective_hourly_rate": "Effective Hourly Rate",
+      "per_hour": "per hour",
+      "cost_multiplier": "Cost Multiplier",
+      "burden_rate": "burden rate",
+      "monthly_cost": "Monthly Cost",
+      "per_month": "per month",
+      "annual_cost": "Annual Labor Cost",
+      "per_year": "per year",
+      "formula_title": "Formula",
+      "formula_desc": "Total = Rate × Hours × (1 + Benefits% + Overhead%) × Employees"
+    },
+    "info": {
+      "title": "About Labor Cost Calculator",
+      "use_cases_title": "Use Cases",
+      "use_case_1": "Budget for employee costs",
+      "use_case_2": "Calculate true cost of hiring",
+      "use_case_3": "Compare staffing scenarios"
+    },
+    "howItWorks": {
+      "title": "How Labor Cost Calculation Works",
+      "formula": "Total Labor Cost = Wages + Benefits + Overhead",
+      "explanation": "True labor cost extends far beyond base wages. Benefits (healthcare, retirement, paid time off) typically add 20-40% to wages. Overhead (workspace, equipment, management) adds another 10-30%. The effective hourly rate can be 1.5-2x the base wage.",
+      "steps": [
+        "Enter base hourly rate for employees",
+        "Input hours worked per week",
+        "Add benefits percentage (healthcare, PTO, retirement contributions)",
+        "Include overhead percentage (workspace, equipment, admin support)",
+        "Specify number of employees to calculate total team cost"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Hiring Budgeting",
+        "description": "Calculate true cost of new hires beyond just salary to budget accurately for expansion."
+      },
+      {
+        "title": "Outsourcing Comparison",
+        "description": "Compare total in-house employee cost to contractor or outsourcing rates for fair comparison."
+      },
+      {
+        "title": "Project Costing",
+        "description": "Determine labor component of project costs using fully-loaded employee rates."
+      },
+      {
+        "title": "Pricing Services",
+        "description": "Calculate minimum billable rates that cover fully-loaded labor costs plus profit margin."
+      }
+    ],
+    "seoTips": [
+      "Benefits typically add 25-40% to base wages - use at least 25% in calculations",
+      "Don't forget employer portion of payroll taxes (7.65% Social Security/Medicare)",
+      "Overhead includes workspace, equipment, software, insurance, and management time",
+      "Billable rates should be 2-3x fully-loaded labor cost for profitable services",
+      "Track actual labor costs vs estimates to improve future budgeting accuracy"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using Only Base Wages",
+        "description": "Base wage is just the start. Add benefits (25-40%), payroll taxes (7.65%+), and overhead (10-30%) for true cost."
+      },
+      {
+        "title": "Forgetting Non-Productive Time",
+        "description": "Employees don't produce for 100% of paid hours. Account for meetings, training, sick time, and administrative tasks."
+      },
+      {
+        "title": "Ignoring Turnover Costs",
+        "description": "Hiring and training costs average 50-200% of annual salary. Factor this into long-term labor cost planning."
+      },
+      {
+        "title": "Not Including All Benefits",
+        "description": "Include healthcare, retirement match, PTO, disability, life insurance, and all employer-paid benefits."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a fully-loaded labor cost?",
+        "answer": "Base wages plus all employer costs: benefits, payroll taxes, workers comp, overhead, and any other costs to employ someone. Typically 1.25-1.5x base wage."
+      },
+      {
+        "question": "What benefits should I include?",
+        "answer": "Health insurance (employer portion), 401k match, PTO value, disability, life insurance, and any other employer-paid benefits."
+      },
+      {
+        "question": "What overhead should I include?",
+        "answer": "Workspace, equipment, software/tools, utilities, HR costs, management time, training, and administrative support."
+      },
+      {
+        "question": "How do I calculate effective hourly rate?",
+        "answer": "Divide annual fully-loaded cost by actual productive hours (typically 1,700-1,900 hours after vacation, sick time, and meetings)."
+      },
+      {
+        "question": "How does this compare to contractors?",
+        "answer": "Contractors include their own benefits/overhead in rates. Compare contractor rates to fully-loaded employee cost, not base salary, for fair comparison."
+      }
+    ]
+  },
+  "bonus-calculator": {
+    "title": "Bonus Calculator - Employee Bonus Online",
+    "description": "Calculate employee bonuses based on performance or profits. Our free bonus calculator helps businesses determine fair incentive payments. Factor in performance metrics, company profits, and bonus structures to reward employees."
+  },
+  "salary-calculator": {
+    "title": "Income Tax Calculator - Tax Estimator Online",
+    "description": "Calculate income tax owed on your salary or earnings with our free online calculator. Estimate your tax liability, plan deductions, and understand your take-home pay. Essential for employees, freelancers, and tax planning."
+  },
+  "hourly-wage-calculator": {
+    "title": "Salary Calculator - Net Pay Calculator Online",
+    "description": "Calculate your monthly or annual salary after deductions and taxes. Our free salary calculator helps employees understand their net pay, gross income, and take-home earnings. Perfect for salary negotiations and financial planning."
+  },
+  "overtime-calculator": {
+    "title": "Hourly Wage Calculator - Annual Income Online",
+    "description": "Calculate hourly wage and convert to monthly or annual income. Our free calculator helps hourly workers and employers determine total earnings. Convert between hourly, weekly, monthly, and yearly pay rates easily."
+  },
+  "commission-calculator": {
+    "title": "Overtime Pay Calculator - Time & Half Calculator",
+    "description": "Calculate overtime pay for extra work hours based on labor laws. Our free calculator determines time-and-a-half, double-time, and total overtime compensation. Essential for employees and employers to ensure fair overtime payment."
+  },
+  "labor-cost-calculator": {
+    "title": "Labor Cost Calculator - Total Employment Cost",
+    "description": "Calculate total labor costs including wages, benefits, and overhead. Our free labor cost calculator helps businesses budget for employees, determine true employment costs, and optimize workforce expenses for profitability."
+  }
+}

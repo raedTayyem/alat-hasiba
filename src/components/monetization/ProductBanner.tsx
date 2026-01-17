@@ -92,7 +92,7 @@ export default function ProductBanner({
     if (product.gumroadUrl.startsWith('http')) {
       window.open(product.gumroadUrl, '_blank');
     } else {
-      toast.info(isArabic ? 'سيتم إضافة رابط المنتج قريبًا!' : 'Product link coming soon!');
+      toast.info(t('monetization.messages.productLinkComingSoon'));
     }
   };
 
@@ -113,7 +113,7 @@ export default function ProductBanner({
         <button
           onClick={handleDismiss}
           className="absolute top-2 right-2 w-7 h-7 rounded-full bg-white/20 hover:bg-white/30 flex items-center justify-center transition-colors"
-          aria-label="Close"
+          aria-label={t('aria.close')}
         >
           <X className="w-4 h-4" />
         </button>
@@ -142,7 +142,7 @@ export default function ProductBanner({
                   onClick={handleClick}
                   className="inline-flex items-center gap-2 px-4 py-2 bg-white text-amber-600 rounded-lg hover:bg-white/90 transition-colors text-sm font-bold shadow-lg"
                 >
-                  <span>{isArabic ? 'احصل عليه' : 'Get It'}</span>
+                  <span>{t('monetization.buttons.getIt')}</span>
                   <ArrowRight className="w-4 h-4" />
                 </button>
               </div>

@@ -1,0 +1,976 @@
+{
+  "horsepower": {
+    "title": "Horsepower Calculator",
+    "description": "Calculate horsepower from torque and RPM.",
+    "torque_unit": "Torque Unit",
+    "torque_unit_tooltip": "Select the unit for torque",
+    "lb_ft": "lb-ft",
+    "nm": "Nm",
+    "torque": "Torque",
+    "torque_tooltip": "Engine torque",
+    "rpm": "RPM",
+    "rpm_tooltip": "Engine speed in Revolutions Per Minute",
+    "result_title": "Horsepower Result",
+    "conversions": "Conversions",
+    "ps": "PS (Metric HP)",
+    "torque_label": "Torque",
+    "formula_title": "Formula",
+    "formula_explanation": "HP = (Torque × RPM) / 5252",
+    "about_title": "About Horsepower",
+    "about_description": "Horsepower is a unit of measurement of power, or the rate at which work is done.",
+    "error_missing_inputs": "Please enter torque and RPM",
+    "error_positive_values": "Values must be positive",
+    "error_calculation": "Calculation error",
+    "units": {
+      "hp": "HP",
+      "kw": "kW",
+      "ps": "PS",
+      "lb_ft": "lb-ft",
+      "rpm": "RPM"
+    },
+    "placeholders": {
+      "torque": "300",
+      "rpm": "5000"
+    },
+    "howItWorks": {
+      "title": "How Horsepower Calculation Works",
+      "formula": "HP = (Torque × RPM) / 5252",
+      "explanation": "Horsepower measures the rate at which work is done - specifically, the power output of an engine. It's calculated from torque (rotational force) and engine speed (RPM). The constant 5252 comes from the mathematical relationship between these units.",
+      "steps": [
+        "Select your torque unit (lb-ft or Nm)",
+        "Enter the torque value from your engine specs or dyno test",
+        "Enter the RPM at which that torque is produced",
+        "View the calculated horsepower and conversions to kW and PS"
+      ]
+    },
+    "useCases": [
+      "Calculate engine power output from dyno torque measurements",
+      "Convert between different power units (HP, kW, PS) for international comparisons",
+      "Understand the relationship between torque and horsepower at different RPMs",
+      "Verify manufacturer claims or tuning results"
+    ],
+    "seoTips": [
+      "Remember that peak HP and peak torque usually occur at different RPMs",
+      "Use dyno-measured torque for accurate real-world HP calculations",
+      "Convert to kW when comparing to European vehicle specifications",
+      "Consider wheel horsepower vs crank horsepower (typically 15-20% drivetrain loss)"
+    ],
+    "commonMistakes": [
+      "Confusing torque with horsepower - torque is force, HP is the rate of work",
+      "Using peak torque RPM to calculate HP instead of the actual RPM for the measurement",
+      "Not accounting for drivetrain losses when comparing dyno results to crank HP",
+      "Mixing up HP (SAE) with PS (metric horsepower) - they're slightly different"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between horsepower and torque?",
+        "answer": "Torque is rotational force (how hard the engine can push), while horsepower is how fast that force can be applied (power = force × speed). Torque gets you moving, horsepower keeps you accelerating. High torque at low RPM is great for towing; high HP at high RPM is great for top speed."
+      },
+      {
+        "question": "Why do HP and torque curves cross at 5252 RPM?",
+        "answer": "This is a mathematical constant from the formula HP = Torque × RPM / 5252. At exactly 5252 RPM, if you put the numbers in, HP equals torque numerically. Below 5252 RPM, torque is higher; above it, HP is higher."
+      },
+      {
+        "question": "What is the difference between HP, PS, and kW?",
+        "answer": "HP (horsepower) is the imperial unit. PS (Pferdestärke, German for horsepower) is the metric version, slightly smaller (1 HP = 1.014 PS). kW (kilowatts) is the SI unit of power (1 HP = 0.746 kW). Electric vehicles typically use kW."
+      },
+      {
+        "question": "How much horsepower do I need?",
+        "answer": "For daily driving, 150-200 HP is adequate for most cars. For spirited driving or heavy vehicles, 250-350 HP provides good performance. Sports cars and performance vehicles typically have 400+ HP. More important than peak HP is the power-to-weight ratio."
+      }
+    ]
+  },
+  "horsepower-calculator": {
+    "title": "Horsepower Calculator - Engine Power Conversion Tool",
+    "description": "Calculate engine horsepower and convert between HP, kW, and PS. Free online horsepower calculator for accurate power measurements.",
+    "howItWorks": {
+      "title": "How Horsepower Calculation Works",
+      "formula": "HP = (Torque × RPM) / 5252 | 1 HP = 0.746 kW = 1.014 PS",
+      "explanation": "Horsepower measures the rate at which an engine can do work. It is calculated from torque (rotational force) and engine speed (RPM). This calculator computes horsepower from torque/RPM and converts between different power units used globally.",
+      "steps": [
+        {
+          "name": "Enter Torque",
+          "text": "Input torque in lb-ft or Newton-meters"
+        },
+        {
+          "name": "Enter Engine Speed",
+          "text": "Input RPM at which torque is measured"
+        },
+        {
+          "name": "Calculate Power",
+          "text": "See calculated horsepower at that RPM point"
+        },
+        {
+          "name": "View Conversions",
+          "text": "See equivalent power in HP, kW, and PS"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Power Calculation",
+        "description": "Calculate horsepower from dyno torque measurements"
+      },
+      {
+        "title": "Unit Conversion",
+        "description": "Convert between HP, kW, and PS for international comparisons"
+      },
+      {
+        "title": "Performance Analysis",
+        "description": "Understand the relationship between torque and horsepower"
+      },
+      {
+        "title": "Engine Tuning",
+        "description": "Evaluate power gains from modifications"
+      }
+    ],
+    "seoTips": [
+      "Peak torque and peak horsepower occur at different RPM points",
+      "Electric motors produce peak torque from 0 RPM, unlike combustion engines",
+      "Wheel horsepower is 15-20% less than crank horsepower due to drivetrain losses",
+      "Higher RPM engines make more power from less torque by spinning faster",
+      "kW is the international standard; HP is used in US/UK; PS in Europe"
+    ],
+    "commonMistakes": [
+      "Confusing torque with horsepower - torque is force, power is the rate of applying force",
+      "Using peak torque RPM when calculating power at a different RPM",
+      "Comparing crank horsepower to wheel horsepower directly",
+      "Ignoring that HP and PS are slightly different units"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between torque and horsepower?",
+        "answer": "Torque is rotational force - how hard the engine can push. Horsepower is power - how fast that force can be applied. Torque gets you moving; horsepower keeps you accelerating. They are related by engine speed (RPM)."
+      },
+      {
+        "question": "Why do curves cross at 5252 RPM?",
+        "answer": "This is a mathematical artifact of the formula HP = Torque × RPM / 5252. At exactly 5252 RPM, horsepower and torque values are numerically equal. Below 5252, torque is higher; above, horsepower is higher."
+      },
+      {
+        "question": "What is the difference between HP, kW, and PS?",
+        "answer": "HP (horsepower) is the Imperial unit. PS (Pferdestärke) is the metric horsepower used in Europe. kW (kilowatt) is the SI standard. 1 HP = 0.746 kW = 1.014 PS. They all measure the same thing in different units."
+      },
+      {
+        "question": "What is wheel HP vs crank HP?",
+        "answer": "Crank HP is measured at the engine flywheel. Wheel HP is measured at the wheels after drivetrain losses (transmission, differential). Wheel HP is typically 15-20% less than crank HP."
+      }
+    ]
+  },
+  "torque": {
+    "title": "Torque Calculator",
+    "description": "Calculate torque from horsepower and RPM.",
+    "horsepower": "Horsepower (HP)",
+    "horsepower_tooltip": "Engine power in HP",
+    "rpm": "RPM",
+    "rpm_tooltip": "Engine speed",
+    "result_title": "Torque Result",
+    "calculation_details": "Details",
+    "horsepower_label": "Horsepower",
+    "rpm_label": "RPM",
+    "formula_title": "Formula",
+    "formula_explanation": "Torque = (HP × 5252) / RPM",
+    "about_title": "About Torque",
+    "about_description": "Torque is the rotational force produced by the engine.",
+    "error_missing_inputs": "Please enter HP and RPM",
+    "error_positive_values": "Values must be positive",
+    "error_calculation": "Calculation error",
+    "units": {
+      "lb_ft": "lb-ft",
+      "nm": "Nm",
+      "hp": "HP",
+      "rpm": "RPM"
+    },
+    "placeholders": {
+      "horsepower": "300",
+      "rpm": "5000"
+    },
+    "howItWorks": {
+      "title": "How Torque Calculation Works",
+      "formula": "Torque (lb-ft) = (HP × 5252) / RPM",
+      "explanation": "Torque is the rotational force produced by an engine. This calculator determines torque when you know the horsepower and RPM. Torque is what you feel pushing you back in your seat during acceleration.",
+      "steps": [
+        "Enter the horsepower rating of the engine",
+        "Enter the RPM at which that horsepower is measured",
+        "View the calculated torque in lb-ft and Nm",
+        "Use the conversion to compare international specifications"
+      ]
+    },
+    "useCases": [
+      "Calculate torque from known horsepower and RPM specifications",
+      "Convert torque between lb-ft and Newton-meters for international comparisons",
+      "Understand engine characteristics at different RPM points",
+      "Compare towing capability between different vehicles"
+    ],
+    "seoTips": [
+      "High torque at low RPM is ideal for towing and heavy loads",
+      "Diesel engines typically produce more torque than gasoline engines",
+      "Electric motors produce maximum torque instantly from 0 RPM",
+      "Consider where peak torque occurs in the RPM range for your driving needs"
+    ],
+    "commonMistakes": [
+      "Confusing torque with horsepower - they measure different things",
+      "Assuming higher torque always means better performance",
+      "Not considering the RPM at which torque is produced",
+      "Comparing torque figures without noting the RPM"
+    ],
+    "faqs": [
+      {
+        "question": "Why is torque important for towing?",
+        "answer": "Torque is the force that gets heavy loads moving. High torque at low RPM means the engine can pull heavy loads without revving high. This is why diesel trucks are popular for towing - they produce massive torque at low RPM."
+      },
+      {
+        "question": "What is the difference between lb-ft and Nm?",
+        "answer": "Both measure torque. lb-ft (pound-feet) is common in the US, while Nm (Newton-meters) is the metric/SI unit used internationally. 1 lb-ft = 1.356 Nm, so multiply lb-ft by 1.356 to get Nm."
+      },
+      {
+        "question": "Do electric cars have torque?",
+        "answer": "Yes, electric motors produce maximum torque instantly at 0 RPM, which is why EVs feel so quick off the line. This instant torque delivery is one of the main advantages of electric propulsion."
+      },
+      {
+        "question": "What is a good torque figure?",
+        "answer": "It depends on the vehicle. Economy cars might have 100-150 lb-ft, performance cars 300-500 lb-ft, and heavy-duty trucks 400-1000+ lb-ft. More important than the number is when it occurs in the RPM range."
+      }
+    ]
+  },
+  "torque-calculator": {
+    "title": "Torque Calculator - Engine Torque Measurement Tool",
+    "description": "Calculate engine torque in Nm, lb-ft, and kg-m. Free torque calculator for precise rotational force measurements and conversions.",
+    "howItWorks": {
+      "title": "How Torque Calculation Works",
+      "formula": "Torque = Force × Distance | Torque = (HP × 5252) / RPM | 1 Nm = 0.738 lb-ft",
+      "explanation": "Torque measures rotational force - how hard an engine can twist its output shaft. It is calculated from force applied at a distance from the pivot point. This calculator computes torque from horsepower/RPM and converts between units (Nm, lb-ft, kg-m).",
+      "steps": [
+        {
+          "name": "Enter Horsepower",
+          "text": "Input engine horsepower output"
+        },
+        {
+          "name": "Enter RPM",
+          "text": "Input engine speed in revolutions per minute"
+        },
+        {
+          "name": "Calculate Torque",
+          "text": "See calculated torque at that power/RPM point"
+        },
+        {
+          "name": "View Conversions",
+          "text": "See equivalent torque in Nm, lb-ft, and kg-m"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Torque Calculation",
+        "description": "Calculate torque from known horsepower and RPM"
+      },
+      {
+        "title": "Unit Conversion",
+        "description": "Convert between Nm, lb-ft, and kg-m for different specifications"
+      },
+      {
+        "title": "Fastener Torque",
+        "description": "Calculate or convert torque specifications for bolts and nuts"
+      },
+      {
+        "title": "Performance Comparison",
+        "description": "Compare torque curves between engines"
+      }
+    ],
+    "seoTips": [
+      "High torque at low RPM provides better acceleration and towing capability",
+      "Diesel engines typically produce more torque than gasoline engines of similar size",
+      "Electric motors produce maximum torque from 0 RPM",
+      "Transmission gear multiplication increases torque at the wheels",
+      "Turbocharged engines produce more torque per liter of displacement"
+    ],
+    "commonMistakes": [
+      "Thinking more torque always means faster acceleration (power matters too)",
+      "Confusing engine torque with wheel torque (gearing multiplies)",
+      "Mixing up Nm and lb-ft when reading specifications",
+      "Ignoring the RPM at which peak torque is produced"
+    ],
+    "faqs": [
+      {
+        "question": "Why is torque important?",
+        "answer": "Torque determines pulling power and acceleration feel. High torque at low RPM makes cars feel powerful without revving high. It affects how easily a car accelerates from stops and how well it can tow or climb hills."
+      },
+      {
+        "question": "What is the difference between Nm and lb-ft?",
+        "answer": "Newton-meters (Nm) is the metric unit; pound-feet (lb-ft) is the Imperial unit. 1 Nm = 0.738 lb-ft, or 1 lb-ft = 1.356 Nm. European cars typically spec Nm; American cars use lb-ft."
+      },
+      {
+        "question": "Why do diesels have more torque?",
+        "answer": "Diesel engines have higher compression ratios and longer strokes, producing more force per combustion event. They generate peak torque at lower RPM, making them ideal for towing and heavy loads."
+      },
+      {
+        "question": "How does a turbocharger affect torque?",
+        "answer": "Turbochargers force more air into the engine, allowing more fuel to be burned and producing more torque from the same displacement. Modern turbos can nearly double the torque of a naturally aspirated engine."
+      }
+    ]
+  },
+  "acceleration-calculator": {
+    "title": "Acceleration Calculator - 0-60 & 0-100 Speed Tool",
+    "description": "Calculate car acceleration time from 0-60 mph or 0-100 km/h. Free online calculator for vehicle performance and speed metrics.",
+    "howItWorks": {
+      "title": "How Acceleration Calculation Works",
+      "formula": "Acceleration (a) = (Final Velocity - Initial Velocity) / Time",
+      "explanation": "This calculator determines how quickly your vehicle can reach a target speed from a standstill or any initial velocity. Acceleration is measured in meters per second squared (m/s²) or feet per second squared (ft/s²), and depends on engine power, vehicle weight, traction, and drivetrain efficiency.",
+      "steps": [
+        {
+          "name": "Enter Initial Speed",
+          "text": "Input your starting velocity (typically 0 for 0-60 tests)"
+        },
+        {
+          "name": "Enter Final Speed",
+          "text": "Input your target speed (60 mph, 100 km/h, or custom)"
+        },
+        {
+          "name": "Enter Time or Power",
+          "text": "Provide the elapsed time or vehicle specifications for calculation"
+        },
+        {
+          "name": "View Results",
+          "text": "See acceleration rate, g-force, and performance comparison"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Performance Testing",
+        "description": "Measure your vehicle's 0-60 or 0-100 acceleration time for performance benchmarking"
+      },
+      {
+        "title": "Vehicle Comparison",
+        "description": "Compare acceleration capabilities between different vehicles before purchase"
+      },
+      {
+        "title": "Modification Evaluation",
+        "description": "Assess the impact of engine tuning, weight reduction, or other modifications on acceleration"
+      },
+      {
+        "title": "Racing Preparation",
+        "description": "Calculate expected acceleration times for drag racing or track events"
+      }
+    ],
+    "seoTips": [
+      "Power-to-weight ratio is the primary factor determining acceleration performance",
+      "All-wheel drive vehicles often achieve faster 0-60 times due to better traction",
+      "Tire grip significantly affects real-world acceleration, especially in powerful vehicles",
+      "Launch control systems can improve acceleration by optimizing power delivery",
+      "Altitude and temperature affect engine performance and acceleration times"
+    ],
+    "commonMistakes": [
+      "Not accounting for wheel spin which reduces effective acceleration",
+      "Comparing acceleration times from different testing conditions or surfaces",
+      "Ignoring transmission type impact - automatics often beat manuals in 0-60 tests now",
+      "Forgetting that manufacturer 0-60 times often use rollout subtraction"
+    ],
+    "faqs": [
+      {
+        "question": "What is a good 0-60 mph time?",
+        "answer": "Under 6 seconds is considered fast for regular cars, under 4 seconds is sports car territory, and under 3 seconds is supercar/hypercar level. Average family sedans typically achieve 7-9 seconds."
+      },
+      {
+        "question": "Why is 0-60 mph used instead of 0-100 km/h?",
+        "answer": "0-60 mph is the standard in the US and UK, while 0-100 km/h is used in metric countries. 60 mph equals about 97 km/h, so the times are very similar but not identical."
+      },
+      {
+        "question": "Does weight or power matter more for acceleration?",
+        "answer": "Both matter equally in the power-to-weight ratio. Removing 100 lbs has the same effect as adding proportional horsepower. Light cars with moderate power can match heavy cars with high power."
+      },
+      {
+        "question": "How does altitude affect acceleration?",
+        "answer": "Naturally aspirated engines lose about 3% power per 1,000 feet of altitude due to thinner air. Turbocharged engines are less affected as they compress intake air."
+      }
+    ]
+  },
+  "top-speed-calculator": {
+    "title": "Top Speed Calculator - Maximum Velocity Tool",
+    "description": "Calculate vehicle top speed and maximum velocity. Free online calculator for estimating car performance and speed capabilities.",
+    "howItWorks": {
+      "title": "How Top Speed Calculation Works",
+      "formula": "Top Speed = ∛(2 × Power / (Air Density × Drag Coefficient × Frontal Area))",
+      "explanation": "Top speed is determined when engine power equals aerodynamic drag resistance. At maximum velocity, all available power is used to overcome air resistance. This calculator uses physics principles to estimate theoretical maximum speed based on power output and aerodynamic factors.",
+      "steps": [
+        {
+          "name": "Enter Engine Power",
+          "text": "Input maximum horsepower or kilowatt output"
+        },
+        {
+          "name": "Enter Aerodynamic Data",
+          "text": "Provide drag coefficient (Cd) and frontal area if known"
+        },
+        {
+          "name": "Enter Vehicle Weight",
+          "text": "Input total vehicle mass for power-to-weight calculations"
+        },
+        {
+          "name": "Calculate Results",
+          "text": "View theoretical top speed and limiting factors"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Performance Estimation",
+        "description": "Estimate maximum speed potential for performance vehicles and modifications"
+      },
+      {
+        "title": "Aerodynamic Analysis",
+        "description": "Understand how aerodynamic improvements affect high-speed capability"
+      },
+      {
+        "title": "Vehicle Comparison",
+        "description": "Compare theoretical vs manufacturer-stated top speeds across vehicles"
+      },
+      {
+        "title": "Modification Planning",
+        "description": "Determine if power or aerodynamic improvements yield better top speed gains"
+      }
+    ],
+    "seoTips": [
+      "Aerodynamic drag increases with the cube of velocity, making it the primary limiter",
+      "Reducing drag coefficient has more impact on top speed than adding equivalent power",
+      "Transmission gearing often limits top speed before aerodynamic maximum",
+      "Electronic limiters restrict top speed on many modern vehicles regardless of capability",
+      "Tire speed ratings must be considered for safe high-speed operation"
+    ],
+    "commonMistakes": [
+      "Ignoring that most production cars are electronically limited well below theoretical maximum",
+      "Not accounting for gearing limitations that prevent reaching aerodynamic top speed",
+      "Assuming more power always means proportionally higher top speed",
+      "Forgetting tire speed ratings which are safety-critical at high speeds"
+    ],
+    "faqs": [
+      {
+        "question": "Why can't my car reach its theoretical top speed?",
+        "answer": "Most cars are limited by electronic governors, transmission gearing, or tire speed ratings rather than aerodynamics. The calculated speed assumes unlimited gearing and no electronic restrictions."
+      },
+      {
+        "question": "How does drag coefficient affect top speed?",
+        "answer": "Drag coefficient is crucial at high speeds. Reducing Cd from 0.35 to 0.30 can add 10+ mph to top speed. Modern cars range from about 0.23 (Tesla Model S) to 0.45+ for boxy SUVs."
+      },
+      {
+        "question": "Does altitude affect top speed?",
+        "answer": "Yes. Lower air density at altitude reduces both drag (helpful) and engine power (harmful for naturally aspirated engines). Turbocharged cars often achieve higher top speeds at altitude."
+      },
+      {
+        "question": "What limits top speed more - power or aerodynamics?",
+        "answer": "At high speeds, aerodynamics dominate. Doubling power only increases top speed by about 26% because drag increases with velocity cubed. Improving aerodynamics is often more effective."
+      }
+    ]
+  },
+  "top_speed": {
+    "title": "Top Speed Calculator",
+    "description": "Calculate theoretical maximum speed based on engine power, aerodynamic drag, and frontal area.",
+    "horsepower": "Engine Power",
+    "horsepower_tooltip": "Maximum engine output in horsepower",
+    "drag_coefficient": "Drag Coefficient (Cd)",
+    "drag_coefficient_tooltip": "Aerodynamic drag coefficient (typical cars: 0.25-0.35)",
+    "frontal_area": "Frontal Area (m²)",
+    "frontal_area_tooltip": "Vehicle frontal cross-section area in square meters",
+    "weight": "Vehicle Weight (kg)",
+    "weight_tooltip": "Total vehicle weight in kilograms (optional, for power-to-weight ratio)",
+    "theoretical_top_speed": "Theoretical Top Speed",
+    "detailed_results": "Calculation Details",
+    "drag_force": "Drag Force at Top Speed",
+    "power_used": "Power Required",
+    "power_to_weight": "Power to Weight Ratio",
+    "formula_title": "Physics Formula",
+    "formula_explanation": "Top speed is reached when engine power equals aerodynamic drag. v = ∛(2P / (ρ × Cd × A)), where P = power in watts, ρ = air density (1.225 kg/m³), Cd = drag coefficient, A = frontal area.",
+    "about_title": "About Top Speed",
+    "about_description": "This calculator estimates theoretical top speed based on aerodynamic drag only, assuming flat ground and no rolling resistance.",
+    "typical_values_title": "Typical Values",
+    "typical_cd_sedan": "Sedan: Cd = 0.25-0.30",
+    "typical_cd_suv": "SUV: Cd = 0.35-0.45",
+    "typical_cd_sports": "Sports car: Cd = 0.28-0.35",
+    "typical_area": "Frontal area: 1.8-2.5 m² for most cars",
+    "error_missing_inputs": "Please enter horsepower, drag coefficient, and frontal area",
+    "error_positive_values": "All values must be greater than zero",
+    "error_invalid_cd": "Drag coefficient should be between 0 and 2",
+    "error_calculation": "An error occurred during calculation",
+    "placeholders": {
+      "horsepower": "300",
+      "drag_coefficient": "0.30",
+      "frontal_area": "2.2",
+      "weight": "1500"
+    },
+    "howItWorks": {
+      "title": "How Top Speed Calculation Works",
+      "formula": "v = ∛(2P / (ρ × Cd × A))",
+      "explanation": "Top speed is limited by aerodynamic drag, which increases with the cube of velocity. At top speed, all engine power is used to overcome air resistance. This calculator uses physics to estimate theoretical maximum velocity.",
+      "steps": [
+        "Enter your engine's maximum horsepower output",
+        "Enter the aerodynamic drag coefficient (Cd)",
+        "Enter the vehicle's frontal area in square meters",
+        "Optionally enter weight for power-to-weight calculations",
+        "View theoretical top speed and related metrics"
+      ]
+    },
+    "useCases": [
+      "Estimate top speed potential for vehicle modifications",
+      "Understand how aerodynamics affect high-speed performance",
+      "Compare theoretical vs actual top speeds",
+      "Evaluate the impact of aerodynamic improvements"
+    ],
+    "seoTips": [
+      "Remember this is theoretical - actual speed limited by gearing, rev limiter, and tires",
+      "Reducing drag coefficient has more impact than adding power at high speeds",
+      "Frontal area matters as much as Cd for total drag",
+      "Power-to-weight ratio indicates acceleration, not top speed"
+    ],
+    "commonMistakes": [
+      "Ignoring that gearing often limits speed before aerodynamics",
+      "Not accounting for tire speed ratings and safety limits",
+      "Assuming more power always means higher top speed",
+      "Forgetting that real-world factors like wind affect results"
+    ],
+    "faqs": [
+      {
+        "question": "Why can't my car reach the calculated top speed?",
+        "answer": "Several factors limit real-world top speed: transmission gearing (may hit rev limiter before aerodynamic limit), electronic speed limiters, tire speed ratings, and rolling resistance. The calculation assumes unlimited gearing and ideal conditions."
+      },
+      {
+        "question": "Why is drag coefficient so important?",
+        "answer": "Air resistance increases with the cube of velocity. At high speeds, most engine power fights aerodynamic drag. Reducing Cd from 0.35 to 0.30 can add 10+ mph to top speed without any power increase."
+      },
+      {
+        "question": "What is a typical drag coefficient?",
+        "answer": "Modern sedans: 0.25-0.30, SUVs: 0.35-0.45, sports cars: 0.28-0.35, trucks: 0.40-0.50. Tesla Model S is around 0.208. Lower is better for efficiency and top speed."
+      },
+      {
+        "question": "How does altitude affect top speed?",
+        "answer": "Lower air density at altitude reduces both aerodynamic drag (helpful) and engine power output (harmful for naturally aspirated engines). Turbocharged cars maintain power better at altitude, potentially achieving higher top speeds."
+      }
+    ]
+  },
+  "gear-ratio-calculator": {
+    "title": "Gear Ratio Calculator - Transmission Speed Tool",
+    "description": "Calculate gear ratios and speed for each transmission gear. Free online tool for optimizing vehicle performance and gearing.",
+    "howItWorks": {
+      "title": "How Gear Ratio Calculation Works",
+      "formula": "Overall Ratio = Transmission Ratio × Final Drive Ratio | Speed = (RPM × Tire Diameter) / (Overall Ratio × 336)",
+      "explanation": "Gear ratios determine the mechanical advantage between engine RPM and wheel speed. Lower numerical ratios provide higher top speeds, while higher numerical ratios provide more torque multiplication for acceleration. This calculator helps optimize gearing for performance or efficiency.",
+      "steps": [
+        {
+          "name": "Enter Transmission Ratios",
+          "text": "Input the gear ratio for each transmission gear"
+        },
+        {
+          "name": "Enter Final Drive Ratio",
+          "text": "Provide the differential or final drive ratio"
+        },
+        {
+          "name": "Enter Tire Size",
+          "text": "Input tire diameter to calculate actual road speed"
+        },
+        {
+          "name": "View Speed Chart",
+          "text": "See calculated speeds at various RPM points for each gear"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Performance Optimization",
+        "description": "Optimize gear ratios for drag racing, autocross, or track performance"
+      },
+      {
+        "title": "Final Drive Selection",
+        "description": "Choose the right ring and pinion ratio for your driving needs"
+      },
+      {
+        "title": "Tire Size Impact",
+        "description": "Calculate how changing tire size affects effective gearing and speedometer accuracy"
+      },
+      {
+        "title": "RPM Planning",
+        "description": "Determine what RPM you will be at for cruising speeds or at the end of a quarter mile"
+      }
+    ],
+    "seoTips": [
+      "Shorter gears (higher numerical ratio) improve acceleration but reduce top speed and fuel economy",
+      "Taller gears (lower numerical ratio) improve highway fuel economy and reduce engine wear",
+      "Consider where your engine makes peak power when selecting final drive ratios",
+      "Tire size changes effectively change your gear ratio - larger tires act like taller gearing",
+      "Calculate RPM at highway speeds to ensure engine stays in efficient operating range"
+    ],
+    "commonMistakes": [
+      "Confusing 'shorter' and 'taller' gearing terminology with numerical values",
+      "Not accounting for tire size when calculating speed from RPM",
+      "Choosing gears based only on acceleration without considering highway RPM",
+      "Forgetting that changing final drive affects ALL gears proportionally"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between transmission and final drive ratio?",
+        "answer": "Transmission ratio changes with each gear shift. Final drive ratio (differential) is constant and multiplies all transmission ratios. Overall ratio is transmission ratio times final drive ratio."
+      },
+      {
+        "question": "Should I get shorter or taller gears?",
+        "answer": "Shorter gears (higher number like 4.10) improve acceleration and towing but increase highway RPM. Taller gears (lower number like 3.23) improve fuel economy and reduce engine wear but slow acceleration."
+      },
+      {
+        "question": "How do tire size changes affect gearing?",
+        "answer": "Larger tires effectively create taller gearing (slower acceleration, lower RPM at speed). A 10% larger tire is like changing from 3.73 to 3.39 gears. Smaller tires do the opposite."
+      },
+      {
+        "question": "What RPM should I cruise at on the highway?",
+        "answer": "Most modern engines are efficient between 1,500-2,500 RPM. Higher RPM increases fuel consumption and wear. Calculate your cruise RPM when selecting final drive ratio."
+      }
+    ]
+  },
+  "braking-distance-calculator": {
+    "title": "Braking Distance Calculator - Vehicle Stopping Tool",
+    "description": "Calculate braking distance at different speeds for safe driving. Free stopping distance calculator for vehicle safety and awareness.",
+    "howItWorks": {
+      "title": "How Braking Distance Calculation Works",
+      "formula": "Braking Distance = v² / (2 × g × μ), where v = velocity, g = gravity (9.8 m/s²), μ = friction coefficient",
+      "explanation": "Braking distance is the distance your vehicle travels from the moment brakes are applied until complete stop. It increases with the square of speed and varies based on road conditions (friction coefficient). This calculator helps you understand safe stopping distances.",
+      "steps": [
+        {
+          "name": "Enter Vehicle Speed",
+          "text": "Input your current or typical driving speed"
+        },
+        {
+          "name": "Select Road Conditions",
+          "text": "Choose surface type (dry, wet, snow, ice) which affects friction"
+        },
+        {
+          "name": "Add Reaction Time",
+          "text": "Include human reaction time for total stopping distance"
+        },
+        {
+          "name": "View Results",
+          "text": "See braking distance, reaction distance, and total stopping distance"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Safe Following Distance",
+        "description": "Determine minimum safe distance behind other vehicles at various speeds"
+      },
+      {
+        "title": "Weather Awareness",
+        "description": "Understand how rain, snow, or ice affects stopping ability"
+      },
+      {
+        "title": "Driver Education",
+        "description": "Learn the physics of braking for safer driving habits"
+      },
+      {
+        "title": "Speed Planning",
+        "description": "Choose appropriate speeds for road conditions and visibility"
+      }
+    ],
+    "seoTips": [
+      "Braking distance quadruples when speed doubles (squared relationship)",
+      "Wet roads can double braking distance; ice can increase it 10x",
+      "The 3-second following rule is minimum for dry conditions at moderate speeds",
+      "Reaction distance adds significantly to total stopping distance",
+      "Good tires and brakes are critical for achieving optimal stopping distances"
+    ],
+    "commonMistakes": [
+      "Underestimating how much speed increases braking distance",
+      "Following too closely for road conditions and speed",
+      "Not accounting for reaction time (1.5 seconds average)",
+      "Assuming modern brakes overcome physics - they help but cannot defy it"
+    ],
+    "faqs": [
+      {
+        "question": "Why does braking distance increase so much with speed?",
+        "answer": "Braking distance increases with the square of velocity. Doubling your speed quadruples braking distance because kinetic energy (which brakes must dissipate) equals mass times velocity squared."
+      },
+      {
+        "question": "What is a safe following distance?",
+        "answer": "Use the 3-second rule minimum on dry roads: when the car ahead passes a point, you should reach it no sooner than 3 seconds later. Increase to 4-6 seconds in rain, 8-10 on snow/ice."
+      },
+      {
+        "question": "Does ABS reduce braking distance?",
+        "answer": "ABS prevents wheel lock-up and maintains steering control but doesn't necessarily reduce distance. On dry pavement, skilled drivers may stop equally without ABS. ABS main benefit is maintaining vehicle control."
+      },
+      {
+        "question": "How do worn tires affect braking?",
+        "answer": "Worn tires significantly increase braking distance, especially on wet roads. Tires with less than 4/32\" tread can take 30-40% longer to stop on wet pavement compared to new tires."
+      }
+    ]
+  },
+  "braking_distance": {
+    "title": "Braking Distance Calculator",
+    "description": "Calculate your vehicle's stopping distance based on speed, road conditions, and reaction time.",
+    "unit_system": "Unit System",
+    "unit_system_tooltip": "Choose between Metric (km/h, meters) or Imperial (mph, feet)",
+    "metric": "Metric (km/h, meters)",
+    "imperial": "Imperial (mph, feet)",
+    "speed_kmh": "Speed (km/h)",
+    "speed_mph": "Speed (mph)",
+    "speed_tooltip": "Current vehicle speed",
+    "road_condition": "Road Condition",
+    "road_condition_tooltip": "Select the road surface condition which affects friction",
+    "road_dry_asphalt": "Dry Asphalt",
+    "road_wet_asphalt": "Wet Asphalt",
+    "road_concrete_dry": "Dry Concrete",
+    "road_concrete_wet": "Wet Concrete",
+    "road_gravel": "Gravel",
+    "road_snow": "Snow",
+    "road_ice": "Ice",
+    "reaction_time": "Reaction Time (seconds)",
+    "reaction_time_tooltip": "Time to react and apply brakes (average is 1.5 seconds)",
+    "result_title": "Stopping Distance",
+    "total_stopping_distance": "Total Stopping Distance",
+    "detailed_results": "Distance Breakdown",
+    "reaction_distance": "Reaction Distance",
+    "braking_distance_label": "Braking Distance",
+    "friction_coefficient": "Friction Coefficient",
+    "meters": "m",
+    "feet": "ft",
+    "formula_title": "How it's Calculated",
+    "formula_explanation": "Total = Reaction Distance + Braking Distance. Braking Distance = v² / (2 × g × friction coefficient)",
+    "about_title": "About Braking Distance",
+    "about_description": "Braking distance is how far your vehicle travels after you apply the brakes until it comes to a complete stop.",
+    "factors_title": "Factors Affecting Braking Distance",
+    "factor_1": "Vehicle speed - distance increases with the square of speed",
+    "factor_2": "Road conditions - wet or icy roads significantly increase distance",
+    "factor_3": "Tire condition - worn tires reduce grip",
+    "factor_4": "Brake condition - worn brakes reduce stopping power",
+    "error_missing_speed": "Please enter speed",
+    "error_positive_speed": "Speed must be greater than zero",
+    "error_positive_reaction": "Reaction time must be 0 or greater",
+    "error_calculation": "An error occurred during calculation",
+    "placeholders": {
+      "speed_kmh": "100",
+      "speed_mph": "60",
+      "reaction_time": "1.5"
+    },
+    "howItWorks": {
+      "title": "How Braking Distance Calculation Works",
+      "formula": "Total Distance = Reaction Distance + Braking Distance = (Speed × Reaction Time) + (Speed² / (2 × g × friction))",
+      "explanation": "Stopping distance includes two parts: reaction distance (traveled while you process and begin braking) and braking distance (from brake application to stop). Both increase significantly with speed.",
+      "steps": [
+        "Select your unit system (Metric or Imperial)",
+        "Enter your current or typical driving speed",
+        "Select the road surface condition",
+        "Enter your expected reaction time (average is 1.5 seconds)",
+        "View total stopping distance and breakdown"
+      ]
+    },
+    "useCases": [
+      "Understand safe following distances at various speeds",
+      "Learn how road conditions affect stopping ability",
+      "Calculate stopping requirements for driver training",
+      "Plan safe speeds for different road conditions"
+    ],
+    "seoTips": [
+      "Double your following distance on wet roads, 10x on ice",
+      "Braking distance quadruples when speed doubles",
+      "Reaction time is affected by fatigue, distractions, and substances",
+      "Modern ABS helps maintain steering but doesn't necessarily shorten stopping distance"
+    ],
+    "commonMistakes": [
+      "Underestimating reaction time - 1.5 seconds is average, tired drivers take longer",
+      "Not accounting for how dramatically wet or icy roads increase distance",
+      "Following too closely for the speed and conditions",
+      "Assuming modern brakes and tires overcome physics"
+    ],
+    "faqs": [
+      {
+        "question": "Why does braking distance increase so much with speed?",
+        "answer": "Braking distance increases with the square of speed. Double your speed = 4x the braking distance. This is because kinetic energy increases with velocity squared, and the brakes must dissipate all that energy."
+      },
+      {
+        "question": "What is a safe following distance?",
+        "answer": "The 3-second rule is minimum for dry conditions: pick a fixed point and count 3 seconds from when the car ahead passes it until you reach it. Increase to 4-6 seconds in rain, 10+ seconds on ice."
+      },
+      {
+        "question": "Does ABS reduce stopping distance?",
+        "answer": "Not necessarily. ABS prevents wheel lock-up and maintains steering control, which is its main benefit. On dry pavement, a skilled driver without ABS might stop slightly shorter. On loose surfaces like gravel, ABS can increase stopping distance."
+      },
+      {
+        "question": "How much does tire condition affect braking?",
+        "answer": "Significantly. Worn tires can increase braking distance by 20-40%. Properly inflated, quality tires with adequate tread are crucial for safe stopping, especially on wet roads."
+      }
+    ]
+  },
+  "stopping-distance-calculator": {
+    "title": "Stopping Distance Calculator - Reaction Time Tool",
+    "description": "Calculate total stopping distance including reaction time and braking. Free online calculator for driving safety and distance awareness.",
+    "howItWorks": {
+      "title": "How Stopping Distance Calculation Works",
+      "formula": "Total Stopping Distance = Reaction Distance + Braking Distance = (Speed × Reaction Time) + (Speed² / (2 × g × μ))",
+      "explanation": "Total stopping distance combines reaction distance (traveled while your brain processes the danger and your foot moves to the brake) plus braking distance (from brake application to stop). This calculator includes both components for realistic safety planning.",
+      "steps": [
+        {
+          "name": "Enter Speed",
+          "text": "Input vehicle speed in mph or km/h"
+        },
+        {
+          "name": "Set Reaction Time",
+          "text": "Enter reaction time (average 1.5 seconds, more if tired or distracted)"
+        },
+        {
+          "name": "Select Surface Conditions",
+          "text": "Choose road conditions affecting braking friction"
+        },
+        {
+          "name": "View Total Distance",
+          "text": "See breakdown of reaction and braking distances"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Following Distance Planning",
+        "description": "Calculate minimum safe following distance for speed and conditions"
+      },
+      {
+        "title": "Speed Selection",
+        "description": "Choose safe speeds based on visibility and road conditions"
+      },
+      {
+        "title": "Hazard Awareness",
+        "description": "Understand how fatigue and distractions increase stopping distance"
+      },
+      {
+        "title": "Road Design Analysis",
+        "description": "Evaluate sight distances and stopping requirements for road safety"
+      }
+    ],
+    "seoTips": [
+      "Reaction distance is often larger than braking distance at highway speeds",
+      "Distracted driving can double or triple normal reaction time",
+      "Always leave more space than minimum calculations suggest for safety margin",
+      "Night driving requires extra distance due to reduced visibility",
+      "Heavy vehicles need significantly more stopping distance than cars"
+    ],
+    "commonMistakes": [
+      "Ignoring reaction distance which dominates at higher speeds",
+      "Using average reaction time when tired (can be 2-3 seconds or more)",
+      "Not adjusting following distance for changed road or visibility conditions",
+      "Assuming emergency braking performance matches normal braking"
+    ],
+    "faqs": [
+      {
+        "question": "What is average reaction time?",
+        "answer": "Average reaction time is 1.5 seconds for alert drivers. However, it can increase to 2-3 seconds or more if tired, distracted, or impaired. At 60 mph, each second of reaction time adds 88 feet to stopping distance."
+      },
+      {
+        "question": "How much of stopping distance is reaction distance?",
+        "answer": "At highway speeds, reaction distance is often more than half of total stopping distance. At 60 mph with 1.5-second reaction, you travel 132 feet before even touching the brakes."
+      },
+      {
+        "question": "How do grades affect stopping distance?",
+        "answer": "Downhill grades significantly increase stopping distance as gravity works against brakes. A 10% downhill grade can increase stopping distance by 20-30% or more."
+      },
+      {
+        "question": "Why do trucks need more stopping distance?",
+        "answer": "Heavy vehicles have much more momentum to dissipate. A loaded semi-truck at 65 mph needs about 525 feet to stop - nearly twice the distance of a car. This is why trucks maintain longer following distances."
+      }
+    ]
+  },
+  "stopping_distance": {
+    "title": "Stopping Distance Calculator",
+    "description": "Calculate complete stopping distance on hills and slopes, accounting for grade effects.",
+    "unit_system": "Unit System",
+    "unit_system_tooltip": "Choose between Metric (km/h, meters) or Imperial (mph, feet)",
+    "metric": "Metric (km/h, meters)",
+    "imperial": "Imperial (mph, feet)",
+    "speed_kmh": "Speed (km/h)",
+    "speed_mph": "Speed (mph)",
+    "speed_tooltip": "Current vehicle speed",
+    "surface_type": "Surface Type",
+    "surface_tooltip": "Select the road surface which affects friction coefficient",
+    "surface_dry_asphalt": "Dry Asphalt",
+    "surface_wet_asphalt": "Wet Asphalt",
+    "surface_concrete_dry": "Dry Concrete",
+    "surface_concrete_wet": "Wet Concrete",
+    "surface_gravel": "Gravel",
+    "surface_snow": "Snow",
+    "surface_ice": "Ice",
+    "grade_direction": "Slope Direction",
+    "grade_direction_tooltip": "Whether you're going uphill, downhill, or on flat road",
+    "uphill": "Uphill",
+    "downhill": "Downhill",
+    "flat": "Flat",
+    "grade_percent": "Grade (%)",
+    "grade_tooltip": "Road grade as percentage (0-45%)",
+    "result_title": "Calculated Distance",
+    "stopping_distance_label": "Stopping Distance",
+    "detailed_results": "Calculation Details",
+    "effective_friction": "Effective Friction",
+    "grade_impact": "Grade Impact",
+    "uphill_effect": "Uphill helps reduce stopping distance",
+    "downhill_effect": "Downhill increases stopping distance",
+    "extreme_downhill": "Extreme downhill - use maximum caution",
+    "warning_title": "Warning",
+    "downhill_warning": "Downhill stopping requires significantly more distance. Reduce speed on steep grades.",
+    "meters": "m",
+    "feet": "ft",
+    "formula_title": "How it's Calculated",
+    "formula_explanation": "d = v² / (2g(μ ± grade)). Positive grade for uphill, negative for downhill.",
+    "about_title": "About Stopping Distance",
+    "about_description": "This calculator accounts for road grade when calculating stopping distance, which is critical for driving on hills.",
+    "grade_effects_title": "Grade Effects",
+    "grade_effect_1": "Uphill grades add to friction, reducing stopping distance",
+    "grade_effect_2": "Downhill grades reduce effective friction, increasing stopping distance",
+    "grade_effect_3": "Steep downhill grades can dramatically increase stopping distance",
+    "error_missing_speed": "Please enter speed",
+    "error_positive_speed": "Speed must be greater than zero",
+    "error_valid_grade": "Grade must be between 0 and 45%",
+    "error_calculation": "An error occurred during calculation",
+    "placeholders": {
+      "speed_kmh": "100",
+      "speed_mph": "60",
+      "grade": "5"
+    },
+    "howItWorks": {
+      "title": "How Stopping Distance on Grades Works",
+      "formula": "Distance = v² / (2g(μ ± grade))",
+      "explanation": "Hill grade affects stopping by adding or subtracting from effective friction. Going uphill, gravity helps slow you (shorter distance). Going downhill, gravity works against brakes (longer distance).",
+      "steps": [
+        "Select your unit system",
+        "Enter your vehicle speed",
+        "Select the road surface type",
+        "Choose slope direction (uphill, downhill, or flat)",
+        "Enter the grade percentage",
+        "View stopping distance with grade adjustment"
+      ]
+    },
+    "useCases": [
+      "Calculate safe speeds for mountain driving",
+      "Understand stopping requirements on steep grades",
+      "Plan following distances on hilly roads",
+      "Learn the physics of downhill braking"
+    ],
+    "seoTips": [
+      "Downhill grades dramatically increase stopping distance - reduce speed accordingly",
+      "Use lower gears on long descents to reduce brake reliance",
+      "Factor in both grade and road conditions for mountain driving",
+      "Brake fade from overheating is a real danger on long descents"
+    ],
+    "commonMistakes": [
+      "Maintaining flat-road following distances on downhill grades",
+      "Not reducing speed before downhill sections",
+      "Overusing brakes on descents causing fade",
+      "Underestimating how much grade affects stopping"
+    ],
+    "faqs": [
+      {
+        "question": "How much does a 10% grade affect stopping distance?",
+        "answer": "A 10% downhill grade can increase stopping distance by 20-30% or more. On steep grades with poor traction, the increase is even more dramatic. Always reduce speed significantly before descending steep grades."
+      },
+      {
+        "question": "What is brake fade and how do I prevent it?",
+        "answer": "Brake fade occurs when brakes overheat and lose effectiveness. Prevent it by using engine braking (lower gears) on long descents, giving brakes time to cool, and not riding the brakes. If you smell burning brakes, pull over safely and let them cool."
+      },
+      {
+        "question": "Should I use lower gears going downhill?",
+        "answer": "Yes. Engine braking in lower gears reduces brake use and prevents overheating. Use a gear that maintains a safe speed without constant braking. Most automatic transmissions have L or numbered positions for this purpose."
+      },
+      {
+        "question": "How do grades affect trucks differently than cars?",
+        "answer": "Heavy vehicles have much more kinetic energy to dissipate when braking. A loaded truck on a steep grade may have 2-3x the stopping distance of a car. Truck escape ramps exist because runaway trucks cannot stop on steep grades."
+      }
+    ]
+  }
+}

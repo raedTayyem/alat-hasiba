@@ -1,0 +1,503 @@
+{
+  "pet_adoption_cost_calculator": {
+    "title": "Pet Adoption Cost Calculator - Annual Ownership Guide",
+    "description": "Calculate the true cost of pet ownership. Free online calculator for annual food, medical, and maintenance expenses.",
+    "input_title": "Pet Adoption Cost Calculator",
+    "pet_type": "Pet Type",
+    "pet_dog": "Dog",
+    "pet_cat": "Cat",
+    "pet_size": "Pet Size",
+    "size_small": "Small",
+    "size_medium": "Medium",
+    "size_large": "Large",
+    "food_quality": "Food Quality",
+    "quality_budget": "Budget",
+    "quality_standard": "Standard",
+    "quality_premium": "Premium",
+    "calculate_btn": "Calculate Costs",
+    "reset_btn": "Reset",
+    "results_title": "Cost Breakdown",
+    "initial_cost": "Initial Adoption Cost",
+    "currency": "$",
+    "monthly_breakdown": "Monthly Expenses",
+    "monthly_food": "Food",
+    "monthly_vet": "Veterinary",
+    "monthly_misc": "Miscellaneous",
+    "monthly_total": "Monthly Total",
+    "annual_total": "Annual Total",
+    "empty_state": "Select pet details to calculate costs",
+    "footer_note": "Costs are estimates and may vary by location and specific needs.",
+    "howItWorks": {
+      "title": "How Pet Adoption Cost Calculator Works",
+      "formula": "Total cost = Initial adoption fee + Monthly expenses × 12",
+      "explanation": "This calculator estimates the true cost of pet ownership, including initial adoption costs and ongoing monthly expenses for food, vet care, and supplies.",
+      "steps": [
+        "Select the type of pet (dog or cat)",
+        "Choose the pet size",
+        "Select food quality level",
+        "View initial and ongoing cost breakdown"
+      ]
+    },
+    "useCases": [
+      "Budgeting before adopting a pet",
+      "Comparing costs of different pet types and sizes",
+      "Understanding the true financial commitment",
+      "Planning monthly pet care expenses"
+    ],
+    "seoTips": [
+      "First-year costs are higher due to initial supplies",
+      "Large dogs cost significantly more than small dogs",
+      "Premium food increases monthly costs substantially",
+      "Emergency vet fund should be part of planning",
+      "Pet insurance can reduce unexpected costs"
+    ],
+    "commonMistakes": [
+      "Only considering adoption fee, not ongoing costs",
+      "Underestimating veterinary expenses",
+      "Forgetting about grooming and boarding costs",
+      "Not planning for emergencies"
+    ],
+    "faqs": [
+      {
+        "question": "How much does it cost to own a dog per year?",
+        "answer": "Annual dog ownership costs range from $1,000-$3,000+ depending on size and care level. Large dogs cost more for food, medication, and supplies."
+      },
+      {
+        "question": "Are cats cheaper than dogs?",
+        "answer": "Generally yes. Cats typically cost $500-$1,500 annually compared to dogs. They need less food, no walking services, and often lower vet costs."
+      },
+      {
+        "question": "What's the biggest pet expense?",
+        "answer": "Veterinary care is often the largest expense, especially unexpected emergencies. Food is the largest predictable ongoing cost."
+      },
+      {
+        "question": "Should I get pet insurance?",
+        "answer": "Pet insurance can help manage unexpected vet costs. It's most valuable for breeds prone to health issues or if you couldn't afford emergency care otherwise."
+      }
+    ]
+  },
+  "pet-adoption-cost-calculator": {
+    "title": "Pet Adoption Cost Calculator - Annual Ownership Guide",
+    "description": "Calculate the true cost of pet ownership. Free online calculator for annual food, medical, and maintenance expenses.",
+    "input_title": "Pet Adoption Cost Calculator",
+    "pet_type": "Pet Type",
+    "pet_dog": "Dog",
+    "pet_cat": "Cat",
+    "pet_size": "Pet Size",
+    "size_small": "Small",
+    "size_medium": "Medium",
+    "size_large": "Large",
+    "food_quality": "Food Quality",
+    "quality_budget": "Budget",
+    "quality_standard": "Standard",
+    "quality_premium": "Premium",
+    "calculate_btn": "Calculate Costs",
+    "reset_btn": "Reset",
+    "results_title": "Cost Breakdown",
+    "initial_cost": "Initial Adoption Cost",
+    "currency": "$",
+    "monthly_breakdown": "Monthly Expenses",
+    "monthly_food": "Food",
+    "monthly_vet": "Veterinary",
+    "monthly_misc": "Miscellaneous",
+    "monthly_total": "Monthly Total",
+    "annual_total": "Annual Total",
+    "empty_state": "Select pet details to calculate costs",
+    "footer_note": "Costs are estimates and may vary by location and specific needs.",
+    "howItWorks": {
+      "title": "How Pet Adoption Cost Calculator Works",
+      "formula": "Total Cost = Initial Costs + (Monthly Food + Vet + Supplies) × 12",
+      "explanation": "This calculator provides a comprehensive breakdown of pet ownership costs including one-time adoption expenses and recurring monthly costs for food, veterinary care, and supplies.",
+      "steps": [
+        "Select the type of pet (dog or cat)",
+        "Choose the pet's size category",
+        "Select your preferred food quality level",
+        "View initial and ongoing cost breakdown",
+        "See monthly and annual totals"
+      ]
+    },
+    "useCases": [
+      "Budgeting before adopting a pet",
+      "Comparing costs between different pet sizes",
+      "Understanding the true cost of pet ownership",
+      "Planning for ongoing pet care expenses"
+    ],
+    "seoTips": [
+      "First-year costs are higher due to initial supplies",
+      "Large dogs cost significantly more than small dogs",
+      "Premium food increases monthly costs substantially",
+      "Emergency vet fund should be part of planning",
+      "Pet insurance can reduce unexpected costs"
+    ],
+    "commonMistakes": [
+      "Only considering adoption fee, not ongoing costs",
+      "Underestimating veterinary expenses",
+      "Forgetting about grooming and boarding costs",
+      "Not planning for emergencies"
+    ],
+    "faqs": [
+      {
+        "question": "How much does it cost to own a dog per year?",
+        "answer": "Annual dog ownership costs range from $1,000-$3,000+ depending on size and care level. Large dogs cost more for food, medication, and supplies."
+      },
+      {
+        "question": "Are cats cheaper than dogs?",
+        "answer": "Generally yes. Cats typically cost $500-$1,500 annually compared to dogs. They need less food, no walking services, and often lower vet costs."
+      },
+      {
+        "question": "What's the biggest pet expense?",
+        "answer": "Veterinary care is often the largest expense, especially unexpected emergencies. Food is the largest predictable ongoing cost."
+      },
+      {
+        "question": "Should I get pet insurance?",
+        "answer": "Pet insurance can help manage unexpected vet costs. It's most valuable for breeds prone to health issues or if you couldn't afford emergency care otherwise."
+      }
+    ]
+  },
+  "pet_insurance_calculator": {
+    "title": "Pet Insurance Calculator - Compare Costs and Benefits",
+    "description": "Calculate pet insurance costs and coverage. Free online tool to find the best insurance plan for your furry friend.",
+    "tips": [
+      "Coverage for emergency vet expenses",
+      "Financial peace of mind",
+      "Access to advanced treatments",
+      "Coverage for chronic diseases"
+    ],
+    "input_title": "Pet Insurance Calculator",
+    "pet_type": "Pet Type",
+    "pet_type_tooltip": "Select the type of pet",
+    "pet_dog": "Dog",
+    "pet_cat": "Cat",
+    "pet_age": "Pet Age",
+    "pet_age_tooltip": "Enter your pet's age in years",
+    "age_unit": "years",
+    "enter_age": "Enter age",
+    "coverage_level": "Coverage Level",
+    "coverage_tooltip": "Select the insurance coverage level",
+    "coverage_basic": "Basic",
+    "coverage_standard": "Standard",
+    "coverage_premium": "Premium",
+    "coverage_comprehensive": "Comprehensive",
+    "deductible": "Annual Deductible",
+    "deductible_tooltip": "Amount you pay before insurance covers costs",
+    "deductible_250": "$250",
+    "deductible_500": "$500",
+    "deductible_1000": "$1000",
+    "calculate_btn": "Calculate Premium",
+    "reset_btn": "Reset",
+    "results_title": "Insurance Estimate",
+    "monthly_premium": "Monthly Premium",
+    "annual_premium": "Annual Premium",
+    "break_even_cost": "Break-Even Cost",
+    "lifetime_savings": "Estimated Lifetime Savings",
+    "currency": "$",
+    "tips_title": "Insurance Tips",
+    "empty_state": "Enter pet details to calculate insurance costs",
+    "footer_note": "Actual premiums may vary based on provider, location, and pet health history.",
+    "howItWorks": {
+      "title": "How Pet Insurance Calculator Works",
+      "formula": "Premium based on pet type, age, coverage level, and deductible",
+      "explanation": "This calculator estimates pet insurance costs based on key factors that insurers use to determine premiums, helping you budget for coverage.",
+      "steps": [
+        "Select your pet type (dog or cat)",
+        "Enter your pet's age",
+        "Choose desired coverage level",
+        "Select your preferred deductible",
+        "View estimated monthly and annual premiums"
+      ]
+    },
+    "useCases": [
+      "Budgeting for pet insurance premiums",
+      "Comparing different coverage levels",
+      "Understanding how deductibles affect costs",
+      "Deciding if pet insurance is worth it for your situation"
+    ],
+    "seoTips": [
+      "Insure pets when young for lower premiums",
+      "Higher deductibles mean lower monthly costs",
+      "Comprehensive coverage costs more but covers more",
+      "Pre-existing conditions are typically not covered",
+      "Compare multiple providers before deciding"
+    ],
+    "commonMistakes": [
+      "Waiting until pet is older to get insurance",
+      "Choosing lowest premium without understanding coverage",
+      "Not reading exclusions carefully",
+      "Forgetting to factor in deductible when comparing plans"
+    ],
+    "faqs": [
+      {
+        "question": "Is pet insurance worth it?",
+        "answer": "It depends on your financial situation and risk tolerance. Insurance helps spread the cost of unexpected vet bills. It's especially valuable for breeds prone to health issues."
+      },
+      {
+        "question": "What does pet insurance cover?",
+        "answer": "Most policies cover accidents and illnesses. Comprehensive plans may include wellness visits, dental, and alternative therapies. Pre-existing conditions are excluded."
+      },
+      {
+        "question": "Why does age affect premiums?",
+        "answer": "Older pets are more likely to develop health issues, making them riskier to insure. Premiums increase with age, which is why insuring young pets is more affordable."
+      },
+      {
+        "question": "What is a deductible?",
+        "answer": "The deductible is what you pay before insurance kicks in. Higher deductibles mean lower premiums but more out-of-pocket costs when you file a claim."
+      },
+      {
+        "question": "Are pre-existing conditions covered?",
+        "answer": "No, pre-existing conditions are not covered by any pet insurance. This is why insuring pets while young and healthy is important."
+      }
+    ]
+  },
+  "pet-insurance-calculator": {
+    "title": "Pet Insurance Calculator - Compare Costs and Benefits",
+    "description": "Calculate pet insurance costs and coverage. Free online tool to find the best insurance plan for your furry friend.",
+    "tips": [
+      "Coverage for emergency vet expenses",
+      "Financial peace of mind",
+      "Access to advanced treatments",
+      "Coverage for chronic diseases"
+    ],
+    "input_title": "Pet Insurance Calculator",
+    "pet_type": "Pet Type",
+    "pet_type_tooltip": "Select the type of pet",
+    "pet_dog": "Dog",
+    "pet_cat": "Cat",
+    "pet_age": "Pet Age",
+    "pet_age_tooltip": "Enter your pet's age in years",
+    "age_unit": "years",
+    "enter_age": "Enter age",
+    "coverage_level": "Coverage Level",
+    "coverage_tooltip": "Select the insurance coverage level",
+    "coverage_basic": "Basic",
+    "coverage_standard": "Standard",
+    "coverage_premium": "Premium",
+    "coverage_comprehensive": "Comprehensive",
+    "deductible": "Annual Deductible",
+    "deductible_tooltip": "Amount you pay before insurance covers costs",
+    "deductible_250": "$250",
+    "deductible_500": "$500",
+    "deductible_1000": "$1000",
+    "calculate_btn": "Calculate Premium",
+    "reset_btn": "Reset",
+    "results_title": "Insurance Estimate",
+    "monthly_premium": "Monthly Premium",
+    "annual_premium": "Annual Premium",
+    "break_even_cost": "Break-Even Cost",
+    "lifetime_savings": "Estimated Lifetime Savings",
+    "currency": "$",
+    "tips_title": "Insurance Tips",
+    "empty_state": "Enter pet details to calculate insurance costs",
+    "footer_note": "Actual premiums may vary based on provider, location, and pet health history.",
+    "howItWorks": {
+      "title": "How Pet Insurance Calculator Works",
+      "formula": "Premium based on pet type, age, coverage level, and deductible",
+      "explanation": "This calculator estimates pet insurance costs based on key factors that insurers use to determine premiums, helping you budget for coverage.",
+      "steps": [
+        "Select your pet type (dog or cat)",
+        "Enter your pet's age",
+        "Choose desired coverage level",
+        "Select your preferred deductible",
+        "View estimated monthly and annual premiums"
+      ]
+    },
+    "useCases": [
+      "Budgeting for pet insurance premiums",
+      "Comparing different coverage levels",
+      "Understanding how deductibles affect costs",
+      "Deciding if pet insurance is worth it for your situation"
+    ],
+    "seoTips": [
+      "Insure pets when young for best rates",
+      "Higher deductibles lower monthly premiums",
+      "Comprehensive coverage costs more but offers better protection",
+      "Pre-existing conditions are typically not covered",
+      "Compare multiple providers before choosing"
+    ],
+    "commonMistakes": [
+      "Waiting until pet is old or sick to get insurance",
+      "Not reading policy exclusions carefully",
+      "Choosing the cheapest plan without comparing coverage",
+      "Forgetting about waiting periods for new policies"
+    ],
+    "faqs": [
+      {
+        "question": "Is pet insurance worth it?",
+        "answer": "Pet insurance provides peace of mind for unexpected emergencies. It's most valuable for breeds prone to health issues or if a major vet bill would cause financial hardship."
+      },
+      {
+        "question": "What does pet insurance cover?",
+        "answer": "Most policies cover accidents, illnesses, and emergencies. Comprehensive plans may include preventive care, dental, and alternative therapies. Pre-existing conditions are excluded."
+      },
+      {
+        "question": "How do deductibles work?",
+        "answer": "You pay the deductible amount before insurance kicks in. Annual deductibles reset each year. Higher deductibles mean lower premiums but more out-of-pocket costs."
+      },
+      {
+        "question": "When should I get pet insurance?",
+        "answer": "The best time is when your pet is young and healthy. Premiums are lower and pre-existing conditions won't be an issue. Many start at 8 weeks old."
+      },
+      {
+        "question": "Does insurance cover routine vet visits?",
+        "answer": "Basic plans typically don't cover wellness visits. Premium or comprehensive plans may include preventive care like vaccinations and annual checkups."
+      }
+    ]
+  },
+  "pet_travel_calculator": {
+    "title": "Pet Travel Calculator - Shipping and Transport Costs",
+    "description": "Calculate pet travel costs and requirements. Free online guide for international pet relocation and transport.",
+    "input_title": "Pet Travel Calculator",
+    "pet_type": "Pet Type",
+    "pet_dog": "Dog",
+    "pet_cat": "Cat",
+    "pet_weight": "Pet Weight",
+    "kg": "kg",
+    "enter_weight": "Enter weight",
+    "travel_type": "Travel Type",
+    "travel_domestic": "Domestic",
+    "travel_international": "International",
+    "transport_mode": "Transport Mode",
+    "transport_air": "Air",
+    "transport_ground": "Ground",
+    "calculate_btn": "Calculate Costs",
+    "reset_btn": "Reset",
+    "results_title": "Travel Cost Estimate",
+    "total_cost": "Total Cost",
+    "currency": "$",
+    "carrier_cost": "Carrier/Crate",
+    "health_cert_cost": "Health Certificate",
+    "transport_cost_label": "Transport",
+    "tips_title": "Travel Requirements",
+    "empty_state": "Enter pet details to calculate travel costs",
+    "footer_note": "Costs are estimates and may vary by airline, route, and destination requirements.",
+    "howItWorks": {
+      "title": "How Pet Travel Calculator Works",
+      "formula": "Total cost = Carrier + Health certificate + Transport fees",
+      "explanation": "This calculator estimates the cost of traveling with your pet, including required documentation, appropriate carriers, and transport fees for domestic or international travel.",
+      "steps": [
+        "Select your pet type",
+        "Enter your pet's weight",
+        "Choose domestic or international travel",
+        "Select transport mode (air or ground)",
+        "View itemized cost breakdown"
+      ]
+    },
+    "useCases": [
+      "Budgeting for moving with pets",
+      "Planning vacation travel with pets",
+      "Understanding pet import/export requirements",
+      "Comparing air vs. ground transport costs"
+    ],
+    "seoTips": [
+      "Start planning pet travel 2-3 months ahead",
+      "International travel requires USDA health certificates",
+      "Airline policies vary significantly",
+      "Some countries have quarantine requirements",
+      "Microchipping is required for most international travel"
+    ],
+    "commonMistakes": [
+      "Not checking destination country requirements early",
+      "Booking flights without confirming pet policy",
+      "Using wrong carrier size",
+      "Not allowing time for required vaccinations"
+    ],
+    "faqs": [
+      {
+        "question": "What documents do I need to travel with my pet?",
+        "answer": "Domestic travel typically needs a recent health certificate. International travel requires USDA-endorsed certificates, updated vaccinations, and possibly microchipping and quarantine."
+      },
+      {
+        "question": "Can my pet fly in the cabin?",
+        "answer": "Small pets (usually under 8-10kg including carrier) can often fly in-cabin. Larger pets must travel in cargo. Policies vary by airline."
+      },
+      {
+        "question": "How far in advance should I plan?",
+        "answer": "For domestic travel, 2-4 weeks. International travel requires 2-3 months for documentation, vaccinations, and meeting destination requirements."
+      },
+      {
+        "question": "Is air travel safe for pets?",
+        "answer": "Most pets travel safely, but there are risks. Brachycephalic breeds (flat-faced) have higher risks. Many airlines restrict them during hot months."
+      },
+      {
+        "question": "What carrier size do I need?",
+        "answer": "Your pet should be able to stand, turn around, and lie down comfortably. Airlines have specific size requirements for in-cabin and cargo carriers."
+      }
+    ]
+  },
+  "pet-travel-calculator": {
+    "title": "Pet Travel Calculator - Shipping and Transport Costs",
+    "description": "Calculate pet travel costs and requirements. Free online guide for international pet relocation and transport.",
+    "input_title": "Pet Travel Calculator",
+    "pet_type": "Pet Type",
+    "pet_dog": "Dog",
+    "pet_cat": "Cat",
+    "pet_weight": "Pet Weight",
+    "kg": "kg",
+    "enter_weight": "Enter weight",
+    "travel_type": "Travel Type",
+    "travel_domestic": "Domestic",
+    "travel_international": "International",
+    "transport_mode": "Transport Mode",
+    "transport_air": "Air",
+    "transport_ground": "Ground",
+    "calculate_btn": "Calculate Costs",
+    "reset_btn": "Reset",
+    "results_title": "Travel Cost Estimate",
+    "total_cost": "Total Cost",
+    "currency": "$",
+    "carrier_cost": "Carrier/Crate",
+    "health_cert_cost": "Health Certificate",
+    "transport_cost_label": "Transport",
+    "tips_title": "Travel Requirements",
+    "empty_state": "Enter pet details to calculate travel costs",
+    "footer_note": "Costs are estimates and may vary by airline, route, and destination requirements.",
+    "howItWorks": {
+      "title": "How Pet Travel Calculator Works",
+      "formula": "Total Cost = Transport Fee + Carrier Cost + Health Certificates + Documentation",
+      "explanation": "This calculator estimates the total cost of traveling with your pet, including transportation, required documentation, carriers, and health certificates.",
+      "steps": [
+        "Select your pet type and weight",
+        "Choose domestic or international travel",
+        "Select transport mode (air or ground)",
+        "View itemized cost breakdown",
+        "Review required documentation"
+      ]
+    },
+    "useCases": [
+      "Budgeting for relocating with pets",
+      "Planning pet-friendly vacations",
+      "Understanding international pet import requirements",
+      "Comparing air vs ground transport costs"
+    ],
+    "seoTips": [
+      "Start pet travel planning 2-3 months in advance",
+      "International travel requires more documentation",
+      "Airline pet policies vary significantly",
+      "Some countries require quarantine periods",
+      "Health certificates have limited validity windows"
+    ],
+    "commonMistakes": [
+      "Not checking airline pet policies in advance",
+      "Forgetting about destination country requirements",
+      "Getting health certificates too early (they expire)",
+      "Using the wrong size carrier for the pet"
+    ],
+    "faqs": [
+      {
+        "question": "How much does it cost to fly with a pet?",
+        "answer": "Domestic flights: $100-200 cabin, $200-500 cargo. International flights: $500-2000+ depending on destination. Larger pets cost more."
+      },
+      {
+        "question": "What documents do I need to travel with my pet?",
+        "answer": "Minimum: health certificate from a vet (usually within 10 days of travel). International: may need rabies titer tests, import permits, and specific vaccinations."
+      },
+      {
+        "question": "Can my pet fly in the cabin?",
+        "answer": "Small pets (usually under 20 lbs with carrier) can often fly in-cabin for a fee. Larger pets must travel in cargo. Policies vary by airline."
+      },
+      {
+        "question": "Is pet travel safe?",
+        "answer": "When done properly with appropriate carriers and following airline guidelines, pet travel is generally safe. Avoid extreme temperatures and sedation unless vet-recommended."
+      }
+    ]
+  }
+}

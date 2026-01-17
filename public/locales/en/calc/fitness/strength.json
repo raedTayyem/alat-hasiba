@@ -1,0 +1,1242 @@
+{
+  "one-rep-max-calculator": {
+    "title": "One Rep Max (1RM) Calculator - Free Strength Tool",
+    "description": "Calculate your estimated one-rep max for any lift. Free online strength and powerlifting performance calculator.",
+    "howItWorks": {
+      "title": "How the 1RM Calculator Works",
+      "formula": "Epley Formula: 1RM = Weight × (1 + Reps ÷ 30)",
+      "explanation": "This calculator estimates the maximum weight you can lift for one repetition based on a weight you lifted for multiple reps. This helps you know your max strength without risking injury from an actual 1RM test.",
+      "steps": [
+        {
+          "name": "Enter Weight",
+          "text": "Input the weight you lifted in your last set"
+        },
+        {
+          "name": "Enter Reps",
+          "text": "Input the number of reps you completed with proper form"
+        },
+        {
+          "name": "Calculate 1RM",
+          "text": "The tool applies multiple formulas and gives you the estimate"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Programming Workouts",
+        "description": "Determine training weights as percentages of 1RM"
+      },
+      {
+        "title": "Measuring Progress",
+        "description": "Track strength increases over time"
+      },
+      {
+        "title": "Competition Prep",
+        "description": "Estimate attempt weights for powerlifting competitions"
+      }
+    ],
+    "seoTips": [
+      "Use 3-6 reps for more accurate estimates",
+      "Ensure reps are performed with proper technique",
+      "Recalculate every 4-6 weeks to update your program",
+      "Don't attempt actual 1RM tests without a spotter"
+    ],
+    "commonMistakes": [
+      "Using more than 10 reps which reduces accuracy",
+      "Counting reps with poor technique or assistance",
+      "Not warming up properly before the test set",
+      "Relying on estimates without actually testing weights"
+    ],
+    "faqs": [
+      {
+        "question": "How accurate are 1RM estimates?",
+        "answer": "Very accurate with 3-6 reps (±5%), accuracy decreases with more reps."
+      },
+      {
+        "question": "Should I test my actual 1RM?",
+        "answer": "Not necessary for beginners - estimates are sufficient. Advanced lifters may need it for competitions."
+      },
+      {
+        "question": "How do I use 1RM in training?",
+        "answer": "Use percentages: 70-80% for hypertrophy, 80-90% for strength, 90%+ for max strength."
+      }
+    ]
+  },
+  "workout-volume-calculator": {
+    "title": "Workout Volume Calculator - Daily Training Volume Tool",
+    "description": "Calculate your total training volume for strength and hypertrophy. Free online weekly volume tracker for better progress.",
+    "howItWorks": {
+      "title": "How the Workout Volume Calculator Works",
+      "formula": "Training Volume = Sets × Reps × Weight",
+      "explanation": "This tool calculates the total training volume you perform weekly. Training volume is the primary driver of muscle growth, and monitoring it helps you progress and avoid overtraining.",
+      "steps": [
+        {
+          "name": "Enter Sets",
+          "text": "Input the number of sets for each exercise"
+        },
+        {
+          "name": "Enter Reps and Weight",
+          "text": "Input the reps and weight used"
+        },
+        {
+          "name": "Calculate Volume",
+          "text": "The tool calculates total weekly volume"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Progressive Overload",
+        "description": "Systematically increase volume to stimulate growth"
+      },
+      {
+        "title": "Avoiding Overtraining",
+        "description": "Monitor volume to prevent fatigue and injuries"
+      },
+      {
+        "title": "Comparing Programs",
+        "description": "Evaluate effectiveness of different training programs"
+      }
+    ],
+    "seoTips": [
+      "Increase volume by 5-10% weekly for continuous progress",
+      "Monitor volume for each muscle group separately",
+      "10-20 sets per muscle group weekly is optimal",
+      "Reduce volume during deload weeks"
+    ],
+    "commonMistakes": [
+      "Increasing volume too quickly causing fatigue",
+      "Focusing on volume only and neglecting intensity",
+      "Not tracking volume for each muscle group",
+      "Comparing your volume to others at different levels"
+    ],
+    "faqs": [
+      {
+        "question": "What's optimal volume for hypertrophy?",
+        "answer": "10-20 sets per muscle group weekly for intermediate trainees."
+      },
+      {
+        "question": "Is volume more important than intensity?",
+        "answer": "Both matter - volume drives hypertrophy, intensity drives strength."
+      },
+      {
+        "question": "When should I reduce volume?",
+        "answer": "When feeling persistent fatigue, decreased performance, or every 4-6 weeks."
+      }
+    ]
+  },
+  "wilks-coefficient-calculator": {
+    "title": "Wilks Coefficient Calculator - Relative Strength Score",
+    "description": "Calculate your Wilks score to compare your powerlifting strength across different body weights. Free powerlifting tool.",
+    "howItWorks": {
+      "title": "How the Wilks Calculator Works",
+      "formula": "Wilks = Total Lifted × Coefficient (based on body weight and gender)",
+      "explanation": "The Wilks coefficient is a mathematical formula that allows comparing strength between lifters of different weights and genders. It's used in powerlifting competitions to determine the relatively strongest lifter.",
+      "steps": [
+        {
+          "name": "Enter Data",
+          "text": "Input your body weight and gender"
+        },
+        {
+          "name": "Enter Total",
+          "text": "Input the sum of your best attempts in all three lifts"
+        },
+        {
+          "name": "Calculate Score",
+          "text": "The tool calculates your Wilks score and performance level"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Powerlifting Competitions",
+        "description": "Determine the winner between lifters from different weight classes"
+      },
+      {
+        "title": "Progress Tracking",
+        "description": "Know if your strength is improving relative to your weight"
+      },
+      {
+        "title": "Performance Comparison",
+        "description": "Compare yourself against global standards"
+      }
+    ],
+    "seoTips": [
+      "300+ is considered average, 400+ advanced, 500+ elite",
+      "Focus on improving your score rather than comparing to others",
+      "Score may decrease if weight increases without strength gains",
+      "Use the score to evaluate your program's effectiveness"
+    ],
+    "commonMistakes": [
+      "Comparing male and female scores (standards are different)",
+      "Not using actual best attempts",
+      "Entering body weight after eating instead of competition weight",
+      "Expecting large score improvements quickly"
+    ],
+    "faqs": [
+      {
+        "question": "What's a good Wilks score?",
+        "answer": "300+ average, 400+ advanced, 450+ elite, 500+ world-class for men."
+      },
+      {
+        "question": "Is Wilks perfect for comparison?",
+        "answer": "It's most widely used, but alternatives like DOTS and IPF Points exist."
+      },
+      {
+        "question": "How do I improve my Wilks score?",
+        "answer": "By increasing strength faster than weight, or reducing weight while maintaining strength."
+      }
+    ]
+  },
+  "rep-range-calculator": {
+    "title": "Rep Range Calculator - Choose the Right Reps for Your Goal",
+    "description": "Calculate the best rep ranges for strength, hypertrophy, or endurance. Free online workout planning tool.",
+    "howItWorks": {
+      "title": "How the Rep Range Calculator Works",
+      "formula": "Strength: 1-5 reps (85-100% 1RM), Hypertrophy: 6-12 (65-85%), Endurance: 12-20 (50-65%)",
+      "explanation": "Different rep ranges target different muscle adaptations. This calculator helps you choose the right range for your goal and calculates suggested weight based on your 1RM.",
+      "steps": [
+        {
+          "name": "Set Goal",
+          "text": "Choose your goal (strength, hypertrophy, endurance)"
+        },
+        {
+          "name": "Enter 1RM",
+          "text": "Input the maximum weight you can lift for one rep"
+        },
+        {
+          "name": "View Recommendations",
+          "text": "The tool shows rep ranges and suggested weights"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Workout Programming",
+        "description": "Determine reps and weights for each exercise"
+      },
+      {
+        "title": "Changing Goals",
+        "description": "Transition from a strength program to hypertrophy or vice versa"
+      },
+      {
+        "title": "Variety",
+        "description": "Change rep ranges periodically to avoid plateaus"
+      }
+    ],
+    "seoTips": [
+      "For max strength: 1-5 reps with heavy weights",
+      "For hypertrophy: 6-12 reps with moderate-heavy weights",
+      "For endurance: 12-20 reps with light-moderate weights",
+      "Vary ranges every 4-6 weeks for continuous progress"
+    ],
+    "commonMistakes": [
+      "Always using the same rep range",
+      "Choosing a range that doesn't match your goal",
+      "Ignoring the importance of appropriate weight for each range",
+      "Not reaching muscle failure on the last set"
+    ],
+    "faqs": [
+      {
+        "question": "Which range is best for building muscle?",
+        "answer": "6-12 reps is best for hypertrophy, but variety is beneficial."
+      },
+      {
+        "question": "Can I build muscle with high reps?",
+        "answer": "Yes, if you reach muscle failure, but it's less efficient."
+      },
+      {
+        "question": "How much rest between sets?",
+        "answer": "For strength: 3-5 minutes, for hypertrophy: 1-2 minutes, for endurance: 30-60 seconds."
+      }
+    ]
+  },
+  "deload-week-calculator": {
+    "title": "Deload Week Calculator - Active Recovery Planning",
+    "description": "Determine the right time for a deload week to avoid overtraining and optimize long-term progress. Free fitness tool.",
+    "howItWorks": {
+      "title": "How the Deload Week Calculator Works",
+      "formula": "Deload Need = Training Weeks × Training Intensity ÷ Experience Level",
+      "explanation": "A deload week is when you reduce training volume and intensity to allow the nervous system and joints to recover. This tool helps you determine when you need a deload week.",
+      "steps": [
+        {
+          "name": "Enter Training Weeks",
+          "text": "Input the number of consecutive intense training weeks"
+        },
+        {
+          "name": "Set Intensity",
+          "text": "Select your current training intensity"
+        },
+        {
+          "name": "Set Experience",
+          "text": "Select your training experience level"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Preventing Overtraining",
+        "description": "Avoid nervous system and physical fatigue"
+      },
+      {
+        "title": "Periodization Planning",
+        "description": "Schedule deload periods in your program"
+      },
+      {
+        "title": "Performance Improvement",
+        "description": "Regular deloading improves long-term performance"
+      }
+    ],
+    "seoTips": [
+      "Plan a deload week every 4-6 weeks of intense training",
+      "Reduce volume by 40-60% while maintaining intensity",
+      "Continue going to the gym but with lighter loads",
+      "Use this week to focus on technique"
+    ],
+    "commonMistakes": [
+      "Ignoring the need for deload and training until injury",
+      "Complete rest instead of active deload",
+      "Training at the same intensity during deload week",
+      "Not regularly scheduling deload weeks"
+    ],
+    "faqs": [
+      {
+        "question": "When do I need a deload week?",
+        "answer": "Every 4-6 weeks for advanced, every 6-8 weeks for beginners."
+      },
+      {
+        "question": "How do I deload?",
+        "answer": "Reduce volume by 40-60% while maintaining or slightly reducing weights."
+      },
+      {
+        "question": "Does deloading weaken muscles?",
+        "answer": "No, one week doesn't cause muscle loss - it allows for growth."
+      }
+    ]
+  },
+  "athletic-performance-calculator": {
+    "title": "Athletic Performance Calculator - Assess Fitness Level",
+    "description": "Evaluate your overall athletic performance level and compare against standards for various sports and disciplines.",
+    "howItWorks": {
+      "title": "How the Athletic Performance Calculator Works",
+      "formula": "Total Score = Average of (Speed + Explosive Power + Upper Body Strength + Lower Body Strength)",
+      "explanation": "This tool evaluates your overall athletic performance based on multiple physical tests. It compares your results to recognized athletic standards to determine your level and strengths and weaknesses.",
+      "steps": [
+        {
+          "name": "Enter Test Results",
+          "text": "Input results from speed, jumping, and strength tests"
+        },
+        {
+          "name": "Compare to Standards",
+          "text": "The tool compares your results to athletic standards"
+        },
+        {
+          "name": "View Assessment",
+          "text": "Get overall and detailed scores for each area"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Overall Fitness Assessment",
+        "description": "Know your general athletic level"
+      },
+      {
+        "title": "Identifying Weaknesses",
+        "description": "Find areas that need development"
+      },
+      {
+        "title": "Sport Selection",
+        "description": "Find sports that match your abilities"
+      }
+    ],
+    "seoTips": [
+      "Perform tests after a good warm-up",
+      "Repeat tests every 2-3 months to track progress",
+      "Focus training on your weaknesses",
+      "Don't compare yourself to professional athletes"
+    ],
+    "commonMistakes": [
+      "Testing without adequate warm-up",
+      "Testing everything in one day",
+      "Focusing only on strengths",
+      "Ignoring the importance of endurance and flexibility"
+    ],
+    "faqs": [
+      {
+        "question": "What's a good score?",
+        "answer": "60-70% average, 70-80% good, 80%+ excellent for amateurs."
+      },
+      {
+        "question": "How do I improve my score?",
+        "answer": "Through balanced training including strength, speed, and explosive power."
+      },
+      {
+        "question": "Are the tests accurate?",
+        "answer": "Estimated, but they give a good picture of your general level."
+      }
+    ]
+  },
+  "training-age-calculator": {
+    "title": "Training Age Calculator - Experience Level Tool",
+    "description": "Assess your training experience level based on gym years and consistency. Free tool for realistic progress expectations.",
+    "howItWorks": {
+      "title": "How the Training Age Calculator Works",
+      "formula": "Training Age = Years of consistent training accounting for breaks",
+      "explanation": "Training age differs from actual years of training. It considers training quality and consistency. This helps determine your true experience level and appropriate programming.",
+      "steps": [
+        {
+          "name": "Enter Start Date",
+          "text": "Input when you started regular training"
+        },
+        {
+          "name": "Account for Breaks",
+          "text": "The tool calculates break periods if any"
+        },
+        {
+          "name": "Determine Level",
+          "text": "The tool determines your experience level (beginner, intermediate, advanced)"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Training Programming",
+        "description": "Choose a program that fits your experience level"
+      },
+      {
+        "title": "Realistic Expectations",
+        "description": "Understand what can be achieved at your level"
+      },
+      {
+        "title": "Progress Planning",
+        "description": "Determine the next phase in your training journey"
+      }
+    ],
+    "seoTips": [
+      "Beginners (0-1 year) progress quickly with any reasonable program",
+      "Intermediates (1-3 years) need better programming",
+      "Advanced (3+ years) need specialized programs",
+      "Long breaks reduce effective training age"
+    ],
+    "commonMistakes": [
+      "Considering gym membership years as training age",
+      "Ignoring breaks and inconsistent training periods",
+      "Choosing advanced programs for beginners",
+      "Undervaluing actual experience"
+    ],
+    "faqs": [
+      {
+        "question": "What's the difference between training age and actual years?",
+        "answer": "Training age only counts effective and consistent training."
+      },
+      {
+        "question": "Do I become a beginner again after a long break?",
+        "answer": "Partially, but muscle memory helps you recover faster."
+      },
+      {
+        "question": "How does training age affect progress?",
+        "answer": "As training age increases, progress slows and you need better programming."
+      }
+    ]
+  },
+  "vertical-jump-calculator": {
+    "title": "Vertical Jump Calculator - Jump Height and Power",
+    "description": "Calculate your vertical jump height and explosive lower-body power. Free online tool for athletes and dunkers.",
+    "howItWorks": {
+      "title": "How the Vertical Jump Calculator Works",
+      "formula": "Jump Height = Reach at Jump - Standing Reach, Power (W) = √(4.9 × body weight × jump height) × 9.81",
+      "explanation": "This tool calculates your vertical jump height and explosive power for lower body muscles. Vertical jump is an important indicator of explosive power needed in most sports.",
+      "steps": [
+        {
+          "name": "Measure Standing Reach",
+          "text": "Measure the highest point you can reach while standing flat-footed"
+        },
+        {
+          "name": "Measure Jump Reach",
+          "text": "Measure the highest point you reach at the top of your jump"
+        },
+        {
+          "name": "Calculate Height and Power",
+          "text": "The tool calculates jump height and explosive power"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Athlete Assessment",
+        "description": "Important in basketball, volleyball, and track and field"
+      },
+      {
+        "title": "Progress Tracking",
+        "description": "Track explosive power improvements with training"
+      },
+      {
+        "title": "Fitness Testing",
+        "description": "Part of fitness tests in most sports"
+      }
+    ],
+    "seoTips": [
+      "Warm up well before testing",
+      "Jump multiple times and take the best attempt",
+      "Use arm swing to improve jump",
+      "40-50 cm is good for amateurs, 60+ cm for athletes"
+    ],
+    "commonMistakes": [
+      "Not warming up adequately before testing",
+      "Testing after an exhausting workout",
+      "Not using proper jumping technique",
+      "Jumping from movement instead of standing"
+    ],
+    "faqs": [
+      {
+        "question": "What's a good vertical jump?",
+        "answer": "40-50 cm average, 50-60 cm good, 60+ cm excellent for adult males."
+      },
+      {
+        "question": "How do I improve my jump?",
+        "answer": "Through plyometrics, squats, deadlifts, and improving technique."
+      },
+      {
+        "question": "Does weight affect jumping?",
+        "answer": "Yes, reducing body fat and increasing strength improves jumping."
+      }
+    ]
+  },
+  "one_rep_max": {
+    "title": "One Rep Max (1RM) Calculator",
+    "description": "Calculate the maximum weight you can lift for a single repetition based on your lifts.",
+    "keywords": "weightlifting, bodybuilding, 1RM, strength",
+    "inputs": {
+      "title": "Lift Data",
+      "weight": "Weight Lifted",
+      "reps": "Number of Repitions"
+    },
+    "tooltips": {
+      "weight": "The weight you lifted",
+      "reps": "The number of times you lifted the weight correctly (1-12)"
+    },
+    "placeholders": {
+      "weight": "Enter weight (kg)",
+      "reps": "Enter reps"
+    },
+    "results": {
+      "title": "Estimated Strength Levels",
+      "average_1rm": "Estimated Average 1RM",
+      "unit": "kg",
+      "formulas": {
+        "epley": "Epley",
+        "brzycki": "Brzycki",
+        "lander": "Lander"
+      },
+      "percentages_title": "Suggested Training Weights",
+      "percentages_unit": "kg",
+      "note_title": "Important Note",
+      "note_content": "These results are estimates. Actual strength varies based on many factors. Use these numbers as a starting point for your training program."
+    },
+    "errors": {
+      "all_fields": "Please enter weight and number of repetitions",
+      "invalid_weight": "Please enter a valid weight",
+      "invalid_reps": "Number of repetitions must be between 1 and 12 for formula accuracy",
+      "empty_state": {
+        "text": "Enter weight and reps to calculate your max strength"
+      }
+    },
+    "empty_state": {
+      "text": "Enter weight and reps to calculate your max strength"
+    },
+    "howItWorks": {
+      "title": "How the One Rep Max Calculator Works",
+      "formula": "Epley Formula: 1RM = Weight × (1 + Reps ÷ 30)",
+      "explanation": "This calculator estimates the maximum weight you can lift for one repetition based on the weight and reps you performed. Multiple scientifically-validated formulas (Epley, Brzycki, Lander) are used to provide an accurate average estimate without risking injury from an actual max attempt.",
+      "steps": [
+        {
+          "name": "Enter Weight",
+          "text": "Input the weight you lifted in your working set"
+        },
+        {
+          "name": "Enter Reps",
+          "text": "Input the number of repetitions completed with proper form"
+        },
+        {
+          "name": "Calculate 1RM",
+          "text": "The calculator applies multiple formulas and provides your estimated max"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Training Programming",
+        "description": "Determine training weights as percentages of your 1RM for different goals"
+      },
+      {
+        "title": "Strength Progress Tracking",
+        "description": "Monitor strength gains over time without maxing out"
+      },
+      {
+        "title": "Competition Preparation",
+        "description": "Estimate attempt weights for powerlifting meets"
+      }
+    ],
+    "seoTips": [
+      "Use 3-6 reps for the most accurate estimates",
+      "Ensure all reps are performed with proper technique",
+      "Recalculate every 4-6 weeks to update your training program",
+      "Never attempt actual 1RM lifts without proper warm-up and spotters"
+    ],
+    "commonMistakes": [
+      "Using more than 10 reps which significantly reduces accuracy",
+      "Counting reps with poor form or excessive assistance",
+      "Not warming up properly before the test set",
+      "Attempting actual 1RM tests too frequently"
+    ],
+    "faqs": [
+      {
+        "question": "How accurate are 1RM estimates?",
+        "answer": "Estimates are most accurate (within 5%) when using 3-6 reps. Accuracy decreases with higher rep counts."
+      },
+      {
+        "question": "Should I test my actual 1RM?",
+        "answer": "Not necessary for most trainees. Estimates work well for programming. Only competitive powerlifters need to test actual maxes."
+      },
+      {
+        "question": "How do I use 1RM in my training?",
+        "answer": "Use percentages: 70-80% for hypertrophy (8-12 reps), 80-90% for strength (3-6 reps), 90%+ for peaking."
+      }
+    ]
+  },
+  "athletic_performance": {
+    "title": "Athletic Performance Calculator",
+    "description": "Evaluate your overall athletic performance level and compare against standards.",
+    "sprint_label": "40m Sprint",
+    "sprint_tooltip": "Time to sprint 40 meters (seconds)",
+    "jump_label": "Vertical Jump",
+    "jump_tooltip": "Maximum vertical jump height (cm)",
+    "bench_label": "Bench Press",
+    "bench_tooltip": "Max bench press weight (kg)",
+    "squat_label": "Squat",
+    "squat_tooltip": "Max squat weight (kg)",
+    "weight_label": "Body Weight",
+    "weight_tooltip": "Your current body weight (kg)",
+    "enter_time": "Enter time",
+    "enter_cm": "Enter cm",
+    "enter_kg": "Enter kg",
+    "calculate_btn": "Calculate Score",
+    "reset_btn": "Reset",
+    "results_title": "Performance Score",
+    "overall_score": "Overall Score",
+    "category": "Category:",
+    "strengths_title": "Key Strengths",
+    "elite": "Elite",
+    "excellent": "Excellent",
+    "good": "Good",
+    "average": "Average",
+    "speed": "Speed",
+    "power": "Power",
+    "upper_strength": "Upper Body Strength",
+    "lower_strength": "Lower Body Strength",
+    "empty_state": "Enter your performance metrics to calculate your score",
+    "footer_note": "Scores are approximate and based on general athletic standards.",
+    "howItWorks": {
+      "title": "How the Athletic Performance Calculator Works",
+      "formula": "Overall Score = Weighted Average of (Speed Score + Power Score + Upper Strength Score + Lower Strength Score)",
+      "explanation": "This comprehensive tool evaluates your overall athletic performance by testing multiple physical attributes. Each test result is compared against established athletic standards to provide scores in speed, explosive power, and upper and lower body strength.",
+      "steps": [
+        {
+          "name": "Complete Tests",
+          "text": "Perform the 40m sprint, vertical jump, bench press, and squat tests"
+        },
+        {
+          "name": "Enter Results",
+          "text": "Input your test results along with your body weight"
+        },
+        {
+          "name": "View Assessment",
+          "text": "Get your overall score and breakdown by athletic attribute"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Overall Fitness Assessment",
+        "description": "Get an objective measure of your general athletic ability"
+      },
+      {
+        "title": "Weakness Identification",
+        "description": "Discover which physical attributes need the most improvement"
+      },
+      {
+        "title": "Sport Selection",
+        "description": "Identify sports that align with your natural athletic strengths"
+      }
+    ],
+    "seoTips": [
+      "Perform all tests after a thorough warm-up for accurate and safe results",
+      "Retest every 2-3 months to track progress objectively",
+      "Focus training on your weakest areas for balanced athletic development",
+      "Compare your scores to your own previous results rather than elite athletes"
+    ],
+    "commonMistakes": [
+      "Testing without adequate warm-up leading to poor performance or injury",
+      "Attempting all tests in one day when fatigued",
+      "Focusing only on strengths while ignoring weaknesses",
+      "Neglecting endurance and flexibility in overall athletic development"
+    ],
+    "faqs": [
+      {
+        "question": "What is considered a good overall score?",
+        "answer": "60-70% is average, 70-80% is good, 80%+ is excellent for recreational athletes."
+      },
+      {
+        "question": "How can I improve my athletic performance score?",
+        "answer": "Through balanced training that includes strength, speed, power, and endurance work."
+      },
+      {
+        "question": "Are these tests accurate measures of athleticism?",
+        "answer": "They provide a good general assessment, but sport-specific testing may be more relevant for athletes in particular sports."
+      }
+    ]
+  },
+  "deload_week": {
+    "title": "Deload Week Calculator",
+    "description": "Determine the right time for a deload week to avoid overtraining and optimize long-term progress.",
+    "weeks_training": "Weeks of Hard Training",
+    "weeks_training_tooltip": "Consecutive weeks of intense training",
+    "intensity": "Training Intensity",
+    "intensity_tooltip": "Your recent workout intensity",
+    "experience": "Experience Level",
+    "experience_tooltip": "Your lifting experience",
+    "enter_weeks": "Enter weeks",
+    "calculate_btn": "Check Status",
+    "reset_btn": "Reset",
+    "results_title": "Deload Status",
+    "status": "Status",
+    "recommendation": "Recommendation",
+    "volume": "Deload Volume",
+    "benefits_title": "Why Deload?",
+    "benefits_desc": "Deload weeks allow your central nervous system and joints to recover, preventing injury and promoting long-term strength gains.",
+    "status_needed": "Deload Recommended",
+    "status_ok": "Keep Training",
+    "rec_needed": "Your body likely needs recovery. Reduce volume and intensity for one week.",
+    "rec_ok": "You can likely continue training hard for now.",
+    "vol_reduction": "Reduce volume by 50-60%",
+    "options": {
+      "low": "Low Intensity",
+      "moderate": "Moderate Intensity",
+      "high": "High Intensity",
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "empty_state": "Enter training details to check deload status",
+    "footer_note": "Listen to your body. If you feel exhausted or performance drops, take a deload.",
+    "howItWorks": {
+      "title": "How the Deload Week Calculator Works",
+      "formula": "Deload Timing = Training Weeks × Intensity Factor / Experience Level",
+      "explanation": "A deload week is a planned period of reduced training volume and intensity to allow the nervous system, muscles, and joints to recover fully. This tool analyzes your training history to determine when you need a deload based on accumulated fatigue.",
+      "steps": [
+        {
+          "name": "Enter Training Weeks",
+          "text": "Input the number of consecutive weeks of intense training"
+        },
+        {
+          "name": "Set Intensity Level",
+          "text": "Select your current training intensity level"
+        },
+        {
+          "name": "Set Experience",
+          "text": "Select your training experience to factor recovery capacity"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Overtraining Prevention",
+        "description": "Avoid nervous system fatigue and physical breakdown from excessive training"
+      },
+      {
+        "title": "Training Periodization",
+        "description": "Schedule strategic deload periods within your training program"
+      },
+      {
+        "title": "Long-term Progress",
+        "description": "Optimize strength and muscle gains by allowing full recovery between training blocks"
+      }
+    ],
+    "seoTips": [
+      "Schedule a deload week every 4-6 weeks of intense training for advanced lifters",
+      "Reduce training volume by 40-60% while maintaining weight or slightly reducing it",
+      "Continue going to the gym during deload - active recovery is better than complete rest",
+      "Use deload weeks to focus on technique and mobility work"
+    ],
+    "commonMistakes": [
+      "Ignoring fatigue signals and training until injury or burnout",
+      "Taking complete rest instead of active deload with reduced volume",
+      "Training at the same intensity during deload week, negating recovery benefits",
+      "Not scheduling regular deloads and only taking them when forced by injury"
+    ],
+    "faqs": [
+      {
+        "question": "When do I need a deload week?",
+        "answer": "Every 4-6 weeks for advanced lifters, every 6-8 weeks for intermediates, and when you notice persistent fatigue or declining performance."
+      },
+      {
+        "question": "How should I structure a deload?",
+        "answer": "Reduce volume by 40-60% while maintaining weight or reducing by 10-20%. Keep the same exercises and frequency."
+      },
+      {
+        "question": "Will I lose strength during a deload?",
+        "answer": "No, one week of reduced training does not cause strength loss. You often come back stronger after full recovery."
+      }
+    ]
+  },
+  "vertical_jump": {
+    "title": "Vertical Jump Calculator",
+    "description": "Calculate your vertical jump height and explosive lower-body power.",
+    "standing_reach": "Standing Reach (cm)",
+    "standing_reach_tooltip": "Highest point you can touch standing flat",
+    "jump_reach": "Jump Reach (cm)",
+    "jump_reach_tooltip": "Highest point you can touch at peak of jump",
+    "weight": "Body Weight",
+    "weight_tooltip": "Your current body weight (kg)",
+    "enter_cm": "Enter cm",
+    "enter_weight": "Enter weight",
+    "calculate_btn": "Calculate Power",
+    "reset_btn": "Reset",
+    "results_title": "Jump Analysis",
+    "jump_height": "Vertical Jump Height",
+    "power_output": "Explosive Power",
+    "watts": "Watts",
+    "cm": "cm",
+    "power_factors_title": "Factors Affecting Jump",
+    "power_factors_desc": "Muscle strength, speed of contraction, and coordination determine your vertical jump power.",
+    "tips_title": "Improve Your Jump",
+    "tip_plyo": "Incorporate plyometrics like box jumps",
+    "tip_strength": "Build leg strength with squats and deadlifts",
+    "tip_technique": "Practice proper jumping form and arm swing",
+    "empty_state": "Enter reach and weight measurements to calculate jump power",
+    "footer_note": "Power calculation uses the Lewis Formula.",
+    "howItWorks": {
+      "title": "How the Vertical Jump Calculator Works",
+      "formula": "Jump Height = Jump Reach - Standing Reach, Power (W) = sqrt(4.9 × body weight × jump height) × 9.81",
+      "explanation": "This tool calculates your vertical jump height and explosive power output using the Lewis Formula. Vertical jump is a key indicator of lower-body explosive power, which is critical in many sports including basketball, volleyball, and track and field.",
+      "steps": [
+        {
+          "name": "Measure Standing Reach",
+          "text": "Stand flat-footed and reach as high as possible, marking the highest point"
+        },
+        {
+          "name": "Measure Jump Reach",
+          "text": "Jump and touch the highest point possible, recording that height"
+        },
+        {
+          "name": "Calculate Power",
+          "text": "The calculator determines jump height and explosive power output"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Athletic Assessment",
+        "description": "Evaluate explosive power for sports like basketball, volleyball, and football"
+      },
+      {
+        "title": "Training Progress",
+        "description": "Track improvements in explosive power with plyometric and strength training"
+      },
+      {
+        "title": "Fitness Testing",
+        "description": "Standard component of athletic fitness testing batteries"
+      }
+    ],
+    "seoTips": [
+      "Warm up thoroughly before testing to prevent injury and maximize results",
+      "Take multiple jumps and record the best attempt for accurate measurement",
+      "Use proper arm swing technique to maximize jump height",
+      "40-50 cm is good for recreational athletes, 60+ cm for competitive athletes"
+    ],
+    "commonMistakes": [
+      "Not warming up adequately before testing",
+      "Testing after an exhausting workout when muscles are fatigued",
+      "Using improper jumping technique (no arm swing, bent landing)",
+      "Testing from a moving approach instead of a stationary standing position"
+    ],
+    "faqs": [
+      {
+        "question": "What is a good vertical jump height?",
+        "answer": "40-50 cm is average for adult males, 50-60 cm is good, 60+ cm is excellent. Female averages are typically 5-10 cm lower."
+      },
+      {
+        "question": "How can I improve my vertical jump?",
+        "answer": "Through plyometric training (box jumps, depth jumps), strength training (squats, deadlifts), and improving jump technique."
+      },
+      {
+        "question": "Does body weight affect jumping?",
+        "answer": "Yes. Reducing excess body fat while maintaining or increasing strength improves power-to-weight ratio and jump height."
+      }
+    ]
+  },
+  "workout_volume": {
+    "title": "Workout Volume Calculator",
+    "description": "Calculate your total training volume for strength and hypertrophy.",
+    "sets": "Sets",
+    "sets_tooltip": "Number of sets performed",
+    "reps": "Reps per Set",
+    "reps_tooltip": "Number of repetitions per set",
+    "weight": "Weight per Rep",
+    "weight_tooltip": "Weight used (kg)",
+    "sessions": "Weekly Sessions",
+    "sessions_tooltip": "Number of sessions per week",
+    "enter_sets": "Enter sets",
+    "enter_reps": "Enter reps",
+    "enter_weight": "Enter weight",
+    "enter_sessions": "Enter sessions",
+    "calculate_btn": "Calculate Volume",
+    "reset_btn": "Reset",
+    "results_title": "Volume Analysis",
+    "weekly_volume": "Total Weekly Volume",
+    "kg_week": "kg/week",
+    "session_volume": "Volume per Session",
+    "kg_session": "kg/session",
+    "total_reps": "Total Repetitions",
+    "reps_week": "reps/week",
+    "tips_title": "Volume Training",
+    "tip_progressive": "Increase volume gradually over time for progressive overload",
+    "howItWorks": {
+      "title": "How the Workout Volume Calculator Works",
+      "formula": "Training Volume = Sets × Reps × Weight (kg)",
+      "explanation": "This tool calculates your total training volume, which is the primary driver of muscle hypertrophy. Monitoring training volume helps ensure progressive overload while avoiding overtraining and allows comparison between different training programs.",
+      "steps": [
+        {
+          "name": "Enter Sets",
+          "text": "Input the number of sets performed for the exercise"
+        },
+        {
+          "name": "Enter Reps and Weight",
+          "text": "Input the repetitions per set and weight used"
+        },
+        {
+          "name": "Calculate Volume",
+          "text": "Get your total weekly volume and per-session breakdown"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Progressive Overload",
+        "description": "Systematically increase volume over time to stimulate continued muscle growth"
+      },
+      {
+        "title": "Overtraining Prevention",
+        "description": "Monitor total volume to prevent excessive fatigue and injuries"
+      },
+      {
+        "title": "Program Comparison",
+        "description": "Compare the effectiveness and workload of different training programs"
+      }
+    ],
+    "seoTips": [
+      "Aim to increase weekly volume by 5-10% for continued progress",
+      "Track volume per muscle group separately for balanced development",
+      "10-20 sets per muscle group weekly is optimal for most intermediate trainees",
+      "Reduce volume by 40-50% during deload weeks for recovery"
+    ],
+    "commonMistakes": [
+      "Increasing volume too quickly, leading to fatigue and potential injury",
+      "Focusing only on volume while neglecting training intensity",
+      "Not tracking volume for each muscle group individually",
+      "Comparing your volume to advanced lifters with different training ages"
+    ],
+    "faqs": [
+      {
+        "question": "What is optimal volume for hypertrophy?",
+        "answer": "Research suggests 10-20 sets per muscle group per week for intermediate trainees, with beginners needing less and advanced lifters potentially handling more."
+      },
+      {
+        "question": "Is volume more important than intensity?",
+        "answer": "Both matter. Volume primarily drives hypertrophy, while intensity (weight) drives strength. A balance is needed for overall development."
+      },
+      {
+        "question": "When should I reduce volume?",
+        "answer": "When experiencing persistent fatigue, declining performance, or every 4-6 weeks as a planned deload."
+      }
+    ]
+  },
+  "wilks_calculator": {
+    "title": "Wilks Coefficient Calculator",
+    "description": "Calculate your Wilks score to compare your powerlifting strength across different body weights.",
+    "gender": "Gender",
+    "bodyweight": "Body Weight",
+    "bodyweight_tooltip": "Your current body weight",
+    "total_lifted": "Total Weight Lifted",
+    "total_lifted_tooltip": "Sum of Bench, Squat, and Deadlift",
+    "enter_weight": "Enter weight",
+    "enter_total": "Enter total",
+    "calculate_btn": "Calculate Score",
+    "reset_btn": "Reset",
+    "results_title": "Wilks Score",
+    "score": "Wilks Score",
+    "level": "Performance Level",
+    "standards_title": "Wilks Standards",
+    "standards_male": {
+      "beginner": "Beginner: < 250",
+      "intermediate": "Intermediate: 250-350",
+      "advanced": "Advanced: 350-450",
+      "elite": "Elite: 450-550",
+      "world_class": "World Class: > 550"
+    },
+    "standards_female": {
+      "beginner": "Beginner: < 200",
+      "intermediate": "Intermediate: 200-300",
+      "advanced": "Advanced: 300-400",
+      "elite": "Elite: 400-500",
+      "world_class": "World Class: > 500"
+    },
+    "empty_state": "Enter your stats to calculate Wilks score",
+    "footer_note": "Wilks formula allows comparison between lifters of different weights and genders.",
+    "gender_tooltip": "Select your gender",
+    "male": "Male",
+    "female": "Female",
+    "wilks_score": "Wilks Score",
+    "strength_level": "Strength Level",
+    "info_title": "About Wilks Coefficient",
+    "info_description": "The Wilks Coefficient is used to compare the strength of athletes of different body weights and genders in powerlifting.",
+    "formula_note": "The coefficient uses a formula approved by the International Powerlifting Federation.",
+    "howItWorks": {
+      "title": "How the Wilks Calculator Works",
+      "formula": "Wilks Score = Total Lifted × Coefficient (based on body weight and gender)",
+      "explanation": "The Wilks Coefficient is a mathematical formula used in powerlifting to compare relative strength between lifters of different body weights and genders. It normalizes your powerlifting total to allow fair comparison across weight classes.",
+      "steps": [
+        {
+          "name": "Enter Body Weight",
+          "text": "Input your current body weight in kilograms"
+        },
+        {
+          "name": "Enter Powerlifting Total",
+          "text": "Input your combined best attempts in squat, bench, and deadlift"
+        },
+        {
+          "name": "Calculate Score",
+          "text": "Get your Wilks score and performance classification"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Competition Ranking",
+        "description": "Determine the overall winner among powerlifters in different weight classes"
+      },
+      {
+        "title": "Progress Tracking",
+        "description": "Monitor if your relative strength improves independent of weight changes"
+      },
+      {
+        "title": "Performance Benchmarking",
+        "description": "Compare your strength against national and international standards"
+      }
+    ],
+    "seoTips": [
+      "A Wilks score of 300+ is considered average, 400+ advanced, 500+ elite for men",
+      "Focus on improving your Wilks score over time rather than comparing to others",
+      "Score may decrease if body weight increases without corresponding strength gains",
+      "Use the score to objectively evaluate your training program effectiveness"
+    ],
+    "commonMistakes": [
+      "Comparing male and female Wilks scores directly (different coefficient curves)",
+      "Not using your actual best competition attempts for the total",
+      "Entering body weight after eating instead of official weigh-in weight",
+      "Expecting large score improvements over short periods"
+    ],
+    "faqs": [
+      {
+        "question": "What is a good Wilks score?",
+        "answer": "For men: 300+ average, 400+ advanced, 450+ elite, 500+ world class. Women have slightly lower thresholds."
+      },
+      {
+        "question": "Is Wilks the best comparison formula?",
+        "answer": "It is the most widely used, but alternatives like DOTS and IPF Points exist and may be more accurate at extreme body weights."
+      },
+      {
+        "question": "How can I improve my Wilks score?",
+        "answer": "By increasing strength faster than body weight, or by reducing weight while maintaining or increasing strength."
+      }
+    ]
+  },
+  "rep_range_calculator": {
+    "title": "Rep Range Calculator",
+    "description": "Calculate optimal rep ranges based on your training goal.",
+    "goal": "Training Goal",
+    "goal_tooltip": "Select your primary training goal",
+    "goals": {
+      "strength": "Strength (1-5 reps)",
+      "power": "Power (1-5 reps)",
+      "hypertrophy": "Hypertrophy (6-12 reps)",
+      "endurance": "Endurance (12-20 reps)"
+    },
+    "one_rm": "One Rep Max (kg)",
+    "one_rm_tooltip": "Your maximum weight for one repetition",
+    "enter_weight": "Enter weight",
+    "calculate_btn": "Calculate",
+    "reset_btn": "Reset",
+    "results_title": "Recommended Training",
+    "reps": "Rep Range",
+    "sets": "Sets",
+    "weight": "Working Weight",
+    "rest_time": {
+      "label": "Rest Time",
+      "strength": "3-5 minutes",
+      "power": "3-5 minutes",
+      "hypertrophy": "1-2 minutes",
+      "endurance": "30-60 seconds"
+    },
+    "rest_times": {
+      "strength": "3-5 minutes",
+      "power": "2-3 minutes",
+      "hypertrophy": "60-90 seconds",
+      "endurance": "30-60 seconds"
+    },
+    "info_title": "About Rep Ranges",
+    "info_description": "Different rep ranges target different adaptations.",
+    "empty_state": "Enter your 1RM to get recommendations",
+    "howItWorks": {
+      "title": "How the Rep Range Calculator Works",
+      "formula": "Working Weight = 1RM × Percentage (based on rep range: 85-95% for strength, 65-80% for hypertrophy)",
+      "explanation": "This tool determines the optimal rep range, working weight, sets, and rest periods based on your training goal. Different rep ranges stimulate different physiological adaptations: lower reps for strength, moderate reps for muscle size, and higher reps for endurance.",
+      "steps": [
+        {
+          "name": "Select Goal",
+          "text": "Choose your primary training objective (strength, hypertrophy, endurance)"
+        },
+        {
+          "name": "Enter 1RM",
+          "text": "Input your one-rep max for the exercise"
+        },
+        {
+          "name": "Get Recommendations",
+          "text": "Receive specific rep range, weight, sets, and rest time recommendations"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Goal-Specific Training",
+        "description": "Train with the optimal parameters for your specific fitness goal"
+      },
+      {
+        "title": "Program Design",
+        "description": "Structure your workout program with appropriate rep ranges for each phase"
+      },
+      {
+        "title": "Periodization",
+        "description": "Vary rep ranges across training cycles for comprehensive development"
+      }
+    ],
+    "seoTips": [
+      "1-5 reps at 85-95% 1RM builds maximal strength and neuromuscular efficiency",
+      "6-12 reps at 65-80% 1RM maximizes muscle hypertrophy (size)",
+      "12-20+ reps at 50-65% 1RM builds muscular endurance",
+      "Include multiple rep ranges in your program for balanced development"
+    ],
+    "commonMistakes": [
+      "Training exclusively in one rep range and missing other adaptations",
+      "Using strength rep ranges when hypertrophy is the goal",
+      "Not resting long enough for strength work (need 3-5 minutes)",
+      "Resting too long for hypertrophy work (reduces metabolic stress)"
+    ],
+    "faqs": [
+      {
+        "question": "Which rep range is best for muscle growth?",
+        "answer": "6-12 reps is optimal for hypertrophy, though muscle can be built across all rep ranges with sufficient effort."
+      },
+      {
+        "question": "How much should rest periods differ?",
+        "answer": "Strength: 3-5 minutes, Hypertrophy: 60-90 seconds, Endurance: 30-60 seconds."
+      },
+      {
+        "question": "Can I mix rep ranges in one workout?",
+        "answer": "Yes, starting with heavy compounds (low reps) and finishing with isolation exercises (higher reps) is an effective strategy."
+      }
+    ]
+  },
+  "training_age": {
+    "title": "Training Age Calculator",
+    "description": "Calculate your training age and experience level.",
+    "start_date": "Training Start Date",
+    "start_date_tooltip": "When did you start consistent training?",
+    "calculate_btn": "Calculate",
+    "reset_btn": "Reset",
+    "results_title": "Training Experience",
+    "years": "Training Years",
+    "months": "Training Months",
+    "level": "Experience Level",
+    "levels": {
+      "beginner": "Beginner (0-1 year)",
+      "novice": "Novice (1-2 years)",
+      "intermediate": "Intermediate (2-5 years)",
+      "advanced": "Advanced (5-10 years)",
+      "elite": "Elite (10+ years)"
+    },
+    "info_title": "About Training Age",
+    "info_description": "Training age affects your recovery ability and programming needs.",
+    "empty_state": "Enter your training start date",
+    "howItWorks": {
+      "title": "How the Training Age Calculator Works",
+      "formula": "Training Age = Current Date - Training Start Date (in years and months)",
+      "explanation": "Training age refers to how long you have been consistently training, not your chronological age. It is a critical factor in determining appropriate training volume, intensity, and progression rates. More experienced lifters require different programming than beginners.",
+      "steps": [
+        {
+          "name": "Enter Start Date",
+          "text": "Input when you started consistent, structured training"
+        },
+        {
+          "name": "Calculate Age",
+          "text": "The tool calculates your total training time"
+        },
+        {
+          "name": "View Classification",
+          "text": "Get your experience level classification for program design"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Program Selection",
+        "description": "Choose training programs appropriate for your experience level"
+      },
+      {
+        "title": "Progression Expectations",
+        "description": "Set realistic strength and muscle gain expectations based on training experience"
+      },
+      {
+        "title": "Recovery Planning",
+        "description": "Understand how your training age affects recovery capacity and volume tolerance"
+      }
+    ],
+    "seoTips": [
+      "Beginners (under 1 year) can make rapid progress with simple programs and linear progression",
+      "Intermediate trainees (2-5 years) need periodization and planned progression",
+      "Advanced trainees (5+ years) require sophisticated programming with varied stimuli",
+      "Training age matters more than chronological age for program design"
+    ],
+    "commonMistakes": [
+      "Counting years of inconsistent or sporadic training as training age",
+      "Using advanced programs when you are still a beginner",
+      "Expecting beginner-level gains with years of training experience",
+      "Ignoring training age when selecting programs from social media"
+    ],
+    "faqs": [
+      {
+        "question": "Why does training age matter?",
+        "answer": "It determines your adaptation potential, recovery capacity, and the complexity of programming you need."
+      },
+      {
+        "question": "Does a training break reset my training age?",
+        "answer": "Partially. Muscle memory helps, but extended breaks (1+ years) may reduce effective training age."
+      },
+      {
+        "question": "Can a beginner use advanced programs?",
+        "answer": "Not recommended. Beginners progress faster with simpler programs and would not benefit from the complexity."
+      }
+    ]
+  }
+}

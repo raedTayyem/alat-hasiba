@@ -1,0 +1,1221 @@
+{
+  "roi": {
+    "title": "ROI Calculator",
+    "description": "Calculate Return on Investment.",
+    "inputs": {
+      "initial_investment": "Initial Investment",
+      "initial_investment_tooltip": "Amount invested",
+      "initial_investment_placeholder": "e.g. 10000",
+      "final_value": "Final Value",
+      "final_value_tooltip": "Current or sold value",
+      "final_value_placeholder": "e.g. 15000",
+      "investment_period": "Investment Period (Years)",
+      "investment_period_tooltip": "Duration of investment",
+      "investment_period_placeholder": "e.g. 3"
+    },
+    "results": {
+      "roi": "Return on Investment (ROI)",
+      "net_profit": "Net Profit",
+      "analysis": "Investment Analysis",
+      "payback_period": "Payback Period",
+      "roi_per_year": "Annualized ROI",
+      "annual_return": "Annual Return",
+      "formula": "ROI = (Net Profit / Cost of Investment) × 100"
+    },
+    "info": {
+      "title": "About ROI",
+      "description": "ROI measures the gain or loss generated on an investment relative to the amount of money invested.",
+      "use_cases": "Use Cases",
+      "use_case_1": "Compare investment efficiency",
+      "use_case_2": "Portfolio performance",
+      "use_case_3": "Business project evaluation"
+    },
+    "howItWorks": {
+      "title": "How ROI Calculation Works",
+      "formula": "ROI = ((Final Value - Initial Investment) / Initial Investment) × 100",
+      "explanation": "ROI measures the percentage return on an investment by comparing the gain or loss to the initial cost. Annualized ROI adjusts for the investment period to enable fair comparisons between investments of different durations.",
+      "steps": [
+        "Enter the initial investment amount",
+        "Input the final or current value of the investment",
+        "Specify the investment period in years",
+        "Calculator computes total and annualized ROI",
+        "Review the net profit and payback analysis"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Investment Comparison",
+        "description": "Compare returns across different investment opportunities to allocate capital to the highest-performing options."
+      },
+      {
+        "title": "Marketing Campaign Analysis",
+        "description": "Measure the return on marketing spend to identify which campaigns and channels deliver the best results."
+      },
+      {
+        "title": "Equipment Purchase Decisions",
+        "description": "Evaluate whether equipment investments will generate sufficient returns through increased efficiency or revenue."
+      },
+      {
+        "title": "Real Estate Investment",
+        "description": "Calculate returns on property investments including appreciation, rental income, and associated costs."
+      }
+    ],
+    "seoTips": [
+      "Always use annualized ROI when comparing investments with different time horizons",
+      "Include all associated costs (fees, maintenance, taxes) for accurate ROI calculation",
+      "Compare ROI against benchmark returns like market indices or savings rates",
+      "Consider risk-adjusted returns - higher risk should demand higher ROI",
+      "Track ROI over time to identify trends and optimize future investments"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Ignoring Time Value of Money",
+        "description": "Simple ROI doesn't account for when returns occur. A 20% return over 5 years is very different from 20% in 1 year. Use annualized ROI for comparison."
+      },
+      {
+        "title": "Forgetting Hidden Costs",
+        "description": "Transaction fees, maintenance costs, taxes, and opportunity costs are often excluded, leading to overstated ROI figures."
+      },
+      {
+        "title": "Not Considering Risk",
+        "description": "Two investments with the same ROI may have vastly different risk profiles. Higher risk should justify higher expected returns."
+      },
+      {
+        "title": "Cherry-Picking Time Periods",
+        "description": "Selecting favorable start and end dates can manipulate ROI figures. Use consistent, meaningful time periods for fair analysis."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a good ROI?",
+        "answer": "Good ROI depends on context. Stock market historically averages 7-10% annually. Real estate targets 8-12%. Business investments often require 15-25% to justify the risk."
+      },
+      {
+        "question": "What's the difference between ROI and CAGR?",
+        "answer": "ROI shows total return as a percentage. CAGR (Compound Annual Growth Rate) shows the smoothed annual return accounting for compounding. CAGR is better for comparing multi-year investments."
+      },
+      {
+        "question": "Can ROI be negative?",
+        "answer": "Yes, negative ROI indicates a loss. If you invest $10,000 and it's worth $8,000, your ROI is -20%. This helps quantify investment losses."
+      },
+      {
+        "question": "How do I calculate ROI for ongoing investments?",
+        "answer": "Use current market value as the 'final value' for unrealized gains. Include any dividends, interest, or distributions received during the holding period."
+      },
+      {
+        "question": "Should I include inflation in ROI calculations?",
+        "answer": "For accurate purchasing power analysis, calculate real ROI by subtracting inflation from nominal ROI. A 10% return with 3% inflation yields 7% real return."
+      }
+    ]
+  },
+  "npv": {
+    "title": "NPV Calculator",
+    "description": "Calculate Net Present Value to evaluate investment profitability.",
+    "inputs": {
+      "initial_investment": "Initial Investment",
+      "initial_investment_tooltip": "The upfront cost of the investment",
+      "initial_investment_placeholder": "e.g. 100000",
+      "discount_rate": "Discount Rate (%)",
+      "discount_rate_tooltip": "The required rate of return or cost of capital",
+      "discount_rate_placeholder": "e.g. 10",
+      "cash_flows": "Annual Cash Flows",
+      "add_year": "Add Year",
+      "year": "Year",
+      "cash_flow_placeholder": "e.g. 30000"
+    },
+    "errors": {
+      "invalid_rate": "Discount rate must be between 0 and 100",
+      "no_cash_flows": "Please enter at least one cash flow"
+    },
+    "results": {
+      "npv": "Net Present Value (NPV)",
+      "viable": "Investment is Viable",
+      "not_viable": "Investment is Not Viable",
+      "summary": "Investment Summary",
+      "initial_investment": "Initial Investment",
+      "discount_rate": "Discount Rate",
+      "total_cash_flows": "Total Cash Flows",
+      "present_value": "Present Value of Cash Flows",
+      "cash_flow_details": "Cash Flow Details",
+      "year": "Year",
+      "cash_flow": "Cash Flow",
+      "discount_factor": "Discount Factor",
+      "formula": "NPV = Σ(Cash Flow / (1 + r)^t) - Initial Investment"
+    },
+    "info": {
+      "title": "About NPV Calculator",
+      "use_cases": "Use Cases",
+      "use_case_1": "Evaluate investment opportunities",
+      "use_case_2": "Compare multiple projects",
+      "use_case_3": "Capital budgeting decisions"
+    },
+    "howItWorks": {
+      "title": "How NPV Calculation Works",
+      "formula": "NPV = Σ(Cash Flow / (1 + r)^t) - Initial Investment",
+      "explanation": "NPV calculates the present value of all future cash flows, discounted at a required rate of return, minus the initial investment. A positive NPV indicates the investment should generate value; negative NPV suggests the investment will destroy value.",
+      "steps": [
+        "Enter the initial investment amount",
+        "Set your discount rate (cost of capital or required return)",
+        "Input expected cash flows for each future year",
+        "Calculator discounts each cash flow to present value",
+        "NPV = sum of discounted cash flows minus initial investment"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Capital Budgeting",
+        "description": "Evaluate whether to proceed with major capital expenditures like equipment purchases or facility expansions."
+      },
+      {
+        "title": "Project Selection",
+        "description": "Compare multiple potential projects with different cash flow patterns to allocate limited capital effectively."
+      },
+      {
+        "title": "Acquisition Valuation",
+        "description": "Determine the fair value of a business by discounting its projected future cash flows to present value."
+      },
+      {
+        "title": "Investment Analysis",
+        "description": "Assess real estate, stocks, or other investments by comparing NPV of expected returns to alternative opportunities."
+      }
+    ],
+    "seoTips": [
+      "Choose your discount rate carefully - it significantly impacts NPV results",
+      "Use company's WACC (Weighted Average Cost of Capital) as discount rate for corporate projects",
+      "Always include terminal value for projects with cash flows beyond your projection period",
+      "Positive NPV doesn't guarantee success - consider qualitative factors too",
+      "Run sensitivity analysis on key assumptions to understand risk range"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using Wrong Discount Rate",
+        "description": "The discount rate should reflect the risk of the cash flows. Using a rate too low overstates NPV; too high understates it."
+      },
+      {
+        "title": "Ignoring Terminal Value",
+        "description": "For ongoing businesses or long-lived assets, failing to include terminal value significantly underestimates NPV."
+      },
+      {
+        "title": "Overly Optimistic Cash Flows",
+        "description": "Projecting unrealistic cash flow growth leads to misleading NPV. Use conservative, evidence-based estimates."
+      },
+      {
+        "title": "Not Considering Inflation",
+        "description": "Either use nominal cash flows with nominal discount rate, or real cash flows with real rate. Mixing them creates errors."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What does positive NPV mean?",
+        "answer": "Positive NPV means the investment is expected to generate more value than its cost. It should increase company/investor wealth and is generally worth pursuing."
+      },
+      {
+        "question": "What discount rate should I use?",
+        "answer": "Use your cost of capital or required rate of return. For companies, WACC (7-12% typical). For personal investments, consider opportunity cost and risk."
+      },
+      {
+        "question": "What's the difference between NPV and IRR?",
+        "answer": "NPV gives dollar value created; IRR gives percentage return. NPV is generally preferred because it measures absolute value creation, not just rate."
+      },
+      {
+        "question": "Can NPV be negative?",
+        "answer": "Yes. Negative NPV means the investment is expected to destroy value - the present value of returns is less than the cost. Generally avoid negative NPV projects."
+      },
+      {
+        "question": "How do I include terminal value in NPV?",
+        "answer": "Estimate ongoing value at end of projection period (often using perpetuity formula or exit multiple), then discount that terminal value back to present."
+      }
+    ]
+  },
+  "irr": {
+    "title": "IRR Calculator",
+    "description": "Calculate Internal Rate of Return for investment projects.",
+    "inputs": {
+      "initial_investment": "Initial Investment",
+      "initial_investment_tooltip": "The upfront cost of the investment",
+      "initial_investment_placeholder": "e.g. 100000",
+      "cash_flows": "Annual Cash Flows",
+      "add_year": "Add Year",
+      "year": "Year",
+      "cash_flow_placeholder": "e.g. 30000"
+    },
+    "errors": {
+      "no_cash_flows": "Please enter at least one cash flow",
+      "need_positive_cash_flow": "At least one cash flow must be positive",
+      "no_irr_found": "Could not calculate IRR for these cash flows"
+    },
+    "results": {
+      "irr": "Internal Rate of Return (IRR)",
+      "positive_return": "Positive Return",
+      "negative_return": "Negative Return",
+      "summary": "Investment Summary",
+      "initial_investment": "Initial Investment",
+      "total_cash_flows": "Total Cash Flows",
+      "npv_at_irr": "NPV at IRR",
+      "npv_should_be_zero": "Should be approximately zero",
+      "cash_flow_details": "Cash Flow Details",
+      "year": "Year",
+      "cash_flow": "Cash Flow",
+      "present_value": "Present Value",
+      "formula": "IRR = Rate where NPV = 0"
+    },
+    "info": {
+      "title": "About IRR Calculator",
+      "use_cases": "Use Cases",
+      "use_case_1": "Compare investment returns",
+      "use_case_2": "Evaluate project profitability",
+      "use_case_3": "Make capital allocation decisions"
+    },
+    "howItWorks": {
+      "title": "How IRR Calculation Works",
+      "formula": "IRR = Discount rate where NPV equals zero",
+      "explanation": "IRR (Internal Rate of Return) is the discount rate that makes the net present value of all cash flows equal to zero. It represents the annualized rate of return on an investment, allowing comparison between projects of different sizes and durations.",
+      "steps": [
+        "Enter the initial investment amount (as a negative cash flow)",
+        "Input expected cash flows for each future year",
+        "Calculator iteratively finds the rate where NPV = 0",
+        "Result shows the IRR as an annual percentage",
+        "Compare IRR to your required return or cost of capital"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Project Ranking",
+        "description": "Rank multiple investment opportunities by their IRR to identify highest-return options for capital allocation."
+      },
+      {
+        "title": "Investment Hurdle Rate",
+        "description": "Compare project IRR to company's hurdle rate (cost of capital) to determine if investment meets return requirements."
+      },
+      {
+        "title": "Private Equity Returns",
+        "description": "Calculate and report returns to investors in private equity and venture capital investments."
+      },
+      {
+        "title": "Real Estate Analysis",
+        "description": "Evaluate property investments by calculating IRR including purchase, rental income, and sale proceeds."
+      }
+    ],
+    "seoTips": [
+      "IRR above your cost of capital indicates value-creating investment",
+      "Compare IRR to NPV - they can give different rankings for mutually exclusive projects",
+      "Be cautious with IRR for projects with alternating positive/negative cash flows",
+      "Modified IRR (MIRR) addresses reinvestment rate assumptions",
+      "Use IRR for comparing similar-sized projects; NPV for absolute value creation"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Assuming Reinvestment at IRR",
+        "description": "IRR assumes cash flows are reinvested at the IRR rate, which may be unrealistic for high-IRR projects."
+      },
+      {
+        "title": "Multiple IRR Problem",
+        "description": "Projects with alternating positive and negative cash flows can have multiple IRRs, making interpretation difficult."
+      },
+      {
+        "title": "Ignoring Scale",
+        "description": "A small project with high IRR may create less value than a large project with lower IRR. Consider NPV alongside IRR."
+      },
+      {
+        "title": "Comparing Different Duration Projects",
+        "description": "A 2-year project with 20% IRR isn't directly comparable to a 10-year project with 15% IRR. Consider total value creation."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a good IRR?",
+        "answer": "Depends on risk and alternatives. Generally: above risk-free rate (3-5%) is minimum, above cost of capital (8-12%) is acceptable, above 15-20% is good for most investments."
+      },
+      {
+        "question": "What's the difference between IRR and ROI?",
+        "answer": "ROI is simple total return (profit/cost). IRR accounts for time value of money and timing of cash flows. IRR is annualized; ROI is total return regardless of period."
+      },
+      {
+        "question": "When should I use IRR vs NPV?",
+        "answer": "Use both. IRR tells return rate; NPV tells dollar value created. For mutually exclusive projects, NPV is preferred. For quick comparison, IRR is useful."
+      },
+      {
+        "question": "What is Modified IRR (MIRR)?",
+        "answer": "MIRR assumes cash flows are reinvested at cost of capital rather than at IRR. It's more realistic for high-IRR projects and avoids multiple IRR issues."
+      },
+      {
+        "question": "Why can't IRR be calculated for my project?",
+        "answer": "IRR requires at least one sign change in cash flows (typically negative investment followed by positive returns). All positive or all negative flows have no IRR."
+      }
+    ]
+  },
+  "cash_flow": {
+    "title": "Cash Flow Calculator",
+    "description": "Analyze business cash flow by tracking inflows and outflows across periods to understand your financial health.",
+    "inputs": {
+      "period": "Period",
+      "inflow": "Cash Inflow",
+      "inflow_tooltip": "Money coming into the business (sales, investments, etc.)",
+      "inflow_placeholder": "e.g. 10000",
+      "outflow": "Cash Outflow",
+      "outflow_tooltip": "Money leaving the business (expenses, payments, etc.)",
+      "outflow_placeholder": "e.g. 7000",
+      "add_period": "Add Period"
+    },
+    "results": {
+      "net_cash_flow": "Net Cash Flow",
+      "average_per_period": "Average per Period",
+      "total_inflows": "Total Inflows",
+      "total_outflows": "Total Outflows",
+      "period_breakdown": "Period Breakdown",
+      "formula_title": "Formula",
+      "formula": "Net Cash Flow = Total Inflows - Total Outflows"
+    },
+    "info": {
+      "title": "About Cash Flow Calculator",
+      "use_cases": "Use Cases",
+      "use_case_1": "Monitor business liquidity",
+      "use_case_2": "Plan for cash shortfalls",
+      "use_case_3": "Make informed financial decisions"
+    },
+    "howItWorks": {
+      "title": "How Cash Flow Calculation Works",
+      "formula": "Net Cash Flow = Total Cash Inflows - Total Cash Outflows",
+      "explanation": "Cash flow analysis tracks actual money movement in and out of a business. Unlike profit (which includes non-cash items), cash flow shows real liquidity. Positive cash flow means more money coming in than going out; negative cash flow indicates a cash drain.",
+      "steps": [
+        "Enter cash inflows for each period (sales receipts, investments, loans)",
+        "Input cash outflows for each period (expenses, purchases, debt payments)",
+        "Add multiple periods to track trends over time",
+        "Calculator shows net cash flow for each period",
+        "View total and average cash flow across all periods"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Liquidity Management",
+        "description": "Monitor cash position to ensure the business can pay bills, employees, and suppliers on time."
+      },
+      {
+        "title": "Cash Forecasting",
+        "description": "Project future cash position based on expected inflows and outflows to plan for shortfalls or surpluses."
+      },
+      {
+        "title": "Investment Timing",
+        "description": "Identify periods of cash surplus when investments can be made or excess cash deployed."
+      },
+      {
+        "title": "Financing Decisions",
+        "description": "Determine when and how much financing is needed based on cash flow projections."
+      }
+    ],
+    "seoTips": [
+      "Cash flow is king - profitable businesses can fail without adequate cash",
+      "Separate operating, investing, and financing cash flows for better analysis",
+      "Monitor cash conversion cycle to improve working capital efficiency",
+      "Forecast cash flow 13 weeks ahead for short-term planning",
+      "Positive net income doesn't guarantee positive cash flow"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Confusing Profit with Cash Flow",
+        "description": "Net income includes non-cash items like depreciation and accounts receivable. A profitable business can run out of cash."
+      },
+      {
+        "title": "Ignoring Timing",
+        "description": "Revenue is recognized when earned, but cash arrives when collected. Track actual cash receipt dates, not invoice dates."
+      },
+      {
+        "title": "Overlooking Seasonal Variations",
+        "description": "Annual cash flow may be positive while individual months are negative. Plan for seasonal patterns."
+      },
+      {
+        "title": "Not Including All Cash Items",
+        "description": "Don't forget loan payments, tax payments, owner draws, and one-time expenses that affect cash but may not appear on income statement."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What's the difference between cash flow and profit?",
+        "answer": "Profit includes non-cash items like depreciation and accrued revenue. Cash flow tracks actual money movement. A company can be profitable but cash-poor, or cash-rich but unprofitable."
+      },
+      {
+        "question": "What is operating cash flow?",
+        "answer": "Cash from core business operations - customer payments minus operating expenses. It excludes investing (buying/selling assets) and financing (loans, equity) activities."
+      },
+      {
+        "question": "How can I improve cash flow?",
+        "answer": "Collect receivables faster, negotiate longer payment terms with suppliers, reduce inventory levels, lease instead of buy equipment, and manage growth pace."
+      },
+      {
+        "question": "What is free cash flow?",
+        "answer": "Operating cash flow minus capital expenditures. It's cash available for dividends, debt reduction, or reinvestment after maintaining operations."
+      },
+      {
+        "question": "How often should I review cash flow?",
+        "answer": "Weekly for short-term management, monthly for trends, quarterly for strategic planning. More frequently during tight cash periods."
+      }
+    ]
+  },
+  "inflation": {
+    "title": "Inflation Calculator",
+    "description": "Calculate how inflation affects the future value of money and purchasing power over time.",
+    "inputs": {
+      "present_value": "Present Value",
+      "present_value_tooltip": "The current amount of money",
+      "present_value_placeholder": "e.g. 10000",
+      "years": "Number of Years",
+      "years_tooltip": "Time period for inflation calculation",
+      "years_placeholder": "e.g. 10",
+      "inflation_rate": "Annual Inflation Rate (%)",
+      "inflation_rate_tooltip": "Expected average annual inflation rate",
+      "inflation_rate_placeholder": "e.g. 3"
+    },
+    "errors": {
+      "rate_too_low": "Inflation rate cannot be less than -100%"
+    },
+    "results": {
+      "future_value": "Future Value",
+      "from_present": "From Present Value",
+      "analysis": "Inflation Analysis",
+      "total_inflation": "Total Inflation",
+      "over_period": "over the period",
+      "purchasing_power_loss": "Purchasing Power Loss",
+      "loss": "loss",
+      "yearly_breakdown": "Yearly Breakdown",
+      "year": "Year",
+      "formula_title": "Formula",
+      "formula": "Future Value = Present Value × (1 + Inflation Rate)^Years"
+    },
+    "info": {
+      "title": "About Inflation Calculator",
+      "use_cases": "Use Cases",
+      "use_case_1": "Plan for retirement savings",
+      "use_case_2": "Adjust investment returns for real value",
+      "use_case_3": "Project future costs and expenses"
+    },
+    "howItWorks": {
+      "title": "How Inflation Calculation Works",
+      "formula": "Future Value = Present Value × (1 + Inflation Rate)^Years",
+      "explanation": "Inflation erodes purchasing power over time. The calculator shows how much more you'll need in the future to buy what a certain amount buys today. Conversely, it shows how much less your current savings will be worth in real terms.",
+      "steps": [
+        "Enter the current value or amount of money",
+        "Input the expected annual inflation rate",
+        "Specify the time period in years",
+        "Calculator compounds inflation over the period",
+        "Result shows future equivalent value and purchasing power loss"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Retirement Planning",
+        "description": "Calculate how much you'll need in retirement to maintain current lifestyle, accounting for inflation over 20-30 years."
+      },
+      {
+        "title": "Investment Returns",
+        "description": "Calculate real returns by subtracting inflation from nominal investment gains to understand true wealth growth."
+      },
+      {
+        "title": "Salary Negotiations",
+        "description": "Determine the raise needed to maintain purchasing power or the real value of salary increases over time."
+      },
+      {
+        "title": "Long-Term Contracts",
+        "description": "Price long-term contracts and agreements accounting for expected cost increases due to inflation."
+      }
+    ],
+    "seoTips": [
+      "Historical US inflation averages about 3% annually; plan for 2-4% in projections",
+      "Rule of 72: divide 72 by inflation rate to see years for prices to double",
+      "Real return = nominal return - inflation rate (approximation)",
+      "High inflation periods (1970s-80s) saw 10%+ rates; low periods under 2%",
+      "Consider healthcare and education inflation rates, which exceed general inflation"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using Short-Term Rates for Long-Term Planning",
+        "description": "Current inflation rates may be temporary. Use long-term averages (2-3%) for retirement and multi-decade planning."
+      },
+      {
+        "title": "Ignoring Inflation Entirely",
+        "description": "Planning retirement needs at today's costs without inflation adjustment leads to severe shortfalls."
+      },
+      {
+        "title": "Not Considering Sector-Specific Inflation",
+        "description": "Healthcare, education, and housing often inflate faster than general CPI. Account for your specific expense mix."
+      },
+      {
+        "title": "Confusing Nominal and Real Values",
+        "description": "Investment returns, salaries, and prices are usually quoted nominally. Subtract inflation for real (inflation-adjusted) values."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a realistic inflation rate to use?",
+        "answer": "For long-term planning, 2.5-3% is reasonable based on historical averages. Central banks typically target 2%. Adjust based on current economic conditions."
+      },
+      {
+        "question": "How does inflation affect my savings?",
+        "answer": "If your savings earn less than inflation, you're losing purchasing power. $10,000 at 1% interest with 3% inflation loses real value each year."
+      },
+      {
+        "question": "What is the Rule of 72 for inflation?",
+        "answer": "Divide 72 by the inflation rate to see how many years until prices double. At 3% inflation: 72/3 = 24 years for prices to double."
+      },
+      {
+        "question": "Should I invest differently based on inflation?",
+        "answer": "Yes. During high inflation, consider TIPS, I-bonds, real estate, commodities, and stocks. Cash and fixed bonds lose value in high inflation."
+      },
+      {
+        "question": "What is deflation and how is it different?",
+        "answer": "Deflation is negative inflation - prices decrease over time. Rare but harmful to economies. Your money gains purchasing power but economic activity slows."
+      }
+    ]
+  },
+  "business_valuation": {
+    "title": "Business Valuation Calculator",
+    "description": "Estimate the value of a business using the earnings multiplier method based on annual revenue, profit margin, and industry multiplier.",
+    "inputs": {
+      "annual_revenue": "Annual Revenue ($)",
+      "annual_revenue_tooltip": "Total yearly sales or revenue",
+      "annual_revenue_placeholder": "e.g. 500000",
+      "profit_margin": "Profit Margin (%)",
+      "profit_margin_tooltip": "Net profit as a percentage of revenue",
+      "profit_margin_placeholder": "e.g. 20",
+      "multiplier": "Industry Multiplier",
+      "multiplier_tooltip": "Typical multiplier for your industry (usually 2-10x)",
+      "multiplier_placeholder": "e.g. 4"
+    },
+    "results": {
+      "estimated_value": "Estimated Business Value",
+      "based_on_multiplier": "Based on Multiplier",
+      "breakdown": "Valuation Breakdown",
+      "annual_revenue": "Annual Revenue",
+      "profit_margin": "Profit Margin",
+      "annual_profit": "Annual Profit",
+      "value_to_revenue": "Value to Revenue Ratio",
+      "formula_title": "Valuation Formula",
+      "formula": "Business Value = Annual Profit × Industry Multiplier",
+      "disclaimer_title": "Important Note",
+      "disclaimer": "This is a simplified estimate. Professional valuation considers many factors including assets, growth potential, market conditions, and competitive position."
+    },
+    "info": {
+      "title": "About Business Valuation",
+      "multipliers_title": "Typical Industry Multipliers",
+      "multiplier_1": "Retail/Restaurant: 2-3x earnings",
+      "multiplier_2": "Professional Services: 3-5x earnings",
+      "multiplier_3": "Manufacturing: 4-6x earnings",
+      "multiplier_4": "Technology/SaaS: 5-10x+ earnings",
+      "use_cases": "Use Cases",
+      "use_case_1": "Selling or buying a business",
+      "use_case_2": "Partnership buyout negotiations",
+      "use_case_3": "Strategic planning and goal setting"
+    },
+    "howItWorks": {
+      "title": "How Business Valuation Works",
+      "formula": "Business Value = Annual Profit × Industry Multiplier",
+      "explanation": "The earnings multiplier method values a business based on its profit-generating capacity. The multiplier reflects industry risk, growth potential, and market conditions. This simplified approach provides a starting point for negotiations, though professional valuations consider many additional factors.",
+      "steps": [
+        "Enter the business's annual revenue",
+        "Input the profit margin percentage",
+        "Select or enter an appropriate industry multiplier",
+        "Calculator computes annual profit and applies multiplier",
+        "Result shows estimated business value"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Business Sale Preparation",
+        "description": "Estimate asking price when preparing to sell your business and understand what buyers might pay."
+      },
+      {
+        "title": "Acquisition Analysis",
+        "description": "Evaluate fair purchase price when considering buying an existing business."
+      },
+      {
+        "title": "Partner Buyout",
+        "description": "Determine fair value for buying out a partner's ownership stake in the business."
+      },
+      {
+        "title": "Strategic Planning",
+        "description": "Set business value goals and track progress toward building a more valuable company."
+      }
+    ],
+    "seoTips": [
+      "Industry multipliers vary significantly - research comparable sales in your specific industry",
+      "Recurring revenue businesses command higher multiples than one-time sale businesses",
+      "Owner-dependent businesses are valued lower - document processes and build management teams",
+      "Consistent growth in revenue and profit increases business value",
+      "Clean financial records and contracts increase buyer confidence and value"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using Wrong Profit Figure",
+        "description": "Use SDE (Seller's Discretionary Earnings) or EBITDA, not net income. Add back owner salary and one-time expenses."
+      },
+      {
+        "title": "Ignoring Owner Dependency",
+        "description": "Businesses dependent on the owner are worth less. Build systems and teams to increase transferable value."
+      },
+      {
+        "title": "Using Generic Multipliers",
+        "description": "Multipliers vary by industry, size, growth rate, and location. Research actual comparable sales for accuracy."
+      },
+      {
+        "title": "Overvaluing Based on Potential",
+        "description": "Buyers pay for actual performance, not potential. Future growth is reflected in the multiplier, not added separately."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is an earnings multiplier?",
+        "answer": "A multiplier represents how many years of earnings a buyer will pay. A 4x multiplier means paying 4 years of profit upfront for the business."
+      },
+      {
+        "question": "How do I determine the right multiplier?",
+        "answer": "Research comparable business sales in your industry. Factors include growth rate, recurring revenue, market position, risk, and owner dependency."
+      },
+      {
+        "question": "What is SDE (Seller's Discretionary Earnings)?",
+        "answer": "SDE is net profit plus owner salary, owner benefits, and one-time or non-recurring expenses. It represents cash flow available to a new owner."
+      },
+      {
+        "question": "When should I get a professional valuation?",
+        "answer": "For serious sale or purchase decisions, partnership disputes, or divorce proceedings. Professional valuations cost $3,000-20,000 but provide defensible values."
+      },
+      {
+        "question": "How can I increase my business value?",
+        "answer": "Increase profitability, build recurring revenue, reduce owner dependency, diversify customer base, document processes, and maintain clean financials."
+      }
+    ]
+  },
+  "retirement_savings": {
+    "title": "Retirement Savings Calculator",
+    "description": "Plan for retirement by calculating how your savings will grow over time with compound interest. Determine how much you need to save monthly to reach your retirement goals.",
+    "inputs": {
+      "current_savings": "Current Savings",
+      "current_savings_tooltip": "Amount you have already saved for retirement",
+      "current_savings_placeholder": "e.g. 50000",
+      "monthly_contribution": "Monthly Contribution",
+      "monthly_contribution_tooltip": "Amount you plan to save each month",
+      "monthly_contribution_placeholder": "e.g. 500",
+      "years_to_retirement": "Years to Retirement",
+      "years_to_retirement_tooltip": "Number of years until you plan to retire",
+      "years_to_retirement_placeholder": "e.g. 25",
+      "annual_return_rate": "Expected Annual Return (%)",
+      "annual_return_rate_tooltip": "Expected average annual investment return (historically 7% for stocks)",
+      "annual_return_rate_placeholder": "e.g. 7"
+    },
+    "errors": {
+      "need_savings_or_contribution": "Enter either current savings or monthly contribution"
+    },
+    "results": {
+      "future_value": "Projected Retirement Savings",
+      "in_years": "in {{years}} years",
+      "breakdown": "Savings Breakdown",
+      "total_contributions": "Total Contributions",
+      "total_interest": "Total Interest Earned",
+      "of_total": "of total",
+      "growth_summary": "Growth Summary",
+      "starting_balance": "Starting Balance",
+      "monthly_contribution": "Monthly Contribution",
+      "return_rate": "Return Rate",
+      "growth_multiple": "Growth Multiple",
+      "yearly_projection": "Yearly Projection",
+      "year": "Year",
+      "balance": "Balance",
+      "interest_earned": "Interest Earned",
+      "formula_title": "Formula",
+      "formula": "FV = PV(1+r)^n + PMT × ((1+r)^n - 1)/r"
+    },
+    "info": {
+      "title": "About Retirement Savings",
+      "use_cases": "Use Cases",
+      "use_case_1": "Plan for retirement goals",
+      "use_case_2": "Determine required monthly savings",
+      "use_case_3": "Understand compound interest growth"
+    },
+    "howItWorks": {
+      "title": "How Retirement Savings Calculation Works",
+      "formula": "FV = PV(1+r)^n + PMT × ((1+r)^n - 1) / r",
+      "explanation": "Retirement savings grow through both contributions and compound interest. The calculator projects how current savings plus regular contributions grow over time at an expected rate of return. Compound interest means your earnings generate more earnings.",
+      "steps": [
+        "Enter your current retirement savings balance",
+        "Specify planned monthly contribution amount",
+        "Input years until retirement",
+        "Set expected annual rate of return",
+        "Calculator shows projected retirement balance and growth breakdown"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Retirement Goal Setting",
+        "description": "Determine how much you'll have at retirement based on current savings rate and investment returns."
+      },
+      {
+        "title": "Savings Rate Planning",
+        "description": "Calculate how much you need to save monthly to reach a specific retirement goal."
+      },
+      {
+        "title": "Investment Strategy",
+        "description": "Compare outcomes at different expected returns to understand risk/reward tradeoffs."
+      },
+      {
+        "title": "Retirement Timeline",
+        "description": "Determine if you can retire earlier or if you need to extend your working years."
+      }
+    ],
+    "seoTips": [
+      "Historically, stock market returns average 7-10% annually; use 7% for conservative estimates",
+      "Increase contributions with raises - even 1% more annually compounds significantly",
+      "Starting early matters more than contribution amount due to compound interest",
+      "Account for inflation - you'll need 2-3x more in 30 years for same purchasing power",
+      "Consider tax-advantaged accounts (401k, IRA) which grow tax-deferred"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Unrealistic Return Assumptions",
+        "description": "Using 10-12% returns ignores market volatility and fees. Use 6-7% for conservative planning."
+      },
+      {
+        "title": "Ignoring Inflation",
+        "description": "A million dollars in 30 years won't buy what it does today. Adjust your goal for expected inflation."
+      },
+      {
+        "title": "Not Increasing Contributions",
+        "description": "Fixed contributions lose purchasing power over time. Increase with salary raises to maintain real savings rate."
+      },
+      {
+        "title": "Underestimating Retirement Duration",
+        "description": "Plan for 30+ years of retirement. Running out of money at 85 is a real risk with increasing longevity."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How much do I need for retirement?",
+        "answer": "Common rule: 25x annual expenses (4% withdrawal rate). If you spend $50,000/year, target $1.25 million. Adjust for Social Security and pensions."
+      },
+      {
+        "question": "What rate of return should I use?",
+        "answer": "Conservative: 5-6%. Moderate: 7%. Aggressive: 8-9%. Use lower rates as you approach retirement when you should be more conservative."
+      },
+      {
+        "question": "When should I start saving for retirement?",
+        "answer": "As early as possible. Starting at 25 vs 35 can mean twice as much at retirement due to compound interest - time is your biggest advantage."
+      },
+      {
+        "question": "What is the 4% rule?",
+        "answer": "Research suggests withdrawing 4% of savings annually has a high probability of lasting 30+ years. So $1M allows ~$40K/year withdrawals."
+      },
+      {
+        "question": "How do I account for Social Security?",
+        "answer": "Estimate your Social Security benefit and subtract from needed income. You need to save enough to cover the gap between Social Security and total needs."
+      }
+    ]
+  },
+  "four_oh_one_k": {
+    "title": "401(k) Calculator",
+    "description": "Calculate your 401(k) retirement savings growth including employer matching contributions. Maximize your retirement by understanding the power of employer matches.",
+    "inputs": {
+      "annual_salary": "Annual Salary",
+      "annual_salary_tooltip": "Your gross annual salary before taxes",
+      "annual_salary_placeholder": "e.g. 75000",
+      "contribution_percent": "Your Contribution (%)",
+      "contribution_percent_tooltip": "Percentage of salary you contribute to 401(k)",
+      "contribution_percent_placeholder": "e.g. 6",
+      "employer_match_percent": "Employer Match (%)",
+      "employer_match_percent_tooltip": "Percentage your employer matches (e.g., 50% means $0.50 per $1 you contribute)",
+      "employer_match_limit": "Match Limit (%)",
+      "employer_match_limit_tooltip": "Maximum percentage of salary that employer will match",
+      "current_balance": "Current 401(k) Balance",
+      "current_balance_tooltip": "Your current 401(k) account balance",
+      "current_balance_placeholder": "e.g. 25000",
+      "years_to_retirement": "Years to Retirement",
+      "years_to_retirement_tooltip": "Number of years until you plan to retire",
+      "years_to_retirement_placeholder": "e.g. 30",
+      "annual_return_rate": "Expected Return (%)",
+      "annual_return_rate_tooltip": "Expected average annual investment return"
+    },
+    "errors": {
+      "invalid_percentage": "Percentage must be between 0 and 100"
+    },
+    "results": {
+      "projected_balance": "Projected 401(k) Balance",
+      "in_years": "in {{years}} years",
+      "contribution_breakdown": "Contribution Breakdown",
+      "your_contributions": "Your Contributions",
+      "employer_match": "Employer Match",
+      "investment_growth": "Investment Growth",
+      "monthly_breakdown": "Monthly Contributions",
+      "your_monthly": "Your Monthly",
+      "employer_monthly": "Employer Monthly",
+      "free_money": "Free Money from Employer",
+      "employer_match_value": "Your employer will contribute ${{amount}} over the investment period!",
+      "yearly_projection": "Yearly Projection",
+      "year": "Year",
+      "balance": "Balance",
+      "formula_title": "Formula",
+      "formula": "FV = (Employee + Employer Match) × ((1+r)^n - 1)/r"
+    },
+    "info": {
+      "title": "About 401(k) Calculator",
+      "use_cases": "Use Cases",
+      "use_case_1": "Maximize employer matching",
+      "use_case_2": "Plan retirement contributions",
+      "use_case_3": "Understand tax-advantaged growth"
+    },
+    "howItWorks": {
+      "title": "How 401(k) Calculation Works",
+      "formula": "Total Contribution = Your Contribution + Employer Match",
+      "explanation": "A 401(k) grows through your pre-tax contributions, employer matching contributions (free money), and investment growth. The calculator projects growth over time, showing how maximizing employer match dramatically increases retirement savings.",
+      "steps": [
+        "Enter your annual salary",
+        "Specify your contribution percentage",
+        "Input employer match percentage and match limit",
+        "Add current 401(k) balance and years to retirement",
+        "Set expected annual return rate for projections"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Match Maximization",
+        "description": "Determine the minimum contribution needed to capture the full employer match - free money you shouldn't leave on the table."
+      },
+      {
+        "title": "Retirement Projections",
+        "description": "Project 401(k) balance at retirement based on contributions, matches, and investment growth."
+      },
+      {
+        "title": "Contribution Optimization",
+        "description": "Balance tax benefits, employer match, and take-home pay to optimize overall financial picture."
+      },
+      {
+        "title": "Job Offer Comparison",
+        "description": "Compare total compensation including 401(k) match value across different job offers."
+      }
+    ],
+    "seoTips": [
+      "Always contribute at least enough to get the full employer match - it's an instant 50-100% return",
+      "2024 contribution limit is $23,000 ($30,500 if 50+); aim to maximize if possible",
+      "Employer matches don't count toward your contribution limit",
+      "Consider Roth 401(k) if available and you expect higher taxes in retirement",
+      "Increase contribution by 1% annually to reach higher savings rates painlessly"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Not Getting Full Match",
+        "description": "Leaving employer match money on the table is like refusing a raise. Always contribute enough to get 100% of available match."
+      },
+      {
+        "title": "Ignoring Vesting Schedule",
+        "description": "Employer matches may vest over 3-6 years. Know your vesting schedule before counting matched funds as yours."
+      },
+      {
+        "title": "Setting and Forgetting",
+        "description": "Increase contributions with raises. A 3% raise should include 0.5-1% increase to 401(k) contribution."
+      },
+      {
+        "title": "Poor Investment Selection",
+        "description": "Default investment may be too conservative or have high fees. Review fund options and choose appropriate allocation."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is employer matching?",
+        "answer": "Employer contributes to your 401(k) based on your contribution. Common match: 50% of your contribution up to 6% of salary. So 6% contribution gets 3% employer match."
+      },
+      {
+        "question": "How much should I contribute to 401(k)?",
+        "answer": "At minimum, enough to get full employer match. Ideally 15-20% of income including match. Max out ($23,000 in 2024) if you can afford it."
+      },
+      {
+        "question": "What is 401(k) vesting?",
+        "answer": "Vesting determines when employer match becomes yours. You may need to work 3-6 years to be fully vested. Your contributions are always 100% yours."
+      },
+      {
+        "question": "Traditional vs Roth 401(k)?",
+        "answer": "Traditional: Pre-tax contributions, taxed at withdrawal. Roth: After-tax contributions, tax-free withdrawal. Choose based on current vs expected future tax rates."
+      },
+      {
+        "question": "Can I withdraw early from 401(k)?",
+        "answer": "Early withdrawal (before 59.5) incurs 10% penalty plus income tax. Exceptions exist for hardship, disability, and certain other situations."
+      }
+    ]
+  },
+  "ltv": {
+    "title": "LTV Calculator",
+    "description": "Calculate Loan-to-Value (LTV) ratio for mortgages and loans. LTV is a key metric lenders use to assess risk and determine loan terms.",
+    "inputs": {
+      "loan_amount": "Loan Amount",
+      "loan_amount_tooltip": "The amount you are borrowing",
+      "loan_amount_placeholder": "e.g. 240000",
+      "property_value": "Property Value",
+      "property_value_tooltip": "The appraised or purchase value of the property",
+      "property_value_placeholder": "e.g. 300000"
+    },
+    "errors": {
+      "loan_exceeds_property": "Loan amount cannot exceed property value"
+    },
+    "results": {
+      "ltv_ratio": "Loan-to-Value Ratio",
+      "breakdown": "Loan Breakdown",
+      "loan_amount": "Loan Amount",
+      "property_value": "Property Value",
+      "equity": "Equity",
+      "down_payment": "Down Payment",
+      "pmi_required": "PMI Likely Required",
+      "pmi_not_required": "PMI Not Required",
+      "pmi_explanation": "LTV above 80% typically requires Private Mortgage Insurance (PMI).",
+      "no_pmi_explanation": "LTV at or below 80% typically does not require PMI.",
+      "risk_assessment": "Risk Assessment",
+      "risk_levels": {
+        "low": "Low Risk",
+        "moderate": "Moderate Risk",
+        "high": "High Risk",
+        "very_high": "Very High Risk"
+      },
+      "risk_explanations": {
+        "low": "Excellent LTV ratio. You have significant equity and should qualify for the best loan terms and interest rates.",
+        "moderate": "Good LTV ratio, but PMI may be required. Consider a larger down payment to reach 80% LTV.",
+        "high": "Higher risk loan. Expect higher interest rates and PMI requirements. May have difficulty qualifying.",
+        "very_high": "Very high risk. May not qualify for conventional loans. Consider government-backed loan programs."
+      },
+      "ltv_visual": "LTV Visualization",
+      "formula_title": "Formula",
+      "formula": "LTV = (Loan Amount / Property Value) × 100%"
+    },
+    "info": {
+      "title": "About LTV Calculator",
+      "use_cases": "Use Cases",
+      "use_case_1": "Determine mortgage qualification",
+      "use_case_2": "Calculate required down payment",
+      "use_case_3": "Understand PMI requirements",
+      "ltv_ranges_title": "LTV Risk Ranges",
+      "ltv_range_low": "80% or below: Low risk, best rates, no PMI",
+      "ltv_range_moderate": "80-90%: Moderate risk, PMI typically required",
+      "ltv_range_high": "90-95%: Higher risk, higher rates",
+      "ltv_range_very_high": "95%+: Very high risk, may need special programs"
+    },
+    "howItWorks": {
+      "title": "How LTV Calculation Works",
+      "formula": "LTV = (Loan Amount / Property Value) × 100%",
+      "explanation": "Loan-to-Value ratio compares your loan amount to the property's appraised value. Lower LTV means more equity and less risk for lenders, resulting in better rates and no PMI requirement. Higher LTV means less down payment but higher costs and stricter qualification.",
+      "steps": [
+        "Enter the loan amount you need to borrow",
+        "Input the property's appraised or purchase value",
+        "Calculator divides loan by property value",
+        "View LTV percentage and risk assessment",
+        "See down payment amount and equity position"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Mortgage Planning",
+        "description": "Determine required down payment to reach target LTV and qualify for best mortgage rates."
+      },
+      {
+        "title": "PMI Assessment",
+        "description": "Calculate if Private Mortgage Insurance is required and how much down payment eliminates it."
+      },
+      {
+        "title": "Refinancing Analysis",
+        "description": "Assess current equity position to determine eligibility for refinancing and PMI removal."
+      },
+      {
+        "title": "Home Equity Access",
+        "description": "Calculate how much equity can be accessed through HELOC or home equity loan."
+      }
+    ],
+    "seoTips": [
+      "80% LTV is the magic number - below this typically means no PMI required",
+      "Lower LTV generally results in better interest rates",
+      "Appraisal value may differ from purchase price - lender uses lower of the two",
+      "Combined LTV (CLTV) includes all loans secured by the property",
+      "FHA loans allow up to 96.5% LTV; VA loans allow 100% LTV"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using Purchase Price Instead of Appraisal",
+        "description": "Lenders use the lower of purchase price or appraised value. An appraisal below purchase price increases your LTV."
+      },
+      {
+        "title": "Forgetting About PMI Cost",
+        "description": "PMI at higher LTV can cost $100-300/month. Calculate total monthly payment, not just principal and interest."
+      },
+      {
+        "title": "Ignoring Combined LTV",
+        "description": "If you have a HELOC or second mortgage, combined LTV matters. All loans against the property count."
+      },
+      {
+        "title": "Not Planning for 80% Threshold",
+        "description": "Getting close to 80% but not reaching it still requires PMI. Better to hit exactly 80% than 81%."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a good LTV ratio?",
+        "answer": "80% or below is ideal - no PMI, best rates. 80-90% is acceptable but requires PMI. Above 90% is high risk with higher rates."
+      },
+      {
+        "question": "What is PMI and why does LTV matter?",
+        "answer": "Private Mortgage Insurance protects lenders if you default. Required when LTV exceeds 80%. Costs 0.5-1% of loan annually until you reach 80% equity."
+      },
+      {
+        "question": "How do I lower my LTV?",
+        "answer": "Make a larger down payment, pay down principal faster, or wait for property appreciation. Refinancing after significant principal paydown or appreciation can help."
+      },
+      {
+        "question": "When can I remove PMI?",
+        "answer": "When LTV reaches 80% through payments, or automatically removed at 78% LTV. You can request removal at 80% with good payment history."
+      },
+      {
+        "question": "Does LTV affect my interest rate?",
+        "answer": "Yes. Lower LTV usually means lower rates. Rates may improve at 80%, 75%, and 60% LTV thresholds depending on lender."
+      }
+    ]
+  },
+  "payback_period": {
+    "title": "Payback Period Calculator",
+    "description": "Calculate time to recover investment.",
+    "inputs": {
+      "initial_investment": "Initial Investment",
+      "initial_investment_tooltip": "Cost of the project or asset",
+      "initial_investment_placeholder": "e.g. 50000",
+      "annual_cash_flow": "Annual Cash Flow",
+      "annual_cash_flow_tooltip": "Net cash inflow per year",
+      "annual_cash_flow_placeholder": "e.g. 12000",
+      "salvage_value": "Salvage Value (Optional)",
+      "salvage_value_tooltip": "Residual value at end of life",
+      "salvage_value_placeholder": "e.g. 5000"
+    },
+    "results": {
+      "payback_period": "Payback Period",
+      "years": "years",
+      "months": "months",
+      "investment_analysis": "Investment Analysis",
+      "total_cash_flow": "Total Cash Flow",
+      "at_break_even": "at Payback Point",
+      "break_even_point": "Break Even Point",
+      "formula": "Payback Period = (Investment - Salvage) / Annual Cash Flow"
+    },
+    "info": {
+      "title": "About Payback Period",
+      "description": "The payback period is the length of time required to recover the cost of an investment.",
+      "use_cases": "Use Cases",
+      "use_case_1": "Evaluate investment risk",
+      "use_case_2": "Compare project timelines",
+      "use_case_3": "Capital budgeting"
+    },
+    "howItWorks": {
+      "title": "How Payback Period Calculation Works",
+      "formula": "Payback Period = Initial Investment / Annual Cash Flow",
+      "explanation": "The payback period measures how long it takes to recover the initial investment from cash flows generated by the project. Shorter payback periods indicate lower risk as the investment is recovered sooner, but this metric ignores the time value of money and cash flows beyond the payback point.",
+      "steps": [
+        "Enter the initial investment amount",
+        "Input the expected annual cash flow from the investment",
+        "Optionally add salvage value for equipment investments",
+        "Calculator divides net investment by annual cash flow",
+        "Result shows years and months to recover the investment"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Capital Budgeting",
+        "description": "Compare investment opportunities by how quickly they return the initial capital, prioritizing faster payback projects."
+      },
+      {
+        "title": "Risk Assessment",
+        "description": "Shorter payback periods reduce exposure to uncertainty, making payback a useful risk screening tool."
+      },
+      {
+        "title": "Cash Flow Planning",
+        "description": "Understand when invested capital will be available for reinvestment in other opportunities."
+      },
+      {
+        "title": "Equipment Purchase Decisions",
+        "description": "Evaluate whether new equipment will pay for itself within an acceptable timeframe before becoming obsolete."
+      }
+    ],
+    "seoTips": [
+      "Shorter payback periods generally indicate lower risk investments",
+      "Use payback period alongside NPV and IRR for comprehensive analysis",
+      "Consider industry-specific acceptable payback periods - technology may require faster payback",
+      "Account for inflation when projecting future cash flows",
+      "Remember that payback ignores profitability beyond the break-even point"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Ignoring Cash Flows After Payback",
+        "description": "Payback period doesn't consider returns generated after the investment is recovered. A project with longer payback may still be more profitable overall."
+      },
+      {
+        "title": "Not Accounting for Time Value of Money",
+        "description": "Simple payback treats all cash flows equally. Use discounted payback period for more accurate analysis of present value."
+      },
+      {
+        "title": "Using Average Instead of Actual Cash Flows",
+        "description": "If cash flows vary year to year, using averages can misrepresent actual payback timing."
+      },
+      {
+        "title": "Ignoring Initial Setup Costs",
+        "description": "Include all upfront costs - installation, training, transition expenses - not just the purchase price."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a good payback period?",
+        "answer": "Depends on the industry and investment type. Generally, 2-3 years is good for equipment, 3-5 years for larger projects. High-risk investments should have shorter payback periods."
+      },
+      {
+        "question": "What's the difference between payback period and ROI?",
+        "answer": "Payback period measures time to recover investment. ROI measures total return as a percentage. A short payback doesn't guarantee good ROI, and vice versa."
+      },
+      {
+        "question": "Should I always choose the shortest payback period?",
+        "answer": "Not necessarily. Short payback reduces risk but may not maximize returns. Consider total profitability alongside payback when making decisions."
+      },
+      {
+        "question": "How do I calculate payback with uneven cash flows?",
+        "answer": "Add cash flows year by year until cumulative cash equals initial investment. Payback occurs when the running total reaches zero."
+      },
+      {
+        "question": "What is discounted payback period?",
+        "answer": "Discounted payback accounts for time value of money by discounting future cash flows before calculating when they recover the investment."
+      }
+    ]
+  },
+  "roi-calculator": {
+    "title": "Free Break-Even Point Calculator Online",
+    "description": "Calculate your business break-even point with our free online calculator. Determine the number of units you need to sell to cover all costs. Essential tool for business planning, cost analysis, and profitability assessment for entrepreneurs and startups."
+  },
+  "net-present-value-calculator": {
+    "title": "NPV Calculator - Net Present Value Analysis",
+    "description": "Calculate net present value for investment analysis. Our free NPV calculator helps evaluate investment opportunities, compare projects, and make capital budgeting decisions. Essential for financial analysis and investment evaluation."
+  },
+  "internal-rate-of-return-calculator": {
+    "title": "IRR Calculator - Internal Rate of Return",
+    "description": "Calculate internal rate of return for investment projects. Our free IRR calculator helps evaluate project profitability, compare investment options, and make informed capital allocation decisions. Essential for financial analysis."
+  },
+  "cash-flow-calculator": {
+    "title": "Cash Flow Calculator - Business Cash Flow",
+    "description": "Calculate incoming and outgoing cash flow for your business. Our free cash flow calculator helps businesses track liquidity, manage expenses, and plan for financial stability. Essential for financial planning and business health monitoring."
+  },
+  "inflation-calculator": {
+    "title": "Inflation Calculator - Purchasing Power Tool",
+    "description": "Calculate inflation impact on purchasing power over time. Our free inflation calculator helps understand how inflation affects money value, plan for future costs, and adjust financial projections. Essential for long-term financial planning."
+  },
+  "business-valuation-calculator": {
+    "title": "Business Valuation Calculator Online Free",
+    "description": "Value your business using various valuation methods. Our free business valuation calculator helps entrepreneurs, investors, and buyers estimate company worth. Calculate fair market value for selling, buying, or investing in businesses."
+  },
+  "retirement-savings-calculator": {
+    "title": "Retirement Savings Calculator - Pension Planning",
+    "description": "Calculate retirement savings needed for comfortable retirement. Our free retirement calculator helps plan for future, determine monthly savings goals, and estimate retirement income. Essential for long-term financial security and planning."
+  },
+  "401k-calculator": {
+    "title": "401k Calculator - Retirement Investment Tool",
+    "description": "Calculate 401k retirement savings and employer match. Our free 401k calculator helps employees maximize retirement contributions, understand tax benefits, and plan for retirement security. Essential for retirement investment planning."
+  },
+  "ltv-calculator": {
+    "title": "LTV Calculator - Customer Lifetime Value",
+    "description": "Calculate LTV (Lifetime Value) to determine total customer worth. Our free LTV calculator helps businesses assess long-term customer profitability, improve retention strategies, and optimize marketing spend. Essential for subscription and SaaS businesses."
+  },
+  "payback-period-calculator": {
+    "title": "Payback Period Calculator - Investment Recovery",
+    "description": "Calculate payback period for investment recovery. Our free payback calculator helps businesses determine how long to recover initial investment, evaluate project viability, and make smart capital allocation decisions."
+  }
+}

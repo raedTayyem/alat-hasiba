@@ -295,7 +295,7 @@ export default function ExitIntentModal({
           <button
             onClick={handleClose}
             className="absolute top-4 right-4 w-8 h-8 rounded-full bg-muted hover:bg-muted/80 flex items-center justify-center transition-colors"
-            aria-label="Close"
+            aria-label={t('aria.close')}
           >
             <X className="w-4 h-4" />
           </button>

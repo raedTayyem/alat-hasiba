@@ -1,0 +1,903 @@
+{
+  "pace-calculator": {
+    "title": "Running Pace Calculator - Free Race Pace Planner",
+    "description": "Calculate your running pace per kilometer or mile. Free online pace calculator for runners, joggers, and marathon training.",
+    "howItWorks": {
+      "title": "How the Running Pace Calculator Works",
+      "formula": "Pace (min/km) = Total Time (minutes) ÷ Distance (km)",
+      "explanation": "This tool calculates your running pace (time per kilometer or mile) based on distance and total time. Knowing your pace helps you plan for races and train more effectively.",
+      "steps": [
+        {
+          "name": "Enter Distance",
+          "text": "Input the distance you covered in kilometers"
+        },
+        {
+          "name": "Enter Time",
+          "text": "Input total time (hours, minutes, seconds)"
+        },
+        {
+          "name": "Calculate Pace",
+          "text": "The tool calculates your pace per km/mile and speed"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Race Planning",
+        "description": "Determine starting pace and target pace for races"
+      },
+      {
+        "title": "Speed Training",
+        "description": "Set pace for interval training"
+      },
+      {
+        "title": "Progress Tracking",
+        "description": "Monitor speed improvements over time"
+      }
+    ],
+    "seoTips": [
+      "5:00 min/km pace is good for recreational runners",
+      "Start races slightly slower than your target pace",
+      "Train at different paces (easy, moderate, fast)",
+      "Monitor your training pace to avoid overtraining"
+    ],
+    "commonMistakes": [
+      "Starting too fast in races",
+      "Not accounting for elevation and weather in pace evaluation",
+      "Focusing on pace in every training run instead of easy running",
+      "Comparing your pace to more experienced runners"
+    ],
+    "faqs": [
+      {
+        "question": "What's a good pace for beginners?",
+        "answer": "6:00-7:00 min/km is good for beginners - consistency matters most."
+      },
+      {
+        "question": "How do I improve my pace?",
+        "answer": "Through regular training, interval workouts, and long slow runs."
+      },
+      {
+        "question": "Should I always run at the same pace?",
+        "answer": "No, variety is important: 80% easy running and 20% speed training."
+      }
+    ]
+  },
+  "race-time-predictor": {
+    "title": "Race Time Predictor - Marathon and Run Time Prediction",
+    "description": "Predict your race finish time based on your current performance. Free online tool for 5K, 10K, half, and full marathons.",
+    "howItWorks": {
+      "title": "How the Race Time Predictor Works",
+      "formula": "Riegel Formula: T2 = T1 × (D2 ÷ D1)^1.06",
+      "explanation": "This tool uses the scientific Riegel formula to predict your time at a new distance based on your performance at another distance. The formula accounts for the fact that pace slows as distance increases.",
+      "steps": [
+        {
+          "name": "Enter Previous Race",
+          "text": "Input the distance and time of a race you completed"
+        },
+        {
+          "name": "Set Target Distance",
+          "text": "Select the distance you want to predict"
+        },
+        {
+          "name": "View Prediction",
+          "text": "The tool calculates your predicted time and pace"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Marathon Planning",
+        "description": "Predict marathon time from 10K or half marathon performance"
+      },
+      {
+        "title": "Goal Setting",
+        "description": "Set realistic goals for upcoming races"
+      },
+      {
+        "title": "Race Selection",
+        "description": "Know if you're ready for a certain distance"
+      }
+    ],
+    "seoTips": [
+      "Use a recent race result (within 2-3 months)",
+      "Predictions are more accurate between similar distances",
+      "Distance-specific training improves actual results",
+      "Weather and course affect actual performance"
+    ],
+    "commonMistakes": [
+      "Using training run results instead of actual race results",
+      "Predicting marathon from only a 5K race",
+      "Ignoring the need for distance-specific training",
+      "Expecting major improvements without additional training"
+    ],
+    "faqs": [
+      {
+        "question": "How accurate are predictions?",
+        "answer": "Very accurate between similar distances, less accurate for marathon from 5K."
+      },
+      {
+        "question": "Which distance is best for prediction?",
+        "answer": "Half marathon best predicts marathon, 10K best predicts half marathon."
+      },
+      {
+        "question": "Why is my actual performance different?",
+        "answer": "Training, nutrition, weather, and race-day psychology all affect performance."
+      }
+    ]
+  },
+  "vo2-max-calculator": {
+    "title": "VO2 Max Calculator - Cardiorespiratory Fitness Tool",
+    "description": "Calculate your maximum oxygen consumption (VO2 Max). Free online tool to measure cardiorespiratory endurance and fitness.",
+    "howItWorks": {
+      "title": "How the VO2 Max Calculator Works",
+      "formula": "VO2 Max ≈ 15.3 × (Max Heart Rate ÷ Resting Heart Rate)",
+      "explanation": "VO2 Max is the maximum amount of oxygen your body can use during intense exercise. Measured in milliliters per kilogram per minute, it's the best indicator of cardiorespiratory fitness.",
+      "steps": [
+        {
+          "name": "Measure Resting HR",
+          "text": "Measure your pulse in the morning before getting out of bed"
+        },
+        {
+          "name": "Enter Data",
+          "text": "Input your age, resting heart rate, and max heart rate"
+        },
+        {
+          "name": "Estimate VO2 Max",
+          "text": "The tool calculates your VO2 Max estimate and level"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Fitness Assessment",
+        "description": "Know your cardiorespiratory fitness level"
+      },
+      {
+        "title": "Progress Tracking",
+        "description": "Monitor fitness improvements with training"
+      },
+      {
+        "title": "Sports Planning",
+        "description": "Determine appropriate training zones"
+      }
+    ],
+    "seoTips": [
+      "Measure resting heart rate several days and take the average",
+      "VO2 Max improves with regular aerobic training",
+      "Professional athletes may reach 70-80 ml/kg/min",
+      "Values decrease with age by about 1% annually"
+    ],
+    "commonMistakes": [
+      "Measuring resting heart rate after activity or drinking coffee",
+      "Confusing estimated VO2 Max with lab-measured values",
+      "Expecting rapid improvements in VO2 Max",
+      "Comparing your values to people of different ages"
+    ],
+    "faqs": [
+      {
+        "question": "What's a good VO2 Max value?",
+        "answer": "For men: 35-40 average, 45-55 good, 60+ excellent. Women about 10% lower."
+      },
+      {
+        "question": "How do I improve VO2 Max?",
+        "answer": "Through regular aerobic training, especially HIIT and long runs."
+      },
+      {
+        "question": "Is the estimate accurate?",
+        "answer": "A good estimate, but lab testing is much more accurate."
+      }
+    ]
+  },
+  "heart-rate-zone-calculator": {
+    "title": "Heart Rate Zone Calculator - Target Training Zones",
+    "description": "Calculate your heart rate training zones for fat burning, cardio, and performance. Free online heart rate monitor tool.",
+    "howItWorks": {
+      "title": "How the Heart Rate Zone Calculator Works",
+      "formula": "Max Heart Rate = 220 - Age, then zones are calculated as percentages",
+      "explanation": "This tool divides your heart rate range into 5 training zones, each targeting different physiological adaptations. Training in the right zone ensures you achieve your goals efficiently.",
+      "steps": [
+        {
+          "name": "Enter Age",
+          "text": "Input your age to calculate max heart rate"
+        },
+        {
+          "name": "Enter Resting HR",
+          "text": "Input your resting heart rate for accuracy"
+        },
+        {
+          "name": "View Zones",
+          "text": "The tool calculates your five training zones"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Fat Burning",
+        "description": "Train in the fat burning zone (60-70% of max HR)"
+      },
+      {
+        "title": "Endurance Improvement",
+        "description": "Train in the aerobic zone to build endurance capacity"
+      },
+      {
+        "title": "HIIT Training",
+        "description": "Set intensity for high-intensity interval workouts"
+      }
+    ],
+    "seoTips": [
+      "Use a fitness watch to monitor heart rate during exercise",
+      "80% of your training should be in zones 1-3",
+      "The fat burning zone isn't the best for weight loss",
+      "Don't train in zone 5 for long periods"
+    ],
+    "commonMistakes": [
+      "Always training at high intensity thinking it's better",
+      "Ignoring training in lower zones",
+      "Using 220-age formula as absolute truth",
+      "Not using a device to measure heart rate"
+    ],
+    "faqs": [
+      {
+        "question": "Which zone is best for fat burning?",
+        "answer": "Zone 2-3, but high-intensity training burns more total calories."
+      },
+      {
+        "question": "Is the 220-age formula accurate?",
+        "answer": "Estimated - actual max heart rate may vary by ±10-15 beats."
+      },
+      {
+        "question": "How often should I train in zone 5?",
+        "answer": "Maximum 1-2 times weekly, with adequate rest afterward."
+      }
+    ]
+  },
+  "swimming-pace-calculator": {
+    "title": "Swimming Pace Calculator - Pace per 100m/100yd",
+    "description": "Calculate your swimming pace and speed accurately. Free online tool for swimmers to track and improve time performance.",
+    "howItWorks": {
+      "title": "How the Swimming Pace Calculator Works",
+      "formula": "Pace per 100m = (Total Time in seconds ÷ Distance in meters) × 100",
+      "explanation": "This tool calculates your swimming pace per 100 meters, the standard unit in swimming. Knowing your pace helps you plan for races and improve your performance.",
+      "steps": [
+        {
+          "name": "Enter Distance",
+          "text": "Input the distance you swam in meters"
+        },
+        {
+          "name": "Enter Time",
+          "text": "Input total time (minutes and seconds)"
+        },
+        {
+          "name": "Calculate Pace",
+          "text": "The tool calculates your pace per 100 meters"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Race Planning",
+        "description": "Set target pace for swimming competitions"
+      },
+      {
+        "title": "Interval Training",
+        "description": "Set pace for interval swimming workouts"
+      },
+      {
+        "title": "Comparing Strokes",
+        "description": "Find which stroke is fastest for you"
+      }
+    ],
+    "seoTips": [
+      "2:00/100m pace is good for recreational swimmers",
+      "Professional swimmers reach under 1:00/100m",
+      "Technique is more important than strength for improving pace",
+      "Train at different distances for comprehensive improvement"
+    ],
+    "commonMistakes": [
+      "Neglecting technique and focusing only on speed",
+      "Not using a waterproof watch for accurate timing",
+      "Comparing your pace to professional swimmers",
+      "Ignoring the importance of turns and starts"
+    ],
+    "faqs": [
+      {
+        "question": "What's a good swimming pace?",
+        "answer": "Recreational: 2:00-2:30/100m, Advanced: 1:30-2:00/100m, Elite: under 1:15/100m."
+      },
+      {
+        "question": "How do I improve my swim pace?",
+        "answer": "By improving technique, breathing, stroke power, and interval training."
+      },
+      {
+        "question": "Does stroke type affect pace?",
+        "answer": "Yes - butterfly is fastest, then freestyle, backstroke, then breaststroke."
+      }
+    ]
+  },
+  "cycling-power-calculator": {
+    "title": "Cycling Power Calculator - Wattage and Performance",
+    "description": "Calculate the power output needed for cycling at specific speeds. Free online cycling wattage and performance tool.",
+    "howItWorks": {
+      "title": "How the Cycling Power Calculator Works",
+      "formula": "Power = Air Resistance + Rolling Resistance + Climbing Power",
+      "explanation": "This tool calculates the power in watts needed to cycle at a specific speed. It considers rider and bike weight, wind speed, and road gradient.",
+      "steps": [
+        {
+          "name": "Enter Weights",
+          "text": "Input your weight and bike/equipment weight"
+        },
+        {
+          "name": "Enter Speed",
+          "text": "Input target speed and gradient"
+        },
+        {
+          "name": "Calculate Power",
+          "text": "The tool calculates required power in watts"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Race Planning",
+        "description": "Know the power needed to maintain a certain speed"
+      },
+      {
+        "title": "Power Training",
+        "description": "Set power goals for training"
+      },
+      {
+        "title": "Equipment Selection",
+        "description": "Understand the impact of weight on performance"
+      }
+    ],
+    "seoTips": [
+      "Power-to-weight ratio (W/kg) is more important than absolute power",
+      "3-4 W/kg is good for amateurs, 5-6 for professionals",
+      "Air resistance increases quadratically with speed",
+      "Aerodynamic positioning significantly reduces resistance"
+    ],
+    "commonMistakes": [
+      "Ignoring the effect of wind on actual performance",
+      "Focusing on absolute power rather than relative power",
+      "Not accounting for altitude and atmospheric pressure",
+      "Comparing your power without considering test conditions"
+    ],
+    "faqs": [
+      {
+        "question": "What's good power for a cyclist?",
+        "answer": "Amateurs: 2.5-3.5 W/kg, Advanced: 3.5-4.5, Professionals: 5+ W/kg."
+      },
+      {
+        "question": "How do I improve my power?",
+        "answer": "Through interval training, climbing training, and increasing training volume."
+      },
+      {
+        "question": "Does bike weight matter?",
+        "answer": "Yes for climbing, but aerodynamics matter more on flat terrain."
+      }
+    ]
+  },
+  "heart_rate_zones": {
+    "title": "Heart Rate Zones Calculator",
+    "description": "Determine ideal training zones based on your age and resting heart rate to ensure workout effectiveness.",
+    "inputs": {
+      "resting_hr": "Resting Heart Rate",
+      "resting_hr_tooltip": "Measure your pulse immediately upon waking or after sitting quietly for 5 minutes"
+    },
+    "results": {
+      "max_hr": "Maximum Heart Rate",
+      "zones_title": "Target Training Zones",
+      "zone": "Zone",
+      "bpm": "bpm"
+    },
+    "zones": {
+      "v_light": "Very Light (50-60%)",
+      "v_light_desc": "Warm-up, active recovery",
+      "light": "Light (60-70%)",
+      "light_desc": "Fat burn, build base endurance",
+      "moderate": "Moderate (70-80%)",
+      "moderate_desc": "Aerobic fitness, improve efficiency",
+      "hard": "Hard (80-90%)",
+      "hard_desc": "Anaerobic capacity, increase speed",
+      "maximum": "Maximum Effort (90-100%)",
+      "maximum_desc": "Intense effort for very short durations"
+    },
+    "about_title": "Why Heart Rate Zones?",
+    "about_desc": "Training in specific heart rate zones helps target specific goals such as fat burning or improving cardiorespiratory fitness.",
+    "empty_state": "Enter your age and resting pulse to determine your training zones",
+    "footer_note": "These zones are estimates. Consult a doctor before starting an intense training program.",
+    "howItWorks": {
+      "title": "How the Heart Rate Zones Calculator Works",
+      "formula": "Max Heart Rate = 220 - Age, then zones are calculated as percentages of heart rate reserve",
+      "explanation": "This tool divides your heart rate range into 5 distinct training zones, each targeting different physiological adaptations. Using the Karvonen formula with your resting heart rate provides more personalized and accurate zones than age-based formulas alone.",
+      "steps": [
+        {
+          "name": "Enter Age",
+          "text": "Input your age to calculate maximum heart rate"
+        },
+        {
+          "name": "Enter Resting HR",
+          "text": "Input your resting heart rate for more accurate zones"
+        },
+        {
+          "name": "View Training Zones",
+          "text": "Get your five personalized training zones with target heart rates"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Fat Burning Optimization",
+        "description": "Train in zones 2-3 (60-70% max HR) for optimal fat oxidation"
+      },
+      {
+        "title": "Endurance Building",
+        "description": "Build aerobic capacity with sustained training in the aerobic zone"
+      },
+      {
+        "title": "HIIT Programming",
+        "description": "Set accurate intensity targets for high-intensity interval training"
+      }
+    ],
+    "seoTips": [
+      "Use a heart rate monitor or fitness watch during workouts for real-time tracking",
+      "Spend 80% of training time in zones 1-3 for optimal endurance development",
+      "The fat burning zone is not necessarily the best for weight loss - higher zones burn more total calories",
+      "Avoid extended training in zone 5 without adequate recovery between sessions"
+    ],
+    "commonMistakes": [
+      "Always training at high intensity thinking more is better",
+      "Neglecting low-intensity training which builds aerobic base",
+      "Using the 220-age formula as absolute truth when individual variation exists",
+      "Not using a device to accurately monitor heart rate during training"
+    ],
+    "faqs": [
+      {
+        "question": "Which zone is best for burning fat?",
+        "answer": "Zone 2-3 maximizes fat oxidation, but higher intensity training burns more total calories and may be more effective for weight loss."
+      },
+      {
+        "question": "How accurate is the 220-age formula?",
+        "answer": "It is an estimate with individual variation of plus or minus 10-15 beats. A max HR test provides more accuracy."
+      },
+      {
+        "question": "How often should I train in zone 5?",
+        "answer": "Maximum 1-2 times weekly with adequate recovery. Excessive high-intensity training leads to overtraining."
+      }
+    ]
+  },
+  "vo2max": {
+    "title": "VO2 Max Calculator",
+    "description": "Estimate maximum oxygen consumption capacity, a key indicator of cardiorespiratory fitness.",
+    "inputs": {
+      "max_hr": "Maximum Heart Rate (Optional)",
+      "max_hr_tooltip": "If unknown, it will be calculated based on your age"
+    },
+    "results": {
+      "vo2max_value": "Estimated VO2 Max",
+      "ml_kg_min": "ml/kg/min",
+      "category_title": "Fitness Category",
+      "categories": {
+        "poor": "Poor",
+        "average": "Average",
+        "good": "Good",
+        "excellent": "Excellent",
+        "elite": "Elite",
+        "poor_range_male": "< 35",
+        "average_range_male": "35-45",
+        "good_range_male": "45-55",
+        "excellent_range_male": "55-65",
+        "elite_range_male": "> 65",
+        "poor_range_female": "< 30",
+        "average_range_female": "30-38",
+        "good_range_female": "38-46",
+        "excellent_range_female": "46-54",
+        "elite_range_female": "> 54"
+      }
+    },
+    "about_title": "What is VO2 Max?",
+    "about_desc": "It is the maximum rate of oxygen consumption during intense exercise, and is considered the best measure of cardiorespiratory endurance and general physical fitness.",
+    "empty_state": "Enter your data to estimate your VO2 Max level",
+    "footer_note": "This estimate is based on the relationship between resting pulse and maximum pulse.",
+    "howItWorks": {
+      "title": "How the VO2 Max Calculator Works",
+      "formula": "VO2 Max (ml/kg/min) = 15.3 × (Max Heart Rate / Resting Heart Rate)",
+      "explanation": "VO2 Max represents the maximum amount of oxygen your body can utilize during intense exercise, measured in milliliters per kilogram of body weight per minute. It is considered the gold standard for measuring cardiorespiratory fitness and endurance capacity.",
+      "steps": [
+        {
+          "name": "Measure Resting HR",
+          "text": "Take your pulse first thing in the morning before getting out of bed"
+        },
+        {
+          "name": "Enter Data",
+          "text": "Input your age, resting heart rate, and maximum heart rate if known"
+        },
+        {
+          "name": "Get Estimate",
+          "text": "The calculator provides your estimated VO2 Max and fitness category"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Fitness Level Assessment",
+        "description": "Objectively measure your cardiorespiratory fitness compared to age and gender norms"
+      },
+      {
+        "title": "Training Progress Tracking",
+        "description": "Monitor improvements in aerobic capacity over time with consistent training"
+      },
+      {
+        "title": "Training Zone Planning",
+        "description": "Use VO2 Max to determine appropriate training intensities and zones"
+      }
+    ],
+    "seoTips": [
+      "Measure resting heart rate over several days and use the average for better accuracy",
+      "VO2 Max improves with consistent aerobic training, especially interval training",
+      "Elite endurance athletes typically have VO2 Max values of 70-85 ml/kg/min",
+      "VO2 Max naturally decreases with age by approximately 1% per year after age 25"
+    ],
+    "commonMistakes": [
+      "Measuring resting heart rate after physical activity or caffeine consumption",
+      "Confusing estimated VO2 Max with laboratory-measured values",
+      "Expecting rapid improvements in VO2 Max (it takes months of consistent training)",
+      "Comparing your values to people of significantly different ages"
+    ],
+    "faqs": [
+      {
+        "question": "What is a good VO2 Max value?",
+        "answer": "For men: 35-40 is average, 45-55 is good, 60+ is excellent. Women are typically 10-15% lower in each category."
+      },
+      {
+        "question": "How can I improve my VO2 Max?",
+        "answer": "Through consistent aerobic training, especially high-intensity interval training (HIIT) and long slow distance running."
+      },
+      {
+        "question": "How accurate is the estimate?",
+        "answer": "This provides a reasonable estimate, but laboratory testing with gas analysis is much more accurate."
+      }
+    ]
+  },
+  "cycling_power": {
+    "title": "Cycling Power Calculator",
+    "description": "Calculate the power output needed for cycling at specific speeds.",
+    "weight": "Rider Weight",
+    "weight_tooltip": "Your body weight",
+    "bike_weight": "Bike Weight",
+    "bike_weight_tooltip": "Weight of your bike and gear",
+    "speed": "Speed (km/h)",
+    "speed_tooltip": "Cycling speed",
+    "gradient": "Gradient (%)",
+    "gradient_tooltip": "Slope of the road",
+    "enter_weight": "Enter weight",
+    "enter_speed": "Enter speed",
+    "calculate_btn": "Calculate Power",
+    "reset_btn": "Reset",
+    "results_title": "Power Output",
+    "total_power": "Total Power",
+    "power_to_weight": "Power-to-Weight Ratio",
+    "factors_title": "Power Factors",
+    "factors_desc": "Calculations include gravity, air resistance, and rolling resistance.",
+    "empty_state": "Enter parameters to calculate cycling power",
+    "footer_note": "Simplified calculation. Actual power depends on wind, road surface, and position.",
+    "howItWorks": {
+      "title": "How the Cycling Power Calculator Works",
+      "formula": "Total Power = Air Resistance Power + Rolling Resistance Power + Climbing Power",
+      "explanation": "This calculator determines the power in watts needed to cycle at a specific speed considering multiple factors including rider and bike weight, speed, and road gradient. Air resistance increases exponentially with speed, making it the dominant factor at higher speeds.",
+      "steps": [
+        {
+          "name": "Enter Weights",
+          "text": "Input your body weight and bike/equipment weight"
+        },
+        {
+          "name": "Enter Speed",
+          "text": "Input your target cycling speed and road gradient"
+        },
+        {
+          "name": "Calculate Power",
+          "text": "Get the required power output and power-to-weight ratio"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Race Planning",
+        "description": "Determine the power needed to maintain target speeds during competitions"
+      },
+      {
+        "title": "Training Targets",
+        "description": "Set specific power goals for interval and threshold training"
+      },
+      {
+        "title": "Equipment Decisions",
+        "description": "Understand how bike weight and aerodynamics affect performance requirements"
+      }
+    ],
+    "seoTips": [
+      "Power-to-weight ratio (W/kg) is more important than absolute power for climbing",
+      "Amateur cyclists typically produce 2.5-3.5 W/kg, professionals 5-6 W/kg for sustained efforts",
+      "Air resistance increases with the square of speed, so doubling speed requires 8x the power",
+      "Aerodynamic position and equipment can reduce power requirements by 20-30%"
+    ],
+    "commonMistakes": [
+      "Ignoring wind conditions which significantly affect real-world power requirements",
+      "Focusing on absolute power rather than power-to-weight ratio",
+      "Not accounting for altitude and air density changes",
+      "Comparing power numbers without considering test conditions and equipment"
+    ],
+    "faqs": [
+      {
+        "question": "What is a good power-to-weight ratio?",
+        "answer": "Recreational: 2.5-3.5 W/kg, Amateur racer: 3.5-4.5 W/kg, Professional: 5-6+ W/kg for sustained efforts."
+      },
+      {
+        "question": "How can I improve my cycling power?",
+        "answer": "Through interval training, hill repeats, structured training programs, and improving cycling efficiency."
+      },
+      {
+        "question": "Does bike weight really matter?",
+        "answer": "Most for climbing. On flat terrain, aerodynamics matter more. A 1kg lighter bike saves about 3-5 watts on a 5% climb at 15 km/h."
+      }
+    ]
+  },
+  "race_predictor": {
+    "title": "Race Time Predictor",
+    "description": "Predict your race finish time based on your current performance.",
+    "race_distance": "Race Distance",
+    "race_distance_tooltip": "Distance of the race you completed",
+    "race_time": "Race Time",
+    "race_time_tooltip": "Time taken to complete the race",
+    "target_distance": "Target Distance",
+    "target_distance_tooltip": "Distance you want to predict time for",
+    "enter_distance": "Enter distance",
+    "enter_time": "Enter time",
+    "calculate_btn": "Predict Time",
+    "reset_btn": "Reset",
+    "results_title": "Race Prediction",
+    "predicted_time": "Predicted Time",
+    "pace": "Pace",
+    "all_predictions": "Predictions for Other Distances",
+    "per_km": "/km",
+    "tips_title": "Training Tips",
+    "tip_train": "Training for longer distances requires specific endurance work.",
+    "empty_state": "Enter your race result to predict future performance",
+    "footer_note": "Predictions use Riegel's formula. Actual performance depends on training.",
+    "distances": {
+      "5k": "5k",
+      "10k": "10k",
+      "half": "Half Marathon",
+      "marathon": "Marathon"
+    },
+    "howItWorks": {
+      "title": "How the Race Time Predictor Works",
+      "formula": "Riegel Formula: T2 = T1 × (D2 / D1)^1.06",
+      "explanation": "This tool uses the scientifically-validated Riegel formula to predict your race time at a new distance based on a previous race performance. The formula accounts for the natural slowdown in pace that occurs as race distance increases.",
+      "steps": [
+        {
+          "name": "Enter Previous Race",
+          "text": "Input the distance and finish time of a recent race"
+        },
+        {
+          "name": "Select Target Distance",
+          "text": "Choose the distance you want to predict"
+        },
+        {
+          "name": "View Prediction",
+          "text": "Get your predicted finish time and target pace"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Marathon Planning",
+        "description": "Predict marathon time based on half marathon or 10K performance"
+      },
+      {
+        "title": "Goal Setting",
+        "description": "Set realistic and achievable goals for upcoming races"
+      },
+      {
+        "title": "Race Readiness",
+        "description": "Determine if you are ready to attempt a longer distance"
+      }
+    ],
+    "seoTips": [
+      "Use a recent race result from the past 2-3 months for accuracy",
+      "Predictions are more accurate between similar distances (10K to half marathon)",
+      "Distance-specific training significantly affects actual race performance",
+      "Weather, course terrain, and race-day conditions affect actual results"
+    ],
+    "commonMistakes": [
+      "Using training run times instead of actual race efforts",
+      "Predicting marathon time from only a 5K result (less accurate)",
+      "Ignoring the need for specific training for the target distance",
+      "Expecting prediction accuracy without proper training volume"
+    ],
+    "faqs": [
+      {
+        "question": "How accurate are the predictions?",
+        "answer": "Very accurate between similar distances. Predictions from half marathon to marathon are more reliable than from 5K to marathon."
+      },
+      {
+        "question": "Which race distance is best for prediction?",
+        "answer": "Half marathon best predicts full marathon. 10K best predicts half marathon times."
+      },
+      {
+        "question": "Why might my actual race be different?",
+        "answer": "Training specificity, nutrition, weather, course difficulty, and race-day factors all affect actual performance."
+      }
+    ]
+  },
+  "running_pace": {
+    "title": "Running Pace Calculator",
+    "description": "Calculate your running pace per kilometer or mile.",
+    "distance": "Distance (km)",
+    "distance_tooltip": "Distance run in kilometers",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "hours_tooltip": "Hours taken",
+    "minutes_tooltip": "Minutes taken",
+    "seconds_tooltip": "Seconds taken",
+    "enter_distance": "Enter distance",
+    "enter_time": "Enter time",
+    "calculate_btn": "Calculate Pace",
+    "reset_btn": "Reset",
+    "results_title": "Running Pace",
+    "pace_km": "Pace per km",
+    "pace_mile": "Pace per Mile",
+    "speed_kmh": "Speed (km/h)",
+    "speed_mph": "Speed (mph)",
+    "min_km": "min/km",
+    "min_mile": "min/mile",
+    "kmh": "km/h",
+    "mph": "mph",
+    "tips_title": "Pace Tips",
+    "tip_consistency": "Consistent pace is key for long distance running",
+    "tip_interval": "Interval training can help improve your overall pace",
+    "tip_rest": "Rest days are important for speed improvement",
+    "empty_state": "Enter distance and time to calculate your pace",
+    "footer_note": "Pace calculation assumes a constant speed throughout the run.",
+    "howItWorks": {
+      "title": "How the Running Pace Calculator Works",
+      "formula": "Pace (min/km) = Total Time (minutes) / Distance (km)",
+      "explanation": "This tool calculates your running pace (time per kilometer or mile) based on distance covered and total time. Knowing your pace helps you plan training runs, set race goals, and track improvement over time.",
+      "steps": [
+        {
+          "name": "Enter Distance",
+          "text": "Input the distance you ran in kilometers"
+        },
+        {
+          "name": "Enter Time",
+          "text": "Input the total time (hours, minutes, seconds)"
+        },
+        {
+          "name": "Calculate Pace",
+          "text": "Get your pace per km/mile and average speed"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Race Planning",
+        "description": "Determine starting pace and target pace for upcoming races"
+      },
+      {
+        "title": "Speed Training",
+        "description": "Set specific pace targets for interval and tempo workouts"
+      },
+      {
+        "title": "Progress Tracking",
+        "description": "Monitor pace improvements over time at consistent distances"
+      }
+    ],
+    "seoTips": [
+      "A 5:00 min/km pace is considered good for recreational runners",
+      "Start races slightly slower than your goal pace to avoid burnout",
+      "Train at different paces: easy, moderate, and fast for complete development",
+      "Monitor your easy run pace to avoid overtraining"
+    ],
+    "commonMistakes": [
+      "Starting too fast in races and fading in the later stages",
+      "Not accounting for elevation and weather when evaluating pace",
+      "Running every training session at race pace instead of varying intensity",
+      "Comparing your pace to more experienced runners with different training backgrounds"
+    ],
+    "faqs": [
+      {
+        "question": "What is a good pace for beginners?",
+        "answer": "6:00-7:00 min/km is typical for beginners. Consistency matters more than speed when starting out."
+      },
+      {
+        "question": "How do I improve my pace?",
+        "answer": "Through regular training, interval workouts, tempo runs, and long slow distance runs for aerobic base."
+      },
+      {
+        "question": "Should I always run at the same pace?",
+        "answer": "No, variety is important. Follow the 80/20 rule: 80% easy running, 20% harder efforts."
+      }
+    ]
+  },
+  "swimming_pace": {
+    "title": "Swimming Pace Calculator",
+    "description": "Calculate your swimming pace and speed accurately.",
+    "distance": "Distance (m)",
+    "distance_tooltip": "Swimming distance in meters",
+    "minutes": "Minutes",
+    "minutes_tooltip": "Minutes taken",
+    "seconds": "Seconds",
+    "seconds_tooltip": "Seconds taken",
+    "enter_distance": "Enter distance",
+    "enter_minutes": "Enter minutes",
+    "enter_seconds": "Enter seconds",
+    "calculate_btn": "Calculate Pace",
+    "reset_btn": "Reset",
+    "results_title": "Swimming Pace",
+    "pace_100m": "Pace per 100m",
+    "speed_mps": "Speed (m/s)",
+    "min_100m": "min/100m",
+    "mps": "m/s",
+    "empty_state": "Enter distance and time to calculate your swimming pace",
+    "footer_note": "Pace is calculated based on total time and distance.",
+    "howItWorks": {
+      "title": "How the Swimming Pace Calculator Works",
+      "formula": "Pace per 100m = (Total Time in seconds / Distance in meters) × 100",
+      "explanation": "This tool calculates your swimming pace per 100 meters, the standard unit used in swimming. Knowing your pace helps plan race strategies, set training intervals, and track improvement across different strokes and distances.",
+      "steps": [
+        {
+          "name": "Enter Distance",
+          "text": "Input the distance you swam in meters"
+        },
+        {
+          "name": "Enter Time",
+          "text": "Input the total time (minutes and seconds)"
+        },
+        {
+          "name": "Calculate Pace",
+          "text": "Get your pace per 100 meters and average speed"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Race Planning",
+        "description": "Set target pace for swimming competitions and events"
+      },
+      {
+        "title": "Interval Training",
+        "description": "Set specific pace targets for swimming interval workouts"
+      },
+      {
+        "title": "Stroke Comparison",
+        "description": "Determine which swimming stroke is fastest for you"
+      }
+    ],
+    "seoTips": [
+      "A 2:00/100m pace is considered good for recreational swimmers",
+      "Elite swimmers can achieve under 1:00/100m in freestyle",
+      "Technique improvement often matters more than fitness for pace gains",
+      "Train at various distances to develop well-rounded swimming ability"
+    ],
+    "commonMistakes": [
+      "Neglecting swimming technique and focusing only on effort",
+      "Not using a waterproof watch or lap timer for accurate timing",
+      "Comparing your pace to competitive swimmers with years of training",
+      "Ignoring the importance of turns, push-offs, and starts in overall pace"
+    ],
+    "faqs": [
+      {
+        "question": "What is a good swimming pace?",
+        "answer": "Recreational: 2:00-2:30/100m, Intermediate: 1:30-2:00/100m, Competitive: under 1:20/100m for freestyle."
+      },
+      {
+        "question": "How do I improve my swimming pace?",
+        "answer": "Through technique work, proper breathing, stroke efficiency, and structured interval training."
+      },
+      {
+        "question": "Does stroke type affect pace?",
+        "answer": "Yes. For most swimmers: freestyle is fastest, followed by backstroke, then breaststroke, with butterfly being demanding but fast for short distances."
+      }
+    ]
+  }
+}

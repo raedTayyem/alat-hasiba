@@ -1,0 +1,995 @@
+{
+  "tdee-calculator": {
+    "title": "TDEE Calculator - Free Daily Calorie Burn Tool",
+    "description": "Calculate your Total Daily Energy Expenditure (TDEE). Free online calorie calculator to plan your diet and fitness goals.",
+    "howItWorks": {
+      "title": "How the TDEE Calculator Works",
+      "formula": "TDEE = BMR × Activity Multiplier (1.2 for sedentary to 1.9 for very active)",
+      "explanation": "This tool calculates the total calories your body burns daily by multiplying your Basal Metabolic Rate (BMR) by your physical activity factor. This number is the foundation for any diet plan, whether for weight loss or gain.",
+      "steps": [
+        {
+          "name": "Calculate BMR",
+          "text": "The tool calculates your basal metabolic rate from your weight, height, and age"
+        },
+        {
+          "name": "Determine Activity",
+          "text": "Select your daily and weekly physical activity level"
+        },
+        {
+          "name": "Calculate TDEE",
+          "text": "BMR is multiplied by the activity factor to get total daily burn"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Weight Loss Diet Planning",
+        "description": "Determine the calorie deficit needed for weight loss"
+      },
+      {
+        "title": "Muscle Building Programs",
+        "description": "Know the calorie surplus needed for muscle building"
+      },
+      {
+        "title": "Weight Maintenance",
+        "description": "Know the calories needed to maintain your current weight"
+      }
+    ],
+    "seoTips": [
+      "Recalculate TDEE every 4-6 weeks as your weight changes",
+      "Be honest when assessing your activity level",
+      "Most people overestimate their physical activity",
+      "Start with a lower activity level and adjust based on results"
+    ],
+    "commonMistakes": [
+      "Overestimating physical activity level",
+      "Not updating calculations after weight loss or gain",
+      "Ignoring non-exercise daily activity (walking, housework)",
+      "Relying on one number without adjusting based on actual results"
+    ],
+    "faqs": [
+      {
+        "question": "What's the difference between BMR and TDEE?",
+        "answer": "BMR is calories burned at complete rest, while TDEE includes all daily activities."
+      },
+      {
+        "question": "How much should I reduce from TDEE to lose weight?",
+        "answer": "A 500 calorie daily deficit leads to about 0.5 kg loss per week."
+      },
+      {
+        "question": "Is TDEE constant?",
+        "answer": "No, it changes with weight, age, activity level, and muscle mass."
+      }
+    ]
+  },
+  "bmr-calculator": {
+    "title": "BMR Calculator - Free Basal Metabolic Rate Tool",
+    "description": "Calculate your Basal Metabolic Rate (BMR) accurately. Find out how many calories you burn at rest with our free tool.",
+    "howItWorks": {
+      "title": "How the BMR Calculator Works",
+      "formula": "Mifflin-St Jeor: Men = (10 × weight) + (6.25 × height) - (5 × age) + 5",
+      "explanation": "Basal Metabolic Rate is the minimum calories your body needs to survive at complete rest. This includes breathing, heart rate, brain function, and vital organ functions.",
+      "steps": [
+        {
+          "name": "Enter Data",
+          "text": "Input your weight, height, age, and gender"
+        },
+        {
+          "name": "Apply Formulas",
+          "text": "The calculator uses Mifflin-St Jeor and Harris-Benedict formulas"
+        },
+        {
+          "name": "View Results",
+          "text": "Get your basal metabolic rate in calories"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Nutrition Plan Foundation",
+        "description": "Know the minimum calories you should never go below"
+      },
+      {
+        "title": "TDEE Calculation",
+        "description": "BMR is the basis for calculating total daily burn"
+      },
+      {
+        "title": "Understanding Personal Metabolism",
+        "description": "Learn how efficiently your body burns calories"
+      }
+    ],
+    "seoTips": [
+      "Weigh yourself in the morning before eating for accuracy",
+      "Muscle mass raises BMR, so exercise is beneficial",
+      "Never eat below your BMR for extended periods",
+      "BMR decreases with age, so recalculate annually"
+    ],
+    "commonMistakes": [
+      "Confusing BMR with TDEE and eating only at BMR level",
+      "Ignoring the decrease in BMR with weight loss",
+      "Not considering the effect of muscle mass on metabolism",
+      "Using inaccurate weight and height measurements"
+    ],
+    "faqs": [
+      {
+        "question": "Can I increase my BMR?",
+        "answer": "Yes, by building muscle mass since muscles burn more calories than fat even at rest."
+      },
+      {
+        "question": "Why does BMR decrease with age?",
+        "answer": "Due to muscle mass loss and slowing of biological processes with aging."
+      },
+      {
+        "question": "Does BMR differ between men and women?",
+        "answer": "Yes, men typically have higher BMR due to greater muscle mass."
+      }
+    ]
+  },
+  "calorie-deficit-calculator": {
+    "title": "Calorie Deficit Calculator - Weight Loss Planner",
+    "description": "Calculate the calorie deficit needed to reach your weight loss goals safely and effectively. Free online weight loss tracker.",
+    "howItWorks": {
+      "title": "How the Calorie Deficit Calculator Works",
+      "formula": "Daily Calorie Deficit = (Weight to Lose × 7700) ÷ (Weeks × 7)",
+      "explanation": "This tool calculates the daily calorie deficit needed to reach your target weight in your specified timeframe. Each kilogram of fat contains approximately 7700 calories.",
+      "steps": [
+        {
+          "name": "Set Goal",
+          "text": "Enter your current weight and target weight"
+        },
+        {
+          "name": "Set Timeline",
+          "text": "Specify the number of weeks to reach your goal"
+        },
+        {
+          "name": "Calculate Deficit",
+          "text": "The tool calculates the required daily deficit and target calories"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Weight Loss Planning",
+        "description": "Know how much to reduce calories to reach your goal"
+      },
+      {
+        "title": "Setting Realistic Timelines",
+        "description": "Determine a healthy timeframe for weight loss"
+      },
+      {
+        "title": "Diet Adjustments",
+        "description": "Calculate daily allowed calories"
+      }
+    ],
+    "seoTips": [
+      "Do not exceed a 1000 calorie daily deficit without medical supervision",
+      "A moderate deficit (500 calories) is more sustainable",
+      "Combine eating less with moving more",
+      "Monitor your energy and mood as indicators of excessive deficit"
+    ],
+    "commonMistakes": [
+      "Setting unrealistic goals that require dangerous deficits",
+      "Ignoring minimum healthy calorie intake (1200 for women, 1500 for men)",
+      "Not accounting for calories burned from exercise",
+      "Maintaining the same deficit despite weight changes"
+    ],
+    "faqs": [
+      {
+        "question": "What is a safe calorie deficit?",
+        "answer": "500-750 calories daily is considered safe and leads to 0.5-0.75 kg loss per week."
+      },
+      {
+        "question": "Can the deficit be too large?",
+        "answer": "Yes, large deficits lead to muscle loss, slowed metabolism, and health problems."
+      },
+      {
+        "question": "How do I know if my deficit is appropriate?",
+        "answer": "If you're losing 0.5-1 kg weekly with good energy, your deficit is appropriate."
+      }
+    ]
+  },
+  "macro-calculator": {
+    "title": "Macro Calculator - Protein, Carbs, and Fat Distribution",
+    "description": "Calculate your ideal macronutrient (macros) split. Free online macro calculator for bodybuilding, keto, and balanced diets.",
+    "howItWorks": {
+      "title": "How the Macro Calculator Works",
+      "formula": "Protein: 1.6-2.2 g/kg, Fat: 20-35% of calories, Carbs: remainder",
+      "explanation": "This tool calculates macronutrient distribution (protein, carbohydrates, and fat) based on your daily calories and fitness goal. Proper distribution ensures you get the energy and nutrients needed for your goals.",
+      "steps": [
+        {
+          "name": "Enter Calories",
+          "text": "Input your total daily calories (TDEE)"
+        },
+        {
+          "name": "Set Goal",
+          "text": "Choose your goal (build muscle, cut, maintain)"
+        },
+        {
+          "name": "Distribute Macros",
+          "text": "The tool calculates grams of each macronutrient"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Building Muscle Mass",
+        "description": "Ensure muscles get adequate protein and energy"
+      },
+      {
+        "title": "Cutting and Fat Loss",
+        "description": "Preserve muscle while losing fat"
+      },
+      {
+        "title": "Special Diets",
+        "description": "Calculate macros for keto or low-carb diets"
+      }
+    ],
+    "seoTips": [
+      "Protein is most important for preserving muscle in any goal",
+      "Don't reduce fat below 20% to maintain hormones",
+      "Adjust carbs based on your activity level",
+      "Use a food tracking app to monitor macros"
+    ],
+    "commonMistakes": [
+      "Focusing only on calories and ignoring macro distribution",
+      "Excessively reducing fat which affects hormones",
+      "Not eating enough protein when cutting",
+      "Ignoring the quality of macro sources"
+    ],
+    "faqs": [
+      {
+        "question": "What's the best macro split?",
+        "answer": "Depends on your goal: for bulking, approximately 30% protein, 50% carbs, 20% fat."
+      },
+      {
+        "question": "Are carbs necessary?",
+        "answer": "Yes for optimal athletic performance, but can be reduced in certain diets."
+      },
+      {
+        "question": "How much protein do I need daily?",
+        "answer": "1.6-2.2 grams per kilogram of body weight for athletes."
+      }
+    ]
+  },
+  "protein-intake-calculator": {
+    "title": "Protein Intake Calculator - Daily Protein Needs Tool",
+    "description": "Calculate how much protein you need per day for muscle growth or maintenance. Free daily protein requirements tool.",
+    "input_title": "Protein Intake Calculator",
+    "weight": "Weight (kg)",
+    "weight_tooltip": "Enter your body weight in kilograms",
+    "enter_weight": "Enter weight",
+    "goal": "Fitness Goal",
+    "goal_tooltip": "Select your fitness goal",
+    "goal_sedentary": "Sedentary",
+    "goal_maintain": "Maintain Weight",
+    "goal_muscle": "Build Muscle",
+    "goal_cut": "Cut/Fat Loss",
+    "activity_level": "Activity Level",
+    "activity_tooltip": "Select your activity level",
+    "activity_light": "Light",
+    "activity_moderate": "Moderate",
+    "activity_intense": "Intense",
+    "calculate_btn": "Calculate Protein",
+    "reset_btn": "Reset",
+    "results_title": "Protein Requirements",
+    "daily_protein": "Daily Protein Intake",
+    "grams": "g",
+    "per_meal": "Per Meal (4 meals)",
+    "pre_workout": "Pre-Workout",
+    "post_workout": "Post-Workout",
+    "tips_title": "Protein Tips",
+    "tip_sources": "Good protein sources",
+    "source_list": "Chicken, fish, eggs, dairy, legumes, nuts",
+    "tip_timing": "Timing matters",
+    "timing_list": "Consume protein within 2 hours post-workout for optimal recovery",
+    "tip_consistency": "Stay consistent",
+    "consistency_list": "Spread protein intake throughout the day for better absorption",
+    "empty_state": "Enter your details to calculate protein needs",
+    "footer_note": "Protein needs vary by individual. Consult a nutritionist for personalized advice."
+  },
+  "weight-gain-calculator": {
+    "title": "Weight Gain Calculator - Bulking Diet Plan",
+    "description": "Calculate daily calories and macros for healthy weight gain. Free online tool for muscle building and bulking diets.",
+    "tdee": "TDEE (Daily Calories)",
+    "tdee_tooltip": "Enter your Total Daily Energy Expenditure",
+    "enter_tdee": "Enter TDEE",
+    "calories": "cal",
+    "weight": "Current Weight",
+    "weight_tooltip": "Enter your current body weight",
+    "enter_weight": "Enter weight",
+    "kg": "kg",
+    "target_gain": "Weekly Weight Gain Goal",
+    "target_gain_tooltip": "Enter desired weekly weight gain",
+    "calculate_btn": "Calculate Plan",
+    "reset_btn": "Reset",
+    "results_title": "Bulking Plan",
+    "daily_calories": "Daily Calories",
+    "calories_unit": "cal/day",
+    "macros": "Macronutrient Breakdown",
+    "protein": "Protein",
+    "protein_unit": "g",
+    "carbs": "Carbohydrates",
+    "carbs_unit": "g",
+    "fat": "Fat",
+    "fat_unit": "g",
+    "tips_title": "Weight Gain Tips",
+    "tips_list": "Eat in a slight calorie surplus (300-500 cal above TDEE), focus on compound exercises, get adequate sleep for recovery, track progress weekly",
+    "empty_state": "Enter your details to calculate bulking plan",
+    "footer_note": "Weight gain should be gradual. Aim for 0.25-0.5kg per week for muscle gain.",
+    "howItWorks": {
+      "title": "How the Weight Gain Calculator Works",
+      "formula": "Daily Calories = TDEE + (Weekly Gain Target × 7700 calories ÷ 7 days)",
+      "explanation": "This calculator determines the daily calorie surplus and macronutrient breakdown needed to gain weight at your desired rate. Gaining 1 kg requires approximately 7700 excess calories, so the calculator adds the appropriate surplus to your maintenance calories.",
+      "steps": [
+        {
+          "name": "Enter TDEE",
+          "text": "Input your total daily energy expenditure (maintenance calories)"
+        },
+        {
+          "name": "Set Gain Target",
+          "text": "Choose your desired weekly weight gain rate"
+        },
+        {
+          "name": "Get Bulking Plan",
+          "text": "Receive your daily calorie and macro targets for muscle building"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Muscle Building",
+        "description": "Calculate the optimal calorie surplus for lean muscle gains"
+      },
+      {
+        "title": "Underweight Recovery",
+        "description": "Plan healthy weight gain for those needing to increase body mass"
+      },
+      {
+        "title": "Sports Performance",
+        "description": "Calculate calorie needs for athletes needing to move up a weight class"
+      }
+    ],
+    "seoTips": [
+      "A 300-500 calorie surplus is optimal for lean muscle gain with minimal fat",
+      "Aim for 0.25-0.5 kg weekly gain to maximize muscle and minimize fat accumulation",
+      "Protein intake should be 1.6-2.2 g/kg body weight when bulking",
+      "Combine calorie surplus with progressive resistance training for best results"
+    ],
+    "commonMistakes": [
+      "Eating too large a surplus leading to excessive fat gain",
+      "Not training hard enough to stimulate muscle growth",
+      "Relying on junk food instead of nutrient-dense calorie sources",
+      "Gaining weight too quickly and accumulating unnecessary body fat"
+    ],
+    "faqs": [
+      {
+        "question": "How much weight should I gain per week?",
+        "answer": "0.25-0.5 kg weekly for lean gains. Faster rates typically mean more fat than muscle."
+      },
+      {
+        "question": "How many extra calories do I need?",
+        "answer": "300-500 calories above TDEE is sufficient for most people to build muscle."
+      },
+      {
+        "question": "What if I am gaining fat?",
+        "answer": "Reduce your surplus slightly and ensure you are training hard enough to stimulate muscle growth."
+      }
+    ]
+  },
+  "weight-loss-time-calculator": {
+    "title": "Weight Loss Time Calculator - Goal Timeline",
+    "description": "Calculate how long it will take to reach your weight loss goal. Free online tool for healthy weight loss planning.",
+    "current_weight": "Current Weight",
+    "current_weight_tooltip": "Enter your current body weight",
+    "weight_unit": "kg",
+    "target_weight": "Target Weight",
+    "target_weight_tooltip": "Enter your target weight goal",
+    "weekly_loss": "Weekly Weight Loss Goal",
+    "weekly_loss_tooltip": "Enter desired weekly weight loss (0.1-2 kg)",
+    "calculate_btn": "Calculate Timeline",
+    "reset_btn": "Reset",
+    "results_title": "Weight Loss Timeline",
+    "time_to_goal": "Time to Reach Goal",
+    "weeks": "weeks",
+    "months": "months",
+    "target_date": "Target Date",
+    "tips_title": "Weight Loss Tips",
+    "tips_list": "Aim for 0.5-1 kg per week for sustainable weight loss, combine diet and exercise for best results, stay hydrated and get adequate sleep, consult a healthcare professional before starting any weight loss program",
+    "empty_state": "Enter your weight details to calculate timeline",
+    "footer_note": "Results are estimates. Individual results may vary based on metabolism and lifestyle."
+  },
+  "bmr": {
+    "title": "Basal Metabolic Rate (BMR) Calculator",
+    "description": "Calculate the number of calories your body burns at rest to maintain its vital functions.",
+    "results_title": "BMR Results",
+    "average_bmr": "Estimated Average BMR",
+    "calories_unit": "calories / day",
+    "about_title": "What is BMR?",
+    "about_desc": "Basal Metabolic Rate (BMR) is the minimum amount of energy your body needs to survive at complete rest.",
+    "empty_state": "Enter your data to calculate your Basal Metabolic Rate",
+    "footer_note": "Results vary slightly depending on the formula used.",
+    "mifflin": "Mifflin-St Jeor",
+    "harris": "Harris-Benedict",
+    "katch": "Katch-McArdle",
+    "howItWorks": {
+      "title": "How the BMR Calculator Works",
+      "formula": "Mifflin-St Jeor: Men = (10 × weight) + (6.25 × height) - (5 × age) + 5",
+      "explanation": "Basal Metabolic Rate represents the minimum calories your body needs to maintain vital functions at complete rest, including breathing, circulation, brain function, and organ maintenance. This calculator uses multiple validated formulas to provide accurate estimates.",
+      "steps": [
+        {
+          "name": "Enter Personal Data",
+          "text": "Input your weight, height, age, and gender"
+        },
+        {
+          "name": "Formula Application",
+          "text": "The calculator applies Mifflin-St Jeor and Harris-Benedict formulas"
+        },
+        {
+          "name": "View Results",
+          "text": "Get your basal metabolic rate in calories per day"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Nutrition Planning Foundation",
+        "description": "Establish the minimum calorie intake you should never go below"
+      },
+      {
+        "title": "TDEE Calculation Base",
+        "description": "BMR is the foundation for calculating total daily energy expenditure"
+      },
+      {
+        "title": "Metabolism Assessment",
+        "description": "Understand how efficiently your body burns calories at rest"
+      }
+    ],
+    "seoTips": [
+      "Weigh yourself in the morning before eating for the most accurate input",
+      "Building muscle mass increases BMR since muscle burns more calories than fat",
+      "Never consistently eat below your BMR as it can slow metabolism",
+      "Recalculate BMR annually as it naturally decreases with age"
+    ],
+    "commonMistakes": [
+      "Confusing BMR with TDEE and eating only at BMR level",
+      "Not accounting for BMR decrease after significant weight loss",
+      "Ignoring the impact of muscle mass on metabolic rate",
+      "Using inaccurate weight or height measurements"
+    ],
+    "faqs": [
+      {
+        "question": "Can I increase my BMR?",
+        "answer": "Yes, primarily by building muscle mass. Muscle tissue burns more calories than fat, even at rest."
+      },
+      {
+        "question": "Why does BMR decrease with age?",
+        "answer": "Due to natural muscle mass loss (sarcopenia) and slower biological processes that occur with aging."
+      },
+      {
+        "question": "Is BMR different for men and women?",
+        "answer": "Yes, men typically have higher BMR due to greater muscle mass and different hormonal profiles."
+      }
+    ]
+  },
+  "tdee": {
+    "title": "Total Daily Energy Expenditure (TDEE) Calculator",
+    "description": "Calculate your Total Daily Energy Expenditure (TDEE) based on your activity level.",
+    "results_title": "TDEE Results",
+    "tdee_value": "Total Daily Energy Consumed",
+    "maintenance_calories": "Maintenance Calories",
+    "weight_loss_goals": "Weight Loss Goals",
+    "weight_gain_goals": "Weight Gain Goals",
+    "mild_loss": "Mild Loss (0.25 kg/week)",
+    "normal_loss": "Normal Loss (0.5 kg/week)",
+    "extreme_loss": "Extreme Loss (1 kg/week)",
+    "mild_gain": "Mild Gain (0.25 kg/week)",
+    "normal_gain": "Normal Gain (0.5 kg/week)",
+    "extreme_gain": "Extreme Gain (1 kg/week)",
+    "about_title": "What is TDEE?",
+    "about_desc": "Total Daily Energy Expenditure is an estimate of how many calories you burn per day considering your physical activity.",
+    "empty_state": "Enter your data to calculate your total daily calories",
+    "footer_note": "For best results, recalculate whenever your weight or activity level changes.",
+    "howItWorks": {
+      "title": "How the TDEE Calculator Works",
+      "formula": "TDEE = BMR × Activity Multiplier (1.2 for sedentary to 1.9 for very active)",
+      "explanation": "Total Daily Energy Expenditure calculates the total calories your body burns daily by multiplying your Basal Metabolic Rate by an activity factor. This number is the foundation for any diet plan, whether for weight loss, maintenance, or muscle building.",
+      "steps": [
+        {
+          "name": "Calculate BMR",
+          "text": "The tool calculates your basal metabolic rate from weight, height, and age"
+        },
+        {
+          "name": "Determine Activity Level",
+          "text": "Select your daily and weekly physical activity level"
+        },
+        {
+          "name": "Calculate TDEE",
+          "text": "BMR is multiplied by the activity factor to get total daily calorie burn"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Weight Loss Planning",
+        "description": "Determine the calorie deficit needed to lose weight at your desired rate"
+      },
+      {
+        "title": "Muscle Building Programs",
+        "description": "Calculate the calorie surplus needed for optimal muscle growth"
+      },
+      {
+        "title": "Weight Maintenance",
+        "description": "Know exactly how many calories to eat to maintain your current weight"
+      }
+    ],
+    "seoTips": [
+      "Recalculate TDEE every 4-6 weeks as your weight changes",
+      "Be honest when assessing your activity level for accurate results",
+      "Most people overestimate their physical activity level",
+      "Start with a lower activity level and adjust based on actual weight changes"
+    ],
+    "commonMistakes": [
+      "Overestimating physical activity level leading to incorrect calorie targets",
+      "Not updating calculations after significant weight loss or gain",
+      "Ignoring non-exercise activity thermogenesis (NEAT) like walking and housework",
+      "Relying on one calculation without adjusting based on real-world results"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between BMR and TDEE?",
+        "answer": "BMR is calories burned at complete rest, while TDEE includes all daily activities and exercise."
+      },
+      {
+        "question": "How much should I reduce from TDEE to lose weight?",
+        "answer": "A 500-calorie daily deficit leads to approximately 0.5 kg (1 lb) weight loss per week."
+      },
+      {
+        "question": "Is TDEE constant?",
+        "answer": "No, it changes with weight, age, activity level, muscle mass, and hormonal factors."
+      }
+    ]
+  },
+  "macro_calculator": {
+    "title": "Macro Calculator",
+    "description": "Calculate your ideal macronutrient (macros) split.",
+    "tdee": "Total Daily Energy Expenditure (TDEE)",
+    "tdee_tooltip": "Your daily calorie needs",
+    "weight": "Current Weight",
+    "weight_tooltip": "Your current body weight",
+    "goal": "Fitness Goal",
+    "goal_tooltip": "Your primary fitness objective",
+    "protein_pref": "Protein Preference",
+    "protein_pref_tooltip": "How much protein you prefer in your diet",
+    "enter_tdee": "Enter TDEE",
+    "enter_weight": "Enter weight",
+    "calculate_btn": "Calculate Macros",
+    "reset_btn": "Reset",
+    "results_title": "Macronutrient Split",
+    "target_calories": "Target Daily Calories",
+    "calories_unit": "calories",
+    "protein": "Protein",
+    "protein_cal": "calories from protein",
+    "carbs": "Carbohydrates",
+    "carbs_cal": "calories from carbs",
+    "fat": "Fats",
+    "fat_cal": "calories from fat",
+    "split_title": "Macro Split Breakdown",
+    "split_desc": "This split is optimized for your selected goal and preferences.",
+    "tips_title": "Nutrition Tips",
+    "tip_track": "Use a food tracking app to monitor your macros",
+    "empty_state": "Enter your details to calculate your macro split",
+    "footer_note": "Adjust based on your progress and energy levels.",
+    "goals": {
+      "cut": "Weight Loss (Cut)",
+      "maintain": "Maintain Weight",
+      "bulk": "Muscle Gain (Bulk)",
+      "recomp": "Body Recomposition"
+    },
+    "protein_levels": {
+      "low": "Low (1.6g/kg)",
+      "moderate": "Moderate (2.0g/kg)",
+      "high": "High (2.4g/kg)"
+    },
+    "howItWorks": {
+      "title": "How the Macro Calculator Works",
+      "formula": "Protein: 1.6-2.4 g/kg body weight, Fat: 20-35% of calories, Carbs: remaining calories",
+      "explanation": "This calculator distributes your daily calories among the three macronutrients (protein, carbohydrates, and fats) based on your fitness goal. Proper macronutrient distribution ensures you get the nutrients needed for your specific objectives while meeting calorie targets.",
+      "steps": [
+        {
+          "name": "Enter Calories",
+          "text": "Input your total daily calorie target (TDEE adjusted for goal)"
+        },
+        {
+          "name": "Set Goal",
+          "text": "Choose your fitness goal (build muscle, cut, maintain, or recomp)"
+        },
+        {
+          "name": "Calculate Distribution",
+          "text": "Get your macro targets in grams for protein, carbs, and fats"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Muscle Building",
+        "description": "Ensure adequate protein and energy for muscle protein synthesis"
+      },
+      {
+        "title": "Fat Loss (Cutting)",
+        "description": "Maintain high protein to preserve muscle while in a calorie deficit"
+      },
+      {
+        "title": "Special Diets",
+        "description": "Calculate macros for keto, low-carb, or other dietary approaches"
+      }
+    ],
+    "seoTips": [
+      "Protein is the most important macro for preserving muscle during any weight change",
+      "Never reduce fat below 20% of calories to maintain hormone health",
+      "Adjust carbohydrate intake based on activity level and training intensity",
+      "Use a food tracking app to monitor actual macro intake vs targets"
+    ],
+    "commonMistakes": [
+      "Focusing only on calories while ignoring macronutrient distribution",
+      "Reducing fat too aggressively which can affect hormone levels",
+      "Not eating enough protein when cutting, leading to muscle loss",
+      "Ignoring the quality of macro sources (whole foods vs processed)"
+    ],
+    "faqs": [
+      {
+        "question": "What is the best macro split?",
+        "answer": "It depends on your goal. For bulking: approximately 30% protein, 45% carbs, 25% fat. For cutting: 35% protein, 35% carbs, 30% fat."
+      },
+      {
+        "question": "Are carbohydrates necessary?",
+        "answer": "Yes for optimal athletic performance and recovery. They can be reduced in certain diets like keto, but most athletes benefit from adequate carbs."
+      },
+      {
+        "question": "How much protein do I need daily?",
+        "answer": "For active individuals: 1.6-2.2 g per kg of body weight. Higher end for cutting, lower end for maintenance."
+      }
+    ]
+  },
+  "calorie_deficit": {
+    "title": "Calorie Deficit Calculator",
+    "description": "Calculate the calorie deficit needed to reach your weight loss goals safely and effectively.",
+    "section_title": "Weight Loss Plan",
+    "current_weight": "Current Weight",
+    "target_weight": "Target Weight",
+    "weeks_to_goal": "Weeks to Goal",
+    "tdee": "Total Daily Energy Expenditure (TDEE)",
+    "tdee_tooltip": "Your maintenance calories",
+    "enter_weeks": "Enter weeks",
+    "enter_tdee": "Enter TDEE",
+    "calculate_btn": "Calculate Deficit",
+    "reset_btn": "Reset",
+    "results_title": "Your Deficit Plan",
+    "weight_to_lose": "Total Weight to Lose",
+    "weekly_loss": "Weekly Weight Loss",
+    "daily_deficit": "Daily Calorie Deficit",
+    "daily_calories": "Target Daily Calories",
+    "total_deficit": "Total Calorie Deficit",
+    "warning_deficit": "High Deficit Warning",
+    "warning_deficit_desc": "A daily deficit over 1000 calories is generally not recommended without medical supervision.",
+    "warning_calories": "Low Calorie Warning",
+    "warning_calories_desc": "Eating less than 1200 calories per day may not provide sufficient nutrients.",
+    "tips_title": "Weight Loss Tips",
+    "tip_track": "Track your food intake to ensure accuracy",
+    "empty_state": "Enter your weight goals to calculate the required deficit",
+    "footer_note": "1 kg of fat is approximately 7700 calories.",
+    "howItWorks": {
+      "title": "How the Calorie Deficit Calculator Works",
+      "formula": "Daily Deficit = (Weight to Lose in kg × 7700 calories) / (Weeks × 7 days)",
+      "explanation": "This tool calculates the daily calorie deficit required to reach your target weight in your specified timeframe. Since 1 kg of body fat contains approximately 7700 calories, the calculator determines how much you need to reduce daily intake below your TDEE.",
+      "steps": [
+        {
+          "name": "Set Goal Weight",
+          "text": "Enter your current weight and target weight"
+        },
+        {
+          "name": "Set Timeline",
+          "text": "Specify how many weeks you want to take to reach your goal"
+        },
+        {
+          "name": "Calculate Deficit",
+          "text": "Get your daily calorie deficit and target intake"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Weight Loss Planning",
+        "description": "Determine exactly how much to reduce calories to meet your goal"
+      },
+      {
+        "title": "Timeline Assessment",
+        "description": "Evaluate if your weight loss timeline is realistic and healthy"
+      },
+      {
+        "title": "Diet Adjustment",
+        "description": "Calculate your daily calorie allowance for meal planning"
+      }
+    ],
+    "seoTips": [
+      "A deficit of 500-750 calories per day is sustainable for most people",
+      "Do not exceed 1000 calorie deficit without medical supervision",
+      "Combine reduced eating with increased activity for best results",
+      "Monitor energy levels and mood as indicators of excessive restriction"
+    ],
+    "commonMistakes": [
+      "Setting unrealistic goals requiring dangerously large deficits",
+      "Going below minimum healthy intake (1200 cal for women, 1500 for men)",
+      "Not accounting for exercise calories burned",
+      "Maintaining the same deficit as weight decreases without recalculating"
+    ],
+    "faqs": [
+      {
+        "question": "What is a safe calorie deficit?",
+        "answer": "500-750 calories daily is considered safe and sustainable, leading to 0.5-0.75 kg loss per week."
+      },
+      {
+        "question": "Can the deficit be too large?",
+        "answer": "Yes. Deficits over 1000 calories can cause muscle loss, metabolic slowdown, and nutritional deficiencies."
+      },
+      {
+        "question": "How do I know if my deficit is appropriate?",
+        "answer": "If you are losing 0.5-1 kg per week with good energy and no excessive hunger, your deficit is likely appropriate."
+      }
+    ]
+  },
+  "protein_calculator": {
+    "title": "Protein Intake Calculator",
+    "description": "Calculate how much protein you need per day for muscle growth or maintenance.",
+    "weight": "Weight",
+    "weight_tooltip": "Your current body weight",
+    "goal": "Fitness Goal",
+    "goal_tooltip": "Your primary fitness objective",
+    "activity_level": "Activity Level",
+    "activity_level_tooltip": "Your weekly activity intensity",
+    "enter_weight": "Enter weight",
+    "calculate_btn": "Calculate Protein Needs",
+    "reset_btn": "Reset",
+    "results_title": "Protein Recommendations",
+    "daily_protein": "Total Daily Protein",
+    "grams": "grams",
+    "per_meal": "Per Meal (approx 4 meals)",
+    "per_meal_desc": "per meal",
+    "pre_workout": "Pre-Workout",
+    "grams_before": "g (1-2h before)",
+    "post_workout": "Post-Workout",
+    "grams_after": "g (within 1h after)",
+    "tips_title": "Protein Tips",
+    "tip_sources": "Focus on high-quality sources: Chicken, Fish, Eggs, Whey, Dairy",
+    "tip_timing": "Spread protein intake evenly throughout the day",
+    "tip_hydration": "Drink plenty of water with high protein intake",
+    "empty_state": "Enter your details to calculate daily protein needs",
+    "footer_note": "Protein needs vary. Adjust based on recovery and progress.",
+    "howItWorks": {
+      "title": "How the Protein Calculator Works",
+      "formula": "Daily Protein = Body Weight (kg) × Protein Multiplier (0.8-2.4 g/kg based on goal)",
+      "explanation": "This calculator determines your daily protein requirements based on your body weight, fitness goal, and activity level. Protein is essential for muscle repair, growth, and maintenance. Requirements increase with activity level and especially during muscle-building or fat-loss phases.",
+      "steps": [
+        {
+          "name": "Enter Weight",
+          "text": "Input your current body weight in kilograms"
+        },
+        {
+          "name": "Select Goal",
+          "text": "Choose your primary fitness objective"
+        },
+        {
+          "name": "Set Activity Level",
+          "text": "Select how active you are to fine-tune requirements"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Muscle Building",
+        "description": "Ensure adequate protein for muscle protein synthesis and growth"
+      },
+      {
+        "title": "Fat Loss",
+        "description": "Maintain high protein to preserve muscle mass during calorie deficit"
+      },
+      {
+        "title": "General Health",
+        "description": "Meet minimum protein needs for overall body function and maintenance"
+      }
+    ],
+    "seoTips": [
+      "Distribute protein intake across 4-5 meals for optimal absorption",
+      "Consume 20-40g protein within 2 hours after workouts for recovery",
+      "High-quality complete proteins (meat, fish, eggs, dairy) are most effective",
+      "Increase water intake when consuming high protein to support kidney function"
+    ],
+    "commonMistakes": [
+      "Consuming all protein in one or two meals instead of spreading throughout the day",
+      "Relying solely on supplements instead of whole food protein sources",
+      "Not adjusting protein intake when goals or activity levels change",
+      "Ignoring protein quality and focusing only on total grams"
+    ],
+    "faqs": [
+      {
+        "question": "How much protein do I need to build muscle?",
+        "answer": "For muscle building: 1.6-2.2 g per kg of body weight daily, combined with resistance training."
+      },
+      {
+        "question": "Can I eat too much protein?",
+        "answer": "Excess protein beyond needs is used for energy or stored. Very high intakes may stress kidneys in those with kidney issues."
+      },
+      {
+        "question": "When is the best time to eat protein?",
+        "answer": "Spread evenly across meals. Post-workout protein (within 2 hours) is beneficial but total daily intake matters most."
+      }
+    ],
+    "goals": {
+      "sedentary": "Sedentary (No Exercise)",
+      "maintain": "Maintain Weight",
+      "muscle": "Build Muscle",
+      "cut": "Fat Loss (Cut)"
+    },
+    "activity_levels": {
+      "light": "Light (1-3 days/week)",
+      "moderate": "Moderate (3-5 days/week)",
+      "intense": "Intense (6-7 days/week)"
+    },
+    "weeks_to_goal": "Weeks to Goal",
+    "tdee": "Total Daily Energy Expenditure (TDEE)",
+    "tdee_tooltip": "Your maintenance calories",
+    "enter_weeks": "Enter weeks",
+    "enter_tdee": "Enter TDEE",
+    "weight_to_lose": "Total Weight to Lose",
+    "weekly_loss": "Weekly Weight Loss",
+    "daily_deficit": "Daily Calorie Deficit",
+    "daily_calories": "Target Daily Calories",
+    "total_deficit": "Total Calorie Deficit",
+    "warning_deficit": "Warning: High Deficit",
+    "warning_deficit_desc": "A daily deficit over 1000 calories is not recommended without medical supervision.",
+    "warning_calories": "Warning: Low Calories",
+    "warning_calories_desc": "Eating less than 1200 calories per day may not provide adequate nutrients.",
+    "tip_track": "Track your food intake to ensure accuracy"
+  },
+  "weight_loss_time": {
+    "title": "Weight Loss Time Calculator",
+    "description": "Calculate how long it will take to reach your goal weight.",
+    "current_weight": "Current Weight",
+    "current_weight_tooltip": "Your current body weight",
+    "target_weight": "Target Weight",
+    "target_weight_tooltip": "Your goal weight",
+    "weekly_loss": "Target Weekly Loss",
+    "weekly_loss_tooltip": "Recommended: 0.5 - 1 kg/week",
+    "enter_weight": "Enter weight",
+    "calculate_btn": "Calculate Time",
+    "reset_btn": "Reset",
+    "results_title": "Estimated Time",
+    "time_needed": "Time to Reach Goal",
+    "target_date": "Target Date",
+    "tips_title": "Success Tips",
+    "tip_safe": "Safe weight loss is 0.5-1 kg per week",
+    "empty_state": "Enter your weight details to calculate timeline",
+    "footer_note": "This is an estimate. Individual results may vary based on adherence and metabolism.",
+    "howItWorks": {
+      "title": "How the Weight Loss Time Calculator Works",
+      "formula": "Weeks to Goal = (Current Weight - Target Weight) / Weekly Loss Rate",
+      "explanation": "This calculator estimates how long it will take to reach your target weight based on your chosen weekly loss rate. Understanding the timeline helps set realistic expectations and plan your weight loss journey effectively.",
+      "steps": [
+        {
+          "name": "Enter Current Weight",
+          "text": "Input your current body weight"
+        },
+        {
+          "name": "Enter Target Weight",
+          "text": "Input your goal weight"
+        },
+        {
+          "name": "Set Weekly Loss Rate",
+          "text": "Choose how much you plan to lose per week (0.5-1 kg recommended)"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Goal Planning",
+        "description": "Set realistic timelines for weight loss goals and milestones"
+      },
+      {
+        "title": "Event Preparation",
+        "description": "Plan weight loss for weddings, vacations, or other events"
+      },
+      {
+        "title": "Expectation Setting",
+        "description": "Understand the time commitment required for your weight loss goals"
+      }
+    ],
+    "seoTips": [
+      "Aim for 0.5-1 kg per week for sustainable, healthy weight loss",
+      "Faster loss rates often lead to muscle loss and metabolic adaptation",
+      "Combine calorie reduction with exercise for best results",
+      "Plan for occasional plateaus which are normal during weight loss"
+    ],
+    "commonMistakes": [
+      "Setting unrealistic weekly loss targets that are unsustainable",
+      "Not accounting for weight loss plateaus that naturally occur",
+      "Expecting linear progress when weight loss naturally fluctuates",
+      "Starting too aggressively and burning out before reaching the goal"
+    ],
+    "faqs": [
+      {
+        "question": "What is a safe rate of weight loss?",
+        "answer": "0.5-1 kg per week is considered safe and sustainable for most people. Faster rates may lead to muscle loss."
+      },
+      {
+        "question": "Why does weight loss slow down over time?",
+        "answer": "As you lose weight, your body requires fewer calories, and metabolic adaptation occurs. Recalculate your needs periodically."
+      },
+      {
+        "question": "Can I lose weight faster?",
+        "answer": "While possible, faster loss often means losing muscle along with fat and is harder to maintain long-term."
+      }
+    ]
+  },
+  "water-intake-calculator": {
+    "title": "Water Intake Calculator - Daily Hydration Needs",
+    "description": "Calculate how much water you should drink daily based on your weight and activity level. Free online hydration calculator.",
+    "howItWorks": {
+      "title": "How the Water Intake Calculator Works",
+      "formula": "Basic Intake = Weight (kg) × 30-35 ml, plus 500-1000 ml for physical activity",
+      "explanation": "This tool calculates the water your body needs daily based on your weight, physical activity level, and climate. Adequate hydration is essential for physical and mental performance and overall health.",
+      "steps": [
+        {
+          "name": "Enter Weight",
+          "text": "Input your body weight in kilograms"
+        },
+        {
+          "name": "Set Activity",
+          "text": "Select your daily physical activity level"
+        },
+        {
+          "name": "Calculate Needs",
+          "text": "The tool calculates recommended daily water intake"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Athletes",
+        "description": "Replace fluids lost during exercise and competition"
+      },
+      {
+        "title": "Weight Loss",
+        "description": "Drinking water helps reduce appetite and improve metabolism"
+      },
+      {
+        "title": "General Health",
+        "description": "Maintain proper body function"
+      }
+    ],
+    "seoTips": [
+      "Distribute water intake throughout the day - don't drink it all at once",
+      "Drink a glass of water before each meal",
+      "Increase intake on hot days or when exercising",
+      "Monitor urine color - light yellow indicates good hydration"
+    ],
+    "commonMistakes": [
+      "Waiting until thirsty to drink (thirst means dehydration has started)",
+      "Relying on soda or coffee instead of water",
+      "Drinking large amounts at once",
+      "Ignoring increased needs in hot weather"
+    ],
+    "faqs": [
+      {
+        "question": "How many liters of water do I need daily?",
+        "answer": "Average is 2-3 liters for adults, but varies by weight, activity, and climate."
+      },
+      {
+        "question": "Can I drink too much water?",
+        "answer": "Yes, rare overhydration can cause sodium deficiency, but it's very uncommon."
+      },
+      {
+        "question": "Do tea and coffee count?",
+        "answer": "Partially, but pure water is best since caffeine is a diuretic."
+      }
+    ]
+  }
+}

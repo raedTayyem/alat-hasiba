@@ -1,0 +1,532 @@
+{
+  "lease_analysis_calculator": {
+    "title": "Lease Analysis Calculator",
+    "description": "Calculate total lease value and effective costs.",
+    "monthly_rent": "Monthly Rent",
+    "monthly_rent_tooltip": "Base monthly rent amount",
+    "enter_monthly_rent": "Enter monthly rent",
+    "lease_term": "Lease Term (Months)",
+    "lease_term_tooltip": "Duration of the lease in months",
+    "enter_lease_term": "Enter lease term",
+    "calculate_btn": "Analyze Lease",
+    "reset_btn": "Reset",
+    "results_title": "Lease Analysis",
+    "total_value": "Total Lease Value",
+    "annual_cost": "Annual Cost",
+    "currency": "$",
+    "tips_title": "Lease Tips",
+    "tip_term": "Longer terms often allow for lower rates",
+    "tip_additional": "Check for additional costs like CAM/NNN fees",
+    "empty_state": "Enter rent details to analyze lease value",
+    "footer_note": "This is a basic calculation of base rent.",
+    "howItWorks": {
+      "title": "How Does the Lease Analysis Calculator Work?",
+      "formula": "Total Lease Value = Monthly Rent × Lease Term",
+      "explanation": "This tool calculates your total financial commitment over the lease term to help with comparison and planning.",
+      "steps": [
+        "Enter the monthly rent amount",
+        "Specify lease term in months",
+        "Get total lease value and annual cost"
+      ]
+    },
+    "useCases": [
+      "Comparing leases with different terms",
+      "Calculating total financial commitment",
+      "Negotiating better terms",
+      "Long-term budget planning"
+    ],
+    "seoTips": [
+      "Longer leases may offer rent discounts",
+      "Calculate additional costs (utilities, maintenance, parking)",
+      "Compare total rental cost with purchase cost",
+      "Check early termination clauses",
+      "Ask for incentives like a free month"
+    ],
+    "commonMistakes": [
+      "Focusing on monthly rent only without total",
+      "Ignoring additional costs",
+      "Not reading lease terms carefully",
+      "Forgetting to account for future rent increases"
+    ],
+    "faqs": [
+      {
+        "question": "Is a longer term better?",
+        "answer": "It provides stability and may offer lower rates, but reduces flexibility."
+      },
+      {
+        "question": "What additional costs should I expect?",
+        "answer": "Electricity, water, internet, insurance, parking, and sometimes maintenance fees."
+      },
+      {
+        "question": "How do I negotiate lower rent?",
+        "answer": "Offer a longer term, pay upfront, or sign during slow season."
+      }
+    ]
+  },
+  "rental-yield-calculator": {
+    "title": "Rental Yield Calculator - Investment Property Returns",
+    "description": "Calculate gross and net rental yields for your investment property. Free online tool for real estate investors and landlords."
+  },
+  "gross-rent-multiplier-calculator": {
+    "title": "Gross Rent Multiplier Calculator - Property Valuation",
+    "description": "Calculate Gross Rent Multiplier (GRM) for investment properties. Free online tool for quick real estate assessment and comparison."
+  },
+  "rent-vs-buy-calculator": {
+    "title": "Rent vs Buy Calculator - Should I Rent or Buy a Home?",
+    "description": "Compare the total costs of renting versus buying a home. Free online real estate analysis tool for smart housing decisions."
+  },
+  "rental-income-calculator": {
+    "title": "Rental Income Calculator - Net Profit Estimation",
+    "description": "Calculate net rental income after expenses. Free online tool for landlords to track real estate cash flow and profitability."
+  },
+  "vacancy-rate-calculator": {
+    "title": "Vacancy Rate Calculator - Rental Occupancy Analysis",
+    "description": "Calculate property vacancy and occupancy rates accurately. Free online tool for landlords and property managers."
+  },
+  "lease-analysis-calculator": {
+    "title": "Commercial Lease Analysis Calculator - Compare Terms",
+    "description": "Calculate and compare commercial lease terms and costs. Free online real estate tool for business tenants and owners."
+  },
+  "rental_income_calculator": {
+    "title": "Rental Income Calculator",
+    "description": "Calculate net rental income after expenses.",
+    "monthly_rent": "Monthly Rent",
+    "monthly_rent_tooltip": "Gross monthly rental income",
+    "enter_monthly_rent": "Enter monthly rent",
+    "other_income": "Other Monthly Income",
+    "other_income_tooltip": "Parking, laundry, pet fees, etc.",
+    "enter_other_income": "Enter other income",
+    "calculate_btn": "Calculate Income",
+    "reset_btn": "Reset",
+    "results_title": "Income Analysis",
+    "gross_income": "Gross Annual Income",
+    "total_expenses": "Total Annual Expenses",
+    "net_income": "Net Annual Income",
+    "currency": "$",
+    "tips_title": "Rental Tips",
+    "tip_expenses": "Don't forget to account for maintenance and vacancy",
+    "tip_cashflow": "Positive cash flow is key for buy-and-hold investing",
+    "empty_state": "Enter rental income details to see analysis",
+    "footer_note": "This calculator provides a basic estimate.",
+    "howItWorks": {
+      "title": "How Does the Rental Income Calculator Work?",
+      "formula": "Net Income = Gross Rental Income - Operating Expenses",
+      "explanation": "This tool calculates your net rental income after deducting all operating expenses.",
+      "steps": [
+        "Enter expected monthly rent",
+        "Add any additional income (parking, laundry, etc.)",
+        "Get total annual and monthly income"
+      ]
+    },
+    "useCases": [
+      "Estimating income from investment property",
+      "Budgeting for cash flow",
+      "Comparing income from different properties",
+      "Evaluating investment viability"
+    ],
+    "seoTips": [
+      "Calculate for 5-10% vacancy",
+      "Don't forget maintenance expenses (1% of value)",
+      "Positive cash flow is more important than appreciation",
+      "Research market rents before buying",
+      "Keep reserves for vacant months"
+    ],
+    "commonMistakes": [
+      "Estimating rent higher than market",
+      "Forgetting maintenance and repair expenses",
+      "Ignoring vacancy periods between tenants",
+      "Not accounting for management fees"
+    ],
+    "faqs": [
+      {
+        "question": "What is good cash flow?",
+        "answer": "At least $100-200 monthly per unit after all expenses."
+      },
+      {
+        "question": "Should I include mortgage?",
+        "answer": "Yes, real net income is after deducting mortgage from operating income."
+      },
+      {
+        "question": "What is the 50% rule?",
+        "answer": "Expect 50% of rent to go to expenses (not including mortgage)."
+      }
+    ]
+  },
+  "rental_yield_calculator": {
+    "title": "Rental Yield Calculator",
+    "description": "Calculate gross and net rental yields for investment properties.",
+    "property_price": "Property Price",
+    "property_price_tooltip": "Purchase price or market value",
+    "monthly_rent": "Monthly Rent",
+    "monthly_rent_tooltip": "Gross monthly rental income",
+    "annual_expenses": "Annual Expenses",
+    "annual_expenses_tooltip": "Total yearly costs (taxes, insurance, maintenance, etc.)",
+    "calculate_btn": "Calculate Yield",
+    "reset_btn": "Reset",
+    "results_title": "Yield Analysis",
+    "gross_yield_label": "Gross Yield",
+    "annual_income_label": "Annual Income",
+    "net_yield": "Net Yield",
+    "annual_rent": "Gross Annual Rent",
+    "net_annual_income": "Net Annual Income",
+    "monthly_net_income": "Monthly Net Income",
+    "expense_ratio": "Expense Ratio",
+    "formula_title": "Yield Formula",
+    "formula_explanation": "Gross Yield = (Annual Rent / Price) × 100. Net Yield = ((Annual Rent - Expenses) / Price) × 100.",
+    "info_title": "About Rental Yield",
+    "info_description": "Rental yield is a key metric for real estate investors. It measures the return on investment generated by rental income relative to the property's value.",
+    "use_cases_title": "Why Calculate Yield?",
+    "use_case_1": "Compare investment properties",
+    "use_case_2": "Assess rental performance",
+    "use_case_3": "Determine fair market rent",
+    "price_required": "Please enter a valid property price",
+    "rent_positive": "Rent must be a positive number",
+    "expenses_positive": "Expenses cannot be negative",
+    "howItWorks": {
+      "title": "How Does the Rental Yield Calculator Work?",
+      "formula": "Gross Yield = (Annual Rent / Property Price) × 100",
+      "explanation": "This tool calculates the annual return from rent as a percentage of property value, both gross and net.",
+      "steps": [
+        "Enter purchase price or market value",
+        "Specify expected monthly rent",
+        "Enter annual expenses for net yield",
+        "Get gross and net yield percentages"
+      ]
+    },
+    "useCases": [
+      "Comparing attractiveness of investment properties",
+      "Evaluating if price is reasonable",
+      "Determining appropriate rent for your property",
+      "Measuring performance of your real estate portfolio"
+    ],
+    "seoTips": [
+      "Gross yield of 6-8% is considered good in most markets",
+      "Net yield is the more important measure of profitability",
+      "Compare with bond and deposit returns",
+      "High yield may indicate higher risk",
+      "Calculate yield before and after financing"
+    ],
+    "commonMistakes": [
+      "Relying on gross yield only",
+      "Ignoring operating expenses",
+      "Using overly optimistic rent",
+      "Forgetting vacancy costs"
+    ],
+    "faqs": [
+      {
+        "question": "What's the difference between gross and net yield?",
+        "answer": "Gross doesn't account for expenses; net deducts all operating costs."
+      },
+      {
+        "question": "What is a good yield?",
+        "answer": "Varies by market, but 4-6% net is acceptable in stable markets."
+      },
+      {
+        "question": "Is higher yield always better?",
+        "answer": "Not necessarily. It may indicate problems with the property or location."
+      }
+    ]
+  },
+  "security_deposit_calculator": {
+    "title": "Security Deposit Calculator",
+    "description": "Calculate appropriate security deposit amounts for rental properties.",
+    "monthly_rent": "Monthly Rent",
+    "monthly_rent_tooltip": "Monthly rental amount",
+    "enter_monthly_rent": "Enter monthly rent",
+    "credit_score": "Tenant Credit Score (Optional)",
+    "credit_score_tooltip": "Credit score can influence deposit amount",
+    "calculate_btn": "Calculate Deposit",
+    "reset_btn": "Reset",
+    "results_title": "Deposit Estimate",
+    "recommended_deposit": "Recommended Deposit",
+    "max_deposit": "Maximum Legal Deposit (Est.)",
+    "currency": "$",
+    "tips_title": "Deposit Guidelines",
+    "tip_credit": "Higher credit scores may qualify for lower deposits",
+    "tip_laws": "Check local laws for maximum deposit limits (often 1-2 months rent)",
+    "tip_pets": "Pet deposits may be additional",
+    "empty_state": "Enter rent details to calculate deposit",
+    "footer_note": "This is an estimate. Always check local landlord-tenant laws.",
+    "howItWorks": {
+      "title": "How Does the Security Deposit Calculator Work?",
+      "formula": "Recommended Deposit = Monthly Rent × 1-2",
+      "explanation": "This tool estimates an appropriate security deposit based on monthly rent and other factors.",
+      "steps": [
+        "Enter monthly rent amount",
+        "Add credit score if available",
+        "Get recommended deposit amount"
+      ]
+    },
+    "useCases": [
+      "Determining deposit amount for your rental property",
+      "Preparing for renting as a tenant",
+      "Understanding legal deposit limits",
+      "Calculating initial rental costs"
+    ],
+    "seoTips": [
+      "Most areas limit deposits to 1-2 months rent",
+      "Check local laws before setting deposit",
+      "Document property condition with photos before handover",
+      "Deposit protects against damage, not normal wear",
+      "Return deposit within legally required timeframe"
+    ],
+    "commonMistakes": [
+      "Requesting deposit higher than legal limit",
+      "Not documenting property condition",
+      "Confusing deposit with pet fees",
+      "Delaying deposit return to tenant"
+    ],
+    "faqs": [
+      {
+        "question": "What's the difference between deposit and last month's rent?",
+        "answer": "Deposit is for damages and is returned; last month's rent covers final month and isn't returned."
+      },
+      {
+        "question": "When is the deposit returned?",
+        "answer": "Upon lease end and handover, usually within 14-30 days depending on local law."
+      },
+      {
+        "question": "What can be deducted from the deposit?",
+        "answer": "Damage beyond normal wear and tear, not regular maintenance."
+      }
+    ]
+  },
+  "vacancy_rate_calculator": {
+    "title": "Vacancy Rate Calculator",
+    "description": "Calculate vacancy rate and lost income for rental properties.",
+    "monthly_rent": "Monthly Rent",
+    "monthly_rent_tooltip": "Gross monthly rental amount",
+    "vacant_days": "Vacant Days per Year",
+    "vacant_days_tooltip": "Total number of days the property is unoccupied",
+    "calculate_btn": "Calculate Rate",
+    "reset_btn": "Reset",
+    "results_title": "Vacancy Analysis",
+    "vacancy_rate_label": "Vacancy Rate",
+    "occupancy": "Occupancy Rate",
+    "income_details": "Income Impact",
+    "annual_rent": "Potential Annual Rent",
+    "lost_income": "Lost Income",
+    "adjusted_income": "Adjusted Annual Income",
+    "formula_title": "Vacancy Formula",
+    "formula_explanation": "Vacancy Rate = (Vacant Days / 365) × 100. Lost Income = Potential Annual Rent × Vacancy Rate.",
+    "info_title": "About Vacancy Rate",
+    "info_description": "The vacancy rate represents the percentage of time a rental property is unoccupied. Lower vacancy rates mean more income.",
+    "use_cases_title": "Why Calculate Vacancy?",
+    "use_case_1": "Estimate realistic rental income",
+    "use_case_2": "Budget for turnover periods",
+    "use_case_3": "Evaluate property performance",
+    "rent_required": "Please enter a valid monthly rent",
+    "days_range": "Vacant days must be between 0 and 365",
+    "howItWorks": {
+      "title": "How Does the Vacancy Rate Calculator Work?",
+      "formula": "Vacancy Rate = (Vacant Days / 365) × 100",
+      "explanation": "This tool calculates the percentage of time your property is unoccupied and its impact on income.",
+      "steps": [
+        "Enter monthly rent for the property",
+        "Specify expected vacant days per year",
+        "Get vacancy rate and lost income"
+      ]
+    },
+    "useCases": [
+      "Estimating realistic rental income",
+      "Planning for turnover periods",
+      "Comparing performance of different properties",
+      "Improving rental strategy"
+    ],
+    "seoTips": [
+      "5-10% vacancy rate is normal for most markets",
+      "Reduce vacancy by renewing leases early",
+      "Competitive pricing reduces vacancy period",
+      "Keep property in good condition to attract tenants",
+      "Use multiple marketing channels"
+    ],
+    "commonMistakes": [
+      "Not accounting for maintenance time between tenants",
+      "Ignoring vacancy in income estimates",
+      "Delaying search for new tenant",
+      "Refusing to slightly lower rent to avoid vacant months"
+    ],
+    "faqs": [
+      {
+        "question": "What is a normal vacancy rate?",
+        "answer": "5-10% in most markets; may be lower in high-demand areas."
+      },
+      {
+        "question": "How can I reduce vacancy rate?",
+        "answer": "Competitive pricing, good maintenance, early renewal, and effective marketing."
+      },
+      {
+        "question": "Should I count repair time as vacancy?",
+        "answer": "Yes, any period when no tenant is paying is considered vacancy."
+      }
+    ]
+  },
+  "rent_vs_buy_calculator": {
+    "title": "Rent vs Buy Calculator",
+    "description": "Compare the cost of renting vs buying a home over time.",
+    "buying_section": "Buying Scenario",
+    "renting_section": "Renting Scenario",
+    "home_price": "Home Price",
+    "price_tooltip": "Purchase price of the home",
+    "down_payment": "Down Payment (%)",
+    "down_payment_tooltip": "Percentage of home price paid upfront",
+    "interest_rate": "Interest Rate (%)",
+    "interest_tooltip": "Annual mortgage interest rate",
+    "loan_term": "Loan Term (Years)",
+    "loan_term_tooltip": "Duration of the mortgage",
+    "property_tax_rate": "Property Tax Rate (%)",
+    "property_tax_tooltip": "Annual property tax as percentage of home value",
+    "home_insurance": "Home Insurance (Yearly)",
+    "home_insurance_tooltip": "Annual cost of homeowners insurance",
+    "hoa_fees": "HOA Fees (Monthly)",
+    "hoa_tooltip": "Monthly Homeowners Association fees",
+    "maintenance_rate": "Maintenance Rate (%)",
+    "maintenance_tooltip": "Annual maintenance cost as percentage of home value",
+    "appreciation_rate": "Home Appreciation (%)",
+    "appreciation_tooltip": "Expected annual increase in home value",
+    "monthly_rent": "Monthly Rent",
+    "rent_tooltip": "Current monthly rent payment",
+    "rent_increase_rate": "Rent Increase Rate (%)",
+    "rent_increase_tooltip": "Expected annual increase in rent",
+    "renters_insurance": "Renters Insurance (Yearly)",
+    "renters_insurance_tooltip": "Annual cost of renters insurance",
+    "investment_return": "Investment Return (%)",
+    "investment_tooltip": "Expected annual return on invested savings (down payment opportunity cost)",
+    "monthly_comparison": "Monthly Cost Comparison",
+    "buying": "Buying",
+    "renting": "Renting",
+    "breakeven_title": "Break-Even Analysis",
+    "breakeven_message": "Buying becomes cheaper than renting after {years} years.",
+    "no_breakeven": "Renting is currently cheaper for the foreseeable future.",
+    "recommendation_title": "Recommendation",
+    "recommend_rent": "Renting appears to be the more financially sound option based on these inputs, especially for short-term stays.",
+    "recommend_buy_short": "Buying makes financial sense very quickly. It's likely a good investment.",
+    "recommend_buy_medium": "Buying is a good long-term decision. Plan to stay in the home for at least {years} years.",
+    "recommend_buy_long": "Buying takes longer to pay off. Consider this if you plan to stay for a long time.",
+    "cost_over_time": "Total Cost Over Time",
+    "after_5_years": "After 5 Years",
+    "after_10_years": "After 10 Years",
+    "after_15_years": "After 15 Years",
+    "buying_cost": "Total Cost (Buying)",
+    "renting_cost": "Total Cost (Renting)",
+    "net_difference": "Net Difference",
+    "monthly_breakdown": "Monthly Payment Breakdown (Buying)",
+    "mortgage_payment": "Mortgage (P&I)",
+    "property_tax": "Property Tax",
+    "insurance": "Insurance",
+    "price_required": "Please enter a valid home price",
+    "rent_required": "Please enter a valid monthly rent",
+    "down_payment_range": "Down payment must be between 0 and 100",
+    "interest_rate_range": "Interest rate must be between 0 and 30",
+    "loan_term_range": "Loan term must be between 0 and 40",
+    "howItWorks": {
+      "title": "How Does the Rent vs Buy Calculator Work?",
+      "formula": "Buying Cost = (Mortgage + Taxes + Insurance + Maintenance) - (Appreciation + Tax Benefits)",
+      "explanation": "This tool compares total costs of renting versus buying over years to help you make the decision.",
+      "steps": [
+        "Enter buying scenario details",
+        "Enter renting scenario details",
+        "Specify expected increase rates",
+        "Compare costs over 5-15 years"
+      ]
+    },
+    "useCases": [
+      "Making the rent or buy decision",
+      "Determining break-even point for buying",
+      "Understanding hidden costs of ownership",
+      "Long-term financial planning"
+    ],
+    "seoTips": [
+      "Buying is usually better if you plan to stay 5+ years",
+      "Don't forget maintenance and tax costs for ownership",
+      "Renting provides more flexibility",
+      "Compare opportunity cost of down payment",
+      "Local market significantly affects the decision"
+    ],
+    "commonMistakes": [
+      "Comparing payment to rent only without other costs",
+      "Ignoring maintenance and repair costs",
+      "Overestimating property appreciation",
+      "Not accounting for opportunity cost of down payment"
+    ],
+    "faqs": [
+      {
+        "question": "When is buying better?",
+        "answer": "Usually if you plan to stay 5+ years, have a down payment, and stable financial situation."
+      },
+      {
+        "question": "What is the break-even point?",
+        "answer": "The time when buying cost becomes less than cumulative rent."
+      },
+      {
+        "question": "Does rising rent make buying better?",
+        "answer": "Yes, high rent increases make buying more attractive long-term."
+      },
+      {
+        "question": "What about building wealth?",
+        "answer": "Buying builds home equity, but renting allows investing the difference in other assets."
+      }
+    ]
+  },
+  "gross_rent_multiplier_calculator": {
+    "title": "Gross Rent Multiplier Calculator",
+    "description": "Calculate the Gross Rent Multiplier (GRM) for investment properties.",
+    "property_price": "Property Price",
+    "property_price_tooltip": "Purchase price or current market value",
+    "annual_rent": "Annual Gross Rent",
+    "annual_rent_tooltip": "Total annual rental income before expenses",
+    "calculate_btn": "Calculate GRM",
+    "reset_btn": "Reset",
+    "results_title": "Gross Rent Multiplier Result",
+    "grm_label": "Gross Rent Multiplier (GRM)",
+    "tips_title": "Interpreting GRM",
+    "tip_low": "Low GRM (4-7) = Better investment potential",
+    "tip_high": "High GRM (12+) = May indicate lower returns",
+    "tip_usage": "Used for quick comparison between properties",
+    "empty_state": "Enter property price and rent to calculate GRM",
+    "footer_note": "GRM is a preliminary screening tool, not a complete analysis.",
+    "howItWorks": {
+      "title": "How Does the Gross Rent Multiplier Work?",
+      "formula": "GRM = Property Price / Annual Gross Rent",
+      "explanation": "The Gross Rent Multiplier measures how many years of rent it takes to recover the property price, without accounting for expenses.",
+      "steps": [
+        "Enter purchase price or market value",
+        "Enter expected annual gross rent",
+        "Get GRM for comparison"
+      ]
+    },
+    "useCases": [
+      "Quick screening of investment properties",
+      "Comparing multiple investment opportunities",
+      "Estimating property value based on rent",
+      "Determining if price is reasonable"
+    ],
+    "seoTips": [
+      "Low GRM (4-7) indicates potential good investment",
+      "High GRM (12+) may mean lower returns",
+      "Don't rely on GRM alone for purchase decisions",
+      "Compare GRM only between properties in the same area",
+      "Use GRM as first step then analyze in depth"
+    ],
+    "commonMistakes": [
+      "Comparing GRM between different markets",
+      "Ignoring operating expenses",
+      "Using unrealistic rents",
+      "Relying on GRM as sole metric"
+    ],
+    "faqs": [
+      {
+        "question": "What is a good GRM?",
+        "answer": "Varies by market. Generally 4-7 is good, 8-12 is average, above 12 may be high."
+      },
+      {
+        "question": "What's the difference between GRM and cap rate?",
+        "answer": "GRM uses gross rent, while Cap Rate uses net income after expenses."
+      },
+      {
+        "question": "Why is GRM only a screening tool?",
+        "answer": "Because it doesn't account for expenses which vary significantly between properties."
+      }
+    ]
+  }
+}

@@ -1,0 +1,785 @@
+{
+  "fuel_consumption": {
+    "title": "Fuel Consumption Calculator",
+    "description": "Calculates L/100km, MPG, annual fuel cost, and CO2 emissions.",
+    "unit_label": "Unit System",
+    "unit_tooltip": "Select measurement system (Metric or Imperial)",
+    "unit_metric": "Metric (L, km)",
+    "unit_imperial": "Imperial (Gallons, Miles)",
+    "unit_mpg": "MPG",
+    "unit_km_l": "km/L",
+    "unit_l": "L",
+    "unit_kg_co2": "kg CO₂",
+    "distance_label": "Distance",
+    "distance_tooltip": "Distance traveled",
+    "distance_placeholder_km": "e.g., 100",
+    "distance_placeholder_miles": "e.g., 60",
+    "fuel_used_label": "Fuel Used",
+    "fuel_used_tooltip": "Amount of fuel consumed",
+    "fuel_placeholder_liters": "e.g., 8",
+    "fuel_placeholder_gallons": "e.g., 2",
+    "fuel_price_label": "Fuel Price (Optional)",
+    "fuel_price_tooltip": "Price per unit of fuel",
+    "fuel_price_placeholder": "e.g., 1.5",
+    "annual_distance_label": "Annual Distance (Optional)",
+    "annual_distance_tooltip": "Distance traveled per year for estimation",
+    "annual_placeholder_km": "e.g., 15000",
+    "annual_placeholder_miles": "e.g., 10000",
+    "consumption_label": "Fuel Consumption",
+    "liters_per_100km": "L/100km",
+    "details_title": "Detailed Analysis",
+    "mpg": "MPG (Miles Per Gallon)",
+    "km_per_liter": "km/L",
+    "annual_fuel_used": "Annual Fuel Used",
+    "annual_cost": "Annual Cost",
+    "co2_emissions": "CO2 Emissions (Annual)",
+    "trees_needed": "Trees Needed to Offset",
+    "trees": "Trees",
+    "info_title": "About Fuel Consumption",
+    "info_description": "Understanding your vehicle's fuel consumption helps you save money and reduce your environmental impact. L/100km is the standard metric measure, while MPG is used in imperial systems.",
+    "use_cases_title": "Why Calculate Fuel Consumption?",
+    "use_case_1": "Monitor vehicle efficiency and engine health",
+    "use_case_2": "Estimate travel costs for trips",
+    "use_case_3": "Track environmental footprint",
+    "error_required": "Please enter distance and fuel used",
+    "error_positive": "Values must be greater than zero",
+    "error_price": "Price cannot be negative",
+    "error_annual": "Annual distance cannot be negative",
+    "error_calculation": "An error occurred during calculation",
+    "howItWorks": {
+      "title": "How Fuel Consumption Calculation Works",
+      "formula": "Fuel Consumption (L/100km) = (Fuel Used / Distance) × 100",
+      "explanation": "This calculator measures how efficiently your vehicle uses fuel by comparing the amount of fuel consumed to the distance traveled. Lower values indicate better fuel efficiency.",
+      "steps": [
+        "Enter the distance traveled in kilometers or miles",
+        "Enter the amount of fuel consumed in liters or gallons",
+        "Optionally enter fuel price and annual distance for cost estimates",
+        "View your consumption rate, annual costs, and CO2 emissions"
+      ]
+    },
+    "useCases": [
+      "Track fuel efficiency after maintenance or repairs to verify improvements",
+      "Compare fuel consumption between different driving conditions (city vs highway)",
+      "Budget monthly and annual fuel expenses for personal finance planning",
+      "Monitor engine health - sudden increases may indicate mechanical issues"
+    ],
+    "seoTips": [
+      "Record fuel consumption after each fill-up for accurate long-term tracking",
+      "Calculate consumption separately for city and highway driving to understand patterns",
+      "Use the annual cost feature to budget for fuel expenses",
+      "Compare your results to manufacturer specifications to assess vehicle performance",
+      "Track consumption seasonally as cold weather typically increases fuel use"
+    ],
+    "commonMistakes": [
+      "Not filling the tank completely when measuring - always fill to the same level",
+      "Mixing metric and imperial units in calculations",
+      "Forgetting to reset the trip odometer after refueling",
+      "Not accounting for different driving conditions when comparing results"
+    ],
+    "faqs": [
+      {
+        "question": "What is a good fuel consumption rate?",
+        "answer": "For most passenger cars, 6-8 L/100km (30-40 MPG) is considered good. Hybrid vehicles can achieve 4-5 L/100km (50+ MPG), while SUVs and trucks typically consume 10-15 L/100km (15-25 MPG)."
+      },
+      {
+        "question": "Why does my fuel consumption vary?",
+        "answer": "Fuel consumption varies based on driving style, traffic conditions, vehicle load, tire pressure, weather, and whether you use air conditioning. Highway driving is typically more efficient than city driving."
+      },
+      {
+        "question": "How can I improve my fuel consumption?",
+        "answer": "Maintain proper tire pressure, avoid aggressive acceleration, remove unnecessary weight, use cruise control on highways, keep up with regular maintenance, and avoid excessive idling."
+      },
+      {
+        "question": "What is the difference between L/100km and MPG?",
+        "answer": "L/100km measures liters of fuel needed per 100 kilometers (lower is better). MPG measures miles traveled per gallon of fuel (higher is better). They are inversely related."
+      },
+      {
+        "question": "How does fuel consumption relate to CO2 emissions?",
+        "answer": "Each liter of gasoline burned produces approximately 2.3 kg of CO2. So a vehicle consuming 8 L/100km emits about 184 grams of CO2 per kilometer driven."
+      }
+    ]
+  },
+  "fuel_economy": {
+    "title": "Fuel Economy Calculator",
+    "description": "Convert between different fuel efficiency units and calculate driving costs.",
+    "unit_system": "Unit System",
+    "unit_system_tooltip": "Choose between Metric (km/L) or Imperial (mpg)",
+    "imperial": "Imperial (mpg)",
+    "metric": "Metric (km/L)",
+    "fuel_used_gallons": "Fuel Used (gallons)",
+    "fuel_used_liters": "Fuel Used (liters)",
+    "fuel_used_tooltip": "Amount of fuel consumed",
+    "distance_miles": "Distance Driven (miles)",
+    "distance_km": "Distance Driven (km)",
+    "distance_tooltip": "Distance covered by the vehicle with this fuel",
+    "fuel_price_gallon": "Price per Gallon",
+    "fuel_price_liter": "Price per Liter",
+    "fuel_price_tooltip": "Fuel price to calculate driving cost",
+    "annual_miles": "Annual Distance (miles)",
+    "annual_km": "Annual Distance (km)",
+    "annual_tooltip": "Distance you drive per year to estimate total cost",
+    "optional": "Optional",
+    "result_title": "Fuel Efficiency",
+    "detailed_results": "Detailed Results",
+    "km_per_liter": "km per Liter",
+    "cost_per_mile": "Cost per Mile",
+    "cost_per_km": "Cost per km",
+    "annual_fuel_cost": "Estimated Annual Fuel Cost",
+    "mile": "mile",
+    "year": "year",
+    "formula_title": "How it's Calculated",
+    "formula_explanation": "Efficiency is calculated by dividing distance by fuel amount. Costs are calculated based on the entered price.",
+    "error_missing_inputs": "Please enter fuel and distance",
+    "error_positive_values": "Fuel and distance values must be greater than zero",
+    "error_positive_price": "Fuel price must be greater than zero",
+    "error_positive_distance": "Annual distance must be greater than zero",
+    "error_calculation": "An error occurred during calculation",
+    "placeholders": {
+      "fuel_imperial": "10",
+      "fuel_metric": "38",
+      "distance_imperial": "300",
+      "distance_metric": "500",
+      "price_imperial": "3.50",
+      "price_metric": "1.50",
+      "annual_imperial": "12000",
+      "annual_metric": "20000"
+    },
+    "howItWorks": {
+      "title": "How Fuel Economy Calculation Works",
+      "formula": "MPG = Distance (miles) / Fuel Used (gallons) | km/L = Distance (km) / Fuel Used (liters)",
+      "explanation": "Fuel economy measures how far your vehicle can travel on a given amount of fuel. Higher MPG or km/L values indicate better fuel efficiency, meaning you spend less on fuel for the same distance.",
+      "steps": [
+        "Select your preferred unit system (Imperial or Metric)",
+        "Enter the amount of fuel used during your trip",
+        "Enter the distance traveled with that fuel",
+        "Optionally add fuel price and annual mileage for cost projections"
+      ]
+    },
+    "useCases": [
+      "Compare fuel efficiency between different vehicles before purchasing",
+      "Calculate annual fuel budget based on your driving habits",
+      "Verify that your vehicle meets its advertised fuel economy rating",
+      "Track changes in efficiency after modifications or maintenance"
+    ],
+    "seoTips": [
+      "Always measure fuel economy with a full tank-to-full tank method for accuracy",
+      "Calculate separately for summer and winter to account for seasonal variations",
+      "Keep a log of your fuel economy over time to spot trends or issues",
+      "Compare your real-world results to EPA estimates for your vehicle"
+    ],
+    "commonMistakes": [
+      "Using estimated fuel amounts instead of actual fill-up quantities",
+      "Not accounting for fuel remaining in the tank from previous fills",
+      "Comparing economy figures from different driving conditions",
+      "Forgetting that new vehicles need a break-in period before reaching optimal efficiency"
+    ],
+    "faqs": [
+      {
+        "question": "What affects my car's fuel economy the most?",
+        "answer": "The biggest factors are driving speed (aerodynamic drag increases exponentially), aggressive acceleration and braking, vehicle weight, tire pressure, and whether AC is running. Highway speeds above 55 mph significantly reduce fuel economy."
+      },
+      {
+        "question": "Is MPG or L/100km a better measure?",
+        "answer": "Both measure the same thing differently. MPG (higher is better) is common in the US and UK. L/100km (lower is better) is standard in most other countries. L/100km is mathematically more useful for calculating fuel costs."
+      },
+      {
+        "question": "Why is my actual fuel economy lower than the EPA rating?",
+        "answer": "EPA ratings are measured under controlled conditions. Real-world driving includes traffic, weather variations, AC use, cargo weight, and different driving styles that typically result in 10-20% lower economy than rated."
+      },
+      {
+        "question": "How much can I save by improving fuel economy?",
+        "answer": "Improving from 25 to 30 MPG on 12,000 annual miles at $3.50/gallon saves about $280/year. Small improvements add up significantly over the life of the vehicle."
+      }
+    ]
+  },
+  "fuel-economy-calculator": {
+    "title": "Fuel Economy Calculator - Free MPG & Fuel Consumption Tool",
+    "description": "Calculate your vehicle fuel consumption rate in MPG or km/L. Free online fuel economy calculator for accurate gas mileage tracking.",
+    "howItWorks": {
+      "title": "How Fuel Economy Calculation Works",
+      "formula": "MPG = Distance (miles) / Fuel Used (gallons) | km/L = Distance (km) / Fuel Used (liters)",
+      "explanation": "Fuel economy measures how efficiently your vehicle converts fuel into distance traveled. This calculator determines your real-world fuel efficiency by comparing distance covered to fuel consumed, helping you track vehicle performance and budget fuel costs.",
+      "steps": [
+        {
+          "name": "Select Unit System",
+          "text": "Choose Imperial (MPG) or Metric (km/L) measurements"
+        },
+        {
+          "name": "Enter Fuel Used",
+          "text": "Input the amount of fuel consumed in gallons or liters"
+        },
+        {
+          "name": "Enter Distance",
+          "text": "Input the distance traveled with that fuel"
+        },
+        {
+          "name": "View Results",
+          "text": "See fuel economy, cost per mile, and annual projections"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Efficiency Tracking",
+        "description": "Monitor your vehicle's fuel efficiency over time to detect changes"
+      },
+      {
+        "title": "Vehicle Comparison",
+        "description": "Compare fuel economy between different vehicles before purchasing"
+      },
+      {
+        "title": "Cost Budgeting",
+        "description": "Calculate annual fuel costs based on your actual efficiency"
+      },
+      {
+        "title": "Maintenance Monitoring",
+        "description": "Detect potential mechanical issues through declining fuel economy"
+      }
+    ],
+    "seoTips": [
+      "Use the tank-to-tank method for accurate measurements - fill completely each time",
+      "Track fuel economy separately for city and highway driving",
+      "Compare your results to EPA ratings to assess vehicle performance",
+      "Seasonal variations are normal - cold weather reduces fuel economy",
+      "Sudden drops in economy may indicate maintenance needs"
+    ],
+    "commonMistakes": [
+      "Using estimated amounts instead of actual fuel purchased",
+      "Not filling to the same level each time for consistent measurements",
+      "Comparing results from different driving conditions",
+      "Expecting to match EPA estimates in real-world driving"
+    ],
+    "faqs": [
+      {
+        "question": "What is a good fuel economy?",
+        "answer": "For sedans, 30-40 MPG (7.5-6 L/100km) is good. Hybrids achieve 40-60 MPG. SUVs typically get 20-30 MPG. Compare to EPA estimates for your specific vehicle to gauge performance."
+      },
+      {
+        "question": "Why is my fuel economy worse than EPA ratings?",
+        "answer": "EPA tests use controlled conditions. Real driving includes traffic, weather, AC use, and personal driving style that typically reduce economy by 10-20% from rated figures."
+      },
+      {
+        "question": "How can I improve fuel economy?",
+        "answer": "Drive at moderate speeds, avoid rapid acceleration, maintain proper tire pressure, reduce excess weight, use cruise control, and keep up with maintenance."
+      },
+      {
+        "question": "Does fuel grade affect economy?",
+        "answer": "Only use premium if required by your vehicle. Using premium in a car designed for regular provides no benefit. If premium is recommended (not required), regular usually works fine with minimal impact."
+      }
+    ]
+  },
+  "fuel-cost-calculator": {
+    "title": "Fuel Cost Calculator - Trip Gas Price Estimator",
+    "description": "Estimate total fuel costs for your trip. Calculate gas expenses based on distance, fuel price, and vehicle consumption instantly.",
+    "howItWorks": {
+      "title": "How Fuel Cost Calculation Works",
+      "formula": "Fuel Cost = (Distance / Fuel Economy) × Fuel Price",
+      "explanation": "This calculator estimates total fuel expenses by dividing your trip distance by your vehicle's fuel economy to determine gallons needed, then multiplying by the current fuel price. It helps you budget for road trips and daily commuting costs.",
+      "steps": [
+        {
+          "name": "Enter Trip Distance",
+          "text": "Input the total distance you plan to travel"
+        },
+        {
+          "name": "Enter Fuel Economy",
+          "text": "Provide your vehicle's MPG or km/L rating"
+        },
+        {
+          "name": "Enter Fuel Price",
+          "text": "Input the current price per gallon or liter"
+        },
+        {
+          "name": "View Cost Estimate",
+          "text": "See total fuel cost and cost per mile/kilometer"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Trip Budgeting",
+        "description": "Plan fuel expenses before road trips and vacations"
+      },
+      {
+        "title": "Commute Costs",
+        "description": "Calculate monthly or annual commuting fuel expenses"
+      },
+      {
+        "title": "Carpool Sharing",
+        "description": "Split fuel costs fairly among passengers"
+      },
+      {
+        "title": "Route Comparison",
+        "description": "Compare fuel costs between different route options"
+      }
+    ],
+    "seoTips": [
+      "Use your actual fuel economy, not EPA estimates, for accurate costs",
+      "Check fuel prices along your route - prices vary significantly by region",
+      "Factor in return trip when calculating total journey costs",
+      "Consider that loaded vehicles and mountain driving reduce fuel economy",
+      "Use apps to find the cheapest gas stations along your route"
+    ],
+    "commonMistakes": [
+      "Using EPA fuel economy instead of your real-world measurements",
+      "Forgetting to calculate for the return trip",
+      "Not accounting for price variations along different routes",
+      "Ignoring that highway trips often get better mileage than daily driving"
+    ],
+    "faqs": [
+      {
+        "question": "How accurate is the fuel cost estimate?",
+        "answer": "Accuracy depends on your fuel economy input. Use your actual measured economy for best results. Highway trips typically get better mileage, while mountain or heavy traffic routes get worse."
+      },
+      {
+        "question": "Should I use city or highway MPG?",
+        "answer": "For road trips, use highway MPG. For mixed driving, average the two. For mostly city driving, use city MPG. Your actual economy from tank-to-tank measurements is most accurate."
+      },
+      {
+        "question": "How do I factor in fuel price changes?",
+        "answer": "For long trips, research prices along your route using apps like GasBuddy. Prices can vary by $0.50+ per gallon between regions. Plan fuel stops at cheaper locations."
+      },
+      {
+        "question": "Is driving or flying cheaper?",
+        "answer": "For solo travelers, flying is often cheaper beyond 500 miles. For families, driving usually wins due to shared fuel costs. Consider time value, tolls, parking, and vehicle wear too."
+      }
+    ]
+  },
+  "gas-mileage-calculator": {
+    "title": "Gas Mileage Calculator - Free Distance Range Tool",
+    "description": "Calculate how far you can drive with your fuel tank. Free gas mileage calculator to determine vehicle range and distance coverage.",
+    "howItWorks": {
+      "title": "How Gas Mileage Calculation Works",
+      "formula": "Gas Mileage = Distance Traveled / Fuel Used | Range = Tank Capacity × MPG",
+      "explanation": "Gas mileage measures how efficiently your vehicle uses fuel. This calculator determines miles per gallon by dividing distance by fuel consumed, and can also calculate how far you can travel on a full tank based on your fuel economy.",
+      "steps": [
+        {
+          "name": "Fill Tank Completely",
+          "text": "Start with a full tank and reset trip odometer"
+        },
+        {
+          "name": "Drive Normally",
+          "text": "Drive until ready to refuel, noting miles traveled"
+        },
+        {
+          "name": "Enter Values",
+          "text": "Input distance driven and gallons/liters to refill"
+        },
+        {
+          "name": "View Mileage",
+          "text": "See calculated MPG/km/L and estimated range"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Range Estimation",
+        "description": "Calculate how far you can travel on your current fuel level"
+      },
+      {
+        "title": "Efficiency Tracking",
+        "description": "Monitor gas mileage over time to track vehicle performance"
+      },
+      {
+        "title": "Trip Planning",
+        "description": "Determine fuel stops needed for long distance travel"
+      },
+      {
+        "title": "Performance Comparison",
+        "description": "Compare mileage between different driving conditions or vehicles"
+      }
+    ],
+    "seoTips": [
+      "Track mileage consistently with the same fill-up method for accuracy",
+      "Calculate separately for city and highway driving to understand patterns",
+      "Declining mileage over time may indicate maintenance needs",
+      "Weather significantly affects mileage - expect variations seasonally",
+      "Keep a mileage log to track trends and detect issues early"
+    ],
+    "commonMistakes": [
+      "Not filling to the same level each time (fill completely for accuracy)",
+      "Using trip computer estimates instead of actual gallons purchased",
+      "Comparing mileage from very different driving conditions",
+      "Not accounting for ethanol content differences in fuel"
+    ],
+    "faqs": [
+      {
+        "question": "How do I accurately calculate gas mileage?",
+        "answer": "Fill your tank completely, reset the trip odometer, drive until ready to refuel, fill completely again, and divide miles driven by gallons added. This tank-to-tank method is most accurate."
+      },
+      {
+        "question": "Why does my mileage vary so much?",
+        "answer": "Mileage varies with speed, traffic, weather, AC use, tire pressure, and driving style. City driving with stops uses more fuel than steady highway driving. Cold weather reduces efficiency."
+      },
+      {
+        "question": "What is considered good gas mileage?",
+        "answer": "Good mileage depends on vehicle type. For sedans, 30-40 MPG is good. SUVs typically get 20-30 MPG. Hybrids achieve 40-60 MPG. Compare to EPA ratings for your specific vehicle."
+      },
+      {
+        "question": "How far can I drive on empty?",
+        "answer": "Most vehicles can drive 30-50 miles after the fuel light comes on, but this varies. Don't rely on this - running very low can damage the fuel pump and leave you stranded."
+      }
+    ]
+  },
+  "gas_mileage": {
+    "title": "Gas Mileage Calculator",
+    "description": "Calculate your vehicle's gas mileage.",
+    "unit_system": "Unit System",
+    "unit_system_tooltip": "Choose your measurement system",
+    "imperial": "Imperial (Miles/Gallons)",
+    "metric": "Metric (km/Liters)",
+    "distance_miles": "Distance (miles)",
+    "distance_km": "Distance (km)",
+    "distance_tooltip": "Distance traveled since last fill-up",
+    "fuel_gallons": "Fuel Added (gallons)",
+    "fuel_liters": "Fuel Added (liters)",
+    "fuel_tooltip": "Amount of fuel added to fill the tank",
+    "result_title": "Your Gas Mileage",
+    "liters_per_100km": "Liters per 100km",
+    "formula_title": "How it works",
+    "formula_explanation": "Gas mileage is calculated by dividing the distance traveled by the amount of fuel used.",
+    "about_title": "About Gas Mileage",
+    "about_description": "Tracking your gas mileage helps you monitor engine health and fuel efficiency.",
+    "error_missing_inputs": "Please enter distance and fuel used",
+    "error_positive_values": "Values must be positive",
+    "error_calculation": "Calculation error",
+    "units": {
+      "mpg": "MPG",
+      "km_l": "km/L",
+      "l_100km": "L/100km"
+    },
+    "placeholders": {
+      "distance_imperial": "300",
+      "distance_metric": "500",
+      "fuel_imperial": "10",
+      "fuel_metric": "38"
+    },
+    "howItWorks": {
+      "title": "How Gas Mileage Calculation Works",
+      "formula": "MPG = Miles Driven / Gallons Used | km/L = Kilometers Driven / Liters Used",
+      "explanation": "Gas mileage measures how efficiently your vehicle converts fuel into distance traveled. By tracking the distance since your last fill-up and the amount of fuel added, you can calculate your real-world fuel efficiency.",
+      "steps": [
+        "Fill your tank completely and reset your trip odometer",
+        "Drive normally until you need to refuel",
+        "Fill the tank completely again and note the gallons/liters added",
+        "Enter the distance driven and fuel added to calculate MPG or km/L"
+      ]
+    },
+    "useCases": [
+      "Track fuel efficiency over time to detect potential engine problems",
+      "Compare efficiency between different driving routes or conditions",
+      "Monitor the impact of driving habits on fuel consumption",
+      "Evaluate whether modifications or maintenance improved efficiency"
+    ],
+    "seoTips": [
+      "Always calculate using full tank-to-full tank measurements for accuracy",
+      "Track multiple fill-ups and average the results for reliable data",
+      "Note driving conditions (city, highway, weather) for each measurement",
+      "Compare your results to EPA ratings for your specific vehicle"
+    ],
+    "commonMistakes": [
+      "Not filling the tank to the same level each time",
+      "Using trip computer estimates instead of actual fuel purchased",
+      "Comparing results from different driving conditions",
+      "Not accounting for fuel expansion in hot weather"
+    ],
+    "faqs": [
+      {
+        "question": "Why is my gas mileage different from the EPA estimate?",
+        "answer": "EPA estimates are based on standardized tests. Real-world driving includes traffic, weather, AC use, speed variations, and personal driving style that typically result in 10-20% lower mileage than EPA numbers."
+      },
+      {
+        "question": "What factors affect gas mileage the most?",
+        "answer": "Speed is the biggest factor - mileage drops significantly above 50 mph. Other major factors include tire pressure, aggressive driving, vehicle weight, AC use, and engine condition."
+      },
+      {
+        "question": "How can I improve my gas mileage?",
+        "answer": "Drive at moderate speeds, avoid rapid acceleration, keep tires properly inflated, remove excess weight, use cruise control, minimize idling, and keep up with maintenance like air filter changes and tune-ups."
+      },
+      {
+        "question": "Should I use premium gas to improve mileage?",
+        "answer": "Only if your vehicle requires it. Using premium in a car designed for regular provides no benefit and wastes money. If your car recommends (not requires) premium, regular is usually fine but may slightly reduce power and efficiency."
+      }
+    ]
+  },
+  "trip-cost-calculator": {
+    "title": "Trip Cost Calculator",
+    "description": "Calculate total road trip costs including fuel, tolls, and expenses.",
+    "unit_system": "Unit System",
+    "unit_system_tooltip": "Select measurement system",
+    "imperial": "Imperial (Miles, MPG, Gallons)",
+    "metric": "Metric (km, km/L, Liters)",
+    "distance_miles": "Trip Distance (miles)",
+    "distance_km": "Trip Distance (km)",
+    "distance_tooltip": "Total distance of the trip",
+    "fuel_economy_mpg": "Fuel Economy (MPG)",
+    "fuel_economy_kmpl": "Fuel Economy (km/L)",
+    "fuel_economy_tooltip": "Vehicle's fuel efficiency",
+    "fuel_price_gallon": "Fuel Price ($/gallon)",
+    "fuel_price_liter": "Fuel Price ($/liter)",
+    "fuel_price_tooltip": "Price of fuel",
+    "result_title": "Trip Cost Estimate",
+    "total_trip_cost": "Total Trip Cost",
+    "fuel_needed": "Fuel Needed",
+    "gallons": "gallons",
+    "liters": "liters",
+    "cost_per_mile": "Cost per Mile",
+    "cost_per_km": "Cost per km",
+    "mile": "mile",
+    "km": "km",
+    "formula_title": "Calculation Formula",
+    "formula_explanation": "Cost = (Distance / Fuel Economy) × Fuel Price",
+    "about_title": "About Trip Cost",
+    "about_description": "Plan your road trip budget by estimating fuel costs.",
+    "error_missing_inputs": "Please enter all fields",
+    "error_positive_values": "Values must be positive",
+    "error_calculation": "Calculation error",
+    "placeholders": {
+      "distance": "500",
+      "economy_mpg": "30",
+      "economy_kmpl": "12.75",
+      "price_gallon": "3.50",
+      "price_liter": "1.50"
+    },
+    "howItWorks": {
+      "title": "How the Trip Cost Calculator Works",
+      "formula": "Fuel Cost = (Distance / Fuel Efficiency) x Fuel Price",
+      "explanation": "This tool calculates the fuel cost for your trip based on the distance, your vehicle fuel efficiency, and current fuel price. You can add other costs like tolls and accommodation for a comprehensive estimate.",
+      "steps": [
+        {
+          "name": "Enter the Distance",
+          "text": "Enter the total round-trip distance"
+        },
+        {
+          "name": "Set Fuel Efficiency",
+          "text": "Enter your vehicle fuel consumption rate"
+        },
+        {
+          "name": "Enter Fuel Price",
+          "text": "Enter the current fuel price"
+        },
+        {
+          "name": "Review the Cost",
+          "text": "View the fuel cost and cost per mile/kilometer"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Budget Planning",
+        "description": "Estimate fuel costs before traveling"
+      },
+      {
+        "title": "Compare Transportation Options",
+        "description": "Compare driving costs vs flying or taking the train"
+      },
+      {
+        "title": "Cost Sharing",
+        "description": "Calculate each person's share on a group trip"
+      },
+      {
+        "title": "Business Travel",
+        "description": "Calculate travel costs for expense reimbursement"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How do I calculate my actual fuel efficiency?",
+        "answer": "Fill your tank, note the odometer reading. At the next fill-up, divide the miles driven by gallons added. Repeat for several fill-ups to get an accurate average."
+      },
+      {
+        "question": "Is driving cheaper than flying?",
+        "answer": "For solo travelers, flying is usually cheaper for distances over 300 miles. But for families or groups, driving wins due to cost sharing. Don't forget to factor in time and fatigue."
+      },
+      {
+        "question": "How can I save on trip costs?",
+        "answer": "Drive at economic speed (55-65 mph), maintain tire pressure, avoid aggressive acceleration, remove excess cargo, and use apps to find the cheapest gas stations."
+      },
+      {
+        "question": "Should I add costs other than fuel?",
+        "answer": "Yes, for a complete estimate add: toll fees, parking, vehicle depreciation (about $0.10-0.20/mile), and extra maintenance for long trips."
+      }
+    ],
+    "seoTips": [
+      "Use actual fuel efficiency, not manufacturer figures",
+      "Add 10-15% for emergencies and route deviations",
+      "Consider toll and parking costs",
+      "For long trips, add accommodation and food costs"
+    ],
+    "commonMistakes": [
+      "Using ideal fuel efficiency instead of real-world figures",
+      "Forgetting to calculate the return trip",
+      "Ignoring toll roads and bridge fees",
+      "Not accounting for increased fuel consumption in mountains or with heavy loads"
+    ]
+  },
+  "trip_cost": {
+    "title": "Trip Cost Calculator",
+    "description": "Calculate total road trip costs including fuel, tolls, and expenses.",
+    "unit_system": "Unit System",
+    "unit_system_tooltip": "Select measurement system",
+    "imperial": "Imperial (Miles, MPG, Gallons)",
+    "metric": "Metric (km, km/L, Liters)",
+    "distance_miles": "Trip Distance (miles)",
+    "distance_km": "Trip Distance (km)",
+    "distance_tooltip": "Total distance of the trip",
+    "fuel_economy_mpg": "Fuel Economy (MPG)",
+    "fuel_economy_kmpl": "Fuel Economy (km/L)",
+    "fuel_economy_tooltip": "Vehicle's fuel efficiency",
+    "fuel_price_gallon": "Fuel Price ($/gallon)",
+    "fuel_price_liter": "Fuel Price ($/liter)",
+    "fuel_price_tooltip": "Price of fuel",
+    "result_title": "Trip Cost Estimate",
+    "total_trip_cost": "Total Trip Cost",
+    "fuel_needed": "Fuel Needed",
+    "gallons": "gallons",
+    "liters": "liters",
+    "cost_per_mile": "Cost per Mile",
+    "cost_per_km": "Cost per km",
+    "mile": "mile",
+    "km": "km",
+    "formula_title": "Calculation Formula",
+    "formula_explanation": "Cost = (Distance / Fuel Economy) × Fuel Price",
+    "about_title": "About Trip Cost",
+    "about_description": "Plan your road trip budget by estimating fuel costs.",
+    "error_missing_inputs": "Please enter all fields",
+    "error_positive_values": "Values must be positive",
+    "error_calculation": "Calculation error",
+    "placeholders": {
+      "distance": "500",
+      "economy_mpg": "30",
+      "economy_kmpl": "12.75",
+      "price_gallon": "3.50",
+      "price_liter": "1.50",
+      "distance_imperial": "Enter distance in miles",
+      "distance_metric": "Enter distance in km",
+      "economy_imperial": "Enter fuel economy (MPG)",
+      "economy_metric": "Enter fuel economy (km/L)",
+      "price": "Enter fuel price"
+    },
+    "fuel_economy_kml": "Fuel Economy (km/L)",
+    "howItWorks": {
+      "title": "How Trip Cost Calculation Works",
+      "formula": "Trip Cost = (Distance / Fuel Economy) × Fuel Price",
+      "explanation": "This calculator estimates your total fuel expense for a road trip by dividing the distance by your vehicle's fuel economy to determine gallons needed, then multiplying by the fuel price.",
+      "steps": [
+        "Select your unit system (Imperial or Metric)",
+        "Enter the total trip distance",
+        "Enter your vehicle's fuel economy (MPG or km/L)",
+        "Enter the current fuel price per gallon or liter",
+        "View total cost, fuel needed, and cost per mile/km"
+      ]
+    },
+    "useCases": [
+      "Budget fuel expenses before a road trip or vacation",
+      "Compare costs between different routes or vehicles",
+      "Calculate cost sharing among passengers for carpooling",
+      "Evaluate whether driving or flying is more economical"
+    ],
+    "seoTips": [
+      "Use your actual measured fuel economy rather than EPA estimates for accuracy",
+      "Factor in highway vs city driving - trips are usually more efficient than daily driving",
+      "Check fuel prices along your route - prices vary significantly by region",
+      "Consider that mountain driving significantly reduces fuel economy"
+    ],
+    "commonMistakes": [
+      "Using EPA fuel economy instead of real-world measurements",
+      "Not accounting for higher fuel prices in some regions",
+      "Forgetting that loaded vehicles get worse fuel economy",
+      "Not considering the return trip in calculations"
+    ],
+    "faqs": [
+      {
+        "question": "How accurate is the trip cost estimate?",
+        "answer": "Accuracy depends on your fuel economy input. Using your actual measured economy gives the best results. Highway trips typically get better mileage than EPA estimates, while mountain or heavy traffic routes may get worse."
+      },
+      {
+        "question": "Should I calculate for round trip?",
+        "answer": "Yes, enter the total distance for your entire journey including the return trip. You can also calculate one-way and double it, but remember fuel prices may differ on the return route."
+      },
+      {
+        "question": "How do I estimate fuel economy for a trip?",
+        "answer": "Use your vehicle's trip computer average, or calculate from recent fill-ups. For long highway trips, you can often add 10-15% to your typical mixed-driving economy. For mountain routes, reduce by 15-25%."
+      },
+      {
+        "question": "Is driving or flying cheaper?",
+        "answer": "For solo travelers, flying is often cheaper for distances over 500 miles. But for families or groups, driving usually wins due to sharing fuel costs. Consider time, tolls, parking, and wear on the vehicle too."
+      }
+    ]
+  },
+  "carbon-emissions-calculator": {
+    "title": "Carbon Emissions Calculator - Vehicle CO2 Tool",
+    "description": "Calculate your car carbon footprint and CO2 emissions. Free online calculator for measuring vehicle environmental impact and pollution.",
+    "howItWorks": {
+      "title": "How Carbon Emissions Calculation Works",
+      "formula": "CO2 Emissions = Fuel Consumed × Emission Factor (2.31 kg CO2/liter gasoline, 2.68 kg CO2/liter diesel)",
+      "explanation": "This calculator estimates your vehicle's carbon dioxide emissions based on fuel consumption. Each gallon of gasoline produces about 8.89 kg of CO2, and each gallon of diesel produces about 10.16 kg. The calculator converts your driving habits into annual carbon footprint measurements.",
+      "steps": [
+        {
+          "name": "Enter Fuel Consumption",
+          "text": "Input your vehicle's fuel economy or total fuel used"
+        },
+        {
+          "name": "Select Fuel Type",
+          "text": "Choose gasoline, diesel, or hybrid for accurate emission factors"
+        },
+        {
+          "name": "Enter Annual Mileage",
+          "text": "Input how many miles or kilometers you drive per year"
+        },
+        {
+          "name": "View Carbon Footprint",
+          "text": "See annual CO2 emissions and environmental impact comparisons"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Environmental Awareness",
+        "description": "Understand your personal transportation carbon footprint"
+      },
+      {
+        "title": "Vehicle Comparison",
+        "description": "Compare emissions between different vehicles to make eco-friendly choices"
+      },
+      {
+        "title": "Carbon Offset Planning",
+        "description": "Calculate how much carbon offset you need to become carbon neutral"
+      },
+      {
+        "title": "Corporate Fleet Analysis",
+        "description": "Measure total fleet emissions for sustainability reporting"
+      }
+    ],
+    "seoTips": [
+      "One mature tree absorbs approximately 22 kg of CO2 per year",
+      "Electric vehicles have zero direct emissions but consider electricity source",
+      "Driving style significantly affects actual emissions - smooth driving reduces CO2",
+      "Short trips produce more emissions per mile due to cold engine inefficiency",
+      "Maintaining proper tire pressure can reduce emissions by improving fuel economy"
+    ],
+    "commonMistakes": [
+      "Ignoring upstream emissions from fuel production and delivery",
+      "Comparing EV and gas car emissions without considering electricity source",
+      "Not accounting for different emission factors between fuel types",
+      "Using EPA estimates instead of actual fuel consumption for calculations"
+    ],
+    "faqs": [
+      {
+        "question": "How much CO2 does the average car produce?",
+        "answer": "The average passenger car produces about 4.6 metric tons of CO2 per year (12,000 miles at 24 MPG). This varies significantly based on vehicle efficiency and driving distance."
+      },
+      {
+        "question": "Are electric cars really better for the environment?",
+        "answer": "EVs have zero tailpipe emissions but the electricity source matters. In areas with clean grids, EVs are significantly cleaner. Even with coal-heavy grids, EVs are usually cleaner due to power plant efficiency."
+      },
+      {
+        "question": "How can I reduce my vehicle's carbon emissions?",
+        "answer": "Improve fuel economy through smooth driving, proper maintenance, and correct tire pressure. Consider carpooling, combining trips, or switching to a more efficient or electric vehicle."
+      },
+      {
+        "question": "What is a carbon offset?",
+        "answer": "Carbon offsets fund projects that reduce CO2 elsewhere (tree planting, renewable energy, etc.) to compensate for your emissions. Typical car emissions cost $50-200/year to offset."
+      }
+    ]
+  }
+}

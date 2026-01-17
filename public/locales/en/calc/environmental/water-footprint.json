@@ -1,0 +1,268 @@
+{
+  "water_usage": {
+    "title": "Water Usage Calculator",
+    "description": "Estimate your daily water consumption at home and receive conservation tips.",
+    "shower_label": "Daily Shower Duration (minutes)",
+    "shower_tooltip": "Average time spent in the shower",
+    "shower_placeholder": "e.g., 10",
+    "toilet_label": "Daily Toilet Flushes",
+    "toilet_tooltip": "How many times you flush the toilet per day",
+    "toilet_placeholder": "e.g., 5",
+    "dish_label": "Dishwashing (times per day)",
+    "dish_tooltip": "Times dishes are washed manually or by machine",
+    "dish_placeholder": "e.g., 2",
+    "laundry_label": "Laundry (times per week)",
+    "laundry_tooltip": "Number of laundry loads per week",
+    "laundry_placeholder": "e.g., 3",
+    "cost_label": "Cost per Liter (optional)",
+    "cost_tooltip": "Water price per liter based on local tariff",
+    "cost_placeholder": "e.g., 0.005",
+    "result_label": "Total Daily Consumption",
+    "result_unit": "Liters / Day",
+    "details_title": "Consumption Details",
+    "monthly_usage": "Monthly Usage",
+    "yearly_usage": "Yearly Usage",
+    "liters": "Liters",
+    "daily_cost": "Daily Cost",
+    "monthly_cost": "Monthly Cost",
+    "yearly_cost": "Yearly Cost",
+    "comparison_title": "Your Usage Assessment",
+    "comparison_low": "Your water usage is low and ideal.",
+    "comparison_average": "Your usage is within the normal average per individual.",
+    "comparison_high": "Your usage is high. Try using water-saving devices.",
+    "info_title": "Why Conserve Water?",
+    "info_description": "Water is a precious and limited resource. Conserving usage protects the environment and reduces your monthly bills.",
+    "use_cases_title": "Simple Ways to Conserve",
+    "use_case_1": "Take shorter showers and install water-saving showerheads.",
+    "use_case_2": "Fix leaks promptly and use water-efficient appliances.",
+    "use_case_3": "Water plants early morning or late evening to reduce evaporation.",
+    "error_at_least_one": "Please enter at least one value",
+    "error_negative": "Negative values are not allowed",
+    "error_calculation": "An error occurred during calculation",
+    "howItWorks": {
+      "title": "How Does the Water Usage Calculator Work?",
+      "formula": "Daily Usage = (Shower minutes × 10L) + (Toilet flushes × 6L) + (Dishwashing × 15L) + (Laundry loads × 50L/7)",
+      "explanation": "This calculator estimates your daily water consumption by analyzing common household activities. Each activity uses a standard water flow rate to calculate total consumption.",
+      "steps": [
+        "Enter your average daily shower duration in minutes",
+        "Enter the number of toilet flushes per day",
+        "Enter how many times you wash dishes daily",
+        "Enter your weekly laundry loads",
+        "Optionally enter your local water cost per liter",
+        "Click Calculate to see your daily, monthly, and yearly water usage"
+      ]
+    },
+    "useCases": [
+      "Track household water consumption to identify wasteful habits",
+      "Estimate monthly and annual water bills for budgeting",
+      "Compare your usage against average consumption (100-150 liters/day)",
+      "Identify which activities consume the most water"
+    ],
+    "seoTips": [
+      "Average person uses 100-150 liters of water daily",
+      "A 10-minute shower uses approximately 100 liters of water",
+      "Fixing a dripping tap can save 20 liters per day",
+      "Water-efficient showerheads reduce consumption by 40%",
+      "Dual-flush toilets use 50% less water than traditional toilets"
+    ],
+    "commonMistakes": [
+      "Underestimating shower duration - most people shower longer than they think",
+      "Forgetting to count all toilet flushes throughout the day",
+      "Not accounting for water used in cooking and drinking",
+      "Ignoring outdoor water usage like gardening and car washing"
+    ],
+    "faqs": [
+      {
+        "question": "What is considered high water usage?",
+        "answer": "Using more than 150 liters per person per day is considered high. The sustainable target is below 100 liters per day."
+      },
+      {
+        "question": "How can I reduce shower water usage?",
+        "answer": "Install a low-flow showerhead, take shorter showers (5 minutes max), and turn off water while lathering."
+      },
+      {
+        "question": "Does a dishwasher use more water than hand washing?",
+        "answer": "Modern efficient dishwashers typically use 10-15 liters per cycle, while hand washing can use 40-60 liters for the same dishes."
+      },
+      {
+        "question": "How much water does a toilet flush use?",
+        "answer": "Traditional toilets use 9-12 liters per flush, while modern dual-flush toilets use 3-6 liters."
+      },
+      {
+        "question": "What percentage of household water is used for bathing?",
+        "answer": "Bathing and showering typically account for 30-35% of household water consumption."
+      }
+    ]
+  },
+  "rainwater_harvesting": {
+    "title": "Rainwater Harvesting Calculator",
+    "description": "Calculate collectable rainwater amount from your roof",
+    "section_title": "Roof and Rainfall Information",
+    "roof_area": "Roof Area (m²)",
+    "roof_area_tooltip": "Area designated for water collection",
+    "rainfall": "Annual Rainfall (mm)",
+    "rainfall_tooltip": "Average annual rainfall in your area",
+    "efficiency": "Collection Efficiency (%)",
+    "efficiency_tooltip": "Collection system efficiency (typically 80-90%)",
+    "enter_area": "Enter area",
+    "enter_rate": "Enter rate",
+    "enter_efficiency": "Enter efficiency",
+    "calculate_btn": "Calculate Amount",
+    "reset_btn": "Reset",
+    "results_title": "Rainwater Harvesting Potential",
+    "annual_collection": "Potential Annual Collection",
+    "monthly_average": "Monthly Average",
+    "tank_size": "Recommended Tank Size",
+    "water_savings": "Expected Water Savings",
+    "cost_savings": "Annual Cost Savings",
+    "liters": "liters",
+    "liters_short": "L",
+    "liters_year": "L/year",
+    "uses_title": "Rainwater Uses",
+    "use_garden": "Garden and plant irrigation",
+    "use_car": "Car washing",
+    "use_cleaning": "Cleaning outdoor surfaces",
+    "use_toilet": "Toilet flushing (after treatment)",
+    "use_groundwater": "Groundwater recharge",
+    "info_title": "Important Information",
+    "info_filtration": "Need filtration system for household uses",
+    "info_clean": "Clean roof and gutters regularly",
+    "info_permits": "Obtain required local permits",
+    "empty_state": "Enter roof details to calculate rainwater amount",
+    "footer_note": "Rainwater harvesting conserves water and reduces runoff.",
+    "howItWorks": {
+      "title": "How Does the Rainwater Harvesting Calculator Work?",
+      "formula": "Annual Collection = Roof area (m²) × Annual rainfall (mm) × Efficiency (0.8-0.9) × 0.001",
+      "explanation": "This calculator estimates how much rainwater you can collect from your roof annually, accounting for collection system efficiency and recommending appropriate storage tank sizes.",
+      "steps": [
+        "Enter your roof collection area in square meters",
+        "Enter your area's annual rainfall in millimeters",
+        "Enter your collection system efficiency (typically 80-90%)",
+        "Click Calculate to see annual collection potential",
+        "View recommended tank size and cost savings"
+      ]
+    },
+    "useCases": [
+      "Plan rainwater harvesting system capacity",
+      "Calculate potential water bill savings",
+      "Size storage tanks appropriately for your needs",
+      "Assess feasibility of rainwater harvesting in your area"
+    ],
+    "seoTips": [
+      "A 100m² roof in moderate rainfall (800mm) can collect 64,000 liters yearly",
+      "Rainwater is ideal for irrigation - plants prefer it over tap water",
+      "First-flush diverters improve water quality significantly",
+      "Tank size should hold 2-4 weeks of expected use",
+      "Rainwater harvesting reduces stormwater runoff by 50-75%"
+    ],
+    "commonMistakes": [
+      "Overestimating collection without accounting for efficiency losses",
+      "Not planning for seasonal rainfall variation",
+      "Undersizing tanks and missing peak collection periods",
+      "Forgetting maintenance requirements for gutters and filters"
+    ],
+    "faqs": [
+      {
+        "question": "How much rainwater can I collect?",
+        "answer": "Multiply roof area (m²) by annual rainfall (m) by 0.8 efficiency. A 100m² roof with 800mm rainfall collects about 64,000 liters yearly."
+      },
+      {
+        "question": "What tank size do I need?",
+        "answer": "Tank size depends on rainfall patterns. Generally, size for 2-4 weeks of use or 3-5% of annual collection, whichever is larger."
+      },
+      {
+        "question": "Can I use rainwater for drinking?",
+        "answer": "With proper filtration and UV treatment, yes. However, most systems are designed for non-potable uses like irrigation and toilet flushing."
+      },
+      {
+        "question": "What is collection efficiency?",
+        "answer": "Not all rain is captured - some evaporates, splashes, or is lost in first-flush diversion. Typical efficiency is 80-90% of theoretical maximum."
+      },
+      {
+        "question": "Is rainwater harvesting cost-effective?",
+        "answer": "ROI depends on local water costs and rainfall. In areas with expensive water or unreliable supply, systems often pay back in 5-10 years."
+      }
+    ]
+  },
+  "water_footprint": {
+    "title": "Water Footprint Calculator",
+    "description": "Calculate your annual water footprint including virtual water",
+    "section_title": "Lifestyle",
+    "diet": "Diet Type",
+    "diet_tooltip": "Your usual diet type",
+    "shower": "Daily Shower Minutes",
+    "shower_tooltip": "Average daily shower time",
+    "laundry": "Laundry Loads per Week",
+    "laundry_tooltip": "Number of laundry loads per week",
+    "car_wash": "Car Washes per Month",
+    "car_wash_tooltip": "Number of car washes per month",
+    "enter_minutes": "Enter minutes",
+    "enter_number": "Enter number",
+    "calculate_btn": "Calculate Water Footprint",
+    "reset_btn": "Reset",
+    "results_title": "Annual Water Footprint",
+    "total_footprint": "Total Water Footprint",
+    "direct_water": "Direct Water",
+    "indirect_water": "Indirect Water (Virtual)",
+    "virtual_water_title": "Virtual Water in Food",
+    "virtual_water_beef": "1 kg beef: 15,000 liters",
+    "virtual_water_chicken": "1 kg chicken: 4,300 liters",
+    "virtual_water_rice": "1 kg rice: 2,500 liters",
+    "virtual_water_veg": "1 kg vegetables: 300 liters",
+    "empty_state": "Enter your lifestyle information to calculate water footprint",
+    "footer_note": "Virtual water is the water used in producing goods and food.",
+    "howItWorks": {
+      "title": "How Does the Water Footprint Calculator Work?",
+      "formula": "Total Water Footprint = Direct water use + Virtual water (food production + goods)",
+      "explanation": "This calculator estimates your total water footprint by combining direct water use (showers, laundry) with virtual water embedded in the food you eat and products you use.",
+      "steps": [
+        "Select your diet type from the dropdown",
+        "Enter average daily shower duration in minutes",
+        "Enter weekly laundry loads",
+        "Enter monthly car washes",
+        "Click Calculate to see total water footprint"
+      ]
+    },
+    "useCases": [
+      "Understand the hidden water in your food choices",
+      "Compare water footprint of different diets",
+      "Identify major contributors to your water use",
+      "Set goals for water footprint reduction"
+    ],
+    "seoTips": [
+      "Virtual water accounts for 92% of total water footprint",
+      "A meat-heavy diet uses 5,000+ liters per day",
+      "A vegan diet uses 2,000-2,500 liters per day",
+      "1 kg of beef requires 15,000 liters of water to produce",
+      "Direct household use is only 100-200 liters per day"
+    ],
+    "commonMistakes": [
+      "Focusing only on direct water use while ignoring virtual water",
+      "Not realizing meat production dominates water footprint",
+      "Underestimating the water in processed foods and drinks",
+      "Forgetting water embedded in clothing and consumer goods"
+    ],
+    "faqs": [
+      {
+        "question": "What is virtual water?",
+        "answer": "Virtual water is the water used to produce goods and food. A cotton t-shirt requires 2,700 liters, a smartphone about 12,000 liters."
+      },
+      {
+        "question": "Why does beef use so much water?",
+        "answer": "Cattle need water for drinking, but mainly for growing feed crops. It takes about 15,000 liters to produce 1 kg of beef over the animal's lifetime."
+      },
+      {
+        "question": "How can I reduce my water footprint?",
+        "answer": "The biggest impact comes from dietary changes. Reducing beef consumption has a larger effect than all direct water-saving measures combined."
+      },
+      {
+        "question": "What is a sustainable water footprint?",
+        "answer": "A sustainable footprint is about 1,240 liters per person per day. Most people in developed countries use 3,000-5,000 liters."
+      },
+      {
+        "question": "Does taking shorter showers really help?",
+        "answer": "It helps, but direct water is only 5-10% of your footprint. A 5-minute shorter shower saves 50 liters, but eating 100g less beef saves 1,500 liters."
+      }
+    ]
+  }
+}

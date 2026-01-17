@@ -1,0 +1,860 @@
+{
+  "cat_age_calculator": {
+    "title": "Cat Age Calculator",
+    "description": "Convert cat age to human years accurately.",
+    "label_age": "Cat Age (Years)",
+    "tooltip_age": "Enter your cat's age in years",
+    "placeholder_age": "e.g., 5",
+    "calculate_btn": "Calculate Age",
+    "reset_btn": "Reset",
+    "result_label": "Human Age",
+    "result_unit": "Years",
+    "life_stage": "Life Stage",
+    "health_tips": "Health Tips",
+    "stage_kitten": "Kitten (0-1 year)",
+    "stage_young": "Junior (1-2 years)",
+    "stage_adult": "Prime (3-6 years)",
+    "stage_mature": "Mature (7-10 years)",
+    "stage_senior": "Senior (11-14 years)",
+    "stage_geriatric": "Geriatric (15+ years)",
+    "tip_kitten_1": "Focus on socialization and play",
+    "tip_kitten_2": "Complete initial vaccinations",
+    "tip_kitten_3": "Feed high-quality kitten food",
+    "tip_adult_1": "Monitor weight and dental health",
+    "tip_adult_2": "Annual vet check-ups are essential",
+    "tip_adult_3": "Maintain active play routine",
+    "tip_senior_1": "Bi-annual vet visits recommended",
+    "tip_senior_2": "Watch for changes in behavior or mobility",
+    "tip_senior_3": "Consider senior-specific diet",
+    "info_title": "How Cat Age Works",
+    "info_description": "Cats age much faster than humans in their first two years. The first year equals about 15 human years, the second year adds 9, and each subsequent year adds about 4 human years.",
+    "use_cases_title": "Why Calculate Cat Age?",
+    "use_case_1": "To understand life stages and needs",
+    "use_case_2": "To schedule appropriate veterinary care",
+    "use_case_3": "To adjust diet and activity levels",
+    "error_invalid": "Please enter a valid age",
+    "error_positive": "Age must be greater than 0",
+    "error_max_age": "Age must be less than 30",
+    "howItWorks": {
+      "title": "How Cat Age Conversion Works",
+      "formula": "Year 1 = 15 human years, Year 2 = +9 years, Each year after = +4 years",
+      "explanation": "Cats mature rapidly in their first two years, then age approximately 4 human years for each cat year after that. This calculator provides accurate human age equivalents.",
+      "steps": [
+        "Enter your cat's age in years",
+        "Click Calculate to convert to human years",
+        "View the life stage classification",
+        "Review age-appropriate health tips"
+      ]
+    },
+    "useCases": [
+      "Understanding your cat's developmental stage",
+      "Planning appropriate veterinary care schedules",
+      "Adjusting diet based on life stage",
+      "Recognizing age-related behavioral changes"
+    ],
+    "seoTips": [
+      "Indoor cats typically live longer than outdoor cats",
+      "Regular vet checkups become more important as cats age",
+      "Senior cats need different nutrition than kittens",
+      "Activity levels naturally decrease with age",
+      "Monitor weight changes as cats get older"
+    ],
+    "commonMistakes": [
+      "Using the 7-year multiplier myth for all ages",
+      "Not adjusting care for different life stages",
+      "Ignoring subtle signs of aging in cats",
+      "Treating senior cats like young adults"
+    ],
+    "faqs": [
+      {
+        "question": "Is the 7-year rule accurate for cats?",
+        "answer": "No, the 7-year rule is a myth. Cats age faster in their first two years. A 2-year-old cat is about 24 in human years, not 14."
+      },
+      {
+        "question": "When is a cat considered senior?",
+        "answer": "Cats are generally considered senior at 11 years old, which is equivalent to about 60 human years. At 15+, they are considered geriatric."
+      },
+      {
+        "question": "How long do cats typically live?",
+        "answer": "Indoor cats live 12-18 years on average, with some reaching their early 20s. Outdoor cats have shorter lifespans due to environmental risks."
+      },
+      {
+        "question": "Do different breeds age differently?",
+        "answer": "While the aging formula is similar across breeds, some breeds like Siamese tend to live longer, while others like Maine Coons may have shorter lifespans."
+      },
+      {
+        "question": "What changes should I expect in senior cats?",
+        "answer": "Senior cats may experience reduced activity, changes in sleep patterns, weight fluctuations, and may need more frequent vet visits and dietary adjustments."
+      }
+    ]
+  },
+  "cat-age-calculator": {
+    "title": "Cat Age Calculator",
+    "description": "Convert cat age to human years accurately.",
+    "label_age": "Cat Age (Years)",
+    "tooltip_age": "Enter your cat's age in years",
+    "placeholder_age": "e.g., 5",
+    "calculate_btn": "Calculate Age",
+    "reset_btn": "Reset",
+    "result_label": "Human Age",
+    "result_unit": "Years",
+    "life_stage": "Life Stage",
+    "health_tips": "Health Tips",
+    "stage_kitten": "Kitten (0-1 year)",
+    "stage_young": "Junior (1-2 years)",
+    "stage_adult": "Prime (3-6 years)",
+    "stage_mature": "Mature (7-10 years)",
+    "stage_senior": "Senior (11-14 years)",
+    "stage_geriatric": "Geriatric (15+ years)",
+    "tip_kitten_1": "Focus on socialization and play",
+    "tip_kitten_2": "Complete initial vaccinations",
+    "tip_kitten_3": "Feed high-quality kitten food",
+    "tip_adult_1": "Monitor weight and dental health",
+    "tip_adult_2": "Annual vet check-ups are essential",
+    "tip_adult_3": "Maintain active play routine",
+    "tip_senior_1": "Bi-annual vet visits recommended",
+    "tip_senior_2": "Watch for changes in behavior or mobility",
+    "tip_senior_3": "Consider senior-specific diet",
+    "info_title": "How Cat Age Works",
+    "info_description": "Cats age much faster than humans in their first two years. The first year equals about 15 human years, the second year adds 9, and each subsequent year adds about 4 human years.",
+    "use_cases_title": "Why Calculate Cat Age?",
+    "use_case_1": "To understand life stages and needs",
+    "use_case_2": "To schedule appropriate veterinary care",
+    "use_case_3": "To adjust diet and activity levels",
+    "error_invalid": "Please enter a valid age",
+    "error_positive": "Age must be greater than 0",
+    "error_max_age": "Age must be less than 30",
+    "howItWorks": {
+      "title": "How Cat Age Conversion Works",
+      "formula": "Year 1 = 15 human years, Year 2 = +9 years, Each year after = +4 years",
+      "explanation": "Cats mature rapidly in their first two years, then age approximately 4 human years for each cat year after that. This calculator provides accurate human age equivalents.",
+      "steps": [
+        "Enter your cat's age in years",
+        "Click Calculate to convert to human years",
+        "View the life stage classification",
+        "Review age-appropriate health tips"
+      ]
+    },
+    "useCases": [
+      "Understanding your cat's developmental stage",
+      "Planning appropriate veterinary care schedules",
+      "Adjusting diet based on life stage",
+      "Recognizing age-related behavioral changes"
+    ],
+    "seoTips": [
+      "Indoor cats typically live longer than outdoor cats",
+      "Regular vet checkups become more important as cats age",
+      "Senior cats need different nutrition than kittens",
+      "Activity levels naturally decrease with age",
+      "Monitor weight changes as cats get older"
+    ],
+    "commonMistakes": [
+      "Using the 7-year multiplier myth for all ages",
+      "Not adjusting care for different life stages",
+      "Ignoring subtle signs of aging in cats",
+      "Treating senior cats like young adults"
+    ],
+    "faqs": [
+      {
+        "question": "Is the 7-year rule accurate for cats?",
+        "answer": "No, the 7-year rule is a myth. Cats age faster in their first two years. A 2-year-old cat is about 24 in human years, not 14."
+      },
+      {
+        "question": "When is a cat considered senior?",
+        "answer": "Cats are generally considered senior at 11 years old, which is equivalent to about 60 human years. At 15+, they are considered geriatric."
+      },
+      {
+        "question": "How long do cats typically live?",
+        "answer": "Indoor cats live 12-18 years on average, with some reaching their early 20s. Outdoor cats have shorter lifespans due to environmental risks."
+      },
+      {
+        "question": "Do different breeds age differently?",
+        "answer": "While the aging formula is similar across breeds, some breeds like Siamese tend to live longer, while others like Maine Coons may have shorter lifespans."
+      },
+      {
+        "question": "What changes should I expect in senior cats?",
+        "answer": "Senior cats may experience reduced activity, changes in sleep patterns, weight fluctuations, and may need more frequent vet visits and dietary adjustments."
+      }
+    ]
+  },
+  "dog_age_calculator": {
+    "title": "Dog Age Calculator",
+    "description": "Convert dog age to human years based on size.",
+    "label_age": "Dog Age (Years)",
+    "tooltip_age": "Enter your dog's age in years",
+    "placeholder_age": "e.g., 5",
+    "label_size": "Dog Size",
+    "tooltip_size": "Select your dog's size category",
+    "size_small": "Small (< 20 lbs / 9 kg)",
+    "size_medium": "Medium (21-50 lbs / 9-23 kg)",
+    "size_large": "Large (51-90 lbs / 23-41 kg)",
+    "size_giant": "Giant (> 90 lbs / 41 kg)",
+    "calculate_btn": "Calculate Age",
+    "reset_btn": "Reset",
+    "result_label": "Human Age",
+    "result_unit": "Years",
+    "life_stage": "Life Stage",
+    "health_tips": "Health Tips",
+    "stage_puppy": "Puppy",
+    "stage_young": "Young Adult",
+    "stage_adult": "Adult",
+    "stage_mature": "Mature Adult",
+    "stage_senior": "Senior",
+    "tip_puppy_1": "Focus on basic training and socialization",
+    "tip_puppy_2": "Complete vaccination series",
+    "tip_puppy_3": "Feed high-quality puppy food",
+    "tip_adult_1": "Maintain regular exercise routine",
+    "tip_adult_2": "Annual vet check-ups are crucial",
+    "tip_adult_3": "Monitor weight to prevent obesity",
+    "tip_senior_1": "Consider joint supplements if needed",
+    "tip_senior_2": "Bi-annual vet visits recommended",
+    "tip_senior_3": "Adjust diet for senior nutritional needs",
+    "info_title": "How Dog Age Works",
+    "info_description": "Dogs age differently depending on their size. Small dogs tend to live longer than large dogs. The first year of a dog's life is roughly equal to 15 human years.",
+    "use_cases_title": "Why Calculate Dog Age?",
+    "use_case_1": "To understand life stage requirements",
+    "use_case_2": "To schedule appropriate health screenings",
+    "use_case_3": "To adjust diet and exercise as they age",
+    "error_invalid": "Please enter a valid age",
+    "error_positive": "Age must be greater than 0",
+    "error_max_age": "Age must be less than 30",
+    "howItWorks": {
+      "title": "How Dog Age Calculator Works",
+      "formula": "Age varies by size: Small dogs age slower after maturity, giant breeds age faster",
+      "explanation": "This calculator converts dog years to human years accounting for breed size. Dogs age rapidly in their first two years, then aging slows but varies significantly by size category.",
+      "steps": [
+        "Enter your dog's age in years",
+        "Select your dog's size category",
+        "Click Calculate to see the equivalent human age",
+        "Review the life stage and appropriate health tips"
+      ]
+    },
+    "useCases": [
+      "Understanding your dog's life stage for proper care",
+      "Planning age-appropriate exercise and activities",
+      "Scheduling preventive veterinary care",
+      "Adjusting diet and nutrition for life stage"
+    ],
+    "seoTips": [
+      "Small dogs typically live longer than large breeds",
+      "Giant breeds age fastest and have shorter lifespans",
+      "Senior care should begin earlier for large breeds",
+      "Regular vet checkups become more important with age",
+      "Exercise needs change as dogs age"
+    ],
+    "commonMistakes": [
+      "Using the simple 7-year multiplier for all dogs",
+      "Not accounting for breed size differences",
+      "Starting senior care too late for large breeds",
+      "Ignoring breed-specific aging patterns"
+    ],
+    "faqs": [
+      {
+        "question": "Why does dog size affect aging?",
+        "answer": "Larger dogs have faster metabolisms and their bodies work harder, leading to faster aging. A Great Dane is senior at 5-6 years, while a Chihuahua isn't senior until 10-11."
+      },
+      {
+        "question": "Is the 7-year rule accurate?",
+        "answer": "No, it's oversimplified. The first year equals about 15 human years, the second adds 9, and subsequent years vary by size from 4-7 human years each."
+      },
+      {
+        "question": "When is my dog considered senior?",
+        "answer": "Small dogs: 10-12 years, Medium dogs: 8-10 years, Large dogs: 6-8 years, Giant breeds: 5-6 years. Start senior care accordingly."
+      },
+      {
+        "question": "How long do different dog sizes live?",
+        "answer": "Small dogs: 14-16 years, Medium dogs: 12-14 years, Large dogs: 10-12 years, Giant breeds: 7-10 years on average."
+      },
+      {
+        "question": "What changes in senior dogs?",
+        "answer": "Expect reduced energy, possible weight changes, joint stiffness, dental issues, and potential cognitive changes. More frequent vet visits are recommended."
+      }
+    ]
+  },
+  "dog-age-calculator": {
+    "title": "Dog Age Calculator",
+    "description": "Convert dog age to human years based on size.",
+    "label_age": "Dog Age (Years)",
+    "tooltip_age": "Enter your dog's age in years",
+    "placeholder_age": "e.g., 5",
+    "label_size": "Dog Size",
+    "tooltip_size": "Select your dog's size category",
+    "size_small": "Small (< 20 lbs / 9 kg)",
+    "size_medium": "Medium (21-50 lbs / 9-23 kg)",
+    "size_large": "Large (51-90 lbs / 23-41 kg)",
+    "size_giant": "Giant (> 90 lbs / 41 kg)",
+    "calculate_btn": "Calculate Age",
+    "reset_btn": "Reset",
+    "result_label": "Human Age",
+    "result_unit": "Years",
+    "life_stage": "Life Stage",
+    "health_tips": "Health Tips",
+    "stage_puppy": "Puppy",
+    "stage_young": "Young Adult",
+    "stage_adult": "Adult",
+    "stage_mature": "Mature Adult",
+    "stage_senior": "Senior",
+    "tip_puppy_1": "Focus on basic training and socialization",
+    "tip_puppy_2": "Complete vaccination series",
+    "tip_puppy_3": "Feed high-quality puppy food",
+    "tip_adult_1": "Maintain regular exercise routine",
+    "tip_adult_2": "Annual vet check-ups are crucial",
+    "tip_adult_3": "Monitor weight to prevent obesity",
+    "tip_senior_1": "Consider joint supplements if needed",
+    "tip_senior_2": "Bi-annual vet visits recommended",
+    "tip_senior_3": "Adjust diet for senior nutritional needs",
+    "info_title": "How Dog Age Works",
+    "info_description": "Dogs age differently depending on their size. Small dogs tend to live longer than large dogs. The first year of a dog's life is roughly equal to 15 human years.",
+    "use_cases_title": "Why Calculate Dog Age?",
+    "use_case_1": "To understand life stage requirements",
+    "use_case_2": "To schedule appropriate health screenings",
+    "use_case_3": "To adjust diet and exercise as they age",
+    "error_invalid": "Please enter a valid age",
+    "error_positive": "Age must be greater than 0",
+    "error_max_age": "Age must be less than 30",
+    "howItWorks": {
+      "title": "How Dog Age Calculator Works",
+      "formula": "Age varies by size: Small dogs age slower after maturity, giant breeds age faster",
+      "explanation": "This calculator converts dog years to human years accounting for breed size. Dogs age rapidly in their first two years, then aging slows but varies significantly by size category.",
+      "steps": [
+        "Enter your dog's age in years",
+        "Select your dog's size category",
+        "Click Calculate to see the equivalent human age",
+        "Review the life stage and appropriate health tips"
+      ]
+    },
+    "useCases": [
+      "Understanding your dog's life stage for proper care",
+      "Planning age-appropriate exercise and activities",
+      "Scheduling preventive veterinary care",
+      "Adjusting diet and nutrition for life stage"
+    ],
+    "seoTips": [
+      "Small dogs typically live longer than large breeds",
+      "Giant breeds age fastest and have shorter lifespans",
+      "Senior care should begin earlier for large breeds",
+      "Regular vet checkups become more important with age",
+      "Exercise needs change as dogs age"
+    ],
+    "commonMistakes": [
+      "Using the simple 7-year multiplier for all dogs",
+      "Not accounting for breed size differences",
+      "Starting senior care too late for large breeds",
+      "Ignoring breed-specific aging patterns"
+    ],
+    "faqs": [
+      {
+        "question": "Why does dog size affect aging?",
+        "answer": "Larger dogs have faster metabolisms and their bodies work harder, leading to faster aging. A Great Dane is senior at 5-6 years, while a Chihuahua isn't senior until 10-11."
+      },
+      {
+        "question": "Is the 7-year rule accurate?",
+        "answer": "No, it's oversimplified. The first year equals about 15 human years, the second adds 9, and subsequent years vary by size from 4-7 human years each."
+      },
+      {
+        "question": "When is my dog considered senior?",
+        "answer": "Small dogs: 10-12 years, Medium dogs: 8-10 years, Large dogs: 6-8 years, Giant breeds: 5-6 years. Start senior care accordingly."
+      },
+      {
+        "question": "How long do different dog sizes live?",
+        "answer": "Small dogs: 14-16 years, Medium dogs: 12-14 years, Large dogs: 10-12 years, Giant breeds: 7-10 years on average."
+      },
+      {
+        "question": "What changes in senior dogs?",
+        "answer": "Expect reduced energy, possible weight changes, joint stiffness, dental issues, and potential cognitive changes. More frequent vet visits are recommended."
+      }
+    ]
+  },
+  "hamster_lifespan_calculator": {
+    "title": "Hamster Lifespan Calculator",
+    "description": "Calculate hamster average lifespan and health stages.",
+    "label_type": "Hamster Type",
+    "tooltip_type": "Select your hamster's breed",
+    "label_age": "Current Age (months)",
+    "tooltip_age": "Enter your hamster's age in months",
+    "placeholder_age": "e.g., 6",
+    "calculate_btn": "Calculate Lifespan",
+    "reset_btn": "Reset",
+    "result_human_age": "Approximate Human Age",
+    "result_avg_lifespan": "Average Lifespan",
+    "result_remaining": "Estimated Remaining Time",
+    "result_life_stage": "Life Stage",
+    "unit_months": "months",
+    "unit_years": "years",
+    "type_syrian": "Syrian (Golden)",
+    "type_dwarf": "Dwarf (Campbell's/Winter White)",
+    "type_roborovski": "Roborovski",
+    "type_chinese": "Chinese",
+    "stage_juvenile": "Juvenile",
+    "stage_adult": "Adult",
+    "stage_senior": "Senior",
+    "stage_elderly": "Elderly",
+    "tips_title": "Hamster Care Tips",
+    "empty_state": "Enter hamster details to calculate lifespan",
+    "tips": [
+      "Balanced hamster food",
+      "Safe wood shavings bedding",
+      "Fresh water daily",
+      "Quiet environment away from noise"
+    ],
+    "howItWorks": {
+      "title": "How Hamster Lifespan Calculator Works",
+      "formula": "Lifespan varies by species: Syrian 2-3 years, Dwarf 1.5-2 years, Roborovski 3-3.5 years",
+      "explanation": "This calculator estimates your hamster's age in human terms and predicts remaining lifespan based on species-specific life expectancy data.",
+      "steps": [
+        "Select your hamster's species",
+        "Enter their current age in months",
+        "View estimated human age equivalent",
+        "See life stage and remaining time estimate"
+      ]
+    },
+    "useCases": [
+      "Understanding your hamster's life stage",
+      "Planning appropriate care for aging hamsters",
+      "Setting realistic expectations for new hamster owners",
+      "Recognizing when senior care is needed"
+    ],
+    "seoTips": [
+      "Roborovski hamsters typically live longest",
+      "Good care can extend hamster lifespan significantly",
+      "Diet and environment affect longevity",
+      "Senior hamsters need adjusted care",
+      "Regular health checks catch issues early"
+    ],
+    "commonMistakes": [
+      "Expecting hamsters to live as long as other pets",
+      "Not recognizing signs of aging",
+      "Keeping incompatible species together",
+      "Not adjusting care for senior hamsters"
+    ],
+    "faqs": [
+      {
+        "question": "How long do hamsters live?",
+        "answer": "Syrian hamsters live 2-3 years, Dwarf hamsters 1.5-2 years, Roborovski 3-3.5 years, and Chinese hamsters about 2-3 years with proper care."
+      },
+      {
+        "question": "What affects hamster lifespan?",
+        "answer": "Diet, exercise, genetics, stress levels, and housing conditions all impact lifespan. A running wheel and proper nutrition are essential."
+      },
+      {
+        "question": "How do I know if my hamster is senior?",
+        "answer": "Hamsters are senior at about 18 months. Signs include reduced activity, thinning fur, weight changes, and sleeping more."
+      },
+      {
+        "question": "Can hamsters live together?",
+        "answer": "Syrian hamsters must live alone. Some dwarf species can live in pairs or groups if introduced young, but fighting can occur."
+      }
+    ]
+  },
+  "hamster-lifespan-calculator": {
+    "title": "Hamster Lifespan Calculator",
+    "description": "Calculate hamster average lifespan and health stages.",
+    "label_type": "Hamster Type",
+    "tooltip_type": "Select your hamster's breed",
+    "label_age": "Current Age (months)",
+    "tooltip_age": "Enter your hamster's age in months",
+    "placeholder_age": "e.g., 6",
+    "calculate_btn": "Calculate Lifespan",
+    "reset_btn": "Reset",
+    "result_human_age": "Approximate Human Age",
+    "result_avg_lifespan": "Average Lifespan",
+    "result_remaining": "Estimated Remaining Time",
+    "result_life_stage": "Life Stage",
+    "unit_months": "months",
+    "unit_years": "years",
+    "type_syrian": "Syrian (Golden)",
+    "type_dwarf": "Dwarf (Campbell's/Winter White)",
+    "type_roborovski": "Roborovski",
+    "type_chinese": "Chinese",
+    "stage_juvenile": "Juvenile",
+    "stage_adult": "Adult",
+    "stage_senior": "Senior",
+    "stage_elderly": "Elderly",
+    "tips_title": "Hamster Care Tips",
+    "empty_state": "Enter hamster details to calculate lifespan",
+    "tips": [
+      "Balanced hamster food",
+      "Safe wood shavings bedding",
+      "Fresh water daily",
+      "Quiet environment away from noise"
+    ],
+    "howItWorks": {
+      "title": "How Hamster Lifespan Calculator Works",
+      "formula": "Lifespan varies by species: Syrian 2-3 years, Dwarf 1.5-2 years, Roborovski 3-3.5 years",
+      "explanation": "This calculator estimates your hamster's age in human terms and predicts remaining lifespan based on species-specific life expectancy data.",
+      "steps": [
+        "Select your hamster's species",
+        "Enter their current age in months",
+        "View estimated human age equivalent",
+        "See life stage and remaining time estimate"
+      ]
+    },
+    "useCases": [
+      "Understanding your hamster's life stage",
+      "Planning appropriate care for aging hamsters",
+      "Setting realistic expectations for new hamster owners",
+      "Recognizing when senior care is needed"
+    ],
+    "seoTips": [
+      "Roborovski hamsters typically live longest",
+      "Good care can extend hamster lifespan significantly",
+      "Diet and environment affect longevity",
+      "Senior hamsters need adjusted care",
+      "Regular health checks catch issues early"
+    ],
+    "commonMistakes": [
+      "Expecting hamsters to live as long as other pets",
+      "Not recognizing signs of aging",
+      "Keeping incompatible species together",
+      "Not adjusting care for senior hamsters"
+    ],
+    "faqs": [
+      {
+        "question": "How long do hamsters live?",
+        "answer": "Syrian hamsters live 2-3 years, Dwarf hamsters 1.5-2 years, Roborovski 3-3.5 years, and Chinese hamsters about 2-3 years with proper care."
+      },
+      {
+        "question": "What affects hamster lifespan?",
+        "answer": "Diet, exercise, genetics, stress levels, and housing conditions all impact lifespan. A running wheel and proper nutrition are essential."
+      },
+      {
+        "question": "How do I know if my hamster is senior?",
+        "answer": "Hamsters are senior at about 18 months. Signs include reduced activity, thinning fur, weight changes, and sleeping more."
+      },
+      {
+        "question": "Can hamsters live together?",
+        "answer": "Syrian hamsters must live alone. Some dwarf species can live in pairs or groups if introduced young, but fighting can occur."
+      }
+    ]
+  },
+  "kitten_growth_calculator": {
+    "title": "Kitten Growth Calculator",
+    "description": "Calculate and track your kitten's growth.",
+    "label_weight": "Current Weight (kg)",
+    "tooltip_weight": "Enter your kitten's weight in kilograms",
+    "placeholder_weight": "e.g., 1.5",
+    "label_age": "Current Age (weeks)",
+    "tooltip_age": "Enter your kitten's age in weeks (1-52)",
+    "placeholder_age": "e.g., 12",
+    "calculate_btn": "Calculate Growth",
+    "reset_btn": "Reset",
+    "result_adult_weight": "Projected Adult Weight",
+    "result_growth_remaining": "Growth Remaining",
+    "result_current_percentage": "Current Growth",
+    "result_status": "Growth Status",
+    "status_underweight": "Underweight",
+    "status_slightly_underweight": "Slightly Underweight",
+    "status_ideal": "Ideal Weight",
+    "status_slightly_overweight": "Slightly Overweight",
+    "status_overweight": "Overweight",
+    "tips_title": "Kitten Care Tips",
+    "empty_state": "Enter kitten details to track growth",
+    "footer_note": "These are estimates. Individual growth rates may vary.",
+    "tips": [
+      "High-quality kitten food",
+      "Weekly weight to track growth",
+      "Regular vaccinations",
+      "Playtime and socialization",
+      "Monthly vet checkups"
+    ],
+    "howItWorks": {
+      "title": "How Kitten Growth Calculator Works",
+      "formula": "Adult weight estimate based on current weight and age growth curve",
+      "explanation": "This calculator tracks your kitten's growth progress and predicts adult weight based on standard feline growth patterns.",
+      "steps": [
+        "Enter your kitten's current weight",
+        "Enter their age in weeks",
+        "View projected adult weight",
+        "Check if growth is on track"
+      ]
+    },
+    "useCases": [
+      "Monitoring healthy kitten development",
+      "Identifying potential growth issues early",
+      "Planning for adult cat size and needs",
+      "Adjusting feeding as kitten grows"
+    ],
+    "seoTips": [
+      "Kittens should gain about 100g per week",
+      "Growth slows significantly after 6 months",
+      "Most cats reach adult size by 12 months",
+      "Large breeds may grow until 2 years",
+      "Weigh kittens at the same time each week"
+    ],
+    "commonMistakes": [
+      "Not weighing kittens regularly",
+      "Expecting linear growth throughout development",
+      "Overfeeding to speed up growth",
+      "Comparing kittens to adult cat weight standards"
+    ],
+    "faqs": [
+      {
+        "question": "How fast should kittens grow?",
+        "answer": "Healthy kittens gain approximately 100 grams (3.5 oz) per week until about 6 months, then growth slows as they approach adult size."
+      },
+      {
+        "question": "When do kittens reach adult size?",
+        "answer": "Most cats reach adult size by 12 months. Large breeds like Maine Coons may continue growing until 2-4 years old."
+      },
+      {
+        "question": "How can I predict my kitten's adult weight?",
+        "answer": "A rough estimate: double their weight at 16 weeks for adult size. This calculator uses growth curves for more accurate predictions."
+      },
+      {
+        "question": "Is my kitten underweight?",
+        "answer": "Healthy kittens should gain steadily. If weight plateaus or drops, consult a vet. Ribs should be felt but not prominently visible."
+      }
+    ]
+  },
+  "kitten-growth-calculator": {
+    "title": "Kitten Growth Calculator",
+    "description": "Calculate and track your kitten's growth.",
+    "label_weight": "Current Weight (kg)",
+    "tooltip_weight": "Enter your kitten's weight in kilograms",
+    "placeholder_weight": "e.g., 1.5",
+    "label_age": "Current Age (weeks)",
+    "tooltip_age": "Enter your kitten's age in weeks (1-52)",
+    "placeholder_age": "e.g., 12",
+    "calculate_btn": "Calculate Growth",
+    "reset_btn": "Reset",
+    "result_adult_weight": "Projected Adult Weight",
+    "result_growth_remaining": "Growth Remaining",
+    "result_current_percentage": "Current Growth",
+    "result_status": "Growth Status",
+    "status_underweight": "Underweight",
+    "status_slightly_underweight": "Slightly Underweight",
+    "status_ideal": "Ideal Weight",
+    "status_slightly_overweight": "Slightly Overweight",
+    "status_overweight": "Overweight",
+    "tips_title": "Kitten Care Tips",
+    "empty_state": "Enter kitten details to track growth",
+    "footer_note": "These are estimates. Individual growth rates may vary.",
+    "tips": [
+      "High-quality kitten food",
+      "Weekly weight to track growth",
+      "Regular vaccinations",
+      "Playtime and socialization",
+      "Monthly vet checkups"
+    ],
+    "howItWorks": {
+      "title": "How Kitten Growth Calculator Works",
+      "formula": "Adult weight projection based on current weight at age, using growth curve data",
+      "explanation": "This calculator tracks your kitten's development against standard growth curves, projecting adult size and identifying potential weight concerns.",
+      "steps": [
+        "Enter your kitten's current weight",
+        "Input their age in weeks",
+        "View projected adult weight",
+        "Check growth status against healthy ranges"
+      ]
+    },
+    "useCases": [
+      "Monitoring kitten development for health issues",
+      "Predicting adult cat size for planning",
+      "Identifying underweight or overweight kittens early",
+      "Adjusting feeding based on growth rate"
+    ],
+    "seoTips": [
+      "Kittens grow rapidly in the first 6 months",
+      "Most cats reach adult size by 12 months",
+      "Large breeds may continue growing until 18 months",
+      "Weekly weighing catches problems early",
+      "Growth rate is more important than absolute weight"
+    ],
+    "commonMistakes": [
+      "Comparing mixed breed to purebred growth charts",
+      "Overfeeding to accelerate growth",
+      "Not recognizing that males grow larger than females",
+      "Ignoring slow growth as a potential health sign"
+    ],
+    "faqs": [
+      {
+        "question": "How fast should kittens gain weight?",
+        "answer": "Healthy kittens gain about 100g per week for the first 4-5 months. They typically double their birth weight by 2 weeks old."
+      },
+      {
+        "question": "When do kittens stop growing?",
+        "answer": "Most cats reach adult size by 12 months, but large breeds like Maine Coons may continue growing until 2-4 years old."
+      },
+      {
+        "question": "How big will my kitten get?",
+        "answer": "Adult size depends on genetics, sex, and nutrition. Males are typically larger. At 4 months, a kitten is roughly half its adult weight."
+      },
+      {
+        "question": "Is my kitten underweight?",
+        "answer": "Healthy kittens should gain steadily. If weight plateaus or drops, consult a vet. Ribs should be felt but not prominently visible."
+      }
+    ]
+  },
+  "puppy_growth_calculator": {
+    "title": "Puppy Growth Calculator - Track Development",
+    "description": "Calculate your puppy's adult weight and growth progress. Free online tool for puppy development tracking.",
+    "input_title": "Puppy Growth Calculator",
+    "current_weight": "Current Weight",
+    "weight_tooltip": "Enter your puppy's current weight",
+    "kg": "kg",
+    "enter_weight": "Enter weight",
+    "current_age": "Current Age",
+    "age_tooltip": "Enter your puppy's age in months",
+    "months": "months",
+    "enter_age": "Enter age",
+    "breed_size": "Breed Size",
+    "size_tooltip": "Select your dog's breed size",
+    "size_small": "Small",
+    "size_medium": "Medium",
+    "size_large": "Large",
+    "size_giant": "Giant",
+    "calculate_btn": "Calculate Growth",
+    "reset_btn": "Reset",
+    "results_title": "Growth Prediction",
+    "adult_weight": "Estimated Adult Weight",
+    "growth_remaining": "Growth Remaining",
+    "maturity_age": "Maturity Age",
+    "months_unit": "months",
+    "current_progress": "Current Progress",
+    "percentage": "%",
+    "tips_title": "Growth Tips",
+    "tip_1": "Puppies grow rapidly in the first 6 months",
+    "tip_2": "Nutrition affects adult size significantly",
+    "tip_3": "Regular vet check-ups monitor healthy growth",
+    "empty_state": "Enter puppy details to calculate growth",
+    "footer_note": "Growth predictions are estimates. Actual adult size may vary.",
+    "howItWorks": {
+      "title": "How Puppy Growth Calculator Works",
+      "formula": "Adult weight prediction based on current weight, age, and breed size",
+      "explanation": "This calculator predicts your puppy's adult weight using growth curves specific to different breed sizes. Small breeds mature faster than giant breeds.",
+      "steps": [
+        "Enter your puppy's current weight",
+        "Enter their age in months",
+        "Select their breed size category",
+        "View predicted adult weight and maturity timeline"
+      ]
+    },
+    "useCases": [
+      "Predicting adult size for mixed breed puppies",
+      "Planning for appropriate crate and equipment sizes",
+      "Monitoring healthy growth rate",
+      "Adjusting feeding for proper development"
+    ],
+    "seoTips": [
+      "Small breeds reach adult size by 9-12 months",
+      "Large breeds grow until 12-18 months",
+      "Giant breeds may grow until 2 years",
+      "Rapid growth in large breeds can cause joint problems",
+      "Weigh puppies weekly to track growth"
+    ],
+    "commonMistakes": [
+      "Overfeeding to speed up growth",
+      "Expecting all breeds to grow at the same rate",
+      "Not using large breed puppy food for big dogs",
+      "Ignoring growth plateaus as normal"
+    ],
+    "faqs": [
+      {
+        "question": "How big will my puppy get?",
+        "answer": "For purebreds, check breed standards. For mixed breeds, this calculator uses current weight and age. At 14 weeks, puppies are about 25% of adult weight for small breeds, less for larger breeds."
+      },
+      {
+        "question": "When do puppies stop growing?",
+        "answer": "Small breeds: 9-12 months, Medium breeds: 12-15 months, Large breeds: 15-18 months, Giant breeds: 18-24 months."
+      },
+      {
+        "question": "Is my puppy growing too fast?",
+        "answer": "Rapid growth in large/giant breeds can cause skeletal problems. Use large breed puppy food and avoid overfeeding. Growth should be steady, not accelerated."
+      },
+      {
+        "question": "Why did my puppy's growth slow down?",
+        "answer": "Growth naturally slows as puppies approach adult size. This is normal and expected. Consult a vet only if growth stops completely or weight drops."
+      },
+      {
+        "question": "Should I limit exercise for growing puppies?",
+        "answer": "Avoid high-impact exercise like jumping until growth plates close (varies by breed size). Short walks and play are fine. Consult your vet for breed-specific advice."
+      }
+    ]
+  },
+  "puppy-growth-calculator": {
+    "title": "Puppy Growth Calculator - Track Development",
+    "description": "Calculate your puppy's adult weight and growth progress. Free online tool for puppy development tracking.",
+    "input_title": "Puppy Growth Calculator",
+    "current_weight": "Current Weight",
+    "weight_tooltip": "Enter your puppy's current weight",
+    "kg": "kg",
+    "enter_weight": "Enter weight",
+    "current_age": "Current Age",
+    "age_tooltip": "Enter your puppy's age in months",
+    "months": "months",
+    "enter_age": "Enter age",
+    "breed_size": "Breed Size",
+    "size_tooltip": "Select your dog's breed size",
+    "size_small": "Small",
+    "size_medium": "Medium",
+    "size_large": "Large",
+    "size_giant": "Giant",
+    "calculate_btn": "Calculate Growth",
+    "reset_btn": "Reset",
+    "results_title": "Growth Prediction",
+    "adult_weight": "Estimated Adult Weight",
+    "growth_remaining": "Growth Remaining",
+    "maturity_age": "Maturity Age",
+    "months_unit": "months",
+    "current_progress": "Current Progress",
+    "percentage": "%",
+    "tips_title": "Growth Tips",
+    "tip_1": "Puppies grow rapidly in the first 6 months",
+    "tip_2": "Nutrition affects adult size significantly",
+    "tip_3": "Regular vet check-ups monitor healthy growth",
+    "empty_state": "Enter puppy details to calculate growth",
+    "footer_note": "Growth predictions are estimates. Actual adult size may vary.",
+    "howItWorks": {
+      "title": "How Puppy Growth Calculator Works",
+      "formula": "Adult weight prediction based on current weight, age, and breed size",
+      "explanation": "This calculator predicts your puppy's adult weight using growth curves specific to different breed sizes. Small breeds mature faster than giant breeds.",
+      "steps": [
+        "Enter your puppy's current weight",
+        "Enter their age in months",
+        "Select their breed size category",
+        "View predicted adult weight and maturity timeline"
+      ]
+    },
+    "useCases": [
+      "Predicting adult size for mixed breed puppies",
+      "Planning for appropriate crate and equipment sizes",
+      "Monitoring healthy growth rate",
+      "Adjusting feeding for proper development"
+    ],
+    "seoTips": [
+      "Small breeds reach adult size by 9-12 months",
+      "Giant breeds may grow until 18-24 months",
+      "Male puppies typically grow larger than females",
+      "Proper nutrition affects final adult size",
+      "Regular weighing tracks healthy development"
+    ],
+    "commonMistakes": [
+      "Overfeeding puppies thinking it will make them bigger",
+      "Not accounting for breed size differences in growth timeline",
+      "Using adult dog food for growing puppies",
+      "Comparing growth to other breeds inappropriately"
+    ],
+    "faqs": [
+      {
+        "question": "When will my puppy stop growing?",
+        "answer": "Small breeds: 9-12 months, Medium breeds: 12-15 months, Large breeds: 15-18 months, Giant breeds: 18-24 months."
+      },
+      {
+        "question": "How accurate are puppy weight predictions?",
+        "answer": "Predictions are estimates based on averages. Actual adult weight can vary 10-20% due to genetics, nutrition, and health factors."
+      },
+      {
+        "question": "How big will my mixed breed puppy get?",
+        "answer": "Use the breed size closest to the expected adult size based on parents. At 4 months, most puppies are about half their adult weight."
+      },
+      {
+        "question": "Should I limit food to control my puppy's size?",
+        "answer": "No, proper nutrition is essential for healthy development. Genetics determine adult size. Underfeeding can cause health problems."
+      },
+      {
+        "question": "Do male and female puppies grow differently?",
+        "answer": "Yes, males typically grow 10-20% larger than females of the same breed. Both follow similar growth curves but reach different endpoints."
+      }
+    ]
+  }
+}

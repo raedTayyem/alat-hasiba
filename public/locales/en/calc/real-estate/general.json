@@ -1,0 +1,167 @@
+{
+  "cost_per_square_foot_calculator": {
+    "title": "Cost per Square Foot Calculator",
+    "description": "Calculate property cost per square foot or square meter.",
+    "total_cost": "Total Property Cost",
+    "total_cost_tooltip": "Total price or cost of the property",
+    "total_area": "Total Area (sq ft/sq m)",
+    "total_area_tooltip": "Total square footage or square meterage",
+    "calculate_btn": "Calculate Cost/Area",
+    "reset_btn": "Reset",
+    "results_title": "Cost Analysis",
+    "cost_per_unit": "Cost per Square Unit",
+    "empty_state": "Enter cost and area to calculate price per unit",
+    "footer_note": "Useful for comparing property values.",
+    "howItWorks": {
+      "title": "How Does the Cost per Square Foot Calculator Work?",
+      "formula": "Cost per Unit = Total Price / Total Area",
+      "explanation": "This calculator divides the property price by its area to give you the cost per square meter or square foot.",
+      "steps": [
+        "Enter the total property price",
+        "Enter the total area",
+        "Get the cost per area unit"
+      ]
+    },
+    "useCases": [
+      "Comparing prices of properties with different sizes",
+      "Evaluating if a price is fair",
+      "Comparing prices across different areas",
+      "Negotiating price based on market standards"
+    ],
+    "seoTips": [
+      "Compare with average prices in the same area",
+      "Don't rely on this metric alone for purchase decisions",
+      "Consider finish quality and location",
+      "Larger areas may have lower cost per unit"
+    ],
+    "commonMistakes": [
+      "Comparing properties in very different areas",
+      "Ignoring differences in construction quality",
+      "Not accounting for outdoor spaces",
+      "Comparing properties of different ages"
+    ],
+    "faqs": [
+      {
+        "question": "Does cost per square foot include everything?",
+        "answer": "Usually reflects base price. Finishes and additions may be separate."
+      },
+      {
+        "question": "Why does cost vary between areas?",
+        "answer": "Location, services, demand, and construction quality all affect price."
+      },
+      {
+        "question": "Which is better for comparison: meter or foot?",
+        "answer": "Use the unit prevalent in your area for easier comparison."
+      }
+    ]
+  },
+  "home_value_estimator": {
+    "title": "Home Value Estimator",
+    "description": "Estimate your property market value based on various factors.",
+    "square_meters": "Area (sq m/ft)",
+    "square_meters_tooltip": "Total area of the property",
+    "enter_square_meters": "Enter area",
+    "price_per_meter": "Price per Unit",
+    "price_per_meter_tooltip": "Average price per square meter/foot in the area",
+    "enter_price_per_meter": "Enter price per unit",
+    "age": "Property Age (Years)",
+    "age_tooltip": "Age of the building",
+    "enter_age": "Enter property age",
+    "condition": "Condition",
+    "condition_tooltip": "Overall condition of the property",
+    "location": "Location",
+    "location_tooltip": "Quality of the location",
+    "calculate_btn": "Estimate Value",
+    "reset_btn": "Reset",
+    "results_title": "Value Estimate",
+    "base_value": "Base Value",
+    "adjusted_value": "Estimated Market Value",
+    "condition_adj": "Condition Adjustment",
+    "location_adj": "Location Adjustment",
+    "age_adj": "Age Depreciation",
+    "currency": "$",
+    "tips_title": "Valuation Factors",
+    "tip_1": "This is a general estimate that may differ from actual market value",
+    "tip_2": "For accurate valuation, consult a professional appraiser",
+    "tip_3": "Local factors and supply/demand affect price",
+    "tip_4": "Compare with similar properties in the area",
+    "empty_state": "Enter property details to estimate value",
+    "footer_note": "This is a rough estimate. Consult an appraiser for accuracy.",
+    "cond_excellent": "Excellent",
+    "cond_good": "Good",
+    "cond_fair": "Fair",
+    "cond_poor": "Poor",
+    "loc_premium": "Premium",
+    "loc_good": "Good",
+    "loc_average": "Average",
+    "loc_below": "Below Average",
+    "howItWorks": {
+      "title": "How Does the Home Value Estimator Work?",
+      "formula": "Value = (Area × Price per Unit) × Adjustment Factors",
+      "explanation": "This estimator calculates an approximate value based on area and market price, with adjustments for condition, location, and age.",
+      "steps": [
+        "Enter property area and price per unit in the area",
+        "Specify property age and condition",
+        "Choose location quality",
+        "Get estimated market value"
+      ]
+    },
+    "useCases": [
+      "Getting an initial idea of property value",
+      "Comparing different properties",
+      "Preparing for price negotiation",
+      "Evaluating a potential investment"
+    ],
+    "seoTips": [
+      "Use recent sales prices in your area",
+      "Official appraisal from a professional is more accurate",
+      "Location is usually the most important value factor",
+      "Recent improvements increase value",
+      "Compare with 3-5 similar nearby properties"
+    ],
+    "commonMistakes": [
+      "Overestimating condition or location quality",
+      "Using outdated prices",
+      "Ignoring structural defects",
+      "Not considering current market conditions"
+    ],
+    "faqs": [
+      {
+        "question": "How accurate is this estimate?",
+        "answer": "It's a preliminary estimate only. For accuracy, get an appraisal from a certified appraiser or real estate agent."
+      },
+      {
+        "question": "What factors affect property value?",
+        "answer": "Location, area, condition, age, improvements, nearby schools, and market demand."
+      },
+      {
+        "question": "How do I find price per unit in my area?",
+        "answer": "From recent sales, real estate websites, or asking local real estate agents."
+      },
+      {
+        "question": "Do improvements add value equal to their cost?",
+        "answer": "Not always. Kitchens and bathrooms typically recover 50-80% of their cost."
+      }
+    ]
+  },
+  "home-value-estimator": {
+    "title": "Home Value Estimator - Free Property Valuation Tool",
+    "description": "Estimate your property market value based on recent sales and data. Free online home value calculator for homeowners and sellers."
+  },
+  "security-deposit-calculator": {
+    "title": "Security Deposit Calculator - Rental Bond Estimation",
+    "description": "Calculate appropriate security deposit amounts for rental properties. Free online tool for landlords and tenants."
+  },
+  "home-equity-calculator": {
+    "title": "Home Equity Calculator - Track Accumulated Wealth",
+    "description": "Calculate your current home equity based on market value and loan balance. Free online property wealth tracker."
+  },
+  "debt-to-income-ratio-calculator": {
+    "title": "Debt-to-Income Ratio Calculator - Mortgage Qualify Tool",
+    "description": "Calculate your DTI ratio for home loan qualification. Free online tool for buyers to check mortgage eligibility."
+  },
+  "cost-per-square-foot-calculator": {
+    "title": "Cost per Square Foot Calculator - Real Estate Price Tool",
+    "description": "Calculate property cost per square foot or square meter. Free online real estate price comparison tool."
+  }
+}

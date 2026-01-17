@@ -1,0 +1,305 @@
+{
+  "date-difference": {
+    "title": "Date Difference Calculator",
+    "description": "Calculate the exact time duration between two different dates, including business days.",
+    "howItWorks": "This tool calculates the time difference between two dates by subtracting the first date from the second. It displays results in years, months, and days, along with total days and business days (excluding weekends).",
+    "useCases": [
+      "Calculate employment duration for retirement or severance",
+      "Find out time remaining until an important event or deadline",
+      "Calculate pregnancy and due dates",
+      "Determine contract and agreement durations",
+      "Calculate vacation and absence days"
+    ],
+    "seoTips": [
+      "Make sure to enter the earlier date in the start field",
+      "Enable the include end date option if you want it counted",
+      "Use business days result for professional calculations"
+    ],
+    "commonMistakes": [
+      "Reversing the date order (putting end before start)",
+      "Forgetting that business days exclude Saturday and Sunday only",
+      "Not accounting for varying month lengths"
+    ],
+    "faqs": [
+      {
+        "question": "How are business days calculated?",
+        "answer": "Business days are calculated by subtracting weekend days (Saturday and Sunday) from total days. The calculations do not include public holidays as they vary by country."
+      },
+      {
+        "question": "Can I calculate the difference between past dates?",
+        "answer": "Yes, you can calculate the difference between any two dates whether in the past or future, as long as you enter the earlier date in the start field."
+      },
+      {
+        "question": "Why does the result differ from my manual calculation?",
+        "answer": "The calculator accounts for varying month lengths (28-31 days) and leap years, which may give different results than approximate manual calculations."
+      }
+    ],
+    "start_date": "Start Date",
+    "start_date_tooltip": "Enter the starting date of the period",
+    "end_date": "End Date",
+    "end_date_tooltip": "Enter the ending date of the period",
+    "include_end_date": "Include end date in calculation",
+    "result_label": "Time Difference",
+    "detailed_breakdown": "Detailed Breakdown",
+    "business_days": "Business Days",
+    "total_days": "Total Days",
+    "total_hours": "Total Hours",
+    "total_minutes": "Total Minutes",
+    "note_title": "Note",
+    "note_text": "Business days exclude weekends. Calculation accounts for varying month lengths and leap years.",
+    "error_empty_dates": "Please enter both dates",
+    "error_invalid_dates": "Invalid dates",
+    "error_start_after_end": "Start date must be before end date"
+  },
+  "date-format-converter": {
+    "title": "Date Format Converter",
+    "description": "Convert dates between various global and local formats.",
+    "howItWorks": "The converter takes the input date and reformats it in various ways such as ISO 8601, US format, European format, Unix timestamp, and more, making it easy to use dates in different contexts.",
+    "useCases": [
+      "Convert dates for use in programming and databases",
+      "Standardize date formats in official documents",
+      "Convert dates between US and European formats",
+      "Get Unix timestamps for technical applications",
+      "Format dates for reports and presentations"
+    ],
+    "seoTips": [
+      "Use ISO 8601 format for international compatibility",
+      "Understand the difference between DD/MM and MM/DD",
+      "Use Unix timestamps for precision in programming"
+    ],
+    "commonMistakes": [
+      "Confusing US format (month/day) with European format (day/month)",
+      "Forgetting that Unix timestamp starts from January 1, 1970",
+      "Not accounting for timezone in conversions"
+    ],
+    "faqs": [
+      {
+        "question": "What is ISO 8601 format?",
+        "answer": "It is the international standard for writing dates as YYYY-MM-DD (year-month-day), and is the recommended format for international and programming use."
+      },
+      {
+        "question": "What is the difference between US and European formats?",
+        "answer": "US format writes the month first (MM/DD/YYYY), while European writes the day first (DD/MM/YYYY). For example: 03/05/2024 means March 5 in the US and May 3 in Europe."
+      },
+      {
+        "question": "What is a Unix timestamp?",
+        "answer": "It is the number of seconds elapsed since January 1, 1970 at 00:00:00 UTC. It is widely used in programming for storing dates."
+      }
+    ],
+    "date": "Date",
+    "formats": "Date Formats",
+    "error_empty": "Please enter a date",
+    "error_invalid": "Invalid date",
+    "format_iso_8601": "ISO 8601",
+    "format_rfc_2822": "RFC 2822",
+    "format_us": "US (MM/DD/YYYY)",
+    "format_european": "European (DD/MM/YYYY)",
+    "format_iso_short": "ISO Short (YYYY-MM-DD)",
+    "format_long": "Long Format",
+    "format_medium": "Medium Format",
+    "format_unix_timestamp": "Unix Timestamp",
+    "format_milliseconds": "Milliseconds"
+  },
+  "unix-timestamp-converter": {
+    "title": "Unix Timestamp Converter",
+    "description": "Convert between Unix timestamps and human-readable dates.",
+    "howItWorks": "This converter transforms between Unix timestamps (seconds since January 1, 1970) and human-readable dates. You can convert in both directions: from timestamp to date or vice versa.",
+    "useCases": [
+      "Convert database timestamps to readable dates",
+      "Generate timestamps for use in programming",
+      "Analyze server and system logs",
+      "Debug applications that use Unix timestamps",
+      "Convert dates for API calls"
+    ],
+    "seoTips": [
+      "Remember that timestamps are in seconds, not milliseconds",
+      "Use the current timestamp as a reference for verification",
+      "Pay attention to timezone when converting"
+    ],
+    "commonMistakes": [
+      "Confusing timestamps in seconds with milliseconds",
+      "Forgetting that timestamps are based on UTC",
+      "Entering negative timestamps without knowing they represent dates before 1970"
+    ],
+    "faqs": [
+      {
+        "question": "Why does the timestamp start from 1970?",
+        "answer": "Unix developers chose this date (January 1, 1970) as the starting point because it was close to the system's development time and easy to calculate."
+      },
+      {
+        "question": "What is the difference between seconds and milliseconds?",
+        "answer": "Timestamps in seconds typically have 10 digits, while milliseconds have 13 digits. Milliseconds = seconds x 1000."
+      },
+      {
+        "question": "Can dates before 1970 be represented?",
+        "answer": "Yes, using negative numbers. For example: -86400 represents December 31, 1969."
+      }
+    ],
+    "mode": "Conversion Mode",
+    "timestamp_to_date": "Timestamp to Date",
+    "date_to_timestamp": "Date to Timestamp",
+    "timestamp": "Unix Timestamp",
+    "date": "Date",
+    "time": "Time (Optional)",
+    "converted_date": "Converted Date",
+    "unix_timestamp_result": "Unix Timestamp",
+    "error_invalid_timestamp": "Invalid timestamp",
+    "error_empty_date": "Please enter a date",
+    "error_invalid_date": "Invalid date"
+  },
+  "day-of-week-calculator": {
+    "title": "Day of Week Calculator",
+    "description": "Find out what day of the week any date falls on in the past or future.",
+    "howItWorks": "The calculator uses mathematical algorithms to determine the day of the week for any date. It accounts for leap years and Gregorian calendar rules to provide accurate results.",
+    "useCases": [
+      "Find out what day your birthday or any historical event fell on",
+      "Plan events on specific dates",
+      "Check the day of the week for a future appointment",
+      "Historical research to find days of past events",
+      "Schedule meetings and appointments"
+    ],
+    "seoTips": [
+      "Enter the date in the correct format for accurate results",
+      "Use the calculator to verify dates of holidays and occasions",
+      "Check the week number for planning purposes"
+    ],
+    "commonMistakes": [
+      "Entering dates in the wrong format",
+      "Confusing Gregorian with other calendar systems",
+      "Forgetting that weeks may start on Sunday or Monday depending on culture"
+    ],
+    "faqs": [
+      {
+        "question": "How does the calculator determine the day of the week?",
+        "answer": "The calculator uses Zeller's algorithm or similar methods to mathematically compute the day of the week based on the day, month, and year."
+      },
+      {
+        "question": "Can I find the day for very old dates?",
+        "answer": "Yes, but note that the current Gregorian calendar started in 1582, and dates before that followed the Julian calendar."
+      },
+      {
+        "question": "What is the week number of the year?",
+        "answer": "It is the ordinal number of the week in the year from 1 to 52 or 53, commonly used in business and planning."
+      }
+    ],
+    "date": "Date",
+    "day_of_week": "Day of Week",
+    "week_of_year": "Week of Year",
+    "day_of_year": "Day of Year",
+    "error_empty": "Please enter a date",
+    "error_invalid": "Invalid date",
+    "sunday": "Sunday",
+    "monday": "Monday",
+    "tuesday": "Tuesday",
+    "wednesday": "Wednesday",
+    "thursday": "Thursday",
+    "friday": "Friday",
+    "saturday": "Saturday"
+  },
+  "date_difference": {
+    "title": "Date Difference Calculator",
+    "description": "Calculate the exact time duration between two different dates.",
+    "howItWorks": {
+      "title": "How the Date Difference Calculator Works",
+      "formula": "Difference = End Date - Start Date (accounting for varying month lengths and leap years)",
+      "explanation": "This calculator computes the precise time difference between any two dates. It accounts for the varying lengths of months (28-31 days), leap years, and can calculate business days by excluding weekends. The algorithm processes complete years first, then remaining months, and finally days.",
+      "steps": [
+        {
+          "name": "Enter Start Date",
+          "text": "Input the beginning date of the period you want to measure"
+        },
+        {
+          "name": "Enter End Date",
+          "text": "Input the ending date of the period"
+        },
+        {
+          "name": "Optional: Include End Date",
+          "text": "Choose whether to count the end date itself in the calculation"
+        },
+        {
+          "name": "View Results",
+          "text": "See the difference in years, months, days, plus total days and business days"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Employment Duration Calculation",
+        "description": "Calculate exact length of service for retirement benefits, severance pay, or job applications"
+      },
+      {
+        "title": "Project Timeline Planning",
+        "description": "Determine the number of working days available for project completion"
+      },
+      {
+        "title": "Pregnancy and Due Date Tracking",
+        "description": "Calculate weeks of pregnancy or days until expected delivery"
+      },
+      {
+        "title": "Contract and Lease Management",
+        "description": "Verify exact duration of agreements for legal and financial purposes"
+      },
+      {
+        "title": "Event Countdown",
+        "description": "Find out exactly how many days until an important event or deadline"
+      }
+    ],
+    "seoTips": [
+      "Always enter the earlier date in the start field for positive results",
+      "Enable 'Include end date' when both dates should be counted (e.g., for hotel stays)",
+      "Business days calculation excludes Saturdays and Sundays only, not public holidays",
+      "Use total days for simple duration; use years/months/days for human-readable format",
+      "For legal documents, verify whether the end date should be inclusive or exclusive"
+    ],
+    "commonMistakes": [
+      "Entering the end date before the start date, which produces negative or error results",
+      "Forgetting that business days exclude weekends but not public holidays",
+      "Not considering that months have different lengths (28-31 days)",
+      "Assuming February always has 28 days (29 in leap years)",
+      "Confusing 'duration' with 'count' - a stay from Jan 1-3 is 2 nights but 3 days inclusive"
+    ],
+    "faqs": [
+      {
+        "question": "How are business days calculated?",
+        "answer": "Business days count only weekdays (Monday through Friday), excluding Saturdays and Sundays. Public holidays are not excluded as they vary by country and region. For accurate business day counts including holidays, you may need to adjust manually."
+      },
+      {
+        "question": "Why does my calculation differ from counting on a calendar?",
+        "answer": "The calculator accounts for varying month lengths and leap years precisely. Manual counting often uses approximations (30 days per month) which can be off by several days over longer periods."
+      },
+      {
+        "question": "Should I include the end date in my calculation?",
+        "answer": "It depends on your purpose. For hotel stays or event duration, include it. For calculating someone's age or time elapsed, typically exclude it. The calculator gives you both options."
+      },
+      {
+        "question": "Can I calculate the difference between dates in different years?",
+        "answer": "Yes, the calculator handles any date range across different years, correctly accounting for leap years and the varying number of days in each month throughout the period."
+      },
+      {
+        "question": "What is the maximum date range I can calculate?",
+        "answer": "The calculator can handle dates spanning many centuries. However, for extremely long periods, results in years/months/days are more meaningful than total days or hours."
+      }
+    ],
+    "start_date": "Start Date",
+    "start_date_tooltip": "Enter the starting date",
+    "end_date": "End Date",
+    "end_date_tooltip": "Enter the ending date",
+    "include_end_date": "Include end date",
+    "result_label": "Time Difference",
+    "detailed_breakdown": "Detailed Breakdown",
+    "years": "Years",
+    "months": "Months",
+    "days": "Days",
+    "hours": "Hours",
+    "minutes": "Minutes",
+    "business_days": "Business Days",
+    "total_days": "Total Days",
+    "total_hours": "Total Hours",
+    "total_minutes": "Total Minutes",
+    "info_title": "About Date Difference",
+    "info_description": "Calculates exact time between dates including business days.",
+    "error_empty_dates": "Please enter both dates",
+    "error_invalid_dates": "Invalid dates",
+    "error_start_after_end": "Start date must be before end date"
+  }
+}

@@ -214,7 +214,7 @@ function ToastContainer() {
         'fixed bottom-4 z-50 flex flex-col gap-2 pointer-events-none',
         isRTL ? 'left-4' : 'right-4'
       )}
-      aria-label="Notifications"
+      aria-label={t('aria.notifications')}
     >
       {toasts.map((toast) => (
         <div key={toast.id} className="pointer-events-auto">

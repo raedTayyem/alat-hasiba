@@ -1,0 +1,279 @@
+{
+  "capital_gains_tax_calculator": {
+    "title": "Capital Gains Tax Calculator",
+    "description": "Calculate capital gains tax on the sale of your property.",
+    "purchase_price": "Purchase Price",
+    "purchase_price_tooltip": "Original price paid for the property",
+    "sale_price": "Sale Price",
+    "sale_price_tooltip": "Price the property was sold for",
+    "calculate_btn": "Calculate Tax",
+    "reset_btn": "Reset",
+    "results_title": "Tax Estimation",
+    "capital_gain": "Capital Gain",
+    "result_value": "Estimated Tax",
+    "tips_title": "Tax Information",
+    "empty_state": "Enter property details to calculate tax",
+    "footer_note": "Consult a tax professional for accurate advice.",
+    "howItWorks": {
+      "title": "How Does the Capital Gains Tax Calculator Work?",
+      "formula": "Capital Gain = Sale Price - Purchase Price - Improvement Costs",
+      "explanation": "This tool calculates the profit from selling a property and the tax due based on the difference between sale and purchase prices.",
+      "steps": [
+        "Enter the original purchase price of the property",
+        "Enter the actual or expected sale price",
+        "The calculator determines the capital gain and estimated tax"
+      ]
+    },
+    "useCases": [
+      "Tax planning before selling a property",
+      "Estimating net profit after taxes",
+      "Comparing sale options at different times",
+      "Understanding potential tax obligations"
+    ],
+    "seoTips": [
+      "Keep all improvement receipts to reduce taxable gain",
+      "Primary residence may be exempt from tax in some countries",
+      "Length of ownership affects the tax rate",
+      "Consult an accountant before selling for optimal planning"
+    ],
+    "commonMistakes": [
+      "Forgetting to include improvement costs in the basis",
+      "Not knowing available exemptions",
+      "Ignoring selling costs like broker commissions",
+      "Not planning for taxes in advance"
+    ],
+    "faqs": [
+      {
+        "question": "Can I defer paying the tax?",
+        "answer": "In some countries, you can defer tax when reinvesting profits in another property (like 1031 Exchange)."
+      },
+      {
+        "question": "What ownership period affects the tax?",
+        "answer": "Usually, ownership over one year qualifies for lower long-term capital gains rates."
+      },
+      {
+        "question": "Does inheritance affect tax calculation?",
+        "answer": "Yes, inherited property may receive a stepped-up basis that reduces future tax."
+      }
+    ]
+  },
+  "home_maintenance_cost_calculator": {
+    "title": "Home Maintenance Cost Calculator",
+    "description": "Estimate annual home maintenance and repair costs.",
+    "home_value": "Home Value",
+    "home_value_tooltip": "Current market value of your home",
+    "enter_home_value": "Enter home value",
+    "home_age": "Home Age (Years)",
+    "home_age_tooltip": "Age of the property in years",
+    "enter_home_age": "Enter home age",
+    "calculate_btn": "Calculate Costs",
+    "reset_btn": "Reset",
+    "results_title": "Maintenance Estimate",
+    "annual_cost": "Estimated Annual Cost",
+    "monthly_cost": "Monthly Savings Goal",
+    "rule_1_percent": "1% Rule Estimate",
+    "rule_sqft": "Square Footage Rule Estimate",
+    "currency": "$",
+    "tips_title": "Maintenance Tips",
+    "tip_savings": "Save 1-4% of home value annually for maintenance",
+    "tip_age": "Older homes generally require more maintenance",
+    "tip_emergency": "Keep an emergency fund for major repairs",
+    "empty_state": "Enter home details to estimate maintenance costs",
+    "footer_note": "These are estimates. Actual costs will vary.",
+    "howItWorks": {
+      "title": "How Does the Home Maintenance Calculator Work?",
+      "formula": "Annual Maintenance Cost = Home Value × 1-4%",
+      "explanation": "This calculator uses common rules of thumb to estimate what you should save annually for maintenance and repairs.",
+      "steps": [
+        "Enter the current market value of the home",
+        "Enter the age of the home in years",
+        "Get estimated annual and monthly maintenance costs"
+      ]
+    },
+    "useCases": [
+      "Setting a realistic budget for ownership costs",
+      "Determining monthly savings goal for maintenance",
+      "Comparing ownership costs between different homes",
+      "Planning for major future repairs"
+    ],
+    "seoTips": [
+      "The 1% rule is good for newer homes",
+      "Older homes (20+ years) may need 2-4%",
+      "Start a maintenance fund before repairs are needed",
+      "Preventive maintenance is cheaper than emergency repairs",
+      "Keep records of all maintenance and repairs"
+    ],
+    "commonMistakes": [
+      "Ignoring regular preventive maintenance",
+      "Not saving ahead for repairs",
+      "Underestimating costs for older homes",
+      "Forgetting to replace major systems (HVAC, water heater)"
+    ],
+    "faqs": [
+      {
+        "question": "What is the 1% rule?",
+        "answer": "Save 1% of home value annually for maintenance. A $300,000 home = $3,000 annually."
+      },
+      {
+        "question": "What does maintenance cost include?",
+        "answer": "Repairs, painting, landscaping, appliance replacement, system maintenance."
+      },
+      {
+        "question": "Do costs vary by location?",
+        "answer": "Yes, harsh climates and local labor costs affect maintenance expenses."
+      },
+      {
+        "question": "What about newer homes?",
+        "answer": "They need less maintenance initially, but save for when warranties expire."
+      }
+    ]
+  },
+  "property-tax-calculator": {
+    "title": "Property Tax Calculator - Annual Real Estate Tax Tool",
+    "description": "Estimate your annual property taxes based on home value and rates. Free online real estate tax estimator."
+  },
+  "hoa-fee-calculator": {
+    "title": "HOA Fee Calculator - Homeowners Association Costs",
+    "description": "Calculate monthly and annual HOA fees for condos and communities. Free online real estate maintenance cost tool."
+  },
+  "home-maintenance-cost-calculator": {
+    "title": "Home Maintenance Cost Calculator - Repairs and Upkeep",
+    "description": "Estimate annual home maintenance and repair costs. Free online tool for homeowners to plan for property upkeep."
+  },
+  "capital-gains-tax-calculator": {
+    "title": "Capital Gains Tax Calculator - Real Estate Sale Profit",
+    "description": "Calculate capital gains tax on the sale of your property. Free online tool for tax planning after a real estate transaction."
+  },
+  "property_tax_calculator": {
+    "title": "Property Tax Calculator",
+    "description": "Estimate annual property taxes and monthly escrow amounts.",
+    "assessed_value": "Assessed Value",
+    "assessed_value_tooltip": "The dollar value assigned to a property for tax purposes",
+    "tax_rate": "Property Tax Rate (%)",
+    "tax_rate_tooltip": "The percentage of assessed value paid in taxes",
+    "years": "Projection Years",
+    "years_tooltip": "Number of years to project total tax cost",
+    "calculate_btn": "Calculate Taxes",
+    "reset_btn": "Reset",
+    "results_title": "Tax Estimate",
+    "annual_tax_label": "Annual Property Tax",
+    "per_year": "/ year",
+    "monthly_escrow": "Monthly Escrow",
+    "effective_rate": "Effective Tax Rate",
+    "total_over_years": "Total Over Period",
+    "formula_title": "Tax Formula",
+    "formula_explanation": "Annual Tax = Assessed Value × Tax Rate. Monthly Escrow = Annual Tax / 12.",
+    "info_title": "About Property Taxes",
+    "info_description": "Property taxes are paid to local governments to fund public services. They are often collected monthly by lenders in an escrow account.",
+    "use_cases_title": "Why Calculate Property Tax?",
+    "use_case_1": "Budget for monthly housing costs",
+    "use_case_2": "Compare tax burdens in different areas",
+    "use_case_3": "Estimate long-term ownership costs",
+    "positive_values": "Please enter positive values for value and rate",
+    "howItWorks": {
+      "title": "How Does the Property Tax Calculator Work?",
+      "formula": "Annual Tax = Assessed Value × Tax Rate",
+      "explanation": "This tool calculates annual property tax based on the assessed value and local tax rate.",
+      "steps": [
+        "Enter the assessed value for tax purposes",
+        "Specify the property tax rate in your area",
+        "Get annual tax and monthly escrow amounts"
+      ]
+    },
+    "useCases": [
+      "Calculating total housing costs",
+      "Comparing tax burdens between different areas",
+      "Annual budget planning",
+      "Estimating lender escrow account"
+    ],
+    "seoTips": [
+      "Assessed value may differ from market value",
+      "You can appeal the assessment if it's too high",
+      "Taxes change annually - watch your notices",
+      "Some areas offer homestead exemptions",
+      "Consider taxes when comparing homes"
+    ],
+    "commonMistakes": [
+      "Confusing market value with assessed value",
+      "Forgetting taxes rise with property value",
+      "Not checking available exemptions",
+      "Ignoring taxes when calculating affordability"
+    ],
+    "faqs": [
+      {
+        "question": "What's the difference between assessed and market value?",
+        "answer": "Assessed value is set by government for taxes and may be lower than market value."
+      },
+      {
+        "question": "Can I reduce my tax?",
+        "answer": "Yes, by appealing the assessment or applying for available exemptions."
+      },
+      {
+        "question": "What is an escrow account?",
+        "answer": "An account held by the lender to pay taxes and insurance from your monthly payments."
+      },
+      {
+        "question": "How often are taxes assessed?",
+        "answer": "Varies by area, usually annually or every 2-3 years."
+      }
+    ]
+  },
+  "hoa_fee_calculator": {
+    "title": "HOA Fee Calculator",
+    "description": "Calculate monthly and annual HOA fees.",
+    "monthly_fee": "Monthly HOA Fee",
+    "monthly_fee_tooltip": "Fees paid to the homeowners association each month",
+    "annual_fee": "Annual HOA Fee",
+    "annual_fee_tooltip": "Total fees paid annually",
+    "calculate_btn": "Calculate",
+    "reset_btn": "Reset",
+    "results_title": "HOA Cost Analysis",
+    "total_annual_cost": "Total Annual Cost",
+    "total_monthly_cost": "Total Monthly Cost",
+    "tips_title": "Understanding HOA Fees",
+    "empty_state": "Enter fee details to see total costs",
+    "footer_note": "Fees cover maintenance of common areas and amenities.",
+    "howItWorks": {
+      "title": "How Does the HOA Fee Calculator Work?",
+      "formula": "Annual Cost = Monthly Fee × 12",
+      "explanation": "This tool calculates total HOA fees monthly and annually to help you budget for housing costs.",
+      "steps": [
+        "Enter monthly fee paid to association",
+        "Get total annual cost"
+      ]
+    },
+    "useCases": [
+      "Calculating total housing cost",
+      "Comparing fees between different communities",
+      "Budgeting monthly expenses",
+      "Evaluating condo purchase viability"
+    ],
+    "seoTips": [
+      "Ask about history of fee increases",
+      "Check what fees cover (water, shared utilities, security)",
+      "Review association's financial budget",
+      "Check for expected special assessments",
+      "Higher fees may mean better services"
+    ],
+    "commonMistakes": [
+      "Ignoring HOA fees when calculating affordability",
+      "Not asking about planned increases",
+      "Ignoring special assessments for major maintenance",
+      "Not reading association rules before buying"
+    ],
+    "faqs": [
+      {
+        "question": "What do HOA fees cover?",
+        "answer": "Usually common areas, amenities, security, insurance, and sometimes water and sewer."
+      },
+      {
+        "question": "Can fees increase?",
+        "answer": "Yes, the association can raise fees annually or impose special assessments for major projects."
+      },
+      {
+        "question": "What happens if I don't pay?",
+        "answer": "You may face fines, denial of services, or even a lien on your property."
+      }
+    ]
+  }
+}

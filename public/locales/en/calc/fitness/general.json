@@ -1,0 +1,319 @@
+{
+  "recovery-time-calculator": {
+    "title": "Recovery Time Calculator - Optimal Rest Planner",
+    "description": "Calculate optimal recovery time between workouts for muscle growth and performance. Free online rest and recovery tool.",
+    "howItWorks": {
+      "title": "How the Recovery Time Calculator Works",
+      "formula": "Recovery time depends on muscle size, workout intensity, and experience level",
+      "explanation": "This tool estimates the time your muscles need to fully recover before training them again. Adequate recovery is essential for building muscle and preventing injuries and overtraining.",
+      "steps": [
+        {
+          "name": "Identify Muscle",
+          "text": "Select the muscle group size (small, medium, large)"
+        },
+        {
+          "name": "Set Intensity",
+          "text": "Select the intensity of your workout"
+        },
+        {
+          "name": "Set Experience",
+          "text": "Select your training experience level"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Workout Scheduling",
+        "description": "Determine when to train the same muscle again"
+      },
+      {
+        "title": "Avoiding Overtraining",
+        "description": "Prevent training before full recovery"
+      },
+      {
+        "title": "Optimizing Growth",
+        "description": "Full recovery ensures best muscle growth"
+      }
+    ],
+    "seoTips": [
+      "Large muscles (legs, back) need 72+ hours",
+      "Small muscles (arms) need 48 hours",
+      "Good sleep significantly speeds recovery",
+      "Post-workout protein supports the repair process"
+    ],
+    "commonMistakes": [
+      "Training the same muscle before full recovery",
+      "Ignoring signs of fatigue (persistent soreness, weak performance)",
+      "Believing more training means better results",
+      "Neglecting sleep and nutrition in recovery"
+    ],
+    "faqs": [
+      {
+        "question": "How do I know if I've recovered?",
+        "answer": "No muscle soreness, good energy, ability to lift the same or more weight."
+      },
+      {
+        "question": "Can I speed up recovery?",
+        "answer": "Yes, through adequate sleep, protein, hydration, and light stretching."
+      },
+      {
+        "question": "What if I train before recovery?",
+        "answer": "Weaker performance, higher injury risk, and less muscle growth."
+      }
+    ]
+  },
+  "flexibility-score-calculator": {
+    "title": "Flexibility Score Calculator - Assessment and Test",
+    "description": "Assess your joint and muscle flexibility level with simple, scientific tests. Free online flexibility and mobility tool.",
+    "howItWorks": {
+      "title": "How the Flexibility Score Calculator Works",
+      "formula": "Total Score = Average of different flexibility test scores",
+      "explanation": "This tool assesses your body flexibility through several simple tests targeting different areas. Flexibility is important for injury prevention and improving athletic performance and daily life.",
+      "steps": [
+        {
+          "name": "Sit and Reach Test",
+          "text": "Measure the distance you can reach past your toes"
+        },
+        {
+          "name": "Shoulder Flexibility Test",
+          "text": "Measure the distance between your hands behind your back"
+        },
+        {
+          "name": "Hip Flexion Test",
+          "text": "Measure the maximum angle of hip flexion"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Flexibility Assessment",
+        "description": "Know your current flexibility level"
+      },
+      {
+        "title": "Injury Prevention",
+        "description": "Good flexibility reduces injury risk"
+      },
+      {
+        "title": "Performance Improvement",
+        "description": "Flexibility improves range of motion and athletic performance"
+      }
+    ],
+    "seoTips": [
+      "Perform tests after a light warm-up",
+      "Don't push to pain, stop at stretch sensation",
+      "Compare your results to yourself, not others",
+      "Consistency in stretching is more important than intensity"
+    ],
+    "commonMistakes": [
+      "Testing without a warm-up",
+      "Pushing hard to reach higher numbers",
+      "Ignoring flexibility in daily training",
+      "Expecting rapid improvement in flexibility"
+    ],
+    "faqs": [
+      {
+        "question": "How do I improve my flexibility?",
+        "answer": "Through daily stretching for 10-15 minutes, and patience as improvement is slow."
+      },
+      {
+        "question": "Does flexibility improve with age?",
+        "answer": "It naturally decreases, but regular stretching slows this and improves it."
+      },
+      {
+        "question": "When should I stretch?",
+        "answer": "Dynamic stretching before exercise, static stretching after or at a separate time."
+      }
+    ]
+  },
+  "recovery_time": {
+    "title": "Recovery Time Calculator",
+    "description": "Calculate optimal recovery time between workouts for muscle growth and performance.",
+    "muscle_group": "Muscle Group Size",
+    "muscle_group_tooltip": "Size of the muscle group trained",
+    "intensity": "Workout Intensity",
+    "intensity_tooltip": "How hard the workout was",
+    "experience": "Experience Level",
+    "experience_tooltip": "Your training experience",
+    "calculate_btn": "Calculate Recovery",
+    "reset_btn": "Reset",
+    "results_title": "Recommended Recovery",
+    "recovery_range": "Optimal Range",
+    "status": "Recommendation",
+    "hours": "hours",
+    "factors_title": "Factors Affecting Recovery",
+    "factors_desc": "Larger muscle groups, higher intensity, and lower experience levels generally require more recovery time.",
+    "rec_short": "Short recovery needed (24-48 hours)",
+    "rec_medium": "Moderate recovery needed (48-72 hours)",
+    "rec_long": "Long recovery needed (72+ hours)",
+    "empty_state": "Enter workout details to calculate recovery time",
+    "footer_note": "Recovery varies by individual. Sleep and nutrition also play a major role.",
+    "muscles": {
+      "small": "Small (Arms, Calves)",
+      "medium": "Medium (Shoulders, Chest)",
+      "large": "Large (Legs, Back)"
+    },
+    "intensities": {
+      "light": "Light",
+      "moderate": "Moderate",
+      "intense": "Intense"
+    },
+    "experiences": {
+      "beginner": "Beginner (< 1 year)",
+      "intermediate": "Intermediate (1-3 years)",
+      "advanced": "Advanced (3+ years)"
+    },
+    "howItWorks": {
+      "title": "How the Recovery Time Calculator Works",
+      "formula": "Recovery Time = Base Time × Muscle Size Factor × Intensity Factor / Experience Factor",
+      "explanation": "This tool estimates the time needed for your muscles to fully recover before training them again. Recovery time depends on the size of the muscle group trained, workout intensity, and your training experience. Adequate recovery is essential for muscle growth and injury prevention.",
+      "steps": [
+        {
+          "name": "Select Muscle Group",
+          "text": "Choose the size of the muscle group you trained"
+        },
+        {
+          "name": "Set Intensity",
+          "text": "Select how intense your workout was"
+        },
+        {
+          "name": "Set Experience",
+          "text": "Choose your training experience level"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Workout Scheduling",
+        "description": "Determine when you can train the same muscle group again"
+      },
+      {
+        "title": "Overtraining Prevention",
+        "description": "Avoid training muscles before they have fully recovered"
+      },
+      {
+        "title": "Optimal Growth",
+        "description": "Ensure muscles have recovered fully to maximize training adaptations"
+      }
+    ],
+    "seoTips": [
+      "Large muscle groups (legs, back) typically need 72+ hours recovery",
+      "Small muscle groups (biceps, triceps, calves) may only need 48 hours",
+      "Quality sleep significantly accelerates the recovery process",
+      "Post-workout protein consumption supports muscle repair"
+    ],
+    "commonMistakes": [
+      "Training the same muscle group before it has fully recovered",
+      "Ignoring signs of incomplete recovery (soreness, weakness, fatigue)",
+      "Believing more frequent training always leads to better results",
+      "Neglecting sleep, nutrition, and hydration in the recovery process"
+    ],
+    "faqs": [
+      {
+        "question": "How do I know if I have recovered?",
+        "answer": "Muscle soreness is gone, energy levels are normal, and you can lift equal or greater weight than the previous session."
+      },
+      {
+        "question": "Can I speed up recovery?",
+        "answer": "Yes, through adequate sleep (7-9 hours), proper nutrition (especially protein), hydration, and light stretching or active recovery."
+      },
+      {
+        "question": "What happens if I train before recovery?",
+        "answer": "You may experience weaker performance, increased injury risk, and potentially less muscle growth over time."
+      }
+    ]
+  },
+  "flexibility_score": {
+    "title": "Flexibility Score Calculator",
+    "description": "Assess your overall flexibility with multiple tests.",
+    "gender": "Gender",
+    "age": "Age",
+    "enter_age": "Enter age",
+    "sit_reach": "Sit and Reach (cm)",
+    "sit_reach_tooltip": "Distance reached beyond toes",
+    "enter_sit_reach": "Enter distance",
+    "shoulder_reach": "Shoulder Reach Gap (cm)",
+    "shoulder_reach_tooltip": "Gap between hands behind back",
+    "enter_shoulder": "Enter gap",
+    "hip_flexion": "Hip Flexion (degrees)",
+    "hip_flexion_tooltip": "Maximum hip flexion angle",
+    "enter_hip": "Enter degrees",
+    "calculate_btn": "Calculate Score",
+    "reset_btn": "Reset",
+    "results_title": "Flexibility Assessment",
+    "overall_score": "Overall Score",
+    "category": "Category",
+    "recommendations_title": "Recommendations",
+    "rec_hamstrings": "Work on hamstring stretches",
+    "rec_shoulders": "Include shoulder mobility exercises",
+    "rec_hips": "Add hip flexor stretches",
+    "info_title": "About Flexibility",
+    "info_description": "Flexibility is important for injury prevention and overall mobility.",
+    "empty_state": "Enter your measurements to assess flexibility",
+    "enter_cm": "Enter cm",
+    "enter_degrees": "Enter degrees",
+    "benefits_title": "Benefits of Flexibility",
+    "benefit_injury": "Reduces risk of injury during exercise",
+    "benefit_posture": "Improves posture and balance",
+    "benefit_pain": "Reduces muscle and back pain",
+    "footer_note": "Flexibility varies by age and gender. Consistency is the key to improvement.",
+    "howItWorks": {
+      "title": "How the Flexibility Score Calculator Works",
+      "formula": "Overall Score = Weighted Average of (Sit and Reach Score + Shoulder Mobility Score + Hip Flexion Score)",
+      "explanation": "This tool assesses your overall flexibility using three standard tests that measure different body areas. Flexibility is critical for injury prevention, improved movement quality, and better athletic performance. The tests cover hamstrings, shoulders, and hip mobility.",
+      "steps": [
+        {
+          "name": "Complete Tests",
+          "text": "Perform the sit-and-reach, shoulder reach, and hip flexion tests"
+        },
+        {
+          "name": "Enter Results",
+          "text": "Input your measurements for each flexibility test"
+        },
+        {
+          "name": "View Assessment",
+          "text": "Get your overall flexibility score with recommendations"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Injury Prevention",
+        "description": "Identify tight areas that may lead to injury during activity"
+      },
+      {
+        "title": "Athletic Performance",
+        "description": "Improve range of motion for better performance in sports"
+      },
+      {
+        "title": "Rehabilitation",
+        "description": "Track flexibility improvements during physical therapy or recovery"
+      }
+    ],
+    "seoTips": [
+      "Warm up with light activity before testing for accurate results",
+      "Test flexibility at the same time of day for consistent comparisons",
+      "Flexibility improves gradually - expect changes over weeks, not days",
+      "Static stretching after workouts is most effective for flexibility gains"
+    ],
+    "commonMistakes": [
+      "Testing flexibility without warming up first (cold muscles test lower)",
+      "Bouncing or forcing the stretch instead of holding steady",
+      "Comparing your flexibility to people with different body types",
+      "Only stretching muscle groups that are already flexible"
+    ],
+    "faqs": [
+      {
+        "question": "Can everyone become flexible?",
+        "answer": "Yes, but the rate and extent depend on genetics, age, and consistency. Everyone can improve from their starting point."
+      },
+      {
+        "question": "How often should I stretch?",
+        "answer": "For improvement, stretch at least 3-4 times per week. Daily stretching provides the best results."
+      },
+      {
+        "question": "Does flexibility decrease with age?",
+        "answer": "Yes, naturally, but regular stretching significantly slows the decline and can even improve flexibility at any age."
+      }
+    ]
+  }
+}

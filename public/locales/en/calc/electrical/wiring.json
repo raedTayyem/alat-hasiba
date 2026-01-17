@@ -1,0 +1,368 @@
+{
+  "wire_gauge": {
+    "title": "Wire Gauge Calculator",
+    "description": "Calculate appropriate wire gauge (AWG) based on current and distance.",
+    "current": "Current (I)",
+    "distance": "Distance",
+    "voltage": "System Voltage",
+    "material": "Conductor Material",
+    "enter_current": "Enter current",
+    "enter_distance": "Enter cable length",
+    "material_copper": "Copper",
+    "material_aluminum": "Aluminum",
+    "recommended_gauge": "Recommended Gauge",
+    "awg_prefix": "AWG",
+    "diameter": "Diameter",
+    "area": "Cross-sectional Area",
+    "max_current": "Max Current Rating",
+    "resistance": "Total Resistance",
+    "voltage_drop_note": "Calculations based on standard AWG ampacity ratings with 25% safety margin.",
+    "footer_note": "Always consult local electrical codes (NEC, IEC) for official requirements.",
+    "howItWorks": {
+      "title": "How the Wire Gauge Calculator Works",
+      "formula": "AWG based on I = A × (CM / 1000) / k",
+      "explanation": "Calculates the appropriate wire gauge (AWG) based on current capacity and voltage drop requirements. Uses conductor material resistivity and ampacity tables to recommend safe wire sizes.",
+      "steps": [
+        "Enter the current load in amperes",
+        "Enter the cable run distance (one way)",
+        "Select the system voltage",
+        "Choose conductor material (copper or aluminum)"
+      ]
+    },
+    "useCases": [
+      "Sizing wires for residential electrical installations",
+      "Designing solar panel and battery systems",
+      "Automotive and marine wiring projects",
+      "Industrial power distribution planning"
+    ],
+    "seoTips": [
+      "Copper has lower resistance than aluminum (use one size larger for aluminum)",
+      "Consider ambient temperature derating for high-heat environments",
+      "Include 25% safety margin for continuous loads",
+      "Check local electrical codes (NEC, IEC) for requirements"
+    ],
+    "commonMistakes": [
+      "Not accounting for round-trip distance (multiply by 2)",
+      "Ignoring temperature derating in hot environments",
+      "Using aluminum wire sizes for copper calculations",
+      "Exceeding ampacity limits causing fire hazards"
+    ],
+    "faqs": [
+      {
+        "question": "What is AWG?",
+        "answer": "American Wire Gauge (AWG) is a standardized wire sizing system. Lower numbers indicate thicker wires with higher current capacity. Each 3-gauge decrease doubles the cross-sectional area."
+      },
+      {
+        "question": "Why does distance matter for wire sizing?",
+        "answer": "Longer distances increase resistance, causing voltage drop. Excessive voltage drop can cause equipment malfunction and energy waste."
+      },
+      {
+        "question": "When should I use aluminum instead of copper?",
+        "answer": "Aluminum is cheaper and lighter, suitable for long runs and high-current applications. However, it requires one AWG size larger and special connectors to prevent oxidation issues."
+      }
+    ]
+  },
+  "antenna": {
+    "title": "Antenna Calculator",
+    "description": "Calculate antenna lengths for a given frequency.",
+    "frequency": "Frequency (f)",
+    "type": "Antenna Type",
+    "enter_frequency": "Enter frequency",
+    "type_dipole": "Half-wave Dipole",
+    "type_monopole": "Quarter-wave Monopole",
+    "type_full": "Full-wave Loop",
+    "wavelength": "Wavelength (λ)",
+    "quarter_wave": "Quarter Wave (λ/4)",
+    "half_wave": "Half Wave (λ/2)",
+    "full_wave": "Full Wave (λ)",
+    "velocity_factor": "Velocity Factor",
+    "velocity_desc": "Standard copper wire velocity factor (~0.95) applied to results.",
+    "howItWorks": {
+      "title": "How the Antenna Calculator Works",
+      "formula": "λ = c / f, where c = 299,792,458 m/s",
+      "explanation": "Calculates antenna element lengths based on the relationship between frequency and wavelength. Antennas must be proportional to the wavelength of the signal they transmit or receive.",
+      "steps": [
+        "Enter the operating frequency",
+        "Select the antenna type (dipole, monopole, or loop)",
+        "View calculated wavelength fractions",
+        "Apply velocity factor for wire antenna construction"
+      ]
+    },
+    "useCases": [
+      "Building amateur (ham) radio antennas",
+      "Designing WiFi and Bluetooth antennas",
+      "Creating TV and FM broadcast antennas",
+      "RF engineering and wireless communication projects"
+    ],
+    "seoTips": [
+      "Half-wave dipole is the most common antenna type",
+      "Quarter-wave monopole needs a ground plane to work",
+      "Apply 0.95 velocity factor for copper wire antennas",
+      "Higher frequency = shorter antenna length"
+    ],
+    "commonMistakes": [
+      "Forgetting to apply the velocity factor for real conductors",
+      "Not accounting for surrounding objects affecting performance",
+      "Building antennas too close to metal structures",
+      "Confusing electrical length with physical length"
+    ],
+    "faqs": [
+      {
+        "question": "What is velocity factor?",
+        "answer": "Velocity factor accounts for the slower propagation of signals in conductors compared to free space. Copper wire has a velocity factor of about 0.95, meaning the physical antenna is 5% shorter than the theoretical length."
+      },
+      {
+        "question": "Why are dipoles half-wavelength?",
+        "answer": "A half-wave dipole creates an efficient radiation pattern and provides a good impedance match (around 73 ohms) to common transmission lines."
+      },
+      {
+        "question": "Can I use any wire for antenna construction?",
+        "answer": "Yes, but copper wire is preferred for its conductivity. The wire gauge affects antenna bandwidth - thicker wire provides wider bandwidth."
+      }
+    ]
+  },
+  "voltage_drop": {
+    "title": "Voltage Drop Calculator",
+    "description": "Calculate voltage drop in wires based on current, distance, and wire size.",
+    "inputs": {
+      "voltage": "Voltage (V)",
+      "current": "Current (A)",
+      "distance": "Distance (One Way)",
+      "wire_size": "Wire Size (mm²)",
+      "phase": "Phase",
+      "material": "Conductor Material"
+    },
+    "tooltips": {
+      "voltage": "System voltage (e.g. 12V, 220V)",
+      "current": "Load current in Amperes",
+      "distance": "Length of the cable run in meters",
+      "wire_size": "Cross-sectional area of the wire",
+      "phase": "System phase type",
+      "material": "Material of the wire conductor"
+    },
+    "placeholders": {
+      "voltage": "Enter voltage",
+      "current": "Enter current",
+      "distance": "Enter distance"
+    },
+    "options": {
+      "single_phase": "Single Phase",
+      "three_phase": "Three Phase",
+      "copper": "Copper",
+      "aluminum": "Aluminum",
+      "wire_mm2": "{{size}} mm²"
+    },
+    "results": {
+      "voltage_drop": "Voltage Drop",
+      "end_voltage": "Voltage at End",
+      "power_loss": "Power Loss",
+      "acceptable": "Voltage drop is acceptable (≤ 3%)",
+      "unacceptable": "Voltage drop is too high (> 3%)",
+      "conclusion": "Conclusion"
+    },
+    "info": {
+      "title": "About Voltage Drop",
+      "desc": "Voltage drop occurs when internal resistance of the wire causes a loss of voltage. It should typically be kept under 3% for lighting and 5% for other loads."
+    },
+    "howItWorks": {
+      "title": "How the Voltage Drop Calculator Works",
+      "formula": "Vdrop = 2 × I × R × L (single-phase), Vdrop = √3 × I × R × L (three-phase)",
+      "explanation": "Calculates voltage loss in electrical cables due to wire resistance. Excessive voltage drop causes equipment malfunction, reduced efficiency, and energy waste.",
+      "steps": [
+        "Enter the system voltage and load current",
+        "Enter the cable run distance (one way)",
+        "Select wire size and material",
+        "Choose single-phase or three-phase"
+      ]
+    },
+    "useCases": [
+      "Sizing cables for long-distance runs",
+      "Solar panel array wiring design",
+      "Industrial power distribution planning",
+      "Ensuring code compliance for electrical installations"
+    ],
+    "seoTips": [
+      "Keep voltage drop under 3% for lighting circuits",
+      "Allow up to 5% for motor and heating loads",
+      "Use copper for lower voltage drop vs. aluminum",
+      "Consider larger wire sizes for long distances"
+    ],
+    "commonMistakes": [
+      "Forgetting to double the distance (round-trip)",
+      "Using single-phase formula for three-phase systems",
+      "Ignoring temperature effects on wire resistance",
+      "Not accounting for connection resistance"
+    ],
+    "faqs": [
+      {
+        "question": "Why is voltage drop important?",
+        "answer": "Excessive voltage drop causes dim lights, slow motors, and equipment damage. It also wastes energy as heat in the wires. Codes limit drop to 3-5%."
+      },
+      {
+        "question": "How can I reduce voltage drop?",
+        "answer": "Use larger wire gauge, shorter cable runs, copper instead of aluminum, or higher system voltage. For DC systems, consider running at higher voltage then converting down."
+      },
+      {
+        "question": "Does voltage drop affect power loss?",
+        "answer": "Yes, power loss = I² × R. The lost power becomes heat in the cable. Higher currents have disproportionately higher losses due to the squared relationship."
+      }
+    ]
+  },
+  "pcb_trace": {
+    "title": "PCB Trace Width Calculator",
+    "description": "Calculate the required trace width for a printed circuit board based on current and temperature rise.",
+    "inputs": {
+      "current": "Current (A)",
+      "temp_rise": "Temperature Rise (°C)",
+      "thickness": "Copper Thickness",
+      "length": "Trace Length (optional)"
+    },
+    "tooltips": {
+      "current": "Maximum current passing through the trace",
+      "temp_rise": "Allowed temperature increase above ambient",
+      "thickness": "Thickness of the copper layer",
+      "length": "Length of the trace for resistance calculation"
+    },
+    "placeholders": {
+      "current": "Enter current",
+      "temp_rise": "Enter temp rise",
+      "length": "Enter length"
+    },
+    "results": {
+      "min_width": "Minimum Trace Width",
+      "area": "Cross-Section Area",
+      "resistance": "Trace Resistance",
+      "voltage_drop": "Voltage Drop"
+    },
+    "options": {
+      "thickness_label": "{{um}}µm ({{oz}} oz)"
+    },
+    "info": {
+      "title": "IPC-2221 Formula",
+      "desc": "Calculations are based on IPC-2221 generic standard for printed board design."
+    },
+    "howItWorks": {
+      "title": "How the PCB Trace Width Calculator Works",
+      "formula": "W = Area / (Thickness × 1.378) based on IPC-2221",
+      "explanation": "Calculates minimum PCB trace width to safely carry current based on IPC-2221 standards. The calculation considers copper thickness, temperature rise, and whether the trace is internal or external.",
+      "steps": [
+        "Enter the maximum current through the trace",
+        "Specify allowable temperature rise (typically 10-20°C)",
+        "Select copper thickness (1oz, 2oz, etc.)",
+        "Optionally enter trace length for resistance calculation"
+      ]
+    },
+    "useCases": [
+      "Designing power traces on PCBs",
+      "Ensuring thermal safety for high-current circuits",
+      "Meeting IPC manufacturing standards",
+      "Optimizing board layout for current capacity"
+    ],
+    "seoTips": [
+      "1oz copper = 35µm (1.4 mil) thickness",
+      "Internal traces need 2x wider than external for same current",
+      "Use polygon pours for high-current paths",
+      "Add thermal reliefs around pads for better soldering"
+    ],
+    "commonMistakes": [
+      "Using external trace calculations for internal layers",
+      "Not accounting for via current capacity",
+      "Ignoring trace resistance for voltage-sensitive circuits",
+      "Forgetting temperature rise affects surrounding components"
+    ],
+    "faqs": [
+      {
+        "question": "What is IPC-2221?",
+        "answer": "IPC-2221 is the generic standard for printed circuit board design. It provides formulas and guidelines for trace sizing, clearances, and thermal management."
+      },
+      {
+        "question": "Why do internal traces need to be wider?",
+        "answer": "Internal traces are surrounded by PCB material that insulates heat. External traces can dissipate heat to air, so they can carry more current for the same width."
+      },
+      {
+        "question": "How does copper thickness affect trace width?",
+        "answer": "Thicker copper (2oz vs 1oz) can carry more current for the same width. Doubling copper thickness roughly allows 40% more current, not double."
+      }
+    ]
+  },
+  "motor": {
+    "title": "Motor Calculator",
+    "description": "Calculate motor current, power, and efficiency.",
+    "phase_type": "Phase Type",
+    "phase_tooltip": "Select single or three phase",
+    "phase_single": "Single Phase",
+    "phase_three": "Three Phase",
+    "power": "Motor Power (kW)",
+    "power_tooltip": "Enter motor power in kilowatts",
+    "enter_power": "Enter power",
+    "voltage": "Voltage (V)",
+    "voltage_tooltip": "Enter supply voltage",
+    "enter_voltage": "Enter voltage",
+    "efficiency": "Efficiency (%)",
+    "efficiency_tooltip": "Motor efficiency percentage",
+    "enter_efficiency": "Enter efficiency",
+    "power_factor": "Power Factor",
+    "power_factor_tooltip": "Motor power factor (0-1)",
+    "enter_pf": "Enter power factor",
+    "calculate_btn": "Calculate",
+    "reset_btn": "Reset",
+    "results_title": "Motor Results",
+    "current": "Full Load Current",
+    "current_unit": "A",
+    "power_kw": "Power (kW)",
+    "power_hp": "Power (HP)",
+    "input_power": "Input Power",
+    "input_power_unit": "kW",
+    "info_title": "About Motor Calculations",
+    "info_description": "Motor current depends on power, voltage, efficiency, and power factor.",
+    "empty_state": "Enter motor parameters to calculate current",
+    "full_load_current": "Full Load Current",
+    "output_power": "Output Power (HP)",
+    "losses": "Power Losses",
+    "info_notes": "Current = Power / (sqrt(3) x V x PF x Efficiency). For single phase: Current = Power / (V x PF x Efficiency)",
+    "footer_note": "Results are for 3-phase motors. Actual values may vary.",
+    "howItWorks": {
+      "title": "How the Motor Calculator Works",
+      "formula": "I = P / (√3 × V × PF × η) for 3-phase",
+      "explanation": "Calculates motor electrical parameters from mechanical power output. Accounts for efficiency losses and power factor to determine actual current draw from the supply.",
+      "steps": [
+        "Select phase type (single or three-phase)",
+        "Enter motor power in kW or HP",
+        "Enter supply voltage and efficiency",
+        "Enter motor power factor"
+      ]
+    },
+    "useCases": [
+      "Sizing motor starters and contactors",
+      "Calculating cable and breaker requirements",
+      "Estimating motor operating costs",
+      "Designing motor control centers"
+    ],
+    "seoTips": [
+      "1 HP = 0.746 kW (approximate)",
+      "Typical motor efficiency: 85-95%",
+      "Typical motor power factor: 0.8-0.9",
+      "Full load current determines cable and protection sizing"
+    ],
+    "commonMistakes": [
+      "Confusing mechanical power (output) with electrical power (input)",
+      "Using nameplate HP without converting to kW",
+      "Forgetting efficiency when calculating input power",
+      "Not accounting for power factor in current calculations"
+    ],
+    "faqs": [
+      {
+        "question": "What is motor efficiency?",
+        "answer": "Efficiency is the ratio of mechanical output power to electrical input power. A 90% efficient motor drawing 10 kW delivers 9 kW of mechanical power; 1 kW becomes heat."
+      },
+      {
+        "question": "Why do motors have low power factor?",
+        "answer": "Motors are inductive loads that require magnetizing current to create the magnetic field. This reactive current doesn't do useful work but still flows, lowering power factor."
+      },
+      {
+        "question": "How do I convert HP to kW?",
+        "answer": "Multiply HP by 0.746 to get kW. For example, 10 HP = 7.46 kW mechanical output. To find electrical input, divide by efficiency: 7.46 / 0.90 = 8.29 kW input."
+      }
+    ]
+  }
+}

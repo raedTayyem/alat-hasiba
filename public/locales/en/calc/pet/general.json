@@ -1,0 +1,804 @@
+{
+  "aquarium_calculator": {
+    "title": "Aquarium Calculator",
+    "description": "Calculate fish tank volume and capacity.",
+    "length": "Length (cm)",
+    "width": "Width (cm)",
+    "height": "Height (cm)",
+    "fish_size": "Fish Size",
+    "fish_small": "Small (2-3 cm)",
+    "fish_medium": "Medium (5-8 cm)",
+    "fish_large": "Large (10+ cm)",
+    "calculate_btn": "Calculate Volume",
+    "reset_btn": "Reset",
+    "results_title": "Tank Capacity",
+    "volume": "Tank Volume",
+    "liters": "Liters",
+    "gallons": "Gallons",
+    "max_fish": "Max Fish Capacity",
+    "fish": "fish",
+    "filter_capacity": "Recommended Filter",
+    "liters_per_hour": "L/h",
+    "heater_wattage": "Heater Wattage",
+    "watts": "Watts",
+    "tips_title": "Aquarium Tips",
+    "empty_state": "Enter dimensions to calculate tank capacity",
+    "tips": [
+      "Change 20-25% of water weekly",
+      "Clean filter monthly",
+      "Monitor water quality regularly",
+      "Avoid overfeeding",
+      "Cycle the tank before adding fish"
+    ],
+    "howItWorks": {
+      "title": "How the Aquarium Calculator Works",
+      "formula": "Volume (L) = Length × Width × Height / 1000",
+      "explanation": "This calculator determines your aquarium's water volume and recommends the appropriate number of fish based on the one-inch-per-gallon rule, adjusted for fish size.",
+      "steps": [
+        "Enter your tank's length, width, and height in centimeters",
+        "Select the average size of fish you plan to keep",
+        "Click Calculate to see volume in liters and gallons",
+        "Review recommended fish capacity and equipment sizing"
+      ]
+    },
+    "useCases": [
+      "Planning a new aquarium setup and determining tank size needs",
+      "Calculating how many fish can safely live in your tank",
+      "Sizing filters, heaters, and other equipment properly",
+      "Converting between metric and imperial water measurements"
+    ],
+    "seoTips": [
+      "Always understock rather than overstock your aquarium",
+      "Consider fish adult size, not purchase size when calculating",
+      "Factor in decorations and substrate that reduce water volume",
+      "Different fish species have varying space requirements",
+      "Larger tanks are more stable and easier to maintain"
+    ],
+    "commonMistakes": [
+      "Calculating based on juvenile fish size instead of adult size",
+      "Not accounting for decorations reducing actual water volume",
+      "Overstocking the tank leading to poor water quality",
+      "Ignoring species-specific space requirements"
+    ],
+    "faqs": [
+      {
+        "question": "How many fish can I put in my aquarium?",
+        "answer": "The general rule is one inch of fish per gallon of water for small fish. However, this varies by species, and larger fish need proportionally more space."
+      },
+      {
+        "question": "What filter size do I need for my tank?",
+        "answer": "Choose a filter rated for 4-6 times your tank volume per hour. For a 100L tank, select a filter rated for 400-600 L/h."
+      },
+      {
+        "question": "How do I calculate heater wattage?",
+        "answer": "Use approximately 3-5 watts per gallon of water. A 20-gallon tank needs a 60-100 watt heater."
+      },
+      {
+        "question": "Does tank shape affect fish capacity?",
+        "answer": "Yes, surface area matters more than volume for oxygen exchange. Wider, shallower tanks can support more fish than tall, narrow tanks of the same volume."
+      },
+      {
+        "question": "Should I fill my tank completely?",
+        "answer": "Leave 1-2 inches at the top for gas exchange and to prevent jumping fish from escaping. This also allows for equipment placement."
+      }
+    ]
+  },
+  "aquarium-calculator": {
+    "title": "Aquarium Calculator",
+    "description": "Calculate fish tank volume and capacity.",
+    "length": "Length (cm)",
+    "width": "Width (cm)",
+    "height": "Height (cm)",
+    "fish_size": "Fish Size",
+    "fish_small": "Small (2-3 cm)",
+    "fish_medium": "Medium (5-8 cm)",
+    "fish_large": "Large (10+ cm)",
+    "calculate_btn": "Calculate Volume",
+    "reset_btn": "Reset",
+    "results_title": "Tank Capacity",
+    "volume": "Tank Volume",
+    "liters": "Liters",
+    "gallons": "Gallons",
+    "max_fish": "Max Fish Capacity",
+    "fish": "fish",
+    "filter_capacity": "Recommended Filter",
+    "liters_per_hour": "L/h",
+    "heater_wattage": "Heater Wattage",
+    "watts": "Watts",
+    "tips_title": "Aquarium Tips",
+    "empty_state": "Enter dimensions to calculate tank capacity",
+    "tips": [
+      "Change 20-25% of water weekly",
+      "Clean filter monthly",
+      "Monitor water quality regularly",
+      "Avoid overfeeding",
+      "Cycle the tank before adding fish"
+    ],
+    "howItWorks": {
+      "title": "How the Aquarium Calculator Works",
+      "formula": "Volume (L) = Length × Width × Height / 1000",
+      "explanation": "This calculator determines your aquarium's water volume and recommends the appropriate number of fish based on the one-inch-per-gallon rule, adjusted for fish size.",
+      "steps": [
+        "Enter your tank's length, width, and height in centimeters",
+        "Select the average size of fish you plan to keep",
+        "Click Calculate to see volume in liters and gallons",
+        "Review recommended fish capacity and equipment sizing"
+      ]
+    },
+    "useCases": [
+      "Planning a new aquarium setup and determining tank size needs",
+      "Calculating how many fish can safely live in your tank",
+      "Sizing filters, heaters, and other equipment properly",
+      "Converting between metric and imperial water measurements"
+    ],
+    "seoTips": [
+      "Always understock rather than overstock your aquarium",
+      "Consider fish adult size, not purchase size when calculating",
+      "Factor in decorations and substrate that reduce water volume",
+      "Different fish species have varying space requirements",
+      "Larger tanks are more stable and easier to maintain"
+    ],
+    "commonMistakes": [
+      "Calculating based on juvenile fish size instead of adult size",
+      "Not accounting for decorations reducing actual water volume",
+      "Overstocking the tank leading to poor water quality",
+      "Ignoring species-specific space requirements"
+    ],
+    "faqs": [
+      {
+        "question": "How many fish can I put in my aquarium?",
+        "answer": "The general rule is one inch of fish per gallon of water for small fish. However, this varies by species, and larger fish need proportionally more space."
+      },
+      {
+        "question": "What filter size do I need for my tank?",
+        "answer": "Choose a filter rated for 4-6 times your tank volume per hour. For a 100L tank, select a filter rated for 400-600 L/h."
+      },
+      {
+        "question": "How do I calculate heater wattage?",
+        "answer": "Use approximately 3-5 watts per gallon of water. A 20-gallon tank needs a 60-100 watt heater."
+      },
+      {
+        "question": "Does tank shape affect fish capacity?",
+        "answer": "Yes, surface area matters more than volume for oxygen exchange. Wider, shallower tanks can support more fish than tall, narrow tanks of the same volume."
+      },
+      {
+        "question": "Should I fill my tank completely?",
+        "answer": "Leave 1-2 inches at the top for gas exchange and to prevent jumping fish from escaping. This also allows for equipment placement."
+      }
+    ]
+  },
+  "bird_cage_calculator": {
+    "title": "Bird Cage Size Calculator",
+    "description": "Calculate appropriate bird cage dimensions for various bird types.",
+    "bird_type": "Bird Type",
+    "number_of_birds": "Number of Birds",
+    "budgie": "Budgie",
+    "cockatiel": "Cockatiel",
+    "lovebird": "Lovebird",
+    "conure": "Conure",
+    "parrot": "Parrot",
+    "macaw": "Macaw",
+    "calculate_btn": "Calculate Cage Size",
+    "reset_btn": "Reset",
+    "results_title": "Recommended Cage Size",
+    "min_dimensions": "Minimum Dimensions",
+    "length": "Length",
+    "width": "Width",
+    "height": "Height",
+    "bar_spacing": "Bar Spacing",
+    "perch_diameter": "Perch Diameter",
+    "tips_title": "Cage Tips",
+    "empty_state": "Enter bird details to calculate minimum cage size",
+    "howItWorks": {
+      "title": "How the Bird Cage Calculator Works",
+      "formula": "Minimum cage size based on bird wingspan × 2-3 times",
+      "explanation": "This calculator recommends minimum cage dimensions based on bird species and quantity, ensuring adequate space for flight, exercise, and mental stimulation.",
+      "steps": [
+        "Select your bird species from the dropdown menu",
+        "Enter the number of birds you plan to house together",
+        "Click Calculate to see minimum cage dimensions",
+        "Review bar spacing and perch diameter recommendations"
+      ]
+    },
+    "useCases": [
+      "Choosing the right cage size when adopting a new bird",
+      "Upgrading an existing cage for better bird welfare",
+      "Planning a multi-bird housing setup",
+      "Ensuring proper bar spacing for bird safety"
+    ],
+    "seoTips": [
+      "Bigger is always better when it comes to bird cages",
+      "Horizontal space is more important than vertical for most birds",
+      "Bar spacing must prevent head entrapment",
+      "Multiple perches of varying diameters promote foot health",
+      "Consider cage placement away from drafts and direct sunlight"
+    ],
+    "commonMistakes": [
+      "Buying a cage that is too small for the bird species",
+      "Choosing wrong bar spacing that can trap bird's head",
+      "Not considering room for toys and accessories",
+      "Prioritizing height over width for flying birds"
+    ],
+    "faqs": [
+      {
+        "question": "What is the minimum cage size for a budgie?",
+        "answer": "A single budgie needs at least 18x18x18 inches, but larger is better. For multiple budgies, add 50% more space per additional bird."
+      },
+      {
+        "question": "Why does bar spacing matter?",
+        "answer": "Incorrect bar spacing can allow birds to escape or get their heads stuck. Small birds need 1/2 inch spacing, medium birds 5/8-3/4 inch, and large parrots 1-1.5 inches."
+      },
+      {
+        "question": "Should I get a round or rectangular cage?",
+        "answer": "Rectangular cages are better as they provide corners where birds feel secure. Round cages can cause psychological stress and offer less usable space."
+      },
+      {
+        "question": "How many birds can share one cage?",
+        "answer": "This depends on species compatibility and cage size. Generally, same-species birds can cohabitate, but increase cage size by 50% per additional bird."
+      },
+      {
+        "question": "What perch diameter is best?",
+        "answer": "Perches should vary in diameter so the bird's foot doesn't always grip the same way. This prevents foot problems and arthritis."
+      }
+    ]
+  },
+  "bird-cage-calculator": {
+    "title": "Bird Cage Size Calculator",
+    "description": "Calculate appropriate bird cage dimensions for various bird types.",
+    "bird_type": "Bird Type",
+    "number_of_birds": "Number of Birds",
+    "budgie": "Budgie",
+    "cockatiel": "Cockatiel",
+    "lovebird": "Lovebird",
+    "conure": "Conure",
+    "parrot": "Parrot",
+    "macaw": "Macaw",
+    "calculate_btn": "Calculate Cage Size",
+    "reset_btn": "Reset",
+    "results_title": "Recommended Cage Size",
+    "min_dimensions": "Minimum Dimensions",
+    "length": "Length",
+    "width": "Width",
+    "height": "Height",
+    "bar_spacing": "Bar Spacing",
+    "perch_diameter": "Perch Diameter",
+    "tips_title": "Cage Tips",
+    "empty_state": "Enter bird details to calculate minimum cage size",
+    "howItWorks": {
+      "title": "How the Bird Cage Calculator Works",
+      "formula": "Minimum cage size based on bird wingspan × 2-3 times",
+      "explanation": "This calculator recommends minimum cage dimensions based on bird species and quantity, ensuring adequate space for flight, exercise, and mental stimulation.",
+      "steps": [
+        "Select your bird species from the dropdown menu",
+        "Enter the number of birds you plan to house together",
+        "Click Calculate to see minimum cage dimensions",
+        "Review bar spacing and perch diameter recommendations"
+      ]
+    },
+    "useCases": [
+      "Choosing the right cage size when adopting a new bird",
+      "Upgrading an existing cage for better bird welfare",
+      "Planning a multi-bird housing setup",
+      "Ensuring proper bar spacing for bird safety"
+    ],
+    "seoTips": [
+      "Bigger is always better when it comes to bird cages",
+      "Horizontal space is more important than vertical for most birds",
+      "Bar spacing must prevent head entrapment",
+      "Multiple perches of varying diameters promote foot health",
+      "Consider cage placement away from drafts and direct sunlight"
+    ],
+    "commonMistakes": [
+      "Buying a cage that is too small for the bird species",
+      "Choosing wrong bar spacing that can trap bird's head",
+      "Not considering room for toys and accessories",
+      "Prioritizing height over width for flying birds"
+    ],
+    "faqs": [
+      {
+        "question": "What is the minimum cage size for a budgie?",
+        "answer": "A single budgie needs at least 18x18x18 inches, but larger is better. For multiple budgies, add 50% more space per additional bird."
+      },
+      {
+        "question": "Why does bar spacing matter?",
+        "answer": "Incorrect bar spacing can allow birds to escape or get their heads stuck. Small birds need 1/2 inch spacing, medium birds 5/8-3/4 inch, and large parrots 1-1.5 inches."
+      },
+      {
+        "question": "Should I get a round or rectangular cage?",
+        "answer": "Rectangular cages are better as they provide corners where birds feel secure. Round cages can cause psychological stress and offer less usable space."
+      },
+      {
+        "question": "How many birds can share one cage?",
+        "answer": "This depends on species compatibility and cage size. Generally, same-species birds can cohabitate, but increase cage size by 50% per additional bird."
+      },
+      {
+        "question": "What perch diameter is best?",
+        "answer": "Perches should vary in diameter so the bird's foot doesn't always grip the same way. This prevents foot problems and arthritis."
+      }
+    ]
+  },
+  "bird_cage_size_calculator": {
+    "title": "Bird Cage Size Calculator - Free Aviary Planning Tool",
+    "description": "Calculate appropriate bird cage dimensions. Free online tool for parakeets, parrots, and all pet bird types.",
+    "tips": [
+      "Horizontal is better than vertical for small birds",
+      "Provide space for horizontal flight",
+      "Use perches of different diameters",
+      "Place cage in a quiet and safe spot",
+      "Clean cage weekly"
+    ],
+    "howItWorks": {
+      "title": "How the Bird Cage Size Calculator Works",
+      "formula": "Minimum cage size = Bird wingspan × 2.5 for width, wingspan × 3 for length",
+      "explanation": "This calculator determines the minimum cage dimensions required for healthy bird housing based on species size and number of birds. Proper cage sizing ensures birds can spread their wings fully and have adequate space for exercise and mental stimulation.",
+      "steps": [
+        {
+          "name": "Select Bird Species",
+          "text": "Choose your bird type from the dropdown menu to get species-specific recommendations"
+        },
+        {
+          "name": "Enter Bird Count",
+          "text": "Input the number of birds you plan to house in the same cage"
+        },
+        {
+          "name": "Calculate Dimensions",
+          "text": "Click calculate to receive minimum cage dimensions in inches and centimeters"
+        },
+        {
+          "name": "Review Requirements",
+          "text": "Check bar spacing and perch diameter recommendations for your bird species"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "New Bird Owner Planning",
+        "description": "First-time bird owners can determine the right cage size before purchasing, ensuring their new pet has adequate living space from day one."
+      },
+      {
+        "title": "Cage Upgrade Assessment",
+        "description": "Current bird owners can evaluate whether their existing cage meets minimum requirements or if an upgrade is needed for better bird welfare."
+      },
+      {
+        "title": "Multi-Bird Housing",
+        "description": "Calculate space requirements when adding birds to an existing flock or planning a multi-bird setup with compatible species."
+      },
+      {
+        "title": "Aviary Design",
+        "description": "Plan indoor or outdoor aviaries with proper dimensions for breeding pairs or larger bird communities."
+      }
+    ],
+    "seoTips": [
+      "Always choose a cage larger than the minimum recommendation when possible",
+      "Horizontal space is more important than height for most bird species",
+      "Bar spacing must prevent birds from getting their heads stuck between bars",
+      "Consider the cage door size for easy cleaning and bird handling",
+      "Natural perches of varying diameters promote foot health and prevent arthritis"
+    ],
+    "commonMistakes": [
+      "Buying decorative round cages that provide less usable space and cause psychological stress",
+      "Selecting bar spacing too wide for small birds, creating escape or injury risks",
+      "Prioritizing cage height over width for species that fly horizontally",
+      "Not accounting for space needed for food bowls, water dishes, and toys",
+      "Placing multiple territorial species together without adequate space separation"
+    ],
+    "faqs": [
+      {
+        "question": "What is the minimum cage size for a parakeet or budgie?",
+        "answer": "A single parakeet needs at least 18 x 18 x 18 inches (45 x 45 x 45 cm). However, larger is always better. For each additional bird, increase the size by 50%. Budgies are active flyers and benefit greatly from extra horizontal space."
+      },
+      {
+        "question": "Why are rectangular cages better than round ones?",
+        "answer": "Rectangular cages provide corners where birds feel secure, offer more usable floor and wall space, and allow for proper perch placement at varying heights. Round cages eliminate these security corners and can cause psychological stress in birds."
+      },
+      {
+        "question": "How do I determine the correct bar spacing?",
+        "answer": "Bar spacing depends on bird size: finches and canaries need 1/4 to 1/2 inch spacing, budgies and lovebirds need 1/2 inch, cockatiels need 1/2 to 5/8 inch, and larger parrots need 3/4 to 1 inch or more. Incorrect spacing can lead to head entrapment or escape."
+      },
+      {
+        "question": "Can different bird species share the same cage?",
+        "answer": "Some species can cohabitate if they have similar sizes and temperaments. However, you must significantly increase cage size and provide multiple feeding stations. Never house aggressive species together, and always research species compatibility before mixing."
+      },
+      {
+        "question": "How often should I clean the bird cage?",
+        "answer": "Daily spot cleaning of droppings and food debris is essential. Weekly thorough cleaning includes washing perches and toys. Monthly deep cleaning involves disinfecting the entire cage. A clean environment prevents disease and promotes bird health."
+      }
+    ]
+  },
+  "bird-cage-size-calculator": {
+    "title": "Bird Cage Size Calculator - Free Aviary Planning Tool",
+    "description": "Calculate appropriate bird cage dimensions. Free online tool for parakeets, parrots, and all pet bird types.",
+    "tips": [
+      "Horizontal is better than vertical for small birds",
+      "Provide space for horizontal flight",
+      "Use perches of different diameters",
+      "Place cage in a quiet and safe spot",
+      "Clean cage weekly"
+    ],
+    "howItWorks": {
+      "title": "How the Bird Cage Size Calculator Works",
+      "formula": "Minimum cage size = Bird wingspan × 2.5 for width, wingspan × 3 for length",
+      "explanation": "This calculator determines the minimum cage dimensions required for healthy bird housing based on species size and number of birds. Proper cage sizing ensures birds can spread their wings fully and have adequate space for exercise and mental stimulation.",
+      "steps": [
+        {
+          "name": "Select Bird Species",
+          "text": "Choose your bird type from the dropdown menu to get species-specific recommendations"
+        },
+        {
+          "name": "Enter Bird Count",
+          "text": "Input the number of birds you plan to house in the same cage"
+        },
+        {
+          "name": "Calculate Dimensions",
+          "text": "Click calculate to receive minimum cage dimensions in inches and centimeters"
+        },
+        {
+          "name": "Review Requirements",
+          "text": "Check bar spacing and perch diameter recommendations for your bird species"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "New Bird Owner Planning",
+        "description": "First-time bird owners can determine the right cage size before purchasing, ensuring their new pet has adequate living space from day one."
+      },
+      {
+        "title": "Cage Upgrade Assessment",
+        "description": "Current bird owners can evaluate whether their existing cage meets minimum requirements or if an upgrade is needed for better bird welfare."
+      },
+      {
+        "title": "Multi-Bird Housing",
+        "description": "Calculate space requirements when adding birds to an existing flock or planning a multi-bird setup with compatible species."
+      },
+      {
+        "title": "Aviary Design",
+        "description": "Plan indoor or outdoor aviaries with proper dimensions for breeding pairs or larger bird communities."
+      }
+    ],
+    "seoTips": [
+      "Always choose a cage larger than the minimum recommendation when possible",
+      "Horizontal space is more important than height for most bird species",
+      "Bar spacing must prevent birds from getting their heads stuck between bars",
+      "Consider the cage door size for easy cleaning and bird handling",
+      "Natural perches of varying diameters promote foot health and prevent arthritis"
+    ],
+    "commonMistakes": [
+      "Buying decorative round cages that provide less usable space and cause psychological stress",
+      "Selecting bar spacing too wide for small birds, creating escape or injury risks",
+      "Prioritizing cage height over width for species that fly horizontally",
+      "Not accounting for space needed for food bowls, water dishes, and toys",
+      "Placing multiple territorial species together without adequate space separation"
+    ],
+    "faqs": [
+      {
+        "question": "What is the minimum cage size for a parakeet or budgie?",
+        "answer": "A single parakeet needs at least 18 x 18 x 18 inches (45 x 45 x 45 cm). However, larger is always better. For each additional bird, increase the size by 50%. Budgies are active flyers and benefit greatly from extra horizontal space."
+      },
+      {
+        "question": "Why are rectangular cages better than round ones?",
+        "answer": "Rectangular cages provide corners where birds feel secure, offer more usable floor and wall space, and allow for proper perch placement at varying heights. Round cages eliminate these security corners and can cause psychological stress in birds."
+      },
+      {
+        "question": "How do I determine the correct bar spacing?",
+        "answer": "Bar spacing depends on bird size: finches and canaries need 1/4 to 1/2 inch spacing, budgies and lovebirds need 1/2 inch, cockatiels need 1/2 to 5/8 inch, and larger parrots need 3/4 to 1 inch or more. Incorrect spacing can lead to head entrapment or escape."
+      },
+      {
+        "question": "Can different bird species share the same cage?",
+        "answer": "Some species can cohabitate if they have similar sizes and temperaments. However, you must significantly increase cage size and provide multiple feeding stations. Never house aggressive species together, and always research species compatibility before mixing."
+      },
+      {
+        "question": "How often should I clean the bird cage?",
+        "answer": "Daily spot cleaning of droppings and food debris is essential. Weekly thorough cleaning includes washing perches and toys. Monthly deep cleaning involves disinfecting the entire cage. A clean environment prevents disease and promotes bird health."
+      }
+    ]
+  },
+  "rabbit_care_calculator": {
+    "title": "Rabbit Care Calculator - Free Bunny Diet and Space Tool",
+    "description": "Calculate rabbit feeding and living space needs. Free online bunny care calculator for healthy pet rabbits.",
+    "tips": [
+      "Always provide fresh Timothy hay",
+      "Fresh water available at all times",
+      "Fresh leafy greens daily",
+      "Clean litter box daily",
+      "Annual vet checkup"
+    ],
+    "input_title": "Rabbit Care Calculator",
+    "rabbit_weight": "Rabbit Weight",
+    "kg": "kg",
+    "enter_weight": "Enter weight",
+    "rabbit_size": "Rabbit Size",
+    "size_small": "Small",
+    "size_medium": "Medium",
+    "size_large": "Large",
+    "calculate_btn": "Calculate Care",
+    "reset_btn": "Reset",
+    "results_title": "Rabbit Care Results",
+    "daily_diet": "Daily Diet",
+    "daily_hay": "Daily Hay",
+    "daily_pellets": "Daily Pellets",
+    "daily_veggies": "Daily Vegetables",
+    "hutch_size": "Hutch Size",
+    "hutch_length": "Length",
+    "hutch_width": "Width",
+    "hutch_height": "Height",
+    "cm": "cm",
+    "tips_title": "Rabbit Care Tips",
+    "empty_state": "Enter rabbit details to calculate its needs",
+    "footer_note": "Estimated needs based on breed averages. Individual needs may vary.",
+    "howItWorks": {
+      "title": "How Rabbit Care Calculator Works",
+      "formula": "Daily needs based on body weight and size category",
+      "explanation": "This calculator determines optimal diet portions and housing requirements for rabbits based on their size, ensuring proper nutrition and living space.",
+      "steps": [
+        "Enter your rabbit's weight",
+        "Select their size category",
+        "View daily hay, pellet, and vegetable amounts",
+        "Check minimum hutch dimensions"
+      ]
+    },
+    "useCases": [
+      "Planning daily feeding amounts for rabbits",
+      "Selecting appropriate hutch or enclosure size",
+      "Ensuring balanced diet proportions",
+      "Budgeting for rabbit care supplies"
+    ],
+    "seoTips": [
+      "Hay should make up 80% of a rabbit's diet",
+      "Unlimited Timothy hay is essential",
+      "Pellets should be limited based on weight",
+      "Fresh vegetables provide necessary nutrients",
+      "Rabbits need more space than most people expect"
+    ],
+    "commonMistakes": [
+      "Overfeeding pellets relative to hay",
+      "Using too small of an enclosure",
+      "Not providing unlimited hay access",
+      "Feeding wrong vegetables (iceberg lettuce is harmful)"
+    ],
+    "faqs": [
+      {
+        "question": "How much hay should a rabbit eat?",
+        "answer": "Rabbits should have unlimited access to hay. They should eat a pile about the size of their body daily. Hay is essential for dental and digestive health."
+      },
+      {
+        "question": "How many pellets should a rabbit get?",
+        "answer": "Adult rabbits need about 1/4 cup of pellets per 2.5 kg of body weight daily. Young rabbits can have unlimited pellets until 6-7 months."
+      },
+      {
+        "question": "What size hutch does a rabbit need?",
+        "answer": "Minimum is 4x their body length when stretched out. Bigger is always better. Rabbits need room to hop, stretch, and stand on hind legs."
+      },
+      {
+        "question": "What vegetables can rabbits eat?",
+        "answer": "Leafy greens like romaine, cilantro, parsley, and herbs. Avoid iceberg lettuce and limit high-sugar vegetables like carrots."
+      },
+      {
+        "question": "Do rabbits need exercise outside their cage?",
+        "answer": "Yes! Rabbits need 3-4 hours of exercise outside their enclosure daily. A rabbit-proofed room or secure pen works well."
+      }
+    ]
+  },
+  "rabbit-care-calculator": {
+    "title": "Rabbit Care Calculator - Free Bunny Diet and Space Tool",
+    "description": "Calculate rabbit feeding and living space needs. Free online bunny care calculator for healthy pet rabbits.",
+    "tips": [
+      "Always provide fresh Timothy hay",
+      "Fresh water available at all times",
+      "Fresh leafy greens daily",
+      "Clean litter box daily",
+      "Annual vet checkup"
+    ],
+    "input_title": "Rabbit Care Calculator",
+    "rabbit_weight": "Rabbit Weight",
+    "kg": "kg",
+    "enter_weight": "Enter weight",
+    "rabbit_size": "Rabbit Size",
+    "size_small": "Small",
+    "size_medium": "Medium",
+    "size_large": "Large",
+    "calculate_btn": "Calculate Care",
+    "reset_btn": "Reset",
+    "results_title": "Rabbit Care Results",
+    "daily_diet": "Daily Diet",
+    "daily_hay": "Daily Hay",
+    "daily_pellets": "Daily Pellets",
+    "daily_veggies": "Daily Vegetables",
+    "hutch_size": "Hutch Size",
+    "hutch_length": "Length",
+    "hutch_width": "Width",
+    "hutch_height": "Height",
+    "cm": "cm",
+    "tips_title": "Rabbit Care Tips",
+    "empty_state": "Enter rabbit details to calculate its needs",
+    "footer_note": "Estimated needs based on breed averages. Individual needs may vary.",
+    "howItWorks": {
+      "title": "How Rabbit Care Calculator Works",
+      "formula": "Daily needs based on body weight and size category",
+      "explanation": "This calculator determines optimal diet portions and housing requirements for rabbits based on their size, ensuring proper nutrition and living space.",
+      "steps": [
+        "Enter your rabbit's weight",
+        "Select their size category",
+        "View daily hay, pellet, and vegetable amounts",
+        "Check minimum hutch dimensions"
+      ]
+    },
+    "useCases": [
+      "Planning daily feeding amounts for rabbits",
+      "Selecting appropriate hutch or enclosure size",
+      "Ensuring balanced diet proportions",
+      "Budgeting for rabbit care supplies"
+    ],
+    "seoTips": [
+      "Hay should make up 80% of a rabbit's diet",
+      "Unlimited Timothy hay is essential",
+      "Pellets should be limited based on weight",
+      "Fresh vegetables provide necessary nutrients",
+      "Rabbits need more space than most people expect"
+    ],
+    "commonMistakes": [
+      "Overfeeding pellets relative to hay",
+      "Using too small of an enclosure",
+      "Not providing unlimited hay access",
+      "Feeding wrong vegetables (iceberg lettuce is harmful)"
+    ],
+    "faqs": [
+      {
+        "question": "How much hay should a rabbit eat?",
+        "answer": "Unlimited! A rabbit should eat a pile of hay about their body size daily. Hay is essential for dental and digestive health."
+      },
+      {
+        "question": "How many pellets per day?",
+        "answer": "About 1/4 cup per 5 lbs of body weight for adult rabbits. Pellets should be high-fiber Timothy-based, not alfalfa (for adults)."
+      },
+      {
+        "question": "What size hutch does a rabbit need?",
+        "answer": "Minimum is 4x their body length when stretched out. Bigger is always better. Rabbits need room to hop, stretch, and stand on hind legs."
+      },
+      {
+        "question": "What vegetables can rabbits eat?",
+        "answer": "Leafy greens like romaine, cilantro, parsley, and herbs. Avoid iceberg lettuce and limit high-sugar vegetables like carrots."
+      },
+      {
+        "question": "Do rabbits need exercise outside their cage?",
+        "answer": "Yes! Rabbits need 3-4 hours of exercise outside their enclosure daily. A rabbit-proofed room or secure pen works well."
+      }
+    ]
+  },
+  "reptile_tank_calculator": {
+    "title": "Reptile Tank Calculator - Terrarium Size and Setup",
+    "description": "Calculate terrarium size for reptiles and amphibians. Free online tank calculator for snakes, lizards, and turtles.",
+    "tips": [
+      "Maintain temperature gradient in the tank",
+      "Monitor temperature and humidity daily",
+      "Clean tank weekly",
+      "Always provide fresh water",
+      "Replace UVB bulbs every 6-12 months"
+    ],
+    "substrate_bearded_dragon_en": "Reptile sand or tile",
+    "substrate_gecko_en": "Paper or reptile carpet",
+    "substrate_snake_en": "Aspen shavings",
+    "substrate_tortoise_en": "Soil and grass",
+    "substrate_iguana_en": "Reptile carpet",
+    "howItWorks": {
+      "title": "How Reptile Tank Calculator Works",
+      "formula": "Tank size = Species requirements + Adult size considerations",
+      "explanation": "This calculator recommends terrarium dimensions, heating, and humidity requirements based on reptile species, ensuring proper husbandry for your pet.",
+      "steps": [
+        "Select your reptile species",
+        "Enter the reptile's size or age",
+        "View recommended tank dimensions",
+        "Check temperature, humidity, and lighting requirements"
+      ]
+    },
+    "useCases": [
+      "Selecting appropriate enclosure size for new reptiles",
+      "Planning habitat upgrades as reptiles grow",
+      "Ensuring proper temperature gradients",
+      "Setting up correct lighting and humidity"
+    ],
+    "seoTips": [
+      "Always size tanks for adult size, not current size",
+      "Temperature gradients are essential for thermoregulation",
+      "UVB lighting is crucial for most species",
+      "Humidity requirements vary greatly by species",
+      "Ventilation is as important as heat and humidity"
+    ],
+    "commonMistakes": [
+      "Buying tanks for juvenile size instead of adult",
+      "Not providing a temperature gradient",
+      "Using wrong substrate for the species",
+      "Forgetting to replace UVB bulbs regularly"
+    ],
+    "faqs": [
+      {
+        "question": "How big should my reptile tank be?",
+        "answer": "Generally, the enclosure should be at least 1.5-2x the reptile's adult length. Arboreal species need height; terrestrial species need floor space."
+      },
+      {
+        "question": "Why do reptiles need a temperature gradient?",
+        "answer": "Reptiles are cold-blooded and regulate body temperature by moving between warm and cool areas. One end should be the basking spot, the other end cooler."
+      },
+      {
+        "question": "Do all reptiles need UVB lighting?",
+        "answer": "Most diurnal reptiles need UVB for vitamin D3 synthesis. Nocturnal species and some snakes may not require it, but it's rarely harmful."
+      },
+      {
+        "question": "How often should I replace UVB bulbs?",
+        "answer": "Every 6-12 months, even if they still produce light. UVB output decreases over time even when the bulb appears to work normally."
+      },
+      {
+        "question": "What substrate should I use?",
+        "answer": "This depends on species. Arid species may use sand or tile, tropical species need moisture-retaining substrate. Avoid cedar and pine shavings for all reptiles."
+      }
+    ]
+  },
+  "reptile-tank-calculator": {
+    "title": "Reptile Tank Calculator - Terrarium Size and Setup",
+    "description": "Calculate terrarium size for reptiles and amphibians. Free online tank calculator for snakes, lizards, and turtles.",
+    "tips": [
+      "Maintain temperature gradient in the tank",
+      "Monitor temperature and humidity daily",
+      "Clean tank weekly",
+      "Always provide fresh water",
+      "Replace UVB bulbs every 6-12 months"
+    ],
+    "substrate_bearded_dragon_en": "Reptile sand or tile",
+    "substrate_gecko_en": "Paper or reptile carpet",
+    "substrate_snake_en": "Aspen shavings",
+    "substrate_tortoise_en": "Soil and grass",
+    "substrate_iguana_en": "Reptile carpet",
+    "howItWorks": {
+      "title": "How Reptile Tank Calculator Works",
+      "formula": "Tank size = Species requirements + Adult size considerations",
+      "explanation": "This calculator recommends terrarium dimensions, heating, and humidity requirements based on reptile species, ensuring proper husbandry for your pet.",
+      "steps": [
+        "Select your reptile species",
+        "Enter the reptile's size or age",
+        "View recommended tank dimensions",
+        "Check temperature, humidity, and lighting requirements"
+      ]
+    },
+    "useCases": [
+      "Selecting appropriate enclosure size for new reptiles",
+      "Planning habitat upgrades as reptiles grow",
+      "Ensuring proper temperature gradients",
+      "Setting up correct lighting and humidity"
+    ],
+    "seoTips": [
+      "Always size tanks for adult size, not current size",
+      "Temperature gradients are essential for thermoregulation",
+      "UVB lighting is crucial for most species",
+      "Humidity requirements vary greatly by species",
+      "Ventilation is as important as heat and humidity"
+    ],
+    "commonMistakes": [
+      "Buying tanks for juvenile size instead of adult",
+      "Not providing a temperature gradient",
+      "Using wrong substrate for the species",
+      "Forgetting to replace UVB bulbs regularly"
+    ],
+    "faqs": [
+      {
+        "question": "How big should my reptile tank be?",
+        "answer": "Generally, the enclosure should be at least 1.5-2x the reptile's adult length. Arboreal species need height; terrestrial species need floor space."
+      },
+      {
+        "question": "Why is a temperature gradient important?",
+        "answer": "Reptiles are cold-blooded and need a warm basking spot and cooler area to regulate body temperature. The gradient allows them to thermoregulate."
+      },
+      {
+        "question": "Do all reptiles need UVB lighting?",
+        "answer": "Most do, especially diurnal species. UVB is essential for vitamin D3 synthesis and calcium absorption. Some nocturnal species may not require it."
+      },
+      {
+        "question": "What humidity level do reptiles need?",
+        "answer": "It varies greatly. Desert species: 20-40%. Tropical species: 60-80%+. Research your specific species requirements carefully."
+      },
+      {
+        "question": "How often should I clean the tank?",
+        "answer": "Spot clean daily (remove waste and uneaten food). Deep clean monthly, disinfecting surfaces and replacing substrate as needed."
+      }
+    ]
+  }
+}

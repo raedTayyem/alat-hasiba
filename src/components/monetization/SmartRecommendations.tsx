@@ -47,7 +47,7 @@ export default function SmartRecommendations({
       window.open(product.gumroadUrl, '_blank');
     } else {
       console.warn(`Product ${product.id} needs Gumroad URL`);
-      toast.info(isArabic ? 'سيتم إضافة رابط المنتج قريبًا!' : 'Product link coming soon!');
+      toast.info(t('monetization.messages.productLinkComingSoon'));
     }
   };
 

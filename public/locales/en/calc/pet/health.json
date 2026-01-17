@@ -1,0 +1,530 @@
+{
+  "cat_pregnancy_calculator": {
+    "title": "Cat Pregnancy Calculator",
+    "description": "Calculate your cat's due date and pregnancy timeline.",
+    "label_mating_date": "Mating Date",
+    "tooltip_mating_date": "Enter the date of first mating",
+    "calculate_btn": "Calculate Due Date",
+    "reset_btn": "Reset",
+    "result_due_date": "Estimated Due Date",
+    "result_remaining": "Days Remaining",
+    "result_week": "Current Week",
+    "result_stage": "Pregnancy Stage",
+    "unit_days": "days",
+    "stage_before": "Before Mating",
+    "stage_early": "Early Stage (Week 1-3)",
+    "stage_middle": "Middle Stage (Week 4-6)",
+    "stage_late": "Late Stage (Week 7-9)",
+    "stage_overdue": "Overdue",
+    "tips_title": "Pregnancy Care Tips",
+    "tip_nutrition": "High-quality nutrition for pregnant cats",
+    "tip_vet": "Regular vet checkups",
+    "tip_area": "Provide a quiet and safe birthing area",
+    "tip_prep": "Prepare queening box 2 weeks early",
+    "tip_labor": "Monitor behavior before labor",
+    "empty_state": "Enter mating date to calculate due date",
+    "tips": [
+      "High-quality nutrition for pregnant cats",
+      "Regular vet checkups",
+      "Provide a quiet and safe birthing area",
+      "Prepare queening box 2 weeks early",
+      "Monitor behavior before labor"
+    ],
+    "howItWorks": {
+      "title": "How Cat Pregnancy Calculator Works",
+      "formula": "Due Date = Mating Date + 63-65 days (average gestation period)",
+      "explanation": "This calculator estimates your cat's due date based on the mating date. Cat pregnancy typically lasts 63-65 days, with the calculator showing pregnancy stage and care recommendations.",
+      "steps": [
+        "Enter the date of mating or suspected conception",
+        "Click Calculate to see the estimated due date",
+        "View the current pregnancy week and stage",
+        "Review stage-appropriate care tips"
+      ]
+    },
+    "useCases": [
+      "Planning for kitten arrival and preparing supplies",
+      "Scheduling prenatal vet appointments",
+      "Understanding pregnancy stages for proper care",
+      "Knowing when to prepare the birthing area"
+    ],
+    "seoTips": [
+      "Cat pregnancy is approximately 9 weeks long",
+      "Increase food gradually during the last trimester",
+      "Prepare a quiet, warm nesting box before the due date",
+      "Watch for nesting behavior as labor approaches",
+      "Have emergency vet contact ready near the due date"
+    ],
+    "commonMistakes": [
+      "Not knowing the exact mating date leading to surprise births",
+      "Not increasing food during late pregnancy",
+      "Preparing the birthing area too late",
+      "Missing signs of labor complications"
+    ],
+    "faqs": [
+      {
+        "question": "How long is a cat pregnant?",
+        "answer": "Cat pregnancy lasts approximately 63-65 days (about 9 weeks) from conception to birth. This can vary by a few days."
+      },
+      {
+        "question": "What are signs my cat is pregnant?",
+        "answer": "Early signs include enlarged, pinker nipples around week 2-3, increased appetite, weight gain, and behavior changes. A vet can confirm pregnancy around day 20."
+      },
+      {
+        "question": "How do I prepare for kittens?",
+        "answer": "Prepare a quiet, warm nesting box 2 weeks before the due date. Have clean towels, a heat source, and your vet's emergency number ready."
+      },
+      {
+        "question": "What should I feed a pregnant cat?",
+        "answer": "Switch to high-quality kitten food which has extra calories and nutrients. Increase portions gradually in the last trimester as the queen's appetite grows."
+      },
+      {
+        "question": "When should I call the vet during labor?",
+        "answer": "Call if labor lasts more than 24 hours, there's more than 2 hours between kittens, you see green discharge without a kitten, or the cat seems in distress."
+      }
+    ]
+  },
+  "cat-pregnancy-calculator": {
+    "title": "Cat Pregnancy Calculator",
+    "description": "Calculate your cat's due date and pregnancy timeline.",
+    "label_mating_date": "Mating Date",
+    "tooltip_mating_date": "Enter the date of first mating",
+    "calculate_btn": "Calculate Due Date",
+    "reset_btn": "Reset",
+    "result_due_date": "Estimated Due Date",
+    "result_remaining": "Days Remaining",
+    "result_week": "Current Week",
+    "result_stage": "Pregnancy Stage",
+    "unit_days": "days",
+    "stage_before": "Before Mating",
+    "stage_early": "Early Stage (Week 1-3)",
+    "stage_middle": "Middle Stage (Week 4-6)",
+    "stage_late": "Late Stage (Week 7-9)",
+    "stage_overdue": "Overdue",
+    "tips_title": "Pregnancy Care Tips",
+    "tip_nutrition": "High-quality nutrition for pregnant cats",
+    "tip_vet": "Regular vet checkups",
+    "tip_area": "Provide a quiet and safe birthing area",
+    "tip_prep": "Prepare queening box 2 weeks early",
+    "tip_labor": "Monitor behavior before labor",
+    "empty_state": "Enter mating date to calculate due date",
+    "tips": [
+      "High-quality nutrition for pregnant cats",
+      "Regular vet checkups",
+      "Provide a quiet and safe birthing area",
+      "Prepare queening box 2 weeks early",
+      "Monitor behavior before labor"
+    ],
+    "howItWorks": {
+      "title": "How Cat Pregnancy Calculator Works",
+      "formula": "Due Date = Mating Date + 63-65 days (average gestation period)",
+      "explanation": "This calculator estimates your cat's due date based on the mating date. Cat pregnancy typically lasts 63-65 days, with the calculator showing pregnancy stage and care recommendations.",
+      "steps": [
+        "Enter the date of mating or suspected conception",
+        "Click Calculate to see the estimated due date",
+        "View the current pregnancy week and stage",
+        "Review stage-appropriate care tips"
+      ]
+    },
+    "useCases": [
+      "Planning for kitten arrival and preparing supplies",
+      "Scheduling prenatal vet appointments",
+      "Understanding pregnancy stages for proper care",
+      "Knowing when to prepare the birthing area"
+    ],
+    "seoTips": [
+      "Cat pregnancy is approximately 9 weeks long",
+      "Increase food gradually during the last trimester",
+      "Prepare a quiet, warm nesting box before the due date",
+      "Watch for nesting behavior as labor approaches",
+      "Have emergency vet contact ready near the due date"
+    ],
+    "commonMistakes": [
+      "Not knowing the exact mating date leading to surprise births",
+      "Not increasing food during late pregnancy",
+      "Preparing the birthing area too late",
+      "Missing signs of labor complications"
+    ],
+    "faqs": [
+      {
+        "question": "How long is a cat pregnant?",
+        "answer": "Cat pregnancy lasts approximately 63-65 days (about 9 weeks) from conception to birth. This can vary by a few days."
+      },
+      {
+        "question": "What are signs my cat is pregnant?",
+        "answer": "Early signs include enlarged, pinker nipples around week 2-3, increased appetite, weight gain, and behavior changes. A vet can confirm pregnancy around day 20."
+      },
+      {
+        "question": "How do I prepare for kittens?",
+        "answer": "Prepare a quiet, warm nesting box 2 weeks before the due date. Have clean towels, a heat source, and your vet's emergency number ready."
+      },
+      {
+        "question": "What should I feed a pregnant cat?",
+        "answer": "Switch to high-quality kitten food which has extra calories and nutrients. Increase portions gradually in the last trimester as the queen's appetite grows."
+      },
+      {
+        "question": "When should I call the vet during labor?",
+        "answer": "Call if labor lasts more than 24 hours, there's more than 2 hours between kittens, you see green discharge without a kitten, or the cat seems in distress."
+      }
+    ]
+  },
+  "dog_pregnancy_calculator": {
+    "title": "Dog Pregnancy Calculator - Due Date Tracker",
+    "description": "Calculate dog pregnancy due date and track pregnancy stages. Free online tool for dog breeders and pet owners.",
+    "input_title": "Dog Pregnancy Calculator",
+    "mating_date": "Mating Date",
+    "mating_date_tooltip": "Enter the date of mating",
+    "calculate_btn": "Calculate Due Date",
+    "reset_btn": "Reset",
+    "results_title": "Pregnancy Information",
+    "due_date": "Due Date",
+    "days_remaining": "Days Remaining",
+    "days_unit": "days",
+    "current_week": "Current Week",
+    "stage": "Pregnancy Stage",
+    "week_1_3": "Week 1-3: Early Stage",
+    "week_4_6": "Week 4-6: Middle Stage",
+    "week_7_9": "Week 7-9: Late Stage",
+    "week_1_3_desc": "Embryo development begins, implantation occurs",
+    "week_4_6_desc": "Organ formation, fetal development accelerates",
+    "week_7_9_desc": "Final growth, prepare for whelping",
+    "tips_title": "Pregnancy Care Tips",
+    "tip_1": "Provide nutritious food formulated for pregnant dogs",
+    "tip_2": "Schedule regular vet check-ups",
+    "tip_3": "Prepare a quiet, comfortable whelping area",
+    "tip_4": "Monitor for signs of labor as due date approaches",
+    "empty_state": "Enter mating date to calculate pregnancy timeline",
+    "footer_note": "Average gestation period is 63 days. Consult your veterinarian for proper care.",
+    "howItWorks": {
+      "title": "How Dog Pregnancy Calculator Works",
+      "formula": "Due Date = Mating Date + 63 days (average gestation period)",
+      "explanation": "This calculator estimates your dog's due date and tracks pregnancy stages. Dog pregnancy lasts approximately 63 days, though it can range from 58-68 days depending on breed.",
+      "steps": [
+        "Enter the date of mating or confirmed breeding",
+        "Click Calculate to see the estimated due date",
+        "View current pregnancy week and stage",
+        "Review stage-specific care recommendations"
+      ]
+    },
+    "useCases": [
+      "Planning for puppy arrival and whelping supplies",
+      "Scheduling prenatal vet appointments and ultrasounds",
+      "Understanding pregnancy stages for optimal care",
+      "Preparing whelping area at the right time"
+    ],
+    "seoTips": [
+      "Dog pregnancy is approximately 9 weeks",
+      "Ultrasound can confirm pregnancy around day 25",
+      "Nutrition requirements increase in the last trimester",
+      "Prepare whelping box 1-2 weeks before due date",
+      "Temperature drop signals labor within 24 hours"
+    ],
+    "commonMistakes": [
+      "Not confirming pregnancy with a vet",
+      "Overfeeding too early in pregnancy",
+      "Not preparing whelping supplies in advance",
+      "Missing signs of labor complications"
+    ],
+    "faqs": [
+      {
+        "question": "How long are dogs pregnant?",
+        "answer": "Dog pregnancy lasts approximately 63 days (9 weeks) from ovulation. The range is 58-68 days, and larger breeds sometimes go longer."
+      },
+      {
+        "question": "When can a vet confirm pregnancy?",
+        "answer": "Blood tests can detect pregnancy hormones around day 25. Ultrasound works around day 25-30, and X-rays can count puppies after day 45."
+      },
+      {
+        "question": "What should I feed a pregnant dog?",
+        "answer": "Continue regular food for the first 4-5 weeks, then gradually switch to high-quality puppy food. Increase portions by 25-50% in the last trimester."
+      },
+      {
+        "question": "How do I prepare for whelping?",
+        "answer": "Set up a quiet whelping box 2 weeks early. Have clean towels, heating pad, suction bulb, dental floss for cords, and your vet's emergency number ready."
+      },
+      {
+        "question": "When should I call the vet during labor?",
+        "answer": "Call if more than 2 hours pass between puppies, if strong contractions last over 30 minutes without a puppy, or if you see dark green discharge before the first puppy."
+      }
+    ]
+  },
+  "dog-pregnancy-calculator": {
+    "title": "Dog Pregnancy Calculator - Due Date Tracker",
+    "description": "Calculate dog pregnancy due date and track pregnancy stages. Free online tool for dog breeders and pet owners.",
+    "input_title": "Dog Pregnancy Calculator",
+    "mating_date": "Mating Date",
+    "mating_date_tooltip": "Enter the date of mating",
+    "calculate_btn": "Calculate Due Date",
+    "reset_btn": "Reset",
+    "results_title": "Pregnancy Information",
+    "due_date": "Due Date",
+    "days_remaining": "Days Remaining",
+    "days_unit": "days",
+    "current_week": "Current Week",
+    "stage": "Pregnancy Stage",
+    "week_1_3": "Week 1-3: Early Stage",
+    "week_4_6": "Week 4-6: Middle Stage",
+    "week_7_9": "Week 7-9: Late Stage",
+    "week_1_3_desc": "Embryo development begins, implantation occurs",
+    "week_4_6_desc": "Organ formation, fetal development accelerates",
+    "week_7_9_desc": "Final growth, prepare for whelping",
+    "tips_title": "Pregnancy Care Tips",
+    "tip_1": "Provide nutritious food formulated for pregnant dogs",
+    "tip_2": "Schedule regular vet check-ups",
+    "tip_3": "Prepare a quiet, comfortable whelping area",
+    "tip_4": "Monitor for signs of labor as due date approaches",
+    "empty_state": "Enter mating date to calculate pregnancy timeline",
+    "footer_note": "Average gestation period is 63 days. Consult your veterinarian for proper care.",
+    "howItWorks": {
+      "title": "How Dog Pregnancy Calculator Works",
+      "formula": "Due Date = Mating Date + 63 days (average gestation period)",
+      "explanation": "This calculator estimates your dog's due date and tracks pregnancy stages. Dog pregnancy lasts approximately 63 days, though it can range from 58-68 days depending on breed.",
+      "steps": [
+        "Enter the date of mating or confirmed breeding",
+        "Click Calculate to see the estimated due date",
+        "View current pregnancy week and stage",
+        "Review stage-specific care recommendations"
+      ]
+    },
+    "useCases": [
+      "Planning for puppy arrival and whelping supplies",
+      "Scheduling prenatal vet appointments and ultrasounds",
+      "Understanding pregnancy stages for optimal care",
+      "Preparing whelping area at the right time"
+    ],
+    "seoTips": [
+      "Dog pregnancy is approximately 9 weeks",
+      "Ultrasound can confirm pregnancy around day 25",
+      "Nutrition requirements increase in the last trimester",
+      "Prepare whelping box 1-2 weeks before due date",
+      "Temperature drop signals labor within 24 hours"
+    ],
+    "commonMistakes": [
+      "Not confirming pregnancy with a vet",
+      "Overfeeding too early in pregnancy",
+      "Not preparing whelping supplies in advance",
+      "Missing signs of labor complications"
+    ],
+    "faqs": [
+      {
+        "question": "How long are dogs pregnant?",
+        "answer": "Dog pregnancy lasts approximately 63 days (9 weeks) from ovulation. The range is 58-68 days, and larger breeds sometimes go longer."
+      },
+      {
+        "question": "When can a vet confirm pregnancy?",
+        "answer": "Blood tests can detect pregnancy hormones around day 25. Ultrasound works around day 25-30, and X-rays can count puppies after day 45."
+      },
+      {
+        "question": "What should I feed a pregnant dog?",
+        "answer": "Continue regular food for the first 4-5 weeks, then gradually switch to high-quality puppy food. Increase portions by 25-50% in the last trimester."
+      },
+      {
+        "question": "How do I prepare for whelping?",
+        "answer": "Set up a quiet whelping box 2 weeks early. Have clean towels, heating pad, suction bulb, dental floss for cords, and your vet's emergency number ready."
+      },
+      {
+        "question": "When should I call the vet during labor?",
+        "answer": "Call if more than 2 hours pass between puppies, if strong contractions last over 30 minutes without a puppy, or if you see dark green discharge before the first puppy."
+      }
+    ]
+  },
+  "pet_medication_dosage_calculator": {
+    "title": "Pet medication dosage calculator - Free Vet Dose Tool",
+    "description": "Calculate medication dose by pet weight accurately. Free online vet drug dosage calculator for dogs and cats.",
+    "tips": [
+      "Only use medications prescribed by a vet",
+      "Do not give human medications without consultation",
+      "Check medication expiry date",
+      "Follow instructions strictly",
+      "Contact a vet if any abnormal symptoms appear"
+    ],
+    "input_title": "Medication Dosage Calculator",
+    "pet_weight": "Pet Weight",
+    "pet_weight_tooltip": "Enter your pet's weight in kilograms",
+    "weight_unit": "kg",
+    "enter_weight": "Enter weight",
+    "dosage_per_kg": "Dosage per kg",
+    "dosage_per_kg_tooltip": "Prescribed dosage amount per kilogram of body weight",
+    "dosage_unit": "mg/kg",
+    "enter_dosage": "Enter dosage",
+    "administration_frequency": "Administration Frequency",
+    "frequency_tooltip": "How often to administer the medication",
+    "frequency_6h": "Every 6 hours (4x/day)",
+    "frequency_8h": "Every 8 hours (3x/day)",
+    "frequency_12h": "Every 12 hours (2x/day)",
+    "frequency_24h": "Once daily",
+    "medication_form": "Medication Form",
+    "form_tooltip": "Type of medication formulation",
+    "form_liquid": "Liquid",
+    "form_tablet": "Tablet/Capsule",
+    "concentration": "Concentration",
+    "concentration_tooltip": "Medication concentration (mg per ml for liquids)",
+    "concentration_unit": "mg/ml",
+    "enter_concentration": "Enter concentration",
+    "calculate_btn": "Calculate Dosage",
+    "reset_btn": "Reset",
+    "results_title": "Dosage Results",
+    "total_daily_dose": "Total Daily Dose",
+    "dose_per_admin": "Dose per Administration",
+    "admin_per_day": "Administrations per Day",
+    "volume_per_dose": "Volume per Dose",
+    "volume_unit": "ml",
+    "tablet_unit": "tablet(s)",
+    "empty_state": "Enter pet details to calculate dosage",
+    "footer_note": "Always consult a veterinarian for medication dosing. This calculator is for reference only.",
+    "administration_per_day_unit": "times/day",
+    "total_dose_per_day": "Total Dose per Day",
+    "tips_title": "Important Safety Tips",
+    "howItWorks": {
+      "title": "How Pet Medication Dosage Calculator Works",
+      "formula": "Dose = Pet weight (kg) × Prescribed dose per kg",
+      "explanation": "This calculator helps determine medication doses based on your pet's weight and the veterinarian-prescribed dosage rate. Always verify with your vet.",
+      "steps": [
+        "Enter your pet's weight",
+        "Enter the prescribed dosage per kilogram",
+        "Select administration frequency",
+        "Choose medication form (liquid or tablet)",
+        "For liquids, enter concentration",
+        "View calculated dose amounts"
+      ]
+    },
+    "useCases": [
+      "Calculating medication doses for pets",
+      "Converting tablet to liquid dosing",
+      "Determining daily total medication amount",
+      "Verifying vet-prescribed doses"
+    ],
+    "seoTips": [
+      "Always use a veterinarian-prescribed dosage",
+      "Weigh pets accurately before calculating",
+      "Never give human medication without vet approval",
+      "Complete full medication course as prescribed",
+      "Store medications properly per instructions"
+    ],
+    "commonMistakes": [
+      "Using human medication dosages for pets",
+      "Guessing pet weight instead of weighing",
+      "Stopping medication early when pet seems better",
+      "Mixing medications without vet approval"
+    ],
+    "faqs": [
+      {
+        "question": "Can I give my pet human medication?",
+        "answer": "Never give human medication to pets without veterinary guidance. Many human drugs are toxic to animals, and dosages differ significantly."
+      },
+      {
+        "question": "How do I weigh my pet accurately?",
+        "answer": "Weigh yourself, then weigh yourself holding your pet, and subtract. For small pets, use a kitchen scale. Accurate weight is crucial for dosing."
+      },
+      {
+        "question": "What if I miss a dose?",
+        "answer": "Give the missed dose as soon as you remember, unless it's close to the next dose time. Never double up. Contact your vet if unsure."
+      },
+      {
+        "question": "How do I give liquid medication?",
+        "answer": "Use a syringe without a needle. Insert into the side of the mouth, behind the canine teeth. Squirt slowly to avoid choking."
+      },
+      {
+        "question": "Why is this calculator for reference only?",
+        "answer": "Individual pets may have conditions affecting drug metabolism. Only a veterinarian can determine the safe and effective dose for your specific pet."
+      }
+    ]
+  },
+  "pet-medication-dosage-calculator": {
+    "title": "Pet medication dosage calculator - Free Vet Dose Tool",
+    "description": "Calculate medication dose by pet weight accurately. Free online vet drug dosage calculator for dogs and cats.",
+    "tips": [
+      "Only use medications prescribed by a vet",
+      "Do not give human medications without consultation",
+      "Check medication expiry date",
+      "Follow instructions strictly",
+      "Contact a vet if any abnormal symptoms appear"
+    ],
+    "input_title": "Medication Dosage Calculator",
+    "pet_weight": "Pet Weight",
+    "pet_weight_tooltip": "Enter your pet's weight in kilograms",
+    "weight_unit": "kg",
+    "enter_weight": "Enter weight",
+    "dosage_per_kg": "Dosage per kg",
+    "dosage_per_kg_tooltip": "Prescribed dosage amount per kilogram of body weight",
+    "dosage_unit": "mg/kg",
+    "enter_dosage": "Enter dosage",
+    "administration_frequency": "Administration Frequency",
+    "frequency_tooltip": "How often to administer the medication",
+    "frequency_6h": "Every 6 hours (4x/day)",
+    "frequency_8h": "Every 8 hours (3x/day)",
+    "frequency_12h": "Every 12 hours (2x/day)",
+    "frequency_24h": "Once daily",
+    "medication_form": "Medication Form",
+    "form_tooltip": "Type of medication formulation",
+    "form_liquid": "Liquid",
+    "form_tablet": "Tablet/Capsule",
+    "concentration": "Concentration",
+    "concentration_tooltip": "Medication concentration (mg per ml for liquids)",
+    "concentration_unit": "mg/ml",
+    "enter_concentration": "Enter concentration",
+    "calculate_btn": "Calculate Dosage",
+    "reset_btn": "Reset",
+    "results_title": "Dosage Results",
+    "total_daily_dose": "Total Daily Dose",
+    "dose_per_admin": "Dose per Administration",
+    "admin_per_day": "Administrations per Day",
+    "volume_per_dose": "Volume per Dose",
+    "volume_unit": "ml",
+    "tablet_unit": "tablet(s)",
+    "empty_state": "Enter pet details to calculate dosage",
+    "footer_note": "Always consult a veterinarian for medication dosing. This calculator is for reference only.",
+    "administration_per_day_unit": "times/day",
+    "total_dose_per_day": "Total Dose per Day",
+    "tips_title": "Important Safety Tips",
+    "howItWorks": {
+      "title": "How Pet Medication Dosage Calculator Works",
+      "formula": "Dose = Pet Weight (kg) × Dosage Rate (mg/kg)",
+      "explanation": "This calculator helps determine medication amounts based on your pet's weight and the prescribed dosage rate. It converts between liquid and tablet forms for accurate administration.",
+      "steps": [
+        "Enter your pet's weight in kilograms",
+        "Input the prescribed dosage per kilogram",
+        "Select how often the medication should be given",
+        "Choose medication form (liquid or tablet)",
+        "For liquids, enter the concentration",
+        "View the calculated dose per administration"
+      ]
+    },
+    "useCases": [
+      "Converting prescribed mg/kg dosages to actual amounts",
+      "Calculating liquid medication volumes for syringes",
+      "Determining daily total medication doses",
+      "Splitting tablets accurately for smaller pets"
+    ],
+    "seoTips": [
+      "Always verify doses with your veterinarian",
+      "Weigh pets accurately before calculating",
+      "Use a proper syringe for liquid medications",
+      "Complete the full course of prescribed medications",
+      "Store medications according to label instructions"
+    ],
+    "commonMistakes": [
+      "Using human medications without vet approval",
+      "Estimating pet weight instead of measuring",
+      "Stopping antibiotics early when pet seems better",
+      "Crushing extended-release medications"
+    ],
+    "faqs": [
+      {
+        "question": "Why is accurate weight important?",
+        "answer": "Pet medication dosages are weight-dependent. Small errors in weight can lead to significant under or overdosing, especially for smaller pets."
+      },
+      {
+        "question": "Can I give my pet human medication?",
+        "answer": "Never without veterinary guidance. Many human medications are toxic to pets. Even safe ones require different dosing than humans."
+      },
+      {
+        "question": "How do I give liquid medication?",
+        "answer": "Use a syringe without a needle. Insert into the side of the mouth, behind the canine teeth. Squirt slowly to avoid choking."
+      },
+      {
+        "question": "Why is this calculator for reference only?",
+        "answer": "Individual pets may have conditions affecting drug metabolism. Only a veterinarian can determine the safe and effective dose for your specific pet."
+      }
+    ]
+  }
+}

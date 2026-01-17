@@ -1,0 +1,842 @@
+{
+  "body-fat-percentage-calculator": {
+    "title": "Body Fat Percentage Calculator - Free Online Fat Tracker",
+    "description": "Calculate your body fat percentage accurately. Free online tool to track body composition based on gender and age.",
+    "howItWorks": {
+      "title": "How the Body Fat Calculator Works",
+      "formula": "U.S. Navy Method: Body Fat % (Men) = 86.010 × log10(waist - neck) - 70.041 × log10(height) + 36.76",
+      "explanation": "This calculator uses the U.S. Navy Method to estimate body fat percentage based on body circumference measurements. This method is accurate and easy to use without specialized equipment, providing a reliable estimate of body composition.",
+      "steps": [
+        {
+          "name": "Enter Data",
+          "text": "Input your gender, height, weight, and circumference measurements"
+        },
+        {
+          "name": "Calculate",
+          "text": "The calculator applies the U.S. Navy formula to your measurements"
+        },
+        {
+          "name": "View Results",
+          "text": "Get your body fat percentage and health category classification"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Weight Loss Tracking",
+        "description": "Used by dieters to track fat loss, not just weight loss"
+      },
+      {
+        "title": "Bodybuilding",
+        "description": "Monitor body fat during bulking and cutting phases"
+      },
+      {
+        "title": "General Health Assessment",
+        "description": "Determine if your body fat is within a healthy range"
+      }
+    ],
+    "seoTips": [
+      "Measure waist at navel level for accurate readings",
+      "Take measurements in the morning before eating for consistency",
+      "Use a flexible, non-stretchable measuring tape",
+      "Take 3 measurements and use the average for better accuracy"
+    ],
+    "commonMistakes": [
+      "Pulling the tape too tight, giving inaccurate readings",
+      "Measuring over clothing instead of directly on skin",
+      "Not standing straight during measurement",
+      "Comparing results between different measurement methods"
+    ],
+    "faqs": [
+      {
+        "question": "What is a healthy body fat percentage?",
+        "answer": "For men: 10-20% is healthy. For women: 18-28% is healthy. Athletes may have lower percentages."
+      },
+      {
+        "question": "How often should I measure body fat?",
+        "answer": "Every 2-4 weeks is recommended to effectively track changes."
+      },
+      {
+        "question": "How accurate is this method?",
+        "answer": "The U.S. Navy Method is accurate within ±3-4% compared to lab methods."
+      },
+      {
+        "question": "Why do men and women have different ranges?",
+        "answer": "Women biologically need higher body fat for hormonal and reproductive functions."
+      }
+    ]
+  },
+  "lean-body-mass-calculator": {
+    "title": "Lean Body Mass Calculator - Calculate Muscle Mass",
+    "description": "Calculate your lean muscle mass accurately. Free online lean body mass calculator for fitness and bodybuilding tracking.",
+    "gender": "Gender",
+    "gender_tooltip": "Select your biological gender",
+    "male": "Male",
+    "female": "Female",
+    "weight": "Weight (kg)",
+    "weight_tooltip": "Enter your body weight in kilograms",
+    "enter_weight": "Enter weight",
+    "kg": "kg",
+    "height": "Height (cm)",
+    "height_tooltip": "Enter your height in centimeters",
+    "enter_height": "Enter height",
+    "cm": "cm",
+    "neck": "Neck Circumference (cm)",
+    "neck_tooltip": "Measure around your neck",
+    "enter_neck": "Enter neck",
+    "waist": "Waist Circumference (cm)",
+    "waist_tooltip": "Measure around your waist at navel level",
+    "enter_waist": "Enter waist",
+    "hip": "Hip Circumference (cm)",
+    "hip_tooltip": "Measure around your hips (for females)",
+    "enter_hip": "Enter hip",
+    "calculate_btn": "Calculate LBM",
+    "reset_btn": "Reset",
+    "results_title": "Results",
+    "lean_body_mass": "Lean Body Mass",
+    "muscle_percentage": "Muscle Mass Percentage",
+    "fat_mass": "Fat Mass",
+    "body_fat_percentage": "Body Fat Percentage",
+    "tips_title": "Body Composition Tips",
+    "tips_list": "Regular exercise increases lean mass, adequate protein supports muscle maintenance, strength training helps preserve LBM as you age",
+    "empty_state": "Enter your measurements to calculate lean body mass",
+    "footer_note": "Calculations use the U.S. Navy Method. Results are estimates."
+  },
+  "ideal-weight-calculator": {
+    "title": "Ideal Weight Calculator - Free Healthy Weight Tool",
+    "description": "Calculate your ideal healthy weight based on height, gender, and age. Free online weight target calculator.",
+    "howItWorks": {
+      "title": "How the Ideal Weight Calculator Works",
+      "formula": "Devine Formula: Men = 50 + 2.3 × (height in inches - 60), Women = 45.5 + 2.3 × (height in inches - 60)",
+      "explanation": "This calculator uses multiple scientifically-validated formulas to calculate ideal weight based on your height and gender. It combines Devine, Robinson, and Miller formulas to give you a realistic healthy weight range.",
+      "steps": [
+        {
+          "name": "Enter Information",
+          "text": "Input your height, gender, and age"
+        },
+        {
+          "name": "Apply Formulas",
+          "text": "The tool calculates your ideal weight using multiple formulas"
+        },
+        {
+          "name": "View Results",
+          "text": "Get your ideal weight range with health recommendations"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Setting Weight Loss Goals",
+        "description": "Determine a realistic and healthy target weight"
+      },
+      {
+        "title": "Fitness Planning",
+        "description": "For athletes who need to reach a specific weight for competitions"
+      },
+      {
+        "title": "General Health Assessment",
+        "description": "Evaluate if your current weight is within a healthy range"
+      }
+    ],
+    "seoTips": [
+      "Ideal weight varies based on body frame size (small, medium, large)",
+      "Focus on a healthy range rather than a single number",
+      "Muscle mass may make your weight higher than ideal - this is normal for athletes",
+      "Consult a doctor to determine the best weight for your health condition"
+    ],
+    "commonMistakes": [
+      "Pursuing unrealistic weights based only on aesthetic standards",
+      "Ignoring muscle mass when evaluating weight",
+      "Comparing your weight to people with different heights and frames",
+      "Trying to reach ideal weight too quickly"
+    ],
+    "faqs": [
+      {
+        "question": "Is ideal weight the same for everyone of the same height?",
+        "answer": "No, it varies by gender, bone structure, and muscle mass."
+      },
+      {
+        "question": "Can I be healthy at a weight above the ideal?",
+        "answer": "Yes, especially if you have high muscle mass or a large bone structure."
+      },
+      {
+        "question": "How do I reach my ideal weight healthily?",
+        "answer": "Through gradual diet adjustments and exercise, at a rate of 0.5-1 kg per week."
+      }
+    ]
+  },
+  "waist-to-hip-ratio-calculator": {
+    "title": "Waist-to-Hip Ratio Calculator - Free Health Risk Tool",
+    "description": "Calculate your waist-to-hip ratio (WHR) to assess health risks and body fat distribution. Free online health assessment.",
+    "howItWorks": {
+      "title": "How the Waist-to-Hip Ratio Calculator Works",
+      "formula": "WHR = Waist Circumference (cm) ÷ Hip Circumference (cm)",
+      "explanation": "This ratio measures body fat distribution and is an important indicator of health risks. Fat accumulated around the abdomen (apple shape) is more dangerous than fat around the hips (pear shape).",
+      "steps": [
+        {
+          "name": "Measure Waist",
+          "text": "Measure your waist at the narrowest point above your navel"
+        },
+        {
+          "name": "Measure Hips",
+          "text": "Measure your hips at the widest point"
+        },
+        {
+          "name": "Calculate Ratio",
+          "text": "The calculator divides waist by hip and evaluates the result"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Heart Disease Risk Assessment",
+        "description": "High ratios correlate with increased cardiovascular disease risk"
+      },
+      {
+        "title": "Fat Distribution Tracking",
+        "description": "Monitor changes in fat distribution during weight loss programs"
+      },
+      {
+        "title": "Preventive Health Screening",
+        "description": "A preliminary screening tool for obesity-related health risks"
+      }
+    ],
+    "seoTips": [
+      "Measure at the same time of day for consistent readings",
+      "Do not suck in your stomach during measurement",
+      "Use a mirror or ask for help to get an accurate measurement",
+      "Record measurements monthly to track progress"
+    ],
+    "commonMistakes": [
+      "Measuring waist at the navel instead of the narrowest point",
+      "Holding breath or sucking in stomach during measurement",
+      "Measuring over thick clothing",
+      "Not keeping the tape level around the body"
+    ],
+    "faqs": [
+      {
+        "question": "What is a healthy WHR for men and women?",
+        "answer": "For men: less than 0.9 is healthy. For women: less than 0.85 is healthy."
+      },
+      {
+        "question": "Why is belly fat more dangerous?",
+        "answer": "It's associated with visceral fat that surrounds organs and increases risk of diabetes and heart disease."
+      },
+      {
+        "question": "Can I improve this ratio?",
+        "answer": "Yes, through aerobic exercise, calorie reduction, and core exercises."
+      }
+    ]
+  },
+  "body-frame-size-calculator": {
+    "title": "Body Frame Size Calculator - Small, Medium, or Large",
+    "description": "Calculate your body frame size accurately. Free online tool to determine bone structure for realistic weight goals.",
+    "howItWorks": {
+      "title": "How the Body Frame Size Calculator Works",
+      "formula": "R-Value = Height (cm) ÷ Wrist Circumference (cm)",
+      "explanation": "This calculator determines your bone structure size based on the ratio of your height to wrist circumference. Knowing your frame size is important for determining a realistic ideal weight range for you.",
+      "steps": [
+        {
+          "name": "Measure Height",
+          "text": "Measure your height accurately in centimeters"
+        },
+        {
+          "name": "Measure Wrist",
+          "text": "Measure your wrist circumference at the narrowest point below the wrist bone"
+        },
+        {
+          "name": "Determine Frame",
+          "text": "The tool calculates the ratio and classifies your frame (small, medium, large)"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Determining Ideal Weight",
+        "description": "Adjust your ideal weight range based on your bone structure"
+      },
+      {
+        "title": "Fitness Planning",
+        "description": "Set realistic goals for muscle mass and weight"
+      },
+      {
+        "title": "Better Body Understanding",
+        "description": "Understand why your weight differs from others of the same height"
+      }
+    ],
+    "seoTips": [
+      "Measure wrist at the narrowest point for accuracy",
+      "A large frame means your natural weight will be higher",
+      "Bone structure cannot be changed",
+      "Use this information to adjust ideal weight expectations"
+    ],
+    "commonMistakes": [
+      "Measuring above the prominent wrist bone",
+      "Using the dominant hand which may be slightly larger",
+      "Measuring after exercise when blood vessels are dilated",
+      "Confusing frame size with body fat percentage"
+    ],
+    "faqs": [
+      {
+        "question": "Can body frame size be changed?",
+        "answer": "No, frame size is genetic and cannot be changed through exercise or diet."
+      },
+      {
+        "question": "How does frame size affect ideal weight?",
+        "answer": "Larger frames naturally support more weight, with differences up to 5-10 kg."
+      },
+      {
+        "question": "Why measure the wrist specifically?",
+        "answer": "The wrist has minimal fat and muscle, so it accurately reflects bone size."
+      }
+    ]
+  },
+  "body-recomposition-calculator": {
+    "title": "Body Recomposition Calculator - Build Muscle & Lose Fat",
+    "description": "Calculate requirements for simultaneous muscle growth and fat loss. Free online body recomposition guide.",
+    "howItWorks": {
+      "title": "How the Body Recomposition Calculator Works",
+      "formula": "Training Day Calories = TDEE + 10-20%, Rest Day Calories = TDEE - 10-20%",
+      "explanation": "Body recomposition is building muscle and losing fat simultaneously. It works through calorie cycling: a slight surplus on training days to build muscle, and a slight deficit on rest days to burn fat.",
+      "steps": [
+        {
+          "name": "Calculate TDEE",
+          "text": "Input your maintenance calories"
+        },
+        {
+          "name": "Set Training Days",
+          "text": "Specify the number of weight training days weekly"
+        },
+        {
+          "name": "Calculate Calories",
+          "text": "The tool calculates calories for training and rest days"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Beginners",
+        "description": "Beginners can build muscle and burn fat more easily"
+      },
+      {
+        "title": "Returning to Training",
+        "description": "Those who stopped training for a while benefit from recomposition"
+      },
+      {
+        "title": "Those Who Don't Want to Bulk",
+        "description": "For those who want to improve body composition without weight gain"
+      }
+    ],
+    "seoTips": [
+      "Recomposition is slower than separate bulking or cutting",
+      "High protein is essential (2+ g/kg)",
+      "Strength training is more important than cardio for recomposition",
+      "Sleep and recovery are essential for success"
+    ],
+    "commonMistakes": [
+      "Expecting quick results like bulking or cutting",
+      "Not eating enough protein",
+      "Too much cardio and neglecting weights",
+      "Impatience and switching between approaches"
+    ],
+    "faqs": [
+      {
+        "question": "Is recomposition possible for everyone?",
+        "answer": "Easier for beginners and those with excess fat, harder for advanced trainees."
+      },
+      {
+        "question": "How long until results?",
+        "answer": "3-6 months to notice significant changes in body composition."
+      },
+      {
+        "question": "Does weight change?",
+        "answer": "It may stay the same as muscle replaces fat."
+      }
+    ]
+  },
+  "body_fat": {
+    "title": "Body Fat Percentage Calculator",
+    "description": "Calculate your body fat percentage accurately based on gender and body measurements.",
+    "gender": "Gender",
+    "age": "Age",
+    "weight": "Weight",
+    "height": "Height",
+    "neck": "Neck Circumference",
+    "waist": "Waist Circumference",
+    "hip": "Hip Circumference",
+    "enter_age": "Enter age",
+    "enter_weight": "Enter weight",
+    "enter_height": "Enter height",
+    "enter_neck": "Enter neck",
+    "enter_waist": "Enter waist",
+    "enter_hip": "Enter hip",
+    "calculate_btn": "Calculate Body Fat",
+    "reset_btn": "Reset",
+    "results_title": "Body Composition",
+    "body_fat_percentage": "Body Fat Percentage",
+    "fat_mass": "Fat Mass",
+    "lean_mass": "Lean Body Mass",
+    "category": "Category:",
+    "categories": {
+      "essential": "Essential Fat",
+      "athletes": "Athletes",
+      "fitness": "Fitness",
+      "average": "Average",
+      "obese": "Obese"
+    },
+    "ranges_title": "Body Fat Ranges",
+    "ranges_male": {
+      "essential": "Essential: 2-5%",
+      "athletes": "Athletes: 6-13%",
+      "fitness": "Fitness: 14-17%",
+      "average": "Average: 18-24%",
+      "obese": "Obese: 25%+"
+    },
+    "ranges_female": {
+      "essential": "Essential: 10-13%",
+      "athletes": "Athletes: 14-20%",
+      "fitness": "Fitness: 21-24%",
+      "average": "Average: 25-31%",
+      "obese": "Obese: 32%+"
+    },
+    "empty_state": "Enter your measurements to calculate body fat percentage",
+    "footer_note": "Calculations based on the U.S. Navy Method.",
+    "howItWorks": {
+      "title": "How the Body Fat Calculator Works",
+      "formula": "U.S. Navy Method: Body Fat % (Men) = 86.010 × log10(waist - neck) - 70.041 × log10(height) + 36.76",
+      "explanation": "This calculator uses the U.S. Navy Method to estimate body fat percentage from circumference measurements. This method is accurate, easy to perform without specialized equipment, and provides reliable estimates of body composition.",
+      "steps": [
+        {
+          "name": "Enter Personal Data",
+          "text": "Input your gender, height, weight, and age"
+        },
+        {
+          "name": "Measure Circumferences",
+          "text": "Measure and enter neck, waist, and hip (women) circumferences"
+        },
+        {
+          "name": "View Results",
+          "text": "Get your body fat percentage, fat mass, and lean mass with category classification"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Weight Loss Tracking",
+        "description": "Monitor actual fat loss rather than just scale weight during diet programs"
+      },
+      {
+        "title": "Bodybuilding Phases",
+        "description": "Track body fat during bulking and cutting phases to optimize results"
+      },
+      {
+        "title": "Health Assessment",
+        "description": "Determine if your body fat is within healthy ranges for your age and gender"
+      }
+    ],
+    "seoTips": [
+      "Measure waist at navel level, keeping the tape horizontal for consistency",
+      "Take measurements in the morning before eating for the most accurate readings",
+      "Use a flexible, non-stretchable measuring tape for all measurements",
+      "Take three measurements and use the average to improve accuracy"
+    ],
+    "commonMistakes": [
+      "Pulling the measuring tape too tight, resulting in artificially low readings",
+      "Measuring over clothing instead of directly on skin",
+      "Not standing straight and relaxed during measurements",
+      "Comparing results from different measurement methods (Navy, calipers, DEXA)"
+    ],
+    "faqs": [
+      {
+        "question": "What is a healthy body fat percentage?",
+        "answer": "For men: 10-20% is healthy. For women: 18-28% is healthy. Athletes may have lower percentages."
+      },
+      {
+        "question": "How often should I measure body fat?",
+        "answer": "Every 2-4 weeks is recommended to effectively track changes without daily fluctuations."
+      },
+      {
+        "question": "How accurate is the Navy Method?",
+        "answer": "The U.S. Navy Method is accurate within 3-4% compared to laboratory methods like DEXA."
+      }
+    ]
+  },
+  "lean_body_mass": {
+    "title": "Lean Body Mass Calculator",
+    "description": "Calculate your lean muscle mass accurately. Free online lean body mass calculator for fitness and bodybuilding tracking.",
+    "gender": "Gender",
+    "age": "Age",
+    "weight": "Weight",
+    "height": "Height",
+    "neck": "Neck Circumference",
+    "waist": "Waist Circumference",
+    "hip": "Hip Circumference",
+    "enter_age": "Enter age",
+    "enter_weight": "Enter weight",
+    "enter_height": "Enter height",
+    "enter_neck": "Enter neck",
+    "enter_waist": "Enter waist",
+    "enter_hip": "Enter hip",
+    "calculate_btn": "Calculate Lean Mass",
+    "reset_btn": "Reset",
+    "results_title": "Body Composition",
+    "lean_body_mass": "Lean Body Mass",
+    "fat_mass": "Fat Mass",
+    "body_fat_percentage": "Body Fat Percentage",
+    "muscle_mass_percentage": "Muscle Mass Percentage",
+    "about_title": "About Lean Body Mass",
+    "about_desc": "Lean Body Mass (LBM) is the amount of weight you carry on your body that isn't fat. The goal of any bodybuilder or fitness enthusiast is to drop weight while keeping your lean body mass the same.",
+    "empty_state": "Enter your measurements to calculate lean body mass",
+    "footer_note": "Calculations based on the U.S. Navy Method.",
+    "howItWorks": {
+      "title": "How the Lean Body Mass Calculator Works",
+      "formula": "Lean Body Mass = Total Weight - Fat Mass, where Fat Mass = Weight × Body Fat Percentage",
+      "explanation": "Lean Body Mass (LBM) represents everything in your body except fat, including muscles, bones, organs, and water. This calculator first estimates your body fat percentage using the Navy Method, then calculates your lean mass by subtracting fat mass from total weight.",
+      "steps": [
+        {
+          "name": "Enter Measurements",
+          "text": "Input your gender, height, weight, and circumference measurements"
+        },
+        {
+          "name": "Calculate Body Fat",
+          "text": "The tool estimates body fat percentage using the U.S. Navy formula"
+        },
+        {
+          "name": "View Lean Mass",
+          "text": "Get your lean body mass, fat mass, and percentage breakdown"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Bodybuilding Progress",
+        "description": "Track muscle retention during cutting phases and muscle gains during bulking"
+      },
+      {
+        "title": "Weight Loss Quality",
+        "description": "Ensure weight loss comes from fat, not muscle mass"
+      },
+      {
+        "title": "Protein Requirements",
+        "description": "Calculate protein needs based on lean mass rather than total weight"
+      }
+    ],
+    "seoTips": [
+      "Preserving lean mass during weight loss requires adequate protein intake (1.6-2.2g per kg of lean mass)",
+      "Resistance training is essential for maintaining lean mass during calorie deficits",
+      "Losing more than 1kg per week often means losing muscle along with fat",
+      "Track lean mass monthly rather than weekly for meaningful trend analysis"
+    ],
+    "commonMistakes": [
+      "Focusing only on scale weight without considering body composition",
+      "Not eating enough protein during weight loss, leading to muscle loss",
+      "Excessive cardio without resistance training, which reduces lean mass",
+      "Expecting lean mass to increase significantly while in a calorie deficit"
+    ],
+    "faqs": [
+      {
+        "question": "What is a good lean body mass percentage?",
+        "answer": "For men: 75-85% lean mass is typical. For women: 68-78%. Athletes often have higher percentages."
+      },
+      {
+        "question": "Can I build lean mass while losing fat?",
+        "answer": "Yes, especially if you are a beginner, returning after a break, or have higher body fat. This is called body recomposition."
+      },
+      {
+        "question": "How do I preserve lean mass during weight loss?",
+        "answer": "Eat adequate protein, maintain strength training, avoid extreme calorie deficits, and lose weight gradually."
+      }
+    ]
+  },
+  "body_frame": {
+    "title": "Body Frame Size Calculator",
+    "description": "Calculate your body frame size accurately based on height and wrist circumference.",
+    "gender": "Gender",
+    "height": "Height",
+    "wrist": "Wrist Circumference",
+    "enter_height": "Enter height",
+    "enter_wrist": "Enter wrist circumference",
+    "calculate_btn": "Calculate Frame Size",
+    "reset_btn": "Reset",
+    "results_title": "Frame Size Results",
+    "frame_size": "Body Frame Size",
+    "r_value": "R-Value (Height/Wrist)",
+    "categories": {
+      "small": "Small Frame",
+      "medium": "Medium Frame",
+      "large": "Large Frame"
+    },
+    "descriptions": {
+      "small": "Your bone structure is smaller than average for your height.",
+      "medium": "Your bone structure is average for your height.",
+      "large": "Your bone structure is larger than average for your height."
+    },
+    "ranges_title": "Frame Size Categories",
+    "ranges_male": {
+      "small": "Small: R > 10.4",
+      "medium": "Medium: R 9.6 - 10.4",
+      "large": "Large: R < 9.6"
+    },
+    "ranges_female": {
+      "small": "Small: R > 11.0",
+      "medium": "Medium: R 10.1 - 11.0",
+      "large": "Large: R < 10.1"
+    },
+    "tips_title": "Why it Matters",
+    "tips_desc": "Body frame size helps determine your ideal body weight range more accurately. Larger frames naturally carry more weight.",
+    "empty_state": "Enter your height and wrist circumference to calculate frame size",
+    "footer_note": "Based on the ratio of height to wrist circumference.",
+    "howItWorks": {
+      "title": "How the Body Frame Size Calculator Works",
+      "formula": "R-Value = Height (cm) / Wrist Circumference (cm)",
+      "explanation": "This calculator determines your bone structure size by analyzing the ratio between your height and wrist circumference. The wrist is used because it has minimal fat and muscle, providing an accurate indicator of bone size. Knowing your frame size helps set realistic weight goals.",
+      "steps": [
+        {
+          "name": "Measure Height",
+          "text": "Measure your height accurately in centimeters"
+        },
+        {
+          "name": "Measure Wrist",
+          "text": "Measure wrist circumference at the narrowest point below the wrist bone"
+        },
+        {
+          "name": "Determine Frame",
+          "text": "The calculator computes the ratio and classifies your frame as small, medium, or large"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Ideal Weight Adjustment",
+        "description": "Adjust your target weight range based on bone structure for realistic goals"
+      },
+      {
+        "title": "Fitness Goal Setting",
+        "description": "Set appropriate muscle mass and weight targets for your natural build"
+      },
+      {
+        "title": "Body Understanding",
+        "description": "Understand why your weight may differ from others of the same height"
+      }
+    ],
+    "seoTips": [
+      "Measure wrist at the narrowest point below the prominent wrist bone for accuracy",
+      "A large frame means your natural healthy weight will be higher than charts suggest",
+      "Frame size is genetic and cannot be changed through diet or exercise",
+      "Use frame size to adjust ideal weight calculator results for more realistic targets"
+    ],
+    "commonMistakes": [
+      "Measuring wrist above the prominent bone instead of at the narrowest point",
+      "Using the dominant hand which may be slightly larger from use",
+      "Measuring after exercise when blood flow may temporarily increase size",
+      "Confusing frame size with body fat percentage or muscle mass"
+    ],
+    "faqs": [
+      {
+        "question": "Can body frame size be changed?",
+        "answer": "No, frame size is determined by genetics and skeletal structure. It cannot be altered through exercise or diet."
+      },
+      {
+        "question": "How does frame size affect ideal weight?",
+        "answer": "Larger frames naturally support more weight. The difference can be 5-10 kg between small and large frames of the same height."
+      },
+      {
+        "question": "Why measure the wrist specifically?",
+        "answer": "The wrist has minimal fat and muscle tissue, making it an accurate indicator of actual bone size."
+      }
+    ]
+  },
+  "body_recomposition": {
+    "title": "Body Recomposition Calculator",
+    "description": "Calculate requirements for simultaneous muscle growth and fat loss.",
+    "tdee": "Total Daily Energy Expenditure (TDEE)",
+    "tdee_tooltip": "Your maintenance calories",
+    "weight": "Current Weight",
+    "weight_tooltip": "Your current body weight",
+    "training_days": "Training Days per Week",
+    "training_days_tooltip": "How many days you lift weights",
+    "enter_tdee": "Enter TDEE",
+    "enter_weight": "Enter weight",
+    "enter_days": "Enter days",
+    "calculate_btn": "Calculate Recomp Plan",
+    "reset_btn": "Reset",
+    "results_title": "Recomposition Plan",
+    "training_calories": "Training Day Calories",
+    "rest_calories": "Rest Day Calories",
+    "surplus": "Surplus",
+    "deficit": "Deficit",
+    "protein_target": "Daily Protein Target",
+    "protein_per_day": "g/day",
+    "tips_title": "Recomp Tips",
+    "tip_cycle": "Calorie cycling helps build muscle while minimizing fat gain",
+    "tip_protein": "High protein intake is crucial for muscle repair",
+    "tip_patience": "Body recomposition is slower than dedicated bulking or cutting",
+    "empty_state": "Enter your details to generate a body recomposition plan",
+    "footer_note": "Recomposition is most effective for beginners or those returning after a break.",
+    "howItWorks": {
+      "title": "How the Body Recomposition Calculator Works",
+      "formula": "Training Days: TDEE + 10-20% surplus, Rest Days: TDEE - 10-20% deficit",
+      "explanation": "Body recomposition involves building muscle while losing fat simultaneously. This is achieved through calorie cycling: eating a slight surplus on training days to fuel muscle growth, and a slight deficit on rest days to burn fat. Combined with high protein intake, this allows body composition changes without significant weight change.",
+      "steps": [
+        {
+          "name": "Calculate TDEE",
+          "text": "Enter your maintenance calorie level"
+        },
+        {
+          "name": "Set Training Schedule",
+          "text": "Specify how many days per week you weight train"
+        },
+        {
+          "name": "Get Cycling Plan",
+          "text": "Receive calorie targets for training days and rest days"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Beginners",
+        "description": "New lifters can build muscle and lose fat simultaneously due to beginner gains"
+      },
+      {
+        "title": "Returning Athletes",
+        "description": "Those returning after a break benefit from muscle memory and recomposition"
+      },
+      {
+        "title": "Avoiding Bulk/Cut Cycles",
+        "description": "For those who want to improve body composition without significant weight changes"
+      }
+    ],
+    "seoTips": [
+      "Recomposition is slower than dedicated bulking or cutting phases",
+      "High protein intake (2+ g/kg) is essential for recomposition success",
+      "Strength training is more important than cardio for recomposition",
+      "Adequate sleep and recovery are critical for the process to work"
+    ],
+    "commonMistakes": [
+      "Expecting rapid results like traditional bulking or cutting",
+      "Not consuming enough protein to support muscle protein synthesis",
+      "Doing too much cardio and neglecting resistance training",
+      "Being impatient and constantly switching between different approaches"
+    ],
+    "faqs": [
+      {
+        "question": "Can everyone do body recomposition?",
+        "answer": "It is easiest for beginners and those with higher body fat. Advanced lean athletes may need traditional bulk/cut cycles."
+      },
+      {
+        "question": "How long until I see results?",
+        "answer": "Expect 3-6 months to notice significant changes in body composition through recomposition."
+      },
+      {
+        "question": "Will my weight change?",
+        "answer": "Weight may stay similar or change slightly since muscle replaces fat. Focus on measurements and appearance rather than scale weight."
+      }
+    ]
+  },
+  "waist_hip_ratio": {
+    "title": "Waist-to-Hip Ratio Calculator",
+    "description": "Calculate your waist-to-hip ratio to assess health risks.",
+    "waist": "Waist Circumference",
+    "waist_tooltip": "Measure at the narrowest part",
+    "hip": "Hip Circumference",
+    "hip_tooltip": "Measure at the widest part",
+    "enter_cm": "Enter cm",
+    "calculate_btn": "Calculate Ratio",
+    "reset_btn": "Reset",
+    "results_title": "WHR Results",
+    "ratio": "Waist-to-Hip Ratio",
+    "category": "Category:",
+    "risk_level": "Health Risk Level",
+    "ranges_title": "WHR Ranges",
+    "tips_title": "Health Tips",
+    "tip_activity": "Regular cardio exercise helps reduce visceral fat",
+    "tip_diet": "A balanced diet rich in fiber supports healthy weight",
+    "empty_state": "Enter your measurements to calculate WHR",
+    "footer_note": "WHR is a simple but effective indicator of health risks related to fat distribution.",
+    "categories": {
+      "excellent": "Excellent",
+      "good": "Good",
+      "average": "Average",
+      "high": "High"
+    },
+    "risks": {
+      "low": "Low Risk",
+      "moderate": "Moderate Risk",
+      "high": "High Risk",
+      "very_high": "Very High Risk"
+    },
+    "ranges_male": {
+      "excellent": "Excellent: < 0.90",
+      "good": "Good: 0.90 - 0.95",
+      "average": "Average: 0.95 - 1.0",
+      "high": "High: > 1.0"
+    },
+    "ranges_female": {
+      "excellent": "Excellent: < 0.80",
+      "good": "Good: 0.80 - 0.85",
+      "average": "Average: 0.85 - 0.90",
+      "high": "High: > 0.90"
+    },
+    "gender": "Gender",
+    "gender_tooltip": "Select gender for more accurate result interpretation",
+    "howItWorks": {
+      "title": "How the Waist-to-Hip Ratio Calculator Works",
+      "formula": "WHR = Waist Circumference (cm) / Hip Circumference (cm)",
+      "explanation": "The waist-to-hip ratio measures how fat is distributed in your body and is an important indicator of health risks. Fat accumulated around the abdomen (apple shape) poses greater health risks than fat stored around the hips and thighs (pear shape).",
+      "steps": [
+        {
+          "name": "Measure Waist",
+          "text": "Measure your waist at the narrowest point, typically above the navel"
+        },
+        {
+          "name": "Measure Hips",
+          "text": "Measure your hips at the widest point around the buttocks"
+        },
+        {
+          "name": "Calculate Ratio",
+          "text": "The calculator divides waist by hip measurement and assesses your risk level"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Cardiovascular Risk Assessment",
+        "description": "Higher ratios correlate with increased risk of heart disease and stroke"
+      },
+      {
+        "title": "Fat Distribution Tracking",
+        "description": "Monitor changes in body fat distribution during weight loss programs"
+      },
+      {
+        "title": "Health Screening",
+        "description": "Simple preliminary screening tool for obesity-related health risks"
+      }
+    ],
+    "seoTips": [
+      "Measure at the same time of day for consistent and comparable readings",
+      "Do not suck in your stomach or hold your breath during measurement",
+      "Use a mirror or ask for help to ensure the tape is level around your body",
+      "Record measurements monthly to track progress over time"
+    ],
+    "commonMistakes": [
+      "Measuring waist at the navel instead of the narrowest point",
+      "Holding breath or sucking in the stomach during measurement",
+      "Measuring over thick clothing instead of on bare skin or thin clothing",
+      "Not keeping the measuring tape horizontal and level around the body"
+    ],
+    "faqs": [
+      {
+        "question": "What is a healthy WHR?",
+        "answer": "For men: below 0.9 is healthy. For women: below 0.85 is healthy. Higher values indicate increased health risk."
+      },
+      {
+        "question": "Why is abdominal fat more dangerous?",
+        "answer": "Visceral fat around organs is metabolically active and linked to increased risk of diabetes, heart disease, and certain cancers."
+      },
+      {
+        "question": "Can I improve my WHR?",
+        "answer": "Yes, through regular aerobic exercise, calorie reduction, and core strengthening exercises to reduce waist circumference."
+      }
+    ]
+  }
+}

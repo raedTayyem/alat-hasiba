@@ -1,0 +1,737 @@
+{
+  "profit_margin": {
+    "title": "Profit Margin Calculator",
+    "description": "Calculate gross, operating, and net profit margins.",
+    "inputs": {
+      "revenue": "Revenue",
+      "revenue_tooltip": "Total income from sales",
+      "revenue_placeholder": "e.g. 10000",
+      "cogs": "Cost of Goods Sold (COGS)",
+      "cogs_tooltip": "Direct costs of producing goods",
+      "cogs_placeholder": "e.g. 4000",
+      "operating_expenses": "Operating Expenses",
+      "operating_expenses_tooltip": "Indirect costs like rent, salaries",
+      "operating_expenses_placeholder": "e.g. 2000",
+      "other_expenses": "Other Expenses",
+      "other_expenses_tooltip": "Taxes, interest, etc.",
+      "other_expenses_placeholder": "e.g. 1000"
+    },
+    "errors": {
+      "revenue_positive": "Revenue must be positive",
+      "expenses_non_negative": "Expenses cannot be negative"
+    },
+    "results": {
+      "net_margin": "Net Profit Margin",
+      "net_profit": "Net Profit",
+      "breakdown": "Profit Breakdown",
+      "gross_profit": "Gross Profit",
+      "operating_profit": "Operating Profit",
+      "formula": "(Revenue - Costs) / Revenue × 100"
+    },
+    "info": {
+      "title": "About Profit Margin",
+      "use_case_1": "Analyze business profitability",
+      "use_case_2": "Set pricing strategies",
+      "use_case_3": "Compare performance over time"
+    },
+    "howItWorks": {
+      "title": "How Profit Margin Calculation Works",
+      "formula": "Profit Margin = (Net Profit / Revenue) × 100",
+      "explanation": "Profit margin measures how much of each dollar in revenue translates to profit. There are three key margins: Gross margin (after COGS), Operating margin (after operating expenses), and Net margin (after all expenses including taxes and interest).",
+      "steps": [
+        "Enter your total revenue from sales",
+        "Input cost of goods sold (direct production costs)",
+        "Add operating expenses (rent, salaries, utilities)",
+        "Include other expenses (taxes, interest, depreciation)",
+        "Calculator shows gross, operating, and net profit margins"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Business Health Assessment",
+        "description": "Regularly monitor profit margins to gauge overall business health and identify trends in profitability over time."
+      },
+      {
+        "title": "Competitive Benchmarking",
+        "description": "Compare your margins against industry averages to understand your competitive position and identify improvement areas."
+      },
+      {
+        "title": "Pricing Optimization",
+        "description": "Use margin analysis to determine if prices need adjustment to meet profitability targets while remaining competitive."
+      },
+      {
+        "title": "Cost Control",
+        "description": "Identify which cost categories are eroding margins most, enabling targeted cost reduction initiatives."
+      }
+    ],
+    "seoTips": [
+      "Track all three margin types (gross, operating, net) for complete profitability picture",
+      "Compare margins month-over-month and year-over-year to spot trends",
+      "Benchmark against industry standards - retail averages 2-5%, software 70-80%",
+      "Higher gross margins give more flexibility for marketing and growth investments",
+      "Declining margins often signal rising costs or pricing pressure requiring action"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Confusing Markup with Margin",
+        "description": "Markup is calculated on cost, while margin is calculated on revenue. A 50% markup equals only 33% margin - these are not interchangeable."
+      },
+      {
+        "title": "Ignoring Operating Expenses",
+        "description": "Focusing only on gross margin while ignoring operating costs gives an incomplete picture. Net margin reveals true profitability."
+      },
+      {
+        "title": "Not Accounting for All Costs",
+        "description": "Forgetting indirect costs like shipping, returns, payment processing fees, and overhead leads to inflated margin estimates."
+      },
+      {
+        "title": "Comparing Across Different Industries",
+        "description": "Profit margins vary dramatically by industry. Comparing a grocery store's 2% margin to a software company's 80% margin is meaningless."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a good profit margin?",
+        "answer": "Good margins vary by industry. Retail: 2-5%, Manufacturing: 5-10%, Professional Services: 15-25%, Software/SaaS: 70-85%. Compare to your specific industry benchmarks."
+      },
+      {
+        "question": "What's the difference between gross and net margin?",
+        "answer": "Gross margin only deducts direct production costs (COGS), while net margin deducts all expenses including operations, taxes, and interest. Net margin shows true bottom-line profitability."
+      },
+      {
+        "question": "How can I improve my profit margin?",
+        "answer": "Increase prices, reduce COGS through better supplier terms, cut operating expenses, improve operational efficiency, or shift product mix toward higher-margin items."
+      },
+      {
+        "question": "Why is my gross margin high but net margin low?",
+        "answer": "This indicates high operating expenses relative to revenue. Review overhead costs, staffing efficiency, and administrative expenses for optimization opportunities."
+      },
+      {
+        "question": "Should I prioritize revenue growth or margin improvement?",
+        "answer": "Both matter. Generally, improving margins on existing sales is more efficient than growing revenue with poor margins. Healthy margins enable sustainable growth."
+      }
+    ]
+  },
+  "markup": {
+    "title": "Markup Calculator",
+    "description": "Calculate markup percentage and selling price from cost.",
+    "inputs": {
+      "calculation_mode": "Calculation Mode",
+      "calculation_mode_tooltip": "Choose to calculate by markup percentage or selling price",
+      "by_percentage": "By Percentage",
+      "by_selling_price": "By Selling Price",
+      "cost": "Cost",
+      "cost_tooltip": "The cost to acquire or produce the item",
+      "cost_placeholder": "e.g. 50",
+      "markup_percentage": "Markup Percentage",
+      "markup_percentage_tooltip": "The percentage to add on top of cost",
+      "markup_percentage_placeholder": "e.g. 40",
+      "selling_price": "Selling Price",
+      "selling_price_tooltip": "The price you want to sell at",
+      "selling_price_placeholder": "e.g. 70"
+    },
+    "errors": {
+      "invalid_percentage": "Markup percentage must be 0 or greater",
+      "invalid_selling_price": "Selling price must be greater than or equal to cost"
+    },
+    "results": {
+      "selling_price": "Selling Price",
+      "markup_amount": "Markup Amount",
+      "breakdown": "Price Breakdown",
+      "cost": "Cost",
+      "markup_percentage": "Markup Percentage",
+      "profit_margin": "Profit Margin",
+      "formula": "Selling Price = Cost + (Cost × Markup %)"
+    },
+    "info": {
+      "title": "About Markup Calculator",
+      "use_cases": "Use Cases",
+      "use_case_1": "Set retail prices for products",
+      "use_case_2": "Calculate wholesale to retail markup",
+      "use_case_3": "Determine profit margins"
+    },
+    "howItWorks": {
+      "title": "How Markup Calculation Works",
+      "formula": "Selling Price = Cost × (1 + Markup%/100)",
+      "explanation": "Markup is the percentage added to the cost price to determine the selling price. It's calculated based on cost, not selling price. This differs from profit margin, which is calculated based on revenue.",
+      "steps": [
+        "Enter your product cost (what you paid or spent to produce it)",
+        "Input your desired markup percentage",
+        "Calculator adds the markup to your cost",
+        "View the selling price and profit amount",
+        "See the equivalent profit margin percentage"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Retail Pricing",
+        "description": "Determine selling prices for products by applying standard industry markup percentages to wholesale costs."
+      },
+      {
+        "title": "Menu Pricing",
+        "description": "Restaurants use markup calculations to price dishes based on ingredient costs while ensuring profitability."
+      },
+      {
+        "title": "Service Pricing",
+        "description": "Consultants and contractors mark up material costs when billing clients to cover overhead and profit."
+      },
+      {
+        "title": "Competitive Analysis",
+        "description": "Reverse-calculate competitor markup percentages by comparing their prices to estimated costs."
+      }
+    ],
+    "seoTips": [
+      "Standard retail markup is typically 50-100% (keystone pricing is 100% or 2x cost)",
+      "Convert markup to margin for financial reporting: Margin = Markup / (1 + Markup)",
+      "Higher markups are justified by value-added services, exclusivity, or convenience",
+      "Consider price elasticity - some products tolerate higher markups than others",
+      "Review markup regularly as supplier costs and market conditions change"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Confusing Markup with Margin",
+        "description": "A 50% markup yields only 33% margin. Markup is based on cost; margin is based on selling price. They're not interchangeable."
+      },
+      {
+        "title": "Forgetting All Costs",
+        "description": "Only marking up product cost ignores shipping, storage, handling, and overhead. Include all costs in your base for accurate pricing."
+      },
+      {
+        "title": "Using Same Markup for All Products",
+        "description": "Different products have different price sensitivity and competition. Vary markup based on market conditions and product category."
+      },
+      {
+        "title": "Not Accounting for Discounts",
+        "description": "If you plan to offer discounts or promotions, build that into your base markup to maintain profitability."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What's the difference between markup and margin?",
+        "answer": "Markup is added to cost: Selling Price = Cost + Markup. Margin is part of price: Selling Price = Cost / (1 - Margin). 100% markup = 50% margin."
+      },
+      {
+        "question": "What is keystone pricing?",
+        "answer": "Keystone pricing is a 100% markup (2x cost). A $50 cost item sells for $100. It's a traditional retail benchmark, though many industries use different standards."
+      },
+      {
+        "question": "How do I calculate markup from selling price?",
+        "answer": "Markup % = ((Selling Price - Cost) / Cost) × 100. If cost is $40 and price is $60: (60-40)/40 × 100 = 50% markup."
+      },
+      {
+        "question": "What markup should I use for my industry?",
+        "answer": "Varies by industry: Grocery 5-15%, Clothing 100-300%, Jewelry 100-400%, Electronics 30-50%, Restaurants 300% on food. Research your specific market."
+      },
+      {
+        "question": "How do I convert markup to profit margin?",
+        "answer": "Margin = Markup / (1 + Markup). For 50% markup: 0.50 / 1.50 = 33.3% margin. For 100% markup: 1.00 / 2.00 = 50% margin."
+      }
+    ]
+  },
+  "discount": {
+    "title": "Discount Calculator",
+    "description": "Calculate discounts, sale prices, and savings instantly.",
+    "inputs": {
+      "calculation_mode": "Calculation Mode",
+      "calculation_mode_tooltip": "Choose to calculate by discount percentage or final price",
+      "by_percentage": "By Percentage",
+      "by_final_price": "By Final Price",
+      "original_price": "Original Price",
+      "original_price_tooltip": "The original price before discount",
+      "original_price_placeholder": "e.g. 100",
+      "discount_percentage": "Discount Percentage",
+      "discount_percentage_tooltip": "The percentage to discount from the original price",
+      "discount_percentage_placeholder": "e.g. 20",
+      "final_price": "Final Price",
+      "final_price_tooltip": "The price after discount",
+      "final_price_placeholder": "e.g. 80"
+    },
+    "errors": {
+      "invalid_percentage": "Discount percentage must be between 0 and 100",
+      "invalid_final_price": "Final price must be less than or equal to original price"
+    },
+    "results": {
+      "final_price": "Final Price",
+      "you_save": "You Save",
+      "breakdown": "Price Breakdown",
+      "original_price": "Original Price",
+      "discount_percentage": "Discount Percentage",
+      "discount_amount": "Discount Amount",
+      "formula": "Final Price = Original Price - (Original Price × Discount %)"
+    },
+    "info": {
+      "title": "About Discount Calculator",
+      "use_cases": "Use Cases",
+      "use_case_1": "Calculate sale prices for promotions",
+      "use_case_2": "Determine savings when shopping",
+      "use_case_3": "Compare deals and discounts"
+    },
+    "howItWorks": {
+      "title": "How Discount Calculation Works",
+      "formula": "Discount Amount = Original Price × (Discount % / 100)",
+      "explanation": "Discounts reduce the original price by a percentage. The final price equals the original price minus the discount amount. You can also reverse-calculate to find what discount percentage was applied given the original and final prices.",
+      "steps": [
+        "Enter the original price before any discount",
+        "Input the discount percentage (or the final sale price)",
+        "Calculator computes the discount amount",
+        "See the final price you'll pay",
+        "View your total savings"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Sale Shopping",
+        "description": "Quickly calculate final prices during sales events to compare deals and make informed purchasing decisions."
+      },
+      {
+        "title": "Retail Pricing",
+        "description": "Set promotional prices by determining what discount percentage to apply while maintaining profit margins."
+      },
+      {
+        "title": "Negotiation",
+        "description": "Calculate what discount percentage you're being offered when a seller quotes a reduced price."
+      },
+      {
+        "title": "Budget Planning",
+        "description": "Estimate savings from upcoming sales to plan purchases and maximize budget efficiency."
+      }
+    ],
+    "seoTips": [
+      "Compare the actual dollar savings, not just percentages - 10% off $1000 beats 20% off $400",
+      "Stack discounts when possible - some retailers allow coupon codes on top of sale prices",
+      "Check if the 'original price' is genuine or inflated for the sale",
+      "Calculate price per unit when comparing discounted bulk purchases",
+      "Consider total cost including shipping before deciding if a discount is worthwhile"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Comparing Percentages Only",
+        "description": "A higher discount percentage doesn't always mean better value. Always compare final prices and absolute savings."
+      },
+      {
+        "title": "Ignoring Original Price Inflation",
+        "description": "Some sellers inflate original prices before sales. Research typical prices to ensure you're getting a real discount."
+      },
+      {
+        "title": "Forgetting Additional Costs",
+        "description": "Shipping, taxes, or service fees can eliminate discount savings. Calculate total cost, not just discounted price."
+      },
+      {
+        "title": "Sequential Discount Confusion",
+        "description": "Two 20% discounts don't equal 40% off. The second discount applies to the already-reduced price: 20% + 20% = 36% total."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How do I calculate the discount percentage?",
+        "answer": "Discount % = ((Original Price - Sale Price) / Original Price) × 100. For example, $80 sale price on $100 original = 20% discount."
+      },
+      {
+        "question": "How do stacked discounts work?",
+        "answer": "Apply discounts sequentially. A $100 item with 20% off then 10% off: $100 × 0.80 = $80, then $80 × 0.90 = $72 (28% total discount)."
+      },
+      {
+        "question": "What's a good discount to look for?",
+        "answer": "It depends on the product. Electronics: 15-30% is good. Clothing: 30-50% during sales. Luxury items: even 10-15% is significant."
+      },
+      {
+        "question": "Is 'Buy One Get One 50% Off' better than 25% off?",
+        "answer": "They're equivalent if you buy two items at the same price. BOGO 50% off two $100 items = $150 total (25% off each item effectively)."
+      },
+      {
+        "question": "How do I find the original price from a sale price?",
+        "answer": "Original Price = Sale Price / (1 - Discount%/100). A $60 item at 25% off: $60 / 0.75 = $80 original price."
+      }
+    ]
+  },
+  "price_comparison": {
+    "title": "Price Comparison Calculator",
+    "description": "Compare unit prices of multiple products to find the best value. Our calculator helps shoppers determine which size or package offers the lowest cost per unit.",
+    "product": "Product",
+    "add_product": "Add Product",
+    "inputs": {
+      "product_name": "Product Name",
+      "product_name_tooltip": "Optional name or description for this product",
+      "product_name_placeholder": "e.g. Brand A 500ml",
+      "price": "Total Price",
+      "price_tooltip": "The total price of this product",
+      "price_placeholder": "e.g. 5.99",
+      "quantity": "Quantity/Size",
+      "quantity_tooltip": "The amount, weight, or number of units in this product",
+      "quantity_placeholder": "e.g. 500"
+    },
+    "results": {
+      "best_value": "Best Value",
+      "per_unit": "per unit",
+      "comparison": "Price Comparison",
+      "best": "Best",
+      "units": "units",
+      "formula_title": "Formula",
+      "formula": "Unit Price = Total Price / Quantity"
+    },
+    "info": {
+      "title": "About Price Comparison",
+      "use_cases": "Use Cases",
+      "use_case_1": "Compare different package sizes",
+      "use_case_2": "Find the best value at grocery stores",
+      "use_case_3": "Compare bulk vs individual pricing"
+    },
+    "howItWorks": {
+      "title": "How Price Comparison Works",
+      "formula": "Unit Price = Total Price / Quantity or Size",
+      "explanation": "Price comparison calculates the cost per unit (ounce, gram, count) for different products or package sizes. The lowest unit price represents the best value, though you should also consider freshness, storage, and whether you'll use the larger quantity.",
+      "steps": [
+        "Enter product name or description for each option",
+        "Input the total price for each product",
+        "Specify the quantity or size (same units for all)",
+        "Add more products as needed for comparison",
+        "Calculator shows unit price and identifies best value"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Grocery Shopping",
+        "description": "Compare different sizes of the same product to find the most cost-effective option."
+      },
+      {
+        "title": "Bulk vs Regular",
+        "description": "Determine if warehouse club bulk pricing actually saves money compared to regular store sizes."
+      },
+      {
+        "title": "Brand Comparison",
+        "description": "Compare unit prices across different brands to find best value regardless of package size."
+      },
+      {
+        "title": "Business Purchasing",
+        "description": "Evaluate supplier quotes for bulk materials based on unit cost rather than total cost."
+      }
+    ],
+    "seoTips": [
+      "Always compare same units - convert if needed before comparing",
+      "Bigger isn't always cheaper - calculate to verify bulk discounts",
+      "Consider storage and spoilage for perishables",
+      "Store unit price tags often have errors - verify calculations",
+      "Don't forget to factor in membership fees for warehouse clubs"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Comparing Different Units",
+        "description": "Ensure all products use the same unit (ounces, grams, pieces) before comparing. Convert if necessary."
+      },
+      {
+        "title": "Ignoring Waste",
+        "description": "A larger package isn't a better value if half goes to waste. Consider actual usage."
+      },
+      {
+        "title": "Forgetting Storage Costs",
+        "description": "Bulk purchases require storage space. Consider if the savings justify the space used."
+      },
+      {
+        "title": "Sale Price Assumptions",
+        "description": "Compare actual prices today. Regular size on sale may beat bulk price at full price."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "Is bigger always cheaper per unit?",
+        "answer": "Not always. Sometimes medium sizes or sale items offer better unit prices. Always calculate rather than assume."
+      },
+      {
+        "question": "How do I compare different units?",
+        "answer": "Convert to the same unit first. 1 kg = 35.27 oz = 2.2 lbs. Then divide price by quantity in common units."
+      },
+      {
+        "question": "Should I always buy the lowest unit price?",
+        "answer": "Consider freshness, storage, and whether you'll use it all. Wasted product isn't a bargain regardless of unit price."
+      },
+      {
+        "question": "Are warehouse clubs always cheaper?",
+        "answer": "Not always. Regular stores on sale may beat warehouse prices. Factor in membership cost and compare specific items."
+      },
+      {
+        "question": "What about quality differences?",
+        "answer": "Unit price compares value within similar quality. A premium product may be worth paying more per unit for better quality."
+      }
+    ]
+  },
+  "price_elasticity": {
+    "title": "Price Elasticity Calculator",
+    "description": "Calculate price elasticity of demand to understand how price changes affect quantity demanded. Essential for pricing strategy and revenue optimization.",
+    "inputs": {
+      "initial_price": "Initial Price",
+      "initial_price_tooltip": "The original price before the change",
+      "initial_price_placeholder": "e.g. 10.00",
+      "final_price": "Final Price",
+      "final_price_tooltip": "The new price after the change",
+      "final_price_placeholder": "e.g. 12.00",
+      "initial_quantity": "Initial Quantity",
+      "initial_quantity_tooltip": "Quantity demanded at the initial price",
+      "initial_quantity_placeholder": "e.g. 1000",
+      "final_quantity": "Final Quantity",
+      "final_quantity_tooltip": "Quantity demanded at the new price",
+      "final_quantity_placeholder": "e.g. 850"
+    },
+    "errors": {
+      "price_must_change": "Price must change to calculate elasticity"
+    },
+    "results": {
+      "elasticity": "Price Elasticity of Demand",
+      "analysis": "Elasticity Analysis",
+      "price_change": "Price Change",
+      "quantity_change": "Quantity Change",
+      "revenue_effect": "Revenue Effect",
+      "types": {
+        "elastic": "Elastic Demand",
+        "inelastic": "Inelastic Demand",
+        "unitary": "Unitary Elastic",
+        "perfectly_elastic": "Perfectly Elastic",
+        "perfectly_inelastic": "Perfectly Inelastic"
+      },
+      "revenue_effects": {
+        "increase": "Revenue likely to increase",
+        "decrease": "Revenue likely to decrease",
+        "unchanged": "Revenue relatively unchanged"
+      },
+      "interpretations": {
+        "elastic": "Demand is sensitive to price changes. A price increase will significantly reduce demand and may lower total revenue.",
+        "inelastic": "Demand is not very sensitive to price changes. Price increases may boost total revenue despite lower sales volume.",
+        "unitary": "Percentage change in quantity equals percentage change in price. Revenue remains relatively stable.",
+        "perfectly_elastic": "Any price increase causes demand to drop to zero. Consumers are extremely price-sensitive.",
+        "perfectly_inelastic": "Demand does not change regardless of price. Typically seen with essential or addictive goods."
+      },
+      "formula_title": "Formula",
+      "formula": "Elasticity = (% Change in Quantity) / (% Change in Price)"
+    },
+    "info": {
+      "title": "About Price Elasticity",
+      "use_cases": "Use Cases",
+      "use_case_1": "Optimize pricing strategies",
+      "use_case_2": "Predict revenue impact of price changes",
+      "use_case_3": "Understand market demand sensitivity"
+    },
+    "howItWorks": {
+      "title": "How Price Elasticity Calculation Works",
+      "formula": "Price Elasticity = (% Change in Quantity) / (% Change in Price)",
+      "explanation": "Price elasticity measures how sensitive demand is to price changes. Elastic demand (>1) means quantity changes more than price - a 10% price increase causes more than 10% drop in sales. Inelastic demand (<1) means quantity changes less than price changes.",
+      "steps": [
+        "Enter the initial price before the change",
+        "Input the new price after the change",
+        "Specify quantity demanded at the initial price",
+        "Enter quantity demanded at the new price",
+        "Calculator determines elasticity coefficient and demand type"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Pricing Strategy",
+        "description": "Determine whether to raise or lower prices based on how customers respond to price changes."
+      },
+      {
+        "title": "Revenue Optimization",
+        "description": "Identify the price point that maximizes total revenue based on demand elasticity."
+      },
+      {
+        "title": "Competitive Analysis",
+        "description": "Understand how price-sensitive your market is compared to competitors' offerings."
+      },
+      {
+        "title": "Product Positioning",
+        "description": "Decide whether to compete on price (elastic demand) or differentiation (inelastic demand)."
+      }
+    ],
+    "seoTips": [
+      "Elasticity > 1: Elastic demand - lower prices increase revenue",
+      "Elasticity < 1: Inelastic demand - higher prices increase revenue",
+      "Luxury goods tend to be elastic; necessities tend to be inelastic",
+      "Elasticity varies by price point - test at multiple levels",
+      "Cross-price elasticity measures response to competitor price changes"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using Too Short a Time Period",
+        "description": "Consumers take time to adjust behavior. Short-term elasticity may differ from long-term. Allow time for demand to stabilize."
+      },
+      {
+        "title": "Ignoring Other Factors",
+        "description": "Demand changes may be due to seasonality, competition, or economy, not just your price change. Control for other variables."
+      },
+      {
+        "title": "Assuming Constant Elasticity",
+        "description": "Elasticity varies at different price points. A product may be inelastic at low prices but elastic at high prices."
+      },
+      {
+        "title": "Confusing Revenue with Profit",
+        "description": "Elasticity predicts revenue impact. Profit depends on margins too. Lower prices may increase revenue but reduce profit."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What does elastic vs inelastic mean?",
+        "answer": "Elastic demand (>1) is price-sensitive - quantity changes more than price. Inelastic (<1) is price-insensitive - quantity changes less. At exactly 1, changes are proportional."
+      },
+      {
+        "question": "How do I use elasticity for pricing?",
+        "answer": "If demand is elastic, lower prices increase revenue. If inelastic, raise prices. Unitary elasticity means revenue stays same regardless of price."
+      },
+      {
+        "question": "What products are typically elastic?",
+        "answer": "Luxuries, products with substitutes, big purchases, and non-essentials. Examples: vacations, brand-name goods, new cars."
+      },
+      {
+        "question": "What products are typically inelastic?",
+        "answer": "Necessities, addictive goods, products without substitutes, and small purchases. Examples: gasoline, medicine, salt."
+      },
+      {
+        "question": "What is cross-price elasticity?",
+        "answer": "Measures how demand for your product changes when a competitor or related product changes price. Positive for substitutes, negative for complements."
+      }
+    ]
+  },
+  "bulk_pricing": {
+    "title": "Bulk Pricing Calculator",
+    "description": "Analyze bulk pricing tiers to find the best value. Compare quantity discounts and determine optimal order quantities for maximum savings.",
+    "pricing_tiers": "Pricing Tiers",
+    "tier": "Tier",
+    "add_tier": "Add Pricing Tier",
+    "inputs": {
+      "unit_price": "Base Unit Price",
+      "unit_price_tooltip": "The standard price per unit without any discount",
+      "unit_price_placeholder": "e.g. 10.00",
+      "desired_quantity": "Desired Quantity",
+      "desired_quantity_tooltip": "The quantity you want to purchase",
+      "desired_quantity_placeholder": "e.g. 75",
+      "min_quantity": "Min Qty",
+      "max_quantity": "Max Qty",
+      "discount": "Discount %",
+      "unlimited": "Unlimited"
+    },
+    "errors": {
+      "invalid_discount": "Discount must be between 0 and 100"
+    },
+    "results": {
+      "best_value_tier": "Best Value Tier",
+      "discount": "Discount",
+      "per_unit": "per unit",
+      "you_save": "You Save",
+      "all_tiers": "All Pricing Tiers",
+      "units": "units",
+      "best": "Best",
+      "save": "Save",
+      "your_order": "Your Order Summary",
+      "quantity": "Quantity",
+      "original_price": "Original Price",
+      "discounted_price": "Discounted Price",
+      "total_cost": "Total Cost",
+      "formula_title": "Formula",
+      "formula": "Discounted Price = Base Price × (1 - Discount%/100)"
+    },
+    "info": {
+      "title": "About Bulk Pricing",
+      "use_cases": "Use Cases",
+      "use_case_1": "Determine optimal order quantities",
+      "use_case_2": "Compare wholesale pricing tiers",
+      "use_case_3": "Calculate volume discount savings"
+    },
+    "howItWorks": {
+      "title": "How Bulk Pricing Calculation Works",
+      "formula": "Discounted Price = Base Price × (1 - Discount Percentage / 100)",
+      "explanation": "Bulk pricing offers lower per-unit prices for larger quantities. Each tier defines quantity ranges and corresponding discounts. The calculator helps determine which tier offers the best value and whether ordering more to reach the next tier makes economic sense.",
+      "steps": [
+        "Enter the base unit price without any discount",
+        "Define pricing tiers with quantity ranges and discounts",
+        "Specify the quantity you want to purchase",
+        "Calculator determines your tier and discount",
+        "Compare total costs at different tier thresholds"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Supplier Evaluation",
+        "description": "Compare volume discount structures from different suppliers to select the best overall value."
+      },
+      {
+        "title": "Order Optimization",
+        "description": "Determine if ordering slightly more to reach the next tier saves money despite buying extra units."
+      },
+      {
+        "title": "Inventory Planning",
+        "description": "Balance bulk discount savings against storage costs and cash flow requirements."
+      },
+      {
+        "title": "Pricing Strategy",
+        "description": "Design effective tiered pricing structures that incentivize larger orders while maintaining profitability."
+      }
+    ],
+    "seoTips": [
+      "Calculate total cost at tier thresholds to find true breakpoints",
+      "Include storage and carrying costs when evaluating larger purchases",
+      "Consider cash flow impact of larger upfront purchases",
+      "Combine orders with partners or colleagues to reach better tiers",
+      "Watch for expiration dates - bulk savings mean nothing if products expire"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Ignoring Carrying Costs",
+        "description": "Bulk savings may be offset by storage, insurance, and capital tied up in inventory. Calculate true total cost."
+      },
+      {
+        "title": "Buying Beyond Need",
+        "description": "Reaching a higher tier isn't worthwhile if you can't use the extra units. Waste eliminates savings."
+      },
+      {
+        "title": "Missing Tier Breakpoints",
+        "description": "Ordering just below a tier threshold is worst value. Check if a few more units reaches better pricing."
+      },
+      {
+        "title": "Not Comparing Total Costs",
+        "description": "A higher discount percentage doesn't always mean lowest total cost. Calculate actual dollars spent."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "When should I order more to reach the next tier?",
+        "answer": "When the savings at the next tier exceed the cost of extra units. Calculate: (Extra units × New price) vs (Original quantity × Old price - New price)."
+      },
+      {
+        "question": "How do I compare suppliers with different tier structures?",
+        "answer": "Calculate total cost at your typical order quantities for each supplier. The lowest total cost wins, not the highest discount percentage."
+      },
+      {
+        "question": "Should I always buy in bulk?",
+        "answer": "Not always. Consider storage costs, spoilage/obsolescence, cash flow, and whether you'll actually use the quantity before expiration or technology changes."
+      },
+      {
+        "question": "What's a typical bulk discount structure?",
+        "answer": "Common structures: 5% at 10 units, 10% at 25 units, 15% at 50 units, 20% at 100+ units. Varies widely by industry and product."
+      },
+      {
+        "question": "Can I negotiate better bulk pricing?",
+        "answer": "Often yes, especially for large orders. Ask about price matching, combined shipping discounts, or contract pricing for regular orders."
+      }
+    ]
+  },
+  "profit-margin-calculator": {
+    "title": "Profit Margin Calculator - Gross & Net Margin",
+    "description": "Calculate gross and net profit margins for your products or services. Our free calculator helps businesses determine pricing strategies, evaluate profitability, and analyze cost structures. Essential for retailers, wholesalers, and service providers."
+  },
+  "markup-calculator": {
+    "title": "Profit Margin Calculator - Gross & Net Margin",
+    "description": "Calculate gross and net profit margins for your products or services. Our free calculator helps businesses determine pricing strategies, evaluate profitability, and analyze cost structures. Essential for retailers, wholesalers, and service providers."
+  },
+  "discount-calculator": {
+    "title": "Discount Calculator - Sale Price & Savings",
+    "description": "Calculate discounted prices and savings instantly. Our free discount calculator helps shoppers and businesses determine final prices after applying percentage discounts. Perfect for sales, promotions, and smart shopping decisions."
+  },
+  "price-comparison-calculator": {
+    "title": "Price Comparison Calculator - Best Value Finder",
+    "description": "Compare prices for the same product in different sizes or quantities. Our free price comparison calculator helps shoppers find the best value and save money. Determine which size or pack offers the lowest cost per unit."
+  },
+  "price-elasticity-calculator": {
+    "title": "Price Elasticity Calculator - Demand Analysis",
+    "description": "Calculate price elasticity of demand. Our free elasticity calculator helps businesses understand how price changes affect demand, optimize pricing strategies, and maximize revenue. Essential for pricing decisions and market analysis."
+  },
+  "bulk-pricing-calculator": {
+    "title": "Bulk Pricing Calculator - Wholesale Discount",
+    "description": "Calculate wholesale prices with quantity discounts. Our free bulk pricing calculator helps businesses offer tiered pricing and volume discounts. Determine optimal bulk pricing strategies to increase sales and maintain profitability."
+  }
+}

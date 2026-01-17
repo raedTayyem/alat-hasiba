@@ -1,0 +1,827 @@
+{
+    "excavation": {
+        "title": "Excavation Calculator",
+        "description": "Calculate dirt volume for excavation projects with swell factor for accurate hauling estimates.",
+        "unit": "Measurement Unit",
+        "unit_tooltip": "Select meters or feet for measurements",
+        "meters": "Meters",
+        "feet": "Feet",
+        "length": "Length",
+        "length_tooltip": "Length of the excavation area",
+        "width": "Width",
+        "width_tooltip": "Width of the excavation area",
+        "depth": "Depth",
+        "depth_tooltip": "Depth of excavation",
+        "soil_type": "Soil Type",
+        "soil_type_tooltip": "Different soils have different swell factors when excavated",
+        "soil_types": {
+            "sand": "Sand (12% swell)",
+            "gravel": "Gravel (12% swell)",
+            "loam": "Loam (25% swell)",
+            "clay": "Clay (30% swell)",
+            "rock": "Rock (50% swell)",
+            "topsoil": "Topsoil (20% swell)",
+            "custom": "Custom Swell Factor"
+        },
+        "custom_swell_factor": "Custom Swell Factor",
+        "custom_swell_factor_tooltip": "Enter swell factor between 1.0 and 2.0 (e.g., 1.25 for 25% swell)",
+        "result_volume": "Loose Volume (Hauling)",
+        "cubic_meters": "Cubic Meters",
+        "cubic_yards": "Cubic Yards",
+        "volume_breakdown": "Volume Breakdown",
+        "bank_volume": "Bank Volume (In-Place)",
+        "loose_volume": "Loose Volume (Expanded)",
+        "excavation_area": "Excavation Area",
+        "sq_meters": "sq m",
+        "estimated_weight": "Estimated Weight",
+        "metric_tons": "metric tons",
+        "truck_loads": "Truck Loads Needed",
+        "truck_10_yard": "10-Yard Dump Truck",
+        "truck_15_yard": "15-Yard Dump Truck",
+        "truck_20_yard": "20-Yard Dump Truck",
+        "loads": "loads",
+        "formula_title": "Calculation Formula",
+        "formula": "Bank Volume = L × W × D. Loose Volume = Bank Volume × Swell Factor. Swell factor accounts for soil expansion when excavated.",
+        "info_title": "About Excavation Calculation",
+        "info_description": "When soil is excavated, it expands (swells). The loose volume is what needs to be hauled away, which is larger than the in-place bank volume.",
+        "use_cases_title": "Common Uses",
+        "use_case_1": "Foundation excavation",
+        "use_case_2": "Pool and pond digging",
+        "use_case_3": "Trenching for utilities",
+        "errors": {
+            "invalid_dimensions": "Please enter valid dimensions",
+            "positive_values": "Dimensions must be greater than zero",
+            "invalid_swell_factor": "Swell factor must be between 1.0 and 2.0"
+        },
+        "placeholders": {
+            "length": "10",
+            "width": "5",
+            "depth": "2",
+            "swell_factor": "1.25"
+        },
+        "howItWorks": {
+            "title": "How the Excavation Calculator Works",
+            "formula": "Loose Volume = Bank Volume × Swell Factor",
+            "explanation": "This calculator determines both in-place (bank) volume and expanded (loose) volume after excavation. The swell factor accounts for soil expansion, which is critical for accurate hauling estimates.",
+            "steps": [
+                "Enter excavation length, width, and depth",
+                "Select soil type or enter custom swell factor",
+                "Review bank volume (in-place) and loose volume",
+                "Check truck loads needed for hauling",
+                "Use loose volume for disposal planning"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Foundation Digging",
+                "description": "Calculate soil removal for residential and commercial foundation excavations."
+            },
+            {
+                "title": "Pool Construction",
+                "description": "Estimate dirt hauling requirements for swimming pool installations."
+            },
+            {
+                "title": "Utility Trenching",
+                "description": "Determine spoil volumes for water, sewer, and utility trenches."
+            },
+            {
+                "title": "Site Grading",
+                "description": "Plan cut volumes for site preparation and land leveling projects."
+            }
+        ],
+        "seoTips": [
+            "Swell factors vary significantly by soil type - clay swells 30%, sand only 12%",
+            "Always use loose volume for hauling and disposal calculations",
+            "Consider soil reuse on-site to reduce hauling costs",
+            "Account for equipment access when planning excavation sequences",
+            "Check for underground utilities before digging - call 811"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Using bank volume for hauling",
+                "solution": "Always calculate loose volume - soil expands 12-50% when excavated"
+            },
+            {
+                "mistake": "Wrong swell factor",
+                "solution": "Test soil type or use conservative estimates - clay swells much more than sand"
+            },
+            {
+                "mistake": "Forgetting slope requirements",
+                "solution": "OSHA requires trenches over 5 feet deep to be sloped or shored"
+            },
+            {
+                "mistake": "Not checking utilities",
+                "solution": "Always call 811 or local utility locator before excavation"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is soil swell factor?",
+                "answer": "Swell factor is the percentage soil expands when excavated. Loosened soil takes up more space than compacted in-place soil. Clay swells 30%, sand 12%."
+            },
+            {
+                "question": "How many cubic yards fit in a dump truck?",
+                "answer": "Standard dump trucks hold 10-14 cubic yards, tandems hold 14-18 yards, and tri-axles hold 16-20 cubic yards of loose material."
+            },
+            {
+                "question": "What is the difference between bank and loose cubic yards?",
+                "answer": "Bank cubic yards measure soil in place before excavation. Loose cubic yards measure the expanded volume after digging - this is what you haul."
+            },
+            {
+                "question": "How much does excavated soil weigh?",
+                "answer": "Soil weighs approximately 2,000-2,700 lbs per bank cubic yard depending on type and moisture. Loose soil weighs less per yard due to air space."
+            },
+            {
+                "question": "Can I reuse excavated soil?",
+                "answer": "Yes, clean fill can be reused for backfill, grading, or landscaping. Contaminated soil requires special disposal. Test soil if origin is unknown."
+            }
+        ]
+    },
+    "fill_dirt": {
+        "title": "Fill Dirt Calculator",
+        "description": "Calculate backfill material volume needed for filling and grading with compaction factor.",
+        "unit": "Measurement Unit",
+        "unit_tooltip": "Select meters or feet for measurements",
+        "meters": "Meters",
+        "feet": "Feet",
+        "length": "Length",
+        "length_tooltip": "Length of the area to fill",
+        "width": "Width",
+        "width_tooltip": "Width of the area to fill",
+        "depth": "Fill Depth",
+        "depth_tooltip": "Depth of fill material needed",
+        "compaction_level": "Compaction Level",
+        "compaction_level_tooltip": "How much the fill dirt will be compacted",
+        "compaction_levels": {
+            "light": "Light (10% compaction) - Hand tamping",
+            "moderate": "Moderate (15% compaction) - Plate compactor",
+            "heavy": "Heavy (20% compaction) - Roller compactor",
+            "maximum": "Maximum (25% compaction) - Engineered fill",
+            "custom": "Custom Compaction Factor"
+        },
+        "custom_compaction": "Compaction Factor",
+        "custom_compaction_tooltip": "Enter factor between 0.5 and 1.0 (e.g., 0.85 for 15% compaction)",
+        "result_volume": "Fill Dirt Needed (Loose)",
+        "cubic_meters": "Cubic Meters",
+        "cubic_yards": "Cubic Yards",
+        "volume_breakdown": "Volume Breakdown",
+        "compacted_volume": "Compacted Volume (Final)",
+        "fill_area": "Fill Area",
+        "sq_meters": "sq m",
+        "estimated_weight": "Estimated Weight",
+        "metric_tons": "metric tons",
+        "cost_estimate": "Cost Estimate (USD)",
+        "delivery_estimate": "Delivery Estimate",
+        "truck_10_yard": "10-Yard Dump Truck",
+        "truck_15_yard": "15-Yard Dump Truck",
+        "loads": "loads",
+        "formula_title": "Calculation Formula",
+        "formula": "Compacted Volume = L × W × D. Loose Volume = Compacted Volume / Compaction Factor.",
+        "info_title": "About Fill Dirt Calculation",
+        "info_description": "Fill dirt compacts when properly graded and tamped. You need to order more loose fill than the final compacted volume to achieve the desired fill depth.",
+        "use_cases_title": "Common Uses",
+        "use_case_1": "Backfilling foundations",
+        "use_case_2": "Raising and leveling ground",
+        "use_case_3": "Site grading and preparation",
+        "errors": {
+            "invalid_dimensions": "Please enter valid dimensions",
+            "positive_values": "Dimensions must be greater than zero",
+            "invalid_compaction": "Compaction factor must be between 0.5 and 1.0"
+        },
+        "placeholders": {
+            "length": "10",
+            "width": "5",
+            "depth": "0.5",
+            "compaction": "0.85"
+        },
+        "howItWorks": {
+            "title": "How the Fill Dirt Calculator Works",
+            "formula": "Loose Volume = Compacted Volume / Compaction Factor",
+            "explanation": "This calculator determines how much loose fill material you need to order to achieve your desired compacted depth. It accounts for soil compaction, which reduces volume during placement.",
+            "steps": [
+                "Enter area dimensions and desired fill depth",
+                "Select compaction level based on intended use",
+                "Review compacted volume and loose volume needed",
+                "Check delivery estimates for truck loads",
+                "Order loose volume amount from supplier"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Foundation Backfill",
+                "description": "Calculate fill for backfilling around foundations after construction."
+            },
+            {
+                "title": "Site Grading",
+                "description": "Estimate fill material for raising or leveling building sites."
+            },
+            {
+                "title": "Landscaping Fill",
+                "description": "Determine topsoil and fill quantities for garden and lawn preparation."
+            },
+            {
+                "title": "Trench Backfill",
+                "description": "Calculate material to fill utility trenches after pipe installation."
+            }
+        ],
+        "seoTips": [
+            "Order loose volume - fill compacts 10-25% when properly placed",
+            "Compact fill in 6-8 inch lifts for proper density",
+            "Use engineered fill for structural applications under foundations",
+            "Test compaction with a compaction meter for critical applications",
+            "Allow settling time before paving or building on filled areas"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Ordering compacted volume",
+                "solution": "Always order loose volume - fill compresses when compacted"
+            },
+            {
+                "mistake": "Insufficient compaction",
+                "solution": "Compact in layers of 6-8 inches, not all at once"
+            },
+            {
+                "mistake": "Using wrong fill type",
+                "solution": "Use clean, granular fill for drainage areas, clay for water barriers"
+            },
+            {
+                "mistake": "Backfilling too soon",
+                "solution": "Wait for foundation concrete to cure before backfilling"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How much does fill dirt compact?",
+                "answer": "Fill dirt typically compacts 10-25% depending on soil type and compaction method. Light hand tamping achieves 10%, roller compactors achieve 20-25%."
+            },
+            {
+                "question": "What is the difference between fill dirt and topsoil?",
+                "answer": "Fill dirt is subsoil without organic matter, used for grading and foundations. Topsoil contains nutrients for plant growth and is used for landscaping."
+            },
+            {
+                "question": "How thick should fill lifts be?",
+                "answer": "Compact fill in 6-8 inch loose lifts. Thicker lifts won't compact properly throughout and may settle later."
+            },
+            {
+                "question": "Do I need to test compaction?",
+                "answer": "For structural applications (under foundations, driveways), compaction testing ensures fill meets engineering requirements - typically 95% standard Proctor."
+            },
+            {
+                "question": "How long before I can build on fill?",
+                "answer": "Properly compacted engineered fill can be built on immediately. Uncompacted fill may take months to settle. Always verify with a geotechnical engineer for structures."
+            }
+        ]
+    },
+    "gravel": {
+        "title": "Gravel Calculator",
+        "description": "Calculate gravel and aggregate quantities needed for driveways, paths, and landscaping projects.",
+        "unit": "Measurement Unit",
+        "unit_tooltip": "Select meters or feet for length and width",
+        "meters": "Meters",
+        "feet": "Feet",
+        "length": "Length",
+        "length_tooltip": "Length of the area to cover",
+        "width": "Width",
+        "width_tooltip": "Width of the area to cover",
+        "depth_unit": "Depth Unit",
+        "depth_unit_tooltip": "Select unit for gravel depth",
+        "centimeters": "Centimeters",
+        "inches": "Inches",
+        "depth": "Gravel Depth",
+        "depth_tooltip": "Depth of gravel layer (typically 5-10cm or 2-4in)",
+        "material_type": "Material Type",
+        "material_type_tooltip": "Different materials have different densities",
+        "materials": {
+            "pea_gravel": "Pea Gravel",
+            "crushed_stone": "Crushed Stone",
+            "river_rock": "River Rock",
+            "limestone": "Limestone",
+            "granite": "Granite",
+            "slate": "Slate",
+            "decomposed_granite": "Decomposed Granite",
+            "lava_rock": "Lava Rock",
+            "marble_chips": "Marble Chips",
+            "custom": "Custom Density"
+        },
+        "custom_density": "Material Density",
+        "custom_density_tooltip": "Enter density in kg/m³ (typical range: 500-3000)",
+        "kg_per_m3": "kg/m³",
+        "result_weight": "Material Weight",
+        "metric_tons": "Metric Tons",
+        "us_tons": "US Tons",
+        "volume_coverage": "Volume & Coverage",
+        "volume": "Volume",
+        "cubic_meters": "Cubic Meters",
+        "cubic_yards": "Cubic Yards",
+        "coverage_area": "Coverage Area",
+        "sq_meters": "sq m",
+        "weight_kg": "Weight",
+        "kg": "kg",
+        "estimated_cost": "Estimated Cost",
+        "bags_delivery": "Bags & Delivery",
+        "bags_40lb": "40 lb Bags",
+        "bags_50lb": "50 lb Bags",
+        "bags": "bags",
+        "truck_10_yard": "10-Yard Truck",
+        "loads": "loads",
+        "formula_title": "Calculation Formula",
+        "formula": "Volume = Area × Depth. Weight = Volume × Density. Tons = Weight ÷ 2000 (US) or ÷ 1000 (metric).",
+        "info_title": "About Gravel Calculation",
+        "info_description": "Gravel is sold by weight (tons) or volume (cubic yards). Different materials have different densities, affecting how much weight you need for a given area.",
+        "use_cases_title": "Common Uses",
+        "use_case_1": "Driveway and path construction",
+        "use_case_2": "Drainage and base layers",
+        "use_case_3": "Landscaping and decorative areas",
+        "errors": {
+            "invalid_dimensions": "Please enter valid dimensions",
+            "positive_values": "Dimensions must be greater than zero",
+            "invalid_density": "Density must be between 500 and 3000 kg/m³"
+        },
+        "placeholders": {
+            "length": "10",
+            "width": "3",
+            "depth": "5",
+            "density": "1600"
+        },
+        "howItWorks": {
+            "title": "How the Gravel Calculator Works",
+            "formula": "Volume = Area × Depth; Weight = Volume × Density",
+            "explanation": "This calculator determines both volume and weight of gravel needed based on coverage area, depth, and material type. Different gravel types have different densities.",
+            "steps": [
+                "Enter length and width of area to cover",
+                "Specify desired gravel depth",
+                "Select gravel or aggregate type",
+                "Review volume in cubic yards/meters",
+                "Check weight in tons for ordering"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Driveway Construction",
+                "description": "Calculate gravel base and surface layers for residential driveways."
+            },
+            {
+                "title": "Drainage Projects",
+                "description": "Estimate gravel for French drains and drainage trenches."
+            },
+            {
+                "title": "Landscaping",
+                "description": "Plan decorative gravel for paths, beds, and ground cover."
+            },
+            {
+                "title": "Base Preparation",
+                "description": "Determine sub-base gravel quantities for pavers and concrete."
+            }
+        ],
+        "seoTips": [
+            "Driveway gravel should be 4-6 inches deep for proper load bearing",
+            "Use angular crushed stone for driveways - it compacts better than round pea gravel",
+            "Layer gravel with larger stones at bottom, smaller on top for stability",
+            "Install landscape fabric under decorative gravel to prevent weed growth",
+            "Order by weight (tons) for bulk delivery, by bag for small projects"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Insufficient depth",
+                "solution": "Use 4-6 inches for driveways, 2-3 inches for walkways"
+            },
+            {
+                "mistake": "Wrong gravel type",
+                "solution": "Crushed stone for driveways, pea gravel for drainage, river rock for decoration"
+            },
+            {
+                "mistake": "No edging",
+                "solution": "Install edging to contain gravel and prevent spreading"
+            },
+            {
+                "mistake": "Skipping compaction",
+                "solution": "Compact each layer for stable, long-lasting surfaces"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How much does gravel cost per ton?",
+                "answer": "Gravel costs $15-50 per ton for common types. Decorative stone ranges from $50-150 per ton. Delivery adds $50-100 depending on distance."
+            },
+            {
+                "question": "How many cubic yards per ton of gravel?",
+                "answer": "Approximately 1.4 tons per cubic yard for most gravel. Lighter materials like lava rock are about 1 ton per cubic yard."
+            },
+            {
+                "question": "What size gravel is best for driveways?",
+                "answer": "Use 3-4 inch base stone at bottom, 2 inch stone for middle layer, and 3/8 to 3/4 inch top stone that packs well."
+            },
+            {
+                "question": "How deep should gravel be for a patio base?",
+                "answer": "Paver bases need 4-6 inches of compacted gravel sub-base plus 1 inch of bedding sand for proper drainage and stability."
+            },
+            {
+                "question": "Does gravel need to be compacted?",
+                "answer": "Yes, especially for driveways and bases. Compact in 2-3 inch layers using a plate compactor or roller for best results."
+            }
+        ]
+    },
+    "sand": {
+        "title": "Sand Calculator",
+        "description": "Calculate sand volume and weight needed for construction projects.",
+        "unit": "Measurement Unit",
+        "unit_tooltip": "Select meters or feet for dimensions",
+        "meters": "Meters",
+        "feet": "Feet",
+        "sand_type": "Sand Type",
+        "sand_type_tooltip": "Different sand types have different densities affecting weight calculations",
+        "types": {
+            "dry_loose": "Dry Loose Sand (1.44 tons/m³)",
+            "dry_compacted": "Dry Compacted Sand (1.60 tons/m³)",
+            "wet": "Wet Sand (1.92 tons/m³)",
+            "fine": "Fine Sand (1.50 tons/m³)",
+            "coarse": "Coarse Sand (1.65 tons/m³)"
+        },
+        "length": "Length",
+        "length_tooltip": "Length of the area to be filled with sand",
+        "width": "Width",
+        "width_tooltip": "Width of the area to be filled with sand",
+        "depth": "Depth",
+        "depth_tooltip": "Depth or thickness of the sand layer",
+        "waste_factor": "Waste Factor (%)",
+        "waste_factor_tooltip": "Extra material for spillage and settling (typically 5-10%)",
+        "result_volume": "Required Sand Volume",
+        "cubic_meters": "Cubic Meters",
+        "cubic_yards": "Cubic Yards",
+        "weight_results": "Weight Estimates",
+        "weight_tons": "Weight (Tons)",
+        "weight_kg": "Weight (kg)",
+        "weight_pounds": "Weight (Pounds)",
+        "lbs": "lbs",
+        "with_waste": "Volume with Waste",
+        "coverage_area": "Coverage Area",
+        "additional_info": "Additional Information",
+        "formula_title": "Calculation Formula",
+        "formula": "Volume = Length × Width × Depth. Weight = Volume × Density. Different sand types have different densities.",
+        "info_title": "About Sand Calculation",
+        "info_description": "Sand is essential for concrete, mortar, and landscaping. Different sand types have different densities, affecting the weight per volume.",
+        "use_cases_title": "Common Uses",
+        "use_case_1": "Concrete and mortar mixing",
+        "use_case_2": "Bedding for pavers and pipes",
+        "use_case_3": "Landscaping and sandboxes",
+        "errors": {
+            "invalid_dimensions": "Please enter valid dimensions",
+            "positive_values": "Dimensions must be greater than zero",
+            "invalid_waste": "Waste factor must be between 0 and 100"
+        },
+        "placeholders": {
+            "length": "10",
+            "width": "5",
+            "depth": "0.1",
+            "waste": "10"
+        },
+        "howItWorks": {
+            "title": "How the Sand Calculator Works",
+            "formula": "Volume = Length × Width × Depth; Weight = Volume × Density",
+            "explanation": "This calculator determines both volume and weight of sand needed based on area dimensions and sand type. Different sand types have varying densities, affecting weight calculations.",
+            "steps": [
+                "Enter length, width, and depth of area to fill",
+                "Select sand type based on your application",
+                "Add waste factor for spillage and settling",
+                "Review volume in cubic meters/yards",
+                "Check weight for delivery and handling planning"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Concrete Mixing",
+                "description": "Calculate sand for concrete batching with proper proportions."
+            },
+            {
+                "title": "Paver Bedding",
+                "description": "Estimate bedding sand for patio and driveway paver installation."
+            },
+            {
+                "title": "Pipe Bedding",
+                "description": "Determine sand quantities for utility pipe installation bedding."
+            },
+            {
+                "title": "Playground Areas",
+                "description": "Calculate sand fill for sandboxes and play areas."
+            }
+        ],
+        "seoTips": [
+            "Wet sand weighs significantly more than dry sand - plan deliveries accordingly",
+            "Use sharp/coarse sand for concrete and mortar, fine sand for plastering",
+            "Paver bedding typically requires 1 inch depth of compacted sand",
+            "Order extra sand - it settles 10-15% when compacted",
+            "Store sand on plastic to prevent contamination from the ground"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Using wrong sand type",
+                "solution": "Use sharp sand for concrete, soft sand for mortar, and bedding sand for pavers"
+            },
+            {
+                "mistake": "Not accounting for compaction",
+                "solution": "Add 10-15% extra for settling and compaction"
+            },
+            {
+                "mistake": "Ignoring moisture weight",
+                "solution": "Wet sand weighs 20-30% more - affects delivery vehicle capacity"
+            },
+            {
+                "mistake": "Contaminated sand",
+                "solution": "Keep sand clean and covered to prevent debris and organic matter"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How much does sand weigh per cubic meter?",
+                "answer": "Dry loose sand weighs about 1,440 kg/m³ (1.44 tons). Wet sand weighs approximately 1,920 kg/m³ (1.92 tons). Density varies by type."
+            },
+            {
+                "question": "What type of sand should I use for concrete?",
+                "answer": "Use sharp or coarse sand (concrete sand) for mixing concrete. The angular grains bond well with cement. Avoid beach sand which contains salt."
+            },
+            {
+                "question": "How much sand do I need under pavers?",
+                "answer": "Paver bedding requires approximately 1 inch (25mm) of compacted sand. This equals about 0.3 cubic yards per 100 square feet."
+            },
+            {
+                "question": "What is the sand-to-cement ratio for mortar?",
+                "answer": "Standard mortar uses a 1:4 to 1:6 cement to sand ratio by volume. Stronger mixes use 1:3 for load-bearing applications."
+            },
+            {
+                "question": "How many bags of sand equal a cubic yard?",
+                "answer": "Approximately 54 bags (50 lb each) of sand equal one cubic yard. For a cubic meter, you need about 28-30 bags of 50kg sand."
+            }
+        ]
+    },
+    "asphalt": {
+        "title": "Asphalt Calculator",
+        "description": "Calculate asphalt quantity needed for paving driveways, parking lots, and roads.",
+        "unit": "Measurement Unit",
+        "unit_tooltip": "Select imperial (feet/inches) or metric (meters/cm)",
+        "imperial": "Imperial (sq ft, inches)",
+        "metric": "Metric (sq m, cm)",
+        "area": "Area to Pave",
+        "area_tooltip": "Total surface area to be covered with asphalt",
+        "thickness": "Asphalt Thickness",
+        "thickness_tooltip": "Depth of asphalt layer (typically 2-4 inches for driveways)",
+        "density": "Asphalt Density",
+        "density_tooltip": "Weight of asphalt per cubic foot (default: 145 lbs/cu ft for hot mix)",
+        "result_weight": "Asphalt Required",
+        "tons": "US Tons",
+        "tonnes": "Metric Tonnes",
+        "details": "Project Details",
+        "volume_cuft": "Volume (cu ft)",
+        "volume_cum": "Volume (cu m)",
+        "area_sqft": "Area (sq ft)",
+        "area_sqm": "Area (sq m)",
+        "sqft": "sq ft",
+        "sqm": "sq m",
+        "inches": "inches",
+        "cm": "cm",
+        "lbs_cuft": "lbs/cu ft",
+        "formula_title": "Calculation Formula",
+        "formula": "Tons = Area × Thickness × Density / 2000. Standard hot mix asphalt density is 145 lbs/cu ft.",
+        "info_title": "About Asphalt Calculation",
+        "info_description": "Asphalt is typically ordered by the ton. This calculator estimates the weight of asphalt needed based on area, thickness, and material density.",
+        "use_cases_title": "Common Uses",
+        "use_case_1": "Residential driveways",
+        "use_case_2": "Parking lots and roads",
+        "use_case_3": "Repair and resurfacing projects",
+        "errors": {
+            "invalid_dimensions": "Please enter valid area and thickness values",
+            "positive_values": "Area and thickness must be greater than zero",
+            "invalid_density": "Please enter a valid density value"
+        },
+        "placeholders": {
+            "area": "1000",
+            "thickness": "3",
+            "density": "145"
+        },
+        "howItWorks": {
+            "title": "How the Asphalt Calculator Works",
+            "formula": "Tons = Area × Thickness × Density / 2000",
+            "explanation": "This calculator converts your paving area and desired thickness into tons of asphalt needed. It uses standard hot mix asphalt density (145 lbs/cu ft) to provide accurate weight estimates for ordering.",
+            "steps": [
+                "Enter the total area to be paved in square feet or meters",
+                "Specify the desired asphalt thickness (2-4 inches for driveways)",
+                "Adjust the density if using a different asphalt mix type",
+                "Review the total tonnage required for your project",
+                "Add 5-10% extra when ordering to account for variations"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Residential Driveways",
+                "description": "Calculate asphalt for home driveways with typical 2-3 inch thickness for standard vehicle traffic."
+            },
+            {
+                "title": "Commercial Parking Lots",
+                "description": "Estimate materials for parking areas requiring 3-4 inch thickness for heavy use."
+            },
+            {
+                "title": "Driveway Resurfacing",
+                "description": "Determine overlay quantities for existing asphalt repair with 1.5-2 inch thickness."
+            },
+            {
+                "title": "Private Roads and Paths",
+                "description": "Plan asphalt needs for access roads and pathways on residential properties."
+            }
+        ],
+        "seoTips": [
+            "Hot mix asphalt must be laid at 275-300°F for proper compaction",
+            "Asphalt compacts by approximately 25% during rolling - order accordingly",
+            "Proper drainage and sub-base preparation are essential for asphalt longevity",
+            "Apply sealcoat every 2-3 years to extend asphalt lifespan",
+            "Schedule paving for dry weather above 50°F (10°C) for best results"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Insufficient base preparation",
+                "solution": "Install 4-6 inches of compacted gravel base for stable foundation"
+            },
+            {
+                "mistake": "Incorrect thickness",
+                "solution": "Use minimum 2 inches for light traffic, 3-4 inches for heavy vehicles"
+            },
+            {
+                "mistake": "Poor drainage planning",
+                "solution": "Ensure 1-2% slope for proper water runoff to prevent pooling"
+            },
+            {
+                "mistake": "Paving in cold weather",
+                "solution": "Asphalt cools quickly in cold conditions - pave when temperatures exceed 50°F"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How many tons of asphalt do I need per square foot?",
+                "answer": "For a 2-inch thickness, you need approximately 0.011 tons per square foot. For 3 inches, it's about 0.017 tons per square foot."
+            },
+            {
+                "question": "What is the cost of asphalt per ton?",
+                "answer": "Hot mix asphalt typically costs $100-$200 per ton depending on location and market conditions. Delivery and installation add to the total cost."
+            },
+            {
+                "question": "How thick should a residential driveway be?",
+                "answer": "Residential driveways should be 2-3 inches thick for cars and light trucks. Heavy vehicle areas need 3-4 inches."
+            },
+            {
+                "question": "How long does asphalt take to cure?",
+                "answer": "Asphalt can be driven on within 24-48 hours but takes 6-12 months to fully cure. Avoid heavy loads and sharp turns during the first few months."
+            },
+            {
+                "question": "What is the difference between hot mix and cold mix asphalt?",
+                "answer": "Hot mix is heated during production and provides a stronger, more durable surface for permanent installations. Cold mix is used for temporary repairs and patching."
+            }
+        ]
+    },
+    "landscaping": {
+        "title": "Landscaping Calculator",
+        "description": "Calculate mulch, soil, and sod quantities for garden and landscaping projects.",
+        "unit": "Measurement Unit",
+        "unit_tooltip": "Select imperial or metric measurements",
+        "imperial": "Imperial (sq ft, inches)",
+        "metric": "Metric (sq m, cm)",
+        "area": "Project Area",
+        "area_tooltip": "Total area for mulch and soil calculations",
+        "mulch_depth": "Mulch Depth",
+        "mulch_depth_tooltip": "Recommended: 2-4 inches for weed control and moisture retention",
+        "soil_depth": "Soil/Topsoil Depth",
+        "soil_depth_tooltip": "Depth of new soil layer to add",
+        "sod_area": "Sod Area",
+        "sod_area_tooltip": "Area to cover with sod/turf grass",
+        "waste_factor": "Waste Factor (%)",
+        "waste_factor_tooltip": "Extra material for edges, curves, and waste (typically 5-10%)",
+        "result_summary": "Materials Summary",
+        "materials": "Material Quantities",
+        "mulch": "Mulch",
+        "soil": "Soil/Topsoil",
+        "sod": "Sod/Turf",
+        "cubic_yards": "cubic yards",
+        "cubic_meters": "cubic meters",
+        "sqft": "sq ft",
+        "sqm": "sq m",
+        "inches": "inches",
+        "cm": "cm",
+        "formula_title": "Calculation Formula",
+        "formula": "Cubic Yards = Area (sq ft) × Depth (inches) / 324. Each material is calculated independently with waste factor applied.",
+        "info_title": "About Landscaping Calculation",
+        "info_description": "Accurate material estimates help avoid shortages and reduce waste. Mulch, soil, and sod are typically sold in different units - this calculator converts to standard measures.",
+        "use_cases_title": "Common Uses",
+        "use_case_1": "Garden bed preparation",
+        "use_case_2": "Lawn renovation and new sod",
+        "use_case_3": "Mulching around trees and shrubs",
+        "errors": {
+            "no_inputs": "Please enter at least one material calculation (area with depth, or sod area)",
+            "invalid_waste": "Waste factor must be between 0 and 100"
+        },
+        "placeholders": {
+            "area": "500",
+            "mulch_depth": "3",
+            "soil_depth": "4",
+            "sod_area": "500",
+            "waste": "5"
+        },
+        "howItWorks": {
+            "title": "How the Landscaping Calculator Works",
+            "formula": "Cubic Yards = Area (sq ft) × Depth (inches) / 324",
+            "explanation": "This calculator determines material quantities for mulch, soil, and sod by converting area and depth measurements into cubic yards or cubic meters. Each material is calculated independently with waste factor applied.",
+            "steps": [
+                "Enter the project area in square feet or meters",
+                "Specify mulch depth (2-4 inches recommended for weed control)",
+                "Add soil/topsoil depth if needed for bed preparation",
+                "Enter sod area if installing new lawn",
+                "Set waste factor and review material quantities"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Garden Bed Renovation",
+                "description": "Calculate mulch and soil amendments for flower beds and planting areas."
+            },
+            {
+                "title": "New Lawn Installation",
+                "description": "Estimate sod rolls and topsoil needed for establishing fresh turf."
+            },
+            {
+                "title": "Tree and Shrub Mulching",
+                "description": "Determine mulch quantities for proper tree ring coverage."
+            },
+            {
+                "title": "Complete Yard Makeover",
+                "description": "Plan all materials for comprehensive landscaping projects."
+            }
+        ],
+        "seoTips": [
+            "Apply 2-4 inches of mulch for optimal weed control and moisture retention",
+            "Keep mulch 3-4 inches away from tree trunks to prevent rot",
+            "Install sod within 24 hours of delivery for best results",
+            "Water new sod daily for the first two weeks to establish roots",
+            "Add 4-6 inches of topsoil for new garden beds with poor existing soil"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Over-mulching (volcano mulching)",
+                "solution": "Keep mulch 2-4 inches deep and away from plant stems"
+            },
+            {
+                "mistake": "Not preparing soil before sodding",
+                "solution": "Till and amend soil, remove debris, and level before sod installation"
+            },
+            {
+                "mistake": "Ordering exact quantities",
+                "solution": "Add 5-10% extra for curves, irregular shapes, and waste"
+            },
+            {
+                "mistake": "Installing sod on unprepared ground",
+                "solution": "Grade the area, add topsoil if needed, and ensure proper drainage"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How much mulch do I need per square foot?",
+                "answer": "For 3-inch depth, you need approximately 1 cubic yard per 108 square feet. A 2-inch depth covers about 162 square feet per cubic yard."
+            },
+            {
+                "question": "How long does mulch last?",
+                "answer": "Organic mulch typically lasts 1-2 years before decomposing. Refresh annually by adding 1-2 inches to maintain proper depth."
+            },
+            {
+                "question": "How much topsoil do I need for a new lawn?",
+                "answer": "For new lawns, apply 4-6 inches of quality topsoil. This equals approximately 0.5-0.75 cubic yards per 100 square feet."
+            },
+            {
+                "question": "When is the best time to install sod?",
+                "answer": "Spring and fall are ideal for sod installation. Avoid extreme heat and ensure consistent watering during establishment."
+            },
+            {
+                "question": "What is the difference between mulch and compost?",
+                "answer": "Mulch is placed on top of soil for weed control and moisture retention. Compost is mixed into soil to improve structure and add nutrients."
+            }
+        ]
+    },
+    "excavation-calculator": {
+        "title": "Excavation Calculator - Dirt & Soil Volume",
+        "description": "Calculate excavation volume and dirt removal needed. Our free excavation calculator estimates cubic yards of soil to dig for foundations, pools, and trenches. Essential for site preparation and grading."
+    },
+    "fill-dirt-calculator": {
+        "title": "Fill Dirt Calculator - Backfill Material",
+        "description": "Calculate fill dirt needed for backfilling and grading. Our free fill calculator estimates soil and topsoil quantities for leveling, raising ground, and landscape filling projects. Get accurate cubic yard estimates."
+    },
+    "gravel-calculator": {
+        "title": "Gravel Calculator - Stone & Aggregate",
+        "description": "Calculate gravel and crushed stone needed for driveways and paths. Our free gravel calculator estimates tons or cubic yards of aggregate required. Perfect for landscaping, base layers, and drainage projects."
+    },
+    "sand-calculator": {
+        "title": "Sand Calculator - Construction Sand",
+        "description": "Calculate sand quantity needed for construction projects. Our free sand calculator estimates tons or cubic yards of sand required for concrete, mortar, landscaping, and base layers. Accurate material ordering."
+    },
+    "asphalt-calculator": {
+        "title": "Asphalt Calculator - Paving Material",
+        "description": "Calculate asphalt quantity for driveways and roads. Our free asphalt calculator estimates tons of hot mix asphalt needed for paving projects. Perfect for parking lots, driveways, and road construction."
+    },
+    "landscaping-calculator": {
+        "title": "Landscaping Calculator - Garden Materials",
+        "description": "Calculate landscaping materials for outdoor projects. Our free landscaping calculator estimates mulch, soil, sod, and plants needed. Perfect for garden design, yard renovation, and outdoor beautification."
+    }
+}

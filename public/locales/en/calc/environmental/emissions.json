@@ -1,0 +1,436 @@
+{
+  "co2_emissions": {
+    "title": "CO₂ Emissions Calculator",
+    "description": "Calculate CO₂ emissions from daily activities and energy consumption",
+    "activity_details": "Activity Details",
+    "activity_type": "Activity Type",
+    "activity_type_tooltip": "Type of activity or fuel",
+    "amount": "Amount",
+    "amount_tooltip": "Amount consumed",
+    "enter_amount": "Enter amount",
+    "calculate_btn": "Calculate Emissions",
+    "reset_btn": "Reset",
+    "results": "Results",
+    "co2_emissions_result": "CO₂ Emissions",
+    "kg_co2": "kg CO₂",
+    "trees_needed": "Trees Needed to Offset",
+    "trees": "trees",
+    "per_year": "(for one year)",
+    "car_equivalent": "Equivalent to Car Running",
+    "days": "days",
+    "avg_car": "(based on average car)",
+    "facts_title": "Important Facts",
+    "fact_trees": "One tree absorbs about 21 kg of CO₂ annually",
+    "fact_car": "Average car produces about 4.6 tons CO₂ annually",
+    "fact_emissions": "Emissions vary by energy source and efficiency",
+    "empty_state": "Enter activity details to calculate CO₂ emissions",
+    "footer_note": "These calculations are based on standard global emission factors.",
+    "options": {
+      "electricity": "Electricity (kWh)",
+      "naturalgas": "Natural Gas (m³)",
+      "petrol": "Petrol (liters)",
+      "diesel": "Diesel (liters)",
+      "coal": "Coal (kg)",
+      "propane": "Propane (kg)"
+    },
+    "howItWorks": {
+      "title": "How Does the CO₂ Emissions Calculator Work?",
+      "formula": "CO₂ = Amount × Emission Factor (varies by fuel type)",
+      "explanation": "This calculator converts your energy consumption or fuel usage into equivalent CO₂ emissions using standardized emission factors for each fuel type.",
+      "steps": [
+        "Select the activity or fuel type from the dropdown",
+        "Enter the amount consumed in the specified unit",
+        "Click Calculate to see your CO₂ emissions",
+        "View the equivalent number of trees needed to offset emissions"
+      ]
+    },
+    "useCases": [
+      "Calculate emissions from specific fuel consumption for reporting",
+      "Compare environmental impact of different energy sources",
+      "Track business or household carbon emissions over time",
+      "Plan carbon offset strategies based on actual emissions"
+    ],
+    "seoTips": [
+      "Coal produces the highest CO₂ per unit of energy (2.42 kg CO₂/kg)",
+      "Natural gas is cleaner than coal, producing 2.0 kg CO₂/m³",
+      "Electricity emissions depend on the grid mix (0.5 kg CO₂/kWh average)",
+      "Diesel produces slightly more CO₂ than petrol per liter",
+      "One tree absorbs approximately 21 kg of CO₂ per year"
+    ],
+    "commonMistakes": [
+      "Using incorrect units (liters vs gallons, kWh vs MWh)",
+      "Not accounting for all emission sources in a calculation",
+      "Forgetting upstream emissions from fuel production",
+      "Assuming all electricity has the same carbon intensity"
+    ],
+    "faqs": [
+      {
+        "question": "Which fuel produces the most CO₂?",
+        "answer": "Coal produces the most CO₂ per unit of energy, followed by diesel, petrol, and natural gas. Renewable energy produces zero direct emissions."
+      },
+      {
+        "question": "How accurate are these emission factors?",
+        "answer": "These are internationally standardized average emission factors. Actual emissions may vary by fuel quality and combustion efficiency."
+      },
+      {
+        "question": "Why does electricity have CO₂ emissions?",
+        "answer": "Most electricity is generated from fossil fuels. The emission factor depends on your local grid mix of coal, gas, nuclear, and renewables."
+      },
+      {
+        "question": "How many trees offset 1 tonne of CO₂?",
+        "answer": "Approximately 48 mature trees are needed to absorb 1 tonne of CO₂ per year, as each tree absorbs about 21 kg annually."
+      }
+    ]
+  },
+  "flight_emissions": {
+    "title": "Flight Emissions Calculator",
+    "description": "Calculate carbon emissions from your flights",
+    "section_title": "Flight Details",
+    "class": "Travel Class",
+    "class_tooltip": "Flight travel class",
+    "distance": "Distance (km)",
+    "distance_tooltip": "Flight distance in kilometers",
+    "passengers": "Number of Passengers",
+    "passengers_tooltip": "Number of passengers on the flight",
+    "enter_distance": "Enter distance",
+    "enter_passengers": "Enter number",
+    "calculate_btn": "Calculate Emissions",
+    "reset_btn": "Reset",
+    "results_title": "Results",
+    "total_emissions": "Total CO₂ Emissions",
+    "per_passenger": "Per Passenger",
+    "trees_needed": "Trees to Offset",
+    "offset_cost": "Estimated Offset Cost",
+    "comparison_title": "For Comparison",
+    "tip_class": "First class produces 5x more emissions than economy",
+    "tip_short": "Short flights are less efficient than long flights",
+    "tip_train": "High-speed trains produce 90% less emissions",
+    "empty_state": "Enter flight details to calculate emissions",
+    "footer_note": "Calculations are based on industry averages and may vary by aircraft and route.",
+    "persons": "persons",
+    "options": {
+      "economy": "Economy Class",
+      "premium": "Premium Economy",
+      "business": "Business Class",
+      "first": "First Class"
+    },
+    "howItWorks": {
+      "title": "How Does the Flight Emissions Calculator Work?",
+      "formula": "CO₂ = Distance (km) × Emission factor × Class multiplier × Passengers",
+      "explanation": "This calculator estimates CO₂ emissions from flights based on distance, travel class, and radiative forcing factor that accounts for emissions released at high altitude.",
+      "steps": [
+        "Select your travel class (economy to first)",
+        "Enter the flight distance in kilometers",
+        "Enter the number of passengers",
+        "Click Calculate to see total emissions",
+        "View offset cost and comparison data"
+      ]
+    },
+    "useCases": [
+      "Calculate carbon footprint of business travel for reporting",
+      "Compare emissions between flight routes or travel alternatives",
+      "Budget for carbon offsetting of flights",
+      "Make informed decisions about necessary vs. avoidable flights"
+    ],
+    "seoTips": [
+      "Aviation accounts for 2.5% of global CO₂ emissions",
+      "First class produces 5x more emissions than economy per passenger",
+      "A round-trip transatlantic flight produces 1.6 tonnes CO₂",
+      "High-altitude emissions have 2-4x the climate impact of ground emissions",
+      "Short flights are less efficient due to takeoff and landing fuel use"
+    ],
+    "commonMistakes": [
+      "Forgetting to include return flights when calculating annual travel",
+      "Not accounting for the class multiplier on premium cabins",
+      "Ignoring connecting flights which add significant emissions",
+      "Underestimating the radiative forcing effect of high-altitude emissions"
+    ],
+    "faqs": [
+      {
+        "question": "Why does travel class affect emissions?",
+        "answer": "Higher classes have larger seats taking more space, meaning fewer passengers per flight. The aircraft's total emissions are divided among fewer people."
+      },
+      {
+        "question": "How much CO₂ does a typical flight produce?",
+        "answer": "A short-haul flight produces about 0.12 kg CO₂ per km per passenger. Long-haul is more efficient at 0.08 kg CO₂ per km."
+      },
+      {
+        "question": "Are trains really better than planes?",
+        "answer": "Yes, significantly. High-speed trains produce 90% less CO₂ than flights for the same distance."
+      },
+      {
+        "question": "Should I offset my flights?",
+        "answer": "Offsetting helps but reducing flights is better. If you must fly, choose economy, direct routes, and offset through certified programs."
+      },
+      {
+        "question": "What is radiative forcing?",
+        "answer": "Aircraft emissions at high altitudes have enhanced warming effects. A multiplier of 1.9-2.0 is applied to account for this total climate impact."
+      }
+    ]
+  },
+  "green_commute": {
+    "title": "Green Commute Calculator",
+    "description": "Compare transport methods by environmental impact and cost",
+    "section_title": "Commute Information",
+    "distance": "Distance One Way (km)",
+    "distance_tooltip": "Distance from home to work",
+    "current_mode": "Current Mode",
+    "current_mode_tooltip": "Your current transportation",
+    "alternative_mode": "Alternative Mode",
+    "alternative_mode_tooltip": "Proposed alternative transportation",
+    "days_per_week": "Work Days per Week",
+    "days_per_week_tooltip": "Number of commute days",
+    "enter_distance": "Enter distance",
+    "enter_days": "Enter number",
+    "calculate_btn": "Compare Methods",
+    "reset_btn": "Reset",
+    "results_title": "Annual Savings",
+    "co2_reduction": "CO₂ Reduction",
+    "cost_savings": "Cost Savings",
+    "calories_burned": "Calories Burned",
+    "time_difference": "Time Difference per Trip",
+    "kg": "kg",
+    "cal": "cal",
+    "min": "min",
+    "benefits_title": "Green Commute Benefits",
+    "benefit_congestion": "Reduce traffic congestion",
+    "benefit_health": "Improve overall health",
+    "benefit_pollution": "Reduce air pollution",
+    "benefit_money": "Save money in the long run",
+    "empty_state": "Enter commute details to compare transport methods",
+    "footer_note": "Choosing green commute benefits you and the environment.",
+    "options": {
+      "car": "Personal Car",
+      "bus": "Bus",
+      "metro": "Metro",
+      "bike": "Bicycle",
+      "walk": "Walking",
+      "ebike": "E-Bike"
+    },
+    "howItWorks": {
+      "title": "How Does the Green Commute Calculator Work?",
+      "formula": "Annual CO₂ Savings = (Current mode emissions - Alternative mode emissions) × Distance × 2 × Days × 52",
+      "explanation": "This calculator compares the environmental impact and costs of your current commute method against a greener alternative, calculating annual savings in CO₂, money, and health benefits.",
+      "steps": [
+        "Enter your one-way commute distance in kilometers",
+        "Select your current transportation mode",
+        "Select an alternative green mode to compare",
+        "Enter the number of commute days per week",
+        "Click Calculate to see annual savings"
+      ]
+    },
+    "useCases": [
+      "Compare environmental impact of different commute options",
+      "Calculate potential savings from switching to public transport or cycling",
+      "Justify green commute investments (e-bike, transit pass)",
+      "Plan multimodal commuting strategies"
+    ],
+    "seoTips": [
+      "Cycling to work burns 300-500 calories per hour",
+      "Public transport produces 70% less CO₂ per passenger-km than cars",
+      "E-bikes make cycling viable for longer distances up to 20km",
+      "Car commuters spend 200+ hours per year in traffic",
+      "Active commuting reduces risk of heart disease by 30-40%"
+    ],
+    "commonMistakes": [
+      "Not accounting for total door-to-door time including parking",
+      "Underestimating the cost of car ownership (maintenance, insurance)",
+      "Ignoring the health benefits of active commuting",
+      "Assuming public transport is always slower than driving"
+    ],
+    "faqs": [
+      {
+        "question": "How much CO₂ can I save by cycling?",
+        "answer": "Switching from car to bicycle saves about 0.2 kg CO₂ per km. A 10km commute saves 800+ kg CO₂ per year."
+      },
+      {
+        "question": "Is an e-bike worth the investment?",
+        "answer": "For commutes of 5-15km, an e-bike typically pays for itself in 1-2 years through fuel and parking savings, plus health benefits."
+      },
+      {
+        "question": "How does the metro compare to driving?",
+        "answer": "Metro produces about 35g CO₂ per passenger-km vs 170g for a car. It's also faster in congested areas."
+      },
+      {
+        "question": "What are the health benefits of bike commuting?",
+        "answer": "Regular cycling commuters have 40% lower risk of heart disease, burn 300-500 calories per hour, and report lower stress."
+      },
+      {
+        "question": "Can I combine methods?",
+        "answer": "Yes, multimodal commuting (bike to station + train) often gives the best balance of time, cost, and environmental impact."
+      }
+    ]
+  },
+  "flight-emissions-calculator": {
+    "title": "Flight Emissions Calculator",
+    "description": "Calculate carbon emissions from your flights.",
+    "input_title": "Flight Details",
+    "travel_class": "Travel Class",
+    "travel_class_tooltip": "Flight travel class",
+    "class_economy": "Economy Class",
+    "class_premium": "Premium Economy",
+    "class_business": "Business Class",
+    "class_first": "First Class",
+    "distance": "Distance (km)",
+    "distance_tooltip": "Flight distance in kilometers",
+    "km": "km",
+    "enter_distance": "Enter distance",
+    "passengers": "Number of Passengers",
+    "passengers_tooltip": "Number of passengers on the flight",
+    "persons": "persons",
+    "enter_number": "Enter number",
+    "calculate_btn": "Calculate Emissions",
+    "reset_btn": "Reset",
+    "results_title": "Results",
+    "total_emissions": "Total CO₂ Emissions",
+    "kg": "kg",
+    "per_passenger": "Per Passenger",
+    "kg_co2": "kg CO₂",
+    "trees_offset": "Trees to Offset",
+    "trees": "trees",
+    "offset_cost": "Estimated Offset Cost",
+    "currency": "SAR",
+    "comparison_title": "For Comparison",
+    "comparison_1": "First class produces 5x more emissions than economy",
+    "comparison_2": "Short flights are less efficient than long flights",
+    "comparison_3": "High-speed trains produce 90% less emissions",
+    "empty_state": "Enter flight details to calculate emissions",
+    "footer_note": "Calculations are based on industry averages and may vary by aircraft and route.",
+    "howItWorks": {
+      "title": "How Does the Flight Emissions Calculator Work?",
+      "formula": "Total CO₂ = Distance × Base factor × Class multiplier × Radiative forcing (1.9)",
+      "explanation": "This calculator estimates flight emissions using ICAO methodology, factoring in distance, travel class space allocation, and the enhanced climate impact of high-altitude emissions.",
+      "steps": [
+        "Select your travel class from the dropdown",
+        "Enter the total flight distance in kilometers",
+        "Enter the number of passengers traveling",
+        "Click Calculate to see total and per-passenger emissions",
+        "View offset requirements and costs"
+      ]
+    },
+    "useCases": [
+      "Calculate business travel carbon footprint for corporate reporting",
+      "Compare emission impact of different flight options",
+      "Estimate carbon offset costs before booking flights",
+      "Track annual flight emissions for personal sustainability goals"
+    ],
+    "seoTips": [
+      "Long-haul flights are more efficient per km than short-haul",
+      "Business class emissions are 2.5x economy due to space",
+      "First class produces 5x the emissions of economy class",
+      "Direct flights have lower emissions than connecting routes",
+      "Average transatlantic flight: 1-2 tonnes CO₂ per passenger"
+    ],
+    "commonMistakes": [
+      "Forgetting round-trip flights double your emissions",
+      "Not including connecting flights in calculations",
+      "Ignoring the radiative forcing multiplier for altitude effects",
+      "Underestimating premium cabin impact on emissions"
+    ],
+    "faqs": [
+      {
+        "question": "Why do premium cabins have higher emissions?",
+        "answer": "Premium seats occupy more aircraft space, reducing passenger capacity. The flight's total emissions are divided among fewer passengers."
+      },
+      {
+        "question": "What is radiative forcing?",
+        "answer": "Emissions at high altitudes have greater climate impact. A factor of 1.9 is applied to account for contrails, cirrus clouds, and nitrogen oxide effects."
+      },
+      {
+        "question": "How can I reduce my flight emissions?",
+        "answer": "Fly economy class, choose direct routes, avoid short flights where trains are viable, and consider video meetings instead."
+      },
+      {
+        "question": "Are newer aircraft more efficient?",
+        "answer": "Yes, modern aircraft use 15-20% less fuel. The Boeing 787 and Airbus A350 are among the most efficient for long-haul flights."
+      }
+    ]
+  },
+  "vehicle_emissions": {
+    "title": "Vehicle Emissions Calculator",
+    "description": "Calculate CO₂ emissions from your vehicle based on fuel type and distance",
+    "section_title": "Vehicle Information",
+    "fuel_type": "Fuel Type",
+    "fuel_type_tooltip": "Your vehicle fuel type",
+    "consumption": "Fuel Consumption (L/100km)",
+    "consumption_tooltip": "Fuel consumption per 100 kilometers",
+    "distance": "Distance (km)",
+    "distance_tooltip": "Distance to calculate emissions for",
+    "enter_consumption": "Enter consumption",
+    "enter_distance": "Enter distance",
+    "calculate_btn": "Calculate Emissions",
+    "reset_btn": "Reset",
+    "results_title": "Results",
+    "co2_emissions": "CO₂ Emissions",
+    "fuel_used": "Fuel Used",
+    "fuel_cost": "Fuel Cost",
+    "trees_needed": "Trees Needed to Offset",
+    "liters": "liters",
+    "tips_title": "Tips to Reduce Emissions",
+    "tip_tires": "Keep tires properly inflated",
+    "tip_engine": "Maintain regular engine service",
+    "tip_drive": "Avoid aggressive driving and high speeds",
+    "tip_transport": "Use public transport or carpool",
+    "empty_state": "Enter vehicle details to calculate emissions",
+    "footer_note": "Prices and emissions are estimates and may vary by vehicle and conditions.",
+    "options": {
+      "petrol": "Petrol",
+      "diesel": "Diesel",
+      "hybrid": "Hybrid",
+      "electric": "Electric"
+    },
+    "howItWorks": {
+      "title": "How Does the Vehicle Emissions Calculator Work?",
+      "formula": "CO₂ = Distance (km) × Fuel consumption (L/100km) × Emission factor × 0.01",
+      "explanation": "This calculator estimates your vehicle's CO₂ emissions based on the fuel type, fuel consumption rate, and distance traveled using standard emission factors for each fuel type.",
+      "steps": [
+        "Select your vehicle's fuel type",
+        "Enter your fuel consumption in liters per 100 km",
+        "Enter the distance you want to calculate emissions for",
+        "Click Calculate to see CO₂ emissions",
+        "View fuel cost and tree offset requirements"
+      ]
+    },
+    "useCases": [
+      "Calculate emissions for specific trips or routes",
+      "Compare environmental impact of different vehicles",
+      "Track monthly or annual vehicle emissions",
+      "Justify vehicle upgrade to hybrid or electric"
+    ],
+    "seoTips": [
+      "Petrol produces 2.31 kg CO₂ per liter burned",
+      "Diesel produces 2.68 kg CO₂ per liter but is more fuel-efficient",
+      "Hybrids typically produce 30-50% less CO₂ than petrol cars",
+      "Electric vehicles have zero direct emissions",
+      "Maintaining proper tire pressure improves efficiency by 3%"
+    ],
+    "commonMistakes": [
+      "Using manufacturer fuel consumption which is often optimistic",
+      "Not accounting for city vs highway driving differences",
+      "Forgetting that electric vehicles have indirect emissions from electricity",
+      "Ignoring the impact of driving style on actual emissions"
+    ],
+    "faqs": [
+      {
+        "question": "Which fuel type produces more CO₂?",
+        "answer": "Per liter, diesel produces more CO₂ (2.68 kg) than petrol (2.31 kg). However, diesel engines are more efficient, often resulting in similar emissions per km."
+      },
+      {
+        "question": "Are electric vehicles truly zero-emission?",
+        "answer": "They have zero direct emissions, but total emissions depend on how electricity is generated. In clean grids, EVs produce 70-90% less lifetime emissions."
+      },
+      {
+        "question": "How can I reduce my vehicle emissions?",
+        "answer": "Maintain proper tire pressure, avoid aggressive driving, reduce AC use, remove roof racks when not needed, and combine trips."
+      },
+      {
+        "question": "How much does driving style affect emissions?",
+        "answer": "Aggressive driving (rapid acceleration, hard braking) can increase fuel consumption and emissions by 15-30%."
+      },
+      {
+        "question": "Should I switch to a hybrid?",
+        "answer": "If you drive mostly in cities with stop-and-go traffic, hybrids can reduce emissions by 30-50%. For highway driving, the benefit is smaller."
+      }
+    ]
+  }
+}

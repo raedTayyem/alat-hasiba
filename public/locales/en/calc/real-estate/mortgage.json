@@ -1,0 +1,930 @@
+{
+  "mortgage-calculator-advanced": {
+    "title": "Advanced Mortgage Calculator - Free Online Amortization Tool",
+    "description": "Calculate monthly mortgage payments, interest, and payoff schedules accurately. Free advanced mortgage calculator with full amortization tables."
+  },
+  "advanced_mortgage_calculator": {
+    "title": "Advanced Mortgage Calculator",
+    "description": "Calculate monthly mortgage payments and amortization schedule.",
+    "loan_amount": "Loan Amount",
+    "loan_amount_tooltip": "Total amount of the loan",
+    "enter_loan_amount": "Enter loan amount",
+    "interest_rate": "Interest Rate (%)",
+    "interest_rate_tooltip": "Annual interest rate",
+    "enter_interest_rate": "Enter interest rate",
+    "loan_term": "Loan Term (Years)",
+    "loan_term_tooltip": "Duration of the loan in years",
+    "enter_loan_term": "Enter loan term",
+    "down_payment": "Down Payment",
+    "down_payment_tooltip": "Initial upfront payment",
+    "enter_down_payment": "Enter down payment",
+    "property_tax": "Property Tax (Yearly)",
+    "property_tax_tooltip": "Annual property tax amount",
+    "enter_property_tax": "Enter property tax",
+    "insurance": "Home Insurance (Yearly)",
+    "insurance_tooltip": "Annual home insurance cost",
+    "enter_insurance": "Enter insurance",
+    "pmi": "PMI (%)",
+    "pmi_tooltip": "Private Mortgage Insurance rate (annual)",
+    "enter_pmi": "Enter PMI rate",
+    "calculate_btn": "Calculate",
+    "reset_btn": "Reset",
+    "results_title": "Payment Breakdown",
+    "monthly_payment": "Monthly Payment",
+    "total_payment": "Total Payment",
+    "total_interest": "Total Interest",
+    "principal_amount": "Principal Amount",
+    "monthly_principal_interest": "Principal & Interest",
+    "monthly_property_tax": "Property Tax",
+    "monthly_insurance": "Home Insurance",
+    "monthly_pmi": "PMI",
+    "currency": "$",
+    "amortization_schedule": "Amortization Schedule",
+    "month": "Month",
+    "payment": "Payment",
+    "principal": "Principal",
+    "interest": "Interest",
+    "balance": "Balance",
+    "tips_title": "Mortgage Tips",
+    "tip_1": "Monthly payment includes principal, interest, taxes, and insurance",
+    "tip_2": "Interest rates may change for adjustable-rate mortgages",
+    "tip_3": "Consult your bank for exact loan terms",
+    "tip_4": "Additional fees like closing costs may apply",
+    "empty_state": "Enter loan details to see payment breakdown",
+    "footer_note": "Results are estimates and may vary.",
+    "howItWorks": {
+      "title": "How Does the Mortgage Calculator Work?",
+      "formula": "Monthly Payment = [r × P × (1+r)^n] / [(1+r)^n - 1]",
+      "explanation": "This calculator uses the standard amortization formula to calculate your monthly payments. Where (r) is the monthly interest rate, (P) is the loan amount, and (n) is the number of payments.",
+      "steps": [
+        "Enter the total loan amount you need",
+        "Specify the expected annual interest rate",
+        "Choose the loan term in years",
+        "Add the down payment if applicable",
+        "Enter taxes and insurance for a complete picture"
+      ]
+    },
+    "useCases": [
+      "Planning for a new home purchase and knowing the expected monthly payment",
+      "Comparing loan offers from different banks",
+      "Determining the right loan amount for your monthly budget",
+      "Understanding the impact of down payment on your payments"
+    ],
+    "seoTips": [
+      "Start with at least 20% down payment to avoid PMI",
+      "Compare fixed-rate and adjustable-rate mortgages",
+      "Calculate total cost, not just monthly payment",
+      "Ensure you can afford payments even if interest rates rise",
+      "Don't forget maintenance costs and taxes when budgeting"
+    ],
+    "commonMistakes": [
+      "Ignoring insurance and tax costs in the calculation",
+      "Not accounting for closing costs and administrative fees",
+      "Choosing too long a loan term to reduce payment, increasing total interest",
+      "Not comparing multiple offers from different banks"
+    ],
+    "faqs": [
+      {
+        "question": "What's the difference between fixed and variable interest?",
+        "answer": "Fixed interest stays the same throughout the loan term, while variable may rise or fall with the market."
+      },
+      {
+        "question": "How much should the down payment be?",
+        "answer": "At least 20% is recommended to avoid PMI and get better terms."
+      },
+      {
+        "question": "Can I pay off the loan early?",
+        "answer": "Yes, most loans allow early payoff, but check for prepayment penalties in your contract."
+      },
+      {
+        "question": "What is an amortization schedule?",
+        "answer": "A table showing how each payment is split between principal and interest over the loan period."
+      },
+      {
+        "question": "How does loan term affect total cost?",
+        "answer": "Longer terms mean lower payments but higher total interest, and vice versa."
+      }
+    ]
+  },
+  "closing_cost_calculator": {
+    "title": "Closing Cost Calculator",
+    "description": "Estimate your real estate closing costs accurately.",
+    "purchase_price": "Purchase Price",
+    "purchase_price_tooltip": "Agreed price of the property",
+    "loan_amount": "Loan Amount",
+    "loan_amount_tooltip": "Total amount being borrowed",
+    "title_fee": "Title Fees",
+    "title_fee_tooltip": "Title search and insurance fees",
+    "appraisal_fee": "Appraisal Fee",
+    "appraisal_fee_tooltip": "Cost for professional property appraisal",
+    "attorney_fee": "Attorney/Settlement Fee",
+    "attorney_fee_tooltip": "Legal fees for closing",
+    "recording_fee": "Recording Fees",
+    "recording_fee_tooltip": "Fees to record the deed",
+    "transfer_tax_rate": "Transfer Tax Rate (%)",
+    "transfer_tax_tooltip": "Local transfer tax percentage",
+    "lender_fee_percent": "Lender Fees (%)",
+    "lender_fee_tooltip": "Origination and other lender fees percentage",
+    "calculate_btn": "Calculate Closing Costs",
+    "reset_btn": "Reset",
+    "results_title": "Closing Cost Estimate",
+    "total_closing_costs": "Total Closing Costs",
+    "of_purchase_price": "of Purchase Price",
+    "cost_breakdown": "Cost Breakdown",
+    "title_fee_label": "Title Fees",
+    "appraisal_fee_label": "Appraisal Fee",
+    "attorney_fee_label": "Attorney Fee",
+    "recording_fee_label": "Recording Fees",
+    "transfer_tax_label": "Transfer Tax",
+    "lender_fees_label": "Lender Fees",
+    "down_payment_label": "Down Payment",
+    "total_cash_needed": "Total Cash to Close",
+    "formula_title": "Closing Cost Details",
+    "formula_explanation": "Closing costs typically range from 2% to 5% of the purchase price. They include various fees from the lender and third parties involved in the transaction.",
+    "tips_title": "Closing Tips",
+    "empty_state": "Enter purchase details to estimate closing costs",
+    "price_required": "Purchase price must be greater than 0",
+    "loan_invalid": "Loan amount must be valid (less than purchase price)",
+    "fees_positive": "Fees must be non-negative",
+    "transfer_tax_range": "Transfer tax rate should be between 0 and 10%",
+    "lender_fee_range": "Lender fee percentage should be between 0 and 5%",
+    "use_cases_title": "Why Calculate Closing Costs?",
+    "use_case_1": "To budget for total cash needed to buy",
+    "use_case_2": "To compare loan offers",
+    "use_case_3": "To understand where your money goes",
+    "info_title": "What are Closing Costs?",
+    "info_description": "Closing costs are fees associated with the purchase of your home that are paid at the closing of a real estate transaction. They are in addition to the down payment.",
+    "howItWorks": {
+      "title": "How Does the Closing Cost Calculator Work?",
+      "formula": "Closing Costs = Title Fees + Appraisal + Attorney + Recording + Transfer Tax + Lender Fees",
+      "explanation": "This calculator aggregates all fees associated with completing a property purchase to give you a clear picture of cash needed.",
+      "steps": [
+        "Enter purchase price and loan amount",
+        "Specify various fees (title, appraisal, attorney)",
+        "Enter tax and fee rates",
+        "Get total closing costs estimate"
+      ]
+    },
+    "useCases": [
+      "Financial planning before buying a home",
+      "Determining total cash needed for purchase",
+      "Comparing loan offers from different banks",
+      "Avoiding financial surprises at closing"
+    ],
+    "seoTips": [
+      "Expect 2-5% of purchase price for closing costs",
+      "Some costs are negotiable with the seller",
+      "Request a loan estimate from the lender early",
+      "Compare multiple offers to save money",
+      "Keep extra funds for unexpected expenses"
+    ],
+    "commonMistakes": [
+      "Underestimating actual costs",
+      "Not comparing fees from different lenders",
+      "Forgetting prepaid insurance fees",
+      "Not negotiating on negotiable fees"
+    ],
+    "faqs": [
+      {
+        "question": "Who pays closing costs?",
+        "answer": "Usually the buyer pays most costs, but you can negotiate to share them with the seller."
+      },
+      {
+        "question": "Can closing costs be included in the loan?",
+        "answer": "Some lenders allow this, but it increases total loan amount and interest."
+      },
+      {
+        "question": "What are escrow fees?",
+        "answer": "Prepaid amounts for taxes and insurance held by the lender."
+      },
+      {
+        "question": "How can I reduce closing costs?",
+        "answer": "Compare offers, negotiate fees, and ask the seller to contribute."
+      }
+    ]
+  },
+  "debt_to_income_ratio_calculator": {
+    "title": "Debt-to-Income Ratio Calculator",
+    "description": "Calculate your DTI ratio for home loan qualification.",
+    "monthly_income": "Monthly Gross Income",
+    "monthly_income_tooltip": "Total pre-tax monthly income from all sources",
+    "monthly_debt": "Monthly Debt Payments",
+    "monthly_debt_tooltip": "Total monthly payments (credit cards, loans, etc.)",
+    "calculate_btn": "Calculate DTI",
+    "reset_btn": "Reset",
+    "results_title": "DTI Analysis",
+    "dti_ratio": "Debt-to-Income Ratio",
+    "result_status_good": "Good DTI - Likely to Qualify",
+    "result_status_manageable": "Manageable DTI - May Qualify",
+    "result_status_high": "High DTI - Difficult to Qualify",
+    "result_status_critical": "Very High DTI - Unlikely to Qualify",
+    "tips_title": "Understanding DTI",
+    "tip_good": "Below 36%: Excellent for mortgage qualification",
+    "tip_manageable": "36% - 43%: Acceptable for most lenders",
+    "tip_high": "43% - 50%: May require higher down payment or interest",
+    "tip_critical": "Above 50%: Difficult to get approved",
+    "empty_state": "Enter income and debt to calculate DTI",
+    "footer_note": "Lenders look for DTI below 43% typically.",
+    "howItWorks": {
+      "title": "How Does the DTI Calculator Work?",
+      "formula": "DTI = (Total Monthly Debt Payments / Gross Monthly Income) × 100",
+      "explanation": "This ratio measures how much of your monthly income goes to debt payments, a key metric used by lenders.",
+      "steps": [
+        "Enter your gross monthly income before taxes",
+        "Enter total monthly debt payments",
+        "The calculator gives you your DTI ratio and qualification assessment"
+      ]
+    },
+    "useCases": [
+      "Checking your eligibility for a mortgage",
+      "Knowing how much loan you can afford",
+      "Planning to improve your financial situation before applying",
+      "Understanding how lenders view you"
+    ],
+    "seoTips": [
+      "Aim for DTI below 36% for best terms",
+      "Pay off small debts quickly to improve ratio",
+      "Increasing income or reducing debt improves DTI",
+      "Don't open new credit accounts before applying for a mortgage",
+      "Calculate DTI with and without expected new loan payment"
+    ],
+    "commonMistakes": [
+      "Forgetting some debts like credit cards",
+      "Using net income instead of gross",
+      "Not accounting for expected new loan payments",
+      "Ignoring joint debts with spouse"
+    ],
+    "faqs": [
+      {
+        "question": "What is an ideal DTI ratio?",
+        "answer": "Below 36% is excellent, 36-43% is acceptable, above 43% may face difficulties."
+      },
+      {
+        "question": "Does DTI include current rent?",
+        "answer": "No, rent typically isn't counted as it will be replaced by mortgage payment."
+      },
+      {
+        "question": "How can I improve my DTI?",
+        "answer": "Pay off debts, increase income, or avoid new debts."
+      },
+      {
+        "question": "Does DTI affect interest rates?",
+        "answer": "Yes, a lower ratio may qualify you for better interest rates."
+      }
+    ]
+  },
+  "home_affordability_calculator": {
+    "title": "Home Affordability Calculator",
+    "description": "Calculate how much home you can afford based on your income and debts.",
+    "annual_income": "Annual Income",
+    "annual_income_tooltip": "Total annual gross income before taxes",
+    "enter_annual_income": "Enter annual income",
+    "monthly_debts": "Monthly Debts",
+    "monthly_debts_tooltip": "Total monthly debt payments (loans, credit cards, etc.)",
+    "enter_monthly_debts": "Enter monthly debts",
+    "down_payment": "Down Payment",
+    "down_payment_tooltip": "Available down payment amount",
+    "enter_down_payment": "Enter down payment",
+    "interest_rate": "Interest Rate (%)",
+    "interest_rate_tooltip": "Annual mortgage interest rate",
+    "enter_interest_rate": "Enter interest rate",
+    "loan_term": "Loan Term (Years)",
+    "loan_term_tooltip": "Duration of the loan in years",
+    "enter_loan_term": "Enter loan term",
+    "calculate_btn": "Calculate Affordability",
+    "reset_btn": "Reset",
+    "results_title": "Affordability Results",
+    "max_home_price": "Maximum Home Price",
+    "max_loan_amount": "Maximum Loan Amount",
+    "max_monthly_payment": "Maximum Monthly Payment",
+    "recommended_down_payment": "Recommended Down Payment (20%)",
+    "currency": "$",
+    "tips_title": "Affordability Tips",
+    "tip_1": "Lenders typically prefer DTI ratio below 43%",
+    "tip_2": "Consider additional costs like taxes and insurance",
+    "tip_3": "A larger down payment reduces monthly payments",
+    "tip_4": "Keep 3-6 months of expenses as emergency fund",
+    "empty_state": "Enter your financial details to calculate affordability",
+    "footer_note": "Results are estimates. Consult a lender for pre-approval.",
+    "howItWorks": {
+      "title": "How Does the Home Affordability Calculator Work?",
+      "formula": "Maximum Payment = Monthly Income × 28-36%",
+      "explanation": "This calculator uses standard lender rules to determine the maximum home price you can afford based on your income and debts.",
+      "steps": [
+        "Enter your gross annual income",
+        "Enter your current monthly debts",
+        "Specify down payment and interest rate",
+        "Get maximum home price that fits your budget"
+      ]
+    },
+    "useCases": [
+      "Determining the right price range for your search",
+      "Knowing borrowing limits before applying",
+      "Planning to increase income or reduce debts",
+      "Setting realistic purchase expectations"
+    ],
+    "seoTips": [
+      "Don't buy at maximum - leave a safety margin",
+      "Calculate additional costs like taxes, insurance, and maintenance",
+      "The 28% of income for housing rule is a good guideline",
+      "Improving DTI increases your buying power",
+      "Pre-approval gives you a more accurate picture"
+    ],
+    "commonMistakes": [
+      "Buying at maximum qualified amount",
+      "Ignoring post-purchase costs",
+      "Not accounting for taxes and insurance",
+      "Forgetting emergency reserves"
+    ],
+    "faqs": [
+      {
+        "question": "What is the 28/36 rule?",
+        "answer": "Housing shouldn't exceed 28% of income, and total debts shouldn't exceed 36%."
+      },
+      {
+        "question": "Can I buy more than the calculator suggests?",
+        "answer": "Yes, but you may face financial stress. The calculator suggests the safe limit."
+      },
+      {
+        "question": "How do debts affect buying power?",
+        "answer": "Every dollar of debt reduces the payment you can afford, lowering home price."
+      },
+      {
+        "question": "Does the result include taxes and insurance?",
+        "answer": "Depends on the calculator. Make sure to account for them when actually buying."
+      }
+    ]
+  },
+  "heloc_calculator": {
+    "title": "HELOC Calculator - Home Equity Line of Credit Tool",
+    "description": "Calculate potential HELOC amounts and monthly payments. Free online tool to access your home's equity responsibly.",
+    "home_value": "Home Value",
+    "home_value_tooltip": "Current market value of your home",
+    "outstanding_mortgage": "Outstanding Mortgage Balance",
+    "outstanding_mortgage_tooltip": "Remaining amount on your current mortgage",
+    "calculate_btn": "Calculate HELOC",
+    "reset_btn": "Reset",
+    "results_title": "HELOC Estimate",
+    "max_heloc": "Maximum HELOC Amount",
+    "of_value": "of home value",
+    "ltv_limit": "Maximum Loan-to-Value Ratio (LTV)",
+    "footer_note": "Banks typically lend up to 80-90% of home value minus mortgage balance.",
+    "howItWorks": {
+      "title": "How Does the HELOC Calculator Work?",
+      "formula": "Available HELOC = (Home Value × 80-90%) - Mortgage Balance",
+      "explanation": "This tool calculates how much home equity you can borrow against through a HELOC line of credit.",
+      "steps": [
+        "Enter the current market value of your home",
+        "Enter remaining mortgage balance",
+        "Get the maximum HELOC amount available"
+      ]
+    },
+    "useCases": [
+      "Funding home renovations and improvements",
+      "Consolidating debt at lower interest",
+      "Financing education expenses",
+      "Obtaining emergency liquidity"
+    ],
+    "seoTips": [
+      "HELOC usually has variable interest rates",
+      "Use HELOC for improvements that increase home value",
+      "Don't use HELOC for consumer expenses",
+      "Your home is collateral - be careful",
+      "Compare HELOC with fixed home equity loans"
+    ],
+    "commonMistakes": [
+      "Over-borrowing against your home",
+      "Using HELOC for unnecessary expenses",
+      "Ignoring variable interest rate risks",
+      "Not having a clear repayment plan"
+    ],
+    "faqs": [
+      {
+        "question": "What's the difference between HELOC and home equity loan?",
+        "answer": "HELOC is a revolving credit line with variable rates; home equity loan is a fixed lump sum with fixed rates."
+      },
+      {
+        "question": "Can I lose my home?",
+        "answer": "Yes, HELOC is secured by your home. Non-payment could lead to foreclosure."
+      },
+      {
+        "question": "What is the draw period?",
+        "answer": "Usually 5-10 years when you can draw funds, then repayment period begins."
+      },
+      {
+        "question": "Is the interest tax deductible?",
+        "answer": "May be deductible if used for home improvement. Consult an accountant."
+      }
+    ]
+  },
+  "down-payment-calculator": {
+    "title": "Down Payment Calculator - Home Purchase Savings Goal",
+    "description": "Calculate your required down payment for a new home. Free online tool to plan your real estate investment and mortgage costs."
+  },
+  "closing-cost-calculator": {
+    "title": "Closing Cost Calculator - Real Estate Purchase Estimates",
+    "description": "Estimate your real estate closing costs accurately. Free online calculator for buyers and sellers to plan settlement expenses."
+  },
+  "pmi-calculator": {
+    "title": "PMI Calculator - Private Mortgage Insurance Estimates",
+    "description": "Calculate your monthly private mortgage insurance (PMI) costs. Free online tool for home loans with less than 20% down payment."
+  },
+  "heloc-calculator": {
+    "title": "HELOC Calculator - Home Equity Line of Credit Tool",
+    "description": "Calculate potential HELOC amounts and monthly payments. Free online tool to access your home's equity responsibly."
+  },
+  "loan-to-value-calculator": {
+    "title": "Loan-to-Value (LTV) Calculator - Mortgage Equity Ratio",
+    "description": "Calculate your LTV ratio accurately. Free online tool for mortgage qualification and refinancing analysis."
+  },
+  "pmi_calculator": {
+    "title": "PMI Calculator",
+    "description": "Calculate your monthly Private Mortgage Insurance (PMI) costs.",
+    "home_price": "Home Price",
+    "home_price_tooltip": "Purchase price of the home",
+    "enter_home_price": "Enter home price",
+    "down_payment": "Down Payment",
+    "down_payment_tooltip": "Initial upfront payment",
+    "enter_down_payment": "Enter down payment",
+    "pmi_rate": "PMI Rate (%)",
+    "pmi_rate_tooltip": "Annual PMI rate (typically 0.3% - 1.5%)",
+    "enter_pmi_rate": "Enter PMI rate",
+    "calculate_btn": "Calculate PMI",
+    "reset_btn": "Reset",
+    "results_title": "PMI Estimate",
+    "pmi_required": "PMI Required",
+    "pmi_not_required": "PMI Not Required",
+    "loan_amount": "Loan Amount",
+    "ltv_ratio": "LTV Ratio",
+    "monthly_pmi": "Monthly PMI",
+    "annual_pmi": "Annual PMI",
+    "equity_needed": "Equity Needed to Remove PMI",
+    "currency": "$",
+    "tips_title": "About PMI",
+    "tip_when_required": "PMI is required when down payment is less than 20%",
+    "tip_cancellation": "PMI can be canceled when you reach 20% equity",
+    "tip_cost": "PMI is added to your monthly payment",
+    "tip_rates": "PMI rates typically range from 0.3% - 1.5% annually",
+    "tip_removal": "Contact your lender to cancel PMI when you reach required equity",
+    "empty_state": "Enter loan details to estimate PMI costs",
+    "howItWorks": {
+      "title": "How Does the PMI Calculator Work?",
+      "formula": "Annual PMI = Loan Amount × PMI Rate",
+      "explanation": "This tool calculates the cost of private mortgage insurance required when your down payment is less than 20%.",
+      "steps": [
+        "Enter home price and down payment",
+        "Specify PMI rate (typically 0.3-1.5%)",
+        "Get monthly and annual PMI costs"
+      ]
+    },
+    "useCases": [
+      "Estimating the true cost of monthly payment",
+      "Comparing down payment options",
+      "Planning to reach 20% equity",
+      "Calculating savings from avoiding PMI"
+    ],
+    "seoTips": [
+      "A 20% down payment eliminates PMI and saves hundreds monthly",
+      "PMI is automatically canceled at 78% LTV or by request at 80%",
+      "Some loans offer LPMI (lender-paid PMI)",
+      "Compare PMI cost with waiting to save a larger down payment",
+      "PMI isn't forever - plan to eliminate it"
+    ],
+    "commonMistakes": [
+      "Forgetting PMI when calculating affordability",
+      "Not requesting PMI cancellation when eligible",
+      "Confusing PMI with homeowners insurance",
+      "Ignoring options to avoid PMI like piggyback loans"
+    ],
+    "faqs": [
+      {
+        "question": "When can I cancel PMI?",
+        "answer": "Request cancellation at 20% equity; it's automatically canceled at 22% equity."
+      },
+      {
+        "question": "Is PMI tax deductible?",
+        "answer": "This changes with tax laws. Consult an accountant for current status."
+      },
+      {
+        "question": "What are alternatives to PMI?",
+        "answer": "80-10-10 piggyback loan, LPMI, or waiting to save 20%."
+      },
+      {
+        "question": "Does PMI protect me?",
+        "answer": "No, PMI protects the lender only in case of default, not the borrower."
+      }
+    ]
+  },
+  "refinance_calculator": {
+    "title": "Refinance Calculator",
+    "description": "Calculate savings and break-even point for mortgage refinancing.",
+    "current_balance": "Current Loan Balance",
+    "current_balance_tooltip": "Remaining principal on your current mortgage",
+    "current_rate": "Current Interest Rate (%)",
+    "current_rate_tooltip": "Annual interest rate of your current loan",
+    "current_payment": "Current Monthly Payment",
+    "current_payment_tooltip": "Your current monthly principal and interest payment",
+    "new_rate": "New Interest Rate (%)",
+    "new_rate_tooltip": "Interest rate for the new loan",
+    "closing_costs": "Closing Costs",
+    "closing_costs_tooltip": "Total fees to refinance (appraisal, origination, etc.)",
+    "remaining_years": "Years Remaining / New Term",
+    "remaining_years_tooltip": "Number of years for the new loan term",
+    "calculate_btn": "Calculate Savings",
+    "reset_btn": "Reset",
+    "results_title": "Refinance Analysis",
+    "monthly_savings": "Monthly Savings",
+    "recommended": "Refinancing Recommended",
+    "not_recommended": "Refinancing Not Recommended",
+    "details": "Savings Breakdown",
+    "new_payment": "New Monthly Payment",
+    "break_even": "Break-Even Point",
+    "years": "Years",
+    "months": "Months",
+    "lifetime_savings": "Lifetime Savings",
+    "interest_savings": "Total Interest Savings",
+    "total_interest_current": "Total Interest (Current Loan)",
+    "total_interest_new": "Total Interest (New Loan)",
+    "formula_title": "Refinance Details",
+    "formula_explanation": "Break-even is when your monthly savings cover the closing costs. Lifetime savings includes interest saved minus closing costs.",
+    "info_title": "About Refinancing",
+    "info_description": "Refinancing involves replacing your existing mortgage with a new one, usually to get a lower interest rate or change the loan term.",
+    "use_cases_title": "Why Refinance?",
+    "use_case_1": "Lower your monthly payment",
+    "use_case_2": "Pay off your home sooner",
+    "use_case_3": "Reduce total interest costs",
+    "balance_required": "Please enter a valid loan balance",
+    "current_rate_range": "Current rate must be between 0 and 30",
+    "payment_required": "Please enter your current monthly payment",
+    "new_rate_range": "New rate must be between 0 and 30",
+    "costs_positive": "Closing costs cannot be negative",
+    "years_range": "Term must be between 0 and 40 years",
+    "howItWorks": {
+      "title": "How Does the Refinance Calculator Work?",
+      "formula": "Break-Even = Closing Costs / Monthly Savings",
+      "explanation": "This tool compares your current loan to a potential new loan to determine if refinancing makes financial sense.",
+      "steps": [
+        "Enter current loan details (balance, rate, payment)",
+        "Specify expected new interest rate",
+        "Enter refinancing closing costs",
+        "Get monthly savings and break-even point"
+      ]
+    },
+    "useCases": [
+      "Deciding if refinancing is worthwhile",
+      "Comparing refinance offers",
+      "Calculating long-term savings",
+      "Determining optimal loan term for new loan"
+    ],
+    "seoTips": [
+      "Wait until interest drops at least 0.5-1%",
+      "Calculate break-even and compare to your plans to stay",
+      "Consider shortening the term to save total interest",
+      "Don't reset to 30 years if you've already paid years off",
+      "Compare closing costs from multiple lenders"
+    ],
+    "commonMistakes": [
+      "Refinancing to a new 30-year term",
+      "Ignoring closing costs in the calculation",
+      "Refinancing when planning to move soon",
+      "Focusing only on payment without total interest"
+    ],
+    "faqs": [
+      {
+        "question": "When does refinancing make sense?",
+        "answer": "When you save at least 0.5-1% interest and plan to stay longer than break-even point."
+      },
+      {
+        "question": "What is the break-even point?",
+        "answer": "The time it takes for monthly savings to cover closing costs."
+      },
+      {
+        "question": "Can I roll closing costs into the loan?",
+        "answer": "Yes, but it increases loan balance and reduces actual savings."
+      },
+      {
+        "question": "Is cash-out refinance a good idea?",
+        "answer": "Depends on use. Home improvement may be good; consumption is not."
+      }
+    ]
+  },
+  "down_payment_calculator": {
+    "title": "Down Payment Calculator",
+    "description": "Calculate down payment amount and loan-to-value ratio.",
+    "home_price": "Home Price",
+    "home_price_tooltip": "Enter the total home price",
+    "enter_home_price": "Enter home price",
+    "down_payment_percent": "Down Payment (%)",
+    "down_payment_tooltip": "Percentage of home price as down payment",
+    "enter_percent": "Enter percentage",
+    "calculate_btn": "Calculate",
+    "reset_btn": "Reset",
+    "results_title": "Down Payment Analysis",
+    "down_payment_amount": "Down Payment Amount",
+    "loan_amount": "Loan Amount",
+    "ltv": "Loan-to-Value (LTV)",
+    "pmi_required": "PMI Required",
+    "pmi_estimate": "Est. Monthly PMI",
+    "yes": "Yes",
+    "no": "No",
+    "currency": "$",
+    "info_title": "About Down Payments",
+    "info_description": "A down payment of 20% or more avoids PMI (Private Mortgage Insurance).",
+    "empty_state": "Enter home price to calculate down payment",
+    "down_percent": "Down Payment (%)",
+    "down_percent_tooltip": "Percentage of home price to pay upfront",
+    "down_payment_label": "Down Payment Amount",
+    "of_price": "of home price",
+    "details": "Loan Details",
+    "pmi_status": "PMI Status",
+    "no_pmi": "No PMI Required",
+    "formula_title": "Down Payment Information",
+    "formula_explanation": "A down payment of 20% or more avoids Private Mortgage Insurance (PMI). LTV is the loan-to-value ratio.",
+    "use_cases_title": "Why Calculate Down Payment?",
+    "use_case_1": "Set a savings goal",
+    "use_case_2": "Calculate required loan amount",
+    "use_case_3": "Check if PMI is required",
+    "howItWorks": {
+      "title": "How Does the Down Payment Calculator Work?",
+      "formula": "Down Payment = Home Price × Down Payment Percentage",
+      "explanation": "This tool calculates the required down payment amount and shows its impact on loan amount and PMI.",
+      "steps": [
+        "Enter the desired home price",
+        "Specify desired down payment percentage",
+        "Get down payment amount, loan amount, and LTV ratio"
+      ]
+    },
+    "useCases": [
+      "Setting savings goal for home purchase",
+      "Knowing required loan amount",
+      "Checking if PMI is needed",
+      "Comparing different down payment scenarios"
+    ],
+    "seoTips": [
+      "20% down avoids PMI and saves money",
+      "Some programs accept 3-5% down payment",
+      "The larger the down payment, the lower the monthly payment",
+      "Calculate time needed to save based on your income",
+      "Don't exhaust all savings for the down payment"
+    ],
+    "commonMistakes": [
+      "Forgetting additional closing costs",
+      "Depleting emergency fund for down payment",
+      "Underestimating importance of avoiding PMI",
+      "Not accounting for moving and furniture costs"
+    ],
+    "faqs": [
+      {
+        "question": "What is the minimum possible down payment?",
+        "answer": "Varies by loan type, from 0% for VA loans to 3.5% for FHA and 20% conventional."
+      },
+      {
+        "question": "What is PMI?",
+        "answer": "Insurance required when down payment is less than 20%, added to monthly payment until you reach 20% equity."
+      },
+      {
+        "question": "Is a larger down payment always better?",
+        "answer": "Not necessarily. Balance between reducing payment and keeping liquidity for emergencies."
+      },
+      {
+        "question": "What is LTV ratio?",
+        "answer": "Loan-to-Value = Loan Amount / Property Value. Below 80% avoids PMI."
+      }
+    ]
+  },
+  "mortgage-affordability-calculator": {
+    "title": "Advanced Mortgage Calculator",
+    "description": "Calculate payments, interest, and amortization"
+  },
+  "refinance-calculator": {
+    "title": "Home Affordability Calculator",
+    "description": "Calculate affordable home price"
+  },
+  "home_equity_calculator": {
+    "title": "Home Equity Calculator",
+    "description": "Calculate your current home equity based on market value and loan balance.",
+    "current_value": "Current Home Value",
+    "current_value_tooltip": "Current market value of the property",
+    "remaining_mortgage": "Remaining Mortgage",
+    "remaining_mortgage_tooltip": "Remaining balance on the mortgage",
+    "calculate_btn": "Calculate Equity",
+    "reset_btn": "Reset",
+    "results_title": "Equity Analysis",
+    "equity_label": "Home Equity",
+    "of_value": "of home value",
+    "details": "Equity Details",
+    "available_heloc": "Potential HELOC (85% LTV)",
+    "ltv": "Loan-to-Value Ratio (LTV)",
+    "formula_title": "Equity Formula",
+    "formula_explanation": "Equity = Current Value - Remaining Mortgage. LTV is the percentage of your home value that is mortgaged.",
+    "info_title": "About Home Equity",
+    "info_description": "Home equity is the portion of your property that you truly 'own'. It increases as you pay down your mortgage and as property value rises.",
+    "use_cases_title": "Why Calculate Equity?",
+    "use_case_1": "Determine net worth",
+    "use_case_2": "Check eligibility for equity loans",
+    "use_case_3": "Plan for refinancing or selling",
+    "howItWorks": {
+      "title": "How Does the Home Equity Calculator Work?",
+      "formula": "Home Equity = Current Market Value - Remaining Mortgage Balance",
+      "explanation": "This calculator determines how much of your home you actually own by subtracting your outstanding mortgage balance from your property's current market value. It also calculates your loan-to-value ratio (LTV) and potential HELOC availability.",
+      "steps": [
+        "Enter your home's current market value based on recent appraisals or comparable sales",
+        "Input your remaining mortgage balance from your latest statement",
+        "The calculator subtracts the mortgage from the value to find your equity",
+        "LTV ratio is calculated to show what percentage of your home is still mortgaged",
+        "Potential HELOC amount is estimated based on 85% LTV lending limits"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "HELOC or Home Equity Loan Planning",
+        "description": "Determine how much equity you can potentially borrow against for home improvements, debt consolidation, or other major expenses."
+      },
+      {
+        "title": "Net Worth Calculation",
+        "description": "Accurately calculate your personal net worth by knowing exactly how much equity you have in your largest asset."
+      },
+      {
+        "title": "Refinancing Decisions",
+        "description": "Understand your equity position to determine if you qualify for better loan terms or can eliminate PMI through refinancing."
+      },
+      {
+        "title": "Selling Strategy",
+        "description": "Calculate how much cash you would walk away with after selling your home and paying off the remaining mortgage."
+      }
+    ],
+    "seoTips": [
+      {
+        "title": "Track Your Equity Monthly",
+        "description": "As you make mortgage payments and property values fluctuate, your equity changes. Regular tracking helps you spot opportunities for leveraging your equity."
+      },
+      {
+        "title": "Understand LTV Thresholds",
+        "description": "Key LTV thresholds include 80% (PMI elimination), 85% (typical HELOC maximum), and 90-95% (refinancing limits). Know where you stand."
+      },
+      {
+        "title": "Get Accurate Home Valuations",
+        "description": "Your equity calculation is only as accurate as your home value estimate. Use recent comparable sales, online estimators, or professional appraisals."
+      },
+      {
+        "title": "Consider All Liens",
+        "description": "Include all mortgages, HELOCs, and other liens against your property when calculating true available equity."
+      },
+      {
+        "title": "Factor in Selling Costs",
+        "description": "If calculating equity for a potential sale, remember to subtract estimated closing costs and agent commissions (typically 8-10% of sale price)."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Overestimating Home Value",
+        "description": "Using unrealistic home values inflates your equity on paper but leads to disappointment when applying for loans or selling."
+      },
+      {
+        "title": "Forgetting About Other Liens",
+        "description": "Failing to include second mortgages, HELOCs, or tax liens when calculating available equity."
+      },
+      {
+        "title": "Ignoring Market Conditions",
+        "description": "Home values fluctuate with the market. Equity calculated during a hot market may decrease during downturns."
+      },
+      {
+        "title": "Confusing Equity with Cash Available",
+        "description": "Having $100,000 in equity doesn't mean you can borrow $100,000. Lenders typically allow borrowing up to 80-85% of your home's value minus existing mortgages."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is home equity?",
+        "answer": "Home equity is the difference between your home's current market value and the amount you still owe on your mortgage. It represents the portion of your home that you truly 'own' and can be thought of as your financial stake in the property."
+      },
+      {
+        "question": "How can I increase my home equity?",
+        "answer": "You can increase home equity by making regular mortgage payments (especially extra principal payments), making home improvements that increase property value, and benefiting from natural market appreciation over time."
+      },
+      {
+        "question": "What is a good LTV ratio?",
+        "answer": "An LTV of 80% or below is generally considered good because it eliminates the need for PMI and qualifies you for better loan rates. An LTV of 20% or below (meaning 80%+ equity) is excellent for accessing HELOCs and home equity loans."
+      },
+      {
+        "question": "Can I lose home equity?",
+        "answer": "Yes, home equity can decrease if your property value drops due to market conditions, neighborhood decline, or property deterioration. It can also decrease if you take out additional loans against your home."
+      },
+      {
+        "question": "What is the difference between home equity and home equity loan?",
+        "answer": "Home equity is the value you own in your home. A home equity loan is a type of loan that allows you to borrow against that equity, using your home as collateral. The loan gives you a lump sum that you repay over time with interest."
+      }
+    ]
+  },
+  "loan_to_value_calculator": {
+    "title": "Loan-to-Value (LTV) Calculator",
+    "description": "Calculate your loan-to-value ratio for mortgage qualification and refinancing.",
+    "property_value": "Property Value",
+    "property_value_tooltip": "Current market value or appraised value of the property",
+    "enter_property_value": "Enter property value",
+    "loan_amount": "Loan Amount",
+    "loan_amount_tooltip": "Total mortgage or loan balance",
+    "enter_loan_amount": "Enter loan amount",
+    "calculate_btn": "Calculate LTV",
+    "reset_btn": "Reset",
+    "results_title": "LTV Analysis",
+    "ltv_ratio": "Loan-to-Value Ratio",
+    "equity_percent": "Equity Percentage",
+    "equity_amount": "Equity Amount",
+    "pmi_status": "PMI Status",
+    "pmi_required": "PMI Required (LTV > 80%)",
+    "no_pmi": "No PMI Required",
+    "currency": "$",
+    "formula_title": "LTV Formula",
+    "formula_explanation": "LTV = (Loan Amount / Property Value) × 100. An LTV of 80% or below typically means no PMI is required.",
+    "info_title": "About LTV Ratio",
+    "info_description": "The loan-to-value ratio is a critical metric used by lenders to assess risk. Lower LTV ratios indicate more equity and less risk for the lender.",
+    "use_cases_title": "Why Calculate LTV?",
+    "use_case_1": "Check mortgage qualification",
+    "use_case_2": "Determine if PMI is required",
+    "use_case_3": "Evaluate refinancing options",
+    "tips_title": "LTV Guidelines",
+    "tip_1": "LTV below 80% typically avoids PMI",
+    "tip_2": "Lower LTV often means better interest rates",
+    "tip_3": "Most lenders require LTV of 95% or lower",
+    "tip_4": "FHA loans may allow up to 96.5% LTV",
+    "empty_state": "Enter property value and loan amount to calculate LTV",
+    "footer_note": "LTV is a key factor in mortgage approval and terms.",
+    "howItWorks": {
+      "title": "How Does the LTV Calculator Work?",
+      "formula": "LTV Ratio = (Loan Amount / Property Value) × 100",
+      "explanation": "This calculator determines the percentage of your property's value that is financed by a loan. It helps you understand your equity position and mortgage eligibility.",
+      "steps": [
+        {
+          "name": "Enter Property Value",
+          "text": "Input the current market value or appraised value of your property"
+        },
+        {
+          "name": "Enter Loan Amount",
+          "text": "Input the total mortgage balance or loan amount you're seeking"
+        },
+        {
+          "name": "Calculate Ratio",
+          "text": "The calculator divides loan amount by property value to determine LTV percentage"
+        },
+        {
+          "name": "Review Results",
+          "text": "See your LTV ratio, equity percentage, and PMI requirements"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Mortgage Pre-Qualification",
+        "description": "Determine if your LTV ratio meets lender requirements before applying for a mortgage. Most conventional loans require 80-97% LTV."
+      },
+      {
+        "title": "PMI Elimination Planning",
+        "description": "Track your progress toward the 80% LTV threshold where you can request PMI removal, saving hundreds of dollars monthly."
+      },
+      {
+        "title": "Refinancing Assessment",
+        "description": "Evaluate your current LTV to determine eligibility for refinancing options and potentially better interest rates."
+      },
+      {
+        "title": "Home Equity Access",
+        "description": "Calculate available equity for HELOC or home equity loan applications, typically requiring LTV below 80-85%."
+      }
+    ],
+    "seoTips": [
+      "LTV below 80% eliminates PMI requirement and saves money on monthly payments",
+      "Lower LTV ratios typically qualify for better interest rates and loan terms",
+      "Track your LTV as you pay down your mortgage to plan for PMI cancellation",
+      "Consider making extra principal payments to reach the 80% LTV threshold faster",
+      "Property appreciation also reduces LTV - get updated appraisals periodically"
+    ],
+    "commonMistakes": [
+      "Using purchase price instead of current market value for LTV calculation",
+      "Forgetting to include all mortgages and home equity loans in the total loan amount",
+      "Not requesting PMI cancellation when reaching 80% LTV through payments",
+      "Assuming LTV stays the same - it changes with payments and property value fluctuations"
+    ],
+    "faqs": [
+      {
+        "question": "What is a good LTV ratio?",
+        "answer": "An LTV of 80% or below is considered excellent as it avoids PMI. For the best rates, aim for 75% or lower. Anything above 95% may face difficulty getting approved."
+      },
+      {
+        "question": "How does LTV affect my mortgage rate?",
+        "answer": "Lower LTV ratios typically qualify for lower interest rates because they represent less risk to lenders. The difference can be 0.25-0.5% or more between high and low LTV loans."
+      },
+      {
+        "question": "Can I reduce my LTV ratio?",
+        "answer": "Yes, you can reduce LTV by making extra principal payments, waiting for property appreciation, or making home improvements that increase value. Getting a new appraisal may reflect value increases."
+      },
+      {
+        "question": "What is the maximum LTV for different loan types?",
+        "answer": "Conventional loans typically allow up to 97% LTV. FHA loans allow 96.5%. VA loans can go up to 100%. Jumbo loans usually require 80% or lower LTV."
+      },
+      {
+        "question": "Does LTV affect refinancing?",
+        "answer": "Yes, LTV is critical for refinancing. Most refinance programs require LTV of 80-95%. Cash-out refinances typically have lower LTV limits around 80%."
+      }
+    ]
+  }
+}

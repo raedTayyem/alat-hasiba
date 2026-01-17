@@ -1,0 +1,588 @@
+{
+    "window": {
+        "title": "Window Calculator",
+        "description": "Calculate window glass size based on rough opening and frame type.",
+        "unit": "Measurement Unit",
+        "unit_tooltip": "Select measurement unit for dimensions",
+        "mm": "Millimeters (mm)",
+        "cm": "Centimeters (cm)",
+        "inches": "Inches",
+        "m": "m",
+        "frame_type": "Frame Type",
+        "frame_type_tooltip": "Different frame types have different allowances for installation",
+        "frames": {
+            "vinyl": "Vinyl Frame (38mm allowance)",
+            "aluminum": "Aluminum Frame (25mm allowance)",
+            "wood": "Wood Frame (51mm allowance)",
+            "fiberglass": "Fiberglass Frame (32mm allowance)",
+            "pvc": "PVC Frame (35mm allowance)"
+        },
+        "opening_width": "Rough Opening Width",
+        "opening_width_tooltip": "Width of the wall opening for the window",
+        "opening_height": "Rough Opening Height",
+        "opening_height_tooltip": "Height of the wall opening for the window",
+        "result_glass_size": "Glass Size",
+        "dimensions": "Dimensions",
+        "glass_area": "Glass Area",
+        "glass_area_sqft": "Glass Area (sq ft)",
+        "sqft": "sq ft",
+        "rough_opening": "Rough Opening",
+        "frame_allowance": "Frame Allowance",
+        "additional_info": "Additional Information",
+        "perimeter": "Glass Perimeter",
+        "glass_width": "Glass Width",
+        "glass_height": "Glass Height",
+        "formula_title": "Calculation Formula",
+        "formula": "Glass Size = Rough Opening - Frame Allowance. Frame allowance varies by material type.",
+        "info_title": "About Window Calculation",
+        "info_description": "Proper window sizing ensures a good fit and seal. Frame allowances account for the frame material and installation clearance.",
+        "use_cases_title": "Common Uses",
+        "use_case_1": "Window replacement projects",
+        "use_case_2": "New construction window sizing",
+        "use_case_3": "Custom window ordering",
+        "errors": {
+            "invalid_dimensions": "Please enter valid dimensions",
+            "positive_values": "Dimensions must be greater than zero",
+            "opening_too_small": "Opening is too small for the selected frame type"
+        },
+        "placeholders": {
+            "width": "1200",
+            "height": "1500"
+        },
+        "howItWorks": {
+            "title": "How the Window Calculator Works",
+            "formula": "Glass Size = Rough Opening - Frame Allowance",
+            "explanation": "This calculator determines the actual glass size needed based on rough opening dimensions and frame type. Different frame materials require different installation allowances.",
+            "steps": [
+                "Measure rough opening width and height",
+                "Select frame type (vinyl, aluminum, wood, etc.)",
+                "Review calculated glass dimensions",
+                "Check glass area for ordering",
+                "Order window to fit calculated size"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Window Replacement",
+                "description": "Size replacement windows for existing openings in renovation projects."
+            },
+            {
+                "title": "New Construction",
+                "description": "Calculate window dimensions for new builds with framed openings."
+            },
+            {
+                "title": "Custom Windows",
+                "description": "Determine exact glass sizes for custom window fabrication."
+            },
+            {
+                "title": "Energy Upgrades",
+                "description": "Size energy-efficient replacement windows for existing homes."
+            }
+        ],
+        "seoTips": [
+            "Rough openings should be 1/2 to 1 inch larger than window frame on each side",
+            "Vinyl frames expand with heat - allow slightly more clearance in hot climates",
+            "Wood frames require more allowance for seasonal movement",
+            "Consider glass type (single, double, triple pane) for energy efficiency",
+            "Low-E coatings and gas fills significantly improve window insulation"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Measuring window not opening",
+                "solution": "Measure the rough opening, not the existing window frame"
+            },
+            {
+                "mistake": "Not squaring the opening",
+                "solution": "Check opening for square and level - shim as needed"
+            },
+            {
+                "mistake": "Wrong frame allowance",
+                "solution": "Each frame type requires different clearance - follow manufacturer specs"
+            },
+            {
+                "mistake": "Forgetting sill angle",
+                "solution": "Window sills need slight outward slope for water drainage"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is the standard window rough opening size?",
+                "answer": "Rough openings are typically 1/2 to 1 inch larger than the window on each side. A 36x48 inch window needs approximately a 37x49 inch opening."
+            },
+            {
+                "question": "Which window frame material is best?",
+                "answer": "Vinyl is low-maintenance and affordable. Wood offers best insulation. Aluminum is durable but conducts heat. Fiberglass combines strength with efficiency."
+            },
+            {
+                "question": "How do I measure for replacement windows?",
+                "answer": "Measure width at top, middle, and bottom; height on left, center, and right. Use the smallest measurements for ordering."
+            },
+            {
+                "question": "What is Low-E glass?",
+                "answer": "Low-E (low emissivity) glass has a metallic coating that reflects heat while allowing light through, improving energy efficiency by 30-50%."
+            },
+            {
+                "question": "Should I get double or triple pane windows?",
+                "answer": "Double pane is sufficient for moderate climates. Triple pane is recommended for extreme cold climates or high-noise areas for additional insulation."
+            }
+        ]
+    },
+    "door": {
+        "title": "Door Calculator",
+        "description": "Calculate door size requirements based on rough opening dimensions and door type.",
+        "unit": "Measurement Unit",
+        "unit_tooltip": "Select measurement unit for dimensions",
+        "mm": "Millimeters",
+        "cm": "Centimeters",
+        "inches": "Inches",
+        "door_type": "Door Type",
+        "door_type_tooltip": "Different door types have different frame allowances",
+        "types": {
+            "standard_interior": "Standard Interior",
+            "standard_exterior": "Standard Exterior",
+            "prehung": "Pre-Hung",
+            "pocket": "Pocket Door",
+            "barn": "Barn Door",
+            "french": "French Door"
+        },
+        "opening_width": "Rough Opening Width",
+        "opening_width_tooltip": "Width of the rough opening in the wall",
+        "opening_height": "Rough Opening Height",
+        "opening_height_tooltip": "Height of the rough opening in the wall",
+        "result_door_size": "Recommended Door Size",
+        "nearest_standard": "Nearest Standard Size",
+        "dimensions": "Door Dimensions",
+        "door_area": "Door Area",
+        "door_area_sqft": "Door Area (sq ft)",
+        "sqft": "sq ft",
+        "rough_opening": "Rough Opening",
+        "jamb_allowance": "Jamb Allowance",
+        "total_width": "total width",
+        "additional_info": "Additional Information",
+        "door_width": "Door Width",
+        "door_height": "Door Height",
+        "top_allowance": "Top Allowance",
+        "threshold_allowance": "Threshold Allowance",
+        "formula_title": "Calculation Formula",
+        "formula": "Door Size = Rough Opening - Frame Allowance. Allowances vary by door type.",
+        "info_title": "About Door Calculation",
+        "info_description": "Proper door sizing ensures correct fit within rough openings. Frame allowances vary by door type to accommodate jambs, hinges, and threshold.",
+        "use_cases_title": "Common Uses",
+        "use_case_1": "Door replacement projects",
+        "use_case_2": "New construction",
+        "use_case_3": "Renovation projects",
+        "errors": {
+            "invalid_dimensions": "Please enter valid opening dimensions",
+            "positive_values": "Dimensions must be greater than zero",
+            "opening_too_small": "Opening is too small for frame allowances"
+        },
+        "placeholders": {
+            "width": "914",
+            "height": "2083"
+        },
+        "howItWorks": {
+            "title": "How the Door Calculator Works",
+            "formula": "Door Size = Rough Opening - Frame Allowance",
+            "explanation": "This calculator determines the correct door size based on your rough opening dimensions and door type. Different door types require different allowances for frames, hinges, and thresholds.",
+            "steps": [
+                "Measure rough opening width and height",
+                "Select the door type you plan to install",
+                "Review calculated door size and standard sizes",
+                "Check frame allowances for installation clearance",
+                "Order appropriate door size for your opening"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Door Replacement",
+                "description": "Determine correct door size when replacing existing doors in established openings."
+            },
+            {
+                "title": "New Construction",
+                "description": "Size doors for new rough openings in framed walls."
+            },
+            {
+                "title": "Renovation Projects",
+                "description": "Calculate door requirements when modifying or expanding doorways."
+            },
+            {
+                "title": "Commercial Installations",
+                "description": "Size doors for offices, retail spaces, and commercial buildings."
+            }
+        ],
+        "seoTips": [
+            "Standard interior doors are 80 inches tall - rough openings need 82-82.5 inches",
+            "Rough opening width should be door width plus 2-2.5 inches for frame",
+            "Exterior doors require larger allowances for weatherstripping and thresholds",
+            "Pre-hung doors simplify installation but require accurate rough openings",
+            "ADA compliance requires minimum 32-inch clear width for accessibility"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Measuring finished opening instead of rough",
+                "solution": "Measure the framed opening before trim is installed"
+            },
+            {
+                "mistake": "Forgetting threshold height",
+                "solution": "Account for threshold and flooring when measuring height"
+            },
+            {
+                "mistake": "Wrong door swing direction",
+                "solution": "Verify swing direction before ordering - affects frame orientation"
+            },
+            {
+                "mistake": "Not checking for plumb/level",
+                "solution": "Ensure opening is square - shim as needed during installation"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is a standard door size?",
+                "answer": "Standard interior doors are 80 inches tall × 24-36 inches wide. Exterior doors are typically 80 inches × 36 inches. Custom sizes are available."
+            },
+            {
+                "question": "How much bigger should a rough opening be than the door?",
+                "answer": "Rough openings should be 2-2.5 inches wider and 2-2.5 inches taller than the door to allow for framing, shimming, and adjustment."
+            },
+            {
+                "question": "What is a pre-hung door?",
+                "answer": "A pre-hung door comes mounted in its frame with hinges attached, ready to install in a rough opening. It simplifies installation but requires accurate opening size."
+            },
+            {
+                "question": "How do I measure for a replacement door?",
+                "answer": "Measure the existing door, not the opening. For accuracy, measure width at top and bottom, height on both sides. Use the smallest measurements."
+            },
+            {
+                "question": "What door width is required for wheelchair access?",
+                "answer": "ADA requires minimum 32-inch clear opening width. Use 36-inch doors to achieve this after accounting for frame thickness."
+            }
+        ]
+    },
+    "pipe": {
+        "title": "Pipe Calculator",
+        "description": "Calculate plumbing pipe length requirements with fittings allowance for plumbing projects.",
+        "unit": "Measurement Unit",
+        "unit_tooltip": "Select meters or feet for distance measurements",
+        "meters": "Meters",
+        "feet": "Feet",
+        "m": "m",
+        "pipe_diameter": "Pipe Diameter",
+        "pipe_diameter_tooltip": "Select the pipe diameter size",
+        "diameters": {
+            "15mm": "15mm (1/2 inch)",
+            "20mm": "20mm (3/4 inch)",
+            "25mm": "25mm (1 inch)",
+            "32mm": "32mm (1-1/4 inch)",
+            "40mm": "40mm (1-1/2 inch)",
+            "50mm": "50mm (2 inch)",
+            "65mm": "65mm (2-1/2 inch)",
+            "80mm": "80mm (3 inch)",
+            "100mm": "100mm (4 inch)",
+            "150mm": "150mm (6 inch)"
+        },
+        "fixture_count": "Number of Fixtures",
+        "fixture_count_tooltip": "Total number of plumbing fixtures to connect",
+        "avg_distance": "Average Distance",
+        "avg_distance_tooltip": "Average pipe run distance between fixtures",
+        "fittings": "Fittings",
+        "elbows_90": "90° Elbows",
+        "elbows_45": "45° Elbows",
+        "tees": "Tees",
+        "valves": "Valves",
+        "waste_factor": "Waste Factor (%)",
+        "waste_factor_tooltip": "Extra material for cutting and waste (typically 10%)",
+        "result_total_length": "Total Pipe Length Needed",
+        "standard_pipes": "standard 6m pipes",
+        "length_breakdown": "Length Breakdown",
+        "base_length": "Base Length",
+        "fittings_allowance": "Fittings Allowance",
+        "pipe_volume": "Pipe Volume",
+        "liters": "liters",
+        "pipe_weight": "Pipe Weight",
+        "kg": "kg",
+        "additional_info": "Additional Information",
+        "length_without_waste": "Length (without waste)",
+        "number_of_pipes": "Standard Pipes Needed",
+        "each": "each",
+        "formula_title": "Calculation Formula",
+        "formula": "Total = (Fixtures × Distance) + Fittings Equivalent + Waste. Fittings add equivalent pipe length based on diameter.",
+        "info_title": "About Pipe Calculation",
+        "info_description": "Fittings like elbows and tees create flow resistance equivalent to additional straight pipe. This calculator accounts for fittings when estimating total pipe needs.",
+        "use_cases_title": "Common Uses",
+        "use_case_1": "Residential plumbing",
+        "use_case_2": "Irrigation systems",
+        "use_case_3": "Industrial pipe routing",
+        "errors": {
+            "invalid_fixtures": "Please enter a valid number of fixtures",
+            "invalid_distance": "Please enter a valid distance",
+            "invalid_waste": "Waste factor must be between 0 and 100"
+        },
+        "placeholders": {
+            "fixtures": "5",
+            "distance": "3",
+            "waste": "10"
+        },
+        "howItWorks": {
+            "title": "How the Pipe Calculator Works",
+            "formula": "Total Length = (Fixtures × Distance) + Fittings Equivalent + Waste",
+            "explanation": "This calculator estimates total pipe needed by counting fixtures, multiplying by average run distance, and adding equivalent lengths for fittings. Fittings create flow resistance equal to additional straight pipe.",
+            "steps": [
+                "Select pipe diameter for your system",
+                "Enter number of fixtures to connect",
+                "Specify average pipe run distance",
+                "Add fittings count (elbows, tees, valves)",
+                "Review total length and number of standard pipes needed"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Residential Plumbing",
+                "description": "Calculate supply and drain pipe for new home construction or remodeling."
+            },
+            {
+                "title": "Irrigation Systems",
+                "description": "Estimate pipe requirements for garden and landscape irrigation."
+            },
+            {
+                "title": "Commercial Projects",
+                "description": "Plan pipe quantities for larger commercial plumbing installations."
+            },
+            {
+                "title": "Hydronic Heating",
+                "description": "Determine tubing needs for radiant floor heating systems."
+            }
+        ],
+        "seoTips": [
+            "Size pipes based on fixture units and flow requirements, not just distance",
+            "Add 10-15% waste factor for cutting and fitting allowances",
+            "Consider thermal expansion for hot water lines - use expansion loops",
+            "Follow local plumbing codes for minimum pipe sizes by fixture type",
+            "Plan for accessibility - leave access panels for cleanouts and valves"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Undersizing supply pipes",
+                "solution": "Calculate fixture units and use proper sizing tables for adequate flow"
+            },
+            {
+                "mistake": "Forgetting fittings",
+                "solution": "Count all elbows, tees, and transitions - they add equivalent length"
+            },
+            {
+                "mistake": "No waste allowance",
+                "solution": "Add 10% minimum for cutting waste and mistakes"
+            },
+            {
+                "mistake": "Ignoring pressure drop",
+                "solution": "Account for elevation changes and friction losses in long runs"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What size pipe do I need for a bathroom?",
+                "answer": "Bathrooms typically need 1/2-inch supply lines to individual fixtures, 3/4-inch main supply, 1-1/2 inch drain for sinks, and 3-4 inch main drain line."
+            },
+            {
+                "question": "How do fittings affect pipe length calculations?",
+                "answer": "Each fitting creates friction equivalent to additional straight pipe. A 90° elbow equals 2-3 feet of pipe, a tee equals 3-5 feet, depending on diameter."
+            },
+            {
+                "question": "What is the standard pipe length?",
+                "answer": "Copper pipes come in 10 and 20-foot lengths, PVC in 10 and 20-foot lengths, and PEX in coils up to 1000 feet or sticks of 10-20 feet."
+            },
+            {
+                "question": "How do I calculate pipe for irrigation?",
+                "answer": "Sum the flow rates of sprinklers in each zone, then size pipe for velocity under 5 feet per second. Add 10% for waste."
+            },
+            {
+                "question": "Should I use PEX or copper pipe?",
+                "answer": "PEX is easier to install, freeze-resistant, and less expensive. Copper lasts longer, handles UV exposure, and is required by some codes for certain applications."
+            }
+        ]
+    },
+    "conduit": {
+        "title": "Conduit Calculator",
+        "description": "Calculate electrical conduit size based on wire fill capacity (NEC standards).",
+        "unit": "Measurement Unit",
+        "unit_tooltip": "Select meters or feet for run length",
+        "meters": "Meters",
+        "feet": "Feet",
+        "m": "m",
+        "conduit_type": "Conduit Type",
+        "conduit_type_tooltip": "Select the type of electrical conduit",
+        "types": {
+            "emt": "EMT (Electrical Metallic Tubing)",
+            "imc": "IMC (Intermediate Metal Conduit)",
+            "rigid": "Rigid Metal Conduit",
+            "pvc": "PVC Conduit",
+            "flex": "Flexible Metal Conduit"
+        },
+        "wire_gauge": "Wire Gauge (AWG)",
+        "wire_gauge_tooltip": "American Wire Gauge size of the conductors",
+        "gauges": {
+            "1": "1 AWG (110A circuits)",
+            "2": "2 AWG (95A circuits)",
+            "3": "3 AWG (85A circuits)",
+            "4": "4 AWG (70A circuits)",
+            "6": "6 AWG (55A circuits)",
+            "8": "8 AWG (40A circuits)",
+            "10": "10 AWG (30A circuits)",
+            "12": "12 AWG (20A circuits)",
+            "14": "14 AWG (15A circuits)",
+            "1_0": "1/0 AWG (125A circuits)",
+            "2_0": "2/0 AWG (145A circuits)",
+            "3_0": "3/0 AWG (165A circuits)",
+            "4_0": "4/0 AWG (195A circuits)"
+        },
+        "wire_awg_14": "AWG 14 (1.63 mm)",
+        "wire_awg_12": "AWG 12 (2.05 mm)",
+        "wire_awg_10": "AWG 10 (2.59 mm)",
+        "wire_awg_8": "AWG 8 (3.26 mm)",
+        "wire_awg_6": "AWG 6 (4.11 mm)",
+        "wire_awg_4": "AWG 4 (5.19 mm)",
+        "wire_awg_3": "AWG 3 (5.83 mm)",
+        "wire_awg_2": "AWG 2 (6.54 mm)",
+        "wire_awg_1": "AWG 1 (7.35 mm)",
+        "wire_awg_1_0": "AWG 1/0 (8.25 mm)",
+        "wire_awg_2_0": "AWG 2/0 (9.27 mm)",
+        "wire_awg_3_0": "AWG 3/0 (10.40 mm)",
+        "wire_awg_4_0": "AWG 4/0 (11.68 mm)",
+        "wire_count": "Number of Wires",
+        "wire_count_tooltip": "Total number of wires to run through the conduit",
+        "run_length": "Run Length",
+        "run_length_tooltip": "Total length of the conduit run",
+        "ft": "ft",
+        "result_conduit_size": "Recommended Conduit Size",
+        "diameter": "diameter",
+        "details": "Calculation Details",
+        "single_wire_area": "Single Wire Area",
+        "total_wire_area": "Total Wire Area",
+        "mm2": "mm²",
+        "fill_percentage": "Fill Percentage",
+        "max_allowed": "Max Allowed",
+        "run_length_label": "Run Length",
+        "fill_details": "Fill Details",
+        "of_capacity": "of capacity",
+        "max_fill": "Max Fill Allowed",
+        "nec_limit": "NEC limit",
+        "wire_area": "Total Wire Area",
+        "conduit_area": "Conduit Area",
+        "length_requirements": "Length Requirements",
+        "total_run_length": "Total Run Length",
+        "conduit_pieces": "Conduit Pieces",
+        "each": "each",
+        "formula_title": "Calculation Formula",
+        "formula": "Fill % = Total Wire Area / Conduit Area × 100. NEC allows 53% (1 wire), 31% (2 wires), or 40% (3+ wires).",
+        "info_title": "About Conduit Calculation",
+        "info_description": "NEC code limits conduit fill to prevent wire damage and heat buildup. Fill percentages vary based on the number of conductors.",
+        "use_cases_title": "Common Uses",
+        "use_case_1": "Electrical installations",
+        "use_case_2": "Commercial wiring projects",
+        "use_case_3": "Industrial conduit runs",
+        "errors": {
+            "invalid_wire_count": "Please enter a valid number of wires",
+            "max_wires": "Maximum 100 wires supported",
+            "invalid_length": "Please enter a valid run length",
+            "too_many_wires": "Too many wires for available conduit sizes"
+        },
+        "placeholders": {
+            "wire_count": "4",
+            "run_length": "50",
+            "wires": "4",
+            "length": "30"
+        },
+        "howItWorks": {
+            "title": "How the Conduit Calculator Works",
+            "formula": "Fill % = (Total Wire Area / Conduit Area) × 100",
+            "explanation": "This calculator determines the minimum conduit size needed based on wire gauge, count, and NEC fill requirements. NEC limits fill percentage to prevent heat buildup and wire damage.",
+            "steps": [
+                "Select conduit type (EMT, PVC, rigid, etc.)",
+                "Choose wire gauge (AWG) for your circuit",
+                "Enter the number of wires to run",
+                "Specify the run length for material ordering",
+                "Review recommended conduit size and fill percentage"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Residential Electrical",
+                "description": "Size conduit for home wiring runs to panels and circuits."
+            },
+            {
+                "title": "Commercial Installations",
+                "description": "Plan conduit sizes for office and retail electrical systems."
+            },
+            {
+                "title": "Industrial Wiring",
+                "description": "Calculate conduit for factory and warehouse power distribution."
+            },
+            {
+                "title": "Service Entrance",
+                "description": "Size entrance conduit for main service connections."
+            }
+        ],
+        "seoTips": [
+            "NEC allows 40% fill for 3+ wires, 31% for 2 wires, 53% for 1 wire",
+            "Leave room for future wires - use next size up when near capacity",
+            "Use pull boxes every 100 feet or after 360 degrees of bends",
+            "EMT is for dry indoor locations, PVC for underground and wet areas",
+            "Derating is required for more than 3 current-carrying conductors"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Ignoring ground wire",
+                "solution": "Include ground wire in fill calculations - it takes space too"
+            },
+            {
+                "mistake": "Exceeding bend limits",
+                "solution": "Maximum 360 degrees of bends between pull points"
+            },
+            {
+                "mistake": "Wrong conduit type",
+                "solution": "Use appropriate conduit for environment - wet, dry, underground"
+            },
+            {
+                "mistake": "Forgetting expansion fittings",
+                "solution": "PVC expands significantly with temperature - install expansion joints"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is the NEC conduit fill limit?",
+                "answer": "NEC limits conduit fill to 40% for 3+ wires, 31% for 2 wires, and 53% for 1 wire. This prevents heat buildup and allows for wire pulling."
+            },
+            {
+                "question": "What size conduit for 4 #12 wires?",
+                "answer": "Four #12 THHN wires require minimum 1/2 inch EMT conduit based on NEC 40% fill requirements."
+            },
+            {
+                "question": "Can I mix wire sizes in conduit?",
+                "answer": "Yes, but calculate total cross-sectional area of all wires and verify it meets NEC fill limits for the conduit size."
+            },
+            {
+                "question": "What is the difference between EMT and rigid conduit?",
+                "answer": "EMT (thin-wall) is lighter and easier to bend but requires compression or set-screw fittings. Rigid is threaded and used for exposed or high-impact locations."
+            },
+            {
+                "question": "How far can I run conduit without a pull box?",
+                "answer": "NEC recommends pull boxes every 100 feet in straight runs. You must install one after 360 degrees of total bends between access points."
+            }
+        ]
+    },
+    "window-calculator": {
+        "title": "Window Calculator - Glass & Frame Size",
+        "description": "Calculate window dimensions and materials needed. Our free window calculator helps determine glass size, frame measurements, and installation materials. Perfect for window replacement and new construction projects."
+    },
+    "door-calculator": {
+        "title": "Door Calculator - Door Size & Materials",
+        "description": "Calculate door dimensions and installation costs. Our free door calculator helps determine proper door size, frame measurements, and material quantities. Essential for residential and commercial door projects."
+    },
+    "pipe-calculator": {
+        "title": "Pipe Calculator - Plumbing Pipe Length",
+        "description": "Calculate pipe lengths and diameters for plumbing projects. Our free pipe calculator estimates PVC, copper, and steel pipe quantities. Perfect for water supply, drainage, and irrigation system installations."
+    },
+    "conduit-calculator": {
+        "title": "Conduit Calculator - Electrical Conduit",
+        "description": "Calculate electrical conduit needed for wiring projects. Our free conduit calculator estimates EMT, PVC, and metal conduit quantities for electrical installations. Essential for safe wire routing and protection."
+    }
+}

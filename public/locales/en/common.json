@@ -215,7 +215,9 @@
     "enterAmount": "Enter amount",
     "enterName": "Enter name",
     "selectOption": "Select an option",
-    "search": "Search..."
+    "search": "Search...",
+    "coordinateX": "X",
+    "coordinateY": "Y"
   },
   "affiliate": {
     "learnMore": "Learn More",
@@ -231,6 +233,13 @@
     "poweredBy": "Powered by"
   },
   "monetization": {
+    "messages": {
+      "productLinkComing": "Product link will be added soon. Please check back later!",
+      "productLinkComingSoon": "Product link coming soon!"
+    },
+    "buttons": {
+      "getIt": "Get It"
+    },
     "leadForm": {
       "finance": {
         "title": "Get Personalized Financial Advice",
@@ -292,6 +301,10 @@
   },
   "toast": {
     "dismiss": "Dismiss notification",
+    "close": "Close"
+  },
+  "aria": {
+    "notifications": "Notifications",
     "close": "Close"
   },
   "shared": {

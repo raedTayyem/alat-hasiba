@@ -1,0 +1,58 @@
+{
+  "timezone-converter": {
+    "title": "Time Zone Converter",
+    "description": "Easily convert time between different time zones around the world.",
+    "howItWorks": "The converter transforms time from one timezone to another using UTC (Coordinated Universal Time) offsets. It accounts for daylight saving time when applicable in certain regions.",
+    "useCases": [
+      "Schedule work meetings with teams in different countries",
+      "Find the right time to call family and friends abroad",
+      "Coordinate travel schedules and international flights",
+      "Watch live sports events and global broadcasts",
+      "Trade in global financial markets"
+    ],
+    "seoTips": [
+      "Select source and target timezones accurately",
+      "Watch for daylight saving time which changes the time difference",
+      "Save frequent conversions for quick reference"
+    ],
+    "commonMistakes": [
+      "Forgetting daylight saving time which adds or subtracts an hour",
+      "Confusing AM and PM in 12-hour format",
+      "Not accounting for date changes during conversion"
+    ],
+    "faqs": [
+      {
+        "question": "What is UTC (Coordinated Universal Time)?",
+        "answer": "UTC is the global time standard against which all time zones are measured. It was formerly known as Greenwich Mean Time (GMT)."
+      },
+      {
+        "question": "How do I find the time difference between two countries?",
+        "answer": "Enter the same time in the calculator and convert between both zones. The time difference will be apparent from the result."
+      },
+      {
+        "question": "Does the time difference change throughout the year?",
+        "answer": "Yes, some countries observe daylight saving time which changes the time difference with other countries by one hour."
+      }
+    ],
+    "date": "Date",
+    "time": "Time",
+    "from_timezone": "From Time Zone",
+    "to_timezone": "To Time Zone",
+    "converted_time": "Converted Time",
+    "error_empty": "Please enter date and time",
+    "error_invalid": "Invalid date/time",
+    "error_conversion": "Conversion error",
+    "timezone_utc": "UTC (Coordinated Universal Time)",
+    "timezone_eastern": "Eastern Time (ET)",
+    "timezone_central": "Central Time (CT)",
+    "timezone_mountain": "Mountain Time (MT)",
+    "timezone_pacific": "Pacific Time (PT)",
+    "timezone_london": "London (GMT/BST)",
+    "timezone_paris": "Paris (CET/CEST)",
+    "timezone_dubai": "Dubai (GST)",
+    "timezone_riyadh": "Riyadh (AST)",
+    "timezone_tokyo": "Tokyo (JST)",
+    "timezone_shanghai": "Shanghai (CST)",
+    "timezone_sydney": "Sydney (AEDT/AEST)"
+  }
+}

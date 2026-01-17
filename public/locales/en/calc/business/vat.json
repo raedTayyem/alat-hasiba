@@ -1,0 +1,253 @@
+{
+  "vat": {
+    "title": "VAT Calculator",
+    "description": "Add or remove VAT.",
+    "inputs": {
+      "mode": "Calculation Mode",
+      "mode_tooltip": "Add VAT to price or extract from price",
+      "add_vat": "Add VAT",
+      "extract_vat": "Extract VAT",
+      "price": "Price",
+      "price_tooltip": "Amount before or after VAT",
+      "price_placeholder": "e.g. 100",
+      "rate": "VAT Rate (%)",
+      "rate_tooltip": "Tax percentage",
+      "rate_placeholder": "e.g. 15"
+    },
+    "results": {
+      "final_price_with": "Price with VAT",
+      "final_price_without": "Price without VAT",
+      "including": "Including VAT",
+      "excluding": "Excluding VAT",
+      "breakdown": "Cost Breakdown",
+      "price_without": "Price (excl. VAT)",
+      "vat_amount": "VAT Amount",
+      "price_with": "Total Price",
+      "rate": "VAT Rate",
+      "formula_title": "Calculation",
+      "formula_add": "Price × (1 + Rate/100)",
+      "formula_extract": "Price / (1 + Rate/100)"
+    },
+    "info": {
+      "title": "About VAT",
+      "description": "Value Added Tax (VAT) is a consumption tax placed on a product whenever value is added at each stage of the supply chain and at the point of sale.",
+      "use_cases": "Use Cases",
+      "use_case_1": "Calculate invoice totals",
+      "use_case_2": "Determine pre-tax prices",
+      "use_case_3": "Tax reporting"
+    },
+    "howItWorks": {
+      "title": "How VAT Calculation Works",
+      "formula": "VAT Amount = Price × (VAT Rate / 100)",
+      "explanation": "VAT (Value Added Tax) is calculated as a percentage of the net price. To add VAT, multiply the price by (1 + rate/100). To extract VAT from a gross price, divide by (1 + rate/100) to find the net price.",
+      "steps": [
+        "Select whether to add VAT or extract VAT from total",
+        "Enter the price (net price for adding, gross price for extracting)",
+        "Input your country's VAT rate percentage",
+        "Calculator shows the VAT amount and final price",
+        "View the breakdown of net price, VAT, and total"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Invoice Preparation",
+        "description": "Calculate VAT-inclusive prices for customer invoices, ensuring compliance with tax regulations and accurate billing."
+      },
+      {
+        "title": "Price Setting",
+        "description": "Determine the net price needed to achieve a target VAT-inclusive price that customers will pay."
+      },
+      {
+        "title": "Tax Filing",
+        "description": "Extract VAT amounts from receipts and invoices for accurate quarterly or annual tax returns."
+      },
+      {
+        "title": "International Trade",
+        "description": "Calculate VAT for cross-border transactions where different rates may apply based on destination country."
+      }
+    ],
+    "seoTips": [
+      "Always verify you're using the correct VAT rate for your country and product category",
+      "Some goods and services have reduced or zero VAT rates - check exemptions",
+      "Keep records of all VAT calculations for tax compliance purposes",
+      "For B2B transactions, understand reverse charge mechanisms",
+      "Update your VAT rate immediately when government changes take effect"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using Wrong VAT Rate",
+        "description": "VAT rates vary by country and product type. Using the wrong rate leads to incorrect pricing and potential tax compliance issues."
+      },
+      {
+        "title": "Confusing VAT-Inclusive and Exclusive Prices",
+        "description": "Mixing up whether a price includes VAT or not leads to significant calculation errors. Always clarify the price basis."
+      },
+      {
+        "title": "Forgetting Reduced Rates",
+        "description": "Many countries apply reduced VAT rates to essentials like food, books, or medical supplies. Using standard rate when reduced applies overcharges customers."
+      },
+      {
+        "title": "Rounding Errors",
+        "description": "Inconsistent rounding of VAT amounts across multiple items can create discrepancies in invoices and tax filings."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is VAT and how does it work?",
+        "answer": "VAT is a consumption tax added at each stage of production. Businesses collect VAT on sales, deduct VAT paid on purchases, and remit the difference to tax authorities."
+      },
+      {
+        "question": "What are common VAT rates worldwide?",
+        "answer": "Standard VAT rates vary: UK 20%, EU 17-27%, Saudi Arabia 15%, UAE 5%, Australia (GST) 10%. Many countries have reduced rates for essentials."
+      },
+      {
+        "question": "How do I extract VAT from a VAT-inclusive price?",
+        "answer": "Divide the gross price by (1 + VAT rate/100). For a $115 price with 15% VAT: $115 / 1.15 = $100 net price, $15 VAT."
+      },
+      {
+        "question": "Is VAT the same as sales tax?",
+        "answer": "They're similar but different. VAT is collected at each production stage with businesses reclaiming VAT on inputs. Sales tax is typically collected only at final sale to consumers."
+      },
+      {
+        "question": "Do all businesses need to charge VAT?",
+        "answer": "Most countries have VAT registration thresholds. Businesses below the threshold may not need to register. Once registered, you must charge and report VAT."
+      }
+    ]
+  },
+  "sales_tax": {
+    "title": "Sales Tax Calculator",
+    "description": "Calculate sales tax and total price including tax.",
+    "inputs": {
+      "calculation_mode": "Calculation Mode",
+      "calculation_mode_tooltip": "Choose to add tax or extract tax from total",
+      "add_tax": "Add Tax",
+      "extract_tax": "Extract Tax",
+      "subtotal": "Subtotal (Before Tax)",
+      "subtotal_tooltip": "The price before sales tax is applied",
+      "subtotal_placeholder": "e.g. 100",
+      "total_with_tax": "Total (Including Tax)",
+      "total_with_tax_tooltip": "The total price including sales tax",
+      "total_placeholder": "e.g. 107",
+      "tax_rate": "Tax Rate (%)",
+      "tax_rate_tooltip": "The sales tax rate percentage",
+      "tax_rate_placeholder": "e.g. 7"
+    },
+    "errors": {
+      "invalid_rate": "Tax rate must be between 0 and 100"
+    },
+    "results": {
+      "total": "Total",
+      "tax_amount": "Tax Amount",
+      "breakdown": "Price Breakdown",
+      "subtotal": "Subtotal",
+      "tax_rate": "Tax Rate",
+      "formula": "Total = Subtotal + (Subtotal × Tax Rate)"
+    },
+    "info": {
+      "title": "About Sales Tax Calculator",
+      "use_cases": "Use Cases",
+      "use_case_1": "Calculate final purchase prices",
+      "use_case_2": "Determine tax-inclusive pricing",
+      "use_case_3": "Plan budgets with tax included"
+    },
+    "howItWorks": {
+      "title": "How Sales Tax Calculation Works",
+      "formula": "Total = Subtotal × (1 + Tax Rate / 100)",
+      "explanation": "Sales tax is a percentage added to the subtotal at the point of sale. Unlike VAT, sales tax is only collected once at the final consumer sale. Rates vary by state, county, and city in the US, and by region in other countries.",
+      "steps": [
+        "Enter the subtotal (price before tax) or total (price including tax)",
+        "Input your local sales tax rate",
+        "Calculator computes the tax amount",
+        "Result shows subtotal, tax, and total",
+        "Extract mode reverses the calculation from tax-inclusive prices"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Retail Pricing",
+        "description": "Calculate tax-inclusive prices to display to customers or determine appropriate shelf prices."
+      },
+      {
+        "title": "Budget Planning",
+        "description": "Estimate total purchase costs including tax for accurate budgeting and expense planning."
+      },
+      {
+        "title": "Receipt Verification",
+        "description": "Verify that sales tax was calculated correctly on purchases and invoices."
+      },
+      {
+        "title": "Multi-State Commerce",
+        "description": "Calculate correct tax amounts for sales to customers in different tax jurisdictions."
+      }
+    ],
+    "seoTips": [
+      "US sales tax varies from 0% (Oregon, Delaware) to 10%+ (some California cities)",
+      "Many states exempt groceries, medicine, and clothing from sales tax",
+      "Online sellers may need to collect tax in multiple states based on economic nexus",
+      "Always verify current tax rates - they change frequently",
+      "Consider use tax for out-of-state purchases where sales tax wasn't collected"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using Statewide Rate Only",
+        "description": "Total sales tax often includes state, county, and city components. Use the combined rate for your specific location."
+      },
+      {
+        "title": "Ignoring Exemptions",
+        "description": "Many items like groceries, medicine, or clothing may be exempt or taxed at reduced rates. Know your local exemptions."
+      },
+      {
+        "title": "Not Tracking Rate Changes",
+        "description": "Tax rates change frequently. Ensure your calculations use current rates, especially for business applications."
+      },
+      {
+        "title": "Confusing Sales Tax with VAT",
+        "description": "Sales tax is charged only at final sale to consumers. VAT is charged at each production stage with input credits."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How do I find my local sales tax rate?",
+        "answer": "Check your state's department of revenue website. Rates vary by state, county, and city. Some areas have special district taxes too."
+      },
+      {
+        "question": "What is the average US sales tax rate?",
+        "answer": "Average combined state and local rate is about 7.12%. Ranges from 0% (5 states have no sales tax) to over 10% in some cities."
+      },
+      {
+        "question": "Do I need to collect sales tax for online sales?",
+        "answer": "Usually yes, if you have economic nexus in the buyer's state. Rules vary by state - research or use automated tax software."
+      },
+      {
+        "question": "How do I extract tax from a tax-inclusive price?",
+        "answer": "Subtotal = Total / (1 + Tax Rate). For $107 with 7% tax: $107 / 1.07 = $100 subtotal, $7 tax."
+      },
+      {
+        "question": "Are there items exempt from sales tax?",
+        "answer": "Varies by state. Common exemptions include groceries, prescription drugs, medical equipment, and sometimes clothing. Check your state's rules."
+      }
+    ]
+  },
+  "vat-calculator": {
+    "title": "VAT Calculator - Value Added Tax Online",
+    "description": "Calculate VAT (Value Added Tax) on products and services with our free online calculator. Add or remove VAT from prices instantly. Essential tool for businesses, accountants, and consumers to handle tax calculations accurately.",
+    "price_without": "Price Without VAT",
+    "price_with": "Total Price",
+    "rate": "VAT Rate",
+    "formula_title": "Calculation",
+    "formula_add": "Price × (1 + Rate/100)",
+    "formula_extract": "Price / (1 + Rate/100)",
+    "info": {
+      "title": "About VAT",
+      "description": "Value Added Tax (VAT) is a consumption tax placed on a product whenever value is added at each stage of the supply chain and at the point of sale.",
+      "use_cases": "Use Cases",
+      "use_case_1": "Calculate invoice totals",
+      "use_case_2": "Determine pre-tax prices",
+      "use_case_3": "Tax reporting"
+    }
+  },
+  "sales-tax-calculator": {
+    "title": "VAT Calculator - Value Added Tax Online",
+    "description": "Calculate VAT (Value Added Tax) on products and services with our free online calculator. Add or remove VAT from prices instantly. Essential tool for businesses, accountants, and consumers to handle tax calculations accurately."
+  }
+}

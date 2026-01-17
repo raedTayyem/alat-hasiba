@@ -1,0 +1,134 @@
+{
+  "depreciation": {
+    "title": "Depreciation Calculator",
+    "description": "Calculate asset depreciation using straight-line or declining balance methods.",
+    "inputs": {
+      "asset_cost": "Asset Cost",
+      "asset_cost_tooltip": "The original purchase price of the asset",
+      "asset_cost_placeholder": "e.g. 50000",
+      "salvage_value": "Salvage Value",
+      "salvage_value_tooltip": "The estimated value at end of useful life",
+      "salvage_value_placeholder": "e.g. 5000",
+      "useful_life": "Useful Life (Years)",
+      "useful_life_tooltip": "The expected number of years the asset will be used",
+      "useful_life_placeholder": "e.g. 5",
+      "method": "Depreciation Method",
+      "method_tooltip": "Choose the depreciation calculation method",
+      "straight_line": "Straight-Line",
+      "declining_balance": "Declining Balance (150%)",
+      "double_declining": "Double Declining Balance"
+    },
+    "errors": {
+      "invalid_salvage": "Salvage value must be 0 or greater",
+      "salvage_exceeds_cost": "Salvage value must be less than asset cost",
+      "invalid_life": "Useful life must be a positive whole number"
+    },
+    "results": {
+      "annual_depreciation": "Annual Depreciation",
+      "first_year_depreciation": "First Year Depreciation",
+      "total_depreciation": "Total Depreciation",
+      "summary": "Asset Summary",
+      "asset_cost": "Asset Cost",
+      "salvage_value": "Salvage Value",
+      "useful_life": "Useful Life",
+      "years": "years",
+      "method": "Method",
+      "schedule": "Depreciation Schedule",
+      "year": "Year",
+      "depreciation": "Depreciation",
+      "accumulated": "Accumulated",
+      "book_value": "Book Value",
+      "formula_straight_line": "Annual Depreciation = (Cost - Salvage) / Useful Life",
+      "formula_declining": "Depreciation = Book Value × (1.5 / Useful Life)",
+      "formula_double_declining": "Depreciation = Book Value × (2 / Useful Life)"
+    },
+    "info": {
+      "title": "About Depreciation Calculator",
+      "use_cases": "Use Cases",
+      "use_case_1": "Calculate tax deductions for assets",
+      "use_case_2": "Track asset values over time",
+      "use_case_3": "Financial planning and accounting"
+    },
+    "howItWorks": {
+      "title": "How Depreciation Calculation Works",
+      "formula": "Straight-Line: (Cost - Salvage) / Useful Life",
+      "explanation": "Depreciation allocates an asset's cost over its useful life. Straight-line spreads cost evenly each year. Declining balance methods front-load depreciation, providing larger deductions in early years. The method chosen affects tax benefits and financial statements.",
+      "steps": [
+        "Enter the original asset cost (purchase price)",
+        "Input the estimated salvage value at end of useful life",
+        "Specify the useful life in years",
+        "Select depreciation method (straight-line, declining balance)",
+        "Calculator shows annual depreciation, accumulated depreciation, and book value schedule"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Tax Planning",
+        "description": "Calculate depreciation deductions to reduce taxable income and plan for tax obligations each year."
+      },
+      {
+        "title": "Financial Statements",
+        "description": "Prepare accurate financial statements by properly accounting for asset depreciation over time."
+      },
+      {
+        "title": "Asset Management",
+        "description": "Track book values of business assets for insurance, sale decisions, and replacement planning."
+      },
+      {
+        "title": "Capital Budgeting",
+        "description": "Include depreciation in investment analysis to understand true cost and cash flow impact of capital purchases."
+      }
+    ],
+    "seoTips": [
+      "MACRS is required for US tax depreciation - IRS publishes specific recovery periods",
+      "Accelerated methods like double-declining provide larger early deductions",
+      "Book depreciation can differ from tax depreciation - track both",
+      "Section 179 allows immediate expensing of qualifying assets up to limits",
+      "Bonus depreciation may allow 100% first-year deduction for certain assets"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using Wrong Useful Life",
+        "description": "IRS specifies depreciation periods for tax purposes. Using arbitrary periods results in incorrect tax deductions."
+      },
+      {
+        "title": "Forgetting Salvage Value",
+        "description": "Assets often retain some value at end of useful life. Depreciating to zero when salvage value exists overstates depreciation."
+      },
+      {
+        "title": "Mixing Book and Tax Methods",
+        "description": "Book depreciation for financial statements may differ from tax depreciation. Track both separately for accurate reporting."
+      },
+      {
+        "title": "Not Considering Bonus Depreciation",
+        "description": "Special tax provisions like Section 179 and bonus depreciation can allow faster write-offs. Consult a tax professional."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is straight-line depreciation?",
+        "answer": "Straight-line spreads depreciation evenly over useful life. Formula: (Cost - Salvage) / Years. Simple but may not reflect actual asset value decline."
+      },
+      {
+        "question": "When should I use accelerated depreciation?",
+        "answer": "When you want larger tax deductions early, or when assets lose value quickly in early years (vehicles, technology). Matches expense to actual value decline."
+      },
+      {
+        "question": "What is MACRS depreciation?",
+        "answer": "Modified Accelerated Cost Recovery System - the US tax method. IRS specifies recovery periods and depreciation rates for different asset classes."
+      },
+      {
+        "question": "How does depreciation affect taxes?",
+        "answer": "Depreciation is a non-cash expense that reduces taxable income. Higher depreciation means lower taxes but also lower reported profit."
+      },
+      {
+        "question": "Can I depreciate land?",
+        "answer": "No. Land doesn't wear out so it cannot be depreciated. Only buildings and improvements on land are depreciable."
+      }
+    ]
+  },
+  "depreciation-calculator": {
+    "title": "Depreciation Calculator - Asset Depreciation",
+    "description": "Calculate asset depreciation using various methods including straight-line, declining balance, and more. Our free depreciation calculator helps businesses determine asset values over time for accounting and tax purposes."
+  }
+}

@@ -1,0 +1,234 @@
+{
+  "eoq": {
+    "title": "EOQ Calculator",
+    "description": "Calculate Economic Order Quantity to minimize inventory costs.",
+    "annual_demand": "Annual Demand (units)",
+    "annual_demand_tooltip": "Total units required per year",
+    "annual_demand_placeholder": "e.g. 10000",
+    "order_cost": "Order Cost ($)",
+    "order_cost_tooltip": "Fixed cost per order (shipping, handling, processing)",
+    "order_cost_placeholder": "e.g. 50",
+    "holding_cost": "Holding Cost ($/unit/year)",
+    "holding_cost_tooltip": "Annual cost to store one unit (storage, insurance, depreciation)",
+    "holding_cost_placeholder": "e.g. 2",
+    "results": {
+      "optimal_order_quantity": "Optimal Order Quantity",
+      "units": "units",
+      "per_order": "per order",
+      "order_analysis": "Order Analysis",
+      "orders_per_year": "Orders Per Year",
+      "order_cycle": "Order Cycle",
+      "days": "days",
+      "cost_analysis": "Cost Analysis",
+      "ordering_cost": "Annual Ordering Cost",
+      "holding_cost": "Annual Holding Cost",
+      "total_cost": "Total Annual Cost",
+      "per_year": "per year",
+      "formula_title": "Formula",
+      "formula_desc": "EOQ = √(2 × Demand × Order Cost / Holding Cost)"
+    },
+    "info": {
+      "title": "About EOQ Calculator",
+      "use_cases_title": "Use Cases",
+      "use_case_1": "Optimize inventory ordering",
+      "use_case_2": "Minimize total inventory costs",
+      "use_case_3": "Improve supply chain efficiency"
+    },
+    "howItWorks": {
+      "title": "How EOQ Calculation Works",
+      "formula": "EOQ = sqrt(2 × Annual Demand × Order Cost / Holding Cost)",
+      "explanation": "Economic Order Quantity finds the optimal order size that minimizes total inventory costs. It balances ordering costs (which decrease with larger orders) against holding costs (which increase with larger inventory). The EOQ is where these two cost curves intersect.",
+      "steps": [
+        "Enter annual demand in units",
+        "Input fixed cost per order (shipping, processing, handling)",
+        "Specify holding cost per unit per year (storage, insurance, depreciation)",
+        "Calculator applies the EOQ formula",
+        "View optimal order quantity, orders per year, and total costs"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Inventory Optimization",
+        "description": "Determine the optimal order quantity that minimizes the total of ordering and holding costs."
+      },
+      {
+        "title": "Supply Chain Planning",
+        "description": "Plan ordering schedules and warehouse capacity based on optimal order quantities."
+      },
+      {
+        "title": "Cost Reduction",
+        "description": "Identify potential savings by comparing current ordering practices to EOQ recommendations."
+      },
+      {
+        "title": "Vendor Negotiation",
+        "description": "Understand your optimal order quantity when negotiating volume discounts with suppliers."
+      }
+    ],
+    "seoTips": [
+      "EOQ assumes constant demand - adjust for seasonal variations",
+      "Holding cost typically ranges 15-30% of item value annually",
+      "Include all ordering costs: shipping, handling, inspection, and administrative",
+      "EOQ is a starting point - adjust for constraints like storage space and cash flow",
+      "Review and recalculate EOQ when costs or demand patterns change significantly"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Ignoring Demand Variability",
+        "description": "EOQ assumes constant demand. For variable demand, add safety stock and consider seasonal adjustments."
+      },
+      {
+        "title": "Underestimating Holding Costs",
+        "description": "Include all costs: storage space, insurance, shrinkage, obsolescence, capital tied up, and handling."
+      },
+      {
+        "title": "Ignoring Quantity Discounts",
+        "description": "EOQ doesn't account for volume discounts. Compare total cost at EOQ to cost at discount price breaks."
+      },
+      {
+        "title": "Not Considering Lead Time",
+        "description": "EOQ determines how much to order, but reorder point depends on lead time. Calculate both together."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is Economic Order Quantity?",
+        "answer": "EOQ is the optimal order size that minimizes total inventory costs (ordering + holding). It's where the cost of placing orders equals the cost of holding inventory."
+      },
+      {
+        "question": "What costs are included in ordering cost?",
+        "answer": "Fixed costs per order: purchase order processing, shipping/freight, receiving and inspection, invoice processing. Does not include the product cost itself."
+      },
+      {
+        "question": "What costs are included in holding cost?",
+        "answer": "Annual cost to store one unit: storage space, insurance, taxes, obsolescence, shrinkage, opportunity cost of capital. Typically 15-30% of item value."
+      },
+      {
+        "question": "Does EOQ work for all products?",
+        "answer": "Best for stable, continuous demand items. Less suitable for seasonal products, new products, or items with highly variable demand."
+      },
+      {
+        "question": "How often should I recalculate EOQ?",
+        "answer": "When demand, ordering costs, or holding costs change significantly. At minimum, review annually or when making major supply chain changes."
+      }
+    ]
+  },
+  "inventory_turnover": {
+    "title": "Inventory Turnover Calculator",
+    "description": "Calculate inventory turnover ratio to measure stock management efficiency.",
+    "cogs": "Cost of Goods Sold (COGS)",
+    "cogs_tooltip": "Total cost of goods sold during the period",
+    "cogs_placeholder": "e.g. 500000",
+    "average_inventory": "Average Inventory",
+    "average_inventory_tooltip": "Average value of inventory during the period",
+    "average_inventory_placeholder": "e.g. 100000",
+    "results": {
+      "turnover_ratio": "Inventory Turnover Ratio",
+      "times_per_year": "times per year",
+      "metrics": "Additional Metrics",
+      "days_to_sell": "Days to Sell Inventory",
+      "days": "days",
+      "monthly_turnover": "Monthly Turnover",
+      "per_month": "per month",
+      "interpretation_title": "Interpretation",
+      "interpretation_desc": "Higher turnover indicates efficient inventory management. Lower turnover may suggest overstocking or slow-moving inventory.",
+      "rating_excellent": "Excellent Turnover",
+      "rating_good": "Good Turnover",
+      "rating_average": "Average Turnover",
+      "rating_poor": "Low Turnover",
+      "formula_title": "Formula",
+      "formula_desc": "Turnover = COGS / Average Inventory"
+    },
+    "info": {
+      "title": "About Inventory Turnover",
+      "use_cases_title": "Use Cases",
+      "use_case_1": "Evaluate inventory efficiency",
+      "use_case_2": "Identify slow-moving products",
+      "use_case_3": "Optimize stock levels"
+    },
+    "howItWorks": {
+      "title": "How Inventory Turnover Calculation Works",
+      "formula": "Inventory Turnover = Cost of Goods Sold / Average Inventory",
+      "explanation": "Inventory turnover measures how many times a company sells and replaces its inventory during a period. Higher turnover indicates efficient inventory management - products sell quickly without sitting in warehouses. Lower turnover may indicate overstocking or slow sales.",
+      "steps": [
+        "Enter Cost of Goods Sold (COGS) for the period",
+        "Input average inventory value (beginning + ending / 2)",
+        "Calculator divides COGS by average inventory",
+        "View turnover ratio and days to sell inventory",
+        "Compare to industry benchmarks to assess performance"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Inventory Efficiency Analysis",
+        "description": "Measure how efficiently inventory is being managed and identify opportunities for improvement."
+      },
+      {
+        "title": "Product Performance",
+        "description": "Compare turnover across product categories to identify fast-moving and slow-moving items."
+      },
+      {
+        "title": "Working Capital Management",
+        "description": "Optimize inventory levels to free up cash while maintaining adequate stock for sales."
+      },
+      {
+        "title": "Supplier Negotiations",
+        "description": "Use turnover data to negotiate better terms with suppliers based on ordering patterns."
+      }
+    ],
+    "seoTips": [
+      "Typical turnover varies by industry: Grocery 12-15x, Retail 6-8x, Manufacturing 3-5x",
+      "Days Sales of Inventory (DSI) = 365 / Turnover Ratio shows average days to sell inventory",
+      "Compare turnover year-over-year and to industry averages for meaningful analysis",
+      "Higher isn't always better - too high may indicate stockouts and lost sales",
+      "Track turnover by product category for actionable insights"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using Revenue Instead of COGS",
+        "description": "Always use Cost of Goods Sold, not revenue. Revenue includes profit margin and distorts the ratio."
+      },
+      {
+        "title": "Point-in-Time Inventory",
+        "description": "Use average inventory (beginning + ending / 2), not just ending inventory. Seasonal variations affect point-in-time values."
+      },
+      {
+        "title": "Ignoring Seasonality",
+        "description": "Seasonal businesses may have different turnover at different times. Analyze full-year and compare periods consistently."
+      },
+      {
+        "title": "Cross-Industry Comparisons",
+        "description": "Turnover varies dramatically by industry. Compare only within your sector for meaningful benchmarking."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a good inventory turnover ratio?",
+        "answer": "Depends on industry. Grocery: 12-15x. Apparel: 4-6x. Furniture: 3-4x. Electronics: 6-8x. Compare to your specific industry average."
+      },
+      {
+        "question": "How do I calculate days to sell inventory?",
+        "answer": "DSI = 365 / Inventory Turnover. If turnover is 6x, DSI = 365/6 = 61 days average to sell inventory."
+      },
+      {
+        "question": "Is higher or lower inventory turnover better?",
+        "answer": "Generally higher is better (efficient inventory management), but too high may mean stockouts. Balance efficiency with service levels."
+      },
+      {
+        "question": "How can I improve inventory turnover?",
+        "answer": "Reduce slow-moving items, improve demand forecasting, negotiate smaller/frequent deliveries, run promotions on old stock, and optimize reorder points."
+      },
+      {
+        "question": "What if my turnover is too low?",
+        "answer": "Low turnover ties up cash and increases holding costs. Review product mix, identify obsolete inventory, consider markdowns, and improve sales efforts."
+      }
+    ]
+  },
+  "economic-order-quantity-calculator": {
+    "title": "EOQ Calculator - Economic Order Quantity",
+    "description": "Calculate optimal order quantity to minimize inventory costs. Our free EOQ calculator helps businesses reduce holding costs, optimize reorder points, and improve inventory management efficiency. Essential for supply chain optimization."
+  },
+  "inventory-turnover-calculator": {
+    "title": "Inventory Turnover Calculator - Stock Rotation",
+    "description": "Calculate inventory turnover ratio and assess stock management efficiency. Our free calculator helps retailers and wholesalers optimize inventory levels, reduce holding costs, and improve cash flow through better stock rotation."
+  }
+}

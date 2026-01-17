@@ -60,7 +60,7 @@ export default function PremiumExport({
     } else {
       // Product URL not configured yet
       console.warn(`Product ${product.id} needs Gumroad URL configured`);
-      toast.info('Product link will be added soon. Please check back later!');
+      toast.info(t('monetization.messages.productLinkComing'));
     }
 
     setTimeout(() => setIsProcessing(false), 1000);

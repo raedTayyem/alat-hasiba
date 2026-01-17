@@ -1,0 +1,539 @@
+{
+  "electricity_bill": {
+    "title": "Electricity Bill Calculator",
+    "description": "Estimate electricity consumption cost based on kWh usage.",
+    "consumption": "Consumption (kWh)",
+    "consumption_tooltip": "Total energy consumption in kilowatt-hours",
+    "price_per_kwh": "Price per kWh",
+    "price_per_kwh_tooltip": "Cost per unit of energy according to the tariff",
+    "fixed_charge": "Fixed Charge",
+    "fixed_charge_tooltip": "Monthly fixed service or meter fee",
+    "tax_rate": "Tax Rate (%)",
+    "tax_rate_tooltip": "VAT or government taxes",
+    "results_title": "Estimated Bill Details",
+    "total_bill": "Total Bill",
+    "energy_cost": "Energy Cost",
+    "tax_amount": "Tax Amount",
+    "daily_cost": "Approximate Daily Cost",
+    "about_title": "Energy Saving Tips",
+    "about_desc": "Use energy-efficient appliances, turn off lights when not needed, and use thermal insulation to reduce cooling costs.",
+    "empty_state": "Enter consumption and tariff data to calculate bill",
+    "footer_note": "This calculator provides an estimate; actual bills may vary due to usage tiers and additional fees.",
+    "howItWorks": {
+      "title": "How the Electricity Bill Calculator Works",
+      "formula": "Total = (kWh × Price) + Fixed Charge + Tax",
+      "explanation": "Calculates your electricity bill by multiplying energy consumption in kilowatt-hours by the unit rate, then adding fixed charges and applicable taxes.",
+      "steps": [
+        "Enter your total energy consumption in kWh",
+        "Enter the price per kWh from your tariff",
+        "Add any fixed monthly charges",
+        "Specify the tax rate percentage"
+      ]
+    },
+    "useCases": [
+      "Estimating monthly electricity expenses",
+      "Comparing costs before and after energy-saving measures",
+      "Budgeting for household expenses",
+      "Verifying utility company charges"
+    ],
+    "seoTips": [
+      "Check your meter regularly to track consumption",
+      "Compare different tariff plans for savings",
+      "Consider time-of-use rates for lower off-peak costs",
+      "Factor in seasonal variations for accurate estimates"
+    ],
+    "commonMistakes": [
+      "Forgetting to include fixed charges and taxes",
+      "Using wrong tariff rates (tiered pricing)",
+      "Not accounting for demand charges (commercial)",
+      "Ignoring power factor penalties for businesses"
+    ],
+    "faqs": [
+      {
+        "question": "What is a kWh?",
+        "answer": "A kilowatt-hour (kWh) is a unit of energy equal to using 1000 watts for one hour. A 100W bulb running for 10 hours uses 1 kWh."
+      },
+      {
+        "question": "Why does my actual bill differ from the estimate?",
+        "answer": "Actual bills may include tiered pricing (higher rates for higher consumption), demand charges, fuel adjustments, and various fees not included in simple calculations."
+      },
+      {
+        "question": "How can I reduce my electricity bill?",
+        "answer": "Use energy-efficient appliances, LED lighting, smart thermostats, and unplug devices when not in use. Consider solar panels for long-term savings."
+      }
+    ]
+  },
+  "battery_life": {
+    "title": "Battery Life Calculator",
+    "description": "Calculate estimated battery runtime based on capacity and load.",
+    "capacity": "Battery Capacity",
+    "load_current": "Load Current",
+    "efficiency": "Efficiency (%)",
+    "enter_capacity": "Enter capacity (mAh)",
+    "enter_current": "Enter current (mA)",
+    "enter_efficiency": "Efficiency (e.g. 90)",
+    "capacity_tooltip": "Total energy storage capacity of the battery",
+    "current_tooltip": "Current drawn by the device",
+    "efficiency_tooltip": "Peukert effect and converter efficiency (typically 80-90%)",
+    "runtime": "Estimated Runtime",
+    "hours": "Hours",
+    "days": "Days",
+    "weeks": "Weeks",
+    "formula_title": "Calculation Formula",
+    "formula_desc": "Runtime = (Capacity × Efficiency) / Load Current",
+    "howItWorks": {
+      "title": "How the Battery Life Calculator Works",
+      "formula": "Runtime = (Capacity × Efficiency) / Load Current",
+      "explanation": "Estimates how long a battery will power a device by dividing the battery capacity (in mAh or Ah) by the device's current draw, adjusted for efficiency losses.",
+      "steps": [
+        "Enter the battery capacity (mAh or Ah)",
+        "Enter the device's current consumption",
+        "Adjust efficiency percentage (accounts for losses)",
+        "View estimated runtime in hours, days, or weeks"
+      ]
+    },
+    "useCases": [
+      "Estimating smartphone and laptop battery life",
+      "Sizing batteries for IoT and embedded devices",
+      "Planning portable equipment operating time",
+      "Designing solar systems with battery backup"
+    ],
+    "seoTips": [
+      "Typical efficiency is 80-90% for DC-DC converters",
+      "Peukert effect reduces capacity at high discharge rates",
+      "Li-ion batteries: multiply Ah by 3.7V for Wh capacity",
+      "Consider 20% capacity degradation for aged batteries"
+    ],
+    "commonMistakes": [
+      "Ignoring efficiency losses in voltage conversion",
+      "Not accounting for the Peukert effect at high currents",
+      "Using rated capacity without temperature derating",
+      "Forgetting sleep mode vs. active mode current differences"
+    ],
+    "faqs": [
+      {
+        "question": "What is the Peukert effect?",
+        "answer": "The Peukert effect describes how battery capacity decreases at higher discharge rates. A battery rated at 100Ah at 5A discharge might only deliver 80Ah at 20A discharge."
+      },
+      {
+        "question": "Why should I use efficiency percentage?",
+        "answer": "No power conversion is 100% efficient. Voltage regulators, DC-DC converters, and internal battery resistance all consume power. 85% efficiency is a good estimate for most applications."
+      },
+      {
+        "question": "How do mAh and Ah relate?",
+        "answer": "1 Ah = 1000 mAh. Small batteries (phone, Arduino) use mAh, while larger batteries (car, solar) use Ah. Multiply Ah by voltage to get Wh (energy capacity)."
+      }
+    ]
+  },
+  "solar_panel": {
+    "title": "Solar Panel Calculator",
+    "description": "Calculate the number of solar panels and battery capacity needed for your daily consumption.",
+    "inputs": {
+      "daily_consumption": "Daily Consumption",
+      "sun_hours": "Peak Sun Hours",
+      "system_voltage": "System Voltage",
+      "panel_wattage": "Panel Wattage"
+    },
+    "tooltips": {
+      "daily_consumption": "Total energy used per day in Watt-hours",
+      "sun_hours": "Average hours of full sunlight per day",
+      "system_voltage": "Voltage of your battery bank",
+      "panel_wattage": "Rated power of a single solar panel"
+    },
+    "placeholders": {
+      "daily_consumption": "e.g. 3000",
+      "sun_hours": "e.g. 5",
+      "panel_wattage": "e.g. 300"
+    },
+    "results": {
+      "num_panels": "Number of Panels Needed",
+      "total_wattage": "Total Solar Wattage",
+      "battery_capacity": "Recommended Battery Capacity",
+      "charge_controller": "Minimum Charge Controller Rating",
+      "batteries_desc": "Based on 2 days of autonomy and 50% depth of discharge"
+    },
+    "info": {
+      "title": "System Sizing",
+      "desc": "This estimation includes a factor for system losses and inefficiencies."
+    },
+    "howItWorks": {
+      "title": "How the Solar Panel Calculator Works",
+      "formula": "Panels = Daily Consumption / (Panel Wattage × Sun Hours × Efficiency)",
+      "explanation": "Calculates the number of solar panels needed based on daily energy consumption, peak sun hours, and system efficiency. Also sizes battery capacity for autonomy.",
+      "steps": [
+        "Enter your daily energy consumption (Wh)",
+        "Specify average peak sun hours for your location",
+        "Select system voltage (12V, 24V, 48V)",
+        "Enter the wattage of your chosen panels"
+      ]
+    },
+    "useCases": [
+      "Designing off-grid solar systems",
+      "Sizing grid-tied solar installations",
+      "Planning RV and boat solar systems",
+      "Calculating backup power requirements"
+    ],
+    "seoTips": [
+      "Peak sun hours vary by location (typically 4-6 hours)",
+      "Include 20-30% for system losses and inefficiencies",
+      "Higher voltage systems reduce cable losses",
+      "Plan for 2-3 days of battery autonomy for off-grid"
+    ],
+    "commonMistakes": [
+      "Using total daylight hours instead of peak sun hours",
+      "Forgetting inverter and charge controller losses",
+      "Under-sizing batteries for cloudy day autonomy",
+      "Not accounting for seasonal sun hour variations"
+    ],
+    "faqs": [
+      {
+        "question": "What are peak sun hours?",
+        "answer": "Peak sun hours (PSH) are equivalent hours of 1000W/m² solar irradiance. 5 PSH means the total daily energy equals 5 hours of full sun, not actual sunlight duration."
+      },
+      {
+        "question": "How do I determine my daily consumption?",
+        "answer": "Add up wattage × hours of use for all appliances. Check energy bills for monthly kWh and divide by 30. Use a power meter for accurate measurements."
+      },
+      {
+        "question": "What system voltage should I choose?",
+        "answer": "12V for small systems under 2kW, 24V for medium systems, 48V for larger systems. Higher voltage reduces current and cable losses but requires more panels in series."
+      }
+    ]
+  },
+  "power_calc": {
+    "title": "Electrical Power Calculator",
+    "description": "Calculate active, reactive, and apparent power for single and three-phase systems.",
+    "phase": "Phase System",
+    "phase_tooltip": "Select single or three-phase system",
+    "single_phase": "Single Phase",
+    "three_phase": "Three Phase",
+    "voltage": "Voltage (V)",
+    "current": "Current (A)",
+    "power_factor": "Power Factor (PF)",
+    "enter_voltage": "Enter voltage",
+    "enter_current": "Enter current",
+    "enter_pf": "Enter PF (0-1)",
+    "active_power": "Active Power (P)",
+    "reactive_power": "Reactive Power (Q)",
+    "apparent_power": "Apparent Power (S)",
+    "energy_day": "Energy per Day",
+    "energy_month": "Energy per Month",
+    "how_it_works": "Power Formulas",
+    "single_phase_formula": "Single Phase: P = V × I × PF",
+    "three_phase_formula": "Three Phase: P = √3 × V × I × PF",
+    "reactive_formula": "Reactive Power: Q = √(S² - P²)",
+    "energy_formula": "Energy = Power × Time",
+    "howItWorks": {
+      "title": "How the Electrical Power Calculator Works",
+      "formula": "P = V × I × PF (single-phase), P = √3 × V × I × PF (three-phase)",
+      "explanation": "Calculates active, reactive, and apparent power for electrical systems. Active power does useful work, reactive power oscillates in inductive/capacitive loads, and apparent power is the total supplied.",
+      "steps": [
+        "Select phase system (single or three-phase)",
+        "Enter voltage and current values",
+        "Enter the power factor (0-1)",
+        "View all power components and energy consumption"
+      ]
+    },
+    "useCases": [
+      "Calculating equipment power consumption",
+      "Sizing circuit breakers and cables",
+      "Estimating energy costs and billing",
+      "Designing electrical distribution systems"
+    ],
+    "seoTips": [
+      "Active power (W) does actual work",
+      "Reactive power (VAR) sustains magnetic/electric fields",
+      "Apparent power (VA) = V × I (what you pay for in some tariffs)",
+      "1 kW running 1 hour = 1 kWh of energy"
+    ],
+    "commonMistakes": [
+      "Confusing power (kW) with energy (kWh)",
+      "Forgetting power factor in industrial calculations",
+      "Using line voltage instead of phase voltage incorrectly",
+      "Not accounting for harmonics in non-linear loads"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between kW and kVA?",
+        "answer": "kW (kilowatts) is active/real power that does work. kVA (kilovolt-amperes) is apparent power including reactive components. kW = kVA × Power Factor."
+      },
+      {
+        "question": "Why does power factor matter?",
+        "answer": "Low power factor means more current is needed for the same useful power, causing larger cables, higher losses, and potential utility penalties for industrial customers."
+      },
+      {
+        "question": "How do I calculate energy cost?",
+        "answer": "Energy (kWh) = Power (kW) × Time (hours). Cost = kWh × rate. For example, 2kW × 5 hours = 10 kWh. At $0.10/kWh, cost = $1.00."
+      }
+    ]
+  },
+  "power_factor": {
+    "title": "Power Factor Calculator",
+    "description": "Calculate power factor correction capacitor and other parameters.",
+    "active_power": "Active Power (P)",
+    "reactive_power": "Reactive Power (Q)",
+    "target_pf": "Target Power Factor",
+    "voltage": "Voltage (V)",
+    "frequency": "Frequency (Hz)",
+    "enter_active": "Enter active power",
+    "enter_reactive": "Enter reactive power",
+    "enter_target": "Enter target PF (e.g. 0.95)",
+    "enter_voltage": "Enter voltage",
+    "enter_frequency": "Enter frequency",
+    "current_pf": "Current Power Factor",
+    "phase_angle": "Phase Angle",
+    "apparent_power": "Apparent Power (S)",
+    "capacitor_rating": "Required Capacitor",
+    "capacitance": "Capacitance Value",
+    "how_it_works": "Correction Calculation",
+    "formula_pf": "PF = P / √(P² + Q²)",
+    "formula_cap": "Qc = P × (tan(acos(PF1)) - tan(acos(PF2)))",
+    "formula_uf": "C = (Qc × 10^9) / (2πfV²)",
+    "howItWorks": {
+      "title": "How the Power Factor Calculator Works",
+      "formula": "PF = P/S = cos(φ), C = Qc/(2πfV²)",
+      "explanation": "Calculates current power factor and determines the capacitor size needed to improve it to a target value. Power factor correction reduces energy waste and utility penalties.",
+      "steps": [
+        "Enter active power (kW) and reactive power (kVAR)",
+        "Enter target power factor (typically 0.95)",
+        "Enter system voltage and frequency",
+        "View required capacitor rating and size"
+      ]
+    },
+    "useCases": [
+      "Industrial power factor correction",
+      "Reducing utility power factor penalties",
+      "Improving electrical system efficiency",
+      "Sizing capacitor banks for facilities"
+    ],
+    "seoTips": [
+      "Most utilities require PF > 0.85 to avoid penalties",
+      "Target PF of 0.95-0.98 is optimal (over-correction causes leading PF)",
+      "Capacitors provide leading reactive power to cancel lagging",
+      "Automatic capacitor banks adjust to varying loads"
+    ],
+    "commonMistakes": [
+      "Over-correcting to leading power factor (resonance risk)",
+      "Not considering harmonic effects on capacitors",
+      "Using fixed capacitors for varying loads",
+      "Ignoring capacitor voltage and frequency ratings"
+    ],
+    "faqs": [
+      {
+        "question": "Why do I need power factor correction?",
+        "answer": "Low PF means drawing more current than needed, causing higher cable losses, larger equipment sizing, and utility penalties. Correction saves money and improves efficiency."
+      },
+      {
+        "question": "What happens if I over-correct power factor?",
+        "answer": "Over-correction creates a leading power factor, which can cause voltage rise, resonance with system inductance, and potential equipment damage. Stay below 0.98 PF."
+      },
+      {
+        "question": "Should I use fixed or automatic capacitor banks?",
+        "answer": "Fixed capacitors work for constant loads. Automatic banks with contactors switch capacitor stages based on measured PF, ideal for varying loads like factories."
+      }
+    ]
+  },
+  "transformer": {
+    "title": "Transformer Calculator",
+    "description": "Calculate turns ratio, voltage ratio, current, and efficiency for transformers.",
+    "primary_voltage": "Primary Voltage (Vp)",
+    "secondary_voltage": "Secondary Voltage (Vs)",
+    "primary_turns": "Primary Turns (Np)",
+    "secondary_turns": "Secondary Turns (Ns)",
+    "power": "Power Rating (VA/W)",
+    "efficiency": "Efficiency (%)",
+    "enter_primary_v": "Enter primary voltage",
+    "enter_secondary_v": "Enter secondary voltage",
+    "enter_primary_turns": "Enter primary turns",
+    "enter_secondary_turns": "Enter secondary turns",
+    "enter_power": "Enter power rating",
+    "enter_efficiency": "Enter efficiency",
+    "turns_ratio": "Turns Ratio (Np:Ns)",
+    "voltage_ratio": "Voltage Ratio (Vp:Vs)",
+    "primary_current": "Primary Current (Ip)",
+    "secondary_current": "Secondary Current (Is)",
+    "output_power": "Output Power",
+    "losses": "Power Losses",
+    "how_it_works": "Transformer Equations",
+    "turns_voltage_relation": "Vp/Vs = Np/Ns = Is/Ip (Ideal)",
+    "unit_turns": "turns",
+    "howItWorks": {
+      "title": "How the Transformer Calculator Works",
+      "formula": "Vp/Vs = Np/Ns, Ip/Is = Ns/Np",
+      "explanation": "Calculates transformer parameters based on the relationship between primary and secondary windings. Voltage ratio equals turns ratio, while current ratio is inverse.",
+      "steps": [
+        "Enter primary and secondary voltages",
+        "Or enter primary and secondary turns",
+        "Enter power rating and efficiency",
+        "View currents, losses, and ratios"
+      ]
+    },
+    "useCases": [
+      "Designing power supply transformers",
+      "Selecting transformers for specific applications",
+      "Calculating transformer loading and efficiency",
+      "Understanding isolation and step-up/down requirements"
+    ],
+    "seoTips": [
+      "Turns ratio = voltage ratio for ideal transformers",
+      "Current ratio is inverse of voltage ratio",
+      "Efficiency = output power / input power × 100%",
+      "VA rating must exceed connected load"
+    ],
+    "commonMistakes": [
+      "Confusing VA rating with watts (consider power factor)",
+      "Forgetting transformer losses (core and copper)",
+      "Not accounting for voltage drop under load",
+      "Using DC with transformers (they only work with AC)"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between VA and Watts in transformers?",
+        "answer": "VA (volt-amperes) is apparent power - what the transformer delivers. Watts is active power after accounting for power factor. For resistive loads, VA = Watts."
+      },
+      {
+        "question": "Why does efficiency matter?",
+        "answer": "Transformer losses become heat. Lower efficiency means more energy wasted, higher operating costs, and potential overheating. Modern transformers achieve 95-99% efficiency."
+      },
+      {
+        "question": "Can I use a transformer with DC?",
+        "answer": "No, transformers only work with AC. DC creates a constant magnetic field that induces no voltage. Use a DC-DC converter or first convert DC to AC."
+      }
+    ]
+  },
+  "electrical_load": {
+    "title": "Electrical Load Calculator",
+    "description": "Calculate total electrical load, current, and recommended panel/cable sizes.",
+    "voltage": "Voltage (V)",
+    "voltage_tooltip": "System voltage (e.g., 220V, 380V)",
+    "power_factor": "Power Factor",
+    "power_factor_tooltip": "Power factor (typically 0.8-0.95)",
+    "loads_title": "Electrical Loads",
+    "load_name": "Device Name",
+    "load_power": "Power (W)",
+    "load_quantity": "Quantity",
+    "add_load": "Add Load",
+    "default_load_1": "Lighting",
+    "default_load_2": "Air Conditioner",
+    "results_title": "Load Calculation Results",
+    "total_power": "Total Power",
+    "total_current": "Total Current",
+    "panel_size": "Recommended Panel Size",
+    "cable_size": "Recommended Cable Size",
+    "notes_title": "Important Notes",
+    "notes": "Results include 25% safety factor. Consult an electrician for final installation.",
+    "empty_state": "Enter loads and voltage to calculate",
+    "footer_note": "This calculator provides estimates. Professional verification is recommended.",
+    "howItWorks": {
+      "title": "How the Electrical Load Calculator Works",
+      "formula": "Total Current = Total Power / (Voltage × Power Factor)",
+      "explanation": "Sums all electrical loads to determine total power demand, then calculates the current draw to recommend appropriate panel and cable sizes for safe installation.",
+      "steps": [
+        "Enter system voltage and power factor",
+        "Add each electrical load with its power and quantity",
+        "View total power and current demand",
+        "Get recommended panel and cable sizes"
+      ]
+    },
+    "useCases": [
+      "Designing residential electrical panels",
+      "Planning commercial building power distribution",
+      "Sizing main breakers and service entrance",
+      "Estimating power requirements for renovations"
+    ],
+    "seoTips": [
+      "Include 25% safety margin for future expansion",
+      "Diversity factor reduces total for unlikely simultaneous use",
+      "Continuous loads require 125% breaker sizing",
+      "NEC requires specific sizing for different load types"
+    ],
+    "commonMistakes": [
+      "Adding loads without diversity factor (over-sizing)",
+      "Forgetting future load growth allowance",
+      "Not classifying continuous vs intermittent loads",
+      "Ignoring power factor in industrial calculations"
+    ],
+    "faqs": [
+      {
+        "question": "What is diversity factor?",
+        "answer": "Diversity factor accounts for loads not running simultaneously. A home might have 30kW of loads but only 15kW peak demand. Diversity = Peak / Total, typically 0.4-0.8."
+      },
+      {
+        "question": "How do I size the main breaker?",
+        "answer": "Calculate total demand with diversity factor, add 25% for continuous loads, then select next standard breaker size up. Always follow local electrical codes."
+      },
+      {
+        "question": "What cable size do I need?",
+        "answer": "Cable size depends on current, distance, and installation method. Use ampacity tables from NEC/IEC, derate for temperature and bundling, and check voltage drop."
+      }
+    ]
+  },
+  "inrush_current": {
+    "title": "Inrush Current Calculator",
+    "description": "Calculate inrush current for motors, transformers, and other electrical devices.",
+    "load_type": "Load Type",
+    "load_type_tooltip": "Select the type of electrical load",
+    "motor": "Motor",
+    "transformer": "Transformer",
+    "capacitor": "Capacitor",
+    "led": "LED",
+    "incandescent": "Incandescent",
+    "rated_power": "Rated Power (kW)",
+    "rated_power_tooltip": "Nominal power rating of the device",
+    "voltage": "Voltage (V)",
+    "voltage_tooltip": "Operating voltage",
+    "enter_power": "Enter rated power",
+    "results_title": "Inrush Current Results",
+    "inrush_current_label": "Inrush Current (Peak)",
+    "inrush_multiplier": "Inrush Multiplier",
+    "steady_state": "Steady State Current",
+    "duration": "Duration",
+    "info_title": "About Inrush Current",
+    "info_notes": "Inrush current is the initial surge when equipment starts. It can be 5-15x normal current.",
+    "empty_state": "Enter device parameters to calculate inrush current",
+    "footer_note": "Actual inrush may vary. Use appropriate fuses and circuit breakers.",
+    "howItWorks": {
+      "title": "How the Inrush Current Calculator Works",
+      "formula": "Inrush = Steady State × Multiplier (varies by load type)",
+      "explanation": "Estimates the initial surge current when equipment starts. Different load types have different inrush characteristics based on their electrical behavior during startup.",
+      "steps": [
+        "Select the load type (motor, transformer, capacitor, etc.)",
+        "Enter the rated power and voltage",
+        "View the inrush current peak value",
+        "See inrush duration and multiplier"
+      ]
+    },
+    "useCases": [
+      "Sizing circuit breakers and fuses",
+      "Designing soft starters for motors",
+      "Selecting contactors for inrush loads",
+      "Planning generator capacity for starting loads"
+    ],
+    "seoTips": [
+      "Motors: 6-8x rated current for DOL starting",
+      "Transformers: 10-15x rated for magnetizing inrush",
+      "Capacitors: very high but brief inrush (limit with resistor)",
+      "LEDs with capacitive drivers can have 20-100x inrush"
+    ],
+    "commonMistakes": [
+      "Using standard fuses that trip on motor starting",
+      "Not accounting for capacitor bank inrush",
+      "Undersizing contactors for inductive loads",
+      "Ignoring inrush when sizing UPS and generators"
+    ],
+    "faqs": [
+      {
+        "question": "Why do motors have high inrush current?",
+        "answer": "At startup, motor speed is zero so there is no back-EMF to oppose current. The motor acts like a short circuit until it accelerates, drawing 6-8x rated current."
+      },
+      {
+        "question": "How do I reduce inrush current?",
+        "answer": "Use soft starters (reduced voltage), VFDs (variable frequency drives), star-delta starters for motors, or NTC thermistors/resistors for capacitive loads."
+      },
+      {
+        "question": "What type of circuit breaker handles inrush?",
+        "answer": "Use Type C or D breakers for motor/transformer loads. Type B trips at 3-5x, Type C at 5-10x, and Type D at 10-20x rated current."
+      }
+    ]
+  }
+}

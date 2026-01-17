@@ -1,0 +1,1448 @@
+{
+    "paint": {
+        "title": "Paint Calculator",
+        "description": "Calculate paint quantity needed for walls and ceilings based on area and coverage.",
+        "unit": "Area Unit",
+        "unit_tooltip": "Select measurement unit for area",
+        "sqft": "Square Feet",
+        "sqm": "Square Meters",
+        "sqft_unit": "sq ft",
+        "sqm_unit": "m²",
+        "wall_area": "Total Wall Area",
+        "wall_area_tooltip": "Total surface area to be painted",
+        "window_area": "Window Area (Deduction)",
+        "window_area_tooltip": "Area of windows to subtract from total",
+        "door_area": "Door Area (Deduction)",
+        "door_area_tooltip": "Area of doors to subtract from total",
+        "paint_type": "Paint Type",
+        "paint_type_tooltip": "Type of paint affects coverage rate",
+        "number_of_coats": "Number of Coats",
+        "number_of_coats_tooltip": "How many coats of paint to apply",
+        "coats_unit": "coats",
+        "types": {
+            "standard": "Standard Interior Latex",
+            "primer": "Primer/Sealer",
+            "exterior": "Exterior Latex",
+            "textured": "Textured Surface",
+            "high_gloss": "High Gloss Enamel",
+            "semi_gloss": "Semi-Gloss",
+            "flat_matte": "Flat/Matte Finish",
+            "ceiling": "Ceiling Paint"
+        },
+        "result_paint_needed": "Paint Needed",
+        "gallons": "Gallons",
+        "liters": "Liters",
+        "details": "Calculation Details",
+        "net_area": "Net Paintable Area",
+        "cans_needed": "Cans Needed",
+        "gallon_cans": "1-gallon cans",
+        "coverage_rate": "Coverage Rate",
+        "sqft_per_gallon": "sq ft/gallon",
+        "coats_applied": "Coats",
+        "area_summary": "Area Summary",
+        "total_wall_area": "Total Wall Area",
+        "deductions": "Deductions (Windows + Doors)",
+        "total_coverage_area": "Total Coverage Area",
+        "formula_title": "Calculation Formula",
+        "formula": "Gallons = (Net Area × Number of Coats) / Coverage Per Gallon",
+        "info_title": "About Paint Calculation",
+        "info_description": "Calculate paint quantities based on surface area, paint type, and number of coats. Deduct windows and doors for accurate estimates.",
+        "use_cases_title": "Common Uses",
+        "use_case_1": "Interior room painting",
+        "use_case_2": "Exterior house painting",
+        "use_case_3": "Commercial painting projects",
+        "errors": {
+            "invalid_area": "Please enter a valid wall area",
+            "negative_deductions": "Deduction areas cannot be negative",
+            "deductions_exceed_area": "Deductions cannot exceed total wall area",
+            "invalid_coats": "Number of coats must be between 1 and 5"
+        },
+        "placeholders": {
+            "wall_area": "400",
+            "window_area": "30",
+            "door_area": "20",
+            "coats": "2"
+        },
+        "howItWorks": {
+            "title": "How the Paint Calculator Works",
+            "formula": "Gallons = (Net Area × Coats) / Coverage Per Gallon",
+            "explanation": "This calculator estimates paint needed based on surface area, number of coats, and paint type coverage rates. It deducts windows and doors from total wall area for accuracy.",
+            "steps": [
+                "Enter total wall area to be painted",
+                "Deduct window and door areas",
+                "Select paint type for correct coverage rate",
+                "Choose number of coats (2 is standard)",
+                "Review gallons and cans needed"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Interior Room Painting",
+                "description": "Calculate paint for bedrooms, living rooms, and other interior spaces."
+            },
+            {
+                "title": "Exterior House Painting",
+                "description": "Estimate paint quantities for home exterior walls and trim."
+            },
+            {
+                "title": "Commercial Projects",
+                "description": "Plan paint orders for offices, retail spaces, and commercial buildings."
+            },
+            {
+                "title": "Ceiling Painting",
+                "description": "Determine ceiling paint needs with appropriate coverage rates."
+            }
+        ],
+        "seoTips": [
+            "One gallon covers approximately 350-400 sq ft for smooth surfaces",
+            "Textured surfaces require 20-30% more paint than smooth walls",
+            "Always apply primer when changing colors dramatically or on new drywall",
+            "Two coats provide better coverage and durability than one thick coat",
+            "Buy all paint at once to ensure color consistency between cans"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Skipping primer",
+                "solution": "Prime new surfaces and when changing from dark to light colors"
+            },
+            {
+                "mistake": "Buying exact amount",
+                "solution": "Add 10% extra for touch-ups and coverage variations"
+            },
+            {
+                "mistake": "Wrong paint type",
+                "solution": "Use bathroom/kitchen paint in moisture areas, exterior paint outside"
+            },
+            {
+                "mistake": "Ignoring surface texture",
+                "solution": "Textured walls need 20-30% more paint than smooth surfaces"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How much paint do I need for a 12x12 room?",
+                "answer": "A 12x12 room with 8-foot ceilings has about 384 sq ft of wall area. After deducting doors and windows, 2 gallons covers 2 coats."
+            },
+            {
+                "question": "How many square feet does a gallon of paint cover?",
+                "answer": "One gallon covers 350-400 sq ft on smooth surfaces for one coat. Textured surfaces may only get 250-300 sq ft per gallon."
+            },
+            {
+                "question": "Do I need primer before painting?",
+                "answer": "Primer is recommended for new drywall, dramatic color changes, stain blocking, and adhesion on glossy surfaces. Many paints now include primer."
+            },
+            {
+                "question": "How many coats of paint do I need?",
+                "answer": "Two coats is standard for most applications. One coat may suffice when repainting the same color; three coats for dramatic color changes."
+            },
+            {
+                "question": "What is the difference between interior and exterior paint?",
+                "answer": "Exterior paint contains additives for UV resistance, mildew prevention, and temperature flexibility. Interior paint focuses on washability and low odor."
+            }
+        ]
+    },
+    "tile": {
+        "title": "Tile Calculator",
+        "description": "Calculate tiles needed for floors and walls with waste allowance.",
+        "unit": "Area Unit",
+        "unit_tooltip": "Select measurement unit for the area",
+        "feet": "Feet",
+        "meters": "Meters",
+        "area_length": "Area Length",
+        "area_length_tooltip": "Length of the area to tile",
+        "area_width": "Area Width",
+        "area_width_tooltip": "Width of the area to tile",
+        "tile_size": "Tile Size",
+        "tile_size_tooltip": "Select a standard tile size or enter custom dimensions",
+        "custom_size": "Custom Size",
+        "tile_width": "Tile Width",
+        "tile_width_tooltip": "Width of a single tile in inches",
+        "tile_height": "Tile Height",
+        "tile_height_tooltip": "Height of a single tile in inches",
+        "grout_width": "Grout Line Width",
+        "grout_width_tooltip": "Width of grout lines between tiles (typically 1/8 to 1/4 inch)",
+        "tiles_per_box": "Tiles per Box",
+        "tiles_per_box_tooltip": "Number of tiles in each box for ordering",
+        "waste_factor": "Waste Factor (%)",
+        "waste_factor_tooltip": "Extra tiles for cuts, breakage, and waste (typically 10%)",
+        "inches": "in",
+        "result_tiles": "Tiles Required",
+        "tiles": "tiles",
+        "without_waste": "without waste",
+        "details": "Project Details",
+        "total_area": "Total Area",
+        "sqft_short": "sq ft",
+        "sqm_short": "sq m",
+        "boxes_needed": "Boxes Needed",
+        "tile_area": "Tile Area",
+        "sqin": "sq in",
+        "grout_linear": "Grout Linear Length",
+        "ft": "ft",
+        "formula_title": "Calculation Formula",
+        "formula": "Tiles = Area / Tile Area × (1 + Waste Factor). Grout lines are accounted for in effective tile coverage.",
+        "info_title": "About Tile Calculation",
+        "info_description": "Accurate tile estimation prevents shortages and excess waste. Include extra tiles for cuts around edges, corners, and potential breakage.",
+        "use_cases_title": "Common Uses",
+        "use_case_1": "Floor tiling projects",
+        "use_case_2": "Bathroom and kitchen walls",
+        "use_case_3": "Backsplash installations",
+        "errors": {
+            "invalid_dimensions": "Please enter valid area dimensions",
+            "positive_values": "Dimensions must be greater than zero",
+            "invalid_tile_size": "Please enter valid tile dimensions",
+            "invalid_grout": "Grout width cannot be negative",
+            "invalid_waste": "Waste factor must be between 0 and 100%"
+        },
+        "placeholders": {
+            "length": "12",
+            "width": "10",
+            "tile_width": "12",
+            "tile_height": "12",
+            "grout": "0.125",
+            "tiles_per_box": "10",
+            "waste": "10"
+        },
+        "howItWorks": {
+            "title": "How the Tile Calculator Works",
+            "formula": "Tiles = (Area / Tile Size) × (1 + Waste Factor)",
+            "explanation": "This calculator determines tile quantity by dividing the total area by individual tile coverage, accounting for grout lines. It adds a waste factor for cutting and breakage.",
+            "steps": [
+                "Enter area dimensions or total square footage",
+                "Select or enter tile size dimensions",
+                "Specify grout line width",
+                "Set waste factor (10% minimum recommended)",
+                "Review tiles and boxes needed"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Floor Tiling",
+                "description": "Calculate tiles for bathroom, kitchen, and living area floors."
+            },
+            {
+                "title": "Backsplash Installation",
+                "description": "Estimate tiles for kitchen and bathroom backsplashes."
+            },
+            {
+                "title": "Shower Walls",
+                "description": "Plan tile quantities for shower enclosures and wet areas."
+            },
+            {
+                "title": "Feature Walls",
+                "description": "Determine tiles for decorative accent walls and features."
+            }
+        ],
+        "seoTips": [
+            "Add 10% waste for straight layouts, 15% for diagonal patterns",
+            "Larger tiles have less waste but require flatter substrates",
+            "Plan tile layout to center pattern and minimize small cuts at edges",
+            "Order all tiles at once to ensure consistent color and lot matching",
+            "Consider tile size relative to room size - large tiles in small rooms can look odd"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Insufficient waste factor",
+                "solution": "Use 10% minimum, 15% for diagonal or complex patterns"
+            },
+            {
+                "mistake": "Not planning layout",
+                "solution": "Dry-lay tiles first to minimize small cuts at edges"
+            },
+            {
+                "mistake": "Wrong grout spacing",
+                "solution": "Use spacers consistently - 1/8 inch for most, 1/16 for rectified tiles"
+            },
+            {
+                "mistake": "Mixing tile lots",
+                "solution": "Order from same lot number for consistent color"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How many tiles do I need per square foot?",
+                "answer": "For 12x12 inch tiles: 1 tile per sq ft. For 6x6 inch tiles: 4 per sq ft. For 18x18 inch tiles: 0.44 per sq ft. Add 10% for waste."
+            },
+            {
+                "question": "How much extra tile should I order?",
+                "answer": "Order 10% extra for standard layouts, 15% for diagonal or herringbone patterns, and 20% for complex patterns or rooms with many cuts."
+            },
+            {
+                "question": "What size grout lines should I use?",
+                "answer": "Standard is 1/8 inch (3mm). Use 1/16 inch for rectified tiles, 1/4 inch or more for rustic or hand-made tiles."
+            },
+            {
+                "question": "Can I use floor tiles on walls?",
+                "answer": "Yes, but wall tiles cannot go on floors. Floor tiles are denser and harder. Check tile ratings for appropriate applications."
+            },
+            {
+                "question": "How many tiles come in a box?",
+                "answer": "This varies by size: 12x12 inch tiles typically 10-12 per box, 6x6 inch tiles 40+ per box. Check manufacturer specifications."
+            }
+        ]
+    },
+    "grout": {
+        "title": "Grout Calculator",
+        "description": "Calculate grout quantity needed for tile joint filling.",
+        "unit": "Area Unit",
+        "unit_tooltip": "Select measurement unit for the tiled area",
+        "sqft": "Square Feet",
+        "sqm": "Square Meters",
+        "tile_area": "Tiled Area",
+        "tile_area_tooltip": "Total area covered with tiles",
+        "tile_width": "Tile Width",
+        "tile_width_tooltip": "Width of each tile in inches",
+        "tile_height": "Tile Height",
+        "tile_height_tooltip": "Height of each tile in inches",
+        "joint_width": "Joint Width",
+        "joint_width_tooltip": "Width of grout lines between tiles",
+        "joint_depth": "Joint Depth",
+        "joint_depth_tooltip": "Depth of grout in the joint (typically half the tile thickness)",
+        "inches": "in",
+        "result_bags": "Grout Bags Needed",
+        "bags": "bags (25 lbs / 11.3 kg)",
+        "kg": "kg",
+        "lbs": "lbs",
+        "details": "Grout Details",
+        "total_area": "Total Area",
+        "sqft_short": "sq ft",
+        "sqm_short": "sq m",
+        "joint_length": "Total Joint Length",
+        "ft": "ft",
+        "m": "m",
+        "grout_volume": "Grout Volume",
+        "liters": "L",
+        "grout_weight": "Grout Weight",
+        "formula_title": "Calculation Formula",
+        "formula": "Grout Volume = Joint Length × Joint Width × Joint Depth. Weight = Volume × Grout Density (1.6 kg/L).",
+        "info_title": "About Grout Calculation",
+        "info_description": "Grout fills the gaps between tiles and is essential for waterproofing and aesthetics. The amount needed depends on tile size, joint width, and joint depth.",
+        "use_cases_title": "Common Uses",
+        "use_case_1": "Floor tile grouting",
+        "use_case_2": "Wall tile installation",
+        "use_case_3": "Shower and bathroom tiling",
+        "errors": {
+            "invalid_area": "Please enter a valid tiled area",
+            "invalid_tile_size": "Please enter valid tile dimensions",
+            "invalid_joint_width": "Joint width must be greater than zero",
+            "invalid_joint_depth": "Joint depth must be greater than zero"
+        },
+        "placeholders": {
+            "area": "100",
+            "tile_width": "12",
+            "tile_height": "12",
+            "joint_width": "0.125",
+            "joint_depth": "0.25"
+        },
+        "howItWorks": {
+            "title": "How the Grout Calculator Works",
+            "formula": "Grout Volume = Joint Length × Joint Width × Joint Depth",
+            "explanation": "This calculator determines grout quantity by calculating total joint length based on tile size and area, then computing volume using joint width and depth.",
+            "steps": [
+                "Enter total tiled area",
+                "Specify tile dimensions (width and height)",
+                "Set grout joint width and depth",
+                "Review total grout volume and weight",
+                "Calculate bags needed for ordering"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Floor Tile Grouting",
+                "description": "Calculate grout for bathroom, kitchen, and entryway floor tiles."
+            },
+            {
+                "title": "Wall Tile Grouting",
+                "description": "Estimate grout for shower walls, backsplashes, and accent walls."
+            },
+            {
+                "title": "Re-grouting Projects",
+                "description": "Plan grout quantities for repair and restoration work."
+            },
+            {
+                "title": "Commercial Installations",
+                "description": "Determine grout needs for large-scale commercial tile projects."
+            }
+        ],
+        "seoTips": [
+            "Mix grout to peanut butter consistency for best application",
+            "Wait 15-20 minutes after mixing for slaking before applying",
+            "Work in small sections - grout begins to set within 30 minutes",
+            "Seal grout after curing to prevent staining and moisture absorption",
+            "Use sanded grout for joints over 1/8 inch, unsanded for smaller joints"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Wrong grout type",
+                "solution": "Use sanded for joints over 1/8 inch, unsanded for smaller joints"
+            },
+            {
+                "mistake": "Not sealing grout",
+                "solution": "Apply grout sealer after curing to prevent stains and moisture damage"
+            },
+            {
+                "mistake": "Cleaning too early",
+                "solution": "Wait until grout hazes before initial cleaning, about 15-20 minutes"
+            },
+            {
+                "mistake": "Inconsistent depth",
+                "solution": "Fill joints completely and tool to consistent depth"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How much grout do I need per square foot?",
+                "answer": "Approximately 0.5-1 lb per square foot for 12x12 tiles with 1/8 inch joints. Smaller tiles and wider joints require more grout."
+            },
+            {
+                "question": "What is the difference between sanded and unsanded grout?",
+                "answer": "Sanded grout contains sand for strength in joints over 1/8 inch. Unsanded is smoother for narrow joints and polished tiles that scratch easily."
+            },
+            {
+                "question": "How long does grout take to dry?",
+                "answer": "Grout is walkable in 24 hours but takes 28 days to fully cure. Seal after 72 hours. Avoid heavy traffic for first week."
+            },
+            {
+                "question": "Do I need to seal grout?",
+                "answer": "Yes, cement-based grout should be sealed to prevent staining and moisture absorption. Epoxy grout does not require sealing."
+            },
+            {
+                "question": "How long does a bag of grout last?",
+                "answer": "A 25 lb bag covers approximately 50-200 sq ft depending on tile size and joint width. Smaller tiles with wider joints use more grout."
+            }
+        ]
+    },
+    "wallpaper": {
+        "title": "Wallpaper Calculator",
+        "description": "Calculate wallpaper rolls needed for room coverage with pattern repeat allowance.",
+        "unit": "Measurement Unit",
+        "unit_tooltip": "Select feet or meters for room dimensions",
+        "feet": "Feet",
+        "meters": "Meters",
+        "room_perimeter": "Room Perimeter",
+        "room_perimeter_tooltip": "Total length of all walls (or sum of wall lengths)",
+        "wall_height": "Wall Height",
+        "wall_height_tooltip": "Height from floor to ceiling",
+        "roll_width": "Roll Width",
+        "roll_width_tooltip": "Width of wallpaper roll",
+        "roll_length": "Roll Length",
+        "roll_length_tooltip": "Total length of wallpaper per roll",
+        "pattern_repeat": "Pattern Repeat",
+        "pattern_repeat_tooltip": "Distance between pattern repeats (0 for no pattern)",
+        "doors_windows": "Doors/Windows Deduction",
+        "doors_windows_tooltip": "Total area of doors and windows to subtract",
+        "result_rolls": "Wallpaper Rolls Needed",
+        "rolls": "rolls",
+        "details": "Coverage Details",
+        "gross_area": "Gross Wall Area",
+        "net_area": "Net Coverage Area",
+        "usable_per_roll": "Usable Coverage per Roll",
+        "formula_title": "Calculation Formula",
+        "formula": "Rolls = Net Wall Area / Usable Coverage per Roll. Pattern repeat reduces usable coverage.",
+        "info_title": "About Wallpaper Calculation",
+        "info_description": "Wallpaper calculation must account for pattern repeats which increase waste. This calculator determines rolls needed including proper allowances.",
+        "use_cases_title": "Common Uses",
+        "use_case_1": "Residential room decoration",
+        "use_case_2": "Accent wall coverage",
+        "use_case_3": "Commercial interior design",
+        "errors": {
+            "invalid_dimensions": "Please enter valid room dimensions",
+            "positive_values": "Dimensions must be greater than zero",
+            "invalid_repeat": "Pattern repeat cannot be negative"
+        },
+        "placeholders": {
+            "room_perimeter": "50",
+            "wall_height": "8",
+            "roll_width": "21",
+            "roll_length": "33",
+            "pattern_repeat": "12",
+            "doors_windows": "40"
+        },
+        "howItWorks": {
+            "title": "How the Wallpaper Calculator Works",
+            "formula": "Rolls = Net Wall Area / (Roll Coverage - Pattern Waste)",
+            "explanation": "This calculator determines wallpaper roll quantity by computing wall area, subtracting openings, and accounting for pattern repeat waste. Pattern repeats significantly increase material needs.",
+            "steps": [
+                "Calculate room perimeter (sum of wall lengths)",
+                "Enter wall height and roll dimensions",
+                "Add pattern repeat distance (0 for solid patterns)",
+                "Subtract door and window areas",
+                "Review rolls needed with waste allowance"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Full Room Wallpapering",
+                "description": "Calculate wallpaper for complete room coverage."
+            },
+            {
+                "title": "Accent Wall",
+                "description": "Estimate rolls for single feature wall installation."
+            },
+            {
+                "title": "Bathroom and Kitchen",
+                "description": "Plan wallpaper for smaller spaces with many openings."
+            },
+            {
+                "title": "Commercial Spaces",
+                "description": "Calculate large-scale wallpaper installations for offices and retail."
+            }
+        ],
+        "seoTips": [
+            "Pattern repeats can increase waste by 20-30% - factor this in",
+            "Standard American rolls are 20.5 inches × 33 feet (27 sq ft coverage)",
+            "European rolls are typically 21 inches × 33 feet or metric equivalents",
+            "Order all rolls from the same dye lot to ensure color consistency",
+            "Add one extra roll for future repairs and pattern matching at corners"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Ignoring pattern repeat",
+                "solution": "Large pattern repeats can waste 30% - measure and include in calculations"
+            },
+            {
+                "mistake": "Different dye lots",
+                "solution": "Order all rolls at once from same lot - colors vary between production runs"
+            },
+            {
+                "mistake": "Not ordering extra",
+                "solution": "Add at least one roll for errors, repairs, and matching at corners"
+            },
+            {
+                "mistake": "Measuring width incorrectly",
+                "solution": "Measure wall height plus 4 inches for trimming at top and bottom"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How many rolls of wallpaper for a 12×12 room?",
+                "answer": "A 12×12 room with 8-foot ceilings has approximately 384 sq ft of wall area. After deducting openings, expect 5-7 double rolls depending on pattern repeat."
+            },
+            {
+                "question": "What is pattern repeat and why does it matter?",
+                "answer": "Pattern repeat is the distance before the design repeats. Larger repeats create more waste as strips must be aligned, potentially requiring 20-30% more material."
+            },
+            {
+                "question": "What is the difference between single and double rolls?",
+                "answer": "Single rolls are 27 sq ft, double rolls are 54 sq ft. Most wallpaper is now sold only in double rolls but priced per single roll."
+            },
+            {
+                "question": "How long does wallpaper last?",
+                "answer": "Quality wallpaper lasts 10-15 years or more. Vinyl and washable types are most durable for high-traffic and humid areas."
+            },
+            {
+                "question": "Can I hang wallpaper over existing wallpaper?",
+                "answer": "Not recommended. Remove old wallpaper, repair walls, and apply primer for best adhesion and smooth finish."
+            }
+        ]
+    },
+    "wallArea": {
+        "title": "Wall Area Calculator",
+        "description": "Calculate net wall area by subtracting windows and door openings.",
+        "unit": "Measurement Unit",
+        "unit_tooltip": "Select meters or feet for measurements",
+        "meters": "Meters",
+        "feet": "Feet",
+        "wall_length": "Wall Length",
+        "wall_length_tooltip": "Total length of the wall",
+        "wall_height": "Wall Height",
+        "wall_height_tooltip": "Height of the wall from floor to ceiling",
+        "windows": "Windows",
+        "window": "Window",
+        "add_window": "Add Window",
+        "doors": "Doors",
+        "door": "Door",
+        "add_door": "Add Door",
+        "width": "Width",
+        "height": "Height",
+        "quantity": "Qty",
+        "result_net_area": "Net Wall Area",
+        "square_meters": "Square Meters",
+        "square_feet": "Square Feet",
+        "breakdown": "Area Breakdown",
+        "gross_area": "Gross Wall Area",
+        "window_area": "Window Openings",
+        "door_area": "Door Openings",
+        "openings_percentage": "Openings Percentage",
+        "perimeter": "Wall Perimeter",
+        "formula_title": "Calculation Formula",
+        "formula": "Net Area = Gross Area - Window Areas - Door Areas. Gross Area = Length × Height.",
+        "info_title": "About Wall Area Calculation",
+        "info_description": "Calculating net wall area is essential for accurate paint, wallpaper, and siding estimates. Subtracting window and door openings prevents over-ordering materials.",
+        "use_cases_title": "Common Uses",
+        "use_case_1": "Paint quantity estimation",
+        "use_case_2": "Wallpaper roll calculation",
+        "use_case_3": "Siding and cladding projects",
+        "errors": {
+            "invalid_dimensions": "Please enter valid wall dimensions",
+            "positive_values": "Dimensions must be greater than zero"
+        },
+        "placeholders": {
+            "wall_length": "10",
+            "wall_height": "3"
+        },
+        "howItWorks": {
+            "title": "How the Wall Area Calculator Works",
+            "formula": "Net Area = (Length × Height) - Windows - Doors",
+            "explanation": "This calculator determines net wall area by subtracting window and door openings from the gross wall area. Essential for accurate paint, wallpaper, and material estimates.",
+            "steps": [
+                "Enter wall length and height",
+                "Add windows with their dimensions and quantities",
+                "Add doors with their dimensions and quantities",
+                "Review gross area and deductions",
+                "Use net area for material calculations"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Paint Estimation",
+                "description": "Calculate net wall area for accurate paint quantity planning."
+            },
+            {
+                "title": "Wallpaper Projects",
+                "description": "Determine wall coverage for wallpaper roll calculations."
+            },
+            {
+                "title": "Siding Installation",
+                "description": "Compute net area for exterior cladding materials."
+            },
+            {
+                "title": "Drywall Estimation",
+                "description": "Plan drywall sheet quantities for new construction."
+            }
+        ],
+        "seoTips": [
+            "Always measure each wall separately for accuracy",
+            "Include all openings - windows, doors, built-in shelving",
+            "Standard door is 80×32 inches (20 sq ft) for quick estimates",
+            "Average window is 3×4 feet (12 sq ft) for rough calculations",
+            "Add 10% to net area for cutting waste on most materials"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Forgetting closet interiors",
+                "solution": "Include closet walls in total area calculations"
+            },
+            {
+                "mistake": "Missing small openings",
+                "solution": "Include all openings - windows, doors, pass-throughs"
+            },
+            {
+                "mistake": "Using ceiling height for all walls",
+                "solution": "Measure actual height - can vary between rooms"
+            },
+            {
+                "mistake": "Not accounting for trim",
+                "solution": "Deduct only opening area, not trim coverage"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How do I calculate wall area for a room?",
+                "answer": "Measure the perimeter (sum of wall lengths) and multiply by ceiling height. Subtract door and window areas from the total."
+            },
+            {
+                "question": "What is the average window size for calculations?",
+                "answer": "Standard windows average 3×4 feet (12 sq ft). Measure actual windows for accuracy or use 15-20 sq ft for larger windows."
+            },
+            {
+                "question": "Should I deduct baseboards and crown molding?",
+                "answer": "No, these are typically included in wall area. Only deduct actual openings like doors and windows."
+            },
+            {
+                "question": "How much area does a gallon of paint cover?",
+                "answer": "One gallon covers 350-400 sq ft per coat on smooth walls. Use net wall area after deducting openings."
+            },
+            {
+                "question": "What is the formula for wall perimeter?",
+                "answer": "Add all wall lengths together. For a rectangular room: Perimeter = 2 × (Length + Width)."
+            }
+        ]
+    },
+    "drywall": {
+        "title": "Drywall Calculator",
+        "description": "Calculate drywall sheets, screws, joint compound, and tape for wall and ceiling installation.",
+        "unit": "Measurement Unit",
+        "unit_tooltip": "Select meters or feet for measurements",
+        "meters": "Meters",
+        "feet": "Feet",
+        "wall_area": "Total Wall Area",
+        "wall_area_tooltip": "Combined area of all walls to be covered",
+        "ceiling_area": "Ceiling Area",
+        "ceiling_area_tooltip": "Area of ceiling to be covered (optional)",
+        "sheet_size": "Sheet Size",
+        "sheet_size_tooltip": "Standard drywall sheet dimensions",
+        "sizes": {
+            "4x8": "4×8 feet (1.22×2.44m)",
+            "4x10": "4×10 feet (1.22×3.05m)",
+            "4x12": "4×12 feet (1.22×3.66m)"
+        },
+        "waste_factor": "Waste Factor (%)",
+        "waste_factor_tooltip": "Extra material for cuts and waste (typically 10%)",
+        "result_sheets": "Drywall Sheets Needed",
+        "sheets": "sheets",
+        "accessories": "Accessories Needed",
+        "screws": "Drywall Screws",
+        "compound": "Joint Compound (gal)",
+        "tape": "Paper Tape (ft)",
+        "formula_title": "Calculation Formula",
+        "formula": "Sheets = Total Area / Sheet Area × (1 + Waste). Accessories based on standard coverage rates.",
+        "info_title": "About Drywall Calculation",
+        "info_description": "Accurate drywall estimation includes sheets, screws, joint compound, and tape. Plan sheet orientation to minimize joints and waste.",
+        "use_cases_title": "Common Uses",
+        "use_case_1": "New construction walls and ceilings",
+        "use_case_2": "Basement finishing",
+        "use_case_3": "Room additions and renovations",
+        "errors": {
+            "invalid_area": "Please enter valid area measurements",
+            "positive_values": "Area must be greater than zero",
+            "invalid_waste": "Waste factor must be between 0 and 100"
+        },
+        "placeholders": {
+            "wall_area": "100",
+            "ceiling_area": "20",
+            "waste": "10"
+        },
+        "howItWorks": {
+            "title": "How the Drywall Calculator Works",
+            "formula": "Sheets = (Wall Area + Ceiling Area) / Sheet Area × (1 + Waste)",
+            "explanation": "This calculator determines drywall sheet quantity based on total coverage area and sheet size. It also estimates screws, joint compound, and tape needed for complete installation and finishing.",
+            "steps": [
+                "Enter total wall area to be covered",
+                "Add ceiling area if applicable",
+                "Select drywall sheet size",
+                "Set waste factor for cuts and odd shapes",
+                "Review sheets and accessories needed"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "New Home Construction",
+                "description": "Calculate drywall for complete interior wall and ceiling coverage."
+            },
+            {
+                "title": "Basement Finishing",
+                "description": "Estimate materials for converting unfinished basement to living space."
+            },
+            {
+                "title": "Room Additions",
+                "description": "Plan drywall needs for home additions and extensions."
+            },
+            {
+                "title": "Garage Conversion",
+                "description": "Determine materials for converting garage to habitable space."
+            }
+        ],
+        "seoTips": [
+            "Use 1/2-inch drywall for walls, 5/8-inch for ceilings and fire-rated applications",
+            "Hang sheets horizontally on walls to reduce visible joints",
+            "Stagger joints between rows to prevent cracking",
+            "Use moisture-resistant (green board) drywall in bathrooms",
+            "One gallon of joint compound covers approximately 100 sq ft for three coats"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Joints aligned on both sides",
+                "solution": "Stagger joints on opposite sides of wall by at least 4 feet"
+            },
+            {
+                "mistake": "Wrong screw spacing",
+                "solution": "Space screws 12 inches on ceilings, 16 inches on walls along framing"
+            },
+            {
+                "mistake": "Insufficient compound",
+                "solution": "Plan for 3 coats: tape, fill, and finish coat with sanding between"
+            },
+            {
+                "mistake": "Gaps at edges",
+                "solution": "Leave 1/4 inch gap at floor, tight fit at ceiling for proper floating"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How many drywall sheets for a 12×12 room?",
+                "answer": "A 12×12 room with 8-foot ceilings has 384 sq ft of wall area. Using 4×8 sheets (32 sq ft each), you need approximately 12-14 sheets plus waste."
+            },
+            {
+                "question": "How many screws per sheet of drywall?",
+                "answer": "Plan for 28-32 screws per 4×8 sheet. Screws should be placed every 12 inches on ceilings and 16 inches on walls."
+            },
+            {
+                "question": "What thickness drywall should I use?",
+                "answer": "Use 1/2-inch for most walls, 5/8-inch for ceilings and fire-rated walls. Use 1/4-inch for curved surfaces."
+            },
+            {
+                "question": "How much joint compound per sheet?",
+                "answer": "Plan for approximately 0.5 gallons of joint compound per 4×8 sheet for complete finishing including three coats."
+            },
+            {
+                "question": "Can I hang drywall vertically?",
+                "answer": "Yes, but horizontal installation is preferred for walls as it creates fewer and shorter joints to tape."
+            }
+        ]
+    },
+    "jointCompound": {
+        "title": "Joint Compound Calculator",
+        "description": "Calculate joint compound (mud) quantity for drywall finishing including taping and coating.",
+        "coverage_type": "Application Type",
+        "coverage_type_tooltip": "Select the type of joint compound application",
+        "types": {
+            "taping": "Taping Coat (First Coat)",
+            "second": "Second Coat (Fill Coat)",
+            "finish": "Finish Coat (Skim Coat)",
+            "full": "Complete 3-Coat System"
+        },
+        "drywall_area": "Drywall Area",
+        "drywall_area_tooltip": "Total area of drywall to be finished",
+        "unit": "Measurement Unit",
+        "unit_tooltip": "Select square feet or square meters",
+        "sqft": "Square Feet",
+        "sqm": "Square Meters",
+        "result_compound": "Joint Compound Needed",
+        "gallons": "Gallons",
+        "liters": "Liters",
+        "buckets": "5-Gallon Buckets",
+        "details": "Coverage Details",
+        "linear_joints": "Estimated Linear Joints",
+        "coverage_rate": "Coverage Rate",
+        "formula_title": "Calculation Formula",
+        "formula": "Gallons = Area / Coverage Rate per Gallon. Coverage varies by coat type.",
+        "info_title": "About Joint Compound Calculation",
+        "info_description": "Joint compound is applied in multiple coats for smooth drywall finishing. Each coat requires different amounts based on application technique.",
+        "use_cases_title": "Common Uses",
+        "use_case_1": "Drywall taping and finishing",
+        "use_case_2": "Texture repair and patching",
+        "use_case_3": "Skim coating entire surfaces",
+        "errors": {
+            "invalid_area": "Please enter valid drywall area",
+            "positive_values": "Area must be greater than zero"
+        },
+        "placeholders": {
+            "area": "500"
+        },
+        "howItWorks": {
+            "title": "How the Joint Compound Calculator Works",
+            "formula": "Gallons = Drywall Area / Coverage Rate",
+            "explanation": "This calculator estimates joint compound quantity based on drywall area and application type. It accounts for different coverage rates for taping, filling, and finish coats.",
+            "steps": [
+                "Enter total drywall area to be finished",
+                "Select application type (single coat or full system)",
+                "Review gallons or liters needed",
+                "Calculate 5-gallon buckets for ordering",
+                "Allow for extra for touch-ups and repairs"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "New Drywall Finishing",
+                "description": "Calculate compound for complete three-coat finishing system."
+            },
+            {
+                "title": "Repair and Patching",
+                "description": "Estimate compound needs for drywall repairs and hole patching."
+            },
+            {
+                "title": "Texture Removal",
+                "description": "Plan compound for skim coating after texture removal."
+            },
+            {
+                "title": "Level 5 Finish",
+                "description": "Calculate for premium smooth finish requiring full skim coat."
+            }
+        ],
+        "seoTips": [
+            "All-purpose compound works for all coats but takes longer to dry",
+            "Use setting-type compound for taping coat to prevent bubbles",
+            "Lightweight compound is easier to sand for finish coats",
+            "Thin compound slightly for skim coating - cream-like consistency",
+            "Store unused compound sealed to prevent drying out"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Applying coats too thick",
+                "solution": "Apply thin coats and build up - thick coats crack and take forever to dry"
+            },
+            {
+                "mistake": "Not allowing proper dry time",
+                "solution": "Wait until compound is completely dry (white, not gray) before next coat"
+            },
+            {
+                "mistake": "Over-sanding",
+                "solution": "Light sanding between coats, final sanding with 150-220 grit only where needed"
+            },
+            {
+                "mistake": "Using dried-out compound",
+                "solution": "Discard compound with chunks - they cause streaks and bumps"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How much joint compound per square foot?",
+                "answer": "Plan for 0.005-0.01 gallons per sq ft for complete three-coat system. One gallon covers 100-200 sq ft depending on application."
+            },
+            {
+                "question": "What is the difference between setting and drying compound?",
+                "answer": "Setting compound hardens through chemical reaction (20-90 minutes). Drying compound air-dries (24+ hours). Setting is stronger for taping."
+            },
+            {
+                "question": "Can I add water to joint compound?",
+                "answer": "Yes, add small amounts to achieve desired consistency. Thin for skim coating, thicker for filling. Don't over-thin."
+            },
+            {
+                "question": "How long between coats of joint compound?",
+                "answer": "Wait until completely dry - typically 24 hours for drying compound, or follow setting compound instructions (45-90 minutes)."
+            },
+            {
+                "question": "What grit sandpaper for joint compound?",
+                "answer": "Use 120 grit between coats, 150-220 grit for final sanding. Use sanding screen or sponge to avoid gouges."
+            }
+        ]
+    },
+    "ceiling": {
+        "title": "Ceiling Calculator",
+        "description": "Calculate suspended ceiling materials including tiles, grid system, and hardware.",
+        "unit": "Measurement Unit",
+        "unit_tooltip": "Select meters or feet for room dimensions",
+        "meters": "Meters",
+        "feet": "Feet",
+        "room_length": "Room Length",
+        "room_length_tooltip": "Total length of the room",
+        "room_width": "Room Width",
+        "room_width_tooltip": "Total width of the room",
+        "tile_size": "Tile Size",
+        "tile_size_tooltip": "Standard ceiling tile dimensions",
+        "sizes": {
+            "2x2": "2×2 feet (600×600mm)",
+            "2x4": "2×4 feet (600×1200mm)"
+        },
+        "waste_factor": "Waste Factor (%)",
+        "waste_factor_tooltip": "Extra tiles for cuts and waste (typically 10%)",
+        "result_tiles": "Ceiling Tiles Needed",
+        "tiles": "tiles",
+        "grid_materials": "Grid System Materials",
+        "main_runners": "Main Runners (12 ft)",
+        "cross_tees": "Cross Tees",
+        "wall_angle": "Wall Angle (ft)",
+        "hanger_wire": "Hanger Wire (ft)",
+        "formula_title": "Calculation Formula",
+        "formula": "Tiles = Ceiling Area / Tile Area × (1 + Waste). Grid components calculated based on standard 4 ft runner spacing.",
+        "info_title": "About Ceiling Calculation",
+        "info_description": "Suspended ceilings require tiles, grid system, and hanging hardware. This calculator estimates all components for drop ceiling installation.",
+        "use_cases_title": "Common Uses",
+        "use_case_1": "Office and commercial spaces",
+        "use_case_2": "Basement finishing",
+        "use_case_3": "Retail and restaurant ceilings",
+        "errors": {
+            "invalid_dimensions": "Please enter valid room dimensions",
+            "positive_values": "Dimensions must be greater than zero",
+            "invalid_waste": "Waste factor must be between 0 and 100"
+        },
+        "placeholders": {
+            "room_length": "6",
+            "room_width": "4",
+            "waste": "10"
+        },
+        "howItWorks": {
+            "title": "How the Ceiling Calculator Works",
+            "formula": "Tiles = (Room Area / Tile Area) × (1 + Waste Factor)",
+            "explanation": "This calculator determines ceiling tile quantity and all grid system components needed for suspended ceiling installation. It calculates main runners, cross tees, wall angles, and hanger wire based on standard grid spacing.",
+            "steps": [
+                "Enter room length and width dimensions",
+                "Select tile size (2×2 or 2×4 feet)",
+                "Set waste factor for edge cuts",
+                "Review tile count and grid components",
+                "Plan layout to center the grid pattern"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Office Ceiling Installation",
+                "description": "Calculate materials for commercial office suspended ceiling systems."
+            },
+            {
+                "title": "Basement Finishing",
+                "description": "Plan drop ceiling materials for residential basement conversions."
+            },
+            {
+                "title": "Retail Spaces",
+                "description": "Estimate ceiling systems for stores and commercial retail areas."
+            },
+            {
+                "title": "Classroom and Institutional",
+                "description": "Determine materials for schools, hospitals, and public buildings."
+            }
+        ],
+        "seoTips": [
+            "Plan grid layout to avoid narrow edge tiles - center the pattern",
+            "Maintain minimum 3-inch clearance above grid for tile installation",
+            "Use 4 ft hanger wire spacing for standard installations",
+            "Acoustic tiles provide NRC ratings of 0.50-0.90 for sound absorption",
+            "Fire-rated tiles are required in commercial and multi-family applications"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Grid not level",
+                "solution": "Use laser level and adjust hanger wires to ensure perfectly level grid"
+            },
+            {
+                "mistake": "Insufficient clearance",
+                "solution": "Maintain 3-4 inches minimum above grid for tile installation and access"
+            },
+            {
+                "mistake": "Poor edge planning",
+                "solution": "Center grid pattern to avoid narrow tiles at walls (minimum half-tile)"
+            },
+            {
+                "mistake": "Hanger spacing too wide",
+                "solution": "Install hangers every 4 feet maximum and within 2 feet of walls"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How many ceiling tiles per square foot?",
+                "answer": "2×2 ft tiles cover 4 sq ft each (0.25 tiles per sq ft). 2×4 ft tiles cover 8 sq ft each (0.125 tiles per sq ft)."
+            },
+            {
+                "question": "What is the standard drop ceiling height?",
+                "answer": "Minimum 7.5 ft finished ceiling height is typical for residential, 8-9 ft for commercial. Allow 3-6 inches for grid and clearance."
+            },
+            {
+                "question": "How far apart are main runners?",
+                "answer": "Main runners are spaced 4 feet apart for standard installations. Cross tees connect at 2-foot intervals."
+            },
+            {
+                "question": "Can I install recessed lights in drop ceilings?",
+                "answer": "Yes, use ceiling-rated recessed fixtures designed for suspended ceilings. Ensure adequate clearance above the grid."
+            },
+            {
+                "question": "What type of ceiling tile is best for bathrooms?",
+                "answer": "Use moisture-resistant tiles rated for high humidity areas. Look for tiles with vinyl or mylar facing for wet locations."
+            }
+        ]
+    },
+    "flooring": {
+        "title": "Flooring Calculator",
+        "description": "Calculate flooring materials for tile, hardwood, laminate, and vinyl installation.",
+        "unit": "Measurement Unit",
+        "unit_tooltip": "Select feet or meters for room dimensions",
+        "feet": "Feet",
+        "meters": "Meters",
+        "room_length": "Room Length",
+        "room_length_tooltip": "Length of the room",
+        "room_width": "Room Width",
+        "room_width_tooltip": "Width of the room",
+        "flooring_type": "Flooring Type",
+        "flooring_type_tooltip": "Select flooring material type",
+        "types": {
+            "hardwood": "Hardwood",
+            "laminate": "Laminate",
+            "vinyl_plank": "Vinyl Plank",
+            "tile": "Ceramic/Porcelain Tile",
+            "carpet": "Carpet"
+        },
+        "plank_length": "Plank/Tile Length",
+        "plank_length_tooltip": "Length of individual planks or tiles",
+        "plank_width": "Plank/Tile Width",
+        "plank_width_tooltip": "Width of individual planks or tiles",
+        "waste_factor": "Waste Factor (%)",
+        "waste_factor_tooltip": "Extra for cuts and waste (10% standard, 15% for diagonal)",
+        "result_area": "Flooring Area Needed",
+        "sqft": "Square Feet",
+        "sqm": "Square Meters",
+        "materials": "Materials Needed",
+        "boxes": "Boxes Needed",
+        "underlayment": "Underlayment (sq ft)",
+        "adhesive": "Adhesive/Glue",
+        "transition_strips": "Transition Strips",
+        "formula_title": "Calculation Formula",
+        "formula": "Area = Length × Width × (1 + Waste Factor). Boxes based on coverage per carton.",
+        "info_title": "About Flooring Calculation",
+        "info_description": "Accurate flooring estimation includes room area plus waste factor for cuts. Different flooring types have different packaging and waste requirements.",
+        "use_cases_title": "Common Uses",
+        "use_case_1": "Residential room flooring",
+        "use_case_2": "Whole-house flooring installation",
+        "use_case_3": "Commercial flooring projects",
+        "errors": {
+            "invalid_dimensions": "Please enter valid room dimensions",
+            "positive_values": "Dimensions must be greater than zero",
+            "invalid_waste": "Waste factor must be between 0 and 100"
+        },
+        "placeholders": {
+            "room_length": "15",
+            "room_width": "12",
+            "plank_length": "48",
+            "plank_width": "7",
+            "waste": "10"
+        },
+        "howItWorks": {
+            "title": "How the Flooring Calculator Works",
+            "formula": "Square Footage = Length × Width × (1 + Waste Factor)",
+            "explanation": "This calculator determines flooring material quantity based on room dimensions and flooring type. It accounts for waste from cutting and includes underlayment and accessories.",
+            "steps": [
+                "Enter room length and width",
+                "Select flooring type for proper waste factor",
+                "Specify plank or tile dimensions if needed",
+                "Set waste factor (10% minimum, 15% for diagonal)",
+                "Review total area and materials needed"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Living Room Flooring",
+                "description": "Calculate hardwood or laminate for main living spaces."
+            },
+            {
+                "title": "Kitchen Flooring",
+                "description": "Estimate tile or vinyl for kitchen and dining areas."
+            },
+            {
+                "title": "Bedroom Carpet",
+                "description": "Determine carpet and padding for bedroom installation."
+            },
+            {
+                "title": "Whole-House Installation",
+                "description": "Plan flooring for complete home renovation."
+            }
+        ],
+        "seoTips": [
+            "Add 10% waste for straight installation, 15% for diagonal or herringbone patterns",
+            "Measure each room separately and add together for whole-house projects",
+            "Always order all flooring at once to ensure matching lot numbers",
+            "Include transition strips between different flooring types and rooms",
+            "Acclimate hardwood and laminate flooring 48-72 hours before installation"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Insufficient waste allowance",
+                "solution": "Use 10% minimum waste, 15% for rooms with many cuts or angled walls"
+            },
+            {
+                "mistake": "No acclimation period",
+                "solution": "Let wood and laminate flooring acclimate in the room 48-72 hours"
+            },
+            {
+                "mistake": "Forgetting transitions",
+                "solution": "Plan transition strips at doorways and between different flooring types"
+            },
+            {
+                "mistake": "Wrong underlayment",
+                "solution": "Match underlayment to flooring type - some laminates have attached padding"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How much flooring do I need for a 200 sq ft room?",
+                "answer": "For 200 sq ft room, order 220 sq ft (10% waste) for straight installation or 230 sq ft (15% waste) for diagonal patterns."
+            },
+            {
+                "question": "How many square feet in a box of flooring?",
+                "answer": "Varies by product: hardwood 20-25 sq ft, laminate 20-30 sq ft, vinyl plank 15-24 sq ft per box. Check manufacturer packaging."
+            },
+            {
+                "question": "Do I need underlayment for all flooring types?",
+                "answer": "Yes for laminate and engineered wood. Some vinyl has attached backing. Hardwood may need moisture barrier. Tile needs cement board."
+            },
+            {
+                "question": "Can I install new flooring over old flooring?",
+                "answer": "Often yes for vinyl over vinyl, laminate over vinyl. Remove old carpet. Tile may need to be removed or leveled."
+            },
+            {
+                "question": "What direction should I lay flooring?",
+                "answer": "Generally run planks parallel to longest wall or toward main light source. In hallways, run lengthwise."
+            }
+        ]
+    },
+    "siding": {
+        "title": "Siding Calculator",
+        "description": "Calculate siding materials needed for exterior wall cladding projects.",
+        "unit": "Measurement Unit",
+        "unit_tooltip": "Select imperial or metric measurements",
+        "imperial": "Imperial (sq ft)",
+        "metric": "Metric (sq m)",
+        "wall_area": "Wall Area",
+        "wall_area_tooltip": "Total exterior wall area to be covered (subtract windows and doors)",
+        "siding_type": "Siding Type",
+        "siding_type_tooltip": "Different siding types have different coverage per piece",
+        "types": {
+            "vinyl": "Vinyl Siding",
+            "fiber_cement": "Fiber Cement (HardiePlank)",
+            "wood_lap": "Wood Lap Siding",
+            "wood_shingle": "Wood Shingles",
+            "aluminum": "Aluminum Siding",
+            "steel": "Steel Siding"
+        },
+        "waste_factor": "Waste Factor (%)",
+        "waste_factor_tooltip": "Extra material for cutting, corners, and waste (typically 10-15%)",
+        "result_pieces": "Siding Pieces Required",
+        "pieces_label": "pieces",
+        "details": "Project Details",
+        "wall_area_label": "Wall Area",
+        "squares": "Squares",
+        "squares_note": "(1 square = 100 sq ft)",
+        "coverage_per_piece": "Coverage per Piece",
+        "sqft_per_piece": "sq ft/piece",
+        "with_waste": "Area with Waste",
+        "sqft": "sq ft",
+        "sqm": "sq m",
+        "formula_title": "Calculation Formula",
+        "formula": "Pieces = Wall Area / Siding Coverage × (1 + Waste Factor). Coverage varies by siding type and manufacturer.",
+        "info_title": "About Siding Calculation",
+        "info_description": "Siding is sold in various sizes depending on type. This calculator estimates pieces needed based on standard coverage rates for each siding type.",
+        "use_cases_title": "Common Uses",
+        "use_case_1": "Home exterior renovation",
+        "use_case_2": "New construction facades",
+        "use_case_3": "Garage and shed siding",
+        "errors": {
+            "invalid_area": "Please enter a valid wall area",
+            "positive_values": "Wall area must be greater than zero",
+            "invalid_waste": "Waste factor must be between 0 and 100"
+        },
+        "placeholders": {
+            "wall_area": "1500",
+            "waste": "10"
+        },
+        "howItWorks": {
+            "title": "How the Siding Calculator Works",
+            "formula": "Pieces = Wall Area / Coverage per Piece × (1 + Waste Factor)",
+            "explanation": "This calculator estimates siding material quantities by dividing your total wall area by the coverage area of each siding piece, then adding a waste factor for cutting and fitting.",
+            "steps": [
+                "Measure total exterior wall area to be covered",
+                "Subtract window and door openings from the total",
+                "Select your siding type (vinyl, fiber cement, wood, etc.)",
+                "Set waste factor (10-15% for standard installation)",
+                "Review the piece count and order accordingly"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Full Home Re-siding",
+                "description": "Calculate materials for complete exterior renovation and energy efficiency upgrades."
+            },
+            {
+                "title": "Accent Wall Installation",
+                "description": "Estimate siding for decorative accent sections or architectural features."
+            },
+            {
+                "title": "Garage and Outbuilding",
+                "description": "Plan siding needs for detached garages, sheds, and accessory structures."
+            },
+            {
+                "title": "Repair and Replacement",
+                "description": "Determine quantities for partial siding repair and storm damage restoration."
+            }
+        ],
+        "seoTips": [
+            "Always include 10-15% waste factor for cutting around windows and corners",
+            "Choose siding material based on climate - fiber cement for humid areas, vinyl for moderate climates",
+            "Install proper house wrap and moisture barriers before siding for longevity",
+            "Consider color fade warranties - premium vinyl offers 25+ year color protection",
+            "Plan for J-channel, corner posts, and trim pieces in your material order"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Forgetting trim and accessories",
+                "solution": "Include J-channel, corner posts, starter strips, and utility trim in calculations"
+            },
+            {
+                "mistake": "Inadequate waste allowance",
+                "solution": "Use 15% waste for homes with many windows and complex architecture"
+            },
+            {
+                "mistake": "Skipping moisture barrier",
+                "solution": "Always install house wrap before siding to prevent moisture damage"
+            },
+            {
+                "mistake": "Improper nailing",
+                "solution": "Nail loosely to allow for thermal expansion - siding should move slightly"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How many squares of siding do I need?",
+                "answer": "One square equals 100 square feet. Divide your wall area by 100 and add 10-15% for waste to determine squares needed."
+            },
+            {
+                "question": "What is the most durable siding material?",
+                "answer": "Fiber cement (HardiePlank) is extremely durable, lasting 50+ years. It resists fire, termites, and rot but is heavier and more expensive than vinyl."
+            },
+            {
+                "question": "How long does vinyl siding last?",
+                "answer": "Quality vinyl siding lasts 20-40 years with minimal maintenance. Premium brands offer lifetime warranties."
+            },
+            {
+                "question": "Can I install siding over existing siding?",
+                "answer": "Yes, in some cases. However, it's better to remove old siding to inspect sheathing, add insulation, and ensure a flat surface."
+            },
+            {
+                "question": "What is the R-value of insulated siding?",
+                "answer": "Insulated vinyl siding adds R-2 to R-5 to your wall assembly, improving energy efficiency by 10-15%."
+            }
+        ]
+    },
+    "waterproofing": {
+        "title": "Waterproofing Calculator",
+        "description": "Calculate waterproofing membrane and coating quantities for moisture protection.",
+        "unit": "Measurement Unit",
+        "unit_tooltip": "Select meters or feet for surface dimensions",
+        "meters": "Meters",
+        "feet": "Feet",
+        "surface_area": "Surface Area",
+        "surface_area_tooltip": "Total area to be waterproofed",
+        "application_type": "Application Type",
+        "application_type_tooltip": "Select waterproofing application method",
+        "types": {
+            "liquid_membrane": "Liquid Membrane (2 coats)",
+            "sheet_membrane": "Sheet Membrane",
+            "cementitious": "Cementitious Coating",
+            "bituminous": "Bituminous Coating"
+        },
+        "number_of_coats": "Number of Coats",
+        "number_of_coats_tooltip": "Coats required for complete waterproofing",
+        "waste_factor": "Waste Factor (%)",
+        "waste_factor_tooltip": "Extra for overlaps and waste (typically 10-15%)",
+        "result_quantity": "Material Needed",
+        "gallons": "Gallons",
+        "sqft": "sq ft of membrane",
+        "accessories": "Accessories",
+        "fabric_tape": "Fabric Reinforcing Tape (ft)",
+        "primer": "Primer (gallons)",
+        "formula_title": "Calculation Formula",
+        "formula": "Quantity = Area × Coverage Rate × Coats × (1 + Waste). Coverage varies by product type.",
+        "info_title": "About Waterproofing Calculation",
+        "info_description": "Waterproofing protects structures from moisture damage. Different applications require different products and coverage rates.",
+        "use_cases_title": "Common Uses",
+        "use_case_1": "Basement and foundation waterproofing",
+        "use_case_2": "Shower and bathroom waterproofing",
+        "use_case_3": "Balcony and deck waterproofing",
+        "errors": {
+            "invalid_area": "Please enter valid surface area",
+            "positive_values": "Area must be greater than zero",
+            "invalid_waste": "Waste factor must be between 0 and 100"
+        },
+        "placeholders": {
+            "area": "200",
+            "coats": "2",
+            "waste": "10"
+        },
+        "howItWorks": {
+            "title": "How the Waterproofing Calculator Works",
+            "formula": "Material = Area × Coats / Coverage Rate × (1 + Waste)",
+            "explanation": "This calculator estimates waterproofing material quantities based on surface area, application type, and number of coats. It includes fabric tape and primer for complete installation.",
+            "steps": [
+                "Enter total surface area to be waterproofed",
+                "Select waterproofing application type",
+                "Specify number of coats (typically 2)",
+                "Set waste factor for overlaps",
+                "Review material and accessory quantities"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Shower Pan Waterproofing",
+                "description": "Calculate liquid membrane for tile shower floor and wall waterproofing."
+            },
+            {
+                "title": "Basement Walls",
+                "description": "Estimate waterproofing for below-grade foundation walls."
+            },
+            {
+                "title": "Flat Roof Coating",
+                "description": "Plan waterproof coating for flat and low-slope roof surfaces."
+            },
+            {
+                "title": "Balcony Waterproofing",
+                "description": "Determine materials for exterior balcony and deck protection."
+            }
+        ],
+        "seoTips": [
+            "Apply two coats minimum for all waterproofing membranes",
+            "Use fabric tape at all joints, corners, and penetrations",
+            "Extend waterproofing 3-4 inches above expected water level",
+            "Allow proper cure time between coats (typically 2-4 hours)",
+            "Test waterproofing with flood test before tiling"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Only one coat applied",
+                "solution": "Always apply minimum two coats for complete waterproofing"
+            },
+            {
+                "mistake": "Missing corners and joints",
+                "solution": "Reinforce all corners and joints with fabric tape embedded in membrane"
+            },
+            {
+                "mistake": "Insufficient drying time",
+                "solution": "Allow complete cure between coats - typically 2-4 hours"
+            },
+            {
+                "mistake": "Skipping flood test",
+                "solution": "Flood test shower pans for 24 hours before tiling"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How much waterproofing membrane per square foot?",
+                "answer": "Liquid membranes cover approximately 50-75 sq ft per gallon per coat. Two coats require double the material."
+            },
+            {
+                "question": "How long does waterproofing take to dry?",
+                "answer": "Most liquid membranes dry to touch in 1-2 hours and cure for recoating in 2-4 hours. Full cure before tiling is 24 hours."
+            },
+            {
+                "question": "Do I need primer before waterproofing?",
+                "answer": "Primer is recommended for porous surfaces like concrete and cement board. Check manufacturer specifications for your substrate."
+            },
+            {
+                "question": "Can I use waterproofing behind tile?",
+                "answer": "Yes, waterproofing membrane behind tile is essential in showers, tub surrounds, and other wet areas to prevent water damage."
+            },
+            {
+                "question": "What is the difference between vapor barrier and waterproofing?",
+                "answer": "Vapor barriers block moisture vapor; waterproofing prevents liquid water penetration. Showers need waterproofing, walls may need vapor barriers."
+            }
+        ]
+    },
+    "paint-calculator": {
+        "title": "Paint Calculator - Wall Coverage Estimator",
+        "description": "Calculate paint quantity needed for walls and ceilings. Our free paint calculator estimates gallons or liters required based on room dimensions and paint coverage. Perfect for interior and exterior painting projects."
+    },
+    "tile-calculator": {
+        "title": "Tile Calculator - Ceramic & Porcelain",
+        "description": "Calculate tiles needed for floors and walls with waste allowance. Our free tile calculator helps estimate ceramic, porcelain, and stone tiles required. Accounts for tile size, pattern, and cutting waste for accurate ordering."
+    },
+    "grout-calculator": {
+        "title": "Grout Calculator - Tile Joint Filler",
+        "description": "Calculate grout quantity needed for tile joints. Our free grout calculator estimates grout amounts based on tile size, joint width, and installation area. Perfect for ceramic, porcelain, and stone tile projects."
+    },
+    "wallpaper-calculator": {
+        "title": "Wallpaper Calculator - Roll Estimator",
+        "description": "Calculate wallpaper rolls needed for your room. Our free wallpaper calculator estimates quantity based on wall dimensions and pattern repeat. Includes waste allowance for accurate wallpaper ordering and budgeting."
+    },
+    "wall-area-calculator": {
+        "title": "Wall Area Calculator - Paint & Coverage",
+        "description": "Calculate wall area for paint and coating estimates. Our free wall calculator helps homeowners and painters determine square footage, estimate paint gallons, and plan material needs. Accounts for windows and doors."
+    },
+    "drywall-calculator": {
+        "title": "Drywall Calculator - Gypsum Board Sheets",
+        "description": "Calculate drywall sheets needed for walls and ceilings. Our free drywall calculator estimates gypsum boards, screws, and joint compound required. Perfect for new construction and remodeling projects."
+    },
+    "joint-compound-calculator": {
+        "title": "Joint Compound Calculator - Drywall Mud",
+        "description": "Calculate joint compound needed for drywall finishing. Our free mud calculator estimates compound quantity for taping, bedding, and topping coats. Essential for smooth drywall installation and repairs."
+    },
+    "ceiling-calculator": {
+        "title": "Drop Ceiling Calculator - Suspended Ceiling",
+        "description": "Calculate suspended ceiling materials needed. Our free drop ceiling calculator estimates ceiling tiles, grid system, and hardware required. Perfect for commercial spaces and basement finishing projects."
+    },
+    "flooring-calculator": {
+        "title": "Flooring Calculator - Tile & Laminate",
+        "description": "Calculate flooring materials for your project. Our free flooring calculator estimates tiles, laminate, hardwood, and vinyl quantities. Perfect for homeowners and contractors planning floor installations with waste factor included."
+    },
+    "siding-calculator": {
+        "title": "Siding Calculator - Exterior Wall Cladding",
+        "description": "Calculate siding materials for exterior walls. Our free siding calculator estimates vinyl, fiber cement, and wood siding needed. Perfect for home exterior renovation and new construction facade projects."
+    },
+    "waterproofing-calculator": {
+        "title": "Waterproofing Calculator - Moisture Protection",
+        "description": "Calculate waterproofing materials needed for moisture protection. Our free waterproofing calculator estimates membrane, coating, and sealant quantities. Essential for basements, foundations, and wet areas."
+    }
+}

@@ -1,0 +1,834 @@
+{
+  "lm317": {
+    "title": "LM317 Calculator",
+    "description": "Calculate output voltage or required resistors for LM317 voltage regulator.",
+    "inputs": {
+      "output_voltage": "Output Voltage (Vout)",
+      "resistor_1": "Resistor R1 (Ω)",
+      "resistor_2": "Resistor R2 (Ω)"
+    },
+    "tooltips": {
+      "output_voltage": "Desired output voltage",
+      "resistor_1": "Value of resistor R1 (typically 240Ω)",
+      "resistor_2": "Value of resistor R2"
+    },
+    "placeholders": {
+      "output_voltage": "e.g. 5",
+      "resistor_1": "e.g. 240",
+      "resistor_2": "e.g. 720"
+    },
+    "results": {
+      "calculated_r2": "Calculated R2",
+      "nearest_standard": "Nearest Standard R2",
+      "actual_vout": "Actual Vout",
+      "current_adj": "Adjust Pin Current"
+    },
+    "info": {
+      "title": "LM317 Formula",
+      "desc": "Vout = 1.25V × (1 + R2/R1)"
+    },
+    "errors": {
+      "invalid_input": "Invalid input values"
+    },
+    "howItWorks": {
+      "title": "How the LM317 Calculator Works",
+      "formula": "Vout = 1.25V × (1 + R2/R1)",
+      "explanation": "The LM317 is an adjustable linear voltage regulator that uses two external resistors to set the output voltage. It maintains a constant 1.25V reference between the output and adjust pins.",
+      "steps": [
+        "Enter your desired output voltage (1.25V to 37V)",
+        "Set R1 value (typically 240Ω for optimal stability)",
+        "The calculator computes the required R2 value",
+        "Select the nearest standard resistor value"
+      ]
+    },
+    "useCases": [
+      "Designing adjustable lab power supplies",
+      "Battery charging with specific voltage",
+      "Powering electronics with stable voltage",
+      "Arduino and electronics projects"
+    ],
+    "seoTips": [
+      "Use R1 = 240Ω for optimal stability",
+      "Add filter capacitors at input and output",
+      "Ensure input voltage is at least 3V higher than output",
+      "Use a heatsink for high current applications"
+    ],
+    "commonMistakes": [
+      "Forgetting filter capacitors causing oscillation",
+      "Not accounting for minimum dropout voltage",
+      "Exceeding maximum current rating (1.5A)",
+      "Neglecting heat dissipation in high-power applications"
+    ],
+    "faqs": [
+      {
+        "question": "What is the minimum output voltage from LM317?",
+        "answer": "The minimum is 1.25V, which is the internal reference voltage of the regulator."
+      },
+      {
+        "question": "Why is 240Ω used for R1?",
+        "answer": "240Ω provides an optimal adjust pin current (about 5mA) that ensures regulator stability with low power consumption."
+      },
+      {
+        "question": "How do I calculate power dissipation in LM317?",
+        "answer": "Power = (Vin - Vout) × Iout. Ensure you don't exceed maximum power and use an appropriate heatsink."
+      }
+    ]
+  },
+  "resonance": {
+    "title": "Resonance Calculator",
+    "description": "Calculate resonance frequency, Q factor, and bandwidth for RLC circuits.",
+    "inductance": "Inductance (L)",
+    "capacitance": "Capacitance (C)",
+    "resistance": "Resistance (R)",
+    "enter_inductance": "Enter inductance",
+    "enter_capacitance": "Enter capacitance",
+    "enter_resistance": "Enter resistance",
+    "resonance_frequency": "Resonance Frequency (f0)",
+    "angular_frequency": "Angular Frequency (ω0)",
+    "characteristic_impedance": "Characteristic Impedance (Z0)",
+    "quality_factor": "Quality Factor (Q)",
+    "bandwidth": "Bandwidth (BW)",
+    "how_it_works": "How it Works",
+    "formulas": [
+      "Resonance: f0 = 1 / (2π√(LC))",
+      "Impedance: Z0 = √(L/C)",
+      "Quality Factor: Q = (1/R)√(L/C)",
+      "Bandwidth: BW = f0 / Q"
+    ],
+    "howItWorks": {
+      "title": "How the Resonance Calculator Works",
+      "formula": "f₀ = 1 / (2π√LC)",
+      "explanation": "Calculates the resonant frequency where inductive and capacitive reactances are equal and cancel out. At resonance, the circuit exhibits minimum impedance (series) or maximum impedance (parallel).",
+      "steps": [
+        "Enter the inductance value (L)",
+        "Enter the capacitance value (C)",
+        "Enter resistance for Q factor calculation",
+        "View resonant frequency, Q factor, and bandwidth"
+      ]
+    },
+    "useCases": [
+      "Designing radio tuning circuits",
+      "Creating band-pass and band-stop filters",
+      "Wireless power transfer systems",
+      "Audio crossover networks"
+    ],
+    "seoTips": [
+      "Higher Q factor means narrower bandwidth and sharper selectivity",
+      "Series RLC: minimum impedance at resonance",
+      "Parallel RLC: maximum impedance at resonance",
+      "Q > 10 is considered high-Q (good selectivity)"
+    ],
+    "commonMistakes": [
+      "Confusing series and parallel resonance behavior",
+      "Ignoring component tolerances affecting resonant frequency",
+      "Not accounting for parasitic resistance in inductors",
+      "Using components outside their rated frequency range"
+    ],
+    "faqs": [
+      {
+        "question": "What is the Q factor?",
+        "answer": "Quality factor (Q) measures how 'sharp' the resonance is. Higher Q means the circuit is more selective and has less energy loss. Q = f₀/BW, where BW is the 3dB bandwidth."
+      },
+      {
+        "question": "What happens at resonance?",
+        "answer": "At resonance, XL = XC, so they cancel. In series RLC, impedance equals R (minimum). In parallel RLC, impedance is maximum. Current and voltage are in phase."
+      },
+      {
+        "question": "How do I increase the Q factor?",
+        "answer": "Use lower-resistance inductors, higher-quality capacitors, and minimize parasitic losses. Increasing L/C ratio while maintaining the same resonant frequency also increases Q."
+      }
+    ]
+  },
+  "inductor": {
+    "title": "Inductor Energy Calculator",
+    "description": "Calculate energy stored in an inductor and its reactance.",
+    "inductance": "Inductance (L)",
+    "current": "Current (I)",
+    "frequency": "Frequency (f)",
+    "enter_inductance": "Enter inductance",
+    "enter_current": "Enter current",
+    "enter_frequency": "Enter frequency (optional)",
+    "energy_stored": "Energy Stored",
+    "reactance": "Inductive Reactance",
+    "voltage_drop": "Voltage Drop",
+    "how_it_works": "How it Works",
+    "formulas": [
+      "Energy: E = 0.5 × L × I²",
+      "Reactance: XL = 2πfL",
+      "Voltage: V = I × XL"
+    ],
+    "howItWorks": {
+      "title": "How the Inductor Calculator Works",
+      "formula": "E = ½LI², XL = 2πfL",
+      "explanation": "Calculates energy stored in an inductor's magnetic field and its reactance at a given frequency. Inductors store energy proportional to current squared and oppose changes in current.",
+      "steps": [
+        "Enter the inductance value (L)",
+        "Enter the current through the inductor",
+        "Optionally enter frequency for reactance calculation",
+        "View stored energy and inductive reactance"
+      ]
+    },
+    "useCases": [
+      "Designing switch-mode power supplies",
+      "Calculating energy storage in DC-DC converters",
+      "Sizing inductors for filter circuits",
+      "Analyzing flyback transformer operation"
+    ],
+    "seoTips": [
+      "Energy stored is proportional to current squared",
+      "Inductors resist sudden current changes",
+      "Saturation current limits maximum energy storage",
+      "DC resistance affects efficiency in power applications"
+    ],
+    "commonMistakes": [
+      "Ignoring inductor saturation current limits",
+      "Forgetting DC resistance losses",
+      "Not considering core material frequency limits",
+      "Using inductors beyond their self-resonant frequency"
+    ],
+    "faqs": [
+      {
+        "question": "Why does energy depend on current squared?",
+        "answer": "The magnetic field energy is proportional to the square of the magnetic flux, which is proportional to current. Doubling current quadruples the stored energy."
+      },
+      {
+        "question": "What is inductor saturation?",
+        "answer": "Saturation occurs when the core material cannot hold more magnetic flux. Above the saturation current, inductance drops dramatically, reducing energy storage and potentially causing circuit failure."
+      },
+      {
+        "question": "How do I choose between air-core and ferrite-core inductors?",
+        "answer": "Air-core inductors have no saturation but lower inductance. Ferrite cores provide higher inductance in smaller packages but saturate at specific current levels. Choose based on current requirements and frequency."
+      }
+    ]
+  },
+  "reactance": {
+    "title": "Reactance Calculator",
+    "description": "Calculate inductive or capacitive reactance in AC circuits.",
+    "reactance_type": "Reactance Type",
+    "reactance_type_tooltip": "Select inductive or capacitive reactance",
+    "inductive": "Inductive",
+    "capacitive": "Capacitive",
+    "inductance": "Inductance (mH)",
+    "inductance_tooltip": "Inductor value in millihenries",
+    "capacitance": "Capacitance (µF)",
+    "capacitance_tooltip": "Capacitor value in microfarads",
+    "frequency": "Frequency (Hz)",
+    "frequency_tooltip": "AC signal frequency in Hertz",
+    "enter_inductance": "Enter inductance",
+    "enter_capacitance": "Enter capacitance",
+    "enter_frequency": "Enter frequency",
+    "calculate_btn": "Calculate Reactance",
+    "reset_btn": "Reset",
+    "results_title": "Reactance Results",
+    "inductive_reactance": "Inductive Reactance (XL)",
+    "capacitive_reactance": "Capacitive Reactance (XC)",
+    "at_frequency": "at {{freq}} Hz",
+    "info_title": "Reactance Formulas",
+    "inductive_formula": "Inductive Reactance: XL = 2πfL",
+    "inductive_trend": "Reactance increases with frequency",
+    "inductive_behavior": "Inductor resists change in current",
+    "capacitive_formula": "Capacitive Reactance: XC = 1/(2πfC)",
+    "capacitive_trend": "Reactance decreases with frequency",
+    "capacitive_behavior": "Capacitor resists change in voltage",
+    "empty_state": "Enter values to calculate reactance",
+    "footer_note": "Reactance values are for ideal components at the specified frequency.",
+    "howItWorks": {
+      "title": "How the Reactance Calculator Works",
+      "formula": "XL = 2πfL, XC = 1/(2πfC)",
+      "explanation": "Calculates the opposition to AC current flow from inductors and capacitors. Inductive reactance increases with frequency, while capacitive reactance decreases with frequency.",
+      "steps": [
+        "Select reactance type (inductive or capacitive)",
+        "Enter the component value (L or C)",
+        "Enter the AC frequency",
+        "View the calculated reactance in ohms"
+      ]
+    },
+    "useCases": [
+      "Designing AC filter circuits",
+      "Calculating impedance in AC networks",
+      "Tuning radio frequency circuits",
+      "Power factor correction analysis"
+    ],
+    "seoTips": [
+      "Inductive reactance: XL = 2πfL (increases with frequency)",
+      "Capacitive reactance: XC = 1/(2πfC) (decreases with frequency)",
+      "At resonance, XL = XC",
+      "Reactance is measured in ohms like resistance"
+    ],
+    "commonMistakes": [
+      "Confusing reactance with impedance (Z includes R)",
+      "Forgetting the negative sign for capacitive reactance in calculations",
+      "Using DC component values at high frequencies",
+      "Not converting units (mH to H, µF to F)"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between reactance and impedance?",
+        "answer": "Reactance (X) is opposition from inductors or capacitors only. Impedance (Z) combines resistance and reactance: Z = √(R² + X²)."
+      },
+      {
+        "question": "Why does inductive reactance increase with frequency?",
+        "answer": "Higher frequencies mean faster current changes. Inductors oppose current changes, so faster changes create more opposition (higher reactance)."
+      },
+      {
+        "question": "Why is capacitive reactance negative in some formulas?",
+        "answer": "The negative sign indicates the phase relationship - capacitive current leads voltage by 90°, while inductive current lags. This matters when calculating total impedance."
+      }
+    ]
+  },
+  "three_phase": {
+    "title": "Three-Phase Power Calculator",
+    "description": "Calculate power, voltage, and current in three-phase electrical systems.",
+    "connection_type": "Connection Type",
+    "connection_type_tooltip": "Select star (Y) or delta (Δ) connection",
+    "star": "Star (Y)",
+    "delta": "Delta (Δ)",
+    "line_voltage": "Line Voltage (V)",
+    "line_voltage_tooltip": "Voltage between any two lines",
+    "line_current": "Line Current (A)",
+    "line_current_tooltip": "Current in each line conductor",
+    "power_factor": "Power Factor",
+    "power_factor_tooltip": "Ratio of active to apparent power (0-1)",
+    "enter_voltage": "Enter voltage",
+    "enter_current": "Enter current",
+    "calculate_btn": "Calculate Power",
+    "reset_btn": "Reset",
+    "results_title": "Three-Phase Results",
+    "active_power": "Active Power (P)",
+    "apparent_power": "Apparent Power (S)",
+    "reactive_power": "Reactive Power (Q)",
+    "phase_voltage": "Phase Voltage",
+    "phase_current": "Phase Current",
+    "info_title": "Three-Phase Formulas",
+    "power_formula": "Power: P = √3 × VL × IL × cos(φ)",
+    "star_formula": "Star: VL = √3 × Vph, IL = Iph",
+    "star_usage": "Used for high voltage loads",
+    "delta_formula": "Delta: VL = Vph, IL = √3 × Iph",
+    "delta_usage": "Used for high current loads",
+    "empty_state": "Enter voltage, current, and power factor to calculate",
+    "footer_note": "Calculations assume balanced three-phase system.",
+    "howItWorks": {
+      "title": "How the Three-Phase Calculator Works",
+      "formula": "P = √3 × VL × IL × cos(φ)",
+      "explanation": "Calculates power relationships in three-phase systems, which are more efficient than single-phase for high-power applications. Supports both star (Y) and delta (Δ) configurations.",
+      "steps": [
+        "Select the connection type (Star or Delta)",
+        "Enter line voltage and line current",
+        "Enter the power factor",
+        "View active, reactive, and apparent power"
+      ]
+    },
+    "useCases": [
+      "Industrial motor power calculations",
+      "Commercial electrical system design",
+      "Generator sizing and selection",
+      "Power distribution network planning"
+    ],
+    "seoTips": [
+      "Star connection: VL = √3 × Vph, IL = Iph",
+      "Delta connection: VL = Vph, IL = √3 × Iph",
+      "Three-phase delivers constant power (no pulsation)",
+      "More efficient transmission than single-phase"
+    ],
+    "commonMistakes": [
+      "Confusing line and phase values",
+      "Using wrong √3 factor for star vs. delta",
+      "Forgetting power factor in power calculations",
+      "Assuming unbalanced loads follow balanced formulas"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between star and delta connections?",
+        "answer": "In star (Y), each phase connects to a common neutral point. In delta (Δ), phases connect end-to-end forming a triangle. Star provides neutral access; delta provides higher current capacity."
+      },
+      {
+        "question": "Why is three-phase more efficient than single-phase?",
+        "answer": "Three-phase delivers constant power (no zero crossings), uses less copper for the same power, and produces rotating magnetic fields directly for motors."
+      },
+      {
+        "question": "When should I use star vs. delta?",
+        "answer": "Star is common for distribution with neutral access and lower phase voltage. Delta is used for high-current loads and motors that need to start with reduced voltage (star-delta starter)."
+      }
+    ]
+  },
+  "op_amp": {
+    "title": "Op-Amp Calculator",
+    "description": "Calculate gain and output voltage for Inverting and Non-inverting Op-Amp configurations.",
+    "config": "Configuration",
+    "config_tooltip": "Select Op-Amp circuit configuration",
+    "inverting": "Inverting",
+    "non_inverting": "Non-inverting",
+    "input_voltage": "Input Voltage (Vin)",
+    "input_voltage_tooltip": "Input signal voltage",
+    "r1": "Input Resistor (R1)",
+    "r1_tooltip": "Resistor connected from input to inverting node",
+    "r2": "Feedback Resistor (R2)",
+    "r2_tooltip": "Resistor in feedback path from output",
+    "enter_r1": "Enter R1",
+    "enter_r2": "Enter R2",
+    "enter_vin": "Enter Vin",
+    "gain": "Gain (Av)",
+    "output_voltage": "Output Voltage (Vout)",
+    "results_title": "Results",
+    "how_it_works": "Circuit Details",
+    "inverting_gain": "Gain: Av = -R2 / R1",
+    "inverting_phase": "Inverts input signal (180° phase shift)",
+    "inverting_impedance": "Input Impedance: R1",
+    "non_inverting_gain": "Gain: Av = 1 + (R2 / R1)",
+    "non_inverting_phase": "Does not invert input signal (0° phase shift)",
+    "non_inverting_impedance": "Input Impedance: Very High (infinite in ideal case)",
+    "empty_state": "Enter values to calculate gain and output voltage",
+    "footer_note": "Ideal op-amp assumptions may differ from real circuits (saturation, bandwidth, and input bias currents).",
+    "howItWorks": {
+      "title": "How the Op-Amp Calculator Works",
+      "formula": "Inverting: Av = -R2/R1 | Non-inverting: Av = 1 + R2/R1",
+      "explanation": "Calculates voltage gain and output for operational amplifier circuits. Inverting configuration inverts the signal, while non-inverting maintains polarity.",
+      "steps": [
+        "Select configuration (inverting or non-inverting)",
+        "Enter input voltage (Vin)",
+        "Enter resistor values R1 and R2",
+        "View calculated gain and output voltage"
+      ]
+    },
+    "useCases": [
+      "Designing signal amplification stages",
+      "Building active filters and equalizers",
+      "Creating voltage followers and buffers",
+      "Implementing summing amplifiers and mixers"
+    ],
+    "seoTips": [
+      "Inverting config: input impedance = R1",
+      "Non-inverting config: very high input impedance",
+      "Gain-bandwidth product limits high-frequency gain",
+      "Use rail-to-rail op-amps for maximum output swing"
+    ],
+    "commonMistakes": [
+      "Exceeding output voltage swing (supply rail limits)",
+      "Forgetting slew rate limits for fast signals",
+      "Not considering input bias current effects",
+      "Ignoring gain-bandwidth product limitations"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between inverting and non-inverting?",
+        "answer": "Inverting amplifier flips signal polarity (180° phase shift) with input impedance R1. Non-inverting maintains polarity with very high input impedance. Gain formulas differ."
+      },
+      {
+        "question": "Why is there a negative sign in inverting gain?",
+        "answer": "The negative sign indicates phase inversion - when input goes positive, output goes negative. The magnitude |Av| = R2/R1 is the voltage amplification."
+      },
+      {
+        "question": "What happens if calculated output exceeds supply voltage?",
+        "answer": "The output saturates near the supply rails (typically 1-2V below). Use rail-to-rail op-amps or ensure gain keeps output within linear range."
+      }
+    ]
+  },
+  "timer_555": {
+    "title": "555 Timer Calculator",
+    "description": "Calculate frequency, period, and duty cycle for 555 timer in Astable and Monostable modes.",
+    "mode": "Mode",
+    "mode_tooltip": "Select operation mode",
+    "astable": "Astable (Oscillator)",
+    "monostable": "Monostable (One-shot)",
+    "r1": "Resistance 1 (R1)",
+    "r1_tooltip": "Resistor connected between Vcc and Discharge pin",
+    "r2": "Resistance 2 (R2)",
+    "r2_tooltip": "Resistor connected between Discharge and Threshold/Trigger pins",
+    "capacitance": "Capacitance (C)",
+    "capacitance_tooltip": "Timing capacitor connected to Ground",
+    "enter_r1": "Enter R1",
+    "enter_r2": "Enter R2",
+    "enter_capacitance": "Enter C",
+    "frequency": "Frequency",
+    "period": "Period (T)",
+    "high_time": "High Time (t₁)",
+    "low_time": "Low Time (t₂)",
+    "duty_cycle": "Duty Cycle",
+    "pulse_width": "Pulse Width",
+    "how_it_works": "Formulas",
+    "astable_high": "High Time: t₁ = 0.693 × (R1 + R2) × C",
+    "astable_low": "Low Time: t₂ = 0.693 × R2 × C",
+    "astable_freq": "Frequency: f = 1.44 / ((R1 + 2×R2) × C)",
+    "monostable_pulse": "Pulse Width: T = 1.1 × R1 × C",
+    "monostable_trigger": "Output pulse is triggered by a negative pulse on pin 2",
+    "howItWorks": {
+      "title": "How the 555 Timer Calculator Works",
+      "formula": "f = 1.44 / ((R1 + 2R2) × C)",
+      "explanation": "Calculates timing parameters for the versatile 555 timer IC. In astable mode, it generates a continuous square wave. In monostable mode, it produces a single pulse when triggered.",
+      "steps": [
+        "Select operation mode (Astable or Monostable)",
+        "Enter resistor R1 value",
+        "Enter resistor R2 value (astable mode)",
+        "Enter capacitor C value"
+      ]
+    },
+    "useCases": [
+      "Generating clock signals and square waves",
+      "Creating time delays and timers",
+      "PWM for motor speed control",
+      "LED flashers and oscillators"
+    ],
+    "seoTips": [
+      "Standard 555 duty cycle is always above 50% in astable",
+      "Use diode trick or 556 for 50% duty cycle",
+      "CMOS 7555 works at lower voltages and currents",
+      "Add 0.01µF bypass capacitor on pin 5 for stability"
+    ],
+    "commonMistakes": [
+      "Expecting exactly 50% duty cycle in astable mode",
+      "Forgetting pin 5 bypass capacitor causing instability",
+      "Using wrong capacitor type (electrolytic for timing)",
+      "Not accounting for component tolerances"
+    ],
+    "faqs": [
+      {
+        "question": "Why can't I get 50% duty cycle in astable mode?",
+        "answer": "Standard 555 charges through R1+R2 but discharges only through R2, so high time is always longer than low time. Use a diode across R2 or use a 556 dual timer for 50% duty."
+      },
+      {
+        "question": "What is monostable mode used for?",
+        "answer": "Monostable (one-shot) produces a single pulse of precise duration when triggered. Used for debouncing, missing pulse detection, and creating time delays."
+      },
+      {
+        "question": "What is the difference between 555 and 7555?",
+        "answer": "The 7555 (CMOS version) has lower power consumption, wider voltage range (2-15V), higher input impedance, and faster switching. Better for battery-powered and precision applications."
+      }
+    ]
+  },
+  "ac_circuit": {
+    "title": "AC Circuit Calculator",
+    "description": "Calculate impedance, current, and power in RLC circuits.",
+    "impedance": "Impedance (Z)",
+    "phase_angle": "Phase Angle (φ)",
+    "power_factor": "Power Factor (PF)",
+    "active_power": "Active Power (P)",
+    "reactive_power": "Reactive Power (Q)",
+    "enter_params": "Enter RLC circuit parameters",
+    "how_it_works": "How it Works",
+    "formula_impedance": "Impedance: Z = √(R² + (XL - XC)²)",
+    "formula_current": "Current: I = V / Z",
+    "formula_power": "Active Power: P = V × I × cos(φ)",
+    "howItWorks": {
+      "title": "How the AC Circuit Calculator Works",
+      "formula": "Z = √(R² + (XL - XC)²)",
+      "explanation": "Calculates impedance, phase angle, and power for AC circuits containing resistance, inductance, and capacitance. AC circuits behave differently from DC due to reactive components.",
+      "steps": [
+        "Enter resistance (R), inductance (L), and capacitance (C)",
+        "Enter the AC voltage and frequency",
+        "View impedance, phase angle, and power factor",
+        "Calculate active, reactive, and apparent power"
+      ]
+    },
+    "useCases": [
+      "Analyzing RLC filter circuits",
+      "Designing AC power systems",
+      "Calculating resonance in tuned circuits",
+      "Power factor analysis and correction"
+    ],
+    "seoTips": [
+      "Phase angle positive: inductive (current lags voltage)",
+      "Phase angle negative: capacitive (current leads voltage)",
+      "At resonance: XL = XC, impedance = R only",
+      "Power factor = cos(φ), ranges from 0 to 1"
+    ],
+    "commonMistakes": [
+      "Forgetting reactances subtract (XL - XC) not add",
+      "Using DC resistance values at high frequencies",
+      "Confusing apparent power (VA) with active power (W)",
+      "Not considering frequency dependence of reactances"
+    ],
+    "faqs": [
+      {
+        "question": "What is power factor?",
+        "answer": "Power factor (PF = cos φ) is the ratio of active power to apparent power. PF = 1 means all power is useful; lower PF means reactive power is wasted in the system."
+      },
+      {
+        "question": "What is the difference between XL and XC?",
+        "answer": "XL (inductive reactance) increases with frequency, while XC (capacitive reactance) decreases. They have opposite phase effects, so they partially cancel in series circuits."
+      },
+      {
+        "question": "What happens at resonance in an RLC circuit?",
+        "answer": "At resonance, XL = XC so they cancel. Total impedance equals R only (minimum for series, maximum for parallel). Current is maximum and in phase with voltage."
+      }
+    ]
+  },
+  "capacitor": {
+    "title": "Capacitor Calculator",
+    "description": "Calculate charge, energy, reactance, and current for capacitors.",
+    "capacitance": "Capacitance (µF)",
+    "capacitance_tooltip": "Capacitor value in microfarads",
+    "voltage": "Voltage (V)",
+    "voltage_tooltip": "Applied voltage",
+    "frequency": "Frequency (Hz)",
+    "frequency_tooltip": "AC frequency for reactance calculation (optional)",
+    "enter_capacitance": "Enter capacitance",
+    "charge": "Stored Charge (Q)",
+    "energy": "Stored Energy (E)",
+    "capacitive_reactance": "Capacitive Reactance (Xc)",
+    "ac_current": "AC Current",
+    "formulas_title": "Capacitor Formulas",
+    "formulas": "Q = CV, E = ½CV², Xc = 1/(2πfC)",
+    "empty_state": "Enter capacitance and voltage to calculate",
+    "footer_note": "Results are for ideal capacitors.",
+    "enter_voltage": "Enter voltage",
+    "enter_frequency": "Enter frequency (optional)",
+    "results_title": "Capacitor Results",
+    "howItWorks": {
+      "title": "How the Capacitor Calculator Works",
+      "formula": "Q = CV, E = ½CV², XC = 1/(2πfC)",
+      "explanation": "Calculates the charge stored, energy stored, and reactance of a capacitor. Capacitors store energy in an electric field and oppose voltage changes in AC circuits.",
+      "steps": [
+        "Enter capacitance value in µF",
+        "Enter applied voltage",
+        "Optionally enter frequency for reactance calculation",
+        "View charge, energy, reactance, and AC current"
+      ]
+    },
+    "useCases": [
+      "Designing power supply filter circuits",
+      "Calculating energy storage in flash circuits",
+      "Sizing coupling and bypass capacitors",
+      "Power factor correction capacitor selection"
+    ],
+    "seoTips": [
+      "Energy stored is proportional to voltage squared",
+      "Use capacitors rated 20% above applied voltage",
+      "Electrolytic capacitors are polarized (observe polarity)",
+      "ESR affects performance in high-frequency applications"
+    ],
+    "commonMistakes": [
+      "Reversing polarity on electrolytic capacitors",
+      "Exceeding voltage rating causing failure",
+      "Ignoring ESR in switching power supplies",
+      "Not accounting for temperature derating"
+    ],
+    "faqs": [
+      {
+        "question": "What is capacitor ESR?",
+        "answer": "Equivalent Series Resistance (ESR) is the internal resistance of a capacitor. High ESR causes heating and reduces filtering effectiveness, especially at high frequencies."
+      },
+      {
+        "question": "Why does energy depend on voltage squared?",
+        "answer": "Capacitor energy E = ½CV². Doubling voltage quadruples energy storage. This is why high-voltage capacitors in flash circuits store significant energy."
+      },
+      {
+        "question": "What voltage rating should I choose?",
+        "answer": "Select a capacitor rated at least 20-50% above your working voltage. Operating near the limit reduces lifespan and reliability, especially for electrolytics."
+      }
+    ]
+  },
+  "decibel-calculator": {
+    "title": "Decibel Calculator - dB Converter",
+    "description": "Calculate decibels from power, voltage, or current ratios. Free online dB converter for electrical and audio applications.",
+    "calculation_type": "Calculation Type",
+    "type_tooltip": "Select calculation type",
+    "type_power": "Power Ratio",
+    "type_voltage": "Voltage/Current Ratio",
+    "value_1": "Value 1",
+    "value_1_power": "Power 1 (P₁)",
+    "value_1_voltage": "Voltage/Current 1 (V₁/I₁)",
+    "value_1_tooltip": "Enter first value",
+    "enter_value": "Enter value",
+    "value_2": "Value 2",
+    "value_2_power": "Power 2 (P₂)",
+    "value_2_voltage": "Voltage/Current 2 (V₂/I₂)",
+    "value_2_tooltip": "Enter second value",
+    "calculate_btn": "Calculate",
+    "reset_btn": "Reset",
+    "results_title": "Results",
+    "decibels": "Decibels",
+    "db_unit": "dB",
+    "ratio": "Ratio",
+    "tips_title": "Decibel Tips",
+    "tips_list": "Power ratio: dB = 10 × log₁₀(P₁/P₂), Voltage/Current ratio: dB = 20 × log₁₀(V₁/V₂), Used for amplifiers, filters, and signal analysis",
+    "empty_state": "Enter values to calculate decibels",
+    "footer_note": "Decibels are logarithmic units used to express ratios.",
+    "howItWorks": {
+      "title": "How the Decibel Calculator Works",
+      "formula": "dB = 10 × log₁₀(P1/P2) or dB = 20 × log₁₀(V1/V2)",
+      "explanation": "Converts ratios to decibels using logarithmic scales. Power ratios use factor of 10, while voltage/current ratios use factor of 20 due to the square relationship between power and voltage.",
+      "steps": [
+        "Select calculation type (power or voltage/current ratio)",
+        "Enter the two values to compare",
+        "View the result in decibels",
+        "Or enter dB to find the ratio"
+      ]
+    },
+    "useCases": [
+      "Measuring amplifier gain in audio systems",
+      "Calculating signal attenuation in cables",
+      "Specifying filter response characteristics",
+      "Comparing antenna gains and signal strengths"
+    ],
+    "seoTips": [
+      "+3 dB = double power, +6 dB = double voltage",
+      "-3 dB = half power (common filter cutoff)",
+      "0 dB = equal values (ratio of 1:1)",
+      "dBm = decibels relative to 1 milliwatt"
+    ],
+    "commonMistakes": [
+      "Using voltage formula (20 log) for power ratios",
+      "Confusing dB with dBm or dBW (different references)",
+      "Not accounting for impedance when converting voltage to power",
+      "Adding dB values when ratios should be multiplied"
+    ],
+    "faqs": [
+      {
+        "question": "Why is there a factor of 10 vs 20 in dB formulas?",
+        "answer": "Power uses 10× because dB was defined for power ratios. Voltage/current uses 20× because P = V²/R, so power ratio = voltage ratio squared. Log of square = 2× log."
+      },
+      {
+        "question": "What does negative dB mean?",
+        "answer": "Negative dB indicates attenuation (signal loss). -3 dB means half the power, -6 dB means quarter power. Negative values mean the output is smaller than input."
+      },
+      {
+        "question": "What is the difference between dB and dBm?",
+        "answer": "dB is a ratio (unitless). dBm is absolute power relative to 1 milliwatt. 0 dBm = 1 mW, +10 dBm = 10 mW, +30 dBm = 1 W."
+      }
+    ]
+  },
+  "frequency-calculator": {
+    "title": "Frequency Calculator - Period & Wavelength",
+    "description": "Calculate frequency, period, and wavelength relationships. Free online tool for wave physics and electrical engineering.",
+    "calculate_for": "Calculate For",
+    "calculate_for_tooltip": "Select what to calculate",
+    "option_frequency": "Frequency",
+    "option_period": "Period",
+    "option_wavelength": "Wavelength",
+    "frequency_input": "Frequency (Hz)",
+    "frequency_tooltip": "Enter frequency in Hz",
+    "enter_frequency": "Enter frequency",
+    "period_input": "Period (ms)",
+    "period_tooltip": "Enter period in milliseconds",
+    "enter_period": "Enter period",
+    "wavelength_input": "Wavelength (m)",
+    "wavelength_tooltip": "Enter wavelength in meters",
+    "enter_wavelength": "Enter wavelength",
+    "calculate_btn": "Calculate",
+    "reset_btn": "Reset",
+    "results_title": "Results",
+    "frequency_result": "Frequency",
+    "frequency_unit": "Hz",
+    "period_result": "Period",
+    "period_unit": "ms",
+    "wavelength_result": "Wavelength",
+    "wavelength_unit": "m",
+    "angular_frequency": "Angular Frequency",
+    "angular_frequency_unit": "rad/s",
+    "tips_title": "Wave Relationships",
+    "tips_list": "f = 1/T (frequency = 1/period), λ = c/f (wavelength = speed of light / frequency), ω = 2πf (angular frequency = 2π × frequency)",
+    "empty_state": "Enter a value to calculate other wave properties",
+    "footer_note": "Speed of light c = 299,792,458 m/s",
+    "howItWorks": {
+      "title": "How the Frequency Calculator Works",
+      "formula": "f = 1/T, λ = c/f, ω = 2πf",
+      "explanation": "Calculates the relationships between frequency, period, wavelength, and angular frequency. These are fundamental properties of all wave phenomena.",
+      "steps": [
+        "Select what you want to calculate",
+        "Enter the known value (frequency, period, or wavelength)",
+        "View all related wave properties",
+        "Use angular frequency for circuit analysis"
+      ]
+    },
+    "useCases": [
+      "Converting between frequency and period",
+      "Calculating antenna lengths from frequency",
+      "Understanding AC circuit timing",
+      "Analyzing electromagnetic spectrum properties"
+    ],
+    "seoTips": [
+      "Period (T) = 1/frequency in seconds",
+      "Wavelength depends on medium (use c for EM waves)",
+      "Angular frequency ω = 2πf radians/second",
+      "Higher frequency = shorter wavelength"
+    ],
+    "commonMistakes": [
+      "Confusing Hz with rad/s (multiply by 2π)",
+      "Using speed of light for sound waves",
+      "Not converting units (MHz, kHz, GHz)",
+      "Forgetting velocity factor for transmission lines"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between frequency and angular frequency?",
+        "answer": "Frequency (f) is cycles per second in Hz. Angular frequency (ω) is radians per second = 2πf. Angular frequency is used in AC circuit analysis and phasor calculations."
+      },
+      {
+        "question": "How does wavelength change in different media?",
+        "answer": "Wavelength = velocity/frequency. In materials, wave velocity is slower than in vacuum, so wavelength is shorter. This is why fiber optic cables have velocity factor < 1."
+      },
+      {
+        "question": "What frequency range is audible?",
+        "answer": "Humans hear approximately 20 Hz to 20 kHz. Below 20 Hz is infrasound, above 20 kHz is ultrasound. Radio frequencies start around 3 kHz and extend to 300 GHz."
+      }
+    ]
+  },
+  "impedance-calculator": {
+    "title": "Impedance Calculator - AC Circuit Analysis",
+    "description": "Calculate impedance, phase angle, and complex components for AC circuits. Free online tool for electrical engineering.",
+    "resistance": "Resistance (R)",
+    "resistance_tooltip": "Enter resistance in ohms",
+    "enter_resistance": "Enter resistance",
+    "reactance": "Reactance (X)",
+    "reactance_tooltip": "Enter reactance in ohms (positive for inductive, negative for capacitive)",
+    "enter_reactance": "Enter reactance",
+    "calculate_btn": "Calculate",
+    "reset_btn": "Reset",
+    "results_title": "Results",
+    "impedance": "Impedance (Z)",
+    "impedance_unit": "Ω",
+    "phase_angle": "Phase Angle (φ)",
+    "phase_angle_unit": "°",
+    "real_part": "Real Part (R)",
+    "real_part_unit": "Ω",
+    "imaginary_part": "Imaginary Part (X)",
+    "imaginary_part_unit": "Ω",
+    "tips_title": "Impedance Formulas",
+    "tips_list": "Z = √(R² + X²), φ = arctan(X/R), For inductive circuits: X = 2πfL, For capacitive circuits: X = -1/(2πfC)",
+    "empty_state": "Enter resistance and reactance to calculate impedance",
+    "footer_note": "Impedance is the total opposition to AC current flow.",
+    "howItWorks": {
+      "title": "How the Impedance Calculator Works",
+      "formula": "Z = √(R² + X²), φ = arctan(X/R)",
+      "explanation": "Calculates total impedance from resistance and reactance components. Impedance is the AC equivalent of resistance, including the phase angle between voltage and current.",
+      "steps": [
+        "Enter the resistance value (R) in ohms",
+        "Enter the reactance value (X) in ohms",
+        "Positive X = inductive, negative X = capacitive",
+        "View impedance magnitude and phase angle"
+      ]
+    },
+    "useCases": [
+      "Analyzing AC circuit behavior",
+      "Matching impedances for maximum power transfer",
+      "Designing filters and tuned circuits",
+      "Calculating power factor from impedance"
+    ],
+    "seoTips": [
+      "Impedance Z combines R and X vectorially",
+      "Phase angle shows current-voltage relationship",
+      "Inductive circuits: current lags voltage (positive angle)",
+      "Capacitive circuits: current leads voltage (negative angle)"
+    ],
+    "commonMistakes": [
+      "Adding R and X directly instead of using vector sum",
+      "Confusing impedance with resistance (Z ≠ R for AC)",
+      "Forgetting reactance sign convention",
+      "Not considering frequency dependence of reactance"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between impedance and resistance?",
+        "answer": "Resistance opposes DC and AC equally. Impedance includes resistance plus reactance (from inductors/capacitors). Z = R for purely resistive circuits; Z = √(R² + X²) otherwise."
+      },
+      {
+        "question": "Why does phase angle matter?",
+        "answer": "Phase angle determines power factor (cos φ). At 0°, all power is useful. At 90°, no real power is delivered - it just oscillates. Phase angle affects circuit efficiency."
+      },
+      {
+        "question": "How do I use impedance for power calculations?",
+        "answer": "Power = V²/Z × cos(φ) or I²Z × cos(φ). The cos(φ) term is the power factor. Only the resistive component of impedance dissipates real power."
+      }
+    ]
+  }
+}

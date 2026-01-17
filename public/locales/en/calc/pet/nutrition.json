@@ -1,0 +1,998 @@
+{
+  "cat_calorie_calculator": {
+    "title": "Cat Calorie Calculator",
+    "description": "Calculate your cat's daily calorie needs.",
+    "label_weight": "Weight (kg)",
+    "tooltip_weight": "Enter your cat's weight in kilograms",
+    "placeholder_weight": "e.g., 4.5",
+    "label_activity": "Activity Level",
+    "tooltip_activity": "How active is your cat?",
+    "label_condition": "Body Condition",
+    "tooltip_condition": "Is your cat underweight, normal, or overweight?",
+    "label_neutered": "Neutered/Spayed",
+    "tooltip_neutered": "Check if your cat is neutered or spayed",
+    "neutered_checkbox": "Yes, neutered/spayed",
+    "calculate_btn": "Calculate Calories",
+    "reset_btn": "Reset",
+    "result_der": "Daily Energy Requirement",
+    "result_rer": "Resting Energy Requirement",
+    "result_protein": "Protein",
+    "result_fat": "Fat",
+    "result_carbs": "Carbs",
+    "tips_title": "Feeding Tips",
+    "tip_protein": "Cats are obligate carnivores, they need animal protein",
+    "tip_carbs": "Avoid excessive carbohydrates",
+    "tip_taurine": "Ensure taurine is in the diet",
+    "tip_weight": "Monitor weight weekly",
+    "tip_vet": "Consult a vet for an ideal diet",
+    "activity_sedentary": "Sedentary",
+    "activity_light": "Light",
+    "activity_moderate": "Moderate",
+    "activity_active": "Active",
+    "condition_underweight": "Underweight",
+    "condition_normal": "Normal",
+    "condition_overweight": "Overweight",
+    "info_title": "Understanding Cat Nutrition",
+    "info_description": "Cats have specific dietary requirements. Their calorie needs depend on their weight, activity level, and neuter status.",
+    "empty_state": "Enter your cat's details to calculate calorie needs",
+    "footer_note": "These are estimates. Individual needs may vary.",
+    "tips": [
+      "Cats are obligate carnivores, they need animal protein",
+      "Avoid excessive carbohydrates",
+      "Ensure taurine is in the diet",
+      "Monitor weight weekly",
+      "Consult a vet for an ideal diet"
+    ],
+    "howItWorks": {
+      "title": "How Cat Calorie Calculator Works",
+      "formula": "RER = 70 × (body weight in kg)^0.75, then multiply by activity factor",
+      "explanation": "This calculator determines your cat's daily energy needs based on weight, activity level, body condition, and neuter status using the Resting Energy Requirement formula.",
+      "steps": [
+        "Enter your cat's weight in kilograms",
+        "Select the activity level that best describes your cat",
+        "Choose the body condition score",
+        "Indicate if your cat is neutered or spayed",
+        "View daily calorie and macronutrient recommendations"
+      ]
+    },
+    "useCases": [
+      "Managing your cat's weight through proper portion control",
+      "Planning diet for weight loss or weight gain",
+      "Adjusting calories for different activity levels",
+      "Understanding nutritional needs after neutering"
+    ],
+    "seoTips": [
+      "Neutered cats need 20-30% fewer calories",
+      "Measure food portions accurately with a kitchen scale",
+      "Divide daily calories across multiple small meals",
+      "Account for treats in the daily calorie budget",
+      "Reassess calorie needs as cats age"
+    ],
+    "commonMistakes": [
+      "Free-feeding cats without measuring portions",
+      "Not reducing calories after neutering",
+      "Ignoring treat calories in daily totals",
+      "Using the same calories for all life stages"
+    ],
+    "faqs": [
+      {
+        "question": "How many calories does an average cat need?",
+        "answer": "An average 4kg adult cat needs about 200-250 calories per day. This varies based on activity level, age, and whether the cat is neutered."
+      },
+      {
+        "question": "Should I reduce calories for a neutered cat?",
+        "answer": "Yes, neutered cats have lower metabolic rates and need 20-30% fewer calories to maintain a healthy weight."
+      },
+      {
+        "question": "How do I know if my cat is overweight?",
+        "answer": "You should be able to feel your cat's ribs easily without pressing hard. From above, your cat should have a visible waist. Consult your vet for a body condition assessment."
+      },
+      {
+        "question": "What percentage of calories should come from protein?",
+        "answer": "Cats are obligate carnivores and need 30-45% of their calories from protein. Animal-based proteins are essential for their health."
+      },
+      {
+        "question": "Do indoor cats need fewer calories?",
+        "answer": "Generally yes. Indoor cats are typically less active and may need 10-20% fewer calories than outdoor cats to prevent weight gain."
+      }
+    ]
+  },
+  "cat-calorie-calculator": {
+    "title": "Cat Calorie Calculator",
+    "description": "Calculate your cat's daily calorie needs.",
+    "label_weight": "Weight (kg)",
+    "tooltip_weight": "Enter your cat's weight in kilograms",
+    "placeholder_weight": "e.g., 4.5",
+    "label_activity": "Activity Level",
+    "tooltip_activity": "How active is your cat?",
+    "label_condition": "Body Condition",
+    "tooltip_condition": "Is your cat underweight, normal, or overweight?",
+    "label_neutered": "Neutered/Spayed",
+    "tooltip_neutered": "Check if your cat is neutered or spayed",
+    "neutered_checkbox": "Yes, neutered/spayed",
+    "calculate_btn": "Calculate Calories",
+    "reset_btn": "Reset",
+    "result_der": "Daily Energy Requirement",
+    "result_rer": "Resting Energy Requirement",
+    "result_protein": "Protein",
+    "result_fat": "Fat",
+    "result_carbs": "Carbs",
+    "tips_title": "Feeding Tips",
+    "tip_protein": "Cats are obligate carnivores, they need animal protein",
+    "tip_carbs": "Avoid excessive carbohydrates",
+    "tip_taurine": "Ensure taurine is in the diet",
+    "tip_weight": "Monitor weight weekly",
+    "tip_vet": "Consult a vet for an ideal diet",
+    "activity_sedentary": "Sedentary",
+    "activity_light": "Light",
+    "activity_moderate": "Moderate",
+    "activity_active": "Active",
+    "condition_underweight": "Underweight",
+    "condition_normal": "Normal",
+    "condition_overweight": "Overweight",
+    "info_title": "Understanding Cat Nutrition",
+    "info_description": "Cats have specific dietary requirements. Their calorie needs depend on their weight, activity level, and neuter status.",
+    "empty_state": "Enter your cat's details to calculate calorie needs",
+    "footer_note": "These are estimates. Individual needs may vary.",
+    "tips": [
+      "Cats are obligate carnivores, they need animal protein",
+      "Avoid excessive carbohydrates",
+      "Ensure taurine is in the diet",
+      "Monitor weight weekly",
+      "Consult a vet for an ideal diet"
+    ],
+    "howItWorks": {
+      "title": "How Cat Calorie Calculator Works",
+      "formula": "RER = 70 × (body weight in kg)^0.75, then multiply by activity factor",
+      "explanation": "This calculator determines your cat's daily energy needs based on weight, activity level, body condition, and neuter status using the Resting Energy Requirement formula.",
+      "steps": [
+        "Enter your cat's weight in kilograms",
+        "Select the activity level that best describes your cat",
+        "Choose the body condition score",
+        "Indicate if your cat is neutered or spayed",
+        "View daily calorie and macronutrient recommendations"
+      ]
+    },
+    "useCases": [
+      "Managing your cat's weight through proper portion control",
+      "Planning diet for weight loss or weight gain",
+      "Adjusting calories for different activity levels",
+      "Understanding nutritional needs after neutering"
+    ],
+    "seoTips": [
+      "Neutered cats need 20-30% fewer calories",
+      "Measure food portions accurately with a kitchen scale",
+      "Divide daily calories across multiple small meals",
+      "Account for treats in the daily calorie budget",
+      "Reassess calorie needs as cats age"
+    ],
+    "commonMistakes": [
+      "Free-feeding cats without measuring portions",
+      "Not reducing calories after neutering",
+      "Ignoring treat calories in daily totals",
+      "Using the same calories for all life stages"
+    ],
+    "faqs": [
+      {
+        "question": "How many calories does an average cat need?",
+        "answer": "An average 4kg adult cat needs about 200-250 calories per day. This varies based on activity level, age, and whether the cat is neutered."
+      },
+      {
+        "question": "Should I reduce calories for a neutered cat?",
+        "answer": "Yes, neutered cats have lower metabolic rates and need 20-30% fewer calories to maintain a healthy weight."
+      },
+      {
+        "question": "How do I know if my cat is overweight?",
+        "answer": "You should be able to feel your cat's ribs easily without pressing hard. From above, your cat should have a visible waist. Consult your vet for a body condition assessment."
+      },
+      {
+        "question": "What percentage of calories should come from protein?",
+        "answer": "Cats are obligate carnivores and need 30-45% of their calories from protein. Animal-based proteins are essential for their health."
+      },
+      {
+        "question": "Do indoor cats need fewer calories?",
+        "answer": "Generally yes. Indoor cats are typically less active and may need 10-20% fewer calories than outdoor cats to prevent weight gain."
+      }
+    ]
+  },
+  "cat_food_calculator": {
+    "title": "Cat Food Calculator",
+    "description": "Calculate the right amount of food for your cat.",
+    "label_weight": "Weight (kg)",
+    "tooltip_weight": "Enter your cat's weight in kilograms",
+    "placeholder_weight": "e.g., 4.5",
+    "label_activity": "Activity Level",
+    "tooltip_activity": "How active is your cat?",
+    "label_age": "Life Stage",
+    "tooltip_age": "Select your cat's age group",
+    "label_food_type": "Food Type",
+    "tooltip_food_type": "Select the type of food",
+    "calculate_btn": "Calculate Feeding Amount",
+    "reset_btn": "Reset",
+    "result_daily": "Daily Amount",
+    "result_meals": "Meals per Day",
+    "result_per_meal": "Amount per Meal",
+    "result_weekly": "Weekly Amount",
+    "result_monthly": "Monthly Amount",
+    "tips_title": "Feeding Guidelines",
+    "activity_low": "Low Activity",
+    "activity_moderate": "Moderate Activity",
+    "activity_high": "High Activity",
+    "age_kitten": "Kitten (< 1 year)",
+    "age_adult": "Adult (1-7 years)",
+    "age_senior": "Senior (7+ years)",
+    "food_dry": "Dry Food (Kibble)",
+    "food_wet": "Wet Food (Canned)",
+    "food_raw": "Raw Food",
+    "unit_grams": "g",
+    "unit_meals": "meals",
+    "empty_state": "Enter your cat's details to calculate feeding amount",
+    "tips": [
+      "Always provide fresh water",
+      "Avoid milk for adult cats",
+      "Never feed chocolate or onions",
+      "Monitor weight regularly",
+      "Feed at regular times"
+    ],
+    "unit_weight_input": "kg",
+    "howItWorks": {
+      "title": "How Cat Food Calculator Works",
+      "formula": "Daily food amount based on weight, activity, age, and food type caloric density",
+      "explanation": "This calculator determines the optimal daily food portion for your cat based on their specific needs and the type of food you're feeding.",
+      "steps": [
+        "Enter your cat's current weight",
+        "Select their activity level",
+        "Choose their life stage (kitten, adult, senior)",
+        "Select the type of food (dry, wet, or raw)",
+        "View daily, weekly, and monthly feeding amounts"
+      ]
+    },
+    "useCases": [
+      "Determining proper portion sizes for your cat",
+      "Planning food purchases and budgeting",
+      "Transitioning between different food types",
+      "Managing weight through controlled feeding"
+    ],
+    "seoTips": [
+      "Wet food has fewer calories per gram than dry food",
+      "Kittens need more frequent meals than adult cats",
+      "Measure food with a scale for accuracy",
+      "Adjust portions based on weight changes",
+      "Senior cats may need smaller, more frequent meals"
+    ],
+    "commonMistakes": [
+      "Using volume instead of weight to measure food",
+      "Not adjusting portions when switching food types",
+      "Overfeeding treats on top of regular meals",
+      "Feeding adult food to kittens or kitten food to seniors"
+    ],
+    "faqs": [
+      {
+        "question": "How often should I feed my cat?",
+        "answer": "Adult cats do well with 2-3 meals per day. Kittens need 3-4 smaller meals. Some cats prefer grazing, but measured portions help prevent obesity."
+      },
+      {
+        "question": "Is wet food better than dry food?",
+        "answer": "Both have benefits. Wet food provides hydration and is lower in calories. Dry food is convenient and helps dental health. Many vets recommend a combination."
+      },
+      {
+        "question": "How do I switch my cat to a new food?",
+        "answer": "Transition gradually over 7-10 days, mixing increasing amounts of new food with decreasing amounts of old food to prevent digestive upset."
+      },
+      {
+        "question": "Should kittens eat different amounts?",
+        "answer": "Yes, kittens have higher caloric needs relative to their weight due to rapid growth. They need kitten-specific food with higher protein and calories."
+      },
+      {
+        "question": "Why is my cat always hungry?",
+        "answer": "This could indicate the portions are too small, the food lacks nutrients, or there may be health issues. Consult your vet if hunger seems excessive."
+      }
+    ]
+  },
+  "cat-food-calculator": {
+    "title": "Cat Food Calculator",
+    "description": "Calculate the right amount of food for your cat.",
+    "label_weight": "Weight (kg)",
+    "tooltip_weight": "Enter your cat's weight in kilograms",
+    "placeholder_weight": "e.g., 4.5",
+    "label_activity": "Activity Level",
+    "tooltip_activity": "How active is your cat?",
+    "label_age": "Life Stage",
+    "tooltip_age": "Select your cat's age group",
+    "label_food_type": "Food Type",
+    "tooltip_food_type": "Select the type of food",
+    "calculate_btn": "Calculate Feeding Amount",
+    "reset_btn": "Reset",
+    "result_daily": "Daily Amount",
+    "result_meals": "Meals per Day",
+    "result_per_meal": "Amount per Meal",
+    "result_weekly": "Weekly Amount",
+    "result_monthly": "Monthly Amount",
+    "tips_title": "Feeding Guidelines",
+    "activity_low": "Low Activity",
+    "activity_moderate": "Moderate Activity",
+    "activity_high": "High Activity",
+    "age_kitten": "Kitten (< 1 year)",
+    "age_adult": "Adult (1-7 years)",
+    "age_senior": "Senior (7+ years)",
+    "food_dry": "Dry Food (Kibble)",
+    "food_wet": "Wet Food (Canned)",
+    "food_raw": "Raw Food",
+    "unit_grams": "g",
+    "unit_meals": "meals",
+    "empty_state": "Enter your cat's details to calculate feeding amount",
+    "tips": [
+      "Always provide fresh water",
+      "Avoid milk for adult cats",
+      "Never feed chocolate or onions",
+      "Monitor weight regularly",
+      "Feed at regular times"
+    ],
+    "unit_weight_input": "kg",
+    "howItWorks": {
+      "title": "How Cat Food Calculator Works",
+      "formula": "Daily food amount based on weight, activity, age, and food type caloric density",
+      "explanation": "This calculator determines the optimal daily food portion for your cat based on their specific needs and the type of food you're feeding.",
+      "steps": [
+        "Enter your cat's current weight",
+        "Select their activity level",
+        "Choose their life stage (kitten, adult, senior)",
+        "Select the type of food (dry, wet, or raw)",
+        "View daily, weekly, and monthly feeding amounts"
+      ]
+    },
+    "useCases": [
+      "Determining proper portion sizes for your cat",
+      "Planning food purchases and budgeting",
+      "Transitioning between different food types",
+      "Managing weight through controlled feeding"
+    ],
+    "seoTips": [
+      "Wet food has fewer calories per gram than dry food",
+      "Kittens need more frequent meals than adult cats",
+      "Measure food with a scale for accuracy",
+      "Adjust portions based on weight changes",
+      "Senior cats may need smaller, more frequent meals"
+    ],
+    "commonMistakes": [
+      "Using volume instead of weight to measure food",
+      "Not adjusting portions when switching food types",
+      "Overfeeding treats on top of regular meals",
+      "Feeding adult food to kittens or kitten food to seniors"
+    ],
+    "faqs": [
+      {
+        "question": "How often should I feed my cat?",
+        "answer": "Adult cats do well with 2-3 meals per day. Kittens need 3-4 smaller meals. Some cats prefer grazing, but measured portions help prevent obesity."
+      },
+      {
+        "question": "Is wet food better than dry food?",
+        "answer": "Both have benefits. Wet food provides hydration and is lower in calories. Dry food is convenient and helps dental health. Many vets recommend a combination."
+      },
+      {
+        "question": "How do I switch my cat to a new food?",
+        "answer": "Transition gradually over 7-10 days, mixing increasing amounts of new food with decreasing amounts of old food to prevent digestive upset."
+      },
+      {
+        "question": "Should kittens eat different amounts?",
+        "answer": "Yes, kittens have higher caloric needs relative to their weight due to rapid growth. They need kitten-specific food with higher protein and calories."
+      },
+      {
+        "question": "Why is my cat always hungry?",
+        "answer": "This could indicate the portions are too small, the food lacks nutrients, or there may be health issues. Consult your vet if hunger seems excessive."
+      }
+    ]
+  },
+  "dog_calorie_calculator": {
+    "title": "Dog Calorie Calculator",
+    "description": "Calculate your dog's daily calorie needs.",
+    "label_weight": "Weight (kg)",
+    "tooltip_weight": "Enter your dog's weight in kilograms",
+    "placeholder_weight": "e.g., 20",
+    "label_activity": "Activity Level",
+    "tooltip_activity": "How active is your dog?",
+    "label_condition": "Body Condition",
+    "tooltip_condition": "Is your dog underweight, normal, or overweight?",
+    "label_neutered": "Neutered/Spayed",
+    "tooltip_neutered": "Check if your dog is neutered or spayed",
+    "neutered_checkbox": "Yes, neutered/spayed",
+    "calculate_btn": "Calculate Calories",
+    "reset_btn": "Reset",
+    "result_der": "Daily Energy Requirement",
+    "result_rer": "Resting Energy Requirement",
+    "result_protein": "Protein",
+    "result_fat": "Fat",
+    "result_carbs": "Carbs",
+    "tips_title": "Feeding Tips",
+    "tip_protein": "High-quality protein is essential for dogs",
+    "tip_carbs": "Carbohydrates provide energy but shouldn't be the main source",
+    "tip_taurine": "Balanced diet supports heart health",
+    "tip_weight": "Monitor weight regularly",
+    "tip_vet": "Consult a vet for specific dietary needs",
+    "activity_sedentary": "Sedentary",
+    "activity_light": "Light Activity",
+    "activity_moderate": "Moderate Activity",
+    "activity_active": "Active",
+    "activity_very_active": "Very Active",
+    "activity_working": "Working Dog",
+    "condition_underweight": "Underweight",
+    "condition_normal": "Normal",
+    "condition_overweight": "Overweight",
+    "info_title": "Understanding Dog Nutrition",
+    "info_description": "Dogs require a balanced diet. Calorie needs vary by size, age, activity level, and neuter status.",
+    "empty_state": "Enter your dog's details to calculate calorie needs",
+    "footer_note": "These are estimates. Individual needs may vary.",
+    "tips": [
+      "Monitor weight weekly",
+      "Adjust portions based on body condition",
+      "Choose high-quality food",
+      "Avoid excessive treats",
+      "Consult a vet for an ideal nutrition plan"
+    ],
+    "input_title": "Dog Calorie Calculator",
+    "weight": "Dog Weight",
+    "weight_tooltip": "Enter your dog's weight in kilograms",
+    "weight_unit": "kg",
+    "enter_weight": "Enter weight",
+    "activity_level": "Activity Level",
+    "activity_tooltip": "How active is your dog?",
+    "neutered": "Neutered/Spayed",
+    "neutered_tooltip": "Is your dog neutered or spayed?",
+    "body_condition": "Body Condition",
+    "condition_tooltip": "Your dog's current body condition",
+    "results_title": "Calorie Requirements",
+    "der": "Daily Energy Requirement",
+    "rer": "Resting Energy Requirement",
+    "calories_unit": "calories/day",
+    "macronutrients": "Recommended Macronutrients",
+    "protein": "Protein",
+    "fat": "Fat",
+    "carbs": "Carbohydrates",
+    "grams_unit": "grams/day",
+    "howItWorks": {
+      "title": "How Dog Calorie Calculator Works",
+      "formula": "RER = 70 × (body weight in kg)^0.75, then multiply by activity and condition factors",
+      "explanation": "This calculator determines daily caloric needs using the Resting Energy Requirement formula, adjusted for activity level, body condition, and neuter status.",
+      "steps": [
+        "Enter your dog's weight in kilograms",
+        "Select the activity level that matches your dog",
+        "Choose the current body condition",
+        "Indicate if your dog is neutered or spayed",
+        "View daily calorie and macronutrient recommendations"
+      ]
+    },
+    "useCases": [
+      "Managing your dog's weight through proper feeding",
+      "Planning diet for weight loss or muscle gain",
+      "Adjusting calories for working or athletic dogs",
+      "Understanding nutritional needs for different activity levels"
+    ],
+    "seoTips": [
+      "Working dogs may need 2-3 times the calories of sedentary dogs",
+      "Neutered dogs typically need 25-30% fewer calories",
+      "Puppies need more calories per pound than adults",
+      "Adjust calories seasonally for outdoor dogs",
+      "Senior dogs often need fewer calories but more protein"
+    ],
+    "commonMistakes": [
+      "Using human food guidelines for dog nutrition",
+      "Not adjusting calories after neutering",
+      "Overestimating activity level",
+      "Forgetting to include treats in calorie count"
+    ],
+    "faqs": [
+      {
+        "question": "How many calories does my dog need per day?",
+        "answer": "It varies widely. A 10kg moderately active dog needs about 500-600 calories, while a 30kg active dog might need 1500-1800. Use the calculator for personalized results."
+      },
+      {
+        "question": "Should I reduce calories for a neutered dog?",
+        "answer": "Yes, neutering reduces metabolic rate by 25-30%. Reduce calories accordingly to prevent weight gain."
+      },
+      {
+        "question": "How do activity levels affect calorie needs?",
+        "answer": "Sedentary dogs need baseline RER, moderately active need 1.5-2x RER, and working/sporting dogs may need 2-3x RER or more."
+      },
+      {
+        "question": "What's the best protein ratio for dogs?",
+        "answer": "Most dogs do well with 18-25% protein. Active and working dogs benefit from 25-30%. Puppies and nursing dogs need even higher protein levels."
+      },
+      {
+        "question": "Do large breed puppies need different calories?",
+        "answer": "Yes, large breed puppies should be fed for controlled growth to prevent joint problems. Don't overfeed to speed up growth."
+      }
+    ]
+  },
+  "dog-calorie-calculator": {
+    "title": "Dog Calorie Calculator",
+    "description": "Calculate your dog's daily calorie needs.",
+    "label_weight": "Weight (kg)",
+    "tooltip_weight": "Enter your dog's weight in kilograms",
+    "placeholder_weight": "e.g., 20",
+    "label_activity": "Activity Level",
+    "tooltip_activity": "How active is your dog?",
+    "label_condition": "Body Condition",
+    "tooltip_condition": "Is your dog underweight, normal, or overweight?",
+    "label_neutered": "Neutered/Spayed",
+    "tooltip_neutered": "Check if your dog is neutered or spayed",
+    "neutered_checkbox": "Yes, neutered/spayed",
+    "calculate_btn": "Calculate Calories",
+    "reset_btn": "Reset",
+    "result_der": "Daily Energy Requirement",
+    "result_rer": "Resting Energy Requirement",
+    "result_protein": "Protein",
+    "result_fat": "Fat",
+    "result_carbs": "Carbs",
+    "tips_title": "Feeding Tips",
+    "tip_protein": "High-quality protein is essential for dogs",
+    "tip_carbs": "Carbohydrates provide energy but shouldn't be the main source",
+    "tip_taurine": "Balanced diet supports heart health",
+    "tip_weight": "Monitor weight regularly",
+    "tip_vet": "Consult a vet for specific dietary needs",
+    "activity_sedentary": "Sedentary",
+    "activity_light": "Light Activity",
+    "activity_moderate": "Moderate Activity",
+    "activity_active": "Active",
+    "activity_very_active": "Very Active",
+    "activity_working": "Working Dog",
+    "condition_underweight": "Underweight",
+    "condition_normal": "Normal",
+    "condition_overweight": "Overweight",
+    "info_title": "Understanding Dog Nutrition",
+    "info_description": "Dogs require a balanced diet. Calorie needs vary by size, age, activity level, and neuter status.",
+    "empty_state": "Enter your dog's details to calculate calorie needs",
+    "footer_note": "These are estimates. Individual needs may vary.",
+    "tips": [
+      "Monitor weight weekly",
+      "Adjust portions based on body condition",
+      "Choose high-quality food",
+      "Avoid excessive treats",
+      "Consult a vet for an ideal nutrition plan"
+    ],
+    "input_title": "Dog Calorie Calculator",
+    "weight": "Dog Weight",
+    "weight_tooltip": "Enter your dog's weight in kilograms",
+    "weight_unit": "kg",
+    "enter_weight": "Enter weight",
+    "activity_level": "Activity Level",
+    "activity_tooltip": "How active is your dog?",
+    "neutered": "Neutered/Spayed",
+    "neutered_tooltip": "Is your dog neutered or spayed?",
+    "body_condition": "Body Condition",
+    "condition_tooltip": "Your dog's current body condition",
+    "results_title": "Calorie Requirements",
+    "der": "Daily Energy Requirement",
+    "rer": "Resting Energy Requirement",
+    "calories_unit": "calories/day",
+    "macronutrients": "Recommended Macronutrients",
+    "protein": "Protein",
+    "fat": "Fat",
+    "carbs": "Carbohydrates",
+    "grams_unit": "grams/day",
+    "howItWorks": {
+      "title": "How Dog Calorie Calculator Works",
+      "formula": "RER = 70 × (body weight in kg)^0.75, then multiply by activity and condition factors",
+      "explanation": "This calculator determines daily caloric needs using the Resting Energy Requirement formula, adjusted for activity level, body condition, and neuter status.",
+      "steps": [
+        "Enter your dog's weight in kilograms",
+        "Select the activity level that matches your dog",
+        "Choose the current body condition",
+        "Indicate if your dog is neutered or spayed",
+        "View daily calorie and macronutrient recommendations"
+      ]
+    },
+    "useCases": [
+      "Managing your dog's weight through proper feeding",
+      "Planning diet for weight loss or muscle gain",
+      "Adjusting calories for working or athletic dogs",
+      "Understanding nutritional needs for different activity levels"
+    ],
+    "seoTips": [
+      "Working dogs may need 2-3 times the calories of sedentary dogs",
+      "Neutered dogs typically need 25-30% fewer calories",
+      "Puppies need more calories per pound than adults",
+      "Adjust calories seasonally for outdoor dogs",
+      "Senior dogs often need fewer calories but more protein"
+    ],
+    "commonMistakes": [
+      "Using human food guidelines for dog nutrition",
+      "Not adjusting calories after neutering",
+      "Overestimating activity level",
+      "Forgetting to include treats in calorie count"
+    ],
+    "faqs": [
+      {
+        "question": "How many calories does my dog need per day?",
+        "answer": "It varies widely. A 10kg moderately active dog needs about 500-600 calories, while a 30kg active dog might need 1500-1800. Use the calculator for personalized results."
+      },
+      {
+        "question": "Should I reduce calories for a neutered dog?",
+        "answer": "Yes, neutering reduces metabolic rate by 25-30%. Reduce calories accordingly to prevent weight gain."
+      },
+      {
+        "question": "How do activity levels affect calorie needs?",
+        "answer": "Sedentary dogs need baseline RER, moderately active need 1.5-2x RER, and working/sporting dogs may need 2-3x RER or more."
+      },
+      {
+        "question": "What's the best protein ratio for dogs?",
+        "answer": "Most dogs do well with 18-25% protein. Active and working dogs benefit from 25-30%. Puppies and nursing dogs need even higher protein levels."
+      },
+      {
+        "question": "Do large breed puppies need different calories?",
+        "answer": "Yes, large breed puppies should be fed for controlled growth to prevent joint problems. Don't overfeed to speed up growth."
+      }
+    ]
+  },
+  "dog_food_calculator": {
+    "title": "Dog Food Calculator",
+    "description": "Calculate how much food your dog needs accurately.",
+    "label_weight": "Weight (kg)",
+    "tooltip_weight": "Enter your dog's weight in kilograms",
+    "placeholder_weight": "e.g., 20",
+    "label_activity": "Activity Level",
+    "tooltip_activity": "How active is your dog?",
+    "label_age": "Life Stage",
+    "tooltip_age": "Select your dog's age group",
+    "label_food_type": "Food Type",
+    "tooltip_food_type": "Select the type of food",
+    "calculate_btn": "Calculate Feeding Amount",
+    "reset_btn": "Reset",
+    "result_daily": "Daily Amount",
+    "result_meals": "Meals per Day",
+    "result_per_meal": "Amount per Meal",
+    "result_weekly": "Weekly Amount",
+    "result_monthly": "Monthly Amount",
+    "tips_title": "Feeding Guidelines",
+    "activity_low": "Low Activity",
+    "activity_moderate": "Moderate Activity",
+    "activity_high": "High Activity",
+    "activity_very_high": "Very High Activity",
+    "age_puppy": "Puppy",
+    "age_adult": "Adult",
+    "age_senior": "Senior",
+    "food_dry": "Dry Food (Kibble)",
+    "food_wet": "Wet Food (Canned)",
+    "food_raw": "Raw Food",
+    "unit_grams": "g",
+    "unit_meals": "meals",
+    "empty_state": "Enter your dog's details to calculate feeding amount",
+    "footer_note": "These are estimates. Individual needs may vary.",
+    "tips": [
+      "Divide food into regular meals",
+      "Always provide fresh water",
+      "Avoid overfeeding",
+      "Consult a vet when changing diet"
+    ],
+    "unit_weight_input": "kg",
+    "howItWorks": {
+      "title": "How Dog Food Calculator Works",
+      "formula": "Daily food = (Caloric needs / Food caloric density) adjusted for food type",
+      "explanation": "This calculator determines optimal daily food portions based on your dog's weight, activity level, life stage, and the type of food you're feeding.",
+      "steps": [
+        "Enter your dog's current weight",
+        "Select their activity level",
+        "Choose their life stage (puppy, adult, senior)",
+        "Select the type of food (dry, wet, or raw)",
+        "View daily, weekly, and monthly feeding amounts"
+      ]
+    },
+    "useCases": [
+      "Determining proper portion sizes for your dog",
+      "Planning food purchases and budgeting",
+      "Transitioning puppies to adult food",
+      "Managing weight through controlled portions"
+    ],
+    "seoTips": [
+      "Puppies need 3-4 meals daily, adults need 2",
+      "Dry food is more calorie-dense than wet food",
+      "Large breed puppies need specific growth formulas",
+      "Measure food by weight, not volume",
+      "Adjust portions based on body condition changes"
+    ],
+    "commonMistakes": [
+      "Using measuring cups instead of scales",
+      "Feeding puppies adult food",
+      "Not adjusting for treats given throughout the day",
+      "Free-feeding leading to obesity"
+    ],
+    "faqs": [
+      {
+        "question": "How often should I feed my dog?",
+        "answer": "Puppies under 6 months need 3-4 meals daily. Adult dogs do well with 2 meals per day. Some owners prefer once daily feeding for adults."
+      },
+      {
+        "question": "Should I feed wet or dry food?",
+        "answer": "Both are nutritionally complete. Dry food is convenient and good for dental health. Wet food provides hydration. Many owners use a combination."
+      },
+      {
+        "question": "How do I transition to new food?",
+        "answer": "Gradually mix new food with old over 7-10 days, increasing the new food proportion daily. This prevents digestive upset."
+      },
+      {
+        "question": "Why is my dog always hungry?",
+        "answer": "Some dogs are food-motivated regardless of portion. If your dog maintains a healthy weight, the portions are likely correct. Consult your vet if concerned."
+      },
+      {
+        "question": "Do puppies need different amounts?",
+        "answer": "Yes, puppies need more food relative to their body weight due to rapid growth. Large breed puppies need controlled portions to prevent joint issues."
+      }
+    ]
+  },
+  "dog-food-calculator": {
+    "title": "Dog Food Calculator",
+    "description": "Calculate how much food your dog needs accurately.",
+    "label_weight": "Weight (kg)",
+    "tooltip_weight": "Enter your dog's weight in kilograms",
+    "placeholder_weight": "e.g., 20",
+    "label_activity": "Activity Level",
+    "tooltip_activity": "How active is your dog?",
+    "label_age": "Life Stage",
+    "tooltip_age": "Select your dog's age group",
+    "label_food_type": "Food Type",
+    "tooltip_food_type": "Select the type of food",
+    "calculate_btn": "Calculate Feeding Amount",
+    "reset_btn": "Reset",
+    "result_daily": "Daily Amount",
+    "result_meals": "Meals per Day",
+    "result_per_meal": "Amount per Meal",
+    "result_weekly": "Weekly Amount",
+    "result_monthly": "Monthly Amount",
+    "tips_title": "Feeding Guidelines",
+    "activity_low": "Low Activity",
+    "activity_moderate": "Moderate Activity",
+    "activity_high": "High Activity",
+    "activity_very_high": "Very High Activity",
+    "age_puppy": "Puppy",
+    "age_adult": "Adult",
+    "age_senior": "Senior",
+    "food_dry": "Dry Food (Kibble)",
+    "food_wet": "Wet Food (Canned)",
+    "food_raw": "Raw Food",
+    "unit_grams": "g",
+    "unit_meals": "meals",
+    "empty_state": "Enter your dog's details to calculate feeding amount",
+    "footer_note": "These are estimates. Individual needs may vary.",
+    "tips": [
+      "Divide food into regular meals",
+      "Always provide fresh water",
+      "Avoid overfeeding",
+      "Consult a vet when changing diet"
+    ],
+    "unit_weight_input": "kg",
+    "howItWorks": {
+      "title": "How Dog Food Calculator Works",
+      "formula": "Daily food = (Caloric needs / Food caloric density) adjusted for food type",
+      "explanation": "This calculator determines optimal daily food portions based on your dog's weight, activity level, life stage, and the type of food you're feeding.",
+      "steps": [
+        "Enter your dog's current weight",
+        "Select their activity level",
+        "Choose their life stage (puppy, adult, senior)",
+        "Select the type of food (dry, wet, or raw)",
+        "View daily, weekly, and monthly feeding amounts"
+      ]
+    },
+    "useCases": [
+      "Determining proper portion sizes for your dog",
+      "Planning food purchases and budgeting",
+      "Transitioning puppies to adult food",
+      "Managing weight through controlled portions"
+    ],
+    "seoTips": [
+      "Puppies need 3-4 meals daily, adults need 2",
+      "Dry food is more calorie-dense than wet food",
+      "Large breed puppies need specific growth formulas",
+      "Measure food by weight, not volume",
+      "Adjust portions based on body condition changes"
+    ],
+    "commonMistakes": [
+      "Using measuring cups instead of scales",
+      "Feeding puppies adult food",
+      "Not adjusting for treats given throughout the day",
+      "Free-feeding leading to obesity"
+    ],
+    "faqs": [
+      {
+        "question": "How often should I feed my dog?",
+        "answer": "Puppies under 6 months need 3-4 meals daily. Adult dogs do well with 2 meals per day. Some owners prefer once daily feeding for adults."
+      },
+      {
+        "question": "Should I feed wet or dry food?",
+        "answer": "Both are nutritionally complete. Dry food is convenient and good for dental health. Wet food provides hydration. Many owners use a combination."
+      },
+      {
+        "question": "How do I transition to new food?",
+        "answer": "Gradually mix new food with old over 7-10 days, increasing the new food proportion daily. This prevents digestive upset."
+      },
+      {
+        "question": "Why is my dog always hungry?",
+        "answer": "Some dogs are food-motivated regardless of portion. If your dog maintains a healthy weight, the portions are likely correct. Consult your vet if concerned."
+      },
+      {
+        "question": "Do puppies need different amounts?",
+        "answer": "Yes, puppies need more food relative to their body weight due to rapid growth. Large breed puppies need controlled portions to prevent joint issues."
+      }
+    ]
+  },
+  "horse_feed_calculator": {
+    "title": "Horse Feed Calculator",
+    "description": "Calculate correct horse feeding amounts accurately.",
+    "label_weight": "Horse Weight (kg)",
+    "tooltip_weight": "Enter your horse's weight in kilograms",
+    "placeholder_weight": "e.g., 500",
+    "label_work_level": "Work Level",
+    "tooltip_work_level": "Select the activity level",
+    "label_feed_type": "Feed Type",
+    "tooltip_feed_type": "Select the type of feed",
+    "calculate_btn": "Calculate Feed",
+    "reset_btn": "Reset",
+    "result_daily_total": "Total Daily Feed",
+    "result_daily_hay": "Daily Hay",
+    "result_daily_grain": "Daily Grain",
+    "result_water": "Water Needs",
+    "result_meals": "Recommended Meals",
+    "tips_title": "Feeding Guidelines",
+    "work_maintenance": "Maintenance (No Work)",
+    "work_light": "Light Work",
+    "work_moderate": "Moderate Work",
+    "work_heavy": "Heavy Work",
+    "work_very_heavy": "Very Heavy Work",
+    "feed_hay_only": "Hay Only",
+    "feed_mixed": "Mixed (Hay & Grain)",
+    "feed_performance": "Performance Mix",
+    "unit_kg": "kg",
+    "unit_liters": "liters",
+    "unit_meals": "meals per day",
+    "empty_state": "Enter horse details to calculate feeding amount",
+    "footer_note": "These are estimates. Individual needs may vary.",
+    "tips": [
+      "Feed at regular times",
+      "Hay should be the basis of the diet",
+      "Always provide fresh water",
+      "Monitor body condition regularly",
+      "Provide free-choice mineral salt"
+    ],
+    "howItWorks": {
+      "title": "How Horse Feed Calculator Works",
+      "formula": "Daily feed = 1.5-3% of body weight depending on work level",
+      "explanation": "This calculator determines optimal daily feed amounts based on horse weight and work level, balancing hay, grain, and supplements for nutritional needs.",
+      "steps": [
+        "Enter your horse's weight in kilograms",
+        "Select the work level (maintenance to heavy work)",
+        "Choose the feed type (hay only, mixed, or performance)",
+        "View daily hay, grain, and water recommendations"
+      ]
+    },
+    "useCases": [
+      "Planning daily feeding schedules for horses",
+      "Budgeting feed costs for horse ownership",
+      "Adjusting nutrition for working or competition horses",
+      "Managing weight for overweight or underweight horses"
+    ],
+    "seoTips": [
+      "Horses need 1.5-2% of body weight in forage daily minimum",
+      "Work level significantly affects grain requirements",
+      "Quality hay can reduce grain needs",
+      "Divide daily feed into multiple small meals",
+      "Water intake averages 5-10 gallons per day"
+    ],
+    "commonMistakes": [
+      "Overfeeding grain relative to forage",
+      "Not adjusting feed for seasonal work changes",
+      "Sudden diet changes causing colic",
+      "Ignoring body condition when setting portions"
+    ],
+    "faqs": [
+      {
+        "question": "How much hay does a horse need daily?",
+        "answer": "A horse needs a minimum of 1.5-2% of body weight in forage. A 500kg horse needs at least 7.5-10kg of hay daily as a foundation."
+      },
+      {
+        "question": "When should I add grain to the diet?",
+        "answer": "Add grain when hay alone cannot meet energy needs, typically for horses in moderate to heavy work, growing horses, or lactating mares."
+      },
+      {
+        "question": "How much water does a horse need?",
+        "answer": "Horses drink 20-40 liters (5-10 gallons) daily. This increases with work, hot weather, and lactation."
+      },
+      {
+        "question": "How many times a day should I feed?",
+        "answer": "Divide daily feed into 2-3 meals minimum. Horses are designed to eat frequently, so more small meals are better for digestion."
+      },
+      {
+        "question": "Should I use a complete feed?",
+        "answer": "Complete feeds are convenient but hay should still be offered for dental health and digestive function unless a horse cannot chew properly."
+      }
+    ]
+  },
+  "horse-feed-calculator": {
+    "title": "Horse Feed Calculator",
+    "description": "Calculate correct horse feeding amounts accurately.",
+    "label_weight": "Horse Weight (kg)",
+    "tooltip_weight": "Enter your horse's weight in kilograms",
+    "placeholder_weight": "e.g., 500",
+    "label_work_level": "Work Level",
+    "tooltip_work_level": "Select the activity level",
+    "label_feed_type": "Feed Type",
+    "tooltip_feed_type": "Select the type of feed",
+    "calculate_btn": "Calculate Feed",
+    "reset_btn": "Reset",
+    "result_daily_total": "Total Daily Feed",
+    "result_daily_hay": "Daily Hay",
+    "result_daily_grain": "Daily Grain",
+    "result_water": "Water Needs",
+    "result_meals": "Recommended Meals",
+    "tips_title": "Feeding Guidelines",
+    "work_maintenance": "Maintenance (No Work)",
+    "work_light": "Light Work",
+    "work_moderate": "Moderate Work",
+    "work_heavy": "Heavy Work",
+    "work_very_heavy": "Very Heavy Work",
+    "feed_hay_only": "Hay Only",
+    "feed_mixed": "Mixed (Hay & Grain)",
+    "feed_performance": "Performance Mix",
+    "unit_kg": "kg",
+    "unit_liters": "liters",
+    "unit_meals": "meals per day",
+    "empty_state": "Enter horse details to calculate feeding amount",
+    "footer_note": "These are estimates. Individual needs may vary.",
+    "tips": [
+      "Feed at regular times",
+      "Hay should be the basis of the diet",
+      "Always provide fresh water",
+      "Monitor body condition regularly",
+      "Provide free-choice mineral salt"
+    ],
+    "howItWorks": {
+      "title": "How Horse Feed Calculator Works",
+      "formula": "Daily feed = 1.5-3% of body weight depending on work level",
+      "explanation": "This calculator determines optimal daily feed amounts based on horse weight and work level, balancing hay, grain, and supplements for nutritional needs.",
+      "steps": [
+        "Enter your horse's weight in kilograms",
+        "Select the work level (maintenance to heavy work)",
+        "Choose the feed type (hay only, mixed, or performance)",
+        "View daily hay, grain, and water recommendations"
+      ]
+    },
+    "useCases": [
+      "Planning daily feeding schedules for horses",
+      "Budgeting feed costs for horse ownership",
+      "Adjusting nutrition for working or competition horses",
+      "Managing weight for overweight or underweight horses"
+    ],
+    "seoTips": [
+      "Horses need 1.5-2% of body weight in forage daily minimum",
+      "Work level significantly affects grain requirements",
+      "Quality hay can reduce grain needs",
+      "Divide daily feed into multiple small meals",
+      "Water intake averages 5-10 gallons per day"
+    ],
+    "commonMistakes": [
+      "Overfeeding grain relative to forage",
+      "Not adjusting feed for seasonal work changes",
+      "Sudden diet changes causing colic",
+      "Ignoring body condition when setting portions"
+    ],
+    "faqs": [
+      {
+        "question": "How much hay does a horse need daily?",
+        "answer": "A horse needs a minimum of 1.5-2% of body weight in forage. A 500kg horse needs at least 7.5-10kg of hay daily as a foundation."
+      },
+      {
+        "question": "When should I add grain to the diet?",
+        "answer": "Add grain when hay alone cannot meet energy needs, typically for horses in moderate to heavy work, growing horses, or lactating mares."
+      },
+      {
+        "question": "How much water does a horse need?",
+        "answer": "Horses drink 20-40 liters (5-10 gallons) daily. This increases with work, hot weather, and lactation."
+      },
+      {
+        "question": "How many times a day should I feed?",
+        "answer": "Divide daily feed into 2-3 meals minimum. Horses are designed to eat frequently, so more small meals are better for digestion."
+      },
+      {
+        "question": "Should I use a complete feed?",
+        "answer": "Complete feeds are convenient but hay should still be offered for dental health and digestive function unless a horse cannot chew properly."
+      }
+    ]
+  }
+}

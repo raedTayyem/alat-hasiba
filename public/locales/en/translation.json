@@ -159,9 +159,9 @@
         "gold_zakat": "Zakat on Gold/Silver",
         "total_zakat": "Total Zakat to Pay",
         "inputs": {
-            "wealth_label": "Wealth Label",
-            "gold_label": "Gold Label",
-            "silver_label": "Silver Label"
+            "wealth_label": "Total Wealth",
+            "gold_label": "Gold Weight",
+            "silver_label": "Silver Weight"
         },
         "results": {
             "total_zakat": "Total Zakat"
@@ -231,8 +231,8 @@
         "supportUs": "Support Our Project"
     },
     "velocity_acceleration": {
-        "title": "Title",
-        "description": "Description",
+        "title": "Velocity & Acceleration Calculator",
+        "description": "Calculate velocity and acceleration from distance and time measurements.",
         "inputs": {
             "velocity": "Velocity",
             "time": "Time",
@@ -247,51 +247,51 @@
             "time": "Time",
             "distance": "Distance"
         },
-        "calculate_btn": "Calculate Btn",
-        "reset_btn": "Reset Btn"
+        "calculate_btn": "Calculate",
+        "reset_btn": "Reset"
     },
     "vertical_jump": {
-        "title": "Title",
-        "description": "Description",
+        "title": "Vertical Jump Calculator",
+        "description": "Measure your vertical jump height and assess your lower body power.",
         "weight": "Weight",
         "jump_height": "Jump Height",
         "standing_reach": "Standing Reach",
         "jump_reach": "Jump Reach",
-        "calculate_btn": "Calculate Btn",
-        "reset_btn": "Reset Btn"
+        "calculate_btn": "Calculate",
+        "reset_btn": "Reset"
     },
     "vo2max": {
-        "title": "Title",
-        "description": "Description",
+        "title": "VO2 Max Calculator",
+        "description": "Estimate your maximum oxygen uptake and cardiovascular fitness level.",
         "inputs": {
-            "max_hr": "Max Hr"
+            "max_hr": "Max Heart Rate"
         },
         "results": {
-            "vo2max_value": "Vo2Max Value"
+            "vo2max_value": "VO2 Max Value"
         }
     },
     "voltage_divider": {
-        "title": "Title",
-        "description": "Description",
+        "title": "Voltage Divider Calculator",
+        "description": "Calculate voltage division in resistor circuits and determine output voltage.",
         "input_voltage": "Input Voltage",
         "resistor_1": "Resistor 1",
         "resistor_2": "Resistor 2",
         "output_voltage": "Output Voltage"
     },
     "volume": {
-        "title": "Title",
-        "description": "Description",
+        "title": "Volume Calculator",
+        "description": "Calculate the volume of various geometric shapes and containers.",
         "enter_value": "Enter Value"
     },
     "waste": {
-        "title": "Title",
-        "description": "Description",
+        "title": "Waste Calculator",
+        "description": "Calculate waste management metrics and estimate household waste production.",
         "household_size": "Household Size",
-        "calculate_btn": "Calculate Btn"
+        "calculate_btn": "Calculate"
     },
     "water": {
-        "title": "Title",
-        "description": "Description",
+        "title": "Water Calculator",
+        "description": "Calculate your daily water intake needs based on various factors.",
         "inputs": {
             "climate": "Climate"
         },
@@ -300,67 +300,67 @@
         }
     },
     "water_footprint": {
-        "title": "Title",
-        "description": "Description"
+        "title": "Water Footprint Calculator",
+        "description": "Calculate your water footprint and understand your water consumption impact."
     },
     "weight": {
-        "title": "Title",
-        "description": "Description"
+        "title": "Weight Converter",
+        "description": "Convert between different weight and mass units easily."
     },
     "weight_gain": {
-        "title": "Title",
-        "description": "Description",
+        "title": "Weight Gain Calculator",
+        "description": "Plan healthy weight gain with calorie and timeline estimates.",
         "inputs": {
-            "target_weight_kg": "Target Weight Kg"
+            "target_weight_kg": "Target Weight (kg)"
         },
         "results": {
-            "time_to_goal": "Time To Goal"
+            "time_to_goal": "Time to Goal"
         }
     },
     "wheel_offset": {
-        "title": "Title",
-        "description": "Description",
+        "title": "Wheel Offset Calculator",
+        "description": "Calculate wheel offset and backspacing for proper fitment.",
         "wheel_width": "Wheel Width",
         "offset": "Offset",
         "backspacing": "Backspacing"
     },
     "whr": {
-        "title": "Title",
-        "description": "Description",
+        "title": "Waist-to-Hip Ratio Calculator",
+        "description": "Calculate your waist-to-hip ratio to assess health risks.",
         "inputs": {
-            "waist": "Waist",
-            "hip": "Hip"
+            "waist": "Waist Circumference",
+            "hip": "Hip Circumference"
         },
         "results": {
-            "ratio": "Ratio"
+            "ratio": "WHR Ratio"
         }
     },
     "wilks_calculator": {
-        "title": "Title",
-        "description": "Description",
+        "title": "Wilks Score Calculator",
+        "description": "Calculate your Wilks score for powerlifting performance comparison.",
         "bodyweight": "Bodyweight",
         "total_lifted": "Total Lifted",
         "gender": "Gender",
-        "score": "Score"
+        "score": "Wilks Score"
     },
     "win_rate": {
-        "title": "Title",
-        "description": "Description",
-        "wins_label": "Wins Label",
-        "losses_label": "Losses Label",
-        "draws_label": "Draws Label",
-        "result_label": "Result Label"
+        "title": "Win Rate Calculator",
+        "description": "Calculate your win percentage from games, matches, or competitions.",
+        "wins_label": "Number of Wins",
+        "losses_label": "Number of Losses",
+        "draws_label": "Number of Draws",
+        "result_label": "Win Rate"
     },
     "wire_gauge": {
-        "title": "Title",
-        "description": "Description",
+        "title": "Wire Gauge Calculator",
+        "description": "Calculate the appropriate wire gauge for electrical installations.",
         "voltage": "Voltage",
         "current": "Current",
         "distance": "Distance"
     },
     "working_capital": {
-        "title": "Title",
-        "description": "Description",
+        "title": "Working Capital Calculator",
+        "description": "Calculate working capital to assess short-term financial health.",
         "inputs": {
             "current_assets": "Current Assets",
             "current_liabilities": "Current Liabilities"
@@ -370,16 +370,16 @@
         }
     },
     "workout_volume": {
-        "title": "Title",
-        "description": "Description",
+        "title": "Workout Volume Calculator",
+        "description": "Track your workout volume to optimize training progress.",
         "sets": "Sets",
         "reps": "Reps",
         "weight": "Weight"
     },
     "xp": {
-        "title": "Title",
-        "description": "Description",
-        "current_level_label": "Current Level Label",
-        "target_level_label": "Target Level Label"
+        "title": "XP Calculator",
+        "description": "Calculate experience points needed for leveling up in games.",
+        "current_level_label": "Current Level",
+        "target_level_label": "Target Level"
     }
 }

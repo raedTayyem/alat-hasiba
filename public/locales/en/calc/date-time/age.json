@@ -1,0 +1,187 @@
+{
+  "age": {
+    "title": "Age Calculator",
+    "description": "Calculate your exact age in years, months, and days, and see how many days are left until your next birthday.",
+    "howItWorks": "The age calculator works by computing the precise difference between your birth date and the current date. It analyzes complete years first, then remaining months, and finally days. The tool accounts for leap years and varying month lengths to ensure accurate results.",
+    "useCases": [
+      "Calculate exact age for official documents and job applications",
+      "Find out when your next birthday is and plan celebrations",
+      "Track children's age in days and months for medical follow-ups",
+      "Determine age eligibility for various programs and services",
+      "Calculate age difference between people"
+    ],
+    "seoTips": [
+      "Enter your birth date accurately for correct results",
+      "Use the calculator to know your age in different units (days, hours)",
+      "Save the result for future reference when needed"
+    ],
+    "commonMistakes": [
+      "Entering incorrect birth date or wrong format",
+      "Confusing Gregorian and other calendar systems",
+      "Forgetting that age changes daily, not just yearly"
+    ],
+    "faqs": [
+      {
+        "question": "How is age calculated in years, months, and days?",
+        "answer": "Age is calculated by finding the difference between your birth date and today's date. First, we count complete years, then remaining months, and finally remaining days. For example, if born on March 15, 2000, and today is January 10, 2024, you would be 23 years, 9 months, and 26 days old."
+      },
+      {
+        "question": "How are leap years handled in age calculation?",
+        "answer": "Our calculator accounts for leap years (years divisible by 4, except century years not divisible by 400). February 29th birthdays are calculated correctly, and the extra day in leap years is included in the total day count."
+      },
+      {
+        "question": "What is the difference between chronological age and biological age?",
+        "answer": "Chronological age is your exact age based on your birth date. Biological age reflects how well your body functions compared to average people of your chronological age. This calculator determines chronological age; biological age requires medical assessments."
+      },
+      {
+        "question": "Can I calculate the age of a deceased person?",
+        "answer": "Yes, you can use the calculator to find out what age a deceased person would have been if still alive by entering their birth date."
+      },
+      {
+        "question": "Why is my lunar age different from my solar age?",
+        "answer": "The lunar year (Hijri) is about 11 days shorter than the solar year (Gregorian), so your lunar age will be higher than your Gregorian age."
+      }
+    ],
+    "birth_date": "Birth Date",
+    "your_age": "Your Age is",
+    "years": "Years",
+    "months": "Months",
+    "days": "Days",
+    "total_days": "Total Days",
+    "total_months": "Total Months",
+    "total_hours": "Total Hours",
+    "next_birthday": "For Next Celebration",
+    "info": "About Age Calculator",
+    "error_empty": "Please enter your birth date",
+    "error_invalid": "Invalid date",
+    "error_future": "Birth date cannot be in the future"
+  },
+  "bar-bat-mitzvah-calculator": {
+    "title": "Bar/Bat Mitzvah Calculator",
+    "description": "Calculate Bar/Bat Mitzvah date based on birth date and gender. Free online tool for Jewish lifecycle events.",
+    "howItWorks": "The tool calculates Bar Mitzvah (13 years for males) or Bat Mitzvah (12 years for females) date based on the birth date in the Hebrew calendar, then converts to Gregorian.",
+    "useCases": [
+      "Find your child's Bar/Bat Mitzvah date",
+      "Early planning for the celebration",
+      "Book venue and services in advance",
+      "Coordinate with synagogue for the date",
+      "Send invitations at the right time"
+    ],
+    "seoTips": [
+      "Enter the birth date accurately",
+      "Select the correct gender as the age differs",
+      "Consult with a rabbi for final confirmation"
+    ],
+    "commonMistakes": [
+      "Forgetting that calculation is based on Hebrew calendar",
+      "Confusing Bar Mitzvah and Bat Mitzvah ages",
+      "Not accounting for the ceremony usually being on Shabbat"
+    ],
+    "faqs": [
+      {
+        "question": "What is Bar/Bat Mitzvah?",
+        "answer": "It is a Jewish religious event marking the coming of age. Bar Mitzvah is for males at 13, Bat Mitzvah is for females at 12."
+      },
+      {
+        "question": "Why is the age different for males and females?",
+        "answer": "According to Jewish tradition, girls reach spiritual maturity a year earlier than boys, so they celebrate a year earlier."
+      },
+      {
+        "question": "When is the ceremony held?",
+        "answer": "The ceremony is usually held on the first Shabbat (Saturday) after the Hebrew birthday, when the young person reads from the Torah for the first time."
+      }
+    ],
+    "input_title": "Calculate Bar/Bat Mitzvah Date",
+    "birth_date": "Birth Date",
+    "birth_date_tooltip": "Enter your birth date",
+    "gender": "Gender",
+    "gender_tooltip": "Select your gender",
+    "male": "Male",
+    "female": "Female",
+    "calculate_btn": "Calculate Date",
+    "reset_btn": "Reset",
+    "results_title": "Bar/Bat Mitzvah Date",
+    "bar_mitzvah": "Bar Mitzvah",
+    "bat_mitzvah": "Bat Mitzvah",
+    "hebrew_date": "Hebrew Date",
+    "gregorian_date": "Gregorian Date",
+    "ceremony_age": "Ceremony Age",
+    "ceremony_age_male": "13 years old",
+    "ceremony_age_female": "12 years old",
+    "celebration_info_title": "About the Celebration",
+    "celebration_info_description": "Bar Mitzvah (for boys) and Bat Mitzvah (for girls) are important Jewish lifecycle events marking the coming of age at 13 and 12 respectively. These ceremonies signify that a young person is now responsible for following Jewish law and tradition.",
+    "celebration_saturday": "The ceremony typically takes place on the first Shabbat (Saturday) after the birthday",
+    "celebration_traditions": "Traditional customs include reading from the Torah and leading parts of the prayer service",
+    "traditions_title": "Traditions and Customs",
+    "tradition_1": "Reading from the Torah (Bar Mitzvah)",
+    "tradition_2": "Leading parts of the prayer service",
+    "tradition_3": "Family celebration and feast",
+    "tradition_4": "Gifts and support from community",
+    "planning_title": "Planning Your Celebration",
+    "planning_description": "Start planning 6-12 months in advance. Consider venue, invitations, catering, and religious requirements. Consult with your synagogue for specific guidelines.",
+    "error_invalid_date": "Please enter a valid birth date",
+    "error_calculation": "Error calculating date. Please try again.",
+    "empty_state": "Enter your birth date to calculate Bar/Bat Mitzvah date",
+    "footer_note": "Calculations use simplified Hebrew calendar conversion. Consult with a rabbi for exact dates."
+  },
+  "lunar-age": {
+    "title": "Lunar Age Calculator",
+    "description": "Calculate your age in the lunar Hijri calendar in years, months, and days.",
+    "howItWorks": "This tool calculates your age in the Hijri lunar calendar. Since the lunar year is about 11 days shorter than the solar year, your lunar age will be higher than your Gregorian age.",
+    "useCases": [
+      "Know your age in the Hijri calendar",
+      "Calculate your Hijri birthday anniversary",
+      "Compare lunar and solar ages",
+      "Religious and cultural purposes",
+      "Comparative calendar research"
+    ],
+    "seoTips": [
+      "Enter your Gregorian birth date to get lunar age",
+      "Compare your lunar and solar ages",
+      "Find out your Hijri birth date"
+    ],
+    "commonMistakes": [
+      "Expecting lunar age to equal solar age",
+      "Forgetting that the lunar year is shorter",
+      "Confusing Hijri and Gregorian birth dates"
+    ],
+    "faqs": [
+      {
+        "question": "Why is my lunar age higher than my Gregorian age?",
+        "answer": "Because the lunar year (approximately 354 days) is shorter than the solar year (365 days) by about 11 days, so more lunar years pass in the same period."
+      },
+      {
+        "question": "How do I calculate the difference between the two ages?",
+        "answer": "Approximately, every 33 solar years equals 34 lunar years. Or multiply your solar age by 1.03 for a rough estimate."
+      },
+      {
+        "question": "What is the importance of knowing lunar age?",
+        "answer": "The Hijri calendar is used for Islamic religious events, and some religious rulings depend on lunar age."
+      }
+    ],
+    "birth_date": "Birth Date",
+    "birth_date_tooltip": "Enter your birth date in Gregorian calendar",
+    "your_lunar_age": "Your Lunar Age",
+    "lunar_years": "lunar years",
+    "lunar_months": "lunar months",
+    "lunar_days": "lunar days",
+    "years": "years",
+    "hijri_birthday": "Hijri Birthday",
+    "comparison": "Age Comparison",
+    "lunar_age_label": "Lunar Age (Hijri)",
+    "solar_age_label": "Solar Age (Gregorian)",
+    "statistics": "Statistics",
+    "total_lunar_months": "Total Lunar Months",
+    "total_days": "Total Days",
+    "today_hijri": "Today in Hijri",
+    "info_title": "About Lunar Age Calculator",
+    "info_description": "This tool calculates your age based on the Islamic Hijri calendar. A lunar year is about 11 days shorter than a solar year, so your lunar age will be higher than your Gregorian age.",
+    "about_lunar_calendar": "About the Lunar Calendar",
+    "fact_1": "A lunar year consists of 12 lunar months (approximately 354 days)",
+    "fact_2": "A lunar month is based on the moon cycle (29-30 days)",
+    "fact_3": "The Hijri calendar is used for Islamic religious events",
+    "error_empty": "Please enter your birth date",
+    "error_invalid": "Invalid date",
+    "error_future": "Birth date cannot be in the future"
+  }
+}

@@ -1,0 +1,511 @@
+{
+  "tire-size-calculator": {
+    "title": "Tire Size Calculator - Free Wheel Comparison Tool",
+    "description": "Calculate and compare tire sizes with dimensions and fitment. Free online tire size calculator for accurate wheel measurements.",
+    "howItWorks": {
+      "title": "How Tire Size Calculation Works",
+      "formula": "Diameter = (2 × Section Width × Aspect Ratio / 25.4) + Rim Diameter | Circumference = π × Diameter",
+      "explanation": "Tire sizes use a standardized notation (e.g., 225/45R17). The first number is width in millimeters, the second is aspect ratio (sidewall height as % of width), and the third is rim diameter in inches. This calculator converts these to actual dimensions.",
+      "steps": [
+        {
+          "name": "Enter Tire Size",
+          "text": "Input tire notation like 225/45R17"
+        },
+        {
+          "name": "View Dimensions",
+          "text": "See calculated width, height, diameter, and circumference"
+        },
+        {
+          "name": "Compare Sizes",
+          "text": "Optionally enter second tire size for comparison"
+        },
+        {
+          "name": "Check Fitment",
+          "text": "Review speedometer error and clearance impact"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Size Comparison",
+        "description": "Compare dimensions when considering alternative tire sizes"
+      },
+      {
+        "title": "Speedometer Accuracy",
+        "description": "Calculate speedometer error when changing tire sizes"
+      },
+      {
+        "title": "Fitment Planning",
+        "description": "Ensure new tires will fit without rubbing"
+      },
+      {
+        "title": "Plus Sizing",
+        "description": "Calculate correct tire size when upgrading wheel diameter"
+      }
+    ],
+    "seoTips": [
+      "Stay within 3% of overall diameter to maintain accurate speedometer",
+      "Larger diameter tires will make speedometer read slower (actual speed is higher)",
+      "Lower profile tires (lower aspect ratio) provide better handling but harsher ride",
+      "Wider tires may rub on suspension or fenders when turning",
+      "Always verify fitment with manufacturer specifications or fitment guides"
+    ],
+    "commonMistakes": [
+      "Ignoring speedometer error when changing tire sizes",
+      "Not checking clearance for width changes, especially on lowered vehicles",
+      "Assuming same aspect ratio means same diameter (it doesn't if width changes)",
+      "Forgetting that load rating and speed rating must meet or exceed OEM specs"
+    ],
+    "faqs": [
+      {
+        "question": "What do tire size numbers mean?",
+        "answer": "In 225/45R17: 225 is width in mm, 45 is aspect ratio (sidewall is 45% of width), R means radial construction, 17 is wheel diameter in inches. A taller aspect ratio means more sidewall."
+      },
+      {
+        "question": "How much can I change tire size?",
+        "answer": "Stay within 3% of original overall diameter to avoid significant speedometer error and clearance issues. Width changes depend on available wheel and fender clearance."
+      },
+      {
+        "question": "What is plus sizing?",
+        "answer": "Plus sizing uses larger wheel diameter with lower profile tires to maintain overall diameter. Going from 16\" to 17\" wheels requires shorter sidewall tires. This improves handling but ride quality may suffer."
+      },
+      {
+        "question": "Will bigger tires affect my car?",
+        "answer": "Larger diameter tires: slower acceleration, higher top speed, speedometer reads low. Wider tires: better grip, worse fuel economy, potential rubbing. Always maintain load and speed ratings."
+      }
+    ]
+  },
+  "tire-pressure-calculator": {
+    "title": "Tire Pressure Calculator - Optimal PSI Tool",
+    "description": "Calculate ideal tire pressure for your vehicle in PSI or Bar. Free online calculator for optimal tire inflation and safety.",
+    "howItWorks": {
+      "title": "How Tire Pressure Calculation Works",
+      "formula": "Adjusted Pressure = Base Pressure × (Load Adjustment) × (Temperature Factor)",
+      "explanation": "Tire pressure affects safety, handling, fuel economy, and tire wear. This calculator determines optimal pressure based on manufacturer recommendations, adjusted for load conditions and temperature changes. Pressure is measured in PSI (pounds per square inch) or Bar.",
+      "steps": [
+        {
+          "name": "Enter Vehicle Specs",
+          "text": "Input your vehicle type and recommended tire pressure"
+        },
+        {
+          "name": "Add Load Information",
+          "text": "Indicate if carrying extra passengers or cargo"
+        },
+        {
+          "name": "Account for Temperature",
+          "text": "Enter ambient temperature for pressure adjustment"
+        },
+        {
+          "name": "View Recommendations",
+          "text": "See optimal pressure for front and rear tires"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Regular Maintenance",
+        "description": "Ensure tires are properly inflated for daily driving"
+      },
+      {
+        "title": "Load Adjustment",
+        "description": "Calculate correct pressure when carrying heavy loads"
+      },
+      {
+        "title": "Temperature Compensation",
+        "description": "Adjust for cold morning readings vs hot afternoon driving"
+      },
+      {
+        "title": "Unit Conversion",
+        "description": "Convert between PSI, Bar, and kPa pressure units"
+      }
+    ],
+    "seoTips": [
+      "Check tire pressure monthly and before long trips",
+      "Measure pressure when tires are cold (driven less than a mile)",
+      "Tire pressure drops about 1 PSI for every 10°F temperature drop",
+      "The door jamb sticker shows correct pressure, not the tire sidewall",
+      "Underinflation causes poor fuel economy and uneven tire wear"
+    ],
+    "commonMistakes": [
+      "Using the maximum pressure on the tire sidewall instead of recommended pressure",
+      "Checking pressure after driving when tires are hot (reads high)",
+      "Not adjusting for seasonal temperature changes",
+      "Assuming front and rear pressures should always be the same"
+    ],
+    "faqs": [
+      {
+        "question": "What is the correct tire pressure for my car?",
+        "answer": "Check the sticker inside the driver's door jamb or in the owner's manual. This is the manufacturer's recommended pressure for your specific vehicle, typically 30-35 PSI for passenger cars."
+      },
+      {
+        "question": "Why not use the pressure on the tire sidewall?",
+        "answer": "The sidewall shows maximum safe pressure for the tire, not the optimal pressure for your vehicle. Using this can cause overinflation, harsh ride, reduced grip, and uneven center wear."
+      },
+      {
+        "question": "How often should I check tire pressure?",
+        "answer": "Check at least monthly and before long trips. Tires naturally lose 1-2 PSI per month. Temperature changes also affect pressure - a 10°F drop decreases pressure by about 1 PSI."
+      },
+      {
+        "question": "What happens with wrong tire pressure?",
+        "answer": "Underinflation: poor fuel economy, edge wear, heat buildup, potential blowout. Overinflation: harsh ride, center wear, reduced grip, increased braking distance. Correct pressure is safest and most economical."
+      }
+    ]
+  },
+  "tire_size": {
+    "title": "Tire Size Calculator",
+    "description": "Calculate tire dimensions from size string.",
+    "input_mode": "Input Mode",
+    "input_mode_tooltip": "Select input method",
+    "tire_format": "Tire Size (e.g. P225/65R17)",
+    "manual_entry": "Manual Entry",
+    "tire_size_label": "Tire Size",
+    "tire_size_tooltip": "Enter tire size string (e.g. 225/65R17)",
+    "width": "Width (mm)",
+    "width_tooltip": "Tire width in millimeters",
+    "aspect_ratio": "Aspect Ratio",
+    "aspect_ratio_tooltip": "Ratio of height to width",
+    "rim_diameter": "Rim Diameter (in)",
+    "rim_diameter_tooltip": "Diameter of the wheel rim in inches",
+    "tire_specification": "Tire Specification",
+    "inches_diameter": "inches diameter",
+    "detailed_measurements": "Detailed Measurements",
+    "sidewall_height": "Sidewall Height",
+    "tire_diameter": "Tire Diameter",
+    "tire_circumference": "Circumference",
+    "revolutions_per_mile": "Revs / Mile",
+    "revolutions_per_km": "Revs / km",
+    "revs": "revs",
+    "formula_title": "Calculation",
+    "formula_explanation": "Calculates physical dimensions based on standard tire sizing metrics.",
+    "about_title": "About Tire Sizes",
+    "about_description": "Understanding tire sizes helps in selecting replacements and understanding speedometer changes.",
+    "format_example_title": "Format Example",
+    "format_example_description": "P225/65R17",
+    "format_width": "225: Width in mm",
+    "format_aspect": "65: Aspect Ratio (%)",
+    "format_rim": "17: Rim Diameter (inches)",
+    "error_missing_tire_size": "Please enter tire size",
+    "error_invalid_format": "Invalid tire size format",
+    "error_missing_inputs": "Please enter all dimensions",
+    "error_positive_values": "Values must be positive",
+    "error_invalid_aspect_ratio": "Aspect ratio must be valid",
+    "error_calculation": "Calculation error",
+    "placeholders": {
+      "tire_size": "P225/65R17",
+      "width": "225",
+      "aspect_ratio": "65",
+      "rim_diameter": "17"
+    },
+    "howItWorks": {
+      "title": "How Tire Size Calculation Works",
+      "formula": "Sidewall Height = Width × (Aspect Ratio / 100) | Tire Diameter = (2 × Sidewall Height) + Rim Diameter",
+      "explanation": "Tire sizes follow a standard format: Width/Aspect Ratio + R + Rim Diameter. This calculator decodes that information and calculates the actual physical dimensions including diameter, circumference, and revolutions per mile.",
+      "steps": [
+        "Enter your tire size string (e.g., P225/65R17) or individual dimensions",
+        "The calculator parses the width, aspect ratio, and rim size",
+        "View calculated sidewall height, overall diameter, and circumference",
+        "See revolutions per mile/km for speedometer calculations"
+      ]
+    },
+    "useCases": [
+      "Compare tire sizes when upgrading or changing wheel sizes",
+      "Calculate speedometer error when switching to different tire sizes",
+      "Ensure replacement tires maintain proper vehicle clearance",
+      "Understand tire dimensions for wheel and tire packages"
+    ],
+    "seoTips": [
+      "Keep overall diameter within 3% of stock to maintain speedometer accuracy",
+      "Larger diameter tires can affect speedometer, odometer, and fuel economy readings",
+      "Consider load rating and speed rating when changing tire sizes",
+      "Check fender clearance especially for larger tire diameters"
+    ],
+    "commonMistakes": [
+      "Changing tire size without considering speedometer error",
+      "Not checking clearance for larger tires at full steering lock",
+      "Ignoring load rating when upsizing tires",
+      "Confusing aspect ratio with tire height"
+    ],
+    "faqs": [
+      {
+        "question": "What do the numbers in a tire size mean?",
+        "answer": "In 225/65R17: 225 is the width in mm, 65 is the aspect ratio (sidewall height as percentage of width), R means radial construction, and 17 is the rim diameter in inches. A higher aspect ratio means a taller sidewall."
+      },
+      {
+        "question": "How does tire size affect my speedometer?",
+        "answer": "Larger diameter tires cover more ground per revolution, making your speedometer read slower than actual speed. A 3% larger tire means when your speedo shows 60 mph, you're actually going about 62 mph. The odometer is similarly affected."
+      },
+      {
+        "question": "Can I put larger tires on my car?",
+        "answer": "Within limits, yes. Generally, you can increase overall diameter by about 3% without major issues. Larger increases may require lift kits, fender modifications, or recalibration of speedometer and possibly ABS systems."
+      },
+      {
+        "question": "What is the plus sizing concept?",
+        "answer": "Plus sizing increases rim diameter while decreasing sidewall height to maintain the same overall diameter. Plus 1 means 1 inch larger rims. This improves handling but may reduce ride comfort. Keep overall diameter within 3% of original."
+      },
+      {
+        "question": "How do I read tire revolutions per mile?",
+        "answer": "Revolutions per mile tells you how many times the tire rotates in one mile. Lower numbers mean larger tires. Stock tires are calibrated for your speedometer; different revolutions mean speedometer error."
+      }
+    ]
+  },
+  "tire_pressure": {
+    "title": "Tire Pressure Calculator",
+    "description": "Calculate optimal tire pressure adjusted for temperature changes and load conditions.",
+    "base_pressure": "Recommended Pressure (PSI)",
+    "base_pressure_tooltip": "The tire pressure recommended by your vehicle manufacturer (usually found on door jamb sticker)",
+    "temperature_unit": "Temperature Unit",
+    "temperature_unit_tooltip": "Choose Fahrenheit or Celsius for temperature inputs",
+    "fahrenheit": "Fahrenheit",
+    "celsius": "Celsius",
+    "base_temperature": "Reference Temperature",
+    "base_temperature_tooltip": "Temperature when the recommended pressure was set (typically 70°F/21°C)",
+    "current_temperature": "Current Temperature",
+    "current_temperature_tooltip": "Current ambient temperature",
+    "load_condition": "Load Condition",
+    "load_condition_tooltip": "How loaded your vehicle is",
+    "load_light": "Light - Empty or 1-2 passengers",
+    "load_normal": "Normal - Regular daily use",
+    "load_heavy": "Heavy - Full passengers or cargo",
+    "load_max": "Maximum - Towing or max capacity",
+    "recommended_pressure": "Recommended Pressure",
+    "adjustments": "Pressure Adjustments",
+    "original_pressure": "Base Pressure",
+    "temp_adjustment": "Temperature Adjustment",
+    "load_adjustment": "Load Adjustment",
+    "formula_title": "How It's Calculated",
+    "formula_explanation": "Tire pressure changes approximately 1 PSI for every 10°F (5.5°C) change in temperature. Load adjustments add pressure for heavier loads.",
+    "about_title": "About Tire Pressure",
+    "about_description": "Proper tire pressure improves fuel economy, tire life, and vehicle safety. Check pressure when tires are cold.",
+    "safety_note_title": "Safety Note",
+    "safety_note": "Never exceed the maximum pressure listed on the tire sidewall. Always check pressure with a reliable gauge.",
+    "error_missing_inputs": "Please enter base pressure and both temperatures",
+    "error_positive_pressure": "Base pressure must be greater than zero",
+    "error_calculation": "An error occurred during calculation",
+    "placeholders": {
+      "base_pressure": "35",
+      "base_temperature": "70",
+      "current_temperature": "32"
+    },
+    "howItWorks": {
+      "title": "How Tire Pressure Calculation Works",
+      "formula": "Adjusted PSI = Base PSI + (Temperature Change / 10°F × 1 PSI) + Load Adjustment",
+      "explanation": "Tire pressure changes approximately 1 PSI for every 10°F temperature change. This calculator adjusts your manufacturer-recommended pressure for current conditions and vehicle load.",
+      "steps": [
+        "Enter your vehicle's recommended tire pressure (found on door jamb)",
+        "Select temperature unit and enter reference temperature",
+        "Enter current ambient temperature",
+        "Select your current load condition",
+        "View adjusted recommended pressure"
+      ]
+    },
+    "useCases": [
+      "Adjust tire pressure for seasonal temperature changes",
+      "Calculate pressure needs when loading vehicle for trips",
+      "Ensure proper pressure during extreme weather conditions",
+      "Maintain optimal fuel economy and tire wear"
+    ],
+    "seoTips": [
+      "Always check pressure when tires are cold (not driven for 3+ hours)",
+      "Check pressure monthly and before long trips",
+      "Use a quality digital gauge for accurate readings",
+      "Remember that manufacturer pressure is for cold tires at room temperature"
+    ],
+    "commonMistakes": [
+      "Checking pressure after driving when tires are hot",
+      "Using the pressure on the tire sidewall (that's maximum, not recommended)",
+      "Not adjusting for seasonal temperature swings",
+      "Assuming all four tires need the same pressure (front/rear may differ)"
+    ],
+    "faqs": [
+      {
+        "question": "Why does tire pressure change with temperature?",
+        "answer": "Air expands when heated and contracts when cooled. For every 10°F temperature change, tire pressure changes about 1 PSI. A 50°F temperature drop from summer to winter can reduce pressure by 5 PSI if not adjusted."
+      },
+      {
+        "question": "What pressure should I use - door jamb or tire sidewall?",
+        "answer": "Use the door jamb pressure. The tire sidewall shows maximum pressure the tire can handle, not the optimal pressure for your vehicle. The door jamb sticker is calibrated for your specific vehicle's weight and handling."
+      },
+      {
+        "question": "Should I increase pressure for highway driving?",
+        "answer": "No need to adjust for speed. However, for heavy loads (full passengers, cargo, towing), you should increase pressure toward the maximum recommended on the door jamb sticker, which often lists higher pressure for full load."
+      },
+      {
+        "question": "Is it better to be over or under inflated?",
+        "answer": "Slightly over is safer than under. Underinflation causes poor handling, increased stopping distance, overheating, and can lead to blowouts. Overinflation causes harsh ride and center tire wear but is less dangerous."
+      },
+      {
+        "question": "How often should I check tire pressure?",
+        "answer": "At least monthly and before long trips. Tires naturally lose 1-2 PSI per month. Also check when seasons change, as temperature swings significantly affect pressure."
+      }
+    ]
+  },
+  "wheel-offset-calculator": {
+    "title": "Wheel Offset Calculator - Rim Fitment Tool",
+    "description": "Calculate wheel offset and rim fitment for proper installation. Free online ET offset calculator for wheels and tire compatibility.",
+    "howItWorks": {
+      "title": "How Wheel Offset Calculation Works",
+      "formula": "Backspacing = (Wheel Width / 2) + (Offset / 25.4) | Offset (mm) = (Backspacing - Width/2) × 25.4",
+      "explanation": "Wheel offset is the distance from the wheel's centerline to the hub mounting surface, measured in millimeters. Positive offset means the mounting surface is toward the front (street side), negative offset pushes the wheel outward. This calculator converts between offset and backspacing.",
+      "steps": [
+        {
+          "name": "Choose Calculation Mode",
+          "text": "Select whether to calculate from offset or from backspacing"
+        },
+        {
+          "name": "Enter Wheel Width",
+          "text": "Input wheel width in inches (e.g., 8.5 inches)"
+        },
+        {
+          "name": "Enter Offset or Backspacing",
+          "text": "Provide offset in mm or backspacing in inches"
+        },
+        {
+          "name": "View Fitment Data",
+          "text": "See calculated measurements and fitment information"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Wheel Fitment",
+        "description": "Determine if aftermarket wheels will fit without rubbing"
+      },
+      {
+        "title": "Stance Planning",
+        "description": "Calculate offset needed for flush or aggressive wheel fitment"
+      },
+      {
+        "title": "Spacer Calculation",
+        "description": "Determine spacer thickness needed to achieve desired fitment"
+      },
+      {
+        "title": "Clearance Check",
+        "description": "Verify clearance for brakes, suspension, and fenders"
+      }
+    ],
+    "seoTips": [
+      "Stay within 5-10mm of stock offset for daily drivers to maintain handling",
+      "Lower offset (more negative) pushes wheels outward for wider stance",
+      "Always check both inner clearance (suspension/brakes) and outer clearance (fenders)",
+      "Consider tire width as it affects total package clearance beyond wheel offset",
+      "Test fitment at full steering lock and suspension compression before committing"
+    ],
+    "commonMistakes": [
+      "Confusing offset with backspacing - they reference different points",
+      "Not accounting for tire width when calculating total package fitment",
+      "Changing offset without checking brake caliper and strut clearance",
+      "Ignoring the effect of offset changes on handling and scrub radius"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between offset and backspacing?",
+        "answer": "Offset is measured from the wheel centerline to the mounting surface in millimeters. Backspacing is measured from the back edge of the wheel to the mounting surface in inches. They describe the same thing from different reference points."
+      },
+      {
+        "question": "What does positive vs negative offset mean?",
+        "answer": "Positive offset: mounting surface is toward the street side (most passenger cars). Negative offset: mounting surface is toward the inside, pushing the wheel outward (trucks, deep dish wheels). Zero offset: mounting surface is at centerline."
+      },
+      {
+        "question": "How much offset change is safe?",
+        "answer": "For daily driving, stay within 5-10mm of stock offset to maintain proper handling and avoid clearance issues. Larger changes may require fender modifications and can stress wheel bearings."
+      },
+      {
+        "question": "Will changing offset affect my handling?",
+        "answer": "Yes. Offset changes alter scrub radius, which affects steering feel, stability, and tire wear patterns. Lower offset widens track width, which can improve grip but may cause tramlining on grooved roads."
+      }
+    ]
+  },
+  "wheel_offset": {
+    "title": "Wheel Offset Calculator",
+    "description": "Calculate wheel offset, backspacing, and fitment.",
+    "input_mode": "Input Mode",
+    "input_mode_tooltip": "Choose how you want to calculate",
+    "calculate_from_offset": "Calculate from Offset",
+    "calculate_from_backspacing": "Calculate from Backspacing",
+    "wheel_width": "Wheel Width",
+    "wheel_width_tooltip": "Total width of the wheel in inches",
+    "offset": "Offset (mm)",
+    "offset_tooltip": "Distance from hub mounting surface to centerline",
+    "backspacing": "Backspacing (in)",
+    "backspacing_tooltip": "Distance from hub mounting surface to back edge",
+    "about_title": "About Wheel Offset",
+    "about_description": "Understanding wheel offset is crucial for proper wheel fitment.",
+    "offset_types_title": "Offset Types",
+    "offset_type_positive": "Positive: Hub mounting surface is towards the front (street cars)",
+    "offset_type_zero": "Zero: Hub mounting surface is at centerline",
+    "offset_type_negative": "Negative: Hub mounting surface is towards the back (deep dish)",
+    "offset_result": "Offset",
+    "positive_offset": "Positive Offset",
+    "zero_offset": "Zero Offset",
+    "negative_offset": "Negative Offset",
+    "measurements": "Measurements",
+    "backspacing_result": "Backspacing",
+    "inches": "inches",
+    "centerline": "Centerline",
+    "hub_to_outer_edge": "Hub to Outer Edge",
+    "fitment_info": "Fitment Information",
+    "positive_offset_description": "Positive offset wheels sit closer to the suspension.",
+    "zero_offset_description": "Zero offset centers the mounting face.",
+    "negative_offset_description": "Negative offset pushes the wheel out for a wider stance.",
+    "formula_title": "Calculation Formula",
+    "formula_explanation": "Backspacing = (Width / 2) + (Offset / 25.4)",
+    "error_missing_width": "Please enter wheel width",
+    "error_positive_width": "Width must be positive",
+    "error_missing_offset": "Please enter offset",
+    "error_missing_backspacing": "Please enter backspacing",
+    "error_positive_backspacing": "Backspacing must be positive",
+    "error_calculation": "Calculation error",
+    "placeholders": {
+      "width": "8.5",
+      "offset": "35",
+      "backspacing": "5.5"
+    },
+    "howItWorks": {
+      "title": "How Wheel Offset Calculation Works",
+      "formula": "Backspacing = (Wheel Width / 2) + (Offset / 25.4)",
+      "explanation": "Wheel offset is the distance in millimeters from the wheel's centerline to its mounting surface. Positive offset means the mounting surface is toward the front (street side), while negative offset pushes the wheel outward for a wider stance.",
+      "steps": [
+        "Choose your calculation mode (from offset or backspacing)",
+        "Enter the wheel width in inches",
+        "Enter the offset in mm or backspacing in inches",
+        "View calculated measurements and fitment information"
+      ]
+    },
+    "useCases": [
+      "Determine if aftermarket wheels will fit your vehicle without rubbing",
+      "Calculate how much a wheel will stick out or tuck in from stock position",
+      "Compare different wheel options for proper fender clearance",
+      "Plan wheel spacer requirements for desired stance"
+    ],
+    "seoTips": [
+      "Always verify fitment with your specific vehicle before purchasing wheels",
+      "Consider suspension components and brake calipers when checking clearance",
+      "Check both inner and outer clearances for wheel and tire combinations",
+      "Remember that tire width also affects overall fitment"
+    ],
+    "commonMistakes": [
+      "Confusing offset with backspacing - they measure from different reference points",
+      "Not accounting for tire width when calculating clearance",
+      "Ignoring the difference between positive and negative offset directions",
+      "Forgetting to check clearance at full steering lock and suspension compression"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between offset and backspacing?",
+        "answer": "Offset measures from the wheel centerline to the mounting surface in millimeters. Backspacing measures from the back edge of the wheel to the mounting surface in inches. Both describe where the wheel sits relative to the hub."
+      },
+      {
+        "question": "Will changing offset affect my handling?",
+        "answer": "Yes, changing offset alters your vehicle's scrub radius, which can affect steering feel, tire wear, and handling characteristics. Staying within 5-10mm of stock offset is generally recommended for daily drivers."
+      },
+      {
+        "question": "How much offset change is safe?",
+        "answer": "Most vehicles can safely accommodate 5-15mm offset change from stock. Larger changes may require fender modifications, may cause rubbing, or could stress wheel bearings and suspension components."
+      },
+      {
+        "question": "What offset do I need for a flush fitment?",
+        "answer": "Flush fitment depends on your fender width and tire size. Generally, you want the tire edge to align with or sit slightly inside the fender. This typically requires lower offset (more negative) than stock for most vehicles."
+      }
+    ]
+  }
+}
