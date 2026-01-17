@@ -1,0 +1,22 @@
+// Phase 24 Environmental Calculators - All 20 calculators implemented
+export { default as CarbonFootprintCalculator } from './CarbonFootprintCalculator';
+export { default as CO2EmissionsCalculator } from './CO2EmissionsCalculator';
+export { default as VehicleEmissionsCalculator } from './VehicleEmissionsCalculator';
+export { default as FlightEmissionsCalculator } from './FlightEmissionsCalculator';
+export { default as CarbonOffsetCalculator } from './CarbonOffsetCalculator';
+export { default as HomeEnergyAuditCalculator } from './HomeEnergyAuditCalculator';
+export { default as SolarPanelROICalculator } from './SolarPanelROICalculator';
+export { default as WaterUsageCalculator } from './WaterUsageCalculator';
+export { default as WaterFootprintCalculator } from './WaterFootprintCalculator';
+export { default as EnergySavingCalculator } from './EnergySavingCalculator';
+export { default as WasteCalculator } from './WasteCalculator';
+export { default as RecyclingImpactCalculator } from './RecyclingImpactCalculator';
+export { default as PlasticFootprintCalculator } from './PlasticFootprintCalculator';
+export { default as CompostingCalculator } from './CompostingCalculator';
+export { default as EcoScoreCalculator } from './EcoScoreCalculator';
+export { default as GreenCommuteCalculator } from './GreenCommuteCalculator';
+export { default as DietCarbonFootprintCalculator } from './DietCarbonFootprintCalculator';
+export { default as TreePlantingImpactCalculator } from './TreePlantingImpactCalculator';
+export { default as RainwaterHarvestingCalculator } from './RainwaterHarvestingCalculator';
+export { default as SustainableLifestyleCalculator } from './SustainableLifestyleCalculator';
+export { default as FuelConsumptionCalculator } from '../finance/FuelConsumptionCalculator';

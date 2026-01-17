@@ -1,0 +1,429 @@
+{
+  "about": {
+    "title": "About Us | Alathasiba",
+    "metaDescription": "Learn about Alathasiba, our story, and our mission to provide the best online calculators and converters.",
+    "metaKeywords": "about alathasiba, our story, team, services",
+    "mainHeading": "About Alathasiba",
+    "subHeading": "We strive to provide the most accurate and easy-to-use digital tools to help you accomplish your daily tasks.",
+    "story": {
+      "title": "Our Story",
+      "p1": "Alathasiba started in 2025 as an initiative to provide a comprehensive set of calculators and converters in Arabic. We noticed a lack of Arabic websites providing integrated calculation solutions and wanted to bridge this gap.",
+      "p2": "Since its launch, the site has evolved to include dozens of specialized calculators in the fields of mathematics, engineering, finance, conversions, and health. We are constantly striving to expand our range of tools to meet the diverse needs of our users."
+    },
+    "mission": {
+      "title": "Our Mission",
+      "intro": "We believe that technology should be accessible to everyone, regardless of educational background or language. Our mission is to:",
+      "list": [
+        "Provide accurate and easy-to-use calculators in Arabic and English",
+        "Help students and professionals complete their tasks quickly and efficiently",
+        "Simplify complex calculations through easy-to-understand user interfaces",
+        "Provide high-quality free services to users worldwide"
+      ]
+    },
+    "offering": {
+      "title": "What We Offer",
+      "varied": {
+        "title": "Diverse Calculators",
+        "desc": "We provide a variety of calculators in the fields of mathematics, engineering, finance, and more, designed to meet the needs of different users."
+      },
+      "converters": {
+        "title": "Unit Converters",
+        "desc": "Easy-to-use converters for length, weight, temperature, currency, and other units you might need to convert in your daily life."
+      },
+      "finance": {
+        "title": "Financial Calculators",
+        "desc": "Financial tools for calculating loans, investments, taxes, Zakat, and other financial operations to help you make better financial decisions."
+      },
+      "health": {
+        "title": "Health Calculators",
+        "desc": "Calculators for BMI, calories, ideal weight, and other health metrics to help you track your health."
+      }
+    },
+    "whyChooseUs": {
+      "title": "Why Choose Us?",
+      "accuracy": {
+        "title": "Accuracy of Results:",
+        "desc": "All our calculators are based on accurate algorithms ensuring you get correct results."
+      },
+      "ease": {
+        "title": "Ease of Use:",
+        "desc": "Simple and easy-to-use interfaces enable you to reach results quickly and efficiently."
+      },
+      "compatibility": {
+        "title": "Compatible Experience:",
+        "desc": "Our site is compatible with all devices including smartphones, tablets, and computers."
+      },
+      "free": {
+        "title": "Free Website:",
+        "desc": "All our tools are available for free to everyone, without the need for registration or subscription."
+      },
+      "updates": {
+        "title": "Continuous Updates:",
+        "desc": "We are constantly working to improve our tools and add new calculators to meet our users' needs."
+      }
+    },
+    "cta": {
+      "title": "Do you have a suggestion or inquiry?",
+      "desc": "We welcome your opinions and suggestions. If you have any questions, need help, or want to suggest a new calculator, feel free to contact us.",
+      "button": "Contact Us"
+    }
+  },
+  "terms": {
+    "title": "Terms of Use | Alathasiba",
+    "metaDescription": "Terms of use and regulations governing the Alathasiba website.",
+    "metaKeywords": "terms of use, regulations, agreement",
+    "heading": "Terms of Use",
+    "sections": {
+      "intro": {
+        "title": "Introduction",
+        "p1": "Welcome to Alathasiba. Please read these terms of use carefully before using our site. Your access to and use of the site means your agreement to be bound by these terms. If you do not agree to them, you must stop using the site immediately.",
+        "p2": "We reserve the right to modify these terms at any time, and changes will be effective immediately upon posting on the site. By continuing to use the site after any changes are posted, you agree to be bound by the modified terms."
+      },
+      "usage": {
+        "title": "Use of the Website",
+        "content": "Alathasiba provides a set of online calculators and tools for personal and non-commercial use. You agree to use these services for lawful purposes only and in a manner that does not violate the rights of others or restrict or prevent their use of the site.",
+        "restrictions": {
+          "title": "Restrictions on Use",
+          "intro": "You must not:",
+          "list": [
+            "Use our site in any unlawful or fraudulent manner, or for any unlawful or fraudulent purpose.",
+            "Attempt to gain unauthorized access to our servers, databases, or systems.",
+            "Post any content containing malware, viruses, or any other harmful computer code.",
+            "Copy, modify, or redistribute our site content without our express permission.",
+            "Use any robots, spiders, or other tools for data collection, except for general search engines and public web archives."
+          ]
+        }
+      },
+      "accuracy": {
+        "title": "Accuracy of Information and Calculations",
+        "p1": "While we do our best to ensure the accuracy of the calculators and tools available on our site, we do not guarantee the accuracy of the results provided. Calculations may be affected by various factors such as rounding, decimal rounding, and different calculation methods.",
+        "p2": "Results provided by our calculators should be used as estimates only and not as a final source of information. We recommend verifying results using alternative calculation methods for important or practical decisions.",
+        "p3": "We are not responsible for any decisions you make based on the information provided by our calculators or tools."
+      },
+      "ip": {
+        "title": "Intellectual Property",
+        "p1": "All intellectual property rights in our site and the content published on it (including, but not limited to, text, graphics, logos, images, and software) are owned by us or licensed to us. You are only allowed to view the content while using the site in accordance with these terms of use.",
+        "p2": "You are strictly prohibited from copying, reproducing, modifying, republishing, uploading, posting, transmitting, distributing, selling, renting, or sublicensing any part of our site content without obtaining prior written permission from us."
+      },
+      "userContent": {
+        "title": "User-Provided Content",
+        "p1": "In some areas of our site, users may be allowed to post comments or provide feedback. By submitting any content to the site, you grant us a permanent, non-exclusive, worldwide, royalty-free license to use, store, copy, modify, and republish such content.",
+        "p2": "Content you provide must not be unlawful, offensive, defamatory, pornographic, discriminatory, threatening, or a violation of privacy or intellectual property rights. We reserve the right to remove any content we deem inappropriate."
+      },
+      "links": {
+        "title": "Links to Other Websites",
+        "p1": "Our site may contain links to third-party websites. These links are provided for your convenience and for informational purposes only. We have no control over the content of these sites and accept no responsibility for them or for any loss or damage that may arise from your use of them.",
+        "p2": "Inclusion of any links does not necessarily imply a recommendation or endorsement of the views expressed within them. We urge you to review the terms of use and privacy policy of each website you visit."
+      },
+      "ads": {
+        "title": "Advertisements and Third-Party Services",
+        "p1": "Our site may display advertisements from third-party advertising networks, such as Google AdSense. These networks may use cookies and similar technologies to collect information about your use of our site and other sites to provide targeted advertisements.",
+        "p2": "We do not control the advertising content displayed and are not responsible for any loss or damage that may result from your interaction with advertisements or services provided by third parties."
+      },
+      "indemnification": {
+        "title": "Indemnification",
+        "p1": "You agree to indemnify and protect us from any claims, losses, liabilities, or expenses (including reasonable legal fees) resulting from your violation of these terms of use or any other improper conduct related to the use of our site."
+      },
+      "disclaimer": {
+        "title": "Disclaimer",
+        "p1": "Our site is provided 'as is' and 'as available' without any warranties of any kind, whether express or implied. To the maximum extent permitted by law, we disclaim all warranties, including, but not limited to, implied warranties of merchantability, fitness for a particular purpose, and non-infringement.",
+        "p2": "We do not guarantee that our site will be secure or available at any particular time or location, or that it will be free of errors or defects, or that errors will be corrected, or that our site or the server that makes it available is free of viruses or other harmful components."
+      },
+      "limitation": {
+        "title": "Limitation of Liability",
+        "p1": "To the maximum extent permitted by law, we will not be responsible for any loss or damage of any kind arising from your use of our site or your inability to use it, including but not limited to, direct, indirect, incidental, consequential, special, or punitive losses."
+      },
+      "governingLaw": {
+        "title": "Governing Law",
+        "p1": "These terms of use and any disputes or claims arising out of or related to them are governed by and construed in accordance with applicable international laws and regulations, without regard to conflict of law principles."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "intro": "If you have any questions about these terms of use, you can contact us through:",
+        "list": [
+          "Visiting the 'Contact Us' page on our site"
+        ]
+      }
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy | Alathasiba",
+    "metaDescription": "Privacy policy and data protection at Alathasiba.",
+    "metaKeywords": "privacy, data protection, cookies",
+    "heading": "Privacy Policy",
+    "sections": {
+      "intro": {
+        "title": "Introduction",
+        "p1": "We at Alathasiba value your privacy. This privacy policy describes our approach to privacy and data handling when you use our site. Our calculators work entirely in your browser and do not send your calculation data to our servers.",
+        "p2": "Please read this privacy policy carefully to understand our practices. All calculator computations are performed locally on your device, ensuring your data privacy and security."
+      },
+      "collection": {
+        "title": "Information We Collect",
+        "intro": "We may collect different types of information, including:",
+        "personal": {
+          "title": "Personally Identifiable Information",
+          "intro": "We do not collect or store any personally identifiable information. All calculator operations are performed locally in your browser. We do not have contact forms or user accounts.",
+          "list": []
+        },
+        "nonPersonal": {
+          "title": "Analytics Information",
+          "intro": "We use Google Analytics to understand how visitors use our site. This service may collect anonymous information such as:",
+          "list": [
+            "Browser type and version",
+            "Operating system",
+            "Pages visited and time spent",
+            "Referring website",
+            "Geographic region (country/city level only)"
+          ],
+          "note": "This data is collected by Google Analytics and is not stored on our servers. All calculator inputs and results remain private on your device."
+        }
+      },
+      "usage": {
+        "title": "How We Use Information",
+        "intro": "We use the information we collect for the following purposes:",
+        "list": [
+          {
+            "bold": "Improving our site:",
+            "text": "We constantly strive to improve our site content and offerings based on the information and feedback we receive from you."
+          },
+          {
+            "bold": "Improving customer service:",
+            "text": "The information you provide helps us respond more effectively to customer service requests and support needs."
+          },
+          {
+            "bold": "Sending periodic emails:",
+            "text": "We may use the email address you provide to respond to your inquiries or comments."
+          },
+          {
+            "bold": "Personalizing user experience:",
+            "text": "We may use information, in aggregate, to understand how users use our services and resources provided on our site."
+          }
+        ]
+      },
+      "cookies": {
+        "title": "Cookies",
+        "p1": "Our site uses 'cookies' to enhance user experience, analyze trends, and manage the site. Cookies are small text files placed on your computer by a web page server. They are stored on your device's hard drive.",
+        "p2": "You can choose to set your browser to refuse cookies, or to alert you when cookies are sent. If you do so, note that some parts of the site may not function properly.",
+        "types": {
+          "title": "Types of Cookies We Use",
+          "list": [
+            {
+              "bold": "Session Cookies:",
+              "text": "These are temporary files that stay on your device until you leave our site."
+            },
+            {
+              "bold": "Persistent Cookies:",
+              "text": "These remain on your device for a specified period or until you delete them manually."
+            },
+            {
+              "bold": "Analytical Cookies:",
+              "text": "We use services like Google Analytics to understand how users interact with our site."
+            }
+          ]
+        }
+      },
+      "ads": {
+        "title": "Advertising",
+        "p1": "Our site may use third-party advertising networks, such as Google AdSense, to show ads. These networks use cookies to show suitable ads to you based on your interests and internet use.",
+        "p2": "You can choose not to use Google's cookies by visiting the Google Ad Settings page. Alternatively, you can choose not to use cookies by other advertising providers by visiting the Network Advertising Initiative site."
+      },
+      "security": {
+        "title": "Information Security",
+        "p1": "We follow appropriate security practices and procedures to protect your personal data from loss, misuse, modification, unauthorized disclosure, or unauthorized access. However, please note that no method of transmission over the internet or method of electronic storage is 100% secure.",
+        "p2": "While we strive to use commercially acceptable means to protect your personal information, we cannot guarantee its absolute security."
+      },
+      "links": {
+        "title": "Links to Other Websites",
+        "p1": "Our site may contain links to other sites. Please note that we are not responsible for the privacy practices of other sites. We encourage you to read the privacy statements of each site you visit that collects personally identifiable information.",
+        "p2": "This privacy policy applies only to information collected through our site."
+      },
+      "rights": {
+        "title": "Your Privacy Rights",
+        "intro": "Depending on your location, you may have the following rights regarding your personal data:",
+        "list": [
+          "Right to access your personal data",
+          "Right to correct your personal data",
+          "Right to delete your personal data",
+          "Right to restrict processing of your personal data",
+          "Right to data portability",
+          "Right to object to processing of your personal data"
+        ],
+        "p1": "If you wish to exercise any of these rights, please contact us using the information provided below."
+      },
+      "changes": {
+        "title": "Changes to This Privacy Policy",
+        "p1": "We reserve the right to modify this privacy policy at any time, so please review it periodically. Changes will be posted on this page.",
+        "p2": "By continuing to use our site after changes are posted, you accept and agree to the modified privacy policy."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "intro": "If you have any questions about this privacy policy, you can contact us through:",
+        "list": [
+          "Visiting the 'Contact Us' page on our site"
+        ]
+      }
+    }
+  },
+  "contact": {
+    "title": "Contact Us | Alathasiba",
+    "metaDescription": "Contact us at Alathasiba for inquiries and suggestions.",
+    "metaKeywords": "contact us, technical support, suggestions",
+    "heading": "Contact Us",
+    "subHeading": "We are here to help. If you have any questions, suggestions, or encountered a problem using the site, feel free to contact us.",
+    "intro": "We are here to help. If you have any questions, suggestions, or encountered a problem using the site, feel free to contact us.",
+    "email": {
+      "title": "Email Us",
+      "description": "Send us your inquiries or suggestions and we'll respond as soon as possible."
+    },
+    "support": {
+      "title": "Support the Project",
+      "description": "Help us continue and develop more free tools.",
+      "link": "Buy us a coffee"
+    },
+    "social": {
+      "title": "Follow Us on Social Media",
+      "description": "Follow us for the latest updates and new tools.",
+      "comingSoon": "Coming soon..."
+    },
+    "emailLabel": "Email",
+    "websiteLabel": "Website",
+    "responseTimeLabel": "Response Time",
+    "responseTimeValue": "Usually within 24 hours",
+    "formTitle": "Send us a Message",
+    "nameLabel": "Name",
+    "namePlaceholder": "Enter your name",
+    "emailInputLabel": "Email",
+    "emailPlaceholder": "name@example.com",
+    "subjectLabel": "Subject",
+    "subjectPlaceholder": "Choose a subject",
+    "subjectSuggestion": "Suggestion",
+    "subjectBug": "Reporting a Bug",
+    "subjectFeature": "Feature Request",
+    "subjectQuestion": "General Question",
+    "subjectOther": "Other",
+    "messageLabel": "Message",
+    "messagePlaceholder": "Write your message here...",
+    "sendButton": "Send Message",
+    "sending": "Sending...",
+    "successMessage": "Your message has been sent successfully! We will contact you soon.",
+    "errorSending": "An error occurred while sending the message. Please try again.",
+    "faqTitle": "Frequently Asked Questions",
+    "faq1Question": "Is it free to use the calculators?",
+    "faq1Answer": "Yes, all calculators and tools on our site are completely free to use.",
+    "faq2Question": "How can I report a bug?",
+    "faq2Answer": "You can use the contact form above and choose 'Reporting a Bug' from the subject list.",
+    "faq3Question": "Do you keep the data I enter?",
+    "faq3Answer": "We do not keep any personal data you enter in the calculators. Processing happens in your browser.",
+    "faq4Question": "Can I suggest a new calculator?",
+    "faq4Answer": "Of course! We welcome your suggestions. Please use the contact form to let us know what you want."
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "metaDescription": "The page you are looking for could not be found. It may have been moved, deleted, or never existed. Return to our homepage to find what you need.",
+    "heading": "Sorry, page not found",
+    "description": "It seems the page you are looking for has been moved, deleted, or never existed.",
+    "goHome": "Go Home",
+    "browseCategories": "Browse Categories"
+  },
+  "home": {
+    "hero": {
+      "title": "A Wide Range of Free Calculators",
+      "description": "We offer {{count}}+ free calculators and unit converters to help you in various fields: math, finance, health, and science.",
+      "browseCategories": "Browse Categories",
+      "learnAboutUs": "Learn About Us",
+      "newFeatures": "{{count}}+ professional tools"
+    },
+    "featuredCategories": {
+      "title": "Featured Categories",
+      "description": "Discover a variety of tools categorized to make it easy for you to find what you need.",
+      "allCategories": "All Categories"
+    },
+    "popularCalculators": {
+      "title": "Most Popular Calculators",
+      "description": "The most requested and frequently used tools by our visitors daily.",
+      "categoryLabel": "Category",
+      "allPopular": "All Popular Calculators"
+    },
+    "benefits": {
+      "title": "Why Use Alathasiba Calculators?",
+      "description": "We strive to provide the best possible experience for our users through accurate and easy-to-use tools.",
+      "easyToUse": {
+        "title": "Easy to Use",
+        "description": "Simple and carefully designed interfaces to help you get results quickly."
+      },
+      "accurate": {
+        "title": "Accurate and Reliable",
+        "description": "Carefully tested calculation algorithms to ensure the highest levels of accuracy."
+      },
+      "free": {
+        "title": "Completely Free",
+        "description": "All our services are available to everyone for free, no subscription required."
+      }
+    },
+    "support": {
+      "title": "Support the Project",
+      "description": "Our site is completely free. You can support us to help us continue and develop new tools.",
+      "supportButton": "Buy us a coffee"
+    },
+    "cta": {
+      "title": "Ready to Get Started?",
+      "description": "Use our {{count}}+ free calculators now.",
+      "browseCalculators": "Start Browsing"
+    }
+  },
+  "categories": {
+    "title": "Calculator Categories | Alathasiba Calculators",
+    "description": "Browse all calculator categories available on our site.",
+    "keywords": "calculator categories, calculators, scientific calculators, converters",
+    "subtitle": "Browse calculators by category. Choose the category that fits your needs.",
+    "featuredTools": "Featured Tools",
+    "calculatorCount": "{{count}} calculators",
+    "allCategories": "All Categories"
+  },
+  "category": {
+    "notFoundTitle": "Category Not Found | Alathasiba Calculators",
+    "notFound": "Category Not Found",
+    "notFoundDescription": "Sorry, we could not find the category you are looking for.",
+    "browseAllCategories": "Browse All Categories",
+    "defaultName": "Category",
+    "defaultDescription": "Browse the collection of calculators available in this category.",
+    "defaultMetaDescription": "A comprehensive list of online calculators and tools.",
+    "metaKeywords": "calculators, {{category}}, free tools",
+    "defaultCategoryDescription": "Use our {{category}} calculators for accurate results for your needs.",
+    "aboutCategory": "About {{category}}",
+    "aboutParagraph1": "Our {{category}} calculators are designed to help you solve complex problems and get accurate results quickly.",
+    "aboutParagraph2": "Whether you are a student, professional, or just curious, these tools provide essential calculations for {{category}}.",
+    "topCalculators": "Top {{category}} Calculators",
+    "noCalculators": "There are no calculators in this category at the moment."
+  },
+  "mostUsed": {
+    "title": "Most Used Calculators",
+    "description": "Discover our most popular tools used by thousands of users monthly.",
+    "heading": "Most Used Calculators",
+    "subtitle": "Discover our most popular tools and most requested calculators.",
+    "trendingNow": "Trending Now",
+    "useNow": "Use Now",
+    "noCalculatorsFound": "No Calculators Found",
+    "noCalculatorsDescription": "We could not find any popular calculators at this time.",
+    "backToHome": "Back to Home"
+  },
+  "search": {
+    "resultsFor": "Search results for:",
+    "showingResultsFor": "Showing search results for",
+    "foundResults": "Found {{count}} results",
+    "noResults": "No results found",
+    "noResultsFor": "No results found for",
+    "tryDifferent": "Try searching with a different term.",
+    "placeholder": "Search for a calculator...",
+    "viewAllResults": "View all results",
+    "searching": "Searching..."
+  },
+  "calculator": {
+    "relatedCalculators": "Related Calculators",
+    "loadError": "Error loading calculator",
+    "loadErrorDescription": "Sorry, an error occurred while loading the calculator component. Please try again later.",
+    "notFound": "Calculator not found",
+    "notFoundDescription": "Sorry, we could not find the calculator you are looking for.",
+    "supportUs": "Support our project"
+  }
+}

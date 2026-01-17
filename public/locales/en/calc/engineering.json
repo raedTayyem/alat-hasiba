@@ -1,0 +1,464 @@
+{
+  "gear": {
+    "title": "Gear Ratio Calculator",
+    "description": "Calculate gear ratio, speed ratio, and torque for simple and compound gear sets.",
+    "gear_type": "Gear Type",
+    "gear_type_tooltip": "Choose between a simple or compound gear set",
+    "simple": "Simple",
+    "compound": "Compound",
+    "number_of_stages": "Number of Stages",
+    "number_of_stages_tooltip": "Number of gear stages in the compound set",
+    "stage": "Stage",
+    "driving_teeth": "Number of Teeth (Driving)",
+    "driving_teeth_tooltip": "The gear that provide input (driver)",
+    "driven_teeth": "Number of Teeth (Driven)",
+    "driven_teeth_tooltip": "The gear that receives motion (follower/output)",
+    "input_speed": "Input Speed (RPM)",
+    "input_speed_tooltip": "Rotational speed of the driving gear in Revolutions Per Minute",
+    "input_torque": "Input Torque (N.m)",
+    "input_torque_tooltip": "Torque applied to the driving gear in Newton-meters",
+    "efficiency": "Efficiency (%)",
+    "efficiency_tooltip": "Transmission efficiency (typically 90-98%)",
+    "info_title": "About Gear Ratio Calculator",
+    "use_cases_title": "Use Cases",
+    "use_case_1": "Designing gearboxes for motors",
+    "use_case_2": "Robotics and machinery engineering",
+    "use_case_3": "Bicycle and vehicle gear calculations",
+    "gear_ratio": "Gear Ratio",
+    "simple_gear": "Simple Gear Set",
+    "compound_gear": "Compound Gear Set",
+    "stages": "Stages",
+    "output_parameters": "Output Parameters",
+    "output_speed": "Output Speed",
+    "output_torque": "Output Torque",
+    "bar_ratio": "Speed Ratio",
+    "mechanical_advantage": "Mechanical Advantage",
+    "rpm": "Rotations Per Minute (RPM)",
+    "nm": "Newton-meters (N.m)",
+    "dimensionless": "Dimensionless",
+    "formulas_used": "Formulas Used",
+    "invalid_stage2": "Invalid data for Stage 2",
+    "invalid_stage3": "Invalid data for Stage 3",
+    "placeholders": {
+      "driving_teeth": "20",
+      "driven_teeth": "60",
+      "driving_teeth_s2": "15",
+      "driven_teeth_s2": "45",
+      "driving_teeth_s3": "10",
+      "driven_teeth_s3": "30",
+      "input_speed": "1000",
+      "input_torque": "10",
+      "efficiency": "95"
+    },
+    "speed_ratio": "Speed Ratio",
+    "howItWorks": {
+      "title": "How the Gear Ratio Calculator Works",
+      "formula": "Gear Ratio = Driven Teeth / Driving Teeth",
+      "explanation": "This calculator computes gear ratio, speed transmission, and torque multiplication between gear sets. The gear ratio is the ratio of driven gear teeth to driving gear teeth.",
+      "steps": [
+        "Select gear set type (simple or compound)",
+        "Enter the number of teeth for driving and driven gears",
+        "Enter input speed and torque",
+        "Review results including output speed and torque"
+      ]
+    },
+    "useCases": [
+      "Designing vehicle and machinery gearboxes",
+      "Robotics system calculations",
+      "Bicycle and sports equipment gearing",
+      "Industrial systems and conveyors"
+    ],
+    "seoTips": [
+      "Ratio > 1 means speed reduction and torque increase",
+      "Ratio < 1 means speed increase and torque reduction",
+      "Typical steel gear efficiency is 95-98%",
+      "Compound gears multiply ratios for greater reduction"
+    ],
+    "commonMistakes": [
+      "Confusing driving and driven gears",
+      "Ignoring efficiency losses in calculations",
+      "Not accounting for gear wear over time",
+      "Using gears with incompatible pitch diameters"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between simple and compound gears?",
+        "answer": "Simple gears consist of only two gears, while compound gear sets have multiple stages whose ratios multiply together for greater speed reduction or increase."
+      },
+      {
+        "question": "How do I increase torque using gears?",
+        "answer": "Use a driven gear with more teeth than the driving gear. Every increase in ratio multiplies torque by the same factor while reducing speed proportionally."
+      },
+      {
+        "question": "What is typical gear efficiency?",
+        "answer": "Well-lubricated helical gears achieve 95-98% efficiency. Worm gears may drop to 50-90% depending on the helix angle."
+      }
+    ]
+  },
+  "electrical-resistance": {
+    "title": "Electrical Resistance Calculator",
+    "description": "Calculate electrical resistance using Ohm's law. Free resistance calculator for voltage, current, and resistance calculations.",
+    "modes": {
+      "resistance": "Calculate Resistance",
+      "voltage": "Calculate Voltage",
+      "current": "Calculate Current"
+    },
+    "voltage": "Voltage",
+    "voltage_tooltip": "Electrical potential difference in Volts (V)",
+    "current": "Current",
+    "current_tooltip": "Electrical current in Amperes (A)",
+    "resistance": "Resistance",
+    "resistance_tooltip": "Electrical resistance in Ohms",
+    "power": "Power",
+    "placeholders": {
+      "voltage": "e.g., 12",
+      "current": "e.g., 2",
+      "resistance": "e.g., 100"
+    },
+    "errors": {
+      "invalid_input": "Please enter valid numeric values",
+      "current_zero": "Current cannot be zero when calculating resistance",
+      "resistance_zero": "Resistance cannot be zero when calculating current"
+    },
+    "info_title": "About Ohm's Law Calculator",
+    "info_description": "This calculator uses Ohm's Law to calculate the relationship between voltage, current, and resistance in electrical circuits.",
+    "formulas_title": "Formulas",
+    "formula_v": "Voltage equals Current times Resistance",
+    "formula_i": "Current equals Voltage divided by Resistance",
+    "formula_r": "Resistance equals Voltage divided by Current",
+    "formula_p": "Power equals Voltage times Current",
+    "result_resistance": "Calculated Resistance",
+    "result_voltage": "Calculated Voltage",
+    "result_current": "Calculated Current",
+    "all_values": "All Electrical Values",
+    "ohms_law": "Ohm's Law",
+    "ohms_law_explanation": "V = I x R describes the relationship between voltage (V), current (I), and resistance (R) in an electrical circuit.",
+    "howItWorks": {
+      "title": "How the Electrical Resistance Calculator Works",
+      "formula": "R = V / I, V = I × R, I = V / R",
+      "explanation": "This calculator uses Ohm's Law to calculate the relationship between voltage, current, and resistance. Ohm's Law is the foundation for understanding electrical circuits.",
+      "steps": [
+        "Select what you want to calculate (resistance, voltage, or current)",
+        "Enter the two known values",
+        "The calculator automatically computes the unknown value",
+        "Review results including power consumption"
+      ]
+    },
+    "useCases": [
+      "Designing electronic circuits",
+      "Calculating required resistor values",
+      "Determining device power consumption",
+      "Troubleshooting electrical circuits"
+    ],
+    "seoTips": [
+      "Voltage in Volts (V), Current in Amps (A), Resistance in Ohms",
+      "Power = Voltage × Current (in Watts)",
+      "Ensure consistent units throughout calculations",
+      "Ohm's Law applies to linear circuits only"
+    ],
+    "commonMistakes": [
+      "Mixing units (milliamps instead of amps)",
+      "Applying Ohm's Law to non-linear components",
+      "Ignoring temperature effects on resistance",
+      "Forgetting to calculate power dissipation"
+    ],
+    "faqs": [
+      {
+        "question": "What is the relationship between voltage, current, and resistance?",
+        "answer": "Voltage equals current times resistance (V = I × R). Increasing resistance reduces current at constant voltage, and vice versa."
+      },
+      {
+        "question": "When can I not apply Ohm's Law?",
+        "answer": "Ohm's Law doesn't apply to non-linear components like diodes and transistors, because their resistance changes with voltage and current."
+      },
+      {
+        "question": "How do I calculate power consumption?",
+        "answer": "Power (P) = Voltage × Current = V × I, or P = I² × R, or P = V² / R. All formulas give the same result."
+      }
+    ]
+  },
+  "material-conversion": {
+    "title": "Material Conversion Calculator",
+    "description": "Convert units and quantities for engineering materials including weight, length, area, and volume conversions.",
+    "modes": {
+      "weight": "Weight",
+      "length": "Length",
+      "area": "Area",
+      "volume": "Volume"
+    },
+    "value": "Value",
+    "value_tooltip": "Enter the value to convert",
+    "from_unit": "From Unit",
+    "from_unit_tooltip": "Select the source unit",
+    "to_unit": "To Unit",
+    "to_unit_tooltip": "Select the target unit",
+    "material": "Material",
+    "material_tooltip": "Select material for density reference",
+    "density": "Density",
+    "materials": {
+      "steel": "Steel",
+      "aluminum": "Aluminum",
+      "copper": "Copper",
+      "concrete": "Concrete",
+      "wood_oak": "Oak Wood",
+      "wood_pine": "Pine Wood",
+      "brick": "Brick",
+      "glass": "Glass",
+      "plastic_pvc": "PVC Plastic",
+      "water": "Water"
+    },
+    "placeholders": {
+      "value": "e.g., 100"
+    },
+    "errors": {
+      "invalid_input": "Please enter a valid numeric value",
+      "positive_value": "Value must be positive"
+    },
+    "info_title": "About Material Conversion",
+    "info_description": "This calculator converts between different units of measurement commonly used in engineering and construction.",
+    "use_cases_title": "Use Cases",
+    "use_case_1": "Converting between metric and imperial units",
+    "use_case_2": "Material quantity calculations for construction",
+    "use_case_3": "Engineering specifications and tolerances",
+    "conversion_details": "Conversion Details",
+    "original_value": "Original Value",
+    "converted_value": "Converted Value",
+    "conversion_formula": "Conversion Method",
+    "conversion_explanation": "Values are converted through their base units to ensure accuracy across all measurement systems.",
+    "howItWorks": {
+      "title": "How the Material Conversion Calculator Works",
+      "formula": "Converted Value = Original Value × Conversion Factor",
+      "explanation": "This calculator converts between different units of measurement for weight, length, area, and volume, accounting for material densities when needed.",
+      "steps": [
+        "Select conversion type (weight, length, area, or volume)",
+        "Enter the value to convert",
+        "Choose source and target units",
+        "Review the conversion result"
+      ]
+    },
+    "useCases": [
+      "Construction material quantity calculations",
+      "Converting between metric and imperial systems",
+      "Estimating material weights from volume",
+      "Engineering specifications and bids"
+    ],
+    "seoTips": [
+      "1 meter = 3.281 feet = 39.37 inches",
+      "1 kilogram = 2.205 pounds",
+      "1 square meter = 10.764 square feet",
+      "Steel density is approximately 7850 kg/m3"
+    ],
+    "commonMistakes": [
+      "Confusing weight and mass",
+      "Ignoring material density when converting volume to weight",
+      "Using approximate conversion factors in precision applications",
+      "Confusing US and UK gallons"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between metric and US tons?",
+        "answer": "Metric ton = 1000 kg, US (short) ton = 907.185 kg, UK (long) ton = 1016.05 kg."
+      },
+      {
+        "question": "How do I convert volume to weight?",
+        "answer": "Weight = Volume × Density. Example: 1 cubic meter of steel (density 7850 kg/m3) = 7850 kg."
+      },
+      {
+        "question": "What units are most common in construction?",
+        "answer": "In most countries: metric system (meters, kilograms, liters). In the US: feet, pounds, gallons. Converting between them is essential for international projects."
+      }
+    ]
+  },
+  "stress_strain": {
+    "title": "Stress and Strain Calculator",
+    "description": "Calculate mechanical stress, strain, and Young's modulus for materials under load.",
+    "modes": {
+      "stress": "Calculate Stress",
+      "strain": "Calculate Strain",
+      "youngs_modulus": "Young's Modulus",
+      "deformation": "Deformation"
+    },
+    "force": "Applied Force",
+    "force_tooltip": "Force applied to the material in Newtons (N)",
+    "area": "Cross-sectional Area",
+    "area_tooltip": "Area perpendicular to the force in square millimeters",
+    "original_length": "Original Length",
+    "original_length_tooltip": "Initial length of the material before deformation",
+    "change_in_length": "Change in Length",
+    "change_in_length_tooltip": "Amount of deformation (extension or compression)",
+    "stress": "Stress",
+    "stress_tooltip": "Mechanical stress in Megapascals (MPa)",
+    "strain": "Strain",
+    "strain_tooltip": "Dimensionless ratio of deformation to original length",
+    "youngs_modulus": "Young's Modulus",
+    "deformation": "Deformation",
+    "material": "Material",
+    "material_tooltip": "Select material for Young's modulus reference",
+    "placeholders": {
+      "force": "e.g., 10000",
+      "area": "e.g., 100",
+      "original_length": "e.g., 1000",
+      "change_in_length": "e.g., 0.5",
+      "stress": "e.g., 200",
+      "strain": "e.g., 0.001"
+    },
+    "errors": {
+      "invalid_input": "Please enter valid numeric values",
+      "area_positive": "Cross-sectional area must be positive",
+      "length_positive": "Original length must be positive",
+      "strain_zero": "Strain cannot be zero when calculating Young's modulus",
+      "positive_values": "All values must be positive"
+    },
+    "info_title": "About Stress and Strain",
+    "info_description": "This calculator determines the mechanical stress, strain, and material properties based on applied forces and dimensions.",
+    "formulas_title": "Formulas",
+    "formula_stress": "Stress = Force / Area",
+    "formula_strain": "Strain = Change in Length / Original Length",
+    "formula_youngs": "Young's Modulus = Stress / Strain",
+    "result_stress": "Calculated Stress",
+    "result_strain": "Calculated Strain",
+    "result_youngs": "Young's Modulus",
+    "result_deformation": "Calculated Deformation",
+    "all_values": "Material Properties",
+    "hookes_law": "Hooke's Law",
+    "hookes_law_explanation": "Within the elastic limit, stress is directly proportional to strain. This relationship is defined by Young's modulus (E).",
+    "howItWorks": {
+      "title": "How the Stress and Strain Calculator Works",
+      "formula": "Stress (sigma) = F/A, Strain (epsilon) = delta L/L0, E = sigma/epsilon",
+      "explanation": "This calculator computes stress (force per area), strain (deformation ratio), and Young's modulus which relates them. These concepts are fundamental to materials mechanics.",
+      "steps": [
+        "Select what to calculate (stress, strain, or Young's modulus)",
+        "Enter applied force and cross-sectional area",
+        "Enter original length and change in length",
+        "Review results and material properties"
+      ]
+    },
+    "useCases": [
+      "Designing structural elements",
+      "Material testing and quality control",
+      "Failure analysis and troubleshooting",
+      "Machine and mechanical equipment design"
+    ],
+    "seoTips": [
+      "Stress is measured in Pascals (Pa) or Megapascals (MPa)",
+      "Strain is unitless (ratio)",
+      "Young's modulus for steel is approximately 200 GPa",
+      "Yield strength is the maximum stress in the elastic region"
+    ],
+    "commonMistakes": [
+      "Confusing stress with force",
+      "Ignoring lateral strain (Poisson's ratio)",
+      "Applying Hooke's Law beyond the elastic region",
+      "Not accounting for temperature effects on material properties"
+    ],
+    "faqs": [
+      {
+        "question": "What is Young's modulus?",
+        "answer": "Young's modulus (E) measures material stiffness. It represents the ratio of stress to strain in the elastic region. Steel (200 GPa) is stiffer than aluminum (70 GPa)."
+      },
+      {
+        "question": "What is the difference between stress and strain?",
+        "answer": "Stress is force distributed over area (tension or compression). Strain is the ratio of deformation to original length. Stress causes strain."
+      },
+      {
+        "question": "When does a material fail?",
+        "answer": "Material fails when stress exceeds yield strength (permanent deformation) or ultimate tensile strength (fracture). Safety factors protect against failure."
+      }
+    ]
+  },
+  "hydraulic_cylinder": {
+    "title": "Hydraulic Cylinder Calculator",
+    "description": "Calculate force, pressure, and area for hydraulic cylinders and systems.",
+    "modes": {
+      "force": "Calculate Force",
+      "pressure": "Calculate Pressure",
+      "area": "Calculate Area",
+      "cylinder_sizing": "Cylinder Sizing"
+    },
+    "force": "Force",
+    "force_tooltip": "Output force of the cylinder in Newtons (N)",
+    "pressure": "Pressure",
+    "pressure_tooltip": "Hydraulic system pressure in bar",
+    "area": "Piston Area",
+    "area_tooltip": "Cross-sectional area of the piston in square centimeters",
+    "piston_diameter": "Piston Diameter",
+    "piston_diameter_tooltip": "Outer diameter of the piston/bore in millimeters",
+    "rod_diameter": "Rod Diameter",
+    "rod_diameter_tooltip": "Diameter of the piston rod in millimeters (for double-acting cylinders)",
+    "velocity": "Piston Velocity",
+    "velocity_tooltip": "Speed of piston movement in meters per second",
+    "extension_force": "Extension Force",
+    "retraction_force": "Retraction Force",
+    "flow_rate": "Flow Rate",
+    "placeholders": {
+      "force": "e.g., 50000",
+      "pressure": "e.g., 200",
+      "area": "e.g., 50",
+      "piston_diameter": "e.g., 80",
+      "rod_diameter": "e.g., 40",
+      "velocity": "e.g., 0.1"
+    },
+    "errors": {
+      "invalid_input": "Please enter valid numeric values",
+      "positive_values": "All values must be positive",
+      "area_positive": "Piston area must be positive",
+      "pressure_positive": "Pressure must be positive",
+      "rod_smaller": "Rod diameter must be smaller than piston diameter"
+    },
+    "info_title": "About Hydraulic Cylinders",
+    "info_description": "This calculator determines the force, pressure, and sizing parameters for hydraulic cylinder applications.",
+    "formulas_title": "Formulas",
+    "formula_force": "Force equals Pressure times Area",
+    "formula_pressure": "Pressure equals Force divided by Area",
+    "formula_area": "Area equals Force divided by Pressure",
+    "result_force": "Calculated Force",
+    "result_pressure": "Calculated Pressure",
+    "result_area": "Required Area",
+    "all_values": "Hydraulic Parameters",
+    "pascals_law": "Pascal's Law",
+    "pascals_law_explanation": "Pressure applied to a confined fluid is transmitted equally in all directions. F = P x A is the fundamental equation for hydraulic systems.",
+    "howItWorks": {
+      "title": "How the Hydraulic Cylinder Calculator Works",
+      "formula": "F = P × A, P = F / A, A = F / P",
+      "explanation": "This calculator computes force, pressure, and piston area for hydraulic cylinders using Pascal's Law. Applied pressure transmits equally throughout the confined fluid.",
+      "steps": [
+        "Select what to calculate (force, pressure, or area)",
+        "Enter piston diameter (and rod diameter for double-acting cylinders)",
+        "Enter known pressure or force",
+        "Review results including extension and retraction forces"
+      ]
+    },
+    "useCases": [
+      "Designing hydraulic lifting systems",
+      "Construction and excavation equipment calculations",
+      "Brake and steering systems",
+      "Industrial presses and tools"
+    ],
+    "seoTips": [
+      "Typical hydraulic pressure is 100-300 bar",
+      "Extension force is greater than retraction force (due to rod area)",
+      "Hydraulic oil is nearly incompressible",
+      "Hydraulic cylinder efficiency is 90-95%"
+    ],
+    "commonMistakes": [
+      "Ignoring rod area when calculating retraction force",
+      "Not accounting for seal friction losses",
+      "Exceeding safe operating pressure",
+      "Ignoring pressure losses in lines and valves"
+    ],
+    "faqs": [
+      {
+        "question": "Why is extension force greater than retraction force?",
+        "answer": "During extension, pressure acts on the full piston area. During retraction, the rod area is subtracted from the piston area, reducing effective area and resulting force."
+      },
+      {
+        "question": "How do I select the right cylinder size?",
+        "answer": "Determine required force and available system pressure. Area = Force / Pressure. Then calculate piston diameter from the area. Add 20-30% safety factor."
+      },
+      {
+        "question": "What is a safe operating pressure?",
+        "answer": "Safe pressure is typically 70-80% of test pressure. Standard cylinders operate at 160-250 bar, heavy-duty cylinders reach 400-700 bar."
+      }
+    ]
+  }
+}

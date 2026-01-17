@@ -1,0 +1,1992 @@
+{
+  "carbon_footprint": {
+    "title": "Carbon Footprint Calculator",
+    "description": "Estimate total carbon dioxide (CO2) emissions resulting from your energy consumption, transportation, and diet.",
+    "electricity_label": "Monthly Electricity Usage (kWh)",
+    "electricity_tooltip": "Enter your average monthly consumption from your electricity bill",
+    "electricity_placeholder": "e.g., 300",
+    "gas_label": "Monthly Gas Usage (m³)",
+    "gas_tooltip": "Enter your average monthly natural gas consumption",
+    "gas_placeholder": "e.g., 20",
+    "car_label": "Monthly Car Distance (km)",
+    "car_tooltip": "Average distance you travel in your private car",
+    "car_placeholder": "e.g., 1000",
+    "flights_label": "Annual Flight Hours",
+    "flights_tooltip": "Total number of hours spent on flights per year",
+    "flights_placeholder": "e.g., 10",
+    "diet_label": "Diet Type",
+    "diet_tooltip": "Your diet type significantly impacts your carbon emissions",
+    "diet_vegan": "Vegan",
+    "diet_vegetarian": "Vegetarian",
+    "diet_mixed": "Mixed (Moderate meat)",
+    "diet_meat_heavy": "Meat-heavy",
+    "result_label": "Total Annual Emissions",
+    "result_unit": "kg CO₂ / year",
+    "breakdown_title": "Emissions Breakdown",
+    "electricity_emissions": "Electricity Emissions",
+    "gas_emissions": "Gas Emissions",
+    "transport_emissions": "Transport Emissions",
+    "flights_emissions": "Flight Emissions",
+    "diet_emissions": "Food Emissions",
+    "trees_needed": "Trees Needed for Carbon Offset",
+    "trees": "Trees",
+    "comparison_title": "Your Footprint Assessment",
+    "comparison_low": "Your carbon footprint is very low! You are eco-friendly.",
+    "comparison_average": "Your carbon footprint is close to the global average.",
+    "comparison_high": "Your carbon footprint is high. Try to reduce energy consumption or offset emissions.",
+    "info_title": "What is a Carbon Footprint?",
+    "info_description": "It is the total sum of greenhouse gases produced by individuals through daily activities. Reducing it helps combat climate change.",
+    "use_cases_title": "How to Reduce Your Footprint?",
+    "use_case_1": "Use energy-efficient appliances and LED bulbs.",
+    "use_case_2": "Rely more on public transport or cycling.",
+    "use_case_3": "Reduce red meat and dairy consumption.",
+    "error_at_least_one": "Please enter at least one value",
+    "error_negative": "Negative values are not allowed",
+    "error_calculation": "An error occurred during calculation",
+    "howItWorks": {
+      "title": "How Does the Carbon Footprint Calculator Work?",
+      "formula": "Total CO₂ = (Electricity × 0.5) + (Gas × 2.0) + (Car km × 0.21) + (Flight hours × 90) + Diet emissions",
+      "explanation": "This tool calculates your total annual carbon dioxide emissions based on energy consumption, transportation, and diet. Each activity is multiplied by a specific emission factor to convert it to CO₂ equivalent.",
+      "steps": [
+        "Enter your monthly electricity consumption in kWh",
+        "Enter your monthly natural gas consumption in cubic meters",
+        "Enter the monthly distance traveled by car in kilometers",
+        "Enter your annual flight hours",
+        "Select your diet type",
+        "Click Calculate to see your annual carbon footprint"
+      ]
+    },
+    "useCases": [
+      "Assess personal environmental impact and make eco-friendly decisions",
+      "Compare your carbon footprint to the global average (4-8 tons/year)",
+      "Identify key areas to reduce emissions in daily life",
+      "Calculate the number of trees needed to offset annual emissions"
+    ],
+    "seoTips": [
+      "Carbon footprint measures total greenhouse gases produced by your activities",
+      "Global average per person is approximately 4 tons CO₂ per year",
+      "Aviation and cars are among the largest sources of individual emissions",
+      "A plant-based diet can reduce carbon footprint by up to 50%",
+      "One tree absorbs approximately 21 kg of CO₂ per year"
+    ],
+    "commonMistakes": [
+      "Not accounting for food emissions which represent 25% of carbon footprint",
+      "Forgetting to include flight travel which produces very high emissions",
+      "Confusing monthly and annual consumption when entering data",
+      "Ignoring the impact of heating and cooling on energy consumption"
+    ],
+    "faqs": [
+      {
+        "question": "What is an ideal carbon footprint?",
+        "answer": "To keep temperature rise below 2°C, individual carbon footprint should be below 2 tons CO₂ per year."
+      },
+      {
+        "question": "How can I quickly reduce my carbon footprint?",
+        "answer": "The biggest impact comes from reducing flights, using public transport, and reducing red meat consumption."
+      },
+      {
+        "question": "Is carbon offsetting effective?",
+        "answer": "Carbon offsetting is helpful but the priority should be reducing emissions first, then offsetting what cannot be avoided."
+      },
+      {
+        "question": "Why does flying cause high emissions?",
+        "answer": "Aircraft burn large amounts of fuel and release emissions at high altitudes, which doubles their climate impact."
+      },
+      {
+        "question": "How many trees do I need to offset my emissions?",
+        "answer": "One tree absorbs about 21 kg CO₂ per year, so to offset 4 tons you need about 190 trees."
+      }
+    ]
+  },
+  "water_usage": {
+    "title": "Water Usage Calculator",
+    "description": "Estimate your daily water consumption at home and receive conservation tips.",
+    "shower_label": "Daily Shower Duration (minutes)",
+    "shower_tooltip": "Average time spent in the shower",
+    "shower_placeholder": "e.g., 10",
+    "toilet_label": "Daily Toilet Flushes",
+    "toilet_tooltip": "How many times you flush the toilet per day",
+    "toilet_placeholder": "e.g., 5",
+    "dish_label": "Dishwashing (times per day)",
+    "dish_tooltip": "Times dishes are washed manually or by machine",
+    "dish_placeholder": "e.g., 2",
+    "laundry_label": "Laundry (times per week)",
+    "laundry_tooltip": "Number of laundry loads per week",
+    "laundry_placeholder": "e.g., 3",
+    "cost_label": "Cost per Liter (optional)",
+    "cost_tooltip": "Water price per liter based on local tariff",
+    "cost_placeholder": "e.g., 0.005",
+    "result_label": "Total Daily Consumption",
+    "result_unit": "Liters / Day",
+    "details_title": "Consumption Details",
+    "monthly_usage": "Monthly Usage",
+    "yearly_usage": "Yearly Usage",
+    "liters": "Liters",
+    "daily_cost": "Daily Cost",
+    "monthly_cost": "Monthly Cost",
+    "yearly_cost": "Yearly Cost",
+    "comparison_title": "Your Usage Assessment",
+    "comparison_low": "Your water usage is low and ideal.",
+    "comparison_average": "Your usage is within the normal average per individual.",
+    "comparison_high": "Your usage is high. Try using water-saving devices.",
+    "info_title": "Why Conserve Water?",
+    "info_description": "Water is a precious and limited resource. Conserving usage protects the environment and reduces your monthly bills.",
+    "use_cases_title": "Simple Ways to Conserve",
+    "use_case_1": "Take shorter showers and install water-saving showerheads.",
+    "use_case_2": "Fix leaks promptly and use water-efficient appliances.",
+    "use_case_3": "Water plants early morning or late evening to reduce evaporation.",
+    "error_at_least_one": "Please enter at least one value",
+    "error_negative": "Negative values are not allowed",
+    "error_calculation": "An error occurred during calculation",
+    "howItWorks": {
+      "title": "How Does the Water Usage Calculator Work?",
+      "formula": "Daily Usage = (Shower minutes × 10L) + (Toilet flushes × 6L) + (Dishwashing × 15L) + (Laundry loads × 50L/7)",
+      "explanation": "This calculator estimates your daily water consumption by analyzing common household activities. Each activity uses a standard water flow rate to calculate total consumption.",
+      "steps": [
+        "Enter your average daily shower duration in minutes",
+        "Enter the number of toilet flushes per day",
+        "Enter how many times you wash dishes daily",
+        "Enter your weekly laundry loads",
+        "Optionally enter your local water cost per liter",
+        "Click Calculate to see your daily, monthly, and yearly water usage"
+      ]
+    },
+    "useCases": [
+      "Track household water consumption to identify wasteful habits",
+      "Estimate monthly and annual water bills for budgeting",
+      "Compare your usage against average consumption (100-150 liters/day)",
+      "Identify which activities consume the most water"
+    ],
+    "seoTips": [
+      "Average person uses 100-150 liters of water daily",
+      "A 10-minute shower uses approximately 100 liters of water",
+      "Fixing a dripping tap can save 20 liters per day",
+      "Water-efficient showerheads reduce consumption by 40%",
+      "Dual-flush toilets use 50% less water than traditional toilets"
+    ],
+    "commonMistakes": [
+      "Underestimating shower duration - most people shower longer than they think",
+      "Forgetting to count all toilet flushes throughout the day",
+      "Not accounting for water used in cooking and drinking",
+      "Ignoring outdoor water usage like gardening and car washing"
+    ],
+    "faqs": [
+      {
+        "question": "What is considered high water usage?",
+        "answer": "Using more than 150 liters per person per day is considered high. The sustainable target is below 100 liters per day."
+      },
+      {
+        "question": "How can I reduce shower water usage?",
+        "answer": "Install a low-flow showerhead, take shorter showers (5 minutes max), and turn off water while lathering."
+      },
+      {
+        "question": "Does a dishwasher use more water than hand washing?",
+        "answer": "Modern efficient dishwashers typically use 10-15 liters per cycle, while hand washing can use 40-60 liters for the same dishes."
+      },
+      {
+        "question": "How much water does a toilet flush use?",
+        "answer": "Traditional toilets use 9-12 liters per flush, while modern dual-flush toilets use 3-6 liters."
+      },
+      {
+        "question": "What percentage of household water is used for bathing?",
+        "answer": "Bathing and showering typically account for 30-35% of household water consumption."
+      }
+    ]
+  },
+  "co2_emissions": {
+    "title": "CO₂ Emissions Calculator",
+    "description": "Calculate CO₂ emissions from daily activities and energy consumption",
+    "activity_details": "Activity Details",
+    "activity_type": "Activity Type",
+    "activity_type_tooltip": "Type of activity or fuel",
+    "amount": "Amount",
+    "amount_tooltip": "Amount consumed",
+    "enter_amount": "Enter amount",
+    "calculate_btn": "Calculate Emissions",
+    "reset_btn": "Reset",
+    "results": "Results",
+    "co2_emissions_result": "CO₂ Emissions",
+    "kg_co2": "kg CO₂",
+    "trees_needed": "Trees Needed to Offset",
+    "trees": "trees",
+    "per_year": "(for one year)",
+    "car_equivalent": "Equivalent to Car Running",
+    "days": "days",
+    "avg_car": "(based on average car)",
+    "facts_title": "Important Facts",
+    "fact_trees": "One tree absorbs about 21 kg of CO₂ annually",
+    "fact_car": "Average car produces about 4.6 tons CO₂ annually",
+    "fact_emissions": "Emissions vary by energy source and efficiency",
+    "empty_state": "Enter activity details to calculate CO₂ emissions",
+    "footer_note": "These calculations are based on standard global emission factors.",
+    "options": {
+      "electricity": "Electricity (kWh)",
+      "naturalgas": "Natural Gas (m³)",
+      "petrol": "Petrol (liters)",
+      "diesel": "Diesel (liters)",
+      "coal": "Coal (kg)",
+      "propane": "Propane (kg)"
+    },
+    "howItWorks": {
+      "title": "How Does the CO₂ Emissions Calculator Work?",
+      "formula": "CO₂ = Amount × Emission Factor (varies by fuel type)",
+      "explanation": "This calculator converts your energy consumption or fuel usage into equivalent CO₂ emissions using standardized emission factors for each fuel type.",
+      "steps": [
+        "Select the activity or fuel type from the dropdown",
+        "Enter the amount consumed in the specified unit",
+        "Click Calculate to see your CO₂ emissions",
+        "View the equivalent number of trees needed to offset emissions"
+      ]
+    },
+    "useCases": [
+      "Calculate emissions from specific fuel consumption for reporting",
+      "Compare environmental impact of different energy sources",
+      "Track business or household carbon emissions over time",
+      "Plan carbon offset strategies based on actual emissions"
+    ],
+    "seoTips": [
+      "Coal produces the highest CO₂ per unit of energy (2.42 kg CO₂/kg)",
+      "Natural gas is cleaner than coal, producing 2.0 kg CO₂/m³",
+      "Electricity emissions depend on the grid mix (0.5 kg CO₂/kWh average)",
+      "Diesel produces slightly more CO₂ than petrol per liter",
+      "One tree absorbs approximately 21 kg of CO₂ per year"
+    ],
+    "commonMistakes": [
+      "Using incorrect units (liters vs gallons, kWh vs MWh)",
+      "Not accounting for all emission sources in a calculation",
+      "Forgetting upstream emissions from fuel production",
+      "Assuming all electricity has the same carbon intensity"
+    ],
+    "faqs": [
+      {
+        "question": "Which fuel produces the most CO₂?",
+        "answer": "Coal produces the most CO₂ per unit of energy, followed by diesel, petrol, and natural gas. Renewable energy produces zero direct emissions."
+      },
+      {
+        "question": "How accurate are these emission factors?",
+        "answer": "These are internationally standardized average emission factors. Actual emissions may vary by fuel quality and combustion efficiency."
+      },
+      {
+        "question": "Why does electricity have CO₂ emissions?",
+        "answer": "Most electricity is generated from fossil fuels. The emission factor depends on your local grid mix of coal, gas, nuclear, and renewables."
+      },
+      {
+        "question": "How many trees offset 1 tonne of CO₂?",
+        "answer": "Approximately 48 mature trees are needed to absorb 1 tonne of CO₂ per year, as each tree absorbs about 21 kg annually."
+      }
+    ]
+  },
+  "carbon_offset": {
+    "title": "Carbon Offset Calculator",
+    "description": "Calculate required carbon offset and available options",
+    "carbon_amount": "Carbon Amount",
+    "co2_amount": "CO₂ Amount (kg)",
+    "co2_amount_tooltip": "Amount of CO₂ to offset",
+    "preferred_method": "Preferred Offset Method",
+    "preferred_method_tooltip": "Preferred method for carbon offsetting",
+    "calculate_btn": "Calculate Offset",
+    "reset_btn": "Reset",
+    "offset_options": "Offset Options",
+    "tree_planting": "Tree Planting",
+    "trees": "trees",
+    "solar_energy": "Solar Energy",
+    "panels": "panels",
+    "wind_energy": "Wind Energy",
+    "turbines": "turbines",
+    "estimated_cost": "Estimated Cost",
+    "sar": "SAR",
+    "required_area": "Required land area:",
+    "sq_m": "m²",
+    "tips_title": "Carbon Offset Tips",
+    "tip_native": "Planting native trees is more effective for local environment",
+    "tip_renewable": "Renewable energy provides continuous long-term offset",
+    "tip_certified": "Ensure certified and reliable offset programs",
+    "tip_reduce": "Best approach is to reduce emissions before offsetting",
+    "empty_state": "Enter CO₂ amount to calculate offset options",
+    "footer_note": "Estimates are based on annual absorption averages and may vary by conditions.",
+    "options": {
+      "trees": "Tree Planting",
+      "solar": "Solar Energy",
+      "wind": "Wind Energy",
+      "mixed": "Mixed"
+    },
+    "howItWorks": {
+      "title": "How Does the Carbon Offset Calculator Work?",
+      "formula": "Trees needed = CO₂ (kg) ÷ 21 kg/tree/year | Solar panels = CO₂ ÷ 400 kg/panel/year",
+      "explanation": "This calculator determines how many trees, solar panels, or wind turbines are needed to offset a given amount of CO₂ emissions based on their average annual carbon absorption or displacement rates.",
+      "steps": [
+        "Enter the amount of CO₂ you want to offset in kilograms",
+        "Select your preferred offset method",
+        "Click Calculate to see offset requirements",
+        "View estimated costs and land area needed"
+      ]
+    },
+    "useCases": [
+      "Plan tree planting initiatives to achieve carbon neutrality",
+      "Compare costs of different carbon offset strategies",
+      "Calculate land requirements for offset projects",
+      "Budget for corporate or personal carbon offset programs"
+    ],
+    "seoTips": [
+      "One mature tree absorbs approximately 21 kg CO₂ per year",
+      "A typical solar panel offsets about 400 kg CO₂ annually",
+      "Wind turbines can offset 1,000+ tonnes of CO₂ per year",
+      "Carbon offset costs range from $10-50 per tonne of CO₂",
+      "Native trees are more effective for local ecosystems"
+    ],
+    "commonMistakes": [
+      "Expecting instant results - trees take years to reach full absorption capacity",
+      "Not accounting for maintenance costs and tree mortality",
+      "Choosing offset methods without considering local conditions",
+      "Relying solely on offsets instead of reducing emissions first"
+    ],
+    "faqs": [
+      {
+        "question": "Is tree planting the best offset method?",
+        "answer": "Tree planting is effective but slow. Renewable energy provides immediate, verifiable offsets. A mixed approach is often recommended."
+      },
+      {
+        "question": "How long until planted trees start absorbing significant CO₂?",
+        "answer": "Trees absorb CO₂ from day one, but reach peak absorption at 10-20 years of age. Young trees absorb less than mature ones."
+      },
+      {
+        "question": "Are carbon offsets reliable?",
+        "answer": "Choose certified programs (Gold Standard, Verified Carbon Standard) to ensure offsets are real, additional, and permanent."
+      },
+      {
+        "question": "Should I offset or reduce emissions?",
+        "answer": "Always prioritize reducing emissions first. Offsetting should complement reduction efforts, not replace them."
+      },
+      {
+        "question": "What is the cost per tonne of CO₂ offset?",
+        "answer": "Quality carbon offsets typically cost $15-50 per tonne, depending on the project type and certification standard."
+      }
+    ]
+  },
+  "composting": {
+    "title": "Composting Calculator",
+    "description": "Calculate compost production from your waste",
+    "section_title": "Weekly Organic Waste",
+    "food_waste": "Food Waste (kg)",
+    "food_waste_tooltip": "Weekly organic food waste",
+    "yard_waste": "Yard Waste (kg)",
+    "yard_waste_tooltip": "Weekly leaves, branches, grass",
+    "compost_method": "Composting Method",
+    "compost_method_tooltip": "Method used for composting",
+    "enter_amount": "Enter amount",
+    "calculate_btn": "Calculate Production",
+    "reset_btn": "Reset",
+    "results_title": "Compost Production",
+    "annual_compost": "Annual Ready Compost",
+    "landfill_diverted": "Waste Diverted from Landfill",
+    "methane_prevented": "Methane Prevented",
+    "garden_benefit": "Garden Area Benefited",
+    "kg_year": "kg/year",
+    "kg_ch4": "kg CH₄",
+    "sq_m": "m²",
+    "tips_title": "Tips for Successful Composting",
+    "tip_balance": "Maintain balance between green (nitrogen) and brown (carbon) materials",
+    "tip_turn": "Turn pile regularly to provide oxygen",
+    "tip_moist": "Keep moderately moist",
+    "tip_ready": "Compost ready in 3-6 months",
+    "empty_state": "Enter organic waste amount to calculate compost production",
+    "footer_note": "Composting reduces waste and naturally improves soil health.",
+    "options": {
+      "pile": "Compost Pile",
+      "bin": "Compost Bin",
+      "tumbler": "Compost Tumbler",
+      "worm": "Worm Composting"
+    },
+    "howItWorks": {
+      "title": "How Does the Composting Calculator Work?",
+      "formula": "Annual Compost = (Food waste + Yard waste) × 52 weeks × Conversion rate (30-50%)",
+      "explanation": "This calculator estimates how much finished compost you can produce from organic waste, along with the environmental benefits of diverting waste from landfills.",
+      "steps": [
+        "Enter your weekly food waste in kilograms",
+        "Enter your weekly yard waste (leaves, grass, branches)",
+        "Select your composting method",
+        "Click Calculate to see annual compost production",
+        "View methane prevented and garden area benefited"
+      ]
+    },
+    "useCases": [
+      "Plan home composting systems based on waste volume",
+      "Calculate environmental benefits of composting for sustainability reports",
+      "Determine appropriate compost bin size for your household",
+      "Estimate compost available for garden fertilization"
+    ],
+    "seoTips": [
+      "Composting reduces waste sent to landfills by 30-40%",
+      "Organic waste in landfills produces methane, 25x worse than CO₂",
+      "Finished compost is about 30-50% of original waste volume",
+      "Compost enriches soil and reduces need for chemical fertilizers",
+      "Worm composting produces nutrient-rich vermicompost"
+    ],
+    "commonMistakes": [
+      "Adding meat, dairy, or oils which attract pests and slow decomposition",
+      "Not maintaining proper carbon-to-nitrogen ratio (ideal is 30:1)",
+      "Keeping compost too wet or too dry",
+      "Not turning the pile regularly for proper aeration"
+    ],
+    "faqs": [
+      {
+        "question": "How long does composting take?",
+        "answer": "Hot composting takes 1-3 months, cold composting 6-12 months, and worm composting 3-6 months depending on conditions."
+      },
+      {
+        "question": "What is the ideal carbon-to-nitrogen ratio?",
+        "answer": "The ideal C:N ratio is 25-30:1. Browns (leaves, cardboard) provide carbon, greens (food scraps, grass) provide nitrogen."
+      },
+      {
+        "question": "Can I compost in winter?",
+        "answer": "Yes, composting slows but continues. Insulate your bin and add more browns. A tumbler works better in cold climates."
+      },
+      {
+        "question": "How much compost do I need for my garden?",
+        "answer": "Apply 2-5 cm of compost annually. One square meter of garden needs about 20-50 kg of compost per year."
+      },
+      {
+        "question": "Why does my compost smell bad?",
+        "answer": "Bad odors indicate too much nitrogen (greens) or too much moisture. Add brown materials and turn the pile to improve aeration."
+      }
+    ]
+  },
+  "diet_footprint": {
+    "title": "Diet Carbon Footprint Calculator",
+    "description": "Calculate carbon footprint of your diet",
+    "consumption_title": "Weekly Consumption (kg)",
+    "beef": "Beef",
+    "beef_tooltip": "Weekly beef consumption",
+    "chicken": "Chicken",
+    "chicken_tooltip": "Weekly chicken consumption",
+    "fish": "Fish",
+    "fish_tooltip": "Weekly fish consumption",
+    "dairy": "Dairy Products",
+    "dairy_tooltip": "Weekly dairy consumption",
+    "vegetables": "Vegetables",
+    "vegetables_tooltip": "Weekly vegetables consumption",
+    "grains": "Grains & Starches",
+    "grains_tooltip": "Weekly grains consumption",
+    "enter_amount": "Enter amount",
+    "calculate_btn": "Calculate Footprint",
+    "reset_btn": "Reset",
+    "results_title": "Diet Carbon Footprint",
+    "annual_emissions": "Annual Emissions",
+    "category": "Category:",
+    "trees_needed": "Trees Needed to Offset",
+    "facts_title": "Environmental Facts",
+    "fact_beef": "Beef produces 10x more emissions than chicken",
+    "fact_plant": "Plant-based diet reduces carbon footprint by 50%",
+    "fact_reduce": "Reducing red meat 1 day/week saves 230 kg CO₂ annually",
+    "empty_state": "Enter your food consumption to calculate carbon footprint",
+    "footer_note": "Food accounts for 26% of global greenhouse gas emissions.",
+    "categories": {
+      "very_low": "Very Low (Vegan)",
+      "low": "Low (Vegetarian)",
+      "average": "Average (Mixed Diet)",
+      "high": "High (Meat-Heavy)"
+    },
+    "howItWorks": {
+      "title": "How Does the Diet Carbon Footprint Calculator Work?",
+      "formula": "Annual CO₂ = Σ (Food type × kg/week × Emission factor × 52)",
+      "explanation": "This calculator estimates your annual carbon emissions from food consumption by multiplying each food type's emission factor by your weekly consumption.",
+      "steps": [
+        "Enter your weekly beef consumption in kilograms",
+        "Enter weekly consumption for chicken, fish, and dairy",
+        "Enter vegetable and grain consumption",
+        "Click Calculate to see your diet's carbon footprint",
+        "View comparison with different diet categories"
+      ]
+    },
+    "useCases": [
+      "Compare environmental impact of different diets",
+      "Plan dietary changes to reduce carbon footprint",
+      "Calculate potential savings from reducing meat consumption",
+      "Educate about food-related environmental impact"
+    ],
+    "seoTips": [
+      "Beef produces 27 kg CO₂ per kg - the highest of all foods",
+      "Chicken produces 6.9 kg CO₂ per kg - 75% less than beef",
+      "A vegan diet produces 50% less emissions than meat-heavy diet",
+      "Food production accounts for 26% of global greenhouse emissions",
+      "Reducing beef by 1 meal/week saves 200+ kg CO₂ annually"
+    ],
+    "commonMistakes": [
+      "Focusing only on meat while ignoring dairy which also has high emissions",
+      "Not considering food waste - wasted food means wasted emissions",
+      "Assuming local food is always better (transport is only 10% of food emissions)",
+      "Ignoring the impact of food processing and packaging"
+    ],
+    "faqs": [
+      {
+        "question": "Which food has the highest carbon footprint?",
+        "answer": "Beef has the highest footprint at 27 kg CO₂/kg, followed by lamb (24 kg), cheese (14 kg), and pork (12 kg)."
+      },
+      {
+        "question": "Is being vegetarian better than eating chicken?",
+        "answer": "A vegetarian diet typically has lower emissions than any meat diet, but chicken has much lower emissions than beef or lamb."
+      },
+      {
+        "question": "How much can I reduce by going vegan?",
+        "answer": "Switching from a meat-heavy to vegan diet can reduce your food carbon footprint by 50-70%, saving 1-2 tonnes of CO₂ per year."
+      },
+      {
+        "question": "Does organic food have a lower carbon footprint?",
+        "answer": "Not necessarily. Organic farming may use more land and have similar or higher emissions. The food type matters more than organic status."
+      },
+      {
+        "question": "Is fish a low-carbon alternative?",
+        "answer": "Moderately. Fish produces about 5-6 kg CO₂/kg, lower than beef but higher than poultry. Wild-caught varies by fishing method."
+      }
+    ]
+  },
+  "energy_saving": {
+    "title": "Energy Saving Calculator",
+    "description": "Calculate savings from energy efficiency improvements",
+    "section_title": "Efficiency Improvement",
+    "improvement_type": "Improvement Type",
+    "improvement_type_tooltip": "Type of energy-saving improvement",
+    "current_usage": "Current Usage (kWh/day)",
+    "current_usage_tooltip": "Current device or system usage",
+    "quantity": "Quantity/Number",
+    "quantity_tooltip": "Number of units or area (depends on type)",
+    "enter_usage": "Enter usage",
+    "enter_quantity": "Enter quantity",
+    "calculate_btn": "Calculate Savings",
+    "reset_btn": "Reset",
+    "results_title": "Annual Energy Savings",
+    "energy_saved": "Energy Saved Annually",
+    "money_saved": "Money Saved Annually",
+    "co2_reduction": "CO₂ Reduction Annually",
+    "investment_cost": "Investment Cost",
+    "payback_period": "Payback Period",
+    "years": "years",
+    "tips_title": "Additional Tips",
+    "tip_payback": "Start with improvements having shortest payback period",
+    "tip_combine": "Combine multiple improvements for best results",
+    "tip_finance": "Take advantage of green financing programs",
+    "empty_state": "Enter improvement details to calculate expected savings",
+    "footer_note": "Estimates are based on average consumption and local prices.",
+    "options": {
+      "led": "LED Bulbs",
+      "ac_upgrade": "Efficient AC",
+      "insulation": "Home Insulation",
+      "solar_heater": "Solar Water Heater",
+      "smart_thermostat": "Smart Thermostat"
+    },
+    "howItWorks": {
+      "title": "How Does the Energy Saving Calculator Work?",
+      "formula": "Annual Savings = Current Usage × Efficiency Gain × 365 × Electricity Rate",
+      "explanation": "This calculator estimates potential energy and cost savings from various home efficiency improvements by comparing current consumption with projected consumption after upgrades.",
+      "steps": [
+        "Select the type of energy improvement",
+        "Enter your current daily energy usage in kWh",
+        "Enter the quantity or number of units",
+        "Click Calculate to see annual savings",
+        "View payback period and CO₂ reduction"
+      ]
+    },
+    "useCases": [
+      "Plan home energy upgrades with best return on investment",
+      "Compare different efficiency improvements by payback period",
+      "Calculate CO₂ reduction from energy efficiency projects",
+      "Budget for home improvement projects"
+    ],
+    "seoTips": [
+      "LED bulbs use 75% less energy than incandescent bulbs",
+      "Modern AC units are 30-50% more efficient than older models",
+      "Proper insulation can reduce heating/cooling costs by 30%",
+      "Smart thermostats save 10-15% on heating and cooling",
+      "Solar water heaters can provide 50-80% of hot water needs"
+    ],
+    "commonMistakes": [
+      "Not considering the full cost including installation",
+      "Overestimating savings by not accounting for actual usage patterns",
+      "Ignoring maintenance costs for some improvements",
+      "Not prioritizing improvements with shortest payback period"
+    ],
+    "faqs": [
+      {
+        "question": "Which improvement has the best ROI?",
+        "answer": "LED bulbs typically have the fastest payback (under 1 year). Smart thermostats and insulation follow with 2-3 year payback periods."
+      },
+      {
+        "question": "How much can LED bulbs save?",
+        "answer": "LED bulbs use 75% less energy than incandescent and 25% less than CFLs. A typical home can save $100-200 per year."
+      },
+      {
+        "question": "Is a smart thermostat worth it?",
+        "answer": "Yes, smart thermostats typically save 10-15% on heating and cooling, paying for themselves in 1-2 years."
+      },
+      {
+        "question": "How long do solar water heaters take to pay back?",
+        "answer": "Solar water heaters typically pay back in 4-8 years depending on local sun hours and electricity costs."
+      },
+      {
+        "question": "Should I improve insulation or replace the AC first?",
+        "answer": "Generally, improve insulation first. Better insulation reduces the load on your AC, potentially allowing a smaller, cheaper replacement unit."
+      }
+    ]
+  },
+  "plastic_footprint": {
+    "title": "Plastic Footprint Calculator",
+    "description": "Calculate your annual plastic consumption and environmental impact",
+    "section_title": "Weekly Usage",
+    "bottles": "Plastic Bottles",
+    "bottles_tooltip": "Number of plastic bottles weekly",
+    "bags": "Plastic Bags",
+    "bags_tooltip": "Number of plastic bags weekly",
+    "packaging": "Plastic Packaging (g)",
+    "packaging_tooltip": "Weekly plastic packaging weight",
+    "straws": "Straws",
+    "straws_tooltip": "Number of plastic straws weekly",
+    "containers": "Food Containers",
+    "containers_tooltip": "Number of plastic food containers weekly",
+    "enter_number": "Enter number",
+    "enter_weight": "Enter weight",
+    "calculate_btn": "Calculate Footprint",
+    "reset_btn": "Reset",
+    "results_title": "Plastic Footprint",
+    "annual_plastic": "Annual Plastic",
+    "weekly": "Weekly",
+    "co2_emissions": "CO₂ Emissions",
+    "savings_reusables": "Savings with Reusables",
+    "bottles_unit": "bottles",
+    "bags_unit": "bags",
+    "straws_unit": "straws",
+    "containers_unit": "containers",
+    "alternatives_title": "Eco-Friendly Alternatives",
+    "alt_bottle": "Use reusable water bottle",
+    "alt_bags": "Carry cloth shopping bags",
+    "alt_straws": "Avoid straws or use metal alternatives",
+    "alt_containers": "Use glass or metal containers",
+    "empty_state": "Enter your plastic usage to calculate plastic footprint",
+    "footer_note": "8 million tons of plastic enter oceans annually.",
+    "howItWorks": {
+      "title": "How Does the Plastic Footprint Calculator Work?",
+      "formula": "Annual Plastic = Σ (Items/week × Weight per item × 52 weeks)",
+      "explanation": "This calculator estimates your annual plastic consumption by multiplying weekly usage of common plastic items by their average weights, then projects CO₂ emissions from plastic production.",
+      "steps": [
+        "Enter weekly number of plastic bottles used",
+        "Enter weekly plastic bags consumed",
+        "Enter weekly plastic packaging weight in grams",
+        "Add straws and food containers used",
+        "Click Calculate to see annual plastic footprint"
+      ]
+    },
+    "useCases": [
+      "Track personal plastic consumption for reduction goals",
+      "Calculate environmental impact of single-use plastics",
+      "Identify biggest sources of plastic waste in your routine",
+      "Plan transition to reusable alternatives"
+    ],
+    "seoTips": [
+      "Average person uses 100+ plastic bottles per year",
+      "Plastic production emits 1.8 kg CO₂ per kg of plastic",
+      "Only 9% of all plastic ever produced has been recycled",
+      "A reusable bottle saves 156 plastic bottles per year",
+      "Plastic bags are used for 12 minutes on average but last 1000 years"
+    ],
+    "commonMistakes": [
+      "Forgetting hidden plastics in packaging and wrapping",
+      "Not counting produce bags and small plastic items",
+      "Underestimating food container usage from takeout",
+      "Assuming all plastic is recyclable - many types are not"
+    ],
+    "faqs": [
+      {
+        "question": "How much plastic does the average person use?",
+        "answer": "The average person uses about 100 kg of plastic per year, including packaging that's often overlooked."
+      },
+      {
+        "question": "Which plastic items have the biggest impact?",
+        "answer": "Plastic bottles and food packaging account for the majority of personal plastic use. Bottles alone can be 20+ kg per person annually."
+      },
+      {
+        "question": "How much CO₂ does plastic produce?",
+        "answer": "Plastic production emits about 1.8 kg CO₂ per kg of plastic. An average person's plastic use creates 180 kg CO₂ per year."
+      },
+      {
+        "question": "Are bioplastics better?",
+        "answer": "Bioplastics can have lower carbon footprints but often require industrial composting. Reducing overall plastic use is more effective."
+      },
+      {
+        "question": "What is the best way to reduce plastic use?",
+        "answer": "Start with reusable bottles, bags, and containers. These three changes can reduce personal plastic use by 30-50%."
+      }
+    ]
+  },
+  "flight_emissions": {
+    "title": "Flight Emissions Calculator",
+    "description": "Calculate carbon emissions from your flights",
+    "section_title": "Flight Details",
+    "class": "Travel Class",
+    "class_tooltip": "Flight travel class",
+    "distance": "Distance (km)",
+    "distance_tooltip": "Flight distance in kilometers",
+    "passengers": "Number of Passengers",
+    "passengers_tooltip": "Number of passengers on the flight",
+    "enter_distance": "Enter distance",
+    "enter_passengers": "Enter number",
+    "calculate_btn": "Calculate Emissions",
+    "reset_btn": "Reset",
+    "results_title": "Results",
+    "total_emissions": "Total CO₂ Emissions",
+    "per_passenger": "Per Passenger",
+    "trees_needed": "Trees to Offset",
+    "offset_cost": "Estimated Offset Cost",
+    "comparison_title": "For Comparison",
+    "tip_class": "First class produces 5x more emissions than economy",
+    "tip_short": "Short flights are less efficient than long flights",
+    "tip_train": "High-speed trains produce 90% less emissions",
+    "empty_state": "Enter flight details to calculate emissions",
+    "footer_note": "Calculations are based on industry averages and may vary by aircraft and route.",
+    "persons": "persons",
+    "options": {
+      "economy": "Economy Class",
+      "premium": "Premium Economy",
+      "business": "Business Class",
+      "first": "First Class"
+    },
+    "howItWorks": {
+      "title": "How Does the Flight Emissions Calculator Work?",
+      "formula": "CO₂ = Distance (km) × Emission factor × Class multiplier × Passengers",
+      "explanation": "This calculator estimates CO₂ emissions from flights based on distance, travel class, and radiative forcing factor that accounts for emissions released at high altitude.",
+      "steps": [
+        "Select your travel class (economy to first)",
+        "Enter the flight distance in kilometers",
+        "Enter the number of passengers",
+        "Click Calculate to see total emissions",
+        "View offset cost and comparison data"
+      ]
+    },
+    "useCases": [
+      "Calculate carbon footprint of business travel for reporting",
+      "Compare emissions between flight routes or travel alternatives",
+      "Budget for carbon offsetting of flights",
+      "Make informed decisions about necessary vs. avoidable flights"
+    ],
+    "seoTips": [
+      "Aviation accounts for 2.5% of global CO₂ emissions",
+      "First class produces 5x more emissions than economy per passenger",
+      "A round-trip transatlantic flight produces 1.6 tonnes CO₂",
+      "High-altitude emissions have 2-4x the climate impact of ground emissions",
+      "Short flights are less efficient due to takeoff and landing fuel use"
+    ],
+    "commonMistakes": [
+      "Forgetting to include return flights when calculating annual travel",
+      "Not accounting for the class multiplier on premium cabins",
+      "Ignoring connecting flights which add significant emissions",
+      "Underestimating the radiative forcing effect of high-altitude emissions"
+    ],
+    "faqs": [
+      {
+        "question": "Why does travel class affect emissions?",
+        "answer": "Higher classes have larger seats taking more space, meaning fewer passengers per flight. The aircraft's total emissions are divided among fewer people."
+      },
+      {
+        "question": "How much CO₂ does a typical flight produce?",
+        "answer": "A short-haul flight produces about 0.12 kg CO₂ per km per passenger. Long-haul is more efficient at 0.08 kg CO₂ per km."
+      },
+      {
+        "question": "Are trains really better than planes?",
+        "answer": "Yes, significantly. High-speed trains produce 90% less CO₂ than flights for the same distance."
+      },
+      {
+        "question": "Should I offset my flights?",
+        "answer": "Offsetting helps but reducing flights is better. If you must fly, choose economy, direct routes, and offset through certified programs."
+      },
+      {
+        "question": "What is radiative forcing?",
+        "answer": "Aircraft emissions at high altitudes have enhanced warming effects. A multiplier of 1.9-2.0 is applied to account for this total climate impact."
+      }
+    ]
+  },
+  "eco_score": {
+    "title": "Eco Score Calculator",
+    "description": "Assess your environmental friendliness through lifestyle",
+    "section_title": "Your Lifestyle",
+    "transport": "Main Transportation",
+    "transport_tooltip": "Most used transportation method",
+    "diet": "Diet Type",
+    "diet_tooltip": "Your usual diet type",
+    "energy": "Energy Source",
+    "energy_tooltip": "Your home energy source",
+    "recycling": "Recycling Frequency",
+    "recycling_tooltip": "How often you recycle",
+    "shopping": "Shopping Habits",
+    "shopping_tooltip": "Shopping and consumption pattern",
+    "calculate_btn": "Calculate Score",
+    "reset_btn": "Reset",
+    "results_title": "Your Eco Score",
+    "total_score": "Total Score",
+    "category": "Category",
+    "suggestions_title": "Improvement Suggestions",
+    "rating_scale": "Rating Scale",
+    "empty_state": "Answer the questions to calculate your eco score",
+    "footer_note": "Every small step toward sustainability matters.",
+    "ratings": {
+      "excellent": "Excellent",
+      "very_good": "Very Good",
+      "good": "Good",
+      "average": "Average",
+      "needs_improvement": "Needs Improvement"
+    },
+    "suggestions": {
+      "transport": "Use public transport or bike more",
+      "diet": "Reduce meat consumption",
+      "energy": "Consider solar or green energy",
+      "recycling": "Recycle more materials",
+      "shopping": "Reduce consumption and choose sustainable products"
+    },
+    "scale_desc": {
+      "excellent": "Excellent - You're an eco champion!",
+      "very_good": "Very Good - Highly sustainable",
+      "good": "Good - On the right track",
+      "average": "Average - Room for improvement",
+      "needs_improvement": "Needs Improvement - Start with small steps"
+    },
+    "options": {
+      "walk": "Walk/Bike",
+      "public": "Public Transport",
+      "hybrid": "Hybrid Car",
+      "car": "Regular Car",
+      "vegan": "Vegan",
+      "vegetarian": "Vegetarian",
+      "mixed": "Mixed",
+      "meat_heavy": "Meat Heavy",
+      "solar": "Solar Energy",
+      "green": "Green Energy",
+      "grid": "Regular Grid",
+      "always": "Always",
+      "often": "Often",
+      "sometimes": "Sometimes",
+      "never": "Never",
+      "minimal": "Minimal & Sustainable",
+      "moderate": "Moderate",
+      "regular": "Regular",
+      "excessive": "Excessive"
+    },
+    "howItWorks": {
+      "title": "How Does the Eco Score Calculator Work?",
+      "formula": "Eco Score = Σ (Category score × Weight) / Maximum possible score × 100",
+      "explanation": "This calculator evaluates your environmental friendliness by scoring your choices across five key lifestyle categories: transportation, diet, energy, recycling, and shopping habits.",
+      "steps": [
+        "Select your main transportation method",
+        "Choose your diet type",
+        "Select your home energy source",
+        "Indicate your recycling frequency",
+        "Choose your shopping habits",
+        "Click Calculate to see your eco score"
+      ]
+    },
+    "useCases": [
+      "Get a quick assessment of your overall environmental impact",
+      "Identify areas where you can improve sustainability",
+      "Track progress over time as you make lifestyle changes",
+      "Compare your score with sustainable living benchmarks"
+    ],
+    "seoTips": [
+      "Transportation typically accounts for 30% of personal carbon footprint",
+      "Diet choices can reduce your footprint by 20-50%",
+      "Switching to renewable energy is the single biggest impact action",
+      "Consistent recycling can reduce waste by 30-40%",
+      "Mindful consumption prevents emissions from manufacturing"
+    ],
+    "commonMistakes": [
+      "Overestimating your recycling habits - most people recycle less than they think",
+      "Not considering the environmental cost of excessive shopping",
+      "Assuming hybrid cars are as green as public transport",
+      "Thinking occasional actions count more than consistent habits"
+    ],
+    "faqs": [
+      {
+        "question": "What is a good eco score?",
+        "answer": "A score above 70 indicates strong environmental habits. 50-70 is average with room for improvement. Below 50 suggests significant changes needed."
+      },
+      {
+        "question": "Which category has the biggest impact?",
+        "answer": "Transportation and diet typically have the largest impact. Switching from car to public transport or reducing meat can have dramatic effects."
+      },
+      {
+        "question": "How can I quickly improve my score?",
+        "answer": "Focus on high-impact changes: use public transport more, reduce meat consumption, switch to green energy if available."
+      },
+      {
+        "question": "Does recycling really make a difference?",
+        "answer": "Yes, but reduction and reuse are even more important. Recycling aluminum saves 95% of the energy needed for new production."
+      }
+    ]
+  },
+  "green_commute": {
+    "title": "Green Commute Calculator",
+    "description": "Compare transport methods by environmental impact and cost",
+    "section_title": "Commute Information",
+    "distance": "Distance One Way (km)",
+    "distance_tooltip": "Distance from home to work",
+    "current_mode": "Current Mode",
+    "current_mode_tooltip": "Your current transportation",
+    "alternative_mode": "Alternative Mode",
+    "alternative_mode_tooltip": "Proposed alternative transportation",
+    "days_per_week": "Work Days per Week",
+    "days_per_week_tooltip": "Number of commute days",
+    "enter_distance": "Enter distance",
+    "enter_days": "Enter number",
+    "calculate_btn": "Compare Methods",
+    "reset_btn": "Reset",
+    "results_title": "Annual Savings",
+    "co2_reduction": "CO₂ Reduction",
+    "cost_savings": "Cost Savings",
+    "calories_burned": "Calories Burned",
+    "time_difference": "Time Difference per Trip",
+    "kg": "kg",
+    "cal": "cal",
+    "min": "min",
+    "benefits_title": "Green Commute Benefits",
+    "benefit_congestion": "Reduce traffic congestion",
+    "benefit_health": "Improve overall health",
+    "benefit_pollution": "Reduce air pollution",
+    "benefit_money": "Save money in the long run",
+    "empty_state": "Enter commute details to compare transport methods",
+    "footer_note": "Choosing green commute benefits you and the environment.",
+    "options": {
+      "car": "Personal Car",
+      "bus": "Bus",
+      "metro": "Metro",
+      "bike": "Bicycle",
+      "walk": "Walking",
+      "ebike": "E-Bike"
+    },
+    "howItWorks": {
+      "title": "How Does the Green Commute Calculator Work?",
+      "formula": "Annual CO₂ Savings = (Current mode emissions - Alternative mode emissions) × Distance × 2 × Days × 52",
+      "explanation": "This calculator compares the environmental impact and costs of your current commute method against a greener alternative, calculating annual savings in CO₂, money, and health benefits.",
+      "steps": [
+        "Enter your one-way commute distance in kilometers",
+        "Select your current transportation mode",
+        "Select an alternative green mode to compare",
+        "Enter the number of commute days per week",
+        "Click Calculate to see annual savings"
+      ]
+    },
+    "useCases": [
+      "Compare environmental impact of different commute options",
+      "Calculate potential savings from switching to public transport or cycling",
+      "Justify green commute investments (e-bike, transit pass)",
+      "Plan multimodal commuting strategies"
+    ],
+    "seoTips": [
+      "Cycling to work burns 300-500 calories per hour",
+      "Public transport produces 70% less CO₂ per passenger-km than cars",
+      "E-bikes make cycling viable for longer distances up to 20km",
+      "Car commuters spend 200+ hours per year in traffic",
+      "Active commuting reduces risk of heart disease by 30-40%"
+    ],
+    "commonMistakes": [
+      "Not accounting for total door-to-door time including parking",
+      "Underestimating the cost of car ownership (maintenance, insurance)",
+      "Ignoring the health benefits of active commuting",
+      "Assuming public transport is always slower than driving"
+    ],
+    "faqs": [
+      {
+        "question": "How much CO₂ can I save by cycling?",
+        "answer": "Switching from car to bicycle saves about 0.2 kg CO₂ per km. A 10km commute saves 800+ kg CO₂ per year."
+      },
+      {
+        "question": "Is an e-bike worth the investment?",
+        "answer": "For commutes of 5-15km, an e-bike typically pays for itself in 1-2 years through fuel and parking savings, plus health benefits."
+      },
+      {
+        "question": "How does the metro compare to driving?",
+        "answer": "Metro produces about 35g CO₂ per passenger-km vs 170g for a car. It's also faster in congested areas."
+      },
+      {
+        "question": "What are the health benefits of bike commuting?",
+        "answer": "Regular cycling commuters have 40% lower risk of heart disease, burn 300-500 calories per hour, and report lower stress."
+      },
+      {
+        "question": "Can I combine methods?",
+        "answer": "Yes, multimodal commuting (bike to station + train) often gives the best balance of time, cost, and environmental impact."
+      }
+    ]
+  },
+  "home_energy_audit": {
+    "title": "Home Energy Audit Calculator",
+    "description": "Calculate your home energy consumption and annual cost",
+    "section_title": "Monthly Consumption (kWh)",
+    "lighting": "Lighting & General Electric",
+    "lighting_tooltip": "Lighting and general electricity consumption",
+    "heating": "Heating",
+    "heating_tooltip": "Heating consumption",
+    "cooling": "Air Conditioning",
+    "cooling_tooltip": "Air conditioning consumption",
+    "water_heater": "Water Heater",
+    "water_heater_tooltip": "Water heater consumption",
+    "appliances": "Home Appliances",
+    "appliances_tooltip": "Home appliances consumption",
+    "enter_consumption": "Enter consumption",
+    "calculate_btn": "Calculate Audit",
+    "reset_btn": "Reset",
+    "results_title": "Audit Results",
+    "total_consumption": "Total Monthly Consumption",
+    "monthly_cost": "Monthly Cost",
+    "annual_cost": "Annual Cost",
+    "annual_emissions": "Annual Emissions",
+    "potential_savings": "Potential Annual Savings",
+    "tips_title": "Energy Saving Tips",
+    "tip_led": "Use LED bulbs instead of traditional bulbs",
+    "tip_ac": "Set AC to 24°C",
+    "tip_unplug": "Unplug unused devices",
+    "tip_insulation": "Home insulation reduces energy by 30%",
+    "empty_state": "Enter energy consumption to perform audit",
+    "footer_note": "Prices are approximate and based on Saudi electricity tariffs.",
+    "howItWorks": {
+      "title": "How Does the Home Energy Audit Calculator Work?",
+      "formula": "Total Cost = Σ (Category kWh × Monthly × 12 × Electricity rate)",
+      "explanation": "This calculator analyzes your home energy consumption by category, calculating monthly costs, annual expenses, CO₂ emissions, and identifying potential savings opportunities.",
+      "steps": [
+        "Enter monthly lighting and general electricity usage in kWh",
+        "Enter heating consumption",
+        "Enter air conditioning consumption",
+        "Enter water heater consumption",
+        "Enter home appliances consumption",
+        "Click Calculate to see detailed audit results"
+      ]
+    },
+    "useCases": [
+      "Identify which categories consume the most energy in your home",
+      "Calculate annual energy costs for budgeting",
+      "Find potential areas for energy savings",
+      "Track energy consumption over time"
+    ],
+    "seoTips": [
+      "Heating and cooling typically account for 50% of home energy use",
+      "Water heating is often the second-largest energy expense at 15-20%",
+      "Standby power (phantom load) wastes 5-10% of home electricity",
+      "Energy-efficient appliances can reduce consumption by 25-50%",
+      "LED lighting uses 75% less energy than incandescent bulbs"
+    ],
+    "commonMistakes": [
+      "Forgetting to include standby power consumption",
+      "Not accounting for seasonal variations in heating/cooling",
+      "Underestimating water heater consumption",
+      "Ignoring inefficient appliances that should be replaced"
+    ],
+    "faqs": [
+      {
+        "question": "What is the biggest energy user in most homes?",
+        "answer": "Heating and cooling typically account for 40-50% of home energy use, followed by water heating at 15-20%."
+      },
+      {
+        "question": "How can I reduce my energy consumption quickly?",
+        "answer": "Quick wins include: adjusting thermostat by 2°C, using LED bulbs, unplugging unused devices, and running appliances during off-peak hours."
+      },
+      {
+        "question": "How much energy does air conditioning use?",
+        "answer": "Air conditioning can use 3-5 kWh per hour of operation. Setting to 24°C instead of 20°C can save 20-30% of cooling costs."
+      },
+      {
+        "question": "Should I turn off appliances or leave them on standby?",
+        "answer": "Turn them off. Standby power can account for 5-10% of your electricity bill - about 50-100 kWh per month for a typical home."
+      },
+      {
+        "question": "How often should I do an energy audit?",
+        "answer": "Do a basic audit seasonally and a comprehensive audit annually. Track consumption monthly to identify unusual increases."
+      }
+    ]
+  },
+  "solar_roi": {
+    "title": "Solar Panel ROI Calculator",
+    "description": "Calculate solar panel investment return and payback period",
+    "section_title": "Solar System Information",
+    "system_size": "System Size (kW)",
+    "system_size_tooltip": "Total capacity of solar panels",
+    "install_cost": "Installation Cost (SAR)",
+    "install_cost_tooltip": "Total system and installation cost",
+    "monthly_bill": "Monthly Electric Bill (SAR)",
+    "monthly_bill_tooltip": "Average monthly electricity bill",
+    "sun_hours": "Daily Sun Hours",
+    "sun_hours_tooltip": "Average daily useful sun hours",
+    "enter_size": "Enter size",
+    "enter_cost": "Enter cost",
+    "enter_bill": "Enter bill",
+    "enter_hours": "Enter hours",
+    "calculate_btn": "Calculate ROI",
+    "reset_btn": "Reset",
+    "results_title": "ROI Analysis",
+    "payback_period": "Payback Period",
+    "annual_production": "Annual Production",
+    "annual_savings": "Annual Savings",
+    "roi_25": "ROI (25 years)",
+    "annual_offset": "Annual CO₂ Offset",
+    "trees_equivalent": "Equivalent to Planting",
+    "trees": "trees",
+    "years": "years",
+    "benefits_title": "Solar Energy Benefits",
+    "benefit_lifespan": "Solar panels last 25-30 years",
+    "benefit_independence": "Reduce dependency on electricity grid",
+    "benefit_value": "Increase property value by 3-4%",
+    "benefit_maintenance": "Very low maintenance required",
+    "empty_state": "Enter solar system details to calculate ROI",
+    "footer_note": "Calculations are estimates based on installation conditions and local sun hours.",
+    "howItWorks": {
+      "title": "How Does the Solar Panel ROI Calculator Work?",
+      "formula": "Annual Production = System size (kW) × Sun hours × 365 × 0.8 (efficiency factor)",
+      "explanation": "This calculator estimates your return on investment for solar panels by calculating annual energy production, savings, and the time needed to recover your investment.",
+      "steps": [
+        "Enter your solar system size in kilowatts",
+        "Enter the total installation cost",
+        "Enter your average monthly electricity bill",
+        "Enter average daily peak sun hours in your area",
+        "Click Calculate to see payback period and ROI"
+      ]
+    },
+    "useCases": [
+      "Evaluate financial viability of residential solar installation",
+      "Compare different system sizes and their payback periods",
+      "Calculate long-term savings over the 25-year panel lifespan",
+      "Plan financing based on expected savings"
+    ],
+    "seoTips": [
+      "Solar panels typically last 25-30 years with minimal degradation",
+      "Most systems pay for themselves in 5-10 years",
+      "Solar increases property value by 3-4% on average",
+      "Peak sun hours range from 3-6 hours depending on location",
+      "Panel efficiency degrades about 0.5% per year"
+    ],
+    "commonMistakes": [
+      "Not accounting for panel degradation over time (0.5% per year)",
+      "Forgetting to include inverter replacement cost (every 10-15 years)",
+      "Overestimating sun hours without considering local conditions",
+      "Not considering roof orientation and shading"
+    ],
+    "faqs": [
+      {
+        "question": "How long do solar panels last?",
+        "answer": "Quality solar panels last 25-30 years. Most maintain 80% efficiency after 25 years. Warranties typically guarantee 25 years."
+      },
+      {
+        "question": "What is a good payback period?",
+        "answer": "A payback period of 6-10 years is typical and considered good. After payback, you enjoy essentially free electricity."
+      },
+      {
+        "question": "How much roof space do I need?",
+        "answer": "Roughly 5-7 square meters per kW of solar capacity. A 5kW system needs about 25-35 square meters of roof space."
+      },
+      {
+        "question": "Do solar panels work on cloudy days?",
+        "answer": "Yes, but at reduced efficiency (10-25% of full capacity). Annual production estimates account for average weather conditions."
+      },
+      {
+        "question": "Should I get battery storage?",
+        "answer": "Batteries add cost but provide energy independence and backup power. They're most valuable with time-of-use electricity rates."
+      }
+    ]
+  },
+  "flight-emissions-calculator": {
+    "title": "Flight Emissions Calculator",
+    "description": "Calculate carbon emissions from your flights.",
+    "input_title": "Flight Details",
+    "travel_class": "Travel Class",
+    "travel_class_tooltip": "Flight travel class",
+    "class_economy": "Economy Class",
+    "class_premium": "Premium Economy",
+    "class_business": "Business Class",
+    "class_first": "First Class",
+    "distance": "Distance (km)",
+    "distance_tooltip": "Flight distance in kilometers",
+    "km": "km",
+    "enter_distance": "Enter distance",
+    "passengers": "Number of Passengers",
+    "passengers_tooltip": "Number of passengers on the flight",
+    "persons": "persons",
+    "enter_number": "Enter number",
+    "calculate_btn": "Calculate Emissions",
+    "reset_btn": "Reset",
+    "results_title": "Results",
+    "total_emissions": "Total CO₂ Emissions",
+    "kg": "kg",
+    "per_passenger": "Per Passenger",
+    "kg_co2": "kg CO₂",
+    "trees_offset": "Trees to Offset",
+    "trees": "trees",
+    "offset_cost": "Estimated Offset Cost",
+    "currency": "SAR",
+    "comparison_title": "For Comparison",
+    "comparison_1": "First class produces 5x more emissions than economy",
+    "comparison_2": "Short flights are less efficient than long flights",
+    "comparison_3": "High-speed trains produce 90% less emissions",
+    "empty_state": "Enter flight details to calculate emissions",
+    "footer_note": "Calculations are based on industry averages and may vary by aircraft and route.",
+    "howItWorks": {
+      "title": "How Does the Flight Emissions Calculator Work?",
+      "formula": "Total CO₂ = Distance × Base factor × Class multiplier × Radiative forcing (1.9)",
+      "explanation": "This calculator estimates flight emissions using ICAO methodology, factoring in distance, travel class space allocation, and the enhanced climate impact of high-altitude emissions.",
+      "steps": [
+        "Select your travel class from the dropdown",
+        "Enter the total flight distance in kilometers",
+        "Enter the number of passengers traveling",
+        "Click Calculate to see total and per-passenger emissions",
+        "View offset requirements and costs"
+      ]
+    },
+    "useCases": [
+      "Calculate business travel carbon footprint for corporate reporting",
+      "Compare emission impact of different flight options",
+      "Estimate carbon offset costs before booking flights",
+      "Track annual flight emissions for personal sustainability goals"
+    ],
+    "seoTips": [
+      "Long-haul flights are more efficient per km than short-haul",
+      "Business class emissions are 2.5x economy due to space",
+      "First class produces 5x the emissions of economy class",
+      "Direct flights have lower emissions than connecting routes",
+      "Average transatlantic flight: 1-2 tonnes CO₂ per passenger"
+    ],
+    "commonMistakes": [
+      "Forgetting round-trip flights double your emissions",
+      "Not including connecting flights in calculations",
+      "Ignoring the radiative forcing multiplier for altitude effects",
+      "Underestimating premium cabin impact on emissions"
+    ],
+    "faqs": [
+      {
+        "question": "Why do premium cabins have higher emissions?",
+        "answer": "Premium seats occupy more aircraft space, reducing passenger capacity. The flight's total emissions are divided among fewer passengers."
+      },
+      {
+        "question": "What is radiative forcing?",
+        "answer": "Emissions at high altitudes have greater climate impact. A factor of 1.9 is applied to account for contrails, cirrus clouds, and nitrogen oxide effects."
+      },
+      {
+        "question": "How can I reduce my flight emissions?",
+        "answer": "Fly economy class, choose direct routes, avoid short flights where trains are viable, and consider video meetings instead."
+      },
+      {
+        "question": "Are newer aircraft more efficient?",
+        "answer": "Yes, modern aircraft use 15-20% less fuel. The Boeing 787 and Airbus A350 are among the most efficient for long-haul flights."
+      }
+    ]
+  },
+  "rainwater_harvesting": {
+    "title": "Rainwater Harvesting Calculator",
+    "description": "Calculate collectable rainwater amount from your roof",
+    "section_title": "Roof and Rainfall Information",
+    "roof_area": "Roof Area (m²)",
+    "roof_area_tooltip": "Area designated for water collection",
+    "rainfall": "Annual Rainfall (mm)",
+    "rainfall_tooltip": "Average annual rainfall in your area",
+    "efficiency": "Collection Efficiency (%)",
+    "efficiency_tooltip": "Collection system efficiency (typically 80-90%)",
+    "enter_area": "Enter area",
+    "enter_rate": "Enter rate",
+    "enter_efficiency": "Enter efficiency",
+    "calculate_btn": "Calculate Amount",
+    "reset_btn": "Reset",
+    "results_title": "Rainwater Harvesting Potential",
+    "annual_collection": "Potential Annual Collection",
+    "monthly_average": "Monthly Average",
+    "tank_size": "Recommended Tank Size",
+    "water_savings": "Expected Water Savings",
+    "cost_savings": "Annual Cost Savings",
+    "liters": "liters",
+    "liters_short": "L",
+    "liters_year": "L/year",
+    "uses_title": "Rainwater Uses",
+    "use_garden": "Garden and plant irrigation",
+    "use_car": "Car washing",
+    "use_cleaning": "Cleaning outdoor surfaces",
+    "use_toilet": "Toilet flushing (after treatment)",
+    "use_groundwater": "Groundwater recharge",
+    "info_title": "Important Information",
+    "info_filtration": "Need filtration system for household uses",
+    "info_clean": "Clean roof and gutters regularly",
+    "info_permits": "Obtain required local permits",
+    "empty_state": "Enter roof details to calculate rainwater amount",
+    "footer_note": "Rainwater harvesting conserves water and reduces runoff.",
+    "howItWorks": {
+      "title": "How Does the Rainwater Harvesting Calculator Work?",
+      "formula": "Annual Collection = Roof area (m²) × Annual rainfall (mm) × Efficiency (0.8-0.9) × 0.001",
+      "explanation": "This calculator estimates how much rainwater you can collect from your roof annually, accounting for collection system efficiency and recommending appropriate storage tank sizes.",
+      "steps": [
+        "Enter your roof collection area in square meters",
+        "Enter your area's annual rainfall in millimeters",
+        "Enter your collection system efficiency (typically 80-90%)",
+        "Click Calculate to see annual collection potential",
+        "View recommended tank size and cost savings"
+      ]
+    },
+    "useCases": [
+      "Plan rainwater harvesting system capacity",
+      "Calculate potential water bill savings",
+      "Size storage tanks appropriately for your needs",
+      "Assess feasibility of rainwater harvesting in your area"
+    ],
+    "seoTips": [
+      "A 100m² roof in moderate rainfall (800mm) can collect 64,000 liters yearly",
+      "Rainwater is ideal for irrigation - plants prefer it over tap water",
+      "First-flush diverters improve water quality significantly",
+      "Tank size should hold 2-4 weeks of expected use",
+      "Rainwater harvesting reduces stormwater runoff by 50-75%"
+    ],
+    "commonMistakes": [
+      "Overestimating collection without accounting for efficiency losses",
+      "Not planning for seasonal rainfall variation",
+      "Undersizing tanks and missing peak collection periods",
+      "Forgetting maintenance requirements for gutters and filters"
+    ],
+    "faqs": [
+      {
+        "question": "How much rainwater can I collect?",
+        "answer": "Multiply roof area (m²) by annual rainfall (m) by 0.8 efficiency. A 100m² roof with 800mm rainfall collects about 64,000 liters yearly."
+      },
+      {
+        "question": "What tank size do I need?",
+        "answer": "Tank size depends on rainfall patterns. Generally, size for 2-4 weeks of use or 3-5% of annual collection, whichever is larger."
+      },
+      {
+        "question": "Can I use rainwater for drinking?",
+        "answer": "With proper filtration and UV treatment, yes. However, most systems are designed for non-potable uses like irrigation and toilet flushing."
+      },
+      {
+        "question": "What is collection efficiency?",
+        "answer": "Not all rain is captured - some evaporates, splashes, or is lost in first-flush diversion. Typical efficiency is 80-90% of theoretical maximum."
+      },
+      {
+        "question": "Is rainwater harvesting cost-effective?",
+        "answer": "ROI depends on local water costs and rainfall. In areas with expensive water or unreliable supply, systems often pay back in 5-10 years."
+      }
+    ]
+  },
+  "recycling_impact": {
+    "title": "Recycling Impact Calculator",
+    "description": "Calculates CO2 saved by recycling different materials",
+    "paper_label": "Paper (kg)",
+    "paper_tooltip": "Weight of paper recycled",
+    "paper_placeholder": "e.g., 10",
+    "plastic_label": "Plastic (kg)",
+    "plastic_tooltip": "Weight of plastic recycled",
+    "plastic_placeholder": "e.g., 5",
+    "glass_label": "Glass (kg)",
+    "glass_tooltip": "Weight of glass recycled",
+    "glass_placeholder": "e.g., 8",
+    "metal_label": "Metal (kg)",
+    "metal_tooltip": "Weight of metal recycled",
+    "metal_placeholder": "e.g., 2",
+    "result_label": "Total CO₂ Savings",
+    "result_unit": "kg CO₂",
+    "breakdown_title": "Savings Breakdown",
+    "paper_saved": "Paper Recycling",
+    "plastic_saved": "Plastic Recycling",
+    "glass_saved": "Glass Recycling",
+    "metal_saved": "Metal Recycling",
+    "trees_equivalent": "Equivalent to Trees Planted",
+    "trees": "trees",
+    "energy_saved": "Energy Saved",
+    "formula_title": "Impact Formula",
+    "formula_explanation": "Savings calculated based on average CO2 reduction per kg of recycled material: Paper (0.9kg), Plastic (1.5kg), Glass (0.3kg), Metal (2.5kg).",
+    "use_cases_title": "Why Recycle?",
+    "use_case_1": "Reduces landfill waste",
+    "use_case_2": "Conserves natural resources",
+    "use_case_3": "Saves energy compared to raw material processing",
+    "info_title": "About Recycling Impact",
+    "transport": "Transportation",
+    "transport_tooltip": "Primary transport method",
+    "diet": "Diet",
+    "diet_tooltip": "Type of diet",
+    "waste": "Waste Management",
+    "waste_tooltip": "How you manage waste",
+    "water": "Water Usage",
+    "water_tooltip": "Water consumption level",
+    "shopping": "Shopping Habits",
+    "shopping_tooltip": "Consumption pattern",
+    "calculate_btn": "Assess Sustainability",
+    "reset_btn": "Reset",
+    "results_title": "Sustainability Assessment",
+    "score_label": "Sustainability Score",
+    "annual_footprint": "Annual Carbon Footprint",
+    "earths_required": "Earths Required",
+    "if_everyone": "If everyone lived like you",
+    "improvements_title": "Improvement Opportunities",
+    "steps_title": "Steps to Improve",
+    "step_small": "Start with small, gradual changes",
+    "step_focus": "Focus on one area at a time",
+    "step_share": "Share your journey to inspire others",
+    "step_reassess": "Reassess every 3-6 months",
+    "empty_state": "Answer questions to assess your lifestyle sustainability",
+    "footer_note": "Sustainability is a journey, not a destination. Every step counts.",
+    "ratings": {
+      "excellent": "Excellent - Highly Sustainable",
+      "very_good": "Very Good - Sustainable",
+      "good": "Good - On Track",
+      "average": "Average - Needs Improvement",
+      "poor": "Poor - Requires Major Changes"
+    },
+    "suggestions": {
+      "energy": "Switching to solar saves 3000 kg CO₂",
+      "transport": "Using public transport saves 2500 kg CO₂",
+      "diet": "Reducing meat saves 500-1000 kg CO₂",
+      "waste": "More recycling saves 700 kg CO₂"
+    },
+    "options": {
+      "solar": "100% Solar",
+      "green": "Green Energy",
+      "efficient": "High Efficiency",
+      "grid": "Regular Grid",
+      "walk": "Walk/Bike",
+      "public": "Public Transport",
+      "hybrid": "Hybrid",
+      "car": "Regular Car",
+      "vegan": "Vegan",
+      "vegetarian": "Vegetarian",
+      "flexitarian": "Flexitarian",
+      "mixed": "Mixed",
+      "zero": "Near Zero",
+      "minimal": "Minimal",
+      "sometimes": "Sometimes Recycle",
+      "regular": "Regular",
+      "conservative": "Very Conservative",
+      "moderate": "Moderate",
+      "high": "High",
+      "sustainable": "Minimal & Sustainable",
+      "conscious": "Conscious",
+      "excessive": "Excessive"
+    },
+    "info_description": "Recycling reduces greenhouse gas emissions by avoiding the need to extract and process new raw materials.",
+    "error_at_least_one": "Please enter the weight of at least one material",
+    "error_negative": "Negative values are not allowed",
+    "error_calculation": "An error occurred during calculation",
+    "howItWorks": {
+      "title": "How Does the Recycling Impact Calculator Work?",
+      "formula": "CO₂ Saved = Σ (Material weight × Emission factor per kg)",
+      "explanation": "This calculator estimates the CO₂ savings from recycling various materials by comparing the emissions from recycled material production versus virgin material production.",
+      "steps": [
+        "Enter the weight of paper recycled in kilograms",
+        "Enter the weight of plastic recycled",
+        "Enter the weight of glass recycled",
+        "Enter the weight of metal recycled",
+        "Click Calculate to see total CO₂ savings"
+      ]
+    },
+    "useCases": [
+      "Track environmental impact of household recycling efforts",
+      "Calculate corporate recycling benefits for sustainability reports",
+      "Motivate recycling by visualizing actual CO₂ savings",
+      "Compare impact of recycling different materials"
+    ],
+    "seoTips": [
+      "Recycling aluminum saves 95% of energy vs. virgin production",
+      "Paper recycling saves 0.9 kg CO₂ per kg recycled",
+      "Plastic recycling saves 1.5 kg CO₂ per kg recycled",
+      "Metal recycling provides the highest CO₂ savings at 2.5 kg/kg",
+      "Glass recycling saves 0.3 kg CO₂ per kg recycled"
+    ],
+    "commonMistakes": [
+      "Contaminating recyclables with food waste, making them non-recyclable",
+      "Wish-cycling - putting non-recyclable items in recycling bins",
+      "Not checking local recycling guidelines which vary by area",
+      "Forgetting to rinse containers before recycling"
+    ],
+    "faqs": [
+      {
+        "question": "Which material is most important to recycle?",
+        "answer": "Metal (especially aluminum) provides the highest CO₂ savings per kg. However, plastic recycling is crucial due to its persistence in the environment."
+      },
+      {
+        "question": "Does recycling actually help the environment?",
+        "answer": "Yes. Recycling uses significantly less energy than virgin production: 95% less for aluminum, 70% less for plastic, and 60% less for paper."
+      },
+      {
+        "question": "What happens to recycled materials?",
+        "answer": "They're processed into new products. Aluminum becomes new cans, plastic becomes fiber or packaging, paper becomes cardboard or new paper products."
+      },
+      {
+        "question": "Can all plastics be recycled?",
+        "answer": "No. Types 1 (PET) and 2 (HDPE) are widely recyclable. Types 3-7 vary by local facility. Check the recycling symbol on the item."
+      },
+      {
+        "question": "How much does the average person recycle?",
+        "answer": "The global average is about 9% of plastic, 65% of paper, 30% of glass, and 35% of metal. These rates vary significantly by country."
+      }
+    ]
+  },
+  "waste": {
+    "title": "Waste Calculator",
+    "description": "Calculate your waste generation and environmental impact",
+    "section_title": "Daily Waste (kg)",
+    "food_waste": "Food Waste",
+    "food_waste_tooltip": "Daily food waste amount",
+    "plastic_waste": "Plastic Waste",
+    "plastic_waste_tooltip": "Daily plastic waste amount",
+    "paper_waste": "Paper Waste",
+    "paper_waste_tooltip": "Daily paper waste amount",
+    "other_waste": "Other Waste",
+    "other_waste_tooltip": "Daily other waste amount",
+    "household_size": "Household Size",
+    "household_size_tooltip": "Number of people in household",
+    "enter_amount": "Enter amount",
+    "enter_number": "Enter number",
+    "calculate_btn": "Calculate Waste",
+    "reset_btn": "Reset",
+    "results_title": "Results",
+    "total_annual": "Total Annual Waste",
+    "daily": "Daily",
+    "weekly": "Weekly",
+    "per_person": "Per Person Daily",
+    "landfill_emissions": "Landfill Emissions",
+    "methane_emissions": "Methane Emissions",
+    "tips_title": "Waste Reduction Tips",
+    "tip_meal": "Plan meals to reduce food waste",
+    "tip_recycle": "Recycle plastic and paper",
+    "tip_reusable": "Use reusable bags and containers",
+    "tip_compost": "Compost organic waste",
+    "empty_state": "Enter waste amounts to calculate total production",
+    "footer_note": "Average person produces 1.5-2 kg of waste daily.",
+    "howItWorks": {
+      "title": "How Does the Waste Calculator Work?",
+      "formula": "Annual Waste = Daily waste × 365 | Landfill Emissions = Organic waste × Methane factor",
+      "explanation": "This calculator estimates your household waste production and its environmental impact, including landfill emissions from organic waste decomposition.",
+      "steps": [
+        "Enter daily food waste in kilograms",
+        "Enter daily plastic waste",
+        "Enter daily paper waste",
+        "Enter daily other waste",
+        "Enter household size for per-capita calculations",
+        "Click Calculate to see total waste and emissions"
+      ]
+    },
+    "useCases": [
+      "Track household waste generation over time",
+      "Identify which waste categories can be reduced",
+      "Calculate environmental impact of waste for sustainability goals",
+      "Compare waste per capita against averages"
+    ],
+    "seoTips": [
+      "Average person produces 1.5-2 kg of waste daily",
+      "Food waste in landfills produces methane, 25x worse than CO₂",
+      "40% of household waste can be composted or recycled",
+      "Plastic takes 400-1000 years to decompose in landfills",
+      "Zero-waste lifestyle can reduce waste by 90%"
+    ],
+    "commonMistakes": [
+      "Not tracking all waste categories including hidden packaging",
+      "Underestimating food waste which is often the largest category",
+      "Forgetting to count waste produced outside the home",
+      "Confusing recycled waste with total waste"
+    ],
+    "faqs": [
+      {
+        "question": "How much waste does the average person produce?",
+        "answer": "The global average is about 1.2 kg per day, but this ranges from 0.5 kg in low-income countries to over 2 kg in high-income countries."
+      },
+      {
+        "question": "What percentage of waste is food?",
+        "answer": "Food waste typically makes up 30-40% of household waste. Much of this could be composted instead of landfilled."
+      },
+      {
+        "question": "Why does organic waste produce methane?",
+        "answer": "Organic matter decomposing without oxygen (as in landfills) produces methane. Composting with oxygen produces CO₂, which is 25x less harmful."
+      },
+      {
+        "question": "How can I reduce my waste?",
+        "answer": "Follow the 5 Rs: Refuse what you don't need, Reduce what you do need, Reuse what you can, Recycle what you can't reuse, Rot (compost) the rest."
+      },
+      {
+        "question": "What is the biggest contributor to household waste?",
+        "answer": "Food and food packaging typically account for 40-50% of household waste by weight."
+      }
+    ]
+  },
+  "water_footprint": {
+    "title": "Water Footprint Calculator",
+    "description": "Calculate your annual water footprint including virtual water",
+    "section_title": "Lifestyle",
+    "diet": "Diet Type",
+    "diet_tooltip": "Your usual diet type",
+    "shower": "Daily Shower Minutes",
+    "shower_tooltip": "Average daily shower time",
+    "laundry": "Laundry Loads per Week",
+    "laundry_tooltip": "Number of laundry loads per week",
+    "car_wash": "Car Washes per Month",
+    "car_wash_tooltip": "Number of car washes per month",
+    "enter_minutes": "Enter minutes",
+    "enter_number": "Enter number",
+    "calculate_btn": "Calculate Water Footprint",
+    "reset_btn": "Reset",
+    "results_title": "Annual Water Footprint",
+    "total_footprint": "Total Water Footprint",
+    "direct_water": "Direct Water",
+    "indirect_water": "Indirect Water (Virtual)",
+    "virtual_water_title": "Virtual Water in Food",
+    "virtual_water_beef": "1 kg beef: 15,000 liters",
+    "virtual_water_chicken": "1 kg chicken: 4,300 liters",
+    "virtual_water_rice": "1 kg rice: 2,500 liters",
+    "virtual_water_veg": "1 kg vegetables: 300 liters",
+    "empty_state": "Enter your lifestyle information to calculate water footprint",
+    "footer_note": "Virtual water is the water used in producing goods and food.",
+    "howItWorks": {
+      "title": "How Does the Water Footprint Calculator Work?",
+      "formula": "Total Water Footprint = Direct water use + Virtual water (food production + goods)",
+      "explanation": "This calculator estimates your total water footprint by combining direct water use (showers, laundry) with virtual water embedded in the food you eat and products you use.",
+      "steps": [
+        "Select your diet type from the dropdown",
+        "Enter average daily shower duration in minutes",
+        "Enter weekly laundry loads",
+        "Enter monthly car washes",
+        "Click Calculate to see total water footprint"
+      ]
+    },
+    "useCases": [
+      "Understand the hidden water in your food choices",
+      "Compare water footprint of different diets",
+      "Identify major contributors to your water use",
+      "Set goals for water footprint reduction"
+    ],
+    "seoTips": [
+      "Virtual water accounts for 92% of total water footprint",
+      "A meat-heavy diet uses 5,000+ liters per day",
+      "A vegan diet uses 2,000-2,500 liters per day",
+      "1 kg of beef requires 15,000 liters of water to produce",
+      "Direct household use is only 100-200 liters per day"
+    ],
+    "commonMistakes": [
+      "Focusing only on direct water use while ignoring virtual water",
+      "Not realizing meat production dominates water footprint",
+      "Underestimating the water in processed foods and drinks",
+      "Forgetting water embedded in clothing and consumer goods"
+    ],
+    "faqs": [
+      {
+        "question": "What is virtual water?",
+        "answer": "Virtual water is the water used to produce goods and food. A cotton t-shirt requires 2,700 liters, a smartphone about 12,000 liters."
+      },
+      {
+        "question": "Why does beef use so much water?",
+        "answer": "Cattle need water for drinking, but mainly for growing feed crops. It takes about 15,000 liters to produce 1 kg of beef over the animal's lifetime."
+      },
+      {
+        "question": "How can I reduce my water footprint?",
+        "answer": "The biggest impact comes from dietary changes. Reducing beef consumption has a larger effect than all direct water-saving measures combined."
+      },
+      {
+        "question": "What is a sustainable water footprint?",
+        "answer": "A sustainable footprint is about 1,240 liters per person per day. Most people in developed countries use 3,000-5,000 liters."
+      },
+      {
+        "question": "Does taking shorter showers really help?",
+        "answer": "It helps, but direct water is only 5-10% of your footprint. A 5-minute shorter shower saves 50 liters, but eating 100g less beef saves 1,500 liters."
+      }
+    ]
+  },
+  "vehicle_emissions": {
+    "title": "Vehicle Emissions Calculator",
+    "description": "Calculate CO₂ emissions from your vehicle based on fuel type and distance",
+    "section_title": "Vehicle Information",
+    "fuel_type": "Fuel Type",
+    "fuel_type_tooltip": "Your vehicle fuel type",
+    "consumption": "Fuel Consumption (L/100km)",
+    "consumption_tooltip": "Fuel consumption per 100 kilometers",
+    "distance": "Distance (km)",
+    "distance_tooltip": "Distance to calculate emissions for",
+    "enter_consumption": "Enter consumption",
+    "enter_distance": "Enter distance",
+    "calculate_btn": "Calculate Emissions",
+    "reset_btn": "Reset",
+    "results_title": "Results",
+    "co2_emissions": "CO₂ Emissions",
+    "fuel_used": "Fuel Used",
+    "fuel_cost": "Fuel Cost",
+    "trees_needed": "Trees Needed to Offset",
+    "liters": "liters",
+    "tips_title": "Tips to Reduce Emissions",
+    "tip_tires": "Keep tires properly inflated",
+    "tip_engine": "Maintain regular engine service",
+    "tip_drive": "Avoid aggressive driving and high speeds",
+    "tip_transport": "Use public transport or carpool",
+    "empty_state": "Enter vehicle details to calculate emissions",
+    "footer_note": "Prices and emissions are estimates and may vary by vehicle and conditions.",
+    "options": {
+      "petrol": "Petrol",
+      "diesel": "Diesel",
+      "hybrid": "Hybrid",
+      "electric": "Electric"
+    },
+    "howItWorks": {
+      "title": "How Does the Vehicle Emissions Calculator Work?",
+      "formula": "CO₂ = Distance (km) × Fuel consumption (L/100km) × Emission factor × 0.01",
+      "explanation": "This calculator estimates your vehicle's CO₂ emissions based on the fuel type, fuel consumption rate, and distance traveled using standard emission factors for each fuel type.",
+      "steps": [
+        "Select your vehicle's fuel type",
+        "Enter your fuel consumption in liters per 100 km",
+        "Enter the distance you want to calculate emissions for",
+        "Click Calculate to see CO₂ emissions",
+        "View fuel cost and tree offset requirements"
+      ]
+    },
+    "useCases": [
+      "Calculate emissions for specific trips or routes",
+      "Compare environmental impact of different vehicles",
+      "Track monthly or annual vehicle emissions",
+      "Justify vehicle upgrade to hybrid or electric"
+    ],
+    "seoTips": [
+      "Petrol produces 2.31 kg CO₂ per liter burned",
+      "Diesel produces 2.68 kg CO₂ per liter but is more fuel-efficient",
+      "Hybrids typically produce 30-50% less CO₂ than petrol cars",
+      "Electric vehicles have zero direct emissions",
+      "Maintaining proper tire pressure improves efficiency by 3%"
+    ],
+    "commonMistakes": [
+      "Using manufacturer fuel consumption which is often optimistic",
+      "Not accounting for city vs highway driving differences",
+      "Forgetting that electric vehicles have indirect emissions from electricity",
+      "Ignoring the impact of driving style on actual emissions"
+    ],
+    "faqs": [
+      {
+        "question": "Which fuel type produces more CO₂?",
+        "answer": "Per liter, diesel produces more CO₂ (2.68 kg) than petrol (2.31 kg). However, diesel engines are more efficient, often resulting in similar emissions per km."
+      },
+      {
+        "question": "Are electric vehicles truly zero-emission?",
+        "answer": "They have zero direct emissions, but total emissions depend on how electricity is generated. In clean grids, EVs produce 70-90% less lifetime emissions."
+      },
+      {
+        "question": "How can I reduce my vehicle emissions?",
+        "answer": "Maintain proper tire pressure, avoid aggressive driving, reduce AC use, remove roof racks when not needed, and combine trips."
+      },
+      {
+        "question": "How much does driving style affect emissions?",
+        "answer": "Aggressive driving (rapid acceleration, hard braking) can increase fuel consumption and emissions by 15-30%."
+      },
+      {
+        "question": "Should I switch to a hybrid?",
+        "answer": "If you drive mostly in cities with stop-and-go traffic, hybrids can reduce emissions by 30-50%. For highway driving, the benefit is smaller."
+      }
+    ]
+  },
+  "sustainable_lifestyle": {
+    "title": "Sustainable Lifestyle Calculator",
+    "description": "Assess your lifestyle sustainability and get personalized recommendations to reduce your environmental impact.",
+    "energy": "Energy",
+    "energy_tooltip": "Select your primary energy source",
+    "transport": "Transportation",
+    "transport_tooltip": "Select your main mode of transportation",
+    "diet": "Diet",
+    "diet_tooltip": "Select your dietary habits",
+    "waste": "Waste Management",
+    "waste_tooltip": "How do you manage waste and recycling?",
+    "water": "Water Usage",
+    "water_tooltip": "Your water consumption habits",
+    "shopping": "Shopping Habits",
+    "shopping_tooltip": "Your consumption and shopping patterns",
+    "calculate_btn": "Calculate Score",
+    "reset_btn": "Reset",
+    "options": {
+      "solar": "Solar/Renewable Energy",
+      "green": "Green Energy Plan",
+      "efficient": "Energy Efficient Home",
+      "grid": "Standard Grid Power",
+      "walk": "Walk/Bike",
+      "public": "Public Transport",
+      "hybrid": "Hybrid/Electric Vehicle",
+      "car": "Gasoline Car",
+      "vegan": "Vegan",
+      "vegetarian": "Vegetarian",
+      "flexitarian": "Flexitarian",
+      "mixed": "Regular Mixed Diet",
+      "zero": "Zero Waste",
+      "minimal": "Minimal Waste",
+      "sometimes": "Sometimes Recycle",
+      "regular": "Regular Disposal",
+      "conservative": "Water Conservative",
+      "moderate": "Moderate Usage",
+      "high": "High Usage",
+      "sustainable": "Sustainable/Minimal",
+      "conscious": "Conscious Consumer",
+      "excessive": "High Consumption"
+    },
+    "ratings": {
+      "excellent": "Excellent",
+      "very_good": "Very Good",
+      "good": "Good",
+      "average": "Average",
+      "poor": "Needs Improvement"
+    },
+    "results_title": "Sustainability Score",
+    "score": "Your Score",
+    "rating": "Rating",
+    "annual_footprint": "Annual CO₂ Footprint",
+    "planet_count": "Earth Equivalent",
+    "planet_text": "Earths needed if everyone lived like you",
+    "improvements_title": "Suggested Improvements",
+    "suggestions": {
+      "energy": "Switch to renewable energy or improve home efficiency",
+      "transport": "Use public transport, bike, or consider an electric vehicle",
+      "diet": "Reduce meat consumption and choose local, seasonal foods",
+      "waste": "Implement recycling and composting habits",
+      "water": "Install water-saving devices and reduce usage",
+      "shopping": "Buy less, choose sustainable products, avoid fast fashion"
+    },
+    "info_title": "About Sustainable Living",
+    "info_description": "Small changes in daily habits can significantly reduce your environmental impact and help protect our planet for future generations.",
+    "empty_state": "Answer the questions to calculate your sustainability score",
+    "section_title": "Your Lifestyle",
+    "score_label": "Sustainability Score",
+    "earths_required": "Earths Required",
+    "if_everyone": "If everyone lived like you",
+    "steps_title": "Steps to Improve",
+    "step_small": "Start with small, gradual changes",
+    "step_focus": "Focus on one area at a time",
+    "step_share": "Share your journey to inspire others",
+    "step_reassess": "Reassess every 3-6 months",
+    "footer_note": "Sustainability is a journey, not a destination. Every step counts.",
+    "howItWorks": {
+      "title": "How Does the Sustainable Lifestyle Calculator Work?",
+      "formula": "Sustainability Score = Σ (Category score × Impact weight) / Max score × 100",
+      "explanation": "This calculator evaluates your lifestyle choices across six key environmental impact areas: energy, transportation, diet, waste management, water usage, and shopping habits. Each category is weighted by its relative environmental impact.",
+      "steps": [
+        "Select your primary energy source",
+        "Choose your main transportation method",
+        "Select your diet type",
+        "Indicate your waste management practices",
+        "Select your water usage level",
+        "Choose your shopping habits",
+        "Click Calculate to see your sustainability score"
+      ]
+    },
+    "useCases": [
+      "Get a comprehensive sustainability assessment",
+      "Identify highest-impact areas for improvement",
+      "Track sustainability progress over time",
+      "Calculate your ecological footprint in Earth equivalents"
+    ],
+    "seoTips": [
+      "Transportation and diet typically have the largest individual impact",
+      "Switching to renewable energy can reduce footprint by 30-40%",
+      "Zero-waste practices can reduce waste by 90%",
+      "The average American footprint requires 5 Earths to sustain",
+      "Simple changes can reduce your footprint by 20% in the first year"
+    ],
+    "commonMistakes": [
+      "Focusing on low-impact changes while ignoring high-impact ones",
+      "Underestimating the impact of diet on environmental footprint",
+      "Thinking technology alone will solve sustainability challenges",
+      "Comparing yourself to the average instead of sustainable targets"
+    ],
+    "faqs": [
+      {
+        "question": "What is an ecological footprint?",
+        "answer": "It measures how much land and water is needed to produce what you consume and absorb your waste. Sustainable level is 1.7 hectares per person."
+      },
+      {
+        "question": "What does 'X Earths' mean?",
+        "answer": "If everyone lived like you, we would need X Earths to provide resources. The goal is to live within 1 Earth's capacity."
+      },
+      {
+        "question": "Which lifestyle change has the biggest impact?",
+        "answer": "Flying less, driving less, eating plant-based, and using renewable energy are the four highest-impact personal changes."
+      },
+      {
+        "question": "How can I improve my score quickly?",
+        "answer": "Start with easy wins: switch to green energy if available, reduce meat to 2-3 days/week, and use public transport when possible."
+      },
+      {
+        "question": "Is a perfect score achievable?",
+        "answer": "A perfect score requires significant lifestyle changes. Focus on continuous improvement rather than perfection - every improvement matters."
+      }
+    ]
+  },
+  "solar-panel-roi-calculator": {
+    "title": "Solar Panel ROI Calculator",
+    "description": "Calculate your solar panel investment return and payback period.",
+    "input_title": "Solar Panel ROI Calculator",
+    "system_size": "System Size (kW)",
+    "system_size_tooltip": "Total capacity of your solar panel system",
+    "enter_size": "Enter size",
+    "install_cost": "Installation Cost",
+    "install_cost_tooltip": "Total cost including panels and installation",
+    "enter_cost": "Enter cost",
+    "currency": "SAR",
+    "monthly_bill": "Monthly Electricity Bill",
+    "monthly_bill_tooltip": "Your average monthly electricity bill",
+    "enter_bill": "Enter bill amount",
+    "sun_hours": "Average Sun Hours/Day",
+    "sun_hours_tooltip": "Average daily peak sun hours in your area",
+    "enter_hours": "Enter hours",
+    "calculate_btn": "Calculate ROI",
+    "reset_btn": "Reset",
+    "results_title": "Investment Analysis",
+    "annual_production": "Annual Energy Production",
+    "annual_savings": "Annual Savings",
+    "payback_period": "Payback Period",
+    "roi_25_years": "ROI Over 25 Years",
+    "co2_offset": "Annual CO₂ Offset",
+    "trees_equivalent": "Trees Equivalent",
+    "kwh_year": "kWh/year",
+    "years": "years",
+    "kg_year": "kg/year",
+    "trees": "trees",
+    "info_title": "About Solar ROI",
+    "info_description": "Solar panels typically last 25+ years and can significantly reduce electricity costs.",
+    "benefit_1": "Reduce electricity bills",
+    "benefit_2": "Increase property value",
+    "benefit_3": "Environmental benefits",
+    "empty_state": "Enter your solar system details to calculate ROI",
+    "hours": "hours",
+    "kg": "kg",
+    "benefits_title": "Solar Energy Benefits",
+    "benefit_4": "Very low maintenance",
+    "footer_note": "Calculations are estimates based on installation conditions and local sun hours.",
+    "howItWorks": {
+      "title": "How Does the Solar Panel ROI Calculator Work?",
+      "formula": "ROI = ((Annual savings × 25 years) - Installation cost) / Installation cost × 100%",
+      "explanation": "This calculator projects your solar investment return by estimating annual energy production based on system size and local sun hours, then calculating savings over the typical 25-year panel lifespan.",
+      "steps": [
+        "Enter your proposed solar system size in kilowatts",
+        "Enter the total installation cost including panels and labor",
+        "Enter your current average monthly electricity bill",
+        "Enter average peak sun hours in your area",
+        "Click Calculate to see payback period and ROI"
+      ]
+    },
+    "useCases": [
+      "Evaluate solar panel investment before purchase",
+      "Compare quotes from different solar installers",
+      "Understand long-term financial benefits of solar",
+      "Plan financing based on payback timeline"
+    ],
+    "seoTips": [
+      "Average payback period for solar is 6-10 years",
+      "Solar panels maintain 80%+ efficiency after 25 years",
+      "ROI over 25 years typically exceeds 200-400%",
+      "Solar can increase home value by 3-4%",
+      "Peak sun hours vary from 3-6 hours by location"
+    ],
+    "commonMistakes": [
+      "Not factoring in panel degradation of 0.5% per year",
+      "Forgetting inverter replacement costs every 10-15 years",
+      "Overestimating sun hours without considering local weather",
+      "Ignoring roof orientation impact on production"
+    ],
+    "faqs": [
+      {
+        "question": "What affects solar ROI the most?",
+        "answer": "Installation cost, local electricity rates, sun hours, and roof orientation have the biggest impact on ROI."
+      },
+      {
+        "question": "How accurate is the payback estimate?",
+        "answer": "Estimates are within 10-15% for most installations. Actual results depend on weather patterns and electricity rate changes."
+      },
+      {
+        "question": "Should I wait for better technology?",
+        "answer": "Solar technology improves slowly (1-2% per year), while electricity costs rise. Waiting usually costs more than it saves."
+      },
+      {
+        "question": "What is the typical system size for a home?",
+        "answer": "Most homes need 5-10 kW systems. A 5kW system powers an average home and requires about 30-35 m² of roof space."
+      }
+    ]
+  }
+}

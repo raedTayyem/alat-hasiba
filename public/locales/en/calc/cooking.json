@@ -1,0 +1,2031 @@
+{
+  "recipe-converter": {
+    "title": "Recipe Converter Calculator - Free Online Scaling Tool",
+    "description": "Convert recipe quantities based on servings. Scale ingredients up or down easily for any number of people with this free cooking tool.",
+    "howItWorks": {
+      "title": "How the Recipe Converter Works",
+      "formula": "New Amount = Original Amount x (New Servings / Original Servings)",
+      "explanation": "The converter adjusts all recipe quantities automatically based on the conversion factor calculated from the serving ratio.",
+      "steps": [
+        "Enter the original number of servings",
+        "Enter your desired number of servings",
+        "Input the original ingredient quantities",
+        "Get adjusted quantities automatically"
+      ]
+    },
+    "useCases": [
+      "Scaling up a family recipe for a large party",
+      "Reducing restaurant-size recipes for home cooking",
+      "Preparing the right amount to avoid food waste",
+      "Adjusting baking recipes for different pan sizes"
+    ],
+    "seoTips": [
+      "Some ingredients like yeast and salt may need manual adjustment when doubling",
+      "Baking recipes are sensitive - don't scale more than 2-3x",
+      "Write down new quantities before starting to cook",
+      "Consider pot/pan size when scaling up recipes"
+    ],
+    "commonMistakes": [
+      "Doubling cooking time when doubling quantity (incorrect)",
+      "Forgetting to adjust pan or pot size",
+      "Scaling spices at the same ratio (better to add gradually)",
+      "Not accounting for ingredients that don't scale linearly"
+    ],
+    "faqs": [
+      {
+        "question": "Can I double any recipe?",
+        "answer": "Most recipes can be doubled, but baking recipes are more sensitive. It's best not to scale them more than 2-3 times to maintain results."
+      },
+      {
+        "question": "Does cooking time change when scaling?",
+        "answer": "Not necessarily at the same ratio. When doubling, you may need a slight increase in time. Use a thermometer or doneness test."
+      },
+      {
+        "question": "How do I convert a recipe from 8 servings to 3?",
+        "answer": "Multiply each ingredient by 3/8 = 0.375. For example: 2 cups flour x 0.375 = 0.75 cups (3/4 cup)."
+      }
+    ]
+  },
+  "serving-size-calculator": {
+    "title": "Serving Size Calculator - Free Portion Planning Tool",
+    "description": "Calculate appropriate serving sizes for meals. Plan perfect portions for any recipe with this free online nutrition calculator.",
+    "howItWorks": {
+      "title": "How the Serving Size Calculator Works",
+      "formula": "Serving Size = Total Quantity / Number of Servings",
+      "explanation": "The calculator helps determine the appropriate amount per person based on food type and established nutritional guidelines.",
+      "steps": [
+        "Select the food type or meal",
+        "Enter the number of people",
+        "Get the recommended serving size per person"
+      ]
+    },
+    "useCases": [
+      "Planning balanced, healthy meals",
+      "Calorie control and weight management",
+      "Preparing food for a specific number of guests",
+      "Dividing meals for meal prep"
+    ],
+    "seoTips": [
+      "Standard meat serving is 3-4 oz (85-115g) per person",
+      "Rice and pasta: half cup cooked as a serving",
+      "Vegetables: 1 cup raw or half cup cooked",
+      "Use smaller plates to control portions"
+    ],
+    "commonMistakes": [
+      "Confusing serving size with portion size",
+      "Ignoring differences in needs based on age and activity",
+      "Not accounting for weight before and after cooking",
+      "Forgetting that children need smaller portions"
+    ],
+    "faqs": [
+      {
+        "question": "What is the standard serving size for protein?",
+        "answer": "The standard protein serving is 3-4 oz (85-115g) of cooked meat, fish, or chicken - about the size of your palm."
+      },
+      {
+        "question": "How do I calculate portions for children?",
+        "answer": "A general rule: 1 tablespoon per year of age. A 5-year-old = approximately 5 tablespoons of each item."
+      },
+      {
+        "question": "Do serving sizes differ for athletes?",
+        "answer": "Yes, athletes need larger portions, especially protein and carbohydrates. Portions may be 25-50% larger depending on activity level."
+      }
+    ]
+  },
+  "ingredient-substitution-calculator": {
+    "title": "Ingredient Substitution Calculator - Free Cooking Alternatives",
+    "description": "Find ingredient substitutes for cooking and baking. Get perfect replacements with conversion ratios for any missing ingredient.",
+    "howItWorks": {
+      "title": "How the Ingredient Substitution Calculator Works",
+      "formula": "Substitute Amount = Original Amount x Conversion Factor",
+      "explanation": "The calculator provides suitable substitutes for each ingredient with correct conversion ratios to maintain recipe results.",
+      "steps": [
+        "Select the ingredient you want to replace",
+        "Enter the quantity needed in the recipe",
+        "Choose the appropriate substitute from the list",
+        "Get the correct amount of the substitute"
+      ]
+    },
+    "useCases": [
+      "Replacing a missing ingredient without going shopping",
+      "Modifying recipes for food allergies",
+      "Converting recipes to vegan",
+      "Reducing calories or fat in recipes"
+    ],
+    "seoTips": [
+      "Greek yogurt is an excellent substitute for sour cream",
+      "Lemon juice + milk = buttermilk substitute",
+      "Mashed banana replaces eggs in baking",
+      "Coconut oil substitutes for butter in vegan baking"
+    ],
+    "commonMistakes": [
+      "Replacing yeast with baking powder at the same amount",
+      "Using oil instead of butter at the same amount (correct: 3/4 the amount)",
+      "Substituting sugar with honey without reducing liquids",
+      "Not considering flavor differences when substituting"
+    ],
+    "faqs": [
+      {
+        "question": "What is an egg substitute in baking?",
+        "answer": "Per egg: 1/4 cup mashed banana, or 3 tbsp applesauce, or 1 tbsp flax seeds + 3 tbsp water, or 1/4 cup yogurt."
+      },
+      {
+        "question": "How do I substitute regular milk with plant milk?",
+        "answer": "Can be substituted 1:1 in most recipes. Oat milk is best for baking, coconut milk for creamy desserts."
+      },
+      {
+        "question": "What's a butter substitute in baking?",
+        "answer": "Use 3/4 the amount of vegetable oil, or coconut butter at 1:1, or applesauce for low-fat recipes."
+      }
+    ]
+  },
+  "cooking-measurement-converter": {
+    "title": "Cooking Measurement Converter - Free Cup to Gram Calculator",
+    "description": "Convert between cups, tablespoons, grams, and liters instantly. Free online kitchen measurement converter for accurate cooking.",
+    "howItWorks": {
+      "title": "How the Cooking Measurement Converter Works",
+      "formula": "New Value = Original Value x Conversion Factor",
+      "explanation": "Converts between different measurement units using precise conversion factors for each ingredient type.",
+      "steps": [
+        "Select the source unit (e.g., cups)",
+        "Select the target unit (e.g., grams)",
+        "Enter the quantity",
+        "Get the result instantly"
+      ]
+    },
+    "useCases": [
+      "Converting American recipes (cups) to metric (grams)",
+      "Reading recipes from different international sources",
+      "Cooking precisely using a scale",
+      "Converting old recipes with unfamiliar measurements"
+    ],
+    "seoTips": [
+      "1 cup = 240 ml for liquids",
+      "1 tablespoon = 15 ml = 3 teaspoons",
+      "Weight is more accurate than volume for baking",
+      "Keep a conversion chart in your kitchen"
+    ],
+    "commonMistakes": [
+      "Assuming all ingredients have the same cup weight",
+      "Confusing American and British cups",
+      "Using coffee mugs instead of measuring cups",
+      "Not distinguishing between fluid ounces and weight ounces"
+    ],
+    "faqs": [
+      {
+        "question": "How many grams in a cup of flour?",
+        "answer": "A cup of all-purpose flour = approximately 125 grams. This varies based on measuring method and flour density."
+      },
+      {
+        "question": "What's the difference between US and metric cups?",
+        "answer": "US cup = 240 ml, while metric cup = 250 ml. The difference is small but matters in precise baking."
+      },
+      {
+        "question": "How do I convert tablespoons to grams?",
+        "answer": "Depends on the ingredient. 1 tbsp sugar ≈ 12g, 1 tbsp salt ≈ 18g, 1 tbsp butter ≈ 14g."
+      }
+    ]
+  },
+  "volume-to-weight-calculator": {
+    "title": "Volume to Weight Calculator - Free Ingredient Converter",
+    "description": "Convert cups to grams for specific ingredients. Accurate volume to weight conversions for flour, sugar, butter, and more.",
+    "howItWorks": {
+      "title": "How the Volume to Weight Calculator Works",
+      "formula": "Weight = Volume x Ingredient Density",
+      "explanation": "Each ingredient has a different density, so a cup of flour doesn't weigh the same as a cup of sugar. The calculator uses each ingredient's density for accurate conversion.",
+      "steps": [
+        "Select the ingredient from the list",
+        "Enter the volume (cups or tablespoons)",
+        "Get the weight in grams or ounces"
+      ]
+    },
+    "useCases": [
+      "Converting recipes for precise baking with a scale",
+      "Standardizing measurements for saved recipes",
+      "Calculating nutritional values accurately",
+      "Buying the right amounts of ingredients"
+    ],
+    "seoTips": [
+      "1 cup flour = 125 grams",
+      "1 cup sugar = 200 grams",
+      "1 cup butter = 227 grams",
+      "Weight ensures consistent results every time"
+    ],
+    "commonMistakes": [
+      "Using a general conversion chart for all ingredients",
+      "Not accounting for different flour types",
+      "Forgetting that powdered sugar is lighter than granulated",
+      "Ignoring cup measuring method (scoop vs spoon)"
+    ],
+    "faqs": [
+      {
+        "question": "Why is weight more accurate than cups?",
+        "answer": "Because the amount of flour in a cup changes based on how it's filled. A packed cup may contain 150g while sifted is only 115g."
+      },
+      {
+        "question": "How many grams in a cup of brown sugar?",
+        "answer": "A cup of packed brown sugar = approximately 220 grams. It should be pressed into the cup for correct measurement."
+      },
+      {
+        "question": "Do I need a scale for everyday cooking?",
+        "answer": "For regular cooking, cups are fine. But for baking and pastries, a scale noticeably improves results."
+      }
+    ]
+  },
+  "oven-temperature-converter": {
+    "title": "Oven Temperature Converter - Free Celsius to Fahrenheit Tool",
+    "description": "Convert oven temperatures between Celsius, Fahrenheit, and gas marks. Essential free tool for international recipe cooking.",
+    "temperature_label": "Temperature",
+    "temperature_tooltip": "Enter the temperature to convert",
+    "temperature_placeholder": "e.g. 350",
+    "from_unit_label": "From Unit",
+    "from_unit_tooltip": "Select current unit",
+    "unit_fahrenheit": "Fahrenheit (°F)",
+    "unit_celsius": "Celsius (°C)",
+    "result_label": "Converted Temperature",
+    "gas_mark": "Gas Mark",
+    "additional_info_title": "Conversion Details",
+    "fahrenheit_label": "Fahrenheit",
+    "celsius_label": "Celsius",
+    "gas_mark_label": "Gas Mark",
+    "description_label": "Heat Level",
+    "formula_title": "Conversion Formula",
+    "formula_explanation": "°C = (°F - 32) × 5/9 | °F = (°C × 9/5) + 32",
+    "info_title": "Oven Guide",
+    "info_description": "Gas marks are approximate. Every oven is different, so use an oven thermometer for precision.",
+    "use_cases_title": "Useful For",
+    "use_case_1": "International recipes",
+    "use_case_2": "Old cookbooks",
+    "use_case_3": "Different oven types",
+    "error_invalid_input": "Invalid temperature",
+    "error_fahrenheit_range": "Fahrenheit must be 200-500",
+    "error_celsius_range": "Celsius must be 90-260",
+    "error_calculation": "Calculation error",
+    "gas_mark_1": "Very Cool",
+    "gas_mark_2": "Cool",
+    "gas_mark_3": "Warm",
+    "gas_mark_4": "Moderate",
+    "gas_mark_5": "Moderate Hot",
+    "gas_mark_6": "Moderately Hot",
+    "gas_mark_7": "Hot",
+    "gas_mark_8": "Hot",
+    "gas_mark_9": "Very Hot",
+    "howItWorks": {
+      "title": "How the Oven Temperature Converter Works",
+      "formula": "°C = (°F - 32) × 5/9 | °F = (°C × 9/5) + 32",
+      "explanation": "The converter uses standard temperature conversion formulas and maps temperatures to gas mark equivalents for older ovens.",
+      "steps": [
+        "Enter the temperature value",
+        "Select the source unit (Fahrenheit or Celsius)",
+        "View the converted temperature and gas mark equivalent"
+      ]
+    },
+    "useCases": [
+      "Converting European recipes using Celsius to Fahrenheit",
+      "Following British recipes with gas mark settings",
+      "Adapting vintage cookbook temperatures",
+      "Using international cooking websites"
+    ],
+    "seoTips": [
+      "350°F = 180°C is the most common baking temperature",
+      "Gas mark 4 = 350°F = 180°C (moderate oven)",
+      "Always preheat your oven for accurate results",
+      "Use an oven thermometer to verify actual temperature"
+    ],
+    "commonMistakes": [
+      "Forgetting that oven temperatures vary by manufacturer",
+      "Not preheating the oven before cooking",
+      "Confusing Celsius and Fahrenheit in recipes",
+      "Assuming gas marks are exact (they are approximate)"
+    ],
+    "faqs": [
+      {
+        "question": "What is 180°C in Fahrenheit?",
+        "answer": "180°C equals 356°F, commonly rounded to 350°F. This is the standard moderate baking temperature."
+      },
+      {
+        "question": "What gas mark is 200°C?",
+        "answer": "200°C is approximately Gas Mark 6. This is considered a moderately hot oven, good for roasting."
+      },
+      {
+        "question": "Why do ovens have different temperature scales?",
+        "answer": "Celsius is used in most countries, Fahrenheit in the US, and gas marks in older British ovens. Each developed independently."
+      },
+      {
+        "question": "How accurate are gas mark conversions?",
+        "answer": "Gas marks are approximate ranges, not exact temperatures. Each increment represents about 25°F or 14°C."
+      }
+    ]
+  },
+  "baking-conversion": {
+    "title": "Baking Conversion Calculator - Cup to Gram Converter",
+    "description": "Convert between cups, grams, and ounces for common baking ingredients like flour, sugar, and butter.",
+    "amount_label": "Amount",
+    "amount_tooltip": "Enter the amount to convert",
+    "amount_placeholder": "e.g. 2",
+    "from_unit_label": "From Unit",
+    "from_unit_tooltip": "Select the unit you're converting from",
+    "unit_cups": "Cups",
+    "unit_grams": "Grams",
+    "unit_ounces": "Ounces",
+    "ingredient_label": "Ingredient",
+    "ingredient_tooltip": "Select the ingredient for accurate conversion",
+    "group_flour": "Flour",
+    "group_sugar": "Sugar",
+    "group_fats": "Fats",
+    "group_liquids": "Liquids",
+    "group_other": "Other",
+    "flour_all_purpose": "All-Purpose Flour",
+    "flour_bread": "Bread Flour",
+    "flour_cake": "Cake Flour",
+    "flour_whole_wheat": "Whole Wheat Flour",
+    "sugar_white": "White Sugar",
+    "sugar_brown": "Brown Sugar",
+    "sugar_powdered": "Powdered Sugar",
+    "butter": "Butter",
+    "oil": "Oil",
+    "milk": "Milk",
+    "water": "Water",
+    "honey": "Honey",
+    "cocoa_powder": "Cocoa Powder",
+    "nuts": "Nuts",
+    "oats": "Oats",
+    "result_label": "Conversion Result",
+    "additional_info_title": "Conversion Details",
+    "info_title": "About Baking Conversions",
+    "info_description": "Accurate measurements are crucial in baking. Different ingredients have different densities, so 1 cup of flour weighs differently than 1 cup of sugar.",
+    "use_cases_title": "Useful For",
+    "use_case_1": "Converting international recipes",
+    "use_case_2": "Scaling recipes accurately",
+    "use_case_3": "Precise baking measurements",
+    "tip_title": "Pro Tip",
+    "tip_explanation": "For best results, use a kitchen scale for dry ingredients. Volume measurements can vary based on how ingredients are packed.",
+    "error_invalid_input": "Please enter a valid number",
+    "error_positive_amount": "Amount must be greater than zero",
+    "error_calculation": "An error occurred during calculation",
+    "howItWorks": {
+      "title": "How the Baking Conversion Calculator Works",
+      "formula": "Weight (g) = Volume (cups) × Ingredient Density (g/cup)",
+      "explanation": "Each baking ingredient has a unique density. The calculator uses precise density values to convert between volume and weight measurements.",
+      "steps": [
+        "Select the ingredient you want to convert",
+        "Enter the amount in cups, grams, or ounces",
+        "Choose the source unit",
+        "Get accurate conversions for your recipe"
+      ]
+    },
+    "useCases": [
+      "Converting American recipes to metric measurements",
+      "Using a kitchen scale for precise baking",
+      "Adapting professional recipes for home use",
+      "Scaling recipes for different batch sizes"
+    ],
+    "seoTips": [
+      "1 cup all-purpose flour = 125g (spooned and leveled)",
+      "1 cup butter = 227g = 2 sticks",
+      "Sifted flour weighs less than packed flour",
+      "Always use the same measuring method for consistency"
+    ],
+    "commonMistakes": [
+      "Using the same conversion for all ingredients",
+      "Scooping flour directly from the bag (packs it too tightly)",
+      "Not zeroing the scale between ingredients",
+      "Confusing weight ounces with fluid ounces"
+    ],
+    "faqs": [
+      {
+        "question": "Why do baking recipes need precise measurements?",
+        "answer": "Baking is chemistry. Small variations in ingredient ratios can affect gluten development, rise, and texture significantly."
+      },
+      {
+        "question": "Should I measure flour by weight or volume?",
+        "answer": "Weight is more accurate. A cup of flour can vary from 120g to 150g depending on how it's measured."
+      },
+      {
+        "question": "What's the difference between cake flour and all-purpose flour?",
+        "answer": "Cake flour is lighter and has less protein. 1 cup cake flour = 114g vs 125g for all-purpose."
+      },
+      {
+        "question": "How do I convert butter sticks to grams?",
+        "answer": "1 US butter stick = 113g = 1/2 cup = 8 tablespoons. European butter may vary slightly."
+      }
+    ]
+  },
+  "cooking-time": {
+    "title": "Cooking Time Calculator - Meat Roasting Timer",
+    "description": "Calculate perfect cooking times for beef, chicken, lamb, and more based on weight and preferred doneness.",
+    "weight_label": "Weight (lbs)",
+    "weight_tooltip": "Enter the weight of the meat",
+    "weight_placeholder": "e.g. 5.5",
+    "meat_type_label": "Meat Type",
+    "meat_type_tooltip": "Select the type of meat",
+    "meat_chicken": "Chicken",
+    "meat_beef": "Beef",
+    "meat_pork": "Pork",
+    "meat_turkey": "Turkey",
+    "cooking_method_label": "Cooking Method",
+    "cooking_method_tooltip": "Select how you want to cook it",
+    "method_roasting": "Roasting",
+    "method_grilling": "Grilling",
+    "method_baking": "Baking",
+    "result_label": "Cooking Time",
+    "result_unit": "Estimated time",
+    "additional_info_title": "Cooking Details",
+    "temperature_label": "Temperature",
+    "total_time_label": "Total Time",
+    "minutes": "minutes",
+    "formula_title": "Cooking Formula",
+    "formula_explanation": "Based on standard minutes per pound recommendations for each meat type and method.",
+    "info_title": "Cooking Guide",
+    "info_description": "Ensure meat reaches safe internal temperature using a meat thermometer regardless of calculated time.",
+    "use_cases_title": "Use Cases",
+    "use_case_1": "Sunday roast planning",
+    "use_case_2": "Holiday meal preparation",
+    "use_case_3": "BBQ timing",
+    "error_invalid_input": "Invalid weight",
+    "error_positive_weight": "Weight must be positive",
+    "error_weight_too_large": "Weight is too large",
+    "error_calculation": "Calculation error",
+    "howItWorks": {
+      "title": "How the Cooking Time Calculator Works",
+      "formula": "Cooking Time = Weight (lbs) × Minutes per Pound",
+      "explanation": "The calculator uses established cooking guidelines based on meat type, weight, and cooking method to estimate total cooking time.",
+      "steps": [
+        "Enter the weight of your meat in pounds",
+        "Select the type of meat",
+        "Choose your cooking method",
+        "Get estimated cooking time and temperature"
+      ]
+    },
+    "useCases": [
+      "Planning holiday roasts and dinner parties",
+      "Timing multiple dishes to finish together",
+      "Meal prepping large batches of protein",
+      "BBQ and grilling time management"
+    ],
+    "seoTips": [
+      "Always use a meat thermometer for food safety",
+      "Let meat rest for 10-15 minutes after cooking",
+      "Room temperature meat cooks more evenly",
+      "Add 20-30 minutes if cooking from frozen"
+    ],
+    "commonMistakes": [
+      "Not accounting for resting time",
+      "Opening the oven door frequently (loses heat)",
+      "Cooking cold meat straight from the fridge",
+      "Relying only on time without checking temperature"
+    ],
+    "faqs": [
+      {
+        "question": "What temperature should chicken reach?",
+        "answer": "Chicken should reach an internal temperature of 165°F (74°C) in the thickest part for food safety."
+      },
+      {
+        "question": "How long to roast beef per pound?",
+        "answer": "For medium-rare beef: about 15 minutes per pound at 325°F. Add 5-7 minutes per pound for medium to well-done."
+      },
+      {
+        "question": "Should I cover meat while roasting?",
+        "answer": "Covering helps retain moisture but prevents browning. Roast uncovered for crispy skin, or cover then uncover for the last 30 minutes."
+      },
+      {
+        "question": "Why is resting time important?",
+        "answer": "Resting allows juices to redistribute throughout the meat. Cutting too soon causes juices to run out, making meat dry."
+      }
+    ]
+  },
+  "turkey-cooking-calculator": {
+    "title": "Turkey Cooking Calculator - Free Roasting Time Tool",
+    "description": "Calculate perfect turkey roasting time and temperature. Free online calculator for Thanksgiving and holiday meal planning.",
+    "weight_label": "Weight (lbs)",
+    "weight_tooltip": "Weight of the turkey in pounds",
+    "weight_placeholder": "e.g. 15",
+    "stuffed_label": "Stuffed?",
+    "stuffed_tooltip": "Is the turkey stuffed?",
+    "stuffed": "Stuffed",
+    "unstuffed": "Unstuffed",
+    "result_label": "Roasting Time",
+    "minutes_unit": "minutes",
+    "additional_info_title": "Preparation Details",
+    "thawing_time_label": "Thawing Time (Fridge)",
+    "days_unit": "days",
+    "oven_temp_label": "Oven Temperature",
+    "pounds_unit": "lbs",
+    "turkey_type_label": "Preparation",
+    "formula_title": "Roasting Rule",
+    "formula_explanation": "13 mins/lb for unstuffed, 15 mins/lb for stuffed at 325°F.",
+    "info_title": "Turkey Tips",
+    "info_description": "Always check internal temperature reaches 165°F in the breast and 175°F in the thigh.",
+    "use_cases_title": "Perfect For",
+    "use_case_1": "Thanksgiving Dinner",
+    "use_case_2": "Christmas Feast",
+    "use_case_3": "Large Family Gatherings",
+    "error_invalid_input": "Invalid weight",
+    "error_positive_values": "Weight must be positive",
+    "error_too_large": "Turkey is too large (>50 lbs)",
+    "error_too_small": "Turkey is too small (<4 lbs)",
+    "error_calculation": "Calculation error",
+    "howItWorks": {
+      "title": "How the Turkey Cooking Calculator Works",
+      "formula": "Unstuffed: 13 min/lb | Stuffed: 15 min/lb at 325°F (163°C)",
+      "explanation": "The calculator determines roasting time based on weight and whether the turkey is stuffed, then calculates thawing time needed.",
+      "steps": [
+        "Enter the turkey weight in pounds",
+        "Select whether it's stuffed or unstuffed",
+        "Get roasting time, temperature, and thawing schedule"
+      ]
+    },
+    "useCases": [
+      "Planning Thanksgiving dinner timing",
+      "Christmas and holiday meal preparation",
+      "Large family gatherings and potlucks",
+      "Church dinners and community events"
+    ],
+    "seoTips": [
+      "Plan 1 to 1.5 pounds of turkey per person",
+      "Thaw in refrigerator: 24 hours per 4-5 pounds",
+      "Remove turkey from fridge 1 hour before roasting",
+      "Tent with foil if browning too quickly"
+    ],
+    "commonMistakes": [
+      "Not allowing enough thawing time",
+      "Stuffing the turkey too tightly",
+      "Not checking internal temperature in multiple spots",
+      "Forgetting to remove the giblet bag"
+    ],
+    "faqs": [
+      {
+        "question": "How long to thaw a frozen turkey?",
+        "answer": "In the refrigerator: 24 hours per 4-5 pounds. A 20-lb turkey needs about 4-5 days. In cold water: 30 minutes per pound."
+      },
+      {
+        "question": "What size turkey do I need for 12 people?",
+        "answer": "Plan 1-1.5 pounds per person. For 12 people, get a 12-18 pound turkey depending on desired leftovers."
+      },
+      {
+        "question": "Is it safe to stuff a turkey?",
+        "answer": "Yes, but stuffing must reach 165°F inside the turkey. Many experts recommend cooking stuffing separately for food safety."
+      },
+      {
+        "question": "How long should turkey rest before carving?",
+        "answer": "Let turkey rest 20-30 minutes after removing from oven. This allows juices to redistribute for moister meat."
+      },
+      {
+        "question": "Why is my turkey dry?",
+        "answer": "Common causes: overcooking, not basting, or carving too soon. Use a thermometer and don't exceed 165°F in the breast."
+      }
+    ]
+  },
+  "roast-cooking-calculator": {
+    "title": "Roast Cooking Calculator - Free Oven Roasting Timer",
+    "description": "Calculate roast cooking time for perfect results. Free oven roasting calculator for beef, lamb, and pork joints.",
+    "howItWorks": {
+      "title": "How the Roast Cooking Calculator Works",
+      "formula": "Cooking Time = Base Time + (Minutes per Pound × Weight)",
+      "explanation": "The calculator uses meat type, weight, and desired doneness to determine optimal roasting time and temperature.",
+      "steps": [
+        "Select the type of roast (beef, lamb, pork)",
+        "Enter the weight in pounds or kilograms",
+        "Choose your preferred doneness level",
+        "Get precise cooking time and temperature"
+      ]
+    },
+    "useCases": [
+      "Sunday roast dinner planning",
+      "Holiday prime rib preparation",
+      "Dinner party timing coordination",
+      "Restaurant-quality home cooking"
+    ],
+    "seoTips": [
+      "Sear the roast first for better browning",
+      "Use a meat thermometer for accuracy",
+      "Let meat rest 15-20 minutes before slicing",
+      "Calculate backwards from serving time"
+    ],
+    "commonMistakes": [
+      "Not bringing meat to room temperature first",
+      "Cutting into meat to check doneness (use thermometer)",
+      "Forgetting carry-over cooking continues after removal",
+      "Not resting the meat before carving"
+    ],
+    "faqs": [
+      {
+        "question": "What temperature is medium-rare beef?",
+        "answer": "Remove beef at 130°F (54°C) for medium-rare. It will rise to 135°F during resting. Medium is 140-145°F."
+      },
+      {
+        "question": "How long to roast a 3-pound beef roast?",
+        "answer": "At 325°F: about 1.5-2 hours for medium-rare. Use 20-25 minutes per pound as a guide."
+      },
+      {
+        "question": "Should I cover my roast?",
+        "answer": "Roast uncovered for crispy exterior. Cover with foil only if browning too quickly or to rest after cooking."
+      },
+      {
+        "question": "What's the best temperature for roasting?",
+        "answer": "325-350°F for even cooking. High heat (425°F) works for quick-roasting smaller cuts."
+      }
+    ]
+  },
+  "pasta-cooking-calculator": {
+    "title": "Pasta Cooking Calculator - Free Serving Size Tool",
+    "description": "Calculate pasta quantity and cooking time per person. Free online calculator for perfect spaghetti, penne, and all pasta types.",
+    "servings_label": "Number of Servings",
+    "servings_tooltip": "How many people are you cooking for?",
+    "servings_placeholder": "e.g. 4",
+    "unit_label": "Measurement Unit",
+    "unit_tooltip": "Choose preferred unit for dry pasta",
+    "unit_oz": "Ounces (oz)",
+    "unit_grams": "Grams (g)",
+    "result_label": "Dry Pasta Needed",
+    "oz_dry": "oz dry pasta",
+    "grams_dry": "g dry pasta",
+    "additional_info_title": "Cooking Info",
+    "cooked_pasta_label": "Cooked Weight (approx)",
+    "expansion_ratio_label": "Expansion Ratio",
+    "servings_unit": "people",
+    "per_serving_label": "Per Person",
+    "formula_title": "Rule of Thumb",
+    "formula_explanation": "2 oz (56g) dry pasta per person. Pasta expands 2.5x in weight when cooked.",
+    "info_title": "Pasta Tips",
+    "info_description": "Use plenty of salted water. 4-6 quarts per pound of pasta.",
+    "use_cases_title": "Great For",
+    "use_case_1": "Family dinners",
+    "use_case_2": "Meal prep",
+    "use_case_3": "Reducing food waste",
+    "error_invalid_input": "Invalid number",
+    "error_positive_values": "Must be positive",
+    "error_too_many_servings": "Too many servings (>100)",
+    "error_calculation": "Calculation error",
+    "howItWorks": {
+      "title": "How the Pasta Cooking Calculator Works",
+      "formula": "Dry Pasta = 2 oz (56g) × Number of Servings",
+      "explanation": "The calculator determines the right amount of dry pasta based on standard serving sizes, accounting for pasta expansion during cooking.",
+      "steps": [
+        "Enter the number of people you're serving",
+        "Select your preferred measurement unit",
+        "Get the amount of dry pasta needed",
+        "View the approximate cooked weight"
+      ]
+    },
+    "useCases": [
+      "Weekly family dinner planning",
+      "Meal prep for the week",
+      "Dinner party preparation",
+      "Reducing food waste by cooking exact amounts"
+    ],
+    "seoTips": [
+      "2 oz dry pasta = 1 cup cooked (approximately)",
+      "Long pasta: 2-inch diameter bundle per person",
+      "Salt water generously (1 tbsp per pound of pasta)",
+      "Save pasta water for sauce - the starch helps it cling"
+    ],
+    "commonMistakes": [
+      "Using too little water (causes sticking)",
+      "Not salting the water enough",
+      "Rinsing pasta after cooking (removes starch)",
+      "Overcooking - check 2 minutes before package time"
+    ],
+    "faqs": [
+      {
+        "question": "How much pasta per person?",
+        "answer": "Standard serving is 2 oz (56g) dry pasta per person as a main dish, or 1 oz (28g) as a side."
+      },
+      {
+        "question": "How much does pasta expand when cooked?",
+        "answer": "Pasta roughly doubles in weight and volume when cooked. 2 oz dry becomes about 1 cup or 4-5 oz cooked."
+      },
+      {
+        "question": "Why does my pasta stick together?",
+        "answer": "Use plenty of water (4-6 quarts per pound), stir within the first minute, and don't add oil (it prevents sauce adhesion)."
+      },
+      {
+        "question": "How do I measure spaghetti without a scale?",
+        "answer": "A 2-inch diameter bundle of spaghetti is roughly 8 oz (4 servings). Use a spaghetti measure tool for accuracy."
+      }
+    ]
+  },
+  "cake-serving-calculator": {
+    "title": "Cake Serving Calculator - Free Party Planning Tool",
+    "description": "Calculate cake size needed for your guests. Free calculator determines perfect cake portions for weddings, birthdays, and events.",
+    "shape_label": "Cake Shape",
+    "shape_tooltip": "Select cake shape",
+    "shape_round": "Round",
+    "shape_square": "Square",
+    "shape_sheet": "Sheet",
+    "size_label": "Cake Size",
+    "size_tooltip": "Select cake size",
+    "size_suffix": "diameter",
+    "calculate_btn": "Calculate Servings",
+    "reset_btn": "Reset",
+    "result_label": "Servings",
+    "result_unit": "servings",
+    "details_title": "Cake Details",
+    "shape_result": "Shape",
+    "size_result": "Size",
+    "info_title": "About Cake Sizes",
+    "info_description": "Serving sizes are based on standard party portions.",
+    "use_cases_title": "Perfect For",
+    "use_case_1": "Birthday parties",
+    "use_case_2": "Weddings",
+    "use_case_3": "Special events",
+    "error_calculation": "Calculation error",
+    "empty_state": "Select cake details",
+    "cake_shape_label": "Cake Shape",
+    "cake_shape_tooltip": "Choose the cake shape",
+    "cake_size_label": "Cake Size",
+    "cake_size_tooltip": "Choose the cake dimensions",
+    "servings_unit": "guest",
+    "cake_shape_result_label": "Shape",
+    "cake_size_result_label": "Size",
+    "per_serving_label": "Slice Size",
+    "slice_size_unit": "inch",
+    "cutting_style_label": "Cutting Style",
+    "party_style": "Party/Event Style",
+    "formula_title": "Serving Guide",
+    "formula_explanation": "Based on standard event slice size approximately 1\" x 2\" x 4\".",
+    "howItWorks": {
+      "title": "How the Cake Serving Calculator Works",
+      "formula": "Servings = (Cake Area × Height) / Standard Slice Volume",
+      "explanation": "The calculator uses cake dimensions and standard slice sizes to determine how many guests a cake will serve.",
+      "steps": [
+        "Select the cake shape (round, square, or sheet)",
+        "Choose the cake size",
+        "Get the number of servings and slice guide"
+      ]
+    },
+    "useCases": [
+      "Planning wedding cake tiers and sizes",
+      "Ordering birthday cakes for parties",
+      "Corporate event catering decisions",
+      "Home baking for gatherings"
+    ],
+    "seoTips": [
+      "Wedding slices are smaller (1\"x2\") than party slices (2\"x2\")",
+      "A 9-inch round cake serves 12-16 party portions",
+      "Sheet cakes are most economical for large groups",
+      "Order 10-15% extra for unexpected guests"
+    ],
+    "commonMistakes": [
+      "Using wedding portions for casual parties (too small)",
+      "Forgetting some guests won't eat cake",
+      "Not accounting for cake height in estimates",
+      "Ordering too little for photo-worthy leftovers"
+    ],
+    "faqs": [
+      {
+        "question": "How many people does a 9-inch cake serve?",
+        "answer": "A 9-inch round cake serves 12-16 party portions or 24-32 wedding portions, depending on how it's cut."
+      },
+      {
+        "question": "What size cake for 50 guests?",
+        "answer": "For 50 party portions: a 12-inch round plus 8-inch round, or a half sheet cake (12\"×18\")."
+      },
+      {
+        "question": "How do I cut a round cake evenly?",
+        "answer": "Use a long knife, cut across the center first, then divide each half. For weddings, cut concentric circles, then slice."
+      },
+      {
+        "question": "Should I get extra cake?",
+        "answer": "Yes, order 10-15% more than your guest count. Some want seconds, and you'll want photos with an intact cake."
+      }
+    ]
+  },
+  "bread-hydration-calculator": {
+    "title": "Bread Hydration Calculator - Free Dough Baker Percentage Tool",
+    "description": "Calculate water to flour ratio for bread dough. Free hydration calculator helps bakers achieve perfect dough consistency every time.",
+    "howItWorks": {
+      "title": "How the Bread Hydration Calculator Works",
+      "formula": "Hydration % = (Water Weight / Flour Weight) × 100",
+      "explanation": "Baker's percentage expresses all ingredient weights relative to flour weight (flour = 100%). Hydration affects dough texture and bread structure.",
+      "steps": [
+        "Enter your flour weight in grams",
+        "Enter your water weight in grams",
+        "Get the hydration percentage",
+        "Adjust water to reach desired hydration"
+      ]
+    },
+    "useCases": [
+      "Developing consistent bread recipes",
+      "Converting recipes to baker's percentages",
+      "Adjusting dough for different bread styles",
+      "Scaling recipes up or down accurately"
+    ],
+    "seoTips": [
+      "60-65% hydration: sandwich breads and rolls",
+      "70-75% hydration: artisan loaves with open crumb",
+      "80%+ hydration: ciabatta and focaccia",
+      "Whole wheat flour absorbs more water than white"
+    ],
+    "commonMistakes": [
+      "Not accounting for flour type differences",
+      "Forgetting eggs and milk add liquid content",
+      "Using volume instead of weight for calculations",
+      "Not adjusting for humidity and altitude"
+    ],
+    "faqs": [
+      {
+        "question": "What hydration is best for beginners?",
+        "answer": "Start with 65-68% hydration. It's easier to handle than high-hydration doughs while still producing good bread."
+      },
+      {
+        "question": "Why is my high-hydration dough so sticky?",
+        "answer": "High-hydration doughs are naturally sticky. Use wet hands, work on a floured surface, and let the dough rest (autolyse) for easier handling."
+      },
+      {
+        "question": "Does flour type affect hydration?",
+        "answer": "Yes. Whole wheat and bread flour absorb more water than all-purpose. You may need 5-10% more water for whole grains."
+      },
+      {
+        "question": "What is baker's percentage?",
+        "answer": "A system where flour is always 100% and all other ingredients are expressed as a percentage of flour weight. It makes scaling easy."
+      }
+    ]
+  },
+  "yeast-conversion-calculator": {
+    "title": "Yeast Conversion Calculator - Free Baking Converter",
+    "description": "Convert between active dry, instant, and fresh yeast types. Free calculator ensures perfect bread and baking results every time.",
+    "howItWorks": {
+      "title": "How the Yeast Conversion Calculator Works",
+      "formula": "Instant = Active Dry × 0.75 | Fresh = Active Dry × 2.5",
+      "explanation": "Different yeast types have different strengths. The calculator converts between types so your bread rises perfectly.",
+      "steps": [
+        "Select your source yeast type",
+        "Enter the amount called for in your recipe",
+        "Select the yeast type you have on hand",
+        "Get the equivalent amount to use"
+      ]
+    },
+    "useCases": [
+      "Substituting yeast types in any recipe",
+      "Adapting European recipes using fresh yeast",
+      "Converting between metric and US measurements",
+      "Professional baking recipe development"
+    ],
+    "seoTips": [
+      "1 packet active dry yeast = 2.25 tsp = 7g",
+      "Store active dry and instant yeast in freezer",
+      "Fresh yeast lasts only 2 weeks refrigerated",
+      "Proof active dry yeast in warm water first"
+    ],
+    "commonMistakes": [
+      "Using equal amounts when substituting yeast types",
+      "Using hot water that kills the yeast (over 110°F)",
+      "Not proofing active dry yeast before use",
+      "Using expired yeast (check the date)"
+    ],
+    "faqs": [
+      {
+        "question": "Can I substitute instant for active dry yeast?",
+        "answer": "Yes. Use 25% less instant yeast (if recipe calls for 1 tsp active dry, use 3/4 tsp instant). Add instant directly to flour, no proofing needed."
+      },
+      {
+        "question": "What is fresh yeast?",
+        "answer": "Fresh (cake) yeast is moist, perishable yeast sold in blocks. Common in Europe. Use 2.5-3× the amount of active dry yeast."
+      },
+      {
+        "question": "How do I know if yeast is still active?",
+        "answer": "Proof it: dissolve in warm water (105-110°F) with a pinch of sugar. If it foams in 10 minutes, it's active."
+      },
+      {
+        "question": "Why didn't my bread rise?",
+        "answer": "Common causes: dead yeast, water too hot, too much salt touching yeast directly, or cold environment. Yeast needs warmth to activate."
+      }
+    ]
+  },
+  "macro-calculator-recipe": {
+    "title": "Macro Calculator Recipe - Free Protein Carbs Fat Counter",
+    "description": "Calculate protein, carbohydrates, and fats in recipes. Free macro nutrition calculator for meal planning and healthy eating.",
+    "howItWorks": {
+      "title": "How the Recipe Macro Calculator Works",
+      "formula": "Total Macros = Sum of (Ingredient Weight × Macros per 100g)",
+      "explanation": "The calculator adds up protein, carbs, and fats from each ingredient to give you total and per-serving macronutrient counts.",
+      "steps": [
+        "Enter each ingredient and its weight",
+        "Add all ingredients in your recipe",
+        "Specify the number of servings",
+        "Get per-serving and total macros"
+      ]
+    },
+    "useCases": [
+      "Tracking macros for fitness goals",
+      "Creating balanced meal plans",
+      "Recipe development for diet programs",
+      "Food logging and calorie counting"
+    ],
+    "seoTips": [
+      "Protein: 4 calories per gram",
+      "Carbohydrates: 4 calories per gram",
+      "Fat: 9 calories per gram",
+      "Weigh ingredients for accuracy"
+    ],
+    "commonMistakes": [
+      "Forgetting to count cooking oils",
+      "Using cooked weights instead of raw",
+      "Not accounting for marinades and sauces",
+      "Estimating instead of weighing ingredients"
+    ],
+    "faqs": [
+      {
+        "question": "How many grams of protein do I need daily?",
+        "answer": "General guideline: 0.8g per kg body weight for sedentary adults, 1.2-2g per kg for athletes and those building muscle."
+      },
+      {
+        "question": "What are macros?",
+        "answer": "Macronutrients are protein, carbohydrates, and fat - the three main nutrients that provide calories and energy."
+      },
+      {
+        "question": "Should I weigh food raw or cooked?",
+        "answer": "Weigh food raw. Nutrition databases list values for raw ingredients. Cooking changes weight but not macros."
+      },
+      {
+        "question": "How do I calculate calories from macros?",
+        "answer": "Calories = (Protein × 4) + (Carbs × 4) + (Fat × 9). Example: 30g protein, 40g carbs, 10g fat = 370 calories."
+      }
+    ]
+  },
+  "portion-calorie-calculator": {
+    "title": "Portion Calorie Calculator - Free Serving Size Nutrition Tool",
+    "description": "Calculate calories per serving instantly. Free portion calculator helps track nutrition for diet and weight management goals.",
+    "howItWorks": {
+      "title": "How the Portion Calorie Calculator Works",
+      "formula": "Calories per Serving = Total Recipe Calories / Number of Servings",
+      "explanation": "The calculator divides total recipe calories by your chosen number of portions for accurate per-serving nutrition.",
+      "steps": [
+        "Enter the total calories in your recipe",
+        "Specify how many servings you'll divide it into",
+        "Get calories per serving",
+        "Adjust portions to meet your calorie goals"
+      ]
+    },
+    "useCases": [
+      "Meal prepping for weight loss",
+      "Tracking calories for fitness goals",
+      "Restaurant meal portion estimation",
+      "Family meal calorie distribution"
+    ],
+    "seoTips": [
+      "Use smaller plates to control portion sizes",
+      "Pre-portion meals into containers",
+      "A serving size isn't always a portion size",
+      "Read nutrition labels carefully"
+    ],
+    "commonMistakes": [
+      "Eyeballing portions instead of measuring",
+      "Ignoring liquid calories (drinks, sauces)",
+      "Not adjusting for different activity levels",
+      "Forgetting cooking additions (oil, butter)"
+    ],
+    "faqs": [
+      {
+        "question": "How many calories should I eat per meal?",
+        "answer": "For a 2000 calorie diet: roughly 500-700 per main meal, plus snacks. Adjust based on your personal calorie needs."
+      },
+      {
+        "question": "What's the difference between serving size and portion?",
+        "answer": "Serving size is the standard amount on nutrition labels. Portion is how much you actually eat - they're often different."
+      },
+      {
+        "question": "How do I estimate restaurant portions?",
+        "answer": "Restaurant portions are typically 2-3 times standard servings. Ask for a to-go box and save half for later."
+      },
+      {
+        "question": "Do I need to count calories for weight loss?",
+        "answer": "Calorie counting is one effective method. The key is consuming fewer calories than you burn, however you track it."
+      }
+    ]
+  },
+  "keto-calculator": {
+    "title": "Keto Calculator - Free Ketogenic Diet Macro Tool",
+    "description": "Calculate keto diet macros and ratios. Free ketogenic calculator determines fat, protein, and carb targets for weight loss.",
+    "howItWorks": {
+      "title": "How the Keto Calculator Works",
+      "formula": "Standard Keto: 70-75% Fat, 20-25% Protein, 5-10% Carbs",
+      "explanation": "The calculator determines your daily macro targets based on calorie needs, keeping carbs low enough to maintain ketosis.",
+      "steps": [
+        "Enter your daily calorie goal",
+        "Select your keto ratio preference",
+        "Get grams of fat, protein, and carbs",
+        "Track to stay in ketosis"
+      ]
+    },
+    "useCases": [
+      "Starting a ketogenic diet",
+      "Calculating daily keto macros",
+      "Planning keto meal prep",
+      "Adjusting macros for keto goals"
+    ],
+    "seoTips": [
+      "Stay under 20-50g net carbs daily for ketosis",
+      "Net carbs = Total carbs - Fiber",
+      "Moderate protein (too much can kick you out)",
+      "Fat is a lever, not a goal - eat to satiety"
+    ],
+    "commonMistakes": [
+      "Eating too much protein (can affect ketosis)",
+      "Not tracking hidden carbs in sauces and seasonings",
+      "Forgetting to count vegetable carbs",
+      "Not getting enough electrolytes"
+    ],
+    "faqs": [
+      {
+        "question": "How many carbs can I eat on keto?",
+        "answer": "Most people stay in ketosis under 20-50g net carbs daily. Start at 20g and adjust based on your body's response."
+      },
+      {
+        "question": "What are net carbs?",
+        "answer": "Net carbs = Total carbs minus fiber (and sugar alcohols). Fiber doesn't impact blood sugar, so it doesn't count toward your limit."
+      },
+      {
+        "question": "How much protein on keto?",
+        "answer": "Generally 0.8-1.2g per pound of lean body mass. Too much protein can convert to glucose through gluconeogenesis."
+      },
+      {
+        "question": "How do I know if I'm in ketosis?",
+        "answer": "Signs include decreased appetite, increased energy, and fruity breath. Use ketone test strips or a blood meter for confirmation."
+      }
+    ]
+  },
+  "low-carb-calculator": {
+    "title": "Low Carb Calculator - Free Diet Carbohydrate Counter",
+    "description": "Calculate carbohydrates in your meals. Free low-carb diet calculator helps track carbs for weight loss and healthy eating.",
+    "howItWorks": {
+      "title": "How the Low Carb Calculator Works",
+      "formula": "Daily Carbs = Sum of carbs from all foods consumed",
+      "explanation": "The calculator tracks your carbohydrate intake to help you stay within your daily low-carb goals.",
+      "steps": [
+        "Set your daily carb limit",
+        "Enter foods and their carb content",
+        "Track remaining carb allowance",
+        "Stay within your goals"
+      ]
+    },
+    "useCases": [
+      "Managing diabetes with carb counting",
+      "Weight loss through carb reduction",
+      "Athletic performance optimization",
+      "General healthy eating habits"
+    ],
+    "seoTips": [
+      "Low-carb: typically under 100-150g carbs/day",
+      "Focus on complex carbs over simple sugars",
+      "Vegetables have carbs too - count them",
+      "Protein and fat don't spike blood sugar"
+    ],
+    "commonMistakes": [
+      "Ignoring carbs in 'healthy' foods like fruit",
+      "Not reading nutrition labels carefully",
+      "Forgetting liquid carbs in drinks",
+      "Eliminating carbs entirely (some are healthy)"
+    ],
+    "faqs": [
+      {
+        "question": "How many carbs is considered low-carb?",
+        "answer": "Low-carb typically means under 100-150g daily. Very low-carb (keto) is under 20-50g. Moderate is 100-200g."
+      },
+      {
+        "question": "What foods are low in carbs?",
+        "answer": "Meat, fish, eggs, cheese, non-starchy vegetables, nuts, and healthy oils. Avoid bread, pasta, rice, and sugary foods."
+      },
+      {
+        "question": "Are all carbs bad?",
+        "answer": "No. Complex carbs from vegetables and whole grains provide fiber and nutrients. Limit refined sugars and processed grains."
+      },
+      {
+        "question": "Will low-carb help me lose weight?",
+        "answer": "Many people lose weight on low-carb diets due to reduced appetite and lower insulin levels. Results vary by individual."
+      }
+    ]
+  },
+  "gluten-free-calculator": {
+    "title": "Gluten Free Calculator - Free Flour Substitution Tool",
+    "description": "Find gluten-free flour substitutes and conversions. Free calculator for celiac-friendly baking and cooking alternatives.",
+    "howItWorks": {
+      "title": "How the Gluten-Free Calculator Works",
+      "formula": "GF Flour Blend = Rice Flour + Starch + Binding Agent",
+      "explanation": "The calculator helps convert wheat flour recipes to gluten-free alternatives using proper flour blends and binding agents.",
+      "steps": [
+        "Enter the wheat flour amount in your recipe",
+        "Select your preferred gluten-free flour type",
+        "Get the conversion amount",
+        "View recommended binders (xanthan gum, etc.)"
+      ]
+    },
+    "useCases": [
+      "Converting family recipes for celiac disease",
+      "Baking for gluten-sensitive guests",
+      "Developing allergen-free products",
+      "Healthy gluten-free cooking"
+    ],
+    "seoTips": [
+      "Use a blend of GF flours for best texture",
+      "Add xanthan gum for structure (1/4 tsp per cup flour)",
+      "Let GF batters rest to hydrate properly",
+      "GF baked goods often need more liquid"
+    ],
+    "commonMistakes": [
+      "Using 1:1 substitution for single GF flours",
+      "Forgetting binding agents like xanthan gum",
+      "Over-mixing GF batters (makes them gummy)",
+      "Not checking all ingredients for hidden gluten"
+    ],
+    "faqs": [
+      {
+        "question": "Can I substitute almond flour 1:1 for wheat flour?",
+        "answer": "No. Almond flour behaves very differently - use about 1 cup almond flour + 1/4 cup starch for each cup of wheat flour."
+      },
+      {
+        "question": "What is the best gluten-free flour blend?",
+        "answer": "A good all-purpose blend: 2 cups rice flour + 2/3 cup potato starch + 1/3 cup tapioca starch. Add 1 tsp xanthan gum per cup blend."
+      },
+      {
+        "question": "Why is xanthan gum needed?",
+        "answer": "Gluten provides structure and elasticity. Xanthan gum mimics this function, helping GF baked goods hold together."
+      },
+      {
+        "question": "Is gluten-free flour healthier?",
+        "answer": "Not necessarily. GF flours often have less fiber and protein than whole wheat. They're essential for celiac/intolerance but not inherently healthier."
+      }
+    ]
+  },
+  "tea-brewing-calculator": {
+    "title": "Tea Brewing Calculator - Free Steeping Time Temperature Tool",
+    "description": "Calculate tea brewing time and temperature. Free guide for green, black, white, and herbal tea preparation perfection.",
+    "howItWorks": {
+      "title": "How the Tea Brewing Calculator Works",
+      "formula": "Perfect Tea = Right Temperature + Proper Steep Time + Correct Amount",
+      "explanation": "Different teas require specific temperatures and steeping times. The calculator provides optimal parameters for each tea type.",
+      "steps": [
+        "Select your tea type",
+        "Enter the amount of water",
+        "Get water temperature recommendation",
+        "View optimal steeping time"
+      ]
+    },
+    "useCases": [
+      "Brewing loose leaf tea properly",
+      "Learning tea preparation basics",
+      "Avoiding bitter or weak tea",
+      "Tea tasting and appreciation"
+    ],
+    "seoTips": [
+      "Green tea: 160-180°F (71-82°C), 2-3 minutes",
+      "Black tea: 200-212°F (93-100°C), 3-5 minutes",
+      "White tea: 160-185°F (71-85°C), 4-5 minutes",
+      "Herbal tea: 212°F (100°C), 5-7 minutes"
+    ],
+    "commonMistakes": [
+      "Using boiling water for green tea (makes it bitter)",
+      "Oversteeping tea (increases bitterness)",
+      "Using too little tea leaves",
+      "Not preheating the teapot"
+    ],
+    "faqs": [
+      {
+        "question": "Why is my green tea bitter?",
+        "answer": "Water too hot or steeped too long. Use 160-180°F water and steep only 2-3 minutes. Green tea is delicate."
+      },
+      {
+        "question": "How much loose tea per cup?",
+        "answer": "Generally 1 teaspoon (2-3g) per 8 oz cup. Adjust to taste - some teas are bulkier and need more."
+      },
+      {
+        "question": "Can I resteep tea leaves?",
+        "answer": "Yes, quality loose leaf tea can be resteeped 2-5 times. Each steeping reveals different flavors."
+      },
+      {
+        "question": "Does tea expire?",
+        "answer": "Tea doesn't spoil but loses flavor over time. Use within 6-12 months for best taste. Store airtight, away from light."
+      }
+    ]
+  },
+  "cocktail-calculator": {
+    "title": "Cocktail Calculator - Free Drink Recipe Ratio Tool",
+    "description": "Calculate cocktail ingredient ratios and portions. Free bartender tool for perfect mixed drinks and mocktails every time.",
+    "howItWorks": {
+      "title": "How the Cocktail Calculator Works",
+      "formula": "Cocktail Balance = Spirit + Sour + Sweet (in proper ratios)",
+      "explanation": "The calculator uses classic cocktail ratios and scales ingredients for any number of drinks.",
+      "steps": [
+        "Select the cocktail type or enter a custom ratio",
+        "Choose the number of drinks to make",
+        "Get scaled ingredient amounts",
+        "View mixing instructions"
+      ]
+    },
+    "useCases": [
+      "Scaling recipes for parties",
+      "Learning classic cocktail ratios",
+      "Creating batch cocktails",
+      "Home bartending practice"
+    ],
+    "seoTips": [
+      "Classic sour ratio: 2:1:1 (spirit:sour:sweet)",
+      "Margarita: 2 oz tequila, 1 oz lime, 0.5 oz triple sec",
+      "Batch cocktails: add dilution (25% water)",
+      "Measure with jiggers for consistency"
+    ],
+    "commonMistakes": [
+      "Not measuring ingredients (over-pouring spirits)",
+      "Forgetting about ice dilution",
+      "Using low-quality mixers",
+      "Not balancing sweet and sour elements"
+    ],
+    "faqs": [
+      {
+        "question": "What is the basic cocktail ratio?",
+        "answer": "The sour template is 2:1:1 - 2 parts spirit, 1 part citrus, 1 part sweet. This forms the base for many classic cocktails."
+      },
+      {
+        "question": "How much is one part?",
+        "answer": "A 'part' is a ratio unit, not a fixed measurement. If 1 part = 1 oz, then 2 parts = 2 oz. Scale up or down as needed."
+      },
+      {
+        "question": "How do I batch cocktails for a party?",
+        "answer": "Multiply recipe by number of drinks. Add 25% water to account for dilution (you won't be shaking with ice)."
+      },
+      {
+        "question": "What's the difference between shaking and stirring?",
+        "answer": "Shake cocktails with citrus/juice for dilution and aeration. Stir spirit-only cocktails to chill without cloudiness."
+      }
+    ]
+  },
+  "buffet-calculator": {
+    "title": "Buffet Calculator - Free Party Food Quantity Tool",
+    "description": "Calculate buffet food quantities for events. Free tool determines how much food to serve at weddings, parties, and gatherings.",
+    "howItWorks": {
+      "title": "How the Buffet Calculator Works",
+      "formula": "Per Person: 1 lb total food = 4-6 oz protein + 4 oz starch + 4 oz vegetables",
+      "explanation": "The calculator estimates food quantities based on guest count, event duration, and variety of dishes offered.",
+      "steps": [
+        "Enter the number of guests",
+        "Select event type and duration",
+        "Choose the number of dish options",
+        "Get recommended quantities per item"
+      ]
+    },
+    "useCases": [
+      "Planning wedding receptions",
+      "Corporate event catering",
+      "Family reunion meals",
+      "Holiday party buffets"
+    ],
+    "seoTips": [
+      "Plan 1-1.5 lbs of food total per adult",
+      "More options = less of each (guest variety)",
+      "Heavy appetizers reduce main dish needs",
+      "Add 10-15% buffer for hungry crowds"
+    ],
+    "commonMistakes": [
+      "Underestimating how much guests eat",
+      "Forgetting dietary restrictions and options",
+      "Not having enough of popular items",
+      "Preparing too many similar dishes"
+    ],
+    "faqs": [
+      {
+        "question": "How much food per person for a buffet?",
+        "answer": "Plan 1-1.5 pounds of food total per adult guest. This includes proteins, sides, and desserts combined."
+      },
+      {
+        "question": "How many appetizers per person?",
+        "answer": "For cocktail hour: 6-8 pieces per person per hour. If appetizers are the meal: 12-15 pieces per person."
+      },
+      {
+        "question": "Should I order extra food?",
+        "answer": "Yes, add 10-15% extra for safety. Better to have leftovers than run out, especially for paid events."
+      },
+      {
+        "question": "How do I plan for dietary restrictions?",
+        "answer": "Assume 10-15% vegetarian, 5% vegan, 5% gluten-free. Ask guests in advance and clearly label options."
+      }
+    ]
+  },
+  "food-expiry-calculator": {
+    "title": "Food Expiry Calculator - Free Shelf Life Storage Guide",
+    "description": "Calculate food expiration dates and shelf life. Free storage calculator helps prevent waste and maintain food safety standards.",
+    "howItWorks": {
+      "title": "How the Food Expiry Calculator Works",
+      "formula": "Expiry Date = Storage Date + Safe Storage Duration",
+      "explanation": "The calculator provides safe storage times for various foods based on storage method (pantry, fridge, freezer).",
+      "steps": [
+        "Select the food category",
+        "Choose the storage method",
+        "Enter the storage or purchase date",
+        "Get recommended use-by date"
+      ]
+    },
+    "useCases": [
+      "Managing refrigerator inventory",
+      "Reducing food waste",
+      "Planning meal prep schedules",
+      "Food safety compliance"
+    ],
+    "seoTips": [
+      "Raw chicken: 1-2 days fridge, 9 months freezer",
+      "Eggs: 3-5 weeks fridge (in carton)",
+      "Cooked rice: 4-6 days refrigerated",
+      "When in doubt, throw it out"
+    ],
+    "commonMistakes": [
+      "Confusing 'sell by' with 'use by' dates",
+      "Storing food at improper temperatures",
+      "Refreezing thawed meat multiple times",
+      "Keeping leftovers too long"
+    ],
+    "faqs": [
+      {
+        "question": "What does 'sell by' date mean?",
+        "answer": "Sell by is for store inventory, not safety. Food is usually safe for days or weeks after sell-by if stored properly."
+      },
+      {
+        "question": "How long are leftovers safe?",
+        "answer": "Most cooked leftovers are safe 3-4 days refrigerated. When reheating, ensure they reach 165°F (74°C)."
+      },
+      {
+        "question": "Can I eat food after the expiration date?",
+        "answer": "Depends on the food. Many are safe past 'best by' dates. Trust your senses for smell, texture, and appearance. Don't risk meat or dairy."
+      },
+      {
+        "question": "How long can I freeze meat?",
+        "answer": "Frozen at 0°F (-18°C): beef 4-12 months, chicken 9 months, ground meat 3-4 months. Quality declines but safety doesn't if continuously frozen."
+      }
+    ]
+  },
+  "meat-thawing-calculator": {
+    "title": "Meat Thawing Calculator - Free Defrosting Time Guide",
+    "description": "Calculate meat thawing time safely. Free defrosting calculator for chicken, beef, pork, and seafood with food safety guidelines.",
+    "howItWorks": {
+      "title": "How the Meat Thawing Calculator Works",
+      "formula": "Fridge: 24 hours per 5 lbs | Cold Water: 30 min per lb",
+      "explanation": "The calculator estimates safe thawing time based on meat type, weight, and thawing method to prevent bacterial growth.",
+      "steps": [
+        "Select the meat type",
+        "Enter the weight",
+        "Choose thawing method",
+        "Get estimated thawing time"
+      ]
+    },
+    "useCases": [
+      "Planning holiday meal preparation",
+      "Daily dinner planning with frozen meat",
+      "Food service timing",
+      "Safe food handling education"
+    ],
+    "seoTips": [
+      "Refrigerator thawing is safest",
+      "Never thaw meat at room temperature",
+      "Cold water method: change water every 30 min",
+      "Cook immediately after microwave thawing"
+    ],
+    "commonMistakes": [
+      "Thawing meat on the counter (danger zone)",
+      "Not allowing enough refrigerator thaw time",
+      "Refreezing raw meat that was thawed in water",
+      "Forgetting to cook microwave-thawed meat immediately"
+    ],
+    "faqs": [
+      {
+        "question": "Is it safe to thaw meat on the counter?",
+        "answer": "No. Meat enters the 'danger zone' (40-140°F) where bacteria multiply rapidly. Always thaw in fridge, cold water, or microwave."
+      },
+      {
+        "question": "How long to thaw a chicken in the fridge?",
+        "answer": "About 24 hours per 5 pounds. A 4-lb chicken needs 1 day; a whole turkey (20 lbs) needs 4-5 days."
+      },
+      {
+        "question": "Can I cook meat from frozen?",
+        "answer": "Yes, but it takes about 50% longer. Ensure internal temperature reaches safe levels. Not recommended for slow cookers."
+      },
+      {
+        "question": "Can I refreeze thawed meat?",
+        "answer": "If thawed in the fridge, yes (quality may decline). If thawed in water or microwave, cook first before refreezing."
+      }
+    ]
+  },
+  "food-cost-calculator": {
+    "title": "Food Cost Calculator - Free Recipe Price Per Serving Tool",
+    "description": "Calculate recipe costs and price per serving. Free food cost calculator for home cooks, meal prep, and restaurant menu planning.",
+    "howItWorks": {
+      "title": "How the Food Cost Calculator Works",
+      "formula": "Cost per Serving = Total Ingredient Cost / Number of Servings",
+      "explanation": "The calculator totals ingredient costs and divides by servings to determine the cost per portion.",
+      "steps": [
+        "Enter each ingredient and its cost",
+        "Add amounts used in the recipe",
+        "Specify number of servings",
+        "Get cost per serving and total cost"
+      ]
+    },
+    "useCases": [
+      "Budgeting weekly meal plans",
+      "Comparing homemade vs. takeout costs",
+      "Restaurant menu pricing",
+      "Meal prep cost analysis"
+    ],
+    "seoTips": [
+      "Restaurant food cost target: 28-35% of menu price",
+      "Buy in bulk to reduce per-unit costs",
+      "Seasonal ingredients are often cheaper",
+      "Track waste to find true costs"
+    ],
+    "commonMistakes": [
+      "Forgetting to include oils, seasonings, and staples",
+      "Using purchase price instead of used amount",
+      "Not accounting for food waste",
+      "Ignoring energy and equipment costs"
+    ],
+    "faqs": [
+      {
+        "question": "How do I calculate cost per serving?",
+        "answer": "Add up all ingredient costs, then divide by number of servings. Include pantry staples like oil and seasonings."
+      },
+      {
+        "question": "Is cooking at home really cheaper?",
+        "answer": "Usually yes. A home-cooked meal averages $2-5 per serving vs $8-15 for restaurant equivalent."
+      },
+      {
+        "question": "How do restaurants price their menus?",
+        "answer": "Food cost is typically 28-35% of menu price. A dish costing $4 to make would be priced $12-14."
+      },
+      {
+        "question": "What's the cheapest protein source?",
+        "answer": "Eggs, canned beans, and chicken thighs are among the most affordable protein sources per gram."
+      }
+    ]
+  },
+  "grilling-temperature-calculator": {
+    "title": "Grilling Temperature Calculator - Free BBQ Cooking Guide",
+    "description": "Calculate grilling temperature and cooking time. Free BBQ calculator for steaks, burgers, chicken, fish, and vegetables.",
+    "howItWorks": {
+      "title": "How the Grilling Temperature Calculator Works",
+      "formula": "Grill Temp + Time + Thickness = Perfect Doneness",
+      "explanation": "The calculator recommends grill temperatures and cook times based on meat type, thickness, and desired doneness.",
+      "steps": [
+        "Select the food item",
+        "Enter thickness (for meats)",
+        "Choose desired doneness",
+        "Get grill temperature and time"
+      ]
+    },
+    "useCases": [
+      "Backyard BBQ cooking",
+      "Grilling different meats simultaneously",
+      "Achieving consistent steak doneness",
+      "Summer cookout planning"
+    ],
+    "seoTips": [
+      "High heat (450-550°F) for steaks and burgers",
+      "Medium heat (350-450°F) for chicken and pork",
+      "Low heat (250-350°F) for slow-cooked ribs",
+      "Let meat rest 5 minutes after grilling"
+    ],
+    "commonMistakes": [
+      "Flipping meat too often",
+      "Not preheating the grill",
+      "Pressing down on burgers (loses juice)",
+      "Using only high heat for everything"
+    ],
+    "faqs": [
+      {
+        "question": "What temperature for medium-rare steak?",
+        "answer": "Remove steak at 130°F (54°C). Sear over high heat (450-500°F) for 4-5 minutes per side for a 1-inch steak."
+      },
+      {
+        "question": "How long to grill chicken breast?",
+        "answer": "At 400-450°F, grill 6-8 minutes per side for boneless breast until internal temp reaches 165°F (74°C)."
+      },
+      {
+        "question": "How do I prevent flare-ups?",
+        "answer": "Trim excess fat, keep a cool zone on the grill, don't spray water (can scatter grease), and avoid sugary marinades."
+      },
+      {
+        "question": "Should I close the grill lid?",
+        "answer": "Yes for thicker cuts and longer cooks (creates oven-like environment). Open lid for thinner items and quick searing."
+      }
+    ]
+  },
+  "pizza-dough-calculator": {
+    "title": "Pizza Dough Calculator",
+    "description": "Calculate pizza dough ingredients using 'Baker's Percentage' for professional results.",
+    "pizzas_label": "Number of Pizzas",
+    "pizzas_tooltip": "Enter the number of dough balls you want to prepare",
+    "pizzas_placeholder": "e.g., 4",
+    "hydration_label": "Hydration Ratio (%)",
+    "hydration_tooltip": "Amount of water relative to flour (usually 60% to 70%)",
+    "result_label": "Total Dough",
+    "pizza_balls_unit": "Dough Ball",
+    "ingredients_title": "Required Ingredients",
+    "flour_label": "Flour",
+    "water_label": "Water",
+    "yeast_label": "Yeast",
+    "salt_label": "Salt",
+    "oil_label": "Oil",
+    "total_weight_label": "Total Dough Weight",
+    "formula_title": "Baker's Percentage",
+    "formula_explanation": "All ingredients are calculated as a percentage of the flour weight (which is 100%).",
+    "info_title": "About Pizza Dough",
+    "info_description": "High hydration means softer dough and larger air bubbles, while low hydration gives dough that is easier to shape.",
+    "use_cases_title": "Tips for Success",
+    "use_case_1": "Use high-protein flour (00 or Bread Flour)",
+    "use_case_2": "Weighing ingredients with a scale is much more accurate than cups",
+    "use_case_3": "Let the dough ferment slowly in the fridge for better flavor",
+    "error_invalid_input": "Please enter valid numbers",
+    "error_positive_values": "Values must be greater than zero",
+    "error_hydration_range": "Hydration ratio must be between 50% and 80%",
+    "error_too_many_pizzas": "Number of pizzas is too large",
+    "error_calculation": "An error occurred during calculation",
+    "howItWorks": {
+      "title": "How the Pizza Dough Calculator Works",
+      "formula": "Baker's Percentage: All ingredients as % of flour weight",
+      "explanation": "The calculator uses baker's percentages to scale recipes precisely. Flour is always 100%, and other ingredients are calculated as a percentage of flour weight.",
+      "steps": [
+        "Enter the number of pizza dough balls needed",
+        "Set your desired hydration percentage",
+        "Optionally adjust dough ball weight",
+        "Get precise ingredient amounts"
+      ]
+    },
+    "useCases": [
+      "Making homemade Neapolitan-style pizza",
+      "Scaling recipes for pizza parties",
+      "Experimenting with different hydration levels",
+      "Consistent results every time you bake"
+    ],
+    "seoTips": [
+      "Standard pizza hydration is 60-65%",
+      "Neapolitan style uses 55-60% hydration",
+      "00 flour or bread flour for best gluten development",
+      "Cold ferment 24-72 hours for best flavor"
+    ],
+    "commonMistakes": [
+      "Using all-purpose flour (lower protein)",
+      "Rushing fermentation time",
+      "Over-kneading the dough",
+      "Using warm water with instant yeast"
+    ],
+    "faqs": [
+      {
+        "question": "What hydration is best for pizza?",
+        "answer": "60-65% is standard. Lower (55-60%) for crispier crust, higher (70%+) for airy, more rustic crusts but harder to handle."
+      },
+      {
+        "question": "Why use weight instead of cups?",
+        "answer": "Weight is much more precise. A cup of flour can vary 20-30g depending on how it's measured, affecting dough texture."
+      },
+      {
+        "question": "How much dough per pizza?",
+        "answer": "For a 12-inch pizza: 250-280g dough ball. For 10-inch: 200-220g. Neapolitan standard is about 250g."
+      },
+      {
+        "question": "How long should pizza dough ferment?",
+        "answer": "Minimum 8 hours, ideally 24-72 hours in the refrigerator. Longer fermentation develops more flavor and better texture."
+      }
+    ]
+  },
+  "rice-cooking-calculator": {
+    "title": "Rice Cooking Calculator - Water Ratio Timer Tool",
+    "description": "Calculate perfect rice to water ratio and cooking time. Free calculator for white, brown, basmati, jasmine, and all rice types.",
+    "servings_label": "Number of Servings",
+    "servings_tooltip": "How many servings do you want to prepare?",
+    "servings_placeholder": "e.g. 4",
+    "rice_type_label": "Rice Type",
+    "rice_type_tooltip": "Select the type of rice",
+    "type_white": "White Rice",
+    "type_brown": "Brown Rice",
+    "type_basmati": "Basmati Rice",
+    "type_jasmine": "Jasmine Rice",
+    "result_label": "Rice Needed",
+    "result_unit_cups_dry": "cups (dry)",
+    "additional_info_title": "Cooking Details",
+    "water_needed_label": "Water Needed",
+    "cups_unit": "cups",
+    "cooked_rice_label": "Cooked Rice (approx)",
+    "cooking_time_label": "Cooking Time",
+    "rice_type_result_label": "Rice Type",
+    "formula_title": "Cooking Ratios",
+    "formula_explanation": "Ratios vary by type: White (1:2), Brown (1:2.5), Basmati (1:1.5), Jasmine (1:1.75).",
+    "info_title": "Rice Tips",
+    "info_description": "Rinse rice before cooking to remove excess starch for better results.",
+    "use_cases_title": "Perfect For",
+    "use_case_1": "Meal prep",
+    "use_case_2": "Side dishes",
+    "use_case_3": "Fried rice base",
+    "error_invalid_input": "Invalid number",
+    "error_positive_values": "Must be positive",
+    "error_too_many_servings": "Too many servings (>100)",
+    "error_calculation": "Calculation error",
+    "minutes_unit": "minutes",
+    "howItWorks": {
+      "title": "How the Rice Cooking Calculator Works",
+      "formula": "Water = Rice Amount × Water Ratio (varies by rice type)",
+      "explanation": "Different rice types absorb different amounts of water. The calculator uses the optimal ratio for each variety.",
+      "steps": [
+        "Select your rice type",
+        "Enter the number of servings",
+        "Get rice amount and water ratio",
+        "View cooking time for your rice type"
+      ]
+    },
+    "useCases": [
+      "Cooking the right amount for meals",
+      "Making rice for meal prep",
+      "Preparing fried rice base",
+      "Cooking for dinner parties"
+    ],
+    "seoTips": [
+      "White rice: 1 cup rice to 2 cups water",
+      "Brown rice: 1 cup rice to 2.5 cups water",
+      "Basmati: 1 cup rice to 1.5 cups water",
+      "Rinse rice until water runs clear"
+    ],
+    "commonMistakes": [
+      "Using the same ratio for all rice types",
+      "Stirring rice while cooking (makes it gummy)",
+      "Not letting rice rest after cooking",
+      "Lifting the lid too often"
+    ],
+    "faqs": [
+      {
+        "question": "Why rinse rice before cooking?",
+        "answer": "Rinsing removes surface starch that causes rice to stick together. Rinse until water runs clear for fluffy rice."
+      },
+      {
+        "question": "Why is my rice mushy?",
+        "answer": "Too much water, overcooking, or stirring during cooking. Use correct ratio and don't lift the lid until done."
+      },
+      {
+        "question": "How much does rice expand?",
+        "answer": "Rice roughly triples in volume. 1 cup dry = about 3 cups cooked. Plan 1/2 cup dry rice per serving."
+      },
+      {
+        "question": "Should I soak rice before cooking?",
+        "answer": "Basmati benefits from 30-minute soaking for longer grains. Most other rice doesn't require soaking."
+      }
+    ]
+  },
+  "coffee-ratio-calculator": {
+    "title": "Coffee Ratio Calculator - Free Brewing Guide",
+    "description": "Calculate the perfect coffee to water ratio for brewing. Free online calculator for espresso, pour over, french press, and more.",
+    "cups_label": "Number of Cups",
+    "cups_tooltip": "Enter the number of coffee cups you want to brew",
+    "cups_placeholder": "Enter number of cups",
+    "strength_label": "Coffee Strength",
+    "strength_tooltip": "Choose your preferred coffee strength",
+    "strength_weak": "Weak (1:18)",
+    "strength_normal": "Normal (1:16) - Golden Ratio",
+    "strength_strong": "Strong (1:14)",
+    "result_label": "Coffee Needed",
+    "tablespoons_unit": "tablespoons approx",
+    "additional_info_title": "Brewing Details",
+    "water_needed_label": "Water Needed",
+    "cups_unit": "cups",
+    "ratio_label": "Brewing Ratio",
+    "strength_result_label": "Selected Strength",
+    "tablespoons_label": "Tablespoons",
+    "formula_title": "Brewing Rule",
+    "formula_explanation": "Calculations based on the golden ratio (1:16) where 1 gram of coffee per 16ml of water.",
+    "info_title": "About Coffee Ratios",
+    "info_description": "The right ratio is the secret to the perfect cup of coffee. Tastes vary but the golden ratio is the global quality standard.",
+    "use_cases_title": "Suitable Brewing Methods",
+    "use_case_1": "V60 and Chemex",
+    "use_case_2": "French Press",
+    "use_case_3": "Drip Coffee",
+    "error_invalid_input": "Please enter a valid number for cups",
+    "error_positive_values": "Number of cups must be greater than zero",
+    "error_too_many_cups": "Too many cups",
+    "error_calculation": "An error occurred during calculation",
+    "howItWorks": {
+      "title": "How the Coffee Ratio Calculator Works",
+      "formula": "Golden Ratio: 1g coffee per 16ml water (1:16)",
+      "explanation": "The calculator uses standard coffee-to-water ratios, adjustable for strength preference and brewing method.",
+      "steps": [
+        "Enter the number of cups desired",
+        "Select your preferred strength",
+        "Get coffee amount in grams and tablespoons",
+        "View water amount needed"
+      ]
+    },
+    "useCases": [
+      "Consistent daily coffee brewing",
+      "Scaling for coffee gatherings",
+      "Dialing in new coffee beans",
+      "Comparing brewing methods"
+    ],
+    "seoTips": [
+      "Golden ratio: 1:16 (1g coffee to 16ml water)",
+      "Stronger: 1:14, Lighter: 1:18",
+      "Espresso uses 1:2 ratio (very concentrated)",
+      "Use a scale for best results"
+    ],
+    "commonMistakes": [
+      "Using stale coffee (use within 2-4 weeks of roasting)",
+      "Incorrect water temperature (should be 195-205°F)",
+      "Inconsistent grind size",
+      "Using tap water with chlorine"
+    ],
+    "faqs": [
+      {
+        "question": "What is the golden coffee ratio?",
+        "answer": "The golden ratio is 1:16 - one gram of coffee for every 16 grams (ml) of water. This produces balanced, flavorful coffee."
+      },
+      {
+        "question": "How many tablespoons of coffee per cup?",
+        "answer": "About 2 tablespoons (10-12g) per 6 oz cup. Adjust to taste. A tablespoon of coffee weighs about 5-7g."
+      },
+      {
+        "question": "Why does my coffee taste bitter?",
+        "answer": "Over-extraction from too-fine grind, too-hot water, or over-brewing. Try coarser grind and shorter brew time."
+      },
+      {
+        "question": "What temperature water for coffee?",
+        "answer": "195-205°F (90-96°C). Boiling water scorches coffee; too cool under-extracts. Wait 30 seconds off boil."
+      }
+    ]
+  },
+  "rice-calculator": {
+    "title": "Rice to Water Ratio Calculator",
+    "description": "Calculate the perfect amount of water for different types of rice.",
+    "rice_type": "Rice Type",
+    "unit": "Unit",
+    "amount": "Amount of Rice",
+    "select_rice": "Select rice type",
+    "error_invalid_input": "Please enter a valid amount",
+    "error_positive_amount": "Amount must be greater than zero",
+    "water_needed": "Water Needed",
+    "cooking_time": "Cooking Time",
+    "tips": "Cooking Tips",
+    "types": {
+      "white_long_grain": "White Long Grain",
+      "white_short_grain": "White Short Grain",
+      "brown_long_grain": "Brown Long Grain",
+      "brown_short_grain": "Brown Short Grain",
+      "basmati": "Basmati",
+      "jasmine": "Jasmine",
+      "wild_rice": "Wild Rice",
+      "sushi_rice": "Sushi Rice"
+    },
+    "units": {
+      "cups": "Cups",
+      "grams": "Grams"
+    },
+    "instructions": {
+      "white": "Rinse rice until water runs clear. Bring to boil, then simmer covered until water is absorbed.",
+      "brown": "Combine rice and water. Bring to boil, reduce heat to low, cover and simmer. Let stand covered for 5 minutes.",
+      "wild": "Rinse rice. Bring water to boil, add rice, reduce heat and simmer covered until tender. Drain excess water.",
+      "sushi": "Rinse rice several times. Let drain for 30 min. Combine with water and soak for 30 min before cooking."
+    },
+    "howItWorks": {
+      "title": "How the Rice Calculator Works",
+      "formula": "Water = Rice × Ratio (varies by type)",
+      "explanation": "Each rice variety has a specific water-to-rice ratio for optimal cooking. The calculator provides the exact measurements.",
+      "steps": [
+        "Select the type of rice",
+        "Enter the amount in cups or grams",
+        "Get the water ratio and cooking time",
+        "Follow type-specific cooking instructions"
+      ]
+    },
+    "useCases": [
+      "Perfect rice every time",
+      "Trying new rice varieties",
+      "Meal planning and prep",
+      "Cooking for groups"
+    ],
+    "seoTips": [
+      "Long grain: fluffy and separate",
+      "Short grain: sticky and clumpy",
+      "Wild rice takes longest to cook (45-60 min)",
+      "Sushi rice needs seasoning after cooking"
+    ],
+    "commonMistakes": [
+      "Using wrong ratio for rice type",
+      "Not adjusting for altitude",
+      "Opening lid during cooking",
+      "Not resting rice after cooking"
+    ],
+    "faqs": [
+      {
+        "question": "What's the ratio for long grain white rice?",
+        "answer": "1 cup rice to 1.75-2 cups water. Less water for firmer rice, more for softer."
+      },
+      {
+        "question": "How is brown rice different?",
+        "answer": "Brown rice has the bran layer intact, needing more water (1:2.5 ratio) and longer cooking (45 minutes)."
+      },
+      {
+        "question": "Why does sushi rice need soaking?",
+        "answer": "Soaking allows the grains to absorb water evenly for the sticky texture needed in sushi."
+      },
+      {
+        "question": "Can I cook different rice types together?",
+        "answer": "Not recommended - different cooking times and water ratios make it difficult to cook evenly."
+      }
+    ]
+  },
+  "smoothie-calculator": {
+    "title": "Smoothie Calculator - Free Recipe Nutrition Tool",
+    "description": "Calculate smoothie ratios and ingredients for the perfect blend. Free tool that balances fruits, vegetables, protein, and liquids.",
+    "howItWorks": {
+      "title": "How the Smoothie Calculator Works",
+      "formula": "Smoothie = 50% Liquid + 25% Fruit + 25% Add-ins",
+      "explanation": "The calculator balances liquid base, fruits/vegetables, protein, and extras for a perfectly blended smoothie.",
+      "steps": [
+        "Enter the desired smoothie size",
+        "Select your liquid base",
+        "Choose fruits and vegetables",
+        "Add protein and extras",
+        "Get balanced ingredient amounts"
+      ]
+    },
+    "useCases": [
+      "Creating balanced breakfast smoothies",
+      "Post-workout protein shakes",
+      "Meal replacement planning",
+      "Kid-friendly healthy drinks"
+    ],
+    "seoTips": [
+      "Use frozen fruit for thicker texture",
+      "Add liquid first for better blending",
+      "Include healthy fat for satiety (nut butter, avocado)",
+      "Greens blend better with bananas"
+    ],
+    "commonMistakes": [
+      "Too much fruit (high sugar)",
+      "Not enough liquid (won't blend)",
+      "Adding ice to fresh fruit (waters down flavor)",
+      "Skipping protein (not filling)"
+    ],
+    "faqs": [
+      {
+        "question": "What's the best liquid base for smoothies?",
+        "answer": "Almond milk, oat milk, or coconut water are popular. Use about 1 cup liquid per 2 cups of ingredients."
+      },
+      {
+        "question": "How do I make a thicker smoothie?",
+        "answer": "Use frozen fruit instead of fresh, add frozen banana, or include Greek yogurt. Less liquid also helps."
+      },
+      {
+        "question": "How much protein powder per smoothie?",
+        "answer": "One scoop (20-30g) is typical. Check your protein powder's serving size for specific amounts."
+      },
+      {
+        "question": "Can I meal prep smoothies?",
+        "answer": "Yes! Prep ingredient bags (without liquid) and freeze. Add liquid when ready to blend. Consume same day."
+      }
+    ]
+  },
+  "party-food-calculator": {
+    "title": "Party Food Calculator - Free Event Catering Planner",
+    "description": "Calculate food quantities needed for parties and events. Catering calculator helps plan perfect amounts for any number of guests.",
+    "howItWorks": {
+      "title": "How the Party Food Calculator Works",
+      "formula": "Food per Guest = Event Type × Duration × Guest Count",
+      "explanation": "The calculator estimates food quantities based on party type, duration, time of day, and number of guests.",
+      "steps": [
+        "Enter the number of guests",
+        "Select party type and duration",
+        "Choose meal style (sit-down, buffet, appetizers)",
+        "Get recommended food quantities"
+      ]
+    },
+    "useCases": [
+      "Birthday party planning",
+      "Graduation celebrations",
+      "Holiday gatherings",
+      "Office parties and events"
+    ],
+    "seoTips": [
+      "Appetizer-only party: 8-12 pieces per person",
+      "Full meal: 1-1.5 lbs food per adult",
+      "Kids eat about half of adult portions",
+      "Evening parties = more food than afternoon"
+    ],
+    "commonMistakes": [
+      "Not accounting for heavy eaters",
+      "Forgetting to plan for dietary restrictions",
+      "Underestimating appetizer consumption",
+      "Not having enough variety"
+    ],
+    "faqs": [
+      {
+        "question": "How much food per person for a party?",
+        "answer": "For a full meal: 1-1.5 lbs total per adult. For appetizers only: 8-12 pieces per person. Kids need about half."
+      },
+      {
+        "question": "How many appetizers before dinner?",
+        "answer": "If serving a meal after: 3-4 pieces per person during cocktail hour. Appetizers only: 10-12 pieces."
+      },
+      {
+        "question": "Should I plan for leftovers?",
+        "answer": "Add 10-15% extra to your calculations. Better to have leftovers than run out, especially at paid events."
+      },
+      {
+        "question": "How do I plan for dietary restrictions?",
+        "answer": "Assume 10-15% vegetarian, 5% vegan. Always have at least one option for each restriction. Ask guests in advance."
+      }
+    ]
+  },
+  "bbq-calculator": {
+    "title": "BBQ Calculator - Free Grill Meat Quantity Tool",
+    "description": "Calculate meat quantities needed for barbecue parties. BBQ calculator helps plan perfect amounts of ribs, chicken, and burgers.",
+    "howItWorks": {
+      "title": "How the BBQ Calculator Works",
+      "formula": "Meat per Person = 0.5-0.75 lbs bone-in OR 0.33-0.5 lbs boneless",
+      "explanation": "The calculator estimates meat quantities based on guest count, meat types, and whether other food is served.",
+      "steps": [
+        "Enter the number of guests",
+        "Select meat types you're serving",
+        "Indicate if sides are included",
+        "Get recommended quantities per item"
+      ]
+    },
+    "useCases": [
+      "Summer backyard cookouts",
+      "Fourth of July celebrations",
+      "Tailgate parties",
+      "Family reunion BBQs"
+    ],
+    "seoTips": [
+      "Plan 1/3 lb per person for burgers (pre-cooked weight)",
+      "Baby back ribs: half rack per person",
+      "Brisket shrinks 40-50% when cooked",
+      "More meat if BBQ is the main event"
+    ],
+    "commonMistakes": [
+      "Forgetting meat shrinks during cooking",
+      "Not accounting for bone weight",
+      "Underestimating hungry outdoor appetites",
+      "Not having enough charcoal/propane"
+    ],
+    "faqs": [
+      {
+        "question": "How much brisket per person?",
+        "answer": "Plan 1/2 lb cooked brisket per person. Raw brisket loses 40-50% weight, so buy 1 lb raw per person."
+      },
+      {
+        "question": "How many ribs per person?",
+        "answer": "Baby back ribs: 4-5 ribs (half rack) per person. Spare ribs: 3-4 ribs per person due to larger size."
+      },
+      {
+        "question": "How many burgers for a cookout?",
+        "answer": "Plan 1.5-2 burgers per adult (1/3 lb patties). Some people eat more, some less. Include hot dogs as backup."
+      },
+      {
+        "question": "What sides reduce meat needs?",
+        "answer": "Heavy sides like mac & cheese, baked beans, and potato salad can reduce meat needs by 20-25%."
+      }
+    ]
+  },
+  "freezer-storage-calculator": {
+    "title": "Freezer Storage Calculator - Free Food Preservation Guide",
+    "description": "Calculate how long foods can be safely frozen. Free storage guide for meats, vegetables, cooked meals, and baked goods.",
+    "howItWorks": {
+      "title": "How the Freezer Storage Calculator Works",
+      "formula": "Safe Storage = Food Type × Freezer Temperature (0°F/-18°C)",
+      "explanation": "The calculator provides maximum freezer storage times while maintaining food quality and safety.",
+      "steps": [
+        "Select the food category",
+        "Choose the specific food item",
+        "Enter the freeze date",
+        "Get the recommended use-by date"
+      ]
+    },
+    "useCases": [
+      "Meal prep and batch cooking",
+      "Bulk buying for savings",
+      "Garden harvest preservation",
+      "Leftover management"
+    ],
+    "seoTips": [
+      "Label everything with contents and date",
+      "First in, first out (use oldest first)",
+      "Cool food before freezing (prevents ice crystals)",
+      "Wrap tightly to prevent freezer burn"
+    ],
+    "commonMistakes": [
+      "Freezing food past its prime",
+      "Not removing air from packaging",
+      "Overloading freezer (needs air circulation)",
+      "Refreezing thawed food repeatedly"
+    ],
+    "faqs": [
+      {
+        "question": "How long can I freeze raw meat?",
+        "answer": "At 0°F: Ground meat 3-4 months, steaks 4-12 months, chicken 9-12 months. Quality declines but safety remains if continuously frozen."
+      },
+      {
+        "question": "What is freezer burn?",
+        "answer": "Dehydration from air exposure causing dry, discolored patches. Safe to eat but affects taste/texture. Prevent with airtight packaging."
+      },
+      {
+        "question": "Can I freeze cooked rice?",
+        "answer": "Yes, for 1-2 months. Freeze in portions, thaw in microwave with a splash of water to restore moisture."
+      },
+      {
+        "question": "Is food safe if freezer lost power?",
+        "answer": "A full freezer stays safe for 48 hours unopened, half-full for 24 hours. Don't refreeze if thawed above 40°F."
+      }
+    ]
+  }
+}

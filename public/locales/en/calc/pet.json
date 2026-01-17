@@ -1,0 +1,3687 @@
+{
+  "aquarium_calculator": {
+    "title": "Aquarium Calculator",
+    "description": "Calculate fish tank volume and capacity.",
+    "length": "Length (cm)",
+    "width": "Width (cm)",
+    "height": "Height (cm)",
+    "fish_size": "Fish Size",
+    "fish_small": "Small (2-3 cm)",
+    "fish_medium": "Medium (5-8 cm)",
+    "fish_large": "Large (10+ cm)",
+    "calculate_btn": "Calculate Volume",
+    "reset_btn": "Reset",
+    "results_title": "Tank Capacity",
+    "volume": "Tank Volume",
+    "liters": "Liters",
+    "gallons": "Gallons",
+    "max_fish": "Max Fish Capacity",
+    "fish": "fish",
+    "filter_capacity": "Recommended Filter",
+    "liters_per_hour": "L/h",
+    "heater_wattage": "Heater Wattage",
+    "watts": "Watts",
+    "tips_title": "Aquarium Tips",
+    "empty_state": "Enter dimensions to calculate tank capacity",
+    "tips": [
+      "Change 20-25% of water weekly",
+      "Clean filter monthly",
+      "Monitor water quality regularly",
+      "Avoid overfeeding",
+      "Cycle the tank before adding fish"
+    ],
+    "howItWorks": {
+      "title": "How the Aquarium Calculator Works",
+      "formula": "Volume (L) = Length × Width × Height / 1000",
+      "explanation": "This calculator determines your aquarium's water volume and recommends the appropriate number of fish based on the one-inch-per-gallon rule, adjusted for fish size.",
+      "steps": [
+        "Enter your tank's length, width, and height in centimeters",
+        "Select the average size of fish you plan to keep",
+        "Click Calculate to see volume in liters and gallons",
+        "Review recommended fish capacity and equipment sizing"
+      ]
+    },
+    "useCases": [
+      "Planning a new aquarium setup and determining tank size needs",
+      "Calculating how many fish can safely live in your tank",
+      "Sizing filters, heaters, and other equipment properly",
+      "Converting between metric and imperial water measurements"
+    ],
+    "seoTips": [
+      "Always understock rather than overstock your aquarium",
+      "Consider fish adult size, not purchase size when calculating",
+      "Factor in decorations and substrate that reduce water volume",
+      "Different fish species have varying space requirements",
+      "Larger tanks are more stable and easier to maintain"
+    ],
+    "commonMistakes": [
+      "Calculating based on juvenile fish size instead of adult size",
+      "Not accounting for decorations reducing actual water volume",
+      "Overstocking the tank leading to poor water quality",
+      "Ignoring species-specific space requirements"
+    ],
+    "faqs": [
+      {
+        "question": "How many fish can I put in my aquarium?",
+        "answer": "The general rule is one inch of fish per gallon of water for small fish. However, this varies by species, and larger fish need proportionally more space."
+      },
+      {
+        "question": "What filter size do I need for my tank?",
+        "answer": "Choose a filter rated for 4-6 times your tank volume per hour. For a 100L tank, select a filter rated for 400-600 L/h."
+      },
+      {
+        "question": "How do I calculate heater wattage?",
+        "answer": "Use approximately 3-5 watts per gallon of water. A 20-gallon tank needs a 60-100 watt heater."
+      },
+      {
+        "question": "Does tank shape affect fish capacity?",
+        "answer": "Yes, surface area matters more than volume for oxygen exchange. Wider, shallower tanks can support more fish than tall, narrow tanks of the same volume."
+      },
+      {
+        "question": "Should I fill my tank completely?",
+        "answer": "Leave 1-2 inches at the top for gas exchange and to prevent jumping fish from escaping. This also allows for equipment placement."
+      }
+    ]
+  },
+  "aquarium-calculator": {
+    "title": "Aquarium Calculator",
+    "description": "Calculate fish tank volume and capacity.",
+    "length": "Length (cm)",
+    "width": "Width (cm)",
+    "height": "Height (cm)",
+    "fish_size": "Fish Size",
+    "fish_small": "Small (2-3 cm)",
+    "fish_medium": "Medium (5-8 cm)",
+    "fish_large": "Large (10+ cm)",
+    "calculate_btn": "Calculate Volume",
+    "reset_btn": "Reset",
+    "results_title": "Tank Capacity",
+    "volume": "Tank Volume",
+    "liters": "Liters",
+    "gallons": "Gallons",
+    "max_fish": "Max Fish Capacity",
+    "fish": "fish",
+    "filter_capacity": "Recommended Filter",
+    "liters_per_hour": "L/h",
+    "heater_wattage": "Heater Wattage",
+    "watts": "Watts",
+    "tips_title": "Aquarium Tips",
+    "empty_state": "Enter dimensions to calculate tank capacity",
+    "tips": [
+      "Change 20-25% of water weekly",
+      "Clean filter monthly",
+      "Monitor water quality regularly",
+      "Avoid overfeeding",
+      "Cycle the tank before adding fish"
+    ],
+    "howItWorks": {
+      "title": "How the Aquarium Calculator Works",
+      "formula": "Volume (L) = Length × Width × Height / 1000",
+      "explanation": "This calculator determines your aquarium's water volume and recommends the appropriate number of fish based on the one-inch-per-gallon rule, adjusted for fish size.",
+      "steps": [
+        "Enter your tank's length, width, and height in centimeters",
+        "Select the average size of fish you plan to keep",
+        "Click Calculate to see volume in liters and gallons",
+        "Review recommended fish capacity and equipment sizing"
+      ]
+    },
+    "useCases": [
+      "Planning a new aquarium setup and determining tank size needs",
+      "Calculating how many fish can safely live in your tank",
+      "Sizing filters, heaters, and other equipment properly",
+      "Converting between metric and imperial water measurements"
+    ],
+    "seoTips": [
+      "Always understock rather than overstock your aquarium",
+      "Consider fish adult size, not purchase size when calculating",
+      "Factor in decorations and substrate that reduce water volume",
+      "Different fish species have varying space requirements",
+      "Larger tanks are more stable and easier to maintain"
+    ],
+    "commonMistakes": [
+      "Calculating based on juvenile fish size instead of adult size",
+      "Not accounting for decorations reducing actual water volume",
+      "Overstocking the tank leading to poor water quality",
+      "Ignoring species-specific space requirements"
+    ],
+    "faqs": [
+      {
+        "question": "How many fish can I put in my aquarium?",
+        "answer": "The general rule is one inch of fish per gallon of water for small fish. However, this varies by species, and larger fish need proportionally more space."
+      },
+      {
+        "question": "What filter size do I need for my tank?",
+        "answer": "Choose a filter rated for 4-6 times your tank volume per hour. For a 100L tank, select a filter rated for 400-600 L/h."
+      },
+      {
+        "question": "How do I calculate heater wattage?",
+        "answer": "Use approximately 3-5 watts per gallon of water. A 20-gallon tank needs a 60-100 watt heater."
+      },
+      {
+        "question": "Does tank shape affect fish capacity?",
+        "answer": "Yes, surface area matters more than volume for oxygen exchange. Wider, shallower tanks can support more fish than tall, narrow tanks of the same volume."
+      },
+      {
+        "question": "Should I fill my tank completely?",
+        "answer": "Leave 1-2 inches at the top for gas exchange and to prevent jumping fish from escaping. This also allows for equipment placement."
+      }
+    ]
+  },
+  "bird_cage_calculator": {
+    "title": "Bird Cage Size Calculator",
+    "description": "Calculate appropriate bird cage dimensions for various bird types.",
+    "bird_type": "Bird Type",
+    "number_of_birds": "Number of Birds",
+    "budgie": "Budgie",
+    "cockatiel": "Cockatiel",
+    "lovebird": "Lovebird",
+    "conure": "Conure",
+    "parrot": "Parrot",
+    "macaw": "Macaw",
+    "calculate_btn": "Calculate Cage Size",
+    "reset_btn": "Reset",
+    "results_title": "Recommended Cage Size",
+    "min_dimensions": "Minimum Dimensions",
+    "length": "Length",
+    "width": "Width",
+    "height": "Height",
+    "bar_spacing": "Bar Spacing",
+    "perch_diameter": "Perch Diameter",
+    "tips_title": "Cage Tips",
+    "empty_state": "Enter bird details to calculate minimum cage size",
+    "howItWorks": {
+      "title": "How the Bird Cage Calculator Works",
+      "formula": "Minimum cage size based on bird wingspan × 2-3 times",
+      "explanation": "This calculator recommends minimum cage dimensions based on bird species and quantity, ensuring adequate space for flight, exercise, and mental stimulation.",
+      "steps": [
+        "Select your bird species from the dropdown menu",
+        "Enter the number of birds you plan to house together",
+        "Click Calculate to see minimum cage dimensions",
+        "Review bar spacing and perch diameter recommendations"
+      ]
+    },
+    "useCases": [
+      "Choosing the right cage size when adopting a new bird",
+      "Upgrading an existing cage for better bird welfare",
+      "Planning a multi-bird housing setup",
+      "Ensuring proper bar spacing for bird safety"
+    ],
+    "seoTips": [
+      "Bigger is always better when it comes to bird cages",
+      "Horizontal space is more important than vertical for most birds",
+      "Bar spacing must prevent head entrapment",
+      "Multiple perches of varying diameters promote foot health",
+      "Consider cage placement away from drafts and direct sunlight"
+    ],
+    "commonMistakes": [
+      "Buying a cage that is too small for the bird species",
+      "Choosing wrong bar spacing that can trap bird's head",
+      "Not considering room for toys and accessories",
+      "Prioritizing height over width for flying birds"
+    ],
+    "faqs": [
+      {
+        "question": "What is the minimum cage size for a budgie?",
+        "answer": "A single budgie needs at least 18x18x18 inches, but larger is better. For multiple budgies, add 50% more space per additional bird."
+      },
+      {
+        "question": "Why does bar spacing matter?",
+        "answer": "Incorrect bar spacing can allow birds to escape or get their heads stuck. Small birds need 1/2 inch spacing, medium birds 5/8-3/4 inch, and large parrots 1-1.5 inches."
+      },
+      {
+        "question": "Should I get a round or rectangular cage?",
+        "answer": "Rectangular cages are better as they provide corners where birds feel secure. Round cages can cause psychological stress and offer less usable space."
+      },
+      {
+        "question": "How many birds can share one cage?",
+        "answer": "This depends on species compatibility and cage size. Generally, same-species birds can cohabitate, but increase cage size by 50% per additional bird."
+      },
+      {
+        "question": "What perch diameter is best?",
+        "answer": "Perches should vary in diameter so the bird's foot doesn't always grip the same way. This prevents foot problems and arthritis."
+      }
+    ]
+  },
+  "bird-cage-calculator": {
+    "title": "Bird Cage Size Calculator",
+    "description": "Calculate appropriate bird cage dimensions for various bird types.",
+    "bird_type": "Bird Type",
+    "number_of_birds": "Number of Birds",
+    "budgie": "Budgie",
+    "cockatiel": "Cockatiel",
+    "lovebird": "Lovebird",
+    "conure": "Conure",
+    "parrot": "Parrot",
+    "macaw": "Macaw",
+    "calculate_btn": "Calculate Cage Size",
+    "reset_btn": "Reset",
+    "results_title": "Recommended Cage Size",
+    "min_dimensions": "Minimum Dimensions",
+    "length": "Length",
+    "width": "Width",
+    "height": "Height",
+    "bar_spacing": "Bar Spacing",
+    "perch_diameter": "Perch Diameter",
+    "tips_title": "Cage Tips",
+    "empty_state": "Enter bird details to calculate minimum cage size",
+    "howItWorks": {
+      "title": "How the Bird Cage Calculator Works",
+      "formula": "Minimum cage size based on bird wingspan × 2-3 times",
+      "explanation": "This calculator recommends minimum cage dimensions based on bird species and quantity, ensuring adequate space for flight, exercise, and mental stimulation.",
+      "steps": [
+        "Select your bird species from the dropdown menu",
+        "Enter the number of birds you plan to house together",
+        "Click Calculate to see minimum cage dimensions",
+        "Review bar spacing and perch diameter recommendations"
+      ]
+    },
+    "useCases": [
+      "Choosing the right cage size when adopting a new bird",
+      "Upgrading an existing cage for better bird welfare",
+      "Planning a multi-bird housing setup",
+      "Ensuring proper bar spacing for bird safety"
+    ],
+    "seoTips": [
+      "Bigger is always better when it comes to bird cages",
+      "Horizontal space is more important than vertical for most birds",
+      "Bar spacing must prevent head entrapment",
+      "Multiple perches of varying diameters promote foot health",
+      "Consider cage placement away from drafts and direct sunlight"
+    ],
+    "commonMistakes": [
+      "Buying a cage that is too small for the bird species",
+      "Choosing wrong bar spacing that can trap bird's head",
+      "Not considering room for toys and accessories",
+      "Prioritizing height over width for flying birds"
+    ],
+    "faqs": [
+      {
+        "question": "What is the minimum cage size for a budgie?",
+        "answer": "A single budgie needs at least 18x18x18 inches, but larger is better. For multiple budgies, add 50% more space per additional bird."
+      },
+      {
+        "question": "Why does bar spacing matter?",
+        "answer": "Incorrect bar spacing can allow birds to escape or get their heads stuck. Small birds need 1/2 inch spacing, medium birds 5/8-3/4 inch, and large parrots 1-1.5 inches."
+      },
+      {
+        "question": "Should I get a round or rectangular cage?",
+        "answer": "Rectangular cages are better as they provide corners where birds feel secure. Round cages can cause psychological stress and offer less usable space."
+      },
+      {
+        "question": "How many birds can share one cage?",
+        "answer": "This depends on species compatibility and cage size. Generally, same-species birds can cohabitate, but increase cage size by 50% per additional bird."
+      },
+      {
+        "question": "What perch diameter is best?",
+        "answer": "Perches should vary in diameter so the bird's foot doesn't always grip the same way. This prevents foot problems and arthritis."
+      }
+    ]
+  },
+  "bird_cage_size_calculator": {
+    "title": "Bird Cage Size Calculator - Free Aviary Planning Tool",
+    "description": "Calculate appropriate bird cage dimensions. Free online tool for parakeets, parrots, and all pet bird types.",
+    "tips": [
+      "Horizontal is better than vertical for small birds",
+      "Provide space for horizontal flight",
+      "Use perches of different diameters",
+      "Place cage in a quiet and safe spot",
+      "Clean cage weekly"
+    ],
+    "howItWorks": {
+      "title": "How the Bird Cage Size Calculator Works",
+      "formula": "Minimum cage size = Bird wingspan × 2.5 for width, wingspan × 3 for length",
+      "explanation": "This calculator determines the minimum cage dimensions required for healthy bird housing based on species size and number of birds. Proper cage sizing ensures birds can spread their wings fully and have adequate space for exercise and mental stimulation.",
+      "steps": [
+        {
+          "name": "Select Bird Species",
+          "text": "Choose your bird type from the dropdown menu to get species-specific recommendations"
+        },
+        {
+          "name": "Enter Bird Count",
+          "text": "Input the number of birds you plan to house in the same cage"
+        },
+        {
+          "name": "Calculate Dimensions",
+          "text": "Click calculate to receive minimum cage dimensions in inches and centimeters"
+        },
+        {
+          "name": "Review Requirements",
+          "text": "Check bar spacing and perch diameter recommendations for your bird species"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "New Bird Owner Planning",
+        "description": "First-time bird owners can determine the right cage size before purchasing, ensuring their new pet has adequate living space from day one."
+      },
+      {
+        "title": "Cage Upgrade Assessment",
+        "description": "Current bird owners can evaluate whether their existing cage meets minimum requirements or if an upgrade is needed for better bird welfare."
+      },
+      {
+        "title": "Multi-Bird Housing",
+        "description": "Calculate space requirements when adding birds to an existing flock or planning a multi-bird setup with compatible species."
+      },
+      {
+        "title": "Aviary Design",
+        "description": "Plan indoor or outdoor aviaries with proper dimensions for breeding pairs or larger bird communities."
+      }
+    ],
+    "seoTips": [
+      "Always choose a cage larger than the minimum recommendation when possible",
+      "Horizontal space is more important than height for most bird species",
+      "Bar spacing must prevent birds from getting their heads stuck between bars",
+      "Consider the cage door size for easy cleaning and bird handling",
+      "Natural perches of varying diameters promote foot health and prevent arthritis"
+    ],
+    "commonMistakes": [
+      "Buying decorative round cages that provide less usable space and cause psychological stress",
+      "Selecting bar spacing too wide for small birds, creating escape or injury risks",
+      "Prioritizing cage height over width for species that fly horizontally",
+      "Not accounting for space needed for food bowls, water dishes, and toys",
+      "Placing multiple territorial species together without adequate space separation"
+    ],
+    "faqs": [
+      {
+        "question": "What is the minimum cage size for a parakeet or budgie?",
+        "answer": "A single parakeet needs at least 18 x 18 x 18 inches (45 x 45 x 45 cm). However, larger is always better. For each additional bird, increase the size by 50%. Budgies are active flyers and benefit greatly from extra horizontal space."
+      },
+      {
+        "question": "Why are rectangular cages better than round ones?",
+        "answer": "Rectangular cages provide corners where birds feel secure, offer more usable floor and wall space, and allow for proper perch placement at varying heights. Round cages eliminate these security corners and can cause psychological stress in birds."
+      },
+      {
+        "question": "How do I determine the correct bar spacing?",
+        "answer": "Bar spacing depends on bird size: finches and canaries need 1/4 to 1/2 inch spacing, budgies and lovebirds need 1/2 inch, cockatiels need 1/2 to 5/8 inch, and larger parrots need 3/4 to 1 inch or more. Incorrect spacing can lead to head entrapment or escape."
+      },
+      {
+        "question": "Can different bird species share the same cage?",
+        "answer": "Some species can cohabitate if they have similar sizes and temperaments. However, you must significantly increase cage size and provide multiple feeding stations. Never house aggressive species together, and always research species compatibility before mixing."
+      },
+      {
+        "question": "How often should I clean the bird cage?",
+        "answer": "Daily spot cleaning of droppings and food debris is essential. Weekly thorough cleaning includes washing perches and toys. Monthly deep cleaning involves disinfecting the entire cage. A clean environment prevents disease and promotes bird health."
+      }
+    ]
+  },
+  "bird-cage-size-calculator": {
+    "title": "Bird Cage Size Calculator - Free Aviary Planning Tool",
+    "description": "Calculate appropriate bird cage dimensions. Free online tool for parakeets, parrots, and all pet bird types.",
+    "tips": [
+      "Horizontal is better than vertical for small birds",
+      "Provide space for horizontal flight",
+      "Use perches of different diameters",
+      "Place cage in a quiet and safe spot",
+      "Clean cage weekly"
+    ],
+    "howItWorks": {
+      "title": "How the Bird Cage Size Calculator Works",
+      "formula": "Minimum cage size = Bird wingspan × 2.5 for width, wingspan × 3 for length",
+      "explanation": "This calculator determines the minimum cage dimensions required for healthy bird housing based on species size and number of birds. Proper cage sizing ensures birds can spread their wings fully and have adequate space for exercise and mental stimulation.",
+      "steps": [
+        {
+          "name": "Select Bird Species",
+          "text": "Choose your bird type from the dropdown menu to get species-specific recommendations"
+        },
+        {
+          "name": "Enter Bird Count",
+          "text": "Input the number of birds you plan to house in the same cage"
+        },
+        {
+          "name": "Calculate Dimensions",
+          "text": "Click calculate to receive minimum cage dimensions in inches and centimeters"
+        },
+        {
+          "name": "Review Requirements",
+          "text": "Check bar spacing and perch diameter recommendations for your bird species"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "New Bird Owner Planning",
+        "description": "First-time bird owners can determine the right cage size before purchasing, ensuring their new pet has adequate living space from day one."
+      },
+      {
+        "title": "Cage Upgrade Assessment",
+        "description": "Current bird owners can evaluate whether their existing cage meets minimum requirements or if an upgrade is needed for better bird welfare."
+      },
+      {
+        "title": "Multi-Bird Housing",
+        "description": "Calculate space requirements when adding birds to an existing flock or planning a multi-bird setup with compatible species."
+      },
+      {
+        "title": "Aviary Design",
+        "description": "Plan indoor or outdoor aviaries with proper dimensions for breeding pairs or larger bird communities."
+      }
+    ],
+    "seoTips": [
+      "Always choose a cage larger than the minimum recommendation when possible",
+      "Horizontal space is more important than height for most bird species",
+      "Bar spacing must prevent birds from getting their heads stuck between bars",
+      "Consider the cage door size for easy cleaning and bird handling",
+      "Natural perches of varying diameters promote foot health and prevent arthritis"
+    ],
+    "commonMistakes": [
+      "Buying decorative round cages that provide less usable space and cause psychological stress",
+      "Selecting bar spacing too wide for small birds, creating escape or injury risks",
+      "Prioritizing cage height over width for species that fly horizontally",
+      "Not accounting for space needed for food bowls, water dishes, and toys",
+      "Placing multiple territorial species together without adequate space separation"
+    ],
+    "faqs": [
+      {
+        "question": "What is the minimum cage size for a parakeet or budgie?",
+        "answer": "A single parakeet needs at least 18 x 18 x 18 inches (45 x 45 x 45 cm). However, larger is always better. For each additional bird, increase the size by 50%. Budgies are active flyers and benefit greatly from extra horizontal space."
+      },
+      {
+        "question": "Why are rectangular cages better than round ones?",
+        "answer": "Rectangular cages provide corners where birds feel secure, offer more usable floor and wall space, and allow for proper perch placement at varying heights. Round cages eliminate these security corners and can cause psychological stress in birds."
+      },
+      {
+        "question": "How do I determine the correct bar spacing?",
+        "answer": "Bar spacing depends on bird size: finches and canaries need 1/4 to 1/2 inch spacing, budgies and lovebirds need 1/2 inch, cockatiels need 1/2 to 5/8 inch, and larger parrots need 3/4 to 1 inch or more. Incorrect spacing can lead to head entrapment or escape."
+      },
+      {
+        "question": "Can different bird species share the same cage?",
+        "answer": "Some species can cohabitate if they have similar sizes and temperaments. However, you must significantly increase cage size and provide multiple feeding stations. Never house aggressive species together, and always research species compatibility before mixing."
+      },
+      {
+        "question": "How often should I clean the bird cage?",
+        "answer": "Daily spot cleaning of droppings and food debris is essential. Weekly thorough cleaning includes washing perches and toys. Monthly deep cleaning involves disinfecting the entire cage. A clean environment prevents disease and promotes bird health."
+      }
+    ]
+  },
+  "cat_age_calculator": {
+    "title": "Cat Age Calculator",
+    "description": "Convert cat age to human years accurately.",
+    "label_age": "Cat Age (Years)",
+    "tooltip_age": "Enter your cat's age in years",
+    "placeholder_age": "e.g., 5",
+    "calculate_btn": "Calculate Age",
+    "reset_btn": "Reset",
+    "result_label": "Human Age",
+    "result_unit": "Years",
+    "life_stage": "Life Stage",
+    "health_tips": "Health Tips",
+    "stage_kitten": "Kitten (0-1 year)",
+    "stage_young": "Junior (1-2 years)",
+    "stage_adult": "Prime (3-6 years)",
+    "stage_mature": "Mature (7-10 years)",
+    "stage_senior": "Senior (11-14 years)",
+    "stage_geriatric": "Geriatric (15+ years)",
+    "tip_kitten_1": "Focus on socialization and play",
+    "tip_kitten_2": "Complete initial vaccinations",
+    "tip_kitten_3": "Feed high-quality kitten food",
+    "tip_adult_1": "Monitor weight and dental health",
+    "tip_adult_2": "Annual vet check-ups are essential",
+    "tip_adult_3": "Maintain active play routine",
+    "tip_senior_1": "Bi-annual vet visits recommended",
+    "tip_senior_2": "Watch for changes in behavior or mobility",
+    "tip_senior_3": "Consider senior-specific diet",
+    "info_title": "How Cat Age Works",
+    "info_description": "Cats age much faster than humans in their first two years. The first year equals about 15 human years, the second year adds 9, and each subsequent year adds about 4 human years.",
+    "use_cases_title": "Why Calculate Cat Age?",
+    "use_case_1": "To understand life stages and needs",
+    "use_case_2": "To schedule appropriate veterinary care",
+    "use_case_3": "To adjust diet and activity levels",
+    "error_invalid": "Please enter a valid age",
+    "error_positive": "Age must be greater than 0",
+    "error_max_age": "Age must be less than 30",
+    "howItWorks": {
+      "title": "How Cat Age Conversion Works",
+      "formula": "Year 1 = 15 human years, Year 2 = +9 years, Each year after = +4 years",
+      "explanation": "Cats mature rapidly in their first two years, then age approximately 4 human years for each cat year after that. This calculator provides accurate human age equivalents.",
+      "steps": [
+        "Enter your cat's age in years",
+        "Click Calculate to convert to human years",
+        "View the life stage classification",
+        "Review age-appropriate health tips"
+      ]
+    },
+    "useCases": [
+      "Understanding your cat's developmental stage",
+      "Planning appropriate veterinary care schedules",
+      "Adjusting diet based on life stage",
+      "Recognizing age-related behavioral changes"
+    ],
+    "seoTips": [
+      "Indoor cats typically live longer than outdoor cats",
+      "Regular vet checkups become more important as cats age",
+      "Senior cats need different nutrition than kittens",
+      "Activity levels naturally decrease with age",
+      "Monitor weight changes as cats get older"
+    ],
+    "commonMistakes": [
+      "Using the 7-year multiplier myth for all ages",
+      "Not adjusting care for different life stages",
+      "Ignoring subtle signs of aging in cats",
+      "Treating senior cats like young adults"
+    ],
+    "faqs": [
+      {
+        "question": "Is the 7-year rule accurate for cats?",
+        "answer": "No, the 7-year rule is a myth. Cats age faster in their first two years. A 2-year-old cat is about 24 in human years, not 14."
+      },
+      {
+        "question": "When is a cat considered senior?",
+        "answer": "Cats are generally considered senior at 11 years old, which is equivalent to about 60 human years. At 15+, they are considered geriatric."
+      },
+      {
+        "question": "How long do cats typically live?",
+        "answer": "Indoor cats live 12-18 years on average, with some reaching their early 20s. Outdoor cats have shorter lifespans due to environmental risks."
+      },
+      {
+        "question": "Do different breeds age differently?",
+        "answer": "While the aging formula is similar across breeds, some breeds like Siamese tend to live longer, while others like Maine Coons may have shorter lifespans."
+      },
+      {
+        "question": "What changes should I expect in senior cats?",
+        "answer": "Senior cats may experience reduced activity, changes in sleep patterns, weight fluctuations, and may need more frequent vet visits and dietary adjustments."
+      }
+    ]
+  },
+  "cat-age-calculator": {
+    "title": "Cat Age Calculator",
+    "description": "Convert cat age to human years accurately.",
+    "label_age": "Cat Age (Years)",
+    "tooltip_age": "Enter your cat's age in years",
+    "placeholder_age": "e.g., 5",
+    "calculate_btn": "Calculate Age",
+    "reset_btn": "Reset",
+    "result_label": "Human Age",
+    "result_unit": "Years",
+    "life_stage": "Life Stage",
+    "health_tips": "Health Tips",
+    "stage_kitten": "Kitten (0-1 year)",
+    "stage_young": "Junior (1-2 years)",
+    "stage_adult": "Prime (3-6 years)",
+    "stage_mature": "Mature (7-10 years)",
+    "stage_senior": "Senior (11-14 years)",
+    "stage_geriatric": "Geriatric (15+ years)",
+    "tip_kitten_1": "Focus on socialization and play",
+    "tip_kitten_2": "Complete initial vaccinations",
+    "tip_kitten_3": "Feed high-quality kitten food",
+    "tip_adult_1": "Monitor weight and dental health",
+    "tip_adult_2": "Annual vet check-ups are essential",
+    "tip_adult_3": "Maintain active play routine",
+    "tip_senior_1": "Bi-annual vet visits recommended",
+    "tip_senior_2": "Watch for changes in behavior or mobility",
+    "tip_senior_3": "Consider senior-specific diet",
+    "info_title": "How Cat Age Works",
+    "info_description": "Cats age much faster than humans in their first two years. The first year equals about 15 human years, the second year adds 9, and each subsequent year adds about 4 human years.",
+    "use_cases_title": "Why Calculate Cat Age?",
+    "use_case_1": "To understand life stages and needs",
+    "use_case_2": "To schedule appropriate veterinary care",
+    "use_case_3": "To adjust diet and activity levels",
+    "error_invalid": "Please enter a valid age",
+    "error_positive": "Age must be greater than 0",
+    "error_max_age": "Age must be less than 30",
+    "howItWorks": {
+      "title": "How Cat Age Conversion Works",
+      "formula": "Year 1 = 15 human years, Year 2 = +9 years, Each year after = +4 years",
+      "explanation": "Cats mature rapidly in their first two years, then age approximately 4 human years for each cat year after that. This calculator provides accurate human age equivalents.",
+      "steps": [
+        "Enter your cat's age in years",
+        "Click Calculate to convert to human years",
+        "View the life stage classification",
+        "Review age-appropriate health tips"
+      ]
+    },
+    "useCases": [
+      "Understanding your cat's developmental stage",
+      "Planning appropriate veterinary care schedules",
+      "Adjusting diet based on life stage",
+      "Recognizing age-related behavioral changes"
+    ],
+    "seoTips": [
+      "Indoor cats typically live longer than outdoor cats",
+      "Regular vet checkups become more important as cats age",
+      "Senior cats need different nutrition than kittens",
+      "Activity levels naturally decrease with age",
+      "Monitor weight changes as cats get older"
+    ],
+    "commonMistakes": [
+      "Using the 7-year multiplier myth for all ages",
+      "Not adjusting care for different life stages",
+      "Ignoring subtle signs of aging in cats",
+      "Treating senior cats like young adults"
+    ],
+    "faqs": [
+      {
+        "question": "Is the 7-year rule accurate for cats?",
+        "answer": "No, the 7-year rule is a myth. Cats age faster in their first two years. A 2-year-old cat is about 24 in human years, not 14."
+      },
+      {
+        "question": "When is a cat considered senior?",
+        "answer": "Cats are generally considered senior at 11 years old, which is equivalent to about 60 human years. At 15+, they are considered geriatric."
+      },
+      {
+        "question": "How long do cats typically live?",
+        "answer": "Indoor cats live 12-18 years on average, with some reaching their early 20s. Outdoor cats have shorter lifespans due to environmental risks."
+      },
+      {
+        "question": "Do different breeds age differently?",
+        "answer": "While the aging formula is similar across breeds, some breeds like Siamese tend to live longer, while others like Maine Coons may have shorter lifespans."
+      },
+      {
+        "question": "What changes should I expect in senior cats?",
+        "answer": "Senior cats may experience reduced activity, changes in sleep patterns, weight fluctuations, and may need more frequent vet visits and dietary adjustments."
+      }
+    ]
+  },
+  "cat_calorie_calculator": {
+    "title": "Cat Calorie Calculator",
+    "description": "Calculate your cat's daily calorie needs.",
+    "label_weight": "Weight (kg)",
+    "tooltip_weight": "Enter your cat's weight in kilograms",
+    "placeholder_weight": "e.g., 4.5",
+    "label_activity": "Activity Level",
+    "tooltip_activity": "How active is your cat?",
+    "label_condition": "Body Condition",
+    "tooltip_condition": "Is your cat underweight, normal, or overweight?",
+    "label_neutered": "Neutered/Spayed",
+    "tooltip_neutered": "Check if your cat is neutered or spayed",
+    "neutered_checkbox": "Yes, neutered/spayed",
+    "calculate_btn": "Calculate Calories",
+    "reset_btn": "Reset",
+    "result_der": "Daily Energy Requirement",
+    "result_rer": "Resting Energy Requirement",
+    "result_protein": "Protein",
+    "result_fat": "Fat",
+    "result_carbs": "Carbs",
+    "tips_title": "Feeding Tips",
+    "tip_protein": "Cats are obligate carnivores, they need animal protein",
+    "tip_carbs": "Avoid excessive carbohydrates",
+    "tip_taurine": "Ensure taurine is in the diet",
+    "tip_weight": "Monitor weight weekly",
+    "tip_vet": "Consult a vet for an ideal diet",
+    "activity_sedentary": "Sedentary",
+    "activity_light": "Light",
+    "activity_moderate": "Moderate",
+    "activity_active": "Active",
+    "condition_underweight": "Underweight",
+    "condition_normal": "Normal",
+    "condition_overweight": "Overweight",
+    "info_title": "Understanding Cat Nutrition",
+    "info_description": "Cats have specific dietary requirements. Their calorie needs depend on their weight, activity level, and neuter status.",
+    "empty_state": "Enter your cat's details to calculate calorie needs",
+    "footer_note": "These are estimates. Individual needs may vary.",
+    "tips": [
+      "Cats are obligate carnivores, they need animal protein",
+      "Avoid excessive carbohydrates",
+      "Ensure taurine is in the diet",
+      "Monitor weight weekly",
+      "Consult a vet for an ideal diet"
+    ],
+    "howItWorks": {
+      "title": "How Cat Calorie Calculator Works",
+      "formula": "RER = 70 × (body weight in kg)^0.75, then multiply by activity factor",
+      "explanation": "This calculator determines your cat's daily energy needs based on weight, activity level, body condition, and neuter status using the Resting Energy Requirement formula.",
+      "steps": [
+        "Enter your cat's weight in kilograms",
+        "Select the activity level that best describes your cat",
+        "Choose the body condition score",
+        "Indicate if your cat is neutered or spayed",
+        "View daily calorie and macronutrient recommendations"
+      ]
+    },
+    "useCases": [
+      "Managing your cat's weight through proper portion control",
+      "Planning diet for weight loss or weight gain",
+      "Adjusting calories for different activity levels",
+      "Understanding nutritional needs after neutering"
+    ],
+    "seoTips": [
+      "Neutered cats need 20-30% fewer calories",
+      "Measure food portions accurately with a kitchen scale",
+      "Divide daily calories across multiple small meals",
+      "Account for treats in the daily calorie budget",
+      "Reassess calorie needs as cats age"
+    ],
+    "commonMistakes": [
+      "Free-feeding cats without measuring portions",
+      "Not reducing calories after neutering",
+      "Ignoring treat calories in daily totals",
+      "Using the same calories for all life stages"
+    ],
+    "faqs": [
+      {
+        "question": "How many calories does an average cat need?",
+        "answer": "An average 4kg adult cat needs about 200-250 calories per day. This varies based on activity level, age, and whether the cat is neutered."
+      },
+      {
+        "question": "Should I reduce calories for a neutered cat?",
+        "answer": "Yes, neutered cats have lower metabolic rates and need 20-30% fewer calories to maintain a healthy weight."
+      },
+      {
+        "question": "How do I know if my cat is overweight?",
+        "answer": "You should be able to feel your cat's ribs easily without pressing hard. From above, your cat should have a visible waist. Consult your vet for a body condition assessment."
+      },
+      {
+        "question": "What percentage of calories should come from protein?",
+        "answer": "Cats are obligate carnivores and need 30-45% of their calories from protein. Animal-based proteins are essential for their health."
+      },
+      {
+        "question": "Do indoor cats need fewer calories?",
+        "answer": "Generally yes. Indoor cats are typically less active and may need 10-20% fewer calories than outdoor cats to prevent weight gain."
+      }
+    ]
+  },
+  "cat-calorie-calculator": {
+    "title": "Cat Calorie Calculator",
+    "description": "Calculate your cat's daily calorie needs.",
+    "label_weight": "Weight (kg)",
+    "tooltip_weight": "Enter your cat's weight in kilograms",
+    "placeholder_weight": "e.g., 4.5",
+    "label_activity": "Activity Level",
+    "tooltip_activity": "How active is your cat?",
+    "label_condition": "Body Condition",
+    "tooltip_condition": "Is your cat underweight, normal, or overweight?",
+    "label_neutered": "Neutered/Spayed",
+    "tooltip_neutered": "Check if your cat is neutered or spayed",
+    "neutered_checkbox": "Yes, neutered/spayed",
+    "calculate_btn": "Calculate Calories",
+    "reset_btn": "Reset",
+    "result_der": "Daily Energy Requirement",
+    "result_rer": "Resting Energy Requirement",
+    "result_protein": "Protein",
+    "result_fat": "Fat",
+    "result_carbs": "Carbs",
+    "tips_title": "Feeding Tips",
+    "tip_protein": "Cats are obligate carnivores, they need animal protein",
+    "tip_carbs": "Avoid excessive carbohydrates",
+    "tip_taurine": "Ensure taurine is in the diet",
+    "tip_weight": "Monitor weight weekly",
+    "tip_vet": "Consult a vet for an ideal diet",
+    "activity_sedentary": "Sedentary",
+    "activity_light": "Light",
+    "activity_moderate": "Moderate",
+    "activity_active": "Active",
+    "condition_underweight": "Underweight",
+    "condition_normal": "Normal",
+    "condition_overweight": "Overweight",
+    "info_title": "Understanding Cat Nutrition",
+    "info_description": "Cats have specific dietary requirements. Their calorie needs depend on their weight, activity level, and neuter status.",
+    "empty_state": "Enter your cat's details to calculate calorie needs",
+    "footer_note": "These are estimates. Individual needs may vary.",
+    "tips": [
+      "Cats are obligate carnivores, they need animal protein",
+      "Avoid excessive carbohydrates",
+      "Ensure taurine is in the diet",
+      "Monitor weight weekly",
+      "Consult a vet for an ideal diet"
+    ],
+    "howItWorks": {
+      "title": "How Cat Calorie Calculator Works",
+      "formula": "RER = 70 × (body weight in kg)^0.75, then multiply by activity factor",
+      "explanation": "This calculator determines your cat's daily energy needs based on weight, activity level, body condition, and neuter status using the Resting Energy Requirement formula.",
+      "steps": [
+        "Enter your cat's weight in kilograms",
+        "Select the activity level that best describes your cat",
+        "Choose the body condition score",
+        "Indicate if your cat is neutered or spayed",
+        "View daily calorie and macronutrient recommendations"
+      ]
+    },
+    "useCases": [
+      "Managing your cat's weight through proper portion control",
+      "Planning diet for weight loss or weight gain",
+      "Adjusting calories for different activity levels",
+      "Understanding nutritional needs after neutering"
+    ],
+    "seoTips": [
+      "Neutered cats need 20-30% fewer calories",
+      "Measure food portions accurately with a kitchen scale",
+      "Divide daily calories across multiple small meals",
+      "Account for treats in the daily calorie budget",
+      "Reassess calorie needs as cats age"
+    ],
+    "commonMistakes": [
+      "Free-feeding cats without measuring portions",
+      "Not reducing calories after neutering",
+      "Ignoring treat calories in daily totals",
+      "Using the same calories for all life stages"
+    ],
+    "faqs": [
+      {
+        "question": "How many calories does an average cat need?",
+        "answer": "An average 4kg adult cat needs about 200-250 calories per day. This varies based on activity level, age, and whether the cat is neutered."
+      },
+      {
+        "question": "Should I reduce calories for a neutered cat?",
+        "answer": "Yes, neutered cats have lower metabolic rates and need 20-30% fewer calories to maintain a healthy weight."
+      },
+      {
+        "question": "How do I know if my cat is overweight?",
+        "answer": "You should be able to feel your cat's ribs easily without pressing hard. From above, your cat should have a visible waist. Consult your vet for a body condition assessment."
+      },
+      {
+        "question": "What percentage of calories should come from protein?",
+        "answer": "Cats are obligate carnivores and need 30-45% of their calories from protein. Animal-based proteins are essential for their health."
+      },
+      {
+        "question": "Do indoor cats need fewer calories?",
+        "answer": "Generally yes. Indoor cats are typically less active and may need 10-20% fewer calories than outdoor cats to prevent weight gain."
+      }
+    ]
+  },
+  "cat_food_calculator": {
+    "title": "Cat Food Calculator",
+    "description": "Calculate the right amount of food for your cat.",
+    "label_weight": "Weight (kg)",
+    "tooltip_weight": "Enter your cat's weight in kilograms",
+    "placeholder_weight": "e.g., 4.5",
+    "label_activity": "Activity Level",
+    "tooltip_activity": "How active is your cat?",
+    "label_age": "Life Stage",
+    "tooltip_age": "Select your cat's age group",
+    "label_food_type": "Food Type",
+    "tooltip_food_type": "Select the type of food",
+    "calculate_btn": "Calculate Feeding Amount",
+    "reset_btn": "Reset",
+    "result_daily": "Daily Amount",
+    "result_meals": "Meals per Day",
+    "result_per_meal": "Amount per Meal",
+    "result_weekly": "Weekly Amount",
+    "result_monthly": "Monthly Amount",
+    "tips_title": "Feeding Guidelines",
+    "activity_low": "Low Activity",
+    "activity_moderate": "Moderate Activity",
+    "activity_high": "High Activity",
+    "age_kitten": "Kitten (< 1 year)",
+    "age_adult": "Adult (1-7 years)",
+    "age_senior": "Senior (7+ years)",
+    "food_dry": "Dry Food (Kibble)",
+    "food_wet": "Wet Food (Canned)",
+    "food_raw": "Raw Food",
+    "unit_grams": "g",
+    "unit_meals": "meals",
+    "empty_state": "Enter your cat's details to calculate feeding amount",
+    "tips": [
+      "Always provide fresh water",
+      "Avoid milk for adult cats",
+      "Never feed chocolate or onions",
+      "Monitor weight regularly",
+      "Feed at regular times"
+    ],
+    "unit_weight_input": "kg",
+    "howItWorks": {
+      "title": "How Cat Food Calculator Works",
+      "formula": "Daily food amount based on weight, activity, age, and food type caloric density",
+      "explanation": "This calculator determines the optimal daily food portion for your cat based on their specific needs and the type of food you're feeding.",
+      "steps": [
+        "Enter your cat's current weight",
+        "Select their activity level",
+        "Choose their life stage (kitten, adult, senior)",
+        "Select the type of food (dry, wet, or raw)",
+        "View daily, weekly, and monthly feeding amounts"
+      ]
+    },
+    "useCases": [
+      "Determining proper portion sizes for your cat",
+      "Planning food purchases and budgeting",
+      "Transitioning between different food types",
+      "Managing weight through controlled feeding"
+    ],
+    "seoTips": [
+      "Wet food has fewer calories per gram than dry food",
+      "Kittens need more frequent meals than adult cats",
+      "Measure food with a scale for accuracy",
+      "Adjust portions based on weight changes",
+      "Senior cats may need smaller, more frequent meals"
+    ],
+    "commonMistakes": [
+      "Using volume instead of weight to measure food",
+      "Not adjusting portions when switching food types",
+      "Overfeeding treats on top of regular meals",
+      "Feeding adult food to kittens or kitten food to seniors"
+    ],
+    "faqs": [
+      {
+        "question": "How often should I feed my cat?",
+        "answer": "Adult cats do well with 2-3 meals per day. Kittens need 3-4 smaller meals. Some cats prefer grazing, but measured portions help prevent obesity."
+      },
+      {
+        "question": "Is wet food better than dry food?",
+        "answer": "Both have benefits. Wet food provides hydration and is lower in calories. Dry food is convenient and helps dental health. Many vets recommend a combination."
+      },
+      {
+        "question": "How do I switch my cat to a new food?",
+        "answer": "Transition gradually over 7-10 days, mixing increasing amounts of new food with decreasing amounts of old food to prevent digestive upset."
+      },
+      {
+        "question": "Should kittens eat different amounts?",
+        "answer": "Yes, kittens have higher caloric needs relative to their weight due to rapid growth. They need kitten-specific food with higher protein and calories."
+      },
+      {
+        "question": "Why is my cat always hungry?",
+        "answer": "This could indicate the portions are too small, the food lacks nutrients, or there may be health issues. Consult your vet if hunger seems excessive."
+      }
+    ]
+  },
+  "cat-food-calculator": {
+    "title": "Cat Food Calculator",
+    "description": "Calculate the right amount of food for your cat.",
+    "label_weight": "Weight (kg)",
+    "tooltip_weight": "Enter your cat's weight in kilograms",
+    "placeholder_weight": "e.g., 4.5",
+    "label_activity": "Activity Level",
+    "tooltip_activity": "How active is your cat?",
+    "label_age": "Life Stage",
+    "tooltip_age": "Select your cat's age group",
+    "label_food_type": "Food Type",
+    "tooltip_food_type": "Select the type of food",
+    "calculate_btn": "Calculate Feeding Amount",
+    "reset_btn": "Reset",
+    "result_daily": "Daily Amount",
+    "result_meals": "Meals per Day",
+    "result_per_meal": "Amount per Meal",
+    "result_weekly": "Weekly Amount",
+    "result_monthly": "Monthly Amount",
+    "tips_title": "Feeding Guidelines",
+    "activity_low": "Low Activity",
+    "activity_moderate": "Moderate Activity",
+    "activity_high": "High Activity",
+    "age_kitten": "Kitten (< 1 year)",
+    "age_adult": "Adult (1-7 years)",
+    "age_senior": "Senior (7+ years)",
+    "food_dry": "Dry Food (Kibble)",
+    "food_wet": "Wet Food (Canned)",
+    "food_raw": "Raw Food",
+    "unit_grams": "g",
+    "unit_meals": "meals",
+    "empty_state": "Enter your cat's details to calculate feeding amount",
+    "tips": [
+      "Always provide fresh water",
+      "Avoid milk for adult cats",
+      "Never feed chocolate or onions",
+      "Monitor weight regularly",
+      "Feed at regular times"
+    ],
+    "unit_weight_input": "kg",
+    "howItWorks": {
+      "title": "How Cat Food Calculator Works",
+      "formula": "Daily food amount based on weight, activity, age, and food type caloric density",
+      "explanation": "This calculator determines the optimal daily food portion for your cat based on their specific needs and the type of food you're feeding.",
+      "steps": [
+        "Enter your cat's current weight",
+        "Select their activity level",
+        "Choose their life stage (kitten, adult, senior)",
+        "Select the type of food (dry, wet, or raw)",
+        "View daily, weekly, and monthly feeding amounts"
+      ]
+    },
+    "useCases": [
+      "Determining proper portion sizes for your cat",
+      "Planning food purchases and budgeting",
+      "Transitioning between different food types",
+      "Managing weight through controlled feeding"
+    ],
+    "seoTips": [
+      "Wet food has fewer calories per gram than dry food",
+      "Kittens need more frequent meals than adult cats",
+      "Measure food with a scale for accuracy",
+      "Adjust portions based on weight changes",
+      "Senior cats may need smaller, more frequent meals"
+    ],
+    "commonMistakes": [
+      "Using volume instead of weight to measure food",
+      "Not adjusting portions when switching food types",
+      "Overfeeding treats on top of regular meals",
+      "Feeding adult food to kittens or kitten food to seniors"
+    ],
+    "faqs": [
+      {
+        "question": "How often should I feed my cat?",
+        "answer": "Adult cats do well with 2-3 meals per day. Kittens need 3-4 smaller meals. Some cats prefer grazing, but measured portions help prevent obesity."
+      },
+      {
+        "question": "Is wet food better than dry food?",
+        "answer": "Both have benefits. Wet food provides hydration and is lower in calories. Dry food is convenient and helps dental health. Many vets recommend a combination."
+      },
+      {
+        "question": "How do I switch my cat to a new food?",
+        "answer": "Transition gradually over 7-10 days, mixing increasing amounts of new food with decreasing amounts of old food to prevent digestive upset."
+      },
+      {
+        "question": "Should kittens eat different amounts?",
+        "answer": "Yes, kittens have higher caloric needs relative to their weight due to rapid growth. They need kitten-specific food with higher protein and calories."
+      },
+      {
+        "question": "Why is my cat always hungry?",
+        "answer": "This could indicate the portions are too small, the food lacks nutrients, or there may be health issues. Consult your vet if hunger seems excessive."
+      }
+    ]
+  },
+  "cat_pregnancy_calculator": {
+    "title": "Cat Pregnancy Calculator",
+    "description": "Calculate your cat's due date and pregnancy timeline.",
+    "label_mating_date": "Mating Date",
+    "tooltip_mating_date": "Enter the date of first mating",
+    "calculate_btn": "Calculate Due Date",
+    "reset_btn": "Reset",
+    "result_due_date": "Estimated Due Date",
+    "result_remaining": "Days Remaining",
+    "result_week": "Current Week",
+    "result_stage": "Pregnancy Stage",
+    "unit_days": "days",
+    "stage_before": "Before Mating",
+    "stage_early": "Early Stage (Week 1-3)",
+    "stage_middle": "Middle Stage (Week 4-6)",
+    "stage_late": "Late Stage (Week 7-9)",
+    "stage_overdue": "Overdue",
+    "tips_title": "Pregnancy Care Tips",
+    "tip_nutrition": "High-quality nutrition for pregnant cats",
+    "tip_vet": "Regular vet checkups",
+    "tip_area": "Provide a quiet and safe birthing area",
+    "tip_prep": "Prepare queening box 2 weeks early",
+    "tip_labor": "Monitor behavior before labor",
+    "empty_state": "Enter mating date to calculate due date",
+    "tips": [
+      "High-quality nutrition for pregnant cats",
+      "Regular vet checkups",
+      "Provide a quiet and safe birthing area",
+      "Prepare queening box 2 weeks early",
+      "Monitor behavior before labor"
+    ],
+    "howItWorks": {
+      "title": "How Cat Pregnancy Calculator Works",
+      "formula": "Due Date = Mating Date + 63-65 days (average gestation period)",
+      "explanation": "This calculator estimates your cat's due date based on the mating date. Cat pregnancy typically lasts 63-65 days, with the calculator showing pregnancy stage and care recommendations.",
+      "steps": [
+        "Enter the date of mating or suspected conception",
+        "Click Calculate to see the estimated due date",
+        "View the current pregnancy week and stage",
+        "Review stage-appropriate care tips"
+      ]
+    },
+    "useCases": [
+      "Planning for kitten arrival and preparing supplies",
+      "Scheduling prenatal vet appointments",
+      "Understanding pregnancy stages for proper care",
+      "Knowing when to prepare the birthing area"
+    ],
+    "seoTips": [
+      "Cat pregnancy is approximately 9 weeks long",
+      "Increase food gradually during the last trimester",
+      "Prepare a quiet, warm nesting box before the due date",
+      "Watch for nesting behavior as labor approaches",
+      "Have emergency vet contact ready near the due date"
+    ],
+    "commonMistakes": [
+      "Not knowing the exact mating date leading to surprise births",
+      "Not increasing food during late pregnancy",
+      "Preparing the birthing area too late",
+      "Missing signs of labor complications"
+    ],
+    "faqs": [
+      {
+        "question": "How long is a cat pregnant?",
+        "answer": "Cat pregnancy lasts approximately 63-65 days (about 9 weeks) from conception to birth. This can vary by a few days."
+      },
+      {
+        "question": "What are signs my cat is pregnant?",
+        "answer": "Early signs include enlarged, pinker nipples around week 2-3, increased appetite, weight gain, and behavior changes. A vet can confirm pregnancy around day 20."
+      },
+      {
+        "question": "How do I prepare for kittens?",
+        "answer": "Prepare a quiet, warm nesting box 2 weeks before the due date. Have clean towels, a heat source, and your vet's emergency number ready."
+      },
+      {
+        "question": "What should I feed a pregnant cat?",
+        "answer": "Switch to high-quality kitten food which has extra calories and nutrients. Increase portions gradually in the last trimester as the queen's appetite grows."
+      },
+      {
+        "question": "When should I call the vet during labor?",
+        "answer": "Call if labor lasts more than 24 hours, there's more than 2 hours between kittens, you see green discharge without a kitten, or the cat seems in distress."
+      }
+    ]
+  },
+  "cat-pregnancy-calculator": {
+    "title": "Cat Pregnancy Calculator",
+    "description": "Calculate your cat's due date and pregnancy timeline.",
+    "label_mating_date": "Mating Date",
+    "tooltip_mating_date": "Enter the date of first mating",
+    "calculate_btn": "Calculate Due Date",
+    "reset_btn": "Reset",
+    "result_due_date": "Estimated Due Date",
+    "result_remaining": "Days Remaining",
+    "result_week": "Current Week",
+    "result_stage": "Pregnancy Stage",
+    "unit_days": "days",
+    "stage_before": "Before Mating",
+    "stage_early": "Early Stage (Week 1-3)",
+    "stage_middle": "Middle Stage (Week 4-6)",
+    "stage_late": "Late Stage (Week 7-9)",
+    "stage_overdue": "Overdue",
+    "tips_title": "Pregnancy Care Tips",
+    "tip_nutrition": "High-quality nutrition for pregnant cats",
+    "tip_vet": "Regular vet checkups",
+    "tip_area": "Provide a quiet and safe birthing area",
+    "tip_prep": "Prepare queening box 2 weeks early",
+    "tip_labor": "Monitor behavior before labor",
+    "empty_state": "Enter mating date to calculate due date",
+    "tips": [
+      "High-quality nutrition for pregnant cats",
+      "Regular vet checkups",
+      "Provide a quiet and safe birthing area",
+      "Prepare queening box 2 weeks early",
+      "Monitor behavior before labor"
+    ],
+    "howItWorks": {
+      "title": "How Cat Pregnancy Calculator Works",
+      "formula": "Due Date = Mating Date + 63-65 days (average gestation period)",
+      "explanation": "This calculator estimates your cat's due date based on the mating date. Cat pregnancy typically lasts 63-65 days, with the calculator showing pregnancy stage and care recommendations.",
+      "steps": [
+        "Enter the date of mating or suspected conception",
+        "Click Calculate to see the estimated due date",
+        "View the current pregnancy week and stage",
+        "Review stage-appropriate care tips"
+      ]
+    },
+    "useCases": [
+      "Planning for kitten arrival and preparing supplies",
+      "Scheduling prenatal vet appointments",
+      "Understanding pregnancy stages for proper care",
+      "Knowing when to prepare the birthing area"
+    ],
+    "seoTips": [
+      "Cat pregnancy is approximately 9 weeks long",
+      "Increase food gradually during the last trimester",
+      "Prepare a quiet, warm nesting box before the due date",
+      "Watch for nesting behavior as labor approaches",
+      "Have emergency vet contact ready near the due date"
+    ],
+    "commonMistakes": [
+      "Not knowing the exact mating date leading to surprise births",
+      "Not increasing food during late pregnancy",
+      "Preparing the birthing area too late",
+      "Missing signs of labor complications"
+    ],
+    "faqs": [
+      {
+        "question": "How long is a cat pregnant?",
+        "answer": "Cat pregnancy lasts approximately 63-65 days (about 9 weeks) from conception to birth. This can vary by a few days."
+      },
+      {
+        "question": "What are signs my cat is pregnant?",
+        "answer": "Early signs include enlarged, pinker nipples around week 2-3, increased appetite, weight gain, and behavior changes. A vet can confirm pregnancy around day 20."
+      },
+      {
+        "question": "How do I prepare for kittens?",
+        "answer": "Prepare a quiet, warm nesting box 2 weeks before the due date. Have clean towels, a heat source, and your vet's emergency number ready."
+      },
+      {
+        "question": "What should I feed a pregnant cat?",
+        "answer": "Switch to high-quality kitten food which has extra calories and nutrients. Increase portions gradually in the last trimester as the queen's appetite grows."
+      },
+      {
+        "question": "When should I call the vet during labor?",
+        "answer": "Call if labor lasts more than 24 hours, there's more than 2 hours between kittens, you see green discharge without a kitten, or the cat seems in distress."
+      }
+    ]
+  },
+  "dog_age_calculator": {
+    "title": "Dog Age Calculator",
+    "description": "Convert dog age to human years based on size.",
+    "label_age": "Dog Age (Years)",
+    "tooltip_age": "Enter your dog's age in years",
+    "placeholder_age": "e.g., 5",
+    "label_size": "Dog Size",
+    "tooltip_size": "Select your dog's size category",
+    "size_small": "Small (< 20 lbs / 9 kg)",
+    "size_medium": "Medium (21-50 lbs / 9-23 kg)",
+    "size_large": "Large (51-90 lbs / 23-41 kg)",
+    "size_giant": "Giant (> 90 lbs / 41 kg)",
+    "calculate_btn": "Calculate Age",
+    "reset_btn": "Reset",
+    "result_label": "Human Age",
+    "result_unit": "Years",
+    "life_stage": "Life Stage",
+    "health_tips": "Health Tips",
+    "stage_puppy": "Puppy",
+    "stage_young": "Young Adult",
+    "stage_adult": "Adult",
+    "stage_mature": "Mature Adult",
+    "stage_senior": "Senior",
+    "tip_puppy_1": "Focus on basic training and socialization",
+    "tip_puppy_2": "Complete vaccination series",
+    "tip_puppy_3": "Feed high-quality puppy food",
+    "tip_adult_1": "Maintain regular exercise routine",
+    "tip_adult_2": "Annual vet check-ups are crucial",
+    "tip_adult_3": "Monitor weight to prevent obesity",
+    "tip_senior_1": "Consider joint supplements if needed",
+    "tip_senior_2": "Bi-annual vet visits recommended",
+    "tip_senior_3": "Adjust diet for senior nutritional needs",
+    "info_title": "How Dog Age Works",
+    "info_description": "Dogs age differently depending on their size. Small dogs tend to live longer than large dogs. The first year of a dog's life is roughly equal to 15 human years.",
+    "use_cases_title": "Why Calculate Dog Age?",
+    "use_case_1": "To understand life stage requirements",
+    "use_case_2": "To schedule appropriate health screenings",
+    "use_case_3": "To adjust diet and exercise as they age",
+    "error_invalid": "Please enter a valid age",
+    "error_positive": "Age must be greater than 0",
+    "error_max_age": "Age must be less than 30",
+    "howItWorks": {
+      "title": "How Dog Age Calculator Works",
+      "formula": "Age varies by size: Small dogs age slower after maturity, giant breeds age faster",
+      "explanation": "This calculator converts dog years to human years accounting for breed size. Dogs age rapidly in their first two years, then aging slows but varies significantly by size category.",
+      "steps": [
+        "Enter your dog's age in years",
+        "Select your dog's size category",
+        "Click Calculate to see the equivalent human age",
+        "Review the life stage and appropriate health tips"
+      ]
+    },
+    "useCases": [
+      "Understanding your dog's life stage for proper care",
+      "Planning age-appropriate exercise and activities",
+      "Scheduling preventive veterinary care",
+      "Adjusting diet and nutrition for life stage"
+    ],
+    "seoTips": [
+      "Small dogs typically live longer than large breeds",
+      "Giant breeds age fastest and have shorter lifespans",
+      "Senior care should begin earlier for large breeds",
+      "Regular vet checkups become more important with age",
+      "Exercise needs change as dogs age"
+    ],
+    "commonMistakes": [
+      "Using the simple 7-year multiplier for all dogs",
+      "Not accounting for breed size differences",
+      "Starting senior care too late for large breeds",
+      "Ignoring breed-specific aging patterns"
+    ],
+    "faqs": [
+      {
+        "question": "Why does dog size affect aging?",
+        "answer": "Larger dogs have faster metabolisms and their bodies work harder, leading to faster aging. A Great Dane is senior at 5-6 years, while a Chihuahua isn't senior until 10-11."
+      },
+      {
+        "question": "Is the 7-year rule accurate?",
+        "answer": "No, it's oversimplified. The first year equals about 15 human years, the second adds 9, and subsequent years vary by size from 4-7 human years each."
+      },
+      {
+        "question": "When is my dog considered senior?",
+        "answer": "Small dogs: 10-12 years, Medium dogs: 8-10 years, Large dogs: 6-8 years, Giant breeds: 5-6 years. Start senior care accordingly."
+      },
+      {
+        "question": "How long do different dog sizes live?",
+        "answer": "Small dogs: 14-16 years, Medium dogs: 12-14 years, Large dogs: 10-12 years, Giant breeds: 7-10 years on average."
+      },
+      {
+        "question": "What changes in senior dogs?",
+        "answer": "Expect reduced energy, possible weight changes, joint stiffness, dental issues, and potential cognitive changes. More frequent vet visits are recommended."
+      }
+    ]
+  },
+  "dog-age-calculator": {
+    "title": "Dog Age Calculator",
+    "description": "Convert dog age to human years based on size.",
+    "label_age": "Dog Age (Years)",
+    "tooltip_age": "Enter your dog's age in years",
+    "placeholder_age": "e.g., 5",
+    "label_size": "Dog Size",
+    "tooltip_size": "Select your dog's size category",
+    "size_small": "Small (< 20 lbs / 9 kg)",
+    "size_medium": "Medium (21-50 lbs / 9-23 kg)",
+    "size_large": "Large (51-90 lbs / 23-41 kg)",
+    "size_giant": "Giant (> 90 lbs / 41 kg)",
+    "calculate_btn": "Calculate Age",
+    "reset_btn": "Reset",
+    "result_label": "Human Age",
+    "result_unit": "Years",
+    "life_stage": "Life Stage",
+    "health_tips": "Health Tips",
+    "stage_puppy": "Puppy",
+    "stage_young": "Young Adult",
+    "stage_adult": "Adult",
+    "stage_mature": "Mature Adult",
+    "stage_senior": "Senior",
+    "tip_puppy_1": "Focus on basic training and socialization",
+    "tip_puppy_2": "Complete vaccination series",
+    "tip_puppy_3": "Feed high-quality puppy food",
+    "tip_adult_1": "Maintain regular exercise routine",
+    "tip_adult_2": "Annual vet check-ups are crucial",
+    "tip_adult_3": "Monitor weight to prevent obesity",
+    "tip_senior_1": "Consider joint supplements if needed",
+    "tip_senior_2": "Bi-annual vet visits recommended",
+    "tip_senior_3": "Adjust diet for senior nutritional needs",
+    "info_title": "How Dog Age Works",
+    "info_description": "Dogs age differently depending on their size. Small dogs tend to live longer than large dogs. The first year of a dog's life is roughly equal to 15 human years.",
+    "use_cases_title": "Why Calculate Dog Age?",
+    "use_case_1": "To understand life stage requirements",
+    "use_case_2": "To schedule appropriate health screenings",
+    "use_case_3": "To adjust diet and exercise as they age",
+    "error_invalid": "Please enter a valid age",
+    "error_positive": "Age must be greater than 0",
+    "error_max_age": "Age must be less than 30",
+    "howItWorks": {
+      "title": "How Dog Age Calculator Works",
+      "formula": "Age varies by size: Small dogs age slower after maturity, giant breeds age faster",
+      "explanation": "This calculator converts dog years to human years accounting for breed size. Dogs age rapidly in their first two years, then aging slows but varies significantly by size category.",
+      "steps": [
+        "Enter your dog's age in years",
+        "Select your dog's size category",
+        "Click Calculate to see the equivalent human age",
+        "Review the life stage and appropriate health tips"
+      ]
+    },
+    "useCases": [
+      "Understanding your dog's life stage for proper care",
+      "Planning age-appropriate exercise and activities",
+      "Scheduling preventive veterinary care",
+      "Adjusting diet and nutrition for life stage"
+    ],
+    "seoTips": [
+      "Small dogs typically live longer than large breeds",
+      "Giant breeds age fastest and have shorter lifespans",
+      "Senior care should begin earlier for large breeds",
+      "Regular vet checkups become more important with age",
+      "Exercise needs change as dogs age"
+    ],
+    "commonMistakes": [
+      "Using the simple 7-year multiplier for all dogs",
+      "Not accounting for breed size differences",
+      "Starting senior care too late for large breeds",
+      "Ignoring breed-specific aging patterns"
+    ],
+    "faqs": [
+      {
+        "question": "Why does dog size affect aging?",
+        "answer": "Larger dogs have faster metabolisms and their bodies work harder, leading to faster aging. A Great Dane is senior at 5-6 years, while a Chihuahua isn't senior until 10-11."
+      },
+      {
+        "question": "Is the 7-year rule accurate?",
+        "answer": "No, it's oversimplified. The first year equals about 15 human years, the second adds 9, and subsequent years vary by size from 4-7 human years each."
+      },
+      {
+        "question": "When is my dog considered senior?",
+        "answer": "Small dogs: 10-12 years, Medium dogs: 8-10 years, Large dogs: 6-8 years, Giant breeds: 5-6 years. Start senior care accordingly."
+      },
+      {
+        "question": "How long do different dog sizes live?",
+        "answer": "Small dogs: 14-16 years, Medium dogs: 12-14 years, Large dogs: 10-12 years, Giant breeds: 7-10 years on average."
+      },
+      {
+        "question": "What changes in senior dogs?",
+        "answer": "Expect reduced energy, possible weight changes, joint stiffness, dental issues, and potential cognitive changes. More frequent vet visits are recommended."
+      }
+    ]
+  },
+  "dog_calorie_calculator": {
+    "title": "Dog Calorie Calculator",
+    "description": "Calculate your dog's daily calorie needs.",
+    "label_weight": "Weight (kg)",
+    "tooltip_weight": "Enter your dog's weight in kilograms",
+    "placeholder_weight": "e.g., 20",
+    "label_activity": "Activity Level",
+    "tooltip_activity": "How active is your dog?",
+    "label_condition": "Body Condition",
+    "tooltip_condition": "Is your dog underweight, normal, or overweight?",
+    "label_neutered": "Neutered/Spayed",
+    "tooltip_neutered": "Check if your dog is neutered or spayed",
+    "neutered_checkbox": "Yes, neutered/spayed",
+    "calculate_btn": "Calculate Calories",
+    "reset_btn": "Reset",
+    "result_der": "Daily Energy Requirement",
+    "result_rer": "Resting Energy Requirement",
+    "result_protein": "Protein",
+    "result_fat": "Fat",
+    "result_carbs": "Carbs",
+    "tips_title": "Feeding Tips",
+    "tip_protein": "High-quality protein is essential for dogs",
+    "tip_carbs": "Carbohydrates provide energy but shouldn't be the main source",
+    "tip_taurine": "Balanced diet supports heart health",
+    "tip_weight": "Monitor weight regularly",
+    "tip_vet": "Consult a vet for specific dietary needs",
+    "activity_sedentary": "Sedentary",
+    "activity_light": "Light Activity",
+    "activity_moderate": "Moderate Activity",
+    "activity_active": "Active",
+    "activity_very_active": "Very Active",
+    "activity_working": "Working Dog",
+    "condition_underweight": "Underweight",
+    "condition_normal": "Normal",
+    "condition_overweight": "Overweight",
+    "info_title": "Understanding Dog Nutrition",
+    "info_description": "Dogs require a balanced diet. Calorie needs vary by size, age, activity level, and neuter status.",
+    "empty_state": "Enter your dog's details to calculate calorie needs",
+    "footer_note": "These are estimates. Individual needs may vary.",
+    "tips": [
+      "Monitor weight weekly",
+      "Adjust portions based on body condition",
+      "Choose high-quality food",
+      "Avoid excessive treats",
+      "Consult a vet for an ideal nutrition plan"
+    ],
+    "input_title": "Dog Calorie Calculator",
+    "weight": "Dog Weight",
+    "weight_tooltip": "Enter your dog's weight in kilograms",
+    "weight_unit": "kg",
+    "enter_weight": "Enter weight",
+    "activity_level": "Activity Level",
+    "activity_tooltip": "How active is your dog?",
+    "neutered": "Neutered/Spayed",
+    "neutered_tooltip": "Is your dog neutered or spayed?",
+    "body_condition": "Body Condition",
+    "condition_tooltip": "Your dog's current body condition",
+    "results_title": "Calorie Requirements",
+    "der": "Daily Energy Requirement",
+    "rer": "Resting Energy Requirement",
+    "calories_unit": "calories/day",
+    "macronutrients": "Recommended Macronutrients",
+    "protein": "Protein",
+    "fat": "Fat",
+    "carbs": "Carbohydrates",
+    "grams_unit": "grams/day",
+    "howItWorks": {
+      "title": "How Dog Calorie Calculator Works",
+      "formula": "RER = 70 × (body weight in kg)^0.75, then multiply by activity and condition factors",
+      "explanation": "This calculator determines daily caloric needs using the Resting Energy Requirement formula, adjusted for activity level, body condition, and neuter status.",
+      "steps": [
+        "Enter your dog's weight in kilograms",
+        "Select the activity level that matches your dog",
+        "Choose the current body condition",
+        "Indicate if your dog is neutered or spayed",
+        "View daily calorie and macronutrient recommendations"
+      ]
+    },
+    "useCases": [
+      "Managing your dog's weight through proper feeding",
+      "Planning diet for weight loss or muscle gain",
+      "Adjusting calories for working or athletic dogs",
+      "Understanding nutritional needs for different activity levels"
+    ],
+    "seoTips": [
+      "Working dogs may need 2-3 times the calories of sedentary dogs",
+      "Neutered dogs typically need 25-30% fewer calories",
+      "Puppies need more calories per pound than adults",
+      "Adjust calories seasonally for outdoor dogs",
+      "Senior dogs often need fewer calories but more protein"
+    ],
+    "commonMistakes": [
+      "Using human food guidelines for dog nutrition",
+      "Not adjusting calories after neutering",
+      "Overestimating activity level",
+      "Forgetting to include treats in calorie count"
+    ],
+    "faqs": [
+      {
+        "question": "How many calories does my dog need per day?",
+        "answer": "It varies widely. A 10kg moderately active dog needs about 500-600 calories, while a 30kg active dog might need 1500-1800. Use the calculator for personalized results."
+      },
+      {
+        "question": "Should I reduce calories for a neutered dog?",
+        "answer": "Yes, neutering reduces metabolic rate by 25-30%. Reduce calories accordingly to prevent weight gain."
+      },
+      {
+        "question": "How do activity levels affect calorie needs?",
+        "answer": "Sedentary dogs need baseline RER, moderately active need 1.5-2x RER, and working/sporting dogs may need 2-3x RER or more."
+      },
+      {
+        "question": "What's the best protein ratio for dogs?",
+        "answer": "Most dogs do well with 18-25% protein. Active and working dogs benefit from 25-30%. Puppies and nursing dogs need even higher protein levels."
+      },
+      {
+        "question": "Do large breed puppies need different calories?",
+        "answer": "Yes, large breed puppies should be fed for controlled growth to prevent joint problems. Don't overfeed to speed up growth."
+      }
+    ]
+  },
+  "dog-calorie-calculator": {
+    "title": "Dog Calorie Calculator",
+    "description": "Calculate your dog's daily calorie needs.",
+    "label_weight": "Weight (kg)",
+    "tooltip_weight": "Enter your dog's weight in kilograms",
+    "placeholder_weight": "e.g., 20",
+    "label_activity": "Activity Level",
+    "tooltip_activity": "How active is your dog?",
+    "label_condition": "Body Condition",
+    "tooltip_condition": "Is your dog underweight, normal, or overweight?",
+    "label_neutered": "Neutered/Spayed",
+    "tooltip_neutered": "Check if your dog is neutered or spayed",
+    "neutered_checkbox": "Yes, neutered/spayed",
+    "calculate_btn": "Calculate Calories",
+    "reset_btn": "Reset",
+    "result_der": "Daily Energy Requirement",
+    "result_rer": "Resting Energy Requirement",
+    "result_protein": "Protein",
+    "result_fat": "Fat",
+    "result_carbs": "Carbs",
+    "tips_title": "Feeding Tips",
+    "tip_protein": "High-quality protein is essential for dogs",
+    "tip_carbs": "Carbohydrates provide energy but shouldn't be the main source",
+    "tip_taurine": "Balanced diet supports heart health",
+    "tip_weight": "Monitor weight regularly",
+    "tip_vet": "Consult a vet for specific dietary needs",
+    "activity_sedentary": "Sedentary",
+    "activity_light": "Light Activity",
+    "activity_moderate": "Moderate Activity",
+    "activity_active": "Active",
+    "activity_very_active": "Very Active",
+    "activity_working": "Working Dog",
+    "condition_underweight": "Underweight",
+    "condition_normal": "Normal",
+    "condition_overweight": "Overweight",
+    "info_title": "Understanding Dog Nutrition",
+    "info_description": "Dogs require a balanced diet. Calorie needs vary by size, age, activity level, and neuter status.",
+    "empty_state": "Enter your dog's details to calculate calorie needs",
+    "footer_note": "These are estimates. Individual needs may vary.",
+    "tips": [
+      "Monitor weight weekly",
+      "Adjust portions based on body condition",
+      "Choose high-quality food",
+      "Avoid excessive treats",
+      "Consult a vet for an ideal nutrition plan"
+    ],
+    "input_title": "Dog Calorie Calculator",
+    "weight": "Dog Weight",
+    "weight_tooltip": "Enter your dog's weight in kilograms",
+    "weight_unit": "kg",
+    "enter_weight": "Enter weight",
+    "activity_level": "Activity Level",
+    "activity_tooltip": "How active is your dog?",
+    "neutered": "Neutered/Spayed",
+    "neutered_tooltip": "Is your dog neutered or spayed?",
+    "body_condition": "Body Condition",
+    "condition_tooltip": "Your dog's current body condition",
+    "results_title": "Calorie Requirements",
+    "der": "Daily Energy Requirement",
+    "rer": "Resting Energy Requirement",
+    "calories_unit": "calories/day",
+    "macronutrients": "Recommended Macronutrients",
+    "protein": "Protein",
+    "fat": "Fat",
+    "carbs": "Carbohydrates",
+    "grams_unit": "grams/day",
+    "howItWorks": {
+      "title": "How Dog Calorie Calculator Works",
+      "formula": "RER = 70 × (body weight in kg)^0.75, then multiply by activity and condition factors",
+      "explanation": "This calculator determines daily caloric needs using the Resting Energy Requirement formula, adjusted for activity level, body condition, and neuter status.",
+      "steps": [
+        "Enter your dog's weight in kilograms",
+        "Select the activity level that matches your dog",
+        "Choose the current body condition",
+        "Indicate if your dog is neutered or spayed",
+        "View daily calorie and macronutrient recommendations"
+      ]
+    },
+    "useCases": [
+      "Managing your dog's weight through proper feeding",
+      "Planning diet for weight loss or muscle gain",
+      "Adjusting calories for working or athletic dogs",
+      "Understanding nutritional needs for different activity levels"
+    ],
+    "seoTips": [
+      "Working dogs may need 2-3 times the calories of sedentary dogs",
+      "Neutered dogs typically need 25-30% fewer calories",
+      "Puppies need more calories per pound than adults",
+      "Adjust calories seasonally for outdoor dogs",
+      "Senior dogs often need fewer calories but more protein"
+    ],
+    "commonMistakes": [
+      "Using human food guidelines for dog nutrition",
+      "Not adjusting calories after neutering",
+      "Overestimating activity level",
+      "Forgetting to include treats in calorie count"
+    ],
+    "faqs": [
+      {
+        "question": "How many calories does my dog need per day?",
+        "answer": "It varies widely. A 10kg moderately active dog needs about 500-600 calories, while a 30kg active dog might need 1500-1800. Use the calculator for personalized results."
+      },
+      {
+        "question": "Should I reduce calories for a neutered dog?",
+        "answer": "Yes, neutering reduces metabolic rate by 25-30%. Reduce calories accordingly to prevent weight gain."
+      },
+      {
+        "question": "How do activity levels affect calorie needs?",
+        "answer": "Sedentary dogs need baseline RER, moderately active need 1.5-2x RER, and working/sporting dogs may need 2-3x RER or more."
+      },
+      {
+        "question": "What's the best protein ratio for dogs?",
+        "answer": "Most dogs do well with 18-25% protein. Active and working dogs benefit from 25-30%. Puppies and nursing dogs need even higher protein levels."
+      },
+      {
+        "question": "Do large breed puppies need different calories?",
+        "answer": "Yes, large breed puppies should be fed for controlled growth to prevent joint problems. Don't overfeed to speed up growth."
+      }
+    ]
+  },
+  "dog_food_calculator": {
+    "title": "Dog Food Calculator",
+    "description": "Calculate how much food your dog needs accurately.",
+    "label_weight": "Weight (kg)",
+    "tooltip_weight": "Enter your dog's weight in kilograms",
+    "placeholder_weight": "e.g., 20",
+    "label_activity": "Activity Level",
+    "tooltip_activity": "How active is your dog?",
+    "label_age": "Life Stage",
+    "tooltip_age": "Select your dog's age group",
+    "label_food_type": "Food Type",
+    "tooltip_food_type": "Select the type of food",
+    "calculate_btn": "Calculate Feeding Amount",
+    "reset_btn": "Reset",
+    "result_daily": "Daily Amount",
+    "result_meals": "Meals per Day",
+    "result_per_meal": "Amount per Meal",
+    "result_weekly": "Weekly Amount",
+    "result_monthly": "Monthly Amount",
+    "tips_title": "Feeding Guidelines",
+    "activity_low": "Low Activity",
+    "activity_moderate": "Moderate Activity",
+    "activity_high": "High Activity",
+    "activity_very_high": "Very High Activity",
+    "age_puppy": "Puppy",
+    "age_adult": "Adult",
+    "age_senior": "Senior",
+    "food_dry": "Dry Food (Kibble)",
+    "food_wet": "Wet Food (Canned)",
+    "food_raw": "Raw Food",
+    "unit_grams": "g",
+    "unit_meals": "meals",
+    "empty_state": "Enter your dog's details to calculate feeding amount",
+    "footer_note": "These are estimates. Individual needs may vary.",
+    "tips": [
+      "Divide food into regular meals",
+      "Always provide fresh water",
+      "Avoid overfeeding",
+      "Consult a vet when changing diet"
+    ],
+    "unit_weight_input": "kg",
+    "howItWorks": {
+      "title": "How Dog Food Calculator Works",
+      "formula": "Daily food = (Caloric needs / Food caloric density) adjusted for food type",
+      "explanation": "This calculator determines optimal daily food portions based on your dog's weight, activity level, life stage, and the type of food you're feeding.",
+      "steps": [
+        "Enter your dog's current weight",
+        "Select their activity level",
+        "Choose their life stage (puppy, adult, senior)",
+        "Select the type of food (dry, wet, or raw)",
+        "View daily, weekly, and monthly feeding amounts"
+      ]
+    },
+    "useCases": [
+      "Determining proper portion sizes for your dog",
+      "Planning food purchases and budgeting",
+      "Transitioning puppies to adult food",
+      "Managing weight through controlled portions"
+    ],
+    "seoTips": [
+      "Puppies need 3-4 meals daily, adults need 2",
+      "Dry food is more calorie-dense than wet food",
+      "Large breed puppies need specific growth formulas",
+      "Measure food by weight, not volume",
+      "Adjust portions based on body condition changes"
+    ],
+    "commonMistakes": [
+      "Using measuring cups instead of scales",
+      "Feeding puppies adult food",
+      "Not adjusting for treats given throughout the day",
+      "Free-feeding leading to obesity"
+    ],
+    "faqs": [
+      {
+        "question": "How often should I feed my dog?",
+        "answer": "Puppies under 6 months need 3-4 meals daily. Adult dogs do well with 2 meals per day. Some owners prefer once daily feeding for adults."
+      },
+      {
+        "question": "Should I feed wet or dry food?",
+        "answer": "Both are nutritionally complete. Dry food is convenient and good for dental health. Wet food provides hydration. Many owners use a combination."
+      },
+      {
+        "question": "How do I transition to new food?",
+        "answer": "Gradually mix new food with old over 7-10 days, increasing the new food proportion daily. This prevents digestive upset."
+      },
+      {
+        "question": "Why is my dog always hungry?",
+        "answer": "Some dogs are food-motivated regardless of portion. If your dog maintains a healthy weight, the portions are likely correct. Consult your vet if concerned."
+      },
+      {
+        "question": "Do puppies need different amounts?",
+        "answer": "Yes, puppies need more food relative to their body weight due to rapid growth. Large breed puppies need controlled portions to prevent joint issues."
+      }
+    ]
+  },
+  "dog-food-calculator": {
+    "title": "Dog Food Calculator",
+    "description": "Calculate how much food your dog needs accurately.",
+    "label_weight": "Weight (kg)",
+    "tooltip_weight": "Enter your dog's weight in kilograms",
+    "placeholder_weight": "e.g., 20",
+    "label_activity": "Activity Level",
+    "tooltip_activity": "How active is your dog?",
+    "label_age": "Life Stage",
+    "tooltip_age": "Select your dog's age group",
+    "label_food_type": "Food Type",
+    "tooltip_food_type": "Select the type of food",
+    "calculate_btn": "Calculate Feeding Amount",
+    "reset_btn": "Reset",
+    "result_daily": "Daily Amount",
+    "result_meals": "Meals per Day",
+    "result_per_meal": "Amount per Meal",
+    "result_weekly": "Weekly Amount",
+    "result_monthly": "Monthly Amount",
+    "tips_title": "Feeding Guidelines",
+    "activity_low": "Low Activity",
+    "activity_moderate": "Moderate Activity",
+    "activity_high": "High Activity",
+    "activity_very_high": "Very High Activity",
+    "age_puppy": "Puppy",
+    "age_adult": "Adult",
+    "age_senior": "Senior",
+    "food_dry": "Dry Food (Kibble)",
+    "food_wet": "Wet Food (Canned)",
+    "food_raw": "Raw Food",
+    "unit_grams": "g",
+    "unit_meals": "meals",
+    "empty_state": "Enter your dog's details to calculate feeding amount",
+    "footer_note": "These are estimates. Individual needs may vary.",
+    "tips": [
+      "Divide food into regular meals",
+      "Always provide fresh water",
+      "Avoid overfeeding",
+      "Consult a vet when changing diet"
+    ],
+    "unit_weight_input": "kg",
+    "howItWorks": {
+      "title": "How Dog Food Calculator Works",
+      "formula": "Daily food = (Caloric needs / Food caloric density) adjusted for food type",
+      "explanation": "This calculator determines optimal daily food portions based on your dog's weight, activity level, life stage, and the type of food you're feeding.",
+      "steps": [
+        "Enter your dog's current weight",
+        "Select their activity level",
+        "Choose their life stage (puppy, adult, senior)",
+        "Select the type of food (dry, wet, or raw)",
+        "View daily, weekly, and monthly feeding amounts"
+      ]
+    },
+    "useCases": [
+      "Determining proper portion sizes for your dog",
+      "Planning food purchases and budgeting",
+      "Transitioning puppies to adult food",
+      "Managing weight through controlled portions"
+    ],
+    "seoTips": [
+      "Puppies need 3-4 meals daily, adults need 2",
+      "Dry food is more calorie-dense than wet food",
+      "Large breed puppies need specific growth formulas",
+      "Measure food by weight, not volume",
+      "Adjust portions based on body condition changes"
+    ],
+    "commonMistakes": [
+      "Using measuring cups instead of scales",
+      "Feeding puppies adult food",
+      "Not adjusting for treats given throughout the day",
+      "Free-feeding leading to obesity"
+    ],
+    "faqs": [
+      {
+        "question": "How often should I feed my dog?",
+        "answer": "Puppies under 6 months need 3-4 meals daily. Adult dogs do well with 2 meals per day. Some owners prefer once daily feeding for adults."
+      },
+      {
+        "question": "Should I feed wet or dry food?",
+        "answer": "Both are nutritionally complete. Dry food is convenient and good for dental health. Wet food provides hydration. Many owners use a combination."
+      },
+      {
+        "question": "How do I transition to new food?",
+        "answer": "Gradually mix new food with old over 7-10 days, increasing the new food proportion daily. This prevents digestive upset."
+      },
+      {
+        "question": "Why is my dog always hungry?",
+        "answer": "Some dogs are food-motivated regardless of portion. If your dog maintains a healthy weight, the portions are likely correct. Consult your vet if concerned."
+      },
+      {
+        "question": "Do puppies need different amounts?",
+        "answer": "Yes, puppies need more food relative to their body weight due to rapid growth. Large breed puppies need controlled portions to prevent joint issues."
+      }
+    ]
+  },
+  "dog_pregnancy_calculator": {
+    "title": "Dog Pregnancy Calculator - Due Date Tracker",
+    "description": "Calculate dog pregnancy due date and track pregnancy stages. Free online tool for dog breeders and pet owners.",
+    "input_title": "Dog Pregnancy Calculator",
+    "mating_date": "Mating Date",
+    "mating_date_tooltip": "Enter the date of mating",
+    "calculate_btn": "Calculate Due Date",
+    "reset_btn": "Reset",
+    "results_title": "Pregnancy Information",
+    "due_date": "Due Date",
+    "days_remaining": "Days Remaining",
+    "days_unit": "days",
+    "current_week": "Current Week",
+    "stage": "Pregnancy Stage",
+    "week_1_3": "Week 1-3: Early Stage",
+    "week_4_6": "Week 4-6: Middle Stage",
+    "week_7_9": "Week 7-9: Late Stage",
+    "week_1_3_desc": "Embryo development begins, implantation occurs",
+    "week_4_6_desc": "Organ formation, fetal development accelerates",
+    "week_7_9_desc": "Final growth, prepare for whelping",
+    "tips_title": "Pregnancy Care Tips",
+    "tip_1": "Provide nutritious food formulated for pregnant dogs",
+    "tip_2": "Schedule regular vet check-ups",
+    "tip_3": "Prepare a quiet, comfortable whelping area",
+    "tip_4": "Monitor for signs of labor as due date approaches",
+    "empty_state": "Enter mating date to calculate pregnancy timeline",
+    "footer_note": "Average gestation period is 63 days. Consult your veterinarian for proper care.",
+    "howItWorks": {
+      "title": "How Dog Pregnancy Calculator Works",
+      "formula": "Due Date = Mating Date + 63 days (average gestation period)",
+      "explanation": "This calculator estimates your dog's due date and tracks pregnancy stages. Dog pregnancy lasts approximately 63 days, though it can range from 58-68 days depending on breed.",
+      "steps": [
+        "Enter the date of mating or confirmed breeding",
+        "Click Calculate to see the estimated due date",
+        "View current pregnancy week and stage",
+        "Review stage-specific care recommendations"
+      ]
+    },
+    "useCases": [
+      "Planning for puppy arrival and whelping supplies",
+      "Scheduling prenatal vet appointments and ultrasounds",
+      "Understanding pregnancy stages for optimal care",
+      "Preparing whelping area at the right time"
+    ],
+    "seoTips": [
+      "Dog pregnancy is approximately 9 weeks",
+      "Ultrasound can confirm pregnancy around day 25",
+      "Nutrition requirements increase in the last trimester",
+      "Prepare whelping box 1-2 weeks before due date",
+      "Temperature drop signals labor within 24 hours"
+    ],
+    "commonMistakes": [
+      "Not confirming pregnancy with a vet",
+      "Overfeeding too early in pregnancy",
+      "Not preparing whelping supplies in advance",
+      "Missing signs of labor complications"
+    ],
+    "faqs": [
+      {
+        "question": "How long are dogs pregnant?",
+        "answer": "Dog pregnancy lasts approximately 63 days (9 weeks) from ovulation. The range is 58-68 days, and larger breeds sometimes go longer."
+      },
+      {
+        "question": "When can a vet confirm pregnancy?",
+        "answer": "Blood tests can detect pregnancy hormones around day 25. Ultrasound works around day 25-30, and X-rays can count puppies after day 45."
+      },
+      {
+        "question": "What should I feed a pregnant dog?",
+        "answer": "Continue regular food for the first 4-5 weeks, then gradually switch to high-quality puppy food. Increase portions by 25-50% in the last trimester."
+      },
+      {
+        "question": "How do I prepare for whelping?",
+        "answer": "Set up a quiet whelping box 2 weeks early. Have clean towels, heating pad, suction bulb, dental floss for cords, and your vet's emergency number ready."
+      },
+      {
+        "question": "When should I call the vet during labor?",
+        "answer": "Call if more than 2 hours pass between puppies, if strong contractions last over 30 minutes without a puppy, or if you see dark green discharge before the first puppy."
+      }
+    ]
+  },
+  "dog-pregnancy-calculator": {
+    "title": "Dog Pregnancy Calculator - Due Date Tracker",
+    "description": "Calculate dog pregnancy due date and track pregnancy stages. Free online tool for dog breeders and pet owners.",
+    "input_title": "Dog Pregnancy Calculator",
+    "mating_date": "Mating Date",
+    "mating_date_tooltip": "Enter the date of mating",
+    "calculate_btn": "Calculate Due Date",
+    "reset_btn": "Reset",
+    "results_title": "Pregnancy Information",
+    "due_date": "Due Date",
+    "days_remaining": "Days Remaining",
+    "days_unit": "days",
+    "current_week": "Current Week",
+    "stage": "Pregnancy Stage",
+    "week_1_3": "Week 1-3: Early Stage",
+    "week_4_6": "Week 4-6: Middle Stage",
+    "week_7_9": "Week 7-9: Late Stage",
+    "week_1_3_desc": "Embryo development begins, implantation occurs",
+    "week_4_6_desc": "Organ formation, fetal development accelerates",
+    "week_7_9_desc": "Final growth, prepare for whelping",
+    "tips_title": "Pregnancy Care Tips",
+    "tip_1": "Provide nutritious food formulated for pregnant dogs",
+    "tip_2": "Schedule regular vet check-ups",
+    "tip_3": "Prepare a quiet, comfortable whelping area",
+    "tip_4": "Monitor for signs of labor as due date approaches",
+    "empty_state": "Enter mating date to calculate pregnancy timeline",
+    "footer_note": "Average gestation period is 63 days. Consult your veterinarian for proper care.",
+    "howItWorks": {
+      "title": "How Dog Pregnancy Calculator Works",
+      "formula": "Due Date = Mating Date + 63 days (average gestation period)",
+      "explanation": "This calculator estimates your dog's due date and tracks pregnancy stages. Dog pregnancy lasts approximately 63 days, though it can range from 58-68 days depending on breed.",
+      "steps": [
+        "Enter the date of mating or confirmed breeding",
+        "Click Calculate to see the estimated due date",
+        "View current pregnancy week and stage",
+        "Review stage-specific care recommendations"
+      ]
+    },
+    "useCases": [
+      "Planning for puppy arrival and whelping supplies",
+      "Scheduling prenatal vet appointments and ultrasounds",
+      "Understanding pregnancy stages for optimal care",
+      "Preparing whelping area at the right time"
+    ],
+    "seoTips": [
+      "Dog pregnancy is approximately 9 weeks",
+      "Ultrasound can confirm pregnancy around day 25",
+      "Nutrition requirements increase in the last trimester",
+      "Prepare whelping box 1-2 weeks before due date",
+      "Temperature drop signals labor within 24 hours"
+    ],
+    "commonMistakes": [
+      "Not confirming pregnancy with a vet",
+      "Overfeeding too early in pregnancy",
+      "Not preparing whelping supplies in advance",
+      "Missing signs of labor complications"
+    ],
+    "faqs": [
+      {
+        "question": "How long are dogs pregnant?",
+        "answer": "Dog pregnancy lasts approximately 63 days (9 weeks) from ovulation. The range is 58-68 days, and larger breeds sometimes go longer."
+      },
+      {
+        "question": "When can a vet confirm pregnancy?",
+        "answer": "Blood tests can detect pregnancy hormones around day 25. Ultrasound works around day 25-30, and X-rays can count puppies after day 45."
+      },
+      {
+        "question": "What should I feed a pregnant dog?",
+        "answer": "Continue regular food for the first 4-5 weeks, then gradually switch to high-quality puppy food. Increase portions by 25-50% in the last trimester."
+      },
+      {
+        "question": "How do I prepare for whelping?",
+        "answer": "Set up a quiet whelping box 2 weeks early. Have clean towels, heating pad, suction bulb, dental floss for cords, and your vet's emergency number ready."
+      },
+      {
+        "question": "When should I call the vet during labor?",
+        "answer": "Call if more than 2 hours pass between puppies, if strong contractions last over 30 minutes without a puppy, or if you see dark green discharge before the first puppy."
+      }
+    ]
+  },
+  "hamster_lifespan_calculator": {
+    "title": "Hamster Lifespan Calculator",
+    "description": "Calculate hamster average lifespan and health stages.",
+    "label_type": "Hamster Type",
+    "tooltip_type": "Select your hamster's breed",
+    "label_age": "Current Age (months)",
+    "tooltip_age": "Enter your hamster's age in months",
+    "placeholder_age": "e.g., 6",
+    "calculate_btn": "Calculate Lifespan",
+    "reset_btn": "Reset",
+    "result_human_age": "Approximate Human Age",
+    "result_avg_lifespan": "Average Lifespan",
+    "result_remaining": "Estimated Remaining Time",
+    "result_life_stage": "Life Stage",
+    "unit_months": "months",
+    "unit_years": "years",
+    "type_syrian": "Syrian (Golden)",
+    "type_dwarf": "Dwarf (Campbell's/Winter White)",
+    "type_roborovski": "Roborovski",
+    "type_chinese": "Chinese",
+    "stage_juvenile": "Juvenile",
+    "stage_adult": "Adult",
+    "stage_senior": "Senior",
+    "stage_elderly": "Elderly",
+    "tips_title": "Hamster Care Tips",
+    "empty_state": "Enter hamster details to calculate lifespan",
+    "tips": [
+      "Balanced hamster food",
+      "Safe wood shavings bedding",
+      "Fresh water daily",
+      "Quiet environment away from noise"
+    ],
+    "howItWorks": {
+      "title": "How Hamster Lifespan Calculator Works",
+      "formula": "Lifespan varies by species: Syrian 2-3 years, Dwarf 1.5-2 years, Roborovski 3-3.5 years",
+      "explanation": "This calculator estimates your hamster's age in human terms and predicts remaining lifespan based on species-specific life expectancy data.",
+      "steps": [
+        "Select your hamster's species",
+        "Enter their current age in months",
+        "View estimated human age equivalent",
+        "See life stage and remaining time estimate"
+      ]
+    },
+    "useCases": [
+      "Understanding your hamster's life stage",
+      "Planning appropriate care for aging hamsters",
+      "Setting realistic expectations for new hamster owners",
+      "Recognizing when senior care is needed"
+    ],
+    "seoTips": [
+      "Roborovski hamsters typically live longest",
+      "Good care can extend hamster lifespan significantly",
+      "Diet and environment affect longevity",
+      "Senior hamsters need adjusted care",
+      "Regular health checks catch issues early"
+    ],
+    "commonMistakes": [
+      "Expecting hamsters to live as long as other pets",
+      "Not recognizing signs of aging",
+      "Keeping incompatible species together",
+      "Not adjusting care for senior hamsters"
+    ],
+    "faqs": [
+      {
+        "question": "How long do hamsters live?",
+        "answer": "Syrian hamsters live 2-3 years, Dwarf hamsters 1.5-2 years, Roborovski 3-3.5 years, and Chinese hamsters about 2-3 years with proper care."
+      },
+      {
+        "question": "What affects hamster lifespan?",
+        "answer": "Diet, exercise, genetics, stress levels, and housing conditions all impact lifespan. A running wheel and proper nutrition are essential."
+      },
+      {
+        "question": "How do I know if my hamster is senior?",
+        "answer": "Hamsters are senior at about 18 months. Signs include reduced activity, thinning fur, weight changes, and sleeping more."
+      },
+      {
+        "question": "Can hamsters live together?",
+        "answer": "Syrian hamsters must live alone. Some dwarf species can live in pairs or groups if introduced young, but fighting can occur."
+      }
+    ]
+  },
+  "hamster-lifespan-calculator": {
+    "title": "Hamster Lifespan Calculator",
+    "description": "Calculate hamster average lifespan and health stages.",
+    "label_type": "Hamster Type",
+    "tooltip_type": "Select your hamster's breed",
+    "label_age": "Current Age (months)",
+    "tooltip_age": "Enter your hamster's age in months",
+    "placeholder_age": "e.g., 6",
+    "calculate_btn": "Calculate Lifespan",
+    "reset_btn": "Reset",
+    "result_human_age": "Approximate Human Age",
+    "result_avg_lifespan": "Average Lifespan",
+    "result_remaining": "Estimated Remaining Time",
+    "result_life_stage": "Life Stage",
+    "unit_months": "months",
+    "unit_years": "years",
+    "type_syrian": "Syrian (Golden)",
+    "type_dwarf": "Dwarf (Campbell's/Winter White)",
+    "type_roborovski": "Roborovski",
+    "type_chinese": "Chinese",
+    "stage_juvenile": "Juvenile",
+    "stage_adult": "Adult",
+    "stage_senior": "Senior",
+    "stage_elderly": "Elderly",
+    "tips_title": "Hamster Care Tips",
+    "empty_state": "Enter hamster details to calculate lifespan",
+    "tips": [
+      "Balanced hamster food",
+      "Safe wood shavings bedding",
+      "Fresh water daily",
+      "Quiet environment away from noise"
+    ],
+    "howItWorks": {
+      "title": "How Hamster Lifespan Calculator Works",
+      "formula": "Lifespan varies by species: Syrian 2-3 years, Dwarf 1.5-2 years, Roborovski 3-3.5 years",
+      "explanation": "This calculator estimates your hamster's age in human terms and predicts remaining lifespan based on species-specific life expectancy data.",
+      "steps": [
+        "Select your hamster's species",
+        "Enter their current age in months",
+        "View estimated human age equivalent",
+        "See life stage and remaining time estimate"
+      ]
+    },
+    "useCases": [
+      "Understanding your hamster's life stage",
+      "Planning appropriate care for aging hamsters",
+      "Setting realistic expectations for new hamster owners",
+      "Recognizing when senior care is needed"
+    ],
+    "seoTips": [
+      "Roborovski hamsters typically live longest",
+      "Good care can extend hamster lifespan significantly",
+      "Diet and environment affect longevity",
+      "Senior hamsters need adjusted care",
+      "Regular health checks catch issues early"
+    ],
+    "commonMistakes": [
+      "Expecting hamsters to live as long as other pets",
+      "Not recognizing signs of aging",
+      "Keeping incompatible species together",
+      "Not adjusting care for senior hamsters"
+    ],
+    "faqs": [
+      {
+        "question": "How long do hamsters live?",
+        "answer": "Syrian hamsters live 2-3 years, Dwarf hamsters 1.5-2 years, Roborovski 3-3.5 years, and Chinese hamsters about 2-3 years with proper care."
+      },
+      {
+        "question": "What affects hamster lifespan?",
+        "answer": "Diet, exercise, genetics, stress levels, and housing conditions all impact lifespan. A running wheel and proper nutrition are essential."
+      },
+      {
+        "question": "How do I know if my hamster is senior?",
+        "answer": "Hamsters are senior at about 18 months. Signs include reduced activity, thinning fur, weight changes, and sleeping more."
+      },
+      {
+        "question": "Can hamsters live together?",
+        "answer": "Syrian hamsters must live alone. Some dwarf species can live in pairs or groups if introduced young, but fighting can occur."
+      }
+    ]
+  },
+  "horse_feed_calculator": {
+    "title": "Horse Feed Calculator",
+    "description": "Calculate correct horse feeding amounts accurately.",
+    "label_weight": "Horse Weight (kg)",
+    "tooltip_weight": "Enter your horse's weight in kilograms",
+    "placeholder_weight": "e.g., 500",
+    "label_work_level": "Work Level",
+    "tooltip_work_level": "Select the activity level",
+    "label_feed_type": "Feed Type",
+    "tooltip_feed_type": "Select the type of feed",
+    "calculate_btn": "Calculate Feed",
+    "reset_btn": "Reset",
+    "result_daily_total": "Total Daily Feed",
+    "result_daily_hay": "Daily Hay",
+    "result_daily_grain": "Daily Grain",
+    "result_water": "Water Needs",
+    "result_meals": "Recommended Meals",
+    "tips_title": "Feeding Guidelines",
+    "work_maintenance": "Maintenance (No Work)",
+    "work_light": "Light Work",
+    "work_moderate": "Moderate Work",
+    "work_heavy": "Heavy Work",
+    "work_very_heavy": "Very Heavy Work",
+    "feed_hay_only": "Hay Only",
+    "feed_mixed": "Mixed (Hay & Grain)",
+    "feed_performance": "Performance Mix",
+    "unit_kg": "kg",
+    "unit_liters": "liters",
+    "unit_meals": "meals per day",
+    "empty_state": "Enter horse details to calculate feeding amount",
+    "footer_note": "These are estimates. Individual needs may vary.",
+    "tips": [
+      "Feed at regular times",
+      "Hay should be the basis of the diet",
+      "Always provide fresh water",
+      "Monitor body condition regularly",
+      "Provide free-choice mineral salt"
+    ],
+    "howItWorks": {
+      "title": "How Horse Feed Calculator Works",
+      "formula": "Daily feed = 1.5-3% of body weight depending on work level",
+      "explanation": "This calculator determines optimal daily feed amounts based on horse weight and work level, balancing hay, grain, and supplements for nutritional needs.",
+      "steps": [
+        "Enter your horse's weight in kilograms",
+        "Select the work level (maintenance to heavy work)",
+        "Choose the feed type (hay only, mixed, or performance)",
+        "View daily hay, grain, and water recommendations"
+      ]
+    },
+    "useCases": [
+      "Planning daily feeding schedules for horses",
+      "Budgeting feed costs for horse ownership",
+      "Adjusting nutrition for working or competition horses",
+      "Managing weight for overweight or underweight horses"
+    ],
+    "seoTips": [
+      "Horses need 1.5-2% of body weight in forage daily minimum",
+      "Work level significantly affects grain requirements",
+      "Quality hay can reduce grain needs",
+      "Divide daily feed into multiple small meals",
+      "Water intake averages 5-10 gallons per day"
+    ],
+    "commonMistakes": [
+      "Overfeeding grain relative to forage",
+      "Not adjusting feed for seasonal work changes",
+      "Sudden diet changes causing colic",
+      "Ignoring body condition when setting portions"
+    ],
+    "faqs": [
+      {
+        "question": "How much hay does a horse need daily?",
+        "answer": "A horse needs a minimum of 1.5-2% of body weight in forage. A 500kg horse needs at least 7.5-10kg of hay daily as a foundation."
+      },
+      {
+        "question": "When should I add grain to the diet?",
+        "answer": "Add grain when hay alone cannot meet energy needs, typically for horses in moderate to heavy work, growing horses, or lactating mares."
+      },
+      {
+        "question": "How much water does a horse need?",
+        "answer": "Horses drink 20-40 liters (5-10 gallons) daily. This increases with work, hot weather, and lactation."
+      },
+      {
+        "question": "How many times a day should I feed?",
+        "answer": "Divide daily feed into 2-3 meals minimum. Horses are designed to eat frequently, so more small meals are better for digestion."
+      },
+      {
+        "question": "Should I use a complete feed?",
+        "answer": "Complete feeds are convenient but hay should still be offered for dental health and digestive function unless a horse cannot chew properly."
+      }
+    ]
+  },
+  "horse-feed-calculator": {
+    "title": "Horse Feed Calculator",
+    "description": "Calculate correct horse feeding amounts accurately.",
+    "label_weight": "Horse Weight (kg)",
+    "tooltip_weight": "Enter your horse's weight in kilograms",
+    "placeholder_weight": "e.g., 500",
+    "label_work_level": "Work Level",
+    "tooltip_work_level": "Select the activity level",
+    "label_feed_type": "Feed Type",
+    "tooltip_feed_type": "Select the type of feed",
+    "calculate_btn": "Calculate Feed",
+    "reset_btn": "Reset",
+    "result_daily_total": "Total Daily Feed",
+    "result_daily_hay": "Daily Hay",
+    "result_daily_grain": "Daily Grain",
+    "result_water": "Water Needs",
+    "result_meals": "Recommended Meals",
+    "tips_title": "Feeding Guidelines",
+    "work_maintenance": "Maintenance (No Work)",
+    "work_light": "Light Work",
+    "work_moderate": "Moderate Work",
+    "work_heavy": "Heavy Work",
+    "work_very_heavy": "Very Heavy Work",
+    "feed_hay_only": "Hay Only",
+    "feed_mixed": "Mixed (Hay & Grain)",
+    "feed_performance": "Performance Mix",
+    "unit_kg": "kg",
+    "unit_liters": "liters",
+    "unit_meals": "meals per day",
+    "empty_state": "Enter horse details to calculate feeding amount",
+    "footer_note": "These are estimates. Individual needs may vary.",
+    "tips": [
+      "Feed at regular times",
+      "Hay should be the basis of the diet",
+      "Always provide fresh water",
+      "Monitor body condition regularly",
+      "Provide free-choice mineral salt"
+    ],
+    "howItWorks": {
+      "title": "How Horse Feed Calculator Works",
+      "formula": "Daily feed = 1.5-3% of body weight depending on work level",
+      "explanation": "This calculator determines optimal daily feed amounts based on horse weight and work level, balancing hay, grain, and supplements for nutritional needs.",
+      "steps": [
+        "Enter your horse's weight in kilograms",
+        "Select the work level (maintenance to heavy work)",
+        "Choose the feed type (hay only, mixed, or performance)",
+        "View daily hay, grain, and water recommendations"
+      ]
+    },
+    "useCases": [
+      "Planning daily feeding schedules for horses",
+      "Budgeting feed costs for horse ownership",
+      "Adjusting nutrition for working or competition horses",
+      "Managing weight for overweight or underweight horses"
+    ],
+    "seoTips": [
+      "Horses need 1.5-2% of body weight in forage daily minimum",
+      "Work level significantly affects grain requirements",
+      "Quality hay can reduce grain needs",
+      "Divide daily feed into multiple small meals",
+      "Water intake averages 5-10 gallons per day"
+    ],
+    "commonMistakes": [
+      "Overfeeding grain relative to forage",
+      "Not adjusting feed for seasonal work changes",
+      "Sudden diet changes causing colic",
+      "Ignoring body condition when setting portions"
+    ],
+    "faqs": [
+      {
+        "question": "How much hay does a horse need daily?",
+        "answer": "A horse needs a minimum of 1.5-2% of body weight in forage. A 500kg horse needs at least 7.5-10kg of hay daily as a foundation."
+      },
+      {
+        "question": "When should I add grain to the diet?",
+        "answer": "Add grain when hay alone cannot meet energy needs, typically for horses in moderate to heavy work, growing horses, or lactating mares."
+      },
+      {
+        "question": "How much water does a horse need?",
+        "answer": "Horses drink 20-40 liters (5-10 gallons) daily. This increases with work, hot weather, and lactation."
+      },
+      {
+        "question": "How many times a day should I feed?",
+        "answer": "Divide daily feed into 2-3 meals minimum. Horses are designed to eat frequently, so more small meals are better for digestion."
+      },
+      {
+        "question": "Should I use a complete feed?",
+        "answer": "Complete feeds are convenient but hay should still be offered for dental health and digestive function unless a horse cannot chew properly."
+      }
+    ]
+  },
+  "kitten_growth_calculator": {
+    "title": "Kitten Growth Calculator",
+    "description": "Calculate and track your kitten's growth.",
+    "label_weight": "Current Weight (kg)",
+    "tooltip_weight": "Enter your kitten's weight in kilograms",
+    "placeholder_weight": "e.g., 1.5",
+    "label_age": "Current Age (weeks)",
+    "tooltip_age": "Enter your kitten's age in weeks (1-52)",
+    "placeholder_age": "e.g., 12",
+    "calculate_btn": "Calculate Growth",
+    "reset_btn": "Reset",
+    "result_adult_weight": "Projected Adult Weight",
+    "result_growth_remaining": "Growth Remaining",
+    "result_current_percentage": "Current Growth",
+    "result_status": "Growth Status",
+    "status_underweight": "Underweight",
+    "status_slightly_underweight": "Slightly Underweight",
+    "status_ideal": "Ideal Weight",
+    "status_slightly_overweight": "Slightly Overweight",
+    "status_overweight": "Overweight",
+    "tips_title": "Kitten Care Tips",
+    "empty_state": "Enter kitten details to track growth",
+    "footer_note": "These are estimates. Individual growth rates may vary.",
+    "tips": [
+      "High-quality kitten food",
+      "Weekly weight to track growth",
+      "Regular vaccinations",
+      "Playtime and socialization",
+      "Monthly vet checkups"
+    ],
+    "howItWorks": {
+      "title": "How Kitten Growth Calculator Works",
+      "formula": "Adult weight estimate based on current weight and age growth curve",
+      "explanation": "This calculator tracks your kitten's growth progress and predicts adult weight based on standard feline growth patterns.",
+      "steps": [
+        "Enter your kitten's current weight",
+        "Enter their age in weeks",
+        "View projected adult weight",
+        "Check if growth is on track"
+      ]
+    },
+    "useCases": [
+      "Monitoring healthy kitten development",
+      "Identifying potential growth issues early",
+      "Planning for adult cat size and needs",
+      "Adjusting feeding as kitten grows"
+    ],
+    "seoTips": [
+      "Kittens should gain about 100g per week",
+      "Growth slows significantly after 6 months",
+      "Most cats reach adult size by 12 months",
+      "Large breeds may grow until 2 years",
+      "Weigh kittens at the same time each week"
+    ],
+    "commonMistakes": [
+      "Not weighing kittens regularly",
+      "Expecting linear growth throughout development",
+      "Overfeeding to speed up growth",
+      "Comparing kittens to adult cat weight standards"
+    ],
+    "faqs": [
+      {
+        "question": "How fast should kittens grow?",
+        "answer": "Healthy kittens gain approximately 100 grams (3.5 oz) per week until about 6 months, then growth slows as they approach adult size."
+      },
+      {
+        "question": "When do kittens reach adult size?",
+        "answer": "Most cats reach adult size by 12 months. Large breeds like Maine Coons may continue growing until 2-4 years old."
+      },
+      {
+        "question": "How can I predict my kitten's adult weight?",
+        "answer": "A rough estimate: double their weight at 16 weeks for adult size. This calculator uses growth curves for more accurate predictions."
+      },
+      {
+        "question": "Is my kitten underweight?",
+        "answer": "Healthy kittens should gain steadily. If weight plateaus or drops, consult a vet. Ribs should be felt but not prominently visible."
+      }
+    ]
+  },
+  "kitten-growth-calculator": {
+    "title": "Kitten Growth Calculator",
+    "description": "Calculate and track your kitten's growth.",
+    "label_weight": "Current Weight (kg)",
+    "tooltip_weight": "Enter your kitten's weight in kilograms",
+    "placeholder_weight": "e.g., 1.5",
+    "label_age": "Current Age (weeks)",
+    "tooltip_age": "Enter your kitten's age in weeks (1-52)",
+    "placeholder_age": "e.g., 12",
+    "calculate_btn": "Calculate Growth",
+    "reset_btn": "Reset",
+    "result_adult_weight": "Projected Adult Weight",
+    "result_growth_remaining": "Growth Remaining",
+    "result_current_percentage": "Current Growth",
+    "result_status": "Growth Status",
+    "status_underweight": "Underweight",
+    "status_slightly_underweight": "Slightly Underweight",
+    "status_ideal": "Ideal Weight",
+    "status_slightly_overweight": "Slightly Overweight",
+    "status_overweight": "Overweight",
+    "tips_title": "Kitten Care Tips",
+    "empty_state": "Enter kitten details to track growth",
+    "footer_note": "These are estimates. Individual growth rates may vary.",
+    "tips": [
+      "High-quality kitten food",
+      "Weekly weight to track growth",
+      "Regular vaccinations",
+      "Playtime and socialization",
+      "Monthly vet checkups"
+    ],
+    "howItWorks": {
+      "title": "How Kitten Growth Calculator Works",
+      "formula": "Adult weight projection based on current weight at age, using growth curve data",
+      "explanation": "This calculator tracks your kitten's development against standard growth curves, projecting adult size and identifying potential weight concerns.",
+      "steps": [
+        "Enter your kitten's current weight",
+        "Input their age in weeks",
+        "View projected adult weight",
+        "Check growth status against healthy ranges"
+      ]
+    },
+    "useCases": [
+      "Monitoring kitten development for health issues",
+      "Predicting adult cat size for planning",
+      "Identifying underweight or overweight kittens early",
+      "Adjusting feeding based on growth rate"
+    ],
+    "seoTips": [
+      "Kittens grow rapidly in the first 6 months",
+      "Most cats reach adult size by 12 months",
+      "Large breeds may continue growing until 18 months",
+      "Weekly weighing catches problems early",
+      "Growth rate is more important than absolute weight"
+    ],
+    "commonMistakes": [
+      "Comparing mixed breed to purebred growth charts",
+      "Overfeeding to accelerate growth",
+      "Not recognizing that males grow larger than females",
+      "Ignoring slow growth as a potential health sign"
+    ],
+    "faqs": [
+      {
+        "question": "How fast should kittens gain weight?",
+        "answer": "Healthy kittens gain about 100g per week for the first 4-5 months. They typically double their birth weight by 2 weeks old."
+      },
+      {
+        "question": "When do kittens stop growing?",
+        "answer": "Most cats reach adult size by 12 months, but large breeds like Maine Coons may continue growing until 2-4 years old."
+      },
+      {
+        "question": "How big will my kitten get?",
+        "answer": "Adult size depends on genetics, sex, and nutrition. Males are typically larger. At 4 months, a kitten is roughly half its adult weight."
+      },
+      {
+        "question": "Is my kitten underweight?",
+        "answer": "Healthy kittens should gain steadily. If weight plateaus or drops, consult a vet. Ribs should be felt but not prominently visible."
+      }
+    ]
+  },
+  "pet_adoption_cost_calculator": {
+    "title": "Pet Adoption Cost Calculator - Annual Ownership Guide",
+    "description": "Calculate the true cost of pet ownership. Free online calculator for annual food, medical, and maintenance expenses.",
+    "input_title": "Pet Adoption Cost Calculator",
+    "pet_type": "Pet Type",
+    "pet_dog": "Dog",
+    "pet_cat": "Cat",
+    "pet_size": "Pet Size",
+    "size_small": "Small",
+    "size_medium": "Medium",
+    "size_large": "Large",
+    "food_quality": "Food Quality",
+    "quality_budget": "Budget",
+    "quality_standard": "Standard",
+    "quality_premium": "Premium",
+    "calculate_btn": "Calculate Costs",
+    "reset_btn": "Reset",
+    "results_title": "Cost Breakdown",
+    "initial_cost": "Initial Adoption Cost",
+    "currency": "$",
+    "monthly_breakdown": "Monthly Expenses",
+    "monthly_food": "Food",
+    "monthly_vet": "Veterinary",
+    "monthly_misc": "Miscellaneous",
+    "monthly_total": "Monthly Total",
+    "annual_total": "Annual Total",
+    "empty_state": "Select pet details to calculate costs",
+    "footer_note": "Costs are estimates and may vary by location and specific needs.",
+    "howItWorks": {
+      "title": "How Pet Adoption Cost Calculator Works",
+      "formula": "Total cost = Initial adoption fee + Monthly expenses × 12",
+      "explanation": "This calculator estimates the true cost of pet ownership, including initial adoption costs and ongoing monthly expenses for food, vet care, and supplies.",
+      "steps": [
+        "Select the type of pet (dog or cat)",
+        "Choose the pet size",
+        "Select food quality level",
+        "View initial and ongoing cost breakdown"
+      ]
+    },
+    "useCases": [
+      "Budgeting before adopting a pet",
+      "Comparing costs of different pet types and sizes",
+      "Understanding the true financial commitment",
+      "Planning monthly pet care expenses"
+    ],
+    "seoTips": [
+      "First-year costs are higher due to initial supplies",
+      "Large dogs cost significantly more than small dogs",
+      "Premium food increases monthly costs substantially",
+      "Emergency vet fund should be part of planning",
+      "Pet insurance can reduce unexpected costs"
+    ],
+    "commonMistakes": [
+      "Only considering adoption fee, not ongoing costs",
+      "Underestimating veterinary expenses",
+      "Forgetting about grooming and boarding costs",
+      "Not planning for emergencies"
+    ],
+    "faqs": [
+      {
+        "question": "How much does it cost to own a dog per year?",
+        "answer": "Annual dog ownership costs range from $1,000-$3,000+ depending on size and care level. Large dogs cost more for food, medication, and supplies."
+      },
+      {
+        "question": "Are cats cheaper than dogs?",
+        "answer": "Generally yes. Cats typically cost $500-$1,500 annually compared to dogs. They need less food, no walking services, and often lower vet costs."
+      },
+      {
+        "question": "What's the biggest pet expense?",
+        "answer": "Veterinary care is often the largest expense, especially unexpected emergencies. Food is the largest predictable ongoing cost."
+      },
+      {
+        "question": "Should I get pet insurance?",
+        "answer": "Pet insurance can help manage unexpected vet costs. It's most valuable for breeds prone to health issues or if you couldn't afford emergency care otherwise."
+      }
+    ]
+  },
+  "pet-adoption-cost-calculator": {
+    "title": "Pet Adoption Cost Calculator - Annual Ownership Guide",
+    "description": "Calculate the true cost of pet ownership. Free online calculator for annual food, medical, and maintenance expenses.",
+    "input_title": "Pet Adoption Cost Calculator",
+    "pet_type": "Pet Type",
+    "pet_dog": "Dog",
+    "pet_cat": "Cat",
+    "pet_size": "Pet Size",
+    "size_small": "Small",
+    "size_medium": "Medium",
+    "size_large": "Large",
+    "food_quality": "Food Quality",
+    "quality_budget": "Budget",
+    "quality_standard": "Standard",
+    "quality_premium": "Premium",
+    "calculate_btn": "Calculate Costs",
+    "reset_btn": "Reset",
+    "results_title": "Cost Breakdown",
+    "initial_cost": "Initial Adoption Cost",
+    "currency": "$",
+    "monthly_breakdown": "Monthly Expenses",
+    "monthly_food": "Food",
+    "monthly_vet": "Veterinary",
+    "monthly_misc": "Miscellaneous",
+    "monthly_total": "Monthly Total",
+    "annual_total": "Annual Total",
+    "empty_state": "Select pet details to calculate costs",
+    "footer_note": "Costs are estimates and may vary by location and specific needs.",
+    "howItWorks": {
+      "title": "How Pet Adoption Cost Calculator Works",
+      "formula": "Total Cost = Initial Costs + (Monthly Food + Vet + Supplies) × 12",
+      "explanation": "This calculator provides a comprehensive breakdown of pet ownership costs including one-time adoption expenses and recurring monthly costs for food, veterinary care, and supplies.",
+      "steps": [
+        "Select the type of pet (dog or cat)",
+        "Choose the pet's size category",
+        "Select your preferred food quality level",
+        "View initial and ongoing cost breakdown",
+        "See monthly and annual totals"
+      ]
+    },
+    "useCases": [
+      "Budgeting before adopting a pet",
+      "Comparing costs between different pet sizes",
+      "Understanding the true cost of pet ownership",
+      "Planning for ongoing pet care expenses"
+    ],
+    "seoTips": [
+      "First-year costs are higher due to initial supplies",
+      "Large dogs cost significantly more than small dogs",
+      "Premium food increases monthly costs substantially",
+      "Emergency vet fund should be part of planning",
+      "Pet insurance can reduce unexpected costs"
+    ],
+    "commonMistakes": [
+      "Only considering adoption fee, not ongoing costs",
+      "Underestimating veterinary expenses",
+      "Forgetting about grooming and boarding costs",
+      "Not planning for emergencies"
+    ],
+    "faqs": [
+      {
+        "question": "How much does it cost to own a dog per year?",
+        "answer": "Annual dog ownership costs range from $1,000-$3,000+ depending on size and care level. Large dogs cost more for food, medication, and supplies."
+      },
+      {
+        "question": "Are cats cheaper than dogs?",
+        "answer": "Generally yes. Cats typically cost $500-$1,500 annually compared to dogs. They need less food, no walking services, and often lower vet costs."
+      },
+      {
+        "question": "What's the biggest pet expense?",
+        "answer": "Veterinary care is often the largest expense, especially unexpected emergencies. Food is the largest predictable ongoing cost."
+      },
+      {
+        "question": "Should I get pet insurance?",
+        "answer": "Pet insurance can help manage unexpected vet costs. It's most valuable for breeds prone to health issues or if you couldn't afford emergency care otherwise."
+      }
+    ]
+  },
+  "pet_insurance_calculator": {
+    "title": "Pet Insurance Calculator - Compare Costs and Benefits",
+    "description": "Calculate pet insurance costs and coverage. Free online tool to find the best insurance plan for your furry friend.",
+    "tips": [
+      "Coverage for emergency vet expenses",
+      "Financial peace of mind",
+      "Access to advanced treatments",
+      "Coverage for chronic diseases"
+    ],
+    "input_title": "Pet Insurance Calculator",
+    "pet_type": "Pet Type",
+    "pet_type_tooltip": "Select the type of pet",
+    "pet_dog": "Dog",
+    "pet_cat": "Cat",
+    "pet_age": "Pet Age",
+    "pet_age_tooltip": "Enter your pet's age in years",
+    "age_unit": "years",
+    "enter_age": "Enter age",
+    "coverage_level": "Coverage Level",
+    "coverage_tooltip": "Select the insurance coverage level",
+    "coverage_basic": "Basic",
+    "coverage_standard": "Standard",
+    "coverage_premium": "Premium",
+    "coverage_comprehensive": "Comprehensive",
+    "deductible": "Annual Deductible",
+    "deductible_tooltip": "Amount you pay before insurance covers costs",
+    "deductible_250": "$250",
+    "deductible_500": "$500",
+    "deductible_1000": "$1000",
+    "calculate_btn": "Calculate Premium",
+    "reset_btn": "Reset",
+    "results_title": "Insurance Estimate",
+    "monthly_premium": "Monthly Premium",
+    "annual_premium": "Annual Premium",
+    "break_even_cost": "Break-Even Cost",
+    "lifetime_savings": "Estimated Lifetime Savings",
+    "currency": "$",
+    "tips_title": "Insurance Tips",
+    "empty_state": "Enter pet details to calculate insurance costs",
+    "footer_note": "Actual premiums may vary based on provider, location, and pet health history.",
+    "howItWorks": {
+      "title": "How Pet Insurance Calculator Works",
+      "formula": "Premium based on pet type, age, coverage level, and deductible",
+      "explanation": "This calculator estimates pet insurance costs based on key factors that insurers use to determine premiums, helping you budget for coverage.",
+      "steps": [
+        "Select your pet type (dog or cat)",
+        "Enter your pet's age",
+        "Choose desired coverage level",
+        "Select your preferred deductible",
+        "View estimated monthly and annual premiums"
+      ]
+    },
+    "useCases": [
+      "Budgeting for pet insurance premiums",
+      "Comparing different coverage levels",
+      "Understanding how deductibles affect costs",
+      "Deciding if pet insurance is worth it for your situation"
+    ],
+    "seoTips": [
+      "Insure pets when young for lower premiums",
+      "Higher deductibles mean lower monthly costs",
+      "Comprehensive coverage costs more but covers more",
+      "Pre-existing conditions are typically not covered",
+      "Compare multiple providers before deciding"
+    ],
+    "commonMistakes": [
+      "Waiting until pet is older to get insurance",
+      "Choosing lowest premium without understanding coverage",
+      "Not reading exclusions carefully",
+      "Forgetting to factor in deductible when comparing plans"
+    ],
+    "faqs": [
+      {
+        "question": "Is pet insurance worth it?",
+        "answer": "It depends on your financial situation and risk tolerance. Insurance helps spread the cost of unexpected vet bills. It's especially valuable for breeds prone to health issues."
+      },
+      {
+        "question": "What does pet insurance cover?",
+        "answer": "Most policies cover accidents and illnesses. Comprehensive plans may include wellness visits, dental, and alternative therapies. Pre-existing conditions are excluded."
+      },
+      {
+        "question": "Why does age affect premiums?",
+        "answer": "Older pets are more likely to develop health issues, making them riskier to insure. Premiums increase with age, which is why insuring young pets is more affordable."
+      },
+      {
+        "question": "What is a deductible?",
+        "answer": "The deductible is what you pay before insurance kicks in. Higher deductibles mean lower premiums but more out-of-pocket costs when you file a claim."
+      },
+      {
+        "question": "Are pre-existing conditions covered?",
+        "answer": "No, pre-existing conditions are not covered by any pet insurance. This is why insuring pets while young and healthy is important."
+      }
+    ]
+  },
+  "pet-insurance-calculator": {
+    "title": "Pet Insurance Calculator - Compare Costs and Benefits",
+    "description": "Calculate pet insurance costs and coverage. Free online tool to find the best insurance plan for your furry friend.",
+    "tips": [
+      "Coverage for emergency vet expenses",
+      "Financial peace of mind",
+      "Access to advanced treatments",
+      "Coverage for chronic diseases"
+    ],
+    "input_title": "Pet Insurance Calculator",
+    "pet_type": "Pet Type",
+    "pet_type_tooltip": "Select the type of pet",
+    "pet_dog": "Dog",
+    "pet_cat": "Cat",
+    "pet_age": "Pet Age",
+    "pet_age_tooltip": "Enter your pet's age in years",
+    "age_unit": "years",
+    "enter_age": "Enter age",
+    "coverage_level": "Coverage Level",
+    "coverage_tooltip": "Select the insurance coverage level",
+    "coverage_basic": "Basic",
+    "coverage_standard": "Standard",
+    "coverage_premium": "Premium",
+    "coverage_comprehensive": "Comprehensive",
+    "deductible": "Annual Deductible",
+    "deductible_tooltip": "Amount you pay before insurance covers costs",
+    "deductible_250": "$250",
+    "deductible_500": "$500",
+    "deductible_1000": "$1000",
+    "calculate_btn": "Calculate Premium",
+    "reset_btn": "Reset",
+    "results_title": "Insurance Estimate",
+    "monthly_premium": "Monthly Premium",
+    "annual_premium": "Annual Premium",
+    "break_even_cost": "Break-Even Cost",
+    "lifetime_savings": "Estimated Lifetime Savings",
+    "currency": "$",
+    "tips_title": "Insurance Tips",
+    "empty_state": "Enter pet details to calculate insurance costs",
+    "footer_note": "Actual premiums may vary based on provider, location, and pet health history.",
+    "howItWorks": {
+      "title": "How Pet Insurance Calculator Works",
+      "formula": "Premium based on pet type, age, coverage level, and deductible",
+      "explanation": "This calculator estimates pet insurance costs based on key factors that insurers use to determine premiums, helping you budget for coverage.",
+      "steps": [
+        "Select your pet type (dog or cat)",
+        "Enter your pet's age",
+        "Choose desired coverage level",
+        "Select your preferred deductible",
+        "View estimated monthly and annual premiums"
+      ]
+    },
+    "useCases": [
+      "Budgeting for pet insurance premiums",
+      "Comparing different coverage levels",
+      "Understanding how deductibles affect costs",
+      "Deciding if pet insurance is worth it for your situation"
+    ],
+    "seoTips": [
+      "Insure pets when young for best rates",
+      "Higher deductibles lower monthly premiums",
+      "Comprehensive coverage costs more but offers better protection",
+      "Pre-existing conditions are typically not covered",
+      "Compare multiple providers before choosing"
+    ],
+    "commonMistakes": [
+      "Waiting until pet is old or sick to get insurance",
+      "Not reading policy exclusions carefully",
+      "Choosing the cheapest plan without comparing coverage",
+      "Forgetting about waiting periods for new policies"
+    ],
+    "faqs": [
+      {
+        "question": "Is pet insurance worth it?",
+        "answer": "Pet insurance provides peace of mind for unexpected emergencies. It's most valuable for breeds prone to health issues or if a major vet bill would cause financial hardship."
+      },
+      {
+        "question": "What does pet insurance cover?",
+        "answer": "Most policies cover accidents, illnesses, and emergencies. Comprehensive plans may include preventive care, dental, and alternative therapies. Pre-existing conditions are excluded."
+      },
+      {
+        "question": "How do deductibles work?",
+        "answer": "You pay the deductible amount before insurance kicks in. Annual deductibles reset each year. Higher deductibles mean lower premiums but more out-of-pocket costs."
+      },
+      {
+        "question": "When should I get pet insurance?",
+        "answer": "The best time is when your pet is young and healthy. Premiums are lower and pre-existing conditions won't be an issue. Many start at 8 weeks old."
+      },
+      {
+        "question": "Does insurance cover routine vet visits?",
+        "answer": "Basic plans typically don't cover wellness visits. Premium or comprehensive plans may include preventive care like vaccinations and annual checkups."
+      }
+    ]
+  },
+  "pet_medication_dosage_calculator": {
+    "title": "Pet medication dosage calculator - Free Vet Dose Tool",
+    "description": "Calculate medication dose by pet weight accurately. Free online vet drug dosage calculator for dogs and cats.",
+    "tips": [
+      "Only use medications prescribed by a vet",
+      "Do not give human medications without consultation",
+      "Check medication expiry date",
+      "Follow instructions strictly",
+      "Contact a vet if any abnormal symptoms appear"
+    ],
+    "input_title": "Medication Dosage Calculator",
+    "pet_weight": "Pet Weight",
+    "pet_weight_tooltip": "Enter your pet's weight in kilograms",
+    "weight_unit": "kg",
+    "enter_weight": "Enter weight",
+    "dosage_per_kg": "Dosage per kg",
+    "dosage_per_kg_tooltip": "Prescribed dosage amount per kilogram of body weight",
+    "dosage_unit": "mg/kg",
+    "enter_dosage": "Enter dosage",
+    "administration_frequency": "Administration Frequency",
+    "frequency_tooltip": "How often to administer the medication",
+    "frequency_6h": "Every 6 hours (4x/day)",
+    "frequency_8h": "Every 8 hours (3x/day)",
+    "frequency_12h": "Every 12 hours (2x/day)",
+    "frequency_24h": "Once daily",
+    "medication_form": "Medication Form",
+    "form_tooltip": "Type of medication formulation",
+    "form_liquid": "Liquid",
+    "form_tablet": "Tablet/Capsule",
+    "concentration": "Concentration",
+    "concentration_tooltip": "Medication concentration (mg per ml for liquids)",
+    "concentration_unit": "mg/ml",
+    "enter_concentration": "Enter concentration",
+    "calculate_btn": "Calculate Dosage",
+    "reset_btn": "Reset",
+    "results_title": "Dosage Results",
+    "total_daily_dose": "Total Daily Dose",
+    "dose_per_admin": "Dose per Administration",
+    "admin_per_day": "Administrations per Day",
+    "volume_per_dose": "Volume per Dose",
+    "volume_unit": "ml",
+    "tablet_unit": "tablet(s)",
+    "empty_state": "Enter pet details to calculate dosage",
+    "footer_note": "Always consult a veterinarian for medication dosing. This calculator is for reference only.",
+    "administration_per_day_unit": "times/day",
+    "total_dose_per_day": "Total Dose per Day",
+    "tips_title": "Important Safety Tips",
+    "howItWorks": {
+      "title": "How Pet Medication Dosage Calculator Works",
+      "formula": "Dose = Pet weight (kg) × Prescribed dose per kg",
+      "explanation": "This calculator helps determine medication doses based on your pet's weight and the veterinarian-prescribed dosage rate. Always verify with your vet.",
+      "steps": [
+        "Enter your pet's weight",
+        "Enter the prescribed dosage per kilogram",
+        "Select administration frequency",
+        "Choose medication form (liquid or tablet)",
+        "For liquids, enter concentration",
+        "View calculated dose amounts"
+      ]
+    },
+    "useCases": [
+      "Calculating medication doses for pets",
+      "Converting tablet to liquid dosing",
+      "Determining daily total medication amount",
+      "Verifying vet-prescribed doses"
+    ],
+    "seoTips": [
+      "Always use a veterinarian-prescribed dosage",
+      "Weigh pets accurately before calculating",
+      "Never give human medication without vet approval",
+      "Complete full medication course as prescribed",
+      "Store medications properly per instructions"
+    ],
+    "commonMistakes": [
+      "Using human medication dosages for pets",
+      "Guessing pet weight instead of weighing",
+      "Stopping medication early when pet seems better",
+      "Mixing medications without vet approval"
+    ],
+    "faqs": [
+      {
+        "question": "Can I give my pet human medication?",
+        "answer": "Never give human medication to pets without veterinary guidance. Many human drugs are toxic to animals, and dosages differ significantly."
+      },
+      {
+        "question": "How do I weigh my pet accurately?",
+        "answer": "Weigh yourself, then weigh yourself holding your pet, and subtract. For small pets, use a kitchen scale. Accurate weight is crucial for dosing."
+      },
+      {
+        "question": "What if I miss a dose?",
+        "answer": "Give the missed dose as soon as you remember, unless it's close to the next dose time. Never double up. Contact your vet if unsure."
+      },
+      {
+        "question": "How do I give liquid medication?",
+        "answer": "Use a syringe without a needle. Insert into the side of the mouth, behind the canine teeth. Squirt slowly to avoid choking."
+      },
+      {
+        "question": "Why is this calculator for reference only?",
+        "answer": "Individual pets may have conditions affecting drug metabolism. Only a veterinarian can determine the safe and effective dose for your specific pet."
+      }
+    ]
+  },
+  "pet-medication-dosage-calculator": {
+    "title": "Pet medication dosage calculator - Free Vet Dose Tool",
+    "description": "Calculate medication dose by pet weight accurately. Free online vet drug dosage calculator for dogs and cats.",
+    "tips": [
+      "Only use medications prescribed by a vet",
+      "Do not give human medications without consultation",
+      "Check medication expiry date",
+      "Follow instructions strictly",
+      "Contact a vet if any abnormal symptoms appear"
+    ],
+    "input_title": "Medication Dosage Calculator",
+    "pet_weight": "Pet Weight",
+    "pet_weight_tooltip": "Enter your pet's weight in kilograms",
+    "weight_unit": "kg",
+    "enter_weight": "Enter weight",
+    "dosage_per_kg": "Dosage per kg",
+    "dosage_per_kg_tooltip": "Prescribed dosage amount per kilogram of body weight",
+    "dosage_unit": "mg/kg",
+    "enter_dosage": "Enter dosage",
+    "administration_frequency": "Administration Frequency",
+    "frequency_tooltip": "How often to administer the medication",
+    "frequency_6h": "Every 6 hours (4x/day)",
+    "frequency_8h": "Every 8 hours (3x/day)",
+    "frequency_12h": "Every 12 hours (2x/day)",
+    "frequency_24h": "Once daily",
+    "medication_form": "Medication Form",
+    "form_tooltip": "Type of medication formulation",
+    "form_liquid": "Liquid",
+    "form_tablet": "Tablet/Capsule",
+    "concentration": "Concentration",
+    "concentration_tooltip": "Medication concentration (mg per ml for liquids)",
+    "concentration_unit": "mg/ml",
+    "enter_concentration": "Enter concentration",
+    "calculate_btn": "Calculate Dosage",
+    "reset_btn": "Reset",
+    "results_title": "Dosage Results",
+    "total_daily_dose": "Total Daily Dose",
+    "dose_per_admin": "Dose per Administration",
+    "admin_per_day": "Administrations per Day",
+    "volume_per_dose": "Volume per Dose",
+    "volume_unit": "ml",
+    "tablet_unit": "tablet(s)",
+    "empty_state": "Enter pet details to calculate dosage",
+    "footer_note": "Always consult a veterinarian for medication dosing. This calculator is for reference only.",
+    "administration_per_day_unit": "times/day",
+    "total_dose_per_day": "Total Dose per Day",
+    "tips_title": "Important Safety Tips",
+    "howItWorks": {
+      "title": "How Pet Medication Dosage Calculator Works",
+      "formula": "Dose = Pet Weight (kg) × Dosage Rate (mg/kg)",
+      "explanation": "This calculator helps determine medication amounts based on your pet's weight and the prescribed dosage rate. It converts between liquid and tablet forms for accurate administration.",
+      "steps": [
+        "Enter your pet's weight in kilograms",
+        "Input the prescribed dosage per kilogram",
+        "Select how often the medication should be given",
+        "Choose medication form (liquid or tablet)",
+        "For liquids, enter the concentration",
+        "View the calculated dose per administration"
+      ]
+    },
+    "useCases": [
+      "Converting prescribed mg/kg dosages to actual amounts",
+      "Calculating liquid medication volumes for syringes",
+      "Determining daily total medication doses",
+      "Splitting tablets accurately for smaller pets"
+    ],
+    "seoTips": [
+      "Always verify doses with your veterinarian",
+      "Weigh pets accurately before calculating",
+      "Use a proper syringe for liquid medications",
+      "Complete the full course of prescribed medications",
+      "Store medications according to label instructions"
+    ],
+    "commonMistakes": [
+      "Using human medications without vet approval",
+      "Estimating pet weight instead of measuring",
+      "Stopping antibiotics early when pet seems better",
+      "Crushing extended-release medications"
+    ],
+    "faqs": [
+      {
+        "question": "Why is accurate weight important?",
+        "answer": "Pet medication dosages are weight-dependent. Small errors in weight can lead to significant under or overdosing, especially for smaller pets."
+      },
+      {
+        "question": "Can I give my pet human medication?",
+        "answer": "Never without veterinary guidance. Many human medications are toxic to pets. Even safe ones require different dosing than humans."
+      },
+      {
+        "question": "How do I give liquid medication?",
+        "answer": "Use a syringe without a needle. Insert into the side of the mouth, behind the canine teeth. Squirt slowly to avoid choking."
+      },
+      {
+        "question": "Why is this calculator for reference only?",
+        "answer": "Individual pets may have conditions affecting drug metabolism. Only a veterinarian can determine the safe and effective dose for your specific pet."
+      }
+    ]
+  },
+  "pet_travel_calculator": {
+    "title": "Pet Travel Calculator - Shipping and Transport Costs",
+    "description": "Calculate pet travel costs and requirements. Free online guide for international pet relocation and transport.",
+    "input_title": "Pet Travel Calculator",
+    "pet_type": "Pet Type",
+    "pet_dog": "Dog",
+    "pet_cat": "Cat",
+    "pet_weight": "Pet Weight",
+    "kg": "kg",
+    "enter_weight": "Enter weight",
+    "travel_type": "Travel Type",
+    "travel_domestic": "Domestic",
+    "travel_international": "International",
+    "transport_mode": "Transport Mode",
+    "transport_air": "Air",
+    "transport_ground": "Ground",
+    "calculate_btn": "Calculate Costs",
+    "reset_btn": "Reset",
+    "results_title": "Travel Cost Estimate",
+    "total_cost": "Total Cost",
+    "currency": "$",
+    "carrier_cost": "Carrier/Crate",
+    "health_cert_cost": "Health Certificate",
+    "transport_cost_label": "Transport",
+    "tips_title": "Travel Requirements",
+    "empty_state": "Enter pet details to calculate travel costs",
+    "footer_note": "Costs are estimates and may vary by airline, route, and destination requirements.",
+    "howItWorks": {
+      "title": "How Pet Travel Calculator Works",
+      "formula": "Total cost = Carrier + Health certificate + Transport fees",
+      "explanation": "This calculator estimates the cost of traveling with your pet, including required documentation, appropriate carriers, and transport fees for domestic or international travel.",
+      "steps": [
+        "Select your pet type",
+        "Enter your pet's weight",
+        "Choose domestic or international travel",
+        "Select transport mode (air or ground)",
+        "View itemized cost breakdown"
+      ]
+    },
+    "useCases": [
+      "Budgeting for moving with pets",
+      "Planning vacation travel with pets",
+      "Understanding pet import/export requirements",
+      "Comparing air vs. ground transport costs"
+    ],
+    "seoTips": [
+      "Start planning pet travel 2-3 months ahead",
+      "International travel requires USDA health certificates",
+      "Airline policies vary significantly",
+      "Some countries have quarantine requirements",
+      "Microchipping is required for most international travel"
+    ],
+    "commonMistakes": [
+      "Not checking destination country requirements early",
+      "Booking flights without confirming pet policy",
+      "Using wrong carrier size",
+      "Not allowing time for required vaccinations"
+    ],
+    "faqs": [
+      {
+        "question": "What documents do I need to travel with my pet?",
+        "answer": "Domestic travel typically needs a recent health certificate. International travel requires USDA-endorsed certificates, updated vaccinations, and possibly microchipping and quarantine."
+      },
+      {
+        "question": "Can my pet fly in the cabin?",
+        "answer": "Small pets (usually under 8-10kg including carrier) can often fly in-cabin. Larger pets must travel in cargo. Policies vary by airline."
+      },
+      {
+        "question": "How far in advance should I plan?",
+        "answer": "For domestic travel, 2-4 weeks. International travel requires 2-3 months for documentation, vaccinations, and meeting destination requirements."
+      },
+      {
+        "question": "Is air travel safe for pets?",
+        "answer": "Most pets travel safely, but there are risks. Brachycephalic breeds (flat-faced) have higher risks. Many airlines restrict them during hot months."
+      },
+      {
+        "question": "What carrier size do I need?",
+        "answer": "Your pet should be able to stand, turn around, and lie down comfortably. Airlines have specific size requirements for in-cabin and cargo carriers."
+      }
+    ]
+  },
+  "pet-travel-calculator": {
+    "title": "Pet Travel Calculator - Shipping and Transport Costs",
+    "description": "Calculate pet travel costs and requirements. Free online guide for international pet relocation and transport.",
+    "input_title": "Pet Travel Calculator",
+    "pet_type": "Pet Type",
+    "pet_dog": "Dog",
+    "pet_cat": "Cat",
+    "pet_weight": "Pet Weight",
+    "kg": "kg",
+    "enter_weight": "Enter weight",
+    "travel_type": "Travel Type",
+    "travel_domestic": "Domestic",
+    "travel_international": "International",
+    "transport_mode": "Transport Mode",
+    "transport_air": "Air",
+    "transport_ground": "Ground",
+    "calculate_btn": "Calculate Costs",
+    "reset_btn": "Reset",
+    "results_title": "Travel Cost Estimate",
+    "total_cost": "Total Cost",
+    "currency": "$",
+    "carrier_cost": "Carrier/Crate",
+    "health_cert_cost": "Health Certificate",
+    "transport_cost_label": "Transport",
+    "tips_title": "Travel Requirements",
+    "empty_state": "Enter pet details to calculate travel costs",
+    "footer_note": "Costs are estimates and may vary by airline, route, and destination requirements.",
+    "howItWorks": {
+      "title": "How Pet Travel Calculator Works",
+      "formula": "Total Cost = Transport Fee + Carrier Cost + Health Certificates + Documentation",
+      "explanation": "This calculator estimates the total cost of traveling with your pet, including transportation, required documentation, carriers, and health certificates.",
+      "steps": [
+        "Select your pet type and weight",
+        "Choose domestic or international travel",
+        "Select transport mode (air or ground)",
+        "View itemized cost breakdown",
+        "Review required documentation"
+      ]
+    },
+    "useCases": [
+      "Budgeting for relocating with pets",
+      "Planning pet-friendly vacations",
+      "Understanding international pet import requirements",
+      "Comparing air vs ground transport costs"
+    ],
+    "seoTips": [
+      "Start pet travel planning 2-3 months in advance",
+      "International travel requires more documentation",
+      "Airline pet policies vary significantly",
+      "Some countries require quarantine periods",
+      "Health certificates have limited validity windows"
+    ],
+    "commonMistakes": [
+      "Not checking airline pet policies in advance",
+      "Forgetting about destination country requirements",
+      "Getting health certificates too early (they expire)",
+      "Using the wrong size carrier for the pet"
+    ],
+    "faqs": [
+      {
+        "question": "How much does it cost to fly with a pet?",
+        "answer": "Domestic flights: $100-200 cabin, $200-500 cargo. International flights: $500-2000+ depending on destination. Larger pets cost more."
+      },
+      {
+        "question": "What documents do I need to travel with my pet?",
+        "answer": "Minimum: health certificate from a vet (usually within 10 days of travel). International: may need rabies titer tests, import permits, and specific vaccinations."
+      },
+      {
+        "question": "Can my pet fly in the cabin?",
+        "answer": "Small pets (usually under 20 lbs with carrier) can often fly in-cabin for a fee. Larger pets must travel in cargo. Policies vary by airline."
+      },
+      {
+        "question": "Is pet travel safe?",
+        "answer": "When done properly with appropriate carriers and following airline guidelines, pet travel is generally safe. Avoid extreme temperatures and sedation unless vet-recommended."
+      }
+    ]
+  },
+  "puppy_growth_calculator": {
+    "title": "Puppy Growth Calculator - Track Development",
+    "description": "Calculate your puppy's adult weight and growth progress. Free online tool for puppy development tracking.",
+    "input_title": "Puppy Growth Calculator",
+    "current_weight": "Current Weight",
+    "weight_tooltip": "Enter your puppy's current weight",
+    "kg": "kg",
+    "enter_weight": "Enter weight",
+    "current_age": "Current Age",
+    "age_tooltip": "Enter your puppy's age in months",
+    "months": "months",
+    "enter_age": "Enter age",
+    "breed_size": "Breed Size",
+    "size_tooltip": "Select your dog's breed size",
+    "size_small": "Small",
+    "size_medium": "Medium",
+    "size_large": "Large",
+    "size_giant": "Giant",
+    "calculate_btn": "Calculate Growth",
+    "reset_btn": "Reset",
+    "results_title": "Growth Prediction",
+    "adult_weight": "Estimated Adult Weight",
+    "growth_remaining": "Growth Remaining",
+    "maturity_age": "Maturity Age",
+    "months_unit": "months",
+    "current_progress": "Current Progress",
+    "percentage": "%",
+    "tips_title": "Growth Tips",
+    "tip_1": "Puppies grow rapidly in the first 6 months",
+    "tip_2": "Nutrition affects adult size significantly",
+    "tip_3": "Regular vet check-ups monitor healthy growth",
+    "empty_state": "Enter puppy details to calculate growth",
+    "footer_note": "Growth predictions are estimates. Actual adult size may vary.",
+    "howItWorks": {
+      "title": "How Puppy Growth Calculator Works",
+      "formula": "Adult weight prediction based on current weight, age, and breed size",
+      "explanation": "This calculator predicts your puppy's adult weight using growth curves specific to different breed sizes. Small breeds mature faster than giant breeds.",
+      "steps": [
+        "Enter your puppy's current weight",
+        "Enter their age in months",
+        "Select their breed size category",
+        "View predicted adult weight and maturity timeline"
+      ]
+    },
+    "useCases": [
+      "Predicting adult size for mixed breed puppies",
+      "Planning for appropriate crate and equipment sizes",
+      "Monitoring healthy growth rate",
+      "Adjusting feeding for proper development"
+    ],
+    "seoTips": [
+      "Small breeds reach adult size by 9-12 months",
+      "Large breeds grow until 12-18 months",
+      "Giant breeds may grow until 2 years",
+      "Rapid growth in large breeds can cause joint problems",
+      "Weigh puppies weekly to track growth"
+    ],
+    "commonMistakes": [
+      "Overfeeding to speed up growth",
+      "Expecting all breeds to grow at the same rate",
+      "Not using large breed puppy food for big dogs",
+      "Ignoring growth plateaus as normal"
+    ],
+    "faqs": [
+      {
+        "question": "How big will my puppy get?",
+        "answer": "For purebreds, check breed standards. For mixed breeds, this calculator uses current weight and age. At 14 weeks, puppies are about 25% of adult weight for small breeds, less for larger breeds."
+      },
+      {
+        "question": "When do puppies stop growing?",
+        "answer": "Small breeds: 9-12 months, Medium breeds: 12-15 months, Large breeds: 15-18 months, Giant breeds: 18-24 months."
+      },
+      {
+        "question": "Is my puppy growing too fast?",
+        "answer": "Rapid growth in large/giant breeds can cause skeletal problems. Use large breed puppy food and avoid overfeeding. Growth should be steady, not accelerated."
+      },
+      {
+        "question": "Why did my puppy's growth slow down?",
+        "answer": "Growth naturally slows as puppies approach adult size. This is normal and expected. Consult a vet only if growth stops completely or weight drops."
+      },
+      {
+        "question": "Should I limit exercise for growing puppies?",
+        "answer": "Avoid high-impact exercise like jumping until growth plates close (varies by breed size). Short walks and play are fine. Consult your vet for breed-specific advice."
+      }
+    ]
+  },
+  "puppy-growth-calculator": {
+    "title": "Puppy Growth Calculator - Track Development",
+    "description": "Calculate your puppy's adult weight and growth progress. Free online tool for puppy development tracking.",
+    "input_title": "Puppy Growth Calculator",
+    "current_weight": "Current Weight",
+    "weight_tooltip": "Enter your puppy's current weight",
+    "kg": "kg",
+    "enter_weight": "Enter weight",
+    "current_age": "Current Age",
+    "age_tooltip": "Enter your puppy's age in months",
+    "months": "months",
+    "enter_age": "Enter age",
+    "breed_size": "Breed Size",
+    "size_tooltip": "Select your dog's breed size",
+    "size_small": "Small",
+    "size_medium": "Medium",
+    "size_large": "Large",
+    "size_giant": "Giant",
+    "calculate_btn": "Calculate Growth",
+    "reset_btn": "Reset",
+    "results_title": "Growth Prediction",
+    "adult_weight": "Estimated Adult Weight",
+    "growth_remaining": "Growth Remaining",
+    "maturity_age": "Maturity Age",
+    "months_unit": "months",
+    "current_progress": "Current Progress",
+    "percentage": "%",
+    "tips_title": "Growth Tips",
+    "tip_1": "Puppies grow rapidly in the first 6 months",
+    "tip_2": "Nutrition affects adult size significantly",
+    "tip_3": "Regular vet check-ups monitor healthy growth",
+    "empty_state": "Enter puppy details to calculate growth",
+    "footer_note": "Growth predictions are estimates. Actual adult size may vary.",
+    "howItWorks": {
+      "title": "How Puppy Growth Calculator Works",
+      "formula": "Adult weight prediction based on current weight, age, and breed size",
+      "explanation": "This calculator predicts your puppy's adult weight using growth curves specific to different breed sizes. Small breeds mature faster than giant breeds.",
+      "steps": [
+        "Enter your puppy's current weight",
+        "Enter their age in months",
+        "Select their breed size category",
+        "View predicted adult weight and maturity timeline"
+      ]
+    },
+    "useCases": [
+      "Predicting adult size for mixed breed puppies",
+      "Planning for appropriate crate and equipment sizes",
+      "Monitoring healthy growth rate",
+      "Adjusting feeding for proper development"
+    ],
+    "seoTips": [
+      "Small breeds reach adult size by 9-12 months",
+      "Giant breeds may grow until 18-24 months",
+      "Male puppies typically grow larger than females",
+      "Proper nutrition affects final adult size",
+      "Regular weighing tracks healthy development"
+    ],
+    "commonMistakes": [
+      "Overfeeding puppies thinking it will make them bigger",
+      "Not accounting for breed size differences in growth timeline",
+      "Using adult dog food for growing puppies",
+      "Comparing growth to other breeds inappropriately"
+    ],
+    "faqs": [
+      {
+        "question": "When will my puppy stop growing?",
+        "answer": "Small breeds: 9-12 months, Medium breeds: 12-15 months, Large breeds: 15-18 months, Giant breeds: 18-24 months."
+      },
+      {
+        "question": "How accurate are puppy weight predictions?",
+        "answer": "Predictions are estimates based on averages. Actual adult weight can vary 10-20% due to genetics, nutrition, and health factors."
+      },
+      {
+        "question": "How big will my mixed breed puppy get?",
+        "answer": "Use the breed size closest to the expected adult size based on parents. At 4 months, most puppies are about half their adult weight."
+      },
+      {
+        "question": "Should I limit food to control my puppy's size?",
+        "answer": "No, proper nutrition is essential for healthy development. Genetics determine adult size. Underfeeding can cause health problems."
+      },
+      {
+        "question": "Do male and female puppies grow differently?",
+        "answer": "Yes, males typically grow 10-20% larger than females of the same breed. Both follow similar growth curves but reach different endpoints."
+      }
+    ]
+  },
+  "rabbit_care_calculator": {
+    "title": "Rabbit Care Calculator - Free Bunny Diet and Space Tool",
+    "description": "Calculate rabbit feeding and living space needs. Free online bunny care calculator for healthy pet rabbits.",
+    "tips": [
+      "Always provide fresh Timothy hay",
+      "Fresh water available at all times",
+      "Fresh leafy greens daily",
+      "Clean litter box daily",
+      "Annual vet checkup"
+    ],
+    "input_title": "Rabbit Care Calculator",
+    "rabbit_weight": "Rabbit Weight",
+    "kg": "kg",
+    "enter_weight": "Enter weight",
+    "rabbit_size": "Rabbit Size",
+    "size_small": "Small",
+    "size_medium": "Medium",
+    "size_large": "Large",
+    "calculate_btn": "Calculate Care",
+    "reset_btn": "Reset",
+    "results_title": "Rabbit Care Results",
+    "daily_diet": "Daily Diet",
+    "daily_hay": "Daily Hay",
+    "daily_pellets": "Daily Pellets",
+    "daily_veggies": "Daily Vegetables",
+    "hutch_size": "Hutch Size",
+    "hutch_length": "Length",
+    "hutch_width": "Width",
+    "hutch_height": "Height",
+    "cm": "cm",
+    "tips_title": "Rabbit Care Tips",
+    "empty_state": "Enter rabbit details to calculate its needs",
+    "footer_note": "Estimated needs based on breed averages. Individual needs may vary.",
+    "howItWorks": {
+      "title": "How Rabbit Care Calculator Works",
+      "formula": "Daily needs based on body weight and size category",
+      "explanation": "This calculator determines optimal diet portions and housing requirements for rabbits based on their size, ensuring proper nutrition and living space.",
+      "steps": [
+        "Enter your rabbit's weight",
+        "Select their size category",
+        "View daily hay, pellet, and vegetable amounts",
+        "Check minimum hutch dimensions"
+      ]
+    },
+    "useCases": [
+      "Planning daily feeding amounts for rabbits",
+      "Selecting appropriate hutch or enclosure size",
+      "Ensuring balanced diet proportions",
+      "Budgeting for rabbit care supplies"
+    ],
+    "seoTips": [
+      "Hay should make up 80% of a rabbit's diet",
+      "Unlimited Timothy hay is essential",
+      "Pellets should be limited based on weight",
+      "Fresh vegetables provide necessary nutrients",
+      "Rabbits need more space than most people expect"
+    ],
+    "commonMistakes": [
+      "Overfeeding pellets relative to hay",
+      "Using too small of an enclosure",
+      "Not providing unlimited hay access",
+      "Feeding wrong vegetables (iceberg lettuce is harmful)"
+    ],
+    "faqs": [
+      {
+        "question": "How much hay should a rabbit eat?",
+        "answer": "Rabbits should have unlimited access to hay. They should eat a pile about the size of their body daily. Hay is essential for dental and digestive health."
+      },
+      {
+        "question": "How many pellets should a rabbit get?",
+        "answer": "Adult rabbits need about 1/4 cup of pellets per 2.5 kg of body weight daily. Young rabbits can have unlimited pellets until 6-7 months."
+      },
+      {
+        "question": "What size hutch does a rabbit need?",
+        "answer": "Minimum is 4x their body length when stretched out. Bigger is always better. Rabbits need room to hop, stretch, and stand on hind legs."
+      },
+      {
+        "question": "What vegetables can rabbits eat?",
+        "answer": "Leafy greens like romaine, cilantro, parsley, and herbs. Avoid iceberg lettuce and limit high-sugar vegetables like carrots."
+      },
+      {
+        "question": "Do rabbits need exercise outside their cage?",
+        "answer": "Yes! Rabbits need 3-4 hours of exercise outside their enclosure daily. A rabbit-proofed room or secure pen works well."
+      }
+    ]
+  },
+  "rabbit-care-calculator": {
+    "title": "Rabbit Care Calculator - Free Bunny Diet and Space Tool",
+    "description": "Calculate rabbit feeding and living space needs. Free online bunny care calculator for healthy pet rabbits.",
+    "tips": [
+      "Always provide fresh Timothy hay",
+      "Fresh water available at all times",
+      "Fresh leafy greens daily",
+      "Clean litter box daily",
+      "Annual vet checkup"
+    ],
+    "input_title": "Rabbit Care Calculator",
+    "rabbit_weight": "Rabbit Weight",
+    "kg": "kg",
+    "enter_weight": "Enter weight",
+    "rabbit_size": "Rabbit Size",
+    "size_small": "Small",
+    "size_medium": "Medium",
+    "size_large": "Large",
+    "calculate_btn": "Calculate Care",
+    "reset_btn": "Reset",
+    "results_title": "Rabbit Care Results",
+    "daily_diet": "Daily Diet",
+    "daily_hay": "Daily Hay",
+    "daily_pellets": "Daily Pellets",
+    "daily_veggies": "Daily Vegetables",
+    "hutch_size": "Hutch Size",
+    "hutch_length": "Length",
+    "hutch_width": "Width",
+    "hutch_height": "Height",
+    "cm": "cm",
+    "tips_title": "Rabbit Care Tips",
+    "empty_state": "Enter rabbit details to calculate its needs",
+    "footer_note": "Estimated needs based on breed averages. Individual needs may vary.",
+    "howItWorks": {
+      "title": "How Rabbit Care Calculator Works",
+      "formula": "Daily needs based on body weight and size category",
+      "explanation": "This calculator determines optimal diet portions and housing requirements for rabbits based on their size, ensuring proper nutrition and living space.",
+      "steps": [
+        "Enter your rabbit's weight",
+        "Select their size category",
+        "View daily hay, pellet, and vegetable amounts",
+        "Check minimum hutch dimensions"
+      ]
+    },
+    "useCases": [
+      "Planning daily feeding amounts for rabbits",
+      "Selecting appropriate hutch or enclosure size",
+      "Ensuring balanced diet proportions",
+      "Budgeting for rabbit care supplies"
+    ],
+    "seoTips": [
+      "Hay should make up 80% of a rabbit's diet",
+      "Unlimited Timothy hay is essential",
+      "Pellets should be limited based on weight",
+      "Fresh vegetables provide necessary nutrients",
+      "Rabbits need more space than most people expect"
+    ],
+    "commonMistakes": [
+      "Overfeeding pellets relative to hay",
+      "Using too small of an enclosure",
+      "Not providing unlimited hay access",
+      "Feeding wrong vegetables (iceberg lettuce is harmful)"
+    ],
+    "faqs": [
+      {
+        "question": "How much hay should a rabbit eat?",
+        "answer": "Unlimited! A rabbit should eat a pile of hay about their body size daily. Hay is essential for dental and digestive health."
+      },
+      {
+        "question": "How many pellets per day?",
+        "answer": "About 1/4 cup per 5 lbs of body weight for adult rabbits. Pellets should be high-fiber Timothy-based, not alfalfa (for adults)."
+      },
+      {
+        "question": "What size hutch does a rabbit need?",
+        "answer": "Minimum is 4x their body length when stretched out. Bigger is always better. Rabbits need room to hop, stretch, and stand on hind legs."
+      },
+      {
+        "question": "What vegetables can rabbits eat?",
+        "answer": "Leafy greens like romaine, cilantro, parsley, and herbs. Avoid iceberg lettuce and limit high-sugar vegetables like carrots."
+      },
+      {
+        "question": "Do rabbits need exercise outside their cage?",
+        "answer": "Yes! Rabbits need 3-4 hours of exercise outside their enclosure daily. A rabbit-proofed room or secure pen works well."
+      }
+    ]
+  },
+  "reptile_tank_calculator": {
+    "title": "Reptile Tank Calculator - Terrarium Size and Setup",
+    "description": "Calculate terrarium size for reptiles and amphibians. Free online tank calculator for snakes, lizards, and turtles.",
+    "tips": [
+      "Maintain temperature gradient in the tank",
+      "Monitor temperature and humidity daily",
+      "Clean tank weekly",
+      "Always provide fresh water",
+      "Replace UVB bulbs every 6-12 months"
+    ],
+    "substrate_bearded_dragon_en": "Reptile sand or tile",
+    "substrate_gecko_en": "Paper or reptile carpet",
+    "substrate_snake_en": "Aspen shavings",
+    "substrate_tortoise_en": "Soil and grass",
+    "substrate_iguana_en": "Reptile carpet",
+    "howItWorks": {
+      "title": "How Reptile Tank Calculator Works",
+      "formula": "Tank size = Species requirements + Adult size considerations",
+      "explanation": "This calculator recommends terrarium dimensions, heating, and humidity requirements based on reptile species, ensuring proper husbandry for your pet.",
+      "steps": [
+        "Select your reptile species",
+        "Enter the reptile's size or age",
+        "View recommended tank dimensions",
+        "Check temperature, humidity, and lighting requirements"
+      ]
+    },
+    "useCases": [
+      "Selecting appropriate enclosure size for new reptiles",
+      "Planning habitat upgrades as reptiles grow",
+      "Ensuring proper temperature gradients",
+      "Setting up correct lighting and humidity"
+    ],
+    "seoTips": [
+      "Always size tanks for adult size, not current size",
+      "Temperature gradients are essential for thermoregulation",
+      "UVB lighting is crucial for most species",
+      "Humidity requirements vary greatly by species",
+      "Ventilation is as important as heat and humidity"
+    ],
+    "commonMistakes": [
+      "Buying tanks for juvenile size instead of adult",
+      "Not providing a temperature gradient",
+      "Using wrong substrate for the species",
+      "Forgetting to replace UVB bulbs regularly"
+    ],
+    "faqs": [
+      {
+        "question": "How big should my reptile tank be?",
+        "answer": "Generally, the enclosure should be at least 1.5-2x the reptile's adult length. Arboreal species need height; terrestrial species need floor space."
+      },
+      {
+        "question": "Why do reptiles need a temperature gradient?",
+        "answer": "Reptiles are cold-blooded and regulate body temperature by moving between warm and cool areas. One end should be the basking spot, the other end cooler."
+      },
+      {
+        "question": "Do all reptiles need UVB lighting?",
+        "answer": "Most diurnal reptiles need UVB for vitamin D3 synthesis. Nocturnal species and some snakes may not require it, but it's rarely harmful."
+      },
+      {
+        "question": "How often should I replace UVB bulbs?",
+        "answer": "Every 6-12 months, even if they still produce light. UVB output decreases over time even when the bulb appears to work normally."
+      },
+      {
+        "question": "What substrate should I use?",
+        "answer": "This depends on species. Arid species may use sand or tile, tropical species need moisture-retaining substrate. Avoid cedar and pine shavings for all reptiles."
+      }
+    ]
+  },
+  "reptile-tank-calculator": {
+    "title": "Reptile Tank Calculator - Terrarium Size and Setup",
+    "description": "Calculate terrarium size for reptiles and amphibians. Free online tank calculator for snakes, lizards, and turtles.",
+    "tips": [
+      "Maintain temperature gradient in the tank",
+      "Monitor temperature and humidity daily",
+      "Clean tank weekly",
+      "Always provide fresh water",
+      "Replace UVB bulbs every 6-12 months"
+    ],
+    "substrate_bearded_dragon_en": "Reptile sand or tile",
+    "substrate_gecko_en": "Paper or reptile carpet",
+    "substrate_snake_en": "Aspen shavings",
+    "substrate_tortoise_en": "Soil and grass",
+    "substrate_iguana_en": "Reptile carpet",
+    "howItWorks": {
+      "title": "How Reptile Tank Calculator Works",
+      "formula": "Tank size = Species requirements + Adult size considerations",
+      "explanation": "This calculator recommends terrarium dimensions, heating, and humidity requirements based on reptile species, ensuring proper husbandry for your pet.",
+      "steps": [
+        "Select your reptile species",
+        "Enter the reptile's size or age",
+        "View recommended tank dimensions",
+        "Check temperature, humidity, and lighting requirements"
+      ]
+    },
+    "useCases": [
+      "Selecting appropriate enclosure size for new reptiles",
+      "Planning habitat upgrades as reptiles grow",
+      "Ensuring proper temperature gradients",
+      "Setting up correct lighting and humidity"
+    ],
+    "seoTips": [
+      "Always size tanks for adult size, not current size",
+      "Temperature gradients are essential for thermoregulation",
+      "UVB lighting is crucial for most species",
+      "Humidity requirements vary greatly by species",
+      "Ventilation is as important as heat and humidity"
+    ],
+    "commonMistakes": [
+      "Buying tanks for juvenile size instead of adult",
+      "Not providing a temperature gradient",
+      "Using wrong substrate for the species",
+      "Forgetting to replace UVB bulbs regularly"
+    ],
+    "faqs": [
+      {
+        "question": "How big should my reptile tank be?",
+        "answer": "Generally, the enclosure should be at least 1.5-2x the reptile's adult length. Arboreal species need height; terrestrial species need floor space."
+      },
+      {
+        "question": "Why is a temperature gradient important?",
+        "answer": "Reptiles are cold-blooded and need a warm basking spot and cooler area to regulate body temperature. The gradient allows them to thermoregulate."
+      },
+      {
+        "question": "Do all reptiles need UVB lighting?",
+        "answer": "Most do, especially diurnal species. UVB is essential for vitamin D3 synthesis and calcium absorption. Some nocturnal species may not require it."
+      },
+      {
+        "question": "What humidity level do reptiles need?",
+        "answer": "It varies greatly. Desert species: 20-40%. Tropical species: 60-80%+. Research your specific species requirements carefully."
+      },
+      {
+        "question": "How often should I clean the tank?",
+        "answer": "Spot clean daily (remove waste and uneaten food). Deep clean monthly, disinfecting surfaces and replacing substrate as needed."
+      }
+    ]
+  }
+}

@@ -1,0 +1,656 @@
+/**
+ * RTL Utilities CSS
+ * Additional helper classes for RTL/LTR support across Alathasiba calculators
+ *
+ * This file provides utility classes that can be used in addition to the
+ * main index.css styles for specific RTL/LTR scenarios.
+ *
+ * @version 1.0.0
+ * @author Alathasiba Development Team
+ */
+
+/* ============================================================================
+   RTL/LTR Direction Utilities
+   ============================================================================ */
+
+/* Force RTL direction */
+.dir-rtl {
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+/* Force LTR direction */
+.dir-ltr {
+  direction: ltr !important;
+  text-align: left !important;
+}
+
+/* Auto direction based on content */
+.dir-auto {
+  direction: auto !important;
+}
+
+/* ============================================================================
+   Text Alignment Utilities
+   ============================================================================ */
+
+/* RTL-aware text alignment */
+.text-start-rtl {
+  text-align: right;
+}
+
+.text-end-rtl {
+  text-align: left;
+}
+
+/* LTR override in RTL context */
+.text-start-ltr {
+  text-align: left !important;
+}
+
+.text-end-ltr {
+  text-align: right !important;
+}
+
+/* Center alignment (works in both) */
+.text-center-both {
+  text-align: center !important;
+}
+
+/* ============================================================================
+   Margin and Padding Utilities (RTL-aware)
+   ============================================================================ */
+
+/* Margin start (right in RTL, left in LTR) */
+.ms-1 { margin-inline-start: 0.25rem; }
+.ms-2 { margin-inline-start: 0.5rem; }
+.ms-3 { margin-inline-start: 0.75rem; }
+.ms-4 { margin-inline-start: 1rem; }
+.ms-5 { margin-inline-start: 1.25rem; }
+.ms-6 { margin-inline-start: 1.5rem; }
+.ms-8 { margin-inline-start: 2rem; }
+
+/* Margin end (left in RTL, right in LTR) */
+.me-1 { margin-inline-end: 0.25rem; }
+.me-2 { margin-inline-end: 0.5rem; }
+.me-3 { margin-inline-end: 0.75rem; }
+.me-4 { margin-inline-end: 1rem; }
+.me-5 { margin-inline-end: 1.25rem; }
+.me-6 { margin-inline-end: 1.5rem; }
+.me-8 { margin-inline-end: 2rem; }
+
+/* Padding start (right in RTL, left in LTR) */
+.ps-1 { padding-inline-start: 0.25rem; }
+.ps-2 { padding-inline-start: 0.5rem; }
+.ps-3 { padding-inline-start: 0.75rem; }
+.ps-4 { padding-inline-start: 1rem; }
+.ps-5 { padding-inline-start: 1.25rem; }
+.ps-6 { padding-inline-start: 1.5rem; }
+.ps-8 { padding-inline-start: 2rem; }
+
+/* Padding end (left in RTL, right in LTR) */
+.pe-1 { padding-inline-end: 0.25rem; }
+.pe-2 { padding-inline-end: 0.5rem; }
+.pe-3 { padding-inline-end: 0.75rem; }
+.pe-4 { padding-inline-end: 1rem; }
+.pe-5 { padding-inline-end: 1.25rem; }
+.pe-6 { padding-inline-end: 1.5rem; }
+.pe-8 { padding-inline-end: 2rem; }
+
+/* ============================================================================
+   Date Input RTL Enhancement
+   ============================================================================ */
+
+/* Enhanced date input for RTL */
+.date-input-rtl-enhanced {
+  direction: rtl !important;
+  text-align: right !important;
+  position: relative !important;
+  padding-left: 35px !important;
+  padding-right: 12px !important;
+  font-family: 'IBM Plex Sans Arabic', sans-serif !important;
+}
+
+/* Calendar icon positioning for RTL date inputs */
+.date-input-rtl-enhanced::-webkit-calendar-picker-indicator {
+  position: absolute !important;
+  left: 8px !important;
+  right: auto !important;
+  cursor: pointer !important;
+  padding: 4px !important;
+}
+
+.date-input-rtl-enhanced::-moz-calendar-picker-indicator {
+  position: absolute !important;
+  left: 8px !important;
+  right: auto !important;
+  cursor: pointer !important;
+  padding: 4px !important;
+}
+
+/* Date input wrapper for better control */
+.date-wrapper-rtl {
+  position: relative;
+  width: 100%;
+  display: block;
+}
+
+.date-wrapper-rtl input[type="date"] {
+  width: 100%;
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+/* ============================================================================
+   Number Input LTR in RTL Context
+   ============================================================================ */
+
+/* Number inputs should remain LTR even in RTL context */
+.number-input-ltr {
+  direction: ltr !important;
+  text-align: left !important; /* Left-aligned for LTR direction */
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+}
+
+/* Number inputs in RTL context - align right but keep LTR direction */
+html[dir="rtl"] .number-input-ltr {
+  text-align: right !important;
+}
+
+/* Number display in RTL context */
+.number-display-rtl {
+  direction: ltr !important;
+  display: inline-block;
+  unicode-bidi: embed;
+}
+
+/* Currency input special handling */
+.currency-input-rtl {
+  direction: ltr !important;
+  text-align: left !important;
+}
+
+/* Currency inputs in RTL context - align right but keep LTR direction */
+html[dir="rtl"] .currency-input-rtl {
+  text-align: right !important;
+}
+
+.currency-symbol-rtl {
+  margin-inline-start: 0.5rem;
+}
+
+/* ============================================================================
+   Icon Flipping and Mirroring
+   ============================================================================ */
+
+/* Flip icons horizontally for RTL */
+.flip-horizontal {
+  transform: scaleX(-1);
+}
+
+/* Icons that should flip in RTL */
+.icon-arrow-rtl {
+  transform: scaleX(-1);
+  display: inline-block;
+}
+
+/* Icons that should NOT flip in RTL */
+.icon-no-flip {
+  transform: none !important;
+}
+
+/* Directional chevrons */
+.chevron-next-rtl {
+  transform: scaleX(-1);
+}
+
+.chevron-prev-rtl {
+  transform: scaleX(-1);
+}
+
+/* ============================================================================
+   Flexbox RTL Utilities
+   ============================================================================ */
+
+/* Reverse flex direction for RTL */
+.flex-row-rtl {
+  flex-direction: row-reverse;
+}
+
+/* Flex start/end RTL-aware */
+.flex-start-rtl {
+  justify-content: flex-end;
+}
+
+.flex-end-rtl {
+  justify-content: flex-start;
+}
+
+/* ============================================================================
+   Grid RTL Utilities
+   ============================================================================ */
+
+/* Grid auto-flow for RTL */
+.grid-rtl {
+  direction: rtl;
+}
+
+.grid-ltr {
+  direction: ltr;
+}
+
+/* ============================================================================
+   Border Utilities (RTL-aware)
+   ============================================================================ */
+
+/* Border start (right in RTL) */
+.border-start {
+  border-inline-start: 1px solid var(--color-border);
+}
+
+.border-start-2 {
+  border-inline-start: 2px solid var(--color-border);
+}
+
+/* Border end (left in RTL) */
+.border-end {
+  border-inline-end: 1px solid var(--color-border);
+}
+
+.border-end-2 {
+  border-inline-end: 2px solid var(--color-border);
+}
+
+/* ============================================================================
+   Position Utilities (RTL-aware)
+   ============================================================================ */
+
+/* Logical positioning */
+.inset-start-0 {
+  inset-inline-start: 0;
+}
+
+.inset-end-0 {
+  inset-inline-end: 0;
+}
+
+/* Start position (right in RTL) */
+.start-0 { inset-inline-start: 0; }
+.start-1 { inset-inline-start: 0.25rem; }
+.start-2 { inset-inline-start: 0.5rem; }
+.start-4 { inset-inline-start: 1rem; }
+
+/* End position (left in RTL) */
+.end-0 { inset-inline-end: 0; }
+.end-1 { inset-inline-end: 0.25rem; }
+.end-2 { inset-inline-end: 0.5rem; }
+.end-4 { inset-inline-end: 1rem; }
+
+/* ============================================================================
+   Form Elements RTL Enhancement
+   ============================================================================ */
+
+/* Select dropdown RTL */
+.select-rtl {
+  background-position: left 0.75rem center;
+  padding-left: 2.5rem;
+  padding-right: 0.75rem;
+}
+
+/* Checkbox RTL alignment */
+.checkbox-rtl {
+  margin-inline-end: 0.5rem;
+  margin-inline-start: 0;
+}
+
+/* Radio button RTL alignment */
+.radio-rtl {
+  margin-inline-end: 0.5rem;
+  margin-inline-start: 0;
+}
+
+/* Input with icon RTL */
+.input-with-icon-rtl {
+  padding-inline-start: 2.5rem;
+  padding-inline-end: 0.75rem;
+}
+
+.input-icon-rtl {
+  position: absolute;
+  inset-inline-start: 0.75rem;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* ============================================================================
+   Table RTL Support
+   ============================================================================ */
+
+/* Table RTL alignment */
+.table-rtl {
+  direction: rtl;
+}
+
+.table-rtl th,
+.table-rtl td {
+  text-align: right;
+}
+
+/* First column in RTL table */
+.table-rtl th:first-child,
+.table-rtl td:first-child {
+  text-align: right;
+  padding-inline-end: 1rem;
+}
+
+/* Last column in RTL table */
+.table-rtl th:last-child,
+.table-rtl td:last-child {
+  text-align: left;
+  padding-inline-start: 1rem;
+}
+
+/* ============================================================================
+   Calculator-Specific RTL Classes
+   ============================================================================ */
+
+/* Calculator result display */
+.calculator-result-rtl {
+  direction: ltr;
+  text-align: right;
+  font-family: 'IBM Plex Sans Arabic', sans-serif;
+  display: inline-block;
+}
+
+/* Calculator label RTL */
+.calculator-label-rtl {
+  text-align: right;
+  direction: rtl;
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Calculator input group RTL */
+.input-group-rtl {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 0.5rem;
+}
+
+/* Calculator button group RTL */
+.button-group-rtl {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 0.5rem;
+}
+
+/* ============================================================================
+   Badge and Tag RTL
+   ============================================================================ */
+
+/* Badge positioning in RTL */
+.badge-start-rtl {
+  position: absolute;
+  inset-inline-start: 0;
+  top: 0;
+}
+
+.badge-end-rtl {
+  position: absolute;
+  inset-inline-end: 0;
+  top: 0;
+}
+
+/* ============================================================================
+   Tooltip RTL
+   ============================================================================ */
+
+/* Tooltip arrow positioning for RTL */
+.tooltip-rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.tooltip-arrow-start {
+  left: auto;
+  right: 10px;
+}
+
+.tooltip-arrow-end {
+  right: auto;
+  left: 10px;
+}
+
+/* ============================================================================
+   Animation RTL Support
+   ============================================================================ */
+
+/* Slide in from start (right in RTL) */
+@keyframes slideInFromStart {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+/* Slide in from end (left in RTL) */
+@keyframes slideInFromEnd {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+.animate-slide-in-start {
+  animation: slideInFromStart 0.3s ease-out;
+}
+
+.animate-slide-in-end {
+  animation: slideInFromEnd 0.3s ease-out;
+}
+
+/* ============================================================================
+   Print Styles RTL
+   ============================================================================ */
+
+@media print {
+  .print-rtl {
+    direction: rtl !important;
+    text-align: right !important;
+  }
+
+  .print-ltr {
+    direction: ltr !important;
+    text-align: left !important;
+  }
+
+  /* Hide direction toggle in print */
+  .direction-toggle {
+    display: none !important;
+  }
+}
+
+/* ============================================================================
+   Responsive RTL Utilities
+   ============================================================================ */
+
+/* Mobile-specific RTL adjustments */
+@media (max-width: 640px) {
+  .mobile-text-center-rtl {
+    text-align: center !important;
+  }
+
+  .mobile-flex-col-rtl {
+    flex-direction: column !important;
+  }
+
+  .mobile-padding-inline-4 {
+    padding-inline: 1rem;
+  }
+}
+
+/* Tablet-specific RTL adjustments */
+@media (min-width: 641px) and (max-width: 1024px) {
+  .tablet-text-start-rtl {
+    text-align: right;
+  }
+}
+
+/* Desktop-specific RTL adjustments */
+@media (min-width: 1025px) {
+  .desktop-grid-rtl {
+    direction: rtl;
+  }
+}
+
+/* ============================================================================
+   Accessibility RTL
+   ============================================================================ */
+
+/* Screen reader only - RTL aware */
+.sr-only-rtl {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+  direction: rtl;
+}
+
+/* Focus visible RTL */
+.focus-visible-rtl:focus-visible {
+  outline: 2px solid var(--color-primary);
+  outline-offset: 2px;
+  border-radius: 0.375rem;
+}
+
+/* ============================================================================
+   List RTL Support
+   ============================================================================ */
+
+/* Ordered list RTL */
+.list-rtl {
+  padding-inline-start: 0;
+  padding-inline-end: 2rem;
+}
+
+.list-rtl li {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Unordered list RTL */
+.list-disc-rtl {
+  list-style-position: inside;
+  direction: rtl;
+  text-align: right;
+}
+
+.list-disc-rtl li::marker {
+  unicode-bidi: isolate;
+}
+
+/* ============================================================================
+   Modal and Dialog RTL
+   ============================================================================ */
+
+/* Modal content RTL */
+.modal-rtl {
+  direction: rtl;
+  text-align: right;
+}
+
+.modal-rtl .modal-close {
+  inset-inline-start: 1rem;
+  inset-inline-end: auto;
+}
+
+/* Dialog RTL */
+.dialog-rtl {
+  direction: rtl;
+}
+
+.dialog-rtl .dialog-title {
+  text-align: right;
+}
+
+/* ============================================================================
+   Breadcrumb RTL
+   ============================================================================ */
+
+/* Breadcrumb navigation RTL */
+.breadcrumb-rtl {
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 0.5rem;
+}
+
+.breadcrumb-rtl .separator {
+  transform: scaleX(-1);
+}
+
+/* ============================================================================
+   Card RTL
+   ============================================================================ */
+
+/* Card header RTL */
+.card-header-rtl {
+  text-align: right;
+  direction: rtl;
+}
+
+/* Card actions RTL */
+.card-actions-rtl {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0.5rem;
+}
+
+/* ============================================================================
+   Utility Classes for Testing
+   ============================================================================ */
+
+/* Visual debugging for RTL issues */
+.debug-rtl {
+  outline: 2px dashed blue;
+}
+
+.debug-ltr {
+  outline: 2px dashed green;
+}
+
+.debug-direction {
+  position: relative;
+}
+
+.debug-direction::after {
+  content: 'RTL';
+  position: absolute;
+  top: -1.5rem;
+  inset-inline-start: 0;
+  background: rgba(0, 0, 255, 0.2);
+  padding: 0.25rem 0.5rem;
+  font-size: 0.75rem;
+  font-weight: bold;
+}
+
+[dir="ltr"] .debug-direction::after {
+  content: 'LTR';
+  background: rgba(0, 255, 0, 0.2);
+}
+
+/* ============================================================================
+   End of RTL Utilities
+   ============================================================================ */

@@ -1,0 +1,1202 @@
+{
+    "islamic-inheritance": {
+        "title": "Islamic Inheritance Calculator",
+        "description": "Calculate estate distribution among heirs according to Sharia law.",
+        "howItWorks": {
+            "title": "How the Islamic Inheritance Calculator Works",
+            "formula": "Inheritance = (Estate - Debts - Bequest) x Heir's Legal Share",
+            "explanation": "The Islamic Inheritance Calculator follows Sharia law derived from the Quran and Sunnah. The estate is distributed after settling debts and executing the bequest (maximum one-third) among heirs according to their prescribed shares.",
+            "steps": [
+                "Determine the total estate value (assets and properties)",
+                "Deduct debts and funeral expenses",
+                "Execute the bequest if any (maximum one-third of estate)",
+                "Identify eligible heirs and their legal shares",
+                "Distribute the net estate according to fixed shares and residuary rules"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Deceased's Estate Distribution",
+                "description": "Calculate heirs' shares from a deceased person's estate according to Islamic law accurately and fairly"
+            },
+            {
+                "title": "Future Financial Planning",
+                "description": "Understand how assets will be distributed among heirs for proper financial planning"
+            },
+            {
+                "title": "Resolving Family Disputes",
+                "description": "Provide accurate Sharia-compliant calculations to help resolve inheritance disagreements"
+            },
+            {
+                "title": "Education and Awareness",
+                "description": "Learn Islamic inheritance rules and understand how estates are distributed"
+            }
+        ],
+        "seoTips": [
+            "Enter only living eligible heirs for accurate results",
+            "Ensure all debts are deducted before distributing the estate",
+            "Bequest cannot exceed one-third of the estate under Sharia law",
+            "Consult a qualified scholar for complex cases",
+            "Keep written records of all assets and debts"
+        ],
+        "commonMistakes": [
+            {
+                "title": "Ignoring Debts",
+                "description": "Not deducting the deceased's debts before distribution; debt settlement takes priority over inheritance"
+            },
+            {
+                "title": "Exceeding Bequest Limit",
+                "description": "Writing a bequest exceeding one-third of the estate, which is the maximum allowed under Sharia"
+            },
+            {
+                "title": "Omitting Some Heirs",
+                "description": "Forgetting to include eligible heirs which affects the accuracy of distribution"
+            },
+            {
+                "title": "Confusing Sibling Types",
+                "description": "Not distinguishing between full siblings, paternal siblings, and maternal siblings; each has different inheritance rules"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is the wife's share in inheritance?",
+                "answer": "The wife receives one-quarter if the deceased has no children or grandchildren, and one-eighth if there are descendants."
+            },
+            {
+                "question": "How is inheritance divided between sons and daughters?",
+                "answer": "Sons and daughters inherit as residuary heirs, with males receiving twice the share of females, as stated in the Quran."
+            },
+            {
+                "question": "Do grandchildren inherit when children exist?",
+                "answer": "Grandsons through sons do not inherit when a son exists, as the son blocks them completely."
+            },
+            {
+                "question": "What is the difference between fixed shares and residuary?",
+                "answer": "Fixed shares are specific fractions mentioned in the Quran (1/2, 1/4, 1/8, 2/3, 1/3, 1/6), while residuary heirs receive whatever remains after fixed shares are distributed."
+            },
+            {
+                "question": "Can an heir be deprived of their share?",
+                "answer": "It is not permissible under Islamic law to deprive any heir of their rightful share as prescribed by Sharia."
+            }
+        ]
+    },
+    "compound-interest": {
+        "title": "Compound Interest Calculator",
+        "description": "Calculate compound interest on your investments and savings.",
+        "howItWorks": {
+            "title": "How the Compound Interest Calculator Works",
+            "formula": "A = P(1 + r/n)^(nt)",
+            "explanation": "Compound interest is calculated on both the principal amount and the accumulated interest from previous periods. This means your money grows faster over time because interest is added to the balance and begins earning interest itself.",
+            "steps": [
+                "Enter the principal amount (P) you want to invest",
+                "Specify the annual interest rate (r) as a percentage",
+                "Choose the compounding frequency per year (n)",
+                "Set the investment duration in years (t)",
+                "Calculate the final value using the formula"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Savings Accounts",
+                "description": "See how your savings will grow in a savings account over time"
+            },
+            {
+                "title": "Certificates of Deposit",
+                "description": "Calculate expected returns from CDs and fixed deposits"
+            },
+            {
+                "title": "Retirement Planning",
+                "description": "Estimate retirement fund size based on current savings"
+            },
+            {
+                "title": "Comparing Investment Options",
+                "description": "Compare different investment offers to choose the best one"
+            }
+        ],
+        "seoTips": [
+            "The more frequent the compounding, the higher the final return",
+            "Start investing early to maximize compound interest benefits",
+            "Reinvest earnings to maximize returns",
+            "Compare effective interest rates, not just nominal rates",
+            "Use the Rule of 72 to estimate how long it takes to double your money"
+        ],
+        "commonMistakes": [
+            {
+                "title": "Confusing Simple and Compound Interest",
+                "description": "Simple interest is calculated on the principal only, while compound interest is calculated on the accumulated balance"
+            },
+            {
+                "title": "Ignoring Inflation",
+                "description": "Not accounting for inflation which reduces the real value of returns"
+            },
+            {
+                "title": "Overlooking Fees and Taxes",
+                "description": "Forgetting to deduct management fees and taxes from expected returns"
+            },
+            {
+                "title": "Overestimating Returns",
+                "description": "Using unrealistic return rates when planning financially"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is the difference between compound and simple interest?",
+                "answer": "Simple interest is calculated on the principal only, while compound interest is calculated on the principal plus accumulated interest, leading to faster growth."
+            },
+            {
+                "question": "What is the Rule of 72?",
+                "answer": "The Rule of 72 is a quick method to estimate how long it takes to double your money. Divide 72 by the interest rate to get the number of years. Example: 72 / 6% = 12 years."
+            },
+            {
+                "question": "Is monthly compounding better than annual?",
+                "answer": "Yes, the more frequent the compounding (monthly, daily), the higher the effective return because interest is added to the balance faster and starts earning interest sooner."
+            },
+            {
+                "question": "How do I calculate the effective annual rate?",
+                "answer": "Effective annual rate = (1 + r/n)^n - 1, where r is the nominal rate and n is the number of compounding periods per year."
+            },
+            {
+                "question": "When should I start investing for the best returns?",
+                "answer": "The earlier you start, the better. Time is the most important factor in compound interest; a small amount invested for a long period can outperform a large amount invested for a short period."
+            }
+        ]
+    },
+    "zakat-calculator": {
+        "title": "Zakat Calculator",
+        "description": "Calculate Zakat on money, gold, and silver accurately according to Islamic law.",
+        "howItWorks": {
+            "title": "How the Zakat Calculator Works",
+            "formula": "Zakat = Zakatable Wealth x 2.5%",
+            "explanation": "Zakat is one of the five pillars of Islam, obligatory for every Muslim who owns wealth above the Nisab threshold for a full lunar year (Hawl). The Zakat rate is 2.5% of total zakatable wealth.",
+            "steps": [
+                "Identify all zakatable assets (cash, gold, silver, trade goods)",
+                "Verify the Nisab threshold is met (85 grams of gold or equivalent)",
+                "Confirm a full lunar year has passed (Hawl)",
+                "Deduct any outstanding debts",
+                "Calculate 2.5% of net zakatable wealth"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Cash Zakat",
+                "description": "Calculate Zakat on bank accounts and cash savings"
+            },
+            {
+                "title": "Gold and Silver Zakat",
+                "description": "Calculate Zakat on jewelry, gold bars, and silver items"
+            },
+            {
+                "title": "Trade Goods Zakat",
+                "description": "Calculate Zakat on merchandise and business inventory"
+            },
+            {
+                "title": "Investment Zakat",
+                "description": "Calculate Zakat on stocks and investment funds"
+            }
+        ],
+        "seoTips": [
+            "Calculate your Zakat on the same date each lunar year",
+            "Keep records of all zakatable assets throughout the year",
+            "Use current gold prices to calculate the Nisab value",
+            "Don't forget Zakat on gold kept for savings, not just jewelry for adornment",
+            "Distribute your Zakat among the eight categories mentioned in the Quran"
+        ],
+        "commonMistakes": [
+            {
+                "title": "Ignoring Saved Gold",
+                "description": "Believing that gold worn as jewelry is exempt from Zakat; this is a matter of scholarly debate"
+            },
+            {
+                "title": "Incorrect Hawl Calculation",
+                "description": "Calculating Zakat before a complete lunar year has passed"
+            },
+            {
+                "title": "Forgetting Some Assets",
+                "description": "Overlooking deposits, stocks, or money lent to others"
+            },
+            {
+                "title": "Confusing Nisab Standards",
+                "description": "Using silver Nisab instead of gold; the correct approach uses whichever benefits the poor more"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is the Nisab for Zakat?",
+                "answer": "Nisab is the minimum wealth threshold for Zakat obligation, equivalent to 85 grams of gold or 595 grams of silver. Nisab is calculated using current market gold prices."
+            },
+            {
+                "question": "Is Zakat due on monthly salary?",
+                "answer": "Salary that is spent with nothing remaining is not subject to Zakat. However, savings from salary that reach Nisab and complete a lunar year are subject to Zakat."
+            },
+            {
+                "question": "How do I calculate Zakat on gold?",
+                "answer": "Gold Zakat = Weight in grams x Current price per gram x 2.5%. The gold must weigh at least 85 grams and a full lunar year must have passed."
+            },
+            {
+                "question": "Does debt cancel Zakat obligation?",
+                "answer": "Outstanding debts can be deducted from zakatable wealth before calculation, though scholars differ on this. The safer approach is to pay Zakat first, then settle debts."
+            },
+            {
+                "question": "What are the categories for Zakat distribution?",
+                "answer": "Zakat has eight categories: the poor, the needy, Zakat administrators, those whose hearts are to be reconciled, freeing slaves, debtors, in the cause of Allah, and travelers in need."
+            }
+        ]
+    },
+    "loan-calculator": {
+        "title": "Loan Calculator",
+        "description": "Calculate monthly payments and total interest for your loans.",
+        "howItWorks": {
+            "title": "How the Loan Calculator Works",
+            "formula": "Monthly Payment = P x [r(1+r)^n] / [(1+r)^n - 1]",
+            "explanation": "The loan calculator uses the fixed payment amortization formula to calculate monthly payments. This formula ensures equal payments throughout the loan term, with each payment's distribution between interest and principal changing over time.",
+            "steps": [
+                "Enter the original loan amount (P)",
+                "Specify the annual interest rate and divide by 12 for monthly rate (r)",
+                "Set the loan term and convert to months (n)",
+                "Apply the formula to calculate monthly payment",
+                "Calculate total interest = (Payment x Number of months) - Principal"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Auto Loans",
+                "description": "Calculate monthly payments for financing a new or used vehicle"
+            },
+            {
+                "title": "Personal Loans",
+                "description": "Estimate personal loan costs and compare different offers"
+            },
+            {
+                "title": "Business Loans",
+                "description": "Calculate payments for small and medium business financing"
+            },
+            {
+                "title": "Refinancing",
+                "description": "Compare current loan with refinancing offers to save money"
+            }
+        ],
+        "seoTips": [
+            "Compare multiple lenders to get the best interest rate",
+            "Choose the shortest term you can afford to reduce total interest",
+            "Make a larger down payment to reduce the loan amount",
+            "Ask about early repayment penalties before signing",
+            "Calculate your debt-to-income ratio before borrowing"
+        ],
+        "commonMistakes": [
+            {
+                "title": "Focusing Only on Monthly Payment",
+                "description": "Looking at the monthly payment without considering total interest paid over the loan's lifetime"
+            },
+            {
+                "title": "Ignoring Additional Fees",
+                "description": "Not accounting for processing fees, insurance, and administrative charges in total loan cost"
+            },
+            {
+                "title": "Choosing Too Long a Term",
+                "description": "Extending the loan term to lower payments, which significantly increases total interest"
+            },
+            {
+                "title": "Not Reading Terms",
+                "description": "Signing without understanding variable rate terms or early repayment penalties"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How is the monthly loan payment calculated?",
+                "answer": "Monthly payment is calculated using the formula: M = P x [r(1+r)^n] / [(1+r)^n - 1], where P is the principal amount, r is the monthly interest rate (annual rate / 12), and n is the number of monthly payments. This formula ensures equal payments throughout the loan term."
+            },
+            {
+                "question": "What is loan amortization?",
+                "answer": "Loan amortization is the process of paying off a loan through regular payments over time. Each payment covers both interest and principal. In the early stages, a larger portion goes toward interest, while later payments primarily reduce the principal balance."
+            },
+            {
+                "question": "How can I reduce the total interest paid on a loan?",
+                "answer": "To reduce total interest: 1) Make a larger down payment, 2) Choose a shorter loan term, 3) Make extra payments toward the principal, 4) Refinance to a lower interest rate, or 5) Make bi-weekly instead of monthly payments, which results in one extra payment per year."
+            },
+            {
+                "question": "What is the difference between fixed and variable interest?",
+                "answer": "Fixed interest stays the same throughout the loan term, providing stable payments. Variable interest changes based on market rates, potentially decreasing or increasing, which changes payment amounts."
+            },
+            {
+                "question": "Is early loan repayment always beneficial?",
+                "answer": "Usually yes, as it saves remaining interest. However, ensure there's no early repayment penalty and that you have an adequate emergency fund before directing money to loan repayment."
+            }
+        ]
+    },
+    "loan-amortization-calculator": {
+        "title": "Loan Amortization Calculator",
+        "description": "Create a detailed payment schedule for your loan.",
+        "howItWorks": {
+            "title": "How the Loan Amortization Calculator Works",
+            "formula": "Monthly Interest = Remaining Balance x (Annual Interest Rate / 12)",
+            "explanation": "The amortization schedule details each monthly payment, showing how much goes to interest and how much reduces the principal. At the start of the loan, most of the payment goes to interest, then gradually shifts toward principal over time.",
+            "steps": [
+                "Specify loan amount, interest rate, and term",
+                "Calculate the fixed monthly payment",
+                "For each month: calculate interest on remaining balance",
+                "Subtract interest from payment to get principal portion",
+                "Subtract principal paid from balance to get new balance"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Budget Planning",
+                "description": "Understand payment distribution between principal and interest for better financial planning"
+            },
+            {
+                "title": "Evaluating Extra Payments",
+                "description": "See the impact of extra payments on reducing loan term and total interest"
+            },
+            {
+                "title": "Comparing Financing Options",
+                "description": "Compare amortization schedules of different loans to choose the best one"
+            },
+            {
+                "title": "Tax Planning",
+                "description": "Know annual interest amounts to benefit from tax deductions where applicable"
+            }
+        ],
+        "seoTips": [
+            "Review the amortization schedule before signing the loan",
+            "Notice how the interest-to-principal ratio changes over time",
+            "Use the schedule to plan extra payments strategically",
+            "Compare loans with same payment but different terms",
+            "Keep a copy of the amortization schedule to track your loan"
+        ],
+        "commonMistakes": [
+            {
+                "title": "Expecting Equal Principal Reduction",
+                "description": "Believing each payment reduces principal by the same amount; in reality, the principal portion increases gradually"
+            },
+            {
+                "title": "Ignoring Early Interest Impact",
+                "description": "Not realizing that most of the loan's interest is paid in the early years"
+            },
+            {
+                "title": "Not Updating the Schedule",
+                "description": "Forgetting to recalculate the schedule after making extra payments or changing loan terms"
+            },
+            {
+                "title": "Confusing Numbers",
+                "description": "Mixing up remaining balance with remaining total interest"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Why does most of the payment go to interest at the beginning?",
+                "answer": "Because interest is calculated on the remaining balance. At the start, the balance is high so interest is high. As principal is paid down, the balance decreases and interest decreases accordingly."
+            },
+            {
+                "question": "How does an extra payment affect the amortization schedule?",
+                "answer": "Extra payments go directly to reducing principal, which lowers interest on all future payments and shortens the loan term."
+            },
+            {
+                "question": "What is the difference between fixed and variable amortization?",
+                "answer": "In fixed amortization, the monthly payment is constant but its distribution changes. In variable amortization, the payment itself may change based on prevailing interest rates."
+            },
+            {
+                "question": "When is half the loan actually paid off?",
+                "answer": "Usually after more than half the term has passed, because early payments mostly go to interest. Paying off half the principal may take 60-70% of the loan term."
+            },
+            {
+                "question": "Can I get an amortization schedule from the bank?",
+                "answer": "Yes, you have the right to request a complete amortization schedule from the bank when applying for a loan. This helps you understand your financial obligations clearly."
+            }
+        ]
+    },
+    "investment-calculator": {
+        "title": "Investment Calculator",
+        "description": "Calculate investment returns and future value of your savings.",
+        "howItWorks": {
+            "title": "How the Investment Calculator Works",
+            "formula": "Future Value = P(1+r)^t + C x [((1+r)^t - 1) / r]",
+            "explanation": "This tool calculates your investment growth using compound interest, with the option to add periodic contributions. The formula combines the growth of initial capital with the growth of accumulated contributions.",
+            "steps": [
+                "Enter the initial investment amount (P)",
+                "Specify the periodic contribution (C) and its frequency",
+                "Enter the expected annual return rate (r)",
+                "Set the investment duration in years (t)",
+                "Calculate the future value and total return"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Retirement Planning",
+                "description": "Estimate retirement fund size based on savings and monthly contributions"
+            },
+            {
+                "title": "Saving for a Goal",
+                "description": "Calculate how much to save monthly to reach a specific financial goal"
+            },
+            {
+                "title": "Comparing Investment Strategies",
+                "description": "Compare different investment returns to choose the most suitable"
+            },
+            {
+                "title": "Education Funding",
+                "description": "Plan for children's future college education expenses"
+            }
+        ],
+        "seoTips": [
+            "Start investing early even with small amounts",
+            "Use realistic return rates (5-8% for diversified investments)",
+            "Don't forget to account for inflation in your projections",
+            "Automate contributions to ensure consistency",
+            "Review and adjust your investment plan annually"
+        ],
+        "commonMistakes": [
+            {
+                "title": "Overestimating Returns",
+                "description": "Using unrealistic return rates (like 15-20%) leading to false expectations"
+            },
+            {
+                "title": "Ignoring Inflation",
+                "description": "Not accounting for inflation's impact on future money's purchasing power"
+            },
+            {
+                "title": "Overlooking Fees",
+                "description": "Forgetting to deduct management fees and taxes from expected returns"
+            },
+            {
+                "title": "Lack of Diversification",
+                "description": "Putting all money in one investment instead of diversifying to reduce risk"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is a realistic return rate for investments?",
+                "answer": "Historically, the stock market returns 7-10% annually over the long term. Bonds return 3-5%, and savings accounts 1-3%. Use 6-7% as a conservative rate for planning."
+            },
+            {
+                "question": "What is the difference between nominal and real returns?",
+                "answer": "Nominal return is the stated percentage without inflation adjustment. Real return = Nominal return - Inflation rate. Example: 8% return - 3% inflation = 5% real return."
+            },
+            {
+                "question": "How much should I save monthly for retirement?",
+                "answer": "General rule: save 15-20% of your income for retirement. Use the calculator to determine the exact amount based on your current age and target retirement age."
+            },
+            {
+                "question": "Is it better to invest a lump sum or in installments?",
+                "answer": "Statistically, investing a lump sum immediately yields higher returns. However, investing in installments (dollar-cost averaging) reduces timing risk and suits most investors."
+            },
+            {
+                "question": "How do I calculate the amount needed to reach a specific goal?",
+                "answer": "Use the formula: Monthly contribution = Goal x [r / ((1+r)^n - 1)], where r is the monthly rate and n is the number of months. Or use the calculator by entering the goal and experimenting."
+            }
+        ]
+    },
+    "fuel-consumption-calculator": {
+        "title": "Fuel Consumption Calculator",
+        "description": "Calculate fuel consumption and efficiency for your vehicle.",
+        "howItWorks": {
+            "title": "How the Fuel Consumption Calculator Works",
+            "formula": "Consumption Rate = (Fuel Amount / Distance) x 100",
+            "explanation": "This tool calculates your vehicle's fuel consumption rate in liters per 100 kilometers or kilometers per liter. This helps you understand your car's efficiency and plan your fuel budget.",
+            "steps": [
+                "Fill the tank completely and record the odometer reading",
+                "Drive normally until you need to refuel",
+                "Fill the tank again and record the fuel amount added",
+                "Record the new odometer reading",
+                "Calculate distance traveled and divide fuel amount by it"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Fuel Budget Planning",
+                "description": "Estimate monthly fuel costs based on consumption rate"
+            },
+            {
+                "title": "Comparing Vehicles",
+                "description": "Compare fuel efficiency when buying a new car"
+            },
+            {
+                "title": "Monitoring Engine Health",
+                "description": "Detect engine problems by noticing increased fuel consumption"
+            },
+            {
+                "title": "Improving Driving Style",
+                "description": "Measure the impact of changing driving habits on fuel consumption"
+            }
+        ],
+        "seoTips": [
+            "Measure consumption over several fill-ups for an accurate average",
+            "Compare your consumption to the manufacturer's official rating",
+            "Track consumption regularly to notice any changes",
+            "Calculate consumption under different driving conditions (city/highway)",
+            "Use an app to track fuel consumption over time"
+        ],
+        "commonMistakes": [
+            {
+                "title": "Measuring After One Fill-Up",
+                "description": "Relying on a single measurement instead of averaging several fill-ups for accuracy"
+            },
+            {
+                "title": "Not Filling the Tank Completely",
+                "description": "Not topping off the tank when measuring, which affects calculation accuracy"
+            },
+            {
+                "title": "Ignoring Driving Conditions",
+                "description": "Comparing city driving consumption with highway driving without considering the difference"
+            },
+            {
+                "title": "Forgetting Weather Impact",
+                "description": "Not accounting for AC use and cold weather driving which increase consumption"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is normal fuel consumption?",
+                "answer": "It varies by vehicle type. Small cars: 5-7 L/100km, medium cars: 7-10 L/100km, large cars and SUVs: 10-15 L/100km."
+            },
+            {
+                "question": "How can I reduce fuel consumption?",
+                "answer": "Maintain proper tire pressure, avoid sudden acceleration and braking, turn off the engine during long waits, reduce AC use, and remove unnecessary loads."
+            },
+            {
+                "question": "Why is my consumption higher than the official rating?",
+                "answer": "Official ratings are measured under ideal conditions. Real-world driving includes traffic, AC, loads, and different driving styles. A 10-20% difference is normal."
+            },
+            {
+                "question": "Does driving slowly always save fuel?",
+                "answer": "Not necessarily. Optimal efficiency is usually at 60-90 km/h. Driving too slowly or too fast both increase consumption."
+            },
+            {
+                "question": "When does increased consumption indicate a problem?",
+                "answer": "If consumption suddenly increases by 15-20% or more without obvious cause, it may indicate engine or fuel system problems. Consult a mechanic."
+            }
+        ]
+    },
+    "travel-cost-calculator": {
+        "title": "Travel Cost Calculator",
+        "description": "Estimate transportation and trip expenses for your vacation.",
+        "howItWorks": {
+            "title": "How the Travel Cost Calculator Works",
+            "formula": "Total Cost = Transportation + Accommodation + Food + Activities + Other Expenses",
+            "explanation": "This calculator helps you estimate the complete cost of your trip by adding all expected expenses. You can adjust each item based on comfort level and trip duration.",
+            "steps": [
+                "Determine travel destination and trip duration",
+                "Calculate ticket costs or fuel for driving",
+                "Estimate accommodation costs (hotels, apartments, etc.)",
+                "Calculate daily food budget",
+                "Add activity costs and miscellaneous expenses"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Vacation Planning",
+                "description": "Estimate budget for family holidays or recreational travel"
+            },
+            {
+                "title": "Business Trips",
+                "description": "Calculate work travel costs and submit expense reports"
+            },
+            {
+                "title": "Comparing Destinations",
+                "description": "Compare travel costs for different destinations to choose the most budget-friendly"
+            },
+            {
+                "title": "Saving for Travel",
+                "description": "Know how much to save for a future trip"
+            }
+        ],
+        "seoTips": [
+            "Book early for the best prices",
+            "Add 10-15% contingency for unexpected expenses",
+            "Compare hotel prices on multiple websites",
+            "Use credit cards that offer travel rewards",
+            "Look for bundled flight and hotel deals"
+        ],
+        "commonMistakes": [
+            {
+                "title": "Forgetting Small Expenses",
+                "description": "Overlooking local transportation, tips, and snacks that add up"
+            },
+            {
+                "title": "Not Accounting for Currency",
+                "description": "Forgetting currency exchange fees and unfavorable exchange rates"
+            },
+            {
+                "title": "Underestimating Food Costs",
+                "description": "Undervaluing food expenses especially in expensive tourist destinations"
+            },
+            {
+                "title": "Overlooking Insurance",
+                "description": "Not accounting for travel insurance cost which can save a lot when needed"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How much daily budget do I need for travel?",
+                "answer": "It varies by destination. Budget destinations: $30-50/day, mid-range: $80-150/day, expensive: $200+/day. This includes accommodation, food, and transportation."
+            },
+            {
+                "question": "What is the largest portion of travel budget?",
+                "answer": "Usually accommodation (30-40%), then transportation/flights (25-35%), then food (15-25%), and the rest for activities and shopping."
+            },
+            {
+                "question": "How can I save on travel costs?",
+                "answer": "Travel off-peak season, use price comparison sites, stay in apartments instead of hotels, cook some meals, and use public transportation."
+            },
+            {
+                "question": "Do I need travel insurance?",
+                "answer": "Highly recommended especially for international travel. It covers cancellation, medical emergencies, lost luggage, and more. Cost is usually 4-8% of trip cost."
+            },
+            {
+                "question": "What is the best way to carry money when traveling?",
+                "answer": "A mix of: credit card with no foreign transaction fees, debit card for ATMs, and small cash amount. Avoid carrying large cash amounts and notify your bank of travel plans."
+            }
+        ]
+    },
+    "christian-tithe-calculator": {
+        "title": "Christian Tithe Calculator",
+        "description": "Calculate church donations based on your income.",
+        "howItWorks": {
+            "title": "How the Christian Tithe Calculator Works",
+            "formula": "Tithe = Income x 10%",
+            "explanation": "Tithing is giving 10% of income to the church or charitable works as mentioned in the Bible. It can be calculated from gross income (before taxes) or net income (after taxes) based on personal conviction.",
+            "steps": [
+                "Identify your income sources (salary, investments, etc.)",
+                "Choose to calculate from gross or net income",
+                "Calculate 10% of the chosen income",
+                "Distribute the tithe to church and charitable works",
+                "Record your donations for tracking"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Regular Giving Planning",
+                "description": "Calculate monthly tithe amount for consistent church giving"
+            },
+            {
+                "title": "Tithe from Diverse Income",
+                "description": "Calculate tithe when having multiple and varying income sources"
+            },
+            {
+                "title": "Financial Planning",
+                "description": "Include tithe in personal budget and financial planning"
+            },
+            {
+                "title": "Tracking Donations",
+                "description": "Monitor total annual donations for tax purposes"
+            }
+        ],
+        "seoTips": [
+            "Determine your tithe percentage in advance and make it a budget priority",
+            "Use automatic transfers to ensure consistency",
+            "Keep donation receipts for tax deductions",
+            "Start with a lower percentage if 10% is difficult and increase gradually",
+            "Remember that tithing includes time and talents as well"
+        ],
+        "commonMistakes": [
+            {
+                "title": "Confusing Gross and Net",
+                "description": "Lack of clarity on whether tithe is from income before or after taxes"
+            },
+            {
+                "title": "Forgetting Income Sources",
+                "description": "Calculating tithe from salary only while ignoring bonuses, gifts, and profits"
+            },
+            {
+                "title": "Repeated Postponement",
+                "description": "Delaying tithe payment with intention to make up later, causing accumulation"
+            },
+            {
+                "title": "Viewing It As Obligation Only",
+                "description": "Seeing tithe as a heavy duty instead of an opportunity for giving and blessing"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "Should tithe be from gross or net income?",
+                "answer": "Both options are acceptable. Some prefer gross (before taxes) as giving the best to God, others choose net. The decision is personal based on conviction and ability."
+            },
+            {
+                "question": "Is tithing mandatory for Christians?",
+                "answer": "Opinions differ among denominations. Some view it as a binding biblical principle, others see it as guidance for generous giving. The important thing is giving joyfully and generously."
+            },
+            {
+                "question": "Where should I give my tithe?",
+                "answer": "Traditionally given to the local church. Some divide it between church, charitable organizations, and those in need. The important thing is that it goes to God's work and serving others."
+            },
+            {
+                "question": "What if I cannot give the full 10%?",
+                "answer": "Start with what you can give joyfully and faithfully. God looks at the heart, not the amount. You can start with a lower percentage and increase gradually as your financial situation improves."
+            },
+            {
+                "question": "Do non-monetary donations count?",
+                "answer": "Giving includes time, talents, and service as well. However, financial tithing has special importance in supporting the church and its ministries. Both complement each other."
+            }
+        ]
+    },
+    "inheritance-calculator": {
+        "title": "Inheritance Calculator",
+        "description": "Calculate inheritance distribution according to Islamic law (Sharia).",
+        "tabs": {
+            "heirs": "Select Heirs",
+            "assets": "Assets & Debts",
+            "results": "Calculate Shares"
+        },
+        "heirs_selection_title": "Heirs Selection",
+        "results_title": "Calculation Results",
+        "heirs": {
+            "husband": "Husband",
+            "wife": "Wife",
+            "son": "Son",
+            "daughter": "Daughter",
+            "grandson": "Grandson",
+            "granddaughter": "Granddaughter",
+            "father": "Father",
+            "mother": "Mother",
+            "grandfather": "Grandfather",
+            "grandmother_paternal": "Paternal Grandmother",
+            "grandmother_maternal": "Maternal Grandmother",
+            "brother": "Full Brother",
+            "sister": "Full Sister",
+            "brother_paternal": "Paternal Brother",
+            "sister_paternal": "Paternal Sister",
+            "brother_maternal": "Maternal Brother",
+            "sister_maternal": "Maternal Sister",
+            "nephew": "Full Brother's Son",
+            "paternal_nephew": "Paternal Brother's Son",
+            "uncle": "Full Uncle",
+            "paternal_uncle": "Paternal Uncle",
+            "cousin": "Full Uncle's Son",
+            "paternal_cousin": "Paternal Uncle's Son",
+            "grandmother": "Grandmother (Paternal or Maternal)"
+        },
+        "shares": {
+            "half": "Half (1/2)",
+            "quarter": "Quarter (1/4)",
+            "eighth": "Eighth (1/8)",
+            "two_thirds": "Two-thirds (2/3)",
+            "third": "Third (1/3)",
+            "sixth": "Sixth (1/6)",
+            "residue": "Residue (Asaba)",
+            "sixth_with_residue": "Sixth (1/6) with Residue",
+            "residue_with_son": "Residue with Son (male gets double female share)",
+            "residue_with_grandson": "Residue with Grandson (male gets double female share)",
+            "residue_with_brother": "Residue with Brother (male gets double female share)",
+            "shared_third": "Shares in Third (1/3)",
+            "shared_third_female": "Shares in Third (1/3)"
+        },
+        "format_results": "Inheritance Distribution (Total Value: {{value}})",
+        "categories": {
+            "spouse": "Spouse",
+            "children": "Children & Grandchildren",
+            "parents": "Parents & Grandparents",
+            "siblings": "Siblings",
+            "other": "Other Relatives"
+        },
+        "inputs": {
+            "estate_value": "Total Estate Value",
+            "debts": "Debts & Expenses",
+            "wasiyyah": "Bequest (Wasiyyah)"
+        },
+        "placeholders": {
+            "estate_value": "Enter estate amount",
+            "debts": "Enter debts",
+            "wasiyyah": "Enter bequest",
+            "currency": "Currency"
+        },
+        "results": {
+            "distribution_title": "Estate Distribution",
+            "total_estate": "Total Estate",
+            "total_debts": "Total Debts",
+            "wasiyyah_amount": "Wasiyyah Amount",
+            "net_estate": "Net Estate",
+            "net_distributable": "Net Distributable Estate"
+        },
+        "table": {
+            "heir": "Heir",
+            "count": "Count",
+            "share": "Share",
+            "value": "Value",
+            "amount": "Amount"
+        },
+        "currencies": {
+            "USD": "US Dollar",
+            "EUR": "Euro",
+            "SAR": "Saudi Riyal",
+            "AED": "UAE Dirham",
+            "EGP": "Egyptian Pound",
+            "KWD": "Kuwaiti Dinar",
+            "QAR": "Qatari Riyal",
+            "BHD": "Bahraini Dinar",
+            "OMR": "Omani Rial",
+            "JOD": "Jordanian Dinar",
+            "LBP": "Lebanese Pound",
+            "IQD": "Iraqi Dinar"
+        },
+        "currency_symbols": {
+            "SAR": "SAR",
+            "AED": "AED",
+            "EGP": "EGP",
+            "KWD": "KWD",
+            "QAR": "QAR",
+            "BHD": "BHD",
+            "OMR": "OMR",
+            "JOD": "JOD",
+            "LBP": "LBP",
+            "IQD": "IQD"
+        },
+        "help": {
+            "step1": "Select all living eligible heirs.",
+            "step2": "Enter the total value of assets and any debts or bequests."
+        },
+        "empty_state": {
+            "title": "No Calculation Yet",
+            "desc": "Select heirs and enter estate details to see the distribution."
+        },
+        "info": {
+            "title": "Important Information",
+            "point1": "Inheritance distribution is based on Quran and Sunnah.",
+            "point2": "Debts and Wasiyyah (max 1/3) are deducted first.",
+            "point3": "Male usually receives twice the share of female in specific cases.",
+            "point4": "Shares are fixed (1/2, 1/4, 1/8, 2/3, 1/3, 1/6).",
+            "point5": "This calculator provides an estimate. Consult a scholar for complex cases."
+        },
+        "howItWorks": {
+            "title": "How the Inheritance Calculator Works",
+            "formula": "Inheritance = (Estate - Debts - Bequest) x Heir's Share",
+            "explanation": "The inheritance calculator follows Sharia rules derived from the Quran and Sunnah for distributing the estate among eligible heirs after settling debts and executing the bequest.",
+            "steps": [
+                "Enter total estate value",
+                "Deduct debts and funeral expenses",
+                "Execute bequest (maximum one-third)",
+                "Identify heirs and their legal shares",
+                "Distribute net estate according to fixed shares and residuary rules"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Distributing Deceased's Estate",
+                "description": "Calculate legal heirs' shares from the deceased's estate accurately"
+            },
+            {
+                "title": "Future Planning",
+                "description": "Understand how assets will be distributed among heirs in the future"
+            },
+            {
+                "title": "Resolving Disputes",
+                "description": "Provide reliable Sharia calculation to resolve family conflicts"
+            }
+        ],
+        "seoTips": [
+            "Ensure all living eligible heirs are entered",
+            "Deduct all debts before distributing the estate",
+            "Bequest cannot exceed one-third of estate",
+            "Consult a scholar for complex cases"
+        ],
+        "commonMistakes": [
+            {
+                "title": "Forgetting to Deduct Debts",
+                "description": "Not settling the deceased's debts first before distributing inheritance"
+            },
+            {
+                "title": "Bequest Exceeding One-Third",
+                "description": "Writing a bequest exceeding one-third of estate which is the maximum allowed"
+            },
+            {
+                "title": "Omitting Some Heirs",
+                "description": "Not mentioning all eligible heirs which affects distribution accuracy"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is the wife's share in inheritance?",
+                "answer": "The wife receives one-quarter if deceased has no descendants, and one-eighth if there are descendants."
+            },
+            {
+                "question": "How is inheritance distributed among children?",
+                "answer": "Children inherit as residuary heirs, with males receiving twice the share of females."
+            },
+            {
+                "question": "What are the fixed shares in inheritance?",
+                "answer": "Fixed shares are specific fractions in the Quran: half, quarter, eighth, two-thirds, third, and sixth."
+            }
+        ]
+    },
+    "zakat": {
+        "title": "Zakat Calculator",
+        "page_title": "Zakat Calculator",
+        "page_description": "Calculate Zakat on your wealth, gold, and silver accurately.",
+        "result_title": "Zakat Result",
+        "inputs": {
+            "wealth_label": "Cash / Savings",
+            "gold_label": "Gold Weight (grams)",
+            "gold_price_label": "Gold Price per Gram"
+        },
+        "results": {
+            "wealth_zakat": "Zakat on Wealth",
+            "gold_zakat": "Zakat on Gold",
+            "total_zakat": "Total Zakat",
+            "not_eligible_nisab": "Your total wealth is below the Nisab threshold. No Zakat is due."
+        },
+        "howItWorks": {
+            "title": "How the Zakat Calculator Works",
+            "formula": "Zakat = Wealth x 2.5%",
+            "explanation": "Zakat is a pillar of Islam obligatory for those who own Nisab for a complete lunar year. Nisab equals 85 grams of gold.",
+            "steps": [
+                "Gather zakatable assets (cash, gold, silver)",
+                "Verify Nisab threshold is met (85 grams gold)",
+                "Confirm a lunar year has passed",
+                "Calculate 2.5% of total wealth"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Cash Zakat",
+                "description": "Calculate Zakat on money and bank savings"
+            },
+            {
+                "title": "Gold Zakat",
+                "description": "Calculate Zakat on saved gold and jewelry"
+            },
+            {
+                "title": "Investment Zakat",
+                "description": "Calculate Zakat on stocks and investment funds"
+            }
+        ],
+        "seoTips": [
+            "Calculate Zakat on the same date each year",
+            "Use current gold prices to calculate Nisab",
+            "Don't forget Zakat on saved gold"
+        ],
+        "commonMistakes": [
+            {
+                "title": "Forgetting Some Assets",
+                "description": "Overlooking deposits, stocks, and loaned money"
+            },
+            {
+                "title": "Incorrect Hawl Calculation",
+                "description": "Calculating Zakat before a complete lunar year passes"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is the Nisab for Zakat?",
+                "answer": "Nisab equals 85 grams of gold or 595 grams of silver."
+            },
+            {
+                "question": "How do I calculate Zakat on gold?",
+                "answer": "Gold Zakat = Gold weight x Price per gram x 2.5%"
+            }
+        ]
+    },
+    "loan": {
+        "title": "Loan Calculator (Detailed)",
+        "description": "Calculate monthly payments, total interest, and amortization schedule for your loan.",
+        "keywords": "loan, interest, amortization, monthly payment",
+        "faqs": [
+            {
+                "question": "How is the monthly loan payment calculated?",
+                "answer": "Monthly payment is calculated using the formula: M = P x [r(1+r)^n] / [(1+r)^n - 1], where P is the principal amount, r is the monthly interest rate (annual rate / 12), and n is the number of monthly payments. This formula ensures equal payments throughout the loan term."
+            },
+            {
+                "question": "What is loan amortization?",
+                "answer": "Loan amortization is the process of paying off a loan through regular payments over time. Each payment covers both interest and principal. In the early stages, a larger portion goes toward interest, while later payments primarily reduce the principal balance."
+            },
+            {
+                "question": "How can I reduce the total interest paid on a loan?",
+                "answer": "To reduce total interest: 1) Make a larger down payment, 2) Choose a shorter loan term, 3) Make extra payments toward the principal, 4) Refinance to a lower interest rate, or 5) Make bi-weekly instead of monthly payments, which results in one extra payment per year."
+            }
+        ],
+        "inputs": {
+            "principal": "Loan Amount",
+            "annualRate": "Annual Interest Rate (%)",
+            "years": "Loan Term (Years)"
+        },
+        "tooltips": {
+            "principal": "Total amount you wish to borrow",
+            "annualRate": "Annual interest rate of the loan",
+            "years": "Number of years to repay the loan"
+        },
+        "results": {
+            "monthlyPayment": "Monthly Payment",
+            "totalPayment": "Total Payment",
+            "totalInterest": "Total Interest",
+            "interestPercentage": "Interest Percentage"
+        },
+        "formulas": {
+            "monthlyPayment": "Monthly Payment",
+            "totalPayment": "Total Payment",
+            "totalInterest": "Total Interest"
+        },
+        "formulaExpressions": {
+            "monthlyPayment": "M = P × [r(1+r)^n] / [(1+r)^n - 1]",
+            "totalPayment": "Total = Monthly Payment × Number of Months",
+            "totalInterest": "Interest = Total Payment - Principal"
+        },
+        "schedule": {
+            "month": "Month",
+            "payment": "Payment",
+            "principal": "Principal",
+            "interest": "Interest",
+            "balance": "Remaining Balance"
+        },
+        "showSchedule": "Show Amortization Schedule",
+        "hideSchedule": "Hide Amortization Schedule",
+        "how_to_use": {
+            "step1": "Enter the requested loan amount.",
+            "step2": "Enter the annual interest rate.",
+            "step3": "Select the loan term in years.",
+            "step4": "Click 'Calculate' to see results."
+        },
+        "howto": {
+            "name": "How to Calculate Your Loan Payment",
+            "description": "Follow these steps to calculate your monthly loan payment",
+            "steps": [
+                {"name": "Enter loan amount", "text": "Enter the total loan amount you want to borrow"},
+                {"name": "Set interest rate", "text": "Enter the annual interest rate as a percentage"},
+                {"name": "Choose loan term", "text": "Select the loan term in months or years"},
+                {"name": "Calculate", "text": "Click the Calculate button to see your monthly payment and total interest"}
+            ]
+        },
+        "howItWorks": {
+            "title": "How the Loan Calculator Works",
+            "formula": "M = P × [r(1+r)^n] / [(1+r)^n - 1]",
+            "explanation": "The loan calculator uses the fixed payment formula to calculate monthly payments, where each payment's distribution between interest and principal changes over time.",
+            "steps": [
+                "Enter the original loan amount",
+                "Specify the annual interest rate",
+                "Set the loan term in years",
+                "Calculate monthly payment and total interest"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Auto Loans",
+                "description": "Calculate monthly payments for vehicle financing"
+            },
+            {
+                "title": "Personal Loans",
+                "description": "Estimate personal loan costs and compare offers"
+            },
+            {
+                "title": "Refinancing",
+                "description": "Compare current loan with refinancing offers"
+            }
+        ],
+        "seoTips": [
+            "Compare multiple lenders for the best rate",
+            "Choose the shortest term you can afford",
+            "Ask about early repayment penalties"
+        ],
+        "commonMistakes": [
+            {
+                "title": "Focusing Only on Payment",
+                "description": "Looking at payment without considering total interest paid"
+            },
+            {
+                "title": "Ignoring Additional Fees",
+                "description": "Not accounting for processing and insurance fees in loan cost"
+            }
+        ]
+    },
+    "investment": {
+        "title": "Investment Calculator (Detailed)",
+        "description": "Project your investment returns over time with compound interest.",
+        "keywords": "investment, compound interest, return, savings",
+        "page_title": "Investment Calculator - Forecast Growth",
+        "inputs": {
+            "initial": "Initial Investment",
+            "contribution": "Additional Contribution",
+            "years": "Investment Years",
+            "rate": "Annual Return Rate (%)",
+            "frequency": "Contribution Frequency",
+            "compound": "Compound Frequency"
+        },
+        "tooltips": {
+            "initial": "The amount of money you start your investment with",
+            "contribution": "The amount you add to your investment periodically",
+            "years": "How many years do you plan to invest?",
+            "rate": "Expected annual return rate",
+            "frequency": "How often do you make contributions?",
+            "compound": "How often is interest compounded?"
+        },
+        "results": {
+            "future_value": "Future Value",
+            "total_contributions": "Total Contributions",
+            "total_interest": "Total Interest Earned",
+            "roi": "Return on Investment",
+            "summary": "Investment Summary",
+            "breakdown": "Investment Breakdown",
+            "after": "After",
+            "initial_percentage": "Initial",
+            "contribution_percentage": "Contributions",
+            "interest_percentage": "Earnings"
+        },
+        "options": {
+            "monthly": "Monthly",
+            "quarterly": "Quarterly",
+            "annually": "Annually"
+        },
+        "labels": {
+            "initial_investment": "Initial Investment",
+            "periodic_contribution": "Periodic Contribution",
+            "investment_period": "Investment Period",
+            "annual_return": "Annual Return",
+            "compound_frequency": "Compound Frequency"
+        },
+        "howItWorks": {
+            "title": "How the Investment Calculator Works",
+            "formula": "FV = P(1+r)^t + C × [((1+r)^t - 1) / r]",
+            "explanation": "This tool calculates investment growth using compound interest, with options for periodic contributions to maximize returns.",
+            "steps": [
+                "Enter initial investment amount",
+                "Specify periodic contribution and frequency",
+                "Enter expected annual return rate",
+                "Set investment duration in years",
+                "Calculate future value and total return"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Retirement Planning",
+                "description": "Estimate retirement fund size based on current savings"
+            },
+            {
+                "title": "Goal Saving",
+                "description": "Calculate amount needed to reach a specific financial goal"
+            },
+            {
+                "title": "Comparing Investments",
+                "description": "Compare different investment returns to choose the best"
+            }
+        ],
+        "seoTips": [
+            "Start investing early even with small amounts",
+            "Use realistic return rates (5-8%)",
+            "Don't forget to account for inflation",
+            "Automate contributions for consistency"
+        ],
+        "commonMistakes": [
+            {
+                "title": "Overestimating Returns",
+                "description": "Using unrealistic return rates leading to false expectations"
+            },
+            {
+                "title": "Ignoring Inflation",
+                "description": "Not accounting for inflation's impact on purchasing power"
+            },
+            {
+                "title": "Overlooking Fees",
+                "description": "Forgetting to deduct management fees from expected returns"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is a realistic return rate?",
+                "answer": "Stock market historically returns 7-10% annually. Use 6-7% as conservative rate for planning."
+            },
+            {
+                "question": "What is the difference between nominal and real returns?",
+                "answer": "Real return = Nominal return - Inflation rate."
+            },
+            {
+                "question": "How much should I save for retirement?",
+                "answer": "General rule: save 15-20% of your income for retirement."
+            }
+        ]
+    }
+}

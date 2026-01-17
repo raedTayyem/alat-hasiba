@@ -1,0 +1,769 @@
+{
+  "grade": {
+    "title": "Grade Calculator",
+    "description": "Calculate your current final grade and find out what you need on your final exam to reach your target grade.",
+    "categories": "Grade Categories",
+    "add_category": "Add Category",
+    "category": "Category",
+    "category_name": "Category Name",
+    "category_placeholder": "e.g., Assignments",
+    "weight": "Weight",
+    "score": "Score",
+    "total_weight": "Total Weight",
+    "desired": "Target Grade",
+    "desired_tooltip": "The final grade you aim to achieve in this course",
+    "desired_placeholder": "e.g., 90",
+    "current": "Your Current Grade",
+    "details": "Grade Details",
+    "required_final": "Required Score on Final",
+    "required_final_desc": "To achieve a total grade of",
+    "impossible": "Target grade is impossible (requires over 100% on final)",
+    "already_achieved": "You have already achieved your target grade!",
+    "if_perfect": "Final grade if you get 100% on final",
+    "if_zero": "Final grade if you get 0% on final",
+    "what_is": "What is the Grade Calculator?",
+    "features": "Calculator Features",
+    "feature_1": "Supports multiple categories with different weights.",
+    "feature_2": "Predicts the required final exam score.",
+    "feature_3": "Converts percentages to letters (A, B, C...).",
+    "feature_4": "What-if scenarios (maximum and minimum possible grades).",
+    "formula": "Calculation Formula",
+    "formula_explanation": "The final grade is calculated by multiplying each category score by its weight and summing the results.",
+    "errors": {
+      "weights_total_100": "Total weight must equal 100%",
+      "invalid_weight": "Weight must be between 0 and 100",
+      "invalid_score": "Score must be between 0 and 100",
+      "invalid_desired": "Target grade must be between 0 and 100"
+    },
+    "gpa": {
+      "title": "GPA Calculator",
+      "description": "Calculate your semester and cumulative GPA easily and quickly.",
+      "scale": "GPA Scale",
+      "current_stats": "Current Stats (Optional)",
+      "current_gpa": "Current GPA",
+      "current_credits": "Current Credit Hours",
+      "semester_courses": "Semester Courses",
+      "add_course": "Add Course",
+      "course_name": "Course Name",
+      "grade": "Grade",
+      "credits": "Credits",
+      "result_title": "GPA Results",
+      "semester_gpa": "Semester GPA",
+      "cumulative_gpa": "Cumulative GPA",
+      "total_credits": "Total Credits",
+      "how_it_works": "How is GPA calculated?",
+      "explanation": "GPA is calculated by multiplying each course grade by its credit hours, then dividing the total points by the total credit hours.",
+      "errors": {
+        "invalid_current_gpa": "Current GPA cannot exceed the selected scale",
+        "no_courses": "Please add at least one course"
+      }
+    },
+    "final_grade": {
+      "title": "Final Grade Calculator",
+      "description": "Calculate the score you need on the final exam to reach your academic goal.",
+      "current_grade": "Current Grade (%)",
+      "desired_grade": "Target Grade (%)",
+      "final_exam_weight": "Final Exam Weight (%)",
+      "result_title": "Final Exam Goal",
+      "required_score": "Required Final Exam Score",
+      "details": "Calculation Details",
+      "current_contribution": "Current Grade Contribution",
+      "final_contribution_needed": "Required Contribution from Final",
+      "result_placeholder": "Enter your grades to see what you need on the final exam.",
+      "how_it_works": "How is it calculated?",
+      "explanation": "We use the formula: Required Score = (Target - Current x (1 - Weight)) / Weight",
+      "messages": {
+        "possible": "You need to score at least {{score}}% on the final exam.",
+        "not_possible_high": "It is impossible to reach this target. You would need {{score}}%.",
+        "already_achieved": "You have already reached your target even with 0% on the final!"
+      },
+      "errors": {
+        "invalid_current": "Please enter a valid current grade",
+        "invalid_desired": "Please enter a valid target grade",
+        "invalid_weight": "Final exam weight must be between 0.1% and 99.9%"
+      }
+    },
+    "attendance": {
+      "title": "Attendance Calculator",
+      "description": "Track your class attendance and see how many times you can be absent.",
+      "total_classes": "Total Classes",
+      "attended_classes": "Classes Attended",
+      "target_percentage": "Target Attendance (%)",
+      "result_title": "Attendance Status",
+      "current_attendance": "Current Attendance",
+      "details": "Attendance Details",
+      "target": "Target",
+      "result_placeholder": "Enter your class details to see your attendance status.",
+      "messages": {
+        "above_target": "You can miss {{count}} more classes while staying above your target.",
+        "below_target": "You need to attend {{count}} more classes to reach your target.",
+        "exact_target": "You are exactly at your target attendance percentage."
+      },
+      "errors": {
+        "invalid_total": "Total classes must be greater than 0",
+        "invalid_attended": "Classes attended cannot exceed total",
+        "invalid_target": "Target percentage must be between 1 and 100"
+      }
+    },
+    "semester": {
+      "title": "Semester Grade Calculator",
+      "description": "Calculate the weighted average for all your courses in a single semester.",
+      "courses": "Course List",
+      "add_course": "Add Course",
+      "course": "Course",
+      "course_name": "Course Name",
+      "grade": "Grade (%)",
+      "weight": "Weight/Credits",
+      "result_title": "Semester Summary",
+      "semester_average": "Weighted Average",
+      "equivalent_letter": "Letter Grade",
+      "total_credits_weight": "Total Credits/Weight",
+      "breakdown": "Course Breakdown",
+      "result_placeholder": "Add your courses to calculate the semester average.",
+      "errors": {
+        "no_courses": "Please add at least one course",
+        "invalid_grade": "Grade must be between 0 and 200",
+        "invalid_weight": "Weight/Credits must be greater than 0"
+      }
+    },
+    "test_score": {
+      "title": "Test Score Calculator",
+      "description": "Calculate your test percentage and letter grade easily.",
+      "total_questions": "Total Questions",
+      "wrong_answers": "Wrong Answers",
+      "result_title": "Test Results",
+      "final_score": "Final Score",
+      "letter_grade": "Letter Grade",
+      "correct_answers": "Correct Answers",
+      "grading_scale": "Grading Scale",
+      "result_placeholder": "Enter the number of questions and mistakes to see your score.",
+      "errors": {
+        "invalid_total": "Total questions must be greater than 0",
+        "invalid_wrong": "Wrong answers cannot exceed total"
+      }
+    },
+    "assignment_tracker": {
+      "title": "Assignment Tracker",
+      "description": "Track your school assignments and deadlines easily.",
+      "add_new": "Add New Assignment",
+      "course_assignment": "Course/Assignment Name",
+      "placeholder_name": "e.g., History Essay",
+      "due_date": "Due Date",
+      "add_button": "Add to List",
+      "list_title": "Your Current Assignments",
+      "no_assignments": "No assignments added yet. Start by adding one above!",
+      "progress_title": "Overall Progress",
+      "completed_label": "Completed",
+      "total_count": "Total",
+      "completed_count": "Done",
+      "tips_title": "Productivity Tips",
+      "tip_1": "Break large projects into smaller, manageable tasks.",
+      "tip_2": "Prioritize your tasks by deadline and importance.",
+      "tip_3": "Check off completed tasks to stay motivated.",
+      "errors": {
+        "name_required": "Assignment name is required"
+      }
+    },
+    "study_time": {
+      "title": "Study Time Calculator",
+      "description": "Calculate recommended study hours based on your course load.",
+      "credit_hours": "Weekly Credit Hours",
+      "days_per_week": "Days Available for Study",
+      "difficulty_level": "Average Course Difficulty",
+      "difficulty_easy": "Easy",
+      "difficulty_moderate": "Moderate",
+      "difficulty_hard": "Hard",
+      "result_title": "Study Recommendation",
+      "total_weekly_hours": "Total Weekly Study Hours",
+      "daily_commitment": "Daily Commitment",
+      "hours": "Hours",
+      "recommendation_title": "Personalized Advice",
+      "recommendation_text": "Based on {{hours}} weekly study hours and a {{difficulty}} difficulty level, we recommend taking short breaks every 50 minutes to maintain focus.",
+      "result_placeholder": "Enter your course details to see a study plan."
+    },
+    "reading_speed": {
+      "title": "Reading Speed Calculator",
+      "description": "Measure your reading speed and estimate time needed to finish books and articles.",
+      "timer_title": "Reading Timer",
+      "start_timer": "Start Reading",
+      "stop_timer": "I'm Finished",
+      "timer_hint": "Read a sample text and stop the timer when done",
+      "total_words": "Total Words Read",
+      "minutes": "Minutes",
+      "seconds": "Seconds",
+      "result_title": "Your Reading Stats",
+      "wpm_label": "Words Per Minute",
+      "estimations": "Estimated Reading Times",
+      "short_article": "Short Article",
+      "long_book": "Novel/Book",
+      "info_title": "What do these results mean?",
+      "level_slow": "You read at a deliberate pace, which is great for deep comprehension and complex technical material.",
+      "level_average": "Your reading speed is within the normal range (200-300 words/minute).",
+      "level_fast": "You are a fast reader! This pace is excellent for scanning and general information gathering.",
+      "result_placeholder": "Use the timer or enter data manually to calculate your speed."
+    },
+    "howItWorks": {
+      "title": "How the Grade Calculator Works",
+      "formula": "Final Grade = Sum of (Category Score x Category Weight) / 100",
+      "explanation": "The grade calculator uses the weighted average principle, where each score is multiplied by its assigned weight and the results are summed to obtain the final grade. This reflects the relative importance of each assessment component.",
+      "steps": [
+        "Enter the name of each assessment category (e.g., assignments, quizzes, final exam)",
+        "Specify the relative weight for each category (total must equal 100%)",
+        "Enter the score you received in each category",
+        "The calculator will automatically compute your final grade",
+        "You can add a target grade to see what you need on the final exam"
+      ]
+    },
+    "useCases": [
+      "Calculate your expected final grade before the semester ends",
+      "Determine the required score on the final exam to achieve your goal",
+      "Compare different academic performance scenarios",
+      "Plan effort distribution among different courses"
+    ],
+    "seoTips": [
+      "Use the calculator at the beginning of the semester to set realistic goals",
+      "Make sure to enter the correct weights according to your syllabus",
+      "Review your grades regularly to track your progress",
+      "Use the 'what-if' feature to explore different possibilities"
+    ],
+    "commonMistakes": [
+      "Not ensuring that the sum of weights equals 100%",
+      "Confusing absolute scores with percentages",
+      "Forgetting to update grades after each assessment",
+      "Not accounting for all assessment components"
+    ],
+    "faqs": [
+      {
+        "question": "How do I calculate my grade if the weights are unknown?",
+        "answer": "If you don't know the weights, you can assume equal weights for all categories, or refer to your course syllabus for the correct distribution."
+      },
+      {
+        "question": "Can I use the calculator for multiple courses?",
+        "answer": "Yes, you can use the calculator separately for each course, as weights and categories may differ from course to course."
+      },
+      {
+        "question": "What should I do if the required grade is over 100%?",
+        "answer": "This means the goal is unachievable. You may need to revise your expectations or focus on improving grades in other categories."
+      },
+      {
+        "question": "How does the calculator handle extra credit?",
+        "answer": "You can enter scores exceeding 100% in categories that allow it, and the calculator will compute the result accordingly."
+      }
+    ]
+  },
+  "gpa": {
+    "title": "GPA Calculator",
+    "description": "Calculate your semester and cumulative Grade Point Average (GPA) easily.",
+    "scale": "GPA Scale",
+    "current_stats": "Current Cumulative Stats (Optional)",
+    "current_gpa": "Current GPA",
+    "current_credits": "Current Total Credits",
+    "semester_courses": "Semester Courses",
+    "add_course": "Add Course",
+    "course_name": "Course Name",
+    "grade": "Grade",
+    "credits": "Credits",
+    "result_title": "GPA Results",
+    "semester_gpa": "Semester GPA",
+    "cumulative_gpa": "Cumulative GPA",
+    "total_credits": "Total Credits",
+    "how_it_works": "How is GPA calculated?",
+    "explanation": "GPA is calculated by multiplying each course grade point by its credit hours, then dividing the total grade points by the total credit hours.",
+    "errors": {
+      "invalid_current_gpa": "Current GPA cannot exceed the selected scale",
+      "no_courses": "Please add at least one course"
+    },
+    "howItWorks": {
+      "title": "How the GPA Calculator Works",
+      "formula": "GPA = Sum of (Course Grade Points x Credits) / Total Credits",
+      "explanation": "The cumulative GPA is calculated by converting each letter grade to grade points (e.g., A=4.0, B=3.0), then multiplying each course's grade points by its credit hours, and finally dividing the sum by the total credits.",
+      "steps": [
+        "Select the GPA scale used by your institution (4.0 or 5.0)",
+        "Enter your current cumulative GPA and credit hours (optional)",
+        "Add your current semester courses with their grades and credits",
+        "The semester and new cumulative GPA will be displayed automatically"
+      ]
+    },
+    "useCases": [
+      "Calculate semester and cumulative GPA for academic planning",
+      "Understand the impact of current semester grades on cumulative GPA",
+      "Plan for honors or dean's list achievement",
+      "Identify courses that need improvement to raise GPA"
+    ],
+    "seoTips": [
+      "Keep an accurate record of all your courses and grades",
+      "Use the calculator before registration to see the impact of new courses",
+      "Compare different scenarios for expected grades",
+      "Review graduation and major requirements regularly"
+    ],
+    "commonMistakes": [
+      "Confusing the 4.0 scale with the 5.0 scale",
+      "Not accounting for all previous credit hours",
+      "Entering percentage grades instead of letter grades",
+      "Forgetting repeated or transferred courses"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between semester GPA and cumulative GPA?",
+        "answer": "Semester GPA is calculated for current semester courses only, while cumulative GPA includes all courses since the start of your academic career."
+      },
+      {
+        "question": "How do I calculate GPA if I repeated a course?",
+        "answer": "This depends on your institution's policy. Some universities count only the higher grade, while others average both attempts."
+      },
+      {
+        "question": "Do Pass/Fail courses affect GPA?",
+        "answer": "Typically, Pass/Fail courses do not affect the cumulative GPA, but they may count toward credit hours."
+      },
+      {
+        "question": "How can I raise my cumulative GPA?",
+        "answer": "Focus on courses with more credit hours, take advantage of course repeat opportunities, and plan ahead for future semesters."
+      }
+    ]
+  },
+  "final_grade": {
+    "title": "Final Grade Calculator",
+    "description": "Calculate the score you need on your final exam to achieve your target grade.",
+    "current_grade": "Current Grade (%)",
+    "desired_grade": "Target Grade (%)",
+    "final_exam_weight": "Final Exam Weight (%)",
+    "result_title": "Final Exam Goal",
+    "required_score": "Required Final Exam Score",
+    "details": "Calculation Details",
+    "current_contribution": "Current Grade Contribution",
+    "final_contribution_needed": "Final Exam Contribution Needed",
+    "result_placeholder": "Enter your grades to see what you need on the final exam.",
+    "how_it_works": "How is it calculated?",
+    "explanation": "We use the formula: Final Score = (Target - Current * (1 - Weight)) / Weight",
+    "messages": {
+      "possible": "You need to score at least {{score}}% on the final exam.",
+      "not_possible_high": "It is impossible to reach this target. You would need {{score}}%.",
+      "already_achieved": "You have already reached your target grade even with 0% on the final!"
+    },
+    "errors": {
+      "invalid_current": "Please enter a valid current grade",
+      "invalid_desired": "Please enter a valid target grade",
+      "invalid_weight": "Final exam weight must be between 0.1% and 99.9%"
+    },
+    "howItWorks": {
+      "title": "How the Final Grade Calculator Works",
+      "formula": "Required Score = (Target - Current x (1 - Weight)) / Weight",
+      "explanation": "This tool calculates the score you need on the final exam to reach your target grade, based on your current grade and the weight of the final exam.",
+      "steps": [
+        "Enter your current grade in the course (before the final exam)",
+        "Specify your target final grade",
+        "Enter the weight of the final exam as a percentage of the total grade",
+        "The required final exam score will be displayed"
+      ]
+    },
+    "useCases": [
+      "Plan for final exams and know the minimum required score",
+      "Prioritize study time among different courses",
+      "Determine if a certain grade is achievable before the exam",
+      "Manage expectations and reduce exam stress"
+    ],
+    "seoTips": [
+      "Use the calculator weeks before the exam for proper planning",
+      "Try multiple scenarios for different target grades",
+      "Verify the final exam weight from your course syllabus",
+      "Share results with study groups for mutual motivation"
+    ],
+    "commonMistakes": [
+      "Entering the exam weight incorrectly",
+      "Not updating the current grade after each assessment",
+      "Ignoring results when the required score is too high",
+      "Relying entirely on the final exam without working during the semester"
+    ],
+    "faqs": [
+      {
+        "question": "What if the required score is over 100%?",
+        "answer": "This means achieving the goal is mathematically impossible. You may need to lower your expectations or look for extra credit opportunities."
+      },
+      {
+        "question": "Can I use the calculator for any grading system?",
+        "answer": "Yes, as long as you know your current grade and the final exam weight, the calculator works with any system."
+      },
+      {
+        "question": "How do I calculate my current grade?",
+        "answer": "Sum all previous assessment scores multiplied by their weights, then divide by the sum of the weights."
+      }
+    ]
+  },
+  "attendance": {
+    "title": "Attendance Calculator",
+    "description": "Track your class attendance and see how many more classes you can miss.",
+    "total_classes": "Total Classes",
+    "attended_classes": "Classes Attended",
+    "target_percentage": "Target Attendance (%)",
+    "result_title": "Attendance Status",
+    "current_attendance": "Current Attendance",
+    "details": "Attendance Details",
+    "target": "Target",
+    "result_placeholder": "Enter your class details to see your attendance status.",
+    "messages": {
+      "above_target": "You can miss {{count}} more classes while staying above your target.",
+      "below_target": "You need to attend {{count}} more classes to reach your target.",
+      "exact_target": "You are exactly at your target attendance percentage."
+    },
+    "errors": {
+      "invalid_total": "Total classes must be greater than 0",
+      "invalid_attended": "Attended classes cannot exceed total classes",
+      "invalid_target": "Target percentage must be between 1 and 100"
+    },
+    "howItWorks": {
+      "title": "How the Attendance Calculator Works",
+      "formula": "Attendance Percentage = (Classes Attended / Total Classes) x 100",
+      "explanation": "This tool calculates your current attendance percentage and determines how many classes you can miss while maintaining your target percentage.",
+      "steps": [
+        "Enter the total number of classes in the course",
+        "Enter the number of classes you have attended",
+        "Set your target attendance percentage (usually 75% or 80%)",
+        "Your current percentage and allowed absences will be displayed"
+      ]
+    },
+    "useCases": [
+      "Know how many absences are allowed before being barred",
+      "Plan for absences in emergency situations",
+      "Track attendance across multiple courses simultaneously",
+      "Ensure you meet attendance requirements for exams"
+    ],
+    "seoTips": [
+      "Record your attendance regularly to avoid surprises",
+      "Learn the attendance policy for each course",
+      "Keep a safety margin for unexpected emergencies",
+      "Communicate with instructors in case of mandatory absences"
+    ],
+    "commonMistakes": [
+      "Not accounting for cancelled or postponed classes",
+      "Confusing different sessions of the same course",
+      "Forgetting to sign attendance in official records",
+      "Relying on memory instead of regular tracking"
+    ],
+    "faqs": [
+      {
+        "question": "What is the typical required attendance percentage?",
+        "answer": "It varies by institution and course, but common requirements are 75% or 80%. Check your university's policy."
+      },
+      {
+        "question": "Does being late count as an absence?",
+        "answer": "It depends on the instructor's policy. Some count significant lateness as half an absence or a full absence."
+      },
+      {
+        "question": "What happens if I exceed the allowed absences?",
+        "answer": "Typically, you may be barred from the final exam or have points deducted. Check your institution's regulations."
+      }
+    ]
+  },
+  "semester": {
+    "title": "Semester Grade Calculator",
+    "description": "Calculate your weighted average for multiple courses in a semester.",
+    "courses": "Courses List",
+    "add_course": "Add Course",
+    "course": "Course",
+    "course_name": "Course Name",
+    "grade": "Grade (%)",
+    "weight": "Weight/Credits",
+    "result_title": "Semester Summary",
+    "semester_average": "Weighted Average",
+    "equivalent_letter": "Letter Grade",
+    "total_credits_weight": "Total Credits/Weight",
+    "breakdown": "Course Breakdown",
+    "result_placeholder": "Add your courses to calculate your semester average.",
+    "errors": {
+      "no_courses": "Please add at least one course",
+      "invalid_grade": "Grade must be between 0 and 200",
+      "invalid_weight": "Weight/Credits must be greater than 0"
+    },
+    "howItWorks": {
+      "title": "How the Semester Grade Calculator Works",
+      "formula": "Average = Sum of (Course Grade x Credits) / Total Credits",
+      "explanation": "This tool calculates the weighted average of your grades for the semester, taking into account the credit hours for each course.",
+      "steps": [
+        "Add each course with its name for organization",
+        "Enter the percentage grade for each course",
+        "Specify the credit hours for each course",
+        "The calculator will compute the weighted average and letter grade"
+      ]
+    },
+    "useCases": [
+      "Calculate semester average before official results are released",
+      "Compare performance across different semesters",
+      "Plan for grade improvement in future semesters",
+      "Understand the impact of each course on overall average"
+    ],
+    "seoTips": [
+      "Enter all courses even if their grades are low",
+      "Use the calculator to experiment with grade improvement scenarios",
+      "Compare expected average with the required average for your goals",
+      "Keep a record of all previous semester averages"
+    ],
+    "commonMistakes": [
+      "Entering letter grades instead of percentages",
+      "Not distinguishing between lecture and lab credits",
+      "Forgetting certain courses when calculating",
+      "Confusing course credits with assessment weights"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between semester average and cumulative GPA?",
+        "answer": "Semester average is calculated for one semester, while cumulative GPA combines all semesters since the start of study."
+      },
+      {
+        "question": "Do elective courses affect the average?",
+        "answer": "Yes, all officially registered courses affect the average according to their credit hours."
+      },
+      {
+        "question": "How do I calculate the average for courses without numerical grades?",
+        "answer": "Convert letter grades to percentages (e.g., A=95%, B=85%) and then enter them."
+      }
+    ]
+  },
+  "test_score": {
+    "title": "Test Score Calculator",
+    "description": "Calculate your test percentage and letter grade easily.",
+    "total_questions": "Total Questions",
+    "wrong_answers": "Wrong Answers",
+    "result_title": "Test Results",
+    "final_score": "Final Score",
+    "letter_grade": "Letter Grade",
+    "correct_answers": "Correct Answers",
+    "grading_scale": "Grading Scale",
+    "result_placeholder": "Enter the number of questions and mistakes to see your score.",
+    "errors": {
+      "invalid_total": "Total questions must be greater than 0",
+      "invalid_wrong": "Wrong answers cannot exceed total questions"
+    },
+    "howItWorks": {
+      "title": "How the Test Score Calculator Works",
+      "formula": "Percentage = ((Total Questions - Wrong Answers) / Total Questions) x 100",
+      "explanation": "This tool calculates your percentage score and converts it to a letter grade based on the total number of questions and wrong answers.",
+      "steps": [
+        "Enter the total number of test questions",
+        "Enter the number of wrong answers",
+        "The percentage and letter grade will be displayed automatically",
+        "You can view the grading scale being used"
+      ]
+    },
+    "useCases": [
+      "Quickly calculate test scores after reviewing answers",
+      "Know the expected letter grade before official results",
+      "Evaluate performance on practice tests",
+      "Compare scores across multiple tests"
+    ],
+    "seoTips": [
+      "Make sure to count wrong answers accurately",
+      "Use the calculator for practice tests to track improvement",
+      "Compare your results with the class average",
+      "Identify question types you get wrong most often"
+    ],
+    "commonMistakes": [
+      "Confusing skipped questions with wrong answers",
+      "Not accounting for multi-part questions correctly",
+      "Forgetting questions with different point values",
+      "Using an incorrect grading scale"
+    ],
+    "faqs": [
+      {
+        "question": "How do I calculate the score if questions have different point values?",
+        "answer": "This calculator assumes equal points. For different values, manually sum the points earned and divide by the total possible points."
+      },
+      {
+        "question": "What grading scale is used?",
+        "answer": "The common scale: A (90-100%), B (80-89%), C (70-79%), D (60-69%), F (below 60%)."
+      },
+      {
+        "question": "Are unanswered questions counted as wrong?",
+        "answer": "Yes, in most tests, unanswered questions are counted as incorrect answers."
+      }
+    ]
+  },
+  "assignment_tracker": {
+    "title": "Assignment Tracker",
+    "description": "Keep track of your school assignments and deadlines.",
+    "add_new": "Add New Assignment",
+    "course_assignment": "Course/Assignment Name",
+    "placeholder_name": "e.g., History Essay",
+    "due_date": "Due Date",
+    "add_button": "Add to List",
+    "list_title": "Your Assignments",
+    "no_assignments": "No assignments added yet. Start by adding one above!",
+    "progress_title": "Overall Progress",
+    "completed_label": "Completed",
+    "total_count": "Total",
+    "completed_count": "Done",
+    "tips_title": "Productivity Tips",
+    "tip_1": "Break large projects into smaller, manageable tasks.",
+    "tip_2": "Prioritize assignments by their due dates and weights.",
+    "tip_3": "Check off completed tasks to stay motivated.",
+    "errors": {
+      "name_required": "Assignment name is required"
+    },
+    "howItWorks": {
+      "title": "How the Assignment Tracker Works",
+      "formula": "Completion Rate = (Completed Assignments / Total Assignments) x 100",
+      "explanation": "This tracker helps you organize your assignments and tasks in one place, while monitoring deadlines and completion rate.",
+      "steps": [
+        "Add each assignment or task with the course name",
+        "Set the due date for each assignment",
+        "Mark assignments as complete when finished",
+        "Track your overall completion rate"
+      ]
+    },
+    "useCases": [
+      "Organize all assignments and projects in one place",
+      "Avoid forgetting important deadlines",
+      "Track progress on long-term projects",
+      "Manage time across different courses"
+    ],
+    "seoTips": [
+      "Add assignments immediately when you receive them",
+      "Break large projects into sub-tasks with interim deadlines",
+      "Review your list daily in the morning and evening",
+      "Use colors or symbols to distinguish priorities"
+    ],
+    "commonMistakes": [
+      "Not updating the list regularly",
+      "Adding tasks that are too general without details",
+      "Ignoring small tasks that accumulate",
+      "Not setting realistic due dates"
+    ],
+    "faqs": [
+      {
+        "question": "How do I prioritize assignments?",
+        "answer": "Prioritize by: 1) Nearest deadline, 2) Highest weight in grade, 3) Most complex requiring more time."
+      },
+      {
+        "question": "What should I do when assignments pile up?",
+        "answer": "Identify the most important and urgent, communicate with instructors if needed, and ask classmates for help."
+      },
+      {
+        "question": "Should I track small assignments?",
+        "answer": "Yes, small assignments add up and affect your grade. Track everything for better organization."
+      }
+    ]
+  },
+  "study_time": {
+    "title": "Study Time Calculator",
+    "description": "Calculate recommended study hours based on your course load.",
+    "credit_hours": "Weekly Credit Hours",
+    "days_per_week": "Days Available to Study",
+    "difficulty_level": "Average Course Difficulty",
+    "difficulty_easy": "Easy",
+    "difficulty_moderate": "Moderate",
+    "difficulty_hard": "Hard",
+    "result_title": "Study Recommendation",
+    "total_weekly_hours": "Total Weekly Study Hours",
+    "daily_commitment": "Daily Commitment",
+    "hours": "Hours",
+    "recommendation_title": "Personalized Advice",
+    "recommendation_text": "Based on {{hours}} hours of weekly study and a {{difficulty}} difficulty level, we recommend taking short breaks every 50 minutes to maintain focus.",
+    "result_placeholder": "Enter your course details to see a study plan.",
+    "howItWorks": {
+      "title": "How the Study Time Calculator Works",
+      "formula": "Study Hours = Credit Hours x Difficulty Factor x 2-3",
+      "explanation": "This tool calculates optimal study time based on credit hours and course difficulty level, taking into account available study days.",
+      "steps": [
+        "Enter your total weekly credit hours",
+        "Specify the number of days available for study",
+        "Select the average difficulty level of your courses",
+        "Get a daily and weekly study plan"
+      ]
+    },
+    "useCases": [
+      "Create a realistic and balanced study schedule",
+      "Distribute time among different courses",
+      "Plan for exam periods",
+      "Balance studying with other activities"
+    ],
+    "seoTips": [
+      "Start with difficult subjects when your energy is high",
+      "Take short breaks every 45-50 minutes",
+      "Vary your study methods",
+      "Review your plan weekly and adjust as needed"
+    ],
+    "commonMistakes": [
+      "Overestimating available study time",
+      "Not accounting for commute and daily activities",
+      "Studying all subjects with the same intensity",
+      "Ignoring the need for rest and recreation"
+    ],
+    "faqs": [
+      {
+        "question": "How many study hours per credit hour?",
+        "answer": "The general rule is 2-3 study hours per credit hour, increasing for difficult courses."
+      },
+      {
+        "question": "Is long studying better than short repeated sessions?",
+        "answer": "Short, repeated sessions are more effective. Sessions of 45-90 minutes with breaks are better for memory."
+      },
+      {
+        "question": "How do I deal with procrastination?",
+        "answer": "Start with a small 5-minute task, use the Pomodoro technique, and remove distractions from your environment."
+      }
+    ]
+  },
+  "reading_speed": {
+    "title": "Reading Speed Calculator",
+    "description": "Measure your reading speed and estimate reading time.",
+    "timer_title": "Reading Timer",
+    "start_timer": "Start Reading",
+    "stop_timer": "I'm Finished",
+    "timer_hint": "Read a sample text and stop the timer when done",
+    "total_words": "Total Words Read",
+    "minutes": "Minutes",
+    "seconds": "Seconds",
+    "result_title": "Your Reading Stats",
+    "wpm_label": "Words Per Minute",
+    "estimations": "Estimated Reading Times",
+    "short_article": "Short Article",
+    "long_book": "Novel/Book",
+    "info_title": "What does this mean?",
+    "level_slow": "You read at a deliberate pace, which is great for deep comprehension and technical material.",
+    "level_average": "You read at an average speed (200-300 WPM). This is a standard pace for general reading.",
+    "level_fast": "You are a fast reader! This pace is excellent for scanning and general information gathering.",
+    "result_placeholder": "Use the timer or enter data manually to calculate your speed.",
+    "howItWorks": {
+      "title": "How the Reading Speed Calculator Works",
+      "formula": "Reading Speed (WPM) = Number of Words / Time in Minutes",
+      "explanation": "This tool measures your reading speed in Words Per Minute (WPM) and estimates the time needed to read texts of various lengths.",
+      "steps": [
+        "Press the start button and read a specific text",
+        "Press the stop button when finished",
+        "Enter the number of words you read",
+        "Get your speed and estimated reading times"
+      ]
+    },
+    "useCases": [
+      "Measure current reading speed for improvement",
+      "Estimate reading time for books and articles",
+      "Plan study and review time",
+      "Compare reading speed before and after training"
+    ],
+    "seoTips": [
+      "Measure your speed with texts of varying difficulty",
+      "Practice speed reading techniques regularly",
+      "Balance speed with comprehension",
+      "Use results to plan your reading schedule"
+    ],
+    "commonMistakes": [
+      "Reading aloud or moving lips (slows reading)",
+      "Going back and re-reading sentences frequently",
+      "Reading word by word instead of groups",
+      "Ignoring comprehension in favor of speed"
+    ],
+    "faqs": [
+      {
+        "question": "What is a normal reading speed?",
+        "answer": "The average is 200-300 words/minute. Fast readers reach 400-600, and experts may exceed 1000."
+      },
+      {
+        "question": "How can I increase my reading speed?",
+        "answer": "Use your finger or a pen as a guide, stop subvocalizing, expand your peripheral vision, and practice daily."
+      },
+      {
+        "question": "Does high speed affect comprehension?",
+        "answer": "Not necessarily. With practice, you can increase speed while maintaining or improving comprehension."
+      }
+    ]
+  }
+}

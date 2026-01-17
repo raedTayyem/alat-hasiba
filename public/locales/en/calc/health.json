@@ -1,0 +1,1220 @@
+{
+  "bmi-calculator": {
+    "title": "BMI Calculator - Body Mass Index Calculator Online",
+    "description": "Calculate your Body Mass Index (BMI) online to determine if your weight is healthy. Free BMI calculator with detailed charts and health recommendations. Essential tool for weight management and fitness tracking.",
+    "howItWorks": {
+      "title": "How the BMI Calculator Works",
+      "formula": "BMI = Weight (kg) / Height (m)²",
+      "explanation": "The Body Mass Index (BMI) calculator measures the ratio of your weight to your height squared to determine whether your weight falls within a healthy range. This globally recognized metric, endorsed by the World Health Organization, provides a quick screening tool for assessing nutritional status and identifying potential obesity-related health risks.",
+      "steps": [
+        { "name": "Enter Your Measurements", "text": "Input your height in centimeters and your weight in kilograms into the designated fields" },
+        { "name": "Automatic Calculation", "text": "The calculator converts your height to meters and applies the standard BMI formula to compute your index" },
+        { "name": "Receive Personalized Results", "text": "View your BMI value along with your weight classification category and tailored health recommendations" }
+      ]
+    },
+    "useCases": [
+      { "title": "Personal Weight Monitoring", "description": "Track your weight progress over time and monitor changes during weight loss or gain programs to stay on target with your health goals" },
+      { "title": "Medical Health Screening", "description": "Healthcare professionals use BMI as an initial screening tool to assess patients' nutritional status and identify those who may need further evaluation" },
+      { "title": "Fitness Program Planning", "description": "Personal trainers and fitness coaches use BMI to establish baseline measurements and set realistic, achievable goals for their clients" },
+      { "title": "Health Insurance Assessment", "description": "Insurance companies utilize BMI calculations to evaluate health risks when determining policy coverage and premium rates" }
+    ],
+    "seoTips": [
+      "Weigh yourself in the morning before eating or drinking for the most accurate and consistent readings",
+      "Use the same scale each time you measure to ensure consistency in your tracking",
+      "Combine BMI with waist circumference measurements for a more comprehensive health assessment",
+      "Consult your healthcare provider if your BMI falls outside the normal range for personalized guidance",
+      "Remember that BMI may not be accurate for athletes with high muscle mass or elderly individuals"
+    ],
+    "commonMistakes": [
+      "Entering height in centimeters when the field requires meters, leading to drastically incorrect results",
+      "Weighing yourself after meals or at different times of day, which causes inconsistent readings",
+      "Relying solely on BMI without considering muscle mass, body composition, or fat distribution",
+      "Comparing your BMI results to standards that may not be appropriate for your age, gender, or ethnicity"
+    ],
+    "faqs": [
+      { "question": "How is BMI calculated and what does it measure?", "answer": "BMI is calculated by dividing your weight in kilograms by your height in meters squared (BMI = kg/m²). For example, a person weighing 70 kg with a height of 1.75 m has a BMI of 22.9. It measures the relationship between weight and height to indicate whether you're underweight, normal weight, overweight, or obese." },
+      { "question": "What is considered a healthy BMI range?", "answer": "A healthy BMI range is typically between 18.5 and 24.9. Below 18.5 is classified as underweight, 25-29.9 is overweight, and 30 or above indicates obesity. However, these ranges may vary slightly based on age, gender, and ethnic background." },
+      { "question": "Is BMI an accurate measure for everyone?", "answer": "BMI is a useful screening tool but has limitations. It may overestimate body fat in muscular athletes and underestimate it in older adults who have lost muscle mass. For a complete health assessment, consider additional measures like waist circumference, body fat percentage, and overall fitness level." },
+      { "question": "How often should I check my BMI?", "answer": "For general health monitoring, checking your BMI once a month is sufficient. If you're actively working on weight management, weekly measurements can help track progress. Always measure under consistent conditions for accurate comparisons." },
+      { "question": "Can children and teenagers use this BMI calculator?", "answer": "Standard BMI calculations apply differently to children and teenagers because their body composition changes as they grow. For individuals under 18, BMI should be interpreted using age and gender-specific percentile charts, ideally with guidance from a pediatrician." }
+    ]
+  },
+  "calorie-calculator": {
+    "title": "Calorie Calculator - Daily Calorie Needs Calculator",
+    "description": "Calculate your daily calorie needs based on activity level, age, weight, and goals. Free calorie calculator for weight loss, maintenance, or muscle gain. Plan your nutrition effectively.",
+    "howItWorks": {
+      "title": "How the Calorie Calculator Works",
+      "formula": "TDEE = BMR × Activity Factor",
+      "explanation": "This calculator uses the scientifically validated Mifflin-St Jeor equation to calculate your Basal Metabolic Rate (BMR), which represents the calories your body burns at complete rest. It then multiplies this by an activity factor to determine your Total Daily Energy Expenditure (TDEE). The final result is adjusted based on your specific goals for weight loss, maintenance, or gain.",
+      "steps": [
+        { "name": "Calculate Basal Metabolic Rate", "text": "The calculator computes your BMR using your age, weight, height, and gender to determine how many calories your body needs for basic functions" },
+        { "name": "Apply Activity Multiplier", "text": "Your BMR is multiplied by a coefficient that reflects your daily physical activity level, from sedentary to very active" },
+        { "name": "Adjust for Your Goals", "text": "Calories are added or subtracted based on whether you want to lose weight, maintain, or gain muscle mass" }
+      ]
+    },
+    "useCases": [
+      { "title": "Weight Loss Planning", "description": "Determine the exact calorie deficit needed to lose weight safely and effectively without compromising your health or muscle mass" },
+      { "title": "Muscle Building Programs", "description": "Calculate the caloric surplus required to support muscle growth and optimize your bodybuilding or strength training results" },
+      { "title": "Weight Maintenance", "description": "Find your maintenance calories to sustain your current weight after reaching your goal without unwanted fluctuations" },
+      { "title": "Professional Nutrition Planning", "description": "Nutritionists and dietitians use these calculations to create personalized meal plans for clients with specific health objectives" }
+    ],
+    "seoTips": [
+      "Recalculate your calorie needs every 4-6 weeks as your weight and activity level change",
+      "Avoid reducing calories by more than 500-750 per day to prevent muscle loss and metabolic slowdown",
+      "Be honest about your activity level - most people overestimate their daily physical activity",
+      "Use the calculated values as a starting point and adjust based on how your body responds over time",
+      "Distribute your daily calories across 4-5 smaller meals to maintain steady energy levels throughout the day"
+    ],
+    "commonMistakes": [
+      "Selecting an activity level higher than reality, resulting in consuming excess calories",
+      "Failing to update calculations as your weight or fitness level changes over time",
+      "Ignoring hidden calories in beverages, condiments, and snacks when tracking intake",
+      "Believing all calories are equal regardless of their nutritional source and macronutrient composition"
+    ],
+    "faqs": [
+      { "question": "What is the difference between BMR and TDEE?", "answer": "BMR (Basal Metabolic Rate) is the number of calories your body burns at complete rest to maintain vital functions like breathing, circulation, and cell production. TDEE (Total Daily Energy Expenditure) includes your BMR plus all the calories burned through daily activities, exercise, and digestion of food." },
+      { "question": "How many calories should I cut to lose weight safely?", "answer": "A deficit of 500 calories per day typically results in approximately 0.5 kg (1 pound) of weight loss per week, which is considered a safe and sustainable rate. Deficits greater than 1000 calories daily are generally not recommended as they can lead to muscle loss and nutritional deficiencies." },
+      { "question": "Are these calorie calculations 100% accurate?", "answer": "These are scientifically-based estimates that work well for most people, but individual responses vary based on genetics, metabolism, and other factors. Use them as a reliable starting point and adjust based on your actual results over 2-4 weeks." },
+      { "question": "Should I eat back the calories I burn during exercise?", "answer": "It depends on your goals. For weight loss, eating back only 50-75% of exercise calories is often recommended since calorie burn estimates can be inflated. For maintenance or muscle building, you may need to consume most or all of those additional calories." },
+      { "question": "How do I know if I'm eating the right amount of calories?", "answer": "Monitor your weight weekly and track trends over 2-4 weeks. If you're losing about 0.5 kg per week on a weight loss plan, or maintaining stable weight on maintenance calories, your intake is likely appropriate. Adjust by 100-200 calories if progress stalls." }
+    ]
+  },
+  "ideal-weight-calculator": {
+    "title": "Ideal Weight Calculator - Calculate Your Healthy Weight",
+    "description": "Calculate your ideal weight based on height, age, and gender. Free ideal weight calculator using multiple formulas. Set realistic weight loss or gain goals.",
+    "howItWorks": {
+      "title": "How the Ideal Weight Calculator Works",
+      "formula": "Uses multiple validated medical formulas (Devine, Robinson, Miller, Hamwi)",
+      "explanation": "This calculator determines your ideal weight using four different medical formulas developed through decades of clinical research. Rather than providing a single number, it gives you a realistic healthy weight range, helping you set achievable and sustainable goals based on your height and gender.",
+      "steps": [
+        { "name": "Enter Your Information", "text": "Input your height in centimeters and select your gender for accurate calculations" },
+        { "name": "Apply Multiple Formulas", "text": "The calculator processes your data through four established medical formulas to determine ideal weight ranges" },
+        { "name": "Review Your Results", "text": "Receive an average ideal weight along with a healthy BMI-based range to guide your goals" }
+      ]
+    },
+    "useCases": [
+      { "title": "Setting Realistic Weight Goals", "description": "Establish achievable target weights based on medically validated standards rather than arbitrary or unrealistic expectations" },
+      { "title": "Nutrition and Diet Planning", "description": "Nutritionists and dietitians use ideal weight calculations to determine appropriate target weights when creating personalized dietary plans" },
+      { "title": "Progress Tracking", "description": "Monitor how close you are to your healthy weight range during weight loss or gain programs to stay motivated and on track" },
+      { "title": "Medical Assessments", "description": "Healthcare providers use ideal weight references as part of comprehensive health evaluations and treatment planning" }
+    ],
+    "seoTips": [
+      "Use the results as a guideline rather than a strict target that must be achieved",
+      "Consider your muscle mass - athletes and physically active individuals may weigh more than calculated ideals and still be healthy",
+      "Focus on achieving a weight within the healthy range rather than fixating on a single specific number",
+      "Consult with your healthcare provider to determine the most appropriate weight for your individual health situation"
+    ],
+    "commonMistakes": [
+      "Treating the calculated ideal weight as a mandatory goal that must be achieved at all costs",
+      "Ignoring individual differences in body frame, bone structure, and muscle mass",
+      "Comparing your weight to others without considering differences in height, build, and body composition",
+      "Pursuing the lowest possible weight instead of focusing on a healthy, sustainable weight"
+    ],
+    "faqs": [
+      { "question": "Why do different formulas give different ideal weight results?", "answer": "Each formula was developed based on different research studies and population samples over the years. The Devine formula was created in 1974 for medication dosing, while Robinson, Miller, and Hamwi formulas were developed for different clinical purposes. The average of all four provides a more balanced and realistic estimate for most people." },
+      { "question": "Is ideal weight the same throughout life?", "answer": "No, your ideal weight may change as you age and as your physical activity level, muscle mass, and overall health status evolve. It's normal for healthy weight ranges to shift slightly over time." },
+      { "question": "What if I'm heavier than my ideal weight but feel healthy?", "answer": "Ideal weight is a guiding indicator, not an absolute requirement. If your medical tests are normal, your fitness level is good, and you feel energetic, your current weight may be appropriate for you. Body composition matters more than the number on the scale." },
+      { "question": "Should I use ideal weight or BMI to set my goals?", "answer": "Both tools are complementary. Ideal weight gives you a specific target range, while BMI helps you understand where your current weight falls in terms of health categories. Using both together provides a more complete picture for goal setting." },
+      { "question": "How accurate are ideal weight calculations?", "answer": "These calculations are based on population averages and provide good estimates for most people. However, they don't account for individual variations in muscle mass, bone density, or body frame size. Consider them as helpful guidelines rather than precise targets." }
+    ]
+  },
+  "body-fat-calculator": {
+    "title": "Body Fat Calculator - Calculate Body Fat Percentage",
+    "description": "Calculate your body fat percentage using various measurement methods. Free body fat calculator for accurate fitness assessment. Track your body composition and health progress.",
+    "howItWorks": {
+      "title": "How the Body Fat Calculator Works",
+      "formula": "U.S. Navy Method Body Fat Formula",
+      "explanation": "This calculator uses the U.S. Navy Method, a validated technique for estimating body fat percentage using simple body circumference measurements. This method provides results that closely approximate those from more complex laboratory methods, without requiring specialized equipment. It accounts for gender differences in fat distribution patterns.",
+      "steps": [
+        { "name": "Take Accurate Measurements", "text": "Measure your neck and waist circumference (and hip circumference for women) using a flexible, non-stretch measuring tape" },
+        { "name": "Enter Your Data", "text": "Input all measurements along with your height, weight, age, and gender into the calculator" },
+        { "name": "Analyze Your Results", "text": "Receive your body fat percentage along with a fitness classification and breakdown of fat mass versus lean mass" }
+      ]
+    },
+    "useCases": [
+      { "title": "Fitness Level Assessment", "description": "Athletes and personal trainers use body fat measurements to evaluate body composition and track progress throughout training programs" },
+      { "title": "Weight Loss Monitoring", "description": "Individuals on diet programs use this to ensure they are losing fat rather than muscle mass, optimizing their results" },
+      { "title": "Health Risk Evaluation", "description": "Healthcare providers assess body fat levels to evaluate risks for conditions associated with excess body fat, such as heart disease and diabetes" },
+      { "title": "Competition Preparation", "description": "Bodybuilders and fitness competitors monitor body fat percentage during cutting phases to achieve optimal condition for competition" }
+    ],
+    "seoTips": [
+      "Take measurements in the morning before eating for the most accurate and consistent results",
+      "Use a flexible, non-stretch measuring tape and maintain consistent tension each time",
+      "Take each measurement three times and calculate the average for greater accuracy",
+      "Track your body fat monthly rather than weekly to observe meaningful changes",
+      "Focus on your personal improvement rather than comparing yourself to others"
+    ],
+    "commonMistakes": [
+      "Measuring immediately after exercise when muscles are temporarily enlarged from blood flow",
+      "Pulling the measuring tape too tight or leaving it too loose, affecting accuracy",
+      "Measuring waist at the wrong location - men should measure at navel level, women at the narrowest point",
+      "Expecting rapid changes - body fat percentage changes gradually over weeks and months"
+    ],
+    "faqs": [
+      { "question": "What is a healthy body fat percentage?", "answer": "For men, 10-20% is generally considered healthy, with athletes often at the lower end. For women, 18-28% is healthy due to essential fat requirements. Essential fat levels (minimum for survival) are 2-5% for men and 10-13% for women. These ranges vary by age and fitness goals." },
+      { "question": "How accurate is the U.S. Navy Method?", "answer": "The U.S. Navy Method is accurate within approximately 3-4% compared to more sophisticated laboratory methods like DEXA scans. It is considered more reliable than BMI for assessing actual body composition and fat distribution." },
+      { "question": "How often should I measure my body fat?", "answer": "Once every 4-6 weeks is sufficient for most people. Measuring more frequently can be discouraging since changes occur gradually. Focus on long-term trends rather than short-term fluctuations." },
+      { "question": "Why do I need different measurements for men and women?", "answer": "Men and women store fat differently due to hormonal differences. Women naturally carry more essential fat, particularly around the hips and thighs. The formula accounts for these differences by requiring hip measurements for women." },
+      { "question": "Can body fat percentage be too low?", "answer": "Yes, extremely low body fat can be dangerous. Essential fat is required for hormone production, organ protection, and temperature regulation. Athletes should not go below 5% for men or 12% for women, and even these levels should only be maintained temporarily." }
+    ]
+  },
+  "pregnancy-calculator": {
+    "title": "Pregnancy Calculator - Due Date and Week Calculator",
+    "description": "Calculate your due date and pregnancy weeks online. Free pregnancy calculator with trimester breakdown and fetal development milestones. Essential tool for expecting mothers.",
+    "howItWorks": {
+      "title": "How the Pregnancy Calculator Works",
+      "formula": "Due Date = Last Menstrual Period (LMP) + 280 days (Naegele's Rule)",
+      "explanation": "This calculator uses Naegele's Rule, a medically established method for estimating the expected due date. Pregnancy is counted from the first day of your last menstrual period (LMP), with 280 days (40 weeks) added to calculate the estimated delivery date. This method is used by healthcare providers worldwide as the standard approach for pregnancy dating.",
+      "steps": [
+        { "name": "Enter Your LMP Date", "text": "Input the first day of your last menstrual period - this is the starting point for all pregnancy calculations" },
+        { "name": "Calculate Pregnancy Duration", "text": "The calculator determines how many weeks and days have passed since your LMP to establish your current stage" },
+        { "name": "View Pregnancy Details", "text": "Receive your estimated due date, current trimester, and appropriate weight gain recommendations for your stage" }
+      ]
+    },
+    "useCases": [
+      { "title": "Personal Pregnancy Tracking", "description": "Expecting mothers use this to monitor their pregnancy week by week and follow their baby's developmental milestones" },
+      { "title": "Delivery Planning", "description": "Plan for maternity leave, arrange childcare for other children, and prepare supplies well in advance of your due date" },
+      { "title": "Healthcare Coordination", "description": "Medical clinics use LMP-based calculations as an initial estimate before confirming gestational age with ultrasound" },
+      { "title": "Weight Management", "description": "Track appropriate weight gain for each trimester to support healthy fetal development and maternal health" }
+    ],
+    "seoTips": [
+      "Record your last menstrual period date as soon as you discover your pregnancy - it is essential for accurate calculations",
+      "Remember that the due date is an estimate - only about 5% of babies are born on their exact due date",
+      "Use this calculator for personal tracking but rely on ultrasound confirmation from your healthcare provider",
+      "Consult your doctor if your menstrual cycles are irregular for more precise dating methods"
+    ],
+    "commonMistakes": [
+      "Confusing conception date with last menstrual period date - pregnancy is calculated from the LMP, not conception",
+      "Worrying excessively if delivery does not occur on the exact due date - this is completely normal",
+      "Not remembering the menstrual period date accurately, leading to less precise calculations",
+      "Relying solely on calculator estimates without regular prenatal medical care and ultrasound confirmation"
+    ],
+    "faqs": [
+      { "question": "How accurate is the calculated due date?", "answer": "The due date is an estimate based on the average pregnancy duration of 40 weeks. Most deliveries occur between weeks 38 and 42, which is considered full term. A first-trimester ultrasound typically provides the most accurate due date estimate." },
+      { "question": "What if my menstrual periods are irregular?", "answer": "If your cycles are irregular, LMP-based calculations may be less accurate. In such cases, early ultrasound dating is the preferred method for determining gestational age and estimating your due date more precisely." },
+      { "question": "How do I calculate if I do not remember my LMP date?", "answer": "Try to recall any events or circumstances that might help you remember the approximate date. If you cannot remember, an early ultrasound can accurately determine gestational age based on fetal measurements." },
+      { "question": "Does the recommended weight gain apply to everyone?", "answer": "Weight gain recommendations vary based on your pre-pregnancy BMI. Women who were underweight before pregnancy may need to gain more, while those who were overweight may be advised to gain less. Always consult your healthcare provider for personalized recommendations." },
+      { "question": "When is each trimester and what happens during them?", "answer": "The first trimester spans weeks 1-12 and involves major organ formation. The second trimester (weeks 13-27) is when you may feel fetal movement and experience less nausea. The third trimester (weeks 28-40) involves rapid fetal growth and final preparations for birth." }
+    ]
+  },
+  "protein-calculator": {
+    "title": "Protein Calculator - Daily Protein Intake Calculator",
+    "description": "Calculate your daily protein needs based on weight, activity level, and fitness goals. Free protein calculator for muscle building, weight loss, or maintenance. Optimize your nutrition plan.",
+    "howItWorks": {
+      "title": "How the Protein Calculator Works",
+      "formula": "Daily Protein = Body Weight × Activity and Goal Factor (0.8 - 2.2 g/kg)",
+      "explanation": "This calculator determines your optimal daily protein intake based on your current body weight, physical activity level, and specific fitness goals. Protein requirements vary significantly between sedentary individuals and professional athletes, and between those focused on weight loss versus muscle building. The calculator applies scientifically-backed multipliers to provide personalized recommendations.",
+      "steps": [
+        { "name": "Enter Your Body Weight", "text": "Input your current weight in kilograms as the baseline for protein calculations" },
+        { "name": "Select Activity Level and Goal", "text": "Choose your physical activity level and primary goal (weight loss, maintenance, or muscle gain)" },
+        { "name": "View Your Requirements", "text": "Receive your daily protein target in grams along with recommended distribution across meals" }
+      ]
+    },
+    "useCases": [
+      { "title": "Muscle Building and Bodybuilding", "description": "Athletes and bodybuilders use protein calculations to ensure adequate intake for muscle protein synthesis during bulking phases" },
+      { "title": "Weight Loss Support", "description": "Individuals on calorie-restricted diets use higher protein targets to preserve lean muscle mass while losing body fat" },
+      { "title": "Healthy Aging", "description": "Older adults use protein guidelines to prevent age-related muscle loss (sarcopenia) and maintain strength and mobility" },
+      { "title": "Injury Recovery", "description": "Those recovering from surgery, illness, or injury benefit from increased protein intake to accelerate tissue healing and recovery" }
+    ],
+    "seoTips": [
+      "Distribute protein intake across 4-5 meals daily for optimal absorption, aiming for 20-40 grams per meal",
+      "Consume protein within one hour after exercise to maximize muscle protein synthesis and recovery",
+      "Vary your protein sources between animal and plant-based options to obtain all essential amino acids",
+      "Drink adequate water throughout the day - your body needs extra hydration to properly digest and metabolize protein"
+    ],
+    "commonMistakes": [
+      "Consuming all daily protein in one or two meals, which reduces absorption efficiency and muscle building potential",
+      "Relying exclusively on supplements instead of whole food sources that provide additional nutrients",
+      "Focusing only on protein quantity while ignoring protein quality and amino acid profiles",
+      "Not increasing protein intake when starting a new exercise program or during periods of increased physical demand"
+    ],
+    "faqs": [
+      { "question": "Can I consume too much protein?", "answer": "Yes, but excess protein beyond your needs is typically converted to energy or stored as fat. Healthy kidneys can process substantial amounts of protein, but individuals with existing kidney conditions should consult their healthcare provider about appropriate limits." },
+      { "question": "What are the best sources of protein?", "answer": "High-quality protein sources include chicken breast, fish, eggs, lean beef, legumes, tofu, Greek yogurt, and cottage cheese. Variety is important to ensure you obtain all essential amino acids and additional nutritional benefits." },
+      { "question": "Do I need protein supplements?", "answer": "Supplements are not necessary if your diet provides adequate protein from whole foods. However, they can be convenient for professional athletes, those with very high requirements, or individuals who struggle to meet their needs through regular meals." },
+      { "question": "How much protein can my body absorb per meal?", "answer": "Research suggests that 20-40 grams of high-quality protein per meal optimally stimulates muscle protein synthesis. Consuming more in a single meal is not harmful but may not provide additional muscle-building benefits." },
+      { "question": "Should vegetarians and vegans consume more protein?", "answer": "Plant proteins are generally less bioavailable than animal proteins, so vegetarians and vegans may benefit from aiming for slightly higher total intake and combining different plant sources to ensure complete amino acid profiles." }
+    ]
+  },
+  "water-intake-calculator": {
+    "title": "Water Intake Calculator - Daily Hydration Calculator",
+    "description": "Calculate your daily water intake needs based on weight and activity level. Free hydration calculator to ensure optimal water consumption. Stay healthy and properly hydrated.",
+    "howItWorks": {
+      "title": "How the Water Intake Calculator Works",
+      "formula": "Base Requirement = Body Weight × 30-35 ml + Activity and Climate Adjustments",
+      "explanation": "This calculator determines your optimal daily water intake by using your body weight as a baseline, then adding additional amounts based on your physical activity level and the surrounding climate conditions. Proper hydration is essential for virtually every bodily function, from temperature regulation to nutrient transport and cognitive performance.",
+      "steps": [
+        { "name": "Enter Your Body Weight", "text": "Input your weight in kilograms to calculate your baseline hydration requirement" },
+        { "name": "Select Activity Level and Climate", "text": "Choose your daily physical activity level and the temperature of your environment" },
+        { "name": "View Your Results", "text": "Receive your recommended daily water intake in liters, plus the equivalent in glasses and bottles for easy tracking" }
+      ]
+    },
+    "useCases": [
+      { "title": "Daily Health Maintenance", "description": "Everyone can use this calculator to ensure they drink adequate water for optimal health, energy levels, and overall well-being" },
+      { "title": "Athletic Performance", "description": "Athletes use hydration calculations to replace fluids lost during training and competition, maintaining peak performance" },
+      { "title": "Weight Management", "description": "Those on weight loss programs benefit from adequate hydration, which supports metabolism and helps distinguish hunger from thirst" },
+      { "title": "Hot Climate Adaptation", "description": "Residents of warm climates and those working outdoors use this to prevent dehydration during summer months and heat waves" }
+    ],
+    "seoTips": [
+      "Drink a glass of water immediately upon waking to rehydrate your body after sleep",
+      "Carry a reusable water bottle throughout the day and set phone reminders if needed",
+      "Monitor your urine color as a hydration indicator - it should be light yellow, similar to diluted lemonade",
+      "Increase water intake on hot days and during exercise to compensate for additional fluid loss",
+      "Remember that tea and coffee count partially toward hydration, but pure water is the optimal choice"
+    ],
+    "commonMistakes": [
+      "Drinking large amounts of water at once instead of distributing intake throughout the day",
+      "Relying solely on thirst as an indicator - by the time you feel thirsty, you may already be mildly dehydrated",
+      "Replacing water with sugary sodas or sweetened beverages that can contribute to other health issues",
+      "Ignoring increased hydration needs during hot weather, high altitude, or intense physical activity"
+    ],
+    "faqs": [
+      { "question": "Can I drink too much water?", "answer": "Yes, but water intoxication (hyponatremia) is rare and typically occurs only when extremely large amounts are consumed in a short period. Distributing your water intake evenly throughout the day eliminates this risk for most people." },
+      { "question": "Do other beverages count toward my water intake?", "answer": "Partially yes. Tea, coffee, milk, and juice all contribute to hydration. However, caffeinated beverages have mild diuretic effects, and sugary drinks add unnecessary calories. Plain water remains the healthiest choice for primary hydration." },
+      { "question": "How do I know if I am drinking enough water?", "answer": "The best indicator is your urine color - it should be pale yellow, similar to diluted lemon juice. Dark yellow or amber urine typically indicates that you need to increase your water intake." },
+      { "question": "Does water temperature matter for hydration?", "answer": "Room temperature or cool water is absorbed slightly faster, but the difference is minimal. Drink water at whatever temperature you find most enjoyable, as you are more likely to consume adequate amounts if you enjoy it." },
+      { "question": "Should I drink more water if I am trying to lose weight?", "answer": "Yes, adequate hydration supports weight loss in several ways: it helps distinguish hunger from thirst, slightly boosts metabolism, supports exercise performance, and aids in the elimination of waste products from fat breakdown." }
+    ]
+  },
+  "bmi": {
+    "title": "Body Mass Index (BMI) Calculator",
+    "description": "Simple tool to calculate BMI and evaluate your health status.",
+    "keywords": "BMI, ideal weight, obesity, health",
+    "faqs": [
+      {
+        "question": "How is BMI calculated?",
+        "answer": "BMI is calculated by dividing your weight in kilograms by your height in meters squared. The formula is: BMI = weight (kg) / height (m)^2. For example, if you weigh 70 kg and are 1.75 m tall: BMI = 70 / (1.75)^2 = 22.9."
+      },
+      {
+        "question": "What is a healthy BMI range?",
+        "answer": "A healthy BMI range is typically between 18.5 and 24.9. Below 18.5 is considered underweight, 25-29.9 is overweight, and 30 or above is classified as obese. However, BMI does not account for muscle mass or body composition."
+      },
+      {
+        "question": "Is BMI accurate for everyone?",
+        "answer": "BMI is a useful screening tool but has limitations. It may overestimate body fat in athletes with high muscle mass and underestimate it in older adults. For a complete health assessment, consider additional measures like waist circumference and body fat percentage."
+      }
+    ],
+    "inputs": {
+      "enter_details": "Enter your details",
+      "height": "Height",
+      "weight": "Weight",
+      "age": "Age",
+      "gender": "Gender",
+      "male": "Male",
+      "female": "Female"
+    },
+    "tooltips": {
+      "height": "Enter your height in centimeters",
+      "weight": "Enter your weight in kilograms",
+      "age": "Enter your age in years",
+      "gender": "Select your gender for more accurate results"
+    },
+    "placeholders": {
+      "height": "e.g., 175",
+      "weight": "e.g., 70",
+      "age": "e.g., 30"
+    },
+    "results": {
+      "your_bmi": "Your BMI is",
+      "category": "Category",
+      "range_title": "BMI Ranges",
+      "ideal_weight": "Ideal Weight for You",
+      "ideal_range": "Between",
+      "underweight": "Underweight",
+      "normal": "Normal Weight",
+      "overweight": "Overweight",
+      "obese_1": "Obesity (Class 1)",
+      "obese_2": "Obesity (Class 2)",
+      "obese_3": "Obese (Class 3)"
+    },
+    "recommendations": {
+      "underweight": "It is recommended to increase calorie intake and consult a nutritionist to reach a healthy weight.",
+      "normal": "Your weight is ideal! Maintain a balanced diet and exercise regularly.",
+      "overweight": "It is recommended to follow a balanced diet and increase physical activity to lose weight.",
+      "obese": "Highly recommended to consult a doctor or nutritionist to develop a healthy weight loss plan."
+    },
+    "categories": {
+      "underweight_range": "Less than 18.5",
+      "normal_range": "18.5 - 24.9",
+      "overweight_range": "25 - 29.9",
+      "obese_1_range": "30 - 34.9",
+      "obese_2_range": "35 - 39.9",
+      "obese_3_range": "40 or more",
+      "poor_range": "Less than 18.5",
+      "overweight_range_alt": "25 - 29.9"
+    },
+    "errors": {
+      "all_fields": "Please enter height and weight",
+      "positive": "Please enter valid values greater than zero"
+    },
+    "empty_state": {
+      "title": "Enter your details to start",
+      "subtitle": "The result will appear here after calculation"
+    },
+    "howto": {
+      "name": "How to Calculate Your BMI",
+      "description": "Follow these simple steps to calculate your Body Mass Index",
+      "steps": [
+        {
+          "name": "Enter your height",
+          "text": "Enter your height in centimeters (cm) in the height field"
+        },
+        {
+          "name": "Enter your weight",
+          "text": "Enter your current weight in kilograms (kg) in the weight field"
+        },
+        {
+          "name": "Optional: Enter age and gender",
+          "text": "For more personalized results, enter your age and select your gender"
+        },
+        {
+          "name": "View your results",
+          "text": "Your BMI will be calculated automatically along with your weight category and health recommendations"
+        }
+      ]
+    },
+    "howItWorks": {
+      "title": "How the BMI Calculator Works",
+      "formula": "BMI = Weight (kg) / Height (m)²",
+      "explanation": "The BMI calculator measures the ratio of your weight to height to determine if your weight is healthy. This index is globally recognized by the World Health Organization for assessing nutritional status and identifying obesity risks.",
+      "steps": [
+        { "name": "Enter Data", "text": "Input your height in centimeters and weight in kilograms in the designated fields" },
+        { "name": "Automatic Calculation", "text": "The calculator converts height to meters and applies the BMI formula" },
+        { "name": "View Results", "text": "Get your BMI value along with weight classification and personalized health recommendations" }
+      ]
+    },
+    "useCases": [
+      { "title": "Personal Weight Monitoring", "description": "Individuals use it to regularly monitor their weight and track progress in weight loss or gain programs" },
+      { "title": "Initial Medical Assessment", "description": "Doctors and nutritionists use it as a preliminary screening tool to assess patients' nutritional status" },
+      { "title": "Fitness Programs", "description": "Personal trainers use it to establish baseline measurements and set realistic goals for clients" },
+      { "title": "Health Insurance", "description": "Insurance companies use it to assess health risks when issuing policies" }
+    ],
+    "seoTips": [
+      "Weigh yourself in the morning before eating for the most accurate reading",
+      "Use the same scale each time to ensure consistent measurements",
+      "Don't rely on BMI alone - combine it with waist circumference for comprehensive assessment",
+      "Consult your doctor if your BMI falls outside the normal range",
+      "Remember that BMI may not be accurate for athletes or elderly individuals"
+    ],
+    "commonMistakes": [
+      "Entering height in centimeters in the meters field, giving incorrect results",
+      "Weighing yourself after eating or at different times of day",
+      "Relying solely on BMI without considering muscle mass or fat distribution",
+      "Comparing your results to standards inappropriate for your age or gender"
+    ]
+  },
+  "calorie": {
+    "title": "Calorie Calculator",
+    "description": "Calculate your daily calorie needs based on metabolic rate, activity level, and weight goals.",
+    "inputs": {
+      "age": "Age",
+      "gender": "Gender",
+      "weight": "Weight (kg)",
+      "height": "Height (cm)",
+      "activity_level": "Activity Level",
+      "goal": "Goal",
+      "male": "Male",
+      "female": "Female",
+      "activity": {
+        "sedentary": "Sedentary (little or no exercise)",
+        "light": "Light activity (exercise 1-3 days/week)",
+        "moderate": "Moderate activity (exercise 3-5 days/week)",
+        "active": "Active (exercise 6-7 days/week)",
+        "very_active": "Very active (daily intense exercise)"
+      },
+      "goals": {
+        "lose_2": "Lose 1 kg per week",
+        "lose_1": "Lose 0.5 kg per week",
+        "lose_05": "Lose 0.25 kg per week",
+        "maintain": "Maintain weight",
+        "gain_05": "Gain 0.25 kg per week",
+        "gain_1": "Gain 0.5 kg per week"
+      }
+    },
+    "tooltips": {
+      "gender": "Gender affects basal metabolic rate",
+      "age": "Age in years",
+      "weight": "Current body weight in kilograms",
+      "height": "Height in centimeters",
+      "activity": "Your usual daily activity",
+      "goal": "What do you want to achieve for your weight?"
+    },
+    "results": {
+      "daily_target": "Your Daily Calorie Target",
+      "calories_per_day": "calories / day",
+      "energy_breakdown": "Energy Analysis",
+      "bmr": "Basal Metabolic Rate (BMR)",
+      "tdee": "Total Daily Energy Expenditure (TDEE)",
+      "daily_macros": "Daily Macros",
+      "protein": "Protein",
+      "carbs": "Carbs",
+      "fat": "Fat",
+      "calories": "calories",
+      "calculation_method": "Calculation Method",
+      "method_desc": "This calculator uses the Mifflin-St Jeor formula to estimate metabolic rate."
+    },
+    "errors": {
+      "all_fields": "Please enter all required fields",
+      "age_range": "Age must be between 15 and 100 years",
+      "weight_positive": "Weight must be a positive and realistic value",
+      "height_positive": "Height must be a positive and realistic value"
+    },
+    "about": {
+      "title": "What is a Calorie Calculator?",
+      "desc": "This calculator helps you find out how much energy your body needs daily based on your biological characteristics and activity level.",
+      "how_it_works": "How it works?",
+      "step_1": "Calculates Basal Metabolic Rate (BMR).",
+      "step_2": "Multiplies BMR by the physical activity coefficient.",
+      "step_3": "Adjusts values based on your goal (loss or gain weight).",
+      "step_4": "Provides a suggested breakdown of protein, carbs, and fat."
+    },
+    "howItWorks": {
+      "title": "How the Calorie Calculator Works",
+      "formula": "TDEE = BMR × Activity Factor",
+      "explanation": "This calculator uses the Mifflin-St Jeor equation to calculate your Basal Metabolic Rate (BMR), then multiplies it by an activity factor to get your Total Daily Energy Expenditure (TDEE). The result is adjusted based on your goal for weight loss or gain.",
+      "steps": [
+        { "name": "Calculate BMR", "text": "The calculator computes your basal metabolic rate based on your age, weight, height, and gender" },
+        { "name": "Apply Activity Factor", "text": "BMR is multiplied by a coefficient reflecting your daily physical activity level" },
+        { "name": "Adjust for Goals", "text": "Calories are added or subtracted based on your goal (lose/gain/maintain weight)" }
+      ]
+    },
+    "useCases": [
+      { "title": "Weight Loss", "description": "Used by those wanting to lose weight to determine calories needed for a safe and effective caloric deficit" },
+      { "title": "Muscle Building", "description": "Athletes use it to determine the caloric surplus needed for building muscle mass" },
+      { "title": "Weight Maintenance", "description": "Used by those who've reached their ideal weight to maintain it without fluctuation" },
+      { "title": "Nutritional Planning", "description": "Nutritionists use it to create customized meal plans for clients" }
+    ],
+    "seoTips": [
+      "Recalculate your calories every 4-6 weeks as your weight changes",
+      "Don't reduce calories by more than 500-750 per day to avoid muscle loss",
+      "Choose your activity level accurately - most people overestimate their activity",
+      "Use the results as a starting point and adjust based on your body's response",
+      "Distribute your calories across 4-5 meals daily to maintain steady energy levels"
+    ],
+    "commonMistakes": [
+      "Selecting an activity level higher than reality, resulting in excess calories",
+      "Not updating calculations as weight or activity level changes",
+      "Ignoring hidden calories in beverages and snacks",
+      "Believing all calories are equal regardless of their source"
+    ],
+    "faqs": [
+      { "question": "What's the difference between BMR and TDEE?", "answer": "BMR is the calories your body burns at complete rest to maintain vital functions, while TDEE includes BMR plus calories burned through daily activities and exercise." },
+      { "question": "How many calories should I cut for weight loss?", "answer": "A 500-calorie daily deficit leads to approximately 0.5 kg loss per week, which is a safe and sustainable rate. A deficit greater than 1000 calories daily is not recommended." },
+      { "question": "Are these numbers 100% accurate?", "answer": "They are scientifically accurate estimates, but individual responses vary. Use them as a starting point and adjust based on your actual results." }
+    ]
+  },
+  "ideal_weight": {
+    "title": "Ideal Weight Calculator",
+    "description": "Calculate estimated ideal weight based on height and gender using several medical formulas.",
+    "inputs": {
+      "gender": "Gender",
+      "height": "Height (cm)",
+      "male": "Male",
+      "female": "Female"
+    },
+    "tooltips": {
+      "gender": "Gender affects muscle and bone mass distribution",
+      "height": "Height in centimeters"
+    },
+    "results": {
+      "average_ideal": "Average Ideal Weight",
+      "healthy_range": "Healthy Range (BMI 18.5 - 25)",
+      "by_formula": "Ideal Weight by Different Formulas"
+    },
+    "formulas": {
+      "devine": "Devine Formula",
+      "robinson": "Robinson Formula",
+      "miller": "Miller Formula",
+      "hamwi": "Hamwi Formula"
+    },
+    "errors": {
+      "enter_height": "Please enter height",
+      "height_range": "Height must be between 140 and 250 cm"
+    },
+    "about": {
+      "title": "What is Ideal Weight?",
+      "desc": "Ideal weight is an estimated value that helps determine the appropriate healthy weight for your height and gender.",
+      "formulas_used": "Formulas Used",
+      "note_title": "Note",
+      "note_desc": "Ideal weight is just a guidance indicator. Other factors should be considered such as muscle mass, fat percentage and distribution."
+    },
+    "howItWorks": {
+      "title": "How the Ideal Weight Calculator Works",
+      "formula": "Uses multiple medical formulas (Devine, Robinson, Miller, Hamwi)",
+      "explanation": "This tool calculates ideal weight using four different medical formulas developed through decades of scientific research. It gives you a realistic healthy weight range rather than a single number, helping you set achievable goals.",
+      "steps": [
+        { "name": "Enter Data", "text": "Input your height in centimeters and select your gender" },
+        { "name": "Apply Formulas", "text": "The tool calculates ideal weight using 4 different medical formulas" },
+        { "name": "View Results", "text": "Get the average ideal weight and a healthy range based on BMI" }
+      ]
+    },
+    "useCases": [
+      { "title": "Setting Weight Goals", "description": "Used by those who want to set realistic weight targets based on reliable medical standards" },
+      { "title": "Nutritional Planning", "description": "Nutritionists use it to determine target weight when creating dietary plans" },
+      { "title": "Progress Tracking", "description": "Used by those following weight loss or gain programs to know the distance remaining to their goal" },
+      { "title": "Medical Assessment", "description": "Doctors use it as a reference when evaluating patients' health status" }
+    ],
+    "seoTips": [
+      "Use results as a guideline, not a strict target",
+      "Consider your muscle mass - athletes may weigh more than ideal and that's normal",
+      "Focus on the healthy range rather than a single specific number",
+      "Consult your doctor to determine the most suitable weight for your specific health condition"
+    ],
+    "commonMistakes": [
+      "Treating the calculated ideal weight as a mandatory goal to achieve",
+      "Ignoring individual differences in body structure and muscle mass",
+      "Comparing your weight to others without considering differences in height and build",
+      "Pursuing the lowest possible weight instead of a healthy weight"
+    ],
+    "faqs": [
+      { "question": "Why do different formulas give different results?", "answer": "Each formula was developed based on different studies and diverse population samples. The average between them gives you a more accurate and realistic estimate." },
+      { "question": "Is ideal weight fixed for life?", "answer": "No, ideal weight may change with aging and changes in physical activity level and muscle mass." },
+      { "question": "What if my weight is higher than ideal but I'm in good health?", "answer": "Ideal weight is a guiding indicator. If your medical tests are normal and your fitness level is good, your weight may be appropriate for you." }
+    ]
+  },
+  "body_fat": {
+    "title": "Body Fat Calculator",
+    "description": "Calculate body fat percentage using the U.S. Navy method.",
+    "inputs": {
+      "gender": "Gender",
+      "age": "Age",
+      "weight": "Weight (kg)",
+      "height": "Height (cm)",
+      "neck": "Neck Circumference (cm)",
+      "waist": "Waist Circumference (cm)",
+      "hip": "Hip Circumference (cm)",
+      "male": "Male",
+      "female": "Female"
+    },
+    "tooltips": {
+      "gender": "Gender affects calculation method and fat distribution",
+      "age": "Age is used to determine health classification",
+      "weight": "Current body weight in kilograms",
+      "height": "Height in centimeters",
+      "neck": "Measure neck circumference below the larynx",
+      "waist": "Measure waist circumference at navel level",
+      "hip": "Measure hip circumference at widest point (for females)"
+    },
+    "categories": {
+      "essential_fat": "Essential Fat",
+      "athletic": "Athletic",
+      "fit": "Fit",
+      "average": "Average",
+      "obese": "Obese"
+    },
+    "results": {
+      "percentage": "Body Fat Percentage",
+      "body_composition": "Body Composition",
+      "fat_mass": "Fat Mass",
+      "lean_mass": "Lean Mass (Muscle)",
+      "method_title": "Calculation Method",
+      "method_desc": "This calculator uses the U.S. Navy Method to estimate body fat percentage."
+    },
+    "errors": {
+      "all_fields": "Please enter all required fields",
+      "hip_required": "Hip circumference is required for females",
+      "age_range": "Age must be between 15 and 100 years",
+      "positive_measurements": "All measurements must be positive values"
+    },
+    "guide": {
+      "title": "Measurement Guide",
+      "neck": "Neck: Measure directly below the larynx.",
+      "waist": "Waist: Measure at navel level for men, at narrowest point for women.",
+      "hip": "Hip: (For women) Measure at the widest point of the buttocks.",
+      "tape": "Use a flexible and non-elastic tape measure."
+    },
+    "howItWorks": {
+      "title": "How the Body Fat Calculator Works",
+      "formula": "U.S. Navy Method",
+      "explanation": "This calculator uses the U.S. Navy approved method to estimate body fat percentage using body circumference measurements. This method is accurate and easy to apply without special equipment, providing results close to laboratory methods.",
+      "steps": [
+        { "name": "Take Measurements", "text": "Measure neck and waist circumference (and hip for women) using a flexible tape measure" },
+        { "name": "Enter Data", "text": "Input the measurements along with your height, weight, and gender" },
+        { "name": "Analyze Results", "text": "Get your body fat percentage with fitness classification and fat/lean mass breakdown" }
+      ]
+    },
+    "useCases": [
+      { "title": "Fitness Assessment", "description": "Athletes and trainers use it to evaluate body composition and track progress in training programs" },
+      { "title": "Weight Loss Programs", "description": "Used by dieters to ensure they're losing fat, not muscle" },
+      { "title": "Health Evaluation", "description": "Doctors use it to assess risks of diseases associated with excess body fat" },
+      { "title": "Competition Preparation", "description": "Bodybuilders use it to monitor body fat percentage during cutting phases" }
+    ],
+    "seoTips": [
+      "Measure in the morning before eating for more accurate results",
+      "Use a flexible, non-stretch measuring tape",
+      "Take each measurement 3 times and calculate the average",
+      "Track body fat monthly rather than weekly to notice real changes",
+      "Don't compare yourself to others - focus on your personal improvement"
+    ],
+    "commonMistakes": [
+      "Measuring after exercise when muscles are pumped",
+      "Pulling the tape too tight or leaving it too loose",
+      "Measuring waist at the wrong location (should be at navel for men)",
+      "Expecting quick results - changing body fat percentage takes time"
+    ],
+    "faqs": [
+      { "question": "What is a healthy body fat percentage?", "answer": "For men: 10-20% is considered healthy. For women: 18-28%. Athletes may have lower percentages. Essential fat levels necessary for life are 2-5% for men and 10-13% for women." },
+      { "question": "Is this method accurate?", "answer": "The U.S. Navy method is accurate within 3-4% compared to laboratory methods. It's more accurate than BMI for assessing body composition." },
+      { "question": "How often should I measure body fat?", "answer": "Once every 4-6 weeks is sufficient. Frequent measuring can be frustrating because changes happen slowly." }
+    ]
+  },
+  "pregnancy": {
+    "title": "Pregnancy Calculator",
+    "description": "Calculate pregnancy weeks and days, expected due date, and weight gain recommendations.",
+    "inputs": {
+      "lmp_label": "Last Menstrual Period (LMP)",
+      "lmp_tooltip": "Enter the first day of your last menstrual period",
+      "current_date_label": "Current Date",
+      "current_date_tooltip": "Today's date (or the date you want to calculate for)"
+    },
+    "results": {
+      "duration": "Pregnancy Duration",
+      "weeks": "Week",
+      "days": "Day",
+      "trimester": "Trimester",
+      "details_title": "Pregnancy Details",
+      "due_date": "Expected Due Date",
+      "conception_date": "Estimated Conception Date",
+      "weight_gain": "Recommended Weight Gain Range"
+    },
+    "trimesters": {
+      "first": "First Trimester",
+      "second": "Second Trimester",
+      "third": "Third Trimester"
+    },
+    "recommendations": {
+      "title": "Weight Gain Recommendation",
+      "t1": "0.5 - 2 kg total in the first trimester",
+      "t2": "~0.5 kg weekly (5-7 kg by end of second trimester)",
+      "t3": "~0.5 kg weekly (11-16 kg total until birth)",
+      "disclaimer": "Note: Weight gain recommendations vary based on pre-pregnancy BMI. Consult a healthcare provider for personalized guidance."
+    },
+    "errors": {
+      "lmp_required": "Last Menstrual Period date is required",
+      "lmp_future": "LMP date cannot be in the future",
+      "too_long": "Pregnancy duration exceeds 42 weeks"
+    },
+    "about": {
+      "title": "About Pregnancy Calculation",
+      "desc": "This calculator determines pregnancy weeks, current trimester, and weight gain recommendations based on the date of your Last Menstrual Period (LMP).",
+      "info_title": "Pregnancy Information",
+      "info_1": "Pregnancy is calculated from the first day of your last menstrual period.",
+      "info_2": "Full-term pregnancy is 40 weeks (280 days).",
+      "info_3": "Weight gain varies by each trimester and your pre-pregnancy BMI."
+    },
+    "howItWorks": {
+      "title": "How the Pregnancy Calculator Works",
+      "formula": "Due Date = LMP Date + 280 days (Naegele's Rule)",
+      "explanation": "This calculator uses Naegele's Rule, a medically approved method for calculating the expected due date. It starts counting pregnancy from the first day of your last menstrual period and adds 280 days (40 weeks) to estimate the due date.",
+      "steps": [
+        { "name": "Enter Period Date", "text": "Enter the first day of your last menstrual period" },
+        { "name": "Calculate Duration", "text": "The calculator computes the number of weeks and days since that date" },
+        { "name": "View Details", "text": "Get your expected due date, current trimester, and weight gain recommendations" }
+      ]
+    },
+    "useCases": [
+      { "title": "Personal Pregnancy Tracking", "description": "Pregnant women use it to know their pregnancy week and follow fetal development" },
+      { "title": "Birth Planning", "description": "Helps in preparing for delivery, arranging maternity leave, and getting supplies ready" },
+      { "title": "Medical Follow-up", "description": "Clinics use it as a preliminary tool before confirmation by ultrasound" },
+      { "title": "Weight Gain Tracking", "description": "Helps in knowing the appropriate weight gain for each stage of pregnancy" }
+    ],
+    "seoTips": [
+      "Record your last period date as soon as you learn about your pregnancy - it's essential for calculations",
+      "Remember that the due date is an estimate - only 5% of babies are born on their due date",
+      "Use the calculator for tracking but rely on ultrasound for confirmation",
+      "Consult your doctor if your periods are irregular for more accurate calculations"
+    ],
+    "commonMistakes": [
+      "Confusing conception date with last period date (pregnancy is calculated from the period)",
+      "Worrying if delivery doesn't happen on the due date - this is completely normal",
+      "Not remembering the period date accurately, leading to inaccurate results",
+      "Relying solely on the calculator without regular medical follow-up"
+    ],
+    "faqs": [
+      { "question": "Is the calculated due date accurate?", "answer": "It's an estimate based on average pregnancy duration (40 weeks). Most deliveries occur between weeks 38 and 42. First trimester ultrasound provides a more accurate estimate." },
+      { "question": "What if my periods are irregular?", "answer": "Calculations may be less accurate. In this case, early ultrasound is best for determining gestational age and due date." },
+      { "question": "How do I calculate if I don't remember my period date?", "answer": "Try to remember any events associated with that time. If you can't remember, early ultrasound can accurately determine gestational age." },
+      { "question": "Does the recommended weight gain apply to everyone?", "answer": "Recommendations vary based on your pre-pregnancy weight. Consult your doctor for personalized recommendations for your situation." }
+    ]
+  },
+  "protein": {
+    "title": "Protein Calculator",
+    "description": "Calculate your daily protein needs based on weight, activity level, and health goals.",
+    "inputs": {
+      "activity_level": "Activity Level",
+      "goal": "Goal",
+      "sedentary": "Sedentary",
+      "light": "Light activity",
+      "moderate": "Moderate activity",
+      "active": "Active",
+      "very_active": "Very active",
+      "athlete": "Athlete",
+      "goal_lose": "Weight Loss",
+      "goal_maintain": "Maintain Weight",
+      "goal_gain": "Gain Muscle Mass"
+    },
+    "tooltips": {
+      "weight": "Current body weight in kilograms",
+      "activity": "Daily physical activity level",
+      "goal": "Your goal from protein intake"
+    },
+    "results": {
+      "daily_requirement": "Daily Protein Requirement",
+      "grams_per_day": "grams / day",
+      "breakdown": "Consumption Breakdown",
+      "per_meal": "Per Meal",
+      "grams": "grams",
+      "meals_note": "Based on 4 meals per day",
+      "calories_from_protein": "Calories from Protein",
+      "calories_unit": "calories",
+      "calories_note": "1 gram protein = 4 calories",
+      "sources_title": "Protein-Rich Sources",
+      "source_chicken": "Chicken Breast",
+      "source_fish": "Fish",
+      "source_eggs": "Eggs",
+      "source_beans": "Legumes",
+      "source_tofu": "Tofu",
+      "source_dairy": "Dairy and Cheese"
+    },
+    "errors": {
+      "weight_range": "Weight must be between 20 and 300 kg"
+    },
+    "about": {
+      "title": "Importance of Protein",
+      "desc": "Protein is essential for building and repairing muscles, supporting the immune system, and feeling full for longer periods.",
+      "benefits_title": "Benefits of Protein",
+      "benefit_1": "Building and maintaining muscle mass.",
+      "benefit_2": "Accelerating recovery after exercise.",
+      "benefit_3": "Supporting bone and skin health.",
+      "benefit_4": "Helping in weight management."
+    },
+    "tips": {
+      "title": "Protein Intake Tips",
+      "desc": "Distribute protein intake throughout the day instead of consuming it in one meal to ensure better absorption and benefit."
+    },
+    "howItWorks": {
+      "title": "How the Protein Calculator Works",
+      "formula": "Requirement = Weight × Activity and Goal Factor (0.8 - 2.2 g/kg)",
+      "explanation": "This tool calculates your daily protein needs based on your weight, activity level, and goals. Requirements vary significantly between a sedentary person and a professional athlete, and between someone wanting to lose weight versus someone wanting to build muscle.",
+      "steps": [
+        { "name": "Enter Weight", "text": "Input your current weight in kilograms" },
+        { "name": "Set Activity and Goal", "text": "Select your physical activity level and goal (lose/maintain/gain)" },
+        { "name": "View Requirement", "text": "Get your daily protein amount in grams with per-meal distribution" }
+      ]
+    },
+    "useCases": [
+      { "title": "Muscle Building", "description": "Athletes and bodybuilders use it to ensure they get enough protein for bulking" },
+      { "title": "Weight Loss", "description": "Dieters use it to preserve muscle while losing fat" },
+      { "title": "Elderly Adults", "description": "Older adults use it to prevent age-related muscle loss" },
+      { "title": "Injury Recovery", "description": "Those recovering from injury or surgery use it to accelerate healing" }
+    ],
+    "seoTips": [
+      "Distribute protein across 4-5 meals daily for optimal absorption (20-40 grams per meal)",
+      "Consume protein within an hour of exercise to maximize muscle building",
+      "Vary protein sources between animal and plant-based to get all amino acids",
+      "Drink plenty of water - the body needs extra water to digest protein"
+    ],
+    "commonMistakes": [
+      "Consuming all protein in one or two meals, reducing absorption",
+      "Relying only on supplements instead of whole foods",
+      "Ignoring protein quality and focusing only on quantity",
+      "Not increasing protein when starting a new exercise program"
+    ],
+    "faqs": [
+      { "question": "Can I eat too much protein?", "answer": "Yes, but large excess is converted to calories. Healthy kidneys handle excess protein, but those with kidney issues should consult their doctor." },
+      { "question": "What are the best protein sources?", "answer": "Chicken breast, fish, eggs, lean meat, legumes, tofu, and dairy products. Variety is important for getting all amino acids." },
+      { "question": "Do I need protein supplements?", "answer": "Not necessary if your diet is balanced. Supplements are useful for professional athletes or those who struggle to meet their needs through food." }
+    ]
+  },
+  "water": {
+    "title": "Water Intake Calculator",
+    "description": "Calculate the ideal amount of water your body needs daily based on weight, activity, and climate.",
+    "inputs": {
+      "climate": "Surrounding Climate",
+      "climate_cold": "Cold",
+      "climate_moderate": "Moderate",
+      "climate_hot": "Hot",
+      "climate_very_hot": "Very Hot"
+    },
+    "tooltips": {
+      "climate": "Temperature greatly affects fluid loss"
+    },
+    "results": {
+      "daily_recommendation": "Daily Water Drinking Recommendation",
+      "liters": "liters / day",
+      "breakdown": "Requirement Breakdown",
+      "base": "Base Requirement",
+      "activity_addition": "Physical Activity Addition",
+      "glasses": "Number of Glasses",
+      "glasses_unit": "glasses",
+      "glass_size": "Glass capacity 250ml",
+      "bottles": "Number of Bottles",
+      "bottles_unit": "bottles",
+      "bottle_size": "Bottle capacity 500ml"
+    },
+    "errors": {
+      "weight_range": "Weight must be between 20 and 300 kg"
+    },
+    "about": {
+      "title": "Importance of Water",
+      "desc": "Water is essential for all body functions, including regulating temperature, lubricating joints, and disposing of waste.",
+      "benefits_title": "Benefits of Hydration",
+      "benefit_1": "Improve energy levels and focus.",
+      "benefit_2": "Support skin health and radiance.",
+      "benefit_3": "Help in digestion and prevent constipation.",
+      "benefit_4": "Improve physical performance during exercise."
+    },
+    "tips": {
+      "title": "Tips to Drink More Water",
+      "desc": "Always carry a water bottle with you, drink a glass of water immediately upon waking, and replace sodas with fruit-flavored water."
+    },
+    "howItWorks": {
+      "title": "How the Water Intake Calculator Works",
+      "formula": "Base Requirement = Weight × 30-35 ml + Activity and Climate Additions",
+      "explanation": "This tool calculates your daily water needs based on your weight as a baseline, then adds additional amounts based on your physical activity level and surrounding climate. Adequate hydration is essential for all vital body functions.",
+      "steps": [
+        { "name": "Enter Weight", "text": "Input your weight in kilograms to calculate base requirement" },
+        { "name": "Set Activity and Climate", "text": "Select your activity level and surrounding temperature" },
+        { "name": "View Results", "text": "Get the required amount in liters and number of glasses and bottles" }
+      ]
+    },
+    "useCases": [
+      { "title": "Daily Life", "description": "Everyone uses it to ensure drinking adequate water for maintaining general health" },
+      { "title": "Athletes", "description": "Athletes use it to replace fluids lost during exercise and maintain performance" },
+      { "title": "Weight Loss", "description": "Dieters use it because water helps with feeling full and improving metabolism" },
+      { "title": "Hot Climate", "description": "Residents of hot areas use it to avoid dehydration in summer" }
+    ],
+    "seoTips": [
+      "Drink a glass of water immediately upon waking to energize your body",
+      "Always carry a water bottle and set reminders on your phone",
+      "Urine color is a good indicator - it should be light yellow",
+      "Increase water intake on hot days and during exercise",
+      "Tea and coffee count partially but pure water is best"
+    ],
+    "commonMistakes": [
+      "Drinking large amounts at once instead of distributing throughout the day",
+      "Relying only on thirst - thirst means you've already started dehydrating",
+      "Replacing water with sodas or sweetened juices",
+      "Ignoring increased needs in hot weather or during exercise"
+    ],
+    "faqs": [
+      { "question": "Can I drink too much water?", "answer": "Yes, but it's very rare. Drinking huge amounts in a short time can cause sodium deficiency. Distribute your drinking throughout the day and you'll be safe." },
+      { "question": "Do other drinks count toward water intake?", "answer": "Partially yes. Tea, coffee, and milk contribute to hydration. But avoid sodas and alcoholic beverages as they are diuretics." },
+      { "question": "How do I know I'm drinking enough water?", "answer": "The best indicator is urine color - it should be light yellow (like diluted lemon juice). Dark urine means you need more." }
+    ]
+  },
+  "macro": {
+    "title": "Macro Calculator",
+    "description": "Calculate your daily macronutrient needs based on your goals and activity level.",
+    "inputs": {
+      "age_years": "Age (Years)",
+      "activity_level": "Activity Level",
+      "sedentary": "Sedentary (little or no exercise)",
+      "light_exercise": "Light (exercise 1-3 days/week)",
+      "moderate_exercise": "Moderate (exercise 3-5 days/week)",
+      "heavy_exercise": "Heavy (exercise 6-7 days/week)",
+      "athlete": "Athlete (2x training/day)",
+      "goal": "Fitness Goal",
+      "weight_loss": "Weight Loss",
+      "maintain_weight": "Maintain Weight",
+      "weight_gain": "Weight Gain",
+      "diet_style": "Diet Style",
+      "balanced_diet": "Balanced Diet (30/40/30)",
+      "keto_diet": "Keto Diet (25/5/70)",
+      "high_protein_diet": "High Protein (40/30/30)"
+    },
+    "tooltips": {
+      "age": "Enter your age in years",
+      "gender": "Select your biological gender",
+      "activity": "Select your weekly activity level",
+      "goal": "Select your fitness goal",
+      "diet_style": "Select your preferred diet style"
+    },
+    "results": {
+      "title": "Your Daily Macros",
+      "calories": "Daily Calories",
+      "protein": "Protein",
+      "carbs": "Carbohydrates",
+      "fat": "Fat",
+      "distribution": "Macro Distribution",
+      "daily_calories": "Total Daily Calories",
+      "calories_per_day": "calories / day",
+      "macro_breakdown": "Macronutrient Breakdown",
+      "of_total_calories": "of total calories"
+    },
+    "about": {
+      "title": "About Macronutrients",
+      "desc": "Macronutrients are the nutrients your body needs in large amounts: protein, carbohydrates, and fat. Each plays a crucial role in your health and fitness.",
+      "note": "These calculations are estimates. Consult a nutritionist for personalized advice."
+    },
+    "howItWorks": {
+      "title": "How the Macro Calculator Works",
+      "formula": "Dividing calories among protein (4 cal/g), carbs (4 cal/g), and fat (9 cal/g)",
+      "explanation": "This tool calculates your daily needs of the three major macronutrients based on your total calories, goal, and preferred diet style. It helps you distribute your food in a way that supports your health and fitness goals.",
+      "steps": [
+        { "name": "Calculate Calories", "text": "The calculator computes your daily calories based on your data, activity, and goal" },
+        { "name": "Choose Diet Style", "text": "Select diet style (balanced, keto, high protein) to determine distribution ratios" },
+        { "name": "Distribute Macros", "text": "Get the amount of each nutrient in grams and percentages" }
+      ]
+    },
+    "useCases": [
+      { "title": "Muscle Building", "description": "Athletes use it to ensure they get enough protein for building muscle mass" },
+      { "title": "Keto Diet", "description": "Keto followers use it to precisely adjust fat and carbohydrate ratios" },
+      { "title": "Weight Loss", "description": "Those wanting to lose weight use it while preserving muscle by increasing protein ratio" },
+      { "title": "Athletic Performance", "description": "Athletes use it to adjust carbohydrates according to their training requirements" }
+    ],
+    "seoTips": [
+      "Start with the balanced system if you're a beginner then adjust based on your response",
+      "Prioritize protein in every meal to ensure distribution throughout the day",
+      "Don't fear healthy fats - they're essential for hormones and vitamin absorption",
+      "Use a food tracking app initially until you learn to estimate portions"
+    ],
+    "commonMistakes": [
+      "Focusing only on calories and ignoring food quality and macro sources",
+      "Excessively cutting carbohydrates which affects energy and performance",
+      "Not eating enough fat due to fear of weight gain",
+      "Trying to stick to numbers with extreme precision causing stress"
+    ],
+    "faqs": [
+      { "question": "Which diet system is best?", "answer": "No single system is best for everyone. Balanced is suitable for most people, keto may suit those with insulin resistance, and high protein suits athletes." },
+      { "question": "Should I stick to the numbers exactly?", "answer": "No, these are guideline numbers. Try to get within 80-90% of them. Flexibility is important for sustainability." },
+      { "question": "How do I distribute macros across meals?", "answer": "Distribute protein equally across 3-4 meals. Carbs can be concentrated around workouts. Fat at any time except immediately before exercise." }
+    ]
+  },
+  "whr": {
+    "title": "Waist-to-Hip Ratio (WHR) Calculator",
+    "description": "Assess body fat distribution and health risks associated with central obesity.",
+    "inputs": {
+      "waist": "Waist Circumference (cm)",
+      "hip": "Hip Circumference (cm)",
+      "gender": "Gender"
+    },
+    "tooltips": {
+      "waist": "Measure at the narrowest point of your waist",
+      "hip": "Measure at the widest point of your hips"
+    },
+    "results": {
+      "ratio": "Waist-to-Hip Ratio",
+      "health_assessment": "Health Assessment",
+      "health_risk": "Health Risk",
+      "risk_guidelines": "Risk Guidelines (WHO)",
+      "low_risk": "Low Risk",
+      "moderate_risk": "Moderate Risk",
+      "high_risk": "High Risk",
+      "low": "Low",
+      "moderate": "Moderate",
+      "high": "High"
+    },
+    "about": {
+      "title": "What is Waist-to-Hip Ratio?",
+      "desc": "This ratio is used as an indicator of body fat distribution. Fat accumulated around the waist (apple shape) is associated with higher health risks than fat accumulated around the hips (pear shape)."
+    },
+    "howItWorks": {
+      "title": "How the Waist-to-Hip Ratio Calculator Works",
+      "formula": "WHR = Waist Circumference / Hip Circumference",
+      "explanation": "This tool measures the ratio of your waist circumference to hip circumference to determine fat distribution pattern in your body. This ratio is a WHO-approved indicator for assessing obesity-related disease risks.",
+      "steps": [
+        { "name": "Measure Circumferences", "text": "Measure waist circumference at the narrowest point and hip circumference at the widest point" },
+        { "name": "Enter Data", "text": "Input measurements in centimeters and select your gender" },
+        { "name": "Evaluate Results", "text": "Get the ratio along with associated health risk assessment" }
+      ]
+    },
+    "useCases": [
+      { "title": "Health Risk Assessment", "description": "Doctors use it to evaluate heart disease and diabetes risks associated with central obesity" },
+      { "title": "Fitness Tracking", "description": "Athletes use it to monitor changes in fat distribution with training" },
+      { "title": "Weight Loss Programs", "description": "Dieters use it to measure improvement in fat distribution" },
+      { "title": "Periodic Health Checkups", "description": "Used as part of routine checkups to assess general health" }
+    ],
+    "seoTips": [
+      "Measure in the morning before eating for accurate reading",
+      "Use the same clothing (or none) for each measurement to ensure consistency",
+      "Don't suck in your stomach during measurement - stay relaxed",
+      "Track the ratio monthly to notice improvement"
+    ],
+    "commonMistakes": [
+      "Measuring waist at the navel instead of the narrowest point",
+      "Pulling the tape too tight or leaving it too loose",
+      "Measuring after a large meal when the stomach is bloated",
+      "Ignoring the importance of this ratio and focusing only on weight"
+    ],
+    "faqs": [
+      { "question": "What is a healthy ratio?", "answer": "For men: less than 0.90 is low risk, 0.90-0.99 moderate, more than 1.0 high. For women: less than 0.80 low, 0.80-0.84 moderate, more than 0.85 high." },
+      { "question": "Why is waist fat more dangerous?", "answer": "Visceral fat around the belly surrounds internal organs and secretes inflammatory substances that increase risks of heart disease, diabetes, and fatty liver." },
+      { "question": "Is WHR better than BMI?", "answer": "Both are useful in different ways. BMI measures total weight, while WHR measures fat distribution. Using both together gives a more complete picture." }
+    ]
+  },
+  "lbm": {
+    "title": "Lean Body Mass (LBM) Calculator",
+    "description": "Calculate fat-free body mass (muscles, bones, water) and fat mass.",
+    "inputs": {
+      "body_fat": "Body Fat Percentage (%)"
+    },
+    "tooltips": {
+      "weight": "Total body weight in kilograms",
+      "body_fat": "Estimated body fat percentage"
+    },
+    "results": {
+      "lean_mass": "Lean Body Mass",
+      "of_body_weight": "of body weight",
+      "composition_breakdown": "Body Composition Breakdown"
+    },
+    "about": {
+      "title": "What is Lean Body Mass (LBM)?",
+      "desc": "Lean body mass is the weight of the body after subtracting fat weight. It includes muscles, bones, organs, and water. This number is very useful for athletes to accurately determine their nutritional needs."
+    },
+    "errors": {
+      "invalid_values": "Please enter valid values (body fat percentage between 0 and 100)"
+    },
+    "howItWorks": {
+      "title": "How the Lean Body Mass Calculator Works",
+      "formula": "LBM = Total Weight × (1 - Body Fat %/100)",
+      "explanation": "This tool calculates the fat-free mass in your body by subtracting fat weight from your total weight. This number is more important than total weight because it reflects muscle, bone, and organ mass - the active tissues that burn calories.",
+      "steps": [
+        { "name": "Enter Weight", "text": "Input your total weight in kilograms" },
+        { "name": "Enter Body Fat", "text": "Input your body fat percentage (can be obtained from the body fat calculator)" },
+        { "name": "View Composition", "text": "Get lean mass and fat mass in kilograms and percentages" }
+      ]
+    },
+    "useCases": [
+      { "title": "Protein Needs Calculation", "description": "Athletes use it to calculate required protein based on lean mass rather than total weight" },
+      { "title": "Training Program Tracking", "description": "Bodybuilders use it to track lean mass increase during bulking phases" },
+      { "title": "Cutting Programs", "description": "Athletes use it to ensure they're losing fat, not muscle, during cutting phases" },
+      { "title": "Body Composition Assessment", "description": "Those wanting to understand their body composition deeper than just weight" }
+    ],
+    "seoTips": [
+      "Calculate body fat first using the body fat calculator for accurate results",
+      "Track lean mass monthly to monitor your real progress",
+      "Focus on increasing lean mass, not just losing weight",
+      "Use LBM to calculate your protein needs more accurately"
+    ],
+    "commonMistakes": [
+      "Using an inaccurate body fat estimate leading to wrong results",
+      "Focusing on total weight instead of lean mass",
+      "Expecting large lean mass increases quickly (maximum is about 0.5 kg per month)",
+      "Not differentiating between weight loss and fat loss"
+    ],
+    "faqs": [
+      { "question": "Why is lean mass more important than weight?", "answer": "Muscles burn calories even at rest, improve appearance and strength, and are associated with better health. Two people with the same weight can differ greatly in health and fitness based on body composition." },
+      { "question": "How much should lean mass be?", "answer": "Varies by gender and age. For men: typically 75-85% of body weight. For women: 68-78%. Athletes may have higher percentages." },
+      { "question": "How do I increase lean mass?", "answer": "Through resistance training (weight lifting), adequate protein intake (1.6-2.2 g/kg), good sleep (7-9 hours), and moderate caloric surplus (300-500 calories)." }
+    ]
+  },
+  "swimming_pace": {
+    "title": "Swimming Pace Calculator",
+    "description": "Calculate swimming pace (time per 100 meters or yards) based on distance and total time.",
+    "inputs": {
+      "pace_per_100m": "Pace per 100 meters",
+      "min_per_100m": "min/100m",
+      "min_per_100yd": "min/100yd"
+    },
+    "results": {
+      "pace_details": "Pace Details",
+      "average_speed": "Average Speed"
+    },
+    "about": {
+      "title": "About Swimming Pace",
+      "desc": "This calculator helps you track your swimming level and set training goals based on a consistent pace per 100 meters or yards."
+    },
+    "errors": {
+      "invalid_time": "Please enter a valid time greater than zero"
+    },
+    "howItWorks": {
+      "title": "How the Swimming Pace Calculator Works",
+      "formula": "Pace per 100m = (Total Time in Seconds / Distance) × 100",
+      "explanation": "This tool calculates your swimming speed based on distance covered and time taken. It gives you the pace per 100 meters, which is the standard measurement used in swimming training and competitions.",
+      "steps": [
+        { "name": "Enter Distance", "text": "Input the total distance you swam in meters" },
+        { "name": "Enter Time", "text": "Input the total time it took (minutes and seconds)" },
+        { "name": "View Pace", "text": "Get your pace per 100m and average speed in km/h" }
+      ]
+    },
+    "useCases": [
+      { "title": "Regular Training", "description": "Swimmers use it to track performance improvement and set training goals" },
+      { "title": "Race Preparation", "description": "Competitors use it to determine target race pace" },
+      { "title": "Interval Training", "description": "Coaches use it to set rest and swim times for interval training" },
+      { "title": "Style Comparison", "description": "Swimmers use it to compare their speed across different swimming styles" }
+    ],
+    "seoTips": [
+      "Record your pace regularly to track long-term improvement",
+      "Compare your pace across different distances to understand your strengths",
+      "Use a swimming watch or app for more accurate timing",
+      "Practice maintaining consistent pace throughout the distance"
+    ],
+    "commonMistakes": [
+      "Starting too fast then slowing down - maintain consistent pace",
+      "Comparing your pace to professional swimmers without considering skill level difference",
+      "Ignoring warm-up effect - first swims are always slower",
+      "Not recording times making it difficult to track progress"
+    ],
+    "faqs": [
+      { "question": "What is a good swimming pace for beginners?", "answer": "For beginners, 2:30-3:00 minutes per 100m is considered good. With regular training, you can get under 2 minutes within a few months." },
+      { "question": "How do I improve my pace?", "answer": "Focus on improving technique first, then gradually increase training volume, and add fast interval training once a week." },
+      { "question": "Does pace differ by swimming style?", "answer": "Yes, butterfly and breaststroke are slower than freestyle and backstroke. Always compare your pace within the same style." }
+    ]
+  },
+  "weight_gain": {
+    "title": "Weight Gain Calculator",
+    "description": "Estimate the time needed to reach your ideal weight based on daily calorie surplus.",
+    "inputs": {
+      "target_weight_kg": "Target Weight (kg)",
+      "daily_calorie_surplus": "Daily Calorie Surplus",
+      "slow": "Slow",
+      "moderate": "Moderate",
+      "fast": "Fast"
+    },
+    "tooltips": {
+      "current_weight": "Your current weight in kilograms",
+      "target_weight": "The weight you want to achieve",
+      "calorie_surplus": "Extra calories you will consume daily above your needs (300-500 recommended)"
+    },
+    "results": {
+      "time_to_goal": "Estimated Time to Reach Goal",
+      "weight_gain_plan": "Weight Gain Plan",
+      "days_to_goal": "Number of Days",
+      "weekly_weight_gain": "Expected Weekly Weight Gain",
+      "estimated_completion": "Estimated Completion Date"
+    },
+    "about": {
+      "title": "About Healthy Weight Gain",
+      "desc": "To gain weight healthily, focus on eating nutrient-rich foods and doing resistance exercises (weight lifting) to build muscle rather than just fat.",
+      "note": "Calculations are based on gaining 1 kg of body weight requiring approximately 7700 calories surplus."
+    },
+    "errors": {
+      "target_must_be_more": "Target weight must be greater than current weight"
+    },
+    "howItWorks": {
+      "title": "How the Weight Gain Calculator Works",
+      "formula": "Days = (Target Weight - Current Weight) × 7700 / Daily Calorie Surplus",
+      "explanation": "This tool calculates the time needed to reach your target weight based on daily calorie surplus. It's based on the scientific principle that gaining 1 kg of body weight requires approximately 7700 calories surplus.",
+      "steps": [
+        { "name": "Enter Weights", "text": "Input your current weight and target weight in kilograms" },
+        { "name": "Set Surplus", "text": "Choose your daily calorie surplus amount (300-500 for slow gain, 500-750 for moderate)" },
+        { "name": "View Plan", "text": "Get expected time, weekly gain rate, and target achievement date" }
+      ]
+    },
+    "useCases": [
+      { "title": "Building Muscle Mass", "description": "Athletes use it to determine bulking period and time needed to build muscle" },
+      { "title": "Recovering from Underweight", "description": "Those with underweight use it to set realistic plans for reaching healthy weight" },
+      { "title": "Athletic Planning", "description": "Athletes who need to move to a higher weight class" },
+      { "title": "Post-Illness Recovery", "description": "Those who lost weight due to illness and want to regain it healthily" }
+    ],
+    "seoTips": [
+      "Start with moderate surplus (300-500 calories) to avoid excess fat gain",
+      "Do resistance training 3-4 times weekly to direct gains toward muscle",
+      "Consume adequate protein (1.6-2.2 g/kg) to support muscle building",
+      "Monitor body composition, not just weight - measure body fat monthly",
+      "Be patient - healthy weight gain takes time"
+    ],
+    "commonMistakes": [
+      "Eating any food to increase calories instead of focusing on nutritious foods",
+      "Ignoring resistance training leading to fat gain only",
+      "Expecting quick results - healthy gain is slow (0.25-0.5 kg weekly)",
+      "Not consuming enough protein limiting muscle building"
+    ],
+    "faqs": [
+      { "question": "What is the appropriate calorie surplus?", "answer": "300-500 calories daily for slow, clean gain (mostly muscle). 500-750 for faster gain but with more fat gain possibility." },
+      { "question": "Can I gain muscle without fat?", "answer": "Very difficult. Even in best conditions, 60-70% of gain will be muscle and rest is fat. That's why athletes follow bulking then cutting cycles." },
+      { "question": "How much muscle can I gain monthly?", "answer": "For beginners: 0.5-1 kg monthly is possible. Intermediate: 0.25-0.5 kg. Advanced: less than 0.25 kg. These are natural limits." }
+    ]
+  }
+}

@@ -1,0 +1,10 @@
+node_modules/
+dist/
+build/
+.next/
+out/
+public/
+*.config.js
+*.config.ts
+coverage/
+.husky/

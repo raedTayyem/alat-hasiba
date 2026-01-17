@@ -1,0 +1,2115 @@
+{
+  "lm317": {
+    "title": "LM317 Calculator",
+    "description": "Calculate output voltage or required resistors for LM317 voltage regulator.",
+    "inputs": {
+      "output_voltage": "Output Voltage (Vout)",
+      "resistor_1": "Resistor R1 (Ω)",
+      "resistor_2": "Resistor R2 (Ω)"
+    },
+    "tooltips": {
+      "output_voltage": "Desired output voltage",
+      "resistor_1": "Value of resistor R1 (typically 240Ω)",
+      "resistor_2": "Value of resistor R2"
+    },
+    "placeholders": {
+      "output_voltage": "e.g. 5",
+      "resistor_1": "e.g. 240",
+      "resistor_2": "e.g. 720"
+    },
+    "results": {
+      "calculated_r2": "Calculated R2",
+      "nearest_standard": "Nearest Standard R2",
+      "actual_vout": "Actual Vout",
+      "current_adj": "Adjust Pin Current"
+    },
+    "info": {
+      "title": "LM317 Formula",
+      "desc": "Vout = 1.25V × (1 + R2/R1)"
+    },
+    "errors": {
+      "invalid_input": "Invalid input values"
+    },
+    "howItWorks": {
+      "title": "How the LM317 Calculator Works",
+      "formula": "Vout = 1.25V × (1 + R2/R1)",
+      "explanation": "The LM317 is an adjustable linear voltage regulator that uses two external resistors to set the output voltage. It maintains a constant 1.25V reference between the output and adjust pins.",
+      "steps": [
+        "Enter your desired output voltage (1.25V to 37V)",
+        "Set R1 value (typically 240Ω for optimal stability)",
+        "The calculator computes the required R2 value",
+        "Select the nearest standard resistor value"
+      ]
+    },
+    "useCases": [
+      "Designing adjustable lab power supplies",
+      "Battery charging with specific voltage",
+      "Powering electronics with stable voltage",
+      "Arduino and electronics projects"
+    ],
+    "seoTips": [
+      "Use R1 = 240Ω for optimal stability",
+      "Add filter capacitors at input and output",
+      "Ensure input voltage is at least 3V higher than output",
+      "Use a heatsink for high current applications"
+    ],
+    "commonMistakes": [
+      "Forgetting filter capacitors causing oscillation",
+      "Not accounting for minimum dropout voltage",
+      "Exceeding maximum current rating (1.5A)",
+      "Neglecting heat dissipation in high-power applications"
+    ],
+    "faqs": [
+      {
+        "question": "What is the minimum output voltage from LM317?",
+        "answer": "The minimum is 1.25V, which is the internal reference voltage of the regulator."
+      },
+      {
+        "question": "Why is 240Ω used for R1?",
+        "answer": "240Ω provides an optimal adjust pin current (about 5mA) that ensures regulator stability with low power consumption."
+      },
+      {
+        "question": "How do I calculate power dissipation in LM317?",
+        "answer": "Power = (Vin - Vout) × Iout. Ensure you don't exceed maximum power and use an appropriate heatsink."
+      }
+    ]
+  },
+  "ohms_law": {
+    "title": "Ohm's Law Calculator",
+    "description": "Calculate Voltage, Current, Resistance, and Power using Ohm's Law.",
+    "calculate_for": "Calculate For",
+    "calculate_for_tooltip": "Select the parameter you want to calculate",
+    "voltage": "Voltage (V)",
+    "current": "Current (I)",
+    "resistance": "Resistance (R)",
+    "power": "Power (P)",
+    "enter_voltage": "Enter voltage in Volts",
+    "enter_current": "Enter current in Amperes",
+    "enter_resistance": "Enter resistance in Ohms",
+    "about_title": "About Ohm's Law",
+    "about_desc": "Ohm's Law is a fundamental principle in electricity that relates voltage, current, and resistance in an electrical circuit.",
+    "formulas_title": "Formulas Used",
+    "voltage_formula": "Voltage = Current × Resistance",
+    "current_formula": "Current = Voltage / Resistance",
+    "resistance_formula": "Resistance = Voltage / Current",
+    "power_formula": "Power = Voltage × Current",
+    "results_title": "Calculation Results",
+    "watts": "Watts",
+    "electrical_parameters": "Electrical Parameters",
+    "power_calculations": "Power Calculations",
+    "unit_voltage": "V",
+    "unit_current": "A",
+    "unit_resistance": "Ω",
+    "unit_kilo_ohm": "kΩ",
+    "unit_milli_henry": "mH",
+    "unit_micro_farad": "µF",
+    "unit_kilo_hertz": "kHz",
+    "unit_rad_s": "rad/s",
+    "unit_joule": "J",
+    "unit_milli_joule": "mJ",
+    "unit_volt_ampere_kilo": "kVA",
+    "unit_volt_ampere_reactive_kilo": "kVAR",
+    "unit_power": "W",
+    "unit_milli_watt": "mW",
+    "unit_milli_amp": "mA",
+    "unit_watt_hour": "Wh",
+    "unit_amp_hour": "Ah",
+    "unit_volt_ampere": "VA",
+    "unit_volt_ampere_reactive": "VAR",
+    "unit_kilo_watt": "kW",
+    "unit_kilo_watt_hour": "kWh",
+    "formula_v": "V = I × R",
+    "formula_i": "I = V / R",
+    "formula_r": "R = V / I",
+    "formula_p": "P = V × I = I² × R = V² / R",
+    "formula_p_vi": "P = V × I",
+    "formula_p_i2r": "P = I² × R",
+    "formula_p_v2r": "P = V² / R",
+    "unit_hp": "HP",
+    "unit_mega_ohm": "MΩ",
+    "unit_hertz": "Hz",
+    "howItWorks": {
+      "title": "How Ohm's Law Calculator Works",
+      "formula": "V = I × R, P = V × I",
+      "explanation": "Ohm's Law is the foundation of electrical engineering, describing the relationship between voltage, current, and resistance. Voltage equals current times resistance, and power equals voltage times current.",
+      "steps": [
+        "Select the parameter to calculate (Voltage, Current, Resistance, or Power)",
+        "Enter the two known values",
+        "The calculator automatically computes the unknown value",
+        "Review results including power consumption"
+      ]
+    },
+    "useCases": [
+      "Designing electrical and electronic circuits",
+      "Calculating device power consumption",
+      "Selecting appropriate resistors for circuits",
+      "Determining wire and cable sizes"
+    ],
+    "seoTips": [
+      "Remember Ohm's Law only applies to linear circuits",
+      "Use consistent units (Volts, Amps, Ohms)",
+      "Power in Watts helps select properly rated components",
+      "Calculate power to avoid exceeding component ratings"
+    ],
+    "commonMistakes": [
+      "Mixing units (milliamps instead of amps)",
+      "Applying Ohm's Law to non-linear components",
+      "Neglecting power dissipation calculations",
+      "Not accounting for temperature effects on resistance"
+    ],
+    "faqs": [
+      {
+        "question": "What's the difference between voltage and current?",
+        "answer": "Voltage is the electrical pressure difference (like water pressure), while current is the flow of electrons (like water flow rate). Resistance limits this flow."
+      },
+      {
+        "question": "Can I use Ohm's Law for AC circuits?",
+        "answer": "Yes, but for AC circuits with inductors or capacitors, use impedance (Z) instead of resistance (R)."
+      },
+      {
+        "question": "How do I calculate resistance if I only know power and voltage?",
+        "answer": "Use the formula R = V²/P. For example: a 60W bulb at 220V has R = 220²/60 = 807Ω."
+      }
+    ]
+  },
+  "voltage_divider": {
+    "title": "Voltage Divider Calculator",
+    "description": "Calculate the output voltage of a voltage divider consisting of two resistors.",
+    "input_voltage": "Input Voltage (Vin)",
+    "input_voltage_tooltip": "The electrical voltage applied to the divider",
+    "resistor_1": "Resistor 1 (R1)",
+    "resistor_1_tooltip": "First resistor connected to input voltage",
+    "resistor_2": "Resistor 2 (R2)",
+    "resistor_2_tooltip": "Second resistor connected to ground",
+    "enter_vin": "Enter input voltage",
+    "enter_r1": "Enter R1 value",
+    "enter_r2": "Enter R2 value",
+    "results_title": "Voltage Divider Results",
+    "output_voltage": "Output Voltage (Vout)",
+    "voltage_ratio": "Voltage Ratio (Vout/Vin)",
+    "total_current": "Total Circuit Current",
+    "total_power": "Total Power Consumption",
+    "power_r1": "Power Dissipated in R1",
+    "power_r2": "Power Dissipated in R2",
+    "about_title": "About Voltage Dividers",
+    "about_desc": "A voltage divider is a simple circuit that converts a large voltage into a smaller one using resistors.",
+    "empty_state": "Enter input voltage and resistor values to calculate output voltage",
+    "footer_note": "Ensure resistors have sufficient power rating for the calculated dissipation.",
+    "howItWorks": {
+      "title": "How the Voltage Divider Calculator Works",
+      "formula": "Vout = Vin × R2 / (R1 + R2)",
+      "explanation": "A voltage divider splits input voltage proportionally based on resistor values. The voltage across R2 equals the ratio of R2 to total resistance multiplied by input voltage.",
+      "steps": [
+        "Enter the input voltage (Vin)",
+        "Enter the first resistor value (R1)",
+        "Enter the second resistor value (R2)",
+        "Get output voltage, current, and power dissipation"
+      ]
+    },
+    "useCases": [
+      "Reducing voltage for microcontroller inputs",
+      "Measuring high voltage with ADC",
+      "Creating reference voltages for circuits",
+      "Biasing transistors and op-amps"
+    ],
+    "seoTips": [
+      "Use 1% tolerance resistors for sensitive applications",
+      "Consider load effect on output voltage",
+      "Choose high resistance values to minimize current draw",
+      "Verify resistor power ratings to prevent burnout"
+    ],
+    "commonMistakes": [
+      "Ignoring load resistance effect on output voltage",
+      "Using resistors too low causing high power consumption",
+      "Not accounting for resistor tolerance in calculations",
+      "Using voltage dividers for high current applications"
+    ],
+    "faqs": [
+      {
+        "question": "Can I use a voltage divider as a voltage regulator?",
+        "answer": "Not recommended because output voltage changes with load. Use a regulator like LM317 for varying loads."
+      },
+      {
+        "question": "How do I choose appropriate resistor values?",
+        "answer": "Choose resistors so that divider current is at least 10x expected load current to minimize load effect."
+      },
+      {
+        "question": "Does a voltage divider work with AC?",
+        "answer": "Yes, but use impedance instead of resistance if there are capacitors or inductors in the circuit."
+      }
+    ]
+  },
+  "led_resistor": {
+    "title": "LED Resistor Calculator",
+    "description": "Calculate the correct resistor value to protect a Light Emitting Diode (LED).",
+    "supply_voltage": "Supply Voltage (Vs)",
+    "supply_voltage_tooltip": "Voltage from the battery or power supply",
+    "led_voltage": "LED Forward Voltage (Vf)",
+    "led_voltage_tooltip": "Voltage drop across the LED (typically 1.8V - 3.3V depending on color)",
+    "led_current": "LED Forward Current (If)",
+    "led_current_tooltip": "Desired current through the LED (typically 20mA)",
+    "num_leds": "Number of LEDs",
+    "num_leds_tooltip": "Number of LEDs connected in series",
+    "enter_vs": "Enter supply voltage",
+    "enter_vf": "Enter LED voltage",
+    "enter_if": "Enter current in mA",
+    "results_title": "Calculation Results",
+    "calculated_resistance": "Calculated Resistance",
+    "standard_resistance": "Nearest Standard Resistance (E24)",
+    "standard_desc": "Use this commercially available value",
+    "power_rating": "Power Dissipation",
+    "actual_current": "Actual Current",
+    "about_title": "Why is a Resistor Needed?",
+    "about_desc": "LEDs need a resistor to limit current; without it, the LED may burn out immediately due to excessive current.",
+    "empty_state": "Enter LED and power supply parameters to calculate resistance",
+    "footer_note": "Always choose a resistor with a higher Watt rating than the calculated dissipation.",
+    "use_resistor": "Use a {{rating}} Watt resistor",
+    "voltage_too_low": "Supply voltage is too low for the selected LEDs!",
+    "howItWorks": {
+      "title": "How the LED Resistor Calculator Works",
+      "formula": "R = (Vs - Vf) / If",
+      "explanation": "Calculates the resistor needed to limit current through an LED. Resistance equals the voltage difference (supply minus LED forward voltage) divided by desired current.",
+      "steps": [
+        "Enter the supply voltage (battery or power supply)",
+        "Enter LED forward voltage (varies by color)",
+        "Enter desired current (typically 20mA)",
+        "Specify number of LEDs in series"
+      ]
+    },
+    "useCases": [
+      "Protecting LEDs in electronics projects",
+      "Designing LED lighting panels",
+      "Arduino and Raspberry Pi projects",
+      "Car dashboard and indicator lights"
+    ],
+    "seoTips": [
+      "LED forward voltage: Red 1.8-2V, Green/Yellow 2-2.2V, Blue/White 3-3.4V",
+      "Use 10-20mA for normal brightness",
+      "Choose resistor power rating 50% higher than calculated",
+      "For parallel LEDs, use one resistor per LED"
+    ],
+    "commonMistakes": [
+      "Forgetting to add a resistor, burning the LED instantly",
+      "Using wrong LED voltage (varies by color)",
+      "Connecting parallel LEDs with a single resistor",
+      "Not accounting for resistor power rating (Watts)"
+    ],
+    "faqs": [
+      {
+        "question": "Why does LED voltage vary by color?",
+        "answer": "Forward voltage depends on semiconductor material. Blue and white LEDs use materials with higher bandgap energy, requiring higher voltage."
+      },
+      {
+        "question": "What happens if I use a smaller resistor than needed?",
+        "answer": "Higher current flows through the LED, reducing its lifespan or burning it instantly. Always use equal or higher resistance."
+      },
+      {
+        "question": "Can I connect multiple LEDs in series?",
+        "answer": "Yes, but ensure total LED voltages are at least 2-3V less than supply voltage for the resistor to work properly."
+      }
+    ]
+  },
+  "resistor_color_code": {
+    "title": "Resistor Color Code Calculator",
+    "description": "Determine resistor value based on band colors, or vice versa.",
+    "num_bands": "Number of Bands",
+    "num_bands_tooltip": "Choose the number of color bands on the resistor",
+    "band_4": "4 Bands",
+    "band_5": "5 Bands",
+    "band": "Band",
+    "multiplier": "Multiplier",
+    "tolerance": "Tolerance",
+    "results_title": "Resistor Results",
+    "resistance_value": "Resistance Value",
+    "range": "Allowable Value Range",
+    "min": "Minimum",
+    "max": "Maximum",
+    "visual": "Visual Representation",
+    "about_title": "How to Read Colors",
+    "about_desc": "Bands are read from left to right. The last band (or slightly separated one) represents the tolerance.",
+    "colors": {
+      "black": "Black",
+      "brown": "Brown",
+      "red": "Red",
+      "orange": "Orange",
+      "yellow": "Yellow",
+      "green": "Green",
+      "blue": "Blue",
+      "violet": "Violet",
+      "gray": "Gray",
+      "white": "White",
+      "gold": "Gold",
+      "silver": "Silver",
+      "none": "None"
+    },
+    "howItWorks": {
+      "title": "How the Resistor Color Code Calculator Works",
+      "formula": "Value = (Band1 × 10 + Band2) × Multiplier ± Tolerance%",
+      "explanation": "Resistors use colored bands to indicate their resistance value. Each color represents a digit (0-9), a multiplier (power of 10), or a tolerance percentage. Reading bands left to right gives the resistance value.",
+      "steps": [
+        "Select the number of bands (4 or 5)",
+        "Choose colors for each band from the dropdown",
+        "The calculator displays the resistance value",
+        "View the tolerance range for the resistor"
+      ]
+    },
+    "useCases": [
+      "Identifying unlabeled resistors in circuits",
+      "Verifying resistor values before installation",
+      "Teaching electronics color code standards",
+      "Quality control in electronics manufacturing"
+    ],
+    "seoTips": [
+      "4-band: 2 digits + multiplier + tolerance",
+      "5-band: 3 digits + multiplier + tolerance (precision resistors)",
+      "Gold multiplier = 0.1, Silver multiplier = 0.01",
+      "Tolerance: Gold = 5%, Silver = 10%, Brown = 1%"
+    ],
+    "commonMistakes": [
+      "Reading bands in wrong direction (start from the side with bands closer together)",
+      "Confusing brown and red, or orange and yellow",
+      "Mixing up gold/silver tolerance vs. multiplier bands",
+      "Not accounting for tolerance when selecting resistors"
+    ],
+    "faqs": [
+      {
+        "question": "How do I know which end to start reading from?",
+        "answer": "Start from the end with bands grouped closer together. The tolerance band (gold/silver) is usually slightly separated and read last."
+      },
+      {
+        "question": "What's the difference between 4-band and 5-band resistors?",
+        "answer": "5-band resistors have an extra significant digit, providing higher precision (e.g., 1% tolerance) compared to 4-band resistors (typically 5% or 10%)."
+      },
+      {
+        "question": "Why do some resistors have no tolerance band?",
+        "answer": "No tolerance band indicates 20% tolerance. These are older or very inexpensive resistors rarely used in precision applications."
+      }
+    ]
+  },
+  "electricity_bill": {
+    "title": "Electricity Bill Calculator",
+    "description": "Estimate electricity consumption cost based on kWh usage.",
+    "consumption": "Consumption (kWh)",
+    "consumption_tooltip": "Total energy consumption in kilowatt-hours",
+    "price_per_kwh": "Price per kWh",
+    "price_per_kwh_tooltip": "Cost per unit of energy according to the tariff",
+    "fixed_charge": "Fixed Charge",
+    "fixed_charge_tooltip": "Monthly fixed service or meter fee",
+    "tax_rate": "Tax Rate (%)",
+    "tax_rate_tooltip": "VAT or government taxes",
+    "results_title": "Estimated Bill Details",
+    "total_bill": "Total Bill",
+    "energy_cost": "Energy Cost",
+    "tax_amount": "Tax Amount",
+    "daily_cost": "Approximate Daily Cost",
+    "about_title": "Energy Saving Tips",
+    "about_desc": "Use energy-efficient appliances, turn off lights when not needed, and use thermal insulation to reduce cooling costs.",
+    "empty_state": "Enter consumption and tariff data to calculate bill",
+    "footer_note": "This calculator provides an estimate; actual bills may vary due to usage tiers and additional fees.",
+    "howItWorks": {
+      "title": "How the Electricity Bill Calculator Works",
+      "formula": "Total = (kWh × Price) + Fixed Charge + Tax",
+      "explanation": "Calculates your electricity bill by multiplying energy consumption in kilowatt-hours by the unit rate, then adding fixed charges and applicable taxes.",
+      "steps": [
+        "Enter your total energy consumption in kWh",
+        "Enter the price per kWh from your tariff",
+        "Add any fixed monthly charges",
+        "Specify the tax rate percentage"
+      ]
+    },
+    "useCases": [
+      "Estimating monthly electricity expenses",
+      "Comparing costs before and after energy-saving measures",
+      "Budgeting for household expenses",
+      "Verifying utility company charges"
+    ],
+    "seoTips": [
+      "Check your meter regularly to track consumption",
+      "Compare different tariff plans for savings",
+      "Consider time-of-use rates for lower off-peak costs",
+      "Factor in seasonal variations for accurate estimates"
+    ],
+    "commonMistakes": [
+      "Forgetting to include fixed charges and taxes",
+      "Using wrong tariff rates (tiered pricing)",
+      "Not accounting for demand charges (commercial)",
+      "Ignoring power factor penalties for businesses"
+    ],
+    "faqs": [
+      {
+        "question": "What is a kWh?",
+        "answer": "A kilowatt-hour (kWh) is a unit of energy equal to using 1000 watts for one hour. A 100W bulb running for 10 hours uses 1 kWh."
+      },
+      {
+        "question": "Why does my actual bill differ from the estimate?",
+        "answer": "Actual bills may include tiered pricing (higher rates for higher consumption), demand charges, fuel adjustments, and various fees not included in simple calculations."
+      },
+      {
+        "question": "How can I reduce my electricity bill?",
+        "answer": "Use energy-efficient appliances, LED lighting, smart thermostats, and unplug devices when not in use. Consider solar panels for long-term savings."
+      }
+    ]
+  },
+  "wire_gauge": {
+    "title": "Wire Gauge Calculator",
+    "description": "Calculate appropriate wire gauge (AWG) based on current and distance.",
+    "current": "Current (I)",
+    "distance": "Distance",
+    "voltage": "System Voltage",
+    "material": "Conductor Material",
+    "enter_current": "Enter current",
+    "enter_distance": "Enter cable length",
+    "material_copper": "Copper",
+    "material_aluminum": "Aluminum",
+    "recommended_gauge": "Recommended Gauge",
+    "awg_prefix": "AWG",
+    "diameter": "Diameter",
+    "area": "Cross-sectional Area",
+    "max_current": "Max Current Rating",
+    "resistance": "Total Resistance",
+    "voltage_drop_note": "Calculations based on standard AWG ampacity ratings with 25% safety margin.",
+    "footer_note": "Always consult local electrical codes (NEC, IEC) for official requirements.",
+    "howItWorks": {
+      "title": "How the Wire Gauge Calculator Works",
+      "formula": "AWG based on I = A × (CM / 1000) / k",
+      "explanation": "Calculates the appropriate wire gauge (AWG) based on current capacity and voltage drop requirements. Uses conductor material resistivity and ampacity tables to recommend safe wire sizes.",
+      "steps": [
+        "Enter the current load in amperes",
+        "Enter the cable run distance (one way)",
+        "Select the system voltage",
+        "Choose conductor material (copper or aluminum)"
+      ]
+    },
+    "useCases": [
+      "Sizing wires for residential electrical installations",
+      "Designing solar panel and battery systems",
+      "Automotive and marine wiring projects",
+      "Industrial power distribution planning"
+    ],
+    "seoTips": [
+      "Copper has lower resistance than aluminum (use one size larger for aluminum)",
+      "Consider ambient temperature derating for high-heat environments",
+      "Include 25% safety margin for continuous loads",
+      "Check local electrical codes (NEC, IEC) for requirements"
+    ],
+    "commonMistakes": [
+      "Not accounting for round-trip distance (multiply by 2)",
+      "Ignoring temperature derating in hot environments",
+      "Using aluminum wire sizes for copper calculations",
+      "Exceeding ampacity limits causing fire hazards"
+    ],
+    "faqs": [
+      {
+        "question": "What is AWG?",
+        "answer": "American Wire Gauge (AWG) is a standardized wire sizing system. Lower numbers indicate thicker wires with higher current capacity. Each 3-gauge decrease doubles the cross-sectional area."
+      },
+      {
+        "question": "Why does distance matter for wire sizing?",
+        "answer": "Longer distances increase resistance, causing voltage drop. Excessive voltage drop can cause equipment malfunction and energy waste."
+      },
+      {
+        "question": "When should I use aluminum instead of copper?",
+        "answer": "Aluminum is cheaper and lighter, suitable for long runs and high-current applications. However, it requires one AWG size larger and special connectors to prevent oxidation issues."
+      }
+    ]
+  },
+  "antenna": {
+    "title": "Antenna Calculator",
+    "description": "Calculate antenna lengths for a given frequency.",
+    "frequency": "Frequency (f)",
+    "type": "Antenna Type",
+    "enter_frequency": "Enter frequency",
+    "type_dipole": "Half-wave Dipole",
+    "type_monopole": "Quarter-wave Monopole",
+    "type_full": "Full-wave Loop",
+    "wavelength": "Wavelength (λ)",
+    "quarter_wave": "Quarter Wave (λ/4)",
+    "half_wave": "Half Wave (λ/2)",
+    "full_wave": "Full Wave (λ)",
+    "velocity_factor": "Velocity Factor",
+    "velocity_desc": "Standard copper wire velocity factor (~0.95) applied to results.",
+    "howItWorks": {
+      "title": "How the Antenna Calculator Works",
+      "formula": "λ = c / f, where c = 299,792,458 m/s",
+      "explanation": "Calculates antenna element lengths based on the relationship between frequency and wavelength. Antennas must be proportional to the wavelength of the signal they transmit or receive.",
+      "steps": [
+        "Enter the operating frequency",
+        "Select the antenna type (dipole, monopole, or loop)",
+        "View calculated wavelength fractions",
+        "Apply velocity factor for wire antenna construction"
+      ]
+    },
+    "useCases": [
+      "Building amateur (ham) radio antennas",
+      "Designing WiFi and Bluetooth antennas",
+      "Creating TV and FM broadcast antennas",
+      "RF engineering and wireless communication projects"
+    ],
+    "seoTips": [
+      "Half-wave dipole is the most common antenna type",
+      "Quarter-wave monopole needs a ground plane to work",
+      "Apply 0.95 velocity factor for copper wire antennas",
+      "Higher frequency = shorter antenna length"
+    ],
+    "commonMistakes": [
+      "Forgetting to apply the velocity factor for real conductors",
+      "Not accounting for surrounding objects affecting performance",
+      "Building antennas too close to metal structures",
+      "Confusing electrical length with physical length"
+    ],
+    "faqs": [
+      {
+        "question": "What is velocity factor?",
+        "answer": "Velocity factor accounts for the slower propagation of signals in conductors compared to free space. Copper wire has a velocity factor of about 0.95, meaning the physical antenna is 5% shorter than the theoretical length."
+      },
+      {
+        "question": "Why are dipoles half-wavelength?",
+        "answer": "A half-wave dipole creates an efficient radiation pattern and provides a good impedance match (around 73 ohms) to common transmission lines."
+      },
+      {
+        "question": "Can I use any wire for antenna construction?",
+        "answer": "Yes, but copper wire is preferred for its conductivity. The wire gauge affects antenna bandwidth - thicker wire provides wider bandwidth."
+      }
+    ]
+  },
+  "resonance": {
+    "title": "Resonance Calculator",
+    "description": "Calculate resonance frequency, Q factor, and bandwidth for RLC circuits.",
+    "inductance": "Inductance (L)",
+    "capacitance": "Capacitance (C)",
+    "resistance": "Resistance (R)",
+    "enter_inductance": "Enter inductance",
+    "enter_capacitance": "Enter capacitance",
+    "enter_resistance": "Enter resistance",
+    "resonance_frequency": "Resonance Frequency (f0)",
+    "angular_frequency": "Angular Frequency (ω0)",
+    "characteristic_impedance": "Characteristic Impedance (Z0)",
+    "quality_factor": "Quality Factor (Q)",
+    "bandwidth": "Bandwidth (BW)",
+    "how_it_works": "How it Works",
+    "formulas": [
+      "Resonance: f0 = 1 / (2π√(LC))",
+      "Impedance: Z0 = √(L/C)",
+      "Quality Factor: Q = (1/R)√(L/C)",
+      "Bandwidth: BW = f0 / Q"
+    ],
+    "howItWorks": {
+      "title": "How the Resonance Calculator Works",
+      "formula": "f₀ = 1 / (2π√LC)",
+      "explanation": "Calculates the resonant frequency where inductive and capacitive reactances are equal and cancel out. At resonance, the circuit exhibits minimum impedance (series) or maximum impedance (parallel).",
+      "steps": [
+        "Enter the inductance value (L)",
+        "Enter the capacitance value (C)",
+        "Enter resistance for Q factor calculation",
+        "View resonant frequency, Q factor, and bandwidth"
+      ]
+    },
+    "useCases": [
+      "Designing radio tuning circuits",
+      "Creating band-pass and band-stop filters",
+      "Wireless power transfer systems",
+      "Audio crossover networks"
+    ],
+    "seoTips": [
+      "Higher Q factor means narrower bandwidth and sharper selectivity",
+      "Series RLC: minimum impedance at resonance",
+      "Parallel RLC: maximum impedance at resonance",
+      "Q > 10 is considered high-Q (good selectivity)"
+    ],
+    "commonMistakes": [
+      "Confusing series and parallel resonance behavior",
+      "Ignoring component tolerances affecting resonant frequency",
+      "Not accounting for parasitic resistance in inductors",
+      "Using components outside their rated frequency range"
+    ],
+    "faqs": [
+      {
+        "question": "What is the Q factor?",
+        "answer": "Quality factor (Q) measures how 'sharp' the resonance is. Higher Q means the circuit is more selective and has less energy loss. Q = f₀/BW, where BW is the 3dB bandwidth."
+      },
+      {
+        "question": "What happens at resonance?",
+        "answer": "At resonance, XL = XC, so they cancel. In series RLC, impedance equals R (minimum). In parallel RLC, impedance is maximum. Current and voltage are in phase."
+      },
+      {
+        "question": "How do I increase the Q factor?",
+        "answer": "Use lower-resistance inductors, higher-quality capacitors, and minimize parasitic losses. Increasing L/C ratio while maintaining the same resonant frequency also increases Q."
+      }
+    ]
+  },
+  "battery_life": {
+    "title": "Battery Life Calculator",
+    "description": "Calculate estimated battery runtime based on capacity and load.",
+    "capacity": "Battery Capacity",
+    "load_current": "Load Current",
+    "efficiency": "Efficiency (%)",
+    "enter_capacity": "Enter capacity (mAh)",
+    "enter_current": "Enter current (mA)",
+    "enter_efficiency": "Efficiency (e.g. 90)",
+    "capacity_tooltip": "Total energy storage capacity of the battery",
+    "current_tooltip": "Current drawn by the device",
+    "efficiency_tooltip": "Peukert effect and converter efficiency (typically 80-90%)",
+    "runtime": "Estimated Runtime",
+    "hours": "Hours",
+    "days": "Days",
+    "weeks": "Weeks",
+    "formula_title": "Calculation Formula",
+    "formula_desc": "Runtime = (Capacity × Efficiency) / Load Current",
+    "howItWorks": {
+      "title": "How the Battery Life Calculator Works",
+      "formula": "Runtime = (Capacity × Efficiency) / Load Current",
+      "explanation": "Estimates how long a battery will power a device by dividing the battery capacity (in mAh or Ah) by the device's current draw, adjusted for efficiency losses.",
+      "steps": [
+        "Enter the battery capacity (mAh or Ah)",
+        "Enter the device's current consumption",
+        "Adjust efficiency percentage (accounts for losses)",
+        "View estimated runtime in hours, days, or weeks"
+      ]
+    },
+    "useCases": [
+      "Estimating smartphone and laptop battery life",
+      "Sizing batteries for IoT and embedded devices",
+      "Planning portable equipment operating time",
+      "Designing solar systems with battery backup"
+    ],
+    "seoTips": [
+      "Typical efficiency is 80-90% for DC-DC converters",
+      "Peukert effect reduces capacity at high discharge rates",
+      "Li-ion batteries: multiply Ah by 3.7V for Wh capacity",
+      "Consider 20% capacity degradation for aged batteries"
+    ],
+    "commonMistakes": [
+      "Ignoring efficiency losses in voltage conversion",
+      "Not accounting for the Peukert effect at high currents",
+      "Using rated capacity without temperature derating",
+      "Forgetting sleep mode vs. active mode current differences"
+    ],
+    "faqs": [
+      {
+        "question": "What is the Peukert effect?",
+        "answer": "The Peukert effect describes how battery capacity decreases at higher discharge rates. A battery rated at 100Ah at 5A discharge might only deliver 80Ah at 20A discharge."
+      },
+      {
+        "question": "Why should I use efficiency percentage?",
+        "answer": "No power conversion is 100% efficient. Voltage regulators, DC-DC converters, and internal battery resistance all consume power. 85% efficiency is a good estimate for most applications."
+      },
+      {
+        "question": "How do mAh and Ah relate?",
+        "answer": "1 Ah = 1000 mAh. Small batteries (phone, Arduino) use mAh, while larger batteries (car, solar) use Ah. Multiply Ah by voltage to get Wh (energy capacity)."
+      }
+    ]
+  },
+  "inductor": {
+    "title": "Inductor Energy Calculator",
+    "description": "Calculate energy stored in an inductor and its reactance.",
+    "inductance": "Inductance (L)",
+    "current": "Current (I)",
+    "frequency": "Frequency (f)",
+    "enter_inductance": "Enter inductance",
+    "enter_current": "Enter current",
+    "enter_frequency": "Enter frequency (optional)",
+    "energy_stored": "Energy Stored",
+    "reactance": "Inductive Reactance",
+    "voltage_drop": "Voltage Drop",
+    "how_it_works": "How it Works",
+    "formulas": [
+      "Energy: E = 0.5 × L × I²",
+      "Reactance: XL = 2πfL",
+      "Voltage: V = I × XL"
+    ],
+    "howItWorks": {
+      "title": "How the Inductor Calculator Works",
+      "formula": "E = ½LI², XL = 2πfL",
+      "explanation": "Calculates energy stored in an inductor's magnetic field and its reactance at a given frequency. Inductors store energy proportional to current squared and oppose changes in current.",
+      "steps": [
+        "Enter the inductance value (L)",
+        "Enter the current through the inductor",
+        "Optionally enter frequency for reactance calculation",
+        "View stored energy and inductive reactance"
+      ]
+    },
+    "useCases": [
+      "Designing switch-mode power supplies",
+      "Calculating energy storage in DC-DC converters",
+      "Sizing inductors for filter circuits",
+      "Analyzing flyback transformer operation"
+    ],
+    "seoTips": [
+      "Energy stored is proportional to current squared",
+      "Inductors resist sudden current changes",
+      "Saturation current limits maximum energy storage",
+      "DC resistance affects efficiency in power applications"
+    ],
+    "commonMistakes": [
+      "Ignoring inductor saturation current limits",
+      "Forgetting DC resistance losses",
+      "Not considering core material frequency limits",
+      "Using inductors beyond their self-resonant frequency"
+    ],
+    "faqs": [
+      {
+        "question": "Why does energy depend on current squared?",
+        "answer": "The magnetic field energy is proportional to the square of the magnetic flux, which is proportional to current. Doubling current quadruples the stored energy."
+      },
+      {
+        "question": "What is inductor saturation?",
+        "answer": "Saturation occurs when the core material cannot hold more magnetic flux. Above the saturation current, inductance drops dramatically, reducing energy storage and potentially causing circuit failure."
+      },
+      {
+        "question": "How do I choose between air-core and ferrite-core inductors?",
+        "answer": "Air-core inductors have no saturation but lower inductance. Ferrite cores provide higher inductance in smaller packages but saturate at specific current levels. Choose based on current requirements and frequency."
+      }
+    ]
+  },
+  "reactance": {
+    "title": "Reactance Calculator",
+    "description": "Calculate inductive or capacitive reactance in AC circuits.",
+    "reactance_type": "Reactance Type",
+    "reactance_type_tooltip": "Select inductive or capacitive reactance",
+    "inductive": "Inductive",
+    "capacitive": "Capacitive",
+    "inductance": "Inductance (mH)",
+    "inductance_tooltip": "Inductor value in millihenries",
+    "capacitance": "Capacitance (µF)",
+    "capacitance_tooltip": "Capacitor value in microfarads",
+    "frequency": "Frequency (Hz)",
+    "frequency_tooltip": "AC signal frequency in Hertz",
+    "enter_inductance": "Enter inductance",
+    "enter_capacitance": "Enter capacitance",
+    "enter_frequency": "Enter frequency",
+    "calculate_btn": "Calculate Reactance",
+    "reset_btn": "Reset",
+    "results_title": "Reactance Results",
+    "inductive_reactance": "Inductive Reactance (XL)",
+    "capacitive_reactance": "Capacitive Reactance (XC)",
+    "at_frequency": "at {{freq}} Hz",
+    "info_title": "Reactance Formulas",
+    "inductive_formula": "Inductive Reactance: XL = 2πfL",
+    "inductive_trend": "Reactance increases with frequency",
+    "inductive_behavior": "Inductor resists change in current",
+    "capacitive_formula": "Capacitive Reactance: XC = 1/(2πfC)",
+    "capacitive_trend": "Reactance decreases with frequency",
+    "capacitive_behavior": "Capacitor resists change in voltage",
+    "empty_state": "Enter values to calculate reactance",
+    "footer_note": "Reactance values are for ideal components at the specified frequency.",
+    "howItWorks": {
+      "title": "How the Reactance Calculator Works",
+      "formula": "XL = 2πfL, XC = 1/(2πfC)",
+      "explanation": "Calculates the opposition to AC current flow from inductors and capacitors. Inductive reactance increases with frequency, while capacitive reactance decreases with frequency.",
+      "steps": [
+        "Select reactance type (inductive or capacitive)",
+        "Enter the component value (L or C)",
+        "Enter the AC frequency",
+        "View the calculated reactance in ohms"
+      ]
+    },
+    "useCases": [
+      "Designing AC filter circuits",
+      "Calculating impedance in AC networks",
+      "Tuning radio frequency circuits",
+      "Power factor correction analysis"
+    ],
+    "seoTips": [
+      "Inductive reactance: XL = 2πfL (increases with frequency)",
+      "Capacitive reactance: XC = 1/(2πfC) (decreases with frequency)",
+      "At resonance, XL = XC",
+      "Reactance is measured in ohms like resistance"
+    ],
+    "commonMistakes": [
+      "Confusing reactance with impedance (Z includes R)",
+      "Forgetting the negative sign for capacitive reactance in calculations",
+      "Using DC component values at high frequencies",
+      "Not converting units (mH to H, µF to F)"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between reactance and impedance?",
+        "answer": "Reactance (X) is opposition from inductors or capacitors only. Impedance (Z) combines resistance and reactance: Z = √(R² + X²)."
+      },
+      {
+        "question": "Why does inductive reactance increase with frequency?",
+        "answer": "Higher frequencies mean faster current changes. Inductors oppose current changes, so faster changes create more opposition (higher reactance)."
+      },
+      {
+        "question": "Why is capacitive reactance negative in some formulas?",
+        "answer": "The negative sign indicates the phase relationship - capacitive current leads voltage by 90°, while inductive current lags. This matters when calculating total impedance."
+      }
+    ]
+  },
+  "three_phase": {
+    "title": "Three-Phase Power Calculator",
+    "description": "Calculate power, voltage, and current in three-phase electrical systems.",
+    "connection_type": "Connection Type",
+    "connection_type_tooltip": "Select star (Y) or delta (Δ) connection",
+    "star": "Star (Y)",
+    "delta": "Delta (Δ)",
+    "line_voltage": "Line Voltage (V)",
+    "line_voltage_tooltip": "Voltage between any two lines",
+    "line_current": "Line Current (A)",
+    "line_current_tooltip": "Current in each line conductor",
+    "power_factor": "Power Factor",
+    "power_factor_tooltip": "Ratio of active to apparent power (0-1)",
+    "enter_voltage": "Enter voltage",
+    "enter_current": "Enter current",
+    "calculate_btn": "Calculate Power",
+    "reset_btn": "Reset",
+    "results_title": "Three-Phase Results",
+    "active_power": "Active Power (P)",
+    "apparent_power": "Apparent Power (S)",
+    "reactive_power": "Reactive Power (Q)",
+    "phase_voltage": "Phase Voltage",
+    "phase_current": "Phase Current",
+    "info_title": "Three-Phase Formulas",
+    "power_formula": "Power: P = √3 × VL × IL × cos(φ)",
+    "star_formula": "Star: VL = √3 × Vph, IL = Iph",
+    "star_usage": "Used for high voltage loads",
+    "delta_formula": "Delta: VL = Vph, IL = √3 × Iph",
+    "delta_usage": "Used for high current loads",
+    "empty_state": "Enter voltage, current, and power factor to calculate",
+    "footer_note": "Calculations assume balanced three-phase system.",
+    "howItWorks": {
+      "title": "How the Three-Phase Calculator Works",
+      "formula": "P = √3 × VL × IL × cos(φ)",
+      "explanation": "Calculates power relationships in three-phase systems, which are more efficient than single-phase for high-power applications. Supports both star (Y) and delta (Δ) configurations.",
+      "steps": [
+        "Select the connection type (Star or Delta)",
+        "Enter line voltage and line current",
+        "Enter the power factor",
+        "View active, reactive, and apparent power"
+      ]
+    },
+    "useCases": [
+      "Industrial motor power calculations",
+      "Commercial electrical system design",
+      "Generator sizing and selection",
+      "Power distribution network planning"
+    ],
+    "seoTips": [
+      "Star connection: VL = √3 × Vph, IL = Iph",
+      "Delta connection: VL = Vph, IL = √3 × Iph",
+      "Three-phase delivers constant power (no pulsation)",
+      "More efficient transmission than single-phase"
+    ],
+    "commonMistakes": [
+      "Confusing line and phase values",
+      "Using wrong √3 factor for star vs. delta",
+      "Forgetting power factor in power calculations",
+      "Assuming unbalanced loads follow balanced formulas"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between star and delta connections?",
+        "answer": "In star (Y), each phase connects to a common neutral point. In delta (Δ), phases connect end-to-end forming a triangle. Star provides neutral access; delta provides higher current capacity."
+      },
+      {
+        "question": "Why is three-phase more efficient than single-phase?",
+        "answer": "Three-phase delivers constant power (no zero crossings), uses less copper for the same power, and produces rotating magnetic fields directly for motors."
+      },
+      {
+        "question": "When should I use star vs. delta?",
+        "answer": "Star is common for distribution with neutral access and lower phase voltage. Delta is used for high-current loads and motors that need to start with reduced voltage (star-delta starter)."
+      }
+    ]
+  },
+  "resistors_parallel": {
+    "title": "Series & Parallel Resistors Calculator",
+    "description": "Calculate total resistance, current, and power for a group of resistors connected in series or parallel.",
+    "connection_type": "Connection Type",
+    "connection_type_tooltip": "Choose the type of resistor connection",
+    "series": "Series",
+    "parallel": "Parallel",
+    "resistor_values": "Resistor Values",
+    "add_resistor": "Add Resistor",
+    "total_resistance": "Total Resistance",
+    "total_current": "Total Current",
+    "total_power": "Total Power",
+    "individual_results": "Individual Results for Each Resistor",
+    "how_it_works": "How is this Calculated?",
+    "series_formula_1": "Total Resistance: R = R1 + R2 + R3 + ...",
+    "series_formula_2": "Current is identical through all resistors",
+    "series_formula_3": "Voltage is distributed according to each resistor's value",
+    "parallel_formula_1": "Total Resistance: 1/R = 1/R1 + 1/R2 + 1/R3 + ...",
+    "parallel_formula_2": "Voltage is identical across all resistors",
+    "parallel_formula_3": "Current is distributed according to each resistor's value",
+    "empty_state": "Enter voltage and resistor values to see results",
+    "footer_note": "Ensure correct connection type is selected before calculating.",
+    "howItWorks": {
+      "title": "How the Series & Parallel Calculator Works",
+      "formula": "Series: R = R1+R2+... | Parallel: 1/R = 1/R1+1/R2+...",
+      "explanation": "Calculates total resistance for resistors in series (add values) or parallel (add reciprocals). Also shows current and power distribution across each resistor.",
+      "steps": [
+        "Select connection type (series or parallel)",
+        "Enter the supply voltage",
+        "Add resistor values one by one",
+        "View total resistance and individual results"
+      ]
+    },
+    "useCases": [
+      "Designing voltage dividers and current sharing",
+      "Creating custom resistance values",
+      "Analyzing existing circuit networks",
+      "Teaching basic circuit theory"
+    ],
+    "seoTips": [
+      "Series: same current, voltage divides proportionally",
+      "Parallel: same voltage, current divides inversely",
+      "Total parallel resistance is always less than smallest resistor",
+      "Use 1% resistors for precision voltage dividers"
+    ],
+    "commonMistakes": [
+      "Using series formula for parallel circuits",
+      "Forgetting that parallel resistance is less than any single resistor",
+      "Not checking individual resistor power ratings",
+      "Mixing series and parallel formulas in complex networks"
+    ],
+    "faqs": [
+      {
+        "question": "Why use series resistors?",
+        "answer": "Series resistors increase total resistance and divide voltage proportionally. Useful for voltage dividers, current limiting, and creating specific resistance values."
+      },
+      {
+        "question": "Why use parallel resistors?",
+        "answer": "Parallel resistors decrease total resistance, increase current capacity, and provide redundancy. If one fails, the circuit may still work."
+      },
+      {
+        "question": "How do I analyze a circuit with both series and parallel?",
+        "answer": "Simplify step by step: first combine parallel groups into single equivalents, then add series resistances. Repeat until you have one equivalent resistance."
+      }
+    ]
+  },
+  "voltage_drop": {
+    "title": "Voltage Drop Calculator",
+    "description": "Calculate voltage drop in wires based on current, distance, and wire size.",
+    "inputs": {
+      "voltage": "Voltage (V)",
+      "current": "Current (A)",
+      "distance": "Distance (One Way)",
+      "wire_size": "Wire Size (mm²)",
+      "phase": "Phase",
+      "material": "Conductor Material"
+    },
+    "tooltips": {
+      "voltage": "System voltage (e.g. 12V, 220V)",
+      "current": "Load current in Amperes",
+      "distance": "Length of the cable run in meters",
+      "wire_size": "Cross-sectional area of the wire",
+      "phase": "System phase type",
+      "material": "Material of the wire conductor"
+    },
+    "placeholders": {
+      "voltage": "Enter voltage",
+      "current": "Enter current",
+      "distance": "Enter distance"
+    },
+    "options": {
+      "single_phase": "Single Phase",
+      "three_phase": "Three Phase",
+      "copper": "Copper",
+      "aluminum": "Aluminum",
+      "wire_mm2": "{{size}} mm²"
+    },
+    "results": {
+      "voltage_drop": "Voltage Drop",
+      "end_voltage": "Voltage at End",
+      "power_loss": "Power Loss",
+      "acceptable": "Voltage drop is acceptable (≤ 3%)",
+      "unacceptable": "Voltage drop is too high (> 3%)",
+      "conclusion": "Conclusion"
+    },
+    "info": {
+      "title": "About Voltage Drop",
+      "desc": "Voltage drop occurs when internal resistance of the wire causes a loss of voltage. It should typically be kept under 3% for lighting and 5% for other loads."
+    },
+    "howItWorks": {
+      "title": "How the Voltage Drop Calculator Works",
+      "formula": "Vdrop = 2 × I × R × L (single-phase), Vdrop = √3 × I × R × L (three-phase)",
+      "explanation": "Calculates voltage loss in electrical cables due to wire resistance. Excessive voltage drop causes equipment malfunction, reduced efficiency, and energy waste.",
+      "steps": [
+        "Enter the system voltage and load current",
+        "Enter the cable run distance (one way)",
+        "Select wire size and material",
+        "Choose single-phase or three-phase"
+      ]
+    },
+    "useCases": [
+      "Sizing cables for long-distance runs",
+      "Solar panel array wiring design",
+      "Industrial power distribution planning",
+      "Ensuring code compliance for electrical installations"
+    ],
+    "seoTips": [
+      "Keep voltage drop under 3% for lighting circuits",
+      "Allow up to 5% for motor and heating loads",
+      "Use copper for lower voltage drop vs. aluminum",
+      "Consider larger wire sizes for long distances"
+    ],
+    "commonMistakes": [
+      "Forgetting to double the distance (round-trip)",
+      "Using single-phase formula for three-phase systems",
+      "Ignoring temperature effects on wire resistance",
+      "Not accounting for connection resistance"
+    ],
+    "faqs": [
+      {
+        "question": "Why is voltage drop important?",
+        "answer": "Excessive voltage drop causes dim lights, slow motors, and equipment damage. It also wastes energy as heat in the wires. Codes limit drop to 3-5%."
+      },
+      {
+        "question": "How can I reduce voltage drop?",
+        "answer": "Use larger wire gauge, shorter cable runs, copper instead of aluminum, or higher system voltage. For DC systems, consider running at higher voltage then converting down."
+      },
+      {
+        "question": "Does voltage drop affect power loss?",
+        "answer": "Yes, power loss = I² × R. The lost power becomes heat in the cable. Higher currents have disproportionately higher losses due to the squared relationship."
+      }
+    ]
+  },
+  "pcb_trace": {
+    "title": "PCB Trace Width Calculator",
+    "description": "Calculate the required trace width for a printed circuit board based on current and temperature rise.",
+    "inputs": {
+      "current": "Current (A)",
+      "temp_rise": "Temperature Rise (°C)",
+      "thickness": "Copper Thickness",
+      "length": "Trace Length (optional)"
+    },
+    "tooltips": {
+      "current": "Maximum current passing through the trace",
+      "temp_rise": "Allowed temperature increase above ambient",
+      "thickness": "Thickness of the copper layer",
+      "length": "Length of the trace for resistance calculation"
+    },
+    "placeholders": {
+      "current": "Enter current",
+      "temp_rise": "Enter temp rise",
+      "length": "Enter length"
+    },
+    "results": {
+      "min_width": "Minimum Trace Width",
+      "area": "Cross-Section Area",
+      "resistance": "Trace Resistance",
+      "voltage_drop": "Voltage Drop"
+    },
+    "options": {
+      "thickness_label": "{{um}}µm ({{oz}} oz)"
+    },
+    "info": {
+      "title": "IPC-2221 Formula",
+      "desc": "Calculations are based on IPC-2221 generic standard for printed board design."
+    },
+    "howItWorks": {
+      "title": "How the PCB Trace Width Calculator Works",
+      "formula": "W = Area / (Thickness × 1.378) based on IPC-2221",
+      "explanation": "Calculates minimum PCB trace width to safely carry current based on IPC-2221 standards. The calculation considers copper thickness, temperature rise, and whether the trace is internal or external.",
+      "steps": [
+        "Enter the maximum current through the trace",
+        "Specify allowable temperature rise (typically 10-20°C)",
+        "Select copper thickness (1oz, 2oz, etc.)",
+        "Optionally enter trace length for resistance calculation"
+      ]
+    },
+    "useCases": [
+      "Designing power traces on PCBs",
+      "Ensuring thermal safety for high-current circuits",
+      "Meeting IPC manufacturing standards",
+      "Optimizing board layout for current capacity"
+    ],
+    "seoTips": [
+      "1oz copper = 35µm (1.4 mil) thickness",
+      "Internal traces need 2x wider than external for same current",
+      "Use polygon pours for high-current paths",
+      "Add thermal reliefs around pads for better soldering"
+    ],
+    "commonMistakes": [
+      "Using external trace calculations for internal layers",
+      "Not accounting for via current capacity",
+      "Ignoring trace resistance for voltage-sensitive circuits",
+      "Forgetting temperature rise affects surrounding components"
+    ],
+    "faqs": [
+      {
+        "question": "What is IPC-2221?",
+        "answer": "IPC-2221 is the generic standard for printed circuit board design. It provides formulas and guidelines for trace sizing, clearances, and thermal management."
+      },
+      {
+        "question": "Why do internal traces need to be wider?",
+        "answer": "Internal traces are surrounded by PCB material that insulates heat. External traces can dissipate heat to air, so they can carry more current for the same width."
+      },
+      {
+        "question": "How does copper thickness affect trace width?",
+        "answer": "Thicker copper (2oz vs 1oz) can carry more current for the same width. Doubling copper thickness roughly allows 40% more current, not double."
+      }
+    ]
+  },
+  "solar_panel": {
+    "title": "Solar Panel Calculator",
+    "description": "Calculate the number of solar panels and battery capacity needed for your daily consumption.",
+    "inputs": {
+      "daily_consumption": "Daily Consumption",
+      "sun_hours": "Peak Sun Hours",
+      "system_voltage": "System Voltage",
+      "panel_wattage": "Panel Wattage"
+    },
+    "tooltips": {
+      "daily_consumption": "Total energy used per day in Watt-hours",
+      "sun_hours": "Average hours of full sunlight per day",
+      "system_voltage": "Voltage of your battery bank",
+      "panel_wattage": "Rated power of a single solar panel"
+    },
+    "placeholders": {
+      "daily_consumption": "e.g. 3000",
+      "sun_hours": "e.g. 5",
+      "panel_wattage": "e.g. 300"
+    },
+    "results": {
+      "num_panels": "Number of Panels Needed",
+      "total_wattage": "Total Solar Wattage",
+      "battery_capacity": "Recommended Battery Capacity",
+      "charge_controller": "Minimum Charge Controller Rating",
+      "batteries_desc": "Based on 2 days of autonomy and 50% depth of discharge"
+    },
+    "info": {
+      "title": "System Sizing",
+      "desc": "This estimation includes a factor for system losses and inefficiencies."
+    },
+    "howItWorks": {
+      "title": "How the Solar Panel Calculator Works",
+      "formula": "Panels = Daily Consumption / (Panel Wattage × Sun Hours × Efficiency)",
+      "explanation": "Calculates the number of solar panels needed based on daily energy consumption, peak sun hours, and system efficiency. Also sizes battery capacity for autonomy.",
+      "steps": [
+        "Enter your daily energy consumption (Wh)",
+        "Specify average peak sun hours for your location",
+        "Select system voltage (12V, 24V, 48V)",
+        "Enter the wattage of your chosen panels"
+      ]
+    },
+    "useCases": [
+      "Designing off-grid solar systems",
+      "Sizing grid-tied solar installations",
+      "Planning RV and boat solar systems",
+      "Calculating backup power requirements"
+    ],
+    "seoTips": [
+      "Peak sun hours vary by location (typically 4-6 hours)",
+      "Include 20-30% for system losses and inefficiencies",
+      "Higher voltage systems reduce cable losses",
+      "Plan for 2-3 days of battery autonomy for off-grid"
+    ],
+    "commonMistakes": [
+      "Using total daylight hours instead of peak sun hours",
+      "Forgetting inverter and charge controller losses",
+      "Under-sizing batteries for cloudy day autonomy",
+      "Not accounting for seasonal sun hour variations"
+    ],
+    "faqs": [
+      {
+        "question": "What are peak sun hours?",
+        "answer": "Peak sun hours (PSH) are equivalent hours of 1000W/m² solar irradiance. 5 PSH means the total daily energy equals 5 hours of full sun, not actual sunlight duration."
+      },
+      {
+        "question": "How do I determine my daily consumption?",
+        "answer": "Add up wattage × hours of use for all appliances. Check energy bills for monthly kWh and divide by 30. Use a power meter for accurate measurements."
+      },
+      {
+        "question": "What system voltage should I choose?",
+        "answer": "12V for small systems under 2kW, 24V for medium systems, 48V for larger systems. Higher voltage reduces current and cable losses but requires more panels in series."
+      }
+    ]
+  },
+  "op_amp": {
+    "title": "Op-Amp Calculator",
+    "description": "Calculate gain and output voltage for Inverting and Non-inverting Op-Amp configurations.",
+    "config": "Configuration",
+    "config_tooltip": "Select Op-Amp circuit configuration",
+    "inverting": "Inverting",
+    "non_inverting": "Non-inverting",
+    "input_voltage": "Input Voltage (Vin)",
+    "input_voltage_tooltip": "Input signal voltage",
+    "r1": "Input Resistor (R1)",
+    "r1_tooltip": "Resistor connected from input to inverting node",
+    "r2": "Feedback Resistor (R2)",
+    "r2_tooltip": "Resistor in feedback path from output",
+    "enter_r1": "Enter R1",
+    "enter_r2": "Enter R2",
+    "enter_vin": "Enter Vin",
+    "gain": "Gain (Av)",
+    "output_voltage": "Output Voltage (Vout)",
+    "results_title": "Results",
+    "how_it_works": "Circuit Details",
+    "inverting_gain": "Gain: Av = -R2 / R1",
+    "inverting_phase": "Inverts input signal (180° phase shift)",
+    "inverting_impedance": "Input Impedance: R1",
+    "non_inverting_gain": "Gain: Av = 1 + (R2 / R1)",
+    "non_inverting_phase": "Does not invert input signal (0° phase shift)",
+    "non_inverting_impedance": "Input Impedance: Very High (infinite in ideal case)",
+    "empty_state": "Enter values to calculate gain and output voltage",
+    "footer_note": "Ideal op-amp assumptions may differ from real circuits (saturation, bandwidth, and input bias currents).",
+    "howItWorks": {
+      "title": "How the Op-Amp Calculator Works",
+      "formula": "Inverting: Av = -R2/R1 | Non-inverting: Av = 1 + R2/R1",
+      "explanation": "Calculates voltage gain and output for operational amplifier circuits. Inverting configuration inverts the signal, while non-inverting maintains polarity.",
+      "steps": [
+        "Select configuration (inverting or non-inverting)",
+        "Enter input voltage (Vin)",
+        "Enter resistor values R1 and R2",
+        "View calculated gain and output voltage"
+      ]
+    },
+    "useCases": [
+      "Designing signal amplification stages",
+      "Building active filters and equalizers",
+      "Creating voltage followers and buffers",
+      "Implementing summing amplifiers and mixers"
+    ],
+    "seoTips": [
+      "Inverting config: input impedance = R1",
+      "Non-inverting config: very high input impedance",
+      "Gain-bandwidth product limits high-frequency gain",
+      "Use rail-to-rail op-amps for maximum output swing"
+    ],
+    "commonMistakes": [
+      "Exceeding output voltage swing (supply rail limits)",
+      "Forgetting slew rate limits for fast signals",
+      "Not considering input bias current effects",
+      "Ignoring gain-bandwidth product limitations"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between inverting and non-inverting?",
+        "answer": "Inverting amplifier flips signal polarity (180° phase shift) with input impedance R1. Non-inverting maintains polarity with very high input impedance. Gain formulas differ."
+      },
+      {
+        "question": "Why is there a negative sign in inverting gain?",
+        "answer": "The negative sign indicates phase inversion - when input goes positive, output goes negative. The magnitude |Av| = R2/R1 is the voltage amplification."
+      },
+      {
+        "question": "What happens if calculated output exceeds supply voltage?",
+        "answer": "The output saturates near the supply rails (typically 1-2V below). Use rail-to-rail op-amps or ensure gain keeps output within linear range."
+      }
+    ]
+  },
+  "timer_555": {
+    "title": "555 Timer Calculator",
+    "description": "Calculate frequency, period, and duty cycle for 555 timer in Astable and Monostable modes.",
+    "mode": "Mode",
+    "mode_tooltip": "Select operation mode",
+    "astable": "Astable (Oscillator)",
+    "monostable": "Monostable (One-shot)",
+    "r1": "Resistance 1 (R1)",
+    "r1_tooltip": "Resistor connected between Vcc and Discharge pin",
+    "r2": "Resistance 2 (R2)",
+    "r2_tooltip": "Resistor connected between Discharge and Threshold/Trigger pins",
+    "capacitance": "Capacitance (C)",
+    "capacitance_tooltip": "Timing capacitor connected to Ground",
+    "enter_r1": "Enter R1",
+    "enter_r2": "Enter R2",
+    "enter_capacitance": "Enter C",
+    "frequency": "Frequency",
+    "period": "Period (T)",
+    "high_time": "High Time (t₁)",
+    "low_time": "Low Time (t₂)",
+    "duty_cycle": "Duty Cycle",
+    "pulse_width": "Pulse Width",
+    "how_it_works": "Formulas",
+    "astable_high": "High Time: t₁ = 0.693 × (R1 + R2) × C",
+    "astable_low": "Low Time: t₂ = 0.693 × R2 × C",
+    "astable_freq": "Frequency: f = 1.44 / ((R1 + 2×R2) × C)",
+    "monostable_pulse": "Pulse Width: T = 1.1 × R1 × C",
+    "monostable_trigger": "Output pulse is triggered by a negative pulse on pin 2",
+    "howItWorks": {
+      "title": "How the 555 Timer Calculator Works",
+      "formula": "f = 1.44 / ((R1 + 2R2) × C)",
+      "explanation": "Calculates timing parameters for the versatile 555 timer IC. In astable mode, it generates a continuous square wave. In monostable mode, it produces a single pulse when triggered.",
+      "steps": [
+        "Select operation mode (Astable or Monostable)",
+        "Enter resistor R1 value",
+        "Enter resistor R2 value (astable mode)",
+        "Enter capacitor C value"
+      ]
+    },
+    "useCases": [
+      "Generating clock signals and square waves",
+      "Creating time delays and timers",
+      "PWM for motor speed control",
+      "LED flashers and oscillators"
+    ],
+    "seoTips": [
+      "Standard 555 duty cycle is always above 50% in astable",
+      "Use diode trick or 556 for 50% duty cycle",
+      "CMOS 7555 works at lower voltages and currents",
+      "Add 0.01µF bypass capacitor on pin 5 for stability"
+    ],
+    "commonMistakes": [
+      "Expecting exactly 50% duty cycle in astable mode",
+      "Forgetting pin 5 bypass capacitor causing instability",
+      "Using wrong capacitor type (electrolytic for timing)",
+      "Not accounting for component tolerances"
+    ],
+    "faqs": [
+      {
+        "question": "Why can't I get 50% duty cycle in astable mode?",
+        "answer": "Standard 555 charges through R1+R2 but discharges only through R2, so high time is always longer than low time. Use a diode across R2 or use a 556 dual timer for 50% duty."
+      },
+      {
+        "question": "What is monostable mode used for?",
+        "answer": "Monostable (one-shot) produces a single pulse of precise duration when triggered. Used for debouncing, missing pulse detection, and creating time delays."
+      },
+      {
+        "question": "What is the difference between 555 and 7555?",
+        "answer": "The 7555 (CMOS version) has lower power consumption, wider voltage range (2-15V), higher input impedance, and faster switching. Better for battery-powered and precision applications."
+      }
+    ]
+  },
+  "ac_circuit": {
+    "title": "AC Circuit Calculator",
+    "description": "Calculate impedance, current, and power in RLC circuits.",
+    "impedance": "Impedance (Z)",
+    "phase_angle": "Phase Angle (φ)",
+    "power_factor": "Power Factor (PF)",
+    "active_power": "Active Power (P)",
+    "reactive_power": "Reactive Power (Q)",
+    "enter_params": "Enter RLC circuit parameters",
+    "how_it_works": "How it Works",
+    "formula_impedance": "Impedance: Z = √(R² + (XL - XC)²)",
+    "formula_current": "Current: I = V / Z",
+    "formula_power": "Active Power: P = V × I × cos(φ)",
+    "howItWorks": {
+      "title": "How the AC Circuit Calculator Works",
+      "formula": "Z = √(R² + (XL - XC)²)",
+      "explanation": "Calculates impedance, phase angle, and power for AC circuits containing resistance, inductance, and capacitance. AC circuits behave differently from DC due to reactive components.",
+      "steps": [
+        "Enter resistance (R), inductance (L), and capacitance (C)",
+        "Enter the AC voltage and frequency",
+        "View impedance, phase angle, and power factor",
+        "Calculate active, reactive, and apparent power"
+      ]
+    },
+    "useCases": [
+      "Analyzing RLC filter circuits",
+      "Designing AC power systems",
+      "Calculating resonance in tuned circuits",
+      "Power factor analysis and correction"
+    ],
+    "seoTips": [
+      "Phase angle positive: inductive (current lags voltage)",
+      "Phase angle negative: capacitive (current leads voltage)",
+      "At resonance: XL = XC, impedance = R only",
+      "Power factor = cos(φ), ranges from 0 to 1"
+    ],
+    "commonMistakes": [
+      "Forgetting reactances subtract (XL - XC) not add",
+      "Using DC resistance values at high frequencies",
+      "Confusing apparent power (VA) with active power (W)",
+      "Not considering frequency dependence of reactances"
+    ],
+    "faqs": [
+      {
+        "question": "What is power factor?",
+        "answer": "Power factor (PF = cos φ) is the ratio of active power to apparent power. PF = 1 means all power is useful; lower PF means reactive power is wasted in the system."
+      },
+      {
+        "question": "What is the difference between XL and XC?",
+        "answer": "XL (inductive reactance) increases with frequency, while XC (capacitive reactance) decreases. They have opposite phase effects, so they partially cancel in series circuits."
+      },
+      {
+        "question": "What happens at resonance in an RLC circuit?",
+        "answer": "At resonance, XL = XC so they cancel. Total impedance equals R only (minimum for series, maximum for parallel). Current is maximum and in phase with voltage."
+      }
+    ]
+  },
+  "power_calc": {
+    "title": "Electrical Power Calculator",
+    "description": "Calculate active, reactive, and apparent power for single and three-phase systems.",
+    "phase": "Phase System",
+    "phase_tooltip": "Select single or three-phase system",
+    "single_phase": "Single Phase",
+    "three_phase": "Three Phase",
+    "voltage": "Voltage (V)",
+    "current": "Current (A)",
+    "power_factor": "Power Factor (PF)",
+    "enter_voltage": "Enter voltage",
+    "enter_current": "Enter current",
+    "enter_pf": "Enter PF (0-1)",
+    "active_power": "Active Power (P)",
+    "reactive_power": "Reactive Power (Q)",
+    "apparent_power": "Apparent Power (S)",
+    "energy_day": "Energy per Day",
+    "energy_month": "Energy per Month",
+    "how_it_works": "Power Formulas",
+    "single_phase_formula": "Single Phase: P = V × I × PF",
+    "three_phase_formula": "Three Phase: P = √3 × V × I × PF",
+    "reactive_formula": "Reactive Power: Q = √(S² - P²)",
+    "energy_formula": "Energy = Power × Time",
+    "howItWorks": {
+      "title": "How the Electrical Power Calculator Works",
+      "formula": "P = V × I × PF (single-phase), P = √3 × V × I × PF (three-phase)",
+      "explanation": "Calculates active, reactive, and apparent power for electrical systems. Active power does useful work, reactive power oscillates in inductive/capacitive loads, and apparent power is the total supplied.",
+      "steps": [
+        "Select phase system (single or three-phase)",
+        "Enter voltage and current values",
+        "Enter the power factor (0-1)",
+        "View all power components and energy consumption"
+      ]
+    },
+    "useCases": [
+      "Calculating equipment power consumption",
+      "Sizing circuit breakers and cables",
+      "Estimating energy costs and billing",
+      "Designing electrical distribution systems"
+    ],
+    "seoTips": [
+      "Active power (W) does actual work",
+      "Reactive power (VAR) sustains magnetic/electric fields",
+      "Apparent power (VA) = V × I (what you pay for in some tariffs)",
+      "1 kW running 1 hour = 1 kWh of energy"
+    ],
+    "commonMistakes": [
+      "Confusing power (kW) with energy (kWh)",
+      "Forgetting power factor in industrial calculations",
+      "Using line voltage instead of phase voltage incorrectly",
+      "Not accounting for harmonics in non-linear loads"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between kW and kVA?",
+        "answer": "kW (kilowatts) is active/real power that does work. kVA (kilovolt-amperes) is apparent power including reactive components. kW = kVA × Power Factor."
+      },
+      {
+        "question": "Why does power factor matter?",
+        "answer": "Low power factor means more current is needed for the same useful power, causing larger cables, higher losses, and potential utility penalties for industrial customers."
+      },
+      {
+        "question": "How do I calculate energy cost?",
+        "answer": "Energy (kWh) = Power (kW) × Time (hours). Cost = kWh × rate. For example, 2kW × 5 hours = 10 kWh. At $0.10/kWh, cost = $1.00."
+      }
+    ]
+  },
+  "power_factor": {
+    "title": "Power Factor Calculator",
+    "description": "Calculate power factor correction capacitor and other parameters.",
+    "active_power": "Active Power (P)",
+    "reactive_power": "Reactive Power (Q)",
+    "target_pf": "Target Power Factor",
+    "voltage": "Voltage (V)",
+    "frequency": "Frequency (Hz)",
+    "enter_active": "Enter active power",
+    "enter_reactive": "Enter reactive power",
+    "enter_target": "Enter target PF (e.g. 0.95)",
+    "enter_voltage": "Enter voltage",
+    "enter_frequency": "Enter frequency",
+    "current_pf": "Current Power Factor",
+    "phase_angle": "Phase Angle",
+    "apparent_power": "Apparent Power (S)",
+    "capacitor_rating": "Required Capacitor",
+    "capacitance": "Capacitance Value",
+    "how_it_works": "Correction Calculation",
+    "formula_pf": "PF = P / √(P² + Q²)",
+    "formula_cap": "Qc = P × (tan(acos(PF1)) - tan(acos(PF2)))",
+    "formula_uf": "C = (Qc × 10^9) / (2πfV²)",
+    "howItWorks": {
+      "title": "How the Power Factor Calculator Works",
+      "formula": "PF = P/S = cos(φ), C = Qc/(2πfV²)",
+      "explanation": "Calculates current power factor and determines the capacitor size needed to improve it to a target value. Power factor correction reduces energy waste and utility penalties.",
+      "steps": [
+        "Enter active power (kW) and reactive power (kVAR)",
+        "Enter target power factor (typically 0.95)",
+        "Enter system voltage and frequency",
+        "View required capacitor rating and size"
+      ]
+    },
+    "useCases": [
+      "Industrial power factor correction",
+      "Reducing utility power factor penalties",
+      "Improving electrical system efficiency",
+      "Sizing capacitor banks for facilities"
+    ],
+    "seoTips": [
+      "Most utilities require PF > 0.85 to avoid penalties",
+      "Target PF of 0.95-0.98 is optimal (over-correction causes leading PF)",
+      "Capacitors provide leading reactive power to cancel lagging",
+      "Automatic capacitor banks adjust to varying loads"
+    ],
+    "commonMistakes": [
+      "Over-correcting to leading power factor (resonance risk)",
+      "Not considering harmonic effects on capacitors",
+      "Using fixed capacitors for varying loads",
+      "Ignoring capacitor voltage and frequency ratings"
+    ],
+    "faqs": [
+      {
+        "question": "Why do I need power factor correction?",
+        "answer": "Low PF means drawing more current than needed, causing higher cable losses, larger equipment sizing, and utility penalties. Correction saves money and improves efficiency."
+      },
+      {
+        "question": "What happens if I over-correct power factor?",
+        "answer": "Over-correction creates a leading power factor, which can cause voltage rise, resonance with system inductance, and potential equipment damage. Stay below 0.98 PF."
+      },
+      {
+        "question": "Should I use fixed or automatic capacitor banks?",
+        "answer": "Fixed capacitors work for constant loads. Automatic banks with contactors switch capacitor stages based on measured PF, ideal for varying loads like factories."
+      }
+    ]
+  },
+  "transformer": {
+    "title": "Transformer Calculator",
+    "description": "Calculate turns ratio, voltage ratio, current, and efficiency for transformers.",
+    "primary_voltage": "Primary Voltage (Vp)",
+    "secondary_voltage": "Secondary Voltage (Vs)",
+    "primary_turns": "Primary Turns (Np)",
+    "secondary_turns": "Secondary Turns (Ns)",
+    "power": "Power Rating (VA/W)",
+    "efficiency": "Efficiency (%)",
+    "enter_primary_v": "Enter primary voltage",
+    "enter_secondary_v": "Enter secondary voltage",
+    "enter_primary_turns": "Enter primary turns",
+    "enter_secondary_turns": "Enter secondary turns",
+    "enter_power": "Enter power rating",
+    "enter_efficiency": "Enter efficiency",
+    "turns_ratio": "Turns Ratio (Np:Ns)",
+    "voltage_ratio": "Voltage Ratio (Vp:Vs)",
+    "primary_current": "Primary Current (Ip)",
+    "secondary_current": "Secondary Current (Is)",
+    "output_power": "Output Power",
+    "losses": "Power Losses",
+    "how_it_works": "Transformer Equations",
+    "turns_voltage_relation": "Vp/Vs = Np/Ns = Is/Ip (Ideal)",
+    "unit_turns": "turns",
+    "howItWorks": {
+      "title": "How the Transformer Calculator Works",
+      "formula": "Vp/Vs = Np/Ns, Ip/Is = Ns/Np",
+      "explanation": "Calculates transformer parameters based on the relationship between primary and secondary windings. Voltage ratio equals turns ratio, while current ratio is inverse.",
+      "steps": [
+        "Enter primary and secondary voltages",
+        "Or enter primary and secondary turns",
+        "Enter power rating and efficiency",
+        "View currents, losses, and ratios"
+      ]
+    },
+    "useCases": [
+      "Designing power supply transformers",
+      "Selecting transformers for specific applications",
+      "Calculating transformer loading and efficiency",
+      "Understanding isolation and step-up/down requirements"
+    ],
+    "seoTips": [
+      "Turns ratio = voltage ratio for ideal transformers",
+      "Current ratio is inverse of voltage ratio",
+      "Efficiency = output power / input power × 100%",
+      "VA rating must exceed connected load"
+    ],
+    "commonMistakes": [
+      "Confusing VA rating with watts (consider power factor)",
+      "Forgetting transformer losses (core and copper)",
+      "Not accounting for voltage drop under load",
+      "Using DC with transformers (they only work with AC)"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between VA and Watts in transformers?",
+        "answer": "VA (volt-amperes) is apparent power - what the transformer delivers. Watts is active power after accounting for power factor. For resistive loads, VA = Watts."
+      },
+      {
+        "question": "Why does efficiency matter?",
+        "answer": "Transformer losses become heat. Lower efficiency means more energy wasted, higher operating costs, and potential overheating. Modern transformers achieve 95-99% efficiency."
+      },
+      {
+        "question": "Can I use a transformer with DC?",
+        "answer": "No, transformers only work with AC. DC creates a constant magnetic field that induces no voltage. Use a DC-DC converter or first convert DC to AC."
+      }
+    ]
+  },
+  "electrical_load": {
+    "title": "Electrical Load Calculator",
+    "description": "Calculate total electrical load, current, and recommended panel/cable sizes.",
+    "voltage": "Voltage (V)",
+    "voltage_tooltip": "System voltage (e.g., 220V, 380V)",
+    "power_factor": "Power Factor",
+    "power_factor_tooltip": "Power factor (typically 0.8-0.95)",
+    "loads_title": "Electrical Loads",
+    "load_name": "Device Name",
+    "load_power": "Power (W)",
+    "load_quantity": "Quantity",
+    "add_load": "Add Load",
+    "default_load_1": "Lighting",
+    "default_load_2": "Air Conditioner",
+    "results_title": "Load Calculation Results",
+    "total_power": "Total Power",
+    "total_current": "Total Current",
+    "panel_size": "Recommended Panel Size",
+    "cable_size": "Recommended Cable Size",
+    "notes_title": "Important Notes",
+    "notes": "Results include 25% safety factor. Consult an electrician for final installation.",
+    "empty_state": "Enter loads and voltage to calculate",
+    "footer_note": "This calculator provides estimates. Professional verification is recommended.",
+    "howItWorks": {
+      "title": "How the Electrical Load Calculator Works",
+      "formula": "Total Current = Total Power / (Voltage × Power Factor)",
+      "explanation": "Sums all electrical loads to determine total power demand, then calculates the current draw to recommend appropriate panel and cable sizes for safe installation.",
+      "steps": [
+        "Enter system voltage and power factor",
+        "Add each electrical load with its power and quantity",
+        "View total power and current demand",
+        "Get recommended panel and cable sizes"
+      ]
+    },
+    "useCases": [
+      "Designing residential electrical panels",
+      "Planning commercial building power distribution",
+      "Sizing main breakers and service entrance",
+      "Estimating power requirements for renovations"
+    ],
+    "seoTips": [
+      "Include 25% safety margin for future expansion",
+      "Diversity factor reduces total for unlikely simultaneous use",
+      "Continuous loads require 125% breaker sizing",
+      "NEC requires specific sizing for different load types"
+    ],
+    "commonMistakes": [
+      "Adding loads without diversity factor (over-sizing)",
+      "Forgetting future load growth allowance",
+      "Not classifying continuous vs intermittent loads",
+      "Ignoring power factor in industrial calculations"
+    ],
+    "faqs": [
+      {
+        "question": "What is diversity factor?",
+        "answer": "Diversity factor accounts for loads not running simultaneously. A home might have 30kW of loads but only 15kW peak demand. Diversity = Peak / Total, typically 0.4-0.8."
+      },
+      {
+        "question": "How do I size the main breaker?",
+        "answer": "Calculate total demand with diversity factor, add 25% for continuous loads, then select next standard breaker size up. Always follow local electrical codes."
+      },
+      {
+        "question": "What cable size do I need?",
+        "answer": "Cable size depends on current, distance, and installation method. Use ampacity tables from NEC/IEC, derate for temperature and bundling, and check voltage drop."
+      }
+    ]
+  },
+  "inrush_current": {
+    "title": "Inrush Current Calculator",
+    "description": "Calculate inrush current for motors, transformers, and other electrical devices.",
+    "load_type": "Load Type",
+    "load_type_tooltip": "Select the type of electrical load",
+    "motor": "Motor",
+    "transformer": "Transformer",
+    "capacitor": "Capacitor",
+    "led": "LED",
+    "incandescent": "Incandescent",
+    "rated_power": "Rated Power (kW)",
+    "rated_power_tooltip": "Nominal power rating of the device",
+    "voltage": "Voltage (V)",
+    "voltage_tooltip": "Operating voltage",
+    "enter_power": "Enter rated power",
+    "results_title": "Inrush Current Results",
+    "inrush_current_label": "Inrush Current (Peak)",
+    "inrush_multiplier": "Inrush Multiplier",
+    "steady_state": "Steady State Current",
+    "duration": "Duration",
+    "info_title": "About Inrush Current",
+    "info_notes": "Inrush current is the initial surge when equipment starts. It can be 5-15x normal current.",
+    "empty_state": "Enter device parameters to calculate inrush current",
+    "footer_note": "Actual inrush may vary. Use appropriate fuses and circuit breakers.",
+    "howItWorks": {
+      "title": "How the Inrush Current Calculator Works",
+      "formula": "Inrush = Steady State × Multiplier (varies by load type)",
+      "explanation": "Estimates the initial surge current when equipment starts. Different load types have different inrush characteristics based on their electrical behavior during startup.",
+      "steps": [
+        "Select the load type (motor, transformer, capacitor, etc.)",
+        "Enter the rated power and voltage",
+        "View the inrush current peak value",
+        "See inrush duration and multiplier"
+      ]
+    },
+    "useCases": [
+      "Sizing circuit breakers and fuses",
+      "Designing soft starters for motors",
+      "Selecting contactors for inrush loads",
+      "Planning generator capacity for starting loads"
+    ],
+    "seoTips": [
+      "Motors: 6-8x rated current for DOL starting",
+      "Transformers: 10-15x rated for magnetizing inrush",
+      "Capacitors: very high but brief inrush (limit with resistor)",
+      "LEDs with capacitive drivers can have 20-100x inrush"
+    ],
+    "commonMistakes": [
+      "Using standard fuses that trip on motor starting",
+      "Not accounting for capacitor bank inrush",
+      "Undersizing contactors for inductive loads",
+      "Ignoring inrush when sizing UPS and generators"
+    ],
+    "faqs": [
+      {
+        "question": "Why do motors have high inrush current?",
+        "answer": "At startup, motor speed is zero so there is no back-EMF to oppose current. The motor acts like a short circuit until it accelerates, drawing 6-8x rated current."
+      },
+      {
+        "question": "How do I reduce inrush current?",
+        "answer": "Use soft starters (reduced voltage), VFDs (variable frequency drives), star-delta starters for motors, or NTC thermistors/resistors for capacitive loads."
+      },
+      {
+        "question": "What type of circuit breaker handles inrush?",
+        "answer": "Use Type C or D breakers for motor/transformer loads. Type B trips at 3-5x, Type C at 5-10x, and Type D at 10-20x rated current."
+      }
+    ]
+  },
+  "capacitor": {
+    "title": "Capacitor Calculator",
+    "description": "Calculate charge, energy, reactance, and current for capacitors.",
+    "capacitance": "Capacitance (µF)",
+    "capacitance_tooltip": "Capacitor value in microfarads",
+    "voltage": "Voltage (V)",
+    "voltage_tooltip": "Applied voltage",
+    "frequency": "Frequency (Hz)",
+    "frequency_tooltip": "AC frequency for reactance calculation (optional)",
+    "enter_capacitance": "Enter capacitance",
+    "charge": "Stored Charge (Q)",
+    "energy": "Stored Energy (E)",
+    "capacitive_reactance": "Capacitive Reactance (Xc)",
+    "ac_current": "AC Current",
+    "formulas_title": "Capacitor Formulas",
+    "formulas": "Q = CV, E = ½CV², Xc = 1/(2πfC)",
+    "empty_state": "Enter capacitance and voltage to calculate",
+    "footer_note": "Results are for ideal capacitors.",
+    "enter_voltage": "Enter voltage",
+    "enter_frequency": "Enter frequency (optional)",
+    "results_title": "Capacitor Results",
+    "howItWorks": {
+      "title": "How the Capacitor Calculator Works",
+      "formula": "Q = CV, E = ½CV², XC = 1/(2πfC)",
+      "explanation": "Calculates the charge stored, energy stored, and reactance of a capacitor. Capacitors store energy in an electric field and oppose voltage changes in AC circuits.",
+      "steps": [
+        "Enter capacitance value in µF",
+        "Enter applied voltage",
+        "Optionally enter frequency for reactance calculation",
+        "View charge, energy, reactance, and AC current"
+      ]
+    },
+    "useCases": [
+      "Designing power supply filter circuits",
+      "Calculating energy storage in flash circuits",
+      "Sizing coupling and bypass capacitors",
+      "Power factor correction capacitor selection"
+    ],
+    "seoTips": [
+      "Energy stored is proportional to voltage squared",
+      "Use capacitors rated 20% above applied voltage",
+      "Electrolytic capacitors are polarized (observe polarity)",
+      "ESR affects performance in high-frequency applications"
+    ],
+    "commonMistakes": [
+      "Reversing polarity on electrolytic capacitors",
+      "Exceeding voltage rating causing failure",
+      "Ignoring ESR in switching power supplies",
+      "Not accounting for temperature derating"
+    ],
+    "faqs": [
+      {
+        "question": "What is capacitor ESR?",
+        "answer": "Equivalent Series Resistance (ESR) is the internal resistance of a capacitor. High ESR causes heating and reduces filtering effectiveness, especially at high frequencies."
+      },
+      {
+        "question": "Why does energy depend on voltage squared?",
+        "answer": "Capacitor energy E = ½CV². Doubling voltage quadruples energy storage. This is why high-voltage capacitors in flash circuits store significant energy."
+      },
+      {
+        "question": "What voltage rating should I choose?",
+        "answer": "Select a capacitor rated at least 20-50% above your working voltage. Operating near the limit reduces lifespan and reliability, especially for electrolytics."
+      }
+    ]
+  },
+  "decibel-calculator": {
+    "title": "Decibel Calculator - dB Converter",
+    "description": "Calculate decibels from power, voltage, or current ratios. Free online dB converter for electrical and audio applications.",
+    "calculation_type": "Calculation Type",
+    "type_tooltip": "Select calculation type",
+    "type_power": "Power Ratio",
+    "type_voltage": "Voltage/Current Ratio",
+    "value_1": "Value 1",
+    "value_1_power": "Power 1 (P₁)",
+    "value_1_voltage": "Voltage/Current 1 (V₁/I₁)",
+    "value_1_tooltip": "Enter first value",
+    "enter_value": "Enter value",
+    "value_2": "Value 2",
+    "value_2_power": "Power 2 (P₂)",
+    "value_2_voltage": "Voltage/Current 2 (V₂/I₂)",
+    "value_2_tooltip": "Enter second value",
+    "calculate_btn": "Calculate",
+    "reset_btn": "Reset",
+    "results_title": "Results",
+    "decibels": "Decibels",
+    "db_unit": "dB",
+    "ratio": "Ratio",
+    "tips_title": "Decibel Tips",
+    "tips_list": "Power ratio: dB = 10 × log₁₀(P₁/P₂), Voltage/Current ratio: dB = 20 × log₁₀(V₁/V₂), Used for amplifiers, filters, and signal analysis",
+    "empty_state": "Enter values to calculate decibels",
+    "footer_note": "Decibels are logarithmic units used to express ratios.",
+    "howItWorks": {
+      "title": "How the Decibel Calculator Works",
+      "formula": "dB = 10 × log₁₀(P1/P2) or dB = 20 × log₁₀(V1/V2)",
+      "explanation": "Converts ratios to decibels using logarithmic scales. Power ratios use factor of 10, while voltage/current ratios use factor of 20 due to the square relationship between power and voltage.",
+      "steps": [
+        "Select calculation type (power or voltage/current ratio)",
+        "Enter the two values to compare",
+        "View the result in decibels",
+        "Or enter dB to find the ratio"
+      ]
+    },
+    "useCases": [
+      "Measuring amplifier gain in audio systems",
+      "Calculating signal attenuation in cables",
+      "Specifying filter response characteristics",
+      "Comparing antenna gains and signal strengths"
+    ],
+    "seoTips": [
+      "+3 dB = double power, +6 dB = double voltage",
+      "-3 dB = half power (common filter cutoff)",
+      "0 dB = equal values (ratio of 1:1)",
+      "dBm = decibels relative to 1 milliwatt"
+    ],
+    "commonMistakes": [
+      "Using voltage formula (20 log) for power ratios",
+      "Confusing dB with dBm or dBW (different references)",
+      "Not accounting for impedance when converting voltage to power",
+      "Adding dB values when ratios should be multiplied"
+    ],
+    "faqs": [
+      {
+        "question": "Why is there a factor of 10 vs 20 in dB formulas?",
+        "answer": "Power uses 10× because dB was defined for power ratios. Voltage/current uses 20× because P = V²/R, so power ratio = voltage ratio squared. Log of square = 2× log."
+      },
+      {
+        "question": "What does negative dB mean?",
+        "answer": "Negative dB indicates attenuation (signal loss). -3 dB means half the power, -6 dB means quarter power. Negative values mean the output is smaller than input."
+      },
+      {
+        "question": "What is the difference between dB and dBm?",
+        "answer": "dB is a ratio (unitless). dBm is absolute power relative to 1 milliwatt. 0 dBm = 1 mW, +10 dBm = 10 mW, +30 dBm = 1 W."
+      }
+    ]
+  },
+  "frequency-calculator": {
+    "title": "Frequency Calculator - Period & Wavelength",
+    "description": "Calculate frequency, period, and wavelength relationships. Free online tool for wave physics and electrical engineering.",
+    "calculate_for": "Calculate For",
+    "calculate_for_tooltip": "Select what to calculate",
+    "option_frequency": "Frequency",
+    "option_period": "Period",
+    "option_wavelength": "Wavelength",
+    "frequency_input": "Frequency (Hz)",
+    "frequency_tooltip": "Enter frequency in Hz",
+    "enter_frequency": "Enter frequency",
+    "period_input": "Period (ms)",
+    "period_tooltip": "Enter period in milliseconds",
+    "enter_period": "Enter period",
+    "wavelength_input": "Wavelength (m)",
+    "wavelength_tooltip": "Enter wavelength in meters",
+    "enter_wavelength": "Enter wavelength",
+    "calculate_btn": "Calculate",
+    "reset_btn": "Reset",
+    "results_title": "Results",
+    "frequency_result": "Frequency",
+    "frequency_unit": "Hz",
+    "period_result": "Period",
+    "period_unit": "ms",
+    "wavelength_result": "Wavelength",
+    "wavelength_unit": "m",
+    "angular_frequency": "Angular Frequency",
+    "angular_frequency_unit": "rad/s",
+    "tips_title": "Wave Relationships",
+    "tips_list": "f = 1/T (frequency = 1/period), λ = c/f (wavelength = speed of light / frequency), ω = 2πf (angular frequency = 2π × frequency)",
+    "empty_state": "Enter a value to calculate other wave properties",
+    "footer_note": "Speed of light c = 299,792,458 m/s",
+    "howItWorks": {
+      "title": "How the Frequency Calculator Works",
+      "formula": "f = 1/T, λ = c/f, ω = 2πf",
+      "explanation": "Calculates the relationships between frequency, period, wavelength, and angular frequency. These are fundamental properties of all wave phenomena.",
+      "steps": [
+        "Select what you want to calculate",
+        "Enter the known value (frequency, period, or wavelength)",
+        "View all related wave properties",
+        "Use angular frequency for circuit analysis"
+      ]
+    },
+    "useCases": [
+      "Converting between frequency and period",
+      "Calculating antenna lengths from frequency",
+      "Understanding AC circuit timing",
+      "Analyzing electromagnetic spectrum properties"
+    ],
+    "seoTips": [
+      "Period (T) = 1/frequency in seconds",
+      "Wavelength depends on medium (use c for EM waves)",
+      "Angular frequency ω = 2πf radians/second",
+      "Higher frequency = shorter wavelength"
+    ],
+    "commonMistakes": [
+      "Confusing Hz with rad/s (multiply by 2π)",
+      "Using speed of light for sound waves",
+      "Not converting units (MHz, kHz, GHz)",
+      "Forgetting velocity factor for transmission lines"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between frequency and angular frequency?",
+        "answer": "Frequency (f) is cycles per second in Hz. Angular frequency (ω) is radians per second = 2πf. Angular frequency is used in AC circuit analysis and phasor calculations."
+      },
+      {
+        "question": "How does wavelength change in different media?",
+        "answer": "Wavelength = velocity/frequency. In materials, wave velocity is slower than in vacuum, so wavelength is shorter. This is why fiber optic cables have velocity factor < 1."
+      },
+      {
+        "question": "What frequency range is audible?",
+        "answer": "Humans hear approximately 20 Hz to 20 kHz. Below 20 Hz is infrasound, above 20 kHz is ultrasound. Radio frequencies start around 3 kHz and extend to 300 GHz."
+      }
+    ]
+  },
+  "impedance-calculator": {
+    "title": "Impedance Calculator - AC Circuit Analysis",
+    "description": "Calculate impedance, phase angle, and complex components for AC circuits. Free online tool for electrical engineering.",
+    "resistance": "Resistance (R)",
+    "resistance_tooltip": "Enter resistance in ohms",
+    "enter_resistance": "Enter resistance",
+    "reactance": "Reactance (X)",
+    "reactance_tooltip": "Enter reactance in ohms (positive for inductive, negative for capacitive)",
+    "enter_reactance": "Enter reactance",
+    "calculate_btn": "Calculate",
+    "reset_btn": "Reset",
+    "results_title": "Results",
+    "impedance": "Impedance (Z)",
+    "impedance_unit": "Ω",
+    "phase_angle": "Phase Angle (φ)",
+    "phase_angle_unit": "°",
+    "real_part": "Real Part (R)",
+    "real_part_unit": "Ω",
+    "imaginary_part": "Imaginary Part (X)",
+    "imaginary_part_unit": "Ω",
+    "tips_title": "Impedance Formulas",
+    "tips_list": "Z = √(R² + X²), φ = arctan(X/R), For inductive circuits: X = 2πfL, For capacitive circuits: X = -1/(2πfC)",
+    "empty_state": "Enter resistance and reactance to calculate impedance",
+    "footer_note": "Impedance is the total opposition to AC current flow.",
+    "howItWorks": {
+      "title": "How the Impedance Calculator Works",
+      "formula": "Z = √(R² + X²), φ = arctan(X/R)",
+      "explanation": "Calculates total impedance from resistance and reactance components. Impedance is the AC equivalent of resistance, including the phase angle between voltage and current.",
+      "steps": [
+        "Enter the resistance value (R) in ohms",
+        "Enter the reactance value (X) in ohms",
+        "Positive X = inductive, negative X = capacitive",
+        "View impedance magnitude and phase angle"
+      ]
+    },
+    "useCases": [
+      "Analyzing AC circuit behavior",
+      "Matching impedances for maximum power transfer",
+      "Designing filters and tuned circuits",
+      "Calculating power factor from impedance"
+    ],
+    "seoTips": [
+      "Impedance Z combines R and X vectorially",
+      "Phase angle shows current-voltage relationship",
+      "Inductive circuits: current lags voltage (positive angle)",
+      "Capacitive circuits: current leads voltage (negative angle)"
+    ],
+    "commonMistakes": [
+      "Adding R and X directly instead of using vector sum",
+      "Confusing impedance with resistance (Z ≠ R for AC)",
+      "Forgetting reactance sign convention",
+      "Not considering frequency dependence of reactance"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between impedance and resistance?",
+        "answer": "Resistance opposes DC and AC equally. Impedance includes resistance plus reactance (from inductors/capacitors). Z = R for purely resistive circuits; Z = √(R² + X²) otherwise."
+      },
+      {
+        "question": "Why does phase angle matter?",
+        "answer": "Phase angle determines power factor (cos φ). At 0°, all power is useful. At 90°, no real power is delivered - it just oscillates. Phase angle affects circuit efficiency."
+      },
+      {
+        "question": "How do I use impedance for power calculations?",
+        "answer": "Power = V²/Z × cos(φ) or I²Z × cos(φ). The cos(φ) term is the power factor. Only the resistive component of impedance dissipates real power."
+      }
+    ]
+  },
+  "motor": {
+    "title": "Motor Calculator",
+    "description": "Calculate motor current, power, and efficiency.",
+    "phase_type": "Phase Type",
+    "phase_tooltip": "Select single or three phase",
+    "phase_single": "Single Phase",
+    "phase_three": "Three Phase",
+    "power": "Motor Power (kW)",
+    "power_tooltip": "Enter motor power in kilowatts",
+    "enter_power": "Enter power",
+    "voltage": "Voltage (V)",
+    "voltage_tooltip": "Enter supply voltage",
+    "enter_voltage": "Enter voltage",
+    "efficiency": "Efficiency (%)",
+    "efficiency_tooltip": "Motor efficiency percentage",
+    "enter_efficiency": "Enter efficiency",
+    "power_factor": "Power Factor",
+    "power_factor_tooltip": "Motor power factor (0-1)",
+    "enter_pf": "Enter power factor",
+    "calculate_btn": "Calculate",
+    "reset_btn": "Reset",
+    "results_title": "Motor Results",
+    "current": "Full Load Current",
+    "current_unit": "A",
+    "power_kw": "Power (kW)",
+    "power_hp": "Power (HP)",
+    "input_power": "Input Power",
+    "input_power_unit": "kW",
+    "info_title": "About Motor Calculations",
+    "info_description": "Motor current depends on power, voltage, efficiency, and power factor.",
+    "empty_state": "Enter motor parameters to calculate current",
+    "full_load_current": "Full Load Current",
+    "output_power": "Output Power (HP)",
+    "losses": "Power Losses",
+    "info_notes": "Current = Power / (sqrt(3) x V x PF x Efficiency). For single phase: Current = Power / (V x PF x Efficiency)",
+    "footer_note": "Results are for 3-phase motors. Actual values may vary.",
+    "howItWorks": {
+      "title": "How the Motor Calculator Works",
+      "formula": "I = P / (√3 × V × PF × η) for 3-phase",
+      "explanation": "Calculates motor electrical parameters from mechanical power output. Accounts for efficiency losses and power factor to determine actual current draw from the supply.",
+      "steps": [
+        "Select phase type (single or three-phase)",
+        "Enter motor power in kW or HP",
+        "Enter supply voltage and efficiency",
+        "Enter motor power factor"
+      ]
+    },
+    "useCases": [
+      "Sizing motor starters and contactors",
+      "Calculating cable and breaker requirements",
+      "Estimating motor operating costs",
+      "Designing motor control centers"
+    ],
+    "seoTips": [
+      "1 HP = 0.746 kW (approximate)",
+      "Typical motor efficiency: 85-95%",
+      "Typical motor power factor: 0.8-0.9",
+      "Full load current determines cable and protection sizing"
+    ],
+    "commonMistakes": [
+      "Confusing mechanical power (output) with electrical power (input)",
+      "Using nameplate HP without converting to kW",
+      "Forgetting efficiency when calculating input power",
+      "Not accounting for power factor in current calculations"
+    ],
+    "faqs": [
+      {
+        "question": "What is motor efficiency?",
+        "answer": "Efficiency is the ratio of mechanical output power to electrical input power. A 90% efficient motor drawing 10 kW delivers 9 kW of mechanical power; 1 kW becomes heat."
+      },
+      {
+        "question": "Why do motors have low power factor?",
+        "answer": "Motors are inductive loads that require magnetizing current to create the magnetic field. This reactive current doesn't do useful work but still flows, lowering power factor."
+      },
+      {
+        "question": "How do I convert HP to kW?",
+        "answer": "Multiply HP by 0.746 to get kW. For example, 10 HP = 7.46 kW mechanical output. To find electrical input, divide by efficiency: 7.46 / 0.90 = 8.29 kW input."
+      }
+    ]
+  }
+}

@@ -1,0 +1,1584 @@
+{
+    "percentage-calculator": {
+        "title": "Percentage Calculator",
+        "description": "Calculate percentages easily with our free online percentage calculator.",
+        "howItWorks": {
+            "title": "How the Percentage Calculator Works",
+            "formula": "Percentage = (Part / Whole) x 100 | X% of Y = (X x Y) / 100",
+            "explanation": "A percentage is a way of expressing a number as a fraction of 100. The symbol % means 'per hundred'. Percentages are used daily for calculating discounts, taxes, interest rates, and statistical data.",
+            "steps": [
+                {"name": "Select Calculation Type", "text": "Choose the type of percentage calculation you need from the dropdown menu"},
+                {"name": "Enter Values", "text": "Input the known values in the appropriate fields"},
+                {"name": "Get Results", "text": "The calculator automatically computes the result"},
+                {"name": "Review Formula", "text": "Check the calculation details to understand the formula used"}
+            ]
+        },
+        "useCases": [
+            {"title": "Shopping Discounts", "description": "Calculate final prices after percentage discounts on products"},
+            {"title": "Tax Calculations", "description": "Compute sales tax, VAT, or income tax amounts"},
+            {"title": "Grade Conversions", "description": "Convert test scores to percentages for academic evaluation"},
+            {"title": "Investment Returns", "description": "Calculate return on investment and portfolio performance"}
+        ],
+        "seoTips": [
+            "To find X% of Y, multiply Y by X and divide by 100",
+            "To find what percentage X is of Y, divide X by Y and multiply by 100",
+            "Percentage increase = ((New - Old) / Old) x 100",
+            "For reverse percentage, divide the part by the percentage and multiply by 100"
+        ],
+        "commonMistakes": [
+            "Confusing percentage points with percentages - an increase from 10% to 15% is 5 percentage points but a 50% relative increase",
+            "Calculating discount from the discounted price instead of the original price",
+            "Adding percentages directly - two successive 10% increases equal 21%, not 20%",
+            "Forgetting that a 50% decrease requires a 100% increase to return to the original value"
+        ],
+        "faqs": [
+            {"question": "How do I calculate a percentage of a number?", "answer": "Multiply the number by the percentage and divide by 100. For example, 25% of 200 = (200 x 25) / 100 = 50."},
+            {"question": "How do I find what percentage one number is of another?", "answer": "Divide the part by the whole and multiply by 100. For example, 30 is what percent of 120? (30 / 120) x 100 = 25%."},
+            {"question": "How do I calculate percentage change?", "answer": "Use the formula: ((New Value - Old Value) / Old Value) x 100. A change from 80 to 100 is ((100-80)/80) x 100 = 25% increase."},
+            {"question": "How do I convert a fraction to a percentage?", "answer": "Divide the numerator by the denominator and multiply by 100. For example, 3/4 = 0.75 x 100 = 75%."},
+            {"question": "What is the difference between percentage and percentage points?", "answer": "If a rate increases from 10% to 15%, it increased by 5 percentage points, but the relative increase is 50% (because 5/10 = 0.5 = 50%)."}
+        ]
+    },
+    "scientific-calculator": {
+        "title": "Scientific Calculator",
+        "description": "Use our free online scientific calculator for advanced mathematical operations.",
+        "howItWorks": {
+            "title": "How the Scientific Calculator Works",
+            "formula": "Supports trigonometric, logarithmic, exponential, and statistical functions",
+            "explanation": "A scientific calculator performs complex mathematical operations beyond basic arithmetic. It handles trigonometric functions (sin, cos, tan), logarithms (log, ln), exponents, roots, factorials, and more using precise computational algorithms.",
+            "steps": [
+                {"name": "Enter Value", "text": "Input the number or expression you want to calculate"},
+                {"name": "Select Angle Unit", "text": "Choose degrees or radians for trigonometric functions"},
+                {"name": "Choose Function", "text": "Click the appropriate function button (sin, cos, log, etc.)"},
+                {"name": "View Result", "text": "The result appears instantly and can be used for further calculations"}
+            ]
+        },
+        "useCases": [
+            {"title": "Engineering Projects", "description": "Calculate angles, forces, and measurements for structural and mechanical engineering"},
+            {"title": "Physics Problems", "description": "Solve equations involving motion, waves, and electromagnetic phenomena"},
+            {"title": "Chemistry Calculations", "description": "Compute molecular weights, concentrations, and reaction rates"},
+            {"title": "Academic Studies", "description": "Complete homework and exam problems in mathematics and sciences"}
+        ],
+        "seoTips": [
+            "Use radians for physics formulas and calculus problems",
+            "Always verify the angle unit (degrees/radians) before trigonometric calculations",
+            "Use memory functions (M+, MR) to store intermediate results",
+            "For very large or small numbers, use scientific notation (E)"
+        ],
+        "commonMistakes": [
+            "Mixing degrees and radians - ensure the correct unit is selected before trigonometric calculations",
+            "Attempting logarithm of zero or negative numbers - log is only defined for positive values",
+            "Calculating square root of negative numbers - use complex number calculator for imaginary results",
+            "Ignoring order of operations (PEMDAS) - parentheses, exponents, multiplication/division, addition/subtraction"
+        ],
+        "faqs": [
+            {"question": "What is the difference between degrees and radians?", "answer": "Degrees and radians are units for measuring angles. A full circle is 360 degrees or 2pi radians. To convert: radians = degrees x (pi/180)."},
+            {"question": "How do I calculate logarithms with different bases?", "answer": "Use the change of base formula: log_b(x) = ln(x) / ln(b). For example, log_2(8) = ln(8) / ln(2) = 3."},
+            {"question": "What is factorial and when is it used?", "answer": "Factorial (n!) is the product of all positive integers up to n. 5! = 5x4x3x2x1 = 120. Used in probability and combinatorics."},
+            {"question": "What is the difference between log and ln?", "answer": "log (common logarithm) has base 10, while ln (natural logarithm) has base e (approximately 2.718)."},
+            {"question": "How do I calculate cube roots?", "answer": "The cube root of x equals x^(1/3). For example, cube root of 27 = 27^(1/3) = 3."}
+        ]
+    },
+    "scientific": {
+        "title": "Scientific Calculator",
+        "page_title": "Scientific Calculator | Alathasiba",
+        "page_description": "Advanced scientific calculator for complex mathematical operations including trigonometry and logarithms.",
+        "description": "This calculator allows you to perform advanced calculations like Sine, Cosine, Tangent, Logarithms, and more.",
+        "faqs": [
+            {
+                "question": "What is the difference between degrees and radians?",
+                "answer": "Degrees and radians are two units for measuring angles. A full circle is 360 degrees or 2pi radians. To convert: radians = degrees x (pi/180). For example, 90 degrees = 90 x (pi/180) = pi/2 radians."
+            },
+            {
+                "question": "How do I calculate logarithms with different bases?",
+                "answer": "Use the change of base formula: log_b(x) = ln(x) / ln(b) or log_b(x) = log(x) / log(b). For example, log_2(8) = ln(8) / ln(2) = 3, because 2^3 = 8."
+            },
+            {
+                "question": "What is the factorial function and when is it used?",
+                "answer": "Factorial (n!) is the product of all positive integers up to n. For example, 5! = 5 x 4 x 3 x 2 x 1 = 120. It is commonly used in probability, combinations, and permutations calculations."
+            },
+            {
+                "question": "What is the difference between log and ln?",
+                "answer": "log (common logarithm) has base 10, while ln (natural logarithm) has base e (approximately 2.718). log(100) = 2 because 10^2 = 100, and ln(e) = 1 because e^1 = e."
+            },
+            {
+                "question": "How do I calculate cube roots using the scientific calculator?",
+                "answer": "The cube root of a number x equals x^(1/3). For example, the cube root of 27 = 27^(1/3) = 3. You can use the exponent button with the fraction 1/3."
+            }
+        ],
+        "howItWorks": {
+            "title": "How the Scientific Calculator Works",
+            "formula": "The scientific calculator uses various mathematical formulas depending on the required operation",
+            "explanation": "The scientific calculator performs advanced mathematical operations using precise algorithms. These operations include trigonometric functions (sin, cos, tan), logarithmic functions (log, ln), exponents and roots, and statistical operations.",
+            "steps": [
+                "Enter the number or mathematical expression in the input field",
+                "Select the unit of measurement (degrees or radians) for trigonometric functions",
+                "Press the button for the desired operation (sin, cos, log, etc.)",
+                "The result will appear instantly and can be used for subsequent calculations"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Engineering Calculations",
+                "description": "Calculate angles and distances in engineering projects using trigonometric functions"
+            },
+            {
+                "title": "Physics and Chemistry",
+                "description": "Solve exponential growth and logarithmic equations in chemical reactions and physical phenomena"
+            },
+            {
+                "title": "Statistics and Probability",
+                "description": "Calculate factorials, combinations, and permutations in probability problems"
+            },
+            {
+                "title": "Programming and Computer Science",
+                "description": "Calculate logarithms for algorithm complexity analysis and binary operations"
+            }
+        ],
+        "seoTips": [
+            "Use radian mode when working with physics and advanced mathematics formulas",
+            "Check the angle unit (degrees/radians) before calculating trigonometric functions",
+            "Use memory functions (M+, MR) to store intermediate results in complex calculations",
+            "For very large or very small numbers, use scientific notation (E)"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Confusing degrees and radians",
+                "correction": "Make sure to select the correct unit before calculating trigonometric functions. pi radians = 180 degrees"
+            },
+            {
+                "mistake": "Calculating logarithm of negative number or zero",
+                "correction": "Logarithm is only defined for positive numbers. log(x) where x > 0"
+            },
+            {
+                "mistake": "Calculating square root of negative number",
+                "correction": "Square root of negative numbers gives an imaginary result. Use the complex numbers calculator for this"
+            },
+            {
+                "mistake": "Forgetting order of operations",
+                "correction": "Follow PEMDAS rules: Parentheses, Exponents, Multiplication/Division, Addition/Subtraction"
+            }
+        ],
+        "degrees": "Degrees",
+        "radians": "Radians",
+        "input_value": "Value",
+        "input_tooltip": "Enter the number to perform the calculation on",
+        "clear": "Clear",
+        "clear_all": "Clear All",
+        "history": "Calculation History",
+        "memory_recall": "MR",
+        "memory_clear": "MC",
+        "info_title": "About Scientific Calculator",
+        "invalid_input": "Invalid input",
+        "log_positive_required": "Number must be positive for logarithm",
+        "ln_positive_required": "Number must be positive for natural logarithm",
+        "sqrt_non_negative_required": "Number must be non-negative for square root",
+        "division_by_zero": "Cannot divide by zero",
+        "factorial_error": "Invalid number for factorial (must be non-negative integer < 171)",
+        "calculation_error": "Calculation error"
+    },
+    "fraction-calculator": {
+        "title": "Fraction Calculator",
+        "description": "Calculate fractions online with our free fraction calculator.",
+        "howItWorks": {
+            "title": "How the Fraction Calculator Works",
+            "formula": "Addition: a/b + c/d = (ad + bc) / bd | Multiplication: a/b x c/d = ac / bd",
+            "explanation": "A fraction represents a part of a whole, consisting of a numerator (top number) and denominator (bottom number). This calculator performs arithmetic operations on fractions and automatically simplifies results.",
+            "steps": [
+                {"name": "Enter First Fraction", "text": "Input the numerator and denominator for the first fraction"},
+                {"name": "Enter Second Fraction", "text": "Input the numerator and denominator for the second fraction"},
+                {"name": "Select Operation", "text": "Choose the operation: add, subtract, multiply, or divide"},
+                {"name": "View Result", "text": "The result displays in simplified form and as a decimal"}
+            ]
+        },
+        "useCases": [
+            {"title": "Cooking and Recipes", "description": "Scale recipe ingredients up or down by multiplying or dividing fractions"},
+            {"title": "Construction and DIY", "description": "Calculate precise measurements for materials using fractional inches"},
+            {"title": "Education", "description": "Practice fraction arithmetic and verify homework answers"},
+            {"title": "Financial Calculations", "description": "Compute fractional shares, ratios, and proportional allocations"}
+        ],
+        "seoTips": [
+            "Always simplify fractions by dividing numerator and denominator by their GCD",
+            "Find a common denominator before adding or subtracting fractions",
+            "To divide fractions, flip the second fraction and multiply",
+            "Convert improper fractions to mixed numbers for clearer representation"
+        ],
+        "commonMistakes": [
+            "Adding numerators and denominators separately - must find common denominator first",
+            "Forgetting to flip the second fraction when dividing - (a/b) / (c/d) = (a/b) x (d/c)",
+            "Not simplifying the final result - always reduce to lowest terms",
+            "Confusing fractions with ratios - 3/4 means 3 out of 4 parts, while 3:4 compares two quantities"
+        ],
+        "faqs": [
+            {"question": "How do I add fractions with different denominators?", "answer": "Find the least common denominator (LCD), convert each fraction, then add the numerators. Example: 1/3 + 1/4 = 4/12 + 3/12 = 7/12."},
+            {"question": "How do I convert a fraction to a decimal?", "answer": "Divide the numerator by the denominator. For example, 3/4 = 3 / 4 = 0.75."},
+            {"question": "What is an improper fraction?", "answer": "An improper fraction has a numerator greater than or equal to its denominator (like 7/4). It can be written as a mixed number: 7/4 = 1 3/4."},
+            {"question": "How do I simplify a fraction?", "answer": "Divide both numerator and denominator by their greatest common divisor. Example: 12/18 / 6 = 2/3."},
+            {"question": "How do I multiply fractions?", "answer": "Multiply numerators together and denominators together. Example: 2/3 x 4/5 = 8/15."}
+        ]
+    },
+    "matrix-calculator": {
+        "title": "Matrix Calculator",
+        "description": "Perform matrix operations online with our free matrix calculator.",
+        "howItWorks": {
+            "title": "How the Matrix Calculator Works",
+            "formula": "Matrix multiplication: C[i,j] = Sum of A[i,k] x B[k,j]",
+            "explanation": "A matrix is a rectangular array of numbers arranged in rows and columns. Matrix operations follow specific rules that differ from regular arithmetic, particularly multiplication where order matters (AB does not equal BA in most cases).",
+            "steps": [
+                {"name": "Set Dimensions", "text": "Specify the number of rows and columns for your matrix"},
+                {"name": "Enter Values", "text": "Input the matrix elements in the appropriate cells"},
+                {"name": "Select Operation", "text": "Choose the operation: add, subtract, multiply, transpose, determinant, or trace"},
+                {"name": "Add Second Matrix", "text": "For binary operations, enter the second matrix"},
+                {"name": "Calculate", "text": "Click calculate to view the result"}
+            ]
+        },
+        "useCases": [
+            {"title": "Computer Graphics", "description": "Perform rotation, scaling, and translation transformations on 3D objects"},
+            {"title": "Machine Learning", "description": "Process neural network computations and large datasets"},
+            {"title": "Linear Algebra", "description": "Solve systems of linear equations using matrix methods"},
+            {"title": "Economics and Statistics", "description": "Analyze covariance matrices and run regression models"}
+        ],
+        "seoTips": [
+            "For multiplication, columns of first matrix must equal rows of second matrix",
+            "Determinant only exists for square matrices (n x n)",
+            "Transpose swaps rows and columns of a matrix",
+            "Trace is the sum of diagonal elements in a square matrix"
+        ],
+        "commonMistakes": [
+            "Assuming matrix multiplication is commutative - A x B does not equal B x A in most cases",
+            "Multiplying matrices with incompatible dimensions - check that columns of A equal rows of B",
+            "Trying to calculate determinant of non-square matrix - determinant requires square matrices",
+            "Confusing scalar multiplication with matrix multiplication - different operations"
+        ],
+        "faqs": [
+            {"question": "What is a matrix determinant?", "answer": "The determinant is a scalar value computed from a square matrix. For 2x2: det = ad - bc. It determines if a matrix is invertible (det not equal to 0)."},
+            {"question": "How do I multiply two matrices?", "answer": "Each element C[i,j] is the dot product of row i from A and column j from B. Columns of A must equal rows of B."},
+            {"question": "What is the trace of a matrix?", "answer": "The trace is the sum of elements on the main diagonal: tr(A) = a11 + a22 + ... + ann."},
+            {"question": "What is a transpose matrix?", "answer": "The transpose A^T swaps rows and columns. If A is m x n, then A^T is n x m."},
+            {"question": "When can I add two matrices?", "answer": "Matrices can only be added if they have the same dimensions. Add corresponding elements."}
+        ]
+    },
+    "sequences-calculator": {
+        "title": "Sequence Calculator",
+        "description": "Calculate and analyze mathematical sequences online.",
+        "howItWorks": {
+            "title": "How the Sequence Calculator Works",
+            "formula": "Arithmetic: an = a1 + (n-1)d | Geometric: an = a1 x r^(n-1) | Fibonacci: Fn = Fn-1 + Fn-2",
+            "explanation": "A sequence is an ordered list of numbers following a specific pattern. Arithmetic sequences add a constant difference, geometric sequences multiply by a constant ratio, and Fibonacci sequences sum the two previous terms.",
+            "steps": [
+                {"name": "Select Sequence Type", "text": "Choose arithmetic, geometric, or Fibonacci sequence"},
+                {"name": "Enter First Term", "text": "Input the starting value of the sequence"},
+                {"name": "Enter Parameter", "text": "For arithmetic, enter common difference; for geometric, enter common ratio"},
+                {"name": "Specify Position", "text": "Enter the term position and number of terms to display"},
+                {"name": "View Results", "text": "See the nth term value, sum, and sequence preview"}
+            ]
+        },
+        "useCases": [
+            {"title": "Financial Planning", "description": "Calculate loan payments, savings growth, and compound interest"},
+            {"title": "Population Modeling", "description": "Model exponential growth of populations using geometric sequences"},
+            {"title": "Physics Problems", "description": "Calculate distance traveled under uniform acceleration"},
+            {"title": "Algorithm Analysis", "description": "Understand recursive patterns and time complexity in programming"}
+        ],
+        "seoTips": [
+            "Arithmetic sequence: constant difference between consecutive terms",
+            "Geometric sequence: constant ratio between consecutive terms",
+            "Sum of arithmetic sequence: Sn = n/2 x (a1 + an)",
+            "Infinite geometric sum exists only when |r| < 1"
+        ],
+        "commonMistakes": [
+            "Confusing arithmetic and geometric sequences - one adds, the other multiplies",
+            "Using n instead of (n-1) in formulas - the first term has no difference or ratio applied",
+            "Forgetting Fibonacci standard start values - usually begins with 0, 1 or 1, 1",
+            "Calculating infinite sum when |r| >= 1 - series only converges if |r| < 1"
+        ],
+        "faqs": [
+            {"question": "What is the difference between arithmetic and geometric sequences?", "answer": "Arithmetic adds a constant (like 2, 5, 8, 11 with d=3). Geometric multiplies by a constant (like 2, 6, 18, 54 with r=3)."},
+            {"question": "How do I find the nth term of an arithmetic sequence?", "answer": "Use an = a1 + (n-1)d. For sequence 3, 7, 11..., a10 = 3 + (10-1)x4 = 39."},
+            {"question": "What is the Fibonacci sequence?", "answer": "Each term is the sum of the two preceding terms: 0, 1, 1, 2, 3, 5, 8, 13, 21... Found in nature, art, and architecture."},
+            {"question": "How do I calculate the sum of an arithmetic sequence?", "answer": "Sn = n/2 x (a1 + an) or Sn = n/2 x (2a1 + (n-1)d)."},
+            {"question": "When does an infinite geometric sum exist?", "answer": "Only when |r| < 1. The sum is S = a1/(1-r). Example: 1 + 1/2 + 1/4 + ... = 2."}
+        ]
+    },
+    "gcd-lcm-calculator": {
+        "title": "GCD and LCM Calculator",
+        "description": "Calculate the Greatest Common Divisor (GCD) and Least Common Multiple (LCM) of numbers.",
+        "howItWorks": {
+            "title": "How the GCD and LCM Calculator Works",
+            "formula": "LCM(a,b) = |a x b| / GCD(a,b) | Euclidean algorithm: GCD(a,b) = GCD(b, a mod b)",
+            "explanation": "The Greatest Common Divisor (GCD) is the largest number that divides both numbers evenly. The Least Common Multiple (LCM) is the smallest positive number divisible by both. These concepts are fundamental in simplifying fractions and number theory.",
+            "steps": [
+                {"name": "Enter First Number", "text": "Input the first positive integer"},
+                {"name": "Enter Second Number", "text": "Input the second positive integer"},
+                {"name": "Calculate GCD", "text": "The calculator uses the Euclidean algorithm to find GCD"},
+                {"name": "Calculate LCM", "text": "LCM is computed using: LCM = |a x b| / GCD"}
+            ]
+        },
+        "useCases": [
+            {"title": "Simplifying Fractions", "description": "Divide numerator and denominator by their GCD to reduce fractions"},
+            {"title": "Finding Common Denominators", "description": "Use LCM to find the least common denominator when adding fractions"},
+            {"title": "Scheduling Problems", "description": "Determine when periodic events will coincide"},
+            {"title": "Number Theory", "description": "Solve problems in algebra and cryptography"}
+        ],
+        "seoTips": [
+            "GCD is always less than or equal to the smaller number",
+            "LCM is always greater than or equal to the larger number",
+            "GCD(a,b) x LCM(a,b) = |a x b|",
+            "If GCD = 1, the numbers are coprime (relatively prime)"
+        ],
+        "commonMistakes": [
+            "Confusing GCD and LCM - GCD divides the numbers, numbers divide LCM",
+            "Using GCD/LCM with negative numbers - always use absolute values",
+            "Assuming LCM = a x b always - this is only true when GCD = 1",
+            "Forgetting that GCD(a, 0) = a"
+        ],
+        "faqs": [
+            {"question": "What is the Greatest Common Divisor (GCD)?", "answer": "The GCD of two numbers is the largest positive integer that divides both without remainder. Example: GCD(12, 18) = 6."},
+            {"question": "What is the Least Common Multiple (LCM)?", "answer": "The LCM is the smallest positive integer divisible by both numbers. Example: LCM(4, 6) = 12."},
+            {"question": "What is the Euclidean algorithm?", "answer": "A method to find GCD: GCD(a,b) = GCD(b, a mod b), repeat until remainder is 0. Example: GCD(48,18) = GCD(18,12) = GCD(12,6) = GCD(6,0) = 6."},
+            {"question": "How are GCD and LCM related?", "answer": "GCD(a,b) x LCM(a,b) = a x b. You can calculate one from the other."},
+            {"question": "What does coprime mean?", "answer": "Two numbers are coprime if their GCD is 1, meaning they share no common factors. Example: 8 and 15 are coprime."}
+        ]
+    },
+    "prime-factorization": {
+        "title": "Prime Factorization Calculator",
+        "description": "Find prime factorization of any number online with our free calculator.",
+        "howItWorks": {
+            "title": "How Prime Factorization Works",
+            "formula": "n = p1^a1 x p2^a2 x ... x pk^ak (where p are prime numbers)",
+            "explanation": "Prime factorization expresses a number as a product of prime numbers. Every integer greater than 1 has a unique prime factorization (Fundamental Theorem of Arithmetic). Prime numbers are divisible only by 1 and themselves.",
+            "steps": [
+                {"name": "Enter Number", "text": "Input the positive integer you want to factorize"},
+                {"name": "Start Division", "text": "The calculator begins dividing by the smallest prime (2)"},
+                {"name": "Continue Process", "text": "Division continues with increasing primes until the quotient is 1"},
+                {"name": "View Results", "text": "The complete prime factorization is displayed"}
+            ]
+        },
+        "useCases": [
+            {"title": "Simplifying Fractions", "description": "Find GCD of numerator and denominator using prime factors"},
+            {"title": "Cryptography", "description": "RSA encryption relies on the difficulty of factoring large numbers"},
+            {"title": "Number Theory", "description": "Study properties of integers and solve Diophantine equations"},
+            {"title": "Finding LCM and GCD", "description": "Calculate LCM and GCD efficiently using prime factorization"}
+        ],
+        "seoTips": [
+            "Prime numbers are only divisible by 1 and themselves",
+            "2 is the only even prime number",
+            "To test primality, check divisibility by primes up to sqrt(n)",
+            "For GCD from prime factors, use the smallest power of each common prime"
+        ],
+        "commonMistakes": [
+            "Considering 1 as a prime number - primes start from 2",
+            "Forgetting to include repeated prime factors - 8 = 2^3, not just 2",
+            "Stopping before complete factorization - continue until quotient is 1",
+            "Not checking all necessary primes - test up to the square root of the number"
+        ],
+        "faqs": [
+            {"question": "What is a prime number?", "answer": "A prime number is an integer greater than 1 that is only divisible by 1 and itself. Examples: 2, 3, 5, 7, 11, 13..."},
+            {"question": "What is prime factorization?", "answer": "Writing a number as a product of prime numbers. Example: 60 = 2^2 x 3 x 5. Every number has a unique factorization."},
+            {"question": "How do I know if a number is prime?", "answer": "Test divisibility by primes from 2 to sqrt(n). If none divide evenly, it is prime. Example: 29 is prime."},
+            {"question": "Why is prime factorization important?", "answer": "Used for simplifying fractions, calculating GCD/LCM, cryptography, and number theory."},
+            {"question": "What is the Fundamental Theorem of Arithmetic?", "answer": "Every integer greater than 1 can be uniquely expressed as a product of prime numbers (ignoring order of factors)."}
+        ]
+    },
+    "complex_numbers": {
+        "title": "Complex Number Calculator",
+        "description": "Perform calculations with complex numbers online.",
+        "operation": "Operation",
+        "operation_tooltip": "Select mathematical operation",
+        "add": "Add",
+        "subtract": "Subtract",
+        "multiply": "Multiply",
+        "divide": "Divide",
+        "magnitude": "Magnitude",
+        "phase": "Phase",
+        "conjugate": "Conjugate",
+        "first_number": "First Number (a + bi)",
+        "second_number": "Second Number (c + di)",
+        "real_part": "Real Part",
+        "real_tooltip": "The real component of the number",
+        "imaginary_part": "Imaginary Part",
+        "imaginary_tooltip": "The imaginary component of the number",
+        "result": "Result",
+        "complex_number": "Complex Number",
+        "invalid_input": "Please enter valid numbers",
+        "division_by_zero": "Cannot divide by zero",
+        "calculation_error": "An error occurred during calculation",
+        "howItWorks": {
+            "title": "How the Complex Number Calculator Works",
+            "formula": "Complex number: z = a + bi where i^2 = -1",
+            "explanation": "Complex numbers consist of a real part (a) and an imaginary part (bi). The imaginary unit i is the square root of -1. These numbers are used in electrical engineering, signal processing, and quantum physics.",
+            "steps": [
+                "Enter the real and imaginary parts of the first number (a + bi)",
+                "Enter the real and imaginary parts of the second number (c + di) if needed",
+                "Select the desired operation (add, subtract, multiply, divide, etc.)",
+                "The result will appear as a complex number with magnitude and phase"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Electrical Engineering",
+                "description": "Analyze AC circuits and calculate impedance and phase"
+            },
+            {
+                "title": "Signal Processing",
+                "description": "Fourier analysis and signal transformations in communications"
+            },
+            {
+                "title": "Quantum Physics",
+                "description": "Describe particle states and wave functions in quantum mechanics"
+            },
+            {
+                "title": "Computer Graphics",
+                "description": "Represent rotation and transformations in 2D space"
+            }
+        ],
+        "seoTips": [
+            "Use polar form (r angle theta) for multiplication and division as it's easier",
+            "Remember that |z| = sqrt(a^2 + b^2) for magnitude",
+            "The conjugate z* = a - bi is used to simplify division",
+            "The angle theta = arctan(b/a) determines the direction of the number in the complex plane"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Forgetting that i^2 = -1",
+                "correction": "When multiplying, remember that i x i = -1, so (bi)(di) = -bd"
+            },
+            {
+                "mistake": "Direct division by a complex number",
+                "correction": "Multiply numerator and denominator by the conjugate of the denominator to remove i from denominator"
+            },
+            {
+                "mistake": "Confusing Cartesian and polar forms",
+                "correction": "Cartesian: a + bi, Polar: r(cos theta + i sin theta) = r angle theta"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is a complex number?",
+                "answer": "A complex number is a number of the form a + bi, where a is the real part, b is the imaginary part, and i is the imaginary unit equal to sqrt(-1)."
+            },
+            {
+                "question": "How do I add two complex numbers?",
+                "answer": "To add (a + bi) + (c + di), add the real parts together and the imaginary parts together: (a+c) + (b+d)i. Example: (3+2i) + (1+4i) = 4+6i"
+            },
+            {
+                "question": "How do I multiply two complex numbers?",
+                "answer": "Use the distributive law: (a+bi)(c+di) = ac + adi + bci + bdi^2 = (ac-bd) + (ad+bc)i. Example: (2+3i)(1+2i) = 2+4i+3i+6i^2 = 2+7i-6 = -4+7i"
+            },
+            {
+                "question": "What is the magnitude of a complex number?",
+                "answer": "The magnitude |z| = sqrt(a^2 + b^2) represents the distance from the origin in the complex plane. Example: |3+4i| = sqrt(9+16) = 5"
+            }
+        ]
+    },
+    "complex-numbers": {
+        "title": "Complex Number Calculator",
+        "description": "Perform calculations with complex numbers online.",
+        "howItWorks": {
+            "title": "How the Complex Number Calculator Works",
+            "formula": "Complex number: z = a + bi where i^2 = -1",
+            "explanation": "Complex numbers consist of a real part (a) and an imaginary part (bi), where i is the square root of -1. They are essential in electrical engineering, signal processing, quantum physics, and advanced mathematics.",
+            "steps": [
+                {"name": "Enter First Number", "text": "Input the real and imaginary parts of the first complex number (a + bi)"},
+                {"name": "Enter Second Number", "text": "Input the second complex number if needed for binary operations"},
+                {"name": "Select Operation", "text": "Choose add, subtract, multiply, divide, magnitude, phase, or conjugate"},
+                {"name": "View Result", "text": "The result displays as a complex number with magnitude and phase"}
+            ]
+        },
+        "useCases": [
+            {"title": "Electrical Engineering", "description": "Analyze AC circuits, calculate impedance and phase angles"},
+            {"title": "Signal Processing", "description": "Perform Fourier analysis and signal transformations"},
+            {"title": "Quantum Physics", "description": "Describe particle states and wave functions"},
+            {"title": "Computer Graphics", "description": "Represent rotations and transformations in 2D space"}
+        ],
+        "seoTips": [
+            "Use polar form (r at angle theta) for easier multiplication and division",
+            "Magnitude |z| = sqrt(a^2 + b^2) gives the distance from origin",
+            "The conjugate z* = a - bi is used to simplify division",
+            "Phase angle theta = arctan(b/a) indicates direction in the complex plane"
+        ],
+        "commonMistakes": [
+            "Forgetting that i^2 = -1 - when multiplying, (bi)(di) = -bd",
+            "Dividing directly by a complex number - multiply by the conjugate instead",
+            "Confusing Cartesian (a + bi) and polar (r at angle theta) forms",
+            "Ignoring the quadrant when calculating phase angle from arctan"
+        ],
+        "faqs": [
+            {"question": "What is a complex number?", "answer": "A number of the form a + bi, where a is the real part, b is the imaginary part, and i = sqrt(-1)."},
+            {"question": "How do I add complex numbers?", "answer": "Add real parts together and imaginary parts together: (a + bi) + (c + di) = (a+c) + (b+d)i."},
+            {"question": "How do I multiply complex numbers?", "answer": "Use distribution: (a+bi)(c+di) = ac + adi + bci + bdi^2 = (ac-bd) + (ad+bc)i."},
+            {"question": "What is the magnitude of a complex number?", "answer": "The magnitude |z| = sqrt(a^2 + b^2) represents the distance from the origin. Example: |3+4i| = 5."},
+            {"question": "What is the conjugate used for?", "answer": "The conjugate (a - bi) is used to eliminate i from denominators when dividing complex numbers."}
+        ]
+    },
+    "logarithm-calculator": {
+        "title": "Logarithm Calculator",
+        "description": "Calculate logarithms with any base online using our free calculator.",
+        "howItWorks": {
+            "title": "How the Logarithm Calculator Works",
+            "formula": "log_b(x) = y means b^y = x | Change of base: log_b(x) = ln(x) / ln(b)",
+            "explanation": "Logarithm is the inverse of exponentiation. If b^y = x, then log_b(x) = y. Common logarithm (log) uses base 10, natural logarithm (ln) uses base e (approximately 2.718). Logarithms are used in measuring earthquake intensity, sound levels, and algorithm complexity.",
+            "steps": [
+                {"name": "Select Logarithm Type", "text": "Choose base 10 (log), natural (ln), base 2, or custom base"},
+                {"name": "Enter Value", "text": "Input the positive number to calculate its logarithm"},
+                {"name": "Enter Custom Base", "text": "If using custom base, enter a positive value not equal to 1"},
+                {"name": "View Result", "text": "The result displays with the calculation method explained"}
+            ]
+        },
+        "useCases": [
+            {"title": "Earthquake Measurement", "description": "The Richter scale uses common logarithm to measure earthquake magnitude"},
+            {"title": "Sound Intensity", "description": "Decibel measurements for sound levels are logarithmic"},
+            {"title": "Exponential Growth", "description": "Calculate half-life periods, population growth, and radioactive decay"},
+            {"title": "Computer Science", "description": "Analyze algorithm complexity (O(log n)) and data compression"}
+        ],
+        "seoTips": [
+            "log(1) = 0 for any base (because b^0 = 1)",
+            "log_b(b) = 1 always (because b^1 = b)",
+            "log(a x b) = log(a) + log(b)",
+            "log(a/b) = log(a) - log(b)",
+            "log(a^n) = n x log(a)"
+        ],
+        "commonMistakes": [
+            "Calculating logarithm of zero or negative numbers - log is only defined for positive values",
+            "Confusing log and ln - log usually means base 10, ln means base e",
+            "Assuming log(a+b) = log(a) + log(b) - this is incorrect; the rule is log(a x b) = log(a) + log(b)",
+            "Using base 1 or negative base - base must be positive and not equal to 1"
+        ],
+        "faqs": [
+            {"question": "What is the difference between log and ln?", "answer": "log (common logarithm) has base 10, while ln (natural logarithm) has base e (approximately 2.718)."},
+            {"question": "How do I calculate logarithm with a different base?", "answer": "Use change of base: log_b(x) = log(x) / log(b) = ln(x) / ln(b). Example: log_2(8) = 3."},
+            {"question": "What are the basic properties of logarithms?", "answer": "1) log(ab) = log(a) + log(b), 2) log(a/b) = log(a) - log(b), 3) log(a^n) = n log(a), 4) log(1) = 0."},
+            {"question": "Why is logarithm undefined for negative numbers?", "answer": "Because any positive base raised to any real power gives a positive result. There is no real power that makes 10^x negative."},
+            {"question": "What is e and why is it important?", "answer": "e is approximately 2.71828 and is the base of natural logarithm. It appears in continuous growth, compound interest, and many natural phenomena."}
+        ]
+    },
+    "calculus-calculator": {
+        "title": "Calculus Calculator",
+        "description": "Calculate derivatives and integrals online with our free calculus calculator.",
+        "howItWorks": {
+            "title": "How the Calculus Calculator Works",
+            "formula": "Derivative: f'(x) = lim(h->0) [f(x+h) - f(x)] / h | Integral: integral f(x)dx = F(x) + C",
+            "explanation": "Differentiation finds the instantaneous rate of change (slope) of a function. Integration is the reverse operation, finding the area under a curve or the antiderivative. These fundamental concepts are essential in physics, engineering, economics, and all quantitative sciences.",
+            "steps": [
+                {"name": "Select Operation", "text": "Choose derivative or integral"},
+                {"name": "Enter Function", "text": "Input the mathematical function (e.g., x^2, sin(x), e^x)"},
+                {"name": "Apply Rules", "text": "The calculator applies appropriate differentiation or integration rules"},
+                {"name": "View Solution", "text": "The result displays with detailed solution steps"}
+            ]
+        },
+        "useCases": [
+            {"title": "Physics and Motion", "description": "Differentiate position to get velocity, velocity to get acceleration"},
+            {"title": "Economics", "description": "Calculate marginal cost, marginal revenue, and optimization problems"},
+            {"title": "Engineering", "description": "Compute areas, volumes, and centers of mass"},
+            {"title": "Statistics", "description": "Find probability density functions and expected values"}
+        ],
+        "seoTips": [
+            "Power rule for derivatives: d/dx(x^n) = n x^(n-1)",
+            "Chain rule: d/dx[f(g(x))] = f'(g(x)) x g'(x)",
+            "Always add constant of integration C for indefinite integrals",
+            "Integral of 1/x is ln|x| + C (absolute value is important)"
+        ],
+        "commonMistakes": [
+            "Forgetting the constant of integration C - indefinite integrals have infinitely many solutions",
+            "Applying power rule when n = -1 - integral of x^(-1) is ln|x| + C, not x^0/0",
+            "Forgetting the chain rule - d/dx[sin(2x)] = 2cos(2x), not just cos(2x)",
+            "Confusing d/dx with partial derivatives - d/dx is for single variable functions"
+        ],
+        "faqs": [
+            {"question": "What is the difference between differentiation and integration?", "answer": "Differentiation finds the rate of change (slope). Integration is the reverse, finding the area under a curve or recovering the original function."},
+            {"question": "What is the power rule for derivatives?", "answer": "d/dx(x^n) = n x^(n-1). Example: d/dx(x^3) = 3x^2. Works for any real exponent."},
+            {"question": "Why do we add + C in integration?", "answer": "Because the derivative of any constant is zero, infinitely many functions have the same derivative. C represents this arbitrary constant."},
+            {"question": "What is definite vs indefinite integration?", "answer": "Indefinite integral gives a function F(x) + C. Definite integral from a to b gives a number: F(b) - F(a), representing the area."},
+            {"question": "What is the chain rule?", "answer": "d/dx[f(g(x))] = f'(g(x)) x g'(x). Used for composite functions. Example: d/dx[sin(x^2)] = cos(x^2) x 2x."}
+        ]
+    },
+    "fraction_calculator": {
+        "title": "Fraction Calculator",
+        "description": "Calculate fractions online with our free fraction calculator.",
+        "operation": "Operation",
+        "operation_tooltip": "Select mathematical operation",
+        "add": "Add",
+        "subtract": "Subtract",
+        "multiply": "Multiply",
+        "divide": "Divide",
+        "numerator1": "Numerator 1",
+        "numerator_tooltip": "The top part of the fraction",
+        "denominator1": "Denominator 1",
+        "denominator_tooltip": "The bottom part of the fraction (cannot be zero)",
+        "numerator2": "Numerator 2",
+        "denominator2": "Denominator 2",
+        "result_label": "Result",
+        "unsimplified": "Unsimplified",
+        "simplified": "Simplified",
+        "decimal_form": "Decimal Form",
+        "info_title": "About Fractions",
+        "invalid_input": "Please enter valid integers",
+        "denominator_zero": "Denominator cannot be zero",
+        "divide_by_zero": "Cannot divide by a fraction with zero numerator",
+        "calculation_error": "An error occurred during calculation",
+        "howItWorks": {
+            "title": "How the Fraction Calculator Works",
+            "formula": "Addition: a/b + c/d = (ad + bc) / bd | Multiplication: a/b x c/d = ac / bd",
+            "explanation": "A fraction consists of a numerator (top number) and denominator (bottom number). The fraction represents a part of a whole, where the denominator defines the number of equal parts and the numerator defines how many parts are taken.",
+            "steps": [
+                "Enter the numerator and denominator for the first fraction",
+                "Enter the numerator and denominator for the second fraction",
+                "Select the desired operation (add, subtract, multiply, divide)",
+                "The result will appear in simplified form and as a decimal"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Cooking and Recipes",
+                "description": "Adjust recipe quantities and convert measurements between different fractions"
+            },
+            {
+                "title": "Construction and Carpentry",
+                "description": "Calculate precise measurements for materials and distances using fractions"
+            },
+            {
+                "title": "School Mathematics",
+                "description": "Solve fraction problems and verify answers in homework"
+            },
+            {
+                "title": "Finance and Accounting",
+                "description": "Calculate ratios and financial shares with precision"
+            }
+        ],
+        "seoTips": [
+            "Always simplify fractions by dividing by the greatest common divisor",
+            "For addition and subtraction, find a common denominator first",
+            "For division, flip the second fraction and multiply",
+            "Convert improper fractions to mixed numbers when needed"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Adding numerators and denominators separately",
+                "correction": "To add a/b + c/d, find common denominator first: (ad + bc) / bd, don't add a+c / b+d"
+            },
+            {
+                "mistake": "Forgetting to flip the fraction in division",
+                "correction": "For division: (a/b) / (c/d) = (a/b) x (d/c). Flip the second fraction then multiply"
+            },
+            {
+                "mistake": "Not simplifying the result",
+                "correction": "Simplify the result by dividing by the GCD. For example: 4/8 = 1/2"
+            },
+            {
+                "mistake": "Confusing fractions and ratios",
+                "correction": "The fraction 3/4 means 3 out of 4 parts, while the ratio 3:4 means comparing two quantities"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "How do I add fractions with different denominators?",
+                "answer": "Find the common denominator (LCM), then multiply each fraction by the appropriate number to unify denominators, then add the numerators. Example: 1/3 + 1/4 = 4/12 + 3/12 = 7/12"
+            },
+            {
+                "question": "How do I convert a fraction to a decimal?",
+                "answer": "Divide the numerator by the denominator. For example: 3/4 = 3 / 4 = 0.75. Some fractions give repeating decimals like 1/3 = 0.333..."
+            },
+            {
+                "question": "What is an improper fraction?",
+                "answer": "An improper fraction has a numerator greater than or equal to its denominator (like 7/4). It can be converted to a mixed number: 7/4 = 1 3/4"
+            },
+            {
+                "question": "How do I simplify a fraction?",
+                "answer": "Divide both numerator and denominator by their GCD. For example: 12/18 -> GCD = 6 -> 12/6 / 18/6 = 2/3"
+            },
+            {
+                "question": "How do I multiply fractions?",
+                "answer": "Multiply numerator by numerator and denominator by denominator. For example: 2/3 x 4/5 = (2x4)/(3x5) = 8/15"
+            }
+        ]
+    },
+    "gcd_lcm_calculator": {
+        "title": "GCD and LCM Calculator",
+        "description": "Calculate the Greatest Common Divisor (GCD) and Least Common Multiple (LCM) of numbers.",
+        "first_number": "First Number",
+        "first_number_tooltip": "Enter the first integer",
+        "second_number": "Second Number",
+        "second_number_tooltip": "Enter the second integer",
+        "number_placeholder": "e.g., 12",
+        "gcd_label": "GCD",
+        "lcm_label": "LCM",
+        "gcd_steps": "GCD Calculation Steps",
+        "lcm_steps": "LCM Calculation Steps",
+        "info_title": "About GCD & LCM",
+        "invalid_input": "Please enter valid integers",
+        "zero_not_allowed": "Numbers cannot be zero",
+        "calculation_error": "An error occurred during calculation",
+        "howItWorks": {
+            "title": "How the GCD and LCM Calculator Works",
+            "formula": "LCM(a,b) = |a x b| / GCD(a,b) | Euclidean algorithm: GCD(a,b) = GCD(b, a mod b)",
+            "explanation": "The Greatest Common Divisor (GCD) is the largest number that divides both numbers without a remainder. The Least Common Multiple (LCM) is the smallest positive number divisible by both numbers. These concepts are fundamental in fractions and number theory.",
+            "steps": [
+                "Enter the first integer",
+                "Enter the second integer",
+                "The calculator uses the Euclidean algorithm to compute GCD",
+                "LCM is calculated using the relationship: LCM = |a x b| / GCD"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Simplifying Fractions",
+                "description": "Use GCD to simplify fractions by dividing by the greatest common divisor"
+            },
+            {
+                "title": "Finding Common Denominators",
+                "description": "Use LCM to find the least common denominator when adding fractions"
+            },
+            {
+                "title": "Scheduling Recurring Events",
+                "description": "Calculate when different periodic events will coincide"
+            },
+            {
+                "title": "Solving Mathematical Problems",
+                "description": "Fundamental in number theory, algebra, and cryptography"
+            }
+        ],
+        "seoTips": [
+            "GCD is always less than or equal to the smaller number",
+            "LCM is always greater than or equal to the larger number",
+            "GCD(a,b) x LCM(a,b) = |a x b|",
+            "If GCD = 1, the numbers are coprime (relatively prime)"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Confusing GCD and LCM",
+                "correction": "GCD is a divisor (divides the numbers), LCM is a multiple (the numbers divide it)"
+            },
+            {
+                "mistake": "Assuming GCD or LCM for negative numbers",
+                "correction": "GCD and LCM are defined for positive numbers. For negatives, use absolute values"
+            },
+            {
+                "mistake": "Calculating LCM by only multiplying the numbers",
+                "correction": "LCM(a,b) = a x b only if GCD(a,b) = 1. General formula: LCM = a x b / GCD"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is the Greatest Common Divisor (GCD)?",
+                "answer": "GCD of two numbers is the largest positive integer that divides both numbers without a remainder. Example: GCD(12, 18) = 6 because 6 is the largest number that divides both 12 and 18."
+            },
+            {
+                "question": "What is the Least Common Multiple (LCM)?",
+                "answer": "LCM of two numbers is the smallest positive integer divisible by both numbers. Example: LCM(4, 6) = 12 because 12 is the smallest number divisible by both 4 and 6."
+            },
+            {
+                "question": "What is the Euclidean algorithm?",
+                "answer": "The Euclidean algorithm computes GCD recursively: GCD(a,b) = GCD(b, a mod b) until the remainder is zero. Example: GCD(48,18) = GCD(18,12) = GCD(12,6) = GCD(6,0) = 6"
+            },
+            {
+                "question": "What is the relationship between GCD and LCM?",
+                "answer": "The fundamental relationship: GCD(a,b) x LCM(a,b) = a x b. You can easily calculate one from the other."
+            },
+            {
+                "question": "What does it mean for two numbers to be coprime?",
+                "answer": "Two numbers are coprime (relatively prime) if their GCD equals 1, meaning they share no common divisor other than 1. Example: 8 and 15 are coprime because GCD(8,15) = 1."
+            }
+        ]
+    },
+    "logarithm_calculator": {
+        "title": "Logarithm Calculator",
+        "description": "Calculate logarithms with any base online using our free calculator.",
+        "log_type": "Logarithm Type",
+        "type_tooltip": "Select the base of the logarithm",
+        "log10": "Base 10 (log)",
+        "ln": "Natural Log (ln)",
+        "log2": "Base 2 (log base 2)",
+        "custom": "Custom Base",
+        "value": "Value",
+        "value_tooltip": "The number to calculate the logarithm of",
+        "base": "Base",
+        "base_tooltip": "The base of the logarithm",
+        "result": "Result",
+        "formula_title": "Calculation",
+        "invalid_input": "Please enter a valid number",
+        "positive_only": "Value must be positive",
+        "invalid_base": "Base must be positive and not equal to 1",
+        "calculation_error": "An error occurred during calculation",
+        "howItWorks": {
+            "title": "How the Logarithm Calculator Works",
+            "formula": "log_b(x) = y means b^y = x | Change of base: log_b(x) = ln(x) / ln(b)",
+            "explanation": "Logarithm is the inverse operation of exponentiation. If b^y = x, then log_b(x) = y. The common logarithm (log) has base 10, and the natural logarithm (ln) has base e (approximately 2.718).",
+            "steps": [
+                "Select the logarithm type (base 10, natural, base 2, or custom)",
+                "Enter the positive value to calculate its logarithm",
+                "If you selected custom base, enter the base value (positive and not equal to 1)",
+                "The result will appear with the calculation method explained"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Measuring Earthquake Intensity",
+                "description": "The Richter scale uses common logarithm to measure earthquake magnitude"
+            },
+            {
+                "title": "Sound and Decibels",
+                "description": "Sound intensity measurement in decibels is based on logarithms"
+            },
+            {
+                "title": "Exponential Growth and Decay",
+                "description": "Calculate half-life periods and population growth"
+            },
+            {
+                "title": "Computer Science",
+                "description": "Analyze algorithm complexity (O(log n)) and data compression"
+            }
+        ],
+        "seoTips": [
+            "log(1) = 0 always for any base (b^0 = 1)",
+            "log_b(b) = 1 always (b^1 = b)",
+            "log(a x b) = log(a) + log(b)",
+            "log(a/b) = log(a) - log(b)",
+            "log(a^n) = n x log(a)"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Calculating logarithm of negative number or zero",
+                "correction": "Logarithm is only defined for positive numbers. log(x) where x > 0"
+            },
+            {
+                "mistake": "Confusing log and ln",
+                "correction": "log usually means base 10, ln means base e. In some contexts log may mean ln"
+            },
+            {
+                "mistake": "Assuming log(a+b) = log(a) + log(b)",
+                "correction": "This is wrong! The correct rule is log(a x b) = log(a) + log(b)"
+            },
+            {
+                "mistake": "Using base = 1 or negative base",
+                "correction": "Base must be positive and not equal to 1. Base 1 gives a constant function"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is the difference between log and ln?",
+                "answer": "log (common logarithm) has base 10, while ln (natural logarithm) has base e (approximately 2.718). Example: log(100) = 2 (10^2 = 100), ln(e) = 1 (e^1 = e)."
+            },
+            {
+                "question": "How do I calculate logarithm with a different base?",
+                "answer": "Use the change of base formula: log_b(x) = log(x) / log(b) = ln(x) / ln(b). Example: log_2(8) = log(8) / log(2) = 0.903 / 0.301 = 3"
+            },
+            {
+                "question": "What are the basic properties of logarithms?",
+                "answer": "1) log(a x b) = log(a) + log(b), 2) log(a/b) = log(a) - log(b), 3) log(a^n) = n x log(a), 4) log(1) = 0, 5) log_b(b) = 1"
+            },
+            {
+                "question": "Why is logarithm undefined for negative numbers?",
+                "answer": "Because any positive base raised to any real power gives a positive result. There is no real power that makes 10^x = -5 for example."
+            },
+            {
+                "question": "What is e and why is it important?",
+                "answer": "e is approximately 2.71828 and is the base of the natural logarithm. It appears in continuous growth, compound interest, and many natural phenomena. The derivative of e^x = e^x."
+            }
+        ]
+    },
+    "sequences_calculator": {
+        "title": "Sequence Calculator",
+        "description": "Calculate and analyze mathematical sequences online.",
+        "sequence_type": "Sequence Type",
+        "type_tooltip": "Select the type of sequence",
+        "arithmetic": "Arithmetic",
+        "geometric": "Geometric",
+        "fibonacci": "Fibonacci",
+        "first_term": "First Term (a1)",
+        "first_term_tooltip": "The starting value of the sequence",
+        "first_term_placeholder": "e.g., 1",
+        "common_difference": "Common Difference (d)",
+        "difference_tooltip": "The difference between consecutive terms",
+        "difference_placeholder": "e.g., 2",
+        "common_ratio": "Common Ratio (r)",
+        "ratio_tooltip": "The ratio between consecutive terms",
+        "ratio_placeholder": "e.g., 2",
+        "nth_position": "Find Term at Position (n)",
+        "position_tooltip": "The position of the term you want to find",
+        "position_placeholder": "e.g., 10",
+        "number_of_terms": "Number of Terms to Show",
+        "terms_tooltip": "How many terms to display in the sequence",
+        "terms_placeholder": "e.g., 5",
+        "results": "Results",
+        "nth_term_value": "Nth Term Value",
+        "sum_of_terms": "Sum of First N Terms",
+        "sequence_preview": "Sequence Preview",
+        "formula_title": "Formula Used",
+        "formula_arithmetic": "an = a1 + (n-1)d",
+        "formula_geometric": "an = a1 x r^(n-1)",
+        "formula_fibonacci": "Fn = Fn-1 + Fn-2",
+        "info_title": "About Sequences",
+        "invalid_first_term": "Please enter a valid first term",
+        "invalid_position": "Position must be a positive integer",
+        "invalid_terms": "Number of terms must be between 1 and 100",
+        "invalid_difference": "Please enter a valid common difference",
+        "invalid_ratio": "Please enter a valid common ratio",
+        "calculation_error": "An error occurred during calculation",
+        "howItWorks": {
+            "title": "How the Sequence Calculator Works",
+            "formula": "Arithmetic sequence: an = a1 + (n-1)d | Geometric sequence: an = a1 x r^(n-1)",
+            "explanation": "A sequence is an ordered list of numbers following a specific pattern. Arithmetic sequences add a constant value (common difference), geometric sequences multiply by a constant value (common ratio), and Fibonacci sequences have each term as the sum of the two preceding terms.",
+            "steps": [
+                "Select the sequence type (arithmetic, geometric, or Fibonacci)",
+                "Enter the first term of the sequence",
+                "Enter the common difference (for arithmetic) or common ratio (for geometric)",
+                "Specify the position of the term and number of terms to display",
+                "The nth term value, sum of terms, and sequence will be shown"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Financial Planning",
+                "description": "Calculate periodic payments and compound interest using sequences"
+            },
+            {
+                "title": "Population Growth",
+                "description": "Model exponential growth of populations or bacteria using geometric sequences"
+            },
+            {
+                "title": "Physics and Motion",
+                "description": "Calculate distance in uniformly accelerated motion"
+            },
+            {
+                "title": "Computer Science",
+                "description": "Analyze recursive algorithms and Fibonacci sequence in programming"
+            }
+        ],
+        "seoTips": [
+            "Arithmetic sequence: the difference between any two consecutive terms is constant",
+            "Geometric sequence: the ratio between any two consecutive terms is constant",
+            "Sum of arithmetic sequence: Sn = n/2 x (a1 + an)",
+            "Sum of geometric sequence: Sn = a1(1-r^n)/(1-r) when r is not equal to 1"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Confusing arithmetic and geometric sequences",
+                "correction": "Arithmetic: adds or subtracts a constant value. Geometric: multiplies or divides by a constant value"
+            },
+            {
+                "mistake": "Using n instead of (n-1) in the formula",
+                "correction": "The nth term: an = a1 + (n-1)d not a1 + nd, because no difference is added to the first term"
+            },
+            {
+                "mistake": "Forgetting that Fibonacci starts with 0, 1 or 1, 1",
+                "correction": "Traditional Fibonacci sequence: 0, 1, 1, 2, 3, 5, 8, 13... or starting from 1, 1"
+            },
+            {
+                "mistake": "Calculating infinite geometric series sum when |r| >= 1",
+                "correction": "Infinite sum of geometric series exists only if |r| < 1: S = a1/(1-r)"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is the difference between arithmetic and geometric sequences?",
+                "answer": "Arithmetic sequences add a constant value (common difference) to move from one term to the next (like 2, 5, 8, 11). Geometric sequences multiply by a constant value (common ratio) (like 2, 6, 18, 54)."
+            },
+            {
+                "question": "How do I find the nth term in an arithmetic sequence?",
+                "answer": "Use the formula: an = a1 + (n-1)d, where a1 is the first term, n is the term number, and d is the common difference. Example: for sequence 3, 7, 11, ...: a10 = 3 + (10-1) x 4 = 39"
+            },
+            {
+                "question": "What is the Fibonacci sequence?",
+                "answer": "Fibonacci sequence: each term is the sum of the two preceding terms. Usually starts with 0, 1: 0, 1, 1, 2, 3, 5, 8, 13, 21... It appears in nature, art, and architecture."
+            },
+            {
+                "question": "How do I calculate the sum of an arithmetic sequence?",
+                "answer": "Sn = n/2 x (a1 + an) or Sn = n/2 x (2a1 + (n-1)d). Example: sum of first 10 terms of 1, 3, 5, ...: S10 = 10/2 x (1 + 19) = 100"
+            },
+            {
+                "question": "When does an infinite sum exist for a geometric sequence?",
+                "answer": "The infinite sum exists only if |r| < 1 (common ratio between -1 and 1). Formula: S(infinity) = a1/(1-r). Example: 1 + 1/2 + 1/4 + ... = 1/(1-0.5) = 2"
+            }
+        ]
+    },
+    "trigonometry_calculator": {
+        "title": "Trigonometry Calculator",
+        "description": "Solve trigonometry problems online with our free calculator.",
+        "function": "Trigonometric Function",
+        "function_tooltip": "Select function to calculate",
+        "sin": "Sine (sin)",
+        "cos": "Cosine (cos)",
+        "tan": "Tangent (tan)",
+        "cot": "Cotangent (cot)",
+        "sec": "Secant (sec)",
+        "csc": "Cosecant (csc)",
+        "angle_unit": "Angle Unit",
+        "unit_tooltip": "Select degrees or radians",
+        "degrees": "Degrees",
+        "radians": "Radians",
+        "angle": "Angle",
+        "angle_tooltip": "Enter the angle value",
+        "result": "Result",
+        "inverse": "Inverse (Principal Value)",
+        "formula_title": "Calculation",
+        "invalid_angle": "Please enter a valid angle",
+        "calculation_error": "An error occurred during calculation",
+        "howItWorks": {
+            "title": "How the Trigonometry Calculator Works",
+            "formula": "sin theta = opposite/hypotenuse | cos theta = adjacent/hypotenuse | tan theta = opposite/adjacent",
+            "explanation": "Trigonometry studies the relationships between angles and sides of triangles. The basic trigonometric functions (sin, cos, tan) define side ratios in right triangles. These functions are fundamental in physics, engineering, and navigation.",
+            "steps": [
+                "Select the desired trigonometric function",
+                "Choose the unit of measurement (degrees or radians)",
+                "Enter the angle value",
+                "The result will appear along with other trigonometric function values"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Navigation and GPS",
+                "description": "Calculate distances and directions using law of sines and cosines"
+            },
+            {
+                "title": "Architecture",
+                "description": "Calculate building heights, roof angles, and slopes"
+            },
+            {
+                "title": "Physics and Waves",
+                "description": "Describe harmonic motion and sound and light waves"
+            },
+            {
+                "title": "Computer Graphics",
+                "description": "Rotate objects and calculate projections in games and design"
+            }
+        ],
+        "seoTips": [
+            "sin^2(theta) + cos^2(theta) = 1 (Pythagorean identity)",
+            "tan theta = sin theta / cos theta",
+            "Trigonometric functions are periodic: sin(theta + 360 degrees) = sin theta",
+            "Use radians in physics and advanced mathematics"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Forgetting to convert between degrees and radians",
+                "correction": "pi radians = 180 degrees. To convert: radians = degrees x pi/180"
+            },
+            {
+                "mistake": "Calculating tan 90 degrees or cot 0 degrees",
+                "correction": "tan 90 degrees and cot 0 degrees are undefined (division by zero)"
+            },
+            {
+                "mistake": "Confusing trigonometric functions and their inverses",
+                "correction": "sin^(-1) (arcsin) gives the angle, while sin gives the ratio. sin^(-1)(0.5) = 30 degrees"
+            },
+            {
+                "mistake": "Assuming sin(A+B) = sin A + sin B",
+                "correction": "The correct rule: sin(A+B) = sin A cos B + cos A sin B"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is the difference between degrees and radians?",
+                "answer": "Degrees and radians are two units for measuring angles. A full circle = 360 degrees = 2 pi radians. 1 radian is approximately 57.3 degrees. Radians are preferred in mathematics and physics."
+            },
+            {
+                "question": "What are the six trigonometric functions?",
+                "answer": "sin (sine), cos (cosine), tan (tangent), cot (cotangent = 1/tan), sec (secant = 1/cos), csc (cosecant = 1/sin)."
+            },
+            {
+                "question": "What are the Pythagorean trigonometric identities?",
+                "answer": "sin^2(theta) + cos^2(theta) = 1, 1 + tan^2(theta) = sec^2(theta), 1 + cot^2(theta) = csc^2(theta). These identities relate the trigonometric functions."
+            },
+            {
+                "question": "How do I find an angle from a trigonometric function value?",
+                "answer": "Use inverse functions: theta = sin^(-1)(x), theta = cos^(-1)(x), theta = tan^(-1)(x). Example: if sin theta = 0.5, then theta = sin^(-1)(0.5) = 30 degrees or pi/6"
+            },
+            {
+                "question": "What are the trigonometric function values for special angles?",
+                "answer": "sin 0 degrees = 0, sin 30 degrees = 1/2, sin 45 degrees = sqrt(2)/2, sin 60 degrees = sqrt(3)/2, sin 90 degrees = 1. cos values are sin values reversed."
+            }
+        ]
+    },
+    "calculus": {
+        "title": "Calculus Calculator",
+        "operation_type": "Operation Type",
+        "derivative": "Derivative",
+        "integral": "Integral",
+        "function_to_differentiate": "Function to Differentiate",
+        "function_to_integrate": "Function to Integrate",
+        "enter_function": "Enter function (e.g. x^2, sin(x))",
+        "supported_functions": "Supported: x^n, sin(x), cos(x), e^x, ln(x)",
+        "derivative_button": "Derivative",
+        "integral_button": "Integral",
+        "steps_title": "Calculation Steps",
+        "rules_title": "Rules & Formulas",
+        "derivative_rules": "Derivative Rules",
+        "integral_rules": "Integral Rules",
+        "errors": {
+            "empty_input": "Please enter a function",
+            "calculation_error": "Error calculating result"
+        },
+        "steps": {
+            "derivative_x": "Derivative of x is 1",
+            "derivative_x2": "Derivative of x^2 is 2x",
+            "power_rule_2": "Using power rule: d/dx(x^n) = nx^(n-1)",
+            "derivative_power": "Using power rule",
+            "derivative_sin": "Derivative of sin(x) is cos(x)",
+            "derivative_cos": "Derivative of cos(x) is -sin(x)",
+            "derivative_exp": "Derivative of e^x is e^x",
+            "derivative_ln": "Derivative of ln(x) is 1/x",
+            "integral_x": "Integral of x is x^2/2 + C",
+            "power_rule_integral_1": "Using power rule for integration",
+            "integral_constant": "Integral of constant 1 is x + C",
+            "integral_power": "Using power rule for integration",
+            "integral_sin": "Integral of sin(x) is -cos(x) + C",
+            "integral_cos": "Integral of cos(x) is sin(x) + C",
+            "integral_exp": "Integral of e^x is e^x + C",
+            "integral_inv_x": "Integral of 1/x is ln|x| + C",
+            "symbolic_needed": "Complex expression requires symbolic solver"
+        },
+        "results": {
+            "complex": "Complex Result"
+        },
+        "rules": {
+            "derivative_power_rule_desc": "Derivative of x^n = n*x^(n-1)",
+            "integral_power_rule_desc": "Integral of x^n dx = x^(n+1)/(n+1) + C, where n is not equal to -1",
+            "derivative_rule_1": "Derivative of x^n = n x^(n-1)",
+            "derivative_rule_2": "Derivative of sin(x) = cos(x)",
+            "derivative_rule_3": "Derivative of cos(x) = -sin(x)",
+            "derivative_rule_4": "Derivative of e^x = e^x",
+            "derivative_rule_5": "Derivative of ln(x) = 1/x",
+            "integral_rule_1": "Integral of x^n dx = x^(n+1)/(n+1) + C, where n is not equal to -1",
+            "integral_rule_2": "Integral of sin(x) dx = -cos(x) + C",
+            "integral_rule_3": "Integral of cos(x) dx = sin(x) + C",
+            "integral_rule_4": "Integral of e^x dx = e^x + C",
+            "integral_rule_5": "Integral of 1/x dx = ln|x| + C"
+        },
+        "howItWorks": {
+            "title": "How the Calculus Calculator Works",
+            "formula": "Differentiation: f'(x) = lim(h->0) [f(x+h) - f(x)] / h | Integration: integral of f(x)dx = F(x) + C",
+            "explanation": "Differentiation finds the instantaneous rate of change of a function (the slope), and integration finds the area under the curve (the reverse operation of differentiation). These concepts are fundamental in physics, engineering, and economics.",
+            "steps": [
+                "Select the operation type (derivative or integral)",
+                "Enter the mathematical function (like x^2, sin(x), e^x)",
+                "The calculator applies the appropriate differentiation or integration rules",
+                "The result will appear with detailed solution steps"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Physics and Motion",
+                "description": "Differentiation gives velocity from position, and acceleration from velocity"
+            },
+            {
+                "title": "Economics",
+                "description": "Calculate marginal cost, marginal revenue, and optimization"
+            },
+            {
+                "title": "Engineering",
+                "description": "Calculate areas, volumes, and centers of mass"
+            },
+            {
+                "title": "Statistics",
+                "description": "Find probability density functions and expectations"
+            }
+        ],
+        "seoTips": [
+            "Power rule for differentiation: d/dx(x^n) = n x^(n-1)",
+            "Chain rule: d/dx[f(g(x))] = f'(g(x)) x g'(x)",
+            "Don't forget the constant of integration C in indefinite integrals",
+            "Integral of 1/x is ln|x| + C (absolute value is important)"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Forgetting the constant of integration C",
+                "correction": "Indefinite integration gives a family of functions, so you must add + C"
+            },
+            {
+                "mistake": "Applying power rule when n = -1",
+                "correction": "integral of x^(-1)dx = ln|x| + C not x^0/0. This is a special case"
+            },
+            {
+                "mistake": "Forgetting the chain rule",
+                "correction": "d/dx[sin(2x)] = cos(2x) x 2 = 2cos(2x), not just cos(2x)"
+            },
+            {
+                "mistake": "Confusing d/dx and partial derivative",
+                "correction": "d/dx is for single-variable functions, partial derivative is for multivariable functions"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is the difference between differentiation and integration?",
+                "answer": "Differentiation finds the rate of change (slope) of a function. Integration is the reverse operation and finds the area under the curve or recovers the original function from its derivative."
+            },
+            {
+                "question": "What is the power rule for differentiation?",
+                "answer": "d/dx(x^n) = n x^(n-1). Example: d/dx(x^3) = 3x^2. It works for any real exponent."
+            },
+            {
+                "question": "Why do we add + C in integration?",
+                "answer": "Because the derivative of any constant is zero, there are infinitely many functions with the same derivative. C represents this arbitrary constant."
+            },
+            {
+                "question": "What is definite vs indefinite integration?",
+                "answer": "Indefinite integral: integral of f(x)dx = F(x) + C (a function). Definite integral: integral from a to b of f(x)dx = F(b) - F(a) (a number representing area)."
+            },
+            {
+                "question": "What is the chain rule?",
+                "answer": "d/dx[f(g(x))] = f'(g(x)) x g'(x). Used for differentiating composite functions. Example: d/dx[sin(x^2)] = cos(x^2) x 2x"
+            }
+        ]
+    },
+    "matrix_calculator": {
+        "title": "Matrix Calculator",
+        "description": "Perform matrix operations online with our free matrix calculator.",
+        "operation": "Operation",
+        "operation_tooltip": "Select matrix operation",
+        "add": "Add Matrices",
+        "subtract": "Subtract Matrices",
+        "multiply": "Multiply Matrices",
+        "scalar_multiply": "Scalar Multiplication",
+        "transpose": "Transpose",
+        "determinant": "Determinant",
+        "trace": "Trace",
+        "rows": "Rows",
+        "rows_tooltip": "Number of rows",
+        "columns": "Columns",
+        "columns_tooltip": "Number of columns",
+        "scalar_value": "Scalar Value",
+        "scalar_tooltip": "Value to multiply the matrix by",
+        "matrix1": "Matrix A",
+        "matrix2": "Matrix B",
+        "result": "Result",
+        "determinant_label": "Determinant",
+        "trace_label": "Trace",
+        "result_matrix": "Result Matrix",
+        "info_title": "About Matrices",
+        "info_description": "A matrix is a rectangular array of numbers, symbols, or expressions, arranged in rows and columns. Matrices are used in various fields including physics, computer graphics, and engineering.",
+        "dimension_error": "Matrices must have the same dimensions for this operation",
+        "multiplication_error": "Columns of Matrix A must equal Rows of Matrix B",
+        "square_matrix_error": "This operation requires a square matrix",
+        "calculation_error": "An error occurred during calculation",
+        "howItWorks": {
+            "title": "How the Matrix Calculator Works",
+            "formula": "Matrix multiplication: C[i,j] = Sum of A[i,k] x B[k,j]",
+            "explanation": "A matrix is a rectangular arrangement of numbers in rows and columns. Matrix operations follow specific rules that differ from regular arithmetic, especially in multiplication where order matters (AB is not equal to BA in most cases).",
+            "steps": [
+                "Specify the matrix dimensions (number of rows x number of columns)",
+                "Enter the matrix element values in the appropriate cells",
+                "Select the desired operation from the menu",
+                "For binary operations, enter the second matrix",
+                "Press the calculate button to display the result"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Computer Graphics and Games",
+                "description": "Rotation, scaling, and translation transformations for 3D objects"
+            },
+            {
+                "title": "Machine Learning",
+                "description": "Neural network computations and big data processing"
+            },
+            {
+                "title": "Solving Systems of Equations",
+                "description": "Solve sets of simultaneous linear equations"
+            },
+            {
+                "title": "Statistics and Economics",
+                "description": "Covariance analysis and multiple regression models"
+            }
+        ],
+        "seoTips": [
+            "For multiplication: number of columns in first matrix must equal number of rows in second",
+            "Determinant exists only for square matrices (n x n)",
+            "Transpose matrix swaps rows and columns",
+            "Trace is the sum of main diagonal elements"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Assuming matrix multiplication is commutative",
+                "correction": "A x B is not equal to B x A in most cases. Order of multiplication matters greatly"
+            },
+            {
+                "mistake": "Multiplying matrices with incompatible dimensions",
+                "correction": "You can only multiply A(m x n) x B(n x p) if columns of A equals rows of B"
+            },
+            {
+                "mistake": "Trying to calculate determinant of non-square matrix",
+                "correction": "Determinant is only defined for square matrices (like 2x2, 3x3, etc.)"
+            },
+            {
+                "mistake": "Confusing scalar multiplication and matrix multiplication",
+                "correction": "Scalar multiplication multiplies each element by the number, while matrix multiplication follows the dot product rule"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is the Determinant?",
+                "answer": "The determinant is a single numerical value calculated from a square matrix. For a 2x2 matrix: det = ad - bc. It's used to determine if a matrix is invertible (det is not equal to 0) and to calculate areas and volumes."
+            },
+            {
+                "question": "How do I multiply two matrices?",
+                "answer": "To multiply A x B, each element C[i,j] is the dot product of row i from A and column j from B. The number of columns in A must equal the number of rows in B."
+            },
+            {
+                "question": "What is the Trace of a matrix?",
+                "answer": "The trace is the sum of elements on the main diagonal of a square matrix. tr(A) = a11 + a22 + ... + ann. It has useful properties like tr(AB) = tr(BA)."
+            },
+            {
+                "question": "What is a Transpose matrix?",
+                "answer": "The transpose A^T converts rows to columns and vice versa. If A has dimensions m x n, then A^T has dimensions n x m. Element A^T[i,j] = A[j,i]."
+            }
+        ]
+    },
+    "trigonometry-calculator": {
+        "title": "Trigonometry Calculator",
+        "description": "Solve trigonometry problems online with our free calculator.",
+        "howItWorks": {
+            "title": "How the Trigonometry Calculator Works",
+            "formula": "sin(theta) = opposite/hypotenuse | cos(theta) = adjacent/hypotenuse | tan(theta) = opposite/adjacent",
+            "explanation": "Trigonometry studies relationships between angles and sides of triangles. The six trigonometric functions (sin, cos, tan, cot, sec, csc) define ratios in right triangles and extend to the unit circle. These functions are fundamental in physics, engineering, navigation, and graphics.",
+            "steps": [
+                {"name": "Select Function", "text": "Choose the trigonometric function (sin, cos, tan, cot, sec, csc)"},
+                {"name": "Choose Angle Unit", "text": "Select degrees or radians for your angle measurement"},
+                {"name": "Enter Angle", "text": "Input the angle value"},
+                {"name": "View Results", "text": "The result displays along with inverse function values"}
+            ]
+        },
+        "useCases": [
+            {"title": "Navigation and GPS", "description": "Calculate distances and bearings using law of sines and cosines"},
+            {"title": "Architecture", "description": "Determine building heights, roof angles, and structural slopes"},
+            {"title": "Physics and Waves", "description": "Describe harmonic motion, sound waves, and light waves"},
+            {"title": "Computer Graphics", "description": "Rotate objects and calculate projections in games and 3D design"}
+        ],
+        "seoTips": [
+            "sin^2(theta) + cos^2(theta) = 1 (Pythagorean identity)",
+            "tan(theta) = sin(theta) / cos(theta)",
+            "Trigonometric functions are periodic: sin(theta + 360 degrees) = sin(theta)",
+            "Use radians in physics and advanced mathematics"
+        ],
+        "commonMistakes": [
+            "Forgetting to convert between degrees and radians - pi radians = 180 degrees",
+            "Calculating tan(90 degrees) or cot(0 degrees) - these are undefined (division by zero)",
+            "Confusing trigonometric functions with their inverses - sin^(-1) gives angle, sin gives ratio",
+            "Assuming sin(A+B) = sin(A) + sin(B) - correct formula is sin(A+B) = sin(A)cos(B) + cos(A)sin(B)"
+        ],
+        "faqs": [
+            {"question": "What is the difference between degrees and radians?", "answer": "Both measure angles. Full circle = 360 degrees = 2pi radians. 1 radian is approximately 57.3 degrees. Radians are preferred in mathematics."},
+            {"question": "What are the six trigonometric functions?", "answer": "sin (sine), cos (cosine), tan (tangent), cot (cotangent = 1/tan), sec (secant = 1/cos), csc (cosecant = 1/sin)."},
+            {"question": "What are the Pythagorean identities?", "answer": "sin^2(theta) + cos^2(theta) = 1, 1 + tan^2(theta) = sec^2(theta), 1 + cot^2(theta) = csc^2(theta)."},
+            {"question": "How do I find an angle from a trig function value?", "answer": "Use inverse functions: theta = sin^(-1)(x), theta = cos^(-1)(x), theta = tan^(-1)(x). Example: sin^(-1)(0.5) = 30 degrees."},
+            {"question": "What are the values for special angles?", "answer": "sin(0) = 0, sin(30) = 1/2, sin(45) = sqrt(2)/2, sin(60) = sqrt(3)/2, sin(90) = 1. Cosine values are sine values reversed."}
+        ]
+    },
+    "percentage": {
+        "title": "Percentage Calculator",
+        "description": "Calculate percentages easily. Find percentage of a number, calculate percentage increase/decrease, or convert fractions to percentages instantly.",
+        "faqs": [
+            {
+                "question": "How do I calculate a percentage of a number?",
+                "answer": "To find a percentage of a number, multiply the number by the percentage and divide by 100. For example, 20% of 150 = (150 x 20) / 100 = 30."
+            },
+            {
+                "question": "What is the reverse percentage calculation?",
+                "answer": "Reverse percentage finds the original number when you know a value that represents a certain percentage. For example, if 30 is 20% of what number? The answer is (30 x 100) / 20 = 150."
+            },
+            {
+                "question": "How do I calculate percentage change between two numbers?",
+                "answer": "To calculate percentage change, subtract the old value from the new value, divide by the old value, and multiply by 100. Formula: ((New - Old) / Old) x 100. For example, from 80 to 100: ((100-80)/80) x 100 = 25% increase."
+            },
+            {
+                "question": "How do I convert a fraction to a percentage?",
+                "answer": "Divide the numerator by the denominator then multiply by 100. Example: 3/4 = 0.75 x 100 = 75%"
+            },
+            {
+                "question": "What is the difference between percentage and percentage points?",
+                "answer": "If a rate increases from 10% to 15%, the increase is 5 percentage points, but the relative increase is 50% (because 5/10 = 0.5 = 50%)."
+            }
+        ],
+        "page_title": "Percentage Calculator - Calculate Percentages Online Free",
+        "page_description": "Calculate percentages easily with our free online percentage calculator.",
+        "calculation_type": "Calculation Type",
+        "calculation_type_tooltip": "Select the type of calculation you want to perform",
+        "what_is_percent_of": "What is X% of Y?",
+        "is_what_percent_of": "X is what % of Y?",
+        "percentage_change": "Percentage change from X to Y",
+        "is_percent_of_what": "X is Y% of what?",
+        "percent_label": "Percentage (%)",
+        "of_value_label": "Of Value",
+        "percent_placeholder": "Enter percentage",
+        "of_value_placeholder": "Enter total value",
+        "result_is": "Result is",
+        "value_label": "Partial Value",
+        "total_label": "Total Value",
+        "value_placeholder": "Enter partial value",
+        "total_placeholder": "Enter total value",
+        "is_percent": "is percentage",
+        "original_label": "Original Value",
+        "new_label": "New Value",
+        "original_placeholder": "Enter original value",
+        "new_placeholder": "Enter new value",
+        "change_is": "Change is",
+        "part_label": "Part",
+        "percentage_label": "Percentage (%)",
+        "part_placeholder": "Enter part",
+        "percentage_placeholder": "Enter percentage",
+        "whole_is": "Original value is",
+        "invalid_input": "Please enter valid numbers",
+        "cannot_divide_by_zero": "Cannot divide by zero",
+        "original_cannot_be_zero": "Original value cannot be zero",
+        "calculation_error": "Calculation error occurred",
+        "calculation_details": "Calculation Details",
+        "calculation_used": "Formula Used",
+        "formula_title": "About this formula",
+        "formula_explanation": "We use standard mathematical formulas to calculate percentages with high accuracy.",
+        "info_title": "What is Percentage?",
+        "use_cases_title": "Common Use Cases",
+        "use_case_1": "Calculate discounts in stores",
+        "use_case_2": "Calculate taxes and tips",
+        "use_case_3": "Analyze financial and statistical changes",
+        "howto": {
+            "name": "How to Calculate Percentages",
+            "description": "Follow these steps to calculate percentages easily",
+            "steps": [
+                {"name": "Select calculation type", "text": "Choose the type of percentage calculation you need from the dropdown menu"},
+                {"name": "Enter the values", "text": "Enter the required numbers in the input fields based on your selected calculation type"},
+                {"name": "View the result", "text": "The result will be calculated automatically and displayed instantly"},
+                {"name": "Review the formula", "text": "Check the calculation details section to see the formula used and understand the calculation"}
+            ]
+        },
+        "howItWorks": {
+            "title": "How the Percentage Calculator Works",
+            "formula": "Percentage = (Part / Whole) x 100 | X% of Y = (X x Y) / 100",
+            "explanation": "Percentage is a way of expressing a number as a part of 100. The symbol % means 'per hundred'. Percentages are used in everyday life to calculate discounts, taxes, interest, and statistics.",
+            "steps": [
+                "Select the calculation type appropriate for your question",
+                "Enter the known values in the appropriate fields",
+                "The calculator will automatically compute the unknown value",
+                "Review the formula used in the details section"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Calculating Discounts",
+                "description": "Find the final price after a certain percentage discount (like 25% off)"
+            },
+            {
+                "title": "Calculating Taxes",
+                "description": "Add VAT or calculate income tax"
+            },
+            {
+                "title": "Tracking Performance",
+                "description": "Calculate completion rate or improvement in grades or sales"
+            },
+            {
+                "title": "Personal Finance",
+                "description": "Calculate savings rate or return on investment"
+            }
+        ],
+        "seoTips": [
+            "To find X% of Y: multiply Y by X and divide by 100",
+            "To find what percentage X is of Y: divide X by Y and multiply by 100",
+            "Percentage increase = ((New - Old) / Old) x 100",
+            "To find the original value: divide the part by the percentage and multiply by 100"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Confusing percentage and percentage points",
+                "correction": "Increase from 10% to 15% is 5 percentage points, but 50% relative increase"
+            },
+            {
+                "mistake": "Calculating discount from new price instead of original",
+                "correction": "Discount is always calculated from the original price, then subtracted"
+            },
+            {
+                "mistake": "Adding percentages directly",
+                "correction": "A 10% increase then another 10% increase does not equal 20%, but approximately 21% (1.1 x 1.1 = 1.21)"
+            },
+            {
+                "mistake": "Forgetting that decrease and increase percentages are not equal",
+                "correction": "A 50% decrease requires a 100% increase to return to the original value"
+            }
+        ]
+    },
+    "prime_factorization": {
+        "title": "Prime Factorization Calculator",
+        "description": "Find prime factorization of any number online with our free calculator.",
+        "number_label": "Number",
+        "number_tooltip": "Enter a positive integer",
+        "number_placeholder": "e.g., 60",
+        "result_label": "Result",
+        "is_prime": "is a prime number",
+        "is_composite": "is a composite number",
+        "factorization_label": "Prime Factorization",
+        "all_factors": "All Prime Factors",
+        "unique_factors": "Unique Prime Factors",
+        "info_title": "About Prime Factorization",
+        "invalid_input": "Please enter a valid integer",
+        "must_be_greater_than_one": "Number must be greater than 1",
+        "too_large": "Number is too large (max 1,000,000)",
+        "calculation_error": "An error occurred during calculation",
+        "howItWorks": {
+            "title": "How Prime Factorization Works",
+            "formula": "n = p1^a1 x p2^a2 x ... x pk^ak (where p are prime numbers)",
+            "explanation": "Prime factorization means writing a number as a product of prime numbers. Every integer greater than 1 can be factored in a unique way (Fundamental Theorem of Arithmetic). Prime numbers are numbers divisible only by 1 and themselves.",
+            "steps": [
+                "Enter the positive integer to be factorized",
+                "The calculator starts dividing by the smallest prime (2)",
+                "It continues dividing until the remainder is 1",
+                "The prime factors and complete factorization will be displayed"
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Simplifying Fractions",
+                "description": "Find the GCD to simplify fractions"
+            },
+            {
+                "title": "Cryptography",
+                "description": "Foundation of encryption systems like RSA that rely on the difficulty of factoring large numbers"
+            },
+            {
+                "title": "Number Theory",
+                "description": "Understanding number properties and solving Diophantine equations"
+            },
+            {
+                "title": "Calculating LCM and GCD",
+                "description": "Easily find the LCM and GCD of numbers"
+            }
+        ],
+        "seoTips": [
+            "A prime number is only divisible by 1 and itself",
+            "2 is the only even prime number",
+            "To test if n is prime, check divisibility by primes up to sqrt(n)",
+            "GCD from prime factorization: choose the smallest power of each common factor"
+        ],
+        "commonMistakes": [
+            {
+                "mistake": "Considering 1 as a prime number",
+                "correction": "1 is not a prime number. Prime numbers start from 2"
+            },
+            {
+                "mistake": "Forgetting to repeat the prime factor",
+                "correction": "8 = 2 x 2 x 2 = 2^3, not just 2. The repetition must be noted"
+            },
+            {
+                "mistake": "Stopping before complete factorization",
+                "correction": "Continue dividing until the remainder is 1. For example: 12 = 2 x 6 is wrong, correct: 12 = 2^2 x 3"
+            }
+        ],
+        "faqs": [
+            {
+                "question": "What is a prime number?",
+                "answer": "A prime number is an integer greater than 1 that is only divisible by 1 and itself. Examples: 2, 3, 5, 7, 11, 13... The number 1 is not prime."
+            },
+            {
+                "question": "What is prime factorization?",
+                "answer": "Prime factorization is writing a number as a product of prime numbers. For example: 60 = 2^2 x 3 x 5. Every number has a unique prime factorization."
+            },
+            {
+                "question": "How do I know if a number is prime?",
+                "answer": "Try dividing by primes from 2 to sqrt(n). If it's not divisible by any of them, it's prime. Example: 29 is prime because it's not divisible by 2, 3, 5 (sqrt(29) is approximately 5.4)."
+            },
+            {
+                "question": "Why is prime factorization important?",
+                "answer": "It's used in simplifying fractions, calculating GCD and LCM, cryptography (RSA), and number theory. Every integer is uniquely determined by its prime factorization."
+            },
+            {
+                "question": "What is the Fundamental Theorem of Arithmetic?",
+                "answer": "It states that every integer greater than 1 can be represented uniquely as a product of prime numbers (ignoring the order of factors)."
+            }
+        ]
+    }
+}

@@ -1,0 +1,432 @@
+{
+    "abjad": {
+        "standard_title": "Standard Abjad (Major Gematria)",
+        "standard_desc": "The traditional system where letters take their historical numerical values.",
+        "maghrebi_title": "Maghrebi Abjad",
+        "maghrebi_desc": "The alternative system traditionally used in North Africa.",
+        "small_title": "Small Abjad (Minor Gematria)",
+        "small_desc": "A simplified system using reduced values for each letter.",
+        "input_error": "Please enter some text to start the calculation.",
+        "system_error": "The selected system is invalid.",
+        "calc_error": "An error occurred while processing the text.",
+        "usage_tips": "Usage Tips",
+        "tip1": "Enter any Arabic text to calculate its numerical value.",
+        "tip2": "Spaces and punctuation are automatically ignored.",
+        "tip3": "Compare different systems to see varying traditional values.",
+        "info_title": "What is Abjad?",
+        "info_desc": "Abjad (Gematria) is a traditional system that assigns specific numerical values to the letters of the alphabet.",
+        "selection_system": "Calculation System",
+        "input_label": "Arabic Text",
+        "input_tooltip": "Enter Arabic words or sentences here",
+        "placeholder": "e.g., Bismillah ar-Rahman ar-Rahim",
+        "calculate": "Calculate Value",
+        "total_result": "Final Result",
+        "based_on": "Based on",
+        "details": "Letter Breakdown",
+        "char": "Character",
+        "value": "Value",
+        "summary": "Process Summary",
+        "system_used": "System Applied",
+        "char_count": "Processed Characters",
+        "page_title": "Abjad Calculator",
+        "page_desc": "Calculate numerical values of Arabic letters and words.",
+        "howItWorks": {
+            "title": "How the Abjad Calculator Works",
+            "formula": "Total Value = Sum of individual letter values",
+            "explanation": "Abjad numerals, also known as Hisab al-Jummal or Arabic Gematria, is an ancient alphanumeric code where each Arabic letter is assigned a numerical value. This system dates back thousands of years and was used for arithmetic, chronograms, and mystical purposes.",
+            "steps": [
+                "Enter your Arabic text in the input field",
+                "Select the calculation system (Standard, Maghrebi, or Small Abjad)",
+                "The calculator processes each Arabic letter and assigns its numerical value",
+                "Non-Arabic characters, spaces, and punctuation are automatically ignored",
+                "The total sum is calculated by adding all individual letter values"
+            ]
+        },
+        "useCases": [
+            "Calculating the numerical value of names for traditional purposes",
+            "Creating chronograms (tarikh) where dates are encoded in poetry",
+            "Studying Islamic calligraphy and historical texts",
+            "Understanding numerological traditions in Arabic culture"
+        ],
+        "seoTips": [
+            "Enter complete words for more meaningful calculations",
+            "Compare results across different systems for historical research",
+            "Use the Standard system for classical Arabic texts",
+            "The Maghrebi system is preferred for North African traditions",
+            "Small Abjad reduces values for simplified numerology"
+        ],
+        "commonMistakes": [
+            "Including English letters which are not counted in the calculation",
+            "Confusing Standard Abjad with Maghrebi system values",
+            "Forgetting that hamza and other diacritics may have different values",
+            "Not accounting for letter variations (e.g., ta marbuta)"
+        ],
+        "faqs": [
+            {
+                "question": "What is the difference between Standard and Maghrebi Abjad?",
+                "answer": "Standard Abjad follows the Eastern Arabic letter order (used in the Middle East), while Maghrebi Abjad follows the order used in North Africa. The letters have the same values but the sequence differs for certain letters."
+            },
+            {
+                "question": "Can I use this calculator for Hebrew Gematria?",
+                "answer": "No, this calculator is specifically designed for Arabic Abjad. Hebrew Gematria uses different letter-number correspondences, though both systems share historical roots."
+            },
+            {
+                "question": "What is Small Abjad (Minor Gematria)?",
+                "answer": "Small Abjad simplifies the numerical values by reducing them to single digits (1-9). For example, a letter valued at 100 would become 1 (1+0+0=1)."
+            },
+            {
+                "question": "Are spaces and punctuation included in the calculation?",
+                "answer": "No, spaces, punctuation marks, and non-Arabic characters are automatically ignored. Only Arabic letters are assigned numerical values."
+            },
+            {
+                "question": "What are chronograms and how do they use Abjad?",
+                "answer": "Chronograms (tarikh) are phrases or sentences where the numerical values of certain letters add up to a specific year or date. This technique was widely used in Arabic and Persian poetry to commemorate historical events."
+            }
+        ]
+    },
+    "biorhythm": {
+        "title": "Biorhythm Calculator",
+        "page_title": "Biorhythm Calculator - Predict Your Physical & Emotional Cycles",
+        "description": "Predict your physical, emotional, and intellectual levels based on your life cycles.",
+        "intro_title": "About Biorhythms",
+        "intro_desc": "Biorhythms are an attempt to model the fluctuations in human performance based on cycles starting from birth.",
+        "birth_date": "Birth Date",
+        "target_date": "Target Date",
+        "enter_birth_date": "Please select your birth date first.",
+        "invalid_date": "The entered date is invalid.",
+        "future_birth": "Birth date cannot be in the future.",
+        "calc_error": "An error occurred during data analysis.",
+        "calculating": "Analyzing results...",
+        "days_since": "Days since birth:",
+        "days": "days",
+        "physical": "Physical Vitality",
+        "emotional": "Emotional State",
+        "intellectual": "Intellectual Level",
+        "intuitive": "Intuition & Awareness",
+        "high": "High",
+        "low": "Low",
+        "chart_title": "Cycles Chart",
+        "chart_unavailable": "Chart visualization is available in the full version.",
+        "page_desc": "Predict your physical, emotional, and intellectual levels based on your life cycles.",
+        "howItWorks": {
+            "title": "How the Biorhythm Calculator Works",
+            "formula": "Cycle Value = sin(2π × days / period) × 100%",
+            "explanation": "Biorhythm theory suggests that our lives are influenced by rhythmic biological cycles. These cycles begin at birth and oscillate in a sinusoidal pattern. The physical cycle lasts 23 days, the emotional cycle 28 days, and the intellectual cycle 33 days.",
+            "steps": [
+                "Enter your birth date to establish the starting point of your cycles",
+                "Select a target date to calculate your biorhythm levels for that day",
+                "The calculator computes days elapsed since birth",
+                "Each cycle is calculated using sine wave mathematics",
+                "Results show percentage levels (-100% to +100%) for each cycle"
+            ]
+        },
+        "useCases": [
+            "Planning important events when your cycles are at peak",
+            "Understanding periods of low energy or mood fluctuations",
+            "Scheduling athletic competitions or intellectual tasks",
+            "Self-reflection and personal awareness tracking"
+        ],
+        "seoTips": [
+            "Check multiple dates to see how your cycles change over time",
+            "Critical days (when cycles cross zero) may indicate transition periods",
+            "Use the intuition cycle for creative and artistic planning",
+            "Compare biorhythms with partners for relationship insights",
+            "Track patterns over months for better self-understanding"
+        ],
+        "commonMistakes": [
+            "Expecting biorhythms to predict specific events rather than general tendencies",
+            "Ignoring that biorhythm theory is not scientifically validated",
+            "Setting birth date incorrectly which affects all calculations",
+            "Taking low cycle days too seriously for important decisions"
+        ],
+        "faqs": [
+            {
+                "question": "What are the three main biorhythm cycles?",
+                "answer": "The three main cycles are: Physical (23 days) - affecting strength, coordination, and energy; Emotional (28 days) - affecting mood, creativity, and sensitivity; Intellectual (33 days) - affecting memory, alertness, and analytical thinking."
+            },
+            {
+                "question": "What is a critical day in biorhythm?",
+                "answer": "A critical day occurs when any cycle crosses zero, transitioning from positive to negative or vice versa. Some believe these days may bring instability or unpredictability in that particular area."
+            },
+            {
+                "question": "Is biorhythm theory scientifically proven?",
+                "answer": "No, biorhythm theory has not been scientifically validated. Multiple studies have failed to find significant correlations between biorhythms and actual performance or events. It should be treated as entertainment rather than scientific fact."
+            },
+            {
+                "question": "What does a negative percentage mean?",
+                "answer": "A negative percentage indicates that the cycle is in its lower phase. For example, a -50% physical reading suggests lower physical energy, while a +50% indicates higher energy. Zero represents a neutral or critical transition point."
+            },
+            {
+                "question": "Can biorhythms predict compatibility between people?",
+                "answer": "Some practitioners compare biorhythm cycles between partners, but there is no scientific evidence supporting biorhythm-based compatibility. It can be a fun exercise but should not be used for serious relationship decisions."
+            }
+        ]
+    },
+    "random-number-generator": {
+        "title": "Random Number Generator - Free Online Picker Tool",
+        "description": "Generate random numbers within any range. Free online random picker for games, contests, and statistical sampling."
+    },
+    "shoe-size-converter": {
+        "title": "Shoe Size Converter - Free International Size Tool",
+        "description": "Convert shoe sizes between US, UK, EU, and CM systems. Free international shoe size converter for men, women, and children."
+    },
+    "clothing_size_converter": {
+        "title": "Clothing Size Converter",
+        "description": "Convert clothing sizes between international standards.",
+        "gender": "Gender",
+        "gender_tooltip": "Select gender for sizing",
+        "men": "Men",
+        "women": "Women",
+        "clothing_type": "Clothing Type",
+        "clothing_type_tooltip": "Select the type of garment",
+        "shirts": "Shirts / Tops",
+        "pants": "Pants / Bottoms",
+        "dresses": "Dresses",
+        "size_input": "Size to Convert",
+        "size_tooltip": "Enter the size you want to convert",
+        "size_placeholder": "e.g., M, 10, 42",
+        "from_system": "From System",
+        "from_system_tooltip": "The sizing system of the input size",
+        "us": "US",
+        "uk": "UK",
+        "eu": "EU",
+        "intl": "International",
+        "converted_sizes": "Converted Sizes",
+        "size_chart": "Size Chart",
+        "measurements": "Approximate Measurements",
+        "chest": "Chest",
+        "waist": "Waist",
+        "note_title": "Note",
+        "note": "Sizes can vary significantly between brands. Always check the manufacturer's specific size chart for the best fit.",
+        "empty_error": "Please enter a size",
+        "info_title": "About Clothing Sizes",
+        "use_case_1": "Shopping online from international brands",
+        "use_case_2": "Traveling abroad",
+        "use_case_3": "Converting vintage clothing sizes",
+        "howItWorks": {
+            "title": "How the Clothing Size Converter Works",
+            "formula": "Size Mapping = Standard conversion charts between US, UK, EU, and International sizing systems",
+            "explanation": "Clothing sizes vary significantly between countries and regions. This converter uses standardized conversion charts to translate sizes between US, UK, European, and International sizing systems for different garment types.",
+            "steps": [
+                "Select your gender (Men or Women) for accurate sizing",
+                "Choose the clothing type (Shirts/Tops, Pants/Bottoms, or Dresses)",
+                "Enter your known size from one system",
+                "Select the sizing system you're converting from",
+                "View equivalent sizes in all other international systems"
+            ]
+        },
+        "useCases": [
+            "Shopping from international online retailers like Zara, H&M, or ASOS",
+            "Buying clothes while traveling abroad",
+            "Converting vintage or thrift store clothing sizes",
+            "Understanding sizing when ordering from Asian or European brands"
+        ],
+        "seoTips": [
+            "Always check the brand's specific size chart as conversions are approximate",
+            "Consider body measurements for the most accurate fit",
+            "European sizes typically run smaller than US sizes",
+            "UK and US sizes differ, especially for women's clothing",
+            "International sizes (XS-XL) are the most standardized globally"
+        ],
+        "commonMistakes": [
+            "Assuming all brands follow the same size standards",
+            "Forgetting that men's and women's sizing systems are different",
+            "Not accounting for vanity sizing in some brands",
+            "Ignoring that fit preferences (slim, regular, relaxed) affect sizing"
+        ],
+        "faqs": [
+            {
+                "question": "Why do clothing sizes vary between brands?",
+                "answer": "There is no universal sizing standard. Each brand creates its own size charts based on their target market, fit preferences, and design philosophy. This is why a Medium in one brand may fit differently than in another."
+            },
+            {
+                "question": "What is the difference between US and UK sizes?",
+                "answer": "For women's clothing, UK sizes are typically 4 numbers higher than US sizes (US 6 = UK 10). For men's shirts, the difference is usually in collar measurements. Shoe sizes also differ between the two systems."
+            },
+            {
+                "question": "How do European sizes work?",
+                "answer": "European sizes use numerical measurements, often based on body measurements in centimeters. A EU 38 for women roughly equals US 8. The numbers don't directly correspond to any body measurement but follow a standardized scale."
+            },
+            {
+                "question": "What are International sizes (XS, S, M, L, XL)?",
+                "answer": "International letter sizes provide a simplified, universal approach. However, what constitutes a 'Medium' varies by brand and region. Asian sizing tends to run smaller, so an Asian L might equal a Western M."
+            },
+            {
+                "question": "Should I size up when buying from international brands?",
+                "answer": "It depends on the brand's origin. Generally, size up when buying from European or Asian brands, and use your normal size for US/UK brands. Always check reviews and the specific brand's size guide when possible."
+            }
+        ]
+    },
+    "random_number_generator": {
+        "title": "Random Number Generator",
+        "description": "Generate random numbers within any range.",
+        "min": "Minimum Value",
+        "min_tooltip": "Smallest possible number",
+        "min_placeholder": "1",
+        "max": "Maximum Value",
+        "max_tooltip": "Largest possible number",
+        "max_placeholder": "100",
+        "count": "Number of Values",
+        "count_tooltip": "How many numbers to generate",
+        "count_placeholder": "1",
+        "allow_duplicates": "Allow Duplicates",
+        "allow_duplicates_tooltip": "If unchecked, each number will be unique",
+        "allow_duplicates_label": "Allow the same number to appear more than once",
+        "result_single": "Your Random Number",
+        "result_multiple": "Your Random Numbers",
+        "details": "Generation Details",
+        "range": "Range",
+        "count_generated": "Generated",
+        "note_title": "About Randomness",
+        "note": "This tool uses a pseudo-random number generator algorithm.",
+        "info_title": "About Random Number Generator",
+        "use_cases_title": "Common Uses",
+        "use_case_1": "Picking a contest winner",
+        "use_case_2": "Games and simulations",
+        "use_case_3": "Statistical sampling",
+        "min_max_error": "Minimum must be less than maximum",
+        "count_error": "Count must be between 1 and 10000",
+        "no_duplicates_error": "Range is too small for unique numbers",
+        "howItWorks": {
+            "title": "How the Random Number Generator Works",
+            "formula": "Random Number = floor(Math.random() × (max - min + 1)) + min",
+            "explanation": "This generator creates pseudo-random numbers using JavaScript's Math.random() function, which produces a floating-point number between 0 and 1. This value is then scaled and shifted to fit within your specified range.",
+            "steps": [
+                "Set the minimum value for your desired range",
+                "Set the maximum value for your desired range",
+                "Specify how many random numbers you want to generate",
+                "Choose whether to allow duplicate numbers",
+                "Click generate to create your random numbers instantly"
+            ]
+        },
+        "useCases": [
+            "Selecting a random winner from a list of contest participants",
+            "Creating random teams or groups for games and activities",
+            "Generating sample data for statistical analysis",
+            "Making fair decisions through random selection"
+        ],
+        "seoTips": [
+            "For lottery-style selections, disable duplicates to ensure each number is unique",
+            "Use a range of 1-6 to simulate dice rolls",
+            "Generate multiple numbers at once to save time for larger selections",
+            "The larger the range, the lower the chance of getting the same number twice",
+            "For cryptographic purposes, use a dedicated secure random generator"
+        ],
+        "commonMistakes": [
+            "Setting minimum higher than maximum (will cause an error)",
+            "Requesting more unique numbers than the range allows",
+            "Assuming the generator produces truly random numbers (it's pseudo-random)",
+            "Using web-based generators for security-critical applications"
+        ],
+        "faqs": [
+            {
+                "question": "Is this truly random?",
+                "answer": "This generator produces pseudo-random numbers using the JavaScript Math.random() function. While suitable for games, contests, and general purposes, it should not be used for cryptographic or security-critical applications."
+            },
+            {
+                "question": "Can I generate decimal numbers?",
+                "answer": "This calculator generates whole numbers (integers) only. For decimal random numbers, you would need a specialized tool or can generate integers and divide by a power of 10."
+            },
+            {
+                "question": "What happens if I disable duplicates but the range is too small?",
+                "answer": "If you request more unique numbers than are available in the range (e.g., 10 unique numbers from 1-5), you'll receive an error message. The count cannot exceed the number of possible values in your range."
+            },
+            {
+                "question": "What is the maximum number I can generate?",
+                "answer": "You can generate numbers within any range that JavaScript can handle (typically up to about 9 quadrillion). However, generating very large quantities of numbers at once may slow down your browser."
+            },
+            {
+                "question": "Can I use this for official lotteries or legal gambling?",
+                "answer": "No, this tool is for entertainment and general purposes only. Official lotteries and legal gambling require certified random number generators that meet specific regulatory standards."
+            }
+        ]
+    },
+    "shoe_size_converter": {
+        "title": "Shoe Size Converter",
+        "description": "Convert shoe sizes between US, UK, EU, and CM standards.",
+        "gender": "Gender",
+        "gender_tooltip": "Select gender for sizing",
+        "men": "Men",
+        "women": "Women",
+        "size_input": "Size to Convert",
+        "size_tooltip": "Enter the size you want to convert",
+        "size_placeholder": "e.g., 9, 42, 27",
+        "from_system": "From System",
+        "from_system_tooltip": "The sizing system of the input size",
+        "us": "US",
+        "uk": "UK",
+        "eu": "EU",
+        "cm": "CM (Centimeters)",
+        "converted_sizes": "Converted Sizes",
+        "size_chart": "Size Chart",
+        "shoe_invalid_size": "Please enter a valid size",
+        "shoe_us_range_error": "US size must be between 1 and 20",
+        "shoe_uk_range_error": "UK size must be between 1 and 18",
+        "shoe_eu_range_error": "EU size must be between 25 and 55",
+        "shoe_cm_range_error": "CM size must be between 15 and 35",
+        "shoe_info_title": "About Shoe Sizes",
+        "shoe_description": "Shoe sizes vary by country and manufacturer. This calculator provides approximate conversions based on standard charts.",
+        "shoe_use_case_1": "Buying shoes online",
+        "shoe_use_case_2": "Converting international sizes",
+        "shoe_use_case_3": "Finding your size in different brands",
+        "shoe_note_title": "Fitting Note",
+        "shoe_note": "Fit can vary by brand and style. Always try shoes on if possible or check the brand's specific size chart.",
+        "howItWorks": {
+            "title": "How the Shoe Size Converter Works",
+            "formula": "Conversion uses standardized mapping tables between US, UK, EU, and CM measurements",
+            "explanation": "Shoe sizing systems vary by country. US and UK use arbitrary numbered scales (with women's typically offset from men's), EU uses the Paris point system (2/3 cm increments), and CM measures actual foot length. This converter maps between these standards.",
+            "steps": [
+                "Select your gender as men's and women's sizes differ",
+                "Enter your known shoe size",
+                "Choose the sizing system your size is from",
+                "View instant conversions to US, UK, EU, and CM",
+                "Reference the size chart for additional half sizes"
+            ]
+        },
+        "useCases": [
+            "Ordering shoes from international websites like Zalando, Nike, or Amazon",
+            "Shopping while traveling in Europe or Asia",
+            "Converting vintage or imported shoe sizes",
+            "Understanding shoe sizes when gifting footwear"
+        ],
+        "seoTips": [
+            "Measure your foot in CM for the most accurate conversions",
+            "US women's sizes are typically 1.5-2 sizes larger than US men's",
+            "UK sizes are usually 0.5-1 size smaller than US sizes",
+            "EU sizes don't differ between men and women for the same foot length",
+            "Athletic shoes may fit differently than dress shoes in the same size"
+        ],
+        "commonMistakes": [
+            "Confusing US men's and women's sizes (they use different scales)",
+            "Not accounting for width variations (this converter assumes standard width)",
+            "Assuming all brands size the same within a country",
+            "Forgetting that running shoes often need to be half a size larger"
+        ],
+        "faqs": [
+            {
+                "question": "What is the difference between US men's and women's shoe sizes?",
+                "answer": "US women's sizes are approximately 1.5 to 2 sizes larger in number than men's for the same foot length. For example, a women's US 9 is roughly equivalent to a men's US 7.5."
+            },
+            {
+                "question": "How does European shoe sizing work?",
+                "answer": "European sizes use the Paris point system, where each size represents 2/3 cm (about 6.67mm). Unlike US/UK systems, EU sizes are unisex - the same EU size fits the same foot length regardless of gender."
+            },
+            {
+                "question": "Why does my shoe size vary between brands?",
+                "answer": "There's no universal standard enforced across manufacturers. Each brand develops their own lasts (foot molds) and may interpret size standards differently. Athletic brands often run larger, while Italian shoes often run smaller."
+            },
+            {
+                "question": "What is the most accurate way to find my shoe size?",
+                "answer": "Measure your foot length in centimeters (CM) from heel to longest toe while standing. This measurement can be most reliably converted to any sizing system. Measure both feet, as they may differ."
+            },
+            {
+                "question": "Should I buy shoes in my exact size or go larger?",
+                "answer": "For everyday shoes, your measured size should work. For athletic shoes, especially running shoes, consider going half a size larger to accommodate foot swelling during activity. For dress shoes, true to size is usually best."
+            }
+        ]
+    },
+    "clothing-size-converter": {
+        "title": "Clothing Size Converter - Free International Fit Tool",
+        "description": "Convert clothing sizes between US, UK, Europe, and Asia. Free international size converter for shirts, pants, and dresses."
+    }
+}

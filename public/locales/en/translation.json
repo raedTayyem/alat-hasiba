@@ -1,0 +1,385 @@
+{
+    "navigation": {
+        "home": "Home",
+        "categories": "Categories",
+        "mostUsed": "Most Popular",
+        "about": "About",
+        "aboutUs": "About Us",
+        "contact": "Contact",
+        "support": "Support",
+        "supportOnBuyMeACoffee": "Support us on Buy Me A Coffee",
+        "closeMenu": "Close Menu",
+        "openMenu": "Open Menu",
+        "mobileMenu": "Mobile Menu",
+        "privacyPolicy": "Privacy Policy",
+        "termsOfService": "Terms of Service",
+        "mainMenu": "Main Menu",
+        "facebook": "Facebook",
+        "twitter": "Twitter",
+        "instagram": "Instagram"
+    },
+    "footer": {
+        "description": "Comprehensive calculator site providing accurate tools for everyone.",
+        "quickLinks": "Quick Links",
+        "popularCategories": "Popular Categories",
+        "contact": "Contact Us",
+        "email": "Email",
+        "website": "Website",
+        "copyright": "© {{year}} Alathasiba. All Rights Reserved.",
+        "madeWithLove": "Made with <0/> for users"
+    },
+    "language": {
+        "ar": "Arabic",
+        "en": "English",
+        "arLabel": "العربية",
+        "enLabel": "English"
+    },
+    "hero": {
+        "title": "Wide Range of Free Online Calculators",
+        "description": "We offer more than {{count}} free calculators and unit converters to help you in various fields: Math, Finance, Health, and Science.",
+        "browseCategories": "Browse Categories",
+        "learnAboutUs": "Learn About Us",
+        "newFeatures": "Over {{count}}+ Professional Tools"
+    },
+    "categories": {
+        "title": "Categories",
+        "featuredTitle": "Featured Categories",
+        "featuredDescription": "Discover a variety of categorized tools for easy access to what you need.",
+        "calculatorCount": "{{count}} Calculators",
+        "allCategories": "All Categories"
+    },
+    "calculators": {
+        "popularTitle": "Most Popular Calculators",
+        "popularDescription": "The most requested and used tools by our visitors daily.",
+        "categoryLabel": "Category",
+        "allPopular": "All Popular Calculators"
+    },
+    "benefits": {
+        "title": "Why Use Alathasiba?",
+        "description": "We strive to provide the best possible experience for our users through accurate and easy tools.",
+        "easyToUse": {
+            "title": "Easy to Use",
+            "description": "Simple and carefully designed interfaces to enable you to reach your result quickly."
+        },
+        "accurate": {
+            "title": "Accurate & Reliable",
+            "description": "Carefully tested calculation algorithms to ensure the highest levels of accuracy."
+        },
+        "free": {
+            "title": "Completely Free",
+            "description": "All our services are available to everyone for free without the need for registration."
+        }
+    },
+    "support": {
+        "title": "Support Project Continuity",
+        "description": "Our site is completely free, you can support us to help us stay online and develop new tools.",
+        "supportButton": "Buy me a coffee"
+    },
+    "cta": {
+        "title": "Ready to Start?",
+        "description": "Use our {{count}}+ free calculators now.",
+        "browseCalculators": "Start Browsing"
+    },
+    "errors": {
+        "goHome": "Go Home",
+        "errorLoadingPage": "Error loading page. Please refresh."
+    },
+    "common": {
+        "search": "Search",
+        "searchPlaceholder": "Search for a calculator (e.g., Percentage, BMI...)",
+        "siteName": "Alathasiba"
+    },
+    "categoryNames": {
+        "math": "Math Calculators",
+        "finance": "Finance & Money",
+        "health": "Health & Body",
+        "converter": "Unit Converters",
+        "physics": "Physics Tools",
+        "engineering": "Engineering Tools",
+        "education": "Education & Study",
+        "date-time": "Date & Time",
+        "misc": "Miscellaneous",
+        "geometry": "Geometry Tools",
+        "business": "Business & Econ",
+        "construction": "Construction Tools",
+        "automotive": "Car & Auto",
+        "cooking": "Cooking & Kitchen",
+        "gaming": "Gaming Tools",
+        "agriculture": "Agri & Farm",
+        "science": "Science Tools",
+        "electrical": "Electrical Tools",
+        "astronomy": "Space & Stars",
+        "statistics": "Statistics Tools",
+        "real-estate": "Real Estate",
+        "fitness": "Fitness & Sports",
+        "environmental": "Eco & Environment",
+        "pet": "Pet Care"
+    },
+    "categoryDescriptions": {
+        "math": "Solve complex mathematical problems easily, from algebra to calculus.",
+        "finance": "Tools for financial planning, loan calculations, taxes, and investments.",
+        "health": "Track your health through BMI calculators, calories, and nutritional needs.",
+        "converter": "Convert between various standard units quickly and accurately.",
+        "physics": "Accurate physics calculations for mechanics, electricity, and energy.",
+        "engineering": "Specialized tools for engineers and designers.",
+        "education": "Educational tools to help students in their studies.",
+        "date-time": "Calculate time differences and convert between different calendars.",
+        "misc": "A variety of useful tools for different daily needs.",
+        "geometry": "Calculate areas, volumes, and various geometric shapes.",
+        "business": "Tools for business management, profit calculation, and productivity.",
+        "construction": "Calculators for construction projects, material estimation, and costs.",
+        "automotive": "Everything you need for your car from fuel consumption to trip costs.",
+        "cooking": "Convert cooking ingredients and adjust recipe quantities.",
+        "gaming": "Tools and calculators dedicated to gaming and entertainment.",
+        "agriculture": "Farm calculations, irrigation, and crop planning.",
+        "science": "Advanced scientific tools for various research fields.",
+        "electrical": "Calculations for electrical circuits, power, and voltage.",
+        "astronomy": "Explore space with distance and celestial body calculators.",
+        "statistics": "Tools for data analysis and mathematical statistics.",
+        "real-estate": "Mortgage calculations, ROI, and property values.",
+        "fitness": "Tools to improve your physical fitness and track your workouts.",
+        "environmental": "Calculate your environmental footprint and contribute to sustainability.",
+        "pet": "Everything you need to care for your pets."
+    },
+    "zakat": {
+        "title": "Islamic Zakat Calculator",
+        "description": "Calculate your Zakat obligations on wealth, gold, and silver according to Islamic principles.",
+        "page_title": "Zakat Calculator",
+        "page_description": "Accurately calculate your annual Zakat based on current gold prices and your personal wealth.",
+        "wealth_label": "Wealth / Cash",
+        "gold_label": "Gold Weight (Grams)",
+        "silver_label": "Silver Weight (Grams)",
+        "gold_price_label": "Gold Price per Gram (24K)",
+        "nisab_label": "Nisab Value (Current)",
+        "not_eligible_nisab": "Wealth has not reached the Nisab threshold.",
+        "calculate_button": "Calculate Zakat",
+        "result_title": "Your Zakat Obligation",
+        "zakat_amount": "Zakat Amount",
+        "wealth_zakat": "Zakat on Cash",
+        "gold_zakat": "Zakat on Gold/Silver",
+        "total_zakat": "Total Zakat to Pay",
+        "inputs": {
+            "wealth_label": "Wealth Label",
+            "gold_label": "Gold Label",
+            "silver_label": "Silver Label"
+        },
+        "results": {
+            "total_zakat": "Total Zakat"
+        }
+    },
+    "seo": {
+        "siteName": "Alathasiba Calculators",
+        "defaultTitle": "Alathasiba Calculators | Free Online Calculators & Converters",
+        "defaultDescription": "Alathasiba provides a comprehensive set of mathematical, financial, health, and engineering calculators for free.",
+        "keywords": "calculators, scientific calculator, financial calculator, bmi calculator, unit converter",
+        "categoryTitle": "{{category}} - Alathasiba Calculators"
+    },
+    "pages": {
+        "categories": {
+            "title": "Calculator Categories | Calculators",
+            "description": "Browse all calculator categories available on our website",
+            "keywords": "calculator categories, calculators, scientific calculators, converters",
+            "subtitle": "Browse calculators by category. Choose the category that fits your needs.",
+            "someCalculators": "Featured Tools"
+        },
+        "category": {
+            "notFoundTitle": "Category Not Found | Alathasiba",
+            "notFound": "Category not found",
+            "notFoundDescription": "Sorry, we couldn't find the category you are looking for.",
+            "browseAllCategories": "Browse All Categories",
+            "defaultName": "Category",
+            "defaultDescription": "Browse our collection of calculators in this category.",
+            "defaultMetaDescription": "Comprehensive list of online calculators and tools.",
+            "metaKeywords": "online calculators, {{category}}, free tools",
+            "defaultCategoryDescription": "Use our {{category}} calculators to get accurate results for your needs.",
+            "aboutCategory": "About {{category}}",
+            "aboutParagraph1": "Our {{category}} calculators are designed to help you solve complex problems and get accurate results quickly.",
+            "aboutParagraph2": "Whether you are a student, professional, or just curious, these tools provide essential calculations for {{category}}.",
+            "topCalculators": "Top {{category}} Calculators",
+            "noCalculators": "No calculators found in this category yet."
+        },
+        "mostUsed": {
+            "title": "Most Used Calculators",
+            "description": "Discover our most popular tools used by thousands of users monthly.",
+            "heading": "Most Popular Calculators",
+            "subtitle": "Discover our most popular and highly requested tools.",
+            "useNow": "Use Now",
+            "noCalculatorsFound": "No Calculators Found",
+            "noCalculatorsDescription": "We couldn't find any popular calculators at the moment.",
+            "backToHome": "Back to Home"
+        }
+    },
+    "search": {
+        "search": "Search Calculators",
+        "searchDescription": "Search through our collection of free online calculators and tools",
+        "resultsFor": "Search results for:",
+        "showingResultsFor": "Showing results for",
+        "foundResults": "Found {{count}} dynamic results",
+        "noResults": "No results found",
+        "noResultsFor": "No results found for",
+        "tryDifferent": "Try a different search term.",
+        "placeholder": "Search for a calculator...",
+        "viewAllResults": "View all results",
+        "searching": "Searching..."
+    },
+    "calculator": {
+        "relatedCalculators": "Related Calculators",
+        "loadError": "Error Loading Calculator",
+        "loadErrorDescription": "Sorry, there was an error loading the calculator component. Please try again later.",
+        "notFound": "Calculator Not Found",
+        "notFoundDescription": "Sorry, we couldn't find the calculator you are looking for.",
+        "supportUs": "Support Our Project"
+    },
+    "velocity_acceleration": {
+        "title": "Title",
+        "description": "Description",
+        "inputs": {
+            "velocity": "Velocity",
+            "time": "Time",
+            "acceleration": "Acceleration",
+            "distance": "Distance",
+            "initial_velocity": "Initial Velocity",
+            "final_velocity": "Final Velocity"
+        },
+        "results": {
+            "velocity": "Velocity",
+            "acceleration": "Acceleration",
+            "time": "Time",
+            "distance": "Distance"
+        },
+        "calculate_btn": "Calculate Btn",
+        "reset_btn": "Reset Btn"
+    },
+    "vertical_jump": {
+        "title": "Title",
+        "description": "Description",
+        "weight": "Weight",
+        "jump_height": "Jump Height",
+        "standing_reach": "Standing Reach",
+        "jump_reach": "Jump Reach",
+        "calculate_btn": "Calculate Btn",
+        "reset_btn": "Reset Btn"
+    },
+    "vo2max": {
+        "title": "Title",
+        "description": "Description",
+        "inputs": {
+            "max_hr": "Max Hr"
+        },
+        "results": {
+            "vo2max_value": "Vo2Max Value"
+        }
+    },
+    "voltage_divider": {
+        "title": "Title",
+        "description": "Description",
+        "input_voltage": "Input Voltage",
+        "resistor_1": "Resistor 1",
+        "resistor_2": "Resistor 2",
+        "output_voltage": "Output Voltage"
+    },
+    "volume": {
+        "title": "Title",
+        "description": "Description",
+        "enter_value": "Enter Value"
+    },
+    "waste": {
+        "title": "Title",
+        "description": "Description",
+        "household_size": "Household Size",
+        "calculate_btn": "Calculate Btn"
+    },
+    "water": {
+        "title": "Title",
+        "description": "Description",
+        "inputs": {
+            "climate": "Climate"
+        },
+        "results": {
+            "daily_recommendation": "Daily Recommendation"
+        }
+    },
+    "water_footprint": {
+        "title": "Title",
+        "description": "Description"
+    },
+    "weight": {
+        "title": "Title",
+        "description": "Description"
+    },
+    "weight_gain": {
+        "title": "Title",
+        "description": "Description",
+        "inputs": {
+            "target_weight_kg": "Target Weight Kg"
+        },
+        "results": {
+            "time_to_goal": "Time To Goal"
+        }
+    },
+    "wheel_offset": {
+        "title": "Title",
+        "description": "Description",
+        "wheel_width": "Wheel Width",
+        "offset": "Offset",
+        "backspacing": "Backspacing"
+    },
+    "whr": {
+        "title": "Title",
+        "description": "Description",
+        "inputs": {
+            "waist": "Waist",
+            "hip": "Hip"
+        },
+        "results": {
+            "ratio": "Ratio"
+        }
+    },
+    "wilks_calculator": {
+        "title": "Title",
+        "description": "Description",
+        "bodyweight": "Bodyweight",
+        "total_lifted": "Total Lifted",
+        "gender": "Gender",
+        "score": "Score"
+    },
+    "win_rate": {
+        "title": "Title",
+        "description": "Description",
+        "wins_label": "Wins Label",
+        "losses_label": "Losses Label",
+        "draws_label": "Draws Label",
+        "result_label": "Result Label"
+    },
+    "wire_gauge": {
+        "title": "Title",
+        "description": "Description",
+        "voltage": "Voltage",
+        "current": "Current",
+        "distance": "Distance"
+    },
+    "working_capital": {
+        "title": "Title",
+        "description": "Description",
+        "inputs": {
+            "current_assets": "Current Assets",
+            "current_liabilities": "Current Liabilities"
+        },
+        "results": {
+            "working_capital": "Working Capital"
+        }
+    },
+    "workout_volume": {
+        "title": "Title",
+        "description": "Description",
+        "sets": "Sets",
+        "reps": "Reps",
+        "weight": "Weight"
+    },
+    "xp": {
+        "title": "Title",
+        "description": "Description",
+        "current_level_label": "Current Level Label",
+        "target_level_label": "Target Level Label"
+    }
+}

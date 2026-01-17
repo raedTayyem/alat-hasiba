@@ -1,0 +1,463 @@
+{
+  "weight-on-planets": {
+    "title": "Weight on Planets Calculator",
+    "description": "Calculate your weight on different planets in the solar system.",
+    "inputs": {
+      "earth_weight": "Your Weight on Earth"
+    },
+    "tooltips": {
+      "earth_weight": "Enter your weight in kilograms as measured on Earth"
+    },
+    "errors": {
+      "enter_weight": "Please enter your weight",
+      "positive_weight": "Weight must be a positive number",
+      "max_weight": "Weight cannot exceed 1000 kg"
+    },
+    "planets": {
+      "mercury": "Mercury",
+      "venus": "Venus",
+      "earth": "Earth",
+      "moon": "Moon",
+      "mars": "Mars",
+      "jupiter": "Jupiter",
+      "saturn": "Saturn",
+      "uranus": "Uranus",
+      "neptune": "Neptune",
+      "pluto": "Pluto"
+    },
+    "units": {
+      "kg": "kg"
+    },
+    "results": {
+      "earth_weight": "Your Weight on Earth",
+      "your_weights": "Your Weight on Other Planets",
+      "gravity_ratio": "Gravity"
+    },
+    "info": {
+      "title": "How It Works",
+      "description": "Your weight on other planets depends on the gravitational pull of that planet. Each planet has a different mass and size, resulting in different surface gravity. This calculator uses real gravitational ratios based on NASA data.",
+      "formula_title": "The Formula",
+      "formula_desc": "Weight on Planet = Earth Weight x (Planet Gravity / Earth Gravity). For example, Jupiter has 2.34 times Earth's gravity, so you would weigh 2.34 times more."
+    },
+    "howItWorks": {
+      "title": "How the Weight on Planets Calculator Works",
+      "formula": "Weight on Planet = Earth Weight × (Planet's Surface Gravity / Earth's Surface Gravity)",
+      "explanation": "Weight is the force of gravity acting on your mass. Since each planet has different mass and radius, their surface gravity varies. This calculator multiplies your Earth weight by each planet's gravity ratio to show what you would weigh there.",
+      "steps": [
+        "Enter your weight as measured on Earth in kilograms",
+        "The calculator retrieves the gravity ratio for each planet (based on NASA data)",
+        "Your Earth weight is multiplied by each planet's gravity ratio",
+        "Results are displayed showing your weight on all planets and moons"
+      ]
+    },
+    "useCases": [
+      "Educational tool for teaching students about gravity and planetary science",
+      "Space mission planning to understand equipment and astronaut weight requirements",
+      "Science fiction writing to create realistic scenarios on other worlds",
+      "Curiosity-driven exploration for astronomy enthusiasts"
+    ],
+    "seoTips": [
+      "Use your actual weight for accurate comparisons across planets",
+      "Compare weights between gas giants (Jupiter, Saturn) and rocky planets (Mars, Mercury)",
+      "Remember that mass stays constant - only weight changes due to gravity",
+      "The Moon's low gravity is why astronauts could jump so high during Apollo missions",
+      "Pluto's extremely low gravity would make you feel almost weightless"
+    ],
+    "commonMistakes": [
+      "Confusing weight with mass - mass is constant, weight changes with gravity",
+      "Expecting to feel 'lighter' on Jupiter - you would actually be crushed by the pressure",
+      "Forgetting that gas giants have no solid surface to stand on",
+      "Not accounting for atmospheric pressure differences between planets"
+    ],
+    "faqs": [
+      {
+        "question": "Why would I weigh more on Jupiter?",
+        "answer": "Jupiter has 2.34 times Earth's surface gravity due to its massive size (318 times Earth's mass). This stronger gravitational pull means you would weigh over twice as much there."
+      },
+      {
+        "question": "Could I jump higher on Mars?",
+        "answer": "Yes! Mars has only 38% of Earth's gravity, so you could jump about 2.6 times higher than on Earth with the same effort."
+      },
+      {
+        "question": "Why is the Moon's gravity so weak?",
+        "answer": "The Moon has only 1/6 of Earth's gravity because it has much less mass (about 1.2% of Earth's mass) and a smaller radius."
+      },
+      {
+        "question": "Does my mass change on other planets?",
+        "answer": "No, your mass remains constant everywhere in the universe. Only your weight (the force of gravity on your mass) changes based on local gravity."
+      },
+      {
+        "question": "Why is Pluto included if it's not a planet?",
+        "answer": "While Pluto was reclassified as a dwarf planet in 2006, it remains a fascinating celestial body. We include it for comparison and educational purposes."
+      }
+    ]
+  },
+  "age-on-planets": {
+    "title": "Age on Planets Calculator",
+    "description": "Calculate your age in planetary years based on orbital periods.",
+    "inputs": {
+      "birth_date": "Your Birth Date"
+    },
+    "tooltips": {
+      "birth_date": "Select your date of birth to calculate your age on different planets"
+    },
+    "errors": {
+      "enter_birth_date": "Please enter your birth date",
+      "invalid_date": "Please enter a valid date",
+      "future_date": "Birth date cannot be in the future"
+    },
+    "planets": {
+      "mercury": "Mercury",
+      "venus": "Venus",
+      "earth": "Earth",
+      "mars": "Mars",
+      "jupiter": "Jupiter",
+      "saturn": "Saturn",
+      "uranus": "Uranus",
+      "neptune": "Neptune"
+    },
+    "results": {
+      "earth_age": "Your Age on Earth",
+      "years": "years",
+      "your_ages": "Your Age on Other Planets",
+      "planetary_years": "planetary years",
+      "next_birthday": "Next birthday in",
+      "days": "days",
+      "orbital_period": "Orbital period",
+      "earth_years": "Earth years"
+    },
+    "info": {
+      "title": "How It Works",
+      "description": "A planetary year is the time it takes for a planet to complete one orbit around the Sun. For example, Mercury orbits in just 88 Earth days, while Neptune takes 165 Earth years!",
+      "formula_title": "The Formula",
+      "formula_desc": "Age on Planet = Earth Age x (Earth Year / Planet Year). The closer a planet is to the Sun, the faster it orbits and the more birthdays you would have there."
+    },
+    "howItWorks": {
+      "title": "How the Age on Planets Calculator Works",
+      "formula": "Planetary Age = Earth Age (in days) / Planet's Orbital Period (in Earth days)",
+      "explanation": "A 'year' is defined as one complete orbit around the Sun. Since each planet orbits at different distances and speeds, their years vary dramatically in length. This calculator converts your Earth age into planetary years by dividing by each planet's orbital period.",
+      "steps": [
+        "Enter your date of birth",
+        "The calculator computes your age in Earth days from birth to today",
+        "Your Earth age is divided by each planet's orbital period",
+        "Results show how many 'birthdays' you would have celebrated on each planet"
+      ]
+    },
+    "useCases": [
+      "Educational astronomy lessons about orbital mechanics",
+      "Fun birthday party activity showing alternative ages",
+      "Understanding the scale of our solar system through time",
+      "Comparing inner and outer planet characteristics"
+    ],
+    "seoTips": [
+      "Mercury gives you the most birthdays - about 4 per Earth year",
+      "On Neptune, most humans wouldn't live to see their first birthday (165 Earth years)",
+      "Mars years are close to Earth years, making it relatable for colonization discussions",
+      "Use this to understand why Mars missions must wait for orbital alignment",
+      "Outer planets have such long years due to their enormous orbital distances"
+    ],
+    "commonMistakes": [
+      "Thinking a 'planetary year' means the planet rotates once (that's a day, not a year)",
+      "Confusing orbital period with rotation period",
+      "Expecting all planets to have similar year lengths",
+      "Not realizing how distance from the Sun affects orbital speed"
+    ],
+    "faqs": [
+      {
+        "question": "Why do I have so many birthdays on Mercury?",
+        "answer": "Mercury orbits the Sun in just 88 Earth days, so one Mercury year is less than 3 Earth months. You would celebrate about 4.15 birthdays per Earth year on Mercury."
+      },
+      {
+        "question": "Has anyone ever completed a Neptune year?",
+        "answer": "No human has lived long enough. Neptune was discovered in 1846 and completed its first full orbit since discovery in 2011 - 165 Earth years later."
+      },
+      {
+        "question": "Why is Mars' year almost twice Earth's?",
+        "answer": "Mars orbits farther from the Sun (about 1.5 times Earth's distance), so it has a longer path and travels slower, resulting in a 687-day orbital period."
+      },
+      {
+        "question": "What determines how long a planet's year is?",
+        "answer": "Orbital period depends on distance from the Sun. Kepler's Third Law states that the square of a planet's orbital period is proportional to the cube of its average distance from the Sun."
+      },
+      {
+        "question": "Could I use this for exoplanets?",
+        "answer": "Yes! If you know an exoplanet's orbital period, you can calculate your age there using the same principle."
+      }
+    ]
+  },
+  "light-year-converter": {
+    "title": "Light Year Converter",
+    "description": "Convert distances between light years, parsecs, AU, and kilometers.",
+    "inputs": {
+      "distance": "Distance Value",
+      "unit": "Unit of Measurement"
+    },
+    "tooltips": {
+      "distance": "Enter the distance value to convert",
+      "unit": "Select the unit of the input distance"
+    },
+    "units": {
+      "light_year": "Light Years",
+      "parsec": "Parsecs",
+      "au": "Astronomical Units (AU)",
+      "km": "Kilometers"
+    },
+    "buttons": {
+      "cycle_unit": "Change Unit"
+    },
+    "results": {
+      "conversions": "Converted Distances",
+      "empty_state": "Enter a distance value to see conversions"
+    },
+    "info": {
+      "title": "About Light Years",
+      "description": "A light year is the distance light travels in one year in a vacuum. It's used to measure vast astronomical distances. One light year equals approximately 9.46 trillion kilometers.",
+      "conversion_factors": "Conversion Factors",
+      "note_title": "Did You Know?",
+      "note_desc": "The nearest star to our Sun, Proxima Centauri, is about 4.24 light years away. It would take over 70,000 years to reach it with current spacecraft technology!"
+    },
+    "howItWorks": {
+      "title": "How the Light Year Converter Works",
+      "formula": "1 Light Year = 9.461 × 10^12 km = 63,241 AU = 0.3066 Parsecs",
+      "explanation": "This converter uses precise astronomical conversion factors to translate between different distance units used in space science. Each unit serves different purposes: light years for general astronomy, parsecs for stellar distances, AU for solar system scales, and kilometers for precise measurements.",
+      "steps": [
+        "Enter a distance value in your chosen unit",
+        "Select the input unit (light years, parsecs, AU, or kilometers)",
+        "The calculator applies standard astronomical conversion factors",
+        "All equivalent distances are displayed simultaneously"
+      ]
+    },
+    "useCases": [
+      "Converting between units when reading astronomy papers or articles",
+      "Understanding the scale of distances mentioned in space news",
+      "Educational purposes for learning astronomical measurements",
+      "Science fiction writing requiring accurate space distances"
+    ],
+    "seoTips": [
+      "Light years measure distance, not time - a common misconception",
+      "Parsecs are preferred by professional astronomers for stellar distances",
+      "AU (Astronomical Units) are ideal for measuring within our solar system",
+      "The Milky Way galaxy is about 100,000 light years in diameter",
+      "The observable universe has a radius of about 46 billion light years"
+    ],
+    "commonMistakes": [
+      "Thinking light years measure time instead of distance",
+      "Confusing parsecs with light years (1 parsec = 3.26 light years)",
+      "Using light years for solar system distances (AU is more appropriate)",
+      "Forgetting that light year is based on a Julian year (365.25 days)"
+    ],
+    "faqs": [
+      {
+        "question": "What exactly is a light year?",
+        "answer": "A light year is the distance light travels in one year through a vacuum - approximately 9.46 trillion kilometers or 5.88 trillion miles. It's a unit of distance, not time."
+      },
+      {
+        "question": "Why do astronomers use parsecs?",
+        "answer": "Parsecs are directly related to the parallax method of measuring stellar distances. A star 1 parsec away has a parallax angle of 1 arcsecond, making calculations simpler for astronomers."
+      },
+      {
+        "question": "How far is one AU?",
+        "answer": "One Astronomical Unit equals the average distance from Earth to the Sun - about 150 million kilometers or 93 million miles. It's the standard unit for measuring solar system distances."
+      },
+      {
+        "question": "Can anything travel at light speed?",
+        "answer": "According to Einstein's theory of relativity, only massless particles like photons can travel at the speed of light (299,792 km/s). Objects with mass can approach but never reach this speed."
+      },
+      {
+        "question": "How long would it take to travel one light year?",
+        "answer": "At the speed of NASA's fastest spacecraft (about 150,000 km/h), it would take approximately 7,200 years to travel one light year."
+      }
+    ]
+  },
+  "telescope-magnification": {
+    "title": "Telescope Magnification Calculator",
+    "description": "Calculate telescope magnification power based on focal lengths.",
+    "inputs": {
+      "telescope_focal_length": "Telescope Focal Length",
+      "eyepiece_focal_length": "Eyepiece Focal Length",
+      "aperture": "Telescope Aperture (Diameter)",
+      "aperture_optional": "Optional - needed for exit pupil calculation",
+      "eyepiece_afov": "Eyepiece Apparent Field of View",
+      "afov_optional": "Optional - typically 52 degrees for standard eyepieces"
+    },
+    "tooltips": {
+      "telescope_focal_length": "The focal length of your telescope, usually marked on the tube",
+      "eyepiece_focal_length": "The focal length of your eyepiece, marked on the eyepiece barrel",
+      "aperture": "The diameter of your telescope's primary mirror or lens",
+      "eyepiece_afov": "The apparent field of view of your eyepiece (usually 40-82 degrees)"
+    },
+    "errors": {
+      "enter_focal_lengths": "Please enter both focal lengths",
+      "positive_values": "Focal lengths must be positive numbers",
+      "eyepiece_smaller": "Eyepiece focal length must be smaller than telescope focal length"
+    },
+    "units": {
+      "mm": "mm",
+      "degrees": "degrees"
+    },
+    "results": {
+      "magnification": "Magnification",
+      "details": "Additional Details",
+      "exit_pupil": "Exit Pupil",
+      "true_fov": "True Field of View",
+      "min_useful_mag": "Minimum Useful Magnification",
+      "max_useful_mag": "Maximum Useful Magnification",
+      "good_exit_pupil": "Good for viewing (0.5-7mm)",
+      "bad_exit_pupil": "Outside optimal range"
+    },
+    "info": {
+      "title": "How It Works",
+      "description": "Telescope magnification is determined by dividing the telescope's focal length by the eyepiece's focal length. Different eyepieces give different magnifications with the same telescope.",
+      "common_eyepieces": "Common Eyepiece Focal Lengths",
+      "tips_title": "Viewing Tips",
+      "tip_1": "Higher magnification isn't always better - it reduces brightness and field of view",
+      "tip_2": "For deep sky objects (galaxies, nebulae), use lower magnification (wider field)",
+      "tip_3": "For planets and moon details, use higher magnification on steady nights"
+    },
+    "howItWorks": {
+      "title": "How the Telescope Magnification Calculator Works",
+      "formula": "Magnification = Telescope Focal Length / Eyepiece Focal Length",
+      "explanation": "Magnification determines how much larger an object appears through your telescope. The focal length ratio between telescope and eyepiece creates the magnifying effect. Additional calculations include exit pupil (brightness indicator) and true field of view (how much sky you can see).",
+      "steps": [
+        "Enter your telescope's focal length (found on the tube, e.g., 1200mm)",
+        "Enter your eyepiece's focal length (printed on the eyepiece, e.g., 25mm)",
+        "Optionally add aperture to calculate exit pupil",
+        "Optionally add apparent field of view to calculate true FOV",
+        "Review all calculated values for optimal viewing setup"
+      ]
+    },
+    "useCases": [
+      "Choosing the right eyepiece for different celestial objects",
+      "Planning eyepiece purchases for your telescope",
+      "Determining if an eyepiece provides useful magnification for your scope",
+      "Optimizing viewing conditions for specific targets (planets, nebulae, star clusters)"
+    ],
+    "seoTips": [
+      "Maximum useful magnification is typically 2x the aperture in mm (e.g., 200mm scope = 400x max)",
+      "Lower magnification means brighter images - better for faint objects",
+      "Exit pupil should be 2-4mm for best deep sky viewing",
+      "Atmospheric conditions limit useful magnification more than equipment",
+      "A Barlow lens doubles magnification without buying new eyepieces"
+    ],
+    "commonMistakes": [
+      "Buying telescopes based on advertised high magnification numbers",
+      "Using maximum magnification in turbulent atmospheric conditions",
+      "Ignoring exit pupil - too small causes dim images, too large wastes light",
+      "Not matching magnification to the object type (planets need high, nebulae need low)"
+    ],
+    "faqs": [
+      {
+        "question": "What is the best magnification for viewing planets?",
+        "answer": "For planets, use 100x to 200x on steady nights. Higher magnification reveals more detail but requires excellent atmospheric conditions (good 'seeing')."
+      },
+      {
+        "question": "Why do images get dimmer at higher magnification?",
+        "answer": "Higher magnification spreads the same amount of light over a larger apparent area. The exit pupil decreases, reducing the light entering your eye."
+      },
+      {
+        "question": "What is exit pupil and why does it matter?",
+        "answer": "Exit pupil is the diameter of the light beam leaving the eyepiece. It equals aperture divided by magnification. For best results, it should match your eye's pupil size (2-7mm depending on age and darkness)."
+      },
+      {
+        "question": "Can I use any eyepiece with any telescope?",
+        "answer": "Eyepieces are compatible if they fit your focuser (usually 1.25\" or 2\"). However, some combinations produce unusable magnification or poor images."
+      },
+      {
+        "question": "What is the 'true field of view'?",
+        "answer": "True FOV is the actual amount of sky visible through the eyepiece, measured in degrees. It equals apparent FOV divided by magnification. Lower magnification = wider field of view."
+      }
+    ]
+  },
+  "star-distance": {
+    "title": "Star Distance Calculator",
+    "description": "Estimate star distance using parallax angle.",
+    "inputs": {
+      "parallax_angle": "Parallax Angle"
+    },
+    "tooltips": {
+      "parallax_angle": "The parallax angle measured in arcseconds (smaller angle = farther star)"
+    },
+    "errors": {
+      "enter_parallax": "Please enter the parallax angle",
+      "positive_parallax": "Parallax angle must be positive",
+      "max_parallax": "Parallax angle cannot exceed 1 arcsecond (closest stars)"
+    },
+    "units": {
+      "arcseconds": "arcsec",
+      "parsecs": "Parsecs",
+      "light_years": "Light Years",
+      "au": "AU",
+      "km": "Kilometers"
+    },
+    "results": {
+      "parallax_input": "Parallax Angle",
+      "distance": "Star Distance"
+    },
+    "examples": {
+      "proxima_centauri": "Proxima Centauri",
+      "alpha_centauri": "Alpha Centauri A",
+      "barnards_star": "Barnard's Star",
+      "sirius": "Sirius",
+      "vega": "Vega"
+    },
+    "info": {
+      "title": "What is Stellar Parallax?",
+      "description": "Stellar parallax is the apparent shift in a star's position when viewed from different points in Earth's orbit around the Sun. The smaller the parallax angle, the farther away the star is.",
+      "common_values": "Example Stars",
+      "formula_title": "The Formula",
+      "formula_desc": "Distance (parsecs) = 1 / Parallax (arcseconds). This elegant relationship defines the parsec: a star with a parallax of 1 arcsecond is exactly 1 parsec away."
+    },
+    "howItWorks": {
+      "title": "How the Star Distance Calculator Works",
+      "formula": "Distance (parsecs) = 1 / Parallax Angle (arcseconds)",
+      "explanation": "Stellar parallax is the fundamental method for measuring distances to nearby stars. As Earth orbits the Sun, nearby stars appear to shift position relative to distant background stars. This shift, measured in arcseconds, allows us to calculate distance using simple geometry.",
+      "steps": [
+        "Enter the parallax angle in arcseconds (from astronomical catalogs like Gaia)",
+        "The calculator divides 1 by the parallax to get distance in parsecs",
+        "Distance is converted to light years (multiply by 3.262)",
+        "Additional conversions to AU and kilometers are displayed"
+      ]
+    },
+    "useCases": [
+      "Calculating distances to stars from parallax measurements",
+      "Understanding the Gaia mission's stellar distance catalog",
+      "Educational demonstrations of trigonometric parallax",
+      "Converting between different astronomical distance units"
+    ],
+    "seoTips": [
+      "Parallax is most accurate for stars within 1,000 light years",
+      "The Gaia satellite has measured parallax for over 1 billion stars",
+      "Smaller parallax angles mean more distant stars",
+      "This is the first 'rung' on the cosmic distance ladder",
+      "Historical parallax measurements proved Earth orbits the Sun"
+    ],
+    "commonMistakes": [
+      "Expecting parallax to work for distant galaxies (it only works for nearby stars)",
+      "Confusing parallax angle with other angular measurements",
+      "Not recognizing that measurement errors increase with smaller parallax values",
+      "Forgetting that 1 arcsecond is 1/3600 of a degree - an extremely small angle"
+    ],
+    "faqs": [
+      {
+        "question": "Why does parallax only work for nearby stars?",
+        "answer": "Distant stars have parallax angles too small to measure accurately. Even with Gaia satellite precision, parallax is reliable only to about 10,000 parsecs. Beyond that, other methods are needed."
+      },
+      {
+        "question": "What is an arcsecond?",
+        "answer": "An arcsecond is 1/3600 of a degree. To visualize it: a dime viewed from 4 km away subtends about 1 arcsecond. It's an incredibly small angle."
+      },
+      {
+        "question": "How was parallax first measured?",
+        "answer": "Friedrich Bessel first successfully measured stellar parallax in 1838, determining the distance to 61 Cygni. This was groundbreaking proof that stars are incredibly distant suns."
+      },
+      {
+        "question": "Why is this method called 'trigonometric parallax'?",
+        "answer": "It uses trigonometry to calculate distance from the known baseline (Earth's orbital diameter = 2 AU) and the measured parallax angle. It's basic triangle geometry on an astronomical scale."
+      },
+      {
+        "question": "What is the Gaia mission?",
+        "answer": "Gaia is a European Space Agency satellite launched in 2013 that has measured precise parallaxes for over 1.8 billion stars, revolutionizing our understanding of the Milky Way's structure."
+      }
+    ]
+  }
+}

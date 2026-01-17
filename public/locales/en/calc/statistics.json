@@ -1,0 +1,603 @@
+{
+    "probability-calculator": {
+        "title": "Probability Calculator",
+        "description": "Calculate probabilities and probability distributions online. Solve probability problems including binomial, normal, and Poisson distributions. Perfect for statistics and probability courses.",
+        "howItWorks": {
+            "title": "How Does the Probability Calculator Work?",
+            "formula": "P(A) = Number of favorable outcomes / Total number of outcomes | P(A or B) = P(A) + P(B) - P(A and B) | P(A and B) = P(A) × P(B) for independent events",
+            "explanation": "This calculator helps you compute probabilities for various scenarios using fundamental probability formulas. It can calculate simple probabilities, compound probabilities for independent and dependent events, and conditional probabilities.",
+            "steps": [
+                "Identify the type of probability problem (simple, compound, or conditional)",
+                "Enter the number of favorable outcomes and total outcomes",
+                "Select the probability operation (AND, OR, NOT)",
+                "Click calculate to get the probability result",
+                "Review the step-by-step solution and interpretation"
+            ]
+        },
+        "useCases": [
+            "Calculating winning odds in lottery and gambling",
+            "Risk assessment in insurance and finance",
+            "Quality control and defect probability in manufacturing",
+            "Medical diagnosis probability calculations",
+            "Sports betting odds analysis",
+            "Weather forecasting probability models"
+        ],
+        "seoTips": [
+            "Probability values always range from 0 (impossible) to 1 (certain)",
+            "The sum of all probabilities in a sample space equals 1",
+            "Use the multiplication rule for AND probabilities of independent events",
+            "Use the addition rule for OR probabilities, subtracting overlap for non-mutually exclusive events",
+            "Conditional probability P(A|B) = P(A and B) / P(B)"
+        ],
+        "commonMistakes": [
+            "Confusing independent and dependent events when multiplying probabilities",
+            "Forgetting to subtract P(A and B) when using the addition rule for non-mutually exclusive events",
+            "Assuming events are independent without verification",
+            "Confusing probability with odds - they are different concepts",
+            "Not considering all possible outcomes in the sample space"
+        ],
+        "faqs": [
+            {
+                "question": "What is the difference between probability and odds?",
+                "answer": "Probability is the ratio of favorable outcomes to total outcomes (e.g., 1/6 for rolling a specific number on a die). Odds compare favorable to unfavorable outcomes (e.g., 1:5 for the same scenario). To convert odds to probability: P = odds / (1 + odds)."
+            },
+            {
+                "question": "How do I calculate the probability of multiple events occurring?",
+                "answer": "For independent events both occurring (AND), multiply their probabilities: P(A and B) = P(A) × P(B). For either event occurring (OR), add probabilities and subtract overlap: P(A or B) = P(A) + P(B) - P(A and B)."
+            },
+            {
+                "question": "What is conditional probability?",
+                "answer": "Conditional probability P(A|B) is the probability of event A occurring given that event B has already occurred. It's calculated as P(A|B) = P(A and B) / P(B). This is fundamental in Bayesian statistics and decision-making under uncertainty."
+            },
+            {
+                "question": "Why is my probability greater than 1?",
+                "answer": "A probability greater than 1 indicates an error. Check that favorable outcomes don't exceed total outcomes, and when using the addition rule, ensure you're subtracting the intersection P(A and B) for non-mutually exclusive events."
+            }
+        ]
+    },
+    "statistics-calculator": {
+        "title": "Statistics Calculator",
+        "description": "Perform statistical calculations and analysis online with our free statistics calculator. Calculate mean, median, standard deviation, variance, and more. Essential for students and data analysts.",
+        "howItWorks": {
+            "title": "How Does the Statistics Calculator Work?",
+            "formula": "Mean (μ) = Σx/n | Variance (σ²) = Σ(x-μ)²/n | Standard Deviation (σ) = √Variance | Median = middle value when sorted",
+            "explanation": "This calculator processes your numerical data set and computes essential statistical measures. It calculates measures of central tendency (mean, median, mode) and measures of dispersion (variance, standard deviation, range) to help you understand your data's characteristics.",
+            "steps": [
+                "Enter your data values separated by commas or spaces",
+                "Ensure you have at least 2 data points for meaningful results",
+                "Click the calculate button",
+                "Review the computed statistics including mean, median, mode, variance, and standard deviation",
+                "Use the results to understand your data distribution"
+            ]
+        },
+        "useCases": [
+            "Analyzing student test scores and academic performance",
+            "Financial data analysis for investment decisions",
+            "Quality control measurements in manufacturing",
+            "Scientific experiment data processing",
+            "Market research survey analysis",
+            "Healthcare metrics and patient data analysis"
+        ],
+        "seoTips": [
+            "The mean is sensitive to outliers while the median is resistant",
+            "Standard deviation measures spread - 68% of data falls within 1 SD of the mean in a normal distribution",
+            "Variance is the square of standard deviation, useful for statistical tests",
+            "A data set can have no mode, one mode, or multiple modes",
+            "Range only considers extreme values and ignores the data distribution"
+        ],
+        "commonMistakes": [
+            "Using mean for skewed data instead of median",
+            "Confusing population variance (σ²) with sample variance (s²) - sample variance divides by n-1",
+            "Interpreting standard deviation without context of the mean",
+            "Forgetting that mode may not exist for continuous data",
+            "Comparing standard deviations of data with different units or scales"
+        ],
+        "faqs": [
+            {
+                "question": "When should I use mean vs median?",
+                "answer": "Use the mean when your data is roughly symmetric without outliers. Use the median when data is skewed or contains outliers, as it's not affected by extreme values. For example, median income is often more representative than mean income due to high earners skewing the average."
+            },
+            {
+                "question": "What does standard deviation tell me?",
+                "answer": "Standard deviation measures how spread out your data is from the mean. A low standard deviation means data points cluster close to the mean, while a high standard deviation indicates wider spread. In a normal distribution, about 68% of data falls within 1 SD, 95% within 2 SDs, and 99.7% within 3 SDs of the mean."
+            },
+            {
+                "question": "Why is my variance so much larger than my standard deviation?",
+                "answer": "Variance is the square of standard deviation, so it's always in squared units. For example, if your data is in meters and SD is 5m, variance would be 25m². Standard deviation is often preferred for interpretation because it's in the same units as your data."
+            },
+            {
+                "question": "What if my data has no mode?",
+                "answer": "A data set has no mode when all values occur with equal frequency. This is common in continuous data or small sample sizes. In such cases, the mode isn't useful for describing central tendency - rely on mean or median instead."
+            }
+        ]
+    },
+    "descriptive_statistics_calculator": {
+        "title": "Descriptive Statistics Calculator",
+        "description": "Calculate descriptive statistics online including mean, median, mode, range, and quartiles.",
+        "data_label": "Data Set",
+        "data_tooltip": "Enter numerical values separated by commas or spaces",
+        "data_placeholder": "e.g., 10, 20, 15, 30, 25",
+        "format_hint": "Enter numbers separated by commas or spaces",
+        "page_title": "Descriptive Statistics Calculator",
+        "page_description": "Calculate descriptive statistics for a dataset.",
+        "results": "Statistics Results",
+        "central_tendency": "Central Tendency",
+        "dispersion": "Dispersion",
+        "shape": "Shape",
+        "summary": "Summary",
+        "mean": "Mean",
+        "median": "Median",
+        "mode": "Mode",
+        "variance": "Variance",
+        "std_dev": "Standard Deviation",
+        "range": "Range",
+        "iqr": "Interquartile Range (IQR)",
+        "skewness": "Skewness",
+        "kurtosis": "Kurtosis",
+        "count": "Count (N)",
+        "sum": "Sum",
+        "min": "Minimum",
+        "max": "Maximum",
+        "empty_data": "Please enter some data to calculate statistics",
+        "minimum_three": "Please enter at least 3 numbers for meaningful statistics",
+        "calculation_error": "An error occurred while calculating statistics",
+        "howItWorks": {
+            "title": "How Does the Descriptive Statistics Calculator Work?",
+            "formula": "Mean = Σx/n | Variance = Σ(x-μ)²/n | SD = √Variance | Skewness = Σ(x-μ)³/(n×σ³) | Kurtosis = Σ(x-μ)⁴/(n×σ⁴) - 3",
+            "explanation": "This comprehensive calculator analyzes your data set and produces a complete statistical profile including measures of central tendency (mean, median, mode), dispersion (variance, standard deviation, range, IQR), and shape (skewness, kurtosis).",
+            "steps": [
+                "Enter your numerical data separated by commas or spaces",
+                "Ensure at least 3 values for meaningful shape statistics",
+                "Click calculate to process your data",
+                "Review results organized by category: central tendency, dispersion, and shape",
+                "Use the summary statistics to understand your data distribution"
+            ]
+        },
+        "useCases": [
+            "Comprehensive analysis of research data",
+            "Identifying outliers and data distribution patterns",
+            "Preparing data for inferential statistical tests",
+            "Quality assurance and process control",
+            "Academic research and thesis data analysis",
+            "Business intelligence and reporting"
+        ],
+        "seoTips": [
+            "Descriptive statistics summarize data without making predictions about a larger population",
+            "IQR (Q3-Q1) is a robust measure of spread, unaffected by outliers",
+            "Skewness near 0 indicates symmetry; positive skewness means right tail, negative means left tail",
+            "Kurtosis measures tail heaviness; high kurtosis indicates more outliers",
+            "Use descriptive statistics as the first step before inferential analysis"
+        ],
+        "commonMistakes": [
+            "Confusing variance and standard deviation - standard deviation is the square root of variance",
+            "Using mean with heavily skewed data - median is more appropriate",
+            "Forgetting to sort data before calculating median and quartiles",
+            "Confusing sample statistics (s², s) with population parameters (σ², σ)",
+            "Interpreting skewness and kurtosis without adequate sample size (n > 20 recommended)"
+        ],
+        "faqs": [
+            {
+                "question": "What is the difference between mean, median, and mode?",
+                "answer": "Mean is the arithmetic average (sum divided by count). Median is the middle value when data is sorted. Mode is the most frequently occurring value. For symmetric distributions, these three are approximately equal; for skewed data, they differ."
+            },
+            {
+                "question": "When should I use median instead of mean?",
+                "answer": "Use median when your data contains outliers or is heavily skewed, as median is resistant to extreme values. For example, median house prices are more representative than mean prices because a few expensive homes can dramatically inflate the average."
+            },
+            {
+                "question": "What is the Interquartile Range (IQR)?",
+                "answer": "IQR is the difference between the 75th percentile (Q3) and 25th percentile (Q1), representing the spread of the middle 50% of your data. It's useful for identifying outliers: values below Q1 - 1.5×IQR or above Q3 + 1.5×IQR are often considered outliers."
+            },
+            {
+                "question": "What do positive and negative skewness mean?",
+                "answer": "Positive skewness means the distribution has a longer right tail (more extreme high values), with mean > median. Negative skewness means a longer left tail (more extreme low values), with mean < median. Zero skewness indicates a symmetric distribution."
+            }
+        ]
+    },
+    "probability_calculator": {
+        "title": "Probability Calculator",
+        "description": "Calculate probabilities involving combinations, permutations, and factorials.",
+        "page_title": "Probability Calculator",
+        "page_description": "Calculate combinations, permutations, and factorials easily.",
+        "calculation_type": "Calculation Type",
+        "calculation_type_tooltip": "Choose between combination, permutation, or factorial",
+        "combination": "Combination (nCr)",
+        "permutation": "Permutation (nPr)",
+        "factorial": "Factorial (n!)",
+        "number_n": "Number (n)",
+        "number_n_tooltip": "Enter a non-negative integer",
+        "total_items_n": "Total Items (n)",
+        "total_items_n_tooltip": "Total number of items in the set",
+        "selected_items_r": "Selected Items (r)",
+        "selected_items_r_tooltip": "Number of items to choose/arrange",
+        "result": "Result",
+        "calculation_details": "Calculation Details",
+        "formula": "Formula",
+        "type": "Type",
+        "combination_type": "Combination (Order doesn't matter)",
+        "permutation_type": "Permutation (Order matters)",
+        "factorial_type": "Factorial",
+        "explanation_title": "Explanation",
+        "combination_explanation": "Combinations represent the number of ways to choose items from a set where the order of selection does not matter.",
+        "permutation_explanation": "Permutations represent the number of ways to arrange items from a set where the order of selection matters.",
+        "info_title": "About Probability",
+        "use_cases_title": "Common Uses",
+        "use_case_1": "Calculating odds in games of chance",
+        "use_case_2": "Determining possible arrangements",
+        "use_case_3": "Statistical analysis distributions",
+        "invalid_input": "Please enter valid numbers",
+        "non_negative_required": "Values must be non-negative",
+        "factorial_too_large": "Number too large for factorial (max 170)",
+        "value_too_large": "Number too large",
+        "r_greater_than_n": "Selected items (r) cannot exceed total items (n)",
+        "calculation_error": "An error occurred during calculation",
+        "howItWorks": {
+            "title": "How Do Combinations, Permutations, and Factorials Work?",
+            "formula": "nCr = n! / (r!(n-r)!) | nPr = n! / (n-r)! | n! = n × (n-1) × (n-2) × ... × 2 × 1",
+            "explanation": "This calculator computes three fundamental counting principles used in probability. Combinations count selections where order doesn't matter, permutations count arrangements where order matters, and factorials count total arrangements of all items.",
+            "steps": [
+                "Select the calculation type: Combination (nCr), Permutation (nPr), or Factorial (n!)",
+                "For factorial: enter the number n",
+                "For combinations/permutations: enter total items (n) and items to select (r)",
+                "Click calculate to see the result",
+                "Review the formula and step-by-step calculation"
+            ]
+        },
+        "useCases": [
+            "Lottery and gambling probability calculations",
+            "Counting possible password combinations",
+            "Determining team selection possibilities",
+            "Calculating seating arrangements",
+            "Genetic combination analysis",
+            "Card game probability calculations"
+        ],
+        "seoTips": [
+            "Combinations are used when selection order doesn't matter (like choosing lottery numbers)",
+            "Permutations are used when order matters (like ranking winners)",
+            "Factorial n! represents all possible arrangements of n distinct items",
+            "nCr is always less than or equal to nPr for the same n and r",
+            "0! = 1 by mathematical convention"
+        ],
+        "commonMistakes": [
+            "Confusing combinations and permutations - remember: combinations ignore order, permutations consider order",
+            "Forgetting that 0! equals 1, not 0",
+            "Using permutations when the problem asks for unordered selections",
+            "Not recognizing when repetition is allowed (use different formulas)",
+            "Overflow errors with large factorials - use logarithms or specialized libraries"
+        ],
+        "faqs": [
+            {
+                "question": "What is the difference between combinations and permutations?",
+                "answer": "Combinations count ways to select items where order doesn't matter (choosing 3 fruits from 5 types). Permutations count arrangements where order matters (first, second, third place winners). For the same n and r, permutations are always greater because each combination can be arranged in multiple ways."
+            },
+            {
+                "question": "Why does 0! equal 1?",
+                "answer": "By convention, 0! = 1. This makes mathematical formulas work consistently. For example, in combinations, when r = n, we get nCn = n!/(n!×0!) = 1, which correctly represents that there's exactly one way to choose all items from a set."
+            },
+            {
+                "question": "How do I calculate permutations with repetition?",
+                "answer": "For permutations allowing repetition, use n^r (n raised to the power r). For example, a 4-digit PIN using digits 0-9 has 10^4 = 10,000 possibilities. This differs from standard permutations where each item can only be used once."
+            },
+            {
+                "question": "What's the largest factorial I can calculate?",
+                "answer": "Most calculators can handle factorials up to about 170! before numerical overflow occurs. Beyond this, use specialized software with arbitrary precision or work with logarithms. For very large factorials, Stirling's approximation is useful: n! ≈ √(2πn) × (n/e)^n."
+            }
+        ]
+    },
+    "statistics_calculator": {
+        "title": "Statistics Calculator",
+        "description": "Calculate mean, median, mode, standard deviation and more.",
+        "data_label": "Data Set",
+        "data_tooltip": "Enter numbers separated by commas or spaces",
+        "data_placeholder": "e.g., 10, 20, 15, 30, 25",
+        "format_hint": "Enter numbers separated by commas or spaces",
+        "page_title": "Statistics Calculator",
+        "page_description": "Calculate basic statistical measures for a dataset.",
+        "results": "Results",
+        "count": "Count (N)",
+        "mean": "Mean",
+        "median": "Median",
+        "mode": "Mode",
+        "variance": "Variance",
+        "std_dev": "Standard Deviation",
+        "min": "Minimum",
+        "max": "Maximum",
+        "range": "Range",
+        "empty_data": "Please enter some data",
+        "minimum_two": "Please enter at least 2 numbers",
+        "calculation_error": "An error occurred during calculation",
+        "howItWorks": {
+            "title": "How Does the Statistics Calculator Work?",
+            "formula": "Mean = Σxᵢ/n | Median = middle value(s) | Variance = Σ(xᵢ-μ)²/n | SD = √Variance | Range = Max - Min",
+            "explanation": "This calculator takes your numerical data and computes fundamental statistical measures. It provides insights into central tendency (where data centers) and dispersion (how spread out data is), essential for understanding any data set.",
+            "steps": [
+                "Enter your numerical values separated by commas or spaces",
+                "Include at least 2 numbers for meaningful calculations",
+                "Click the calculate button",
+                "View results including mean, median, mode, variance, standard deviation, and range",
+                "Interpret results in the context of your data"
+            ]
+        },
+        "useCases": [
+            "Quick analysis of quiz scores and grades",
+            "Summarizing sales or financial data",
+            "Comparing data sets for decision making",
+            "Preliminary data exploration before detailed analysis",
+            "Sports statistics and performance metrics",
+            "Simple data validation and quality checks"
+        ],
+        "seoTips": [
+            "Mean, median, and mode are three measures of central tendency",
+            "Standard deviation is always non-negative and is zero only when all values are identical",
+            "Range is the simplest measure of spread: Maximum minus Minimum",
+            "For normally distributed data, mean ≈ median ≈ mode",
+            "Coefficient of variation (CV = SD/Mean × 100%) allows comparison between different scales"
+        ],
+        "commonMistakes": [
+            "Reporting mean without checking for skewness or outliers",
+            "Confusing population standard deviation with sample standard deviation",
+            "Using mode for continuous data where it may not be meaningful",
+            "Ignoring the range, which can indicate data entry errors",
+            "Calculating statistics on categorical data that should not be averaged"
+        ],
+        "faqs": [
+            {
+                "question": "What statistics should I report for my data?",
+                "answer": "At minimum, report a measure of central tendency (mean or median) and a measure of spread (standard deviation or range). For symmetric data, mean and standard deviation work well. For skewed data, use median and interquartile range. Always report the sample size (n)."
+            },
+            {
+                "question": "My mean and median are very different - what does this mean?",
+                "answer": "A large difference between mean and median indicates skewed data or outliers. If mean > median, data is right-skewed (has high outliers). If mean < median, data is left-skewed (has low outliers). In such cases, median often better represents the typical value."
+            },
+            {
+                "question": "Why is my standard deviation larger than my mean?",
+                "answer": "This can happen with highly variable data or data that includes values near zero. A coefficient of variation (CV = SD/Mean × 100%) greater than 100% indicates high relative variability. This is common in fields like biology or economics with naturally high variability."
+            },
+            {
+                "question": "Can I calculate statistics for grouped data?",
+                "answer": "This calculator is for raw data. For grouped data (frequency tables), you need weighted formulas: weighted mean = Σ(f×x)/Σf, where f is frequency and x is class midpoint. Consider using a grouped data calculator for frequency distributions."
+            }
+        ]
+    },
+    "descriptive-statistics-calculator": {
+        "title": "Descriptive Statistics Calculator",
+        "description": "Calculate descriptive statistics online including mean, median, mode, range, and quartiles. Analyze your data set quickly with our free descriptive statistics calculator.",
+        "howItWorks": {
+            "title": "How Does Descriptive Statistics Analysis Work?",
+            "formula": "Mean = Σx/n | Variance = Σ(x-μ)²/n | Standard Deviation = √Variance | Q1 = 25th percentile | Q3 = 75th percentile | IQR = Q3 - Q1",
+            "explanation": "Descriptive statistics summarize and describe the main features of a data set. This calculator computes measures of central tendency (mean, median, mode), dispersion (variance, standard deviation, range, IQR), and position (quartiles, percentiles) to give a complete picture of your data.",
+            "steps": [
+                "Input your numerical data set",
+                "The calculator parses and validates your numbers",
+                "All descriptive statistics are computed simultaneously",
+                "Results are organized by category for easy interpretation",
+                "Use the statistics to understand data distribution and identify patterns"
+            ]
+        },
+        "useCases": [
+            "Academic research data analysis",
+            "Business analytics and reporting",
+            "Quality control and process monitoring",
+            "Healthcare and clinical data summary",
+            "Educational assessment analysis",
+            "Market research data interpretation"
+        ],
+        "seoTips": [
+            "Descriptive statistics describe data without making inferences about a population",
+            "Always examine multiple statistics together for a complete picture",
+            "Quartiles divide data into four equal parts: 25%, 50%, 75%",
+            "The five-number summary (min, Q1, median, Q3, max) is basis for box plots",
+            "Use descriptive statistics to check data quality before analysis"
+        ],
+        "commonMistakes": [
+            "Relying on a single statistic instead of examining multiple measures",
+            "Not visualizing data alongside numerical summaries",
+            "Calculating statistics on non-numerical or categorical data inappropriately",
+            "Ignoring sample size when interpreting results",
+            "Confusing descriptive and inferential statistics"
+        ],
+        "faqs": [
+            {
+                "question": "What are the main types of descriptive statistics?",
+                "answer": "Descriptive statistics fall into three categories: (1) Central tendency - mean, median, mode; (2) Dispersion - range, variance, standard deviation, IQR; (3) Position - quartiles, percentiles, z-scores. Together they summarize where data centers, how spread out it is, and where individual values fall."
+            },
+            {
+                "question": "How do I interpret quartiles?",
+                "answer": "Q1 (25th percentile) means 25% of data is below this value. Q2 (median, 50th percentile) splits data in half. Q3 (75th percentile) means 75% of data is below this value. The IQR (Q3-Q1) contains the middle 50% of data and is useful for identifying outliers."
+            },
+            {
+                "question": "What's the difference between descriptive and inferential statistics?",
+                "answer": "Descriptive statistics summarize the data you have (this sample). Inferential statistics use sample data to make predictions or generalizations about a larger population. Descriptive statistics are always the first step before any inferential analysis."
+            },
+            {
+                "question": "How many data points do I need for reliable descriptive statistics?",
+                "answer": "Basic statistics (mean, median) are meaningful with any sample size, but interpretation improves with more data. For quartiles and percentiles, at least 20-30 observations are recommended. For shape statistics (skewness, kurtosis), 50+ observations provide more reliable estimates."
+            }
+        ]
+    },
+    "sample_size": {
+        "title": "Sample Size Calculator",
+        "description": "Calculate the required sample size for surveys and research studies.",
+        "inputs": {
+            "confidence_level": "Confidence Level",
+            "margin_of_error": "Margin of Error (%)",
+            "proportion": "Expected Proportion (%)",
+            "population": "Population Size (optional)"
+        },
+        "tooltips": {
+            "confidence_level": "The probability that the sample accurately reflects the population",
+            "margin_of_error": "The acceptable range of error in results",
+            "proportion": "Expected percentage of the population with the attribute (use 50% if unknown)",
+            "population": "Total size of the population (leave empty for infinite population)"
+        },
+        "placeholders": {
+            "margin_of_error": "e.g., 5",
+            "population": "Leave empty for infinite"
+        },
+        "results": {
+            "required_sample_size": "Required Sample Size",
+            "confidence_level": "Confidence Level",
+            "margin_of_error": "Margin of Error",
+            "population": "Population Size",
+            "infinite_sample": "Infinite Population Sample",
+            "finite_population_note": "The sample size has been adjusted for finite population using the finite population correction factor."
+        },
+        "formulas": {
+            "sample_size": "n = (Z^2 * p * (1-p)) / E^2",
+            "sample_size_desc": "Where Z is the Z-score for the confidence level, p is the expected proportion, and E is the margin of error."
+        },
+        "errors": {
+            "enter_margin": "Please enter a margin of error",
+            "margin_range": "Margin of error must be between 0 and 50",
+            "proportion_range": "Proportion must be between 0 and 100",
+            "population_positive": "Population must be a positive number",
+            "calculation_error": "An error occurred during calculation"
+        },
+        "howItWorks": {
+            "title": "How Does the Sample Size Calculator Work?",
+            "formula": "n = (Z² × p × (1-p)) / E² | For finite population: n_adj = n / (1 + (n-1)/N) | Z-scores: 90%=1.645, 95%=1.96, 99%=2.576",
+            "explanation": "This calculator determines the minimum number of respondents needed for your survey or study to achieve statistically valid results. It uses the confidence level, margin of error, and expected proportion to calculate sample size, with optional finite population correction.",
+            "steps": [
+                "Select your desired confidence level (typically 95%)",
+                "Enter acceptable margin of error (e.g., 5% means results ±5%)",
+                "Set expected proportion (use 50% if unknown for maximum sample size)",
+                "Optionally enter population size for finite population correction",
+                "Click calculate to get the required sample size"
+            ]
+        },
+        "useCases": [
+            "Market research survey planning",
+            "Academic research study design",
+            "Political polling sample determination",
+            "Quality control sampling plans",
+            "Clinical trial participant requirements",
+            "Customer satisfaction survey design"
+        ],
+        "seoTips": [
+            "95% confidence level is the most commonly used standard in research",
+            "Smaller margin of error requires larger sample sizes",
+            "Use 50% proportion when you don't know the expected result (gives maximum sample size)",
+            "Finite population correction reduces required sample size for small populations",
+            "Sample size increases with population variability"
+        ],
+        "commonMistakes": [
+            "Using too small a sample size to save costs, compromising statistical validity",
+            "Forgetting to apply finite population correction for small populations",
+            "Not accounting for expected response rate (adjust sample size upward)",
+            "Choosing too narrow a margin of error, requiring impractically large samples",
+            "Confusing confidence level with confidence interval"
+        ],
+        "faqs": [
+            {
+                "question": "What confidence level should I use?",
+                "answer": "95% is the standard in most research. Use 99% for critical decisions where errors are costly (medical research, safety testing). Use 90% when resources are limited and slightly less precision is acceptable (preliminary studies, informal surveys)."
+            },
+            {
+                "question": "Why use 50% for expected proportion?",
+                "answer": "When you don't know the expected result, using 50% maximizes the sample size formula (p × (1-p) is maximum at p = 0.5). This ensures your sample will be large enough regardless of the actual result. If you have prior data suggesting a different proportion, using that value can reduce required sample size."
+            },
+            {
+                "question": "How does population size affect sample size?",
+                "answer": "For large populations (over 100,000), population size barely affects sample size. For smaller populations, the finite population correction reduces required sample size. For example, to survey a company of 500 employees, you need fewer respondents than to survey a city of 1 million."
+            },
+            {
+                "question": "What is margin of error?",
+                "answer": "Margin of error defines the range around your result where the true population value likely falls. A 5% margin of error means if your survey shows 60% approval, the true value is likely between 55% and 65%. Smaller margins require larger samples but give more precise results."
+            }
+        ]
+    },
+    "confidence_interval": {
+        "title": "Confidence Interval Calculator",
+        "description": "Calculate confidence intervals for population means from sample data.",
+        "inputs": {
+            "sample_mean": "Sample Mean (x-bar)",
+            "std_dev": "Standard Deviation (sigma)",
+            "sample_size": "Sample Size (n)",
+            "confidence_level": "Confidence Level"
+        },
+        "tooltips": {
+            "sample_mean": "The average value of the sample",
+            "std_dev": "The standard deviation of the sample or population",
+            "sample_size": "Number of observations in the sample",
+            "confidence_level": "The probability that the interval contains the true population mean"
+        },
+        "placeholders": {
+            "sample_mean": "e.g., 50",
+            "std_dev": "e.g., 10",
+            "sample_size": "e.g., 100"
+        },
+        "results": {
+            "confidence_interval": "Confidence Interval",
+            "sample_mean": "Sample Mean",
+            "margin_of_error": "Margin of Error",
+            "lower_bound": "Lower Bound",
+            "upper_bound": "Upper Bound",
+            "standard_error": "Standard Error",
+            "interpretation": "We are {{level}}% confident that the true population mean lies between {{lower}} and {{upper}}."
+        },
+        "formulas": {
+            "ci": "CI = x-bar +/- Z * (sigma / sqrt(n))",
+            "ci_desc": "The confidence interval is calculated as the sample mean plus or minus the margin of error."
+        },
+        "errors": {
+            "enter_all_values": "Please enter all required values",
+            "invalid_mean": "Please enter a valid sample mean",
+            "std_dev_positive": "Standard deviation must be positive",
+            "sample_size_positive": "Sample size must be a positive integer",
+            "sample_size_min": "Sample size must be at least 2",
+            "calculation_error": "An error occurred during calculation"
+        },
+        "howItWorks": {
+            "title": "How Does the Confidence Interval Calculator Work?",
+            "formula": "CI = x̄ ± Z × (σ/√n) | Standard Error = σ/√n | Margin of Error = Z × SE | Z-scores: 90%=1.645, 95%=1.96, 99%=2.576",
+            "explanation": "This calculator constructs a confidence interval for the population mean based on sample statistics. It uses the sample mean, standard deviation, and sample size to create a range that likely contains the true population parameter with a specified level of confidence.",
+            "steps": [
+                "Enter your sample mean (average of your data)",
+                "Enter the standard deviation (sample or population)",
+                "Enter the sample size (number of observations)",
+                "Select the desired confidence level",
+                "Click calculate to see the confidence interval and interpretation"
+            ]
+        },
+        "useCases": [
+            "Estimating population parameters from sample data",
+            "Quality control and process monitoring",
+            "Clinical trial results reporting",
+            "Market research findings presentation",
+            "Scientific research data analysis",
+            "Business decision-making with uncertainty quantification"
+        ],
+        "seoTips": [
+            "A 95% CI means if you repeated the sampling 100 times, about 95 intervals would contain the true mean",
+            "Wider intervals indicate more uncertainty; narrower intervals indicate more precision",
+            "Larger sample sizes produce narrower confidence intervals",
+            "The confidence level is NOT the probability that the true mean is in the interval",
+            "Use t-distribution instead of Z for small samples (n < 30) with unknown population SD"
+        ],
+        "commonMistakes": [
+            "Misinterpreting confidence level as the probability the true mean is in the interval",
+            "Using Z-distribution when t-distribution is appropriate (small samples, unknown σ)",
+            "Confusing confidence interval with prediction interval",
+            "Not recognizing that the interval is about the parameter, not individual observations",
+            "Forgetting that standard error decreases with sample size (√n in denominator)"
+        ],
+        "faqs": [
+            {
+                "question": "What does 95% confidence actually mean?",
+                "answer": "A 95% confidence interval means that if we repeated the sampling process many times and calculated a CI each time, about 95% of those intervals would contain the true population mean. It does NOT mean there's a 95% probability the true mean is in this specific interval (the true mean either is or isn't in the interval)."
+            },
+            {
+                "question": "Why is my confidence interval so wide?",
+                "answer": "Wide intervals result from: (1) small sample sizes - increase n to narrow the interval; (2) high variability in data - standard deviation is large; (3) high confidence level - 99% CI is wider than 95% CI. To narrow the interval, increase sample size or accept a lower confidence level."
+            },
+            {
+                "question": "When should I use Z vs t-distribution?",
+                "answer": "Use Z-distribution when: population standard deviation is known, OR sample size is large (n ≥ 30). Use t-distribution when: population SD is unknown AND sample size is small (n < 30). The t-distribution produces wider intervals for small samples, accounting for additional uncertainty."
+            },
+            {
+                "question": "How do I interpret overlapping confidence intervals?",
+                "answer": "Overlapping confidence intervals do NOT necessarily mean no significant difference. Two 95% CIs can overlap yet still show a statistically significant difference. For comparing groups, use proper hypothesis tests or examine the CI for the difference between means directly."
+            }
+        ]
+    }
+}

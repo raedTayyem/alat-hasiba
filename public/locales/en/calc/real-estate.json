@@ -1,0 +1,2374 @@
+{
+  "mortgage-calculator-advanced": {
+    "title": "Advanced Mortgage Calculator - Free Online Amortization Tool",
+    "description": "Calculate monthly mortgage payments, interest, and payoff schedules accurately. Free advanced mortgage calculator with full amortization tables."
+  },
+  "advanced_mortgage_calculator": {
+    "title": "Advanced Mortgage Calculator",
+    "description": "Calculate monthly mortgage payments and amortization schedule.",
+    "loan_amount": "Loan Amount",
+    "loan_amount_tooltip": "Total amount of the loan",
+    "enter_loan_amount": "Enter loan amount",
+    "interest_rate": "Interest Rate (%)",
+    "interest_rate_tooltip": "Annual interest rate",
+    "enter_interest_rate": "Enter interest rate",
+    "loan_term": "Loan Term (Years)",
+    "loan_term_tooltip": "Duration of the loan in years",
+    "enter_loan_term": "Enter loan term",
+    "down_payment": "Down Payment",
+    "down_payment_tooltip": "Initial upfront payment",
+    "enter_down_payment": "Enter down payment",
+    "property_tax": "Property Tax (Yearly)",
+    "property_tax_tooltip": "Annual property tax amount",
+    "enter_property_tax": "Enter property tax",
+    "insurance": "Home Insurance (Yearly)",
+    "insurance_tooltip": "Annual home insurance cost",
+    "enter_insurance": "Enter insurance",
+    "pmi": "PMI (%)",
+    "pmi_tooltip": "Private Mortgage Insurance rate (annual)",
+    "enter_pmi": "Enter PMI rate",
+    "calculate_btn": "Calculate",
+    "reset_btn": "Reset",
+    "results_title": "Payment Breakdown",
+    "monthly_payment": "Monthly Payment",
+    "total_payment": "Total Payment",
+    "total_interest": "Total Interest",
+    "principal_amount": "Principal Amount",
+    "monthly_principal_interest": "Principal & Interest",
+    "monthly_property_tax": "Property Tax",
+    "monthly_insurance": "Home Insurance",
+    "monthly_pmi": "PMI",
+    "currency": "$",
+    "amortization_schedule": "Amortization Schedule",
+    "month": "Month",
+    "payment": "Payment",
+    "principal": "Principal",
+    "interest": "Interest",
+    "balance": "Balance",
+    "tips_title": "Mortgage Tips",
+    "tip_1": "Monthly payment includes principal, interest, taxes, and insurance",
+    "tip_2": "Interest rates may change for adjustable-rate mortgages",
+    "tip_3": "Consult your bank for exact loan terms",
+    "tip_4": "Additional fees like closing costs may apply",
+    "empty_state": "Enter loan details to see payment breakdown",
+    "footer_note": "Results are estimates and may vary.",
+    "howItWorks": {
+      "title": "How Does the Mortgage Calculator Work?",
+      "formula": "Monthly Payment = [r × P × (1+r)^n] / [(1+r)^n - 1]",
+      "explanation": "This calculator uses the standard amortization formula to calculate your monthly payments. Where (r) is the monthly interest rate, (P) is the loan amount, and (n) is the number of payments.",
+      "steps": [
+        "Enter the total loan amount you need",
+        "Specify the expected annual interest rate",
+        "Choose the loan term in years",
+        "Add the down payment if applicable",
+        "Enter taxes and insurance for a complete picture"
+      ]
+    },
+    "useCases": [
+      "Planning for a new home purchase and knowing the expected monthly payment",
+      "Comparing loan offers from different banks",
+      "Determining the right loan amount for your monthly budget",
+      "Understanding the impact of down payment on your payments"
+    ],
+    "seoTips": [
+      "Start with at least 20% down payment to avoid PMI",
+      "Compare fixed-rate and adjustable-rate mortgages",
+      "Calculate total cost, not just monthly payment",
+      "Ensure you can afford payments even if interest rates rise",
+      "Don't forget maintenance costs and taxes when budgeting"
+    ],
+    "commonMistakes": [
+      "Ignoring insurance and tax costs in the calculation",
+      "Not accounting for closing costs and administrative fees",
+      "Choosing too long a loan term to reduce payment, increasing total interest",
+      "Not comparing multiple offers from different banks"
+    ],
+    "faqs": [
+      {
+        "question": "What's the difference between fixed and variable interest?",
+        "answer": "Fixed interest stays the same throughout the loan term, while variable may rise or fall with the market."
+      },
+      {
+        "question": "How much should the down payment be?",
+        "answer": "At least 20% is recommended to avoid PMI and get better terms."
+      },
+      {
+        "question": "Can I pay off the loan early?",
+        "answer": "Yes, most loans allow early payoff, but check for prepayment penalties in your contract."
+      },
+      {
+        "question": "What is an amortization schedule?",
+        "answer": "A table showing how each payment is split between principal and interest over the loan period."
+      },
+      {
+        "question": "How does loan term affect total cost?",
+        "answer": "Longer terms mean lower payments but higher total interest, and vice versa."
+      }
+    ]
+  },
+  "cap_rate_calculator": {
+    "title": "Cap Rate Calculator",
+    "description": "Calculate capitalization rate for investment properties.",
+    "property_value": "Property Value",
+    "property_value_tooltip": "Current market value or purchase price",
+    "annual_income": "Annual Rental Income",
+    "annual_income_tooltip": "Gross income generated by the property per year",
+    "operating_expenses": "Annual Operating Expenses",
+    "operating_expenses_tooltip": "Total expenses (maintenance, taxes, insurance, etc.)",
+    "calculate_btn": "Calculate Cap Rate",
+    "reset_btn": "Reset",
+    "results_title": "Cap Rate Analysis",
+    "cap_rate_label": "Capitalization Rate",
+    "annual_return": "Annual Return",
+    "details": "Financial Details",
+    "noi": "Net Operating Income (Annual)",
+    "monthly_noi": "Monthly NOI",
+    "roi": "Return on Investment (Cash)",
+    "formula_title": "Cap Rate Formula",
+    "formula_explanation": "Cap Rate = (Net Operating Income / Property Value) × 100",
+    "info_title": "About Cap Rate",
+    "info_description": "The capitalization rate (cap rate) is used to estimate the investor's potential return on their investment. A higher cap rate generally indicates a higher potential return but may also imply higher risk.",
+    "use_cases_title": "Why Use Cap Rate?",
+    "use_case_1": "Compare different investment properties",
+    "use_case_2": "Estimate property value based on income",
+    "use_case_3": "Assess market trends",
+    "value_required": "Property value must be greater than 0",
+    "positive_values": "Income and expenses must be positive",
+    "howItWorks": {
+      "title": "How Does the Cap Rate Calculator Work?",
+      "formula": "Cap Rate = (Net Operating Income / Property Value) × 100",
+      "explanation": "The capitalization rate measures the expected annual return from an investment property by dividing net operating income by property value.",
+      "steps": [
+        "Enter the property's market value or purchase price",
+        "Specify the gross annual rental income",
+        "Enter annual operating expenses",
+        "The calculator computes NOI and cap rate"
+      ]
+    },
+    "useCases": [
+      "Evaluating the viability of purchasing an investment property",
+      "Comparing returns across different properties in the market",
+      "Determining a fair price for a property based on its income",
+      "Analyzing real estate market trends in a specific area"
+    ],
+    "seoTips": [
+      "A 4-6% cap rate is considered low-risk in stable markets",
+      "An 8-10% rate may indicate a good opportunity or higher risk",
+      "Compare cap rates between similar properties in the same area",
+      "Don't rely on cap rate alone for investment decisions",
+      "Ensure accuracy in estimating operating expenses"
+    ],
+    "commonMistakes": [
+      "Ignoring maintenance and repair costs in expenses",
+      "Not accounting for expected vacancy periods",
+      "Comparing properties in different locations without considering differences",
+      "Relying on unrealistic rental figures"
+    ],
+    "faqs": [
+      {
+        "question": "What is a good cap rate?",
+        "answer": "It varies by location and market, but generally 5-10% is reasonable. Premium areas may be 3-5%."
+      },
+      {
+        "question": "Is a higher cap rate always better?",
+        "answer": "Not necessarily. A high rate may indicate higher risk or a less desirable location."
+      },
+      {
+        "question": "What's the difference between cap rate and ROI?",
+        "answer": "Cap rate measures operating return only, while ROI includes financing, taxes, and appreciation."
+      },
+      {
+        "question": "How do I calculate Net Operating Income?",
+        "answer": "NOI = Gross Rental Income - Operating Expenses (maintenance, taxes, insurance, management)."
+      }
+    ]
+  },
+  "capital_gains_tax_calculator": {
+    "title": "Capital Gains Tax Calculator",
+    "description": "Calculate capital gains tax on the sale of your property.",
+    "purchase_price": "Purchase Price",
+    "purchase_price_tooltip": "Original price paid for the property",
+    "sale_price": "Sale Price",
+    "sale_price_tooltip": "Price the property was sold for",
+    "calculate_btn": "Calculate Tax",
+    "reset_btn": "Reset",
+    "results_title": "Tax Estimation",
+    "capital_gain": "Capital Gain",
+    "result_value": "Estimated Tax",
+    "tips_title": "Tax Information",
+    "empty_state": "Enter property details to calculate tax",
+    "footer_note": "Consult a tax professional for accurate advice.",
+    "howItWorks": {
+      "title": "How Does the Capital Gains Tax Calculator Work?",
+      "formula": "Capital Gain = Sale Price - Purchase Price - Improvement Costs",
+      "explanation": "This tool calculates the profit from selling a property and the tax due based on the difference between sale and purchase prices.",
+      "steps": [
+        "Enter the original purchase price of the property",
+        "Enter the actual or expected sale price",
+        "The calculator determines the capital gain and estimated tax"
+      ]
+    },
+    "useCases": [
+      "Tax planning before selling a property",
+      "Estimating net profit after taxes",
+      "Comparing sale options at different times",
+      "Understanding potential tax obligations"
+    ],
+    "seoTips": [
+      "Keep all improvement receipts to reduce taxable gain",
+      "Primary residence may be exempt from tax in some countries",
+      "Length of ownership affects the tax rate",
+      "Consult an accountant before selling for optimal planning"
+    ],
+    "commonMistakes": [
+      "Forgetting to include improvement costs in the basis",
+      "Not knowing available exemptions",
+      "Ignoring selling costs like broker commissions",
+      "Not planning for taxes in advance"
+    ],
+    "faqs": [
+      {
+        "question": "Can I defer paying the tax?",
+        "answer": "In some countries, you can defer tax when reinvesting profits in another property (like 1031 Exchange)."
+      },
+      {
+        "question": "What ownership period affects the tax?",
+        "answer": "Usually, ownership over one year qualifies for lower long-term capital gains rates."
+      },
+      {
+        "question": "Does inheritance affect tax calculation?",
+        "answer": "Yes, inherited property may receive a stepped-up basis that reduces future tax."
+      }
+    ]
+  },
+  "cash_on_cash_return_calculator": {
+    "title": "Cash-on-Cash Return Calculator",
+    "description": "Calculate your cash-on-cash return for investment properties.",
+    "total_investment": "Total Cash Investment",
+    "total_investment_tooltip": "Total cash invested (down payment + closing costs + repairs)",
+    "annual_cash_flow": "Annual Pre-Tax Cash Flow",
+    "annual_cash_flow_tooltip": "Net income after expenses but before tax",
+    "calculate_btn": "Calculate Return",
+    "reset_btn": "Reset",
+    "results_title": "Return Analysis",
+    "result_coc": "Cash-on-Cash Return",
+    "tips_title": "Understanding CoC Return",
+    "good_range": "Generally, 8-12% is considered a good return",
+    "measures": "Measures the annual return on cash invested",
+    "excludes_appreciation": "Does not include property appreciation or tax benefits",
+    "empty_state": "Enter investment details to calculate return",
+    "footer_note": "Results are estimates based on inputs.",
+    "howItWorks": {
+      "title": "How Does the Cash-on-Cash Return Calculator Work?",
+      "formula": "Cash-on-Cash Return = (Annual Cash Flow / Total Cash Invested) × 100",
+      "explanation": "This calculator measures the actual annual return on the cash you've invested in the property, helping you evaluate investment efficiency.",
+      "steps": [
+        "Calculate total cash invested (down payment + closing + repairs)",
+        "Determine annual cash flow after expenses",
+        "The calculator gives you the return percentage on your cash investment"
+      ]
+    },
+    "useCases": [
+      "Evaluating real estate investment viability before purchase",
+      "Comparing returns across multiple investment properties",
+      "Measuring your current investment performance",
+      "Determining if a property is worth the capital invested"
+    ],
+    "seoTips": [
+      "An 8-12% return is considered good for residential properties",
+      "Don't forget to include all costs in total investment",
+      "Cash-on-cash return doesn't reflect property appreciation",
+      "Compare with returns from other investments like stocks and bonds",
+      "Calculate return after property stabilizes for accurate assessment"
+    ],
+    "commonMistakes": [
+      "Not including all closing costs and repairs",
+      "Ignoring vacancy and maintenance expenses in cash flow",
+      "Confusing cash-on-cash return with total ROI",
+      "Using overly optimistic rental figures"
+    ],
+    "faqs": [
+      {
+        "question": "What's the difference between cash-on-cash and ROI?",
+        "answer": "Cash-on-cash measures return on cash paid only, while ROI includes total property value and appreciation."
+      },
+      {
+        "question": "Is 8% cash-on-cash return good?",
+        "answer": "Yes, 8-12% is considered good. Above 12% is excellent but verify the risks."
+      },
+      {
+        "question": "How can I improve cash-on-cash return?",
+        "answer": "Increase rent, reduce expenses, or use better financing to improve returns."
+      },
+      {
+        "question": "Does cash-on-cash include appreciation?",
+        "answer": "No, it measures cash flow only. Appreciation is calculated in total ROI."
+      }
+    ]
+  },
+  "closing_cost_calculator": {
+    "title": "Closing Cost Calculator",
+    "description": "Estimate your real estate closing costs accurately.",
+    "purchase_price": "Purchase Price",
+    "purchase_price_tooltip": "Agreed price of the property",
+    "loan_amount": "Loan Amount",
+    "loan_amount_tooltip": "Total amount being borrowed",
+    "title_fee": "Title Fees",
+    "title_fee_tooltip": "Title search and insurance fees",
+    "appraisal_fee": "Appraisal Fee",
+    "appraisal_fee_tooltip": "Cost for professional property appraisal",
+    "attorney_fee": "Attorney/Settlement Fee",
+    "attorney_fee_tooltip": "Legal fees for closing",
+    "recording_fee": "Recording Fees",
+    "recording_fee_tooltip": "Fees to record the deed",
+    "transfer_tax_rate": "Transfer Tax Rate (%)",
+    "transfer_tax_tooltip": "Local transfer tax percentage",
+    "lender_fee_percent": "Lender Fees (%)",
+    "lender_fee_tooltip": "Origination and other lender fees percentage",
+    "calculate_btn": "Calculate Closing Costs",
+    "reset_btn": "Reset",
+    "results_title": "Closing Cost Estimate",
+    "total_closing_costs": "Total Closing Costs",
+    "of_purchase_price": "of Purchase Price",
+    "cost_breakdown": "Cost Breakdown",
+    "title_fee_label": "Title Fees",
+    "appraisal_fee_label": "Appraisal Fee",
+    "attorney_fee_label": "Attorney Fee",
+    "recording_fee_label": "Recording Fees",
+    "transfer_tax_label": "Transfer Tax",
+    "lender_fees_label": "Lender Fees",
+    "down_payment_label": "Down Payment",
+    "total_cash_needed": "Total Cash to Close",
+    "formula_title": "Closing Cost Details",
+    "formula_explanation": "Closing costs typically range from 2% to 5% of the purchase price. They include various fees from the lender and third parties involved in the transaction.",
+    "tips_title": "Closing Tips",
+    "empty_state": "Enter purchase details to estimate closing costs",
+    "price_required": "Purchase price must be greater than 0",
+    "loan_invalid": "Loan amount must be valid (less than purchase price)",
+    "fees_positive": "Fees must be non-negative",
+    "transfer_tax_range": "Transfer tax rate should be between 0 and 10%",
+    "lender_fee_range": "Lender fee percentage should be between 0 and 5%",
+    "use_cases_title": "Why Calculate Closing Costs?",
+    "use_case_1": "To budget for total cash needed to buy",
+    "use_case_2": "To compare loan offers",
+    "use_case_3": "To understand where your money goes",
+    "info_title": "What are Closing Costs?",
+    "info_description": "Closing costs are fees associated with the purchase of your home that are paid at the closing of a real estate transaction. They are in addition to the down payment.",
+    "howItWorks": {
+      "title": "How Does the Closing Cost Calculator Work?",
+      "formula": "Closing Costs = Title Fees + Appraisal + Attorney + Recording + Transfer Tax + Lender Fees",
+      "explanation": "This calculator aggregates all fees associated with completing a property purchase to give you a clear picture of cash needed.",
+      "steps": [
+        "Enter purchase price and loan amount",
+        "Specify various fees (title, appraisal, attorney)",
+        "Enter tax and fee rates",
+        "Get total closing costs estimate"
+      ]
+    },
+    "useCases": [
+      "Financial planning before buying a home",
+      "Determining total cash needed for purchase",
+      "Comparing loan offers from different banks",
+      "Avoiding financial surprises at closing"
+    ],
+    "seoTips": [
+      "Expect 2-5% of purchase price for closing costs",
+      "Some costs are negotiable with the seller",
+      "Request a loan estimate from the lender early",
+      "Compare multiple offers to save money",
+      "Keep extra funds for unexpected expenses"
+    ],
+    "commonMistakes": [
+      "Underestimating actual costs",
+      "Not comparing fees from different lenders",
+      "Forgetting prepaid insurance fees",
+      "Not negotiating on negotiable fees"
+    ],
+    "faqs": [
+      {
+        "question": "Who pays closing costs?",
+        "answer": "Usually the buyer pays most costs, but you can negotiate to share them with the seller."
+      },
+      {
+        "question": "Can closing costs be included in the loan?",
+        "answer": "Some lenders allow this, but it increases total loan amount and interest."
+      },
+      {
+        "question": "What are escrow fees?",
+        "answer": "Prepaid amounts for taxes and insurance held by the lender."
+      },
+      {
+        "question": "How can I reduce closing costs?",
+        "answer": "Compare offers, negotiate fees, and ask the seller to contribute."
+      }
+    ]
+  },
+  "commercial_property_calculator": {
+    "title": "Commercial Property Calculator",
+    "description": "Calculate commercial real estate value based on income.",
+    "net_operating_income": "Net Operating Income (NOI)",
+    "net_operating_income_tooltip": "Annual income minus operating expenses",
+    "cap_rate": "Cap Rate (%)",
+    "cap_rate_tooltip": "Capitalization Rate (market average)",
+    "calculate_btn": "Calculate Value",
+    "reset_btn": "Reset",
+    "results_title": "Property Valuation",
+    "estimated_value": "Estimated Property Value",
+    "tips_title": "Valuation Info",
+    "empty_state": "Enter NOI and Cap Rate to estimate value",
+    "footer_note": "This is a basic valuation based on income approach.",
+    "howItWorks": {
+      "title": "How Does the Commercial Property Calculator Work?",
+      "formula": "Property Value = Net Operating Income / Cap Rate",
+      "explanation": "This calculator uses the income approach to value commercial properties by dividing net operating income by the prevailing market cap rate.",
+      "steps": [
+        "Calculate annual net operating income",
+        "Determine the appropriate market cap rate",
+        "The calculator gives you the estimated property value"
+      ]
+    },
+    "useCases": [
+      "Valuing commercial buildings and offices",
+      "Determining a fair price for commercial property purchase",
+      "Comparing property values across different areas",
+      "Evaluating commercial investment viability"
+    ],
+    "seoTips": [
+      "Use a realistic cap rate for the local market",
+      "Ensure accuracy in calculating net operating income",
+      "Compare with similar property sales",
+      "Consider potential for future income increases"
+    ],
+    "commonMistakes": [
+      "Using an inappropriate cap rate for the location",
+      "Overestimating income",
+      "Ignoring major maintenance costs",
+      "Not considering current market conditions"
+    ],
+    "faqs": [
+      {
+        "question": "What is the income approach to valuation?",
+        "answer": "A method to value properties based on the income they generate, common for commercial real estate."
+      },
+      {
+        "question": "How do I choose the right cap rate?",
+        "answer": "Research similar properties in the same area and property type, or consult a professional appraiser."
+      },
+      {
+        "question": "Is this valuation accurate?",
+        "answer": "It's a good preliminary estimate, but official valuation requires a certified appraiser."
+      }
+    ]
+  },
+  "cost_per_square_foot_calculator": {
+    "title": "Cost per Square Foot Calculator",
+    "description": "Calculate property cost per square foot or square meter.",
+    "total_cost": "Total Property Cost",
+    "total_cost_tooltip": "Total price or cost of the property",
+    "total_area": "Total Area (sq ft/sq m)",
+    "total_area_tooltip": "Total square footage or square meterage",
+    "calculate_btn": "Calculate Cost/Area",
+    "reset_btn": "Reset",
+    "results_title": "Cost Analysis",
+    "cost_per_unit": "Cost per Square Unit",
+    "empty_state": "Enter cost and area to calculate price per unit",
+    "footer_note": "Useful for comparing property values.",
+    "howItWorks": {
+      "title": "How Does the Cost per Square Foot Calculator Work?",
+      "formula": "Cost per Unit = Total Price / Total Area",
+      "explanation": "This calculator divides the property price by its area to give you the cost per square meter or square foot.",
+      "steps": [
+        "Enter the total property price",
+        "Enter the total area",
+        "Get the cost per area unit"
+      ]
+    },
+    "useCases": [
+      "Comparing prices of properties with different sizes",
+      "Evaluating if a price is fair",
+      "Comparing prices across different areas",
+      "Negotiating price based on market standards"
+    ],
+    "seoTips": [
+      "Compare with average prices in the same area",
+      "Don't rely on this metric alone for purchase decisions",
+      "Consider finish quality and location",
+      "Larger areas may have lower cost per unit"
+    ],
+    "commonMistakes": [
+      "Comparing properties in very different areas",
+      "Ignoring differences in construction quality",
+      "Not accounting for outdoor spaces",
+      "Comparing properties of different ages"
+    ],
+    "faqs": [
+      {
+        "question": "Does cost per square foot include everything?",
+        "answer": "Usually reflects base price. Finishes and additions may be separate."
+      },
+      {
+        "question": "Why does cost vary between areas?",
+        "answer": "Location, services, demand, and construction quality all affect price."
+      },
+      {
+        "question": "Which is better for comparison: meter or foot?",
+        "answer": "Use the unit prevalent in your area for easier comparison."
+      }
+    ]
+  },
+  "lease_analysis_calculator": {
+    "title": "Lease Analysis Calculator",
+    "description": "Calculate total lease value and effective costs.",
+    "monthly_rent": "Monthly Rent",
+    "monthly_rent_tooltip": "Base monthly rent amount",
+    "enter_monthly_rent": "Enter monthly rent",
+    "lease_term": "Lease Term (Months)",
+    "lease_term_tooltip": "Duration of the lease in months",
+    "enter_lease_term": "Enter lease term",
+    "calculate_btn": "Analyze Lease",
+    "reset_btn": "Reset",
+    "results_title": "Lease Analysis",
+    "total_value": "Total Lease Value",
+    "annual_cost": "Annual Cost",
+    "currency": "$",
+    "tips_title": "Lease Tips",
+    "tip_term": "Longer terms often allow for lower rates",
+    "tip_additional": "Check for additional costs like CAM/NNN fees",
+    "empty_state": "Enter rent details to analyze lease value",
+    "footer_note": "This is a basic calculation of base rent.",
+    "howItWorks": {
+      "title": "How Does the Lease Analysis Calculator Work?",
+      "formula": "Total Lease Value = Monthly Rent × Lease Term",
+      "explanation": "This tool calculates your total financial commitment over the lease term to help with comparison and planning.",
+      "steps": [
+        "Enter the monthly rent amount",
+        "Specify lease term in months",
+        "Get total lease value and annual cost"
+      ]
+    },
+    "useCases": [
+      "Comparing leases with different terms",
+      "Calculating total financial commitment",
+      "Negotiating better terms",
+      "Long-term budget planning"
+    ],
+    "seoTips": [
+      "Longer leases may offer rent discounts",
+      "Calculate additional costs (utilities, maintenance, parking)",
+      "Compare total rental cost with purchase cost",
+      "Check early termination clauses",
+      "Ask for incentives like a free month"
+    ],
+    "commonMistakes": [
+      "Focusing on monthly rent only without total",
+      "Ignoring additional costs",
+      "Not reading lease terms carefully",
+      "Forgetting to account for future rent increases"
+    ],
+    "faqs": [
+      {
+        "question": "Is a longer term better?",
+        "answer": "It provides stability and may offer lower rates, but reduces flexibility."
+      },
+      {
+        "question": "What additional costs should I expect?",
+        "answer": "Electricity, water, internet, insurance, parking, and sometimes maintenance fees."
+      },
+      {
+        "question": "How do I negotiate lower rent?",
+        "answer": "Offer a longer term, pay upfront, or sign during slow season."
+      }
+    ]
+  },
+  "debt_to_income_ratio_calculator": {
+    "title": "Debt-to-Income Ratio Calculator",
+    "description": "Calculate your DTI ratio for home loan qualification.",
+    "monthly_income": "Monthly Gross Income",
+    "monthly_income_tooltip": "Total pre-tax monthly income from all sources",
+    "monthly_debt": "Monthly Debt Payments",
+    "monthly_debt_tooltip": "Total monthly payments (credit cards, loans, etc.)",
+    "calculate_btn": "Calculate DTI",
+    "reset_btn": "Reset",
+    "results_title": "DTI Analysis",
+    "dti_ratio": "Debt-to-Income Ratio",
+    "result_status_good": "Good DTI - Likely to Qualify",
+    "result_status_manageable": "Manageable DTI - May Qualify",
+    "result_status_high": "High DTI - Difficult to Qualify",
+    "result_status_critical": "Very High DTI - Unlikely to Qualify",
+    "tips_title": "Understanding DTI",
+    "tip_good": "Below 36%: Excellent for mortgage qualification",
+    "tip_manageable": "36% - 43%: Acceptable for most lenders",
+    "tip_high": "43% - 50%: May require higher down payment or interest",
+    "tip_critical": "Above 50%: Difficult to get approved",
+    "empty_state": "Enter income and debt to calculate DTI",
+    "footer_note": "Lenders look for DTI below 43% typically.",
+    "howItWorks": {
+      "title": "How Does the DTI Calculator Work?",
+      "formula": "DTI = (Total Monthly Debt Payments / Gross Monthly Income) × 100",
+      "explanation": "This ratio measures how much of your monthly income goes to debt payments, a key metric used by lenders.",
+      "steps": [
+        "Enter your gross monthly income before taxes",
+        "Enter total monthly debt payments",
+        "The calculator gives you your DTI ratio and qualification assessment"
+      ]
+    },
+    "useCases": [
+      "Checking your eligibility for a mortgage",
+      "Knowing how much loan you can afford",
+      "Planning to improve your financial situation before applying",
+      "Understanding how lenders view you"
+    ],
+    "seoTips": [
+      "Aim for DTI below 36% for best terms",
+      "Pay off small debts quickly to improve ratio",
+      "Increasing income or reducing debt improves DTI",
+      "Don't open new credit accounts before applying for a mortgage",
+      "Calculate DTI with and without expected new loan payment"
+    ],
+    "commonMistakes": [
+      "Forgetting some debts like credit cards",
+      "Using net income instead of gross",
+      "Not accounting for expected new loan payments",
+      "Ignoring joint debts with spouse"
+    ],
+    "faqs": [
+      {
+        "question": "What is an ideal DTI ratio?",
+        "answer": "Below 36% is excellent, 36-43% is acceptable, above 43% may face difficulties."
+      },
+      {
+        "question": "Does DTI include current rent?",
+        "answer": "No, rent typically isn't counted as it will be replaced by mortgage payment."
+      },
+      {
+        "question": "How can I improve my DTI?",
+        "answer": "Pay off debts, increase income, or avoid new debts."
+      },
+      {
+        "question": "Does DTI affect interest rates?",
+        "answer": "Yes, a lower ratio may qualify you for better interest rates."
+      }
+    ]
+  },
+  "home_maintenance_cost_calculator": {
+    "title": "Home Maintenance Cost Calculator",
+    "description": "Estimate annual home maintenance and repair costs.",
+    "home_value": "Home Value",
+    "home_value_tooltip": "Current market value of your home",
+    "enter_home_value": "Enter home value",
+    "home_age": "Home Age (Years)",
+    "home_age_tooltip": "Age of the property in years",
+    "enter_home_age": "Enter home age",
+    "calculate_btn": "Calculate Costs",
+    "reset_btn": "Reset",
+    "results_title": "Maintenance Estimate",
+    "annual_cost": "Estimated Annual Cost",
+    "monthly_cost": "Monthly Savings Goal",
+    "rule_1_percent": "1% Rule Estimate",
+    "rule_sqft": "Square Footage Rule Estimate",
+    "currency": "$",
+    "tips_title": "Maintenance Tips",
+    "tip_savings": "Save 1-4% of home value annually for maintenance",
+    "tip_age": "Older homes generally require more maintenance",
+    "tip_emergency": "Keep an emergency fund for major repairs",
+    "empty_state": "Enter home details to estimate maintenance costs",
+    "footer_note": "These are estimates. Actual costs will vary.",
+    "howItWorks": {
+      "title": "How Does the Home Maintenance Calculator Work?",
+      "formula": "Annual Maintenance Cost = Home Value × 1-4%",
+      "explanation": "This calculator uses common rules of thumb to estimate what you should save annually for maintenance and repairs.",
+      "steps": [
+        "Enter the current market value of the home",
+        "Enter the age of the home in years",
+        "Get estimated annual and monthly maintenance costs"
+      ]
+    },
+    "useCases": [
+      "Setting a realistic budget for ownership costs",
+      "Determining monthly savings goal for maintenance",
+      "Comparing ownership costs between different homes",
+      "Planning for major future repairs"
+    ],
+    "seoTips": [
+      "The 1% rule is good for newer homes",
+      "Older homes (20+ years) may need 2-4%",
+      "Start a maintenance fund before repairs are needed",
+      "Preventive maintenance is cheaper than emergency repairs",
+      "Keep records of all maintenance and repairs"
+    ],
+    "commonMistakes": [
+      "Ignoring regular preventive maintenance",
+      "Not saving ahead for repairs",
+      "Underestimating costs for older homes",
+      "Forgetting to replace major systems (HVAC, water heater)"
+    ],
+    "faqs": [
+      {
+        "question": "What is the 1% rule?",
+        "answer": "Save 1% of home value annually for maintenance. A $300,000 home = $3,000 annually."
+      },
+      {
+        "question": "What does maintenance cost include?",
+        "answer": "Repairs, painting, landscaping, appliance replacement, system maintenance."
+      },
+      {
+        "question": "Do costs vary by location?",
+        "answer": "Yes, harsh climates and local labor costs affect maintenance expenses."
+      },
+      {
+        "question": "What about newer homes?",
+        "answer": "They need less maintenance initially, but save for when warranties expire."
+      }
+    ]
+  },
+  "home_value_estimator": {
+    "title": "Home Value Estimator",
+    "description": "Estimate your property market value based on various factors.",
+    "square_meters": "Area (sq m/ft)",
+    "square_meters_tooltip": "Total area of the property",
+    "enter_square_meters": "Enter area",
+    "price_per_meter": "Price per Unit",
+    "price_per_meter_tooltip": "Average price per square meter/foot in the area",
+    "enter_price_per_meter": "Enter price per unit",
+    "age": "Property Age (Years)",
+    "age_tooltip": "Age of the building",
+    "enter_age": "Enter property age",
+    "condition": "Condition",
+    "condition_tooltip": "Overall condition of the property",
+    "location": "Location",
+    "location_tooltip": "Quality of the location",
+    "calculate_btn": "Estimate Value",
+    "reset_btn": "Reset",
+    "results_title": "Value Estimate",
+    "base_value": "Base Value",
+    "adjusted_value": "Estimated Market Value",
+    "condition_adj": "Condition Adjustment",
+    "location_adj": "Location Adjustment",
+    "age_adj": "Age Depreciation",
+    "currency": "$",
+    "tips_title": "Valuation Factors",
+    "tip_1": "This is a general estimate that may differ from actual market value",
+    "tip_2": "For accurate valuation, consult a professional appraiser",
+    "tip_3": "Local factors and supply/demand affect price",
+    "tip_4": "Compare with similar properties in the area",
+    "empty_state": "Enter property details to estimate value",
+    "footer_note": "This is a rough estimate. Consult an appraiser for accuracy.",
+    "cond_excellent": "Excellent",
+    "cond_good": "Good",
+    "cond_fair": "Fair",
+    "cond_poor": "Poor",
+    "loc_premium": "Premium",
+    "loc_good": "Good",
+    "loc_average": "Average",
+    "loc_below": "Below Average",
+    "howItWorks": {
+      "title": "How Does the Home Value Estimator Work?",
+      "formula": "Value = (Area × Price per Unit) × Adjustment Factors",
+      "explanation": "This estimator calculates an approximate value based on area and market price, with adjustments for condition, location, and age.",
+      "steps": [
+        "Enter property area and price per unit in the area",
+        "Specify property age and condition",
+        "Choose location quality",
+        "Get estimated market value"
+      ]
+    },
+    "useCases": [
+      "Getting an initial idea of property value",
+      "Comparing different properties",
+      "Preparing for price negotiation",
+      "Evaluating a potential investment"
+    ],
+    "seoTips": [
+      "Use recent sales prices in your area",
+      "Official appraisal from a professional is more accurate",
+      "Location is usually the most important value factor",
+      "Recent improvements increase value",
+      "Compare with 3-5 similar nearby properties"
+    ],
+    "commonMistakes": [
+      "Overestimating condition or location quality",
+      "Using outdated prices",
+      "Ignoring structural defects",
+      "Not considering current market conditions"
+    ],
+    "faqs": [
+      {
+        "question": "How accurate is this estimate?",
+        "answer": "It's a preliminary estimate only. For accuracy, get an appraisal from a certified appraiser or real estate agent."
+      },
+      {
+        "question": "What factors affect property value?",
+        "answer": "Location, area, condition, age, improvements, nearby schools, and market demand."
+      },
+      {
+        "question": "How do I find price per unit in my area?",
+        "answer": "From recent sales, real estate websites, or asking local real estate agents."
+      },
+      {
+        "question": "Do improvements add value equal to their cost?",
+        "answer": "Not always. Kitchens and bathrooms typically recover 50-80% of their cost."
+      }
+    ]
+  },
+  "home_affordability_calculator": {
+    "title": "Home Affordability Calculator",
+    "description": "Calculate how much home you can afford based on your income and debts.",
+    "annual_income": "Annual Income",
+    "annual_income_tooltip": "Total annual gross income before taxes",
+    "enter_annual_income": "Enter annual income",
+    "monthly_debts": "Monthly Debts",
+    "monthly_debts_tooltip": "Total monthly debt payments (loans, credit cards, etc.)",
+    "enter_monthly_debts": "Enter monthly debts",
+    "down_payment": "Down Payment",
+    "down_payment_tooltip": "Available down payment amount",
+    "enter_down_payment": "Enter down payment",
+    "interest_rate": "Interest Rate (%)",
+    "interest_rate_tooltip": "Annual mortgage interest rate",
+    "enter_interest_rate": "Enter interest rate",
+    "loan_term": "Loan Term (Years)",
+    "loan_term_tooltip": "Duration of the loan in years",
+    "enter_loan_term": "Enter loan term",
+    "calculate_btn": "Calculate Affordability",
+    "reset_btn": "Reset",
+    "results_title": "Affordability Results",
+    "max_home_price": "Maximum Home Price",
+    "max_loan_amount": "Maximum Loan Amount",
+    "max_monthly_payment": "Maximum Monthly Payment",
+    "recommended_down_payment": "Recommended Down Payment (20%)",
+    "currency": "$",
+    "tips_title": "Affordability Tips",
+    "tip_1": "Lenders typically prefer DTI ratio below 43%",
+    "tip_2": "Consider additional costs like taxes and insurance",
+    "tip_3": "A larger down payment reduces monthly payments",
+    "tip_4": "Keep 3-6 months of expenses as emergency fund",
+    "empty_state": "Enter your financial details to calculate affordability",
+    "footer_note": "Results are estimates. Consult a lender for pre-approval.",
+    "howItWorks": {
+      "title": "How Does the Home Affordability Calculator Work?",
+      "formula": "Maximum Payment = Monthly Income × 28-36%",
+      "explanation": "This calculator uses standard lender rules to determine the maximum home price you can afford based on your income and debts.",
+      "steps": [
+        "Enter your gross annual income",
+        "Enter your current monthly debts",
+        "Specify down payment and interest rate",
+        "Get maximum home price that fits your budget"
+      ]
+    },
+    "useCases": [
+      "Determining the right price range for your search",
+      "Knowing borrowing limits before applying",
+      "Planning to increase income or reduce debts",
+      "Setting realistic purchase expectations"
+    ],
+    "seoTips": [
+      "Don't buy at maximum - leave a safety margin",
+      "Calculate additional costs like taxes, insurance, and maintenance",
+      "The 28% of income for housing rule is a good guideline",
+      "Improving DTI increases your buying power",
+      "Pre-approval gives you a more accurate picture"
+    ],
+    "commonMistakes": [
+      "Buying at maximum qualified amount",
+      "Ignoring post-purchase costs",
+      "Not accounting for taxes and insurance",
+      "Forgetting emergency reserves"
+    ],
+    "faqs": [
+      {
+        "question": "What is the 28/36 rule?",
+        "answer": "Housing shouldn't exceed 28% of income, and total debts shouldn't exceed 36%."
+      },
+      {
+        "question": "Can I buy more than the calculator suggests?",
+        "answer": "Yes, but you may face financial stress. The calculator suggests the safe limit."
+      },
+      {
+        "question": "How do debts affect buying power?",
+        "answer": "Every dollar of debt reduces the payment you can afford, lowering home price."
+      },
+      {
+        "question": "Does the result include taxes and insurance?",
+        "answer": "Depends on the calculator. Make sure to account for them when actually buying."
+      }
+    ]
+  },
+  "heloc_calculator": {
+    "title": "HELOC Calculator - Home Equity Line of Credit Tool",
+    "description": "Calculate potential HELOC amounts and monthly payments. Free online tool to access your home's equity responsibly.",
+    "home_value": "Home Value",
+    "home_value_tooltip": "Current market value of your home",
+    "outstanding_mortgage": "Outstanding Mortgage Balance",
+    "outstanding_mortgage_tooltip": "Remaining amount on your current mortgage",
+    "calculate_btn": "Calculate HELOC",
+    "reset_btn": "Reset",
+    "results_title": "HELOC Estimate",
+    "max_heloc": "Maximum HELOC Amount",
+    "of_value": "of home value",
+    "ltv_limit": "Maximum Loan-to-Value Ratio (LTV)",
+    "footer_note": "Banks typically lend up to 80-90% of home value minus mortgage balance.",
+    "howItWorks": {
+      "title": "How Does the HELOC Calculator Work?",
+      "formula": "Available HELOC = (Home Value × 80-90%) - Mortgage Balance",
+      "explanation": "This tool calculates how much home equity you can borrow against through a HELOC line of credit.",
+      "steps": [
+        "Enter the current market value of your home",
+        "Enter remaining mortgage balance",
+        "Get the maximum HELOC amount available"
+      ]
+    },
+    "useCases": [
+      "Funding home renovations and improvements",
+      "Consolidating debt at lower interest",
+      "Financing education expenses",
+      "Obtaining emergency liquidity"
+    ],
+    "seoTips": [
+      "HELOC usually has variable interest rates",
+      "Use HELOC for improvements that increase home value",
+      "Don't use HELOC for consumer expenses",
+      "Your home is collateral - be careful",
+      "Compare HELOC with fixed home equity loans"
+    ],
+    "commonMistakes": [
+      "Over-borrowing against your home",
+      "Using HELOC for unnecessary expenses",
+      "Ignoring variable interest rate risks",
+      "Not having a clear repayment plan"
+    ],
+    "faqs": [
+      {
+        "question": "What's the difference between HELOC and home equity loan?",
+        "answer": "HELOC is a revolving credit line with variable rates; home equity loan is a fixed lump sum with fixed rates."
+      },
+      {
+        "question": "Can I lose my home?",
+        "answer": "Yes, HELOC is secured by your home. Non-payment could lead to foreclosure."
+      },
+      {
+        "question": "What is the draw period?",
+        "answer": "Usually 5-10 years when you can draw funds, then repayment period begins."
+      },
+      {
+        "question": "Is the interest tax deductible?",
+        "answer": "May be deductible if used for home improvement. Consult an accountant."
+      }
+    ]
+  },
+  "down-payment-calculator": {
+    "title": "Down Payment Calculator - Home Purchase Savings Goal",
+    "description": "Calculate your required down payment for a new home. Free online tool to plan your real estate investment and mortgage costs."
+  },
+  "closing-cost-calculator": {
+    "title": "Closing Cost Calculator - Real Estate Purchase Estimates",
+    "description": "Estimate your real estate closing costs accurately. Free online calculator for buyers and sellers to plan settlement expenses."
+  },
+  "pmi-calculator": {
+    "title": "PMI Calculator - Private Mortgage Insurance Estimates",
+    "description": "Calculate your monthly private mortgage insurance (PMI) costs. Free online tool for home loans with less than 20% down payment."
+  },
+  "home-value-estimator": {
+    "title": "Home Value Estimator - Free Property Valuation Tool",
+    "description": "Estimate your property market value based on recent sales and data. Free online home value calculator for homeowners and sellers."
+  },
+  "rental-yield-calculator": {
+    "title": "Rental Yield Calculator - Investment Property Returns",
+    "description": "Calculate gross and net rental yields for your investment property. Free online tool for real estate investors and landlords."
+  },
+  "cap-rate-calculator": {
+    "title": "Cap Rate Calculator - Free Capitalization Rate Tool",
+    "description": "Calculate property capitalization rates accurately. Free online tool for commercial and residential real estate investment analysis."
+  },
+  "cash-on-cash-return-calculator": {
+    "title": "Cash-on-Cash Return Calculator - Real Estate Profit Tool",
+    "description": "Calculate your cash-on-cash return for investment properties. Free online tool to measure annual real estate profitability."
+  },
+  "noi-calculator": {
+    "title": "NOI Calculator - Net Operating Income Estimation",
+    "description": "Calculate net operating income (NOI) for commercial and residential properties. Free online real estate finance tool.",
+    "gross_income": "Gross Rental Income",
+    "gross_income_tooltip": "Total annual rental income before expenses",
+    "enter_gross_income": "Enter gross income",
+    "vacancy_loss": "Vacancy Loss",
+    "vacancy_loss_tooltip": "Lost income due to vacancies",
+    "enter_vacancy_loss": "Enter vacancy loss",
+    "operating_expenses": "Operating Expenses",
+    "operating_expenses_tooltip": "Total annual operating expenses",
+    "enter_operating_expenses": "Enter operating expenses",
+    "calculate_btn": "Calculate NOI",
+    "reset_btn": "Reset",
+    "results_title": "NOI Results",
+    "effective_income": "Effective Gross Income",
+    "noi": "Net Operating Income (NOI)",
+    "currency": "$",
+    "tips_title": "About NOI",
+    "tip_1": "NOI = Effective Gross Income - Operating Expenses",
+    "tip_2": "Higher NOI indicates better property performance",
+    "tip_3": "NOI is used to calculate cap rate and cash flow",
+    "tip_4": "Include all operating expenses for accurate calculation",
+    "empty_state": "Enter income and expenses to calculate NOI"
+  },
+  "gross-rent-multiplier-calculator": {
+    "title": "Gross Rent Multiplier Calculator - Property Valuation",
+    "description": "Calculate Gross Rent Multiplier (GRM) for investment properties. Free online tool for quick real estate assessment and comparison."
+  },
+  "real-estate-roi-calculator": {
+    "title": "Real Estate ROI Calculator - Return on Investment Tool",
+    "description": "Calculate total return on investment for real estate properties. Free online tool for accurate profit and growth analysis."
+  },
+  "property-flip-calculator": {
+    "title": "Property Flip Calculator - Fix and Flip Profit Tracker",
+    "description": "Calculate potential profits from flipping properties. Free online tool for real estate rehabbers and investors."
+  },
+  "rent-vs-buy-calculator": {
+    "title": "Rent vs Buy Calculator - Should I Rent or Buy a Home?",
+    "description": "Compare the total costs of renting versus buying a home. Free online real estate analysis tool for smart housing decisions."
+  },
+  "rental-income-calculator": {
+    "title": "Rental Income Calculator - Net Profit Estimation",
+    "description": "Calculate net rental income after expenses. Free online tool for landlords to track real estate cash flow and profitability."
+  },
+  "vacancy-rate-calculator": {
+    "title": "Vacancy Rate Calculator - Rental Occupancy Analysis",
+    "description": "Calculate property vacancy and occupancy rates accurately. Free online tool for landlords and property managers."
+  },
+  "security-deposit-calculator": {
+    "title": "Security Deposit Calculator - Rental Bond Estimation",
+    "description": "Calculate appropriate security deposit amounts for rental properties. Free online tool for landlords and tenants."
+  },
+  "property-tax-calculator": {
+    "title": "Property Tax Calculator - Annual Real Estate Tax Tool",
+    "description": "Estimate your annual property taxes based on home value and rates. Free online real estate tax estimator."
+  },
+  "hoa-fee-calculator": {
+    "title": "HOA Fee Calculator - Homeowners Association Costs",
+    "description": "Calculate monthly and annual HOA fees for condos and communities. Free online real estate maintenance cost tool."
+  },
+  "home-maintenance-cost-calculator": {
+    "title": "Home Maintenance Cost Calculator - Repairs and Upkeep",
+    "description": "Estimate annual home maintenance and repair costs. Free online tool for homeowners to plan for property upkeep."
+  },
+  "capital-gains-tax-calculator": {
+    "title": "Capital Gains Tax Calculator - Real Estate Sale Profit",
+    "description": "Calculate capital gains tax on the sale of your property. Free online tool for tax planning after a real estate transaction."
+  },
+  "home-equity-calculator": {
+    "title": "Home Equity Calculator - Track Accumulated Wealth",
+    "description": "Calculate your current home equity based on market value and loan balance. Free online property wealth tracker."
+  },
+  "heloc-calculator": {
+    "title": "HELOC Calculator - Home Equity Line of Credit Tool",
+    "description": "Calculate potential HELOC amounts and monthly payments. Free online tool to access your home's equity responsibly."
+  },
+  "loan-to-value-calculator": {
+    "title": "Loan-to-Value (LTV) Calculator - Mortgage Equity Ratio",
+    "description": "Calculate your LTV ratio accurately. Free online tool for mortgage qualification and refinancing analysis."
+  },
+  "debt-to-income-ratio-calculator": {
+    "title": "Debt-to-Income Ratio Calculator - Mortgage Qualify Tool",
+    "description": "Calculate your DTI ratio for home loan qualification. Free online tool for buyers to check mortgage eligibility."
+  },
+  "commercial-property-calculator": {
+    "title": "Commercial Property Calculator - Valuation and Returns",
+    "description": "Calculate commercial real estate value, yield, and profitability. Free online tool for professional property investors."
+  },
+  "cost-per-square-foot-calculator": {
+    "title": "Cost per Square Foot Calculator - Real Estate Price Tool",
+    "description": "Calculate property cost per square foot or square meter. Free online real estate price comparison tool."
+  },
+  "lease-analysis-calculator": {
+    "title": "Commercial Lease Analysis Calculator - Compare Terms",
+    "description": "Calculate and compare commercial lease terms and costs. Free online real estate tool for business tenants and owners."
+  },
+  "pmi_calculator": {
+    "title": "PMI Calculator",
+    "description": "Calculate your monthly Private Mortgage Insurance (PMI) costs.",
+    "home_price": "Home Price",
+    "home_price_tooltip": "Purchase price of the home",
+    "enter_home_price": "Enter home price",
+    "down_payment": "Down Payment",
+    "down_payment_tooltip": "Initial upfront payment",
+    "enter_down_payment": "Enter down payment",
+    "pmi_rate": "PMI Rate (%)",
+    "pmi_rate_tooltip": "Annual PMI rate (typically 0.3% - 1.5%)",
+    "enter_pmi_rate": "Enter PMI rate",
+    "calculate_btn": "Calculate PMI",
+    "reset_btn": "Reset",
+    "results_title": "PMI Estimate",
+    "pmi_required": "PMI Required",
+    "pmi_not_required": "PMI Not Required",
+    "loan_amount": "Loan Amount",
+    "ltv_ratio": "LTV Ratio",
+    "monthly_pmi": "Monthly PMI",
+    "annual_pmi": "Annual PMI",
+    "equity_needed": "Equity Needed to Remove PMI",
+    "currency": "$",
+    "tips_title": "About PMI",
+    "tip_when_required": "PMI is required when down payment is less than 20%",
+    "tip_cancellation": "PMI can be canceled when you reach 20% equity",
+    "tip_cost": "PMI is added to your monthly payment",
+    "tip_rates": "PMI rates typically range from 0.3% - 1.5% annually",
+    "tip_removal": "Contact your lender to cancel PMI when you reach required equity",
+    "empty_state": "Enter loan details to estimate PMI costs",
+    "howItWorks": {
+      "title": "How Does the PMI Calculator Work?",
+      "formula": "Annual PMI = Loan Amount × PMI Rate",
+      "explanation": "This tool calculates the cost of private mortgage insurance required when your down payment is less than 20%.",
+      "steps": [
+        "Enter home price and down payment",
+        "Specify PMI rate (typically 0.3-1.5%)",
+        "Get monthly and annual PMI costs"
+      ]
+    },
+    "useCases": [
+      "Estimating the true cost of monthly payment",
+      "Comparing down payment options",
+      "Planning to reach 20% equity",
+      "Calculating savings from avoiding PMI"
+    ],
+    "seoTips": [
+      "A 20% down payment eliminates PMI and saves hundreds monthly",
+      "PMI is automatically canceled at 78% LTV or by request at 80%",
+      "Some loans offer LPMI (lender-paid PMI)",
+      "Compare PMI cost with waiting to save a larger down payment",
+      "PMI isn't forever - plan to eliminate it"
+    ],
+    "commonMistakes": [
+      "Forgetting PMI when calculating affordability",
+      "Not requesting PMI cancellation when eligible",
+      "Confusing PMI with homeowners insurance",
+      "Ignoring options to avoid PMI like piggyback loans"
+    ],
+    "faqs": [
+      {
+        "question": "When can I cancel PMI?",
+        "answer": "Request cancellation at 20% equity; it's automatically canceled at 22% equity."
+      },
+      {
+        "question": "Is PMI tax deductible?",
+        "answer": "This changes with tax laws. Consult an accountant for current status."
+      },
+      {
+        "question": "What are alternatives to PMI?",
+        "answer": "80-10-10 piggyback loan, LPMI, or waiting to save 20%."
+      },
+      {
+        "question": "Does PMI protect me?",
+        "answer": "No, PMI protects the lender only in case of default, not the borrower."
+      }
+    ]
+  },
+  "property_flip_calculator": {
+    "title": "Property Flip Calculator",
+    "description": "Calculate potential profits from flipping properties.",
+    "purchase_price": "Purchase Price",
+    "purchase_price_tooltip": "Initial price to buy the property",
+    "enter_purchase_price": "Enter purchase price",
+    "renovation_cost": "Renovation Cost",
+    "renovation_cost_tooltip": "Total cost of repairs and upgrades",
+    "enter_renovation_cost": "Enter renovation cost",
+    "selling_price": "Expected Selling Price",
+    "selling_price_tooltip": "After Repair Value (ARV)",
+    "enter_selling_price": "Enter selling price",
+    "holding_costs": "Holding Costs",
+    "holding_costs_tooltip": "Taxes, utilities, insurance during renovation",
+    "enter_holding_costs": "Enter holding costs",
+    "calculate_btn": "Calculate Profit",
+    "reset_btn": "Reset",
+    "results_title": "Flip Analysis",
+    "profit": "Estimated Profit",
+    "total_cost": "Total Investment",
+    "roi": "Return on Investment (ROI)",
+    "currency": "$",
+    "tips_title": "Flipping Tips",
+    "tip_roi": "Target ROI of at least 20-30%",
+    "tip_hidden": "Account for all hidden costs",
+    "tip_over": "Avoid over-improving",
+    "tip_loc": "Choose good location",
+    "empty_state": "Enter project details to calculate potential profit",
+    "footer_note": "Consider market risks and unexpected delays.",
+    "howItWorks": {
+      "title": "How Does the Property Flip Calculator Work?",
+      "formula": "Profit = Selling Price - (Purchase Price + Renovation + Holding Costs)",
+      "explanation": "This tool calculates potential profit from buying, renovating, and reselling a property at a higher price.",
+      "steps": [
+        "Enter expected purchase price",
+        "Estimate renovation and repair costs",
+        "Specify expected selling price (ARV)",
+        "Add holding costs (taxes, insurance, utilities)",
+        "Get estimated profit and ROI"
+      ]
+    },
+    "useCases": [
+      "Evaluating flip viability before purchase",
+      "Comparing different flip opportunities",
+      "Determining maximum renovation budget",
+      "Calculating expected return on investment"
+    ],
+    "seoTips": [
+      "Follow the 70% rule (don't pay more than 70% of ARV minus renovation)",
+      "Calculate holding costs for at least 6 months",
+      "Add 10-20% for unexpected costs",
+      "Research contractors before purchasing",
+      "Know the local market well before starting"
+    ],
+    "commonMistakes": [
+      "Underestimating renovation costs",
+      "Overestimating selling price",
+      "Forgetting holding and financing costs",
+      "Over-improving for the neighborhood"
+    ],
+    "faqs": [
+      {
+        "question": "What is the 70% rule?",
+        "answer": "Don't pay more than 70% of after-repair value minus renovation costs."
+      },
+      {
+        "question": "How much profit should I target?",
+        "answer": "Target at least 20-30% ROI to cover risks and time invested."
+      },
+      {
+        "question": "What are holding costs?",
+        "answer": "Taxes, insurance, utilities, loan interest, and HOA fees during renovation."
+      },
+      {
+        "question": "How do I estimate ARV?",
+        "answer": "Look at similar renovated properties sold in the same neighborhood in 3-6 months."
+      }
+    ]
+  },
+  "refinance_calculator": {
+    "title": "Refinance Calculator",
+    "description": "Calculate savings and break-even point for mortgage refinancing.",
+    "current_balance": "Current Loan Balance",
+    "current_balance_tooltip": "Remaining principal on your current mortgage",
+    "current_rate": "Current Interest Rate (%)",
+    "current_rate_tooltip": "Annual interest rate of your current loan",
+    "current_payment": "Current Monthly Payment",
+    "current_payment_tooltip": "Your current monthly principal and interest payment",
+    "new_rate": "New Interest Rate (%)",
+    "new_rate_tooltip": "Interest rate for the new loan",
+    "closing_costs": "Closing Costs",
+    "closing_costs_tooltip": "Total fees to refinance (appraisal, origination, etc.)",
+    "remaining_years": "Years Remaining / New Term",
+    "remaining_years_tooltip": "Number of years for the new loan term",
+    "calculate_btn": "Calculate Savings",
+    "reset_btn": "Reset",
+    "results_title": "Refinance Analysis",
+    "monthly_savings": "Monthly Savings",
+    "recommended": "Refinancing Recommended",
+    "not_recommended": "Refinancing Not Recommended",
+    "details": "Savings Breakdown",
+    "new_payment": "New Monthly Payment",
+    "break_even": "Break-Even Point",
+    "years": "Years",
+    "months": "Months",
+    "lifetime_savings": "Lifetime Savings",
+    "interest_savings": "Total Interest Savings",
+    "total_interest_current": "Total Interest (Current Loan)",
+    "total_interest_new": "Total Interest (New Loan)",
+    "formula_title": "Refinance Details",
+    "formula_explanation": "Break-even is when your monthly savings cover the closing costs. Lifetime savings includes interest saved minus closing costs.",
+    "info_title": "About Refinancing",
+    "info_description": "Refinancing involves replacing your existing mortgage with a new one, usually to get a lower interest rate or change the loan term.",
+    "use_cases_title": "Why Refinance?",
+    "use_case_1": "Lower your monthly payment",
+    "use_case_2": "Pay off your home sooner",
+    "use_case_3": "Reduce total interest costs",
+    "balance_required": "Please enter a valid loan balance",
+    "current_rate_range": "Current rate must be between 0 and 30",
+    "payment_required": "Please enter your current monthly payment",
+    "new_rate_range": "New rate must be between 0 and 30",
+    "costs_positive": "Closing costs cannot be negative",
+    "years_range": "Term must be between 0 and 40 years",
+    "howItWorks": {
+      "title": "How Does the Refinance Calculator Work?",
+      "formula": "Break-Even = Closing Costs / Monthly Savings",
+      "explanation": "This tool compares your current loan to a potential new loan to determine if refinancing makes financial sense.",
+      "steps": [
+        "Enter current loan details (balance, rate, payment)",
+        "Specify expected new interest rate",
+        "Enter refinancing closing costs",
+        "Get monthly savings and break-even point"
+      ]
+    },
+    "useCases": [
+      "Deciding if refinancing is worthwhile",
+      "Comparing refinance offers",
+      "Calculating long-term savings",
+      "Determining optimal loan term for new loan"
+    ],
+    "seoTips": [
+      "Wait until interest drops at least 0.5-1%",
+      "Calculate break-even and compare to your plans to stay",
+      "Consider shortening the term to save total interest",
+      "Don't reset to 30 years if you've already paid years off",
+      "Compare closing costs from multiple lenders"
+    ],
+    "commonMistakes": [
+      "Refinancing to a new 30-year term",
+      "Ignoring closing costs in the calculation",
+      "Refinancing when planning to move soon",
+      "Focusing only on payment without total interest"
+    ],
+    "faqs": [
+      {
+        "question": "When does refinancing make sense?",
+        "answer": "When you save at least 0.5-1% interest and plan to stay longer than break-even point."
+      },
+      {
+        "question": "What is the break-even point?",
+        "answer": "The time it takes for monthly savings to cover closing costs."
+      },
+      {
+        "question": "Can I roll closing costs into the loan?",
+        "answer": "Yes, but it increases loan balance and reduces actual savings."
+      },
+      {
+        "question": "Is cash-out refinance a good idea?",
+        "answer": "Depends on use. Home improvement may be good; consumption is not."
+      }
+    ]
+  },
+  "rental_income_calculator": {
+    "title": "Rental Income Calculator",
+    "description": "Calculate net rental income after expenses.",
+    "monthly_rent": "Monthly Rent",
+    "monthly_rent_tooltip": "Gross monthly rental income",
+    "enter_monthly_rent": "Enter monthly rent",
+    "other_income": "Other Monthly Income",
+    "other_income_tooltip": "Parking, laundry, pet fees, etc.",
+    "enter_other_income": "Enter other income",
+    "calculate_btn": "Calculate Income",
+    "reset_btn": "Reset",
+    "results_title": "Income Analysis",
+    "gross_income": "Gross Annual Income",
+    "total_expenses": "Total Annual Expenses",
+    "net_income": "Net Annual Income",
+    "currency": "$",
+    "tips_title": "Rental Tips",
+    "tip_expenses": "Don't forget to account for maintenance and vacancy",
+    "tip_cashflow": "Positive cash flow is key for buy-and-hold investing",
+    "empty_state": "Enter rental income details to see analysis",
+    "footer_note": "This calculator provides a basic estimate.",
+    "howItWorks": {
+      "title": "How Does the Rental Income Calculator Work?",
+      "formula": "Net Income = Gross Rental Income - Operating Expenses",
+      "explanation": "This tool calculates your net rental income after deducting all operating expenses.",
+      "steps": [
+        "Enter expected monthly rent",
+        "Add any additional income (parking, laundry, etc.)",
+        "Get total annual and monthly income"
+      ]
+    },
+    "useCases": [
+      "Estimating income from investment property",
+      "Budgeting for cash flow",
+      "Comparing income from different properties",
+      "Evaluating investment viability"
+    ],
+    "seoTips": [
+      "Calculate for 5-10% vacancy",
+      "Don't forget maintenance expenses (1% of value)",
+      "Positive cash flow is more important than appreciation",
+      "Research market rents before buying",
+      "Keep reserves for vacant months"
+    ],
+    "commonMistakes": [
+      "Estimating rent higher than market",
+      "Forgetting maintenance and repair expenses",
+      "Ignoring vacancy periods between tenants",
+      "Not accounting for management fees"
+    ],
+    "faqs": [
+      {
+        "question": "What is good cash flow?",
+        "answer": "At least $100-200 monthly per unit after all expenses."
+      },
+      {
+        "question": "Should I include mortgage?",
+        "answer": "Yes, real net income is after deducting mortgage from operating income."
+      },
+      {
+        "question": "What is the 50% rule?",
+        "answer": "Expect 50% of rent to go to expenses (not including mortgage)."
+      }
+    ]
+  },
+  "rental_yield_calculator": {
+    "title": "Rental Yield Calculator",
+    "description": "Calculate gross and net rental yields for investment properties.",
+    "property_price": "Property Price",
+    "property_price_tooltip": "Purchase price or market value",
+    "monthly_rent": "Monthly Rent",
+    "monthly_rent_tooltip": "Gross monthly rental income",
+    "annual_expenses": "Annual Expenses",
+    "annual_expenses_tooltip": "Total yearly costs (taxes, insurance, maintenance, etc.)",
+    "calculate_btn": "Calculate Yield",
+    "reset_btn": "Reset",
+    "results_title": "Yield Analysis",
+    "gross_yield_label": "Gross Yield",
+    "annual_income_label": "Annual Income",
+    "net_yield": "Net Yield",
+    "annual_rent": "Gross Annual Rent",
+    "net_annual_income": "Net Annual Income",
+    "monthly_net_income": "Monthly Net Income",
+    "expense_ratio": "Expense Ratio",
+    "formula_title": "Yield Formula",
+    "formula_explanation": "Gross Yield = (Annual Rent / Price) × 100. Net Yield = ((Annual Rent - Expenses) / Price) × 100.",
+    "info_title": "About Rental Yield",
+    "info_description": "Rental yield is a key metric for real estate investors. It measures the return on investment generated by rental income relative to the property's value.",
+    "use_cases_title": "Why Calculate Yield?",
+    "use_case_1": "Compare investment properties",
+    "use_case_2": "Assess rental performance",
+    "use_case_3": "Determine fair market rent",
+    "price_required": "Please enter a valid property price",
+    "rent_positive": "Rent must be a positive number",
+    "expenses_positive": "Expenses cannot be negative",
+    "howItWorks": {
+      "title": "How Does the Rental Yield Calculator Work?",
+      "formula": "Gross Yield = (Annual Rent / Property Price) × 100",
+      "explanation": "This tool calculates the annual return from rent as a percentage of property value, both gross and net.",
+      "steps": [
+        "Enter purchase price or market value",
+        "Specify expected monthly rent",
+        "Enter annual expenses for net yield",
+        "Get gross and net yield percentages"
+      ]
+    },
+    "useCases": [
+      "Comparing attractiveness of investment properties",
+      "Evaluating if price is reasonable",
+      "Determining appropriate rent for your property",
+      "Measuring performance of your real estate portfolio"
+    ],
+    "seoTips": [
+      "Gross yield of 6-8% is considered good in most markets",
+      "Net yield is the more important measure of profitability",
+      "Compare with bond and deposit returns",
+      "High yield may indicate higher risk",
+      "Calculate yield before and after financing"
+    ],
+    "commonMistakes": [
+      "Relying on gross yield only",
+      "Ignoring operating expenses",
+      "Using overly optimistic rent",
+      "Forgetting vacancy costs"
+    ],
+    "faqs": [
+      {
+        "question": "What's the difference between gross and net yield?",
+        "answer": "Gross doesn't account for expenses; net deducts all operating costs."
+      },
+      {
+        "question": "What is a good yield?",
+        "answer": "Varies by market, but 4-6% net is acceptable in stable markets."
+      },
+      {
+        "question": "Is higher yield always better?",
+        "answer": "Not necessarily. It may indicate problems with the property or location."
+      }
+    ]
+  },
+  "security_deposit_calculator": {
+    "title": "Security Deposit Calculator",
+    "description": "Calculate appropriate security deposit amounts for rental properties.",
+    "monthly_rent": "Monthly Rent",
+    "monthly_rent_tooltip": "Monthly rental amount",
+    "enter_monthly_rent": "Enter monthly rent",
+    "credit_score": "Tenant Credit Score (Optional)",
+    "credit_score_tooltip": "Credit score can influence deposit amount",
+    "calculate_btn": "Calculate Deposit",
+    "reset_btn": "Reset",
+    "results_title": "Deposit Estimate",
+    "recommended_deposit": "Recommended Deposit",
+    "max_deposit": "Maximum Legal Deposit (Est.)",
+    "currency": "$",
+    "tips_title": "Deposit Guidelines",
+    "tip_credit": "Higher credit scores may qualify for lower deposits",
+    "tip_laws": "Check local laws for maximum deposit limits (often 1-2 months rent)",
+    "tip_pets": "Pet deposits may be additional",
+    "empty_state": "Enter rent details to calculate deposit",
+    "footer_note": "This is an estimate. Always check local landlord-tenant laws.",
+    "howItWorks": {
+      "title": "How Does the Security Deposit Calculator Work?",
+      "formula": "Recommended Deposit = Monthly Rent × 1-2",
+      "explanation": "This tool estimates an appropriate security deposit based on monthly rent and other factors.",
+      "steps": [
+        "Enter monthly rent amount",
+        "Add credit score if available",
+        "Get recommended deposit amount"
+      ]
+    },
+    "useCases": [
+      "Determining deposit amount for your rental property",
+      "Preparing for renting as a tenant",
+      "Understanding legal deposit limits",
+      "Calculating initial rental costs"
+    ],
+    "seoTips": [
+      "Most areas limit deposits to 1-2 months rent",
+      "Check local laws before setting deposit",
+      "Document property condition with photos before handover",
+      "Deposit protects against damage, not normal wear",
+      "Return deposit within legally required timeframe"
+    ],
+    "commonMistakes": [
+      "Requesting deposit higher than legal limit",
+      "Not documenting property condition",
+      "Confusing deposit with pet fees",
+      "Delaying deposit return to tenant"
+    ],
+    "faqs": [
+      {
+        "question": "What's the difference between deposit and last month's rent?",
+        "answer": "Deposit is for damages and is returned; last month's rent covers final month and isn't returned."
+      },
+      {
+        "question": "When is the deposit returned?",
+        "answer": "Upon lease end and handover, usually within 14-30 days depending on local law."
+      },
+      {
+        "question": "What can be deducted from the deposit?",
+        "answer": "Damage beyond normal wear and tear, not regular maintenance."
+      }
+    ]
+  },
+  "vacancy_rate_calculator": {
+    "title": "Vacancy Rate Calculator",
+    "description": "Calculate vacancy rate and lost income for rental properties.",
+    "monthly_rent": "Monthly Rent",
+    "monthly_rent_tooltip": "Gross monthly rental amount",
+    "vacant_days": "Vacant Days per Year",
+    "vacant_days_tooltip": "Total number of days the property is unoccupied",
+    "calculate_btn": "Calculate Rate",
+    "reset_btn": "Reset",
+    "results_title": "Vacancy Analysis",
+    "vacancy_rate_label": "Vacancy Rate",
+    "occupancy": "Occupancy Rate",
+    "income_details": "Income Impact",
+    "annual_rent": "Potential Annual Rent",
+    "lost_income": "Lost Income",
+    "adjusted_income": "Adjusted Annual Income",
+    "formula_title": "Vacancy Formula",
+    "formula_explanation": "Vacancy Rate = (Vacant Days / 365) × 100. Lost Income = Potential Annual Rent × Vacancy Rate.",
+    "info_title": "About Vacancy Rate",
+    "info_description": "The vacancy rate represents the percentage of time a rental property is unoccupied. Lower vacancy rates mean more income.",
+    "use_cases_title": "Why Calculate Vacancy?",
+    "use_case_1": "Estimate realistic rental income",
+    "use_case_2": "Budget for turnover periods",
+    "use_case_3": "Evaluate property performance",
+    "rent_required": "Please enter a valid monthly rent",
+    "days_range": "Vacant days must be between 0 and 365",
+    "howItWorks": {
+      "title": "How Does the Vacancy Rate Calculator Work?",
+      "formula": "Vacancy Rate = (Vacant Days / 365) × 100",
+      "explanation": "This tool calculates the percentage of time your property is unoccupied and its impact on income.",
+      "steps": [
+        "Enter monthly rent for the property",
+        "Specify expected vacant days per year",
+        "Get vacancy rate and lost income"
+      ]
+    },
+    "useCases": [
+      "Estimating realistic rental income",
+      "Planning for turnover periods",
+      "Comparing performance of different properties",
+      "Improving rental strategy"
+    ],
+    "seoTips": [
+      "5-10% vacancy rate is normal for most markets",
+      "Reduce vacancy by renewing leases early",
+      "Competitive pricing reduces vacancy period",
+      "Keep property in good condition to attract tenants",
+      "Use multiple marketing channels"
+    ],
+    "commonMistakes": [
+      "Not accounting for maintenance time between tenants",
+      "Ignoring vacancy in income estimates",
+      "Delaying search for new tenant",
+      "Refusing to slightly lower rent to avoid vacant months"
+    ],
+    "faqs": [
+      {
+        "question": "What is a normal vacancy rate?",
+        "answer": "5-10% in most markets; may be lower in high-demand areas."
+      },
+      {
+        "question": "How can I reduce vacancy rate?",
+        "answer": "Competitive pricing, good maintenance, early renewal, and effective marketing."
+      },
+      {
+        "question": "Should I count repair time as vacancy?",
+        "answer": "Yes, any period when no tenant is paying is considered vacancy."
+      }
+    ]
+  },
+  "property_tax_calculator": {
+    "title": "Property Tax Calculator",
+    "description": "Estimate annual property taxes and monthly escrow amounts.",
+    "assessed_value": "Assessed Value",
+    "assessed_value_tooltip": "The dollar value assigned to a property for tax purposes",
+    "tax_rate": "Property Tax Rate (%)",
+    "tax_rate_tooltip": "The percentage of assessed value paid in taxes",
+    "years": "Projection Years",
+    "years_tooltip": "Number of years to project total tax cost",
+    "calculate_btn": "Calculate Taxes",
+    "reset_btn": "Reset",
+    "results_title": "Tax Estimate",
+    "annual_tax_label": "Annual Property Tax",
+    "per_year": "/ year",
+    "monthly_escrow": "Monthly Escrow",
+    "effective_rate": "Effective Tax Rate",
+    "total_over_years": "Total Over Period",
+    "formula_title": "Tax Formula",
+    "formula_explanation": "Annual Tax = Assessed Value × Tax Rate. Monthly Escrow = Annual Tax / 12.",
+    "info_title": "About Property Taxes",
+    "info_description": "Property taxes are paid to local governments to fund public services. They are often collected monthly by lenders in an escrow account.",
+    "use_cases_title": "Why Calculate Property Tax?",
+    "use_case_1": "Budget for monthly housing costs",
+    "use_case_2": "Compare tax burdens in different areas",
+    "use_case_3": "Estimate long-term ownership costs",
+    "positive_values": "Please enter positive values for value and rate",
+    "howItWorks": {
+      "title": "How Does the Property Tax Calculator Work?",
+      "formula": "Annual Tax = Assessed Value × Tax Rate",
+      "explanation": "This tool calculates annual property tax based on the assessed value and local tax rate.",
+      "steps": [
+        "Enter the assessed value for tax purposes",
+        "Specify the property tax rate in your area",
+        "Get annual tax and monthly escrow amounts"
+      ]
+    },
+    "useCases": [
+      "Calculating total housing costs",
+      "Comparing tax burdens between different areas",
+      "Annual budget planning",
+      "Estimating lender escrow account"
+    ],
+    "seoTips": [
+      "Assessed value may differ from market value",
+      "You can appeal the assessment if it's too high",
+      "Taxes change annually - watch your notices",
+      "Some areas offer homestead exemptions",
+      "Consider taxes when comparing homes"
+    ],
+    "commonMistakes": [
+      "Confusing market value with assessed value",
+      "Forgetting taxes rise with property value",
+      "Not checking available exemptions",
+      "Ignoring taxes when calculating affordability"
+    ],
+    "faqs": [
+      {
+        "question": "What's the difference between assessed and market value?",
+        "answer": "Assessed value is set by government for taxes and may be lower than market value."
+      },
+      {
+        "question": "Can I reduce my tax?",
+        "answer": "Yes, by appealing the assessment or applying for available exemptions."
+      },
+      {
+        "question": "What is an escrow account?",
+        "answer": "An account held by the lender to pay taxes and insurance from your monthly payments."
+      },
+      {
+        "question": "How often are taxes assessed?",
+        "answer": "Varies by area, usually annually or every 2-3 years."
+      }
+    ]
+  },
+  "real_estate_roi_calculator": {
+    "title": "Real Estate ROI Calculator",
+    "description": "Calculate total return on investment for real estate properties.",
+    "purchase_price": "Purchase Price",
+    "purchase_price_tooltip": "Initial price to buy the property",
+    "enter_purchase_price": "Enter purchase price",
+    "selling_price": "Selling Price",
+    "selling_price_tooltip": "Expected or actual selling price",
+    "enter_selling_price": "Enter selling price",
+    "total_investment": "Total Cash Investment",
+    "total_investment_tooltip": "Total cash put into the deal (down payment, closing, repairs)",
+    "enter_total_investment": "Enter total investment",
+    "rental_income": "Total Rental Income",
+    "rental_income_tooltip": "Total net rental income received during ownership",
+    "enter_rental_income": "Enter rental income",
+    "calculate_btn": "Calculate ROI",
+    "reset_btn": "Reset",
+    "results_title": "ROI Analysis",
+    "roi": "Return on Investment (ROI)",
+    "total_gain": "Total Net Gain",
+    "annualized_roi": "Annualized ROI (est. 5yr)",
+    "currency": "$",
+    "tips_title": "Interpreting ROI",
+    "tip_positive": "Positive ROI means successful investment",
+    "tip_compare": "Compare with other investment returns",
+    "tip_risk": "Consider risk and liquidity factors",
+    "empty_state": "Enter investment details to calculate return",
+    "footer_note": "Simple ROI calculation. Does not account for time value of money.",
+    "howItWorks": {
+      "title": "How Does the Real Estate ROI Calculator Work?",
+      "formula": "ROI = [(Selling Price - Purchase Price + Rental Income) / Total Investment] × 100",
+      "explanation": "This tool calculates total return on your real estate investment, including appreciation and rental income.",
+      "steps": [
+        "Enter original purchase price",
+        "Enter selling price (actual or expected)",
+        "Specify total cash invested",
+        "Add accumulated net rental income",
+        "Get total ROI"
+      ]
+    },
+    "useCases": [
+      "Evaluating success of your real estate investment",
+      "Comparing performance of different properties",
+      "Measuring returns against other investments",
+      "Making sell or hold decisions"
+    ],
+    "seoTips": [
+      "Calculate annualized ROI for fair comparison",
+      "Don't forget selling costs (commission, closing) in calculation",
+      "Compare with stock and bond returns",
+      "Positive ROI isn't enough - compare with inflation",
+      "Calculate ROI with and without financing to fully understand"
+    ],
+    "commonMistakes": [
+      "Forgetting selling and closing costs",
+      "Not deducting operating expenses from rental income",
+      "Ignoring time value of money",
+      "Comparing investments with different holding periods"
+    ],
+    "faqs": [
+      {
+        "question": "What is a good ROI for real estate?",
+        "answer": "Depends on risk, but 8-12% annually is considered good for real estate."
+      },
+      {
+        "question": "Does ROI include financing?",
+        "answer": "ROI on cash invested is affected by financing (leverage)."
+      },
+      {
+        "question": "How does financing affect ROI?",
+        "answer": "Financing can increase ROI because you invest less cash, but it increases risk."
+      },
+      {
+        "question": "Does negative ROI mean a loss?",
+        "answer": "Yes, negative ROI means total return is less than original investment."
+      }
+    ]
+  },
+  "rent_vs_buy_calculator": {
+    "title": "Rent vs Buy Calculator",
+    "description": "Compare the cost of renting vs buying a home over time.",
+    "buying_section": "Buying Scenario",
+    "renting_section": "Renting Scenario",
+    "home_price": "Home Price",
+    "price_tooltip": "Purchase price of the home",
+    "down_payment": "Down Payment (%)",
+    "down_payment_tooltip": "Percentage of home price paid upfront",
+    "interest_rate": "Interest Rate (%)",
+    "interest_tooltip": "Annual mortgage interest rate",
+    "loan_term": "Loan Term (Years)",
+    "loan_term_tooltip": "Duration of the mortgage",
+    "property_tax_rate": "Property Tax Rate (%)",
+    "property_tax_tooltip": "Annual property tax as percentage of home value",
+    "home_insurance": "Home Insurance (Yearly)",
+    "home_insurance_tooltip": "Annual cost of homeowners insurance",
+    "hoa_fees": "HOA Fees (Monthly)",
+    "hoa_tooltip": "Monthly Homeowners Association fees",
+    "maintenance_rate": "Maintenance Rate (%)",
+    "maintenance_tooltip": "Annual maintenance cost as percentage of home value",
+    "appreciation_rate": "Home Appreciation (%)",
+    "appreciation_tooltip": "Expected annual increase in home value",
+    "monthly_rent": "Monthly Rent",
+    "rent_tooltip": "Current monthly rent payment",
+    "rent_increase_rate": "Rent Increase Rate (%)",
+    "rent_increase_tooltip": "Expected annual increase in rent",
+    "renters_insurance": "Renters Insurance (Yearly)",
+    "renters_insurance_tooltip": "Annual cost of renters insurance",
+    "investment_return": "Investment Return (%)",
+    "investment_tooltip": "Expected annual return on invested savings (down payment opportunity cost)",
+    "monthly_comparison": "Monthly Cost Comparison",
+    "buying": "Buying",
+    "renting": "Renting",
+    "breakeven_title": "Break-Even Analysis",
+    "breakeven_message": "Buying becomes cheaper than renting after {years} years.",
+    "no_breakeven": "Renting is currently cheaper for the foreseeable future.",
+    "recommendation_title": "Recommendation",
+    "recommend_rent": "Renting appears to be the more financially sound option based on these inputs, especially for short-term stays.",
+    "recommend_buy_short": "Buying makes financial sense very quickly. It's likely a good investment.",
+    "recommend_buy_medium": "Buying is a good long-term decision. Plan to stay in the home for at least {years} years.",
+    "recommend_buy_long": "Buying takes longer to pay off. Consider this if you plan to stay for a long time.",
+    "cost_over_time": "Total Cost Over Time",
+    "after_5_years": "After 5 Years",
+    "after_10_years": "After 10 Years",
+    "after_15_years": "After 15 Years",
+    "buying_cost": "Total Cost (Buying)",
+    "renting_cost": "Total Cost (Renting)",
+    "net_difference": "Net Difference",
+    "monthly_breakdown": "Monthly Payment Breakdown (Buying)",
+    "mortgage_payment": "Mortgage (P&I)",
+    "property_tax": "Property Tax",
+    "insurance": "Insurance",
+    "price_required": "Please enter a valid home price",
+    "rent_required": "Please enter a valid monthly rent",
+    "down_payment_range": "Down payment must be between 0 and 100",
+    "interest_rate_range": "Interest rate must be between 0 and 30",
+    "loan_term_range": "Loan term must be between 0 and 40",
+    "howItWorks": {
+      "title": "How Does the Rent vs Buy Calculator Work?",
+      "formula": "Buying Cost = (Mortgage + Taxes + Insurance + Maintenance) - (Appreciation + Tax Benefits)",
+      "explanation": "This tool compares total costs of renting versus buying over years to help you make the decision.",
+      "steps": [
+        "Enter buying scenario details",
+        "Enter renting scenario details",
+        "Specify expected increase rates",
+        "Compare costs over 5-15 years"
+      ]
+    },
+    "useCases": [
+      "Making the rent or buy decision",
+      "Determining break-even point for buying",
+      "Understanding hidden costs of ownership",
+      "Long-term financial planning"
+    ],
+    "seoTips": [
+      "Buying is usually better if you plan to stay 5+ years",
+      "Don't forget maintenance and tax costs for ownership",
+      "Renting provides more flexibility",
+      "Compare opportunity cost of down payment",
+      "Local market significantly affects the decision"
+    ],
+    "commonMistakes": [
+      "Comparing payment to rent only without other costs",
+      "Ignoring maintenance and repair costs",
+      "Overestimating property appreciation",
+      "Not accounting for opportunity cost of down payment"
+    ],
+    "faqs": [
+      {
+        "question": "When is buying better?",
+        "answer": "Usually if you plan to stay 5+ years, have a down payment, and stable financial situation."
+      },
+      {
+        "question": "What is the break-even point?",
+        "answer": "The time when buying cost becomes less than cumulative rent."
+      },
+      {
+        "question": "Does rising rent make buying better?",
+        "answer": "Yes, high rent increases make buying more attractive long-term."
+      },
+      {
+        "question": "What about building wealth?",
+        "answer": "Buying builds home equity, but renting allows investing the difference in other assets."
+      }
+    ]
+  },
+  "down_payment_calculator": {
+    "title": "Down Payment Calculator",
+    "description": "Calculate down payment amount and loan-to-value ratio.",
+    "home_price": "Home Price",
+    "home_price_tooltip": "Enter the total home price",
+    "enter_home_price": "Enter home price",
+    "down_payment_percent": "Down Payment (%)",
+    "down_payment_tooltip": "Percentage of home price as down payment",
+    "enter_percent": "Enter percentage",
+    "calculate_btn": "Calculate",
+    "reset_btn": "Reset",
+    "results_title": "Down Payment Analysis",
+    "down_payment_amount": "Down Payment Amount",
+    "loan_amount": "Loan Amount",
+    "ltv": "Loan-to-Value (LTV)",
+    "pmi_required": "PMI Required",
+    "pmi_estimate": "Est. Monthly PMI",
+    "yes": "Yes",
+    "no": "No",
+    "currency": "$",
+    "info_title": "About Down Payments",
+    "info_description": "A down payment of 20% or more avoids PMI (Private Mortgage Insurance).",
+    "empty_state": "Enter home price to calculate down payment",
+    "down_percent": "Down Payment (%)",
+    "down_percent_tooltip": "Percentage of home price to pay upfront",
+    "down_payment_label": "Down Payment Amount",
+    "of_price": "of home price",
+    "details": "Loan Details",
+    "pmi_status": "PMI Status",
+    "no_pmi": "No PMI Required",
+    "formula_title": "Down Payment Information",
+    "formula_explanation": "A down payment of 20% or more avoids Private Mortgage Insurance (PMI). LTV is the loan-to-value ratio.",
+    "use_cases_title": "Why Calculate Down Payment?",
+    "use_case_1": "Set a savings goal",
+    "use_case_2": "Calculate required loan amount",
+    "use_case_3": "Check if PMI is required",
+    "howItWorks": {
+      "title": "How Does the Down Payment Calculator Work?",
+      "formula": "Down Payment = Home Price × Down Payment Percentage",
+      "explanation": "This tool calculates the required down payment amount and shows its impact on loan amount and PMI.",
+      "steps": [
+        "Enter the desired home price",
+        "Specify desired down payment percentage",
+        "Get down payment amount, loan amount, and LTV ratio"
+      ]
+    },
+    "useCases": [
+      "Setting savings goal for home purchase",
+      "Knowing required loan amount",
+      "Checking if PMI is needed",
+      "Comparing different down payment scenarios"
+    ],
+    "seoTips": [
+      "20% down avoids PMI and saves money",
+      "Some programs accept 3-5% down payment",
+      "The larger the down payment, the lower the monthly payment",
+      "Calculate time needed to save based on your income",
+      "Don't exhaust all savings for the down payment"
+    ],
+    "commonMistakes": [
+      "Forgetting additional closing costs",
+      "Depleting emergency fund for down payment",
+      "Underestimating importance of avoiding PMI",
+      "Not accounting for moving and furniture costs"
+    ],
+    "faqs": [
+      {
+        "question": "What is the minimum possible down payment?",
+        "answer": "Varies by loan type, from 0% for VA loans to 3.5% for FHA and 20% conventional."
+      },
+      {
+        "question": "What is PMI?",
+        "answer": "Insurance required when down payment is less than 20%, added to monthly payment until you reach 20% equity."
+      },
+      {
+        "question": "Is a larger down payment always better?",
+        "answer": "Not necessarily. Balance between reducing payment and keeping liquidity for emergencies."
+      },
+      {
+        "question": "What is LTV ratio?",
+        "answer": "Loan-to-Value = Loan Amount / Property Value. Below 80% avoids PMI."
+      }
+    ]
+  },
+  "noi_calculator": {
+    "title": "NOI Calculator",
+    "description": "Calculate Net Operating Income for investment properties.",
+    "gross_income": "Gross Rental Income",
+    "gross_income_tooltip": "Total rental income per year",
+    "enter_gross_income": "Enter gross income",
+    "vacancy_rate": "Vacancy Rate (%)",
+    "vacancy_tooltip": "Expected vacancy rate",
+    "enter_vacancy": "Enter vacancy rate",
+    "operating_expenses": "Operating Expenses",
+    "expenses_tooltip": "Annual operating expenses",
+    "enter_expenses": "Enter expenses",
+    "calculate_btn": "Calculate NOI",
+    "reset_btn": "Reset",
+    "results_title": "NOI Analysis",
+    "effective_income": "Effective Gross Income",
+    "total_expenses": "Total Expenses",
+    "noi": "Net Operating Income",
+    "currency": "$",
+    "info_title": "About NOI",
+    "info_description": "NOI = Gross Income - Vacancy Loss - Operating Expenses",
+    "empty_state": "Enter property details to calculate NOI",
+    "howItWorks": {
+      "title": "How Does the NOI Calculator Work?",
+      "formula": "NOI = Effective Gross Income - Operating Expenses",
+      "explanation": "This tool calculates net operating income for a property, a fundamental metric for real estate performance.",
+      "steps": [
+        "Enter gross annual rental income",
+        "Specify expected vacancy rate",
+        "Enter annual operating expenses",
+        "Get net operating income"
+      ]
+    },
+    "useCases": [
+      "Evaluating investment property performance",
+      "Calculating cap rate",
+      "Comparing investment properties",
+      "Determining commercial property value"
+    ],
+    "seoTips": [
+      "NOI doesn't include debt service (mortgage payments)",
+      "Use NOI to calculate Cap Rate and value",
+      "Make sure to include all operating expenses",
+      "Higher NOI = more profitable property",
+      "Monitor NOI annually to track performance"
+    ],
+    "commonMistakes": [
+      "Including mortgage payments in operating expenses",
+      "Forgetting some expenses like management and vacancy",
+      "Using unrealistic rental figures",
+      "Ignoring reserves for major maintenance"
+    ],
+    "faqs": [
+      {
+        "question": "What's the difference between NOI and cash flow?",
+        "answer": "NOI doesn't include debt service, while cash flow deducts mortgage payments."
+      },
+      {
+        "question": "What are operating expenses?",
+        "answer": "Taxes, insurance, management, maintenance, utilities, and repairs."
+      },
+      {
+        "question": "How do I use NOI to value property?",
+        "answer": "Property Value = NOI / Cap Rate. This is the income approach to valuation."
+      },
+      {
+        "question": "What is a good NOI?",
+        "answer": "Depends on property size. What matters more is the resulting cap rate compared to market."
+      }
+    ]
+  },
+  "mortgage-affordability-calculator": {
+    "title": "Advanced Mortgage Calculator",
+    "description": "Calculate payments, interest, and amortization"
+  },
+  "refinance-calculator": {
+    "title": "Home Affordability Calculator",
+    "description": "Calculate affordable home price"
+  },
+  "gross_rent_multiplier_calculator": {
+    "title": "Gross Rent Multiplier Calculator",
+    "description": "Calculate the Gross Rent Multiplier (GRM) for investment properties.",
+    "property_price": "Property Price",
+    "property_price_tooltip": "Purchase price or current market value",
+    "annual_rent": "Annual Gross Rent",
+    "annual_rent_tooltip": "Total annual rental income before expenses",
+    "calculate_btn": "Calculate GRM",
+    "reset_btn": "Reset",
+    "results_title": "Gross Rent Multiplier Result",
+    "grm_label": "Gross Rent Multiplier (GRM)",
+    "tips_title": "Interpreting GRM",
+    "tip_low": "Low GRM (4-7) = Better investment potential",
+    "tip_high": "High GRM (12+) = May indicate lower returns",
+    "tip_usage": "Used for quick comparison between properties",
+    "empty_state": "Enter property price and rent to calculate GRM",
+    "footer_note": "GRM is a preliminary screening tool, not a complete analysis.",
+    "howItWorks": {
+      "title": "How Does the Gross Rent Multiplier Work?",
+      "formula": "GRM = Property Price / Annual Gross Rent",
+      "explanation": "The Gross Rent Multiplier measures how many years of rent it takes to recover the property price, without accounting for expenses.",
+      "steps": [
+        "Enter purchase price or market value",
+        "Enter expected annual gross rent",
+        "Get GRM for comparison"
+      ]
+    },
+    "useCases": [
+      "Quick screening of investment properties",
+      "Comparing multiple investment opportunities",
+      "Estimating property value based on rent",
+      "Determining if price is reasonable"
+    ],
+    "seoTips": [
+      "Low GRM (4-7) indicates potential good investment",
+      "High GRM (12+) may mean lower returns",
+      "Don't rely on GRM alone for purchase decisions",
+      "Compare GRM only between properties in the same area",
+      "Use GRM as first step then analyze in depth"
+    ],
+    "commonMistakes": [
+      "Comparing GRM between different markets",
+      "Ignoring operating expenses",
+      "Using unrealistic rents",
+      "Relying on GRM as sole metric"
+    ],
+    "faqs": [
+      {
+        "question": "What is a good GRM?",
+        "answer": "Varies by market. Generally 4-7 is good, 8-12 is average, above 12 may be high."
+      },
+      {
+        "question": "What's the difference between GRM and cap rate?",
+        "answer": "GRM uses gross rent, while Cap Rate uses net income after expenses."
+      },
+      {
+        "question": "Why is GRM only a screening tool?",
+        "answer": "Because it doesn't account for expenses which vary significantly between properties."
+      }
+    ]
+  },
+  "hoa_fee_calculator": {
+    "title": "HOA Fee Calculator",
+    "description": "Calculate monthly and annual HOA fees.",
+    "monthly_fee": "Monthly HOA Fee",
+    "monthly_fee_tooltip": "Fees paid to the homeowners association each month",
+    "annual_fee": "Annual HOA Fee",
+    "annual_fee_tooltip": "Total fees paid annually",
+    "calculate_btn": "Calculate",
+    "reset_btn": "Reset",
+    "results_title": "HOA Cost Analysis",
+    "total_annual_cost": "Total Annual Cost",
+    "total_monthly_cost": "Total Monthly Cost",
+    "tips_title": "Understanding HOA Fees",
+    "empty_state": "Enter fee details to see total costs",
+    "footer_note": "Fees cover maintenance of common areas and amenities.",
+    "howItWorks": {
+      "title": "How Does the HOA Fee Calculator Work?",
+      "formula": "Annual Cost = Monthly Fee × 12",
+      "explanation": "This tool calculates total HOA fees monthly and annually to help you budget for housing costs.",
+      "steps": [
+        "Enter monthly fee paid to association",
+        "Get total annual cost"
+      ]
+    },
+    "useCases": [
+      "Calculating total housing cost",
+      "Comparing fees between different communities",
+      "Budgeting monthly expenses",
+      "Evaluating condo purchase viability"
+    ],
+    "seoTips": [
+      "Ask about history of fee increases",
+      "Check what fees cover (water, shared utilities, security)",
+      "Review association's financial budget",
+      "Check for expected special assessments",
+      "Higher fees may mean better services"
+    ],
+    "commonMistakes": [
+      "Ignoring HOA fees when calculating affordability",
+      "Not asking about planned increases",
+      "Ignoring special assessments for major maintenance",
+      "Not reading association rules before buying"
+    ],
+    "faqs": [
+      {
+        "question": "What do HOA fees cover?",
+        "answer": "Usually common areas, amenities, security, insurance, and sometimes water and sewer."
+      },
+      {
+        "question": "Can fees increase?",
+        "answer": "Yes, the association can raise fees annually or impose special assessments for major projects."
+      },
+      {
+        "question": "What happens if I don't pay?",
+        "answer": "You may face fines, denial of services, or even a lien on your property."
+      }
+    ]
+  },
+  "home_equity_calculator": {
+    "title": "Home Equity Calculator",
+    "description": "Calculate your current home equity based on market value and loan balance.",
+    "current_value": "Current Home Value",
+    "current_value_tooltip": "Current market value of the property",
+    "remaining_mortgage": "Remaining Mortgage",
+    "remaining_mortgage_tooltip": "Remaining balance on the mortgage",
+    "calculate_btn": "Calculate Equity",
+    "reset_btn": "Reset",
+    "results_title": "Equity Analysis",
+    "equity_label": "Home Equity",
+    "of_value": "of home value",
+    "details": "Equity Details",
+    "available_heloc": "Potential HELOC (85% LTV)",
+    "ltv": "Loan-to-Value Ratio (LTV)",
+    "formula_title": "Equity Formula",
+    "formula_explanation": "Equity = Current Value - Remaining Mortgage. LTV is the percentage of your home value that is mortgaged.",
+    "info_title": "About Home Equity",
+    "info_description": "Home equity is the portion of your property that you truly 'own'. It increases as you pay down your mortgage and as property value rises.",
+    "use_cases_title": "Why Calculate Equity?",
+    "use_case_1": "Determine net worth",
+    "use_case_2": "Check eligibility for equity loans",
+    "use_case_3": "Plan for refinancing or selling",
+    "howItWorks": {
+      "title": "How Does the Home Equity Calculator Work?",
+      "formula": "Home Equity = Current Market Value - Remaining Mortgage Balance",
+      "explanation": "This calculator determines how much of your home you actually own by subtracting your outstanding mortgage balance from your property's current market value. It also calculates your loan-to-value ratio (LTV) and potential HELOC availability.",
+      "steps": [
+        "Enter your home's current market value based on recent appraisals or comparable sales",
+        "Input your remaining mortgage balance from your latest statement",
+        "The calculator subtracts the mortgage from the value to find your equity",
+        "LTV ratio is calculated to show what percentage of your home is still mortgaged",
+        "Potential HELOC amount is estimated based on 85% LTV lending limits"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "HELOC or Home Equity Loan Planning",
+        "description": "Determine how much equity you can potentially borrow against for home improvements, debt consolidation, or other major expenses."
+      },
+      {
+        "title": "Net Worth Calculation",
+        "description": "Accurately calculate your personal net worth by knowing exactly how much equity you have in your largest asset."
+      },
+      {
+        "title": "Refinancing Decisions",
+        "description": "Understand your equity position to determine if you qualify for better loan terms or can eliminate PMI through refinancing."
+      },
+      {
+        "title": "Selling Strategy",
+        "description": "Calculate how much cash you would walk away with after selling your home and paying off the remaining mortgage."
+      }
+    ],
+    "seoTips": [
+      {
+        "title": "Track Your Equity Monthly",
+        "description": "As you make mortgage payments and property values fluctuate, your equity changes. Regular tracking helps you spot opportunities for leveraging your equity."
+      },
+      {
+        "title": "Understand LTV Thresholds",
+        "description": "Key LTV thresholds include 80% (PMI elimination), 85% (typical HELOC maximum), and 90-95% (refinancing limits). Know where you stand."
+      },
+      {
+        "title": "Get Accurate Home Valuations",
+        "description": "Your equity calculation is only as accurate as your home value estimate. Use recent comparable sales, online estimators, or professional appraisals."
+      },
+      {
+        "title": "Consider All Liens",
+        "description": "Include all mortgages, HELOCs, and other liens against your property when calculating true available equity."
+      },
+      {
+        "title": "Factor in Selling Costs",
+        "description": "If calculating equity for a potential sale, remember to subtract estimated closing costs and agent commissions (typically 8-10% of sale price)."
+      }
+    ],
+    "commonMistakes": [
+      {
+        "title": "Overestimating Home Value",
+        "description": "Using unrealistic home values inflates your equity on paper but leads to disappointment when applying for loans or selling."
+      },
+      {
+        "title": "Forgetting About Other Liens",
+        "description": "Failing to include second mortgages, HELOCs, or tax liens when calculating available equity."
+      },
+      {
+        "title": "Ignoring Market Conditions",
+        "description": "Home values fluctuate with the market. Equity calculated during a hot market may decrease during downturns."
+      },
+      {
+        "title": "Confusing Equity with Cash Available",
+        "description": "Having $100,000 in equity doesn't mean you can borrow $100,000. Lenders typically allow borrowing up to 80-85% of your home's value minus existing mortgages."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is home equity?",
+        "answer": "Home equity is the difference between your home's current market value and the amount you still owe on your mortgage. It represents the portion of your home that you truly 'own' and can be thought of as your financial stake in the property."
+      },
+      {
+        "question": "How can I increase my home equity?",
+        "answer": "You can increase home equity by making regular mortgage payments (especially extra principal payments), making home improvements that increase property value, and benefiting from natural market appreciation over time."
+      },
+      {
+        "question": "What is a good LTV ratio?",
+        "answer": "An LTV of 80% or below is generally considered good because it eliminates the need for PMI and qualifies you for better loan rates. An LTV of 20% or below (meaning 80%+ equity) is excellent for accessing HELOCs and home equity loans."
+      },
+      {
+        "question": "Can I lose home equity?",
+        "answer": "Yes, home equity can decrease if your property value drops due to market conditions, neighborhood decline, or property deterioration. It can also decrease if you take out additional loans against your home."
+      },
+      {
+        "question": "What is the difference between home equity and home equity loan?",
+        "answer": "Home equity is the value you own in your home. A home equity loan is a type of loan that allows you to borrow against that equity, using your home as collateral. The loan gives you a lump sum that you repay over time with interest."
+      }
+    ]
+  },
+  "loan_to_value_calculator": {
+    "title": "Loan-to-Value (LTV) Calculator",
+    "description": "Calculate your loan-to-value ratio for mortgage qualification and refinancing.",
+    "property_value": "Property Value",
+    "property_value_tooltip": "Current market value or appraised value of the property",
+    "enter_property_value": "Enter property value",
+    "loan_amount": "Loan Amount",
+    "loan_amount_tooltip": "Total mortgage or loan balance",
+    "enter_loan_amount": "Enter loan amount",
+    "calculate_btn": "Calculate LTV",
+    "reset_btn": "Reset",
+    "results_title": "LTV Analysis",
+    "ltv_ratio": "Loan-to-Value Ratio",
+    "equity_percent": "Equity Percentage",
+    "equity_amount": "Equity Amount",
+    "pmi_status": "PMI Status",
+    "pmi_required": "PMI Required (LTV > 80%)",
+    "no_pmi": "No PMI Required",
+    "currency": "$",
+    "formula_title": "LTV Formula",
+    "formula_explanation": "LTV = (Loan Amount / Property Value) × 100. An LTV of 80% or below typically means no PMI is required.",
+    "info_title": "About LTV Ratio",
+    "info_description": "The loan-to-value ratio is a critical metric used by lenders to assess risk. Lower LTV ratios indicate more equity and less risk for the lender.",
+    "use_cases_title": "Why Calculate LTV?",
+    "use_case_1": "Check mortgage qualification",
+    "use_case_2": "Determine if PMI is required",
+    "use_case_3": "Evaluate refinancing options",
+    "tips_title": "LTV Guidelines",
+    "tip_1": "LTV below 80% typically avoids PMI",
+    "tip_2": "Lower LTV often means better interest rates",
+    "tip_3": "Most lenders require LTV of 95% or lower",
+    "tip_4": "FHA loans may allow up to 96.5% LTV",
+    "empty_state": "Enter property value and loan amount to calculate LTV",
+    "footer_note": "LTV is a key factor in mortgage approval and terms.",
+    "howItWorks": {
+      "title": "How Does the LTV Calculator Work?",
+      "formula": "LTV Ratio = (Loan Amount / Property Value) × 100",
+      "explanation": "This calculator determines the percentage of your property's value that is financed by a loan. It helps you understand your equity position and mortgage eligibility.",
+      "steps": [
+        {
+          "name": "Enter Property Value",
+          "text": "Input the current market value or appraised value of your property"
+        },
+        {
+          "name": "Enter Loan Amount",
+          "text": "Input the total mortgage balance or loan amount you're seeking"
+        },
+        {
+          "name": "Calculate Ratio",
+          "text": "The calculator divides loan amount by property value to determine LTV percentage"
+        },
+        {
+          "name": "Review Results",
+          "text": "See your LTV ratio, equity percentage, and PMI requirements"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Mortgage Pre-Qualification",
+        "description": "Determine if your LTV ratio meets lender requirements before applying for a mortgage. Most conventional loans require 80-97% LTV."
+      },
+      {
+        "title": "PMI Elimination Planning",
+        "description": "Track your progress toward the 80% LTV threshold where you can request PMI removal, saving hundreds of dollars monthly."
+      },
+      {
+        "title": "Refinancing Assessment",
+        "description": "Evaluate your current LTV to determine eligibility for refinancing options and potentially better interest rates."
+      },
+      {
+        "title": "Home Equity Access",
+        "description": "Calculate available equity for HELOC or home equity loan applications, typically requiring LTV below 80-85%."
+      }
+    ],
+    "seoTips": [
+      "LTV below 80% eliminates PMI requirement and saves money on monthly payments",
+      "Lower LTV ratios typically qualify for better interest rates and loan terms",
+      "Track your LTV as you pay down your mortgage to plan for PMI cancellation",
+      "Consider making extra principal payments to reach the 80% LTV threshold faster",
+      "Property appreciation also reduces LTV - get updated appraisals periodically"
+    ],
+    "commonMistakes": [
+      "Using purchase price instead of current market value for LTV calculation",
+      "Forgetting to include all mortgages and home equity loans in the total loan amount",
+      "Not requesting PMI cancellation when reaching 80% LTV through payments",
+      "Assuming LTV stays the same - it changes with payments and property value fluctuations"
+    ],
+    "faqs": [
+      {
+        "question": "What is a good LTV ratio?",
+        "answer": "An LTV of 80% or below is considered excellent as it avoids PMI. For the best rates, aim for 75% or lower. Anything above 95% may face difficulty getting approved."
+      },
+      {
+        "question": "How does LTV affect my mortgage rate?",
+        "answer": "Lower LTV ratios typically qualify for lower interest rates because they represent less risk to lenders. The difference can be 0.25-0.5% or more between high and low LTV loans."
+      },
+      {
+        "question": "Can I reduce my LTV ratio?",
+        "answer": "Yes, you can reduce LTV by making extra principal payments, waiting for property appreciation, or making home improvements that increase value. Getting a new appraisal may reflect value increases."
+      },
+      {
+        "question": "What is the maximum LTV for different loan types?",
+        "answer": "Conventional loans typically allow up to 97% LTV. FHA loans allow 96.5%. VA loans can go up to 100%. Jumbo loans usually require 80% or lower LTV."
+      },
+      {
+        "question": "Does LTV affect refinancing?",
+        "answer": "Yes, LTV is critical for refinancing. Most refinance programs require LTV of 80-95%. Cash-out refinances typically have lower LTV limits around 80%."
+      }
+    ]
+  }
+}

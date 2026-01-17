@@ -1,0 +1,397 @@
+import { Calculator } from './types';
+
+/**
+ * Fitness & Sports Calculators (30 calculators)
+ * Comprehensive fitness, workout, and sports performance calculation tools
+ */
+const fitnessCalculators: Calculator[] = [
+  // Body Metrics
+  {
+    id: 2800,
+    nameKey: "calc/fitness:body-fat-percentage-calculator.title", name: 'حاسبة نسبة الدهون',
+    nameEn: 'Body Fat Percentage Calculator',
+    descriptionKey: "calc/fitness:body-fat-percentage-calculator.description", description: 'احسب نسبة دهون الجسم',
+    descriptionEn: 'Calculate body fat percentage',
+    category: 'fitness',
+    slug: 'body-fat-percentage-calculator',
+    icon: '📊',
+    keywords: ['دهون', 'body fat', 'percentage'],
+    relatedCalculators: ['bmi-calculator', 'lean-body-mass-calculator'],
+    componentName: 'BodyFatPercentageCalculator'
+  },
+  {
+    id: 2801,
+    nameKey: "calc/fitness:lean-body-mass-calculator.title", name: 'حاسبة الكتلة الخالية من الدهون',
+    nameEn: 'Lean Body Mass Calculator',
+    descriptionKey: "calc/fitness:lean-body-mass-calculator.description", description: 'احسب كتلة العضلات الخالية من الدهون',
+    descriptionEn: 'Calculate lean muscle mass',
+    category: 'fitness',
+    slug: 'lean-body-mass-calculator',
+    icon: '💪',
+    keywords: ['كتلة عضلية', 'lean mass', 'muscle'],
+    relatedCalculators: ['body-fat-calculator', 'muscle-mass-calculator'],
+    componentName: 'LeanBodyMassCalculator'
+  },
+  {
+    id: 2803,
+    nameKey: "calc/fitness:waist-to-hip-ratio-calculator.title", name: 'حاسبة نسبة الخصر للورك',
+    nameEn: 'Waist-to-Hip Ratio Calculator',
+    descriptionKey: "calc/fitness:waist-to-hip-ratio-calculator.description", description: 'احسب نسبة محيط الخصر للورك',
+    descriptionEn: 'Calculate waist-to-hip ratio',
+    category: 'fitness',
+    slug: 'waist-to-hip-ratio-calculator',
+    icon: '📏',
+    keywords: ['خصر ورك', 'whr', 'waist hip'],
+    relatedCalculators: ['waist-to-height-ratio', 'body-shape-calculator'],
+    componentName: 'WaistToHipRatioCalculator'
+  },
+  {
+    id: 2804,
+    nameKey: "calc/fitness:body-frame-size-calculator.title", name: 'حاسبة حجم الهيكل',
+    nameEn: 'Body Frame Size Calculator',
+    descriptionKey: "calc/fitness:body-frame-size-calculator.description", description: 'احسب حجم هيكل الجسم (صغير/متوسط/كبير)',
+    descriptionEn: 'Calculate body frame size (small/medium/large)',
+    category: 'fitness',
+    slug: 'body-frame-size-calculator',
+    icon: '🦴',
+    keywords: ['هيكل', 'frame size', 'body'],
+    relatedCalculators: ['ideal-weight-calculator', 'wrist-size-calculator'],
+    componentName: 'BodyFrameSizeCalculator'
+  },
+
+  // Calorie & Nutrition
+  {
+    id: 2805,
+    nameKey: "calc/fitness:tdee-calculator.title", name: 'حاسبة إجمالي إنفاق الطاقة اليومي',
+    nameEn: 'TDEE Calculator',
+    descriptionKey: "calc/fitness:tdee-calculator.description", description: 'احسب إجمالي السعرات المحروقة يومياً',
+    descriptionEn: 'Calculate total daily energy expenditure',
+    category: 'fitness',
+    slug: 'tdee-calculator',
+    icon: '🔥',
+    keywords: ['tdee', 'سعرات', 'calories'],
+    relatedCalculators: ['bmr-calculator', 'calorie-deficit-calculator'],
+    componentName: 'TDEECalculator'
+  },
+  {
+    id: 2806,
+    nameKey: "calc/fitness:bmr-calculator.title", name: 'حاسبة معدل الأيض الأساسي',
+    nameEn: 'BMR Calculator',
+    descriptionKey: "calc/fitness:bmr-calculator.description", description: 'احسب معدل الأيض الأساسي',
+    descriptionEn: 'Calculate basal metabolic rate',
+    category: 'fitness',
+    slug: 'bmr-calculator',
+    icon: '⚡',
+    keywords: ['bmr', 'أيض', 'metabolism'],
+    relatedCalculators: ['tdee-calculator', 'calorie-calculator'],
+    componentName: 'BMRCalculator'
+  },
+  {
+    id: 2807,
+    nameKey: "calc/fitness:calorie-deficit-calculator.title", name: 'حاسبة عجز السعرات',
+    nameEn: 'Calorie Deficit Calculator',
+    descriptionKey: "calc/fitness:calorie-deficit-calculator.description", description: 'احسب عجز السعرات للتنحيف',
+    descriptionEn: 'Calculate calorie deficit for weight loss',
+    category: 'fitness',
+    slug: 'calorie-deficit-calculator',
+    icon: '📉',
+    keywords: ['عجز سعرات', 'deficit', 'weight loss'],
+    relatedCalculators: ['tdee-calculator', 'weight-loss-calculator'],
+    componentName: 'CalorieDeficitCalculator'
+  },
+  {
+    id: 2808,
+    nameKey: "calc/fitness:macro-calculator.title", name: 'حاسبة المغذيات الكبرى',
+    nameEn: 'Macro Calculator',
+    descriptionKey: "calc/fitness:macro-calculator.description", description: 'احسب احتياجك من البروتين والكربوهيدرات والدهون',
+    descriptionEn: 'Calculate protein, carb, and fat needs',
+    category: 'fitness',
+    slug: 'macro-calculator',
+    icon: '🥗',
+    keywords: ['ماكرو', 'macro', 'protein', 'carbs'],
+    relatedCalculators: ['tdee-calculator', 'meal-planner-calculator'],
+    componentName: 'MacroCalculator'
+  },
+  {
+    id: 2809,
+    nameKey: "calc/fitness:protein-intake-calculator.title", name: 'حاسبة احتياج البروتين',
+    nameEn: 'Protein Intake Calculator',
+    descriptionKey: "calc/fitness:protein-intake-calculator.description", description: 'احسب احتياجك اليومي من البروتين',
+    descriptionEn: 'Calculate daily protein requirements',
+    category: 'fitness',
+    slug: 'protein-intake-calculator',
+    icon: '🥩',
+    keywords: ['بروتين', 'protein', 'intake'],
+    relatedCalculators: ['macro-calculator', 'muscle-gain-calculator'],
+    componentName: 'ProteinIntakeCalculator'
+  },
+  {
+    id: 2810,
+    nameKey: "calc/fitness:water-intake-calculator.title", name: 'حاسبة احتياج الماء',
+    nameEn: 'Water Intake Calculator',
+    descriptionKey: "calc/fitness:water-intake-calculator.description", description: 'احسب احتياجك اليومي من الماء',
+    descriptionEn: 'Calculate daily water requirements',
+    category: 'fitness',
+    slug: 'water-intake-calculator',
+    icon: '💧',
+    keywords: ['ماء', 'water', 'hydration'],
+    relatedCalculators: ['tdee-calculator', 'electrolyte-calculator'],
+    componentName: 'WaterIntakeCalculator'
+  },
+
+  // Workout & Exercise
+  {
+    id: 2811,
+    nameKey: "calc/fitness:one-rep-max-calculator.title", name: 'حاسبة أقصى وزن لتكرار واحد',
+    nameEn: 'One Rep Max Calculator',
+    descriptionKey: "calc/fitness:one-rep-max-calculator.description", description: 'احسب أقصى وزن يمكنك رفعه لتكرار واحد',
+    descriptionEn: 'Calculate 1RM for weightlifting',
+    category: 'fitness',
+    slug: 'one-rep-max-calculator',
+    icon: '🏋️',
+    keywords: ['1rm', 'أقصى وزن', 'weightlifting'],
+    relatedCalculators: ['bench-press-calculator', 'squat-calculator'],
+    componentName: 'OneRepMaxCalculator'
+  },
+  {
+    id: 2812,
+    nameKey: "calc/fitness:workout-volume-calculator.title", name: 'حاسبة حجم التمرين',
+    nameEn: 'Workout Volume Calculator',
+    descriptionKey: "calc/fitness:workout-volume-calculator.description", description: 'احسب حجم التمرين الأسبوعي',
+    descriptionEn: 'Calculate weekly training volume',
+    category: 'fitness',
+    slug: 'workout-volume-calculator',
+    icon: '📊',
+    keywords: ['حجم تمرين', 'volume', 'training'],
+    relatedCalculators: ['one-rep-max-calculator', 'progressive-overload'],
+    componentName: 'WorkoutVolumeCalculator'
+  },
+  {
+    id: 2813,
+    nameKey: "calc/fitness:wilks-coefficient-calculator.title", name: 'حاسبة معامل ويلكس',
+    nameEn: 'Wilks Coefficient Calculator',
+    descriptionKey: "calc/fitness:wilks-coefficient-calculator.description", description: 'احسب معامل ويلكس لقياس قوة رفع الأثقال',
+    descriptionEn: 'Calculate Wilks coefficient for powerlifting',
+    category: 'fitness',
+    slug: 'wilks-coefficient-calculator',
+    icon: '🏆',
+    keywords: ['wilks', 'powerlifting', 'strength'],
+    relatedCalculators: ['one-rep-max-calculator', 'total-strength-calculator'],
+    componentName: 'WilksCoefficientCalculator'
+  },
+  {
+    id: 2814,
+    nameKey: "calc/fitness:pace-calculator.title", name: 'حاسبة سرعة الجري',
+    nameEn: 'Running Pace Calculator',
+    descriptionKey: "calc/fitness:pace-calculator.description", description: 'احسب سرعة الجري لكل كيلومتر أو ميل',
+    descriptionEn: 'Calculate running pace per km/mile',
+    category: 'fitness',
+    slug: 'pace-calculator',
+    icon: '🏃',
+    keywords: ['جري', 'pace', 'running'],
+    relatedCalculators: ['race-time-predictor', 'vo2-max-calculator'],
+    componentName: 'RunningPaceCalculator'
+  },
+  {
+    id: 2815,
+    name: 'حاسبة توقع وقت السباق',
+    nameEn: 'Race Time Predictor',
+    nameKey: 'calc/fitness:race-time-predictor.title',
+    slug: 'race-time-predictor',
+    description: 'توقع وقت انتهاء السباق بناءً على أدائك الحالي',
+    descriptionEn: 'Predict your race finish time based on your current performance.',
+    descriptionKey: 'calc/fitness:race-time-predictor.description',
+    category: 'fitness',
+    icon: '🏁',
+    popularity: 6,
+    componentName: 'RaceTimePredictor'
+  },
+  {
+    id: 2816,
+    nameKey: "calc/fitness:vo2-max-calculator.title", name: 'حاسبة VO2 Max',
+    nameEn: 'VO2 Max Calculator',
+    descriptionKey: "calc/fitness:vo2-max-calculator.description", description: 'احسب الحد الأقصى لاستهلاك الأكسجين',
+    descriptionEn: 'Calculate maximum oxygen consumption',
+    category: 'fitness',
+    slug: 'vo2-max-calculator',
+    icon: '🫁',
+    keywords: ['vo2 max', 'أكسجين', 'oxygen'],
+    relatedCalculators: ['fitness-level-calculator', 'aerobic-capacity'],
+    componentName: 'VO2MaxCalculator'
+  },
+  {
+    id: 2817,
+    nameKey: "calc/fitness:heart-rate-zone-calculator.title", name: 'حاسبة نطاقات معدل القلب',
+    nameEn: 'Heart Rate Zone Calculator',
+    descriptionKey: "calc/fitness:heart-rate-zone-calculator.description", description: 'احسب نطاقات معدل القلب للتمرين',
+    descriptionEn: 'Calculate heart rate training zones',
+    category: 'fitness',
+    slug: 'heart-rate-zone-calculator',
+    icon: '❤️',
+    keywords: ['نبض', 'heart rate', 'zone'],
+    relatedCalculators: ['max-heart-rate-calculator', 'target-heart-rate'],
+    componentName: 'HeartRateZoneCalculator'
+  },
+  {
+    id: 2818,
+    nameKey: "calc/fitness:swimming-pace-calculator.title", name: 'حاسبة سرعة السباحة',
+    nameEn: 'Swimming Pace Calculator',
+    descriptionKey: "calc/fitness:swimming-pace-calculator.description", description: 'احسب سرعة السباحة لكل 100 متر',
+    descriptionEn: 'Calculate swimming pace per 100m',
+    category: 'fitness',
+    slug: 'swimming-pace-calculator',
+    icon: '🏊',
+    keywords: ['سباحة', 'swimming', 'pace'],
+    relatedCalculators: ['swolf-score-calculator', 'stroke-rate-calculator'],
+    componentName: 'SwimmingPaceCalculator'
+  },
+  {
+    id: 2819,
+    nameKey: "calc/fitness:cycling-power-calculator.title", name: 'حاسبة قوة ركوب الدراجات',
+    nameEn: 'Cycling Power Calculator',
+    descriptionKey: "calc/fitness:cycling-power-calculator.description", description: 'احسب القدرة المطلوبة لركوب الدراجات',
+    descriptionEn: 'Calculate cycling power output',
+    category: 'fitness',
+    slug: 'cycling-power-calculator',
+    icon: '🚴',
+    keywords: ['دراجة', 'cycling', 'power', 'watts'],
+    relatedCalculators: ['cycling-speed-calculator', 'ftp-calculator'],
+    componentName: 'CyclingPowerCalculator'
+  },
+
+  // Weight Goals
+  {
+    id: 2820,
+    nameKey: "calc/fitness:weight-loss-time-calculator.title", name: 'حاسبة وقت فقدان الوزن',
+    nameEn: 'Weight Loss Time Calculator',
+    descriptionKey: "calc/fitness:weight-loss-time-calculator.description", description: 'احسب الوقت المطلوب لفقدان الوزن',
+    descriptionEn: 'Calculate time needed to lose weight',
+    category: 'fitness',
+    slug: 'weight-loss-time-calculator',
+    icon: '📅',
+    keywords: ['فقدان وزن', 'weight loss', 'time'],
+    relatedCalculators: ['calorie-deficit-calculator', 'goal-weight-calculator'],
+    componentName: 'WeightLossTimeCalculator'
+  },
+  {
+    id: 2821,
+    nameKey: "calc/fitness:weight-gain-calculator.title", name: 'حاسبة زيادة الوزن',
+    nameEn: 'Weight Gain Calculator',
+    descriptionKey: "calc/fitness:weight-gain-calculator.description", description: 'احسب السعرات لزيادة الوزن والعضلات',
+    descriptionEn: 'Calculate calories for weight and muscle gain',
+    category: 'fitness',
+    slug: 'weight-gain-calculator',
+    icon: '📈',
+    keywords: ['زيادة وزن', 'weight gain', 'bulking'],
+    relatedCalculators: ['calorie-surplus-calculator', 'muscle-gain-calculator'],
+    componentName: 'WeightGainCalculator'
+  },
+  {
+    id: 2822,
+    nameKey: "calc/fitness:body-recomposition-calculator.title", name: 'حاسبة إعادة تكوين الجسم',
+    nameEn: 'Body Recomposition Calculator',
+    descriptionKey: "calc/fitness:body-recomposition-calculator.description", description: 'احسب احتياجاتك لبناء العضلات وحرق الدهون',
+    descriptionEn: 'Calculate needs for building muscle and burning fat',
+    category: 'fitness',
+    slug: 'body-recomposition-calculator',
+    icon: '🔄',
+    keywords: ['إعادة تكوين', 'recomposition', 'body'],
+    relatedCalculators: ['macro-calculator', 'calorie-cycling-calculator'],
+    componentName: 'BodyRecompositionCalculator'
+  },
+
+  // Performance & Recovery
+  {
+    id: 2823,
+    nameKey: "calc/fitness:recovery-time-calculator.title", name: 'حاسبة وقت التعافي',
+    nameEn: 'Recovery Time Calculator',
+    descriptionKey: "calc/fitness:recovery-time-calculator.description", description: 'احسب وقت التعافي بين التمارين',
+    descriptionEn: 'Calculate recovery time between workouts',
+    category: 'fitness',
+    slug: 'recovery-time-calculator',
+    icon: '😴',
+    keywords: ['تعافي', 'recovery', 'rest'],
+    relatedCalculators: ['sleep-calculator', 'workout-frequency-calculator'],
+    componentName: 'RecoveryTimeCalculator'
+  },
+  {
+    id: 2824,
+    nameKey: "calc/fitness:rep-range-calculator.title", name: 'حاسبة نطاق التكرارات',
+    nameEn: 'Rep Range Calculator',
+    descriptionKey: "calc/fitness:rep-range-calculator.description", description: 'احسب نطاق التكرارات المناسب لهدفك',
+    descriptionEn: 'Calculate appropriate rep range for your goal',
+    category: 'fitness',
+    slug: 'rep-range-calculator',
+    icon: '🔢',
+    keywords: ['تكرارات', 'reps', 'range'],
+    relatedCalculators: ['one-rep-max-calculator', 'training-volume-calculator'],
+    componentName: 'RepRangeCalculator'
+  },
+  {
+    id: 2825,
+    nameKey: "calc/fitness:deload-week-calculator.title", name: 'حاسبة أسبوع التخفيف',
+    nameEn: 'Deload Week Calculator',
+    descriptionKey: "calc/fitness:deload-week-calculator.description", description: 'احسب متى تحتاج لأسبوع تخفيف',
+    descriptionEn: 'Calculate when you need a deload week',
+    category: 'fitness',
+    slug: 'deload-week-calculator',
+    icon: '📊',
+    keywords: ['تخفيف', 'deload', 'recovery'],
+    relatedCalculators: ['recovery-calculator', 'training-stress-calculator'],
+    componentName: 'DeloadWeekCalculator'
+  },
+  {
+    id: 2826,
+    nameKey: "calc/fitness:athletic-performance-calculator.title", name: 'حاسبة الأداء الرياضي',
+    nameEn: 'Athletic Performance Calculator',
+    descriptionKey: "calc/fitness:athletic-performance-calculator.description", description: 'احسب مستوى أدائك الرياضي',
+    descriptionEn: 'Calculate your athletic performance level',
+    category: 'fitness',
+    slug: 'athletic-performance-calculator',
+    icon: '🏅',
+    keywords: ['أداء', 'performance', 'athletic'],
+    relatedCalculators: ['fitness-level-calculator', 'strength-standards'],
+    componentName: 'AthleticPerformanceCalculator'
+  },
+  {
+    id: 2827,
+    nameKey: "calc/fitness:training-age-calculator.title", name: 'حاسبة عمر التدريب',
+    nameEn: 'Training Age Calculator',
+    descriptionKey: "calc/fitness:training-age-calculator.description", description: 'احسب عدد سنوات خبرتك التدريبية',
+    descriptionEn: 'Calculate your training experience years',
+    category: 'fitness',
+    slug: 'training-age-calculator',
+    icon: '📅',
+    keywords: ['عمر تدريب', 'training age', 'experience'],
+    relatedCalculators: ['strength-level-calculator', 'progression-calculator'],
+    componentName: 'TrainingAgeCalculator'
+  },
+  {
+    id: 2828,
+    nameKey: "calc/fitness:vertical-jump-calculator.title", name: 'حاسبة القفز العمودي',
+    nameEn: 'Vertical Jump Calculator',
+    descriptionKey: "calc/fitness:vertical-jump-calculator.description", description: 'احسب ارتفاع القفز العمودي والقوة',
+    descriptionEn: 'Calculate vertical jump height and power',
+    category: 'fitness',
+    slug: 'vertical-jump-calculator',
+    icon: '⬆️',
+    keywords: ['قفز', 'vertical jump', 'power'],
+    relatedCalculators: ['explosive-power-calculator', 'plyometric-calculator'],
+    componentName: 'VerticalJumpCalculator'
+  },
+  {
+    id: 2829,
+    nameKey: "calc/fitness:flexibility-score-calculator.title", name: 'حاسبة مرونة الجسم',
+    nameEn: 'Flexibility Score Calculator',
+    descriptionKey: "calc/fitness:flexibility-score-calculator.description", description: 'قيّم مرونة جسمك',
+    descriptionEn: 'Assess your body flexibility',
+    category: 'fitness',
+    slug: 'flexibility-score-calculator',
+    icon: '🧘',
+    keywords: ['مرونة', 'flexibility', 'stretching'],
+    relatedCalculators: ['mobility-assessment', 'rom-calculator'],
+    componentName: 'FlexibilityScoreCalculator'
+  }
+];
+
+export default fitnessCalculators;

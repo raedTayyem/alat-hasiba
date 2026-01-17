@@ -1,0 +1,806 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+/* RTL Support - Enhanced */
+html[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+html[dir="ltr"] {
+  direction: ltr;
+  text-align: left;
+}
+
+/* Fix LTR elements - numbers should always be LTR but align based on context */
+input[type="email"],
+input[type="url"],
+input[type="number"],
+input[type="tel"] {
+  direction: ltr;
+  text-align: left;
+}
+
+/* In RTL context, align number inputs to the right */
+html[dir="rtl"] input[type="email"],
+html[dir="rtl"] input[type="url"],
+html[dir="rtl"] input[type="number"],
+html[dir="rtl"] input[type="tel"] {
+  text-align: right;
+}
+
+/* Hide browser default number input spinners */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+/* Smooth RTL/LTR transition */
+html {
+  transition: direction 0.2s ease-in-out;
+}
+
+* {
+  transition: margin 0.15s ease-in-out, padding 0.15s ease-in-out;
+}
+
+/* Flip icons and control elements that need LTR orientation */
+.flip-horizontal {
+  transform: scaleX(-1);
+}
+
+@layer base {
+  :root {
+    font-family: 'IBM Plex Sans Arabic', sans-serif;
+  }
+
+  /* Fonts loaded via index.html for better performance */
+
+  body {
+    @apply bg-background text-foreground;
+    background-image: linear-gradient(to bottom right, var(--color-background), var(--color-background-alternate));
+    background-attachment: fixed;
+  }
+
+  /* Modern accent elements */
+  .accent-font {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 500;
+  }
+
+  /* Dark mode styles */
+  .dark body {
+    @apply bg-gray-950 text-gray-50;
+    background-image: linear-gradient(to bottom right, var(--color-background), var(--color-background-alternate));
+    background-attachment: fixed;
+  }
+
+  .dark .bg-background {
+    @apply bg-gray-950;
+  }
+
+  .dark .bg-card {
+    @apply bg-gray-900;
+  }
+
+  .dark .text-foreground {
+    @apply text-gray-50;
+  }
+
+  .dark .text-foreground-70 {
+    @apply text-gray-400;
+  }
+
+  .dark .border-border {
+    @apply border-gray-800;
+  }
+
+  /* Glowing text effect in dark mode */
+  .dark .glow-text {
+    text-shadow: 0 0 12px rgba(var(--color-primary-rgb), 0.5);
+  }
+}
+
+/* Custom variables for modern theme */
+:root {
+  /* Light theme colors - Modern Clean Refreshed */
+  --color-primary: #4f46e5;
+  /* Indigo 600 - More modern than royal blue */
+  --color-primary-rgb: 79, 70, 229;
+  --color-primary-hover: #4338ca;
+  /* Indigo 700 */
+  --color-foreground: #1f2937;
+  /* Gray 800 - Softer than pure black */
+  --color-foreground-70: #4b5563;
+  --color-foreground-50: #6b7280;
+  --color-background: #f9fafb;
+  /* Gray 50 - Softer background */
+  --color-background-alternate: #f3f4f6;
+  /* Gray 100 */
+  --color-border: #e5e7eb;
+  /* Gray 200 */
+  --color-card: #ffffff;
+  /* White card */
+  --color-error: #ef4444;
+  --color-success: #10b981;
+  --color-warning: #f59e0b;
+  --color-info: #3b82f6;
+}
+
+/* Dark theme colors - Modern Clean Refreshed */
+.dark {
+  --color-primary: #818cf8;
+  /* Indigo 400 - Better visibility on dark */
+  --color-primary-rgb: 129, 140, 248;
+  --color-primary-hover: #6366f1;
+  /* Indigo 500 */
+  --color-foreground: #f9fafb;
+  /* Gray 50 */
+  --color-foreground-70: #d1d5db;
+  --color-foreground-50: #9ca3af;
+  --color-background: #030712;
+  /* Gray 950 - Deeper black for better contrast */
+  --color-background-alternate: #111827;
+  /* Gray 900 */
+  --color-border: #1f2937;
+  /* Gray 800 */
+  --color-card: #111827;
+  /* Gray 900 - Matches alternate bg for seamless look or slightly lighter */
+  --color-error: #fca5a5;
+  --color-success: #6ee7b7;
+  --color-warning: #fcd34d;
+  --color-info: #93c5fd;
+}
+
+@layer components {
+
+  /* Button styles - Modern Clean */
+  .btn-primary {
+    @apply bg-primary text-white rounded-lg px-4 py-2 font-medium transition-all hover:bg-primary-hover focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 shadow-sm;
+    box-shadow: 0 2px 4px rgba(var(--color-primary-rgb), 0.2);
+  }
+
+  .btn-secondary {
+    @apply bg-background-alternate text-foreground border border-border rounded-lg px-4 py-2 font-medium transition-all hover:bg-background focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 shadow-sm;
+  }
+
+  .btn-outline {
+    @apply border border-primary text-primary bg-transparent rounded-lg px-4 py-2 font-medium transition-all hover:bg-primary-10 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2;
+  }
+
+  /* Enhanced button styles for calculators */
+  .primary-button {
+    @apply bg-primary text-white font-semibold rounded-xl px-6 py-3 transition-all duration-200 hover:bg-primary-hover hover:shadow-xl shadow-lg focus:outline-none focus:ring-4 focus:ring-primary focus:ring-opacity-30 active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed;
+    /* box-shadow: 0 4px 12px rgba(var(--color-primary-rgb), 0.25); */
+  }
+
+  .secondary-button {
+    @apply bg-background-alternate text-foreground font-medium rounded-xl px-6 py-3 border border-border transition-all duration-200 hover:bg-card hover:border-primary-30 hover:shadow-md focus:outline-none focus:ring-4 focus:ring-primary focus:ring-opacity-20 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .outline-button {
+    @apply border-2 border-primary text-primary bg-transparent font-medium rounded-xl px-6 py-3 transition-all duration-200 hover:bg-primary-5 hover:border-primary-hover hover:shadow-md focus:outline-none focus:ring-4 focus:ring-primary focus:ring-opacity-20 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .danger-button {
+    @apply bg-error text-white font-medium rounded-xl px-6 py-3 transition-all duration-200 hover:bg-error-90 hover:shadow-lg focus:outline-none focus:ring-4 focus:ring-error focus:ring-opacity-30 active:scale-95 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  /* Input fields - Fixed for RTL */
+  .input-field {
+    @apply block w-full rounded-lg border border-border bg-background px-4 py-2 text-foreground shadow-sm placeholder-foreground-50 focus:outline-none focus:ring-2 focus:ring-primary focus:border-primary text-center;
+    transition: all 0.2s ease-in-out;
+  }
+
+  /* Align placeholders based on direction */
+  html[dir="rtl"] .input-field::placeholder {
+    text-align: center;
+  }
+
+  html[dir="ltr"] .input-field::placeholder {
+    text-align: center;
+  }
+
+  /* Left-align specific input types */
+  input[type="email"].input-field,
+  input[type="url"].input-field,
+  input[type="tel"].input-field {
+    text-align: left;
+    direction: ltr;
+  }
+  
+  input[type="number"].input-field {
+    text-align: center;
+    direction: ltr;
+  }
+
+  /* Enhanced calculator input styles */
+  .calculator-input {
+    @apply w-full rounded-xl border-2 border-border bg-background px-4 py-3 text-base font-medium text-foreground text-center placeholder-foreground-50 transition-all duration-200 hover:border-primary-40 focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary focus:ring-opacity-10 disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .calculator-select {
+    @apply w-full rounded-xl border-2 border-border bg-background px-4 py-3 text-base font-medium text-foreground transition-all duration-200 hover:border-primary-40 focus:outline-none focus:border-primary focus:ring-4 focus:ring-primary focus:ring-opacity-10 disabled:opacity-50 disabled:cursor-not-allowed cursor-pointer;
+  }
+
+  .calculator-section-title {
+    @apply text-lg font-bold text-foreground mb-4 flex items-center gap-2;
+  }
+
+  .calculator-section-title::before {
+    content: '';
+    @apply w-1 h-6 bg-primary rounded-full;
+  }
+
+  /* Card styles - Modern Clean with subtle shadow */
+  .card {
+    @apply bg-card rounded-xl border border-border p-6;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.03);
+    backdrop-filter: blur(8px);
+  }
+
+  /* Calculator specific styles */
+  .calculator-container {
+    @apply p-6 md:p-8 bg-card border border-border rounded-2xl;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(12px);
+  }
+
+  /* Enhanced card variations */
+  .card-bg {
+    @apply bg-background-alternate rounded-xl border border-border;
+  }
+
+  .card-elevated {
+    @apply bg-card rounded-xl border border-border p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  }
+
+  .card-interactive {
+    @apply bg-card rounded-xl border border-border p-6 cursor-pointer transition-all duration-200 hover:border-primary-50 hover:shadow-lg active:scale-98;
+  }
+
+  /* Result cards */
+  .result-card {
+    @apply bg-gradient-to-br from-primary-5 to-primary-10 border-2 border-primary-20 rounded-xl p-6 backdrop-blur-sm;
+  }
+
+  .result-card-success {
+    @apply bg-gradient-to-br from-success-5 to-success-10 border-2 border-success-20 rounded-xl p-6 backdrop-blur-sm;
+  }
+
+  .result-card-warning {
+    @apply bg-gradient-to-br from-warning-5 to-warning-10 border-2 border-warning-20 rounded-xl p-6 backdrop-blur-sm;
+  }
+
+  .result-card-error {
+    @apply bg-gradient-to-br from-error-5 to-error-10 border-2 border-error-20 rounded-xl p-6 backdrop-blur-sm;
+  }
+
+  /* Divider styles */
+  .divider {
+    @apply border-t border-border;
+  }
+
+  .divider-primary {
+    @apply border-t-2 border-primary-20;
+  }
+
+  /* Modern border styling with gradient */
+  .gradient-border {
+    position: relative;
+    border-radius: 0.75rem;
+    background-clip: padding-box;
+    padding: 1px;
+  }
+
+  .gradient-border::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+    margin: -1px;
+    border-radius: inherit;
+    background: linear-gradient(120deg, var(--color-primary), var(--color-success));
+  }
+
+  /* Glowing effect for text elements */
+  .glow-text {
+    font-family: 'Tajawal', sans-serif;
+    font-weight: 500;
+  }
+}
+
+/* Utility classes */
+.text-primary {
+  color: var(--color-primary);
+}
+
+.text-foreground {
+  color: var(--color-foreground);
+}
+
+.text-foreground-70 {
+  color: var(--color-foreground-70);
+}
+
+.text-foreground-50 {
+  color: var(--color-foreground-50);
+}
+
+.bg-background {
+  background-color: var(--color-background);
+}
+
+.bg-background-alternate {
+  background-color: var(--color-background-alternate);
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+  color: var(--color-card);
+}
+
+.bg-card {
+  background-color: var(--color-card);
+}
+
+.border-border {
+  border-color: var(--color-border);
+}
+
+.border-primary {
+  border-color: var(--color-primary);
+}
+
+/* Glass effect for modern UI */
+.glass-effect {
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dark .glass-effect {
+  background: rgba(31, 41, 55, 0.5);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+/* Performance optimizations */
+img,
+video {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Prevent Cumulative Layout Shift */
+img,
+iframe,
+video {
+  aspect-ratio: attr(width) / attr(height);
+}
+
+/* Print styles for better accessibility */
+@media print {
+  .no-print {
+    display: none !important;
+  }
+
+  body {
+    background: white !important;
+    color: black !important;
+  }
+}
+
+/* Enhanced Animations */
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes slideInRight {
+  from {
+    opacity: 0;
+    transform: translateX(-20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slideInLeft {
+  from {
+    opacity: 0;
+    transform: translateX(20px);
+  }
+
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes scaleIn {
+  from {
+    opacity: 0;
+    transform: scale(0.95);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+@keyframes pulse {
+
+  0%,
+  100% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0.5;
+  }
+}
+
+@keyframes bounce {
+
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-out;
+}
+
+.animate-slideInRight {
+  animation: slideInRight 0.4s ease-out;
+}
+
+.animate-slideInLeft {
+  animation: slideInLeft 0.4s ease-out;
+}
+
+.animate-scaleIn {
+  animation: scaleIn 0.3s ease-out;
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
+
+.animate-bounce {
+  animation: bounce 1s infinite;
+}
+
+/* Toast notification animations */
+@keyframes slide-in-right {
+  from {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-out-right {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(100%);
+  }
+}
+
+@keyframes slide-in-left {
+  from {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+@keyframes slide-out-left {
+  from {
+    opacity: 1;
+    transform: translateX(0);
+  }
+  to {
+    opacity: 0;
+    transform: translateX(-100%);
+  }
+}
+
+.animate-slide-in-right {
+  animation: slide-in-right 0.3s ease-out forwards;
+}
+
+.animate-slide-out-right {
+  animation: slide-out-right 0.3s ease-out forwards;
+}
+
+.animate-slide-in-left {
+  animation: slide-in-left 0.3s ease-out forwards;
+}
+
+.animate-slide-out-left {
+  animation: slide-out-left 0.3s ease-out forwards;
+}
+
+/* Utility classes for responsive spacing */
+@media (max-width: 640px) {
+  .calculator-container {
+    @apply p-4;
+  }
+
+  .primary-button,
+  .secondary-button,
+  .outline-button {
+    @apply px-4 py-2 text-sm;
+  }
+}
+
+/* Custom radio button styles */
+.custom-radio input[type="radio"] {
+  @apply sr-only;
+}
+
+.custom-radio input[type="radio"]:checked+span {
+  @apply bg-primary-10 border-primary text-primary;
+}
+
+.custom-radio span {
+  @apply inline-flex items-center justify-center px-4 py-2 rounded-lg border-2 border-border transition-all duration-200 cursor-pointer hover:border-primary-50 hover:bg-primary-5;
+}
+
+/* Custom checkbox styles */
+.custom-checkbox input[type="checkbox"] {
+  @apply sr-only;
+}
+
+.custom-checkbox input[type="checkbox"]:checked+span::before {
+  @apply bg-primary border-primary;
+  content: '✓';
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.custom-checkbox span {
+  @apply inline-flex items-center gap-2 cursor-pointer;
+}
+
+.custom-checkbox span::before {
+  content: '';
+  @apply w-5 h-5 rounded border-2 border-border transition-all duration-200 hover:border-primary-50;
+}
+
+/* Tooltip enhancements */
+.tooltip-wrapper {
+  @apply relative inline-block;
+}
+
+.tooltip-content {
+  @apply invisible absolute z-50 px-3 py-2 text-sm bg-gray-900 text-white rounded-lg shadow-lg transition-all duration-200 opacity-0 bottom-full left-1/2 transform -translate-x-1/2 -translate-y-2;
+  white-space: nowrap;
+}
+
+.tooltip-wrapper:hover .tooltip-content {
+  @apply visible opacity-100;
+}
+
+/* Loading skeleton */
+.skeleton {
+  @apply bg-foreground-10 rounded animate-pulse;
+}
+
+.skeleton-text {
+  @apply h-4 bg-foreground-10 rounded animate-pulse;
+}
+
+.skeleton-circle {
+  @apply rounded-full bg-foreground-10 animate-pulse;
+}
+
+/* Arabic date input styles */
+.date-input-rtl {
+  direction: rtl;
+  text-align: right;
+  width: 100%;
+  position: relative;
+}
+
+/* Move calendar icon to left side for RTL */
+.date-input-rtl::-webkit-calendar-picker-indicator {
+  position: absolute;
+  left: 10px;
+  right: auto;
+}
+
+/* Firefox-specific */
+.date-input-rtl::-moz-calendar-picker-indicator {
+  position: absolute;
+  left: 10px;
+  right: auto;
+}
+
+/* Global date input RTL styling for all calculators */
+html[dir="rtl"] input[type="date"] {
+  direction: rtl !important;
+  text-align: right !important;
+  position: relative !important;
+  width: 100% !important;
+  padding-left: 30px !important;
+  /* Make room for the calendar icon */
+  padding-right: 10px !important;
+  font-family: 'IBM Plex Sans Arabic', sans-serif !important;
+}
+
+html[dir="ltr"] input[type="date"] {
+  direction: ltr !important;
+  text-align: left !important;
+  position: relative !important;
+  width: 100% !important;
+  padding-right: 30px !important;
+  /* Make room for the calendar icon */
+  padding-left: 10px !important;
+}
+
+/* Move calendar icon to left for all date inputs */
+input[type="date"]::-webkit-calendar-picker-indicator {
+  position: absolute !important;
+  left: 10px !important;
+  right: auto !important;
+  cursor: pointer !important;
+  padding: 5px !important;
+}
+
+input[type="date"]::-moz-calendar-picker-indicator {
+  position: absolute !important;
+  left: 10px !important;
+  right: auto !important;
+  cursor: pointer !important;
+  padding: 5px !important;
+}
+
+/* Ensure date input value text stays RTL */
+html[dir="rtl"] input[type="date"]::-webkit-datetime-edit {
+  direction: rtl !important;
+  text-align: right !important;
+  width: 100% !important;
+  padding-right: 0 !important;
+}
+
+html[dir="rtl"] input[type="date"]::-moz-datetime-edit {
+  direction: rtl !important;
+  text-align: right !important;
+  width: 100% !important;
+  padding-right: 0 !important;
+}
+
+/* Fix for clear button in date inputs */
+html[dir="rtl"] input[type="date"]::-webkit-clear-button {
+  margin-right: 10px !important;
+  margin-left: 0 !important;
+}
+
+html[dir="rtl"] input[type="date"]::-moz-clear-button {
+  margin-right: 10px !important;
+  margin-left: 0 !important;
+}
+
+/* Handle any additional wrappers that might affect positioning */
+html[dir="rtl"] .date-wrapper input[type="date"],
+html[dir="rtl"] .date-field input[type="date"],
+html[dir="rtl"] .input-date-container input[type="date"],
+html[dir="rtl"] .date-input-container input[type="date"] {
+  direction: rtl !important;
+  text-align: right !important;
+}
+
+/* Fix for specific calculators */
+html[dir="rtl"] .AgeCalculator input[type="date"],
+html[dir="rtl"] .PregnancyCalculator input[type="date"],
+html[dir="rtl"] .BiorhythmCalculator input[type="date"],
+html[dir="rtl"] .DateCalculator input[type="date"],
+html[dir="rtl"] .DayOfWeekCalculator input[type="date"],
+html[dir="rtl"] .BarBatMitzvahCalculator input[type="date"],
+html[dir="rtl"] .LunarAgeCalculator input[type="date"],
+html[dir="rtl"] .NumerologyCalculator input[type="date"] {
+  text-align: right !important;
+  direction: rtl !important;
+}
+
+/* Fix for any inputs with ltr class */
+html[dir="rtl"] input[type="date"].ltr {
+  text-align: right !important;
+  direction: rtl !important;
+}
+
+/* Override inline styles that might be added by libraries */
+html[dir="rtl"] input[type="date"][style*="text-align: left"] {
+  text-align: right !important;
+}
+
+html[dir="rtl"] input[type="date"][style*="direction: ltr"] {
+  direction: rtl !important;
+}
+
+/* ===========================================
+   PERFORMANCE OPTIMIZATIONS
+   =========================================== */
+
+/* Reduce backdrop-filter on mobile for better performance */
+@media (max-width: 768px), (prefers-reduced-motion: reduce) {
+  .card,
+  .calculator-container,
+  .result-card,
+  .result-card-success,
+  .result-card-warning,
+  .result-card-error {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+}
+
+/* Content visibility optimization for off-screen content */
+.calculator-container,
+.card {
+  content-visibility: auto;
+  contain-intrinsic-size: auto 300px;
+}
+
+/* Optimize animations for reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* GPU acceleration hints for smooth scrolling */
+.smooth-scroll {
+  will-change: scroll-position;
+}
+
+/* Contain layout for better paint performance */
+main {
+  contain: layout style;
+}

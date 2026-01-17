@@ -1,0 +1,1141 @@
+{
+    "title": "Geometry Calculators",
+    "description": "Advanced tools to calculate area, perimeter, and properties of various geometric shapes for students and professionals.",
+    "triangle-calculator": {
+        "title": "Triangle Calculator",
+        "description": "Calculate area, perimeter, and properties of different types of triangles.",
+        "howItWorks": {
+            "title": "How Triangle Calculator Works",
+            "formula": "Area = (base × height) / 2 or using Heron's formula for SSS",
+            "explanation": "Calculate triangle properties using various methods depending on known values: base and height, three sides (SSS), or two sides and included angle (SAS).",
+            "steps": [
+                "Select your calculation method",
+                "Enter the known measurements",
+                "Click Calculate to see area and perimeter",
+                "View additional properties like angles and classification"
+            ]
+        },
+        "useCases": [
+            "Solving geometry homework and exam problems",
+            "Calculating land area for surveying",
+            "Architecture and construction planning",
+            "Engineering and design applications"
+        ],
+        "seoTips": [
+            "Heron's formula works when you know all three sides",
+            "For right triangles, use base × height / 2",
+            "The sum of angles in any triangle is 180 degrees",
+            "The longest side is opposite the largest angle"
+        ],
+        "commonMistakes": [
+            "Confusing height with side length",
+            "Using slant height instead of perpendicular height",
+            "Forgetting to divide by 2 in the area formula",
+            "Not checking if given sides can form a valid triangle"
+        ],
+        "faqs": [
+            {
+                "question": "What is Heron's formula?",
+                "answer": "Heron's formula calculates area from three sides: A = sqrt(s(s-a)(s-b)(s-c)) where s is the semi-perimeter (a+b+c)/2."
+            },
+            {
+                "question": "How do I find the height of a triangle?",
+                "answer": "Height = 2 × Area / Base. You can also use trigonometry: height = side × sin(angle) for non-right triangles."
+            },
+            {
+                "question": "What makes a valid triangle?",
+                "answer": "The sum of any two sides must be greater than the third side. This is the triangle inequality theorem."
+            }
+        ]
+    },
+    "circle-calculator": {
+        "title": "Circle Calculator",
+        "description": "Calculate area, circumference, diameter, and radius of a circle easily.",
+        "howItWorks": {
+            "title": "How Circle Calculator Works",
+            "formula": "Area = pi × r², Circumference = 2 × pi × r",
+            "explanation": "Calculate all circle properties from any single known value - radius, diameter, circumference, or area. All values are mathematically related through pi.",
+            "steps": [
+                "Select which value you know",
+                "Enter the known measurement",
+                "Click Calculate to see all circle properties",
+                "View radius, diameter, circumference, and area"
+            ]
+        },
+        "useCases": [
+            "Calculating circular garden or pool dimensions",
+            "Engineering circular components",
+            "Finding wheel or tire measurements",
+            "Academic geometry problems"
+        ],
+        "seoTips": [
+            "Diameter is always twice the radius",
+            "Pi (pi) is approximately 3.14159",
+            "Circumference is the distance around the circle",
+            "Area grows with the square of the radius"
+        ],
+        "commonMistakes": [
+            "Confusing radius with diameter",
+            "Forgetting to square the radius for area",
+            "Using diameter in the radius formula",
+            "Not using enough decimal places for pi"
+        ],
+        "faqs": [
+            {
+                "question": "What is pi?",
+                "answer": "Pi (pi) is the ratio of a circle's circumference to its diameter, approximately 3.14159. It's an irrational number with infinite non-repeating decimals."
+            },
+            {
+                "question": "How do I find diameter from circumference?",
+                "answer": "Diameter = Circumference / pi. Simply divide the circumference by pi (approximately 3.14159)."
+            },
+            {
+                "question": "Why is area proportional to radius squared?",
+                "answer": "As you scale a circle, both dimensions (width and height) grow, so area grows with the square. Doubling the radius quadruples the area."
+            }
+        ]
+    },
+    "rectangle-calculator": {
+        "title": "Rectangle Calculator",
+        "description": "Calculate area, perimeter, and diagonal length of rectangles and squares.",
+        "howItWorks": {
+            "title": "How Rectangle Calculator Works",
+            "formula": "Area = length × width, Perimeter = 2(length + width)",
+            "explanation": "Calculate rectangle properties from length and width measurements, including area, perimeter, and diagonal length using the Pythagorean theorem.",
+            "steps": [
+                "Enter the length of the rectangle",
+                "Enter the width of the rectangle",
+                "Click Calculate to see all properties",
+                "View area, perimeter, and diagonal"
+            ]
+        },
+        "useCases": [
+            "Calculating room area for flooring",
+            "Measuring garden or yard dimensions",
+            "Construction and home improvement projects",
+            "Packaging and material calculations"
+        ],
+        "seoTips": [
+            "A square is a special rectangle with equal sides",
+            "Diagonal can be found using Pythagorean theorem",
+            "Perimeter is the total distance around the shape",
+            "Area is measured in square units"
+        ],
+        "commonMistakes": [
+            "Confusing perimeter with area",
+            "Using the wrong units for area vs length",
+            "Forgetting that diagonal requires Pythagorean theorem",
+            "Not converting units before calculating"
+        ],
+        "faqs": [
+            {
+                "question": "How do I calculate the diagonal?",
+                "answer": "Use the Pythagorean theorem: Diagonal = sqrt(length² + width²). The diagonal is the longest straight line inside the rectangle."
+            },
+            {
+                "question": "What's the difference between perimeter and area?",
+                "answer": "Perimeter is the total length around the outside (measured in units). Area is the space inside (measured in square units)."
+            },
+            {
+                "question": "Can I find length and width from area alone?",
+                "answer": "No, infinite combinations of length and width can produce the same area. You need both area and either perimeter or one dimension."
+            }
+        ]
+    },
+    "parallelogram-calculator": {
+        "title": "Parallelogram Calculator",
+        "description": "Calculate area and perimeter of parallelograms and related quadrilaterals.",
+        "howItWorks": {
+            "title": "How Parallelogram Calculator Works",
+            "formula": "Area = base × height, Perimeter = 2(base + side)",
+            "explanation": "Calculate parallelogram properties using base, side, and height measurements. The height must be perpendicular to the base.",
+            "steps": [
+                "Enter the base length",
+                "Enter the side length",
+                "Enter the perpendicular height",
+                "View calculated area and perimeter"
+            ]
+        },
+        "useCases": [
+            "Architecture and construction design",
+            "Calculating slanted roof areas",
+            "Land surveying with non-rectangular plots",
+            "Engineering and manufacturing"
+        ],
+        "seoTips": [
+            "Height must be perpendicular to the base",
+            "Opposite sides are equal in length",
+            "A rectangle is a special parallelogram",
+            "Diagonals bisect each other but are not equal"
+        ],
+        "commonMistakes": [
+            "Using slant side as height",
+            "Confusing side length with height",
+            "Not measuring height perpendicular to base",
+            "Treating it like a rectangle"
+        ],
+        "faqs": [
+            {
+                "question": "What is the height of a parallelogram?",
+                "answer": "The height is the perpendicular distance between the base and its parallel opposite side, not the slant side length."
+            },
+            {
+                "question": "How is a parallelogram different from a rectangle?",
+                "answer": "A rectangle has 90-degree angles. A parallelogram has parallel opposite sides but angles can be any value (they just need to be supplementary)."
+            },
+            {
+                "question": "Can I find area from sides only?",
+                "answer": "No, you need the height or an angle. The same base and sides can create different parallelograms with different areas."
+            }
+        ]
+    },
+    "analytic-geometry": {
+        "title": "Analytic Geometry Calculator",
+        "description": "Solve problems involving distance between points, midpoint, and slope in Cartesian coordinates.",
+        "howItWorks": {
+            "title": "How Analytic Geometry Calculator Works",
+            "formula": "Distance = sqrt((x2-x1)² + (y2-y1)²), Slope = (y2-y1)/(x2-x1)",
+            "explanation": "Calculate relationships between points on a coordinate plane including distance, midpoint, and slope using fundamental coordinate geometry formulas.",
+            "steps": [
+                "Enter coordinates for the first point (x1, y1)",
+                "Enter coordinates for the second point (x2, y2)",
+                "Click Calculate to see results",
+                "View distance, midpoint, and slope"
+            ]
+        },
+        "useCases": [
+            "Solving coordinate geometry problems",
+            "Finding distances on maps",
+            "Computer graphics programming",
+            "Navigation and GPS calculations"
+        ],
+        "seoTips": [
+            "The distance formula comes from Pythagorean theorem",
+            "Slope is undefined for vertical lines",
+            "Parallel lines have equal slopes",
+            "Perpendicular lines have negative reciprocal slopes"
+        ],
+        "commonMistakes": [
+            "Mixing up x and y coordinates",
+            "Forgetting order matters for slope direction",
+            "Not recognizing undefined slope for vertical lines",
+            "Confusing midpoint with average"
+        ],
+        "faqs": [
+            {
+                "question": "Why is slope undefined for vertical lines?",
+                "answer": "Slope is rise/run. Vertical lines have zero run (x2-x1 = 0), causing division by zero, which is undefined."
+            },
+            {
+                "question": "How do I find the equation of a line?",
+                "answer": "Use point-slope form: y - y1 = m(x - x1) where m is the slope and (x1, y1) is any point on the line."
+            },
+            {
+                "question": "What does negative slope mean?",
+                "answer": "Negative slope means the line goes down from left to right. Positive slope goes up from left to right."
+            }
+        ]
+    },
+    "bezier-curve-calculator": {
+        "title": "Bezier Curve Calculator",
+        "description": "Calculate and model Bezier curves used in design and computer graphics.",
+        "howItWorks": {
+            "title": "How Bezier Curve Calculator Works",
+            "formula": "B(t) = (1-t)²P0 + 2(1-t)tP1 + t²P2 (Quadratic)",
+            "explanation": "Calculate points along Bezier curves using control points. The parameter t ranges from 0 (start) to 1 (end) and determines position along the curve.",
+            "steps": [
+                "Select curve type (Quadratic or Cubic)",
+                "Enter control point coordinates",
+                "Set the parameter t value (0 to 1)",
+                "View the calculated point on the curve"
+            ]
+        },
+        "useCases": [
+            "Vector graphics design (Adobe Illustrator, Figma)",
+            "Animation path creation",
+            "Font design and typography",
+            "CSS transitions and easing functions"
+        ],
+        "seoTips": [
+            "Quadratic curves have one control point",
+            "Cubic curves have two control points",
+            "The curve never passes through interior control points",
+            "End points are always on the curve"
+        ],
+        "commonMistakes": [
+            "Expecting curve to pass through control points",
+            "Using t values outside 0-1 range",
+            "Confusing quadratic and cubic curve properties",
+            "Not understanding the parametric nature"
+        ],
+        "faqs": [
+            {
+                "question": "What is the parameter t?",
+                "answer": "Parameter t represents position along the curve from 0 (start point) to 1 (end point). At t=0.5, you're at the middle of the curve."
+            },
+            {
+                "question": "Why don't curves pass through control points?",
+                "answer": "Control points 'pull' the curve toward them without touching. Only the start and end points are guaranteed to be on the curve."
+            },
+            {
+                "question": "When should I use cubic vs quadratic?",
+                "answer": "Quadratic is simpler with less control. Cubic offers more flexibility with two control points, useful for complex curves like the letter S."
+            }
+        ]
+    },
+    "coordinates-calculator": {
+        "title": "Coordinates Calculator",
+        "description": "Convert between different coordinate systems like Cartesian and Polar.",
+        "howItWorks": {
+            "title": "How Coordinates Calculator Works",
+            "formula": "r = sqrt(x² + y²), theta = atan2(y, x) for Cartesian to Polar",
+            "explanation": "Convert points between Cartesian (x, y) and Polar (r, theta) coordinate systems using trigonometric relationships.",
+            "steps": [
+                "Select conversion direction",
+                "Enter coordinates in the source system",
+                "Choose angle unit (degrees or radians)",
+                "View converted coordinates"
+            ]
+        },
+        "useCases": [
+            "Physics problems involving circular motion",
+            "Engineering and robotics",
+            "Navigation and mapping",
+            "Computer graphics and game development"
+        ],
+        "seoTips": [
+            "Polar coordinates describe distance and angle from origin",
+            "Cartesian uses perpendicular x and y axes",
+            "Radians are often preferred in calculations",
+            "360 degrees equals 2pi radians"
+        ],
+        "commonMistakes": [
+            "Mixing up degrees and radians",
+            "Forgetting quadrant considerations for angles",
+            "Using wrong trigonometric functions",
+            "Not handling negative coordinates properly"
+        ],
+        "faqs": [
+            {
+                "question": "When should I use polar coordinates?",
+                "answer": "Use polar when dealing with circular motion, angles, or radial symmetry. Problems involving rotation are often simpler in polar form."
+            },
+            {
+                "question": "How do I convert degrees to radians?",
+                "answer": "Multiply degrees by pi/180. For example, 90 degrees = 90 × pi/180 = pi/2 radians."
+            },
+            {
+                "question": "Why use atan2 instead of atan?",
+                "answer": "atan2(y, x) handles all four quadrants correctly, while atan(y/x) loses information about which quadrant the point is in."
+            }
+        ]
+    },
+    "analytic_geometry": {
+        "title": "Analytic Geometry Calculator",
+        "description": "Solve problems involving distance between points, midpoint, and slope in Cartesian coordinates.",
+        "x1": "X1",
+        "x1_tooltip": "X-coordinate of the first point",
+        "y1": "Y1",
+        "y1_tooltip": "Y-coordinate of the first point",
+        "x2": "X2",
+        "x2_tooltip": "X-coordinate of the second point",
+        "y2": "Y2",
+        "y2_tooltip": "Y-coordinate of the second point",
+        "x1_placeholder": "e.g., 0",
+        "y1_placeholder": "e.g., 0",
+        "x2_placeholder": "e.g., 3",
+        "y2_placeholder": "e.g., 4",
+        "info_title": "About Analytic Geometry",
+        "info_description": "Analytic geometry connects algebra and geometry using coordinates. It allows geometric problems to be solved algebraically.",
+        "formulas_title": "Formulas Used",
+        "formula_distance": "Distance: d = √[(x₂-x₁)² + (y₂-y₁)²]",
+        "formula_midpoint": "Midpoint: M = ((x₁+x₂)/2, (y₁+y₂)/2)",
+        "formula_slope": "Slope: m = (y₂-y₁)/(x₂-x₁)",
+        "result_distance": "Distance",
+        "unit_length": "units",
+        "additional_info": "Additional Information",
+        "midpoint": "Midpoint",
+        "slope": "Slope",
+        "undefined": "Undefined (Vertical Line)",
+        "formula_explanation_title": "Understanding the Results",
+        "formula_explanation": "Distance is the length of the segment connecting the points. Midpoint is the center of that segment. Slope represents the steepness and direction.",
+        "error_invalid_input": "Please enter valid numerical coordinates",
+        "error_calculation": "An error occurred during calculation",
+        "howItWorks": {
+            "title": "How Analytic Geometry Calculator Works",
+            "formula": "Distance = √[(x₂-x₁)² + (y₂-y₁)²], Midpoint = ((x₁+x₂)/2, (y₁+y₂)/2), Slope = (y₂-y₁)/(x₂-x₁)",
+            "explanation": "This calculator uses coordinate geometry formulas to analyze the relationship between two points in a Cartesian plane. It computes the distance using the Pythagorean theorem, finds the midpoint by averaging coordinates, and calculates slope as the ratio of vertical to horizontal change.",
+            "steps": [
+                {
+                    "name": "Enter First Point",
+                    "text": "Input the x and y coordinates of the first point (x₁, y₁)"
+                },
+                {
+                    "name": "Enter Second Point",
+                    "text": "Input the x and y coordinates of the second point (x₂, y₂)"
+                },
+                {
+                    "name": "Calculate Distance",
+                    "text": "The calculator applies the distance formula derived from the Pythagorean theorem"
+                },
+                {
+                    "name": "Find Midpoint",
+                    "text": "Coordinates are averaged to find the point exactly between both points"
+                },
+                {
+                    "name": "Determine Slope",
+                    "text": "The rise over run ratio is calculated to determine the line's steepness"
+                }
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Navigation and GPS",
+                "description": "Calculate straight-line distances between two locations on a map using their coordinates"
+            },
+            {
+                "title": "Computer Graphics",
+                "description": "Determine positions, distances, and angles for rendering objects in 2D games and applications"
+            },
+            {
+                "title": "Construction and Surveying",
+                "description": "Find midpoints for placing markers or calculate slopes for drainage and accessibility requirements"
+            },
+            {
+                "title": "Academic Problem Solving",
+                "description": "Solve coordinate geometry problems for mathematics courses and standardized tests"
+            }
+        ],
+        "seoTips": [
+            "The distance formula is derived from the Pythagorean theorem applied to coordinate differences",
+            "Slope is undefined for vertical lines where x₁ equals x₂",
+            "Parallel lines share the same slope value",
+            "Perpendicular lines have slopes that are negative reciprocals of each other",
+            "The midpoint divides a line segment into two equal parts"
+        ],
+        "commonMistakes": [
+            "Mixing up x and y coordinates when entering point values",
+            "Forgetting that slope is undefined when the line is vertical (x₁ = x₂)",
+            "Not squaring the coordinate differences before adding in the distance formula",
+            "Confusing the order of subtraction which affects the sign of the slope",
+            "Using the wrong formula for distance vs. midpoint calculations"
+        ],
+        "faqs": [
+            {
+                "question": "What is the distance formula and where does it come from?",
+                "answer": "The distance formula d = √[(x₂-x₁)² + (y₂-y₁)²] is derived from the Pythagorean theorem. The horizontal and vertical distances between two points form the legs of a right triangle, and the distance is the hypotenuse."
+            },
+            {
+                "question": "Why is slope sometimes undefined?",
+                "answer": "Slope becomes undefined when dealing with vertical lines because the formula requires division by (x₂-x₁). When both x-coordinates are equal, this results in division by zero, which is mathematically undefined."
+            },
+            {
+                "question": "How can I find the equation of a line using two points?",
+                "answer": "First calculate the slope using m = (y₂-y₁)/(x₂-x₁), then use the point-slope form: y - y₁ = m(x - x₁). You can then convert to slope-intercept form (y = mx + b) if needed."
+            },
+            {
+                "question": "What does a negative slope indicate?",
+                "answer": "A negative slope indicates that the line descends from left to right. As x increases, y decreases. Conversely, a positive slope means the line rises from left to right."
+            },
+            {
+                "question": "Can distance ever be negative?",
+                "answer": "No, distance is always a non-negative value. The distance formula uses squared differences and a square root, which always produces a positive result or zero (when both points are identical)."
+            }
+        ]
+    },
+    "bezier_curve_calculator": {
+        "title": "Bezier Curve Calculator",
+        "description": "Calculate and model Bezier curves used in design and computer graphics.",
+        "curve_type": "Curve Type",
+        "curve_type_tooltip": "Select Quadratic (3 points) or Cubic (4 points)",
+        "quadratic": "Quadratic",
+        "cubic": "Cubic",
+        "t_value": "Parameter t",
+        "t_value_tooltip": "Value between 0 and 1 representing position along the curve",
+        "p0": "Point P0 (Start)",
+        "p0_tooltip": "Starting point coordinates (x, y)",
+        "p1": "Point P1 (Control)",
+        "p1_tooltip": "First control point coordinates (x, y)",
+        "p2": "Point P2 (End/Control)",
+        "p2_tooltip": "Second point: End point for Quadratic, second control for Cubic",
+        "p3": "Point P3 (End)",
+        "p3_tooltip": "Ending point coordinates (x, y) for Cubic curve",
+        "result_point": "Point on Curve B(t)",
+        "info_title": "About Bezier Curves",
+        "info_description": "Bezier curves are parametric curves used in computer graphics to model smooth curves. They are defined by a set of control points.",
+        "formula_explanation_title": "Mathematical Definition",
+        "formula_explanation": "Quadratic: B(t) = (1-t)²P₀ + 2(1-t)tP₁ + t²P₂\nCubic: B(t) = (1-t)³P₀ + 3(1-t)²tP₁ + 3(1-t)t²P₂ + t³P₃",
+        "error_t_range": "Parameter t must be between 0 and 1",
+        "error_invalid_input": "Please enter valid numerical coordinates",
+        "error_calculation": "An error occurred during calculation",
+        "howItWorks": {
+            "title": "How Bezier Curve Calculator Works",
+            "formula": "Quadratic: B(t) = (1-t)²P₀ + 2(1-t)tP₁ + t²P₂ | Cubic: B(t) = (1-t)³P₀ + 3(1-t)²tP₁ + 3(1-t)t²P₂ + t³P₃",
+            "explanation": "Bezier curves are parametric curves defined by control points. The parameter t ranges from 0 to 1, tracing the curve from start to end. This calculator computes the exact position on the curve for any given t value using weighted interpolation of control points.",
+            "steps": [
+                {
+                    "name": "Select Curve Type",
+                    "text": "Choose between Quadratic (3 control points) or Cubic (4 control points) Bezier curve"
+                },
+                {
+                    "name": "Enter Control Points",
+                    "text": "Input the x and y coordinates for each control point (P0, P1, P2, and P3 for cubic)"
+                },
+                {
+                    "name": "Set Parameter t",
+                    "text": "Enter a value between 0 and 1 to specify the position along the curve"
+                },
+                {
+                    "name": "Calculate Point",
+                    "text": "The calculator applies the Bezier formula to compute the exact coordinates on the curve"
+                }
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Vector Graphics Design",
+                "description": "Create smooth curves in design software like Adobe Illustrator, Figma, and Inkscape for logos and illustrations"
+            },
+            {
+                "title": "Animation and Motion Paths",
+                "description": "Define smooth movement trajectories for objects in animations and video games"
+            },
+            {
+                "title": "Font Design and Typography",
+                "description": "Design letter shapes and glyphs in typeface creation using precise curve control"
+            },
+            {
+                "title": "CSS Animations and Transitions",
+                "description": "Create custom easing functions for web animations using cubic-bezier timing functions"
+            },
+            {
+                "title": "CAD and Industrial Design",
+                "description": "Model smooth surfaces and profiles in computer-aided design for manufacturing"
+            }
+        ],
+        "seoTips": [
+            "Quadratic Bezier curves use 3 control points while cubic curves use 4 control points",
+            "The curve always passes through the first (P0) and last control points",
+            "Interior control points influence the curve's shape but the curve does not pass through them",
+            "At t=0 the curve is at P0, and at t=1 the curve is at the end point",
+            "Cubic Bezier curves offer more flexibility and are standard in most design software"
+        ],
+        "commonMistakes": [
+            "Expecting the curve to pass through all control points (it only passes through endpoints)",
+            "Using t values outside the valid 0-1 range",
+            "Confusing quadratic and cubic curve formulas and control point counts",
+            "Not understanding that control points pull the curve toward them without touching",
+            "Forgetting that smooth connections between curves require aligned control points"
+        ],
+        "faqs": [
+            {
+                "question": "What is the parameter t in Bezier curves?",
+                "answer": "The parameter t is a value between 0 and 1 that represents position along the curve. At t=0, you're at the starting point P0. At t=1, you're at the ending point. Values in between give you points along the curve path."
+            },
+            {
+                "question": "Why doesn't the curve pass through the control points?",
+                "answer": "Control points act as 'magnets' that pull the curve toward them without the curve actually touching them. Only the start point (P0) and end point are guaranteed to be on the curve. This design allows for smooth, predictable curve shaping."
+            },
+            {
+                "question": "What is the difference between quadratic and cubic Bezier curves?",
+                "answer": "Quadratic curves use 3 control points and can create simple curves. Cubic curves use 4 control points, offering more flexibility to create complex shapes like S-curves. Most professional design software uses cubic Bezier curves."
+            },
+            {
+                "question": "How are Bezier curves used in CSS?",
+                "answer": "CSS uses cubic Bezier curves for animation timing functions. The cubic-bezier() function takes four values representing the two middle control points (P1 and P2), with P0 at (0,0) and P3 at (1,1), controlling how animations accelerate and decelerate."
+            },
+            {
+                "question": "How do I create smooth connections between multiple Bezier curves?",
+                "answer": "To ensure smooth continuity (C1 continuity), the last control point of one curve, the shared endpoint, and the first control point of the next curve must be collinear (on the same line). This ensures the curves have the same tangent direction at the junction."
+            }
+        ]
+    },
+    "circle_calculator": {
+        "title": "Circle Calculator",
+        "description": "Calculate area, circumference, diameter, and radius of a circle easily.",
+        "input_type": "Calculate From",
+        "input_type_tooltip": "Select which value you already know",
+        "radius": "Radius",
+        "diameter": "Diameter",
+        "circumference": "Circumference",
+        "area": "Area",
+        "radius_label": "Radius (r)",
+        "diameter_label": "Diameter (d)",
+        "circumference_label": "Circumference (C)",
+        "area_label": "Area (A)",
+        "radius_tooltip": "Distance from center to edge",
+        "diameter_tooltip": "Distance across the circle passing through center",
+        "circumference_tooltip": "Distance around the circle",
+        "area_tooltip": "Space inside the circle",
+        "radius_placeholder": "e.g., 5",
+        "diameter_placeholder": "e.g., 10",
+        "circumference_placeholder": "e.g., 31.4",
+        "area_placeholder": "e.g., 78.5",
+        "calculate_btn": "Calculate Properties",
+        "reset_btn": "Reset",
+        "result_title": "Circle Properties",
+        "circle_properties": "Calculated Values",
+        "properties": "Properties",
+        "unit_length": "units",
+        "unit_area": "sq units",
+        "info_title": "About Circle Geometry",
+        "info_description": "A circle is a shape consisting of all points in a plane that are at a given distance from a given point, the centre.",
+        "formulas_title": "Formulas Used",
+        "formula_circumference": "Circumference: C = 2πr = πd",
+        "formula_area": "Area: A = πr² = π(d/2)²",
+        "formula_diameter": "Diameter: d = 2r",
+        "error_invalid_input": "Please enter a valid number",
+        "error_positive_values": "Please enter a positive value",
+        "error_calculation": "An error occurred during calculation",
+        "howItWorks": {
+            "title": "How Circle Calculator Works",
+            "formula": "Area = πr², Circumference = 2πr, Diameter = 2r",
+            "explanation": "This calculator computes all circle properties from any single known value. Whether you know the radius, diameter, circumference, or area, the calculator derives all other measurements using the mathematical relationships defined by pi (π).",
+            "steps": [
+                {
+                    "name": "Select Input Type",
+                    "text": "Choose which measurement you already know: radius, diameter, circumference, or area"
+                },
+                {
+                    "name": "Enter Known Value",
+                    "text": "Input the numerical value of your known measurement"
+                },
+                {
+                    "name": "Calculate Radius",
+                    "text": "The calculator first derives the radius from your input using the appropriate inverse formula"
+                },
+                {
+                    "name": "Compute All Properties",
+                    "text": "Using the radius, all other circle properties are calculated and displayed"
+                }
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Landscaping and Gardening",
+                "description": "Calculate the area of circular gardens, flower beds, or the amount of fencing needed for round enclosures"
+            },
+            {
+                "title": "Construction and Architecture",
+                "description": "Determine materials needed for circular windows, domes, columns, and decorative elements"
+            },
+            {
+                "title": "Manufacturing and Engineering",
+                "description": "Calculate specifications for wheels, pipes, gears, and other circular components"
+            },
+            {
+                "title": "Education and Homework",
+                "description": "Solve geometry problems involving circles for mathematics courses and exams"
+            },
+            {
+                "title": "Cooking and Baking",
+                "description": "Scale recipes based on different pan sizes by calculating area ratios of circular baking dishes"
+            }
+        ],
+        "seoTips": [
+            "Pi (π) is approximately 3.14159 and represents the ratio of circumference to diameter",
+            "The diameter is always exactly twice the radius",
+            "Area increases with the square of the radius - doubling the radius quadruples the area",
+            "Circumference is the perimeter or distance around the outside of the circle",
+            "All circles are similar shapes, differing only in scale"
+        ],
+        "commonMistakes": [
+            "Confusing radius with diameter - remember diameter is twice the radius",
+            "Forgetting to square the radius when calculating area (using πr instead of πr²)",
+            "Using diameter in formulas that require radius",
+            "Not using enough decimal places for pi in precision calculations",
+            "Mixing up circumference (linear measurement) with area (square measurement)"
+        ],
+        "faqs": [
+            {
+                "question": "What is the relationship between radius and diameter?",
+                "answer": "The diameter is always exactly twice the radius. If you know the diameter, divide by 2 to get the radius. If you know the radius, multiply by 2 to get the diameter. This relationship is fundamental: d = 2r."
+            },
+            {
+                "question": "Why does area use r² while circumference uses r?",
+                "answer": "Circumference is a one-dimensional measurement (length around the circle), so it scales linearly with radius. Area is a two-dimensional measurement (space inside), so it scales with the square of the radius. Doubling the radius doubles the circumference but quadruples the area."
+            },
+            {
+                "question": "How do I find the radius if I only know the area?",
+                "answer": "Use the formula r = √(A/π). Divide the area by pi, then take the square root. For example, if the area is 50 square units, the radius is √(50/π) ≈ 3.99 units."
+            },
+            {
+                "question": "What is pi (π) and why is it important for circles?",
+                "answer": "Pi is an irrational number approximately equal to 3.14159. It represents the constant ratio between any circle's circumference and its diameter. This ratio is the same for all circles, making pi fundamental to all circle calculations."
+            },
+            {
+                "question": "How do I calculate the area of a semicircle?",
+                "answer": "Calculate the full circle's area using A = πr², then divide by 2. For a semicircle with radius 5, the area would be (π × 5²) / 2 = 25π / 2 ≈ 39.27 square units."
+            }
+        ]
+    },
+    "coordinates_calculator": {
+        "title": "Coordinates Calculator",
+        "description": "Convert between different coordinate systems like Cartesian and Polar.",
+        "conversion_type": "Conversion Type",
+        "conversion_type_tooltip": "Select the conversion you want to perform",
+        "cartesian_to_polar": "Cartesian (x, y) to Polar (r, θ)",
+        "polar_to_cartesian": "Polar (r, θ) to Cartesian (x, y)",
+        "x": "Coordinate X",
+        "x_tooltip": "The horizontal coordinate",
+        "y": "Coordinate Y",
+        "y_tooltip": "The vertical coordinate",
+        "r": "Radius (r)",
+        "r_tooltip": "The radial distance from the origin",
+        "theta": "Angle (θ)",
+        "theta_tooltip": "The angular coordinate",
+        "angle_unit": "Angle Unit",
+        "angle_unit_tooltip": "Unit for the input angle",
+        "degrees": "Degrees",
+        "degrees_abbr": "deg",
+        "radians": "Radians",
+        "radians_abbr": "rad",
+        "x_placeholder": "e.g., 3",
+        "y_placeholder": "e.g., 4",
+        "r_placeholder": "e.g., 5",
+        "theta_placeholder": "e.g., 45",
+        "result_title": "Converted Coordinates",
+        "converted_coordinates": "Result",
+        "coordinate_systems": "Systems",
+        "cartesian": "Cartesian (x, y)",
+        "polar": "Polar (r, θ)",
+        "info_title": "Coordinate Systems",
+        "info_description": "The Cartesian system specifies a point uniquely in a plane by a pair of numerical coordinates. The Polar system specifies a point by a distance from a fixed point and an angle from a fixed direction.",
+        "formulas_title": "Formulas",
+        "formula_cartesian": "x = r cos(θ), y = r sin(θ)",
+        "formula_polar": "r = √(x² + y²), θ = atan2(y, x)",
+        "formula_explanation_title": "Conversion Logic",
+        "formula_explanation": "These formulas use trigonometric functions to relate the linear distances in Cartesian coordinates to the radial distance and angle in Polar coordinates.",
+        "error_invalid_input": "Please enter valid numbers",
+        "error_positive_r": "Radius (r) must be non-negative",
+        "error_calculation": "An error occurred during calculation",
+        "howItWorks": {
+            "title": "How Coordinates Calculator Works",
+            "formula": "Cartesian to Polar: r = √(x² + y²), θ = atan2(y, x) | Polar to Cartesian: x = r·cos(θ), y = r·sin(θ)",
+            "explanation": "This calculator converts between Cartesian (rectangular) and Polar coordinate systems using trigonometric relationships. Cartesian coordinates describe position using perpendicular x and y distances, while Polar coordinates use a radial distance from the origin and an angle from the positive x-axis.",
+            "steps": [
+                {
+                    "name": "Select Conversion Direction",
+                    "text": "Choose whether to convert from Cartesian to Polar or from Polar to Cartesian"
+                },
+                {
+                    "name": "Enter Source Coordinates",
+                    "text": "Input the coordinates in your source system (x,y for Cartesian or r,θ for Polar)"
+                },
+                {
+                    "name": "Choose Angle Unit",
+                    "text": "Select whether angles should be in degrees or radians"
+                },
+                {
+                    "name": "View Results",
+                    "text": "The calculator displays the equivalent coordinates in the target system"
+                }
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Physics and Engineering",
+                "description": "Analyze circular motion, wave propagation, and rotational systems where polar coordinates simplify calculations"
+            },
+            {
+                "title": "Navigation and Mapping",
+                "description": "Convert between different coordinate representations used in GPS, radar, and maritime navigation"
+            },
+            {
+                "title": "Computer Graphics and Game Development",
+                "description": "Transform coordinates for rotation effects, radial patterns, and circular user interfaces"
+            },
+            {
+                "title": "Signal Processing",
+                "description": "Work with complex numbers and phasors that are naturally expressed in polar form"
+            },
+            {
+                "title": "Robotics and Automation",
+                "description": "Convert between coordinate systems for robotic arm positioning and sensor data interpretation"
+            }
+        ],
+        "seoTips": [
+            "Cartesian coordinates use perpendicular x and y axes while Polar uses distance and angle",
+            "The conversion formulas are based on right triangle trigonometry",
+            "360 degrees equals 2π radians - use π/180 to convert degrees to radians",
+            "Polar coordinates are ideal for problems involving rotation or circular symmetry",
+            "The atan2 function correctly handles all four quadrants unlike regular arctangent"
+        ],
+        "commonMistakes": [
+            "Forgetting to convert between degrees and radians when required",
+            "Not considering the correct quadrant when calculating angles from Cartesian coordinates",
+            "Confusing sin and cos functions when converting from polar to Cartesian",
+            "Entering negative values for the radial distance r in polar coordinates",
+            "Using regular arctan instead of atan2, which can give incorrect quadrant results"
+        ],
+        "faqs": [
+            {
+                "question": "When should I use Polar coordinates instead of Cartesian?",
+                "answer": "Use Polar coordinates when dealing with circular motion, rotation, waves, or any problem with radial symmetry. If something naturally involves angles and distances from a center point, Polar coordinates will simplify your calculations."
+            },
+            {
+                "question": "What is the difference between degrees and radians?",
+                "answer": "Degrees divide a full circle into 360 parts, while radians measure angle by the arc length divided by radius. A full circle is 360° or 2π radians. To convert: radians = degrees × (π/180), degrees = radians × (180/π)."
+            },
+            {
+                "question": "Why use atan2 instead of regular arctan?",
+                "answer": "The regular arctan function only returns values between -90° and 90°, losing information about which quadrant the point is in. The atan2(y, x) function takes both coordinates separately and correctly determines the angle for all four quadrants."
+            },
+            {
+                "question": "What happens at the origin (0, 0)?",
+                "answer": "At the origin, the polar radius r equals 0, but the angle θ is undefined since there's no unique direction from a point to itself. Most calculators will return 0 or leave the angle undefined for this special case."
+            },
+            {
+                "question": "Can polar coordinates have negative values?",
+                "answer": "The radius r is conventionally non-negative. Negative angles are allowed and represent clockwise rotation from the positive x-axis. Some advanced applications allow negative r, which reflects the point through the origin."
+            }
+        ]
+    },
+    "parallelogram_calculator": {
+        "title": "Parallelogram Calculator",
+        "description": "Calculate area and perimeter of parallelograms and related quadrilaterals.",
+        "base": "Base (b)",
+        "base_tooltip": "Length of the base",
+        "side": "Side (s)",
+        "side_tooltip": "Length of the side (for perimeter)",
+        "height": "Height (h)",
+        "height_tooltip": "Perpendicular height (for area)",
+        "base_placeholder": "e.g., 10",
+        "side_placeholder": "e.g., 5",
+        "height_placeholder": "e.g., 4",
+        "calculate_btn": "Calculate Properties",
+        "reset_btn": "Reset",
+        "result_area": "Area",
+        "unit_area": "sq units",
+        "additional_info": "Additional Information",
+        "perimeter": "Perimeter",
+        "unit_length": "units",
+        "info_title": "About Parallelograms",
+        "info_description": "A parallelogram is a quadrilateral with two pairs of parallel sides. Opposite sides are equal in length, and opposite angles are equal in measure.",
+        "formulas_title": "Formulas Used",
+        "formula_area": "Area: A = base × height",
+        "formula_perimeter": "Perimeter: P = 2(base + side)",
+        "formula_explanation_title": "Understanding the Results",
+        "formula_explanation": "Area represents the space inside the parallelogram, while perimeter is the total length of its boundary.",
+        "error_invalid_input": "Please enter valid numbers",
+        "error_positive_values": "Please enter positive values",
+        "error_calculation": "An error occurred during calculation",
+        "howItWorks": {
+            "title": "How Parallelogram Calculator Works",
+            "formula": "Area = base × height, Perimeter = 2(base + side)",
+            "explanation": "This calculator computes the area and perimeter of a parallelogram using its base, side, and perpendicular height. The area formula requires the height to be perpendicular to the base, not the slant side length.",
+            "steps": [
+                {
+                    "name": "Enter Base Length",
+                    "text": "Input the length of the base (the bottom or top side of the parallelogram)"
+                },
+                {
+                    "name": "Enter Side Length",
+                    "text": "Input the length of the slanted side (needed for perimeter calculation)"
+                },
+                {
+                    "name": "Enter Perpendicular Height",
+                    "text": "Input the vertical distance between the parallel sides (not the slant side length)"
+                },
+                {
+                    "name": "Calculate Results",
+                    "text": "The calculator computes area by multiplying base times height, and perimeter by summing all four sides"
+                }
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Architecture and Construction",
+                "description": "Calculate areas for slanted walls, pitched roof sections, and decorative parallelogram-shaped elements"
+            },
+            {
+                "title": "Land Surveying",
+                "description": "Measure non-rectangular land plots where opposite sides are parallel but not perpendicular"
+            },
+            {
+                "title": "Interior Design",
+                "description": "Determine material requirements for parallelogram-shaped tiles, panels, or fabric pieces"
+            },
+            {
+                "title": "Education",
+                "description": "Solve geometry problems and understand the properties of quadrilaterals in mathematics courses"
+            },
+            {
+                "title": "Manufacturing",
+                "description": "Calculate material needs for parallelogram-shaped components in products and packaging"
+            }
+        ],
+        "seoTips": [
+            "The height must be perpendicular to the base, not the length of the slanted side",
+            "Opposite sides of a parallelogram are equal in length and parallel",
+            "Opposite angles in a parallelogram are equal",
+            "Adjacent angles in a parallelogram are supplementary (sum to 180 degrees)",
+            "A rectangle is a special parallelogram with 90-degree angles"
+        ],
+        "commonMistakes": [
+            "Using the slant side length instead of the perpendicular height for area calculations",
+            "Confusing height with side length - height is always perpendicular to the base",
+            "Forgetting that the same base and side can create different parallelograms with different areas",
+            "Assuming the diagonals are equal (they are only equal in rectangles)",
+            "Not measuring the height perpendicular to the chosen base"
+        ],
+        "faqs": [
+            {
+                "question": "Why do I need the height and not just the sides?",
+                "answer": "The area of a parallelogram depends on the perpendicular distance between its parallel sides, not the slant side length. The same base and side lengths can form parallelograms with different areas depending on how 'tilted' the shape is."
+            },
+            {
+                "question": "What is the difference between a parallelogram and a rectangle?",
+                "answer": "A rectangle is a special type of parallelogram where all angles are 90 degrees. In a general parallelogram, opposite angles are equal but not necessarily 90 degrees. For a rectangle, height equals side length."
+            },
+            {
+                "question": "How do I find the height if I know the area and base?",
+                "answer": "Rearrange the area formula: height = area / base. If you know the area is 40 square units and the base is 8 units, the height is 40 / 8 = 5 units."
+            },
+            {
+                "question": "Are the diagonals of a parallelogram equal?",
+                "answer": "No, the diagonals of a general parallelogram are not equal. However, they do bisect each other (each diagonal cuts the other in half). The diagonals are only equal in special cases like rectangles and squares."
+            },
+            {
+                "question": "What is a rhombus and how does it relate to parallelograms?",
+                "answer": "A rhombus is a parallelogram where all four sides are equal in length. Its area can be calculated as base × height, or alternatively as (diagonal₁ × diagonal₂) / 2 since its diagonals are perpendicular."
+            }
+        ]
+    },
+    "rectangle_calculator": {
+        "title": "Rectangle Calculator",
+        "description": "Calculate area, perimeter, and diagonal length of rectangles and squares.",
+        "length": "Length (l)",
+        "length_tooltip": "The longer side of the rectangle",
+        "width": "Width (w)",
+        "width_tooltip": "The shorter side of the rectangle",
+        "length_placeholder": "e.g., 10",
+        "width_placeholder": "e.g., 5",
+        "calculate_btn": "Calculate Properties",
+        "reset_btn": "Reset",
+        "result_area": "Area",
+        "unit_area": "sq units",
+        "additional_info": "Additional Information",
+        "perimeter": "Perimeter",
+        "unit_length": "units",
+        "diagonal": "Diagonal",
+        "info_title": "About Rectangles",
+        "info_description": "A rectangle is a quadrilateral with four right angles. It can also be defined as an equiangular quadrilateral, since equiangular means that all of its angles are equal (360°/4 = 90°).",
+        "formulas_title": "Formulas Used",
+        "formula_area": "Area: A = l × w",
+        "formula_perimeter": "Perimeter: P = 2(l + w)",
+        "formula_diagonal": "Diagonal: d = √(l² + w²) (Pythagorean theorem)",
+        "formula_explanation_title": "Understanding the Results",
+        "formula_explanation": "Area is the amount of space inside the rectangle. Perimeter is the total distance around the outside. Diagonal is the distance between opposite corners.",
+        "error_invalid_input": "Please enter valid numbers",
+        "error_positive_values": "Please enter positive values",
+        "error_calculation": "An error occurred during calculation",
+        "howItWorks": {
+            "title": "How Rectangle Calculator Works",
+            "formula": "Area = length × width, Perimeter = 2(length + width), Diagonal = √(length² + width²)",
+            "explanation": "This calculator computes all essential rectangle properties from length and width measurements. It calculates area using multiplication, perimeter by summing all sides, and diagonal using the Pythagorean theorem.",
+            "steps": [
+                {
+                    "name": "Enter Length",
+                    "text": "Input the length of the rectangle (typically the longer side)"
+                },
+                {
+                    "name": "Enter Width",
+                    "text": "Input the width of the rectangle (typically the shorter side)"
+                },
+                {
+                    "name": "Calculate Area",
+                    "text": "The calculator multiplies length by width to find the enclosed space"
+                },
+                {
+                    "name": "Calculate Perimeter",
+                    "text": "All four sides are summed: 2 × (length + width)"
+                },
+                {
+                    "name": "Calculate Diagonal",
+                    "text": "The Pythagorean theorem is applied to find the distance between opposite corners"
+                }
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Home Improvement",
+                "description": "Calculate flooring, paint, or wallpaper needed for rectangular rooms and walls"
+            },
+            {
+                "title": "Landscaping",
+                "description": "Determine sod, mulch, or fencing requirements for rectangular yards and garden beds"
+            },
+            {
+                "title": "Construction",
+                "description": "Compute material quantities for rectangular foundations, decks, and structural elements"
+            },
+            {
+                "title": "Packaging and Shipping",
+                "description": "Calculate box dimensions, wrapping material, and storage space requirements"
+            },
+            {
+                "title": "Interior Design",
+                "description": "Plan furniture placement and determine if items fit in available spaces"
+            }
+        ],
+        "seoTips": [
+            "A square is a special rectangle where length equals width",
+            "The diagonal divides a rectangle into two congruent right triangles",
+            "Both diagonals of a rectangle are equal in length",
+            "Area is measured in square units (square feet, square meters, etc.)",
+            "Perimeter is measured in linear units (feet, meters, etc.)"
+        ],
+        "commonMistakes": [
+            "Confusing area (square units) with perimeter (linear units)",
+            "Forgetting to multiply by 2 when calculating perimeter",
+            "Not converting units before calculating (mixing feet and inches)",
+            "Using area formula when perimeter is needed, or vice versa",
+            "Forgetting to apply the Pythagorean theorem for diagonal calculation"
+        ],
+        "faqs": [
+            {
+                "question": "How do I calculate the diagonal of a rectangle?",
+                "answer": "Use the Pythagorean theorem: diagonal = √(length² + width²). The diagonal forms the hypotenuse of a right triangle with the length and width as the other two sides."
+            },
+            {
+                "question": "What is the difference between area and perimeter?",
+                "answer": "Area measures the space inside the rectangle (in square units like m² or ft²). Perimeter measures the total distance around the outside (in linear units like m or ft). Area tells you how much carpet you need; perimeter tells you how much baseboard."
+            },
+            {
+                "question": "Can I find length and width if I only know the area?",
+                "answer": "No, infinite combinations of length and width can produce the same area. You need either the perimeter, the ratio of length to width, or one of the dimensions to find both."
+            },
+            {
+                "question": "How do I convert between square feet and square meters?",
+                "answer": "1 square meter equals approximately 10.764 square feet. Multiply square meters by 10.764 to convert to square feet, or divide square feet by 10.764 to convert to square meters."
+            },
+            {
+                "question": "Are the diagonals of a rectangle equal?",
+                "answer": "Yes, both diagonals of a rectangle are always equal in length. They also bisect each other (cross at their midpoints), but unlike a square, they do not cross at right angles unless the rectangle is a square."
+            }
+        ]
+    },
+    "triangle_calculator": {
+        "title": "Triangle Calculator",
+        "description": "Calculate area, perimeter, and properties of different types of triangles.",
+        "side_a": "Side a",
+        "side_a_tooltip": "Length of side a",
+        "side_b": "Side b",
+        "side_b_tooltip": "Length of side b",
+        "side_c": "Side c",
+        "side_c_tooltip": "Length of side c",
+        "side_a_placeholder": "e.g., 3",
+        "side_b_placeholder": "e.g., 4",
+        "side_c_placeholder": "e.g., 5",
+        "calculate_btn": "Calculate Properties",
+        "reset_btn": "Reset",
+        "result_area": "Area",
+        "unit_area": "sq units",
+        "additional_info": "Additional Information",
+        "perimeter": "Perimeter",
+        "unit_length": "units",
+        "angle_a": "Angle A",
+        "angle_b": "Angle B",
+        "angle_c": "Angle C",
+        "inradius": "Inradius (r)",
+        "circumradius": "Circumradius (R)",
+        "info_title": "About Triangles",
+        "info_description": "A triangle is a polygon with three edges and three vertices. The sum of the internal angles of a triangle is always 180 degrees.",
+        "formulas_title": "Formulas Used",
+        "formula_heron": "Heron's Formula: Area = √(s(s-a)(s-b)(s-c)) where s = (a+b+c)/2",
+        "formula_perimeter": "Perimeter: P = a + b + c",
+        "formula_angles": "Law of Cosines: cos(A) = (b²+c²-a²)/(2bc)",
+        "formula_explanation_title": "Understanding the Results",
+        "formula_explanation": "Area is the space inside the triangle. Angles are the internal angles at each vertex. Inradius is the radius of the inscribed circle, and Circumradius is the radius of the circumscribed circle.",
+        "error_invalid_input": "Please enter valid numbers",
+        "error_positive_values": "Side lengths must be positive",
+        "error_invalid_triangle": "Invalid triangle: The sum of any two sides must be greater than the third side",
+        "error_calculation": "An error occurred during calculation",
+        "howItWorks": {
+            "title": "How Triangle Calculator Works",
+            "formula": "Area = √(s(s-a)(s-b)(s-c)) where s = (a+b+c)/2, Perimeter = a + b + c",
+            "explanation": "This calculator uses Heron's formula to compute the area of any triangle from its three side lengths. It also calculates the perimeter, all three interior angles using the Law of Cosines, and the radii of the inscribed and circumscribed circles.",
+            "steps": [
+                {
+                    "name": "Enter Side Lengths",
+                    "text": "Input the lengths of all three sides (a, b, and c)"
+                },
+                {
+                    "name": "Validate Triangle",
+                    "text": "The calculator verifies that the sides can form a valid triangle using the triangle inequality theorem"
+                },
+                {
+                    "name": "Calculate Semi-Perimeter",
+                    "text": "The semi-perimeter s = (a + b + c) / 2 is computed for use in Heron's formula"
+                },
+                {
+                    "name": "Apply Heron's Formula",
+                    "text": "Area is calculated using √(s(s-a)(s-b)(s-c))"
+                },
+                {
+                    "name": "Calculate Angles",
+                    "text": "The Law of Cosines is applied to find each interior angle"
+                }
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Land Surveying",
+                "description": "Calculate the area of triangular land plots when only the boundary lengths are known"
+            },
+            {
+                "title": "Construction and Engineering",
+                "description": "Design roof trusses, support structures, and triangular architectural elements"
+            },
+            {
+                "title": "Navigation",
+                "description": "Use triangulation methods to determine positions and distances"
+            },
+            {
+                "title": "Education",
+                "description": "Solve geometry homework problems and learn about triangle properties"
+            },
+            {
+                "title": "Art and Design",
+                "description": "Create triangular patterns, calculate fabric cuts, and design geometric artwork"
+            }
+        ],
+        "seoTips": [
+            "The sum of angles in any triangle always equals 180 degrees",
+            "A 3-4-5 triangle is the most common right triangle example",
+            "Heron's formula works for any valid triangle without needing to know the height",
+            "The longest side is always opposite the largest angle",
+            "An equilateral triangle has all sides equal and all angles equal to 60 degrees"
+        ],
+        "commonMistakes": [
+            "Entering side lengths that cannot form a valid triangle (violating the triangle inequality)",
+            "Confusing the height with a side length when using base-height formulas",
+            "Forgetting that the sum of any two sides must be greater than the third side",
+            "Using the Pythagorean theorem on non-right triangles",
+            "Mixing up degrees and radians when working with angles"
+        ],
+        "faqs": [
+            {
+                "question": "What is Heron's formula and when should I use it?",
+                "answer": "Heron's formula calculates a triangle's area using only the three side lengths: Area = √(s(s-a)(s-b)(s-c)), where s is the semi-perimeter (a+b+c)/2. Use it when you know all three sides but not the height."
+            },
+            {
+                "question": "How do I know if three lengths can form a valid triangle?",
+                "answer": "Apply the triangle inequality theorem: the sum of any two sides must be greater than the third side. Check all three combinations: a+b>c, a+c>b, and b+c>a. If any fails, the triangle is invalid."
+            },
+            {
+                "question": "What is the difference between the inradius and circumradius?",
+                "answer": "The inradius (r) is the radius of the largest circle that fits inside the triangle, touching all three sides. The circumradius (R) is the radius of the circle that passes through all three vertices of the triangle."
+            },
+            {
+                "question": "How do I identify different types of triangles?",
+                "answer": "By sides: Equilateral (all equal), Isosceles (two equal), Scalene (none equal). By angles: Acute (all angles < 90°), Right (one angle = 90°), Obtuse (one angle > 90°)."
+            },
+            {
+                "question": "What is the Law of Cosines and when is it used?",
+                "answer": "The Law of Cosines relates the lengths of a triangle's sides to the cosine of one of its angles: c² = a² + b² - 2ab·cos(C). It's used to find angles when all sides are known, or to find a side when two sides and the included angle are known."
+            }
+        ]
+    }
+}

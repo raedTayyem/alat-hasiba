@@ -1,0 +1,611 @@
+{
+  "density": {
+    "title": "Density Calculator",
+    "description": "Calculate density, mass, or volume given the other two variables.",
+    "howItWorks": {
+      "title": "How the Density Calculator Works",
+      "formula": "Density = Mass / Volume (or Mass = Density x Volume, or Volume = Mass / Density)",
+      "explanation": "Density is a fundamental physical property that describes how much mass is packed into a given volume. This calculator can solve for any one of the three variables (density, mass, or volume) when the other two are known.",
+      "steps": [
+        "Select which variable you want to calculate (density, mass, or volume)",
+        "Enter the two known values with appropriate units",
+        "The calculator applies the density formula to find the unknown",
+        "Results are displayed with common unit conversions"
+      ]
+    },
+    "useCases": [
+      "Identifying unknown materials by comparing calculated density to known values",
+      "Quality control in manufacturing to verify material composition",
+      "Ship and aircraft design to ensure proper buoyancy and lift",
+      "Chemistry lab calculations for solution preparation"
+    ],
+    "seoTips": [
+      "Water has a density of 1 g/cm3 - objects less dense than this will float",
+      "Gold is one of the densest elements at 19.3 g/cm3",
+      "Air at sea level has a density of about 1.225 kg/m3",
+      "Density changes with temperature - materials generally expand when heated",
+      "Specific gravity compares a substance's density to water's density"
+    ],
+    "commonMistakes": [
+      "Confusing mass with weight - mass is constant, weight depends on gravity",
+      "Not converting units consistently (mixing grams with liters vs kg with m3)",
+      "Forgetting that density changes with temperature and pressure",
+      "Assuming density is the same as specific gravity (they differ for non-water references)"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between mass and weight?",
+        "answer": "Mass is the amount of matter in an object and remains constant everywhere. Weight is the force of gravity on that mass and varies with location (you weigh less on the Moon but have the same mass)."
+      },
+      {
+        "question": "Why do some objects float while others sink?",
+        "answer": "Objects float if their density is less than the fluid they're in. A wooden block (density ~0.7 g/cm3) floats in water (1 g/cm3), while iron (7.87 g/cm3) sinks."
+      },
+      {
+        "question": "How does temperature affect density?",
+        "answer": "Most materials expand when heated, decreasing their density. Water is unusual - it's densest at 4C and expands both when heated and when cooled below this point."
+      },
+      {
+        "question": "What units should I use for density?",
+        "answer": "Common units include g/cm3, kg/m3, and lb/ft3. For water and most liquids, g/cm3 or g/mL are convenient since water is almost exactly 1 g/cm3."
+      }
+    ]
+  },
+  "molar-mass": {
+    "title": "Molar Mass Calculator",
+    "description": "Calculate the molar mass of chemical compounds based on their formula.",
+    "howItWorks": {
+      "title": "How the Molar Mass Calculator Works",
+      "formula": "Molar Mass = Sum of (Atomic Mass x Number of Atoms) for all elements",
+      "explanation": "Molar mass is the mass of one mole of a substance (6.022 x 10^23 particles). This calculator parses chemical formulas, looks up atomic masses from the periodic table, and sums the contributions from each element to give you the total molar mass in g/mol.",
+      "steps": [
+        {
+          "name": "Enter Chemical Formula",
+          "text": "Type the molecular formula using standard notation (e.g., H2O, NaCl, C6H12O6)"
+        },
+        {
+          "name": "Parse Elements",
+          "text": "The calculator identifies each element and counts how many atoms are present"
+        },
+        {
+          "name": "Look Up Atomic Masses",
+          "text": "Atomic masses are retrieved from the periodic table for each element"
+        },
+        {
+          "name": "Calculate Total",
+          "text": "Each element's contribution (atomic mass x count) is summed for the total molar mass"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Chemistry Lab Calculations",
+        "description": "Convert between mass and moles for stoichiometry and solution preparation"
+      },
+      {
+        "title": "Solution Concentration",
+        "description": "Prepare solutions of specific molar concentration (molarity)"
+      },
+      {
+        "title": "Pharmaceutical Applications",
+        "description": "Calculate drug dosages based on molecular weight"
+      },
+      {
+        "title": "Education and Learning",
+        "description": "Help students understand the relationship between atomic and molar mass"
+      }
+    ],
+    "seoTips": [
+      "One mole contains exactly 6.022 x 10^23 particles (Avogadro's number)",
+      "Water (H2O) has a molar mass of 18.015 g/mol",
+      "Use parentheses for complex formulas like Ca(OH)2 or Al2(SO4)3",
+      "Molar mass in g/mol numerically equals molecular weight in amu",
+      "Always use capital letters for element symbols (Na not na)"
+    ],
+    "commonMistakes": [
+      "Forgetting to multiply by subscripts (H2O has 2 hydrogens, not 1)",
+      "Not handling parentheses correctly in complex formulas",
+      "Confusing molar mass (g/mol) with molecular mass (amu)",
+      "Using lowercase for element symbols which may cause parsing errors"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between molar mass and molecular mass?",
+        "answer": "They have the same numerical value but different units. Molecular mass is expressed in atomic mass units (amu) and refers to a single molecule. Molar mass is expressed in grams per mole (g/mol) and refers to one mole of molecules."
+      },
+      {
+        "question": "Why is molar mass important in chemistry?",
+        "answer": "Molar mass bridges the gap between the atomic scale and the laboratory scale. It allows chemists to convert between the number of particles (moles) and the mass they can measure on a balance."
+      },
+      {
+        "question": "How do I handle compounds with parentheses?",
+        "answer": "The subscript after parentheses multiplies everything inside. For Ca(OH)2, there are 1 calcium, 2 oxygen, and 2 hydrogen atoms. Calculate: 40.08 + 2(16.00 + 1.008) = 74.10 g/mol."
+      },
+      {
+        "question": "What is a mole?",
+        "answer": "A mole is a counting unit representing 6.022 x 10^23 particles (Avogadro's number). Just as a dozen means 12, a mole means this specific very large number, used because atoms are incredibly small."
+      }
+    ]
+  },
+  "ph-calculator": {
+    "title": "pH Calculator",
+    "description": "Calculate pH, pOH, and hydrogen ion concentration.",
+    "howItWorks": {
+      "title": "How the pH Calculator Works",
+      "formula": "pH = -log10[H+]; pOH = -log10[OH-]; pH + pOH = 14 (at 25C)",
+      "explanation": "The pH scale measures acidity or alkalinity of a solution on a scale of 0-14. This calculator converts between pH, pOH, hydrogen ion concentration [H+], and hydroxide ion concentration [OH-] using logarithmic relationships.",
+      "steps": [
+        {
+          "name": "Select Calculation Mode",
+          "text": "Choose whether to calculate pH from [H+], [H+] from pH, or similar conversions for pOH"
+        },
+        {
+          "name": "Enter Known Value",
+          "text": "Input the concentration (in moles per liter) or pH/pOH value"
+        },
+        {
+          "name": "View Results",
+          "text": "See all related values: pH, pOH, [H+], and [OH-]"
+        },
+        {
+          "name": "Check Solution Type",
+          "text": "Determine if the solution is acidic (pH < 7), neutral (pH = 7), or basic (pH > 7)"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Laboratory Analysis",
+        "description": "Calculate ion concentrations for solution preparation and analysis"
+      },
+      {
+        "title": "Water Quality Testing",
+        "description": "Monitor pH levels in drinking water, pools, and aquariums"
+      },
+      {
+        "title": "Agricultural Applications",
+        "description": "Manage soil pH for optimal plant growth"
+      },
+      {
+        "title": "Food Science",
+        "description": "Control pH for food preservation and fermentation processes"
+      }
+    ],
+    "seoTips": [
+      "Each pH unit represents a 10-fold change in hydrogen ion concentration",
+      "Pure water at 25C has a pH of exactly 7 (neutral)",
+      "Human blood pH is tightly regulated between 7.35 and 7.45",
+      "Stomach acid has a pH around 1-2; bleach has a pH around 12-13",
+      "pH + pOH = 14 only at 25C; this value changes with temperature"
+    ],
+    "commonMistakes": [
+      "Thinking pH 6 is only slightly more acidic than pH 7 (it's 10 times more acidic)",
+      "Forgetting that the pH + pOH = 14 relationship only holds at 25C",
+      "Using wrong units for concentration (must be moles per liter)",
+      "Confusing strong acids/bases with weak ones in concentration calculations"
+    ],
+    "faqs": [
+      {
+        "question": "Why is the pH scale logarithmic?",
+        "answer": "Hydrogen ion concentrations in solutions vary over many orders of magnitude (from 1 M to 10^-14 M). The logarithmic scale compresses this enormous range into a convenient 0-14 scale for practical use."
+      },
+      {
+        "question": "Can pH be negative or greater than 14?",
+        "answer": "Yes, technically. Very concentrated strong acids can have negative pH values, and very concentrated strong bases can exceed pH 14. However, the 0-14 range covers the vast majority of common solutions."
+      },
+      {
+        "question": "What is the relationship between pH and pOH?",
+        "answer": "At 25C (standard temperature), pH + pOH always equals 14. This comes from the ion product of water (Kw = 10^-14). If you know one value, you can easily calculate the other."
+      },
+      {
+        "question": "Why does pH matter in everyday life?",
+        "answer": "pH affects countless processes: your stomach needs low pH for digestion, your blood requires precise pH for survival, pool pH affects sanitizer effectiveness and swimmer comfort, and soil pH determines which plants can grow."
+      }
+    ]
+  },
+  "half-life": {
+    "title": "Half-Life Calculator",
+    "description": "Calculate radioactive decay, remaining amounts, and half-life periods of substances.",
+    "howItWorks": {
+      "title": "How the Half-Life Calculator Works",
+      "formula": "N(t) = N0 x (1/2)^(t/t1/2), where N(t) is remaining amount, N0 is initial amount, t is elapsed time, t1/2 is half-life",
+      "explanation": "Half-life is the time required for a quantity to reduce to half its initial value. This calculator determines how much of a radioactive substance remains after any given time, or calculates the time needed to reach a specific remaining amount.",
+      "steps": [
+        {
+          "name": "Enter Initial Amount",
+          "text": "Input the starting quantity of the substance"
+        },
+        {
+          "name": "Enter Half-Life Period",
+          "text": "Input how long it takes for half the substance to decay"
+        },
+        {
+          "name": "Enter Elapsed Time",
+          "text": "Input the time that has passed since the start"
+        },
+        {
+          "name": "View Results",
+          "text": "See remaining amount, percentage remaining, decay constant, and number of half-lives elapsed"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Archaeological Dating",
+        "description": "Determine the age of artifacts using carbon-14 dating"
+      },
+      {
+        "title": "Medical Applications",
+        "description": "Calculate medication dosing schedules and radiation therapy planning"
+      },
+      {
+        "title": "Nuclear Waste Management",
+        "description": "Assess storage timelines for radioactive waste disposal"
+      },
+      {
+        "title": "Geological Dating",
+        "description": "Date rocks and minerals using uranium-lead or potassium-argon methods"
+      }
+    ],
+    "seoTips": [
+      "Carbon-14 has a half-life of 5,730 years, useful for dating organic materials up to 50,000 years old",
+      "Uranium-238 has a half-life of 4.5 billion years, used for dating very old rocks",
+      "After 10 half-lives, less than 0.1% of the original substance remains",
+      "Half-life is constant and independent of the initial amount",
+      "Nuclear half-life cannot be changed by temperature, pressure, or chemical reactions"
+    ],
+    "commonMistakes": [
+      "Thinking half-life means the substance is completely gone after two half-lives",
+      "Confusing half-life with average lifetime (they differ by a factor of ln(2))",
+      "Assuming environmental factors can change nuclear half-life (they cannot)",
+      "Applying half-life calculations to non-exponential decay processes"
+    ],
+    "faqs": [
+      {
+        "question": "Does half-life depend on how much material you start with?",
+        "answer": "No, half-life is an intrinsic property of the radioactive isotope and remains constant regardless of the initial amount. Whether you have 1 gram or 1 ton, the half-life stays the same."
+      },
+      {
+        "question": "Can radioactive decay be sped up or slowed down?",
+        "answer": "Nuclear half-life is essentially immune to external conditions like temperature, pressure, or chemical reactions. This makes radioactive isotopes ideal for dating but challenging for nuclear waste management."
+      },
+      {
+        "question": "How does carbon dating work?",
+        "answer": "Living organisms maintain a constant ratio of carbon-14 to carbon-12 from the atmosphere. When they die, carbon-14 decays with a 5,730-year half-life. By measuring the remaining carbon-14, scientists can determine when the organism died."
+      },
+      {
+        "question": "What happens to atoms that undergo radioactive decay?",
+        "answer": "Radioactive atoms transform into different elements (daughter products) by emitting particles or radiation. For example, carbon-14 decays to nitrogen-14 by emitting a beta particle (electron)."
+      }
+    ]
+  },
+  "boyles-law": {
+    "title": "Boyle's Law Calculator",
+    "description": "Calculate the relationship between pressure and volume of a gas at constant temperature.",
+    "howItWorks": {
+      "title": "How the Boyle's Law Calculator Works",
+      "formula": "P1 x V1 = P2 x V2 (at constant temperature)",
+      "explanation": "Boyle's Law states that for a fixed amount of gas at constant temperature, pressure and volume are inversely proportional. When you compress a gas (reduce volume), pressure increases proportionally, and vice versa.",
+      "steps": [
+        "Enter the initial pressure (P1) and volume (V1)",
+        "Enter either the final pressure (P2) or final volume (V2)",
+        "The calculator solves for the unknown variable",
+        "Results show the relationship between initial and final states"
+      ]
+    },
+    "useCases": [
+      "Calculating air tank requirements for scuba diving",
+      "Designing pneumatic systems and compressors",
+      "Understanding breathing mechanics and lung function",
+      "Predicting gas behavior in sealed containers"
+    ],
+    "seoTips": [
+      "Boyle's Law only applies at constant temperature (isothermal process)",
+      "Doubling the pressure halves the volume at constant temperature",
+      "This law is part of the ideal gas law (PV = nRT)",
+      "Real gases deviate from Boyle's Law at high pressures",
+      "Robert Boyle discovered this relationship in 1662"
+    ],
+    "commonMistakes": [
+      "Applying Boyle's Law when temperature changes (use combined gas law instead)",
+      "Forgetting to use absolute pressure (gauge + atmospheric)",
+      "Not converting pressure and volume to consistent units",
+      "Assuming the law applies perfectly to real gases at extreme conditions"
+    ],
+    "faqs": [
+      {
+        "question": "Why does pressure increase when volume decreases?",
+        "answer": "Gas molecules are constantly moving and hitting the container walls. In a smaller volume, molecules hit the walls more frequently, creating higher pressure."
+      },
+      {
+        "question": "Does Boyle's Law apply to liquids?",
+        "answer": "No, liquids are nearly incompressible. Boyle's Law only applies to gases because their molecules have significant space between them that can be compressed."
+      },
+      {
+        "question": "What is absolute pressure?",
+        "answer": "Absolute pressure includes atmospheric pressure. If your gauge reads 30 psi and atmospheric pressure is 14.7 psi, absolute pressure is 44.7 psi. Boyle's Law uses absolute pressure."
+      },
+      {
+        "question": "When does Boyle's Law not work?",
+        "answer": "It breaks down for real gases at very high pressures or very low temperatures (near liquefaction), and when chemical reactions occur. The Van der Waals equation corrects for these deviations."
+      }
+    ]
+  },
+  "ph_calculator": {
+    "title": "pH Calculator",
+    "description": "Calculate pH, pOH, and ion concentrations from hydrogen or hydroxide ion concentration.",
+    "modes": {
+      "pH_from_H": "Calculate pH from [H+]",
+      "H_from_pH": "Calculate [H+] from pH",
+      "pOH_from_OH": "Calculate pOH from [OH-]",
+      "OH_from_pOH": "Calculate [OH-] from pOH"
+    },
+    "inputs": {
+      "h_concentration": "Hydrogen Ion Concentration [H+] (M)",
+      "pH": "pH Value",
+      "oh_concentration": "Hydroxide Ion Concentration [OH-] (M)",
+      "pOH": "pOH Value"
+    },
+    "tooltips": {
+      "h_concentration": "Concentration of hydrogen ions in moles per liter (M)",
+      "pH": "Measure of acidity (0-14 scale)",
+      "oh_concentration": "Concentration of hydroxide ions in moles per liter (M)",
+      "pOH": "Measure of basicity (0-14 scale)"
+    },
+    "results": {
+      "pH": "pH",
+      "pOH": "pOH",
+      "h_concentration": "[H+]",
+      "oh_concentration": "[OH-]",
+      "solution_type": "Solution Type",
+      "acidic": "Acidic",
+      "neutral": "Neutral",
+      "basic": "Basic (Alkaline)"
+    },
+    "formulas": {
+      "ph": "pH = -log[H+]",
+      "ph_desc": "pH is the negative logarithm of hydrogen ion concentration. pH + pOH = 14 at 25C."
+    },
+    "errors": {
+      "enter_value": "Please enter a value",
+      "concentration_positive": "Concentration must be positive",
+      "ph_range": "pH must be between 0 and 14",
+      "poh_range": "pOH must be between 0 and 14",
+      "calculation_error": "An error occurred during calculation"
+    },
+    "howItWorks": {
+      "title": "How the pH Calculator Works",
+      "formula": "pH = -log10[H+]; pOH = -log10[OH-]; pH + pOH = 14 (at 25C)",
+      "explanation": "The pH scale measures how acidic or basic a solution is. It's based on the logarithm of hydrogen ion concentration. This calculator converts between pH, pOH, and actual ion concentrations using logarithmic relationships.",
+      "steps": [
+        "Select the calculation mode (pH from [H+], [H+] from pH, etc.)",
+        "Enter the known value (concentration or pH/pOH)",
+        "The calculator applies the appropriate logarithmic formula",
+        "All related values (pH, pOH, [H+], [OH-]) are displayed"
+      ]
+    },
+    "useCases": [
+      "Laboratory solution preparation and analysis",
+      "Water quality testing for drinking water and pools",
+      "Agriculture for soil pH management",
+      "Food science for preserving and processing"
+    ],
+    "seoTips": [
+      "Each pH unit represents a 10-fold change in acidity",
+      "Pure water has pH 7, which is neutral",
+      "Blood pH is tightly regulated between 7.35-7.45",
+      "Lemon juice has pH around 2, bleach around 12-13",
+      "pH paper or meters measure pH, not calculate it"
+    ],
+    "commonMistakes": [
+      "Thinking pH 6 is slightly less acidic than pH 7 (it's 10 times more acidic)",
+      "Forgetting that pH + pOH = 14 only at 25C (changes with temperature)",
+      "Confusing concentration units (must use moles per liter)",
+      "Assuming all acids have the same strength at the same concentration"
+    ],
+    "faqs": [
+      {
+        "question": "Why is the pH scale logarithmic?",
+        "answer": "Hydrogen ion concentrations span many orders of magnitude (from 1 M to 10^-14 M). The logarithmic scale compresses this range to a convenient 0-14 scale."
+      },
+      {
+        "question": "Can pH be negative or greater than 14?",
+        "answer": "Yes, technically. Very strong concentrated acids can have negative pH, and very strong bases can exceed 14. The 0-14 range covers most common solutions."
+      },
+      {
+        "question": "What is the relationship between pH and pOH?",
+        "answer": "At 25C, pH + pOH always equals 14 (the pKw of water). If you know one, you can calculate the other."
+      },
+      {
+        "question": "Why does pH matter in everyday life?",
+        "answer": "pH affects chemical reactions, biological processes, and material stability. Your stomach needs low pH for digestion, your blood requires precise pH for survival, and pool pH determines swimmer comfort and sanitizer effectiveness."
+      }
+    ]
+  },
+  "half_life": {
+    "title": "Half-Life Calculator",
+    "description": "Calculate radioactive decay, remaining substance amount, and half-life periods.",
+    "initial_amount_label": "Initial Amount",
+    "initial_amount_tooltip": "The starting quantity of the substance before decay",
+    "initial_amount_placeholder": "Enter initial amount",
+    "half_life_period_label": "Half-Life Period",
+    "half_life_period_tooltip": "The time required for half of the substance to decay",
+    "half_life_period_placeholder": "Enter half-life period",
+    "elapsed_time_label": "Elapsed Time",
+    "elapsed_time_tooltip": "The total time that has passed since the start",
+    "elapsed_time_placeholder": "Enter elapsed time",
+    "time_unit_label": "Time Unit",
+    "time_units": {
+      "seconds": "Seconds",
+      "minutes": "Minutes",
+      "hours": "Hours",
+      "days": "Days",
+      "years": "Years"
+    },
+    "errors": {
+      "invalid": "Please enter a valid number",
+      "positive": "Value must be greater than zero",
+      "calculation": "An error occurred during calculation"
+    },
+    "results": {
+      "label": "Results",
+      "remaining_amount": "Remaining Amount",
+      "decay_constant": "Decay Constant (λ)",
+      "percentage_remaining": "Percentage Remaining",
+      "percentage_decayed": "Percentage Decayed",
+      "half_lives_elapsed": "Half-Lives Elapsed",
+      "decayed_amount": "Decayed Amount"
+    },
+    "info": {
+      "title": "About Half-Life",
+      "description": "Half-life is the time required for a quantity to reduce to half of its initial value. It is commonly used in nuclear physics to describe radioactive decay, but also applies to other exponential decay processes."
+    },
+    "formula": {
+      "title": "Formula",
+      "explanation": "N(t) = N0 x (1/2)^(t/t1/2) where N(t) is the remaining amount, N0 is the initial amount, t is elapsed time, and t1/2 is the half-life period."
+    },
+    "use_cases": {
+      "title": "Common Use Cases",
+      "case_1": "Radioactive dating (e.g., Carbon-14 dating)",
+      "case_2": "Medical applications (drug metabolism, radiation therapy)",
+      "case_3": "Nuclear waste management and safety"
+    },
+    "howItWorks": {
+      "title": "How the Half-Life Calculator Works",
+      "formula": "N(t) = N0 x (1/2)^(t/t1/2)",
+      "explanation": "Half-life describes exponential decay where a quantity decreases by half over each time period. This calculator determines how much of a substance remains after any given time, or calculates the time needed to reach a specific amount.",
+      "steps": [
+        "Enter the initial amount of substance",
+        "Input the half-life period (time for half to decay)",
+        "Enter the elapsed time since the start",
+        "Review the remaining amount and percentage calculations"
+      ]
+    },
+    "useCases": [
+      "Determining the age of archaeological artifacts using carbon dating",
+      "Calculating medication dosing schedules based on drug half-life",
+      "Planning radiation therapy treatments in medicine",
+      "Assessing nuclear waste storage timelines"
+    ],
+    "seoTips": [
+      "Carbon-14 has a half-life of 5,730 years, useful for dating up to 50,000 years",
+      "Uranium-238 has a half-life of 4.5 billion years - used to date rocks",
+      "Iodine-131 (8 days) is used in thyroid treatment",
+      "After 10 half-lives, less than 0.1% of the original substance remains",
+      "Half-life is independent of the initial amount"
+    ],
+    "commonMistakes": [
+      "Thinking half-life means the substance is gone after two half-lives",
+      "Confusing half-life with average lifetime (they differ by factor of ln(2))",
+      "Applying half-life to non-exponential decay processes",
+      "Forgetting that environmental factors can affect chemical (but not nuclear) half-life"
+    ],
+    "faqs": [
+      {
+        "question": "Does half-life depend on how much material you start with?",
+        "answer": "No, half-life is a constant property of the substance. Whether you have 1 gram or 1 ton, the half-life remains the same."
+      },
+      {
+        "question": "Can you speed up or slow down radioactive decay?",
+        "answer": "Nuclear half-life is essentially immune to external conditions like temperature, pressure, or chemical reactions. This makes it ideal for dating but challenging for nuclear waste management."
+      },
+      {
+        "question": "How is carbon dating done?",
+        "answer": "Living organisms maintain a constant ratio of C-14 to C-12. When they die, C-14 decays with a 5,730-year half-life. By measuring the remaining C-14, we can determine when the organism died."
+      },
+      {
+        "question": "What happens to the atoms that decay?",
+        "answer": "Radioactive atoms transform into different elements (daughter products) by emitting particles or radiation. For example, C-14 decays to N-14 by emitting a beta particle."
+      }
+    ]
+  },
+  "molar_mass": {
+    "title": "Molar Mass Calculator",
+    "description": "Calculate the molar mass of chemical compounds from their molecular formula.",
+    "inputs": {
+      "formula": "Chemical Formula"
+    },
+    "tooltips": {
+      "formula": "Enter a chemical formula (e.g., H2O, NaCl, C6H12O6)"
+    },
+    "placeholders": {
+      "formula": "e.g., H2O, NaCl, C6H12O6"
+    },
+    "common": {
+      "water": "Water",
+      "salt": "Table Salt",
+      "carbon_dioxide": "Carbon Dioxide",
+      "glucose": "Glucose",
+      "sulfuric_acid": "Sulfuric Acid",
+      "sodium_hydroxide": "Sodium Hydroxide"
+    },
+    "results": {
+      "molar_mass_of": "Molar Mass of",
+      "breakdown": "Element Breakdown",
+      "element": "Element",
+      "count": "Count",
+      "atomic_weight": "Atomic Weight",
+      "contribution": "Contribution",
+      "total": "Total"
+    },
+    "units": {
+      "g_mol": "g/mol"
+    },
+    "formulas": {
+      "info": "Enter a chemical formula to calculate its molar mass.",
+      "example": "Example: H2O = 2(1.008) + 15.999 = 18.015 g/mol"
+    },
+    "errors": {
+      "enter_formula": "Please enter a chemical formula",
+      "invalid_formula": "Invalid chemical formula. Use standard notation (e.g., H2O, NaCl)."
+    },
+    "howItWorks": {
+      "title": "How the Molar Mass Calculator Works",
+      "formula": "Molar Mass = Sum of (Atomic Mass x Number of Atoms) for all elements",
+      "explanation": "Molar mass is the mass of one mole of a substance (6.022 x 10^23 particles). This calculator parses chemical formulas, looks up atomic masses from the periodic table, and sums the contributions from each element.",
+      "steps": [
+        "Enter a chemical formula using standard notation (e.g., H2O, C6H12O6)",
+        "The calculator identifies each element and its count",
+        "Atomic masses are retrieved from the periodic table",
+        "Each element's contribution is calculated and summed for total molar mass"
+      ]
+    },
+    "useCases": [
+      "Converting between mass and moles in chemistry calculations",
+      "Preparing solutions of specific molar concentration",
+      "Stoichiometry calculations for chemical reactions",
+      "Pharmaceutical dosing calculations"
+    ],
+    "seoTips": [
+      "One mole contains 6.022 x 10^23 particles (Avogadro's number)",
+      "Water (H2O) has a molar mass of 18.015 g/mol",
+      "Glucose (C6H12O6) has a molar mass of 180.156 g/mol",
+      "Use parentheses for complex formulas: Ca(OH)2, Al2(SO4)3",
+      "Molar mass equals molecular weight expressed in g/mol"
+    ],
+    "commonMistakes": [
+      "Confusing molar mass with molecular mass (same number, different units)",
+      "Forgetting to multiply by subscripts (H2O has 2 hydrogens, not 1)",
+      "Not accounting for parentheses in complex formulas",
+      "Using outdated atomic mass values (these are periodically updated)"
+    ],
+    "faqs": [
+      {
+        "question": "What is a mole?",
+        "answer": "A mole is a counting unit like a dozen, but much larger: 6.022 x 10^23 particles. One mole of any substance contains this many atoms, molecules, or formula units."
+      },
+      {
+        "question": "Why is molar mass useful?",
+        "answer": "Molar mass connects the microscopic world (atoms) to the macroscopic world (grams). It lets us convert between mass we can measure and the number of particles involved in reactions."
+      },
+      {
+        "question": "How do I write complex chemical formulas?",
+        "answer": "Use capital letters for element symbols (Na, Cl), subscripts for atom counts (H2O), and parentheses for groups: Ca(OH)2 means one calcium, two oxygen, and two hydrogen atoms."
+      },
+      {
+        "question": "Where do atomic masses come from?",
+        "answer": "Atomic masses are weighted averages of all naturally occurring isotopes of each element. They're determined experimentally and listed on the periodic table."
+      }
+    ]
+  }
+}

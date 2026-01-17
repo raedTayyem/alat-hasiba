@@ -1,0 +1,154 @@
+{
+  "shared": {
+    "activity": {
+      "sedentary": {
+        "name": "Sedentary",
+        "description": "Little or no exercise (desk job)",
+        "example": "Example: Desk job with little extra activity"
+      },
+      "light": {
+        "name": "Lightly Active",
+        "description": "Light exercise 1-3 times/week",
+        "example": "Example: Light walking, housework, light workout"
+      },
+      "moderate": {
+        "name": "Moderately Active",
+        "description": "Moderate exercise 3-5 times/week",
+        "example": "Example: Brisk walking, moderate gym sessions"
+      },
+      "active": {
+        "name": "Active",
+        "description": "Hard exercise 5-7 times/week",
+        "example": "Example: Intense workout, regular sports, demanding job"
+      },
+      "very_active": {
+        "name": "Very Active",
+        "description": "Very hard exercise daily or physical job",
+        "example": "Example: Professional athlete, construction work, intense training"
+      }
+    },
+    "nutrition": {
+      "title": "Macronutrient Distribution",
+      "protein": "Protein",
+      "carbs": "Carbs",
+      "fat": "Fat",
+      "g": "g",
+      "calories": "calories"
+    },
+    "weightGoal": {
+      "loss": "Weight Loss",
+      "gain": "Weight Gain",
+      "rapidLoss": "Rapid Weight Loss",
+      "moderateLoss": "Moderate Weight Loss",
+      "mildLoss": "Mild Weight Loss",
+      "maintain": "Maintain Weight",
+      "mildGain": "Mild Weight Gain",
+      "moderateGain": "Moderate Weight Gain",
+      "rapidGain": "Rapid Weight Gain",
+      "targetChange": "Target Change",
+      "kgWeek": "kg/week",
+      "calWeek": "cal/week",
+      "dailyIntake": "Daily Intake"
+    },
+    "results": {
+      "currentValue": "Current Value",
+      "targetValue": "Target Value",
+      "targetRange": "Target Range",
+      "withinRange": "Within Target Range ✓",
+      "outsideTarget": "Outside Target Value ✗",
+      "outsideRange": "Outside Target Range ✗"
+    },
+    "measurements": {
+      "illustration": "Illustration",
+      "waist": {
+        "title": "Waist Circumference",
+        "steps": [
+          "Stand straight with your back upright",
+          "Place the tape measure around your middle, just above your hipbones",
+          "Ensure the tape is horizontal around your waist",
+          "Take the measurement after exhaling naturally"
+        ]
+      },
+      "neck": {
+        "title": "Neck Circumference",
+        "steps": [
+          "Stand upright comfortably",
+          "Place the tape measure around the middle of your neck",
+          "Keep the tape horizontal",
+          "Leave room for one finger between the tape and your neck"
+        ]
+      },
+      "hips": {
+        "title": "Hip Circumference",
+        "steps": [
+          "Stand with feet slightly apart",
+          "Place tape around the widest part of your hips/buttocks",
+          "Ensure the tape is level all the way around",
+          "Measure without squeezing your hip muscles"
+        ]
+      },
+      "skinfold": {
+        "title": "Skinfold Measurement",
+        "steps": [
+          "Use a skinfold caliper",
+          "Pinch the skinfold between thumb and forefinger",
+          "Place caliper jaws 1cm from fingers",
+          "Wait 2 seconds and read the measurement",
+          "Repeat 3 times and take the average"
+        ]
+      },
+      "general": {
+        "title": "Body Measurement",
+        "steps": [
+          "Use a non-stretchable measuring tape",
+          "Stand in a straight, comfortable position",
+          "Ensure the tape is level and parallel to the floor",
+          "Read the measurement accurately in cm"
+        ]
+      }
+    },
+    "education": {
+      "showMore": "Show More",
+      "showLess": "Show Less",
+      "bmr": {
+        "title": "Basal Metabolic Rate (BMR)",
+        "summary": "The number of calories your body burns to perform basic life-sustaining functions while at rest.",
+        "details": [
+          "BMR represents the minimum energy required for vital functions like breathing, circulation, and temperature regulation.",
+          "BMR is affected by age, gender, weight, height, and body composition.",
+          "People with more muscle mass have a higher BMR because muscle burns more calories than fat even at rest."
+        ]
+      },
+      "tdee": {
+        "title": "Total Daily Energy Expenditure (TDEE)",
+        "summary": "The total number of calories you burn in a day, including physical activity.",
+        "details": [
+          "TDEE accounts for all calories burned throughout the day, including daily activities and exercise.",
+          "It is calculated by multiplying your BMR by an activity factor.",
+          "The more active you are, the higher your activity factor, and thus your TDEE."
+        ]
+      },
+      "body_fat": {
+        "title": "Body Fat Percentage",
+        "summary": "The percentage of total body weight that is fat mass. It's a more accurate health indicator than BMI.",
+        "details": [
+          "Essential fat ranges differ between men and women; women need more fat for hormonal function.",
+          "Essential fat: Men 2-5%, Women 10-13%",
+          "Athletes: Men 6-13%, Women 14-20%",
+          "Fitness: Men 14-17%, Women 21-24%",
+          "Average: Men 18-24%, Women 25-31%",
+          "Obese: Men 25%+, Women 32%+"
+        ]
+      },
+      "general": {
+        "title": "General Information",
+        "summary": "General educational information about health and fitness.",
+        "details": [
+          "Balancing diet and physical activity is key to maintaining good health.",
+          "Nutritional needs vary from person to person based on individual factors.",
+          "Consult a health professional before making major changes to your diet or exercise routine."
+        ]
+      }
+    }
+  }
+}

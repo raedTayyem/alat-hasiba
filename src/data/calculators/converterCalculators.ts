@@ -1,0 +1,177 @@
+import { Calculator } from './types';
+
+// Converter Calculators
+const converterCalculators: Calculator[] = [
+    {
+        id: 300,
+        name: 'محول الطول',
+        nameEn: 'Length Converter',
+        nameKey: 'calc/converters:length.title',
+        slug: 'length-converter',
+        description: 'تحويل بين وحدات الطول المختلفة',
+        descriptionEn: 'Convert between different units of length including meters, feet, inches, and kilometers.',
+        descriptionKey: 'calc/converters:length.description',
+        category: 'converter',
+        icon: '📏',
+        popularity: 9,
+        componentName: 'LengthConverter'
+    },
+    {
+        id: 301,
+        name: 'محول الوزن',
+        nameEn: 'Weight Converter',
+        nameKey: 'calc/converters:weight.title',
+        slug: 'weight-converter',
+        description: 'تحويل بين وحدات الوزن والكتلة',
+        descriptionEn: 'Convert between different units of weight including kilograms, pounds, ounces, and grams.',
+        descriptionKey: 'calc/converters:weight.description',
+        category: 'converter',
+        icon: '⚖️',
+        popularity: 8,
+        componentName: 'WeightConverter'
+    },
+    {
+        id: 302,
+        name: 'محول الحرارة',
+        nameEn: 'Temperature Converter',
+        nameKey: 'calc/converters:temperature.title',
+        slug: 'temperature-converter',
+        description: 'تحويل بين السيلزيوس والفهرنهايت والكلفن',
+        descriptionEn: 'Convert between Celsius, Fahrenheit, and Kelvin temperature scales.',
+        descriptionKey: 'calc/converters:temperature.description',
+        category: 'converter',
+        icon: '🌡️',
+        popularity: 9,
+        componentName: 'TemperatureConverter'
+    },
+    {
+        id: 303,
+        name: 'محول المساحة',
+        nameEn: 'Area Converter',
+        nameKey: 'calc/converters:area.title',
+        slug: 'area-converter',
+        description: 'تحويل بين وحدات المساحة المختلفة',
+        descriptionEn: 'Convert between different units of area including square meters, acres, and square feet.',
+        descriptionKey: 'calc/converters:area.description',
+        category: 'converter',
+        icon: '📐',
+        popularity: 7,
+        componentName: 'AreaConverter'
+    },
+    {
+        id: 304,
+        name: 'محول الحجم',
+        nameEn: 'Volume Converter',
+        nameKey: 'calc/converters:volume.title',
+        slug: 'volume-converter',
+        description: 'تحويل بين وحدات الحجم المختلفة',
+        descriptionEn: 'Convert between different units of volume including liters, gallons, and cubic meters.',
+        descriptionKey: 'calc/converters:volume.description',
+        category: 'converter',
+        icon: '🧊',
+        popularity: 7,
+        componentName: 'VolumeConverter'
+    },
+    {
+        id: 305,
+        name: 'محول السرعة',
+        nameEn: 'Speed Converter',
+        nameKey: 'calc/converters:speed.title',
+        slug: 'speed-converter',
+        description: 'تحويل بين وحدات السرعة المختلفة',
+        descriptionEn: 'Convert between different units of speed including km/h, mph, and m/s.',
+        descriptionKey: 'calc/converters:speed.description',
+        category: 'converter',
+        icon: '🚀',
+        popularity: 6,
+        componentName: 'SpeedConverter'
+    },
+    {
+        id: 306,
+        name: 'محول الوقت',
+        nameEn: 'Time Converter',
+        nameKey: 'calc/converters:time.title',
+        slug: 'time-converter',
+        description: 'تحويل بين وحدات الوقت المختلفة',
+        descriptionEn: 'Convert between different units of time including seconds, minutes, hours, and days.',
+        descriptionKey: 'calc/converters:time.description',
+        category: 'converter',
+        icon: '⏱️',
+        popularity: 6,
+        componentName: 'TimeUnitConverter'
+    },
+    {
+        id: 307,
+        name: 'محول الضغط',
+        nameEn: 'Pressure Converter',
+        nameKey: 'calc/converters:pressure.title',
+        slug: 'pressure-converter',
+        description: 'تحويل بين وحدات الضغط المختلفة',
+        descriptionEn: 'Convert between different units of pressure including Pascal, Bar, and PSI.',
+        descriptionKey: 'calc/converters:pressure.description',
+        category: 'converter',
+        icon: '🎈',
+        popularity: 5,
+        componentName: 'PressureConverter'
+    },
+    {
+        id: 308,
+        name: 'محول القوة',
+        nameEn: 'Force Converter',
+        nameKey: 'calc/converters:force.title',
+        slug: 'force-converter',
+        description: 'تحويل بين وحدات القوة المختلفة',
+        descriptionEn: 'Convert between different units of force including Newton and Pound-force.',
+        descriptionKey: 'calc/converters:force.description',
+        category: 'converter',
+        icon: '💥',
+        popularity: 4,
+        componentName: 'ForceConverter'
+    },
+    {
+        id: 309,
+        name: 'محول العملات',
+        nameEn: 'Currency Converter',
+        nameKey: 'calc/converters:currency.title',
+        slug: 'currency-converter',
+        description: 'تحويل بين العملات العالمية المختلفة',
+        descriptionEn: 'Convert between different world currencies with real-time exchange rates.',
+        descriptionKey: 'calc/converters:currency.description',
+        category: 'converter',
+        icon: '💱',
+        popularity: 9,
+        componentName: 'CurrencyConverter'
+    },
+
+    {
+        id: 310,
+        name: 'محول أنظمة الأعداد',
+        nameEn: 'Number System Converter',
+        nameKey: 'calc/converters:number_system.title',
+        slug: 'number-system-converter',
+        description: 'تحويل بين الأنظمة العشرية والثنائية والثمانية والست عشرية',
+        descriptionEn: 'Convert between decimal, binary, octal, and hexadecimal number systems.',
+        descriptionKey: 'calc/converters:number_system.description',
+        category: 'converter',
+        icon: '🔢',
+        popularity: 8,
+        componentName: 'NumberSystemConverter'
+    },
+    {
+        id: 311,
+        name: 'محول وحدات البيانات',
+        nameEn: 'Data Storage Converter',
+        nameKey: 'calc/converters:data_storage.title',
+        slug: 'data-storage-converter',
+        description: 'تحويل بين وحدات تخزين البيانات (بايت، كيلوبايت، ميجابايت، إلخ)',
+        descriptionEn: 'Convert between different data storage units including Bytes, KB, MB, GB, and TB.',
+        descriptionKey: 'calc/converters:data_storage.description',
+        category: 'converter',
+        icon: '💾',
+        popularity: 7,
+        componentName: 'DataStorageConverter'
+    }
+
+];
+
+export default converterCalculators;

@@ -1,0 +1,1170 @@
+{
+  "force": {
+    "title": "Force Calculator (F = ma)",
+    "description": "Calculate Force, Mass, or Acceleration using Newton's Second Law.",
+    "keywords": "force, mass, acceleration, newton",
+    "inputs": {
+      "mass": "Mass (m)",
+      "acceleration": "Acceleration (a)"
+    },
+    "tooltips": {
+      "mass": "Mass of the object in kilograms",
+      "acceleration": "Acceleration of the object in m/s²"
+    },
+    "placeholders": {
+      "mass": "Enter mass",
+      "acceleration": "Enter acceleration"
+    },
+    "results": {
+      "force": "Resultant Force (F)"
+    },
+    "units": {
+      "force": "Newtons",
+      "kg": "Kilogram (kg)",
+      "g": "Gram (g)",
+      "mg": "Milligram (mg)",
+      "lb": "Pound (lb)",
+      "oz": "Ounce (oz)",
+      "ton": "Tonne (t)",
+      "N": "Newtons (N)",
+      "kN": "Kilonewtons (kN)",
+      "lbf": "Pound-force (lbf)",
+      "dyne": "Dynes",
+      "m_s2": "Meters per second squared (m/s²)",
+      "ft_s2": "Feet per second squared (ft/s²)",
+      "g_accel": "Standard Gravity (g)",
+      "m": "Meters (m)",
+      "km": "Kilometers (km)",
+      "cm": "Centimeters (cm)",
+      "mm": "Millimeters (mm)",
+      "ft": "Feet (ft)",
+      "mi": "Miles (mi)",
+      "yd": "Yards (yd)",
+      "s": "Seconds (s)",
+      "min": "Minutes (min)",
+      "h": "Hours (h)",
+      "ms": "Milliseconds (ms)",
+      "m_s": "Meters per second (m/s)",
+      "km_h": "Kilometers per hour (km/h)",
+      "mph": "Miles per hour (mph)",
+      "ft_s": "Feet per second (ft/s)",
+      "knot": "Knots"
+    },
+    "formulas": {
+      "force": "Force equals mass multiplied by acceleration.",
+      "formula_short": "F = ma"
+    },
+    "how_to_use": {
+      "step1": "Enter the mass value.",
+      "step2": "Enter the acceleration value.",
+      "step3": "Click the 'Calculate' button.",
+      "step4": "The result will appear below."
+    },
+    "howItWorks": {
+      "title": "How Does the Force Calculator Work?",
+      "formula": "F = m × a (Force = Mass × Acceleration)",
+      "explanation": "This calculator applies Newton's Second Law of Motion to calculate the force acting on an object. Force is directly proportional to both mass and acceleration.",
+      "steps": [
+        "Enter the mass of the object in kilograms",
+        "Enter the acceleration in meters per second squared",
+        "Select appropriate units if needed",
+        "Click Calculate to find the resulting force"
+      ]
+    },
+    "useCases": [
+      "Calculate the force needed to accelerate an object",
+      "Determine the mass required to achieve a specific force",
+      "Understand the relationship between force, mass, and acceleration",
+      "Solve mechanics problems in physics courses"
+    ],
+    "seoTips": [
+      "Newton's Second Law: Force equals mass times acceleration",
+      "The SI unit of force is the Newton (N)",
+      "One Newton equals the force needed to give 1 kg an acceleration of 1 m/s²",
+      "Force is a vector quantity with both magnitude and direction"
+    ],
+    "commonMistakes": [
+      "Confusing mass with weight - weight is the force due to gravity",
+      "Forgetting to convert units to SI before calculating",
+      "Ignoring the direction of force when dealing with multiple forces"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between mass and weight?",
+        "answer": "Mass is the amount of matter in an object and is constant everywhere, while weight is the gravitational force on the object and varies by location."
+      },
+      {
+        "question": "Why is this called Newton's Second Law?",
+        "answer": "It is the second of Newton's three laws of motion. The first law relates to inertia, and the third to action and reaction."
+      },
+      {
+        "question": "How do I calculate mass if I know force and acceleration?",
+        "answer": "Mass = Force ÷ Acceleration (m = F/a)"
+      },
+      {
+        "question": "What is a Newton in base units?",
+        "answer": "A Newton equals kg × m/s². A force of 1 Newton gives a 1 kg mass an acceleration of 1 m/s²."
+      }
+    ]
+  },
+  "velocity_acceleration": {
+    "title": "Velocity & Acceleration Calculator",
+    "description": "Calculate velocity, acceleration, distance, time, and final velocity using kinematic equations.",
+    "modes": {
+      "velocity": "Velocity (v = d/t)",
+      "acceleration": "Acceleration (a = Δv/t)",
+      "final_velocity": "Final Velocity (v² = v₀² + 2ad)"
+    },
+    "solve_for": {
+      "velocity": "Calculate Velocity",
+      "acceleration": "Calculate Acceleration",
+      "final_velocity": "Calculate Final Velocity",
+      "initial_velocity": "Calculate Initial Velocity",
+      "time": "Calculate Time",
+      "distance": "Calculate Distance"
+    },
+    "inputs": {
+      "velocity": "Velocity",
+      "distance": "Distance (d)",
+      "time": "Time (t)",
+      "initial_velocity": "Initial Velocity (v₀)",
+      "final_velocity": "Final Velocity (v)",
+      "acceleration": "Acceleration (a)"
+    },
+    "tooltips": {
+      "velocity": "Speed in a given direction",
+      "distance": "The length of the path traveled",
+      "time": "Duration of the motion",
+      "initial_velocity": "Starting velocity of the object",
+      "final_velocity": "Ending velocity of the object",
+      "acceleration": "Rate of change of velocity"
+    },
+    "results": {
+      "velocity": "Velocity",
+      "distance": "Distance",
+      "time": "Time",
+      "acceleration": "Acceleration",
+      "final_velocity": "Final Velocity",
+      "initial_velocity": "Initial Velocity"
+    },
+    "units": {
+      "m": "Meters (m)",
+      "km": "Kilometers (km)",
+      "cm": "Centimeters (cm)",
+      "mm": "Millimeters (mm)",
+      "ft": "Feet (ft)",
+      "mi": "Miles (mi)",
+      "yd": "Yards (yd)",
+      "s": "Seconds (s)",
+      "min": "Minutes (min)",
+      "h": "Hours (h)",
+      "ms": "Milliseconds (ms)",
+      "m_s": "Meters per second (m/s)",
+      "km_h": "Kilometers per hour (km/h)",
+      "mph": "Miles per hour (mph)",
+      "ft_s": "Feet per second (ft/s)",
+      "knot": "Knots",
+      "m_s2": "Meters per second squared (m/s²)"
+    },
+    "errors": {
+      "enter_distance_time": "Please enter distance and time",
+      "enter_time_velocity": "Please enter time and velocity",
+      "enter_distance_velocity": "Please enter distance and velocity",
+      "enter_accel_basics": "Please enter initial velocity, final velocity, and time",
+      "enter_final_v_basics": "Please enter initial velocity, acceleration, and time",
+      "enter_initial_v_basics": "Please enter final velocity, acceleration, and time",
+      "enter_time_accel_basics": "Please enter initial velocity, final velocity, and acceleration",
+      "enter_kinematic_basics": "Please enter initial velocity, acceleration, and distance",
+      "time_zero": "Time must be greater than zero",
+      "velocity_zero": "Velocity cannot be zero",
+      "accel_zero": "Acceleration cannot be zero",
+      "negative_time": "Calculated time is negative (check your values)",
+      "imaginary_velocity": "The result is an imaginary number (check your values)"
+    },
+    "formulas": {
+      "velocity": "Velocity = Distance / Time",
+      "acceleration": "Acceleration = (Final Velocity - Initial Velocity) / Time",
+      "final_velocity": "v² = v₀² + 2ad (Kinematic Equation)"
+    },
+    "howItWorks": {
+      "title": "How Does the Velocity & Acceleration Calculator Work?",
+      "formula": "v = d/t | a = Δv/t | v² = v₀² + 2ad",
+      "explanation": "This calculator uses fundamental kinematic equations to calculate velocity, acceleration, distance, and time. Choose the appropriate mode based on the values you know.",
+      "steps": [
+        "Select the calculation type (velocity, acceleration, or final velocity)",
+        "Enter the known values in the appropriate fields",
+        "Choose your preferred units",
+        "Click Calculate to get the result"
+      ]
+    },
+    "useCases": [
+      "Calculate vehicle speed given distance and time",
+      "Determine the acceleration needed to reach a target speed",
+      "Solve linear motion problems in physics",
+      "Verify answers to physics homework"
+    ],
+    "seoTips": [
+      "Average velocity = Total distance ÷ Total time",
+      "Acceleration is the rate of change of velocity with respect to time",
+      "Kinematic equations apply only when acceleration is constant",
+      "Velocity is a vector while speed is a scalar quantity"
+    ],
+    "commonMistakes": [
+      "Confusing average velocity with instantaneous velocity",
+      "Using kinematic equations when acceleration is not constant",
+      "Forgetting to convert units (km/h to m/s)",
+      "Ignoring the negative sign for deceleration"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between velocity and speed?",
+        "answer": "Velocity is a vector quantity specifying both magnitude and direction, while speed only specifies magnitude."
+      },
+      {
+        "question": "When should I use v² = v₀² + 2ad?",
+        "answer": "Use this equation when time is not given or required, and you need to relate initial and final velocities with acceleration and distance."
+      },
+      {
+        "question": "How do I convert km/h to m/s?",
+        "answer": "Divide by 3.6. For example: 72 km/h ÷ 3.6 = 20 m/s"
+      },
+      {
+        "question": "What is negative acceleration?",
+        "answer": "Negative acceleration (deceleration) means velocity is decreasing with time, such as when braking."
+      }
+    ]
+  },
+  "momentum": {
+    "title": "Momentum Calculator",
+    "description": "Calculate linear momentum, impulse, and conservation of momentum for objects.",
+    "keywords": "momentum, impulse, physics, collision",
+    "modes": {
+      "linear": "Linear Momentum (p = mv)",
+      "impulse": "Impulse (J = FΔt)",
+      "conservation": "Conservation of Momentum"
+    },
+    "solve_for": {
+      "momentum": "Calculate Momentum",
+      "mass": "Calculate Mass",
+      "velocity": "Calculate Velocity"
+    },
+    "inputs": {
+      "mass": "Mass (m)",
+      "velocity": "Velocity (v)",
+      "momentum": "Momentum (p)",
+      "force": "Force (F)",
+      "time": "Time (Δt)",
+      "initial_momentum": "Initial Momentum (p₀)",
+      "object1": "Object 1",
+      "object2": "Object 2",
+      "mass1": "Mass of Object 1",
+      "velocity1": "Velocity of Object 1",
+      "mass2": "Mass of Object 2",
+      "velocity2": "Velocity of Object 2"
+    },
+    "tooltips": {
+      "mass": "Mass of the object",
+      "velocity": "Velocity of the object",
+      "momentum": "Momentum in kg·m/s",
+      "force": "Applied force in Newtons",
+      "time": "Time duration in seconds",
+      "initial_momentum": "Momentum before force application",
+      "mass1": "Mass of the first object",
+      "velocity1": "Velocity of the first object",
+      "mass2": "Mass of the second object",
+      "velocity2": "Velocity of the second object"
+    },
+    "placeholders": {
+      "mass": "Enter mass",
+      "velocity": "Enter velocity",
+      "momentum": "Enter momentum",
+      "force": "Enter force",
+      "time": "Enter time",
+      "initial_momentum": "Enter initial momentum"
+    },
+    "results": {
+      "momentum": "Momentum (p)",
+      "mass": "Mass (m)",
+      "velocity": "Velocity (v)",
+      "impulse_momentum": "Impulse and Momentum Change",
+      "total_momentum": "Total System Momentum",
+      "impulse": "Impulse",
+      "final_momentum": "Final Momentum"
+    },
+    "units": {
+      "kg": "Kilogram (kg)",
+      "g": "Gram (g)",
+      "lb": "Pound (lb)",
+      "oz": "Ounce (oz)",
+      "Ns": "Newton-second (N⋅s)",
+      "kg_m_s": "Kilogram meter per second (kg⋅m/s)"
+    },
+    "formulas": {
+      "linear": "Formula: p = mv",
+      "impulse": "Formula: J = FΔt = Δp",
+      "conservation": "Conservation of Momentum: p_total = m₁v₁ + m₂v₂",
+      "linear_desc": "Momentum is a vector quantity representing the quantity of motion.",
+      "impulse_desc": "Impulse equals the change in an object's momentum."
+    },
+    "errors": {
+      "enter_mass_velocity": "Please enter mass and velocity",
+      "enter_momentum_velocity": "Please enter momentum and velocity",
+      "enter_momentum_mass": "Please enter momentum and mass",
+      "enter_force_time": "Please enter force and time",
+      "enter_all_conservation": "Please enter all masses and velocities",
+      "velocity_zero": "Velocity cannot be zero",
+      "mass_zero": "Mass cannot be zero",
+      "negative_mass": "Result leads to negative mass - check values",
+      "invalid_input": "Invalid input values"
+    },
+    "howItWorks": {
+      "title": "How Does the Momentum Calculator Work?",
+      "formula": "p = m × v (Momentum = Mass × Velocity)",
+      "explanation": "This calculator computes linear momentum of objects, impulse from forces, and applies the conservation of momentum principle to collision problems.",
+      "steps": [
+        "Select the calculation type: linear momentum, impulse, or conservation",
+        "Enter mass and velocity for linear momentum",
+        "Enter force and time for impulse calculations",
+        "Enter data for both objects in collision problems"
+      ]
+    },
+    "useCases": [
+      "Calculate momentum of moving objects",
+      "Analyze elastic and inelastic collisions",
+      "Calculate the force needed to change an object's momentum",
+      "Understand conservation of momentum in physics"
+    ],
+    "seoTips": [
+      "Momentum is conserved in an isolated system",
+      "The unit of momentum is kg·m/s or Newton-second",
+      "Impulse = Force × Time = Change in momentum",
+      "In elastic collisions, both momentum and kinetic energy are conserved"
+    ],
+    "commonMistakes": [
+      "Forgetting that momentum is a vector with direction",
+      "Not accounting for signs in collision problems",
+      "Confusing elastic and inelastic collisions",
+      "Ignoring external forces that affect momentum conservation"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between momentum and impulse?",
+        "answer": "Momentum is the quantity of motion (p=mv), while impulse is the change in momentum caused by a force acting over time (J=FΔt)."
+      },
+      {
+        "question": "When is momentum conserved?",
+        "answer": "Momentum is conserved in an isolated system, meaning no external forces act on the system."
+      },
+      {
+        "question": "What is the difference between elastic and inelastic collisions?",
+        "answer": "In elastic collisions, both momentum and kinetic energy are conserved. In inelastic collisions, only momentum is conserved while some kinetic energy is lost."
+      },
+      {
+        "question": "How do airbags use the impulse principle?",
+        "answer": "Airbags increase the collision time, which reduces the force on the body (since J=FΔt is constant)."
+      }
+    ]
+  },
+  "power": {
+    "title": "Power and Electricity Calculator",
+    "description": "Calculate mechanical power, electrical power, work, and efficiency.",
+    "modes": {
+      "mechanical": "Mechanical (P = Fv)",
+      "workTime": "Work and Time (P = W/t)",
+      "electrical": "Electrical (P = VI)",
+      "efficiency": "Efficiency"
+    },
+    "solve_for": {
+      "power": "Calculate Power",
+      "work": "Calculate Work",
+      "time": "Calculate Time",
+      "force": "Calculate Force",
+      "velocity": "Calculate Velocity",
+      "voltage": "Calculate Voltage",
+      "current": "Calculate Current",
+      "resistance": "Calculate Resistance"
+    },
+    "inputs": {
+      "force": "Force (F)",
+      "velocity": "Velocity (v)",
+      "work": "Work (W)",
+      "time": "Time (t)",
+      "voltage": "Voltage (V)",
+      "current": "Current (I)",
+      "resistance": "Resistance (R)",
+      "input_power": "Input Power (Pin)",
+      "output_power": "Output Power (Pout)",
+      "power_unit": "Power Unit"
+    },
+    "tooltips": {
+      "force": "Applied force in Newtons",
+      "velocity": "Velocity in meters/second",
+      "work": "Work done in Joules",
+      "time": "Time taken",
+      "voltage": "Electrical voltage in Volts",
+      "current": "Electrical current in Amperes",
+      "resistance": "Electrical resistance in Ohms",
+      "input_power": "Total power consumed",
+      "output_power": "Useful power produced"
+    },
+    "results": {
+      "mechanical": "Mechanical Power",
+      "force": "Force",
+      "velocity": "Velocity",
+      "power": "Power",
+      "work": "Work",
+      "time": "Time",
+      "electrical": "Electrical Power",
+      "voltage": "Voltage",
+      "current": "Current",
+      "resistance": "Resistance",
+      "efficiency_loss": "Efficiency and Power Loss",
+      "efficiency": "Efficiency",
+      "power_loss": "Power Loss"
+    },
+    "errors": {
+      "enter_force_velocity": "Please enter force and velocity",
+      "enter_velocity_power": "Please enter velocity and power",
+      "enter_force_power": "Please enter force and power",
+      "enter_work_time": "Please enter work and time",
+      "enter_time_power": "Please enter time and power",
+      "enter_work_power": "Please enter work and power",
+      "enter_two_electrical": "Please enter at least two electrical parameters",
+      "enter_current_resistance_power": "Please enter current or resistance, and power",
+      "enter_voltage_resistance_power": "Please enter voltage or resistance, and power",
+      "enter_voltage_current_power": "Please enter voltage or current, and power",
+      "enter_input_output": "Please enter input and output power",
+      "velocity_zero": "Velocity cannot be zero",
+      "force_zero": "Force cannot be zero",
+      "time_zero": "Time cannot be zero",
+      "power_zero": "Power cannot be zero",
+      "input_power_zero": "Input power cannot be zero"
+    },
+    "formulas": {
+      "mechanical": "P = Fv",
+      "workTime": "P = W / t",
+      "electrical": "P = VI, P = V²/R, P = I²R",
+      "efficiency": "η = (Pout / Pin) × 100%",
+      "mechanical_desc": "Mechanical power is the rate of doing work by a force.",
+      "workTime_desc": "Power is the rate at which work is performed.",
+      "efficiency_desc": "Efficiency measures how well power is converted from input to output."
+    },
+    "units": {
+      "W": "Watts (W)",
+      "kW": "Kilowatts (kW)",
+      "MW": "Megawatts (MW)",
+      "hp": "Horsepower (hp)",
+      "BTU_h": "BTU/hour",
+      "J": "Joules (J)",
+      "N": "Newtons (N)",
+      "m_s": "Meters per second (m/s)",
+      "V": "Volts (V)",
+      "A": "Amperes (A)",
+      "ohm": "Ohms (Ω)"
+    },
+    "howItWorks": {
+      "title": "How Does the Power and Electricity Calculator Work?",
+      "formula": "P = W/t | P = Fv | P = VI | η = Pout/Pin",
+      "explanation": "This calculator computes power in its various forms: mechanical and electrical, plus efficiency and work calculations.",
+      "steps": [
+        "Select the calculation type: mechanical, work/time, electrical, or efficiency",
+        "Enter the known values",
+        "Choose appropriate units",
+        "Click Calculate to get the result"
+      ]
+    },
+    "useCases": [
+      "Calculate electrical power consumption of household appliances",
+      "Determine efficiency of motors and machines",
+      "Calculate work done over a given time",
+      "Compare power between different systems"
+    ],
+    "seoTips": [
+      "One Watt equals one Joule per second",
+      "One mechanical horsepower equals 746 Watts",
+      "Efficiency = (Useful power output ÷ Total power input) × 100%",
+      "Electrical power = Voltage × Current"
+    ],
+    "commonMistakes": [
+      "Confusing power (Watts) with energy (Joules or Watt-hours)",
+      "Forgetting that efficiency is always less than 100%",
+      "Using incompatible units in calculations",
+      "Ignoring power losses in resistors"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between power and energy?",
+        "answer": "Power is the rate of energy transfer (Joules/second = Watts), while energy is power × time (Watts × hours = Watt-hours)."
+      },
+      {
+        "question": "How do I calculate appliance energy consumption?",
+        "answer": "Consumption = Power (kW) × Hours of operation. For example: a 1000W device running for 5 hours = 5 kWh."
+      },
+      {
+        "question": "Why is efficiency always less than 100%?",
+        "answer": "Due to energy losses in other forms (heat, sound, friction) according to the law of conservation of energy."
+      },
+      {
+        "question": "What is Ohm's relation to power?",
+        "answer": "P = V²/R = I²R. Power can be calculated from voltage and resistance, or from current and resistance."
+      }
+    ]
+  },
+  "rotational_motion": {
+    "title": "Rotational Motion Calculator",
+    "description": "Calculate angular velocity, radius, torque, and rotational kinetic energy.",
+    "inputs": {
+      "angular_velocity": "Angular Velocity (ω) in rad/s",
+      "radius": "Radius (r) in meters",
+      "mass": "Mass (m) in kg",
+      "angle": "Angle (θ) in degrees",
+      "time": "Time (t) in seconds",
+      "linear_velocity_optional": "Linear Velocity (v) in m/s (optional)"
+    },
+    "placeholders": {
+      "angular_velocity": "Enter angular velocity",
+      "radius": "Enter radius",
+      "mass": "Enter mass",
+      "angle": "Enter angle",
+      "time": "Enter time",
+      "linear_velocity": "Enter linear velocity"
+    },
+    "results": {
+      "title": "Results",
+      "linear_velocity": "Linear Velocity",
+      "centripetal_acceleration": "Centripetal Acceleration",
+      "centripetal_force": "Centripetal Force",
+      "kinetic_energy": "Rotational Kinetic Energy",
+      "angular_momentum": "Angular Momentum",
+      "distance_traveled": "Distance Traveled",
+      "period_of_rotation": "Period of Rotation"
+    },
+    "units": {
+      "m_s": "Meters per second (m/s)",
+      "m_s2": "Meters per second squared (m/s²)",
+      "N": "Newtons (N)",
+      "J": "Joules (J)",
+      "m": "Meters (m)",
+      "s": "Seconds (s)",
+      "kg_m2_s": "Kilogram meter squared per second (kg·m²/s)"
+    },
+    "howItWorks": {
+      "title": "How Does the Rotational Motion Calculator Work?",
+      "formula": "v = ωr | ac = ω²r | L = Iω | KE = ½Iω²",
+      "explanation": "This calculator computes rotational motion properties including linear velocity, centripetal acceleration, angular momentum, and rotational kinetic energy.",
+      "steps": [
+        "Enter the angular velocity in radians per second",
+        "Enter the radius in meters",
+        "Enter the mass for calculations that require it",
+        "Click Calculate to get all results"
+      ]
+    },
+    "useCases": [
+      "Calculate the speed of a point on a rotating wheel",
+      "Determine the centripetal force required for circular motion",
+      "Calculate kinetic energy of rotating objects",
+      "Analyze planetary and satellite motion"
+    ],
+    "seoTips": [
+      "Radian = the angle subtended by an arc equal to the radius",
+      "One full revolution = 2π radians = 360 degrees",
+      "Centripetal acceleration always points toward the center",
+      "Angular momentum is conserved in an isolated system"
+    ],
+    "commonMistakes": [
+      "Confusing degrees and radians",
+      "Forgetting that centripetal acceleration is not in the direction of motion",
+      "Using mass instead of moment of inertia",
+      "Ignoring the direction of angular velocity"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between angular and linear velocity?",
+        "answer": "Angular velocity (ω) measures the rate of angle change (rad/s), while linear velocity (v) measures distance per second (m/s). v = ωr"
+      },
+      {
+        "question": "Why do we feel pushed outward in curves?",
+        "answer": "This is a fictitious force (centrifugal). The real force is centripetal, which keeps you in the circular path."
+      },
+      {
+        "question": "What is moment of inertia?",
+        "answer": "It is an object's resistance to rotation, depending on mass distribution. The farther mass is from the axis, the greater the moment of inertia."
+      },
+      {
+        "question": "How do I convert RPM to radians/second?",
+        "answer": "Multiply by 2π/60. For example: 60 RPM = 60 × 2π/60 = 2π ≈ 6.28 rad/s"
+      }
+    ]
+  },
+  "acceleration": {
+    "title": "Acceleration Calculator",
+    "description": "Calculate acceleration based on the change in velocity and time.",
+    "keywords": "acceleration, velocity, physics, motion",
+    "inputs": {
+      "initial_velocity": "Initial Velocity (v₀)",
+      "final_velocity": "Final Velocity (v)",
+      "time": "Time (t)"
+    },
+    "tooltips": {
+      "initial_velocity": "Velocity at the start of motion",
+      "final_velocity": "Velocity at the end of motion",
+      "time": "Time duration of change"
+    },
+    "results": {
+      "acceleration": "Estimated Acceleration (a)"
+    },
+    "units": {
+      "acceleration": "m/s²"
+    },
+    "formulas": {
+      "acceleration": "Acceleration is the difference between final and initial velocity divided by time.",
+      "formula_short": "a = (v_f - v_i) / t"
+    },
+    "how_to_use": {
+      "step1": "Enter initial velocity.",
+      "step2": "Enter final velocity.",
+      "step3": "Enter time duration.",
+      "step4": "Click 'Calculate' to see the acceleration."
+    },
+    "howItWorks": {
+      "title": "How Does the Acceleration Calculator Work?",
+      "formula": "a = (v - v₀) / t",
+      "explanation": "This calculator computes acceleration, the rate of change of velocity with respect to time. Positive acceleration means increasing speed, negative means deceleration.",
+      "steps": [
+        "Enter the initial velocity of the object",
+        "Enter the final velocity of the object",
+        "Enter the time elapsed for the change",
+        "Click Calculate to get the acceleration"
+      ]
+    },
+    "useCases": [
+      "Calculate acceleration of a car from rest",
+      "Determine the deceleration rate when braking",
+      "Understand projectile motion under gravity",
+      "Solve linear motion problems"
+    ],
+    "seoTips": [
+      "Acceleration is a vector quantity with magnitude and direction",
+      "The SI unit of acceleration is m/s²",
+      "Gravitational acceleration on Earth ≈ 9.81 m/s²",
+      "Negative acceleration means deceleration or direction change"
+    ],
+    "commonMistakes": [
+      "Confusing velocity with acceleration",
+      "Forgetting that acceleration can be negative",
+      "Using the formula when acceleration is not constant",
+      "Not converting units correctly"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between acceleration and velocity?",
+        "answer": "Velocity describes the rate of position change, while acceleration describes the rate of velocity change."
+      },
+      {
+        "question": "Can acceleration be zero while an object is moving?",
+        "answer": "Yes, when an object moves at constant velocity (no change), its acceleration is zero."
+      },
+      {
+        "question": "What does negative acceleration mean?",
+        "answer": "It means velocity is decreasing (deceleration) or acceleration is in the opposite direction of motion."
+      },
+      {
+        "question": "How do I calculate distance using acceleration?",
+        "answer": "d = v₀t + ½at² or use v² = v₀² + 2ad"
+      }
+    ]
+  },
+  "rotational_motion_calculator": {
+    "title": "Rotational Motion Calculator",
+    "description": "Calculate angular velocity, radius, torque, and rotational kinetic energy.",
+    "inputs": {
+      "angular_velocity": "Angular Velocity (ω) in rad/s",
+      "radius": "Radius (r) in meters",
+      "mass": "Mass (m) in kg",
+      "angle": "Angle (θ) in degrees",
+      "time": "Time (t) in seconds",
+      "linear_velocity_optional": "Linear Velocity (v) in m/s (optional)"
+    },
+    "placeholders": {
+      "angular_velocity": "Enter angular velocity",
+      "radius": "Enter radius",
+      "mass": "Enter mass",
+      "angle": "Enter angle",
+      "time": "Enter time",
+      "linear_velocity": "Enter linear velocity"
+    },
+    "results": {
+      "title": "Results",
+      "linear_velocity": "Linear Velocity",
+      "centripetal_acceleration": "Centripetal Acceleration",
+      "centripetal_force": "Centripetal Force",
+      "kinetic_energy": "Rotational Kinetic Energy",
+      "angular_momentum": "Angular Momentum",
+      "distance_traveled": "Distance Traveled",
+      "period_of_rotation": "Period of Rotation"
+    },
+    "units": {
+      "m_s": "m/s",
+      "m_s2": "m/s²",
+      "N": "N",
+      "J": "J",
+      "m": "m",
+      "s": "s",
+      "kg_m2_s": "kg·m²/s"
+    },
+    "howItWorks": {
+      "title": "How Does the Rotational Motion Calculator Work?",
+      "formula": "v = ωr | ac = ω²r | T = 2π/ω",
+      "explanation": "This calculator computes all rotational motion variables including linear velocity, centripetal acceleration, angular momentum, and rotational kinetic energy.",
+      "steps": [
+        "Enter the angular velocity in radians per second",
+        "Enter the radius in meters",
+        "Enter the mass if you want force and energy calculations",
+        "Click Calculate to get all results"
+      ]
+    },
+    "useCases": [
+      "Analyze wheel and gear motion",
+      "Calculate satellite orbital speeds",
+      "Design rotating machinery",
+      "Study planetary and stellar motion"
+    ],
+    "seoTips": [
+      "Linear velocity = Angular velocity × Radius",
+      "Centripetal acceleration always points toward the center",
+      "Period of rotation = 2π ÷ Angular velocity",
+      "Frequency = Number of revolutions per second = 1/T"
+    ],
+    "commonMistakes": [
+      "Confusing degrees and radians for angular velocity",
+      "Forgetting that centripetal acceleration is perpendicular to velocity",
+      "Using mass instead of moment of inertia in some calculations",
+      "Ignoring the direction of angular velocity (right-hand rule)"
+    ],
+    "faqs": [
+      {
+        "question": "What is a radian?",
+        "answer": "A radian is the angle subtended by an arc whose length equals the radius. One full revolution = 2π radians = 360°"
+      },
+      {
+        "question": "What is the relationship between RPM and rad/s?",
+        "answer": "ω (rad/s) = RPM × 2π/60. Example: 60 RPM = 2π rad/s ≈ 6.28 rad/s"
+      },
+      {
+        "question": "Why is centripetal acceleration called that?",
+        "answer": "Because it always points toward the center of the circle, responsible for changing the direction of velocity without changing its magnitude."
+      },
+      {
+        "question": "What is centrifugal force?",
+        "answer": "It is a fictitious force that appears in a rotating reference frame, not a real force. The real force is centripetal."
+      }
+    ]
+  },
+  "energy": {
+    "title": "Energy Calculator",
+    "description": "Calculate kinetic energy, potential energy, mechanical energy, and work.",
+    "modes": {
+      "kinetic": "Kinetic (KE = ½mv²)",
+      "potential": "Potential (PE = mgh)",
+      "mechanical": "Mechanical (ME = KE + PE)",
+      "work": "Work (W = Fd cos θ)"
+    },
+    "inputs": {
+      "mass": "Mass (m)",
+      "velocity": "Velocity (v)",
+      "height": "Height (h)",
+      "gravity": "Gravity (g)",
+      "force": "Force (F)",
+      "distance": "Distance (d)",
+      "angle": "Angle (θ)",
+      "energy_unit": "Energy Unit"
+    },
+    "tooltips": {
+      "mass": "Mass of the object",
+      "velocity": "Velocity of the object",
+      "height": "Height above reference level",
+      "gravity": "Gravitational acceleration (default: 9.81 m/s²)",
+      "force": "Applied force in Newtons",
+      "distance": "Distance traveled in meters",
+      "angle": "Angle between force and displacement in degrees"
+    },
+    "results": {
+      "kinetic": "Kinetic Energy",
+      "potential": "Potential Energy",
+      "mechanical": "Mechanical Energy",
+      "work": "Work Done",
+      "ke_short": "KE",
+      "pe_short": "PE",
+      "total_short": "Total"
+    },
+    "units": {
+      "J": "Joules (J)",
+      "kJ": "Kilojoules (kJ)",
+      "cal": "Calories (cal)",
+      "kcal": "Kilocalories (kcal)",
+      "Wh": "Watt-hours (Wh)",
+      "kWh": "Kilowatt-hours (kWh)",
+      "eV": "Electron volts (eV)"
+    },
+    "formulas": {
+      "kinetic": "KE = ½mv²",
+      "potential": "PE = mgh",
+      "mechanical": "ME = KE + PE",
+      "work": "W = Fd cos θ",
+      "kinetic_desc": "Kinetic energy is the energy of motion.",
+      "potential_desc": "Gravitational potential energy is energy stored due to position.",
+      "mechanical_desc": "Total mechanical energy is conserved in the absence of friction.",
+      "work_desc": "Work is the energy transferred by a force moving an object."
+    },
+    "errors": {
+      "enter_mass_velocity": "Please enter mass and velocity",
+      "enter_mass_height": "Please enter mass and height",
+      "enter_mass_velocity_height": "Please enter mass, velocity, and height",
+      "enter_force_distance": "Please enter force and distance",
+      "mass_positive": "Mass must be greater than zero",
+      "gravity_positive": "Gravity must be greater than zero"
+    },
+    "howItWorks": {
+      "title": "How Does the Energy Calculator Work?",
+      "formula": "KE = ½mv² | PE = mgh | W = Fd cos θ",
+      "explanation": "This calculator computes different types of energy: kinetic energy related to motion, potential energy related to position, and work done by forces.",
+      "steps": [
+        "Select the type of energy to calculate",
+        "Enter mass and velocity for kinetic energy",
+        "Enter mass and height for potential energy",
+        "Enter force, distance, and angle for work"
+      ]
+    },
+    "useCases": [
+      "Calculate the kinetic energy of a moving object",
+      "Determine potential energy of an elevated object",
+      "Calculate work done by a force",
+      "Analyze energy transformations in mechanical systems"
+    ],
+    "seoTips": [
+      "Energy cannot be created or destroyed, only transformed",
+      "The SI unit of energy is the Joule",
+      "Mechanical energy = Kinetic energy + Potential energy",
+      "Work = Force × Distance × cos(angle)"
+    ],
+    "commonMistakes": [
+      "Forgetting to square the velocity in kinetic energy formula",
+      "Using the wrong reference height for potential energy",
+      "Ignoring the angle in work calculations",
+      "Confusing energy with power"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between kinetic and potential energy?",
+        "answer": "Kinetic energy is related to motion (KE=½mv²), while potential energy is related to position in a gravitational field (PE=mgh)."
+      },
+      {
+        "question": "When is work negative?",
+        "answer": "When the force is in the opposite direction to motion, like friction. The angle between them is greater than 90 degrees."
+      },
+      {
+        "question": "What is the law of conservation of energy?",
+        "answer": "Total mechanical energy remains constant in the absence of non-conservative forces (like friction)."
+      },
+      {
+        "question": "How do I calculate the speed of a falling object?",
+        "answer": "Using energy conservation: mgh = ½mv² → v = √(2gh)"
+      }
+    ]
+  },
+  "newton_laws": {
+    "title": "Newton's Second Law Calculator (F = ma)",
+    "description": "Calculate Force, Mass, or Acceleration using the second law of motion.",
+    "solve_for": {
+      "force": "Calculate Force",
+      "mass": "Calculate Mass",
+      "acceleration": "Calculate Acceleration"
+    },
+    "inputs": {
+      "mass": "Mass (m)",
+      "acceleration": "Acceleration (a)",
+      "force": "Force (F)",
+      "result_unit": "Result Unit"
+    },
+    "tooltips": {
+      "mass": "Mass of the object",
+      "acceleration": "Rate of change of velocity",
+      "force": "Total applied force"
+    },
+    "results": {
+      "force": "Force (F)",
+      "mass": "Mass (m)",
+      "acceleration": "Acceleration (a)"
+    },
+    "formulas": {
+      "newton_2": "F = ma",
+      "newton_2_desc": "This fundamental law states that the force acting on an object is equal to its mass times its acceleration."
+    },
+    "errors": {
+      "enter_mass_accel": "Please enter mass and acceleration",
+      "enter_force_accel": "Please enter force and acceleration",
+      "enter_force_mass": "Please enter force and mass",
+      "mass_positive": "Mass must be greater than zero",
+      "accel_zero": "Acceleration cannot be zero",
+      "negative_mass": "Result leads to negative mass - check values"
+    },
+    "howItWorks": {
+      "title": "How Does Newton's Second Law Calculator Work?",
+      "formula": "F = m × a",
+      "explanation": "This calculator applies Newton's Second Law which states that the net force on an object equals its mass times its acceleration.",
+      "steps": [
+        "Select what you want to calculate: force, mass, or acceleration",
+        "Enter the two known variables",
+        "Choose appropriate units",
+        "Click Calculate to get the result"
+      ]
+    },
+    "useCases": [
+      "Calculate the force needed to accelerate an object",
+      "Determine an object's mass from force and acceleration",
+      "Understand the relationship between force and motion",
+      "Solve dynamics problems"
+    ],
+    "seoTips": [
+      "Newton's Second Law is the foundation of classical mechanics",
+      "Force = Mass × Acceleration (F = ma)",
+      "Unit of force: Newton = kg × m/s²",
+      "The law connects cause (force) with effect (acceleration)"
+    ],
+    "commonMistakes": [
+      "Confusing weight with mass",
+      "Forgetting that F represents net force, not a single force",
+      "Ignoring the direction of force and acceleration",
+      "Using incompatible units"
+    ],
+    "faqs": [
+      {
+        "question": "What are Newton's three laws?",
+        "answer": "First: Inertia. Second: F=ma. Third: For every action, there is an equal and opposite reaction."
+      },
+      {
+        "question": "When does Newton's Second Law not apply?",
+        "answer": "At speeds near the speed of light (use relativity) or at atomic scales (use quantum mechanics)."
+      },
+      {
+        "question": "How do I calculate weight using this law?",
+        "answer": "Weight = Mass × Gravitational acceleration (W = mg). On Earth: g ≈ 9.81 m/s²"
+      }
+    ]
+  },
+  "density": {
+    "title": "Density Calculator",
+    "description": "Calculate density, mass, or volume using the density formula.",
+    "solve_for": {
+      "density": "Calculate Density",
+      "mass": "Calculate Mass",
+      "volume": "Calculate Volume"
+    },
+    "inputs": {
+      "mass": "Mass (m)",
+      "volume": "Volume (V)",
+      "density": "Density (ρ)",
+      "result_unit": "Result Unit"
+    },
+    "tooltips": {
+      "mass": "Mass of the object",
+      "volume": "Volume occupied by the object",
+      "density": "Density of the material",
+      "result_unit": "Unit for the result"
+    },
+    "placeholders": {
+      "mass": "Enter mass",
+      "volume": "Enter volume",
+      "density": "Enter density"
+    },
+    "results": {
+      "density": "Density (ρ)",
+      "mass": "Mass (m)",
+      "volume": "Volume (V)"
+    },
+    "units": {
+      "kg": "Kilogram (kg)",
+      "g": "Gram (g)",
+      "mg": "Milligram (mg)",
+      "lb": "Pound (lb)",
+      "oz": "Ounce (oz)",
+      "m3": "Cubic meter (m³)",
+      "L": "Liter (L)",
+      "mL": "Milliliter (mL)",
+      "cm3": "Cubic centimeter (cm³)",
+      "ft3": "Cubic foot (ft³)",
+      "gal": "Gallon (gal)",
+      "kg_m3": "kg/m³",
+      "g_cm3": "g/cm³",
+      "g_mL": "g/mL",
+      "kg_L": "kg/L",
+      "lb_ft3": "lb/ft³"
+    },
+    "formulas": {
+      "density": "ρ = m / V",
+      "density_desc": "Density equals mass divided by volume. It measures how much mass is packed into a given volume."
+    },
+    "errors": {
+      "enter_mass_volume": "Please enter mass and volume",
+      "enter_density_volume": "Please enter density and volume",
+      "enter_mass_density": "Please enter mass and density",
+      "mass_positive": "Mass must be greater than zero",
+      "volume_positive": "Volume must be greater than zero",
+      "density_positive": "Density must be greater than zero",
+      "calculation_error": "An error occurred during calculation"
+    },
+    "howItWorks": {
+      "title": "How Does the Density Calculator Work?",
+      "formula": "ρ = m / V (Density = Mass ÷ Volume)",
+      "explanation": "This calculator computes density, which is the amount of mass per unit volume. You can also calculate mass or volume if you know the density.",
+      "steps": [
+        "Select what you want to calculate: density, mass, or volume",
+        "Enter the two known variables",
+        "Choose appropriate units",
+        "Click Calculate to get the result"
+      ]
+    },
+    "useCases": [
+      "Identify materials by their density",
+      "Calculate the mass of a known volume of material",
+      "Determine whether an object will float or sink",
+      "Verify material purity"
+    ],
+    "seoTips": [
+      "Density of water = 1 g/cm³ = 1000 kg/m³",
+      "Objects float if their density is less than the liquid's density",
+      "Density is a characteristic property of each material",
+      "Density of gold = 19.3 g/cm³, iron = 7.87 g/cm³"
+    ],
+    "commonMistakes": [
+      "Confusing mass with weight",
+      "Using incompatible units (kg with cm³)",
+      "Forgetting that density changes with temperature",
+      "Ignoring voids in porous materials"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between density and specific gravity?",
+        "answer": "Density has units (kg/m³), while specific gravity is the ratio of a material's density to water's density and is unitless."
+      },
+      {
+        "question": "Why does ice float on water?",
+        "answer": "Because ice density (0.92 g/cm³) is less than liquid water density (1 g/cm³)."
+      },
+      {
+        "question": "How does temperature affect density?",
+        "answer": "Generally, density decreases as temperature increases because volume increases while mass stays constant."
+      },
+      {
+        "question": "What is the density of air?",
+        "answer": "Air density at sea level ≈ 1.225 kg/m³ at 15°C."
+      }
+    ]
+  },
+  "boyles_law": {
+    "title": "Boyle's Law Calculator",
+    "description": "Calculate pressure or volume changes of a gas at constant temperature using Boyle's Law.",
+    "solve_for": {
+      "P1": "Calculate Initial Pressure (P₁)",
+      "V1": "Calculate Initial Volume (V₁)",
+      "P2": "Calculate Final Pressure (P₂)",
+      "V2": "Calculate Final Volume (V₂)"
+    },
+    "inputs": {
+      "P1": "Initial Pressure (P₁)",
+      "V1": "Initial Volume (V₁)",
+      "P2": "Final Pressure (P₂)",
+      "V2": "Final Volume (V₂)"
+    },
+    "tooltips": {
+      "P1": "Initial pressure of the gas",
+      "V1": "Initial volume of the gas",
+      "P2": "Final pressure of the gas",
+      "V2": "Final volume of the gas"
+    },
+    "placeholders": {
+      "pressure": "Enter pressure",
+      "volume": "Enter volume"
+    },
+    "results": {
+      "P1": "Initial Pressure (P₁)",
+      "V1": "Initial Volume (V₁)",
+      "P2": "Final Pressure (P₂)",
+      "V2": "Final Volume (V₂)"
+    },
+    "units": {
+      "atm": "Atmosphere (atm)",
+      "Pa": "Pascal (Pa)",
+      "kPa": "Kilopascal (kPa)",
+      "bar": "Bar",
+      "psi": "PSI",
+      "mmHg": "mmHg",
+      "torr": "Torr",
+      "L": "Liter (L)",
+      "mL": "Milliliter (mL)",
+      "m3": "Cubic meter (m³)",
+      "cm3": "Cubic centimeter (cm³)",
+      "ft3": "Cubic foot (ft³)",
+      "gal": "Gallon (gal)"
+    },
+    "formulas": {
+      "boyles_law": "P₁ × V₁ = P₂ × V₂",
+      "boyles_law_desc": "At constant temperature, the pressure and volume of a gas are inversely proportional."
+    },
+    "errors": {
+      "enter_p1_v1_v2": "Please enter P₁, V₁, and V₂",
+      "enter_p1_v1_p2": "Please enter P₁, V₁, and P₂",
+      "enter_p2_v1_v2": "Please enter P₂, V₁, and V₂",
+      "enter_p1_p2_v2": "Please enter P₁, P₂, and V₂",
+      "positive_values": "All values must be positive",
+      "calculation_error": "An error occurred during calculation"
+    },
+    "howItWorks": {
+      "title": "How Does Boyle's Law Calculator Work?",
+      "formula": "P₁ × V₁ = P₂ × V₂",
+      "explanation": "Boyle's Law describes the inverse relationship between gas pressure and volume at constant temperature. When pressure increases, volume decreases and vice versa.",
+      "steps": [
+        "Select the variable you want to calculate",
+        "Enter pressure and volume in both states (before and after)",
+        "Choose units for pressure and volume",
+        "Click Calculate to get the result"
+      ]
+    },
+    "useCases": [
+      "Calculate gas pressure when volume changes",
+      "Design compressed air systems",
+      "Understand how syringes and pumps work",
+      "Analyze gas behavior in diving"
+    ],
+    "seoTips": [
+      "Boyle's Law applies to ideal gases at constant temperature",
+      "The relationship between pressure and volume is inverse",
+      "P₁V₁ = P₂V₂ = constant",
+      "The law was discovered by Robert Boyle in 1662"
+    ],
+    "commonMistakes": [
+      "Applying the law when temperature changes",
+      "Using incompatible units for pressure or volume",
+      "Forgetting that the law is approximate for real gases",
+      "Ignoring that the law doesn't apply at very high pressures"
+    ],
+    "faqs": [
+      {
+        "question": "When does Boyle's Law apply?",
+        "answer": "When temperature is constant, gas amount is constant, and the gas behaves ideally."
+      },
+      {
+        "question": "What is the difference between Boyle's Law and the Ideal Gas Law?",
+        "answer": "Boyle's Law is a special case of the Ideal Gas Law (PV=nRT) when T and n are constant."
+      },
+      {
+        "question": "Why do balloons expand at high altitude?",
+        "answer": "Because atmospheric pressure decreases with altitude, causing gas volume to increase according to Boyle's Law."
+      },
+      {
+        "question": "Does Boyle's Law apply to liquids?",
+        "answer": "No, liquids are essentially incompressible. The law only applies to gases."
+      }
+    ]
+  }
+}

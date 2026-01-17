@@ -1,0 +1,1871 @@
+{
+    "age": {
+        "title": "Age Calculator",
+        "description": "Calculate your exact age in years, months, and days, and see how many days are left until your next birthday.",
+        "howItWorks": "The age calculator works by computing the precise difference between your birth date and the current date. It analyzes complete years first, then remaining months, and finally days. The tool accounts for leap years and varying month lengths to ensure accurate results.",
+        "useCases": [
+            "Calculate exact age for official documents and job applications",
+            "Find out when your next birthday is and plan celebrations",
+            "Track children's age in days and months for medical follow-ups",
+            "Determine age eligibility for various programs and services",
+            "Calculate age difference between people"
+        ],
+        "seoTips": [
+            "Enter your birth date accurately for correct results",
+            "Use the calculator to know your age in different units (days, hours)",
+            "Save the result for future reference when needed"
+        ],
+        "commonMistakes": [
+            "Entering incorrect birth date or wrong format",
+            "Confusing Gregorian and other calendar systems",
+            "Forgetting that age changes daily, not just yearly"
+        ],
+        "faqs": [
+            {
+                "question": "How is age calculated in years, months, and days?",
+                "answer": "Age is calculated by finding the difference between your birth date and today's date. First, we count complete years, then remaining months, and finally remaining days. For example, if born on March 15, 2000, and today is January 10, 2024, you would be 23 years, 9 months, and 26 days old."
+            },
+            {
+                "question": "How are leap years handled in age calculation?",
+                "answer": "Our calculator accounts for leap years (years divisible by 4, except century years not divisible by 400). February 29th birthdays are calculated correctly, and the extra day in leap years is included in the total day count."
+            },
+            {
+                "question": "What is the difference between chronological age and biological age?",
+                "answer": "Chronological age is your exact age based on your birth date. Biological age reflects how well your body functions compared to average people of your chronological age. This calculator determines chronological age; biological age requires medical assessments."
+            },
+            {
+                "question": "Can I calculate the age of a deceased person?",
+                "answer": "Yes, you can use the calculator to find out what age a deceased person would have been if still alive by entering their birth date."
+            },
+            {
+                "question": "Why is my lunar age different from my solar age?",
+                "answer": "The lunar year (Hijri) is about 11 days shorter than the solar year (Gregorian), so your lunar age will be higher than your Gregorian age."
+            }
+        ],
+        "birth_date": "Birth Date",
+        "your_age": "Your Age is",
+        "years": "Years",
+        "months": "Months",
+        "days": "Days",
+        "total_days": "Total Days",
+        "total_months": "Total Months",
+        "total_hours": "Total Hours",
+        "next_birthday": "For Next Celebration",
+        "info": "About Age Calculator",
+        "error_empty": "Please enter your birth date",
+        "error_invalid": "Invalid date",
+        "error_future": "Birth date cannot be in the future"
+    },
+    "date-difference": {
+        "title": "Date Difference Calculator",
+        "description": "Calculate the exact time duration between two different dates, including business days.",
+        "howItWorks": "This tool calculates the time difference between two dates by subtracting the first date from the second. It displays results in years, months, and days, along with total days and business days (excluding weekends).",
+        "useCases": [
+            "Calculate employment duration for retirement or severance",
+            "Find out time remaining until an important event or deadline",
+            "Calculate pregnancy and due dates",
+            "Determine contract and agreement durations",
+            "Calculate vacation and absence days"
+        ],
+        "seoTips": [
+            "Make sure to enter the earlier date in the start field",
+            "Enable the include end date option if you want it counted",
+            "Use business days result for professional calculations"
+        ],
+        "commonMistakes": [
+            "Reversing the date order (putting end before start)",
+            "Forgetting that business days exclude Saturday and Sunday only",
+            "Not accounting for varying month lengths"
+        ],
+        "faqs": [
+            {
+                "question": "How are business days calculated?",
+                "answer": "Business days are calculated by subtracting weekend days (Saturday and Sunday) from total days. The calculations do not include public holidays as they vary by country."
+            },
+            {
+                "question": "Can I calculate the difference between past dates?",
+                "answer": "Yes, you can calculate the difference between any two dates whether in the past or future, as long as you enter the earlier date in the start field."
+            },
+            {
+                "question": "Why does the result differ from my manual calculation?",
+                "answer": "The calculator accounts for varying month lengths (28-31 days) and leap years, which may give different results than approximate manual calculations."
+            }
+        ],
+        "start_date": "Start Date",
+        "start_date_tooltip": "Enter the starting date of the period",
+        "end_date": "End Date",
+        "end_date_tooltip": "Enter the ending date of the period",
+        "include_end_date": "Include end date in calculation",
+        "result_label": "Time Difference",
+        "detailed_breakdown": "Detailed Breakdown",
+        "business_days": "Business Days",
+        "total_days": "Total Days",
+        "total_hours": "Total Hours",
+        "total_minutes": "Total Minutes",
+        "note_title": "Note",
+        "note_text": "Business days exclude weekends. Calculation accounts for varying month lengths and leap years.",
+        "error_empty_dates": "Please enter both dates",
+        "error_invalid_dates": "Invalid dates",
+        "error_start_after_end": "Start date must be before end date"
+    },
+    "timezone-converter": {
+        "title": "Time Zone Converter",
+        "description": "Easily convert time between different time zones around the world.",
+        "howItWorks": "The converter transforms time from one timezone to another using UTC (Coordinated Universal Time) offsets. It accounts for daylight saving time when applicable in certain regions.",
+        "useCases": [
+            "Schedule work meetings with teams in different countries",
+            "Find the right time to call family and friends abroad",
+            "Coordinate travel schedules and international flights",
+            "Watch live sports events and global broadcasts",
+            "Trade in global financial markets"
+        ],
+        "seoTips": [
+            "Select source and target timezones accurately",
+            "Watch for daylight saving time which changes the time difference",
+            "Save frequent conversions for quick reference"
+        ],
+        "commonMistakes": [
+            "Forgetting daylight saving time which adds or subtracts an hour",
+            "Confusing AM and PM in 12-hour format",
+            "Not accounting for date changes during conversion"
+        ],
+        "faqs": [
+            {
+                "question": "What is UTC (Coordinated Universal Time)?",
+                "answer": "UTC is the global time standard against which all time zones are measured. It was formerly known as Greenwich Mean Time (GMT)."
+            },
+            {
+                "question": "How do I find the time difference between two countries?",
+                "answer": "Enter the same time in the calculator and convert between both zones. The time difference will be apparent from the result."
+            },
+            {
+                "question": "Does the time difference change throughout the year?",
+                "answer": "Yes, some countries observe daylight saving time which changes the time difference with other countries by one hour."
+            }
+        ],
+        "date": "Date",
+        "time": "Time",
+        "from_timezone": "From Time Zone",
+        "to_timezone": "To Time Zone",
+        "converted_time": "Converted Time",
+        "error_empty": "Please enter date and time",
+        "error_invalid": "Invalid date/time",
+        "error_conversion": "Conversion error",
+        "timezone_utc": "UTC (Coordinated Universal Time)",
+        "timezone_eastern": "Eastern Time (ET)",
+        "timezone_central": "Central Time (CT)",
+        "timezone_mountain": "Mountain Time (MT)",
+        "timezone_pacific": "Pacific Time (PT)",
+        "timezone_london": "London (GMT/BST)",
+        "timezone_paris": "Paris (CET/CEST)",
+        "timezone_dubai": "Dubai (GST)",
+        "timezone_riyadh": "Riyadh (AST)",
+        "timezone_tokyo": "Tokyo (JST)",
+        "timezone_shanghai": "Shanghai (CST)",
+        "timezone_sydney": "Sydney (AEDT/AEST)"
+    },
+    "date-format-converter": {
+        "title": "Date Format Converter",
+        "description": "Convert dates between various global and local formats.",
+        "howItWorks": "The converter takes the input date and reformats it in various ways such as ISO 8601, US format, European format, Unix timestamp, and more, making it easy to use dates in different contexts.",
+        "useCases": [
+            "Convert dates for use in programming and databases",
+            "Standardize date formats in official documents",
+            "Convert dates between US and European formats",
+            "Get Unix timestamps for technical applications",
+            "Format dates for reports and presentations"
+        ],
+        "seoTips": [
+            "Use ISO 8601 format for international compatibility",
+            "Understand the difference between DD/MM and MM/DD",
+            "Use Unix timestamps for precision in programming"
+        ],
+        "commonMistakes": [
+            "Confusing US format (month/day) with European format (day/month)",
+            "Forgetting that Unix timestamp starts from January 1, 1970",
+            "Not accounting for timezone in conversions"
+        ],
+        "faqs": [
+            {
+                "question": "What is ISO 8601 format?",
+                "answer": "It is the international standard for writing dates as YYYY-MM-DD (year-month-day), and is the recommended format for international and programming use."
+            },
+            {
+                "question": "What is the difference between US and European formats?",
+                "answer": "US format writes the month first (MM/DD/YYYY), while European writes the day first (DD/MM/YYYY). For example: 03/05/2024 means March 5 in the US and May 3 in Europe."
+            },
+            {
+                "question": "What is a Unix timestamp?",
+                "answer": "It is the number of seconds elapsed since January 1, 1970 at 00:00:00 UTC. It is widely used in programming for storing dates."
+            }
+        ],
+        "date": "Date",
+        "formats": "Date Formats",
+        "error_empty": "Please enter a date",
+        "error_invalid": "Invalid date",
+        "format_iso_8601": "ISO 8601",
+        "format_rfc_2822": "RFC 2822",
+        "format_us": "US (MM/DD/YYYY)",
+        "format_european": "European (DD/MM/YYYY)",
+        "format_iso_short": "ISO Short (YYYY-MM-DD)",
+        "format_long": "Long Format",
+        "format_medium": "Medium Format",
+        "format_unix_timestamp": "Unix Timestamp",
+        "format_milliseconds": "Milliseconds"
+    },
+    "unix-timestamp-converter": {
+        "title": "Unix Timestamp Converter",
+        "description": "Convert between Unix timestamps and human-readable dates.",
+        "howItWorks": "This converter transforms between Unix timestamps (seconds since January 1, 1970) and human-readable dates. You can convert in both directions: from timestamp to date or vice versa.",
+        "useCases": [
+            "Convert database timestamps to readable dates",
+            "Generate timestamps for use in programming",
+            "Analyze server and system logs",
+            "Debug applications that use Unix timestamps",
+            "Convert dates for API calls"
+        ],
+        "seoTips": [
+            "Remember that timestamps are in seconds, not milliseconds",
+            "Use the current timestamp as a reference for verification",
+            "Pay attention to timezone when converting"
+        ],
+        "commonMistakes": [
+            "Confusing timestamps in seconds with milliseconds",
+            "Forgetting that timestamps are based on UTC",
+            "Entering negative timestamps without knowing they represent dates before 1970"
+        ],
+        "faqs": [
+            {
+                "question": "Why does the timestamp start from 1970?",
+                "answer": "Unix developers chose this date (January 1, 1970) as the starting point because it was close to the system's development time and easy to calculate."
+            },
+            {
+                "question": "What is the difference between seconds and milliseconds?",
+                "answer": "Timestamps in seconds typically have 10 digits, while milliseconds have 13 digits. Milliseconds = seconds x 1000."
+            },
+            {
+                "question": "Can dates before 1970 be represented?",
+                "answer": "Yes, using negative numbers. For example: -86400 represents December 31, 1969."
+            }
+        ],
+        "mode": "Conversion Mode",
+        "timestamp_to_date": "Timestamp to Date",
+        "date_to_timestamp": "Date to Timestamp",
+        "timestamp": "Unix Timestamp",
+        "date": "Date",
+        "time": "Time (Optional)",
+        "converted_date": "Converted Date",
+        "unix_timestamp_result": "Unix Timestamp",
+        "error_invalid_timestamp": "Invalid timestamp",
+        "error_empty_date": "Please enter a date",
+        "error_invalid_date": "Invalid date"
+    },
+    "day-of-week-calculator": {
+        "title": "Day of Week Calculator",
+        "description": "Find out what day of the week any date falls on in the past or future.",
+        "howItWorks": "The calculator uses mathematical algorithms to determine the day of the week for any date. It accounts for leap years and Gregorian calendar rules to provide accurate results.",
+        "useCases": [
+            "Find out what day your birthday or any historical event fell on",
+            "Plan events on specific dates",
+            "Check the day of the week for a future appointment",
+            "Historical research to find days of past events",
+            "Schedule meetings and appointments"
+        ],
+        "seoTips": [
+            "Enter the date in the correct format for accurate results",
+            "Use the calculator to verify dates of holidays and occasions",
+            "Check the week number for planning purposes"
+        ],
+        "commonMistakes": [
+            "Entering dates in the wrong format",
+            "Confusing Gregorian with other calendar systems",
+            "Forgetting that weeks may start on Sunday or Monday depending on culture"
+        ],
+        "faqs": [
+            {
+                "question": "How does the calculator determine the day of the week?",
+                "answer": "The calculator uses Zeller's algorithm or similar methods to mathematically compute the day of the week based on the day, month, and year."
+            },
+            {
+                "question": "Can I find the day for very old dates?",
+                "answer": "Yes, but note that the current Gregorian calendar started in 1582, and dates before that followed the Julian calendar."
+            },
+            {
+                "question": "What is the week number of the year?",
+                "answer": "It is the ordinal number of the week in the year from 1 to 52 or 53, commonly used in business and planning."
+            }
+        ],
+        "date": "Date",
+        "day_of_week": "Day of Week",
+        "week_of_year": "Week of Year",
+        "day_of_year": "Day of Year",
+        "error_empty": "Please enter a date",
+        "error_invalid": "Invalid date",
+        "sunday": "Sunday",
+        "monday": "Monday",
+        "tuesday": "Tuesday",
+        "wednesday": "Wednesday",
+        "thursday": "Thursday",
+        "friday": "Friday",
+        "saturday": "Saturday"
+    },
+    "yazidi-calendar": {
+        "title": "Yazidi Calendar Converter",
+        "description": "Convert dates between Gregorian and Yazidi calendar systems instantly.",
+        "howItWorks": "The converter transforms dates between the Gregorian calendar and the traditional Yazidi calendar, accounting for differences in year and month calculations.",
+        "useCases": [
+            "Convert dates for Yazidi occasions",
+            "Find the Yazidi date equivalent of any Gregorian date",
+            "Plan religious holidays and events",
+            "Research Yazidi history and heritage",
+            "Documentation and archiving in Yazidi calendar"
+        ],
+        "seoTips": [
+            "Enter the date accurately for correct conversion",
+            "Learn about the Yazidi New Year for better understanding",
+            "Use the converter for event planning"
+        ],
+        "commonMistakes": [
+            "Confusing the Yazidi calendar with other calendars",
+            "Not understanding that the Yazidi calendar uses special calculations",
+            "Expecting exact matches with other calendars"
+        ],
+        "faqs": [
+            {
+                "question": "What is the Yazidi calendar?",
+                "answer": "It is the traditional calendar of the Yazidi religion, based on astronomical calculations and ancient traditions specific to the Yazidi community."
+            },
+            {
+                "question": "When does the Yazidi year begin?",
+                "answer": "The Yazidi New Year begins on the first Wednesday after April 13 according to the Julian calendar, known as Sere Sal or Red Wednesday."
+            },
+            {
+                "question": "Is the Yazidi calendar solar or lunar?",
+                "answer": "The Yazidi calendar combines solar elements with local traditions, differing from purely solar or lunar calendars."
+            }
+        ]
+    },
+    "fixed-christian-feasts": {
+        "title": "Fixed Christian Feasts Calculator",
+        "description": "Find dates for fixed holidays like Christmas, Epiphany, and Annunciation for any year.",
+        "howItWorks": "The calculator displays dates for Christian feasts that fall on the same date each year. It includes feasts for both Western (Gregorian) and Eastern (Julian) traditions with the 13-day difference.",
+        "useCases": [
+            "Find Christian feast dates for a specific year",
+            "Plan religious and family celebrations",
+            "Compare feast dates between Western and Eastern churches",
+            "Plan holidays and travel during religious seasons",
+            "Learn about Christian religious occasions"
+        ],
+        "seoTips": [
+            "Understand the difference between Gregorian and Julian calendars",
+            "Use the calculator for advance planning",
+            "Compare dates between Western and Eastern traditions"
+        ],
+        "commonMistakes": [
+            "Confusing fixed and movable feasts",
+            "Forgetting the 13-day difference between Julian and Gregorian calendars",
+            "Assuming all churches celebrate on the same date"
+        ],
+        "faqs": [
+            {
+                "question": "What is the difference between fixed and movable feasts?",
+                "answer": "Fixed feasts fall on the same date each year (like Christmas on December 25), while movable feasts change according to Easter calculations."
+            },
+            {
+                "question": "Why is Orthodox Christmas different?",
+                "answer": "Eastern Orthodox churches use the Julian calendar which is 13 days behind the Gregorian, so December 25 Julian falls on January 7 Gregorian."
+            },
+            {
+                "question": "Do all churches celebrate the same feasts?",
+                "answer": "Most major feasts are shared, but some are specific to certain denominations like the Immaculate Conception in the Catholic Church."
+            }
+        ]
+    },
+    "movable-christian-holy-days": {
+        "title": "Movable Christian Holy Days Calculator",
+        "description": "Calculate movable Christian dates like Ash Wednesday, Pentecost, and Ascension.",
+        "howItWorks": "The tool calculates the Easter date using the Computus algorithm, then determines dates for other movable feasts based on the number of days before or after Easter.",
+        "useCases": [
+            "Find the Easter date for any year",
+            "Plan for the Lenten season",
+            "Find dates for Ash Wednesday, Pentecost, and Ascension",
+            "Compare Western and Eastern Easter dates",
+            "Plan church activities throughout the year"
+        ],
+        "seoTips": [
+            "Learn about the Easter calculation algorithm",
+            "Note that Eastern and Western Easter sometimes coincide",
+            "Use the calculator for long-term planning"
+        ],
+        "commonMistakes": [
+            "Confusing Western and Eastern Easter dates",
+            "Forgetting that Lent begins 40 days before Easter",
+            "Not accounting for differences between denominations"
+        ],
+        "faqs": [
+            {
+                "question": "How is Easter date calculated?",
+                "answer": "Easter falls on the first Sunday after the first full moon following the spring equinox (March 21). Western churches use the Gregorian calendar, Eastern use the Julian."
+            },
+            {
+                "question": "Why do Western and Eastern Easter differ?",
+                "answer": "Due to using different calendars (Gregorian and Julian) and slightly different calculation methods, the difference can range from one to five weeks."
+            },
+            {
+                "question": "What is the Computus algorithm?",
+                "answer": "It is an ancient calculation method developed to determine Easter date without direct astronomical observation, based on lunar and solar cycles."
+            }
+        ]
+    },
+    "coptic-holy-days": {
+        "title": "Coptic Holy Days Calculator",
+        "description": "Find dates for fixed and movable Coptic Orthodox feasts and religious occasions.",
+        "howItWorks": "The tool calculates Coptic holy day dates based on the Coptic calendar (Era of Martyrs). It displays both fixed feasts and movable ones linked to Coptic Easter, with conversion to Gregorian dates.",
+        "useCases": [
+            "Find Coptic feast dates for a specific year",
+            "Plan Coptic church events",
+            "Know fasting and feast schedules",
+            "Convert Coptic dates to Gregorian",
+            "Learn about the Coptic liturgical calendar"
+        ],
+        "seoTips": [
+            "Enter the Coptic year (Era of Martyrs) for results",
+            "Note that the Coptic year begins in September",
+            "Understand the difference between fixed and movable feasts"
+        ],
+        "commonMistakes": [
+            "Confusing Coptic and Gregorian years",
+            "Forgetting that Coptic Easter follows Julian calculation",
+            "Not accounting for the Coptic year starting in September"
+        ],
+        "faqs": [
+            {
+                "question": "What is the Era of Martyrs?",
+                "answer": "It is the starting point of the Coptic calendar from 284 CE, the year Emperor Diocletian began his severe persecution of Christians."
+            },
+            {
+                "question": "How do I convert Gregorian to Coptic year?",
+                "answer": "Subtract 283 or 284 from the Gregorian year depending on the month. For example: 2024 CE = 1740 or 1741 Coptic."
+            },
+            {
+                "question": "Why does Coptic Easter differ from Western Easter?",
+                "answer": "The Coptic Church uses the Julian calendar for Easter calculation, which usually makes it later than Western Easter."
+            }
+        ]
+    },
+    "hebrew-holidays": {
+        "title": "Hebrew Holidays Calendar",
+        "description": "Find dates for Hebrew feasts and fasts including Rosh Hashanah, Yom Kippur, and Passover.",
+        "howItWorks": "The tool calculates Hebrew holiday and fast dates based on the Hebrew lunisolar calendar. It displays dates in both Hebrew and Gregorian calendars with holiday classification by importance.",
+        "useCases": [
+            "Find Jewish holiday dates for a specific year",
+            "Plan religious and family events",
+            "Know fast days in the Hebrew calendar",
+            "Coordinate with Jewish colleagues and friends",
+            "Learn about Jewish traditions and culture"
+        ],
+        "seoTips": [
+            "Enter the Hebrew year (e.g., 5784) for results",
+            "Remember that holidays begin at sunset",
+            "Understand the difference between major and minor holidays"
+        ],
+        "commonMistakes": [
+            "Forgetting that the Jewish day begins at sunset",
+            "Confusing Hebrew and Gregorian years",
+            "Not accounting for additional days observed outside Israel"
+        ],
+        "faqs": [
+            {
+                "question": "How does the Hebrew calendar work?",
+                "answer": "It is a lunisolar calendar with 12 or 13 months. Adar II is added 7 times every 19 years to align with the solar year."
+            },
+            {
+                "question": "Why do holidays begin at sunset?",
+                "answer": "Because the Jewish day begins at sunset and ends at the following sunset, based on Genesis: 'And there was evening and there was morning.'"
+            },
+            {
+                "question": "What is the difference between Israel and Diaspora observance?",
+                "answer": "Some holidays like Passover and Sukkot are observed for an additional day outside Israel (Diaspora) due to historical calendar uncertainty."
+            }
+        ]
+    },
+    "holy-week-dates": {
+        "title": "Holy Week Dates Calculator",
+        "description": "Find exact dates for Palm Sunday, Maundy Thursday, Good Friday, and Easter for any year.",
+        "howItWorks": "The tool first calculates Easter date using the Computus algorithm, then determines Holy Week dates (from Lazarus Saturday through Easter Monday) for both Western and Eastern traditions.",
+        "useCases": [
+            "Find Holy Week dates for any year",
+            "Plan participation in prayers and services",
+            "Compare Holy Week dates between churches",
+            "Plan travel and holidays during Easter season",
+            "Coordinate with family and friends for celebrations"
+        ],
+        "seoTips": [
+            "Enter the year to get dates for both traditions",
+            "Compare Western and Eastern dates",
+            "Plan Holy Week activities in advance"
+        ],
+        "commonMistakes": [
+            "Assuming Western and Eastern Easter fall on the same date",
+            "Forgetting that Holy Week begins with Lazarus Saturday",
+            "Confusing Gregorian and Julian calendars"
+        ],
+        "faqs": [
+            {
+                "question": "What is Holy Week?",
+                "answer": "It is the final week of Lent preceding Easter, commemorating Christ's passion, crucifixion, death, and resurrection."
+            },
+            {
+                "question": "Why does Easter date change each year?",
+                "answer": "Because Easter depends on the lunar cycle, falling on the first Sunday after the first full moon following the spring equinox."
+            },
+            {
+                "question": "What is the difference between Good Friday and Holy Saturday?",
+                "answer": "Good Friday commemorates Christ's crucifixion, while Holy Saturday is the day of mourning and waiting before the joy of resurrection."
+            }
+        ]
+    },
+    "samaritan-calendar-converter": {
+        "title": "Samaritan Calendar Converter",
+        "description": "Convert dates between Gregorian and Samaritan calendar systems online easily.",
+        "howItWorks": "The converter transforms dates between the Gregorian and Samaritan calendars. The Samaritan calendar is similar to the Hebrew calendar but counts from the entry into Canaan.",
+        "useCases": [
+            "Convert dates for Samaritan occasions",
+            "Research Samaritan history and heritage",
+            "Find Samaritan date for any Gregorian date",
+            "Plan Samaritan festivals on Mount Gerizim",
+            "Academic studies and calendar comparisons"
+        ],
+        "seoTips": [
+            "Enter the date accurately for correct conversion",
+            "Understand that dates are approximate",
+            "Compare Samaritan and Hebrew calendars"
+        ],
+        "commonMistakes": [
+            "Expecting absolute precision in conversion",
+            "Confusing Samaritan and Hebrew calendars",
+            "Forgetting that Samaritan calendar relies on astronomical observation"
+        ],
+        "faqs": [
+            {
+                "question": "What is the difference between Samaritan and Hebrew calendars?",
+                "answer": "The Samaritan calendar is similar to Hebrew in structure but counts from the entry into Canaan (about 3636 BCE) rather than creation, and relies on direct astronomical observation."
+            },
+            {
+                "question": "Who are the Samaritans?",
+                "answer": "The Samaritans are an ancient religious community living in Nablus and Holon, who consider themselves keepers of the original Torah and hold Mount Gerizim as sacred."
+            },
+            {
+                "question": "Why are the dates approximate?",
+                "answer": "Because the Samaritan calendar relies on actual observation of the new moon and spring equinox, which may cause slight variations."
+            }
+        ]
+    },
+    "samaritan-festivals": {
+        "title": "Samaritan Festivals Calculator",
+        "description": "Find dates for religious holidays including Passover, Shavuot, and Sukkot.",
+        "howItWorks": "The tool calculates dates for the seven biblical Samaritan festivals based on the Samaritan calendar and converts them to Gregorian dates. Dates are approximate as they depend on astronomical observation.",
+        "useCases": [
+            "Find Samaritan festival dates for a specific year",
+            "Plan visits to Mount Gerizim during festivals",
+            "Witness the Samaritan Passover sacrifice",
+            "Academic research on Samaritan traditions",
+            "Learn about Samaritan religion and festivals"
+        ],
+        "seoTips": [
+            "Enter the Gregorian year to get festival dates",
+            "Remember that dates are approximate",
+            "Learn about the three annual pilgrimages"
+        ],
+        "commonMistakes": [
+            "Expecting exact match with Jewish holidays",
+            "Forgetting that Samaritan Passover sacrifice is still performed",
+            "Not understanding that festivals are celebrated on Mount Gerizim"
+        ],
+        "faqs": [
+            {
+                "question": "What are the major Samaritan festivals?",
+                "answer": "The seven biblical festivals: Passover, Unleavened Bread, Shavuot (Weeks), Yom Teru'ah, Yom Kippur, Sukkot (Tabernacles), and Shemini Atzeret."
+            },
+            {
+                "question": "What is the Samaritan Passover sacrifice?",
+                "answer": "It is an annual ritual performed by Samaritans on Mount Gerizim, where they sacrifice lambs at sunset as prescribed in the Torah, one of the last remaining sacrificial traditions."
+            },
+            {
+                "question": "Where do Samaritans celebrate their festivals?",
+                "answer": "Samaritans celebrate their festivals on Mount Gerizim near Nablus, which they consider the holiest place on earth."
+            }
+        ]
+    },
+    "yazidi-new-year": {
+        "title": "Yazidi New Year Calculator",
+        "description": "Find the date of Charshema Sor (Red Wednesday) and upcoming celebrations.",
+        "howItWorks": "The tool calculates the date of Sere Sal (Yazidi New Year) which falls on the first Wednesday after April 13 according to the Julian calendar, approximately April 14-20 in the Gregorian calendar.",
+        "useCases": [
+            "Find Sere Sal date for any year",
+            "Plan Yazidi New Year celebrations",
+            "Know upcoming celebration dates",
+            "Learn about Yazidi calendar and culture",
+            "Coordinate with Yazidi friends for occasions"
+        ],
+        "seoTips": [
+            "Enter the Gregorian year to get the date",
+            "Learn about the meaning of Red Wednesday",
+            "Use the calculator for advance planning"
+        ],
+        "commonMistakes": [
+            "Confusing Gregorian and Julian calendars",
+            "Assuming Sere Sal falls on the same date each year",
+            "Not understanding that the date is tied to Wednesday"
+        ],
+        "faqs": [
+            {
+                "question": "What does Sere Sal mean?",
+                "answer": "Sere Sal means 'Head of the Year' in Kurdish, also known as Charshema Sor or Red Wednesday, and is the most important holiday in the Yazidi religion."
+            },
+            {
+                "question": "Why is it called Red Wednesday?",
+                "answer": "The color red is associated with spring, renewal, and life. Yazidis decorate their homes with red flowers and colored eggs to celebrate this day."
+            },
+            {
+                "question": "How is Sere Sal celebrated?",
+                "answer": "It is celebrated by visiting holy sites especially Lalish, coloring eggs, preparing traditional foods, lighting lamps, and wearing new clothes."
+            }
+        ]
+    },
+    "coptic_calendar_info": {
+        "title": "Coptic Calendar Months",
+        "description": "Learn the 13 Coptic months and how they map to Gregorian dates.",
+        "howItWorks": "This guide displays the 13 Coptic months with their corresponding Gregorian date ranges. The Coptic calendar is based on the ancient Egyptian calendar with Julian modifications.",
+        "useCases": [
+            "Understand the Coptic calendar structure",
+            "Know Coptic month dates in Gregorian calendar",
+            "Learn Coptic month names",
+            "Understand the Coptic leap year system",
+            "Comparative calendar studies"
+        ],
+        "seoTips": [
+            "Learn all 13 Coptic months",
+            "Note that month 13 is short (5-6 days)",
+            "Remember the Coptic year begins in September"
+        ],
+        "commonMistakes": [
+            "Forgetting the 13th month (Nasie/Epagomenal)",
+            "Confusing Coptic and Gregorian year starts",
+            "Not accounting for leap years"
+        ],
+        "faqs": [
+            {
+                "question": "How many months are in the Coptic calendar?",
+                "answer": "The Coptic calendar has 13 months: 12 months of 30 days each, and a small month (Nasie) of 5 days or 6 in leap years."
+            },
+            {
+                "question": "When does the Coptic year begin?",
+                "answer": "The Coptic year begins on 1 Thout, which usually corresponds to September 11 (or September 12 before a Gregorian leap year)."
+            },
+            {
+                "question": "What is the origin of Coptic month names?",
+                "answer": "Month names derive from ancient Egyptian gods and festivals, such as Thout (god of wisdom) and Hathor (goddess of love)."
+            }
+        ],
+        "overview_title": "How the Coptic Calendar Works",
+        "overview_point": "The Coptic year has 13 months: 12 months of 30 days plus a small epagomenal month of 5 or 6 days in leap years.",
+        "months_title": "Coptic Months and Gregorian Ranges",
+        "table": {
+            "month": "Month #",
+            "name": "Coptic Name",
+            "start": "Starts (Gregorian)",
+            "end": "Ends (Gregorian)"
+        },
+        "months": {
+            "1": { "name": "Thout", "start": "Sep 11", "end": "Oct 10" },
+            "2": { "name": "Paopi", "start": "Oct 11", "end": "Nov 9" },
+            "3": { "name": "Hathor", "start": "Nov 10", "end": "Dec 9" },
+            "4": { "name": "Koiak", "start": "Dec 10", "end": "Jan 8" },
+            "5": { "name": "Tobi", "start": "Jan 9", "end": "Feb 7" },
+            "6": { "name": "Meshir", "start": "Feb 8", "end": "Mar 9" },
+            "7": { "name": "Paremhat", "start": "Mar 10", "end": "Apr 8" },
+            "8": { "name": "Paremoude", "start": "Apr 9", "end": "May 8" },
+            "9": { "name": "Pashons", "start": "May 9", "end": "Jun 7" },
+            "10": { "name": "Paoni", "start": "Jun 8", "end": "Jul 7" },
+            "11": { "name": "Epip", "start": "Jul 8", "end": "Aug 6" },
+            "12": { "name": "Mesori", "start": "Aug 7", "end": "Sep 5" },
+            "13": { "name": "Nasie (Epagomenal)", "start": "Sep 6", "end": "Sep 10" }
+        },
+        "leap_title": "Leap Year Rule",
+        "leap_note": "A leap day is added every four years without exception, so the Coptic New Year usually falls on 11 September (or 12 September before a Gregorian leap year).",
+        "accuracy_title": "Accuracy Note",
+        "accuracy_desc": "The Coptic calendar uses a fixed solar year similar to the Julian calendar; long-term drift versus the Gregorian calendar is about 1 day every 3322 years."
+    },
+    "hebrew_calendar_info": {
+        "title": "Hebrew Calendar Months",
+        "description": "Learn the 13 Hebrew months and how the lunisolar calendar works.",
+        "howItWorks": "This guide explains the Hebrew lunisolar calendar structure with 12 or 13 months. An extra month (Adar II) is added in leap years to maintain synchronization with seasons.",
+        "useCases": [
+            "Understand the Hebrew calendar structure",
+            "Learn Hebrew month names",
+            "Understand the Hebrew leap year system",
+            "Learn about varying month lengths",
+            "Comparative calendar studies"
+        ],
+        "seoTips": [
+            "Learn about the 19-year cycle",
+            "Understand the difference between regular and leap years",
+            "Learn month names in Hebrew and English"
+        ],
+        "commonMistakes": [
+            "Confusing Adar and Adar II",
+            "Forgetting that Hebrew months are lunar (29-30 days)",
+            "Assuming all years have the same number of months"
+        ],
+        "faqs": [
+            {
+                "question": "Why is an extra month added?",
+                "answer": "Because the lunar year is about 11 days shorter than solar. Adar II is added 7 times every 19 years to keep holidays in their proper seasons."
+            },
+            {
+                "question": "What is the Metonic cycle?",
+                "answer": "It is a 19-year cycle where the leap year pattern repeats: years 3, 6, 8, 11, 14, 17, and 19 of each cycle are leap years."
+            },
+            {
+                "question": "Why do some months have different lengths?",
+                "answer": "Cheshvan and Kislev may be 29 or 30 days depending on year type (deficient, regular, or complete) to adjust the year length."
+            }
+        ],
+        "overview_title": "How the Hebrew Calendar Works",
+        "overview_point": "The Hebrew calendar is a lunisolar calendar with 12 or 13 months. A 13th month (Adar II) is added 7 times every 19 years to keep it synchronized with the solar year.",
+        "months_title": "Hebrew Months",
+        "table": {
+            "month": "Month #",
+            "name": "Month Name",
+            "hebrew": "Hebrew",
+            "days": "Days"
+        },
+        "months": {
+            "1": { "name": "Tishrei", "days": "30" },
+            "2": { "name": "Cheshvan", "days": "29/30" },
+            "3": { "name": "Kislev", "days": "29/30" },
+            "4": { "name": "Tevet", "days": "29" },
+            "5": { "name": "Shevat", "days": "30" },
+            "6": { "name": "Adar", "days": "29/30" },
+            "7": { "name": "Adar II (Leap)", "days": "29" },
+            "8": { "name": "Nisan", "days": "30" },
+            "9": { "name": "Iyar", "days": "29" },
+            "10": { "name": "Sivan", "days": "30" },
+            "11": { "name": "Tammuz", "days": "29" },
+            "12": { "name": "Av", "days": "30" },
+            "13": { "name": "Elul", "days": "29" }
+        },
+        "leap_note": "* Added in leap years (7 times every 19 years)",
+        "leap_years": "Leap Years",
+        "leap_years_desc": "The Hebrew calendar adds a 30-day month (Adar II) in leap years to align with the solar year. This follows a 19-year Metonic cycle.",
+        "year_month_day": "Year, Month, Day",
+        "year_month_day_desc": "Hebrew dates are written as: Year (e.g., 5784), Month (Hebrew name), Day (1-30).",
+        "religious_title": "Religious Significance",
+        "religious_desc": "The Hebrew calendar determines dates for Jewish holidays, fasts, and Torah readings. It is used for religious observances worldwide."
+    },
+    "bar-bat-mitzvah-calculator": {
+        "title": "Bar/Bat Mitzvah Calculator",
+        "description": "Calculate Bar/Bat Mitzvah date based on birth date and gender. Free online tool for Jewish lifecycle events.",
+        "howItWorks": "The tool calculates Bar Mitzvah (13 years for males) or Bat Mitzvah (12 years for females) date based on the birth date in the Hebrew calendar, then converts to Gregorian.",
+        "useCases": [
+            "Find your child's Bar/Bat Mitzvah date",
+            "Early planning for the celebration",
+            "Book venue and services in advance",
+            "Coordinate with synagogue for the date",
+            "Send invitations at the right time"
+        ],
+        "seoTips": [
+            "Enter the birth date accurately",
+            "Select the correct gender as the age differs",
+            "Consult with a rabbi for final confirmation"
+        ],
+        "commonMistakes": [
+            "Forgetting that calculation is based on Hebrew calendar",
+            "Confusing Bar Mitzvah and Bat Mitzvah ages",
+            "Not accounting for the ceremony usually being on Shabbat"
+        ],
+        "faqs": [
+            {
+                "question": "What is Bar/Bat Mitzvah?",
+                "answer": "It is a Jewish religious event marking the coming of age. Bar Mitzvah is for males at 13, Bat Mitzvah is for females at 12."
+            },
+            {
+                "question": "Why is the age different for males and females?",
+                "answer": "According to Jewish tradition, girls reach spiritual maturity a year earlier than boys, so they celebrate a year earlier."
+            },
+            {
+                "question": "When is the ceremony held?",
+                "answer": "The ceremony is usually held on the first Shabbat (Saturday) after the Hebrew birthday, when the young person reads from the Torah for the first time."
+            }
+        ],
+        "input_title": "Calculate Bar/Bat Mitzvah Date",
+        "birth_date": "Birth Date",
+        "birth_date_tooltip": "Enter your birth date",
+        "gender": "Gender",
+        "gender_tooltip": "Select your gender",
+        "male": "Male",
+        "female": "Female",
+        "calculate_btn": "Calculate Date",
+        "reset_btn": "Reset",
+        "results_title": "Bar/Bat Mitzvah Date",
+        "bar_mitzvah": "Bar Mitzvah",
+        "bat_mitzvah": "Bat Mitzvah",
+        "hebrew_date": "Hebrew Date",
+        "gregorian_date": "Gregorian Date",
+        "ceremony_age": "Ceremony Age",
+        "ceremony_age_male": "13 years old",
+        "ceremony_age_female": "12 years old",
+        "celebration_info_title": "About the Celebration",
+        "celebration_info_description": "Bar Mitzvah (for boys) and Bat Mitzvah (for girls) are important Jewish lifecycle events marking the coming of age at 13 and 12 respectively. These ceremonies signify that a young person is now responsible for following Jewish law and tradition.",
+        "celebration_saturday": "The ceremony typically takes place on the first Shabbat (Saturday) after the birthday",
+        "celebration_traditions": "Traditional customs include reading from the Torah and leading parts of the prayer service",
+        "traditions_title": "Traditions and Customs",
+        "tradition_1": "Reading from the Torah (Bar Mitzvah)",
+        "tradition_2": "Leading parts of the prayer service",
+        "tradition_3": "Family celebration and feast",
+        "tradition_4": "Gifts and support from community",
+        "planning_title": "Planning Your Celebration",
+        "planning_description": "Start planning 6-12 months in advance. Consider venue, invitations, catering, and religious requirements. Consult with your synagogue for specific guidelines.",
+        "error_invalid_date": "Please enter a valid birth date",
+        "error_calculation": "Error calculating date. Please try again.",
+        "empty_state": "Enter your birth date to calculate Bar/Bat Mitzvah date",
+        "footer_note": "Calculations use simplified Hebrew calendar conversion. Consult with a rabbi for exact dates."
+    },
+    "holy-week-info": {
+        "title": "Holy Week Information",
+        "description": "Learn about Holy Week observances and traditions in Eastern Orthodox Christianity.",
+        "howItWorks": "This guide provides detailed explanation of the seven days of Holy Week, from Lazarus Saturday through Easter Sunday, with the spiritual significance and special rituals of each day.",
+        "useCases": [
+            "Understand the meaning of Holy Week days",
+            "Spiritual preparation for the Easter season",
+            "Learn about Orthodox rituals",
+            "Teach children about Holy Week",
+            "Compare different Christian traditions"
+        ],
+        "seoTips": [
+            "Read about each day in detail",
+            "Understand differences between Eastern and Western traditions",
+            "Learn the connection between Holy Week days"
+        ],
+        "commonMistakes": [
+            "Confusing Eastern and Western Holy Week",
+            "Forgetting that Holy Week begins with Lazarus Saturday",
+            "Not understanding the significance of each day"
+        ],
+        "faqs": [
+            {
+                "question": "Why is it called Holy Week?",
+                "answer": "Because it commemorates Christ's passion in his final days: betrayal, trial, crucifixion, and death, before the joy of resurrection."
+            },
+            {
+                "question": "What is the significance of Good Friday?",
+                "answer": "It is the most sorrowful day of the year, commemorating Christ's crucifixion and death on the cross. Believers fast and participate in special prayers."
+            },
+            {
+                "question": "What is the difference between Holy Saturday and Easter Sunday?",
+                "answer": "Holy Saturday is the day of waiting and mourning with Christ in the tomb, while Easter Sunday is the joy of resurrection and victory over death."
+            }
+        ],
+        "overview_title": "What is Holy Week?",
+        "overview_description": "Holy Week is the week preceding Easter in the Eastern Orthodox Church, commemorating the final week of Jesus Christ's life on earth. It is the most sacred time in the Orthodox liturgical calendar.",
+        "week_title": "The Holy Week",
+        "week_intro": "Each day of Holy Week has special liturgical services and spiritual significance",
+        "lazarus_saturday": "Lazarus Saturday",
+        "lazarus_description": "Commemorates the raising of Lazarus, foreshadowing Christ's resurrection",
+        "palm_sunday": "Palm Sunday",
+        "palm_description": "Celebrates Christ's triumphal entry into Jerusalem",
+        "holy_monday": "Holy Monday",
+        "monday_description": "Commemorates the cursing of the fig tree and the cleansing of the Temple",
+        "holy_tuesday": "Holy Tuesday",
+        "tuesday_description": "Focuses on the parables of the ten virgins and the talents",
+        "holy_wednesday": "Holy Wednesday",
+        "wednesday_description": "Commemorates the betrayal of Christ by Judas",
+        "holy_thursday": "Holy Thursday",
+        "thursday_description": "Celebrates the Last Supper and the institution of the Eucharist",
+        "good_friday": "Good Friday",
+        "friday_description": "Commemorates the crucifixion and death of Christ",
+        "holy_saturday": "Holy Saturday",
+        "saturday_description": "The day Christ rested in the tomb, awaiting resurrection",
+        "differences_title": "Differences Between Traditions",
+        "differences_description": "As a result, Holy Week is typically celebrated on different dates between the Eastern and Western traditions, though in some years the celebrations may coincide."
+    },
+    "coptic-to-gregorian": {
+        "title": "Coptic to Gregorian Date Converter",
+        "description": "Convert Coptic calendar dates to Gregorian calendar dates. Free online tool for date conversion.",
+        "howItWorks": "The converter transforms dates from the Coptic calendar (Era of Martyrs) to the Gregorian calendar using precise calculations that account for leap years in both calendars.",
+        "useCases": [
+            "Convert Coptic feast dates to Gregorian",
+            "Find Gregorian dates for Coptic events",
+            "Plan church occasions",
+            "Historical and academic research",
+            "Documentation and archiving"
+        ],
+        "seoTips": [
+            "Enter the Coptic year (Era of Martyrs)",
+            "Remember month 13 is Nasie (5-6 days)",
+            "Check for leap year for accuracy"
+        ],
+        "commonMistakes": [
+            "Entering Gregorian year instead of Coptic",
+            "Forgetting month 13 exists",
+            "Confusing month lengths"
+        ],
+        "faqs": [
+            {
+                "question": "How do I know the current Coptic year?",
+                "answer": "Subtract 283 or 284 from the Gregorian year depending on the month. Before September subtract 284, after subtract 283."
+            },
+            {
+                "question": "Why is month 13 short?",
+                "answer": "Month 13 (Nasie/Epagomenal) contains extra days to complete the solar year: 5 days in regular years, 6 in leap years."
+            },
+            {
+                "question": "How accurate is the conversion?",
+                "answer": "The conversion is very accurate since both calendars are solar. The difference with Julian calendar is fixed."
+            }
+        ],
+        "input_title": "Coptic to Gregorian Converter",
+        "coptic_year": "Coptic Year",
+        "enter_year": "Enter year",
+        "coptic_month": "Coptic Month",
+        "month_note": "Month 13 is the small month (epagomenal days)",
+        "coptic_day": "Coptic Day",
+        "enter_day": "Enter day",
+        "convert_btn": "Convert to Gregorian",
+        "result_title": "Gregorian Date",
+        "info_title": "About Coptic Calendar",
+        "martyrs_era": "Coptic calendar counts from the Era of Martyrs (284 CE)",
+        "months_structure": "12 months of 30 days + small month of 5-6 days",
+        "leap_year": "Leap year every 4 years (small month has 6 days)",
+        "start_date": "Coptic New Year is approximately August 29/30",
+        "error_invalid_input": "Please enter valid numbers",
+        "error_year_range": "Year must be between 1 and 9999",
+        "error_month_range": "Month must be between 1 and 13",
+        "error_day_range": "Day must be between 1 and {{daysInMonth}}",
+        "error_conversion": "Error converting date. Please try again."
+    },
+    "hebrew-to-gregorian": {
+        "title": "Hebrew to Gregorian Date Converter",
+        "description": "Convert Hebrew calendar dates to Gregorian calendar dates. Free online tool for date conversion.",
+        "howItWorks": "The converter transforms dates from the Hebrew lunisolar calendar to Gregorian, accounting for leap years (13 months) and varying month lengths.",
+        "useCases": [
+            "Convert Jewish holiday dates to Gregorian",
+            "Find Yahrzeit (death anniversary) dates",
+            "Plan Bar/Bat Mitzvah",
+            "Research Jewish history",
+            "Coordinate with civil calendar"
+        ],
+        "seoTips": [
+            "Enter the Hebrew year (e.g., 5784)",
+            "Check if it's a leap year (has Adar II)",
+            "Watch for Adar II in leap years"
+        ],
+        "commonMistakes": [
+            "Confusing Adar and Adar II",
+            "Entering Gregorian year instead of Hebrew",
+            "Forgetting that month lengths vary"
+        ],
+        "faqs": [
+            {
+                "question": "How do I know the current Hebrew year?",
+                "answer": "Add 3760 or 3761 to the Gregorian year depending on the month. For example: 2024 = 5784 or 5785 Hebrew."
+            },
+            {
+                "question": "What is Adar II?",
+                "answer": "It is an extra month added in leap years (7 times every 19 years) to keep the calendar synchronized with seasons."
+            },
+            {
+                "question": "Why do some months have different lengths?",
+                "answer": "Cheshvan and Kislev may be 29 or 30 days to adjust year length, as there are three year types: deficient, regular, and complete."
+            }
+        ],
+        "input_title": "Hebrew to Gregorian Converter",
+        "hebrew_year": "Hebrew Year",
+        "enter_hebrew_year": "Enter Hebrew year",
+        "year_note": "Year 3761 corresponds to 1 CE",
+        "hebrew_month": "Hebrew Month",
+        "month_leap": "Month 13 (Adar II) in leap years",
+        "month_regular": "Month 12 (Adar) in regular years",
+        "hebrew_day": "Hebrew Day",
+        "enter_day": "Enter day",
+        "convert_btn": "Convert to Gregorian",
+        "result_title": "Gregorian Date",
+        "info_title": "About Hebrew Calendar",
+        "info_notes": "Hebrew calendar is lunisolar with 12 or 13 months. Leap years occur 7 times in a 19-year cycle.",
+        "error_invalid_input": "Please enter valid numbers",
+        "error_year_range": "Year must be between 3761 and 12000",
+        "error_month_range": "Month must be between 1 and {{maxMonth}}",
+        "error_day_range": "Day must be between 1 and {{daysInMonth}}",
+        "error_conversion": "Error converting date. Please try again."
+    },
+    "date_difference": {
+        "title": "Date Difference Calculator",
+        "description": "Calculate the exact time duration between two different dates.",
+        "howItWorks": {
+            "title": "How the Date Difference Calculator Works",
+            "formula": "Difference = End Date - Start Date (accounting for varying month lengths and leap years)",
+            "explanation": "This calculator computes the precise time difference between any two dates. It accounts for the varying lengths of months (28-31 days), leap years, and can calculate business days by excluding weekends. The algorithm processes complete years first, then remaining months, and finally days.",
+            "steps": [
+                {
+                    "name": "Enter Start Date",
+                    "text": "Input the beginning date of the period you want to measure"
+                },
+                {
+                    "name": "Enter End Date",
+                    "text": "Input the ending date of the period"
+                },
+                {
+                    "name": "Optional: Include End Date",
+                    "text": "Choose whether to count the end date itself in the calculation"
+                },
+                {
+                    "name": "View Results",
+                    "text": "See the difference in years, months, days, plus total days and business days"
+                }
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Employment Duration Calculation",
+                "description": "Calculate exact length of service for retirement benefits, severance pay, or job applications"
+            },
+            {
+                "title": "Project Timeline Planning",
+                "description": "Determine the number of working days available for project completion"
+            },
+            {
+                "title": "Pregnancy and Due Date Tracking",
+                "description": "Calculate weeks of pregnancy or days until expected delivery"
+            },
+            {
+                "title": "Contract and Lease Management",
+                "description": "Verify exact duration of agreements for legal and financial purposes"
+            },
+            {
+                "title": "Event Countdown",
+                "description": "Find out exactly how many days until an important event or deadline"
+            }
+        ],
+        "seoTips": [
+            "Always enter the earlier date in the start field for positive results",
+            "Enable 'Include end date' when both dates should be counted (e.g., for hotel stays)",
+            "Business days calculation excludes Saturdays and Sundays only, not public holidays",
+            "Use total days for simple duration; use years/months/days for human-readable format",
+            "For legal documents, verify whether the end date should be inclusive or exclusive"
+        ],
+        "commonMistakes": [
+            "Entering the end date before the start date, which produces negative or error results",
+            "Forgetting that business days exclude weekends but not public holidays",
+            "Not considering that months have different lengths (28-31 days)",
+            "Assuming February always has 28 days (29 in leap years)",
+            "Confusing 'duration' with 'count' - a stay from Jan 1-3 is 2 nights but 3 days inclusive"
+        ],
+        "faqs": [
+            {
+                "question": "How are business days calculated?",
+                "answer": "Business days count only weekdays (Monday through Friday), excluding Saturdays and Sundays. Public holidays are not excluded as they vary by country and region. For accurate business day counts including holidays, you may need to adjust manually."
+            },
+            {
+                "question": "Why does my calculation differ from counting on a calendar?",
+                "answer": "The calculator accounts for varying month lengths and leap years precisely. Manual counting often uses approximations (30 days per month) which can be off by several days over longer periods."
+            },
+            {
+                "question": "Should I include the end date in my calculation?",
+                "answer": "It depends on your purpose. For hotel stays or event duration, include it. For calculating someone's age or time elapsed, typically exclude it. The calculator gives you both options."
+            },
+            {
+                "question": "Can I calculate the difference between dates in different years?",
+                "answer": "Yes, the calculator handles any date range across different years, correctly accounting for leap years and the varying number of days in each month throughout the period."
+            },
+            {
+                "question": "What is the maximum date range I can calculate?",
+                "answer": "The calculator can handle dates spanning many centuries. However, for extremely long periods, results in years/months/days are more meaningful than total days or hours."
+            }
+        ],
+        "start_date": "Start Date",
+        "start_date_tooltip": "Enter the starting date",
+        "end_date": "End Date",
+        "end_date_tooltip": "Enter the ending date",
+        "include_end_date": "Include end date",
+        "result_label": "Time Difference",
+        "detailed_breakdown": "Detailed Breakdown",
+        "years": "Years",
+        "months": "Months",
+        "days": "Days",
+        "hours": "Hours",
+        "minutes": "Minutes",
+        "business_days": "Business Days",
+        "total_days": "Total Days",
+        "total_hours": "Total Hours",
+        "total_minutes": "Total Minutes",
+        "info_title": "About Date Difference",
+        "info_description": "Calculates exact time between dates including business days.",
+        "error_empty_dates": "Please enter both dates",
+        "error_invalid_dates": "Invalid dates",
+        "error_start_after_end": "Start date must be before end date"
+    },
+    "holy-week-traditions": {
+        "title": "Holy Week Traditions",
+        "description": "Discover the various traditions and customs of Holy Week across different Christian denominations.",
+        "howItWorks": "This guide explores the different traditions and rituals of Holy Week in Catholic, Orthodox, and Protestant churches, explaining historical origins and spiritual meanings.",
+        "useCases": [
+            "Compare Holy Week traditions across denominations",
+            "Understand the origins of Christian rituals",
+            "Prepare for participation in celebrations",
+            "Learn about Christian heritage",
+            "Academic research in liturgy"
+        ],
+        "seoTips": [
+            "Compare Eastern and Western traditions",
+            "Learn about special symbols and rituals",
+            "Understand the spiritual meanings behind each tradition"
+        ],
+        "commonMistakes": [
+            "Assuming all churches follow the same traditions",
+            "Confusing Eastern and Western rituals",
+            "Not understanding the historical context of traditions"
+        ],
+        "faqs": [
+            {
+                "question": "Why do Holy Week traditions differ?",
+                "answer": "Different traditions developed over centuries in various geographical and cultural regions, while maintaining the common core of commemorating Christ's passion and resurrection."
+            },
+            {
+                "question": "What are the main differences between East and West?",
+                "answer": "Differences include: calendar used, fasting length, liturgical rituals, use of icons, and style of chanting and church music."
+            },
+            {
+                "question": "Can I participate in another church's rituals?",
+                "answer": "Generally yes, visiting and participating in prayers is welcome in most churches, though communion may be subject to each denomination's rules."
+            }
+        ]
+    },
+    "lunar-age": {
+        "title": "Lunar Age Calculator",
+        "description": "Calculate your age in the lunar Hijri calendar in years, months, and days.",
+        "howItWorks": "This tool calculates your age in the Hijri lunar calendar. Since the lunar year is about 11 days shorter than the solar year, your lunar age will be higher than your Gregorian age.",
+        "useCases": [
+            "Know your age in the Hijri calendar",
+            "Calculate your Hijri birthday anniversary",
+            "Compare lunar and solar ages",
+            "Religious and cultural purposes",
+            "Comparative calendar research"
+        ],
+        "seoTips": [
+            "Enter your Gregorian birth date to get lunar age",
+            "Compare your lunar and solar ages",
+            "Find out your Hijri birth date"
+        ],
+        "commonMistakes": [
+            "Expecting lunar age to equal solar age",
+            "Forgetting that the lunar year is shorter",
+            "Confusing Hijri and Gregorian birth dates"
+        ],
+        "faqs": [
+            {
+                "question": "Why is my lunar age higher than my Gregorian age?",
+                "answer": "Because the lunar year (approximately 354 days) is shorter than the solar year (365 days) by about 11 days, so more lunar years pass in the same period."
+            },
+            {
+                "question": "How do I calculate the difference between the two ages?",
+                "answer": "Approximately, every 33 solar years equals 34 lunar years. Or multiply your solar age by 1.03 for a rough estimate."
+            },
+            {
+                "question": "What is the importance of knowing lunar age?",
+                "answer": "The Hijri calendar is used for Islamic religious events, and some religious rulings depend on lunar age."
+            }
+        ],
+        "birth_date": "Birth Date",
+        "birth_date_tooltip": "Enter your birth date in Gregorian calendar",
+        "your_lunar_age": "Your Lunar Age",
+        "lunar_years": "lunar years",
+        "lunar_months": "lunar months",
+        "lunar_days": "lunar days",
+        "years": "years",
+        "hijri_birthday": "Hijri Birthday",
+        "comparison": "Age Comparison",
+        "lunar_age_label": "Lunar Age (Hijri)",
+        "solar_age_label": "Solar Age (Gregorian)",
+        "statistics": "Statistics",
+        "total_lunar_months": "Total Lunar Months",
+        "total_days": "Total Days",
+        "today_hijri": "Today in Hijri",
+        "info_title": "About Lunar Age Calculator",
+        "info_description": "This tool calculates your age based on the Islamic Hijri calendar. A lunar year is about 11 days shorter than a solar year, so your lunar age will be higher than your Gregorian age.",
+        "about_lunar_calendar": "About the Lunar Calendar",
+        "fact_1": "A lunar year consists of 12 lunar months (approximately 354 days)",
+        "fact_2": "A lunar month is based on the moon cycle (29-30 days)",
+        "fact_3": "The Hijri calendar is used for Islamic religious events",
+        "error_empty": "Please enter your birth date",
+        "error_invalid": "Invalid date",
+        "error_future": "Birth date cannot be in the future"
+    },
+    "fixed-feasts": {
+        "input_title": "Calculate Fixed Christian Feasts",
+        "gregorian_year": "Gregorian Year",
+        "tooltip_year": "Enter the year to calculate fixed feasts",
+        "enter_year": "Enter year",
+        "calculate_btn": "Calculate Feasts",
+        "feasts_for_year": "Fixed Feasts for Year",
+        "western": "Western",
+        "eastern": "Eastern",
+        "both_traditions": "Both Traditions",
+        "empty_state": "Enter a year to see all fixed Christian feast dates",
+        "footer_note": "Fixed feasts occur on the same calendar date each year. Eastern Orthodox dates shown are in the Gregorian calendar (Julian calendar + 13 days).",
+        "info_title": "About Fixed Feasts",
+        "info_fixed": "Fixed feasts occur on the same date every year",
+        "info_julian": "Eastern Orthodox churches use the Julian calendar (13 days behind Gregorian)",
+        "info_traditions": "Some feasts are celebrated by both Western and Eastern traditions",
+        "error_invalid_input": "Please enter a valid year",
+        "error_year_range": "Year must be between 1 and 9999",
+        "feasts": {
+            "christmas": "Christmas (Western)",
+            "christmas_orthodox": "Christmas (Eastern Orthodox)",
+            "epiphany": "Epiphany",
+            "theophany": "Theophany (Eastern Orthodox)",
+            "candlemas": "Presentation of the Lord (Candlemas)",
+            "annunciation": "Annunciation",
+            "john_baptist_nativity": "Nativity of John the Baptist",
+            "transfiguration": "Transfiguration of the Lord",
+            "assumption": "Assumption/Dormition of Mary",
+            "mary_nativity": "Nativity of the Virgin Mary",
+            "holy_cross": "Exaltation of the Holy Cross",
+            "all_saints": "All Saints Day",
+            "immaculate_conception": "Immaculate Conception"
+        },
+        "desc": {
+            "christmas": "Birth of Jesus Christ - December 25",
+            "christmas_orthodox": "Birth of Jesus Christ (Julian calendar) - January 7",
+            "epiphany": "Manifestation of Christ to the Gentiles (Magi) - January 6",
+            "theophany": "Baptism of Christ in the Jordan River - January 19",
+            "candlemas": "Presentation of Jesus at the Temple - February 2",
+            "annunciation": "Angel Gabriel announces to Mary - March 25",
+            "john_baptist_nativity": "Birth of John the Baptist - June 24",
+            "transfiguration": "Christ's transfiguration on Mount Tabor - August 6",
+            "assumption": "Mary's assumption/dormition into heaven - August 15",
+            "mary_nativity": "Birth of the Virgin Mary - September 8",
+            "holy_cross": "Finding and exaltation of the True Cross - September 14",
+            "all_saints": "Commemoration of all saints - November 1",
+            "immaculate_conception": "Mary conceived without original sin - December 8"
+        }
+    },
+    "movable-feasts": {
+        "input_title": "Calculate Movable Christian Holy Days",
+        "gregorian_year": "Gregorian Year",
+        "tooltip_year": "Enter the year (1583 onwards for Gregorian calendar)",
+        "enter_year": "Enter year",
+        "calculate_btn": "Calculate Holy Days",
+        "western_tradition": "Western (Gregorian)",
+        "eastern_tradition": "Eastern (Julian)",
+        "western_easter": "Western Easter (Gregorian)",
+        "eastern_easter": "Eastern Easter (Julian)",
+        "easter_day": "Easter Sunday - The Resurrection of Christ",
+        "days_before_easter": "{{days}} days before Easter",
+        "days_after_easter": "{{days}} days after Easter",
+        "empty_state": "Enter a year to see all movable Christian holy day dates",
+        "footer_note": "Movable feasts are calculated based on Easter Sunday using the Computus algorithm. Western churches use the Gregorian calendar, Eastern Orthodox churches use the Julian calendar.",
+        "info_title": "About Movable Feasts",
+        "info_computus": "Easter date is calculated using the Computus algorithm",
+        "info_difference": "Western and Eastern Easter can differ by 1-5 weeks",
+        "info_movable": "All movable feasts are calculated relative to Easter Sunday",
+        "error_invalid_input": "Please enter a valid year",
+        "error_year_range": "Year must be between 1583 and 9999",
+        "feasts": {
+            "septuagesima": "Septuagesima Sunday",
+            "sexagesima": "Sexagesima Sunday",
+            "quinquagesima": "Quinquagesima Sunday",
+            "ash_wednesday": "Ash Wednesday",
+            "laetare_sunday": "Laetare Sunday",
+            "palm_sunday": "Palm Sunday",
+            "maundy_thursday": "Maundy Thursday",
+            "good_friday": "Good Friday",
+            "holy_saturday": "Holy Saturday",
+            "easter": "Easter Sunday",
+            "easter_monday": "Easter Monday",
+            "divine_mercy": "Divine Mercy Sunday",
+            "ascension": "Ascension Thursday",
+            "pentecost": "Pentecost Sunday",
+            "trinity_sunday": "Trinity Sunday",
+            "corpus_christi": "Corpus Christi"
+        },
+        "desc": {
+            "septuagesima": "Ninth Sunday before Easter, beginning of pre-Lenten season",
+            "sexagesima": "Eighth Sunday before Easter",
+            "quinquagesima": "Seventh Sunday before Easter, Sunday before Ash Wednesday",
+            "ash_wednesday": "First day of Lent, 46 days before Easter",
+            "laetare_sunday": "Fourth Sunday of Lent, a day of joy amid the penitential season",
+            "palm_sunday": "Commemorates Jesus' triumphal entry into Jerusalem",
+            "maundy_thursday": "Commemorates the Last Supper and washing of feet",
+            "good_friday": "Commemorates the crucifixion of Jesus Christ",
+            "holy_saturday": "Day of mourning before Easter, Christ in the tomb",
+            "easter": "Celebration of the resurrection of Jesus Christ",
+            "easter_monday": "Day after Easter Sunday, continuation of Easter celebration",
+            "divine_mercy": "First Sunday after Easter, also called Low Sunday",
+            "ascension": "Commemorates Jesus' ascension to heaven, 40 days after Easter",
+            "pentecost": "Descent of the Holy Spirit, 50 days after Easter",
+            "trinity_sunday": "Celebration of the Holy Trinity, first Sunday after Pentecost",
+            "corpus_christi": "Celebration of the Eucharist, 60 days after Easter"
+        }
+    },
+    "samaritan-calendar": {
+        "title": "Samaritan Calendar Converter",
+        "description": "Convert dates between the Gregorian calendar and the ancient Samaritan calendar system.",
+        "howItWorks": {
+            "title": "How the Samaritan Calendar Converter Works",
+            "formula": "Samaritan Year = Gregorian Year + 3636 (approximately, based on the Entry into Canaan epoch)",
+            "explanation": "The Samaritan calendar is a lunisolar calendar similar to the Hebrew calendar but with a different epoch. While the Hebrew calendar counts from Creation (Anno Mundi), the Samaritan calendar counts from the Entry into Canaan, approximately 3636 BCE. The calendar uses 12 or 13 months following the 19-year Metonic cycle to stay aligned with the solar year.",
+            "steps": [
+                {
+                    "name": "Select Conversion Direction",
+                    "text": "Choose whether to convert from Gregorian to Samaritan or Samaritan to Gregorian"
+                },
+                {
+                    "name": "Enter the Date",
+                    "text": "Input the year, month, and day in the source calendar system"
+                },
+                {
+                    "name": "Convert",
+                    "text": "Click convert to see the equivalent date in the target calendar"
+                },
+                {
+                    "name": "Review Results",
+                    "text": "View the converted date along with year type (regular or leap year)"
+                }
+            ]
+        },
+        "useCases": [
+            {
+                "title": "Samaritan Religious Observance",
+                "description": "Determine correct dates for Samaritan festivals and religious ceremonies"
+            },
+            {
+                "title": "Academic Research",
+                "description": "Study Samaritan history, traditions, and calendar systems for scholarly purposes"
+            },
+            {
+                "title": "Cultural Heritage Documentation",
+                "description": "Preserve and document Samaritan traditions with accurate calendar references"
+            },
+            {
+                "title": "Visit Planning to Mount Gerizim",
+                "description": "Plan visits to witness Samaritan ceremonies during their major festivals"
+            },
+            {
+                "title": "Interfaith Calendar Comparison",
+                "description": "Compare dates across Hebrew, Samaritan, and Gregorian calendar systems"
+            }
+        ],
+        "seoTips": [
+            "The Samaritan calendar is similar to Hebrew but counts from a different epoch (Entry into Canaan)",
+            "Dates may vary slightly due to actual astronomical observation practices",
+            "Leap years add a 13th month (Adar II) following the Metonic cycle",
+            "Mount Gerizim is the holy site where Samaritans celebrate all major festivals",
+            "The Samaritan community today numbers only about 800 people worldwide"
+        ],
+        "commonMistakes": [
+            "Confusing the Samaritan calendar with the Hebrew calendar (different epochs)",
+            "Expecting exact precision - Samaritan dates traditionally depend on actual moon observation",
+            "Forgetting that like Hebrew, Samaritan months can have 29 or 30 days",
+            "Not accounting for leap years when the calendar has 13 months instead of 12",
+            "Assuming Samaritan and Jewish holidays always fall on the same dates"
+        ],
+        "faqs": [
+            {
+                "question": "What is the difference between Samaritan and Hebrew calendars?",
+                "answer": "Both are lunisolar calendars with similar structures, but they count from different starting points. The Hebrew calendar counts from Creation (approximately 3761 BCE), while the Samaritan calendar counts from the Entry into Canaan (approximately 3636 BCE). They may also differ in determining leap years and festival dates due to different traditions of astronomical observation."
+            },
+            {
+                "question": "Who are the Samaritans?",
+                "answer": "The Samaritans are an ancient ethno-religious group originating from the region of Samaria. They consider themselves the true keepers of the original Israelite religion, following the Torah and holding Mount Gerizim (not Jerusalem) as their holiest site. Today, about 800 Samaritans live in two communities: Holon, Israel and on Mount Gerizim near Nablus."
+            },
+            {
+                "question": "Why are the converted dates approximate?",
+                "answer": "The traditional Samaritan calendar relies on actual astronomical observation of the new moon and spring equinox, which can vary slightly from calculated dates. This calculator uses mathematical algorithms that closely approximate but may not exactly match traditional determinations."
+            },
+            {
+                "question": "What is the Metonic cycle?",
+                "answer": "The Metonic cycle is a period of 19 years after which the lunar phases recur on the same days of the solar year. Both Hebrew and Samaritan calendars use this cycle to determine when to add a 13th month (leap month), keeping the lunar calendar aligned with the seasons."
+            },
+            {
+                "question": "When is the Samaritan New Year?",
+                "answer": "Unlike the Hebrew calendar where Rosh Hashanah falls in Tishrei (autumn), the Samaritan religious year begins in Nisan (spring), following the biblical prescription that Nisan is the first month. This aligns with Passover being the first major festival of the year."
+            }
+        ],
+        "input_title": "Convert Samaritan Calendar Dates",
+        "gregorian_to_samaritan": "Gregorian to Samaritan",
+        "samaritan_to_gregorian": "Samaritan to Gregorian",
+        "gregorian_year": "Gregorian Year",
+        "gregorian_month": "Gregorian Month",
+        "gregorian_day": "Gregorian Day",
+        "samaritan_year": "Samaritan Year",
+        "samaritan_month": "Samaritan Month",
+        "samaritan_day": "Samaritan Day",
+        "tooltip_gregorian_year": "Enter the Gregorian year",
+        "tooltip_month": "Enter the month (1-12)",
+        "tooltip_day": "Enter the day",
+        "tooltip_samaritan_year": "Enter the Samaritan year",
+        "tooltip_samaritan_month": "Enter the Samaritan month (1-13)",
+        "tooltip_samaritan_day": "Enter the Samaritan day",
+        "enter_year": "Enter year",
+        "enter_day": "Enter day",
+        "enter_samaritan_year": "Enter Samaritan year",
+        "convert_btn": "Convert",
+        "samaritan_date_result": "Samaritan Date",
+        "gregorian_date_result": "Gregorian Date",
+        "samaritan_year_label": "Samaritan Year",
+        "year_type": "Year Type",
+        "leap_year": "Leap Year",
+        "regular_year": "Regular Year",
+        "empty_state": "Enter a date to convert between Samaritan and Gregorian calendars",
+        "footer_note": "The Samaritan calendar is similar to the Hebrew calendar but counts from the entry into Canaan. Dates are approximate.",
+        "info_title": "About Samaritan Calendar",
+        "info_epoch": "Samaritan calendar counts from the entry into Canaan (approx. 3636 BCE)",
+        "info_similar": "Similar to Hebrew calendar with 12-13 months",
+        "info_leap": "Leap years follow the 19-year Metonic cycle",
+        "error_invalid_input": "Please enter valid numbers",
+        "error_year_range": "Gregorian year must be between 1 and 9999",
+        "error_month_range": "Month must be between 1 and 12",
+        "error_day_range": "Day must be between 1 and {{daysInMonth}}",
+        "error_samaritan_year_range": "Samaritan year must be valid",
+        "error_samaritan_month_range": "Month must be between 1 and {{maxMonth}}",
+        "error_samaritan_day_range": "Day must be between 1 and 30",
+        "months": {
+            "1": "Nisan",
+            "2": "Iyar",
+            "3": "Sivan",
+            "4": "Tammuz",
+            "5": "Av",
+            "6": "Elul",
+            "7": "Tishrei",
+            "8": "Cheshvan",
+            "9": "Kislev",
+            "10": "Tevet",
+            "11": "Shevat",
+            "12": "Adar",
+            "13": "Adar II"
+        }
+    },
+    "samaritan-festivals": {
+        "title": "Samaritan Festivals Calculator",
+        "description": "Find dates for Samaritan religious holidays including Passover, Shavuot, and Sukkot.",
+        "howItWorks": "The tool calculates dates for the seven biblical Samaritan festivals based on the Samaritan calendar and converts them to Gregorian dates. Dates are approximate as they depend on astronomical observation of the new moon and spring equinox.",
+        "useCases": [
+            "Find Samaritan festival dates for a specific year",
+            "Plan visits to Mount Gerizim during festivals",
+            "Witness the Samaritan Passover sacrifice",
+            "Academic research on Samaritan traditions",
+            "Learn about Samaritan religion and festivals"
+        ],
+        "seoTips": [
+            "Enter the Gregorian year to get festival dates",
+            "Remember that dates are approximate due to astronomical observation",
+            "Learn about the three annual pilgrimages to Mount Gerizim"
+        ],
+        "commonMistakes": [
+            "Expecting exact match with Jewish holidays",
+            "Forgetting that Samaritan Passover sacrifice is still performed",
+            "Not understanding that festivals are celebrated on Mount Gerizim"
+        ],
+        "faqs": [
+            {
+                "question": "What are the major Samaritan festivals?",
+                "answer": "The seven biblical festivals: Passover, Unleavened Bread, Shavuot (Weeks), Yom Teru'ah, Yom Kippur, Sukkot (Tabernacles), and Shemini Atzeret."
+            },
+            {
+                "question": "What is the Samaritan Passover sacrifice?",
+                "answer": "It is an annual ritual performed by Samaritans on Mount Gerizim, where they sacrifice lambs at sunset as prescribed in the Torah, one of the last remaining sacrificial traditions in the world."
+            },
+            {
+                "question": "Where do Samaritans celebrate their festivals?",
+                "answer": "Samaritans celebrate their festivals on Mount Gerizim near Nablus, which they consider the holiest place on earth according to their tradition."
+            }
+        ],
+        "input_title": "Calculate Samaritan Festivals",
+        "gregorian_year": "Gregorian Year",
+        "tooltip_year": "Enter the year to calculate festival dates",
+        "enter_year": "Enter year",
+        "calculate_btn": "Calculate Festivals",
+        "festivals_for_year": "Samaritan Festivals",
+        "leap_year": "Leap Year (13 months)",
+        "regular_year": "Regular Year (12 months)",
+        "samaritan_date": "Samaritan Date",
+        "gregorian_date": "Gregorian Date",
+        "empty_state": "Enter a year to see Samaritan festival dates",
+        "footer_note": "Samaritans celebrate the biblical festivals on Mount Gerizim. Dates are approximate as actual dates depend on astronomical observations.",
+        "info_title": "About Samaritan Festivals",
+        "info_pilgrimage": "Samaritans make three annual pilgrimages to Mount Gerizim",
+        "info_gerizim": "Mount Gerizim is considered the holiest place in Samaritan tradition",
+        "info_passover_sacrifice": "The Passover sacrifice is still performed according to biblical tradition",
+        "error_invalid_input": "Please enter a valid year",
+        "error_year_range": "Year must be between 1900 and 2100",
+        "festivals": {
+            "passover": "Passover (Pesach)",
+            "unleavened_bread": "Feast of Unleavened Bread",
+            "shavuot": "Shavuot (Feast of Weeks)",
+            "rosh_hashanah": "Yom Teru'ah (Day of Assembly)",
+            "yom_kippur": "Yom Kippur (Day of Atonement)",
+            "sukkot": "Sukkot (Feast of Tabernacles)",
+            "shemini_atzeret": "Shemini Atzeret (Eighth Day Assembly)"
+        },
+        "desc": {
+            "passover": "Commemorates the Exodus from Egypt with the Passover sacrifice",
+            "unleavened_bread": "Seven days of eating unleavened bread",
+            "shavuot": "Celebrates the giving of the Torah, 50 days after Passover",
+            "rosh_hashanah": "Beginning of the civil new year, day of blowing trumpets",
+            "yom_kippur": "Holiest day of the year, day of fasting and atonement",
+            "sukkot": "Seven-day festival of dwelling in booths",
+            "shemini_atzeret": "Concluding festival after Sukkot"
+        }
+    },
+    "coptic-holy-days": {
+        "title": "Coptic Holy Days Calculator",
+        "description": "Find dates for fixed and movable Coptic Orthodox feasts and religious occasions.",
+        "howItWorks": "The tool calculates Coptic holy day dates based on the Coptic calendar (Era of Martyrs). It displays both fixed feasts and movable ones linked to Coptic Easter, with conversion to Gregorian dates.",
+        "useCases": [
+            "Find Coptic feast dates for a specific year",
+            "Plan Coptic church events and celebrations",
+            "Know fasting and feast schedules",
+            "Convert Coptic dates to Gregorian",
+            "Learn about the Coptic liturgical calendar"
+        ],
+        "seoTips": [
+            "Enter the Coptic year (Era of Martyrs) for results",
+            "Note that the Coptic year begins in September",
+            "Understand the difference between fixed and movable feasts"
+        ],
+        "commonMistakes": [
+            "Confusing Coptic and Gregorian years",
+            "Forgetting that Coptic Easter follows Julian calculation",
+            "Not accounting for the Coptic year starting in September"
+        ],
+        "faqs": [
+            {
+                "question": "What is the Era of Martyrs?",
+                "answer": "It is the starting point of the Coptic calendar from 284 CE, the year Emperor Diocletian began his severe persecution of Christians in Egypt."
+            },
+            {
+                "question": "How do I convert Gregorian to Coptic year?",
+                "answer": "Subtract 283 or 284 from the Gregorian year depending on the month. Before September subtract 284, after September subtract 283. For example: 2024 CE = 1740 or 1741 Coptic."
+            },
+            {
+                "question": "Why does Coptic Easter differ from Western Easter?",
+                "answer": "The Coptic Church uses the Julian calendar for Easter calculation, which usually makes it later than Western Easter celebrated according to the Gregorian calendar."
+            }
+        ],
+        "input_title": "Calculate Coptic Holy Days",
+        "coptic_year": "Coptic Year",
+        "tooltip_year": "Enter the Coptic year (Anno Martyrum)",
+        "enter_year": "Enter Coptic year",
+        "calculate_btn": "Calculate Holy Days",
+        "holy_days_for_year": "Coptic Holy Days",
+        "coptic_year_label": "Coptic Year",
+        "gregorian_year_label": "Gregorian",
+        "fixed": "Fixed",
+        "movable": "Movable",
+        "movable_date": "Movable (based on Easter)",
+        "empty_state": "Enter a Coptic year to see holy day dates",
+        "footer_note": "Coptic Orthodox Church celebrates feasts according to the Coptic calendar. Movable feasts are based on the Julian Easter calculation.",
+        "info_title": "About Coptic Holy Days",
+        "info_era": "Coptic calendar counts from the Era of Martyrs (284 CE)",
+        "info_easter": "Coptic Easter follows the Julian calendar calculation",
+        "info_calendar": "The Coptic year begins around September 11",
+        "error_invalid_input": "Please enter a valid Coptic year",
+        "error_year_range": "Year must be between 1 and 9999",
+        "feasts": {
+            "nayrouz": "Nayrouz (Coptic New Year)",
+            "cross_finding": "Finding of the True Cross",
+            "virgin_nativity": "Nativity of the Virgin Mary",
+            "christmas": "Nativity of Christ (Christmas)",
+            "epiphany": "Epiphany (Theophany)",
+            "presentation": "Presentation of Christ at the Temple",
+            "annunciation": "Annunciation",
+            "egypt_entry": "Entry of the Holy Family into Egypt",
+            "apostles_fast": "Beginning of Apostles' Fast",
+            "transfiguration": "Transfiguration of the Lord",
+            "assumption": "Assumption of the Virgin Mary",
+            "great_lent": "Great Lent Begins",
+            "palm_sunday": "Palm Sunday",
+            "good_friday": "Good Friday",
+            "easter": "Easter (Resurrection)",
+            "ascension": "Ascension of the Lord",
+            "pentecost": "Pentecost"
+        },
+        "desc": {
+            "nayrouz_desc": "Coptic New Year, commemorating the martyrs",
+            "cross_finding_desc": "Discovery of the True Cross by St. Helena",
+            "virgin_nativity_desc": "Birth of the Virgin Mary",
+            "christmas_desc": "Birth of Jesus Christ (January 7)",
+            "epiphany_desc": "Baptism of Christ in the Jordan",
+            "presentation_desc": "Jesus presented at the Temple 40 days after birth",
+            "annunciation_desc": "Angel Gabriel announces to Mary",
+            "egypt_entry_desc": "Holy Family's flight into Egypt",
+            "apostles_fast_desc": "Fast in preparation for Apostles' Feast",
+            "transfiguration_desc": "Christ's transfiguration on Mount Tabor",
+            "assumption_desc": "Assumption of the Virgin Mary into heaven",
+            "great_lent_desc": "55-day fast before Easter",
+            "palm_sunday_desc": "Christ's entry into Jerusalem",
+            "good_friday_desc": "Crucifixion of Jesus Christ",
+            "easter_desc": "Resurrection of Jesus Christ",
+            "ascension_desc": "Christ's ascension into heaven",
+            "pentecost_desc": "Descent of the Holy Spirit"
+        }
+    },
+    "hebrew-holidays": {
+        "title": "Hebrew Holidays Calendar",
+        "description": "Find dates for Hebrew feasts and fasts including Rosh Hashanah, Yom Kippur, and Passover.",
+        "howItWorks": "The tool calculates Hebrew holiday and fast dates based on the Hebrew lunisolar calendar. It displays dates in both Hebrew and Gregorian calendars with holiday classification by importance (major, minor, and fast days).",
+        "useCases": [
+            "Find Jewish holiday dates for a specific year",
+            "Plan religious and family celebrations",
+            "Know fast days in the Hebrew calendar",
+            "Coordinate with Jewish colleagues and friends",
+            "Learn about Jewish traditions and culture"
+        ],
+        "seoTips": [
+            "Enter the Hebrew year (e.g., 5784) for results",
+            "Remember that holidays begin at sunset the evening before",
+            "Understand the difference between major and minor holidays"
+        ],
+        "commonMistakes": [
+            "Forgetting that the Jewish day begins at sunset",
+            "Confusing Hebrew and Gregorian years",
+            "Not accounting for additional days observed outside Israel (Diaspora)"
+        ],
+        "faqs": [
+            {
+                "question": "How does the Hebrew calendar work?",
+                "answer": "It is a lunisolar calendar with 12 or 13 months. Adar II is added 7 times every 19 years to align the lunar calendar with the solar year and keep holidays in their proper seasons."
+            },
+            {
+                "question": "Why do holidays begin at sunset?",
+                "answer": "Because the Jewish day begins at sunset and ends at the following sunset, based on the Torah: 'And there was evening and there was morning' (Genesis 1)."
+            },
+            {
+                "question": "What is the difference between Israel and Diaspora observance?",
+                "answer": "Some holidays like Passover and Sukkot are observed for an additional day outside Israel (Diaspora) due to historical calendar uncertainty before fixed calendar calculations existed."
+            }
+        ],
+        "input_title": "Calculate Hebrew Holidays",
+        "hebrew_year": "Hebrew Year",
+        "tooltip_year": "Enter the Hebrew year (e.g., 5784)",
+        "enter_year": "Enter Hebrew year",
+        "calculate_btn": "Calculate Holidays",
+        "holidays_for_year": "Hebrew Holidays",
+        "gregorian_years": "Gregorian",
+        "leap_year": "Leap Year (13 months)",
+        "regular_year": "Regular Year (12 months)",
+        "major": "Major Holiday",
+        "minor": "Minor Holiday",
+        "fast": "Fast Day",
+        "empty_state": "Enter a Hebrew year to see holiday dates",
+        "footer_note": "Hebrew holidays begin at sunset the evening before the listed date. Diaspora communities may observe additional days for some holidays.",
+        "info_title": "About Hebrew Holidays",
+        "info_lunar": "Hebrew calendar is lunisolar with 12-13 months",
+        "info_sunset": "Jewish days begin and end at sunset",
+        "info_diaspora": "Some holidays are observed for additional days outside Israel",
+        "error_invalid_input": "Please enter a valid Hebrew year",
+        "error_year_range": "Year must be between 3761 and 12000",
+        "months": {
+            "tishrei": "Tishrei",
+            "cheshvan": "Cheshvan",
+            "kislev": "Kislev",
+            "tevet": "Tevet",
+            "shevat": "Shevat",
+            "adar": "Adar",
+            "adar_i": "Adar I",
+            "adar_ii": "Adar II",
+            "nisan": "Nisan",
+            "iyar": "Iyar",
+            "sivan": "Sivan",
+            "tammuz": "Tammuz",
+            "av": "Av",
+            "elul": "Elul"
+        },
+        "holidays": {
+            "rosh_hashanah": "Rosh Hashanah",
+            "tzom_gedaliah": "Fast of Gedaliah",
+            "yom_kippur": "Yom Kippur",
+            "sukkot": "Sukkot",
+            "shemini_atzeret": "Shemini Atzeret",
+            "simchat_torah": "Simchat Torah",
+            "hanukkah": "Hanukkah",
+            "tzom_tevet": "Fast of Tevet",
+            "tu_bishvat": "Tu BiShvat",
+            "purim": "Purim",
+            "passover": "Passover (Pesach)",
+            "yom_hashoah": "Yom HaShoah",
+            "yom_hazikaron": "Yom HaZikaron",
+            "yom_haatzmaut": "Yom HaAtzmaut",
+            "lag_baomer": "Lag BaOmer",
+            "yom_yerushalayim": "Yom Yerushalayim",
+            "shavuot": "Shavuot",
+            "tzom_tammuz": "Fast of Tammuz",
+            "tisha_bav": "Tisha B'Av",
+            "tu_bav": "Tu B'Av"
+        },
+        "desc": {
+            "rosh_hashanah_desc": "Jewish New Year, Day of Judgment",
+            "tzom_gedaliah_desc": "Fast commemorating assassination of Gedaliah",
+            "yom_kippur_desc": "Day of Atonement, holiest day of the year",
+            "sukkot_desc": "Feast of Tabernacles, 7 days of dwelling in booths",
+            "shemini_atzeret_desc": "Eighth Day of Assembly",
+            "simchat_torah_desc": "Rejoicing with the Torah",
+            "hanukkah_desc": "Festival of Lights, 8 days commemorating Temple rededication",
+            "tzom_tevet_desc": "Fast commemorating siege of Jerusalem",
+            "tu_bishvat_desc": "New Year for Trees",
+            "purim_desc": "Celebration of deliverance from Haman",
+            "passover_desc": "Commemorates Exodus from Egypt, 7-8 days",
+            "yom_hashoah_desc": "Holocaust Remembrance Day",
+            "yom_hazikaron_desc": "Israeli Memorial Day",
+            "yom_haatzmaut_desc": "Israeli Independence Day",
+            "lag_baomer_desc": "33rd day of the Omer counting",
+            "yom_yerushalayim_desc": "Jerusalem Day",
+            "shavuot_desc": "Feast of Weeks, commemorates giving of Torah",
+            "tzom_tammuz_desc": "Fast commemorating breach of Jerusalem walls",
+            "tisha_bav_desc": "Fast commemorating destruction of both Temples",
+            "tu_bav_desc": "Minor holiday, historically a day for matchmaking"
+        }
+    },
+    "holy-week-dates": {
+        "title": "Holy Week Dates Calculator",
+        "description": "Find exact dates for Palm Sunday, Maundy Thursday, Good Friday, and Easter for any year.",
+        "howItWorks": "The tool first calculates Easter date using the Computus algorithm, then determines Holy Week dates (from Lazarus Saturday through Easter Monday) for both Western (Gregorian) and Eastern (Julian) traditions.",
+        "useCases": [
+            "Find Holy Week dates for any year",
+            "Plan participation in prayers and church services",
+            "Compare Holy Week dates between Western and Eastern churches",
+            "Plan travel and holidays during Easter season",
+            "Coordinate with family and friends for celebrations"
+        ],
+        "seoTips": [
+            "Enter the year to get dates for both traditions",
+            "Compare Western and Eastern dates side by side",
+            "Plan Holy Week activities well in advance"
+        ],
+        "commonMistakes": [
+            "Assuming Western and Eastern Easter fall on the same date",
+            "Forgetting that Holy Week begins with Lazarus Saturday",
+            "Confusing Gregorian and Julian calendars"
+        ],
+        "faqs": [
+            {
+                "question": "What is Holy Week?",
+                "answer": "It is the final week of Lent preceding Easter, commemorating Christ's passion, crucifixion, death, and resurrection. It is the most sacred time in the Christian calendar."
+            },
+            {
+                "question": "Why does Easter date change each year?",
+                "answer": "Because Easter depends on the lunar cycle, falling on the first Sunday after the first full moon following the spring equinox (March 21)."
+            },
+            {
+                "question": "What is the difference between Good Friday and Holy Saturday?",
+                "answer": "Good Friday commemorates Christ's crucifixion and death, while Holy Saturday is the day of mourning and waiting with Christ in the tomb before the joy of resurrection on Easter Sunday."
+            }
+        ],
+        "input_title": "Calculate Holy Week Dates",
+        "gregorian_year": "Gregorian Year",
+        "tooltip_year": "Enter the year (1583 onwards)",
+        "enter_year": "Enter year",
+        "calculate_btn": "Calculate Dates",
+        "western_tradition": "Western (Gregorian)",
+        "eastern_tradition": "Eastern (Julian)",
+        "western_easter": "Western Easter",
+        "eastern_easter": "Eastern Easter",
+        "year": "Year",
+        "empty_state": "Enter a year to see Holy Week dates",
+        "footer_note": "Holy Week dates are calculated using the Computus algorithm. Western churches use the Gregorian calendar, Eastern Orthodox churches use the Julian calendar.",
+        "info_title": "About Holy Week",
+        "info_computus": "Easter date is calculated using the ancient Computus algorithm",
+        "info_difference": "Western and Eastern Easter can differ by up to 5 weeks",
+        "info_holy_week": "Holy Week is the most solemn week in the Christian calendar",
+        "error_invalid_input": "Please enter a valid year",
+        "error_year_range": "Year must be between 1583 and 9999",
+        "days": {
+            "lazarus_saturday": "Lazarus Saturday",
+            "palm_sunday": "Palm Sunday",
+            "holy_monday": "Holy Monday",
+            "holy_tuesday": "Holy Tuesday",
+            "holy_wednesday": "Holy Wednesday",
+            "maundy_thursday": "Maundy Thursday",
+            "good_friday": "Good Friday",
+            "holy_saturday": "Holy Saturday",
+            "easter_sunday": "Easter Sunday",
+            "easter_monday": "Easter Monday"
+        },
+        "desc": {
+            "lazarus_saturday": "Commemorates the raising of Lazarus from the dead",
+            "palm_sunday": "Celebrates Christ's triumphal entry into Jerusalem",
+            "holy_monday": "Commemorates the cursing of the fig tree",
+            "holy_tuesday": "Focuses on the parables of the ten virgins",
+            "holy_wednesday": "Commemorates Judas' agreement to betray Christ",
+            "maundy_thursday": "Commemorates the Last Supper and foot washing",
+            "good_friday": "Commemorates the crucifixion of Jesus Christ",
+            "holy_saturday": "Day of mourning, Christ rests in the tomb",
+            "easter_sunday": "Celebrates the resurrection of Jesus Christ",
+            "easter_monday": "Continuation of Easter celebration"
+        }
+    },
+    "yazidi-new-year": {
+        "title": "Yazidi New Year Calculator",
+        "description": "Find the date of Charshema Sor (Red Wednesday) and upcoming celebrations.",
+        "howItWorks": "The tool calculates the date of Sere Sal (Yazidi New Year) which falls on the first Wednesday after April 13 according to the Julian calendar, approximately April 14-20 in the Gregorian calendar.",
+        "useCases": [
+            "Find Sere Sal date for any year",
+            "Plan Yazidi New Year celebrations",
+            "Know upcoming celebration dates",
+            "Learn about Yazidi calendar and culture",
+            "Coordinate with Yazidi friends for occasions"
+        ],
+        "seoTips": [
+            "Enter the Gregorian year to get the date",
+            "Learn about the meaning of Red Wednesday",
+            "Use the calculator for advance planning"
+        ],
+        "commonMistakes": [
+            "Confusing Gregorian and Julian calendars",
+            "Assuming Sere Sal falls on the same date each year",
+            "Not understanding that the date is always tied to Wednesday"
+        ],
+        "faqs": [
+            {
+                "question": "What does Sere Sal mean?",
+                "answer": "Sere Sal means 'Head of the Year' in Kurdish, also known as Charshema Sor or Red Wednesday. It is the most important holiday in the Yazidi religion."
+            },
+            {
+                "question": "Why is it called Red Wednesday?",
+                "answer": "The color red is associated with spring, renewal, and life. Yazidis decorate their homes with red flowers and colored eggs to celebrate this day."
+            },
+            {
+                "question": "How is Sere Sal celebrated?",
+                "answer": "It is celebrated by visiting holy sites especially Lalish, coloring eggs, preparing traditional foods, lighting lamps, and wearing new clothes."
+            }
+        ],
+        "input_title": "Calculate Yazidi New Year",
+        "gregorian_year": "Gregorian Year",
+        "tooltip_year": "Enter the year to find Sere Sal date",
+        "enter_year": "Enter year",
+        "calculate_btn": "Calculate",
+        "sere_sal_date": "Sere Sal (New Year) Date",
+        "yazidi_year": "Yazidi Year",
+        "days_until": "Days Until",
+        "passed": "Already passed",
+        "upcoming_dates": "Upcoming Sere Sal Dates",
+        "empty_state": "Enter a year to find Yazidi New Year dates",
+        "footer_note": "Sere Sal (Charshema Sor - Red Wednesday) is the Yazidi New Year, falling on the first Wednesday after April 13 (Julian calendar).",
+        "info_title": "About Yazidi New Year",
+        "info_meaning": "Sere Sal means 'Head of the Year' in Kurdish",
+        "info_date_calc": "Falls on the first Wednesday after April 13 (Julian calendar)",
+        "info_traditions": "Celebrated with colored eggs, special foods, and visiting holy sites",
+        "error_invalid_input": "Please enter a valid year",
+        "error_year_range": "Year must be between 1900 and 2100",
+        "days": {
+            "sunday": "Sunday",
+            "monday": "Monday",
+            "tuesday": "Tuesday",
+            "wednesday": "Wednesday",
+            "thursday": "Thursday",
+            "friday": "Friday",
+            "saturday": "Saturday"
+        }
+    }
+}

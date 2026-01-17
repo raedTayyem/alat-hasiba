@@ -1,0 +1,15 @@
+# Allow all web crawlers
+User-agent: *
+Allow: /
+
+# Disallow any temporary files
+Disallow: /tmp/
+Disallow: /*.tmp$
+
+# Sitemap location
+Sitemap: https://alathasiba.com/sitemap.xml
+
+# Disallow admin pages (if they exist in the future)
+User-agent: *
+Disallow: /admin/
+Disallow: /dashboard/ 
