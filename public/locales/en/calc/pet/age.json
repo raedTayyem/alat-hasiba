@@ -443,6 +443,10 @@
       {
         "question": "Can hamsters live together?",
         "answer": "Syrian hamsters must live alone. Some dwarf species can live in pairs or groups if introduced young, but fighting can occur."
+      },
+      {
+        "question": "Which hamster species lives the longest?",
+        "answer": "Roborovski hamsters live the longest with an average of 3-3.5 years. Syrian hamsters come second at 2-3 years. Other dwarf species have shorter lifespans."
       }
     ]
   },
@@ -524,6 +528,10 @@
       {
         "question": "Can hamsters live together?",
         "answer": "Syrian hamsters must live alone. Some dwarf species can live in pairs or groups if introduced young, but fighting can occur."
+      },
+      {
+        "question": "Which hamster species lives the longest?",
+        "answer": "Roborovski hamsters live the longest with an average of 3-3.5 years. Syrian hamsters come second at 2-3 years. Other dwarf species have shorter lifespans."
       }
     ]
   },
@@ -603,6 +611,10 @@
       {
         "question": "Is my kitten underweight?",
         "answer": "Healthy kittens should gain steadily. If weight plateaus or drops, consult a vet. Ribs should be felt but not prominently visible."
+      },
+      {
+        "question": "Does breed affect final size?",
+        "answer": "Yes, significantly. Breeds like Siamese are small (3kg), while Maine Coons can reach 8-10kg. Mixed breed cats typically range 3-5kg."
       }
     ]
   },
@@ -682,6 +694,10 @@
       {
         "question": "Is my kitten underweight?",
         "answer": "Healthy kittens should gain steadily. If weight plateaus or drops, consult a vet. Ribs should be felt but not prominently visible."
+      },
+      {
+        "question": "Does breed affect final size?",
+        "answer": "Yes, significantly. Breeds like Siamese are small (3kg), while Maine Coons can reach 8-10kg. Mixed breed cats typically range 3-5kg."
       }
     ]
   },

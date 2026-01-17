@@ -1986,6 +1986,10 @@
       {
         "question": "What is the typical system size for a home?",
         "answer": "Most homes need 5-10 kW systems. A 5kW system powers an average home and requires about 30-35 m² of roof space."
+      },
+      {
+        "question": "Should I get battery storage?",
+        "answer": "Batteries add cost but provide energy independence and emergency backup. They are most valuable with time-of-use electricity rates."
       }
     ]
   }

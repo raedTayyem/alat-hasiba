@@ -1017,7 +1017,8 @@
       "Determining proper portion sizes for your cat",
       "Planning food purchases and budgeting",
       "Transitioning between different food types",
-      "Managing weight through controlled feeding"
+      "Managing weight through controlled feeding",
+      "Ensuring adequate nutrition for active cats"
     ],
     "seoTips": [
       "Wet food has fewer calories per gram than dry food",
@@ -1030,7 +1031,8 @@
       "Using volume instead of weight to measure food",
       "Not adjusting portions when switching food types",
       "Overfeeding treats on top of regular meals",
-      "Feeding adult food to kittens or kitten food to seniors"
+      "Feeding adult food to kittens or kitten food to seniors",
+      "Not adjusting portions as your cat ages"
     ],
     "faqs": [
       {
@@ -2160,6 +2162,10 @@
       {
         "question": "Can hamsters live together?",
         "answer": "Syrian hamsters must live alone. Some dwarf species can live in pairs or groups if introduced young, but fighting can occur."
+      },
+      {
+        "question": "Which hamster species lives the longest?",
+        "answer": "Roborovski hamsters live the longest with an average of 3-3.5 years. Syrian hamsters come second at 2-3 years. Other dwarf species have shorter lifespans."
       }
     ]
   },
@@ -2500,6 +2506,10 @@
       {
         "question": "Is my kitten underweight?",
         "answer": "Healthy kittens should gain steadily. If weight plateaus or drops, consult a vet. Ribs should be felt but not prominently visible."
+      },
+      {
+        "question": "Does breed affect final size?",
+        "answer": "Yes, significantly. Breeds like Siamese are small (3kg), while Maine Coons can reach 8-10kg. Mixed breed cats typically range 3-5kg."
       }
     ]
   },
@@ -2655,6 +2665,10 @@
       {
         "question": "Should I get pet insurance?",
         "answer": "Pet insurance can help manage unexpected vet costs. It's most valuable for breeds prone to health issues or if you couldn't afford emergency care otherwise."
+      },
+      {
+        "question": "How can I save on pet costs?",
+        "answer": "Buy food in bulk, maintain preventive care to avoid costly treatments, learn basic grooming yourself, and consider pet insurance for major emergencies."
       }
     ]
   },
@@ -3043,6 +3057,10 @@
       {
         "question": "Why is this calculator for reference only?",
         "answer": "Individual pets may have conditions affecting drug metabolism. Only a veterinarian can determine the safe and effective dose for your specific pet."
+      },
+      {
+        "question": "Can I mix medication with food?",
+        "answer": "It depends on the medication. Some must be given on an empty stomach. Check the accompanying instructions or ask your veterinarian."
       }
     ]
   },
@@ -3201,6 +3219,10 @@
       {
         "question": "Is pet travel safe?",
         "answer": "When done properly with appropriate carriers and following airline guidelines, pet travel is generally safe. Avoid extreme temperatures and sedation unless vet-recommended."
+      },
+      {
+        "question": "How much does it cost to ship a pet internationally?",
+        "answer": "Costs range from $200-2000 depending on weight and destination. Large dogs and travel to distant continents cost more. Check with specialized pet shipping companies."
       }
     ]
   },

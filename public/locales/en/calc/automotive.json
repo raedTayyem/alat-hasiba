@@ -1332,48 +1332,73 @@
     },
     "howItWorks": {
       "title": "How the Trip Cost Calculator Works",
-      "formula": "Fuel Cost = (Distance / Fuel Efficiency) × Fuel Price",
-      "explanation": "This calculator estimates your trip costs by calculating fuel consumption based on distance and your vehicle's fuel efficiency, then multiplying by current fuel prices. It also factors in optional costs like tolls, parking, and maintenance.",
+      "formula": "Fuel Cost = (Distance / Fuel Efficiency) x Fuel Price",
+      "explanation": "This tool calculates the fuel cost for your trip based on the distance, your vehicle fuel efficiency, and current fuel price. You can add other costs like tolls and accommodation for a comprehensive estimate.",
       "steps": [
-        "Enter the total trip distance",
-        "Input your vehicle's fuel efficiency (MPG or L/100km)",
-        "Enter current fuel price per gallon or liter",
-        "Add any toll costs for the route",
-        "Include parking fees if applicable",
-        "Review total estimated trip cost"
+        {
+          "name": "Enter the Distance",
+          "text": "Enter the total round-trip distance"
+        },
+        {
+          "name": "Set Fuel Efficiency",
+          "text": "Enter your vehicle fuel consumption rate"
+        },
+        {
+          "name": "Enter Fuel Price",
+          "text": "Enter the current fuel price"
+        },
+        {
+          "name": "Review the Cost",
+          "text": "View the fuel cost and cost per mile/kilometer"
+        }
       ]
     },
     "useCases": [
-      "Planning road trips and vacation budgets",
-      "Comparing driving vs flying costs",
-      "Calculating commute expenses",
-      "Business travel expense reports",
-      "Ride-sharing cost splitting"
+      {
+        "title": "Budget Planning",
+        "description": "Estimate fuel costs before traveling"
+      },
+      {
+        "title": "Compare Transportation Options",
+        "description": "Compare driving costs vs flying or taking the train"
+      },
+      {
+        "title": "Cost Sharing",
+        "description": "Calculate each person's share on a group trip"
+      },
+      {
+        "title": "Business Travel",
+        "description": "Calculate travel costs for expense reimbursement"
+      }
     ],
     "seoTips": [
-      "Calculate accurate fuel costs before your trip",
-      "Factor in all expenses including tolls and parking",
-      "Compare different route options",
-      "Use current fuel prices for accuracy"
+      "Use actual fuel efficiency, not manufacturer figures",
+      "Add 10-15% for emergencies and route deviations",
+      "Consider toll and parking costs",
+      "For long trips, add accommodation and food costs"
     ],
     "commonMistakes": [
-      "Forgetting to include return trip distance",
-      "Using outdated fuel prices",
-      "Not accounting for city vs highway fuel efficiency",
-      "Ignoring toll and parking costs"
+      "Using ideal fuel efficiency instead of real-world figures",
+      "Forgetting to calculate the return trip",
+      "Ignoring toll roads and bridge fees",
+      "Not accounting for increased fuel consumption in mountains or with heavy loads"
     ],
     "faqs": [
       {
-        "question": "How accurate is the trip cost calculator?",
-        "answer": "The calculator provides accurate estimates based on your inputs. Actual costs may vary due to traffic conditions, driving style, and fuel price fluctuations."
+        "question": "How do I calculate my actual fuel efficiency?",
+        "answer": "Fill your tank, note the odometer reading. At the next fill-up, divide the miles driven by gallons added. Repeat for several fill-ups to get an accurate average."
       },
       {
-        "question": "Should I use city or highway MPG?",
-        "answer": "Use highway MPG for mostly highway trips, city MPG for urban driving, or a blend for mixed routes."
+        "question": "Is driving cheaper than flying?",
+        "answer": "For solo travelers, flying is usually cheaper for distances over 300 miles. But for families or groups, driving wins due to cost sharing. Don't forget to factor in time and fatigue."
       },
       {
-        "question": "Does it include vehicle maintenance costs?",
-        "answer": "Basic maintenance like oil changes and tire wear can be factored into the per-mile cost estimate."
+        "question": "How can I save on trip costs?",
+        "answer": "Drive at economic speed (55-65 mph), maintain tire pressure, avoid aggressive acceleration, remove excess cargo, and use apps to find the cheapest gas stations."
+      },
+      {
+        "question": "Should I add costs other than fuel?",
+        "answer": "Yes, for a complete estimate add: toll fees, parking, vehicle depreciation (about $0.10-0.20/mile), and extra maintenance for long trips."
       }
     ]
   },

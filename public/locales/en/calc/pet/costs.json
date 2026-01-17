@@ -35,7 +35,8 @@
         "Select the type of pet (dog or cat)",
         "Choose the pet size",
         "Select food quality level",
-        "View initial and ongoing cost breakdown"
+        "View initial and ongoing cost breakdown",
+        "See monthly and annual totals"
       ]
     },
     "useCases": [
@@ -73,6 +74,10 @@
       {
         "question": "Should I get pet insurance?",
         "answer": "Pet insurance can help manage unexpected vet costs. It's most valuable for breeds prone to health issues or if you couldn't afford emergency care otherwise."
+      },
+      {
+        "question": "How can I save on pet costs?",
+        "answer": "Buy food in bulk, maintain preventive care to avoid costly treatments, learn basic grooming yourself, and consider pet insurance for major emergencies."
       }
     ]
   },
@@ -151,6 +156,10 @@
       {
         "question": "Should I get pet insurance?",
         "answer": "Pet insurance can help manage unexpected vet costs. It's most valuable for breeds prone to health issues or if you couldn't afford emergency care otherwise."
+      },
+      {
+        "question": "How can I save on pet costs?",
+        "answer": "Buy food in bulk, maintain preventive care to avoid costly treatments, learn basic grooming yourself, and consider pet insurance for major emergencies."
       }
     ]
   },
@@ -420,6 +429,10 @@
       {
         "question": "What carrier size do I need?",
         "answer": "Your pet should be able to stand, turn around, and lie down comfortably. Airlines have specific size requirements for in-cabin and cargo carriers."
+      },
+      {
+        "question": "How much does it cost to ship a pet internationally?",
+        "answer": "Costs range from $200-2000 depending on weight and destination. Large dogs and travel to distant continents cost more. Check with specialized pet shipping companies."
       }
     ]
   },
@@ -497,6 +510,10 @@
       {
         "question": "Is pet travel safe?",
         "answer": "When done properly with appropriate carriers and following airline guidelines, pet travel is generally safe. Avoid extreme temperatures and sedation unless vet-recommended."
+      },
+      {
+        "question": "How much does it cost to ship a pet internationally?",
+        "answer": "Costs range from $200-2000 depending on weight and destination. Large dogs and travel to distant continents cost more. Check with specialized pet shipping companies."
       }
     ]
   }

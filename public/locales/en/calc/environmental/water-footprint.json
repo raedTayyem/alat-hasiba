@@ -190,6 +190,12 @@
     "section_title": "Lifestyle",
     "diet": "Diet Type",
     "diet_tooltip": "Your usual diet type",
+    "options": {
+      "high_meat": "High Meat Diet",
+      "moderate": "Moderate Diet",
+      "vegetarian": "Vegetarian",
+      "vegan": "Vegan"
+    },
     "shower": "Daily Shower Minutes",
     "shower_tooltip": "Average daily shower time",
     "laundry": "Laundry Loads per Week",

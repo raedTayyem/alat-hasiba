@@ -9,10 +9,11 @@
             "formula": "Area = (base × height) / 2 or using Heron's formula for SSS",
             "explanation": "Calculate triangle properties using various methods depending on known values: base and height, three sides (SSS), or two sides and included angle (SAS).",
             "steps": [
-                "Select your calculation method",
-                "Enter the known measurements",
-                "Click Calculate to see area and perimeter",
-                "View additional properties like angles and classification"
+                "Enter the lengths of all three sides (a, b, c)",
+                "The calculator verifies the triangle is valid (sum of any two sides greater than the third)",
+                "The semi-perimeter (s) = (a+b+c)/2 is calculated",
+                "Heron's formula is applied to calculate the area",
+                "Angles are calculated using the law of cosines"
             ]
         },
         "useCases": [
@@ -22,10 +23,11 @@
             "Engineering and design applications"
         ],
         "seoTips": [
-            "Heron's formula works when you know all three sides",
-            "For right triangles, use base × height / 2",
-            "The sum of angles in any triangle is 180 degrees",
-            "The longest side is opposite the largest angle"
+            "A 3-4-5 triangle is a commonly used right triangle",
+            "The sum of angles in any triangle is always 180 degrees",
+            "An equilateral triangle has all equal sides and 60-degree angles",
+            "The law of cosines is a generalization of the Pythagorean theorem",
+            "The circumscribed circle passes through all three vertices, the inscribed circle touches all three sides"
         ],
         "commonMistakes": [
             "Confusing height with side length",
@@ -35,16 +37,24 @@
         ],
         "faqs": [
             {
-                "question": "What is Heron's formula?",
-                "answer": "Heron's formula calculates area from three sides: A = sqrt(s(s-a)(s-b)(s-c)) where s is the semi-perimeter (a+b+c)/2."
+                "question": "What is Heron's formula and when is it used?",
+                "answer": "Heron's formula calculates the area of a triangle from only its three side lengths, without needing to know the height. Area = sqrt(s(s-a)(s-b)(s-c)) where s = semi-perimeter."
             },
             {
-                "question": "How do I find the height of a triangle?",
-                "answer": "Height = 2 × Area / Base. You can also use trigonometry: height = side × sin(angle) for non-right triangles."
+                "question": "How do I verify that lengths form a valid triangle?",
+                "answer": "The sum of any two sides must be greater than the third side. For example: a+b > c, a+c > b, b+c > a."
             },
             {
-                "question": "What makes a valid triangle?",
-                "answer": "The sum of any two sides must be greater than the third side. This is the triangle inequality theorem."
+                "question": "What is the difference between the inscribed and circumscribed circles?",
+                "answer": "The inscribed circle (incircle) lies inside the triangle and touches all three sides, while the circumscribed circle passes through all three vertices of the triangle."
+            },
+            {
+                "question": "How do I calculate the height of a triangle from its area?",
+                "answer": "Area = (base × height) / 2, so height = (2 × Area) / base."
+            },
+            {
+                "question": "What is a right triangle and how do I identify it?",
+                "answer": "A right triangle has one 90-degree angle and satisfies the Pythagorean theorem: the square of the hypotenuse equals the sum of the squares of the other two sides."
             }
         ]
     },
@@ -69,29 +79,38 @@
             "Academic geometry problems"
         ],
         "seoTips": [
-            "Diameter is always twice the radius",
             "Pi (pi) is approximately 3.14159",
-            "Circumference is the distance around the circle",
-            "Area grows with the square of the radius"
+            "The radius is always half the diameter",
+            "Circumference is also known as the perimeter or length of the circle",
+            "Area is proportional to the square of the radius",
+            "The diameter is the longest chord in the circle and passes through the center"
         ],
         "commonMistakes": [
-            "Confusing radius with diameter",
-            "Forgetting to square the radius for area",
-            "Using diameter in the radius formula",
-            "Not using enough decimal places for pi"
+            "Confusing radius with diameter in formulas",
+            "Forgetting to square the radius when calculating area",
+            "Using an inaccurate value for pi in precise calculations",
+            "Confusing length units with area units"
         ],
         "faqs": [
             {
-                "question": "What is pi?",
-                "answer": "Pi (pi) is the ratio of a circle's circumference to its diameter, approximately 3.14159. It's an irrational number with infinite non-repeating decimals."
+                "question": "What is the difference between radius and diameter?",
+                "answer": "The radius is the distance from the center of the circle to its edge, while the diameter is the distance across the circle passing through the center. Diameter = 2 × radius."
             },
             {
-                "question": "How do I find diameter from circumference?",
-                "answer": "Diameter = Circumference / pi. Simply divide the circumference by pi (approximately 3.14159)."
+                "question": "Why do we use pi in circle calculations?",
+                "answer": "Pi is a constant ratio between any circle's circumference and its diameter. Its value is approximately 3.14159 and it is an irrational number."
             },
             {
-                "question": "Why is area proportional to radius squared?",
-                "answer": "As you scale a circle, both dimensions (width and height) grow, so area grows with the square. Doubling the radius quadruples the area."
+                "question": "How do I calculate the area of a semicircle?",
+                "answer": "Area of semicircle = (pi × r squared) / 2, which is half the area of the full circle."
+            },
+            {
+                "question": "What are the correct units for the results?",
+                "answer": "Radius, diameter, and circumference are in length units (meters, cm), while area is in square units (square meters, square cm)."
+            },
+            {
+                "question": "How do I calculate the radius if I know the area?",
+                "answer": "Radius = sqrt(Area / pi). Take the square root of the area divided by pi."
             }
         ]
     },
@@ -103,10 +122,11 @@
             "formula": "Area = length × width, Perimeter = 2(length + width)",
             "explanation": "Calculate rectangle properties from length and width measurements, including area, perimeter, and diagonal length using the Pythagorean theorem.",
             "steps": [
-                "Enter the length of the rectangle",
-                "Enter the width of the rectangle",
-                "Click Calculate to see all properties",
-                "View area, perimeter, and diagonal"
+                "Enter the length of the rectangle (the longer side)",
+                "Enter the width of the rectangle (the shorter side)",
+                "The calculator computes the area by multiplying length by width",
+                "The perimeter is calculated by summing all four sides",
+                "The diagonal is calculated using the Pythagorean theorem"
             ]
         },
         "useCases": [
@@ -116,29 +136,38 @@
             "Packaging and material calculations"
         ],
         "seoTips": [
-            "A square is a special rectangle with equal sides",
-            "Diagonal can be found using Pythagorean theorem",
-            "Perimeter is the total distance around the shape",
-            "Area is measured in square units"
+            "A square is a special case of a rectangle where length equals width",
+            "The diagonal divides the rectangle into two congruent right triangles",
+            "Area is measured in square units (square meters, square feet)",
+            "The two diagonals in a rectangle are equal and bisect each other",
+            "Perimeter is the total distance around the rectangle"
         ],
         "commonMistakes": [
-            "Confusing perimeter with area",
-            "Using the wrong units for area vs length",
-            "Forgetting that diagonal requires Pythagorean theorem",
-            "Not converting units before calculating"
+            "Confusing area and perimeter in practical applications",
+            "Forgetting to multiply the sum by 2 when calculating perimeter",
+            "Using different units for length and width without conversion",
+            "Confusing length and width in calculations"
         ],
         "faqs": [
             {
-                "question": "How do I calculate the diagonal?",
-                "answer": "Use the Pythagorean theorem: Diagonal = sqrt(length² + width²). The diagonal is the longest straight line inside the rectangle."
+                "question": "What is the difference between a rectangle and a square?",
+                "answer": "A square is a rectangle with all sides equal. In a regular rectangle, only opposite sides are equal."
             },
             {
-                "question": "What's the difference between perimeter and area?",
-                "answer": "Perimeter is the total length around the outside (measured in units). Area is the space inside (measured in square units)."
+                "question": "How do I calculate the diagonal of a rectangle?",
+                "answer": "Diagonal = sqrt(length squared + width squared). We use the Pythagorean theorem because the diagonal forms the hypotenuse of a right triangle with length and width."
             },
             {
-                "question": "Can I find length and width from area alone?",
-                "answer": "No, infinite combinations of length and width can produce the same area. You need both area and either perimeter or one dimension."
+                "question": "Can I calculate dimensions from area and perimeter?",
+                "answer": "Yes, if you know both area and perimeter, you can solve two equations to get the length and width."
+            },
+            {
+                "question": "What are the properties of a rectangle's diagonals?",
+                "answer": "The two diagonals of a rectangle are equal in length and intersect at their midpoints, but they are not perpendicular (except in a square)."
+            },
+            {
+                "question": "How do I convert between square meters and square feet?",
+                "answer": "1 square meter = 10.764 square feet. Multiply square meters by 10.764 to convert to square feet."
             }
         ]
     },
@@ -151,9 +180,10 @@
             "explanation": "Calculate parallelogram properties using base, side, and height measurements. The height must be perpendicular to the base.",
             "steps": [
                 "Enter the base length",
-                "Enter the side length",
-                "Enter the perpendicular height",
-                "View calculated area and perimeter"
+                "Enter the side length (for calculating perimeter)",
+                "Enter the perpendicular height (for calculating area)",
+                "The calculator computes the area by multiplying base by height",
+                "The perimeter is calculated by summing the lengths of all four sides"
             ]
         },
         "useCases": [
@@ -163,29 +193,38 @@
             "Engineering and manufacturing"
         ],
         "seoTips": [
-            "Height must be perpendicular to the base",
-            "Opposite sides are equal in length",
-            "A rectangle is a special parallelogram",
-            "Diagonals bisect each other but are not equal"
+            "A rectangle is a special case of a parallelogram with right angles",
+            "A rhombus is a special case with equal sides",
+            "The height is the perpendicular distance, not the slant side length",
+            "Opposite sides are parallel and equal",
+            "Opposite angles are equal and adjacent angles are supplementary"
         ],
         "commonMistakes": [
-            "Using slant side as height",
-            "Confusing side length with height",
-            "Not measuring height perpendicular to base",
-            "Treating it like a rectangle"
+            "Using the slant side length instead of perpendicular height for area",
+            "Confusing parallelogram with trapezoid",
+            "Forgetting that the height must be perpendicular to the base",
+            "Assuming the diagonals are equal (this is only true for rectangles)"
         ],
         "faqs": [
             {
-                "question": "What is the height of a parallelogram?",
-                "answer": "The height is the perpendicular distance between the base and its parallel opposite side, not the slant side length."
+                "question": "What is the difference between a parallelogram and a rectangle?",
+                "answer": "A rectangle is a parallelogram with right angles (90 degrees). In a regular parallelogram, the angles are not right angles."
             },
             {
-                "question": "How is a parallelogram different from a rectangle?",
-                "answer": "A rectangle has 90-degree angles. A parallelogram has parallel opposite sides but angles can be any value (they just need to be supplementary)."
+                "question": "Why do we use height and not the side length for area?",
+                "answer": "Area is the enclosed space, and to calculate it accurately we need the perpendicular distance (height), not the slant distance."
             },
             {
-                "question": "Can I find area from sides only?",
-                "answer": "No, you need the height or an angle. The same base and sides can create different parallelograms with different areas."
+                "question": "What is a rhombus and how does it relate to parallelograms?",
+                "answer": "A rhombus is a parallelogram with all four sides equal. Its area = (diagonal1 × diagonal2) / 2."
+            },
+            {
+                "question": "How do I find the height if I know the area and base?",
+                "answer": "Height = Area / Base. Divide the area by the length of the base."
+            },
+            {
+                "question": "Are the diagonals of a parallelogram equal?",
+                "answer": "No, the diagonals of a regular parallelogram are not equal, but they do bisect each other. The diagonals are only equal in rectangles."
             }
         ]
     },
@@ -197,10 +236,11 @@
             "formula": "Distance = sqrt((x2-x1)² + (y2-y1)²), Slope = (y2-y1)/(x2-x1)",
             "explanation": "Calculate relationships between points on a coordinate plane including distance, midpoint, and slope using fundamental coordinate geometry formulas.",
             "steps": [
-                "Enter coordinates for the first point (x1, y1)",
-                "Enter coordinates for the second point (x2, y2)",
-                "Click Calculate to see results",
-                "View distance, midpoint, and slope"
+                "Enter the coordinates of the first point (x1, y1)",
+                "Enter the coordinates of the second point (x2, y2)",
+                "The calculator computes the distance using the distance formula",
+                "The midpoint is calculated by averaging the coordinates",
+                "The slope is calculated by dividing the difference in y by the difference in x"
             ]
         },
         "useCases": [
@@ -210,29 +250,38 @@
             "Navigation and GPS calculations"
         ],
         "seoTips": [
-            "The distance formula comes from Pythagorean theorem",
-            "Slope is undefined for vertical lines",
-            "Parallel lines have equal slopes",
-            "Perpendicular lines have negative reciprocal slopes"
+            "The distance formula is derived from the Pythagorean theorem",
+            "A positive slope indicates an ascending line, negative indicates descending",
+            "A horizontal line has zero slope and a vertical line has undefined slope",
+            "The midpoint divides the line segment into two equal halves",
+            "Parallel lines have the same slope"
         ],
         "commonMistakes": [
-            "Mixing up x and y coordinates",
-            "Forgetting order matters for slope direction",
-            "Not recognizing undefined slope for vertical lines",
-            "Confusing midpoint with average"
+            "Reversing the order of subtraction when calculating slope (must subtract in the same order)",
+            "Forgetting to square the differences in the distance formula",
+            "Confusing the x-coordinate with the y-coordinate",
+            "Dividing by zero when calculating the slope of a vertical line"
         ],
         "faqs": [
             {
-                "question": "Why is slope undefined for vertical lines?",
-                "answer": "Slope is rise/run. Vertical lines have zero run (x2-x1 = 0), causing division by zero, which is undefined."
+                "question": "What does slope mean in geometry?",
+                "answer": "Slope measures the steepness of a straight line. It represents the change in y for each unit change in x. A slope of 2 means the line rises 2 units for every horizontal unit."
             },
             {
-                "question": "How do I find the equation of a line?",
-                "answer": "Use point-slope form: y - y1 = m(x - x1) where m is the slope and (x1, y1) is any point on the line."
+                "question": "When is slope undefined?",
+                "answer": "Slope is undefined when the line is perfectly vertical (x1 = x2), because this causes division by zero."
             },
             {
-                "question": "What does negative slope mean?",
-                "answer": "Negative slope means the line goes down from left to right. Positive slope goes up from left to right."
+                "question": "How do I find the equation of a line from two points?",
+                "answer": "Calculate the slope (m) first, then use the point-slope form: y - y1 = m(x - x1)."
+            },
+            {
+                "question": "What is the relationship between slopes of perpendicular lines?",
+                "answer": "The product of the slopes of two perpendicular lines equals -1. If the slope of one line is m, the slope of the perpendicular line is -1/m."
+            },
+            {
+                "question": "Can distance be negative?",
+                "answer": "No, distance is always a positive value or zero. The square root in the formula ensures this."
             }
         ]
     },
@@ -257,29 +306,38 @@
             "CSS transitions and easing functions"
         ],
         "seoTips": [
-            "Quadratic curves have one control point",
-            "Cubic curves have two control points",
-            "The curve never passes through interior control points",
-            "End points are always on the curve"
+            "t=0 gives the starting point P0 and t=1 gives the ending point",
+            "A quadratic curve needs 3 points and a cubic needs 4 points",
+            "Control points define the curve shape but the curve does not necessarily pass through them",
+            "Bezier curves are the foundation of SVG files and TrueType fonts",
+            "Multiple Bezier curves can be connected to create complex shapes"
         ],
         "commonMistakes": [
-            "Expecting curve to pass through control points",
-            "Using t values outside 0-1 range",
-            "Confusing quadratic and cubic curve properties",
-            "Not understanding the parametric nature"
+            "Entering a t value outside the 0-1 range",
+            "Confusing control points with pass-through points",
+            "Not understanding that the curve does not pass through middle control points",
+            "Using a quadratic curve for shapes that need more flexibility"
         ],
         "faqs": [
             {
-                "question": "What is the parameter t?",
-                "answer": "Parameter t represents position along the curve from 0 (start point) to 1 (end point). At t=0.5, you're at the middle of the curve."
+                "question": "What is the difference between quadratic and cubic Bezier curves?",
+                "answer": "Quadratic uses 3 control points (degree 2) and gives a simple curve. Cubic uses 4 points (degree 3) and provides more control over the curve shape."
             },
             {
-                "question": "Why don't curves pass through control points?",
-                "answer": "Control points 'pull' the curve toward them without touching. Only the start and end points are guaranteed to be on the curve."
+                "question": "What does the parameter t represent?",
+                "answer": "t is a parameter ranging from 0 to 1. At t=0 you are at the start point, at t=1 at the end point. Values in between give points along the curve."
             },
             {
-                "question": "When should I use cubic vs quadratic?",
-                "answer": "Quadratic is simpler with less control. Cubic offers more flexibility with two control points, useful for complex curves like the letter S."
+                "question": "Does the curve pass through the control points?",
+                "answer": "It only passes through the start and end points (P0 and P2/P3). Middle control points define the direction of the curve but it does not pass through them."
+            },
+            {
+                "question": "Where are Bezier curves used?",
+                "answer": "In design software (Illustrator, Figma), digital fonts (TrueType, OpenType), vector image files (SVG), and animations (CSS transitions)."
+            },
+            {
+                "question": "How do I create a smooth Bezier curve connected to another curve?",
+                "answer": "To ensure smooth continuity, the last control point of the first curve and the first control point of the second must be collinear with the connection point."
             }
         ]
     },
@@ -304,29 +362,38 @@
             "Computer graphics and game development"
         ],
         "seoTips": [
-            "Polar coordinates describe distance and angle from origin",
-            "Cartesian uses perpendicular x and y axes",
-            "Radians are often preferred in calculations",
-            "360 degrees equals 2pi radians"
+            "Cartesian coordinates are named after Descartes",
+            "360 degrees = 2 pi radians",
+            "The polar system is useful for circular shapes and rotational motion",
+            "Pay attention to the quadrant when calculating angles",
+            "The Cartesian point (0,0) corresponds to r=0 in polar"
         ],
         "commonMistakes": [
-            "Mixing up degrees and radians",
-            "Forgetting quadrant considerations for angles",
-            "Using wrong trigonometric functions",
-            "Not handling negative coordinates properly"
+            "Forgetting to convert angles between degrees and radians",
+            "Not paying attention to the correct quadrant when calculating the angle",
+            "Confusing sin and cos in conversion formulas",
+            "Entering a negative value for the radius r"
         ],
         "faqs": [
             {
-                "question": "When should I use polar coordinates?",
-                "answer": "Use polar when dealing with circular motion, angles, or radial symmetry. Problems involving rotation are often simpler in polar form."
+                "question": "What is the difference between Cartesian and polar systems?",
+                "answer": "Cartesian defines a point using two perpendicular distances (x, y), while polar defines it using a distance from the center (r) and an angle from the positive axis (theta)."
             },
             {
-                "question": "How do I convert degrees to radians?",
-                "answer": "Multiply degrees by pi/180. For example, 90 degrees = 90 × pi/180 = pi/2 radians."
+                "question": "How do I convert from degrees to radians?",
+                "answer": "Radians = degrees × (pi/180). For example: 90 degrees = 90 × (pi/180) = pi/2 radians."
             },
             {
-                "question": "Why use atan2 instead of atan?",
-                "answer": "atan2(y, x) handles all four quadrants correctly, while atan(y/x) loses information about which quadrant the point is in."
+                "question": "When is the polar system better?",
+                "answer": "When dealing with circular motion, waves, rotation, or any phenomenon involving angles and distances from a center."
+            },
+            {
+                "question": "What happens at the point (0,0)?",
+                "answer": "The point (0,0) in Cartesian corresponds to r=0 in polar. The angle is undefined because the point is at the center."
+            },
+            {
+                "question": "Why pay attention to the quadrant when calculating the angle?",
+                "answer": "The inverse tan function gives an angle only in the first and fourth quadrants. You must manually adjust the result if the point is in the second or third quadrant."
             }
         ]
     },

@@ -143,7 +143,8 @@
       "Real-world range is typically 15-30% less than EPA estimates",
       "Cold weather can reduce range by 20-40%",
       "Highway driving uses more energy than city driving in EVs",
-      "Preconditioning the cabin while plugged in preserves range"
+      "Preconditioning the cabin while plugged in preserves range",
+      "Avoid charging to 100% daily to preserve long-term battery health"
     ],
     "commonMistakes": [
       "Planning trips based on maximum range without margin",
@@ -318,7 +319,8 @@
       "Charge to 80% daily to maximize battery longevity - only charge to 100% when needed",
       "Use time-of-use electricity rates to charge during off-peak hours for savings",
       "Level 2 home chargers offer the best balance of speed and cost",
-      "DC fast charging is convenient but can degrade battery life if overused"
+      "DC fast charging is convenient but can degrade battery life if overused",
+      "Plan charging stops in advance on long trips using location apps"
     ],
     "commonMistakes": [
       "Expecting linear charging times - charging slows significantly above 80%",

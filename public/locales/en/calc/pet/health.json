@@ -426,6 +426,10 @@
       {
         "question": "Why is this calculator for reference only?",
         "answer": "Individual pets may have conditions affecting drug metabolism. Only a veterinarian can determine the safe and effective dose for your specific pet."
+      },
+      {
+        "question": "Can I mix medication with food?",
+        "answer": "It depends on the medication. Some must be given on an empty stomach. Check the accompanying instructions or ask your veterinarian."
       }
     ]
   },
@@ -524,6 +528,10 @@
       {
         "question": "Why is this calculator for reference only?",
         "answer": "Individual pets may have conditions affecting drug metabolism. Only a veterinarian can determine the safe and effective dose for your specific pet."
+      },
+      {
+        "question": "Can I mix medication with food?",
+        "answer": "It depends on the medication. Some must be given on an empty stomach. Check the accompanying instructions or ask your veterinarian."
       }
     ]
   }
