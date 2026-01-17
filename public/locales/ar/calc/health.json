@@ -666,7 +666,7 @@
       "activity_level": "مستوى النشاط",
       "goal": "الهدف",
       "diet_style": "نظام الحمية",
-      "sedentary": "خامل",
+      "sedentary": "خامل (قليل أو بدون تمارين)",
       "light_exercise": "نشاط خفيف",
       "moderate_exercise": "نشاط متوسط",
       "heavy_exercise": "نشاط مكثف",
@@ -821,7 +821,7 @@
     "inputs": {
       "activity_level": "مستوى النشاط",
       "goal": "الهدف",
-      "sedentary": "خامل",
+      "sedentary": "خامل (قليل أو بدون تمارين)",
       "light": "نشاط خفيف",
       "moderate": "نشاط متوسط",
       "active": "نشط",

@@ -332,7 +332,7 @@
     "options": {
       "petrol": "بنزين",
       "diesel": "ديزل",
-      "hybrid": "هجين",
+      "hybrid": "مركبة هجينة/كهربائية",
       "electric": "كهربائي"
     },
     "howItWorks": {

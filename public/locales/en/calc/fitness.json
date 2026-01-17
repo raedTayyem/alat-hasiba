@@ -2690,14 +2690,8 @@
     "reps": "Rep Range",
     "sets": "Sets",
     "weight": "Working Weight",
-    "rest_time": {
-      "label": "Rest Time",
-      "strength": "3-5 minutes",
-      "power": "3-5 minutes",
-      "hypertrophy": "1-2 minutes",
-      "endurance": "30-60 seconds"
-    },
     "rest_times": {
+      "label": "Rest Time",
       "strength": "3-5 minutes",
       "power": "2-3 minutes",
       "hypertrophy": "60-90 seconds",

@@ -1329,7 +1329,53 @@
       "economy_kmpl": "12.75",
       "price_gallon": "3.50",
       "price_liter": "1.50"
-    }
+    },
+    "howItWorks": {
+      "title": "How the Trip Cost Calculator Works",
+      "formula": "Fuel Cost = (Distance / Fuel Efficiency) × Fuel Price",
+      "explanation": "This calculator estimates your trip costs by calculating fuel consumption based on distance and your vehicle's fuel efficiency, then multiplying by current fuel prices. It also factors in optional costs like tolls, parking, and maintenance.",
+      "steps": [
+        "Enter the total trip distance",
+        "Input your vehicle's fuel efficiency (MPG or L/100km)",
+        "Enter current fuel price per gallon or liter",
+        "Add any toll costs for the route",
+        "Include parking fees if applicable",
+        "Review total estimated trip cost"
+      ]
+    },
+    "useCases": [
+      "Planning road trips and vacation budgets",
+      "Comparing driving vs flying costs",
+      "Calculating commute expenses",
+      "Business travel expense reports",
+      "Ride-sharing cost splitting"
+    ],
+    "seoTips": [
+      "Calculate accurate fuel costs before your trip",
+      "Factor in all expenses including tolls and parking",
+      "Compare different route options",
+      "Use current fuel prices for accuracy"
+    ],
+    "commonMistakes": [
+      "Forgetting to include return trip distance",
+      "Using outdated fuel prices",
+      "Not accounting for city vs highway fuel efficiency",
+      "Ignoring toll and parking costs"
+    ],
+    "faqs": [
+      {
+        "question": "How accurate is the trip cost calculator?",
+        "answer": "The calculator provides accurate estimates based on your inputs. Actual costs may vary due to traffic conditions, driving style, and fuel price fluctuations."
+      },
+      {
+        "question": "Should I use city or highway MPG?",
+        "answer": "Use highway MPG for mostly highway trips, city MPG for urban driving, or a blend for mixed routes."
+      },
+      {
+        "question": "Does it include vehicle maintenance costs?",
+        "answer": "Basic maintenance like oil changes and tire wear can be factored into the per-mile cost estimate."
+      }
+    ]
   },
   "travel-time-calculator": {
     "title": "Travel Time Calculator - Free Drive Duration Tool",

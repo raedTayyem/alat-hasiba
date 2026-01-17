@@ -130,7 +130,7 @@ export default function RepRangeCalculator() {
           <div className="bg-purple-50 dark:bg-purple-950/20 border border-purple-100 p-4 rounded-lg">
             <div className="text-sm text-foreground-70 mb-1 flex items-center gap-1">
               <Clock className="w-4 h-4" />
-              {t("rep_range_calculator.rest_time")}
+              {t("rep_range_calculator.rest_times.label")}
             </div>
             <div className="text-2xl font-bold text-purple-600">{result.restTime}</div>
           </div>
