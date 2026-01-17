@@ -180,7 +180,7 @@ export default function ConfidenceIntervalCalculator() {
           />
         </FormField>
 
-        <div className="text-sm text-gray-600 dark:text-gray-400 bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
+        <div className="text-sm text-muted-foreground bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
           <Info className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" />
           <div>
             <strong>{t('common.info')}:</strong> {t('confidence_interval.formulas.ci')}<br />
@@ -210,27 +210,27 @@ export default function ConfidenceIntervalCalculator() {
       </div>
 
       <div className="grid grid-cols-2 gap-4 mt-6">
-        <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg text-center">
+        <div className="bg-muted dark:bg-muted p-4 rounded-lg text-center">
           <div className="text-foreground-70 text-sm mb-1">{t('confidence_interval.results.sample_mean')}</div>
           <div className="text-xl font-bold text-primary">{formatNumber(result.sampleMean)}</div>
         </div>
 
-        <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg text-center">
+        <div className="bg-muted dark:bg-muted p-4 rounded-lg text-center">
           <div className="text-foreground-70 text-sm mb-1">{t('confidence_interval.results.margin_of_error')}</div>
           <div className="text-xl font-bold text-primary">{formatNumber(result.marginOfError)}</div>
         </div>
 
-        <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg text-center">
+        <div className="bg-muted dark:bg-muted p-4 rounded-lg text-center">
           <div className="text-foreground-70 text-sm mb-1">{t('confidence_interval.results.lower_bound')}</div>
           <div className="text-xl font-bold text-primary">{formatNumber(result.lowerBound)}</div>
         </div>
 
-        <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg text-center">
+        <div className="bg-muted dark:bg-muted p-4 rounded-lg text-center">
           <div className="text-foreground-70 text-sm mb-1">{t('confidence_interval.results.upper_bound')}</div>
           <div className="text-xl font-bold text-primary">{formatNumber(result.upperBound)}</div>
         </div>
 
-        <div className="col-span-2 bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg text-center">
+        <div className="col-span-2 bg-muted dark:bg-muted p-4 rounded-lg text-center">
           <div className="text-foreground-70 text-sm mb-1">{t('confidence_interval.results.standard_error')}</div>
           <div className="text-xl font-bold text-primary">{formatNumber(result.standardError)}</div>
         </div>

@@ -8,8 +8,7 @@ import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
 export default function DogFoodCalculator() {
-  const { t, i18n } = useTranslation('calc/pet');
-  const isRTL = i18n.language === 'ar';
+  const { t } = useTranslation('calc/pet');
   const [weight, setWeight] = useState<string>('');
   const [activityLevel, setActivityLevel] = useState<string>('moderate');
   const [age, setAge] = useState<string>('adult');
@@ -97,7 +96,7 @@ export default function DogFoodCalculator() {
         >
           <NumericInput
             value={weight}
-            onChange={(e: any) => setWeight(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setWeight(e.target.value)}
             unit={t("dog_food_calculator.unit_weight_input")}
             placeholder={t("dog_food_calculator.placeholder_weight")}
             min={0}
@@ -112,7 +111,7 @@ export default function DogFoodCalculator() {
         >
           <select
             value={activityLevel}
-            onChange={(e: any) => setActivityLevel(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setActivityLevel(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="low">{t("dog_food_calculator.activity_low")}</option>
@@ -128,7 +127,7 @@ export default function DogFoodCalculator() {
         >
           <select
             value={age}
-            onChange={(e: any) => setAge(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setAge(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="puppy">{t("dog_food_calculator.age_puppy")}</option>
@@ -143,7 +142,7 @@ export default function DogFoodCalculator() {
         >
           <select
             value={foodType}
-            onChange={(e: any) => setFoodType(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setFoodType(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="dry">{t("dog_food_calculator.food_dry")}</option>

@@ -7,6 +7,7 @@ import { Calculator, getCalculatorsByCategory, getCategoryBySlug } from '../data
 import CalculatorCard from '../components/CalculatorCard';
 import { getCalculatorName, getCalculatorDescription } from '../utils/calculatorTranslation';
 import { getCategoryName, getCategoryDescription } from '../utils/categoryTranslation';
+import { siteConfig } from '../config/site';
 
 const CategoryPage = () => {
   const { categorySlug } = useParams<{ categorySlug: string }>();
@@ -67,7 +68,7 @@ const CategoryPage = () => {
     );
   }
 
-  const websiteUrl = window.location.origin;
+  const websiteUrl = siteConfig.url;
   const canonicalUrl = `${websiteUrl}/category/${categorySlug}`;
 
   // Create structured data for SEO

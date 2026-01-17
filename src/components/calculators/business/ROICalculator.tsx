@@ -25,7 +25,7 @@ interface CalculatorResult {
 }
 
 export default function ROICalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [initialInvestment, setInitialInvestment] = useState<string>('');
   const [finalValue, setFinalValue] = useState<string>('');
   const [investmentPeriodYears, setInvestmentPeriodYears] = useState<string>('');

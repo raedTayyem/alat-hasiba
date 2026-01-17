@@ -27,7 +27,7 @@ interface CalculatorResult {
 }
 
 export default function BusinessValuationCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [annualRevenue, setAnnualRevenue] = useState<string>('');
   const [profitMargin, setProfitMargin] = useState<string>('');
   const [multiplier, setMultiplier] = useState<string>('');

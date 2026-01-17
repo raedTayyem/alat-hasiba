@@ -7,7 +7,7 @@
 
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Car, Calendar, Gauge, ClipboardCheck, DollarSign, Info, TrendingDown } from 'lucide-react';
+import { Calendar, Gauge, ClipboardCheck, DollarSign, Info, TrendingDown } from 'lucide-react';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';
@@ -47,7 +47,6 @@ export default function CarTradeInCalculator() {
 
     const price = parseFloat(originalPrice);
     const age = parseFloat(vehicleAge);
-    const mileage = parseFloat(currentMileage);
 
     if (isNaN(price) || isNaN(age)) {
       setError(t('car_trade_in.error_missing_inputs'));

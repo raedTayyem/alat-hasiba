@@ -167,7 +167,7 @@ export default function SampleSizeCalculator() {
           />
         </FormField>
 
-        <div className="text-sm text-gray-600 dark:text-gray-400 bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
+        <div className="text-sm text-muted-foreground bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
           <Info className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" />
           <div>
             <strong>{t('common.info')}:</strong> {t('sample_size.formulas.sample_size')}<br />
@@ -195,24 +195,24 @@ export default function SampleSizeCalculator() {
       </div>
 
       <div className="grid grid-cols-2 gap-4 mt-6">
-        <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg text-center">
+        <div className="bg-muted dark:bg-muted p-4 rounded-lg text-center">
           <div className="text-foreground-70 text-sm mb-1">{t('sample_size.results.confidence_level')}</div>
           <div className="text-xl font-bold text-primary">{result.confidenceLevel}%</div>
         </div>
 
-        <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg text-center">
+        <div className="bg-muted dark:bg-muted p-4 rounded-lg text-center">
           <div className="text-foreground-70 text-sm mb-1">{t('sample_size.results.margin_of_error')}</div>
           <div className="text-xl font-bold text-primary">{result.marginOfError}%</div>
         </div>
 
         {result.population !== null && (
           <>
-            <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg text-center">
+            <div className="bg-muted dark:bg-muted p-4 rounded-lg text-center">
               <div className="text-foreground-70 text-sm mb-1">{t('sample_size.results.population')}</div>
               <div className="text-xl font-bold text-primary">{result.population.toLocaleString()}</div>
             </div>
 
-            <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg text-center">
+            <div className="bg-muted dark:bg-muted p-4 rounded-lg text-center">
               <div className="text-foreground-70 text-sm mb-1">{t('sample_size.results.infinite_sample')}</div>
               <div className="text-xl font-bold text-primary">{result.sampleSize.toLocaleString()}</div>
             </div>

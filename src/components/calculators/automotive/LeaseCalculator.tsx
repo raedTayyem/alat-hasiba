@@ -40,7 +40,7 @@ interface LeaseResult {
 // MAIN COMPONENT
 // =============================================================================
 export default function LeaseCalculator() {
-  const { t, i18n } = useTranslation(['calc/automotive', 'common']);
+  const { t } = useTranslation(['calc/automotive', 'common']);
 
   // State for inputs
   const [vehiclePrice, setVehiclePrice] = useState<string>('');

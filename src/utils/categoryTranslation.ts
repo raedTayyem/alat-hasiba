@@ -9,13 +9,13 @@ import type { Category } from '../data/calculators/types';
  */
 export function getCategoryName(category: Category, language: string): string {
   const key = `categoryNames.${category.slug}`;
-  const translated = i18n.t(key);
-  if (translated !== key) return translated;
+  const translated = i18n.t(key) as string | undefined;
+  if (translated && translated !== key) return translated;
 
   if (language === 'en' && category.nameEn) {
     return category.nameEn;
   }
-  return category.name;
+  return category.name || category.slug;
 }
 
 /**
@@ -26,11 +26,11 @@ export function getCategoryName(category: Category, language: string): string {
  */
 export function getCategoryDescription(category: Category, language: string): string {
   const key = `categoryDescriptions.${category.slug}`;
-  const translated = i18n.t(key);
-  if (translated !== key) return translated;
+  const translated = i18n.t(key) as string | undefined;
+  if (translated && translated !== key) return translated;
 
   if (language === 'en' && category.descriptionEn) {
     return category.descriptionEn;
   }
-  return category.description;
+  return category.description || '';
 }

@@ -2,10 +2,9 @@
 
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Calculator, RotateCcw, Calendar, Activity, User, Info, Trophy, Clock } from 'lucide-react';
+import { Calculator, RotateCcw, Calendar, Activity, Info, Trophy, Clock } from 'lucide-react';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
-import { NumberInput } from '@/components/ui/number-input';
 import { Combobox } from '@/components/ui/combobox';
 
 export default function TrainingAgeCalculator() {

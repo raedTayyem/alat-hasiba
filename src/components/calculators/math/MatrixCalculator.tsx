@@ -185,7 +185,7 @@ export default function MatrixCalculator() {
   const renderMatrix = (matrix: number[][], label: string, matrixNum?: number) => (
     <div className="mb-4">
       <h3 className="font-medium mb-2">{label}</h3>
-      <div className="bg-gray-50 dark:bg-gray-700/50 p-3 rounded-lg overflow-x-auto flex flex-col gap-2">
+      <div className="bg-muted dark:bg-muted p-3 rounded-lg overflow-x-auto flex flex-col gap-2">
         {matrix.map((row, i) => (
           <div key={i} className="flex gap-2">
             {row.map((val, j) => (

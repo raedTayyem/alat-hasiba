@@ -77,7 +77,7 @@ export default function PowerCalculatorElectrical() {
         <InputContainer label={t("power_calc.phase")} tooltip={t("power_calc.phase_tooltip")}>
           <select
             value={phaseType}
-            onChange={(e: any) => setPhaseType(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setPhaseType(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="single">{t("power_calc.single_phase")}</option>
@@ -88,7 +88,7 @@ export default function PowerCalculatorElectrical() {
         <InputContainer label={t("power_calc.voltage")} tooltip={t("power_calc.voltage")}>
           <NumericInput
             value={voltage}
-            onChange={(e: any) => setVoltage(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setVoltage(e.target.value)}
             unit={t("ohms_law.unit_voltage")}
             placeholder={t("power_calc.enter_voltage")}
             min={0}
@@ -99,7 +99,7 @@ export default function PowerCalculatorElectrical() {
         <InputContainer label={t("power_calc.current")} tooltip={t("power_calc.current")}>
           <NumericInput
             value={current}
-            onChange={(e: any) => setCurrent(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCurrent(e.target.value)}
             unit={t("ohms_law.unit_current")}
             placeholder={t("power_calc.enter_current")}
             min={0}
@@ -110,7 +110,7 @@ export default function PowerCalculatorElectrical() {
         <InputContainer label={t("power_calc.power_factor")} tooltip={t("power_calc.power_factor")}>
           <NumericInput
             value={powerFactor}
-            onChange={(e: any) => setPowerFactor(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPowerFactor(e.target.value)}
             unit=""
             placeholder={t("power_calc.enter_pf")}
             min={0}

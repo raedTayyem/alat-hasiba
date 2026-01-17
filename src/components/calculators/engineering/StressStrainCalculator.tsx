@@ -264,7 +264,7 @@ export default function StressStrainCalculator() {
           <button
             onClick={() => { setMode('stress'); setResult(null); setError(''); }}
             className={`px-3 py-2 rounded-lg transition-colors text-sm ${
-              mode === 'stress' ? 'bg-primary text-white' : 'bg-gray-200 dark:bg-gray-700'
+              mode === 'stress' ? 'bg-primary text-white' : 'bg-muted dark:bg-muted'
             }`}
           >
             {t("stress_strain.modes.stress")}
@@ -272,7 +272,7 @@ export default function StressStrainCalculator() {
           <button
             onClick={() => { setMode('strain'); setResult(null); setError(''); }}
             className={`px-3 py-2 rounded-lg transition-colors text-sm ${
-              mode === 'strain' ? 'bg-primary text-white' : 'bg-gray-200 dark:bg-gray-700'
+              mode === 'strain' ? 'bg-primary text-white' : 'bg-muted dark:bg-muted'
             }`}
           >
             {t("stress_strain.modes.strain")}
@@ -280,7 +280,7 @@ export default function StressStrainCalculator() {
           <button
             onClick={() => { setMode('youngs_modulus'); setResult(null); setError(''); }}
             className={`px-3 py-2 rounded-lg transition-colors text-sm ${
-              mode === 'youngs_modulus' ? 'bg-primary text-white' : 'bg-gray-200 dark:bg-gray-700'
+              mode === 'youngs_modulus' ? 'bg-primary text-white' : 'bg-muted dark:bg-muted'
             }`}
           >
             {t("stress_strain.modes.youngs_modulus")}
@@ -288,7 +288,7 @@ export default function StressStrainCalculator() {
           <button
             onClick={() => { setMode('deformation'); setResult(null); setError(''); }}
             className={`px-3 py-2 rounded-lg transition-colors text-sm ${
-              mode === 'deformation' ? 'bg-primary text-white' : 'bg-gray-200 dark:bg-gray-700'
+              mode === 'deformation' ? 'bg-primary text-white' : 'bg-muted dark:bg-muted'
             }`}
           >
             {t("stress_strain.modes.deformation")}

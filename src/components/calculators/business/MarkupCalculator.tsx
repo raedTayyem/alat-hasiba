@@ -31,7 +31,7 @@ interface CalculatorResult {
 type CalculationMode = 'percentage' | 'selling_price';
 
 export default function MarkupCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [cost, setCost] = useState<string>('');
   const [markupPercentage, setMarkupPercentage] = useState<string>('');
   const [sellingPrice, setSellingPrice] = useState<string>('');

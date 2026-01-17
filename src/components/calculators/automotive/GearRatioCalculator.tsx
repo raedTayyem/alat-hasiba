@@ -35,7 +35,7 @@ interface GearRatioResult {
 // =============================================================================
 // CONSTANTS
 // =============================================================================
-const DEFAULT_EFFICIENCY = 0.95; // 95% efficiency for gear transmission
+// Efficiency for gear transmission is set via state (default 95%)
 
 // =============================================================================
 // MAIN COMPONENT

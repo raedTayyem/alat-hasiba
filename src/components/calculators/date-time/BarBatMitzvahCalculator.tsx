@@ -140,7 +140,6 @@ export default function BarBatMitzvahCalculator() {
   // State for errors and UI
   const [error, setError] = useState<string>('');
   const [showResult, setShowResult] = useState<boolean>(false);
-  const [isCalculating, setIsCalculating] = useState<boolean>(false);
 
   // Initialize RTL support for date inputs
   useEffect(() => {
@@ -157,13 +156,11 @@ export default function BarBatMitzvahCalculator() {
   const calculateBarBatMitzvahDate = () => {
     try {
       setError('');
-      setIsCalculating(true);
 
       // Parse birth date
       const birthDateObj = new Date(birthDate);
       if (isNaN(birthDateObj.getTime())) {
         setError(t("bar_bat_mitzvah_calculator.error_invalid_date"));
-        setIsCalculating(false);
         return;
       }
       
@@ -191,11 +188,9 @@ export default function BarBatMitzvahCalculator() {
         });
         
         setShowResult(true);
-        setIsCalculating(false);
       }, 300);
     } catch (err) {
       setError(t("bar_bat_mitzvah_calculator.error_calculation"));
-      setIsCalculating(false);
       console.error(err);
     }
   };

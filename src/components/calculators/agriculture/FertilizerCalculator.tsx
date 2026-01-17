@@ -33,7 +33,7 @@ const CROP_NPK_REQUIREMENTS: Record<string, { n: number; p: number; k: number }>
 };
 
 export default function FertilizerCalculator() {
-  const { t, i18n } = useTranslation(['calc/agriculture', 'common']);
+  const { t } = useTranslation(['calc/agriculture', 'common']);
   const [area, setArea] = useState<string>('');
   const [cropType, setCropType] = useState<string>('corn');
   const [soilTestN, setSoilTestN] = useState<string>('');

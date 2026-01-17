@@ -11,7 +11,6 @@ import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Plus, Trash2, GraduationCap, CheckCircle, Info, BookOpen } from 'lucide-react';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
@@ -51,8 +50,7 @@ export default function SemesterGradeCalculator() {
   // ---------------------------------------------------------------------------
   // HOOKS
   // ---------------------------------------------------------------------------
-  const { t, i18n } = useTranslation(['calc/education', 'common']);
-  const isRTL = i18n.language === 'ar';
+  const { t } = useTranslation(['calc/education', 'common']);
 
   // ---------------------------------------------------------------------------
   // STATE MANAGEMENT

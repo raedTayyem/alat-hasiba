@@ -27,7 +27,7 @@ interface CalculatorResult {
 }
 
 export default function SocialMediaEngagementCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [likes, setLikes] = useState<string>('');
   const [comments, setComments] = useState<string>('');
   const [shares, setShares] = useState<string>('');

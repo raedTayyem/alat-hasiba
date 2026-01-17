@@ -24,9 +24,9 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mb-16">
           {/* Logo and brief description */}
           <div className="space-y-6">
-            <Link to="/" className="inline-flex items-center gap-2 group" aria-label={t('navigation.home')}>
+            <Link to="/" className="inline-flex items-center gap-2 group focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded-xl" aria-label={t('navigation.home')}>
               <div className="w-10 h-10 bg-primary/10 rounded-xl flex items-center justify-center group-hover:scale-110 transition-transform">
-                <LogoIcon className="w-8 h-8 text-primary" />
+                <LogoIcon className="w-8 h-8 text-primary" aria-hidden="true" />
               </div>
             </Link>
             <p className="text-muted-foreground leading-relaxed">
@@ -50,7 +50,7 @@ const Footer = () => {
                   href="https://buymeacoffee.com/erdasolutions"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="text-muted-foreground hover:text-primary transition-all flex items-center gap-2 group"
+                  className="text-muted-foreground hover:text-primary transition-all flex items-center gap-2 group focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded"
                 >
                   <Coffee className="w-4 h-4 group-hover:animate-bounce" aria-hidden="true" />
                   <span>{t('navigation.support')}</span>
@@ -82,10 +82,10 @@ const Footer = () => {
           </p>
           
           <div className="flex items-center gap-6 order-1 md:order-2">
-            <Link to="/privacy-policy" className="text-xs font-medium text-muted-foreground hover:text-primary transition-colors">
+            <Link to="/privacy-policy" className="text-xs font-medium text-muted-foreground hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded">
               {t('navigation.privacyPolicy')}
             </Link>
-            <Link to="/terms-of-service" className="text-xs font-medium text-muted-foreground hover:text-primary transition-colors">
+            <Link to="/terms-of-service" className="text-xs font-medium text-muted-foreground hover:text-primary transition-colors focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded">
               {t('navigation.termsOfService')}
             </Link>
           </div>
@@ -107,7 +107,7 @@ const FooterLink = ({ to, children }: { to: string; children: React.ReactNode })
   const isRtl = i18n.dir() === 'rtl';
   return (
     <li>
-      <Link to={to} className={`text-muted-foreground hover:text-primary transition-all flex items-center gap-1 group ${isRtl ? 'hover:-translate-x-1' : 'hover:translate-x-1'}`}>
+      <Link to={to} className={`text-muted-foreground hover:text-primary transition-all flex items-center gap-1 group focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 rounded ${isRtl ? 'hover:-translate-x-1' : 'hover:translate-x-1'}`}>
         <ChevronRight className={`w-3 h-3 opacity-0 group-hover:opacity-100 transition-all ${isRtl ? 'rotate-180' : ''}`} aria-hidden="true" />
         {children}
       </Link>

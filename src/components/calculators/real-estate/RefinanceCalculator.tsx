@@ -15,15 +15,6 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';
 
-interface CalculatorInputs {
-  currentBalance: number;
-  currentRate: number;
-  currentPayment: number;
-  newRate: number;
-  closingCosts: number;
-  remainingYears: number;
-}
-
 interface CalculatorResult {
   newMonthlyPayment: number;
   monthlySavings: number;
@@ -37,7 +28,7 @@ interface CalculatorResult {
 }
 
 export default function RefinanceCalculator() {
-  const { t, i18n } = useTranslation('calc/real-estate');
+  const { t } = useTranslation('calc/real-estate');
   const [currentBalance, setCurrentBalance] = useState<string>('');
   const [currentRate, setCurrentRate] = useState<string>('');
   const [currentPayment, setCurrentPayment] = useState<string>('');
@@ -108,7 +99,8 @@ export default function RefinanceCalculator() {
     setTimeout(() => {
       try {
         const balance = parseFloat(currentBalance);
-        const currRate = parseFloat(currentRate) / 100 / 12; // Monthly rate
+        // Current rate parsed for potential future use
+        parseFloat(currentRate);
         const currPayment = parseFloat(currentPayment);
         const nRate = parseFloat(newRate) / 100 / 12; // Monthly rate
         const costs = parseFloat(closingCosts);

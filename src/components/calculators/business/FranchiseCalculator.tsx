@@ -29,7 +29,7 @@ interface CalculatorResult {
 }
 
 export default function FranchiseCalculator() {
-  const { t, i18n } = useTranslation(['calc/business', 'common']);
+  const { t } = useTranslation(['calc/business', 'common']);
   const [franchiseFee, setFranchiseFee] = useState<string>('');
   const [royaltyRate, setRoyaltyRate] = useState<string>('');
   const [projectedRevenue, setProjectedRevenue] = useState<string>('');

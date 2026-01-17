@@ -102,10 +102,6 @@ html {
     @apply border-gray-800;
   }
 
-  /* Glowing text effect in dark mode */
-  .dark .glow-text {
-    text-shadow: 0 0 12px rgba(var(--color-primary-rgb), 0.5);
-  }
 }
 
 /* Custom variables for modern theme */
@@ -169,10 +165,6 @@ html {
 
   .btn-secondary {
     @apply bg-background-alternate text-foreground border border-border rounded-lg px-4 py-2 font-medium transition-all hover:bg-background focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 shadow-sm;
-  }
-
-  .btn-outline {
-    @apply border border-primary text-primary bg-transparent rounded-lg px-4 py-2 font-medium transition-all hover:bg-primary-10 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2;
   }
 
   /* Enhanced button styles for calculators */
@@ -293,32 +285,6 @@ html {
     @apply border-t-2 border-primary-20;
   }
 
-  /* Modern border styling with gradient */
-  .gradient-border {
-    position: relative;
-    border-radius: 0.75rem;
-    background-clip: padding-box;
-    padding: 1px;
-  }
-
-  .gradient-border::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: -1;
-    margin: -1px;
-    border-radius: inherit;
-    background: linear-gradient(120deg, var(--color-primary), var(--color-success));
-  }
-
-  /* Glowing effect for text elements */
-  .glow-text {
-    font-family: 'Tajawal', sans-serif;
-    font-weight: 500;
-  }
 }
 
 /* Utility classes */
@@ -361,19 +327,6 @@ html {
 
 .border-primary {
   border-color: var(--color-primary);
-}
-
-/* Glass effect for modern UI */
-.glass-effect {
-  background: rgba(255, 255, 255, 0.5);
-  backdrop-filter: blur(10px);
-  -webkit-backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.dark .glass-effect {
-  background: rgba(31, 41, 55, 0.5);
-  border: 1px solid rgba(255, 255, 255, 0.1);
 }
 
 /* Performance optimizations */

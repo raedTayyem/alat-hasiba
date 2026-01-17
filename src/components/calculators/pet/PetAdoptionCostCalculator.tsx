@@ -5,11 +5,9 @@ import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
-import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
 export default function PetAdoptionCostCalculator() {
-  const { t, i18n } = useTranslation('calc/pet');
-  const isRTL = i18n.language === 'ar';
+  const { t } = useTranslation('calc/pet');
   const [petType, setPetType] = useState<string>('dog');
   const [petSize, setPetSize] = useState<string>('medium');
   const [foodQuality, setFoodQuality] = useState<string>('standard');
@@ -73,14 +71,14 @@ export default function PetAdoptionCostCalculator() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <InputContainer label={t("pet-adoption-cost-calculator.pet_type")}>
-          <select value={petType} onChange={(e: any) => setPetType(e.target.value)} className="calculator-input w-full">
+          <select value={petType} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setPetType(e.target.value)} className="calculator-input w-full">
             <option value="dog">{t("pet-adoption-cost-calculator.pet_dog")}</option>
             <option value="cat">{t("pet-adoption-cost-calculator.pet_cat")}</option>
           </select>
         </InputContainer>
 
         <InputContainer label={t("pet-adoption-cost-calculator.pet_size")}>
-          <select value={petSize} onChange={(e: any) => setPetSize(e.target.value)} className="calculator-input w-full">
+          <select value={petSize} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setPetSize(e.target.value)} className="calculator-input w-full">
             <option value="small">{t("pet-adoption-cost-calculator.size_small")}</option>
             <option value="medium">{t("pet-adoption-cost-calculator.size_medium")}</option>
             <option value="large">{t("pet-adoption-cost-calculator.size_large")}</option>
@@ -88,7 +86,7 @@ export default function PetAdoptionCostCalculator() {
         </InputContainer>
 
         <InputContainer label={t("pet-adoption-cost-calculator.food_quality")}>
-          <select value={foodQuality} onChange={(e: any) => setFoodQuality(e.target.value)} className="calculator-input w-full">
+          <select value={foodQuality} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setFoodQuality(e.target.value)} className="calculator-input w-full">
             <option value="budget">{t("pet-adoption-cost-calculator.quality_budget")}</option>
             <option value="standard">{t("pet-adoption-cost-calculator.quality_standard")}</option>
             <option value="premium">{t("pet-adoption-cost-calculator.quality_premium")}</option>

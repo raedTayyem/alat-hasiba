@@ -73,7 +73,7 @@ export default function CarbonOffsetCalculator() {
         >
           <NumericInput
             value={co2Amount}
-            onChange={(e: any) => setCo2Amount(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCo2Amount(e.target.value)}
             endIcon={<span className="text-xs text-muted-foreground">{t("co2_emissions.kg_co2")}</span>}
             placeholder={t("co2_emissions.enter_amount")}
             min={0}
@@ -86,7 +86,7 @@ export default function CarbonOffsetCalculator() {
         >
           <select
             value={offsetMethod}
-            onChange={(e: any) => setOffsetMethod(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setOffsetMethod(e.target.value)}
             className="calculator-input w-full"
           >
             {methodOptions.map((option) => (

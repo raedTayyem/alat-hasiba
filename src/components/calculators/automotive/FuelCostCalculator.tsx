@@ -36,7 +36,7 @@ interface FuelCostResult {
 // MAIN COMPONENT
 // =============================================================================
 export default function FuelCostCalculator() {
-  const { t, i18n } = useTranslation(['calc/automotive', 'common']);
+  const { t } = useTranslation(['calc/automotive', 'common']);
 
   // State for inputs
   const [distance, setDistance] = useState<string>('');

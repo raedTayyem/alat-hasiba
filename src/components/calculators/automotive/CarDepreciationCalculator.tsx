@@ -25,7 +25,7 @@ interface DepreciationResult {
 }
 
 export default function CarDepreciationCalculator() {
-  const { t, i18n } = useTranslation('calc/automotive');
+  const { t } = useTranslation('calc/automotive');
   const [purchasePrice, setPurchasePrice] = useState<string>('');
   const [currentAge, setCurrentAge] = useState<string>('');
   const [depreciationRate, setDepreciationRate] = useState<string>('15');

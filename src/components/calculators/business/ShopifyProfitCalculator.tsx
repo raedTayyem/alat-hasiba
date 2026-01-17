@@ -46,7 +46,7 @@ const SHOPIFY_PAYMENTS_RATES: Record<string, { rate: number; fixed: number }> = 
 };
 
 export default function ShopifyProfitCalculator() {
-  const { t, i18n } = useTranslation(['calc/business', 'common']);
+  const { t } = useTranslation(['calc/business', 'common']);
 
   const [sellingPrice, setSellingPrice] = useState<string>('');
   const [productCost, setProductCost] = useState<string>('');

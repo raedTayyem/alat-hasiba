@@ -37,7 +37,7 @@ interface CalculatorResult {
 }
 
 export default function FourOhOneKCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [annualSalary, setAnnualSalary] = useState<string>('');
   const [contributionPercent, setContributionPercent] = useState<string>('6');
   const [employerMatchPercent, setEmployerMatchPercent] = useState<string>('50');
@@ -57,7 +57,6 @@ export default function FourOhOneKCalculator() {
     const contribution = parseFloat(contributionPercent);
     const matchPercent = parseFloat(employerMatchPercent);
     const matchLimit = parseFloat(employerMatchLimit);
-    const balance = parseFloat(currentBalance) || 0;
     const years = parseFloat(yearsToRetirement);
     const rate = parseFloat(annualReturnRate);
 
@@ -174,10 +173,6 @@ export default function FourOhOneKCalculator() {
 
   const formatCurrency = (num: number): string => {
     return num.toLocaleString('en-US', { minimumFractionDigits: 0, maximumFractionDigits: 0 });
-  };
-
-  const formatPercent = (num: number): string => {
-    return num.toLocaleString('en-US', { minimumFractionDigits: 1, maximumFractionDigits: 1 });
   };
 
   const handleKeyPress = (e: React.KeyboardEvent) => {

@@ -34,7 +34,7 @@ interface CalculatorResult {
 }
 
 export default function IRRCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [initialInvestment, setInitialInvestment] = useState<string>('');
   const [cashFlows, setCashFlows] = useState<string[]>(['', '', '', '', '']);
 

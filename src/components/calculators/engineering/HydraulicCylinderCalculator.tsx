@@ -255,7 +255,7 @@ export default function HydraulicCylinderCalculator() {
           <button
             onClick={() => { setMode('force'); setResult(null); setError(''); }}
             className={`px-3 py-2 rounded-lg transition-colors text-sm ${
-              mode === 'force' ? 'bg-primary text-white' : 'bg-gray-200 dark:bg-gray-700'
+              mode === 'force' ? 'bg-primary text-white' : 'bg-muted dark:bg-muted'
             }`}
           >
             {t("hydraulic_cylinder.modes.force")}
@@ -263,7 +263,7 @@ export default function HydraulicCylinderCalculator() {
           <button
             onClick={() => { setMode('pressure'); setResult(null); setError(''); }}
             className={`px-3 py-2 rounded-lg transition-colors text-sm ${
-              mode === 'pressure' ? 'bg-primary text-white' : 'bg-gray-200 dark:bg-gray-700'
+              mode === 'pressure' ? 'bg-primary text-white' : 'bg-muted dark:bg-muted'
             }`}
           >
             {t("hydraulic_cylinder.modes.pressure")}
@@ -271,7 +271,7 @@ export default function HydraulicCylinderCalculator() {
           <button
             onClick={() => { setMode('area'); setResult(null); setError(''); }}
             className={`px-3 py-2 rounded-lg transition-colors text-sm ${
-              mode === 'area' ? 'bg-primary text-white' : 'bg-gray-200 dark:bg-gray-700'
+              mode === 'area' ? 'bg-primary text-white' : 'bg-muted dark:bg-muted'
             }`}
           >
             {t("hydraulic_cylinder.modes.area")}
@@ -279,7 +279,7 @@ export default function HydraulicCylinderCalculator() {
           <button
             onClick={() => { setMode('cylinder_sizing'); setResult(null); setError(''); }}
             className={`px-3 py-2 rounded-lg transition-colors text-sm ${
-              mode === 'cylinder_sizing' ? 'bg-primary text-white' : 'bg-gray-200 dark:bg-gray-700'
+              mode === 'cylinder_sizing' ? 'bg-primary text-white' : 'bg-muted dark:bg-muted'
             }`}
           >
             {t("hydraulic_cylinder.modes.cylinder_sizing")}

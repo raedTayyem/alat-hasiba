@@ -15,7 +15,7 @@ export default function FrequencyCalculator() {
   const [calculateFor, setCalculateFor] = useState<string>('frequency');
   const [frequency, setFrequency] = useState<string>('');
   const [period, setPeriod] = useState<string>('');
-  const [wavelength, setWavelength] = useState<string>('');
+  const [, setWavelength] = useState<string>('');
   const [result, setResult] = useState<{
     frequency: number;
     period: number;

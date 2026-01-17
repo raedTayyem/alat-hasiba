@@ -16,7 +16,7 @@ const CalculatorCard: React.FC<CalculatorCardProps> = ({ calculator, className =
 
   // Get the category name from the slug
   const category = getCategoryBySlug(calculator.category);
-  const categoryName = category ? t(`categoryNames.${category.slug}`, category.name) : calculator.category;
+  const categoryName = category ? t(`categoryNames.${category.slug}`, { defaultValue: category.name }) : calculator.category;
 
   // Get localized calculator name and description
   const name = getCalculatorName(calculator, i18n.language);
@@ -50,7 +50,7 @@ const CalculatorCard: React.FC<CalculatorCardProps> = ({ calculator, className =
           </span>
           
           <div className="flex items-center text-primary font-bold text-sm opacity-0 group-hover:opacity-100 transition-all transform translate-x-2 group-hover:translate-x-0">
-            <span className="mr-1">{t('common.useNow', 'Use Now')}</span>
+            <span className="mr-1">{t('common.useNow')}</span>
             <ChevronRight className={`w-4 h-4 ${i18n.dir() === 'rtl' ? 'rotate-180' : ''}`} />
           </div>
         </div>

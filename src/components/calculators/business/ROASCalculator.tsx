@@ -25,7 +25,7 @@ interface CalculatorResult {
 }
 
 export default function ROASCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [revenue, setRevenue] = useState<string>('');
   const [adCost, setAdCost] = useState<string>('');
 

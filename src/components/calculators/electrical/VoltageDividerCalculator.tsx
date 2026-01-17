@@ -66,7 +66,7 @@ export default function VoltageDividerCalculator() {
         <InputContainer label={t("voltage_divider.input_voltage")} tooltip={t("voltage_divider.input_voltage_tooltip")}>
           <NumericInput
             value={inputVoltage}
-            onChange={(e: any) => setInputVoltage(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setInputVoltage(e.target.value)}
             unit={t("ohms_law.unit_voltage")}
             placeholder={t("voltage_divider.enter_vin")}
             min={0}
@@ -77,7 +77,7 @@ export default function VoltageDividerCalculator() {
         <InputContainer label={t("voltage_divider.resistor_1")} tooltip={t("voltage_divider.resistor_1_tooltip")}>
           <NumericInput
             value={r1}
-            onChange={(e: any) => setR1(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setR1(e.target.value)}
             unit={t("ohms_law.unit_resistance")}
             placeholder={t("voltage_divider.enter_r1")}
             min={0}
@@ -88,7 +88,7 @@ export default function VoltageDividerCalculator() {
         <InputContainer label={t("voltage_divider.resistor_2")} tooltip={t("voltage_divider.resistor_2_tooltip")}>
           <NumericInput
             value={r2}
-            onChange={(e: any) => setR2(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setR2(e.target.value)}
             unit={t("ohms_law.unit_resistance")}
             placeholder={t("voltage_divider.enter_r2")}
             min={0}

@@ -8,7 +8,7 @@ import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
 export default function InrushCurrentCalculator() {
-  const { t, i18n } = useTranslation(['calc/electrical', 'common']);
+  const { t } = useTranslation(['calc/electrical', 'common']);
   const [loadType, setLoadType] = useState<string>('motor');
   const [ratedCurrent, setRatedCurrent] = useState<string>('');
   const [power, setPower] = useState<string>('');
@@ -75,7 +75,7 @@ export default function InrushCurrentCalculator() {
         <InputContainer label={t("inrush_current.load_type")} tooltip={t("inrush_current.load_type_tooltip")}>
           <select
             value={loadType}
-            onChange={(e: any) => setLoadType(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setLoadType(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="motor">{t("inrush_current.motor")}</option>
@@ -89,7 +89,7 @@ export default function InrushCurrentCalculator() {
         <InputContainer label={t("inrush_current.rated_power")} tooltip={t("inrush_current.rated_power_tooltip")}>
           <NumericInput
             value={ratedCurrent}
-            onChange={(e: any) => setRatedCurrent(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setRatedCurrent(e.target.value)}
             unit={t("ohms_law.unit_current")}
             placeholder={t("inrush_current.placeholders.current")}
             min={0}
@@ -100,7 +100,7 @@ export default function InrushCurrentCalculator() {
         <InputContainer label={t("calculators.power_15")} tooltip={t("calculators.power_13")}>
           <NumericInput
             value={power}
-            onChange={(e: any) => setPower(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPower(e.target.value)}
             unit={t("common:units.kW")}
             placeholder={t("inrush_current.enter_power")}
             min={0}
@@ -111,7 +111,7 @@ export default function InrushCurrentCalculator() {
         <InputContainer label={t("inrush_current.voltage")} tooltip={t("inrush_current.voltage_tooltip")}>
           <NumericInput
             value={voltage}
-            onChange={(e: any) => setVoltage(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setVoltage(e.target.value)}
             unit={t("ohms_law.unit_voltage")}
             placeholder="380"
             min={0}

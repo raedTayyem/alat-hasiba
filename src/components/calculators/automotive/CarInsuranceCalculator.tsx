@@ -8,7 +8,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { DollarSign, User, Shield, Wallet, Info, Car, AlertTriangle, TrendingUp } from 'lucide-react';
+import { DollarSign, User, Shield, Wallet, Info, Car, AlertTriangle } from 'lucide-react';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';
@@ -66,7 +66,7 @@ const DEDUCTIBLE_DISCOUNTS: { [key: string]: number } = {
 // MAIN COMPONENT
 // =============================================================================
 export default function CarInsuranceCalculator() {
-  const { t, i18n } = useTranslation('calc/automotive');
+  const { t } = useTranslation('calc/automotive');
 
   // State for inputs
   const [vehicleValue, setVehicleValue] = useState<string>('');

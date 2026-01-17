@@ -26,7 +26,7 @@ interface CalculatorResult {
 }
 
 export default function PriceElasticityCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [initialPrice, setInitialPrice] = useState<string>('');
   const [finalPrice, setFinalPrice] = useState<string>('');
   const [initialQuantity, setInitialQuantity] = useState<string>('');

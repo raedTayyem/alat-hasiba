@@ -8,8 +8,7 @@ import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
 export default function PetTravelCalculator() {
-  const { t, i18n } = useTranslation('calc/pet');
-  const isRTL = i18n.language === 'ar';
+  const { t } = useTranslation('calc/pet');
   const [petType, setPetType] = useState<string>('dog');
   const [petWeight, setPetWeight] = useState<string>('');
   const [travelType, setTravelType] = useState<string>('domestic');
@@ -70,25 +69,25 @@ export default function PetTravelCalculator() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("pet-travel-calculator.pet_type")}>
-          <select value={petType} onChange={(e: any) => setPetType(e.target.value)} className="calculator-input w-full">
+          <select value={petType} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setPetType(e.target.value)} className="calculator-input w-full">
             <option value="dog">{t("pet-travel-calculator.pet_dog")}</option>
             <option value="cat">{t("pet-travel-calculator.pet_cat")}</option>
           </select>
         </InputContainer>
 
         <InputContainer label={t("pet-travel-calculator.pet_weight")}>
-          <NumericInput value={petWeight} onChange={(e: any) => setPetWeight(e.target.value)} unit={t("pet-travel-calculator.kg")} placeholder={t("pet-travel-calculator.enter_weight")} min={0} max={50} step={0.5} />
+          <NumericInput value={petWeight} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPetWeight(e.target.value)} unit={t("pet-travel-calculator.kg")} placeholder={t("pet-travel-calculator.enter_weight")} min={0} max={50} step={0.5} />
         </InputContainer>
 
         <InputContainer label={t("pet-travel-calculator.travel_type")}>
-          <select value={travelType} onChange={(e: any) => setTravelType(e.target.value)} className="calculator-input w-full">
+          <select value={travelType} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setTravelType(e.target.value)} className="calculator-input w-full">
             <option value="domestic">{t("pet-travel-calculator.travel_domestic")}</option>
             <option value="international">{t("pet-travel-calculator.travel_international")}</option>
           </select>
         </InputContainer>
 
         <InputContainer label={t("pet-travel-calculator.transport_mode")}>
-          <select value={transportMode} onChange={(e: any) => setTransportMode(e.target.value)} className="calculator-input w-full">
+          <select value={transportMode} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setTransportMode(e.target.value)} className="calculator-input w-full">
             <option value="air">{t("pet-travel-calculator.transport_air")}</option>
             <option value="ground">{t("pet-travel-calculator.transport_ground")}</option>
           </select>

@@ -8,7 +8,7 @@ import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
 export default function PCBTraceWidthCalculator() {
-  const { t, i18n } = useTranslation(['calc/electrical', 'common']);
+  const { t } = useTranslation(['calc/electrical', 'common']);
   const [current, setCurrent] = useState<string>('');
   const [tempRise, setTempRise] = useState<string>('10');
   const [copperThickness, setCopperThickness] = useState<string>('35');
@@ -73,7 +73,7 @@ export default function PCBTraceWidthCalculator() {
         <InputContainer label={t("pcb_trace.inputs.current")} tooltip={t("pcb_trace.tooltips.current")}>
           <NumericInput
             value={current}
-            onChange={(e: any) => setCurrent(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCurrent(e.target.value)}
             unit={t("common:units.A")}
             placeholder={t("pcb_trace.placeholders.current")}
             min={0}
@@ -84,7 +84,7 @@ export default function PCBTraceWidthCalculator() {
         <InputContainer label={t("pcb_trace.inputs.temp_rise")} tooltip={t("pcb_trace.tooltips.temp_rise")}>
           <NumericInput
             value={tempRise}
-            onChange={(e: any) => setTempRise(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setTempRise(e.target.value)}
             unit={t("common:units.celsius")}
             placeholder={t("pcb_trace.placeholders.temp_rise")}
             min={0}
@@ -95,7 +95,7 @@ export default function PCBTraceWidthCalculator() {
         <InputContainer label={t("pcb_trace.inputs.thickness")} tooltip={t("pcb_trace.tooltips.thickness")}>
           <select
             value={copperThickness}
-            onChange={(e: any) => setCopperThickness(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setCopperThickness(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="17">{t("pcb_trace.options.thickness_label", { um: "17", oz: "0.5" })}</option>
@@ -108,7 +108,7 @@ export default function PCBTraceWidthCalculator() {
         <InputContainer label={t("pcb_trace.inputs.length")} tooltip={t("pcb_trace.tooltips.length")}>
           <NumericInput
             value={traceLength}
-            onChange={(e: any) => setTraceLength(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setTraceLength(e.target.value)}
             unit={t("common:units.mm")}
             placeholder={t("pcb_trace.placeholders.length")}
             min={0}

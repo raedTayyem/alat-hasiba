@@ -29,23 +29,6 @@ interface ConversionResult {
 // Modern Yazidi calendar epoch is often set to 4750 BCE
 const YAZIDI_EPOCH_OFFSET = 4750;
 
-// Yazidi month names
-const YAZIDI_MONTHS = [
-  'Cirajnik', // 1
-  'Batizmi', // 2
-  'Adar', // 3
-  'Nisan', // 4
-  'Eyyar', // 5
-  'Heziran', // 6
-  'Temmuz', // 7
-  'Tebax', // 8
-  'Elun', // 9
-  'Cotmeh', // 10
-  'Berfanbar', // 11
-  'Befranbar', // 12
-  'Remezan', // 13
-];
-
 export default function YazidiCalendar({ year, onYearChange }: YazidiCalendarProps) {
   const { t } = useTranslation('calc/date-time');
   const [conversionMode, setConversionMode] = useState<'gregorianToYazidi' | 'yazidiToGregorian'>('gregorianToYazidi');

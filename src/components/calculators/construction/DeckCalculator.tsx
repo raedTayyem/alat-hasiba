@@ -51,7 +51,6 @@ const DECKING_BOARD_SIZES: { [key: string]: { width: number; thickness: number; 
   'composite': { width: 5.5, thickness: 1.0, name: 'composite' }
 };
 
-const JOIST_SPACING_OPTIONS = [12, 16, 24]; // inches on center
 const SCREWS_PER_100_SQFT = 350;
 const SCREWS_PER_BOX = 1000;
 const POST_SPACING = 8; // feet (typical max beam span for residential)
@@ -133,7 +132,8 @@ export default function DeckCalculator() {
         let length = parseFloat(deckLength);
         let width = parseFloat(deckWidth);
         let bLength = parseFloat(boardLength);
-        const height = parseFloat(deckHeight) || 3;
+        // deckHeight parsed for future use in railing calculations
+        parseFloat(deckHeight);
         const jSpacing = parseFloat(joistSpacing);
         const waste = parseFloat(wasteFactor) / 100;
 

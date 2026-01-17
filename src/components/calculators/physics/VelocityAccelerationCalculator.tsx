@@ -418,7 +418,7 @@ export default function VelocityAccelerationCalculator() {
             )}
 
             {solveFor === 'result' && (
-              <div className="text-sm text-gray-600 dark:text-gray-400 bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
+              <div className="text-sm text-muted-foreground bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
                 <Info className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" />
                 <div>
                   <strong>{t('common.info')}:</strong> {t('velocity_acceleration.formulas.velocity')}<br />
@@ -479,7 +479,7 @@ export default function VelocityAccelerationCalculator() {
               </FormField>
             )}
 
-            <div className="text-sm text-gray-600 dark:text-gray-400 bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
+            <div className="text-sm text-muted-foreground bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
               <Info className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" />
               <div>
                 <strong>{t('common.info')}:</strong> {t('velocity_acceleration.formulas.acceleration')}<br />
@@ -533,7 +533,7 @@ export default function VelocityAccelerationCalculator() {
               </div>
             </FormField>
 
-            <div className="text-sm text-gray-600 dark:text-gray-400 bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
+            <div className="text-sm text-muted-foreground bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
               <Info className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" />
               <div>
                 <strong>{t('common.info')}:</strong> {t('velocity_acceleration.formulas.final_velocity')}<br />

@@ -8,8 +8,7 @@ import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
 export default function PetInsuranceCalculator() {
-  const { t, i18n } = useTranslation('calc/pet');
-  const isRTL = i18n.language === 'ar';
+  const { t } = useTranslation('calc/pet');
   const [petType, setPetType] = useState<string>('dog');
   const [petAge, setPetAge] = useState<string>('');
   const [coverageLevel, setCoverageLevel] = useState<string>('basic');
@@ -86,7 +85,7 @@ export default function PetInsuranceCalculator() {
         >
           <select
             value={petType}
-            onChange={(e: any) => setPetType(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setPetType(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="dog">{t("pet-insurance-calculator.pet_dog")}</option>
@@ -100,7 +99,7 @@ export default function PetInsuranceCalculator() {
         >
           <NumericInput
             value={petAge}
-            onChange={(e: any) => setPetAge(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPetAge(e.target.value)}
             unit={t("pet-insurance-calculator.age_unit")}
             placeholder={t("pet-insurance-calculator.enter_age")}
             min={0}
@@ -115,7 +114,7 @@ export default function PetInsuranceCalculator() {
         >
           <select
             value={coverageLevel}
-            onChange={(e: any) => setCoverageLevel(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setCoverageLevel(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="basic">{t("pet-insurance-calculator.coverage_basic")}</option>
@@ -131,7 +130,7 @@ export default function PetInsuranceCalculator() {
         >
           <select
             value={deductible}
-            onChange={(e: any) => setDeductible(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setDeductible(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="250">{t("pet-insurance-calculator.deductible_250")}</option>

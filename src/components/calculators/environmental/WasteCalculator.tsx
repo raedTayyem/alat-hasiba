@@ -74,7 +74,7 @@ export default function WasteCalculator() {
         >
           <NumericInput
             value={foodWaste}
-            onChange={(e: any) => setFoodWaste(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setFoodWaste(e.target.value)}
             unit={t("co2_emissions.kg_co2").split(' ')[0]}
             placeholder={t("waste.enter_amount")}
             min={0}
@@ -88,7 +88,7 @@ export default function WasteCalculator() {
         >
           <NumericInput
             value={plasticWaste}
-            onChange={(e: any) => setPlasticWaste(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPlasticWaste(e.target.value)}
             unit={t("co2_emissions.kg_co2").split(' ')[0]}
             placeholder={t("waste.enter_amount")}
             min={0}
@@ -102,7 +102,7 @@ export default function WasteCalculator() {
         >
           <NumericInput
             value={paperWaste}
-            onChange={(e: any) => setPaperWaste(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPaperWaste(e.target.value)}
             unit={t("co2_emissions.kg_co2").split(' ')[0]}
             placeholder={t("waste.enter_amount")}
             min={0}
@@ -116,7 +116,7 @@ export default function WasteCalculator() {
         >
           <NumericInput
             value={otherWaste}
-            onChange={(e: any) => setOtherWaste(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setOtherWaste(e.target.value)}
             unit={t("co2_emissions.kg_co2").split(' ')[0]}
             placeholder={t("waste.enter_amount")}
             min={0}
@@ -130,7 +130,7 @@ export default function WasteCalculator() {
         >
           <NumericInput
             value={householdSize}
-            onChange={(e: any) => setHouseholdSize(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setHouseholdSize(e.target.value)}
             unit={t("flight_emissions.persons")}
             placeholder={t("waste.enter_number")}
             min={1}

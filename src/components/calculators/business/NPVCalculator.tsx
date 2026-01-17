@@ -39,7 +39,7 @@ interface CalculatorResult {
 }
 
 export default function NPVCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [initialInvestment, setInitialInvestment] = useState<string>('');
   const [discountRate, setDiscountRate] = useState<string>('');
   const [cashFlows, setCashFlows] = useState<string[]>(['', '', '', '', '']);

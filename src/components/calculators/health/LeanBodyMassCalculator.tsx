@@ -178,7 +178,7 @@ export default function LeanBodyMassCalculator() {
                 <span>{t("lbm.results.lean_mass")}</span>
                 <span className="font-medium">{result.lbmPercentage.toFixed(1)}%</span>
               </div>
-              <div className="w-full bg-gray-200 rounded-full h-3">
+              <div className="w-full bg-muted rounded-full h-3">
                 <div className="bg-primary h-3 rounded-full" style={{ width: `${result.lbmPercentage}%` }}></div>
               </div>
             </div>
@@ -189,7 +189,7 @@ export default function LeanBodyMassCalculator() {
                 <span>{t("body_fat.results.fat_mass")}</span>
                 <span className="font-medium">{result.fatPercentage.toFixed(1)}%</span>
               </div>
-              <div className="w-full bg-gray-200 rounded-full h-3">
+              <div className="w-full bg-muted rounded-full h-3">
                 <div className="bg-warning h-3 rounded-full" style={{ width: `${result.fatPercentage}%` }}></div>
               </div>
             </div>

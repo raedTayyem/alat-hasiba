@@ -11,7 +11,7 @@ import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
 export default function InvestmentCalculator() {
-  const { t, i18n } = useTranslation(['calc/finance', 'common']);
+  const { t } = useTranslation(['calc/finance', 'common']);
   const [initialInvestment, setInitialInvestment] = useState<string>('10000');
   const [additionalContribution, setAdditionalContribution] = useState<string>('100');
   const [years, setYears] = useState<string>('10');
@@ -298,7 +298,7 @@ export default function InvestmentCalculator() {
         </h3>
         <div className="space-y-4">
           <div className="flex items-center">
-            <div className="w-full bg-gray-200 rounded-full h-4 overflow-hidden flex">
+            <div className="w-full bg-muted rounded-full h-4 overflow-hidden flex">
               <div
                 className="bg-primary h-full"
                 style={{ width: `${(parseFloat(initialInvestment) / futureValue) * 100}%` }}

@@ -35,7 +35,7 @@ export const loadCalculatorComponent = async (componentName: string, category?: 
         try {
           module = await subdirectoryCalculatorImports[category](componentName);
         } catch (e) {
-          // Continue if category-specific load fails
+          console.warn(`[calculatorLoader] Failed to load ${componentName} from category '${category}':`, e);
         }
       }
 
@@ -44,7 +44,7 @@ export const loadCalculatorComponent = async (componentName: string, category?: 
         try {
           module = await subdirectoryCalculatorImports['root'](componentName);
         } catch (e) {
-          // Continue
+          console.warn(`[calculatorLoader] Failed to load ${componentName} from 'root' directory:`, e);
         }
       }
 
@@ -53,7 +53,7 @@ export const loadCalculatorComponent = async (componentName: string, category?: 
         try {
           module = await subdirectoryCalculatorImports['specific'](componentName);
         } catch (e) {
-          // Continue
+          console.warn(`[calculatorLoader] Failed to load ${componentName} from 'specific' mappings:`, e);
         }
       }
 
@@ -66,7 +66,7 @@ export const loadCalculatorComponent = async (componentName: string, category?: 
             module = await importFn(componentName);
             if (module) break;
           } catch (e) {
-            // Continue to next
+            console.warn(`[calculatorLoader] Failed to load ${componentName} from subdirectory '${subdirKey}':`, e);
           }
         }
       }

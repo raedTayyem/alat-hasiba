@@ -268,7 +268,7 @@ export default function MacroCalculator() {
               <span className="text-primary font-bold">{result.protein}g</span>
             </div>
             <div className="text-sm text-foreground-70">{result.proteinPercent}% {t("macro.results.of_total_calories")}</div>
-            <div className="w-full bg-gray-200 rounded-full h-2 mt-2">
+            <div className="w-full bg-muted rounded-full h-2 mt-2">
               <div className="bg-blue-600 h-2 rounded-full" style={{ width: `${result.proteinPercent}%` }}></div>
             </div>
           </div>
@@ -279,7 +279,7 @@ export default function MacroCalculator() {
               <span className="text-primary font-bold">{result.carbs}g</span>
             </div>
             <div className="text-sm text-foreground-70">{result.carbsPercent}% {t("macro.results.of_total_calories")}</div>
-            <div className="w-full bg-gray-200 rounded-full h-2 mt-2">
+            <div className="w-full bg-muted rounded-full h-2 mt-2">
               <div className="bg-green-600 h-2 rounded-full" style={{ width: `${result.carbsPercent}%` }}></div>
             </div>
           </div>
@@ -290,7 +290,7 @@ export default function MacroCalculator() {
               <span className="text-primary font-bold">{result.fat}g</span>
             </div>
             <div className="text-sm text-foreground-70">{result.fatPercent}% {t("macro.results.of_total_calories")}</div>
-            <div className="w-full bg-gray-200 rounded-full h-2 mt-2">
+            <div className="w-full bg-muted rounded-full h-2 mt-2">
               <div className="bg-yellow-600 h-2 rounded-full" style={{ width: `${result.fatPercent}%` }}></div>
             </div>
           </div>

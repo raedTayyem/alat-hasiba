@@ -97,7 +97,7 @@ export default function DietCarbonFootprintCalculator() {
         <InputContainer label={t("diet_footprint.beef")} tooltip={t("diet_footprint.beef_tooltip")}>
           <NumericInput
             value={beef}
-            onChange={(e: any) => setBeef(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setBeef(e.target.value)}
             endIcon={<span className="text-xs text-muted-foreground">{t("co2_emissions.kg_co2").split(' ')[0]}</span>}
             placeholder={t("diet_footprint.enter_amount")}
             min={0}
@@ -108,7 +108,7 @@ export default function DietCarbonFootprintCalculator() {
         <InputContainer label={t("diet_footprint.chicken")} tooltip={t("diet_footprint.chicken_tooltip")}>
           <NumericInput
             value={chicken}
-            onChange={(e: any) => setChicken(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setChicken(e.target.value)}
             endIcon={<span className="text-xs text-muted-foreground">{t("co2_emissions.kg_co2").split(' ')[0]}</span>}
             placeholder={t("diet_footprint.enter_amount")}
             min={0}
@@ -119,7 +119,7 @@ export default function DietCarbonFootprintCalculator() {
         <InputContainer label={t("diet_footprint.fish")} tooltip={t("diet_footprint.fish_tooltip")}>
           <NumericInput
             value={fish}
-            onChange={(e: any) => setFish(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setFish(e.target.value)}
             endIcon={<span className="text-xs text-muted-foreground">{t("co2_emissions.kg_co2").split(' ')[0]}</span>}
             placeholder={t("diet_footprint.enter_amount")}
             min={0}
@@ -130,7 +130,7 @@ export default function DietCarbonFootprintCalculator() {
         <InputContainer label={t("diet_footprint.dairy")} tooltip={t("diet_footprint.dairy_tooltip")}>
           <NumericInput
             value={dairy}
-            onChange={(e: any) => setDairy(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setDairy(e.target.value)}
             endIcon={<span className="text-xs text-muted-foreground">{t("co2_emissions.kg_co2").split(' ')[0]}</span>}
             placeholder={t("diet_footprint.enter_amount")}
             min={0}
@@ -141,7 +141,7 @@ export default function DietCarbonFootprintCalculator() {
         <InputContainer label={t("diet_footprint.vegetables")} tooltip={t("diet_footprint.vegetables_tooltip")}>
           <NumericInput
             value={vegetables}
-            onChange={(e: any) => setVegetables(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setVegetables(e.target.value)}
             endIcon={<span className="text-xs text-muted-foreground">{t("co2_emissions.kg_co2").split(' ')[0]}</span>}
             placeholder={t("diet_footprint.enter_amount")}
             min={0}
@@ -152,7 +152,7 @@ export default function DietCarbonFootprintCalculator() {
         <InputContainer label={t("diet_footprint.grains")} tooltip={t("diet_footprint.grains_tooltip")}>
           <NumericInput
             value={grains}
-            onChange={(e: any) => setGrains(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setGrains(e.target.value)}
             endIcon={<span className="text-xs text-muted-foreground">{t("co2_emissions.kg_co2").split(' ')[0]}</span>}
             placeholder={t("diet_footprint.enter_amount")}
             min={0}

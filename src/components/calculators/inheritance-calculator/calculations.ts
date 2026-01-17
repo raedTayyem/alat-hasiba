@@ -216,7 +216,7 @@ export const applyInheritanceRules = (heirs: Heir[]): Heir[] => {
 };
 
 // Function to calculate final shares after applying rules
-export const calculateFinalShares = (heirs: Heir[], estateValue: number): Heir[] => {
+export const calculateFinalShares = (heirs: Heir[], _estateValue: number): Heir[] => {
   // Create a copy of the heirs array
   const finalHeirs = [...heirs];
 

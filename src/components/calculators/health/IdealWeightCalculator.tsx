@@ -5,7 +5,7 @@
  * Calculates ideal body weight using multiple formulas: Devine, Robinson, Miller, Hamwi
  */
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Ruler, Info } from 'lucide-react';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';

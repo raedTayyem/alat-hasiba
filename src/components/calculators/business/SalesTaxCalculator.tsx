@@ -29,7 +29,7 @@ interface CalculatorResult {
 type CalculationMode = 'add_tax' | 'extract_tax';
 
 export default function SalesTaxCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [subtotal, setSubtotal] = useState<string>('');
   const [taxRate, setTaxRate] = useState<string>('');
   const [calculationMode, setCalculationMode] = useState<CalculationMode>('add_tax');

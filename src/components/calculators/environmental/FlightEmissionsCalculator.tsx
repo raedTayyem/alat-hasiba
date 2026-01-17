@@ -11,8 +11,7 @@ import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
 export default function FlightEmissionsCalculator() {
-  const { t, i18n } = useTranslation('calc/environmental');
-  const isArabic = i18n.language === 'ar';
+  const { t } = useTranslation('calc/environmental');
 
   const [flightClass, setFlightClass] = useState<string>('economy');
   const [distance, setDistance] = useState<string>('');

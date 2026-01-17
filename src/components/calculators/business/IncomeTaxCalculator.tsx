@@ -9,7 +9,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { DollarSign, Receipt, Users, TrendingUp, Calculator } from 'lucide-react';
+import { DollarSign, Receipt, TrendingUp, Calculator } from 'lucide-react';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';
@@ -68,7 +68,7 @@ const DEFAULT_TAX_BRACKETS: Record<string, TaxBracket[]> = {
 };
 
 export default function IncomeTaxCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [grossIncome, setGrossIncome] = useState<string>('');
   const [deductions, setDeductions] = useState<string>('');
   const [filingStatus, setFilingStatus] = useState<string>('single');

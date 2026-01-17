@@ -86,7 +86,7 @@ export default function VehicleEmissionsCalculator() {
         >
           <select
             value={fuelType}
-            onChange={(e: any) => setFuelType(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setFuelType(e.target.value)}
             className="calculator-input w-full"
           >
             {fuelOptions.map((option) => (
@@ -103,7 +103,7 @@ export default function VehicleEmissionsCalculator() {
         >
           <NumericInput
             value={consumption}
-            onChange={(e: any) => setConsumption(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setConsumption(e.target.value)}
             unit={t("vehicle_emissions.consumption").split('(')[1].replace(')', '')}
             placeholder={t("vehicle_emissions.enter_consumption")}
             min={0}
@@ -117,7 +117,7 @@ export default function VehicleEmissionsCalculator() {
         >
           <NumericInput
             value={distance}
-            onChange={(e: any) => setDistance(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setDistance(e.target.value)}
             unit={t("vehicle_emissions.distance").split('(')[1].replace(')', '')}
             placeholder={t("vehicle_emissions.enter_distance")}
             min={0}

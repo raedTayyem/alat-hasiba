@@ -7,7 +7,7 @@
 
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Car, DollarSign, Fuel, Wrench, Info, TrendingDown } from 'lucide-react';
+import { Car, DollarSign, Fuel, Wrench, Info } from 'lucide-react';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';
@@ -64,10 +64,8 @@ export default function CarComparisonCalculator() {
 
     const v1Price = parseFloat(vehicle1.price);
     const v1Mpg = parseFloat(vehicle1.mpg);
-    const v1Maint = parseFloat(vehicle1.annualMaintenance);
     const v2Price = parseFloat(vehicle2.price);
     const v2Mpg = parseFloat(vehicle2.mpg);
-    const v2Maint = parseFloat(vehicle2.annualMaintenance);
     const miles = parseFloat(annualMiles);
     const fuel = parseFloat(fuelPrice);
 

@@ -21,7 +21,7 @@ interface CalculatorResult {
 }
 
 export default function PropertyTaxCalculator() {
-  const { t, i18n } = useTranslation('calc/real-estate');
+  const { t } = useTranslation('calc/real-estate');
   const [assessedValue, setAssessedValue] = useState<string>('');
   const [taxRate, setTaxRate] = useState<string>('');
   const [years, setYears] = useState<string>('30');

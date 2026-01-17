@@ -26,7 +26,7 @@ interface CalculatorResult {
 }
 
 export default function ShippingCostCalculator() {
-  const { t, i18n } = useTranslation(['calc/business', 'common']);
+  const { t } = useTranslation(['calc/business', 'common']);
   const [weight, setWeight] = useState<string>('');
   const [length, setLength] = useState<string>('');
   const [width, setWidth] = useState<string>('');

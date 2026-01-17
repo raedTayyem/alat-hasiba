@@ -157,49 +157,49 @@ export default function StatisticsCalculator() {
       <h3 className="text-xl font-bold mb-4 text-center">{t("statistics_calculator.results")}</h3>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-        <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
+        <div className="bg-muted dark:bg-muted p-4 rounded-lg">
           <div className="text-foreground-70 text-sm mb-1">{t("statistics_calculator.count")}</div>
           <div className="text-2xl font-bold text-primary">{result.count}</div>
         </div>
 
-        <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
+        <div className="bg-muted dark:bg-muted p-4 rounded-lg">
           <div className="text-foreground-70 text-sm mb-1">{t("statistics_calculator.mean")}</div>
           <div className="text-2xl font-bold text-primary">{result.mean.toFixed(4)}</div>
         </div>
 
-        <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
+        <div className="bg-muted dark:bg-muted p-4 rounded-lg">
           <div className="text-foreground-70 text-sm mb-1">{t("statistics_calculator.median")}</div>
           <div className="text-2xl font-bold text-primary">{result.median.toFixed(4)}</div>
         </div>
 
-        <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
+        <div className="bg-muted dark:bg-muted p-4 rounded-lg">
           <div className="text-foreground-70 text-sm mb-1">{t("statistics_calculator.mode")}</div>
           <div className="text-2xl font-bold text-primary">
             {result.mode.join(', ')}
           </div>
         </div>
 
-        <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
+        <div className="bg-muted dark:bg-muted p-4 rounded-lg">
           <div className="text-foreground-70 text-sm mb-1">{t("statistics_calculator.variance")}</div>
           <div className="text-2xl font-bold text-primary">{result.variance.toFixed(4)}</div>
         </div>
 
-        <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
+        <div className="bg-muted dark:bg-muted p-4 rounded-lg">
           <div className="text-foreground-70 text-sm mb-1">{t("statistics_calculator.std_dev")}</div>
           <div className="text-2xl font-bold text-primary">{result.standardDeviation.toFixed(4)}</div>
         </div>
 
-        <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
+        <div className="bg-muted dark:bg-muted p-4 rounded-lg">
           <div className="text-foreground-70 text-sm mb-1">{t("statistics_calculator.min")}</div>
           <div className="text-2xl font-bold text-primary">{result.min.toFixed(4)}</div>
         </div>
 
-        <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
+        <div className="bg-muted dark:bg-muted p-4 rounded-lg">
           <div className="text-foreground-70 text-sm mb-1">{t("statistics_calculator.max")}</div>
           <div className="text-2xl font-bold text-primary">{result.max.toFixed(4)}</div>
         </div>
 
-        <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg md:col-span-2">
+        <div className="bg-muted dark:bg-muted p-4 rounded-lg md:col-span-2">
           <div className="text-foreground-70 text-sm mb-1">{t("statistics_calculator.range")}</div>
           <div className="text-2xl font-bold text-primary">{result.range.toFixed(4)}</div>
         </div>

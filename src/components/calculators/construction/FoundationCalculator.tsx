@@ -75,7 +75,7 @@ export default function FoundationCalculator() {
   // ---------------------------------------------------------------------------
   // HOOKS
   // ---------------------------------------------------------------------------
-  const { t, i18n } = useTranslation(['calc/construction', 'common']);
+  const { t } = useTranslation(['calc/construction', 'common']);
 
   // ---------------------------------------------------------------------------
   // STATE MANAGEMENT

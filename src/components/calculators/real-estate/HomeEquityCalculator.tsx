@@ -13,7 +13,7 @@ import { initDateInputRTL } from '../../../utils/dateInputRTL';
 interface CalculatorResult { equity: number; equityPercent: number; availableHELOC: number; loanToValue: number; }
 
 export default function HomeEquityCalculator() {
-  const { t, i18n } = useTranslation('calc/real-estate');
+  const { t } = useTranslation('calc/real-estate');
   const [currentValue, setCurrentValue] = useState<string>('');
   const [remainingMortgage, setRemainingMortgage] = useState<string>('');
   const [result, setResult] = useState<CalculatorResult | null>(null);

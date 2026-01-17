@@ -40,7 +40,6 @@ interface LandscapingResult {
 // CONSTANTS
 // =============================================================================
 const CUBIC_YARDS_DIVISOR = 324; // sq ft × inches to cubic yards
-const CUBIC_FEET_PER_CUBIC_YARD = 27;
 const CUBIC_YARDS_TO_CUBIC_METERS = 0.764555;
 const SQUARE_FEET_TO_SQUARE_METERS = 0.092903;
 

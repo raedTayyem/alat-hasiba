@@ -34,7 +34,7 @@ interface ProductResult {
 }
 
 export default function PriceComparisonCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [products, setProducts] = useState<Product[]>([
     { id: 1, name: '', price: '', quantity: '' },
     { id: 2, name: '', price: '', quantity: '' },

@@ -36,7 +36,6 @@ interface FootingResult {
 // =============================================================================
 // CONSTANTS
 // =============================================================================
-const DEFAULT_FOOTING_DEPTH = 0.45; // meters (standard footing depth)
 const TYPICAL_SOIL_CAPACITIES: { [key: string]: number } = {
   soft_clay: 75,      // kN/m²
   medium_clay: 150,   // kN/m²

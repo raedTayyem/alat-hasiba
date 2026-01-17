@@ -26,8 +26,7 @@ const calculateBiorhythmValue = (days: number, cycle: number): number => {
 };
 
 export default function BiorhythmCalculator() {
-  const { t, i18n } = useTranslation(['translation', 'calc/misc']);
-  const isRTL = i18n.language === 'ar';
+  const { t } = useTranslation(['translation', 'calc/misc']);
 
   const [birthDate, setBirthDate] = useState<string>('');
   const [targetDate, setTargetDate] = useState<string>(format(new Date(), 'yyyy-MM-dd'));

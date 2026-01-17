@@ -25,7 +25,7 @@ interface CalculatorResult {
 }
 
 export default function BreakEvenCalculator() {
-  const { t, i18n } = useTranslation(['calc/business', 'common']);
+  const { t } = useTranslation(['calc/business', 'common']);
   const [fixedCosts, setFixedCosts] = useState<string>('');
   const [pricePerUnit, setPricePerUnit] = useState<string>('');
   const [variableCostPerUnit, setVariableCostPerUnit] = useState<string>('');

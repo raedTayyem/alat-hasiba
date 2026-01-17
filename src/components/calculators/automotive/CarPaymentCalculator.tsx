@@ -33,7 +33,7 @@ interface CarPaymentResult {
 // MAIN COMPONENT
 // =============================================================================
 export default function CarPaymentCalculator() {
-  const { t, i18n } = useTranslation('calc/automotive');
+  const { t } = useTranslation('calc/automotive');
 
   // State for inputs
   const [vehiclePrice, setVehiclePrice] = useState<string>('');

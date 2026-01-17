@@ -25,7 +25,7 @@ interface CalculatorResult {
 }
 
 export default function InventoryTurnoverCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [cogs, setCogs] = useState<string>('');
   const [averageInventory, setAverageInventory] = useState<string>('');
 

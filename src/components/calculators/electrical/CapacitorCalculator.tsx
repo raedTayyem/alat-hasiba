@@ -69,7 +69,7 @@ export default function CapacitorCalculator() {
         <InputContainer label={t("capacitor.capacitance")} tooltip={t("capacitor.capacitance_tooltip")}>
           <NumericInput
             value={capacitance}
-            onChange={(e: any) => setCapacitance(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCapacitance(e.target.value)}
             unit={t("common:common.units.uF")}
             placeholder={t("capacitor.enter_capacitance")}
             min={0}
@@ -80,7 +80,7 @@ export default function CapacitorCalculator() {
         <InputContainer label={t("capacitor.voltage")} tooltip={t("capacitor.voltage_tooltip")}>
           <NumericInput
             value={voltage}
-            onChange={(e: any) => setVoltage(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setVoltage(e.target.value)}
             unit={t("common:common.units.V")}
             placeholder={t("capacitor.enter_voltage")}
             min={0}
@@ -91,7 +91,7 @@ export default function CapacitorCalculator() {
         <InputContainer label={t("capacitor.frequency")} tooltip={t("capacitor.frequency_tooltip")}>
           <NumericInput
             value={frequency}
-            onChange={(e: any) => setFrequency(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setFrequency(e.target.value)}
             unit={t("common:common.units.Hz")}
             placeholder={t("capacitor.enter_frequency")}
             min={0}

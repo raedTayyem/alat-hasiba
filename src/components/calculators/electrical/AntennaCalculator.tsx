@@ -8,7 +8,7 @@ import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
 export default function AntennaCalculator() {
-  const { t, i18n } = useTranslation(['calc/electrical', 'common']);
+  const { t } = useTranslation(['calc/electrical', 'common']);
   const [frequency, setFrequency] = useState<string>('');
   const [antennaType, setAntennaType] = useState<string>('dipole');
   const [result, setResult] = useState<{
@@ -59,7 +59,7 @@ export default function AntennaCalculator() {
         <InputContainer label={t("antenna.frequency")} tooltip={t("antenna.enter_frequency")}>
           <NumericInput
             value={frequency}
-            onChange={(e: any) => setFrequency(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setFrequency(e.target.value)}
             unit={t("common:units.MHz")}
             placeholder={t("antenna.enter_frequency")}
             min={0}
@@ -70,7 +70,7 @@ export default function AntennaCalculator() {
         <InputContainer label={t("antenna.type")} tooltip={t("antenna.type")}>
           <select
             value={antennaType}
-            onChange={(e: any) => setAntennaType(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setAntennaType(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="dipole">{t("antenna.type_dipole")}</option>

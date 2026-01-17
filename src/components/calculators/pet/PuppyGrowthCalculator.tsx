@@ -8,8 +8,7 @@ import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
 export default function PuppyGrowthCalculator() {
-  const { t, i18n } = useTranslation('calc/pet');
-  const isRTL = i18n.language === 'ar';
+  const { t } = useTranslation('calc/pet');
   const [currentWeight, setCurrentWeight] = useState<string>('');
   const [currentAge, setCurrentAge] = useState<string>('');
   const [breedSize, setBreedSize] = useState<string>('medium');
@@ -92,7 +91,7 @@ export default function PuppyGrowthCalculator() {
         >
           <NumericInput
             value={currentWeight}
-            onChange={(e: any) => setCurrentWeight(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCurrentWeight(e.target.value)}
             unit={t("puppy-growth-calculator.kg")}
             placeholder={t("puppy-growth-calculator.enter_weight")}
             min={0}
@@ -107,7 +106,7 @@ export default function PuppyGrowthCalculator() {
         >
           <NumericInput
             value={currentAge}
-            onChange={(e: any) => setCurrentAge(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCurrentAge(e.target.value)}
             unit={t("puppy-growth-calculator.months")}
             placeholder={t("puppy-growth-calculator.enter_age")}
             min={1}
@@ -122,7 +121,7 @@ export default function PuppyGrowthCalculator() {
         >
           <select
             value={breedSize}
-            onChange={(e: any) => setBreedSize(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setBreedSize(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="small">{t("puppy-growth-calculator.size_small")}</option>

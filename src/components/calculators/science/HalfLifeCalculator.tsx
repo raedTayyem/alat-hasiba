@@ -22,7 +22,7 @@ interface HalfLifeResult {
 }
 
 export default function HalfLifeCalculator() {
-  const { t, i18n } = useTranslation(['calc/science', 'common']);
+  const { t } = useTranslation(['calc/science', 'common']);
 
   const [initialAmount, setInitialAmount] = useState<string>('');
   const [halfLife, setHalfLife] = useState<string>('');
@@ -116,7 +116,7 @@ export default function HalfLifeCalculator() {
       const tSeconds = convertToSeconds(elapsedT, elapsedTimeUnit);
 
       // Calculate decay constant: λ = ln(2) / t½
-      const lambda = Math.LN2 / tHalfSeconds;
+      // (lambda is computed inline for display at the end)
 
       // Calculate remaining amount using: N = N₀ × (1/2)^(t/t½)
       // Or equivalently: N = N₀ × e^(-λt)
@@ -244,7 +244,7 @@ export default function HalfLifeCalculator() {
           </FormField>
         </div>
 
-        <div className="text-sm text-gray-600 dark:text-gray-400 bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
+        <div className="text-sm text-muted-foreground bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
           <Info className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" />
           <div>
             <strong>{t('common.info')}:</strong> {t('half_life.formulas.main')}<br />
@@ -284,7 +284,7 @@ export default function HalfLifeCalculator() {
       </div>
 
       <div className="grid grid-cols-2 gap-4">
-        <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg text-center">
+        <div className="bg-muted dark:bg-muted p-4 rounded-lg text-center">
           <div className="text-foreground-70 text-sm mb-1">
             {t('half_life.results.percentage_remaining')}
           </div>
@@ -293,7 +293,7 @@ export default function HalfLifeCalculator() {
           </div>
         </div>
 
-        <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg text-center">
+        <div className="bg-muted dark:bg-muted p-4 rounded-lg text-center">
           <div className="text-foreground-70 text-sm mb-1">
             {t('half_life.results.percentage_decayed')}
           </div>
@@ -302,7 +302,7 @@ export default function HalfLifeCalculator() {
           </div>
         </div>
 
-        <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg text-center">
+        <div className="bg-muted dark:bg-muted p-4 rounded-lg text-center">
           <div className="text-foreground-70 text-sm mb-1">
             {t('half_life.results.half_lives_elapsed')}
           </div>
@@ -311,7 +311,7 @@ export default function HalfLifeCalculator() {
           </div>
         </div>
 
-        <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg text-center">
+        <div className="bg-muted dark:bg-muted p-4 rounded-lg text-center">
           <div className="text-foreground-70 text-sm mb-1">
             {t('half_life.results.decayed_amount')}
           </div>
@@ -320,7 +320,7 @@ export default function HalfLifeCalculator() {
           </div>
         </div>
 
-        <div className="col-span-2 bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg text-center">
+        <div className="col-span-2 bg-muted dark:bg-muted p-4 rounded-lg text-center">
           <div className="text-foreground-70 text-sm mb-1">
             {t('half_life.results.decay_constant')} (λ)
           </div>
@@ -335,7 +335,7 @@ export default function HalfLifeCalculator() {
         <div className="text-sm text-foreground-70 mb-2 text-center">
           {t('half_life.results.decay_progress')}
         </div>
-        <div className="w-full bg-gray-200 dark:bg-gray-700 rounded-full h-4 overflow-hidden">
+        <div className="w-full bg-muted dark:bg-muted rounded-full h-4 overflow-hidden">
           <div
             className={`h-full transition-all duration-500 ${getDecayVisual(result.percentageRemaining).replace('text-', 'bg-')}`}
             style={{ width: `${result.percentageRemaining}%` }}

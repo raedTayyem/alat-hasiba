@@ -19,7 +19,7 @@
 // =============================================================================
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Users, Info, Clock, DollarSign, Briefcase } from 'lucide-react';
+import { Users, Info, Clock, Briefcase } from 'lucide-react';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
@@ -54,7 +54,7 @@ export default function LaborCostConstructionCalculator() {
   // ---------------------------------------------------------------------------
   // HOOKS
   // ---------------------------------------------------------------------------
-  const { t, i18n } = useTranslation(['calc/construction', 'common']);
+  const { t } = useTranslation(['calc/construction', 'common']);
 
   // ---------------------------------------------------------------------------
   // STATE MANAGEMENT

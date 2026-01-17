@@ -8,7 +8,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { DollarSign, Users, Package, Building, Percent, Calculator, TrendingUp, PieChart } from 'lucide-react';
+import { Users, Package, Building, Percent, Calculator, TrendingUp, PieChart } from 'lucide-react';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';
@@ -29,7 +29,7 @@ interface CalculatorResult {
 }
 
 export default function ProjectBudgetCalculator() {
-  const { t, i18n } = useTranslation(['calc/business', 'common']);
+  const { t } = useTranslation(['calc/business', 'common']);
 
   const [laborCost, setLaborCost] = useState<string>('');
   const [materialsCost, setMaterialsCost] = useState<string>('');

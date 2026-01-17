@@ -28,7 +28,7 @@ interface CalculatorResult {
 }
 
 export default function HourlyWageCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [annualSalary, setAnnualSalary] = useState<string>('');
   const [hoursPerWeek, setHoursPerWeek] = useState<string>('40');
   const [weeksPerYear, setWeeksPerYear] = useState<string>('52');

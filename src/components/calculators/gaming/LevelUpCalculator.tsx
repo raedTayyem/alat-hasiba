@@ -26,7 +26,7 @@ interface CalculatorResult {
 }
 
 export default function LevelUpCalculator() {
-  const { t, i18n } = useTranslation('calc/gaming');
+  const { t } = useTranslation('calc/gaming');
   const [currentLevel, setCurrentLevel] = useState<string>('');
   const [targetLevel, setTargetLevel] = useState<string>('');
   const [xpPerHour, setXpPerHour] = useState<string>('');

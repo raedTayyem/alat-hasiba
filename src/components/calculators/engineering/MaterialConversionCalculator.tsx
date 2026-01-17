@@ -110,7 +110,7 @@ export default function MaterialConversionCalculator() {
   // ---------------------------------------------------------------------------
   // HOOKS
   // ---------------------------------------------------------------------------
-  const { t, i18n } = useTranslation(['calc/engineering', 'common']);
+  const { t } = useTranslation(['calc/engineering', 'common']);
 
   // ---------------------------------------------------------------------------
   // STATE MANAGEMENT
@@ -252,7 +252,7 @@ export default function MaterialConversionCalculator() {
           <button
             onClick={() => handleModeChange('weight')}
             className={`px-4 py-2 rounded-lg transition-colors ${
-              mode === 'weight' ? 'bg-primary text-white' : 'bg-gray-200 dark:bg-gray-700'
+              mode === 'weight' ? 'bg-primary text-white' : 'bg-muted dark:bg-muted'
             }`}
           >
             {t("material-conversion.modes.weight")}
@@ -260,7 +260,7 @@ export default function MaterialConversionCalculator() {
           <button
             onClick={() => handleModeChange('length')}
             className={`px-4 py-2 rounded-lg transition-colors ${
-              mode === 'length' ? 'bg-primary text-white' : 'bg-gray-200 dark:bg-gray-700'
+              mode === 'length' ? 'bg-primary text-white' : 'bg-muted dark:bg-muted'
             }`}
           >
             {t("material-conversion.modes.length")}
@@ -268,7 +268,7 @@ export default function MaterialConversionCalculator() {
           <button
             onClick={() => handleModeChange('area')}
             className={`px-4 py-2 rounded-lg transition-colors ${
-              mode === 'area' ? 'bg-primary text-white' : 'bg-gray-200 dark:bg-gray-700'
+              mode === 'area' ? 'bg-primary text-white' : 'bg-muted dark:bg-muted'
             }`}
           >
             {t("material-conversion.modes.area")}
@@ -276,7 +276,7 @@ export default function MaterialConversionCalculator() {
           <button
             onClick={() => handleModeChange('volume')}
             className={`px-4 py-2 rounded-lg transition-colors ${
-              mode === 'volume' ? 'bg-primary text-white' : 'bg-gray-200 dark:bg-gray-700'
+              mode === 'volume' ? 'bg-primary text-white' : 'bg-muted dark:bg-muted'
             }`}
           >
             {t("material-conversion.modes.volume")}

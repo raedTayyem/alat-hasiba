@@ -8,7 +8,7 @@ import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
 export default function TransformerCalculator() {
-  const { t, i18n } = useTranslation(['calc/electrical', 'common']);
+  const { t } = useTranslation(['calc/electrical', 'common']);
   const [primaryVoltage, setPrimaryVoltage] = useState<string>('');
   const [secondaryVoltage, setSecondaryVoltage] = useState<string>('');
   const [primaryTurns, setPrimaryTurns] = useState<string>('');
@@ -92,7 +92,7 @@ export default function TransformerCalculator() {
         <InputContainer label={t("transformer.primary_voltage")} tooltip={t("transformer.enter_primary_v")}>
           <NumericInput
             value={primaryVoltage}
-            onChange={(e: any) => setPrimaryVoltage(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPrimaryVoltage(e.target.value)}
             unit={t("ohms_law.unit_voltage")}
             placeholder={t("transformer.enter_primary_v")}
             min={0}
@@ -103,7 +103,7 @@ export default function TransformerCalculator() {
         <InputContainer label={t("transformer.secondary_voltage")} tooltip={t("transformer.enter_secondary_v")}>
           <NumericInput
             value={secondaryVoltage}
-            onChange={(e: any) => setSecondaryVoltage(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setSecondaryVoltage(e.target.value)}
             unit={t("ohms_law.unit_voltage")}
             placeholder={t("transformer.enter_secondary_v")}
             min={0}
@@ -114,7 +114,7 @@ export default function TransformerCalculator() {
         <InputContainer label={t("transformer.primary_turns")} tooltip={t("transformer.enter_primary_turns")}>
           <NumericInput
             value={primaryTurns}
-            onChange={(e: any) => setPrimaryTurns(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPrimaryTurns(e.target.value)}
             unit={t("transformer.unit_turns")}
             placeholder={t("transformer.enter_primary_turns")}
             min={0}
@@ -125,7 +125,7 @@ export default function TransformerCalculator() {
         <InputContainer label={t("transformer.secondary_turns")} tooltip={t("transformer.enter_secondary_turns")}>
           <NumericInput
             value={secondaryTurns}
-            onChange={(e: any) => setSecondaryTurns(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setSecondaryTurns(e.target.value)}
             unit={t("transformer.unit_turns")}
             placeholder={t("transformer.enter_secondary_turns")}
             min={0}
@@ -136,7 +136,7 @@ export default function TransformerCalculator() {
         <InputContainer label={t("transformer.power")} tooltip={t("transformer.enter_power")}>
           <NumericInput
             value={power}
-            onChange={(e: any) => setPower(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPower(e.target.value)}
             unit={t("common:units.W")}
             placeholder={t("transformer.enter_power")}
             min={0}
@@ -147,7 +147,7 @@ export default function TransformerCalculator() {
         <InputContainer label={t("transformer.efficiency")} tooltip={t("transformer.enter_efficiency")}>
           <NumericInput
             value={efficiency}
-            onChange={(e: any) => setEfficiency(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setEfficiency(e.target.value)}
             unit={t("common:units.percent")}
             placeholder={t("transformer.enter_efficiency")}
             min={0}

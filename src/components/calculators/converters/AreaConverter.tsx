@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Calculator, ArrowRightLeft, Info, Ruler } from 'lucide-react';
+import { Calculator, ArrowRightLeft, Ruler } from 'lucide-react';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';
@@ -101,18 +101,6 @@ export default function AreaConverter() {
       setToUnit(temp);
       setShowResult(true);
     }, 300);
-  };
-
-  // Format number with appropriate decimal places
-  const formatNumber = (num: number) => {
-    // Show appropriate decimal places based on number size
-    if (Math.abs(num) < 0.01) return num.toFixed(6);
-    if (Math.abs(num) < 0.1) return num.toFixed(5);
-    if (Math.abs(num) < 1) return num.toFixed(4);
-    if (Math.abs(num) < 10) return num.toFixed(3);
-    if (Math.abs(num) < 100) return num.toFixed(2);
-    if (Math.abs(num) < 1000) return num.toFixed(1);
-    return num.toFixed(0);
   };
 
   const handleKeyPress = (e: React.KeyboardEvent) => {

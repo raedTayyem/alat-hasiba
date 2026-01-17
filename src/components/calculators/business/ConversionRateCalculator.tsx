@@ -24,7 +24,7 @@ interface CalculatorResult {
 }
 
 export default function ConversionRateCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [conversions, setConversions] = useState<string>('');
   const [visitors, setVisitors] = useState<string>('');
 

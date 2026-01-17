@@ -84,7 +84,7 @@ export default function HomeEnergyAuditCalculator() {
         >
           <NumericInput
             value={electricity}
-            onChange={(e: any) => setElectricity(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setElectricity(e.target.value)}
             unit={t("common:units.kWh")}
             placeholder={t("home_energy_audit.enter_consumption")}
             min={0}
@@ -97,7 +97,7 @@ export default function HomeEnergyAuditCalculator() {
         >
           <NumericInput
             value={heating}
-            onChange={(e: any) => setHeating(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setHeating(e.target.value)}
             unit={t("common:units.kWh")}
             placeholder={t("home_energy_audit.enter_consumption")}
             min={0}
@@ -110,7 +110,7 @@ export default function HomeEnergyAuditCalculator() {
         >
           <NumericInput
             value={cooling}
-            onChange={(e: any) => setCooling(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCooling(e.target.value)}
             unit={t("common:units.kWh")}
             placeholder={t("home_energy_audit.enter_consumption")}
             min={0}
@@ -123,7 +123,7 @@ export default function HomeEnergyAuditCalculator() {
         >
           <NumericInput
             value={waterHeater}
-            onChange={(e: any) => setWaterHeater(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setWaterHeater(e.target.value)}
             unit={t("common:units.kWh")}
             placeholder={t("home_energy_audit.enter_consumption")}
             min={0}
@@ -136,7 +136,7 @@ export default function HomeEnergyAuditCalculator() {
         >
           <NumericInput
             value={appliances}
-            onChange={(e: any) => setAppliances(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setAppliances(e.target.value)}
             unit={t("common:units.kWh")}
             placeholder={t("home_energy_audit.enter_consumption")}
             min={0}

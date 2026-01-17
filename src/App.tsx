@@ -4,6 +4,7 @@ import { HelmetProvider, Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
 import { initDateInputRTL } from './utils/dateInputRTL';
 import './i18n/config'; // Initialize i18n
+import { siteConfig } from './config/site';
 
 import { ThemeProvider } from './components/ThemeProvider';
 import { ToastProvider } from './components/ui/Toast';
@@ -171,12 +172,12 @@ function App() {
             <meta property="og:site_name" content={t('common.siteName')} />
             <meta property="og:type" content="website" />
             <meta property="og:locale" content={i18n.language === 'ar' ? 'ar_SA' : 'en_US'} />
-            <link rel="canonical" href="https://alathasiba.com" />
+            <link rel="canonical" href={siteConfig.url} />
 
             {/* Hreflang tags for multilingual SEO */}
-            <link rel="alternate" hrefLang="ar" href="https://alathasiba.com" />
-            <link rel="alternate" hrefLang="en" href="https://alathasiba.com" />
-            <link rel="alternate" hrefLang="x-default" href="https://alathasiba.com" />
+            <link rel="alternate" hrefLang="ar" href={siteConfig.url} />
+            <link rel="alternate" hrefLang="en" href={siteConfig.url} />
+            <link rel="alternate" hrefLang="x-default" href={siteConfig.url} />
 
             {/* Resource hints */}
             <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -193,10 +194,10 @@ function App() {
               {JSON.stringify({
                 "@context": "https://schema.org",
                 "@type": "Organization",
-                "name": "آلات حاسبة",
-                "alternateName": "Alathasiba",
-                "url": "https://alathasiba.com",
-                "logo": "https://alathasiba.com/logo.svg",
+                "name": siteConfig.nameAr,
+                "alternateName": siteConfig.name,
+                "url": siteConfig.url,
+                "logo": `${siteConfig.url}/logo.svg`,
                 "description": "موقع آلات حاسبة يقدم مجموعة شاملة من الآلات الحاسبة المجانية",
                 "sameAs": []
               })}

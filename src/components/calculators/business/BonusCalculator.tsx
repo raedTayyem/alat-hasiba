@@ -28,7 +28,7 @@ interface CalculatorResult {
 }
 
 export default function BonusCalculator() {
-  const { t, i18n } = useTranslation(['calc/business', 'common']);
+  const { t } = useTranslation(['calc/business', 'common']);
   const [baseSalary, setBaseSalary] = useState<string>('');
   const [bonusPercentage, setBonusPercentage] = useState<string>('');
   const [performanceFactor, setPerformanceFactor] = useState<string>('1.0');

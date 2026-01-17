@@ -24,7 +24,7 @@ interface CalculatorResult {
 }
 
 export default function RentalYieldCalculator() {
-  const { t, i18n } = useTranslation('calc/real-estate');
+  const { t } = useTranslation('calc/real-estate');
   const [propertyPrice, setPropertyPrice] = useState<string>('');
   const [monthlyRent, setMonthlyRent] = useState<string>('');
   const [annualExpenses, setAnnualExpenses] = useState<string>('');

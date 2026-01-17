@@ -28,7 +28,7 @@ interface CalculatorResult {
 }
 
 export default function OvertimeCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [regularHours, setRegularHours] = useState<string>('40');
   const [overtimeHours, setOvertimeHours] = useState<string>('');
   const [hourlyRate, setHourlyRate] = useState<string>('');

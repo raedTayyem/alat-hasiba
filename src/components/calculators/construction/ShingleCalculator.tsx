@@ -39,7 +39,6 @@ interface ShingleResult {
 // CONSTANTS
 // =============================================================================
 const SQ_FT_PER_SQUARE = 100; // 1 roofing square = 100 sq ft
-const BUNDLES_PER_SQUARE = 3; // Standard: 3 bundles per square
 const UNDERLAYMENT_ROLL_COVERAGE = 400; // sq ft per roll
 const STARTER_STRIP_COVERAGE = 120; // linear feet per bundle
 const RIDGE_CAP_COVERAGE = 33; // linear feet per bundle

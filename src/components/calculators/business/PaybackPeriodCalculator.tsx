@@ -25,7 +25,7 @@ interface CalculatorResult {
 }
 
 export default function PaybackPeriodCalculator() {
-  const { t, i18n } = useTranslation(['calc/business', 'common']);
+  const { t } = useTranslation(['calc/business', 'common']);
   const [initialInvestment, setInitialInvestment] = useState<string>('');
   const [annualCashFlow, setAnnualCashFlow] = useState<string>('');
   const [salvageValue, setSalvageValue] = useState<string>('');
@@ -43,7 +43,6 @@ export default function PaybackPeriodCalculator() {
 
     const investment = parseFloat(initialInvestment);
     const cashFlow = parseFloat(annualCashFlow);
-    const salvage = parseFloat(salvageValue) || 0;
 
     if (isNaN(investment) || isNaN(cashFlow)) {
       setError(t("errors.invalid_input", { ns: 'common' }));

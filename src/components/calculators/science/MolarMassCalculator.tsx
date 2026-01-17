@@ -219,7 +219,7 @@ export default function MolarMassCalculator() {
           <div className="flex gap-2">
             <div className="flex-1">
               <div className="relative">
-                <Atom className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-gray-400" />
+                <Atom className="absolute left-3 top-1/2 transform -translate-y-1/2 h-4 w-4 text-muted-foreground" />
                 <input
                   type="text"
                   value={formula}
@@ -247,7 +247,7 @@ export default function MolarMassCalculator() {
           ))}
         </div>
 
-        <div className="text-sm text-gray-600 dark:text-gray-400 bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
+        <div className="text-sm text-muted-foreground bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
           <Info className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" />
           <div>
             <strong>{t('common.info')}:</strong> {t('molar_mass.formulas.info')}<br />
@@ -297,7 +297,7 @@ export default function MolarMassCalculator() {
               ))}
             </tbody>
             <tfoot>
-              <tr className="bg-gray-50 dark:bg-gray-700/50">
+              <tr className="bg-muted dark:bg-muted">
                 <td colSpan={3} className="py-2 px-3 text-right font-bold">{t('molar_mass.results.total')}</td>
                 <td className="py-2 px-3 text-left font-bold text-primary">{result.totalMass.toFixed(4)} g/mol</td>
               </tr>

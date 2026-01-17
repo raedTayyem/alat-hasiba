@@ -9,7 +9,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
   const [isScrolled, setIsScrolled] = useState(false);
   const location = useLocation();
-  const { t, i18n } = useTranslation(['common', 'navigation']);
+  const { t } = useTranslation(['common', 'navigation']);
 
   useEffect(() => {
     setIsMenuOpen(false);

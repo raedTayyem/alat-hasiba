@@ -174,7 +174,7 @@ const CalculatorLayout: React.FC<CalculatorLayoutProps> = ({
           {/* Premium Product Display */}
           {results && category && (
             <PremiumExport
-              calculatorName={title}
+              calculatorName={title || ''}
               results={results}
               category={category}
               calculatorSlug={calculatorSlug}

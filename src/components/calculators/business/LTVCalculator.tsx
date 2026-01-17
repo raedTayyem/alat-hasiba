@@ -28,7 +28,7 @@ interface CalculatorResult {
 }
 
 export default function LTVCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [loanAmount, setLoanAmount] = useState<string>('');
   const [propertyValue, setPropertyValue] = useState<string>('');
 

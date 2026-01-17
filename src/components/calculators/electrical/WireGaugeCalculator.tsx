@@ -81,7 +81,7 @@ export default function WireGaugeCalculator() {
         <InputContainer label={t("wire_gauge.current")} tooltip={t("wire_gauge.enter_current")}>
           <NumericInput
             value={current}
-            onChange={(e: any) => setCurrent(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCurrent(e.target.value)}
             unit={t("common:common.units.A")}
             placeholder={t("wire_gauge.enter_current")}
             min={0}
@@ -92,7 +92,7 @@ export default function WireGaugeCalculator() {
         <InputContainer label={t("wire_gauge.distance")} tooltip={t("wire_gauge.enter_distance")}>
           <NumericInput
             value={length}
-            onChange={(e: any) => setLength(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setLength(e.target.value)}
             unit={t("common:common.units.m")}
             placeholder={t("wire_gauge.enter_distance")}
             min={0}
@@ -103,7 +103,7 @@ export default function WireGaugeCalculator() {
         <InputContainer label={t("wire_gauge.voltage")} tooltip={t("wire_gauge.voltage")}>
           <select
             value={voltageSystem}
-            onChange={(e: any) => setVoltageSystem(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setVoltageSystem(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="110">110 {t("ohms_law.unit_voltage")}</option>
@@ -115,7 +115,7 @@ export default function WireGaugeCalculator() {
         <InputContainer label={t("wire_gauge.material")} tooltip={t("wire_gauge.material")}>
           <select
             value={material}
-            onChange={(e: any) => setMaterial(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setMaterial(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="copper">{t("wire_gauge.material_copper")}</option>

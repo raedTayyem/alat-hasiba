@@ -24,7 +24,7 @@ interface CalculatorResult {
 }
 
 export default function FuelCostCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [distance, setDistance] = useState<string>('');
   const [fuelEfficiency, setFuelEfficiency] = useState<string>('');
   const [fuelPrice, setFuelPrice] = useState<string>('');

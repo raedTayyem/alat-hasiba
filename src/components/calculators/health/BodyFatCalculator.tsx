@@ -5,7 +5,7 @@
  * Calculates body fat percentage using Navy Method and provides interpretation
  */
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Calendar, Scale, Ruler, Info } from 'lucide-react';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
@@ -38,7 +38,7 @@ export default function BodyFatCalculator() {
   const [error, setError] = useState<string>('');
 
 
-  const getBodyFatCategory = (percentage: number, gender: string, age: number): { category: string; color: string } => {
+  const getBodyFatCategory = (percentage: number, gender: string, _age: number): { category: string; color: string } => {
     if (gender === 'male') {
       if (percentage < 6) return { category: t("body_fat.categories.essential_fat"), color: "text-red-600" };
       else if (percentage < 14) return { category: t("body_fat.categories.athletic"), color: "text-green-600" };

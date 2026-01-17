@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Timer, ArrowUp, Dumbbell, Scale, Calculator, RotateCcw, Info, Trophy, Activity } from 'lucide-react';
+import { Timer, ArrowUp, Dumbbell, Scale, Calculator, RotateCcw, Trophy, Activity } from 'lucide-react';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';

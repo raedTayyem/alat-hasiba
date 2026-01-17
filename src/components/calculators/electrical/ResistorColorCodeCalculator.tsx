@@ -81,7 +81,7 @@ export default function ResistorColorCodeCalculator() {
         <InputContainer label={t("resistor_color_code.num_bands")} tooltip={t("resistor_color_code.num_bands_tooltip")}>
           <select
             value={numBands}
-            onChange={(e: any) => setNumBands(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setNumBands(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="4">{t("resistor_color_code.band_4")}</option>
@@ -92,7 +92,7 @@ export default function ResistorColorCodeCalculator() {
         <InputContainer label={`${t("resistor_color_code.band")} 1`} tooltip={t("resistor_color_code.band")}>
           <select
             value={band1}
-            onChange={(e: any) => setBand1(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setBand1(e.target.value)}
             className="calculator-input w-full"
             style={{ borderRight: `8px solid ${colorNames[band1].hex}` }}
           >
@@ -105,7 +105,7 @@ export default function ResistorColorCodeCalculator() {
         <InputContainer label={`${t("resistor_color_code.band")} 2`} tooltip={t("resistor_color_code.band")}>
           <select
             value={band2}
-            onChange={(e: any) => setBand2(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setBand2(e.target.value)}
             className="calculator-input w-full"
             style={{ borderRight: `8px solid ${colorNames[band2].hex}` }}
           >
@@ -118,7 +118,7 @@ export default function ResistorColorCodeCalculator() {
         <InputContainer label={numBands === '4' ? t("resistor_color_code.multiplier") : `${t("resistor_color_code.band")} 3`} tooltip={t("resistor_color_code.band")}>
           <select
             value={band3}
-            onChange={(e: any) => setBand3(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setBand3(e.target.value)}
             className="calculator-input w-full"
             style={{ borderRight: `8px solid ${colorNames[band3].hex}` }}
           >
@@ -131,7 +131,7 @@ export default function ResistorColorCodeCalculator() {
         <InputContainer label={t("resistor_color_code.tolerance")} tooltip={t("resistor_color_code.tolerance")}>
           <select
             value={band4}
-            onChange={(e: any) => setBand4(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setBand4(e.target.value)}
             className="calculator-input w-full"
             style={{ borderRight: `8px solid ${colorNames[band4].hex}` }}
           >
@@ -169,7 +169,7 @@ export default function ResistorColorCodeCalculator() {
           </div>
         </div>
 
-        <div className="p-4 bg-gray-50 dark:bg-gray-900/20 rounded-lg">
+        <div className="p-4 bg-muted dark:bg-muted/30 rounded-lg">
           <div className="text-sm text-foreground-70 mb-2">{t("resistor_color_code.visual")}</div>
           <div className="flex items-center justify-center gap-0">
             <div style={{ width: '60px', height: '20px', backgroundColor: '#DEB887', borderRadius: '2px' }}></div>

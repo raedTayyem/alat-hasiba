@@ -18,7 +18,7 @@ interface CalculatorResult {
 }
 
 export default function DownPaymentCalculator() {
-  const { t, i18n } = useTranslation('calc/real-estate');
+  const { t } = useTranslation('calc/real-estate');
   const [homePrice, setHomePrice] = useState<string>('');
   const [downPaymentPercent, setDownPaymentPercent] = useState<string>('20');
   const [result, setResult] = useState<CalculatorResult | null>(null);

@@ -382,7 +382,7 @@ export default function ProductivityCalculator() {
                 <span>{t("productivity.results.completion_rate")}</span>
                 <span dir="ltr">{result.completionRate.toFixed(0)}%</span>
               </div>
-              <div className="w-full bg-gray-200 rounded-full h-3 dark:bg-gray-700">
+              <div className="w-full bg-muted rounded-full h-3">
                 <div
                   className="bg-primary h-3 rounded-full transition-all"
                   style={{ width: `${Math.min(result.completionRate, 100)}%` }}
@@ -394,7 +394,7 @@ export default function ProductivityCalculator() {
                 <span>{t("productivity.results.time_efficiency")}</span>
                 <span dir="ltr">{result.timeEfficiency.toFixed(0)}%</span>
               </div>
-              <div className="w-full bg-gray-200 rounded-full h-3 dark:bg-gray-700">
+              <div className="w-full bg-muted rounded-full h-3">
                 <div
                   className={`h-3 rounded-full transition-all ${
                     result.timeEfficiency > 100 ? 'bg-warning' : 'bg-success'

@@ -322,7 +322,7 @@ export default function MomentumCalculator() {
               </FormField>
             )}
 
-            <div className="text-sm text-gray-600 dark:text-gray-400 bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
+            <div className="text-sm text-muted-foreground bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
               <Info className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" />
               <div>
                 <strong>{t('common.info')}:</strong> {t('momentum.formulas.linear')}<br />
@@ -365,7 +365,7 @@ export default function MomentumCalculator() {
               />
             </FormField>
 
-            <div className="text-sm text-gray-600 dark:text-gray-400 bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
+            <div className="text-sm text-muted-foreground bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
               <Info className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" />
               <div>
                 <strong>{t('common.info')}:</strong> {t('momentum.formulas.impulse')}<br />
@@ -441,7 +441,7 @@ export default function MomentumCalculator() {
                     startIcon={<Scale className="h-4 w-4" />}
                   />
                 </div>
-                <div className="flex items-center justify-center p-2 bg-gray-100 rounded-md min-w-[3rem]">
+                <div className="flex items-center justify-center p-2 bg-muted rounded-md min-w-[3rem]">
                   {getUnitLabel(massUnit)}
                 </div>
               </div>
@@ -458,13 +458,13 @@ export default function MomentumCalculator() {
                     startIcon={<Gauge className="h-4 w-4" />}
                   />
                 </div>
-                <div className="flex items-center justify-center p-2 bg-gray-100 rounded-md min-w-[3rem]">
+                <div className="flex items-center justify-center p-2 bg-muted rounded-md min-w-[3rem]">
                   {getUnitLabel(velocityUnit)}
                 </div>
               </div>
             </FormField>
 
-            <div className="text-sm text-gray-600 dark:text-gray-400 bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
+            <div className="text-sm text-muted-foreground bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
               <Info className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" />
               <div>
                 <strong>{t('common.info')}:</strong> {t('momentum.formulas.conservation')}<br />

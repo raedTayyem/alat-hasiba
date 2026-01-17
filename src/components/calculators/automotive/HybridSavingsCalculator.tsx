@@ -33,7 +33,7 @@ interface HybridSavingsResult {
 // MAIN COMPONENT
 // =============================================================================
 export default function HybridSavingsCalculator() {
-  const { t, i18n } = useTranslation(['calc/automotive', 'common']);
+  const { t } = useTranslation(['calc/automotive', 'common']);
 
   // State for inputs
   const [annualMileage, setAnnualMileage] = useState<string>('');

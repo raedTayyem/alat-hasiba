@@ -3,7 +3,6 @@ import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
 import { TrendingUp, ArrowLeft, Search } from 'lucide-react';
 import { getMostPopularCalculators } from '../data/calculators';
-import { getCalculatorName } from '../utils/calculatorTranslation';
 import CalculatorCard from '../components/CalculatorCard';
 
 const MostUsedPage = () => {
@@ -34,7 +33,7 @@ const MostUsedPage = () => {
         />
         <meta
           name="keywords"
-          content="popular calculators, most used calculators, آلات حاسبة شائعة, حاسبات مجانية"
+          content={t('pages.mostUsed.keywords')}
         />
         <link rel="canonical" href="https://alathasiba.com/most-used" />
 

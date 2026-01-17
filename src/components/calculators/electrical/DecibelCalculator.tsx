@@ -61,7 +61,7 @@ export default function DecibelCalculator() {
         <InputContainer label={t("decibel-calculator.calculation_type")} tooltip={t("decibel-calculator.type_tooltip")}>
           <select
             value={calculationType}
-            onChange={(e: any) => setCalculationType(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setCalculationType(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="power">{t("decibel-calculator.type_power")}</option>
@@ -75,7 +75,7 @@ export default function DecibelCalculator() {
         >
           <NumericInput
             value={value1}
-            onChange={(e: any) => setValue1(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setValue1(e.target.value)}
             unit={calculationType === 'power' ? 'W' : 'V/A'}
             placeholder={t("decibel-calculator.enter_value")}
             min={0}
@@ -89,7 +89,7 @@ export default function DecibelCalculator() {
         >
           <NumericInput
             value={value2}
-            onChange={(e: any) => setValue2(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setValue2(e.target.value)}
             unit={calculationType === 'power' ? 'W' : 'V/A'}
             placeholder={t("decibel-calculator.enter_value")}
             min={0}

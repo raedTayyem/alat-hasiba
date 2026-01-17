@@ -23,7 +23,7 @@ interface CalculatorResult {
 }
 
 export default function FPSCalculator() {
-  const { t, i18n } = useTranslation('calc/gaming');
+  const { t } = useTranslation('calc/gaming');
   const [fps, setFps] = useState<string>('');
 
   const [result, setResult] = useState<CalculatorResult | null>(null);

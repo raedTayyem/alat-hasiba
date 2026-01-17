@@ -84,7 +84,7 @@ const getStorageFee = (length: number, width: number, height: number, isQ4: bool
 };
 
 export default function AmazonFBACalculator() {
-  const { t, i18n } = useTranslation(['calc/business', 'common']);
+  const { t } = useTranslation(['calc/business', 'common']);
 
   const [productPrice, setProductPrice] = useState<string>('');
   const [productCost, setProductCost] = useState<string>('');

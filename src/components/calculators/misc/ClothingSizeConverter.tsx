@@ -32,7 +32,7 @@ export default function ClothingSizeConverter() {
   }, []);
 
   // Men's shirt conversion
-  const convertMenShirt = (size: string, from: string): ClothingSizeResult => {
+  const convertMenShirt = (size: string, _from: string): ClothingSizeResult => {
     const sizeMap: { [key: string]: ClothingSizeResult } = {
       // US sizes
       'XS': { us: 'XS', uk: 'XS', eu: '44', intl: 'XS', chest: '34-36"', waist: '28-30"' },
@@ -54,7 +54,7 @@ export default function ClothingSizeConverter() {
   };
 
   // Women's clothing conversion
-  const convertWomenClothing = (size: string, from: string): ClothingSizeResult => {
+  const convertWomenClothing = (size: string, _from: string): ClothingSizeResult => {
     const sizeMap: { [key: string]: ClothingSizeResult } = {
       // US sizes
       '0': { us: '0', uk: '4', eu: '32', intl: 'XXS' },

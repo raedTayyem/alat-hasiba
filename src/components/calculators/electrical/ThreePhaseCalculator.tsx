@@ -89,7 +89,7 @@ export default function ThreePhaseCalculator() {
         <InputContainer label={t("three_phase.connection_type")} tooltip={t("three_phase.connection_type_tooltip")}>
           <select
             value={connectionType}
-            onChange={(e: any) => setConnectionType(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setConnectionType(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="star">{t("three_phase.star")}</option>
@@ -100,7 +100,7 @@ export default function ThreePhaseCalculator() {
         <InputContainer label={t("three_phase.line_voltage")} tooltip={t("three_phase.line_voltage_tooltip")}>
           <NumericInput
             value={voltage}
-            onChange={(e: any) => setVoltage(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setVoltage(e.target.value)}
             unit={t("common:common.units.V")}
             placeholder={t("three_phase.enter_voltage")}
             min={0}
@@ -111,7 +111,7 @@ export default function ThreePhaseCalculator() {
         <InputContainer label={t("three_phase.line_current")} tooltip={t("three_phase.line_current_tooltip")}>
           <NumericInput
             value={current}
-            onChange={(e: any) => setCurrent(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCurrent(e.target.value)}
             unit={t("common:common.units.A")}
             placeholder={t("three_phase.enter_current")}
             min={0}
@@ -122,7 +122,7 @@ export default function ThreePhaseCalculator() {
         <InputContainer label={t("three_phase.power_factor")} tooltip={t("three_phase.power_factor_tooltip")}>
           <NumericInput
             value={powerFactor}
-            onChange={(e: any) => setPowerFactor(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPowerFactor(e.target.value)}
             unit=""
             placeholder="0.85"
             min={0}

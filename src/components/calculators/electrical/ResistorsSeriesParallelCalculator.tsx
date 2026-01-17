@@ -95,7 +95,7 @@ export default function ResistorsSeriesParallelCalculator() {
         <InputContainer label={t("resistors_parallel.connection_type")} tooltip={t("resistors_parallel.connection_type_tooltip")}>
           <select
             value={connectionType}
-            onChange={(e: any) => setConnectionType(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setConnectionType(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="series">{t("resistors_parallel.series")}</option>
@@ -106,7 +106,7 @@ export default function ResistorsSeriesParallelCalculator() {
         <InputContainer label={t("ohms_law.voltage")} tooltip={t("ohms_law.voltage")}>
           <NumericInput
             value={voltage}
-            onChange={(e: any) => setVoltage(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setVoltage(e.target.value)}
             unit={t("ohms_law.unit_voltage")}
             placeholder={t("ohms_law.enter_voltage")}
             min={0}
@@ -120,7 +120,7 @@ export default function ResistorsSeriesParallelCalculator() {
             <div key={index} className="flex gap-2">
               <NumericInput
                 value={resistor}
-                onChange={(e: any) => updateResistor(index, e.target.value)}
+                onChange={(e: React.ChangeEvent<HTMLInputElement>) => updateResistor(index, e.target.value)}
                 unit={t("ohms_law.unit_resistance")}
                 placeholder={`R${index + 1}`}
                 min={0}
@@ -179,7 +179,7 @@ export default function ResistorsSeriesParallelCalculator() {
           <h4 className="font-bold mb-3">{t("resistors_parallel.individual_results")}</h4>
           <div className="space-y-2">
             {result.individualData.map((data, i) => (
-              <div key={i} className="grid grid-cols-3 gap-2 text-sm p-2 bg-white dark:bg-gray-800 rounded">
+              <div key={i} className="grid grid-cols-3 gap-2 text-sm p-2 bg-card rounded">
                 <div><span className="text-foreground-70">R{i + 1}: </span>{data.voltage.toFixed(2)} {t("ohms_law.unit_voltage")}</div>
                 <div><span className="text-foreground-70">I: </span>{data.current.toFixed(3)} {t("ohms_law.unit_current")}</div>
                 <div><span className="text-foreground-70">P: </span>{data.power.toFixed(3)} {t("ohms_law.unit_power")}</div>

@@ -8,7 +8,7 @@ import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
 export default function ReactanceCalculator() {
-  const { t, i18n } = useTranslation(['calc/electrical', 'common']);
+  const { t } = useTranslation(['calc/electrical', 'common']);
   const [reactanceType, setReactanceType] = useState<string>('inductive');
   const [inductance, setInductance] = useState<string>('');
   const [capacitance, setCapacitance] = useState<string>('');
@@ -60,7 +60,7 @@ export default function ReactanceCalculator() {
         <InputContainer label={t("reactance.reactance_type")} tooltip={t("reactance.reactance_type_tooltip")}>
           <select
             value={reactanceType}
-            onChange={(e: any) => setReactanceType(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setReactanceType(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="inductive">{t("reactance.inductive")}</option>
@@ -72,7 +72,7 @@ export default function ReactanceCalculator() {
           <InputContainer label={t("reactance.inductance")} tooltip={t("reactance.inductance_tooltip")}>
           <NumericInput
               value={inductance}
-              onChange={(e: any) => setInductance(e.target.value)}
+              onChange={(e: React.ChangeEvent<HTMLInputElement>) => setInductance(e.target.value)}
               unit={t("common:units.mH")}
               placeholder={t("reactance.enter_inductance")}
               min={0}
@@ -83,7 +83,7 @@ export default function ReactanceCalculator() {
           <InputContainer label={t("reactance.capacitance")} tooltip={t("reactance.capacitance_tooltip")}>
             <NumericInput
               value={capacitance}
-              onChange={(e: any) => setCapacitance(e.target.value)}
+              onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCapacitance(e.target.value)}
               unit={t("common:units.uF")}
               placeholder={t("reactance.enter_capacitance")}
               min={0}
@@ -95,7 +95,7 @@ export default function ReactanceCalculator() {
         <InputContainer label={t("reactance.frequency")} tooltip={t("reactance.frequency_tooltip")}>
           <NumericInput
             value={frequency}
-            onChange={(e: any) => setFrequency(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setFrequency(e.target.value)}
             unit={t("common:units.Hz")}
             placeholder={t("reactance.enter_frequency")}
             min={0}

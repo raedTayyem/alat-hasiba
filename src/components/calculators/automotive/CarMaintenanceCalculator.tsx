@@ -46,7 +46,7 @@ const DEFAULT_INTERVALS = {
 // MAIN COMPONENT
 // =============================================================================
 export default function CarMaintenanceCalculator() {
-  const { t, i18n } = useTranslation('calc/automotive');
+  const { t } = useTranslation('calc/automotive');
 
   // State for inputs
   const [annualMileage, setAnnualMileage] = useState<string>('');

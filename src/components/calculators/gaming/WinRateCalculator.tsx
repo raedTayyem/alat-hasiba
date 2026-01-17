@@ -24,7 +24,7 @@ interface CalculatorResult {
 }
 
 export default function WinRateCalculator() {
-  const { t, i18n } = useTranslation('calc/gaming');
+  const { t } = useTranslation('calc/gaming');
   const [wins, setWins] = useState<string>('');
   const [losses, setLosses] = useState<string>('');
   const [draws, setDraws] = useState<string>('');

@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import { ShoppingBag, Star, Sparkles } from 'lucide-react';
+import { ShoppingBag, Sparkles } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { getRecommendedProducts, trackProductImpression, trackProductClick, type DigitalProduct } from '@/data/products';
 import { useToast } from '@/hooks/useToast';
@@ -60,7 +60,7 @@ export default function SmartRecommendations({
         </h3>
       </div>
 
-      {products.map((product, index) => {
+      {products.map((product) => {
         const displayName = isArabic ? product.nameAr : product.name;
         const displayDescription = isArabic ? product.descriptionAr : product.description;
         const displayFeatures = isArabic ? product.featuresAr : product.features;

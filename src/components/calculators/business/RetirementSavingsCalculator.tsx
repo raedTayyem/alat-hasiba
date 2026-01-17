@@ -39,7 +39,7 @@ interface CalculatorResult {
 }
 
 export default function RetirementSavingsCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [currentSavings, setCurrentSavings] = useState<string>('');
   const [monthlyContribution, setMonthlyContribution] = useState<string>('');
   const [yearsToRetirement, setYearsToRetirement] = useState<string>('');

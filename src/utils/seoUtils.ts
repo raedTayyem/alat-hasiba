@@ -3,6 +3,8 @@
  * Provides comprehensive SEO metadata, structured data, and optimization functions
  */
 
+import { siteConfig } from '../config/site';
+
 interface SEOMetadata {
   title: string;
   description: string;
@@ -30,7 +32,7 @@ interface CalculatorSEO {
  * Generate comprehensive SEO metadata for a calculator page
  */
 export function generateCalculatorSEO(calculator: CalculatorSEO, slug: string, language: string = 'ar'): SEOMetadata {
-  const baseUrl = 'https://alathasiba.com';
+  const baseUrl = siteConfig.url;
   const title = `${calculator.name} | آلات حاسبة - حاسبات دقيقة ومجانية`;
   const description = `${calculator.description} - استخدم ${calculator.name} المجاني والدقيق لحساباتك. ${calculator.useCases.slice(0, 2).join('، ')}.`;
 
@@ -61,7 +63,7 @@ export function generateCalculatorSEO(calculator: CalculatorSEO, slug: string, l
  * Generate JSON-LD structured data for calculator
  */
 export function generateCalculatorStructuredData(calculator: CalculatorSEO, slug: string, language: string = 'ar') {
-  const baseUrl = 'https://alathasiba.com';
+  const baseUrl = siteConfig.url;
 
   return {
     '@context': 'https://schema.org',
@@ -113,7 +115,7 @@ export function generateFAQStructuredData(faqs: { question: string; answer: stri
  * Generate BreadcrumbList structured data
  */
 export function generateBreadcrumbStructuredData(items: { name: string; url: string }[]) {
-  const baseUrl = 'https://alathasiba.com';
+  const baseUrl = siteConfig.url;
 
   return {
     '@context': 'https://schema.org',
@@ -138,7 +140,6 @@ export function generateHowToStructuredData(
   description?: string,
   language: string = 'ar'
 ) {
-  const baseUrl = 'https://alathasiba.com';
 
   return {
     '@context': 'https://schema.org',

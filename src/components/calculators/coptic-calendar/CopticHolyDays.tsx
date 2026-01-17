@@ -46,9 +46,10 @@ export default function CopticHolyDays({ year, onYearChange }: CopticHolyDaysPro
   // Coptic calendar epoch in Julian Day Number
   const COPTIC_EPOCH = 1825029.5;
 
-  // Check if Coptic year is a leap year
-  const isCopticLeapYear = (cYear: number): boolean => {
-    return (cYear % 4) === 3;
+  // Check if Coptic year is a leap year (utility function for future date calculations)
+  // @ts-ignore - Utility function kept for future calendar calculations
+  const _isCopticLeapYear = (_cYear: number): boolean => {
+    return (_cYear % 4) === 3;
   };
 
   // Convert Coptic date to Gregorian
@@ -99,7 +100,8 @@ export default function CopticHolyDays({ year, onYearChange }: CopticHolyDaysPro
   // Calculate all Coptic holy days
   const calculateHolyDays = useCallback((cYear: number): HolyDay[] => {
     const holyDays: HolyDay[] = [];
-    const gYear = cYear + 284;
+    // Gregorian year offset for display purposes
+    // const gYear = cYear + 284;
 
     // Fixed feasts (based on Coptic calendar dates)
     const fixedFeasts = [

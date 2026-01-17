@@ -228,7 +228,7 @@ export default function PHCalculator() {
           />
         </FormField>
 
-        <div className="text-sm text-gray-600 dark:text-gray-400 bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
+        <div className="text-sm text-muted-foreground bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
           <Info className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" />
           <div>
             <strong>{t('common.info')}:</strong> {t('ph_calculator.formulas.ph')}<br />
@@ -266,22 +266,22 @@ export default function PHCalculator() {
       </div>
 
       <div className="grid grid-cols-2 gap-4">
-        <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg text-center">
+        <div className="bg-muted dark:bg-muted p-4 rounded-lg text-center">
           <div className="text-foreground-70 text-sm mb-1">{t('ph_calculator.results.pH')}</div>
           <div className="text-2xl font-bold text-primary">{result.pH.toFixed(4)}</div>
         </div>
 
-        <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg text-center">
+        <div className="bg-muted dark:bg-muted p-4 rounded-lg text-center">
           <div className="text-foreground-70 text-sm mb-1">{t('ph_calculator.results.pOH')}</div>
           <div className="text-2xl font-bold text-primary">{result.pOH.toFixed(4)}</div>
         </div>
 
-        <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg text-center">
+        <div className="bg-muted dark:bg-muted p-4 rounded-lg text-center">
           <div className="text-foreground-70 text-sm mb-1">{t('ph_calculator.results.h_concentration')}</div>
           <div className="text-xl font-bold text-primary" dir="ltr">{formatScientific(result.hConcentration)} M</div>
         </div>
 
-        <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg text-center">
+        <div className="bg-muted dark:bg-muted p-4 rounded-lg text-center">
           <div className="text-foreground-70 text-sm mb-1">{t('ph_calculator.results.oh_concentration')}</div>
           <div className="text-xl font-bold text-primary" dir="ltr">{formatScientific(result.ohConcentration)} M</div>
         </div>

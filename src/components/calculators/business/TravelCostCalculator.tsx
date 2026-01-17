@@ -28,7 +28,7 @@ interface CalculatorResult {
 }
 
 export default function TravelCostCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [transportCost, setTransportCost] = useState<string>('');
   const [lodgingPerNight, setLodgingPerNight] = useState<string>('');
   const [mealsPerDay, setMealsPerDay] = useState<string>('');

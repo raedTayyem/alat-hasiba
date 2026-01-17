@@ -72,7 +72,7 @@ export default function SolarPanelCalculator() {
         <InputContainer label={t("solar_panel.inputs.daily_consumption")} tooltip={t("solar_panel.tooltips.daily_consumption")}>
           <NumericInput
             value={dailyConsumption}
-            onChange={(e: any) => setDailyConsumption(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setDailyConsumption(e.target.value)}
             unit={t("ohms_law.unit_watt_hour")}
             placeholder={t("solar_panel.placeholders.daily_consumption")}
             min={0}
@@ -83,7 +83,7 @@ export default function SolarPanelCalculator() {
         <InputContainer label={t("solar_panel.inputs.sun_hours")} tooltip={t("solar_panel.tooltips.sun_hours")}>
           <NumericInput
             value={peakSunHours}
-            onChange={(e: any) => setPeakSunHours(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPeakSunHours(e.target.value)}
             unit={t("battery_life.hours")}
             placeholder={t("solar_panel.placeholders.sun_hours")}
             min={0}
@@ -94,7 +94,7 @@ export default function SolarPanelCalculator() {
         <InputContainer label={t("solar_panel.inputs.system_voltage")} tooltip={t("solar_panel.tooltips.system_voltage")}>
           <select
             value={systemVoltage}
-            onChange={(e: any) => setSystemVoltage(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setSystemVoltage(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="12">12{t("ohms_law.unit_voltage")}</option>
@@ -106,7 +106,7 @@ export default function SolarPanelCalculator() {
         <InputContainer label={t("solar_panel.inputs.panel_wattage")} tooltip={t("solar_panel.tooltips.panel_wattage")}>
           <NumericInput
             value={panelWattage}
-            onChange={(e: any) => setPanelWattage(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPanelWattage(e.target.value)}
             unit={t("ohms_law.unit_power")}
             placeholder={t("solar_panel.placeholders.panel_wattage")}
             min={0}

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Download, FileText, Lock, Sparkles, Check, BadgeCheck } from 'lucide-react';
+import { Download, Lock, Sparkles, Check } from 'lucide-react';
 import { useTranslation } from 'react-i18next';
 import { getProductByDisplayType, trackProductImpression, trackProductClick } from '@/data/products';
 import { useToast } from '@/hooks/useToast';
@@ -17,8 +17,6 @@ interface PremiumExportProps {
 }
 
 export default function PremiumExport({
-  calculatorName,
-  results,
   category = 'general',
   calculatorSlug,
   resultValue,

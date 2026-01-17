@@ -59,8 +59,8 @@ export function SearchAutocomplete({
       // Calculate relevance score for each calculator
       const suggestionsWithScore = allCalculators
         .map(calculator => {
-          const nameMatch = calculator.name.toLowerCase().includes(normalizedQuery);
-          const descMatch = calculator.description.toLowerCase().includes(normalizedQuery);
+          const nameMatch = (calculator.name || '').toLowerCase().includes(normalizedQuery);
+          const descMatch = (calculator.description || '').toLowerCase().includes(normalizedQuery);
           const slugMatch = calculator.slug.toLowerCase().includes(normalizedQuery);
           const nameEnMatch = calculator.nameEn ? calculator.nameEn.toLowerCase().includes(normalizedQuery) : false;
           const descEnMatch = calculator.descriptionEn ? calculator.descriptionEn.toLowerCase().includes(normalizedQuery) : false;
@@ -73,12 +73,12 @@ export function SearchAutocomplete({
           if (slugMatch) score += 3;  // Lower priority for slug matches
 
           // Exact matches get higher score
-          if (calculator.name.toLowerCase() === normalizedQuery) score += 50;
+          if ((calculator.name || '').toLowerCase() === normalizedQuery) score += 50;
           if (calculator.nameEn && calculator.nameEn.toLowerCase() === normalizedQuery) score += 50;
           if (calculator.slug.toLowerCase() === normalizedQuery) score += 20;
 
           // Start-of-word matches get higher score
-          if (calculator.name.toLowerCase().startsWith(normalizedQuery)) score += 15;
+          if ((calculator.name || '').toLowerCase().startsWith(normalizedQuery)) score += 15;
           if (calculator.nameEn && calculator.nameEn.toLowerCase().startsWith(normalizedQuery)) score += 15;
 
           return { calculator, score };
@@ -225,7 +225,7 @@ export function SearchAutocomplete({
                   <span className="sr-only">{t('search.searching')}</span>
                 </span>
               ) : (
-                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor" className="w-5 h-5" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
                 </svg>
               )}
@@ -248,8 +248,8 @@ export function SearchAutocomplete({
               className="py-1 divide-y divide-border/50"
             >
               {suggestions.map((calculator, index) => {
-                const name = getCalculatorName(calculator, i18n.language);
-                const description = getCalculatorDescription(calculator, i18n.language);
+                const name = getCalculatorName(calculator, i18n.language) || calculator.name || '';
+                const description = getCalculatorDescription(calculator, i18n.language) || calculator.description || '';
                 const isHighlighted = index === highlightedIndex;
 
                 return (
@@ -300,7 +300,7 @@ export function SearchAutocomplete({
             <div className="py-6 px-4 text-center text-foreground-70">
               {isLoading ? (
                 <div className="flex flex-col items-center" role="status" aria-busy="true">
-                  <svg className="animate-spin h-8 w-8 mb-3 text-primary" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24">
+                  <svg className="animate-spin h-8 w-8 mb-3 text-primary" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" aria-hidden="true">
                     <circle className="opacity-25" cx="12" cy="12" r="10" stroke="currentColor" strokeWidth="4"></circle>
                     <path className="opacity-75" fill="currentColor" d="M4 12a8 8 0 018-8V0C5.373 0 0 5.373 0 12h4zm2 5.291A7.962 7.962 0 014 12H0c0 3.042 1.135 5.824 3 7.938l3-2.647z"></path>
                   </svg>
@@ -308,7 +308,7 @@ export function SearchAutocomplete({
                 </div>
               ) : (
                 <>
-                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 mx-auto mb-3 text-foreground-50">
+                  <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-8 h-8 mx-auto mb-3 text-foreground-50" aria-hidden="true">
                     <path strokeLinecap="round" strokeLinejoin="round" d="M12 9v3.75m9-.75a9 9 0 11-18 0 9 9 0 0118 0zm-9 3.75h.008v.008H12v-.008z" />
                   </svg>
                   <p>{t('search.noResults')}</p>

@@ -35,7 +35,7 @@ const CROP_SEED_WEIGHTS: Record<string, number> = {
 };
 
 export default function SeedRateCalculator() {
-  const { t, i18n } = useTranslation('calc/agriculture');
+  const { t } = useTranslation('calc/agriculture');
   const [area, setArea] = useState<string>('');
   const [areaUnit, setAreaUnit] = useState<string>('acres');
   const [cropType, setCropType] = useState<string>('corn');

@@ -81,7 +81,7 @@ export default function CompostingCalculator() {
         <InputContainer label={t("composting.food_waste")} tooltip={t("composting.food_waste_tooltip")}>
           <NumericInput
             value={foodWaste}
-            onChange={(e: any) => setFoodWaste(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setFoodWaste(e.target.value)}
             endIcon={<span className="text-xs text-muted-foreground">{t("co2_emissions.kg_co2").split(' ')[0]}</span>}
             placeholder={t("composting.enter_amount")}
             min={0}
@@ -92,7 +92,7 @@ export default function CompostingCalculator() {
         <InputContainer label={t("composting.yard_waste")} tooltip={t("composting.yard_waste_tooltip")}>
           <NumericInput
             value={yardWaste}
-            onChange={(e: any) => setYardWaste(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setYardWaste(e.target.value)}
             endIcon={<span className="text-xs text-muted-foreground">{t("co2_emissions.kg_co2").split(' ')[0]}</span>}
             placeholder={t("composting.enter_amount")}
             min={0}
@@ -101,7 +101,7 @@ export default function CompostingCalculator() {
         </InputContainer>
 
         <InputContainer label={t("composting.compost_method")} tooltip={t("composting.compost_method_tooltip")}>
-          <select value={compostMethod} onChange={(e: any) => setCompostMethod(e.target.value)} className="calculator-input w-full">
+          <select value={compostMethod} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setCompostMethod(e.target.value)} className="calculator-input w-full">
             {methodOptions.map((opt: any) => (
               <option key={opt.value} value={opt.value}>{opt.label}</option>
             ))}

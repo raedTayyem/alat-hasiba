@@ -137,9 +137,9 @@ export default function GroutCalculator() {
         // Convert area to sq inches
         const totalAreaSqIn = totalAreaSqFt * 144;
 
-        // Calculate number of tiles
-        const tileAreaSqIn = tileW * tileH;
-        const numberOfTiles = totalAreaSqIn / tileAreaSqIn;
+        // Calculate tile area for approximation
+        // Tile area calculated for reference (not directly used in grout calculation)
+        // tileW * tileH;
 
         // Calculate approximate dimensions for joint length calculation
         // Assume square coverage area

@@ -233,7 +233,7 @@ export default function HebrewHolidays({ year, onYearChange }: HebrewHolidaysPro
         );
       default:
         return (
-          <span className="text-xs bg-gray-100 dark:bg-gray-900/30 text-gray-700 dark:text-gray-300 px-2 py-0.5 rounded">
+          <span className="text-xs bg-muted text-muted-foreground px-2 py-0.5 rounded">
             {t("hebrew-holidays.minor")}
           </span>
         );

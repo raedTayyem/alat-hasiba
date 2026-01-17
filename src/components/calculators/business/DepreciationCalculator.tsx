@@ -40,7 +40,7 @@ interface CalculatorResult {
 type DepreciationMethod = 'straight_line' | 'declining_balance' | 'double_declining';
 
 export default function DepreciationCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [assetCost, setAssetCost] = useState<string>('');
   const [salvageValue, setSalvageValue] = useState<string>('');
   const [usefulLife, setUsefulLife] = useState<string>('');

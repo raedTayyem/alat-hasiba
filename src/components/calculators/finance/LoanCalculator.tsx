@@ -18,7 +18,6 @@ const LoanCalculator: React.FC = () => {
   const isRTL = i18n.language === 'ar';
   const currentLanguage = i18n.language;
   const calculatorSlug = 'loan';
-  const category = 'finance';
 
   // Form state
   const [inputs, setInputs] = useState({
@@ -228,8 +227,8 @@ const LoanCalculator: React.FC = () => {
         <div className={layoutClass}>
           <div className={mainContentClass}>
             
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6 mb-8">
-              <h2 className="text-xl font-semibold text-gray-900 dark:text-gray-100 mb-6">
+            <div className="bg-card rounded-xl shadow-lg p-6 mb-8">
+              <h2 className="text-xl font-semibold text-foreground mb-6">
                 {t('common.inputs')}
               </h2>
               
@@ -399,12 +398,12 @@ const LoanCalculator: React.FC = () => {
           {/* Sidebar */}
           <div className={sidebarClass}>
             {/* How to Use */}
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-4 flex items-center">
+            <div className="bg-card rounded-xl shadow-lg p-6">
+              <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center">
                 <Activity className="w-5 h-5 ml-2 rtl:mr-2 rtl:ml-0 text-primary" />
                 {t('common.how_to_use')}
               </h3>
-              <ol className="space-y-2 text-sm text-gray-600 dark:text-gray-300 list-decimal pl-5">
+              <ol className="space-y-2 text-sm text-muted-foreground list-decimal pl-5">
                 <li>{t('loan.how_to_use.step1')}</li>
                 <li>{t('loan.how_to_use.step2')}</li>
                 <li>{t('loan.how_to_use.step3')}</li>
@@ -413,12 +412,12 @@ const LoanCalculator: React.FC = () => {
             </div>
 
             {/* Features */}
-            <div className="bg-white dark:bg-gray-800 rounded-xl shadow-lg p-6">
-              <h3 className="text-lg font-semibold text-gray-900 dark:text-gray-100 mb-4 flex items-center">
+            <div className="bg-card rounded-xl shadow-lg p-6">
+              <h3 className="text-lg font-semibold text-foreground mb-4 flex items-center">
                 <Info className="w-5 h-5 ml-2 rtl:mr-2 rtl:ml-0 text-primary" />
                 {t('common.features')}
               </h3>
-              <ul className="space-y-2 text-sm text-gray-600 dark:text-gray-300">
+              <ul className="space-y-2 text-sm text-muted-foreground">
                 <li className="flex items-start">
                   <span className="text-primary ml-2 rtl:mr-2 rtl:ml-0">✓</span>
                   {t('common.features.instant_calculation')}

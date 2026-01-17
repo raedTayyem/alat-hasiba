@@ -42,7 +42,7 @@ interface CalculatorResult {
 }
 
 export default function BulkPricingCalculator() {
-  const { t, i18n } = useTranslation(['calc/business', 'common']);
+  const { t } = useTranslation(['calc/business', 'common']);
   const [unitPrice, setUnitPrice] = useState<string>('');
   const [desiredQuantity, setDesiredQuantity] = useState<string>('');
   const [tiers, setTiers] = useState<PricingTier[]>([
@@ -145,11 +145,6 @@ export default function BulkPricingCalculator() {
             isBestValue: false,
           };
         });
-
-        // Find applicable tier for desired quantity
-        const applicableTier = calculatedTiers.find(tier =>
-          qty >= tier.minQuantity && (tier.maxQuantity === null || qty <= tier.maxQuantity)
-        );
 
         // Calculate best value: tier with lowest cost per unit considering quantity needed
         let bestValueTier: TierResult | null = null;

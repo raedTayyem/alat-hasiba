@@ -267,14 +267,14 @@ export default function SequencesCalculator() {
         <h3 className="text-xl font-bold mb-4">{t("sequences_calculator.results")}</h3>
 
         <div className="grid grid-cols-1 gap-4 mb-6">
-          <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
+          <div className="bg-muted dark:bg-muted p-4 rounded-lg">
             <div className="text-foreground-70 mb-2">{t("sequences_calculator.nth_term_value")}</div>
             <div className="text-3xl font-bold text-primary">
               {result.nthTerm.toFixed(4)}
             </div>
           </div>
 
-          <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
+          <div className="bg-muted dark:bg-muted p-4 rounded-lg">
             <div className="text-foreground-70 mb-2">{t("sequences_calculator.sum_of_terms")}</div>
             <div className="text-3xl font-bold text-primary">
               {result.sum.toFixed(4)}
@@ -284,7 +284,7 @@ export default function SequencesCalculator() {
 
         <div className="text-start">
           <h4 className="font-medium mb-3">{t("sequences_calculator.sequence_preview")}</h4>
-          <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
+          <div className="bg-muted dark:bg-muted p-4 rounded-lg">
             <div className="flex flex-wrap gap-2" dir="ltr">
               {result.sequence.map((val, i) => (
                 <span key={i} className="px-3 py-1 bg-primary/10 text-primary rounded font-mono">

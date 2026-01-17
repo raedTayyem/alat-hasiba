@@ -23,7 +23,7 @@ interface CalculatorResult {
 }
 
 export default function DPSCalculator() {
-  const { t, i18n } = useTranslation('calc/gaming');
+  const { t } = useTranslation('calc/gaming');
   const [damage, setDamage] = useState<string>('');
   const [attackSpeed, setAttackSpeed] = useState<string>('');
   const [critChance, setCritChance] = useState<string>('');

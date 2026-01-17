@@ -35,9 +35,9 @@ function deepMerge(target: Record<string, unknown>, source: Record<string, unkno
 
 // Custom request function that handles split translation files
 async function customRequest(
-  options: { url: string },
+  _options: { url: string },
   url: string,
-  payload: unknown,
+  _payload: unknown,
   callback: (error: Error | null, response: { status: number; data: string } | null) => void
 ) {
   // Extract language and namespace from URL

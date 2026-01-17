@@ -7,7 +7,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Sword, Skull, Gamepad2, Target, Crosshair, TrendingUp, Percent } from 'lucide-react';
+import { Sword, Skull, Gamepad2, Percent } from 'lucide-react';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';
@@ -23,7 +23,7 @@ interface CalculatorResult {
 }
 
 export default function KDRatioCalculator() {
-  const { t, i18n } = useTranslation('calc/gaming');
+  const { t } = useTranslation('calc/gaming');
   const [kills, setKills] = useState<string>('');
   const [deaths, setDeaths] = useState<string>('');
   const [games, setGames] = useState<string>('');

@@ -24,7 +24,7 @@ export default function CatAgeCalculator() {
   const { t } = useTranslation('calc/pet');
   const [catAge, setCatAge] = useState<string>('');
   const [result, setResult] = useState<CalculatorResult | null>(null);
-  const [showResult, setShowResult] = useState<boolean>(false);
+  const [, setShowResult] = useState<boolean>(false);
   const [error, setError] = useState<string>('');
 
   useEffect(() => {

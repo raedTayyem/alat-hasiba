@@ -23,7 +23,7 @@ interface CalculatorResult {
 }
 
 export default function CPACalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [totalCost, setTotalCost] = useState<string>('');
   const [conversions, setConversions] = useState<string>('');
 

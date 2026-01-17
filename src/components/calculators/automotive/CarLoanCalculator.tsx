@@ -30,7 +30,7 @@ interface CarLoanResult {
 // MAIN COMPONENT
 // =============================================================================
 export default function CarLoanCalculator() {
-  const { t, i18n } = useTranslation('calc/automotive');
+  const { t } = useTranslation('calc/automotive');
   // State for inputs
   const [loanAmount, setLoanAmount] = useState<string>('');
   const [interestRate, setInterestRate] = useState<string>('');

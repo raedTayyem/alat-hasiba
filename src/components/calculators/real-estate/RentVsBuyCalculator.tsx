@@ -16,22 +16,6 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';
 
-interface CalculatorInputs {
-  homePrice: number;
-  downPaymentPercent: number;
-  interestRate: number;
-  loanTermYears: number;
-  propertyTaxRate: number;
-  homeInsurance: number;
-  hoaFees: number;
-  maintenanceRate: number;
-  homeAppreciationRate: number;
-  monthlyRent: number;
-  rentIncreaseRate: number;
-  rentersInsurance: number;
-  investmentReturnRate: number;
-}
-
 interface YearlyComparison {
   year: number;
   buyingTotalCost: number;
@@ -60,24 +44,8 @@ interface CalculatorResult {
   recommendation: string;
 }
 
-const DEFAULT_VALUES: CalculatorInputs = {
-  homePrice: 300000,
-  downPaymentPercent: 20,
-  interestRate: 6.5,
-  loanTermYears: 30,
-  propertyTaxRate: 1.2,
-  homeInsurance: 1200,
-  hoaFees: 0,
-  maintenanceRate: 1,
-  homeAppreciationRate: 3,
-  monthlyRent: 1500,
-  rentIncreaseRate: 3,
-  rentersInsurance: 180,
-  investmentReturnRate: 7,
-};
-
 export default function RentVsBuyCalculator() {
-  const { t, i18n } = useTranslation('calc/real-estate');
+  const { t } = useTranslation('calc/real-estate');
   const [homePrice, setHomePrice] = useState<string>('');
   const [downPaymentPercent, setDownPaymentPercent] = useState<string>('20');
   const [interestRate, setInterestRate] = useState<string>('6.5');

@@ -146,7 +146,6 @@ export default function StringerCalculator() {
 
         // Calculate throat width (remaining material at the thinnest point)
         // Throat = Stringer Width - √(Riser² + Tread²)
-        const cutoutDiagonal = Math.sqrt(Math.pow(riserHeight, 2) + Math.pow(treadDepth, 2));
         const throatWidth = width - (riserHeight * Math.sin(Math.atan(treadDepth / riserHeight)));
 
         // Determine number of stringers needed based on stair width

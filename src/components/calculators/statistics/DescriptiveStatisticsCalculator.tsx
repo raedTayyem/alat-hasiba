@@ -181,15 +181,15 @@ export default function DescriptiveStatisticsCalculator() {
         <div>
           <h4 className="font-medium mb-3">{t("descriptive_statistics_calculator.central_tendency")}</h4>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-            <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
+            <div className="bg-muted dark:bg-muted p-4 rounded-lg">
               <div className="text-foreground-70 text-sm mb-1">{t("descriptive_statistics_calculator.mean")}</div>
               <div className="text-xl font-bold text-primary">{result.mean.toFixed(4)}</div>
             </div>
-            <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
+            <div className="bg-muted dark:bg-muted p-4 rounded-lg">
               <div className="text-foreground-70 text-sm mb-1">{t("descriptive_statistics_calculator.median")}</div>
               <div className="text-xl font-bold text-primary">{result.median.toFixed(4)}</div>
             </div>
-            <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
+            <div className="bg-muted dark:bg-muted p-4 rounded-lg">
               <div className="text-foreground-70 text-sm mb-1">{t("descriptive_statistics_calculator.mode")}</div>
               <div className="text-xl font-bold text-primary">{result.mode.join(', ')}</div>
             </div>
@@ -199,19 +199,19 @@ export default function DescriptiveStatisticsCalculator() {
         <div>
           <h4 className="font-medium mb-3">{t("descriptive_statistics_calculator.dispersion")}</h4>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
+            <div className="bg-muted dark:bg-muted p-4 rounded-lg">
               <div className="text-foreground-70 text-sm mb-1">{t("descriptive_statistics_calculator.variance")}</div>
               <div className="text-xl font-bold text-primary">{result.variance.toFixed(4)}</div>
             </div>
-            <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
+            <div className="bg-muted dark:bg-muted p-4 rounded-lg">
               <div className="text-foreground-70 text-sm mb-1">{t("descriptive_statistics_calculator.std_dev")}</div>
               <div className="text-xl font-bold text-primary">{result.stdDev.toFixed(4)}</div>
             </div>
-            <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
+            <div className="bg-muted dark:bg-muted p-4 rounded-lg">
               <div className="text-foreground-70 text-sm mb-1">{t("descriptive_statistics_calculator.range")}</div>
               <div className="text-xl font-bold text-primary">{result.range.toFixed(4)}</div>
             </div>
-            <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
+            <div className="bg-muted dark:bg-muted p-4 rounded-lg">
               <div className="text-foreground-70 text-sm mb-1">{t("descriptive_statistics_calculator.iqr")}</div>
               <div className="text-xl font-bold text-primary">{result.iqr.toFixed(4)}</div>
             </div>
@@ -221,11 +221,11 @@ export default function DescriptiveStatisticsCalculator() {
         <div>
           <h4 className="font-medium mb-3">{t("descriptive_statistics_calculator.shape")}</h4>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-            <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
+            <div className="bg-muted dark:bg-muted p-4 rounded-lg">
               <div className="text-foreground-70 text-sm mb-1">{t("descriptive_statistics_calculator.skewness")}</div>
               <div className="text-xl font-bold text-primary">{result.skewness.toFixed(4)}</div>
             </div>
-            <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
+            <div className="bg-muted dark:bg-muted p-4 rounded-lg">
               <div className="text-foreground-70 text-sm mb-1">{t("descriptive_statistics_calculator.kurtosis")}</div>
               <div className="text-xl font-bold text-primary">{result.kurtosis.toFixed(4)}</div>
             </div>
@@ -235,19 +235,19 @@ export default function DescriptiveStatisticsCalculator() {
         <div>
           <h4 className="font-medium mb-3">{t("descriptive_statistics_calculator.summary")}</h4>
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
+            <div className="bg-muted dark:bg-muted p-4 rounded-lg">
               <div className="text-foreground-70 text-sm mb-1">{t("descriptive_statistics_calculator.count")}</div>
               <div className="text-xl font-bold text-primary">{result.count}</div>
             </div>
-            <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
+            <div className="bg-muted dark:bg-muted p-4 rounded-lg">
               <div className="text-foreground-70 text-sm mb-1">{t("descriptive_statistics_calculator.sum")}</div>
               <div className="text-xl font-bold text-primary">{result.sum.toFixed(2)}</div>
             </div>
-            <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
+            <div className="bg-muted dark:bg-muted p-4 rounded-lg">
               <div className="text-foreground-70 text-sm mb-1">{t("descriptive_statistics_calculator.min")}</div>
               <div className="text-xl font-bold text-primary">{result.min.toFixed(4)}</div>
             </div>
-            <div className="bg-gray-50 dark:bg-gray-700/50 p-4 rounded-lg">
+            <div className="bg-muted dark:bg-muted p-4 rounded-lg">
               <div className="text-foreground-70 text-sm mb-1">{t("descriptive_statistics_calculator.max")}</div>
               <div className="text-xl font-bold text-primary">{result.max.toFixed(4)}</div>
             </div>

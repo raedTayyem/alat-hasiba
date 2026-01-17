@@ -13,7 +13,7 @@ import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { initDateInputRTL } from '../../../utils/dateInputRTL';
 
 export default function DebtToEquityCalculator() {
-  const { t, i18n } = useTranslation(['calc/business', 'common']);
+  const { t } = useTranslation(['calc/business', 'common']);
   const [totalDebt, setTotalDebt] = useState<string>('');
   const [totalEquity, setTotalEquity] = useState<string>('');
   const [result, setResult] = useState<{ratio: number; risk: string} | null>(null);

@@ -22,7 +22,7 @@ interface CalculatorResult {
 }
 
 export default function CapRateCalculator() {
-  const { t, i18n } = useTranslation('calc/real-estate');
+  const { t } = useTranslation('calc/real-estate');
   const [propertyValue, setPropertyValue] = useState<string>('');
   const [annualIncome, setAnnualIncome] = useState<string>('');
   const [operatingExpenses, setOperatingExpenses] = useState<string>('');

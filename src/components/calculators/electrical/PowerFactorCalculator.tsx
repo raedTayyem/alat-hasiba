@@ -80,7 +80,7 @@ export default function PowerFactorCalculator() {
         <InputContainer label={t("power_factor.active_power")} tooltip={t("power_factor.enter_active")}>
           <NumericInput
             value={activePower}
-            onChange={(e: any) => setActivePower(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setActivePower(e.target.value)}
             unit={t("ohms_law.unit_kilo_watt")}
             placeholder={t("power_factor.enter_active")}
             min={0}
@@ -91,7 +91,7 @@ export default function PowerFactorCalculator() {
         <InputContainer label={t("power_factor.reactive_power")} tooltip={t("power_factor.enter_reactive")}>
           <NumericInput
             value={reactivePower}
-            onChange={(e: any) => setReactivePower(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setReactivePower(e.target.value)}
             unit={t("ohms_law.unit_volt_ampere_reactive_kilo")}
             placeholder={t("power_factor.enter_reactive")}
             min={0}
@@ -102,7 +102,7 @@ export default function PowerFactorCalculator() {
         <InputContainer label={t("power_factor.target_pf")} tooltip={t("power_factor.enter_target")}>
           <NumericInput
             value={targetPF}
-            onChange={(e: any) => setTargetPF(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setTargetPF(e.target.value)}
             unit=""
             placeholder="0.95"
             min={0}
@@ -114,7 +114,7 @@ export default function PowerFactorCalculator() {
         <InputContainer label={t("power_factor.voltage")} tooltip={t("power_factor.enter_voltage")}>
           <NumericInput
             value={voltage}
-            onChange={(e: any) => setVoltage(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setVoltage(e.target.value)}
             unit={t("ohms_law.unit_voltage")}
             placeholder="380"
             min={0}
@@ -125,7 +125,7 @@ export default function PowerFactorCalculator() {
         <InputContainer label={t("power_factor.frequency")} tooltip={t("power_factor.enter_frequency")}>
           <NumericInput
             value={frequency}
-            onChange={(e: any) => setFrequency(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setFrequency(e.target.value)}
             unit={t("ohms_law.unit_hertz")}
             placeholder="50"
             min={0}

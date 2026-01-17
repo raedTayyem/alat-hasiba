@@ -67,7 +67,7 @@ export default function ResonanceCalculator() {
         <InputContainer label={t("resonance.inductance")} tooltip={t("resonance.enter_inductance")}>
           <NumericInput
             value={inductance}
-            onChange={(e: any) => setInductance(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setInductance(e.target.value)}
             unit={t("ohms_law.unit_milli_henry")}
             placeholder={t("resonance.enter_inductance")}
             min={0}
@@ -78,7 +78,7 @@ export default function ResonanceCalculator() {
         <InputContainer label={t("resonance.capacitance")} tooltip={t("resonance.enter_capacitance")}>
           <NumericInput
             value={capacitance}
-            onChange={(e: any) => setCapacitance(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCapacitance(e.target.value)}
             unit={t("ohms_law.unit_micro_farad")}
             placeholder={t("resonance.enter_capacitance")}
             min={0}
@@ -89,7 +89,7 @@ export default function ResonanceCalculator() {
         <InputContainer label={t("resonance.resistance")} tooltip={t("resonance.enter_resistance")}>
           <NumericInput
             value={resistance}
-            onChange={(e: any) => setResistance(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setResistance(e.target.value)}
             unit={t("ohms_law.unit_resistance")}
             placeholder={t("resonance.enter_resistance")}
             min={0}

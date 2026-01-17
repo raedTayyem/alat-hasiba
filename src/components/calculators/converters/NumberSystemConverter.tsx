@@ -23,7 +23,6 @@ export default function NumberSystemConverter() {
   const [inputValue, setInputValue] = useState<string>('42');
   const [results, setResults] = useState<Record<string, string>>({});
   const [error, setError] = useState<string>('');
-  const [showResult, setShowResult] = useState<boolean>(true);
 
   useEffect(() => {
     initDateInputRTL();
@@ -176,7 +175,7 @@ export default function NumberSystemConverter() {
   );
 
   const resultSection = Object.keys(results).length > 0 ? (
-    <div className={`bg-card-bg border border-border rounded-xl p-6 shadow-sm h-full space-y-6 ${showResult ? 'animate-fadeIn' : 'opacity-0'}`}>
+    <div className="bg-card-bg border border-border rounded-xl p-6 shadow-sm h-full space-y-6 animate-fadeIn">
       <div className="space-y-4">
         <h3 className="text-lg font-medium mb-2">{t("number_system.conversion_summary")}</h3>
         <div className="space-y-2 text-sm">

@@ -74,7 +74,7 @@ export default function Timer555Calculator() {
         <InputContainer label={t("timer_555.mode")} tooltip={t("timer_555.mode_tooltip")}>
           <select
             value={mode}
-            onChange={(e: any) => setMode(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setMode(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="astable">{t("timer_555.astable")}</option>
@@ -85,7 +85,7 @@ export default function Timer555Calculator() {
         <InputContainer label={t("timer_555.r1")} tooltip={t("timer_555.r1_tooltip")}>
           <NumericInput
             value={r1}
-            onChange={(e: any) => setR1(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setR1(e.target.value)}
             unit={t("ohms_law.unit_kilo_ohm")}
             placeholder={t("timer_555.enter_r1")}
             min={0}
@@ -97,7 +97,7 @@ export default function Timer555Calculator() {
           <InputContainer label={t("timer_555.r2")} tooltip={t("timer_555.r2_tooltip")}>
             <NumericInput
               value={r2}
-              onChange={(e: any) => setR2(e.target.value)}
+              onChange={(e: React.ChangeEvent<HTMLInputElement>) => setR2(e.target.value)}
               unit={t("ohms_law.unit_kilo_ohm")}
               placeholder={t("timer_555.enter_r2")}
               min={0}
@@ -109,7 +109,7 @@ export default function Timer555Calculator() {
         <InputContainer label={t("timer_555.capacitance")} tooltip={t("timer_555.capacitance_tooltip")}>
           <NumericInput
             value={capacitance}
-            onChange={(e: any) => setCapacitance(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCapacitance(e.target.value)}
             unit={t("ohms_law.unit_micro_farad")}
             placeholder={t("timer_555.enter_capacitance")}
             min={0}

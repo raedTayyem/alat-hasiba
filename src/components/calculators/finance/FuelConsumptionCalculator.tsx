@@ -16,14 +16,6 @@ import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { initDateInputRTL } from '../../../utils/dateInputRTL';
 
-interface CalculatorInputs {
-  distance: number;
-  fuelUsed: number;
-  fuelPrice: number;
-  annualDistance: number;
-  unit: string;
-}
-
 interface CalculatorResult {
   litersPer100km: number;
   mpg: number;
@@ -34,13 +26,6 @@ interface CalculatorResult {
   treesNeeded: number;
 }
 
-const DEFAULT_VALUES: CalculatorInputs = {
-  distance: 0,
-  fuelUsed: 0,
-  fuelPrice: 0,
-  annualDistance: 0,
-  unit: 'metric',
-};
 
 export default function FuelConsumptionCalculator() {
   const { t } = useTranslation(['calc/automotive', 'common']);

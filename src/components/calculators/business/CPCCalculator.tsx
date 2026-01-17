@@ -23,7 +23,7 @@ interface CalculatorResult {
 }
 
 export default function CPCCalculator() {
-  const { t, i18n } = useTranslation(['calc/business', 'common']);
+  const { t } = useTranslation(['calc/business', 'common']);
   const [totalCost, setTotalCost] = useState<string>('');
   const [clicks, setClicks] = useState<string>('');
 

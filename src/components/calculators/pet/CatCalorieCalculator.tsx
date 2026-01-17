@@ -8,8 +8,7 @@ import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
 export default function CatCalorieCalculator() {
-  const { t, i18n } = useTranslation(['calc/pet', 'common']);
-  const isRTL = i18n.language === 'ar';
+  const { t } = useTranslation(['calc/pet', 'common']);
   const [weight, setWeight] = useState<string>('');
   const [activityLevel, setActivityLevel] = useState<string>('moderate');
   const [neutered, setNeutered] = useState<boolean>(false);
@@ -93,7 +92,7 @@ export default function CatCalorieCalculator() {
         >
           <NumericInput
             value={weight}
-            onChange={(e: any) => setWeight(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setWeight(e.target.value)}
             unit={t("common:units.kg")}
             placeholder={t("cat_calorie_calculator.placeholder_weight")}
             min={0}
@@ -108,7 +107,7 @@ export default function CatCalorieCalculator() {
         >
           <select
             value={activityLevel}
-            onChange={(e: any) => setActivityLevel(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setActivityLevel(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="sedentary">{t("cat_calorie_calculator.activity_sedentary")}</option>
@@ -124,7 +123,7 @@ export default function CatCalorieCalculator() {
         >
           <select
             value={condition}
-            onChange={(e: any) => setCondition(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setCondition(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="underweight">{t("cat_calorie_calculator.condition_underweight")}</option>
@@ -142,7 +141,7 @@ export default function CatCalorieCalculator() {
               type="checkbox"
               id="neutered"
               checked={neutered}
-              onChange={(e: any) => setNeutered(e.target.checked)}
+              onChange={(e: React.ChangeEvent<HTMLInputElement>) => setNeutered(e.target.checked)}
               className="w-5 h-5"
             />
             <label htmlFor="neutered" className="cursor-pointer">
@@ -192,17 +191,17 @@ export default function CatCalorieCalculator() {
             {t("cat_food_calculator.results_title")}
           </h4>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-3">
-            <div className="text-center p-3 bg-white dark:bg-gray-800 rounded">
+            <div className="text-center p-3 bg-card rounded">
               <div className="text-sm text-foreground-70">{t("cat_calorie_calculator.result_protein")}</div>
               <div className="text-xl font-bold text-blue-600">{result.proteinGrams}g</div>
               <div className="text-xs text-foreground-50">40%</div>
             </div>
-            <div className="text-center p-3 bg-white dark:bg-gray-800 rounded">
+            <div className="text-center p-3 bg-card rounded">
               <div className="text-sm text-foreground-70">{t("cat_calorie_calculator.result_fat")}</div>
               <div className="text-xl font-bold text-orange-600">{result.fatGrams}g</div>
               <div className="text-xs text-foreground-50">20%</div>
             </div>
-            <div className="text-center p-3 bg-white dark:bg-gray-800 rounded">
+            <div className="text-center p-3 bg-card rounded">
               <div className="text-sm text-foreground-70">{t("cat_calorie_calculator.result_carbs")}</div>
               <div className="text-xl font-bold text-green-600">{result.carbGrams}g</div>
               <div className="text-xs text-foreground-50">40%</div>

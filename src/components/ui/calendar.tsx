@@ -32,7 +32,7 @@ export const Calendar = React.forwardRef<HTMLDivElement, CalendarProps>(
         {...props}
       >
         <div className="flex justify-between items-center mb-2">
-          <button 
+          <button
             onClick={() => {
               if (onMonthChange && month) {
                 const newMonth = new Date(month);
@@ -40,14 +40,15 @@ export const Calendar = React.forwardRef<HTMLDivElement, CalendarProps>(
                 onMonthChange(newMonth);
               }
             }}
-            className="p-1 rounded hover:bg-gray-100"
+            className="p-1 rounded hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            aria-label={t('calendar.previousMonth', 'Previous month')}
           >
             {i18n.language === 'ar' ? '>' : '<'}
           </button>
-          <div className="font-medium">
+          <div className="font-medium" aria-live="polite">
             {monthName} {year}
           </div>
-          <button 
+          <button
             onClick={() => {
               if (onMonthChange && month) {
                 const newMonth = new Date(month);
@@ -55,7 +56,8 @@ export const Calendar = React.forwardRef<HTMLDivElement, CalendarProps>(
                 onMonthChange(newMonth);
               }
             }}
-            className="p-1 rounded hover:bg-gray-100"
+            className="p-1 rounded hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
+            aria-label={t('calendar.nextMonth', 'Next month')}
           >
             {i18n.language === 'ar' ? '<' : '>'}
           </button>

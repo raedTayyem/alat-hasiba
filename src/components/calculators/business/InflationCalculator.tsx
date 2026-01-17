@@ -27,7 +27,7 @@ interface CalculatorResult {
 }
 
 export default function InflationCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [presentValue, setPresentValue] = useState<string>('');
   const [years, setYears] = useState<string>('');
   const [inflationRate, setInflationRate] = useState<string>('');

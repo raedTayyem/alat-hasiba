@@ -8,8 +8,7 @@ import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
 export default function AquariumCalculator() {
-  const { t, i18n } = useTranslation('calc/pet');
-  const isRTL = i18n.language === 'ar';
+  const { t } = useTranslation('calc/pet');
   const [length, setLength] = useState<string>('');
   const [width, setWidth] = useState<string>('');
   const [height, setHeight] = useState<string>('');
@@ -77,20 +76,20 @@ export default function AquariumCalculator() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <InputContainer label={t("aquarium_calculator.length")}>
-          <NumericInput value={length} onChange={(e: any) => setLength(e.target.value)} unit={t("common:common.units.cm")} placeholder="0" min={0} step={1} />
+          <NumericInput value={length} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setLength(e.target.value)} unit={t("common:common.units.cm")} placeholder="0" min={0} step={1} />
         </InputContainer>
 
         <InputContainer label={t("aquarium_calculator.width")}>
-          <NumericInput value={width} onChange={(e: any) => setWidth(e.target.value)} unit={t("common:common.units.cm")} placeholder="0" min={0} step={1} />
+          <NumericInput value={width} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setWidth(e.target.value)} unit={t("common:common.units.cm")} placeholder="0" min={0} step={1} />
         </InputContainer>
 
         <InputContainer label={t("aquarium_calculator.height")}>
-          <NumericInput value={height} onChange={(e: any) => setHeight(e.target.value)} unit={t("common:common.units.cm")} placeholder="0" min={0} step={1} />
+          <NumericInput value={height} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setHeight(e.target.value)} unit={t("common:common.units.cm")} placeholder="0" min={0} step={1} />
         </InputContainer>
       </div>
 
       <InputContainer label={t("aquarium_calculator.fish_size")}>
-        <select value={fishSize} onChange={(e: any) => setFishSize(e.target.value)} className="calculator-input w-full">
+        <select value={fishSize} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setFishSize(e.target.value)} className="calculator-input w-full">
           <option value="small">{t("aquarium_calculator.fish_small")}</option>
           <option value="medium">{t("aquarium_calculator.fish_medium")}</option>
           <option value="large">{t("aquarium_calculator.fish_large")}</option>

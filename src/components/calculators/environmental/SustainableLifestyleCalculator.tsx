@@ -151,7 +151,7 @@ export default function SustainableLifestyleCalculator() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("sustainable_lifestyle.energy")} tooltip={t("sustainable_lifestyle.energy_tooltip")}>
-          <select value={energy} onChange={(e: any) => setEnergy(e.target.value)} className="calculator-input w-full">
+          <select value={energy} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setEnergy(e.target.value)} className="calculator-input w-full">
             {energyOptions.map((opt: any) => (
               <option key={opt.value} value={opt.value}>{opt.label}</option>
             ))}
@@ -159,7 +159,7 @@ export default function SustainableLifestyleCalculator() {
         </InputContainer>
 
         <InputContainer label={t("sustainable_lifestyle.transport")} tooltip={t("sustainable_lifestyle.transport_tooltip")}>
-          <select value={transport} onChange={(e: any) => setTransport(e.target.value)} className="calculator-input w-full">
+          <select value={transport} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setTransport(e.target.value)} className="calculator-input w-full">
             {transportOptions.map((opt: any) => (
               <option key={opt.value} value={opt.value}>{opt.label}</option>
             ))}
@@ -167,7 +167,7 @@ export default function SustainableLifestyleCalculator() {
         </InputContainer>
 
         <InputContainer label={t("sustainable_lifestyle.diet")} tooltip={t("sustainable_lifestyle.diet_tooltip")}>
-          <select value={diet} onChange={(e: any) => setDiet(e.target.value)} className="calculator-input w-full">
+          <select value={diet} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setDiet(e.target.value)} className="calculator-input w-full">
             {dietOptions.map((opt: any) => (
               <option key={opt.value} value={opt.value}>{opt.label}</option>
             ))}
@@ -175,7 +175,7 @@ export default function SustainableLifestyleCalculator() {
         </InputContainer>
 
         <InputContainer label={t("sustainable_lifestyle.waste")} tooltip={t("sustainable_lifestyle.waste_tooltip")}>
-          <select value={waste} onChange={(e: any) => setWaste(e.target.value)} className="calculator-input w-full">
+          <select value={waste} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setWaste(e.target.value)} className="calculator-input w-full">
             {wasteOptions.map((opt: any) => (
               <option key={opt.value} value={opt.value}>{opt.label}</option>
             ))}
@@ -183,7 +183,7 @@ export default function SustainableLifestyleCalculator() {
         </InputContainer>
 
         <InputContainer label={t("sustainable_lifestyle.water")} tooltip={t("sustainable_lifestyle.water_tooltip")}>
-          <select value={water} onChange={(e: any) => setWater(e.target.value)} className="calculator-input w-full">
+          <select value={water} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setWater(e.target.value)} className="calculator-input w-full">
             {waterOptions.map((opt: any) => (
               <option key={opt.value} value={opt.value}>{opt.label}</option>
             ))}
@@ -191,7 +191,7 @@ export default function SustainableLifestyleCalculator() {
         </InputContainer>
 
         <InputContainer label={t("sustainable_lifestyle.shopping")} tooltip={t("sustainable_lifestyle.shopping_tooltip")}>
-          <select value={shopping} onChange={(e: any) => setShopping(e.target.value)} className="calculator-input w-full">
+          <select value={shopping} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setShopping(e.target.value)} className="calculator-input w-full">
             {shoppingOptions.map((opt: any) => (
               <option key={opt.value} value={opt.value}>{opt.label}</option>
             ))}

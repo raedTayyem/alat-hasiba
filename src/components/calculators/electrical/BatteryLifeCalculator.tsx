@@ -8,7 +8,7 @@ import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
 export default function BatteryLifeCalculator() {
-  const { t, i18n } = useTranslation(['calc/electrical', 'common']);
+  const { t } = useTranslation(['calc/electrical', 'common']);
   const [batteryCapacity, setBatteryCapacity] = useState<string>('');
   const [loadCurrent, setLoadCurrent] = useState<string>('');
   const [efficiency, setEfficiency] = useState<string>('90');
@@ -56,7 +56,7 @@ export default function BatteryLifeCalculator() {
         <InputContainer label={t("battery_life.capacity")} tooltip={t("battery_life.capacity_tooltip")}>
           <NumericInput
             value={batteryCapacity}
-            onChange={(e: any) => setBatteryCapacity(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setBatteryCapacity(e.target.value)}
             unit={t("common:units.mAh")}
             placeholder={t("battery_life.enter_capacity")}
             min={0}
@@ -67,7 +67,7 @@ export default function BatteryLifeCalculator() {
         <InputContainer label={t("battery_life.load_current")} tooltip={t("battery_life.current_tooltip")}>
           <NumericInput
             value={loadCurrent}
-            onChange={(e: any) => setLoadCurrent(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setLoadCurrent(e.target.value)}
             unit={t("common:units.mA")}
             placeholder={t("battery_life.enter_current")}
             min={0}
@@ -78,7 +78,7 @@ export default function BatteryLifeCalculator() {
         <InputContainer label={t("battery_life.efficiency")} tooltip={t("battery_life.efficiency_tooltip")}>
           <NumericInput
             value={efficiency}
-            onChange={(e: any) => setEfficiency(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setEfficiency(e.target.value)}
             unit={t("common:units.percent")}
             placeholder="90"
             min={0}

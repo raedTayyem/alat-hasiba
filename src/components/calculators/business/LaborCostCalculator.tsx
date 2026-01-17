@@ -28,7 +28,7 @@ interface CalculatorResult {
 }
 
 export default function LaborCostCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [hourlyRate, setHourlyRate] = useState<string>('');
   const [hoursPerWeek, setHoursPerWeek] = useState<string>('');
   const [benefitsPercentage, setBenefitsPercentage] = useState<string>('25');

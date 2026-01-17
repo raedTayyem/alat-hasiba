@@ -8,7 +8,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { DollarSign, Calendar, Car, Cog, FileText, Receipt, Info, Percent } from 'lucide-react';
+import { DollarSign, Calendar, Cog, FileText, Info, Percent } from 'lucide-react';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';
@@ -68,7 +68,7 @@ const getAgeFactor = (age: number): number => {
 // MAIN COMPONENT
 // =============================================================================
 export default function RegistrationFeeCalculator() {
-  const { t, i18n } = useTranslation(['calc/automotive', 'common']);
+  const { t } = useTranslation(['calc/automotive', 'common']);
 
   // State for inputs
   const [vehicleValue, setVehicleValue] = useState<string>('');

@@ -84,7 +84,7 @@ export default function HamsterLifespanCalculator() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("hamster_lifespan_calculator.label_type")}>
-          <select value={hamsterType} onChange={(e: any) => setHamsterType(e.target.value)} className="calculator-input w-full">
+          <select value={hamsterType} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setHamsterType(e.target.value)} className="calculator-input w-full">
             <option value="syrian">{t("hamster_lifespan_calculator.type_syrian")}</option>
             <option value="dwarf">{t("hamster_lifespan_calculator.type_dwarf")}</option>
             <option value="roborovski">{t("hamster_lifespan_calculator.type_roborovski")}</option>
@@ -93,7 +93,7 @@ export default function HamsterLifespanCalculator() {
         </InputContainer>
 
         <InputContainer label={t("hamster_lifespan_calculator.label_age")}>
-          <NumericInput value={currentAge} onChange={(e: any) => setCurrentAge(e.target.value)} unit={t("hamster_lifespan_calculator.unit_months")} placeholder={t("hamster_lifespan_calculator.placeholder_age")} min={0} max={48} step={1} />
+          <NumericInput value={currentAge} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCurrentAge(e.target.value)} unit={t("hamster_lifespan_calculator.unit_months")} placeholder={t("hamster_lifespan_calculator.placeholder_age")} min={0} max={48} step={1} />
         </InputContainer>
       </div>
 

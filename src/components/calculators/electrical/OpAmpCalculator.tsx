@@ -68,7 +68,7 @@ export default function OpAmpCalculator() {
         <InputContainer label={t("op_amp.config")} tooltip={t("op_amp.config_tooltip")}>
           <select
             value={config}
-            onChange={(e: any) => setConfig(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setConfig(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="inverting">{t("op_amp.inverting")}</option>
@@ -79,7 +79,7 @@ export default function OpAmpCalculator() {
         <InputContainer label={t("op_amp.input_voltage")} tooltip={t("op_amp.input_voltage_tooltip")}>
           <NumericInput
             value={inputVoltage}
-            onChange={(e: any) => setInputVoltage(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setInputVoltage(e.target.value)}
             unit={t("ohms_law.unit_voltage")}
             placeholder={t("op_amp.enter_vin")}
             step={0.01}
@@ -89,7 +89,7 @@ export default function OpAmpCalculator() {
         <InputContainer label={t("op_amp.r1")} tooltip={t("op_amp.r1_tooltip")}>
           <NumericInput
             value={r1}
-            onChange={(e: any) => setR1(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setR1(e.target.value)}
             unit={t("ohms_law.unit_kilo_ohm")}
             placeholder={t("op_amp.enter_r1")}
             min={0}
@@ -100,7 +100,7 @@ export default function OpAmpCalculator() {
         <InputContainer label={t("op_amp.r2")} tooltip={t("op_amp.r2_tooltip")}>
           <NumericInput
             value={r2}
-            onChange={(e: any) => setR2(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setR2(e.target.value)}
             unit={t("ohms_law.unit_kilo_ohm")}
             placeholder={t("op_amp.enter_r2")}
             min={0}

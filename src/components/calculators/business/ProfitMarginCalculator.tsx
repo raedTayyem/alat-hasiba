@@ -29,7 +29,7 @@ interface CalculatorResult {
 
 export default function ProfitMarginCalculator() {
   // Hooks
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   // State Management
   const [revenue, setRevenue] = useState<string>('');
   const [cogs, setCogs] = useState<string>('');

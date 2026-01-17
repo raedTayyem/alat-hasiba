@@ -276,7 +276,7 @@ export default function EnergyCalculator() {
           <button
             onClick={() => { setMode('kinetic'); setResult(null); setError(''); }}
             className={`px-4 py-2 rounded-lg transition-colors ${
-              mode === 'kinetic' ? 'bg-primary text-white' : 'bg-gray-200 dark:bg-gray-700'
+              mode === 'kinetic' ? 'bg-primary text-white' : 'bg-muted dark:bg-muted'
             }`}
           >
             {t('energy.modes.kinetic')}
@@ -284,7 +284,7 @@ export default function EnergyCalculator() {
           <button
             onClick={() => { setMode('potential'); setResult(null); setError(''); }}
             className={`px-4 py-2 rounded-lg transition-colors ${
-              mode === 'potential' ? 'bg-primary text-white' : 'bg-gray-200 dark:bg-gray-700'
+              mode === 'potential' ? 'bg-primary text-white' : 'bg-muted dark:bg-muted'
             }`}
           >
             {t('energy.modes.potential')}
@@ -292,7 +292,7 @@ export default function EnergyCalculator() {
           <button
             onClick={() => { setMode('mechanical'); setResult(null); setError(''); }}
             className={`px-4 py-2 rounded-lg transition-colors ${
-              mode === 'mechanical' ? 'bg-primary text-white' : 'bg-gray-200 dark:bg-gray-700'
+              mode === 'mechanical' ? 'bg-primary text-white' : 'bg-muted dark:bg-muted'
             }`}
           >
             {t('energy.modes.mechanical')}
@@ -300,7 +300,7 @@ export default function EnergyCalculator() {
           <button
             onClick={() => { setMode('work'); setResult(null); setError(''); }}
             className={`px-4 py-2 rounded-lg transition-colors ${
-              mode === 'work' ? 'bg-primary text-white' : 'bg-gray-200 dark:bg-gray-700'
+              mode === 'work' ? 'bg-primary text-white' : 'bg-muted dark:bg-muted'
             }`}
           >
             {t('energy.modes.work')}
@@ -354,7 +354,7 @@ export default function EnergyCalculator() {
               </div>
             </FormField>
 
-            <div className="text-sm text-gray-600 dark:text-gray-400 bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
+            <div className="text-sm text-muted-foreground bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
               <Info className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" />
               <div>
                 <strong>{t('common.info')}:</strong> {t('energy.formulas.kinetic')}<br />
@@ -419,7 +419,7 @@ export default function EnergyCalculator() {
               />
             </FormField>
 
-            <div className="text-sm text-gray-600 dark:text-gray-400 bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
+            <div className="text-sm text-muted-foreground bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
               <Info className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" />
               <div>
                 <strong>{t('common.info')}:</strong> {t('energy.formulas.potential')}<br />
@@ -505,7 +505,7 @@ export default function EnergyCalculator() {
               />
             </FormField>
 
-            <div className="text-sm text-gray-600 dark:text-gray-400 bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
+            <div className="text-sm text-muted-foreground bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
               <Info className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" />
               <div>
                 <strong>{t('common.info')}:</strong> {t('energy.formulas.mechanical')}<br />
@@ -548,7 +548,7 @@ export default function EnergyCalculator() {
               />
             </FormField>
 
-            <div className="text-sm text-gray-600 dark:text-gray-400 bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
+            <div className="text-sm text-muted-foreground bg-blue-50 dark:bg-blue-900/20 p-3 rounded flex items-start">
               <Info className="w-5 h-5 mr-2 mt-0.5 flex-shrink-0" />
               <div>
                 <strong>{t('common.info')}:</strong> {t('energy.formulas.work')}<br />

@@ -25,7 +25,7 @@ interface IrrigationResult {
 }
 
 export default function IrrigationCalculator() {
-  const { t, i18n } = useTranslation(['calc/agriculture', 'common']);
+  const { t } = useTranslation(['calc/agriculture', 'common']);
   const [area, setArea] = useState<string>('');
   const [cropType, setCropType] = useState<string>('corn');
   const [climate, setClimate] = useState<string>('moderate');

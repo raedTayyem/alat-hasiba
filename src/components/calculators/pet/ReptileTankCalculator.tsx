@@ -126,7 +126,7 @@ export default function ReptileTankCalculator() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("reptile-tank-calculator.reptile_type")}>
-          <select value={reptileType} onChange={(e: any) => setReptileType(e.target.value)} className="calculator-input w-full">
+          <select value={reptileType} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setReptileType(e.target.value)} className="calculator-input w-full">
             <option value="bearded_dragon">{t("reptile-tank-calculator.reptile_bearded_dragon")}</option>
             <option value="gecko">{t("reptile-tank-calculator.reptile_gecko")}</option>
             <option value="snake">{t("reptile-tank-calculator.reptile_snake")}</option>
@@ -136,7 +136,7 @@ export default function ReptileTankCalculator() {
         </InputContainer>
 
         <InputContainer label={t("reptile-tank-calculator.reptile_length")}>
-          <NumericInput value={reptileLength} onChange={(e: any) => setReptileLength(e.target.value)} unit={t("reptile-tank-calculator.cm")} placeholder={t("reptile-tank-calculator.enter_length")} min={0} max={200} step={1} />
+          <NumericInput value={reptileLength} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setReptileLength(e.target.value)} unit={t("reptile-tank-calculator.cm")} placeholder={t("reptile-tank-calculator.enter_length")} min={0} max={200} step={1} />
         </InputContainer>
       </div>
 
@@ -189,7 +189,7 @@ export default function ReptileTankCalculator() {
           <div className="space-y-2">
             <div className="flex justify-between">
               <span className="font-medium">{t("reptile-tank-calculator.uvb_lighting")}</span>
-              <span className={`font-bold ${result.uvbRequired ? 'text-green-600' : 'text-gray-600'}`}>
+              <span className={`font-bold ${result.uvbRequired ? 'text-green-600' : 'text-muted-foreground'}`}>
                 {result.uvbRequired ? (t("reptile-tank-calculator.uvb_required")) : (t("reptile-tank-calculator.uvb_not_required"))}
               </span>
             </div>

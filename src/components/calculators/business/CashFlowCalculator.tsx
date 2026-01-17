@@ -32,7 +32,7 @@ interface CalculatorResult {
 }
 
 export default function CashFlowCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [periods, setPeriods] = useState<CashFlowPeriod[]>([
     { id: 1, inflow: '', outflow: '' },
     { id: 2, inflow: '', outflow: '' },

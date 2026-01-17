@@ -105,7 +105,7 @@ export default function KittenGrowthCalculator() {
         >
           <NumericInput
             value={currentWeight}
-            onChange={(e: any) => setCurrentWeight(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCurrentWeight(e.target.value)}
             unit={t("cat_food_calculator.unit_kg") || "kg"}
             placeholder={t("kitten_growth_calculator.placeholder_weight")}
             min={0}
@@ -120,7 +120,7 @@ export default function KittenGrowthCalculator() {
         >
           <NumericInput
             value={currentAge}
-            onChange={(e: any) => setCurrentAge(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCurrentAge(e.target.value)}
             unit={t("kitten_growth_calculator.unit_weeks")}
             placeholder={t("kitten_growth_calculator.placeholder_age")}
             min={1}

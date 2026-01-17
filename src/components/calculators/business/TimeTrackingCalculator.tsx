@@ -8,7 +8,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Clock, DollarSign, Receipt, Calculator, TrendingUp, FileText, CreditCard } from 'lucide-react';
+import { Clock, DollarSign, Receipt, Calculator, TrendingUp, CreditCard } from 'lucide-react';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';
@@ -26,7 +26,7 @@ interface CalculatorResult {
 }
 
 export default function TimeTrackingCalculator() {
-  const { t, i18n } = useTranslation(['calc/business', 'common']);
+  const { t } = useTranslation(['calc/business', 'common']);
 
   const [hoursWorked, setHoursWorked] = useState<string>('');
   const [hourlyRate, setHourlyRate] = useState<string>('');

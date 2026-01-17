@@ -43,9 +43,6 @@ export function Combobox({
             .includes(query.toLowerCase().replace(/\s+/g, ''))
         )
 
-  // Determine display text for the selected value
-  const selectedLabel = options.find((option) => option.value === value)?.label || ''
-
   return (
     <div className={cn(width, className)}>
       <HeadlessCombobox value={value} onChange={onChange} disabled={disabled} nullable>

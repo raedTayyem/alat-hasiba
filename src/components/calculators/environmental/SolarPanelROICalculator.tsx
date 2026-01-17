@@ -7,8 +7,7 @@ import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 
 export default function SolarPanelROICalculator() {
-  const { t, i18n } = useTranslation(['calc/environmental', 'common']);
-  const isArabic = i18n.language === 'ar';
+  const { t } = useTranslation(['calc/environmental', 'common']);
 
   const [systemSize, setSystemSize] = useState<string>('');
   const [installCost, setInstallCost] = useState<string>('');
@@ -82,7 +81,7 @@ export default function SolarPanelROICalculator() {
         >
           <NumericInput
             value={systemSize}
-            onChange={(e: any) => setSystemSize(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setSystemSize(e.target.value)}
             unit={t("common:units.kW")}
             placeholder={t("solar-panel-roi-calculator.enter_size")}
             min={0}
@@ -96,7 +95,7 @@ export default function SolarPanelROICalculator() {
         >
           <NumericInput
             value={installCost}
-            onChange={(e: any) => setInstallCost(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setInstallCost(e.target.value)}
             unit={t("solar-panel-roi-calculator.currency")}
             placeholder={t("solar-panel-roi-calculator.enter_cost")}
             min={0}
@@ -109,7 +108,7 @@ export default function SolarPanelROICalculator() {
         >
           <NumericInput
             value={monthlyBill}
-            onChange={(e: any) => setMonthlyBill(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setMonthlyBill(e.target.value)}
             unit={t("solar-panel-roi-calculator.currency")}
             placeholder={t("solar-panel-roi-calculator.enter_bill")}
             min={0}
@@ -122,7 +121,7 @@ export default function SolarPanelROICalculator() {
         >
           <NumericInput
             value={sunHours}
-            onChange={(e: any) => setSunHours(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setSunHours(e.target.value)}
             unit={t("solar-panel-roi-calculator.hours")}
             placeholder={t("solar-panel-roi-calculator.enter_hours")}
             min={0}

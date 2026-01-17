@@ -95,7 +95,7 @@ export default function WaterFootprintCalculator() {
         >
           <select
             value={diet}
-            onChange={(e: any) => setDiet(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setDiet(e.target.value)}
             className="calculator-input w-full"
           >
             {dietOptions.map((opt: any) => (
@@ -110,7 +110,7 @@ export default function WaterFootprintCalculator() {
         >
           <NumericInput
             value={showerMinutes}
-            onChange={(e: any) => setShowerMinutes(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setShowerMinutes(e.target.value)}
             unit={t("green_commute.min")}
             placeholder={t("water_footprint.enter_minutes")}
             min={0}
@@ -123,7 +123,7 @@ export default function WaterFootprintCalculator() {
         >
           <NumericInput
             value={laundryLoads}
-            onChange={(e: any) => setLaundryLoads(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setLaundryLoads(e.target.value)}
             unit={t("water_footprint.laundry_tooltip").split(' ')[3]}
             placeholder={t("water_footprint.enter_number")}
             min={0}
@@ -136,7 +136,7 @@ export default function WaterFootprintCalculator() {
         >
           <NumericInput
             value={carWashes}
-            onChange={(e: any) => setCarWashes(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCarWashes(e.target.value)}
             unit={t("water_footprint.car_wash_tooltip").split(' ')[2]}
             placeholder={t("water_footprint.enter_number")}
             min={0}

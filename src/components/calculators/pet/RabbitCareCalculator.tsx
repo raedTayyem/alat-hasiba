@@ -66,11 +66,11 @@ export default function RabbitCareCalculator() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("rabbit-care-calculator.rabbit_weight")}>
-          <NumericInput value={rabbitWeight} onChange={(e: any) => setRabbitWeight(e.target.value)} unit={t("rabbit-care-calculator.kg")} placeholder={t("rabbit-care-calculator.enter_weight")} min={0} max={10} step={0.1} />
+          <NumericInput value={rabbitWeight} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setRabbitWeight(e.target.value)} unit={t("rabbit-care-calculator.kg")} placeholder={t("rabbit-care-calculator.enter_weight")} min={0} max={10} step={0.1} />
         </InputContainer>
 
         <InputContainer label={t("rabbit-care-calculator.rabbit_size")}>
-          <select value={rabbitSize} onChange={(e: any) => setRabbitSize(e.target.value)} className="calculator-input w-full">
+          <select value={rabbitSize} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setRabbitSize(e.target.value)} className="calculator-input w-full">
             <option value="small">{t("rabbit-care-calculator.size_small")}</option>
             <option value="medium">{t("rabbit-care-calculator.size_medium")}</option>
             <option value="large">{t("rabbit-care-calculator.size_large")}</option>

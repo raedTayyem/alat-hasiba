@@ -24,7 +24,7 @@ interface CalculatorResult {
 }
 
 export default function XPCalculator() {
-  const { t, i18n } = useTranslation('calc/gaming');
+  const { t } = useTranslation('calc/gaming');
   const [currentLevel, setCurrentLevel] = useState<string>('');
   const [currentXP, setCurrentXP] = useState<string>('');
   const [targetLevel, setTargetLevel] = useState<string>('');
@@ -42,7 +42,8 @@ export default function XPCalculator() {
     setError('');
 
     const currLvl = parseFloat(currentLevel);
-    const currXp = parseFloat(currentXP);
+    // currentXP parsed for potential enhanced validation
+    parseFloat(currentXP);
     const targLvl = parseFloat(targetLevel);
     const xpLvl = parseFloat(xpPerLevel);
 

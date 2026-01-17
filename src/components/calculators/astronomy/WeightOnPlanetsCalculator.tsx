@@ -91,7 +91,7 @@ export default function WeightOnPlanetsCalculator() {
 
   const getPlanetColor = (planet: string): string => {
     const colors: Record<string, string> = {
-      mercury: 'bg-gray-200 dark:bg-gray-700',
+      mercury: 'bg-muted dark:bg-muted',
       venus: 'bg-yellow-200 dark:bg-yellow-900/50',
       earth: 'bg-blue-200 dark:bg-blue-900/50',
       moon: 'bg-slate-200 dark:bg-slate-800',
@@ -102,7 +102,7 @@ export default function WeightOnPlanetsCalculator() {
       neptune: 'bg-indigo-200 dark:bg-indigo-900/50',
       pluto: 'bg-violet-200 dark:bg-violet-900/50',
     };
-    return colors[planet] || 'bg-gray-200';
+    return colors[planet] || 'bg-muted';
   };
 
   const inputSection = (

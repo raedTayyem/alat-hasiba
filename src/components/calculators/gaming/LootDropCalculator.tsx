@@ -24,7 +24,7 @@ interface CalculatorResult {
 }
 
 export default function LootDropCalculator() {
-  const { t, i18n } = useTranslation('calc/gaming');
+  const { t } = useTranslation('calc/gaming');
   const [dropRate, setDropRate] = useState<string>('');
   const [attempts, setAttempts] = useState<string>('');
 

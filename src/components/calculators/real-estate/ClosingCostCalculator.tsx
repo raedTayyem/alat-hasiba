@@ -14,17 +14,6 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';
 
-interface CalculatorInputs {
-  purchasePrice: number;
-  loanAmount: number;
-  titleFee: number;
-  appraisalFee: number;
-  attorneyFee: number;
-  recordingFee: number;
-  transferTaxRate: number;
-  lenderFeePercent: number;
-}
-
 interface CalculatorResult {
   totalClosingCosts: number;
   closingCostPercent: number;
@@ -38,19 +27,8 @@ interface CalculatorResult {
   downPayment: number;
 }
 
-const DEFAULT_VALUES: CalculatorInputs = {
-  purchasePrice: 300000,
-  loanAmount: 240000,
-  titleFee: 1000,
-  appraisalFee: 400,
-  attorneyFee: 1000,
-  recordingFee: 200,
-  transferTaxRate: 1.0,
-  lenderFeePercent: 1.0,
-};
-
 export default function ClosingCostCalculator() {
-  const { t, i18n } = useTranslation('calc/real-estate');
+  const { t } = useTranslation('calc/real-estate');
   const [purchasePrice, setPurchasePrice] = useState<string>('');
   const [loanAmount, setLoanAmount] = useState<string>('');
   const [titleFee, setTitleFee] = useState<string>('1000');

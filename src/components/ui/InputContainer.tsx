@@ -17,7 +17,7 @@ const InputContainer: React.FC<InputContainerProps> = ({
   tooltip,
   className = '',
   labelPosition = 'default',
-  error
+  error: _error
 }) => {
   return (
     <div className={`transition-all duration-300 hover:shadow-sm hover:border-primary-30 bg-card rounded-lg border border-border p-3 sm:p-4 ${className}`}>
@@ -27,7 +27,7 @@ const InputContainer: React.FC<InputContainerProps> = ({
           {tooltip && (
             <Tooltip text={tooltip} width="w-56">
               <span className="cursor-help text-info">
-                <svg className="inline-block w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <svg className="inline-block w-4 h-4" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </span>
@@ -102,9 +102,9 @@ export const NumericInput: React.FC<NumericInputProps> = ({
 
       {/* Controls positioned at end (automatically handles RTL) */}
       <div className="absolute end-0 top-0 bottom-0 flex flex-col items-center justify-center bg-card-bg border-s border-border-50 rounded-e-md">
-        <button 
+        <button
           type="button"
-          className="px-2 hover:bg-card-bg-hover text-foreground-70"
+          className="px-2 hover:bg-card-bg-hover text-foreground-70 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-1"
           aria-label={t('common.actions.decrease', 'Decrease')}
           onClick={(e) => {
             e.preventDefault();
@@ -117,7 +117,7 @@ export const NumericInput: React.FC<NumericInputProps> = ({
             }
           }}
         >
-          <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
           </svg>
         </button>
@@ -128,9 +128,9 @@ export const NumericInput: React.FC<NumericInputProps> = ({
           </div>
         )}
 
-        <button 
+        <button
           type="button"
-          className="px-2 hover:bg-card-bg-hover text-foreground-70"
+          className="px-2 hover:bg-card-bg-hover text-foreground-70 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-1"
           aria-label={t('common.actions.increase', 'Increase')}
           onClick={(e) => {
             e.preventDefault();
@@ -143,7 +143,7 @@ export const NumericInput: React.FC<NumericInputProps> = ({
             }
           }}
         >
-          <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+          <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor" aria-hidden="true">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 15l7-7 7 7" />
           </svg>
         </button>

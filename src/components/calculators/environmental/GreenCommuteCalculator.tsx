@@ -94,11 +94,11 @@ export default function GreenCommuteCalculator() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("green_commute.distance")} tooltip={t("green_commute.distance_tooltip")}>
-          <NumericInput value={distance} onChange={(e: any) => setDistance(e.target.value)} unit={t("green_commute.kg")} placeholder={t("green_commute.enter_distance")} min={0} />
+          <NumericInput value={distance} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setDistance(e.target.value)} unit={t("green_commute.kg")} placeholder={t("green_commute.enter_distance")} min={0} />
         </InputContainer>
 
         <InputContainer label={t("green_commute.current_mode")} tooltip={t("green_commute.current_mode_tooltip")}>
-          <select value={currentMode} onChange={(e: any) => setCurrentMode(e.target.value)} className="calculator-input w-full">
+          <select value={currentMode} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setCurrentMode(e.target.value)} className="calculator-input w-full">
             {modeOptions.map((opt: any) => (
               <option key={opt.value} value={opt.value}>{opt.label}</option>
             ))}
@@ -106,7 +106,7 @@ export default function GreenCommuteCalculator() {
         </InputContainer>
 
         <InputContainer label={t("green_commute.alternative_mode")} tooltip={t("green_commute.alternative_mode_tooltip")}>
-          <select value={alternativeMode} onChange={(e: any) => setAlternativeMode(e.target.value)} className="calculator-input w-full">
+          <select value={alternativeMode} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setAlternativeMode(e.target.value)} className="calculator-input w-full">
             {modeOptions.map((opt: any) => (
               <option key={opt.value} value={opt.value}>{opt.label}</option>
             ))}
@@ -114,7 +114,7 @@ export default function GreenCommuteCalculator() {
         </InputContainer>
 
         <InputContainer label={t("green_commute.days_per_week")} tooltip={t("green_commute.days_per_week_tooltip")}>
-          <NumericInput value={daysPerWeek} onChange={(e: any) => setDaysPerWeek(e.target.value)} unit={t("co2_emissions.days")} placeholder={t("green_commute.enter_days")} min={1} max={7} />
+          <NumericInput value={daysPerWeek} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setDaysPerWeek(e.target.value)} unit={t("co2_emissions.days")} placeholder={t("green_commute.enter_days")} min={1} max={7} />
         </InputContainer>
       </div>
 

@@ -31,7 +31,7 @@ interface CalculatorResult {
 type CalculationMode = 'percentage' | 'final_price';
 
 export default function DiscountCalculator() {
-  const { t, i18n } = useTranslation(['calc/business', 'common']);
+  const { t } = useTranslation(['calc/business', 'common']);
   const [originalPrice, setOriginalPrice] = useState<string>('');
   const [discountPercentage, setDiscountPercentage] = useState<string>('');
   const [finalPrice, setFinalPrice] = useState<string>('');

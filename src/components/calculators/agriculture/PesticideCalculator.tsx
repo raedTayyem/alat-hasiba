@@ -25,7 +25,7 @@ interface PesticideResult {
 }
 
 export default function PesticideCalculator() {
-  const { t, i18n } = useTranslation(['calc/agriculture', 'common']);
+  const { t } = useTranslation(['calc/agriculture', 'common']);
   const [area, setArea] = useState<string>('');
   const [pesticideType, setPesticideType] = useState<string>('herbicide');
   const [concentration, setConcentration] = useState<string>('');

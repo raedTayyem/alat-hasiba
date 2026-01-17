@@ -8,8 +8,7 @@ import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
 export default function BirdCageSizeCalculator() {
-  const { t, i18n } = useTranslation('calc/pet');
-  const isRTL = i18n.language === 'ar';
+  const { t } = useTranslation('calc/pet');
   const [birdType, setBirdType] = useState<string>('budgie');
   const [numberOfBirds, setNumberOfBirds] = useState<string>('1');
   const [error, setError] = useState<string>('');
@@ -70,7 +69,7 @@ export default function BirdCageSizeCalculator() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("bird_cage_calculator.bird_type")}>
-          <select value={birdType} onChange={(e: any) => setBirdType(e.target.value)} className="calculator-input w-full">
+          <select value={birdType} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setBirdType(e.target.value)} className="calculator-input w-full">
             <option value="budgie">{t("bird_cage_calculator.budgie")}</option>
             <option value="cockatiel">{t("bird_cage_calculator.cockatiel")}</option>
             <option value="lovebird">{t("bird_cage_calculator.lovebird")}</option>
@@ -81,7 +80,7 @@ export default function BirdCageSizeCalculator() {
         </InputContainer>
 
         <InputContainer label={t("bird_cage_calculator.number_of_birds")}>
-          <NumericInput value={numberOfBirds} onChange={(e: any) => setNumberOfBirds(e.target.value)} unit={t("aquarium_calculator.fish")} placeholder="1" min={1} max={10} step={1} />
+          <NumericInput value={numberOfBirds} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setNumberOfBirds(e.target.value)} unit={t("aquarium_calculator.fish")} placeholder="1" min={1} max={10} step={1} />
         </InputContainer>
       </div>
 

@@ -18,16 +18,16 @@ const CategoriesPage = () => {
   return (
     <>
       <Helmet>
-        <title>{t('pages.categories.title', 'Calculator Categories | Calculators')}</title>
-        <meta name="description" content={t('pages.categories.description', 'Browse all calculator categories available on our website')} />
-        <meta name="keywords" content={t('pages.categories.keywords', 'calculator categories, calculators, scientific calculators, converters')} />
+        <title>{t('pages.categories.title')}</title>
+        <meta name="description" content={t('pages.categories.description')} />
+        <meta name="keywords" content={t('pages.categories.keywords')} />
 
         {/* Canonical URL */}
         <link rel="canonical" href="https://alathasiba.com/categories" />
 
         {/* Open Graph tags */}
-        <meta property="og:title" content={t('pages.categories.title', 'Calculator Categories | Calculators')} />
-        <meta property="og:description" content={t('pages.categories.description', 'Browse all calculator categories available on our website')} />
+        <meta property="og:title" content={t('pages.categories.title')} />
+        <meta property="og:description" content={t('pages.categories.description')} />
         <meta property="og:url" content="https://alathasiba.com/categories" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://alathasiba.com/og-image.png" />
@@ -35,8 +35,8 @@ const CategoriesPage = () => {
 
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />
-        <meta name="twitter:title" content={t('pages.categories.title', 'Calculator Categories | Calculators')} />
-        <meta name="twitter:description" content={t('pages.categories.description', 'Browse all calculator categories available on our website')} />
+        <meta name="twitter:title" content={t('pages.categories.title')} />
+        <meta name="twitter:description" content={t('pages.categories.description')} />
         <meta name="twitter:image" content="https://alathasiba.com/og-image.png" />
 
         {/* Structured Data - CollectionPage schema */}

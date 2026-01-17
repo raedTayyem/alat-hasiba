@@ -24,7 +24,7 @@ interface MilkProductionResult {
 }
 
 export default function MilkProductionCalculator() {
-  const { t, i18n } = useTranslation(['calc/agriculture', 'common']);
+  const { t } = useTranslation(['calc/agriculture', 'common']);
   const [cowCount, setCowCount] = useState<string>('');
   const [avgMilkPerCow, setAvgMilkPerCow] = useState<string>('');
   const [pricePerGallon, setPricePerGallon] = useState<string>('3.50');

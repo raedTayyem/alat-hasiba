@@ -38,7 +38,6 @@ interface AsphaltResult {
 // =============================================================================
 // CONSTANTS
 // =============================================================================
-const DEFAULT_ASPHALT_DENSITY = 145; // lbs per cubic foot (standard hot mix asphalt)
 const CUBIC_FEET_TO_CUBIC_METERS = 0.0283168;
 const SQUARE_FEET_TO_SQUARE_METERS = 0.092903;
 const LBS_PER_TON = 2000;

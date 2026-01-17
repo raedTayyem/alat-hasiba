@@ -152,12 +152,6 @@ export default function OhmsLawCalculator() {
     }, 300);
   };
 
-    const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter') {
-      calculate();
-    }
-  };
-
   const inputSection = (
     <>
       <div className="text-2xl font-bold mb-6 text-center">

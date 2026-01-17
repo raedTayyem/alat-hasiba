@@ -16,14 +16,6 @@ import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { initDateInputRTL } from '../../../utils/dateInputRTL';
 
-interface CalculatorInputs {
-  electricity: number;
-  naturalGas: number;
-  carMileage: number;
-  flights: number;
-  diet: string;
-}
-
 interface CalculatorResult {
   totalCO2: number;
   electricityCO2: number;
@@ -34,14 +26,6 @@ interface CalculatorResult {
   treesNeeded: number;
   comparison: string;
 }
-
-const DEFAULT_VALUES: CalculatorInputs = {
-  electricity: 0,
-  naturalGas: 0,
-  carMileage: 0,
-  flights: 0,
-  diet: 'mixed',
-};
 
 export default function CarbonFootprintCalculator() {
   const { t } = useTranslation('calc/environmental');

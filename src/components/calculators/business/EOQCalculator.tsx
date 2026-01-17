@@ -27,7 +27,7 @@ interface CalculatorResult {
 }
 
 export default function EOQCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [annualDemand, setAnnualDemand] = useState<string>('');
   const [orderCost, setOrderCost] = useState<string>('');
   const [holdingCost, setHoldingCost] = useState<string>('');

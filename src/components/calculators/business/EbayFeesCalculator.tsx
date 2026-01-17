@@ -55,7 +55,7 @@ const PAYMENT_PROCESSING_RATE = 2.9; // 2.9% + $0.30
 const PAYMENT_PROCESSING_FIXED = 0.30;
 
 export default function EbayFeesCalculator() {
-  const { t, i18n } = useTranslation(['calc/business', 'common']);
+  const { t } = useTranslation(['calc/business', 'common']);
 
   const [salePrice, setSalePrice] = useState<string>('');
   const [shippingCharge, setShippingCharge] = useState<string>('');

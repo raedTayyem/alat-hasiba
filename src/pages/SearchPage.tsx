@@ -2,10 +2,10 @@ import { useState, useEffect } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
-import { Search, ArrowLeft, TrendingUp, ChevronRight } from 'lucide-react';
+import { Search, ArrowLeft, ChevronRight } from 'lucide-react';
 import { searchCalculators } from '../data/calculators';
 import { Calculator } from '../data/calculators/types';
-import { getCalculatorName, getCalculatorDescription } from '../utils/calculatorTranslation';
+// getCalculatorName and getCalculatorDescription are used in CalculatorCard component
 import CalculatorCard from '../components/CalculatorCard';
 
 const SearchPage = () => {

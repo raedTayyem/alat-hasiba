@@ -33,8 +33,7 @@ export default function FinalGradeCalculator() {
   // ---------------------------------------------------------------------------
   // HOOKS
   // ---------------------------------------------------------------------------
-  const { t, i18n } = useTranslation(['calc/education', 'common']);
-  const isRTL = i18n.language === 'ar';
+  const { t } = useTranslation(['calc/education', 'common']);
 
   // ---------------------------------------------------------------------------
   // STATE MANAGEMENT

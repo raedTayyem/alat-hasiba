@@ -34,7 +34,7 @@ interface CalculatorResult {
 }
 
 export default function LoanAmortizationCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [principal, setPrincipal] = useState<string>('');
   const [annualRate, setAnnualRate] = useState<string>('');
   const [termMonths, setTermMonths] = useState<string>('');

@@ -46,7 +46,7 @@ export default function HeirSelector({ heirs, onToggleHeir, onUpdateCount }: Hei
                           min={1}
                           max={4}
                           readOnly={true}
-                          className="w-full text-center bg-gray-100"
+                          className="w-full text-center bg-muted"
                         />
                       ) : (
                         <Combobox

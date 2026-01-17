@@ -6,7 +6,7 @@
  * Includes macronutrient breakdown recommendations
  */
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Calendar, Scale, Ruler, Activity, Info, Flame } from 'lucide-react';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
@@ -17,15 +17,6 @@ import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
 // Type definitions
-interface CalorieInputs {
-  age: number;
-  gender: string;
-  weight: number;
-  height: number;
-  activityLevel: string;
-  goal: string;
-}
-
 interface CalorieResult {
   bmr: number;
   tdee: number;
@@ -58,7 +49,7 @@ const GOAL_ADJUSTMENTS = {
 };
 
 export default function CalorieCalculator() {
-  const { t, i18n } = useTranslation(['calc/health', 'common']);
+  const { t } = useTranslation(['calc/health', 'common']);
   // State management
   const [age, setAge] = useState<string>('');
   const [gender, setGender] = useState<string>('male');

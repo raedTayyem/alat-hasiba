@@ -22,8 +22,7 @@ interface OilChangeResult {
 }
 
 export default function OilChangeCalculator() {
-  const { t, i18n } = useTranslation('calc/automotive');
-  const isRTL = i18n.language === 'ar';
+  const { t } = useTranslation('calc/automotive');
   const [currentMileage, setCurrentMileage] = useState<string>('');
   const [lastChangeDate, setLastChangeDate] = useState<string>('');
   const [changeInterval, setChangeInterval] = useState<string>('5000');

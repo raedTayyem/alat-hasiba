@@ -85,7 +85,7 @@ export default function VoltageDropCalculator() {
         <InputContainer label={t("voltage_drop.inputs.voltage")} tooltip={t("voltage_drop.tooltips.voltage")}>
           <NumericInput
             value={voltage}
-            onChange={(e: any) => setVoltage(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setVoltage(e.target.value)}
             unit={t("common:common.units.V")}
             placeholder={t("voltage_drop.placeholders.voltage")}
             min={0}
@@ -96,7 +96,7 @@ export default function VoltageDropCalculator() {
         <InputContainer label={t("voltage_drop.inputs.current")} tooltip={t("voltage_drop.tooltips.current")}>
           <NumericInput
             value={current}
-            onChange={(e: any) => setCurrent(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCurrent(e.target.value)}
             unit={t("common:common.units.A")}
             placeholder={t("voltage_drop.placeholders.current")}
             min={0}
@@ -107,7 +107,7 @@ export default function VoltageDropCalculator() {
         <InputContainer label={t("voltage_drop.inputs.distance")} tooltip={t("voltage_drop.tooltips.distance")}>
           <NumericInput
             value={length}
-            onChange={(e: any) => setLength(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setLength(e.target.value)}
             unit={t("common:common.units.m")}
             placeholder={t("voltage_drop.placeholders.distance")}
             min={0}
@@ -118,7 +118,7 @@ export default function VoltageDropCalculator() {
         <InputContainer label={t("voltage_drop.inputs.wire_size")} tooltip={t("voltage_drop.tooltips.wire_size")}>
           <select
             value={wireSize}
-            onChange={(e: any) => setWireSize(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setWireSize(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="1.5">{t("voltage_drop.options.wire_mm2", { size: "1.5" })}</option>
@@ -136,7 +136,7 @@ export default function VoltageDropCalculator() {
         <InputContainer label={t("voltage_drop.inputs.phase")} tooltip={t("voltage_drop.tooltips.phase")}>
           <select
             value={phaseType}
-            onChange={(e: any) => setPhaseType(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setPhaseType(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="single">{t("voltage_drop.options.single_phase")}</option>
@@ -147,7 +147,7 @@ export default function VoltageDropCalculator() {
         <InputContainer label={t("voltage_drop.inputs.material")} tooltip={t("voltage_drop.tooltips.material")}>
           <select
             value={material}
-            onChange={(e: any) => setMaterial(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setMaterial(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="copper">{t("voltage_drop.options.copper")}</option>

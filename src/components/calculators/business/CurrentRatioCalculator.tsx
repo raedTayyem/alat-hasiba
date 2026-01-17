@@ -13,7 +13,7 @@ import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { initDateInputRTL } from '../../../utils/dateInputRTL';
 
 export default function CurrentRatioCalculator() {
-  const { t, i18n } = useTranslation(['calc/business', 'common']);
+  const { t } = useTranslation(['calc/business', 'common']);
   const [currentAssets, setCurrentAssets] = useState<string>('');
   const [currentLiabilities, setCurrentLiabilities] = useState<string>('');
   const [result, setResult] = useState<{ratio: number; liquidity: string} | null>(null);

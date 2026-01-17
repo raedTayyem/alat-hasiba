@@ -8,8 +8,7 @@ import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
 export default function PetMedicationDosageCalculator() {
-  const { t, i18n } = useTranslation('calc/pet');
-  const isRTL = i18n.language === 'ar';
+  const { t } = useTranslation('calc/pet');
   const [petWeight, setPetWeight] = useState<string>('');
   const [dosagePerKg, setDosagePerKg] = useState<string>('');
   const [frequency, setFrequency] = useState<string>('12');
@@ -82,7 +81,7 @@ export default function PetMedicationDosageCalculator() {
         >
           <NumericInput
             value={petWeight}
-            onChange={(e: any) => setPetWeight(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPetWeight(e.target.value)}
             unit={t("pet-medication-dosage-calculator.weight_unit")}
             placeholder={t("pet-medication-dosage-calculator.enter_weight")}
             min={0}
@@ -97,7 +96,7 @@ export default function PetMedicationDosageCalculator() {
         >
           <NumericInput
             value={dosagePerKg}
-            onChange={(e: any) => setDosagePerKg(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setDosagePerKg(e.target.value)}
             unit={t("pet-medication-dosage-calculator.dosage_unit")}
             placeholder={t("pet-medication-dosage-calculator.enter_dosage")}
             min={0}
@@ -111,7 +110,7 @@ export default function PetMedicationDosageCalculator() {
         >
           <select
             value={frequency}
-            onChange={(e: any) => setFrequency(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setFrequency(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="6">{t("pet-medication-dosage-calculator.frequency_6h")}</option>
@@ -127,7 +126,7 @@ export default function PetMedicationDosageCalculator() {
         >
           <select
             value={medicationForm}
-            onChange={(e: any) => setMedicationForm(e.target.value)}
+            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setMedicationForm(e.target.value)}
             className="calculator-input w-full"
           >
             <option value="liquid">{t("pet-medication-dosage-calculator.form_liquid")}</option>
@@ -142,7 +141,7 @@ export default function PetMedicationDosageCalculator() {
           >
             <NumericInput
               value={concentration}
-              onChange={(e: any) => setConcentration(e.target.value)}
+              onChange={(e: React.ChangeEvent<HTMLInputElement>) => setConcentration(e.target.value)}
               unit={t("pet-medication-dosage-calculator.concentration_unit")}
               placeholder={t("pet-medication-dosage-calculator.enter_concentration")}
               min={0}

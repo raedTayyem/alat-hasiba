@@ -240,7 +240,7 @@ export default function ExitIntentModal({
     if (typeof window === 'undefined' || !isMobileDevice()) return;
 
     // Use the beforeunload event as a fallback
-    const handleBeforeUnload = (e: BeforeUnloadEvent) => {
+    const handleBeforeUnload = (_e: BeforeUnloadEvent) => {
       // On mobile, this often triggers when user navigates away
       triggerExitIntent();
     };

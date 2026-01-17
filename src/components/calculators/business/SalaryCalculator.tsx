@@ -30,7 +30,7 @@ interface CalculatorResult {
 type PayFrequency = 'annual' | 'monthly' | 'biweekly' | 'weekly' | 'hourly';
 
 export default function SalaryCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [salary, setSalary] = useState<string>('');
   const [payFrequency, setPayFrequency] = useState<PayFrequency>('annual');
   const [hoursPerWeek, setHoursPerWeek] = useState<string>('40');

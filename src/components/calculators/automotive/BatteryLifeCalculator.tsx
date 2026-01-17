@@ -7,7 +7,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Battery, Calendar, Activity, Thermometer, Info, AlertTriangle, CheckCircle, Calculator, RotateCcw } from 'lucide-react';
+import { Battery, Calendar, Activity, Info, AlertTriangle, Calculator, RotateCcw } from 'lucide-react';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';

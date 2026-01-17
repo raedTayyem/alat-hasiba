@@ -8,8 +8,7 @@ import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
 export default function HorseFeedCalculator() {
-  const { t, i18n } = useTranslation('calc/pet');
-  const isRTL = i18n.language === 'ar';
+  const { t } = useTranslation('calc/pet');
   const [horseWeight, setHorseWeight] = useState<string>('');
   const [workLevel, setWorkLevel] = useState<string>('light');
   const [feedType, setFeedType] = useState<string>('mixed');
@@ -90,11 +89,11 @@ export default function HorseFeedCalculator() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <InputContainer label={t("horse_feed_calculator.label_weight")}>
-          <NumericInput value={horseWeight} onChange={(e: any) => setHorseWeight(e.target.value)} unit={t("horse_feed_calculator.unit_kg")} placeholder={t("horse_feed_calculator.placeholder_weight")} min={0} max={1000} step={10} />
+          <NumericInput value={horseWeight} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setHorseWeight(e.target.value)} unit={t("horse_feed_calculator.unit_kg")} placeholder={t("horse_feed_calculator.placeholder_weight")} min={0} max={1000} step={10} />
         </InputContainer>
 
         <InputContainer label={t("horse_feed_calculator.label_work_level")}>
-          <select value={workLevel} onChange={(e: any) => setWorkLevel(e.target.value)} className="calculator-input w-full">
+          <select value={workLevel} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setWorkLevel(e.target.value)} className="calculator-input w-full">
             <option value="maintenance">{t("horse_feed_calculator.work_maintenance")}</option>
             <option value="light">{t("horse_feed_calculator.work_light")}</option>
             <option value="moderate">{t("horse_feed_calculator.work_moderate")}</option>
@@ -104,7 +103,7 @@ export default function HorseFeedCalculator() {
         </InputContainer>
 
         <InputContainer label={t("horse_feed_calculator.label_feed_type")}>
-          <select value={feedType} onChange={(e: any) => setFeedType(e.target.value)} className="calculator-input w-full">
+          <select value={feedType} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setFeedType(e.target.value)} className="calculator-input w-full">
             <option value="hay_only">{t("horse_feed_calculator.feed_hay_only")}</option>
             <option value="mixed">{t("horse_feed_calculator.feed_mixed")}</option>
             <option value="performance">{t("horse_feed_calculator.feed_performance")}</option>

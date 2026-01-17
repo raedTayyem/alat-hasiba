@@ -5,7 +5,7 @@
  * Calculates weeks and days of pregnancy, trimester, and weight gain recommendations
  */
 
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Calendar, Baby, Clock, Info } from 'lucide-react';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';

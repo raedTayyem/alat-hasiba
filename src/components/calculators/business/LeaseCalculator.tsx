@@ -27,7 +27,7 @@ interface CalculatorResult {
 }
 
 export default function LeaseCalculator() {
-  const { t, i18n } = useTranslation('calc/business');
+  const { t } = useTranslation('calc/business');
   const [assetPrice, setAssetPrice] = useState<string>('');
   const [residualValue, setResidualValue] = useState<string>('');
   const [term, setTerm] = useState<string>('');
