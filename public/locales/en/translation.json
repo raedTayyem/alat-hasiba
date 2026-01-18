@@ -175,7 +175,8 @@
     "common": {
         "search": "Search",
         "searchPlaceholder": "Search for a calculator (e.g., Percentage, BMI...)",
-        "siteName": "Alathasiba"
+        "siteName": "Alathasiba",
+        "convert": "Convert"
     },
     "categoryNames": {
         "math": "Math Calculators",

@@ -2,7 +2,7 @@
 COMPREHENSIVE TRANSLATION COVERAGE REPORT
 ==============================================
 
-Generated: 2026-01-18T18:21:16.862Z
+Generated: 2026-01-18T18:44:15.674Z
 Total Calculators: 395
 
 ==============================================
@@ -11,11 +11,11 @@ SUMMARY STATISTICS
 
 Total Translation Keys: 12442
 Average Keys per Calculator: 31
-Average EN Coverage: 6%
-Average AR Coverage: 6%
+Average EN Coverage: 5%
+Average AR Coverage: 5%
 Fully Translated (100% EN+AR): 5 calculators
-Partially Translated: 199 calculators
-Missing All Translations: 165 calculators
+Partially Translated: 193 calculators
+Missing All Translations: 171 calculators
 No Component Found: 26 calculators
 
 ==============================================
@@ -1162,30 +1162,18 @@ Calculator: bezier-curve-calculator
 
 Calculator: biorhythm-calculator
   Total Keys: 27
-  EN Coverage: 63% (17/27)
-  AR Coverage: 63% (17/27)
-  Missing EN (10):
-    - calc/misc:biorhythm.birth_date_tooltip
-    - calc/misc:biorhythm.target_date_tooltip
+  EN Coverage: 85% (23/27)
+  AR Coverage: 85% (23/27)
+  Missing EN (4):
     - calc/misc:biorhythm.use_cases_title
     - calc/misc:biorhythm.use_case_1
     - calc/misc:biorhythm.use_case_2
     - calc/misc:biorhythm.use_case_3
-    - calc/misc:biorhythm.current_values
-    - calc/misc:biorhythm.note_title
-    - calc/misc:biorhythm.note
-    - calc/misc:biorhythm.desc
-  Missing AR (10):
-    - calc/misc:biorhythm.birth_date_tooltip
-    - calc/misc:biorhythm.target_date_tooltip
+  Missing AR (4):
     - calc/misc:biorhythm.use_cases_title
     - calc/misc:biorhythm.use_case_1
     - calc/misc:biorhythm.use_case_2
     - calc/misc:biorhythm.use_case_3
-    - calc/misc:biorhythm.current_values
-    - calc/misc:biorhythm.note_title
-    - calc/misc:biorhythm.note
-    - calc/misc:biorhythm.desc
 
 Calculator: bird-cage-size-calculator
   Total Keys: 27
@@ -1422,14 +1410,29 @@ Calculator: bmi-calculator
 
 Calculator: bmr-calculator
   Total Keys: 30
-  EN Coverage: 60% (18/30)
-  AR Coverage: 60% (18/30)
-  Missing EN (12):
+  EN Coverage: 10% (3/30)
+  AR Coverage: 10% (3/30)
+  Missing EN (27):
+    - calorie.errors.all_fields
+    - calorie.errors.age_range
+    - calorie.errors.weight_positive
+    - calorie.errors.height_positive
+    - calorie.inputs.male
+    - calorie.inputs.female
     - bmr.title
+    - calorie.inputs.gender
+    - calorie.tooltips.gender
+    - calorie.inputs.age
+    - calorie.tooltips.age
+    - calorie.inputs.weight
+    - calorie.tooltips.weight
+    - calorie.inputs.height
+    - calorie.tooltips.height
     - bmr.results_title
     - bmr.average_bmr
     - bmr.calories_unit
     - bmr.mifflin
+    - calorie.results.calories
     - bmr.harris
     - bmr.katch
     - bmr.about_title
@@ -1437,12 +1440,27 @@ Calculator: bmr-calculator
     - bmr.empty_state
     - bmr.description
     - bmr.footer_note
-  Missing AR (12):
+  Missing AR (27):
+    - calorie.errors.all_fields
+    - calorie.errors.age_range
+    - calorie.errors.weight_positive
+    - calorie.errors.height_positive
+    - calorie.inputs.male
+    - calorie.inputs.female
     - bmr.title
+    - calorie.inputs.gender
+    - calorie.tooltips.gender
+    - calorie.inputs.age
+    - calorie.tooltips.age
+    - calorie.inputs.weight
+    - calorie.tooltips.weight
+    - calorie.inputs.height
+    - calorie.tooltips.height
     - bmr.results_title
     - bmr.average_bmr
     - bmr.calories_unit
     - bmr.mifflin
+    - calorie.results.calories
     - bmr.harris
     - bmr.katch
     - bmr.about_title
@@ -1542,15 +1560,18 @@ Calculator: body-fat-calculator
 
 Calculator: body-fat-percentage-calculator
   Total Keys: 45
-  EN Coverage: 11% (5/45)
-  AR Coverage: 11% (5/45)
-  Missing EN (40):
+  EN Coverage: 4% (2/45)
+  AR Coverage: 4% (2/45)
+  Missing EN (43):
     - body_fat.categories.essential
     - body_fat.categories.athletes
     - body_fat.categories.fitness
     - body_fat.categories.average
     - body_fat.categories.obese
+    - calorie.inputs.male
+    - calorie.inputs.female
     - body_fat.gender
+    - calorie.inputs.gender
     - body_fat.age
     - body_fat.enter_age
     - body_fat.weight
@@ -1585,13 +1606,16 @@ Calculator: body-fat-percentage-calculator
     - body_fat.title
     - body_fat.description
     - body_fat.footer_note
-  Missing AR (40):
+  Missing AR (43):
     - body_fat.categories.essential
     - body_fat.categories.athletes
     - body_fat.categories.fitness
     - body_fat.categories.average
     - body_fat.categories.obese
+    - calorie.inputs.male
+    - calorie.inputs.female
     - body_fat.gender
+    - calorie.inputs.gender
     - body_fat.age
     - body_fat.enter_age
     - body_fat.weight
@@ -1629,16 +1653,19 @@ Calculator: body-fat-percentage-calculator
 
 Calculator: body-frame-size-calculator
   Total Keys: 32
-  EN Coverage: 9% (3/32)
-  AR Coverage: 9% (3/32)
-  Missing EN (29):
+  EN Coverage: 0% (0/32)
+  AR Coverage: 0% (0/32)
+  Missing EN (32):
     - body_frame.categories.small
     - body_frame.descriptions.small
     - body_frame.categories.medium
     - body_frame.descriptions.medium
     - body_frame.categories.large
     - body_frame.descriptions.large
+    - calorie.inputs.male
+    - calorie.inputs.female
     - body_frame.gender
+    - calorie.inputs.gender
     - body_frame.height
     - body_frame.enter_height
     - body_frame.wrist
@@ -1661,14 +1688,17 @@ Calculator: body-frame-size-calculator
     - body_frame.title
     - body_frame.description
     - body_frame.footer_note
-  Missing AR (29):
+  Missing AR (32):
     - body_frame.categories.small
     - body_frame.descriptions.small
     - body_frame.categories.medium
     - body_frame.descriptions.medium
     - body_frame.categories.large
     - body_frame.descriptions.large
+    - calorie.inputs.male
+    - calorie.inputs.female
     - body_frame.gender
+    - calorie.inputs.gender
     - body_frame.height
     - body_frame.enter_height
     - body_frame.wrist
@@ -1694,9 +1724,9 @@ Calculator: body-frame-size-calculator
 
 Calculator: body-recomposition-calculator
   Total Keys: 27
-  EN Coverage: 4% (1/27)
-  AR Coverage: 4% (1/27)
-  Missing EN (26):
+  EN Coverage: 0% (0/27)
+  AR Coverage: 0% (0/27)
+  Missing EN (27):
     - body_recomposition.tdee
     - body_recomposition.tdee_tooltip
     - body_recomposition.enter_tdee
@@ -1710,6 +1740,7 @@ Calculator: body-recomposition-calculator
     - body_recomposition.reset_btn
     - body_recomposition.results_title
     - body_recomposition.training_calories
+    - calorie.results.calories
     - body_recomposition.surplus
     - body_recomposition.rest_calories
     - body_recomposition.deficit
@@ -1723,7 +1754,7 @@ Calculator: body-recomposition-calculator
     - body_recomposition.title
     - body_recomposition.description
     - body_recomposition.footer_note
-  Missing AR (26):
+  Missing AR (27):
     - body_recomposition.tdee
     - body_recomposition.tdee_tooltip
     - body_recomposition.enter_tdee
@@ -1737,6 +1768,7 @@ Calculator: body-recomposition-calculator
     - body_recomposition.reset_btn
     - body_recomposition.results_title
     - body_recomposition.training_calories
+    - calorie.results.calories
     - body_recomposition.surplus
     - body_recomposition.rest_calories
     - body_recomposition.deficit
@@ -2603,9 +2635,9 @@ Calculator: calorie-calculator
 
 Calculator: calorie-deficit-calculator
   Total Keys: 28
-  EN Coverage: 4% (1/28)
-  AR Coverage: 4% (1/28)
-  Missing EN (27):
+  EN Coverage: 0% (0/28)
+  AR Coverage: 0% (0/28)
+  Missing EN (28):
     - calorie_deficit.current_weight
     - body_recomposition.weight_tooltip
     - body_recomposition.enter_weight
@@ -2621,6 +2653,7 @@ Calculator: calorie-deficit-calculator
     - calorie_deficit.weight_to_lose
     - calorie_deficit.weekly_loss
     - calorie_deficit.daily_deficit
+    - calorie.results.calories
     - calorie_deficit.daily_calories
     - calorie_deficit.total_deficit
     - calorie_deficit.warning_deficit
@@ -2633,7 +2666,7 @@ Calculator: calorie-deficit-calculator
     - calorie_deficit.title
     - calorie_deficit.description
     - calorie_deficit.footer_note
-  Missing AR (27):
+  Missing AR (28):
     - calorie_deficit.current_weight
     - body_recomposition.weight_tooltip
     - body_recomposition.enter_weight
@@ -2649,6 +2682,7 @@ Calculator: calorie-deficit-calculator
     - calorie_deficit.weight_to_lose
     - calorie_deficit.weekly_loss
     - calorie_deficit.daily_deficit
+    - calorie.results.calories
     - calorie_deficit.daily_calories
     - calorie_deficit.total_deficit
     - calorie_deficit.warning_deficit
@@ -8703,9 +8737,9 @@ Calculator: fixed-christian-feasts-calculator
 
 Calculator: flexibility-score-calculator
   Total Keys: 38
-  EN Coverage: 11% (4/38)
-  AR Coverage: 11% (4/38)
-  Missing EN (34):
+  EN Coverage: 3% (1/38)
+  AR Coverage: 3% (1/38)
+  Missing EN (37):
     - athletic_performance.elite
     - athletic_performance.excellent
     - athletic_performance.good
@@ -8713,7 +8747,10 @@ Calculator: flexibility-score-calculator
     - flexibility_score.rec_hamstrings
     - flexibility_score.rec_shoulders
     - flexibility_score.rec_hips
+    - calorie.inputs.male
+    - calorie.inputs.female
     - flexibility_score.gender
+    - calorie.inputs.gender
     - flexibility_score.age
     - body_fat.age
     - flexibility_score.enter_age
@@ -8740,7 +8777,7 @@ Calculator: flexibility-score-calculator
     - flexibility_score.empty_state
     - flexibility_score.title
     - flexibility_score.description
-  Missing AR (34):
+  Missing AR (37):
     - athletic_performance.elite
     - athletic_performance.excellent
     - athletic_performance.good
@@ -8748,7 +8785,10 @@ Calculator: flexibility-score-calculator
     - flexibility_score.rec_hamstrings
     - flexibility_score.rec_shoulders
     - flexibility_score.rec_hips
+    - calorie.inputs.male
+    - calorie.inputs.female
     - flexibility_score.gender
+    - calorie.inputs.gender
     - flexibility_score.age
     - body_fat.age
     - flexibility_score.enter_age
@@ -10687,9 +10727,11 @@ Calculator: hamster-lifespan-calculator
 
 Calculator: heart-rate-zone-calculator
   Total Keys: 29
-  EN Coverage: 28% (8/29)
-  AR Coverage: 28% (8/29)
-  Missing EN (21):
+  EN Coverage: 14% (4/29)
+  AR Coverage: 14% (4/29)
+  Missing EN (25):
+    - calorie.errors.all_fields
+    - calorie.errors.age_range
     - common.errors.invalid
     - heart_rate_zones.zones.v_light
     - heart_rate_zones.zones.v_light_desc
@@ -10702,6 +10744,8 @@ Calculator: heart-rate-zone-calculator
     - heart_rate_zones.zones.maximum
     - heart_rate_zones.zones.maximum_desc
     - heart_rate_zones.title
+    - calorie.inputs.age
+    - calorie.tooltips.age
     - heart_rate_zones.inputs.resting_hr
     - heart_rate_zones.inputs.resting_hr_tooltip
     - heart_rate_zones.results.max_hr
@@ -10711,7 +10755,9 @@ Calculator: heart-rate-zone-calculator
     - heart_rate_zones.empty_state
     - heart_rate_zones.description
     - heart_rate_zones.footer_note
-  Missing AR (21):
+  Missing AR (25):
+    - calorie.errors.all_fields
+    - calorie.errors.age_range
     - common.errors.invalid
     - heart_rate_zones.zones.v_light
     - heart_rate_zones.zones.v_light_desc
@@ -10724,6 +10770,8 @@ Calculator: heart-rate-zone-calculator
     - heart_rate_zones.zones.maximum
     - heart_rate_zones.zones.maximum_desc
     - heart_rate_zones.title
+    - calorie.inputs.age
+    - calorie.tooltips.age
     - heart_rate_zones.inputs.resting_hr
     - heart_rate_zones.inputs.resting_hr_tooltip
     - heart_rate_zones.results.max_hr
@@ -12985,11 +13033,14 @@ Calculator: landscaping-calculator
 
 Calculator: lean-body-mass-calculator
   Total Keys: 34
-  EN Coverage: 12% (4/34)
-  AR Coverage: 12% (4/34)
-  Missing EN (30):
+  EN Coverage: 3% (1/34)
+  AR Coverage: 3% (1/34)
+  Missing EN (33):
+    - calorie.inputs.male
+    - calorie.inputs.female
     - lean-body-mass-calculator.gender
     - lean-body-mass-calculator.gender_tooltip
+    - calorie.inputs.gender
     - lean-body-mass-calculator.weight
     - lean-body-mass-calculator.weight_tooltip
     - lean-body-mass-calculator.enter_weight
@@ -13018,9 +13069,12 @@ Calculator: lean-body-mass-calculator
     - lean-body-mass-calculator.title
     - lean-body-mass-calculator.description
     - lean-body-mass-calculator.footer_note
-  Missing AR (30):
+  Missing AR (33):
+    - calorie.inputs.male
+    - calorie.inputs.female
     - lean-body-mass-calculator.gender
     - lean-body-mass-calculator.gender_tooltip
+    - calorie.inputs.gender
     - lean-body-mass-calculator.weight
     - lean-body-mass-calculator.weight_tooltip
     - lean-body-mass-calculator.enter_weight
@@ -17916,9 +17970,11 @@ Calculator: protein-calculator
 
 Calculator: protein-intake-calculator
   Total Keys: 36
-  EN Coverage: 6% (2/36)
-  AR Coverage: 6% (2/36)
-  Missing EN (34):
+  EN Coverage: 0% (0/36)
+  AR Coverage: 0% (0/36)
+  Missing EN (36):
+    - calorie.errors.all_fields
+    - calorie.errors.weight_positive
     - protein-intake-calculator.goal_sedentary
     - protein-intake-calculator.goal_maintain
     - protein-intake-calculator.goal_muscle
@@ -17953,7 +18009,9 @@ Calculator: protein-intake-calculator
     - protein-intake-calculator.title
     - protein-intake-calculator.description
     - protein-intake-calculator.footer_note
-  Missing AR (34):
+  Missing AR (36):
+    - calorie.errors.all_fields
+    - calorie.errors.weight_positive
     - protein-intake-calculator.goal_sedentary
     - protein-intake-calculator.goal_maintain
     - protein-intake-calculator.goal_muscle
@@ -24266,16 +24324,24 @@ Calculator: vertical-jump-calculator
 
 Calculator: vo2-max-calculator
   Total Keys: 41
-  EN Coverage: 29% (12/41)
-  AR Coverage: 29% (12/41)
-  Missing EN (29):
+  EN Coverage: 10% (4/41)
+  AR Coverage: 10% (4/41)
+  Missing EN (37):
+    - calorie.errors.all_fields
+    - calorie.errors.age_range
     - common.errors.invalid
     - vo2max.results.categories.poor
     - vo2max.results.categories.average
     - vo2max.results.categories.good
     - vo2max.results.categories.excellent
     - vo2max.results.categories.elite
+    - calorie.inputs.male
+    - calorie.inputs.female
     - vo2max.title
+    - calorie.inputs.gender
+    - calorie.tooltips.gender
+    - calorie.inputs.age
+    - calorie.tooltips.age
     - heart_rate_zones.inputs.resting_hr
     - heart_rate_zones.inputs.resting_hr_tooltip
     - vo2max.inputs.max_hr
@@ -24298,14 +24364,22 @@ Calculator: vo2-max-calculator
     - vo2max.empty_state
     - vo2max.description
     - vo2max.footer_note
-  Missing AR (29):
+  Missing AR (37):
+    - calorie.errors.all_fields
+    - calorie.errors.age_range
     - common.errors.invalid
     - vo2max.results.categories.poor
     - vo2max.results.categories.average
     - vo2max.results.categories.good
     - vo2max.results.categories.excellent
     - vo2max.results.categories.elite
+    - calorie.inputs.male
+    - calorie.inputs.female
     - vo2max.title
+    - calorie.inputs.gender
+    - calorie.tooltips.gender
+    - calorie.inputs.age
+    - calorie.tooltips.age
     - heart_rate_zones.inputs.resting_hr
     - heart_rate_zones.inputs.resting_hr_tooltip
     - vo2max.inputs.max_hr
@@ -24496,9 +24570,9 @@ Calculator: volume-converter
 
 Calculator: waist-to-hip-ratio-calculator
   Total Keys: 39
-  EN Coverage: 5% (2/39)
-  AR Coverage: 5% (2/39)
-  Missing EN (37):
+  EN Coverage: 0% (0/39)
+  AR Coverage: 0% (0/39)
+  Missing EN (39):
     - waist_hip_ratio.categories.excellent
     - waist_hip_ratio.risks.low
     - waist_hip_ratio.categories.good
@@ -24507,6 +24581,8 @@ Calculator: waist-to-hip-ratio-calculator
     - waist_hip_ratio.risks.high
     - waist_hip_ratio.categories.high
     - waist_hip_ratio.risks.very_high
+    - calorie.inputs.male
+    - calorie.inputs.female
     - waist_hip_ratio.gender
     - waist_hip_ratio.gender_tooltip
     - waist_hip_ratio.waist
@@ -24536,7 +24612,7 @@ Calculator: waist-to-hip-ratio-calculator
     - waist_hip_ratio.title
     - waist_hip_ratio.description
     - waist_hip_ratio.footer_note
-  Missing AR (37):
+  Missing AR (39):
     - waist_hip_ratio.categories.excellent
     - waist_hip_ratio.risks.low
     - waist_hip_ratio.categories.good
@@ -24545,6 +24621,8 @@ Calculator: waist-to-hip-ratio-calculator
     - waist_hip_ratio.risks.high
     - waist_hip_ratio.categories.high
     - waist_hip_ratio.risks.very_high
+    - calorie.inputs.male
+    - calorie.inputs.female
     - waist_hip_ratio.gender
     - waist_hip_ratio.gender_tooltip
     - waist_hip_ratio.waist
@@ -25489,9 +25567,9 @@ Calculator: wheel-offset-calculator
 
 Calculator: wilks-coefficient-calculator
   Total Keys: 31
-  EN Coverage: 10% (3/31)
-  AR Coverage: 10% (3/31)
-  Missing EN (28):
+  EN Coverage: 0% (0/31)
+  AR Coverage: 0% (0/31)
+  Missing EN (31):
     - wilks_calculator.standards_male.beginner
     - wilks_calculator.standards_male.intermediate
     - wilks_calculator.standards_male.advanced
@@ -25502,8 +25580,11 @@ Calculator: wilks-coefficient-calculator
     - wilks_calculator.standards_female.advanced
     - wilks_calculator.standards_female.elite
     - wilks_calculator.standards_female.world_class
+    - calorie.inputs.male
+    - calorie.inputs.female
     - wilks_calculator.gender
     - body_fat.gender
+    - calorie.inputs.gender
     - wilks_calculator.bodyweight
     - wilks_calculator.bodyweight_tooltip
     - wilks_calculator.enter_weight
@@ -25520,7 +25601,7 @@ Calculator: wilks-coefficient-calculator
     - wilks_calculator.title
     - wilks_calculator.description
     - wilks_calculator.footer_note
-  Missing AR (28):
+  Missing AR (31):
     - wilks_calculator.standards_male.beginner
     - wilks_calculator.standards_male.intermediate
     - wilks_calculator.standards_male.advanced
@@ -25531,8 +25612,11 @@ Calculator: wilks-coefficient-calculator
     - wilks_calculator.standards_female.advanced
     - wilks_calculator.standards_female.elite
     - wilks_calculator.standards_female.world_class
+    - calorie.inputs.male
+    - calorie.inputs.female
     - wilks_calculator.gender
     - body_fat.gender
+    - calorie.inputs.gender
     - wilks_calculator.bodyweight
     - wilks_calculator.bodyweight_tooltip
     - wilks_calculator.enter_weight

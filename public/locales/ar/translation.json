@@ -175,7 +175,8 @@
     "common": {
         "search": "بحث",
         "searchPlaceholder": "ابحث عن آلة حاسبة (مثلاً: حاسبة النسب، BMI...)",
-        "siteName": "آلات حاسبة"
+        "siteName": "آلات حاسبة",
+        "convert": "تحويل"
     },
     "categoryNames": {
         "math": "حاسبات رياضية",

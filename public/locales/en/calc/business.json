@@ -5248,5 +5248,180 @@
         "answer": "Yes. Lower LTV usually means lower rates. Rates may improve at 80%, 75%, and 60% LTV thresholds depending on lender."
       }
     ]
+  },
+  "amazon_fba": {
+    "title": "Amazon FBA Calculator",
+    "description": "Calculate Amazon FBA fees including referral, fulfillment, and storage fees",
+    "inputs": {
+      "product_price": "Product Price",
+      "product_price_tooltip": "The selling price of your product on Amazon",
+      "product_price_placeholder": "Enter product price",
+      "product_cost": "Product Cost",
+      "product_cost_tooltip": "Your cost to acquire or manufacture the product",
+      "product_cost_placeholder": "Enter product cost (optional)",
+      "category": "Product Category",
+      "category_tooltip": "Amazon product category (affects referral fee percentage)",
+      "length": "Length",
+      "width": "Width",
+      "height": "Height",
+      "dimensions_tooltip": "Product dimensions in inches (used for fulfillment and storage fees)",
+      "length_placeholder": "in",
+      "width_placeholder": "in",
+      "height_placeholder": "in",
+      "inches": "in",
+      "weight": "Weight",
+      "weight_tooltip": "Product weight in pounds",
+      "weight_placeholder": "Enter weight",
+      "lbs": "lbs"
+    },
+    "categories": {
+      "electronics": "Electronics",
+      "computers": "Computers",
+      "clothing": "Clothing & Accessories",
+      "shoes": "Shoes, Handbags & Sunglasses",
+      "jewelry": "Jewelry",
+      "home": "Home & Garden",
+      "kitchen": "Kitchen & Dining",
+      "sports": "Sports & Outdoors",
+      "toys": "Toys & Games",
+      "books": "Books",
+      "beauty": "Beauty & Personal Care",
+      "health": "Health & Household",
+      "pet": "Pet Supplies",
+      "automotive": "Automotive",
+      "other": "Other Categories"
+    },
+    "results": {
+      "total_fees": "Total FBA Fees",
+      "net_profit": "Net Profit",
+      "fee_breakdown": "Fee Breakdown",
+      "referral_fee": "Referral Fee",
+      "of_price": "of price",
+      "fulfillment_fee": "FBA Fulfillment Fee",
+      "pick_pack_ship": "Pick, pack & ship",
+      "storage_fee": "Monthly Storage Fee",
+      "monthly": "Per month",
+      "profit_margin": "Profit Margin",
+      "margin_desc": "Net profit percentage",
+      "formula_title": "How It's Calculated",
+      "formula_desc": "Total Fees = Referral Fee + FBA Fulfillment Fee + Monthly Storage Fee. Net Profit = Sale Price - Product Cost - Total Fees. Margin = (Net Profit / Sale Price) × 100"
+    },
+    "info": {
+      "title": "About Amazon FBA Fees",
+      "description": "Amazon FBA (Fulfillment by Amazon) charges three main types of fees: referral fees (percentage of sale price varying by category), fulfillment fees (based on product size and weight), and storage fees (per cubic foot per month).",
+      "use_cases": "Use Cases",
+      "use_case_1": "Evaluate product profitability before adding to your Amazon catalog",
+      "use_case_2": "Compare fees across different product categories",
+      "use_case_3": "Optimize pricing strategy to maintain healthy profit margins"
+    }
+  },
+  "ebay_fees": {
+    "title": "eBay Fees Calculator",
+    "description": "Calculate eBay selling fees including final value fee and payment processing",
+    "inputs": {
+      "sale_price": "Sale Price",
+      "sale_price_tooltip": "The listing price for your item on eBay",
+      "sale_price_placeholder": "Enter sale price",
+      "shipping_charge": "Shipping Charge",
+      "shipping_charge_tooltip": "Amount you charge the buyer for shipping",
+      "shipping_charge_placeholder": "Enter shipping charge (optional)",
+      "category": "Item Category",
+      "category_tooltip": "eBay item category (affects final value fee percentage)",
+      "product_cost": "Product Cost",
+      "product_cost_tooltip": "Your cost to acquire the item",
+      "product_cost_placeholder": "Enter product cost (optional)",
+      "shipping_cost": "Shipping Cost",
+      "shipping_cost_tooltip": "Your actual cost to ship the item",
+      "shipping_cost_placeholder": "Enter shipping cost (optional)",
+      "insertion_fees": "Insertion Fees",
+      "insertion_fees_tooltip": "Listing fees if applicable (free listings available monthly)",
+      "insertion_fees_placeholder": "Enter insertion fees"
+    },
+    "categories": {
+      "electronics": "Electronics",
+      "computers": "Computers & Tablets",
+      "clothing": "Clothing & Accessories",
+      "shoes": "Shoes",
+      "jewelry": "Jewelry",
+      "watches": "Watches",
+      "home_garden": "Home & Garden",
+      "sporting_goods": "Sporting Goods",
+      "toys": "Toys & Hobbies",
+      "books": "Books",
+      "collectibles": "Collectibles",
+      "automotive": "Automotive",
+      "other": "Other Categories"
+    },
+    "results": {
+      "total_fees": "Total eBay Fees",
+      "net_profit": "Net Profit",
+      "fee_breakdown": "Fee Breakdown",
+      "final_value_fee": "Final Value Fee",
+      "of_sale": "of total sale",
+      "payment_processing": "Payment Processing",
+      "insertion_fee": "Insertion Fee",
+      "listing_fee": "Listing fee",
+      "profit_margin": "Profit Margin",
+      "margin_desc": "Net profit percentage",
+      "formula_title": "How It's Calculated",
+      "formula_desc": "Total Fees = Final Value Fee + Payment Processing Fee + Insertion Fees. Net Profit = Total Sale - Product Cost - Shipping Cost - Total Fees. Margin = (Net Profit / Total Sale) × 100"
+    },
+    "info": {
+      "title": "About eBay Fees",
+      "description": "eBay charges final value fees (percentage of total sale including shipping), payment processing fees through managed payments (2.9% + $0.30), and optional insertion fees for listings beyond your monthly free allocation.",
+      "use_cases": "Use Cases",
+      "use_case_1": "Calculate total fees before listing an item",
+      "use_case_2": "Determine minimum selling price to achieve target profit",
+      "use_case_3": "Compare profitability across different item categories"
+    }
+  },
+  "shopify_profit": {
+    "title": "Shopify Profit Calculator",
+    "description": "Calculate profit margins for your Shopify store after all fees",
+    "inputs": {
+      "selling_price": "Selling Price",
+      "selling_price_tooltip": "The price you sell the product for (excluding shipping)",
+      "selling_price_placeholder": "Enter selling price",
+      "product_cost": "Product Cost",
+      "product_cost_tooltip": "Cost of goods sold (COGS) - what you pay for the product",
+      "product_cost_placeholder": "Enter product cost",
+      "plan": "Shopify Plan",
+      "plan_tooltip": "Your Shopify subscription plan (affects fees)",
+      "shipping_cost": "Shipping Cost",
+      "shipping_cost_tooltip": "Your cost to ship the product to customer",
+      "shipping_cost_placeholder": "Enter shipping cost (optional)",
+      "shipping_charge": "Shipping Charge",
+      "shipping_charge_tooltip": "Amount you charge customer for shipping",
+      "shipping_charge_placeholder": "Enter shipping charge (optional)"
+    },
+    "plans": {
+      "basic": "Basic Shopify",
+      "shopify": "Shopify",
+      "advanced": "Advanced Shopify",
+      "plus": "Shopify Plus"
+    },
+    "results": {
+      "net_profit": "Net Profit",
+      "profit_margin": "Profit Margin",
+      "breakdown": "Profit Breakdown",
+      "gross_profit": "Gross Profit",
+      "before_fees": "Before fees",
+      "total_fees": "Total Fees",
+      "all_fees": "All platform fees",
+      "payment_fee": "Payment Processing",
+      "payment_processing": "Card processing fee",
+      "cost_percentage": "Total Cost %",
+      "of_price": "of selling price",
+      "formula_title": "How It's Calculated",
+      "formula_desc": "Net Profit = (Selling Price + Shipping Charge) - Product Cost - Shipping Cost - Payment Processing Fee - Transaction Fee. Margin = (Net Profit / Selling Price) × 100"
+    },
+    "info": {
+      "title": "About Shopify Fees",
+      "description": "Shopify charges payment processing fees (varies by plan: 2.9% + $0.30 for Basic) and transaction fees (if not using Shopify Payments). Higher plans have lower processing rates.",
+      "use_cases": "Use Cases",
+      "use_case_1": "Calculate true profit margins on products",
+      "use_case_2": "Determine optimal pricing strategy",
+      "use_case_3": "Evaluate if upgrading to higher Shopify plan saves money"
+    }
   }
 }
