@@ -1,0 +1,286 @@
+name: Bundle Size Check
+
+on:
+  pull_request:
+    branches: [ main, develop ]
+  push:
+    branches: [ main ]
+  workflow_dispatch:
+
+jobs:
+  bundle-size:
+    name: Analyze Bundle Size
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build project
+        run: npm run build
+
+      - name: Analyze bundle size
+        id: analyze
+        run: |
+          # Create bundle analysis
+          echo "# Bundle Size Analysis" > bundle-analysis.md
+          echo "" >> bundle-analysis.md
+          echo "## Build Output" >> bundle-analysis.md
+          echo '```' >> bundle-analysis.md
+          ls -lh dist/ >> bundle-analysis.md
+          echo '```' >> bundle-analysis.md
+          echo "" >> bundle-analysis.md
+
+          # Analyze JS files
+          echo "## JavaScript Files" >> bundle-analysis.md
+          echo "" >> bundle-analysis.md
+          echo "| File | Size | Gzipped |" >> bundle-analysis.md
+          echo "|------|------|---------|" >> bundle-analysis.md
+
+          TOTAL_JS_SIZE=0
+          MAIN_BUNDLE_SIZE=0
+
+          for file in dist/assets/js/*.js; do
+            if [ -f "$file" ]; then
+              SIZE=$(stat -f%z "$file" 2>/dev/null || stat -c%s "$file" 2>/dev/null)
+              GZIPPED=$(gzip -c "$file" | wc -c | tr -d ' ')
+              FILENAME=$(basename "$file")
+              SIZE_KB=$(echo "scale=2; $SIZE / 1024" | bc)
+              GZIPPED_KB=$(echo "scale=2; $GZIPPED / 1024" | bc)
+
+              echo "| $FILENAME | ${SIZE_KB} KB | ${GZIPPED_KB} KB |" >> bundle-analysis.md
+
+              TOTAL_JS_SIZE=$((TOTAL_JS_SIZE + SIZE))
+
+              # Track main bundle
+              if [[ "$FILENAME" == index-*.js ]]; then
+                MAIN_BUNDLE_SIZE=$SIZE
+              fi
+            fi
+          done
+
+          TOTAL_JS_KB=$(echo "scale=2; $TOTAL_JS_SIZE / 1024" | bc)
+
+          echo "" >> bundle-analysis.md
+          echo "**Total JS Size:** ${TOTAL_JS_KB} KB" >> bundle-analysis.md
+          echo "" >> bundle-analysis.md
+
+          # Analyze CSS files
+          echo "## CSS Files" >> bundle-analysis.md
+          echo "" >> bundle-analysis.md
+          echo "| File | Size | Gzipped |" >> bundle-analysis.md
+          echo "|------|------|---------|" >> bundle-analysis.md
+
+          TOTAL_CSS_SIZE=0
+
+          for file in dist/assets/css/*.css 2>/dev/null; do
+            if [ -f "$file" ]; then
+              SIZE=$(stat -f%z "$file" 2>/dev/null || stat -c%s "$file" 2>/dev/null)
+              GZIPPED=$(gzip -c "$file" | wc -c | tr -d ' ')
+              FILENAME=$(basename "$file")
+              SIZE_KB=$(echo "scale=2; $SIZE / 1024" | bc)
+              GZIPPED_KB=$(echo "scale=2; $GZIPPED / 1024" | bc)
+
+              echo "| $FILENAME | ${SIZE_KB} KB | ${GZIPPED_KB} KB |" >> bundle-analysis.md
+
+              TOTAL_CSS_SIZE=$((TOTAL_CSS_SIZE + SIZE))
+            fi
+          done
+
+          TOTAL_CSS_KB=$(echo "scale=2; $TOTAL_CSS_SIZE / 1024" | bc)
+
+          echo "" >> bundle-analysis.md
+          echo "**Total CSS Size:** ${TOTAL_CSS_KB} KB" >> bundle-analysis.md
+          echo "" >> bundle-analysis.md
+
+          # Overall summary
+          TOTAL_SIZE=$((TOTAL_JS_SIZE + TOTAL_CSS_SIZE))
+          TOTAL_SIZE_KB=$(echo "scale=2; $TOTAL_SIZE / 1024" | bc)
+
+          echo "## Summary" >> bundle-analysis.md
+          echo "" >> bundle-analysis.md
+          echo "| Asset Type | Total Size |" >> bundle-analysis.md
+          echo "|------------|------------|" >> bundle-analysis.md
+          echo "| JavaScript | ${TOTAL_JS_KB} KB |" >> bundle-analysis.md
+          echo "| CSS | ${TOTAL_CSS_KB} KB |" >> bundle-analysis.md
+          echo "| **Total** | **${TOTAL_SIZE_KB} KB** |" >> bundle-analysis.md
+
+          # Set outputs
+          echo "total_size=$TOTAL_SIZE" >> $GITHUB_OUTPUT
+          echo "total_js=$TOTAL_JS_SIZE" >> $GITHUB_OUTPUT
+          echo "total_css=$TOTAL_CSS_SIZE" >> $GITHUB_OUTPUT
+          echo "main_bundle=$MAIN_BUNDLE_SIZE" >> $GITHUB_OUTPUT
+
+          cat bundle-analysis.md
+
+      - name: Check bundle size limits
+        id: check_limits
+        run: |
+          MAIN_BUNDLE=${{ steps.analyze.outputs.main_bundle }}
+          TOTAL_JS=${{ steps.analyze.outputs.total_js }}
+
+          # Define limits (in bytes)
+          MAIN_BUNDLE_LIMIT=$((500 * 1024))  # 500 KB
+          TOTAL_JS_LIMIT=$((2 * 1024 * 1024))  # 2 MB
+
+          MAIN_BUNDLE_KB=$(echo "scale=2; $MAIN_BUNDLE / 1024" | bc)
+          MAIN_BUNDLE_LIMIT_KB=$(echo "scale=2; $MAIN_BUNDLE_LIMIT / 1024" | bc)
+          TOTAL_JS_KB=$(echo "scale=2; $TOTAL_JS / 1024" | bc)
+          TOTAL_JS_LIMIT_KB=$(echo "scale=2; $TOTAL_JS_LIMIT / 1024" | bc)
+
+          echo "Main bundle size: ${MAIN_BUNDLE_KB} KB (limit: ${MAIN_BUNDLE_LIMIT_KB} KB)"
+          echo "Total JS size: ${TOTAL_JS_KB} KB (limit: ${TOTAL_JS_LIMIT_KB} KB)"
+
+          EXCEEDED=0
+
+          if [ "$MAIN_BUNDLE" -gt "$MAIN_BUNDLE_LIMIT" ]; then
+            echo "::warning::Main bundle size (${MAIN_BUNDLE_KB} KB) exceeds limit (${MAIN_BUNDLE_LIMIT_KB} KB)"
+            EXCEEDED=1
+          fi
+
+          if [ "$TOTAL_JS" -gt "$TOTAL_JS_LIMIT" ]; then
+            echo "::warning::Total JS size (${TOTAL_JS_KB} KB) exceeds limit (${TOTAL_JS_LIMIT_KB} KB)"
+            EXCEEDED=1
+          fi
+
+          echo "exceeded=$EXCEEDED" >> $GITHUB_OUTPUT
+
+      - name: Upload bundle analysis
+        uses: actions/upload-artifact@v4
+        with:
+          name: bundle-analysis-${{ github.sha }}
+          path: |
+            bundle-analysis.md
+            dist/
+          retention-days: 30
+
+      - name: Compare with base branch
+        if: github.event_name == 'pull_request'
+        id: compare
+        run: |
+          # Checkout base branch
+          git fetch origin ${{ github.base_ref }}
+          git checkout origin/${{ github.base_ref }}
+
+          # Build base branch
+          npm ci
+          npm run build
+
+          # Analyze base bundle
+          BASE_TOTAL=0
+          for file in dist/assets/js/*.js; do
+            if [ -f "$file" ]; then
+              SIZE=$(stat -f%z "$file" 2>/dev/null || stat -c%s "$file" 2>/dev/null)
+              BASE_TOTAL=$((BASE_TOTAL + SIZE))
+            fi
+          done
+
+          # Return to PR branch
+          git checkout -
+
+          # Calculate difference
+          CURRENT_TOTAL=${{ steps.analyze.outputs.total_js }}
+          DIFF=$((CURRENT_TOTAL - BASE_TOTAL))
+
+          BASE_KB=$(echo "scale=2; $BASE_TOTAL / 1024" | bc)
+          CURRENT_KB=$(echo "scale=2; $CURRENT_TOTAL / 1024" | bc)
+          DIFF_KB=$(echo "scale=2; $DIFF / 1024" | bc)
+
+          if [ "$DIFF" -gt 0 ]; then
+            DIFF_PERCENT=$(echo "scale=2; ($DIFF / $BASE_TOTAL) * 100" | bc)
+            echo "size_change=📈 Increased by ${DIFF_KB} KB (+${DIFF_PERCENT}%)" >> $GITHUB_OUTPUT
+          elif [ "$DIFF" -lt 0 ]; then
+            DIFF_POSITIVE=$((DIFF * -1))
+            DIFF_KB_POSITIVE=$(echo "scale=2; $DIFF_POSITIVE / 1024" | bc)
+            DIFF_PERCENT=$(echo "scale=2; ($DIFF_POSITIVE / $BASE_TOTAL) * 100" | bc)
+            echo "size_change=📉 Decreased by ${DIFF_KB_POSITIVE} KB (-${DIFF_PERCENT}%)" >> $GITHUB_OUTPUT
+          else
+            echo "size_change=➡️ No change" >> $GITHUB_OUTPUT
+          fi
+
+          echo "base_size=$BASE_KB" >> $GITHUB_OUTPUT
+          echo "current_size=$CURRENT_KB" >> $GITHUB_OUTPUT
+
+      - name: Comment on PR
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+
+            const bundleAnalysis = fs.readFileSync('bundle-analysis.md', 'utf8');
+            const exceeded = '${{ steps.check_limits.outputs.exceeded }}';
+            const sizeChange = '${{ steps.compare.outputs.size_change }}';
+            const baseSize = '${{ steps.compare.outputs.base_size }}';
+            const currentSize = '${{ steps.compare.outputs.current_size }}';
+
+            const statusEmoji = exceeded === '0' ? '✅' : '⚠️';
+
+            const output = `## ${statusEmoji} Bundle Size Report
+
+            ### Size Comparison
+
+            | Branch | Size |
+            |--------|------|
+            | Base (\`${{ github.base_ref }}\`) | ${baseSize} KB |
+            | Current | ${currentSize} KB |
+            | **Change** | **${sizeChange}** |
+
+            ### Limits
+
+            - Main bundle: ✓ Under 500 KB limit
+            - Total JS: ${exceeded === '0' ? '✓ Under 2 MB limit' : '⚠️ Exceeds 2 MB limit'}
+
+            <details>
+            <summary>View Detailed Analysis</summary>
+
+            ${bundleAnalysis}
+
+            </details>
+
+            ---
+            *Bundle size analysis by GitHub Actions*
+            `;
+
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+
+            const botComment = comments.find(comment =>
+              comment.user.type === 'Bot' &&
+              comment.body.includes('Bundle Size Report')
+            );
+
+            if (botComment) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: botComment.id,
+                body: output
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: output
+              });
+            }
+
+      - name: Fail if bundle size exceeded
+        if: steps.check_limits.outputs.exceeded == '1'
+        run: |
+          echo "::error::Bundle size exceeds configured limits"
+          echo "Please optimize your bundle before merging"
+          exit 1

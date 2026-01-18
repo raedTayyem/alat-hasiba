@@ -1,0 +1,51 @@
+SAMPLE CALCULATOR TRANSLATION STATUS
+=====================================
+
+Format: Calculator Name | Total Keys | EN % | AR % | Status
+
+HIGH PRIORITY (Popular Calculators):
+-------------------------------------
+bmi-calculator                 | 25 keys  | 0%  | 0%  | Missing All
+calorie-calculator            | 32 keys  | 0%  | 0%  | Missing All
+zakat-calculator              | 15 keys  | 0%  | 0%  | Missing All
+loan-calculator               | 28 keys  | 0%  | 0%  | Missing All
+age-calculator                | 15 keys  | 0%  | 0%  | Missing All
+pregnancy-calculator          | 35 keys  | 0%  | 0%  | Missing All
+
+AUTOMOTIVE CATEGORY:
+--------------------
+acceleration-calculator       | 46 keys  | 0%  | 0%  | Missing All (DUPLICATE)
+fuel-economy-calculator       | 38 keys  | 0%  | 0%  | Missing All
+car-loan-calculator          | 42 keys  | 0%  | 0%  | Missing All
+battery-life-calculator      | 31 keys  | 0%  | 0%  | Missing All (DUPLICATE)
+
+FITNESS CATEGORY:
+-----------------
+water-intake-calculator      | 28 keys  | 0%  | 0%  | Missing All (DUPLICATE)
+body-fat-percentage-calc     | 34 keys  | 0%  | 0%  | Missing All
+tdee-calculator              | 40 keys  | 0%  | 0%  | Missing All
+macro-calculator             | 45 keys  | 0%  | 0%  | Missing All
+
+BUSINESS CATEGORY:
+------------------
+break-even-calculator        | 37 keys  | 0%  | 0%  | Missing All
+roi-calculator               | 33 keys  | 0%  | 0%  | Missing All
+profit-margin-calculator     | 39 keys  | 0%  | 0%  | Missing All
+vat-calculator               | 29 keys  | 0%  | 0%  | Missing All
+
+FULLY TRANSLATED:
+-----------------
+holy-week-traditions         | 24 keys  | 100%| 100%| Complete ✓
+
+NO COMPONENT FOUND:
+-------------------
+401k-calculator              | N/A      | N/A | N/A | Component Missing
+555-timer-calculator         | N/A      | N/A | N/A | Component Missing
+
+NOTES:
+------
+* 98.7% of calculators need translations
+* Average 32 translation keys per calculator
+* Translation keys follow pattern: calc/{category}:{name}.{key}
+* Most keys are missing from /public/locales/{lang}/common.json
+* Likely need separate calc/{category}.json files instead

@@ -34,7 +34,7 @@ const engineeringCalculators: Calculator[] = [
     id: 403,
     name: 'حاسبة الخرسانة',
     nameEn: 'Concrete Calculator - Calculate Concrete Mix and Quantity',
-    slug: 'concrete-calculator',
+    slug: 'concrete-strength-calculator',
     description: 'حساب كميات الخرسانة ومكوناتها',
     descriptionEn: 'Calculate concrete quantities and mix components for construction projects. Free concrete calculator for cement, sand, gravel, and water ratios. Perfect for builders and contractors.',
     category: 'engineering',

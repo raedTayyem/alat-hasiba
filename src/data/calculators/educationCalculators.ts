@@ -2,20 +2,6 @@ import { Calculator } from './types';
 
 // Education Calculators
 const educationCalculators: Calculator[] = [
-  /*
-    {
-      id: 904,
-      name: 'حاسبة سرعة القراءة',
-      nameEn: 'Reading Speed Calculator - Calculate Words Per Minute',
-      slug: 'reading-speed-calculator',
-      description: 'قياس سرعة القراءة والفهم',
-      descriptionEn: 'Measure your reading speed and comprehension in words per minute. Free reading speed calculator to test and improve your reading skills. Track your progress over time.',
-      category: 'education',
-      icon: '📚',
-      popularity: 6,
-      componentName: 'ReadingSpeedCalculator'
-    },
-    */
   {
     id: 905,
     name: 'حاسبة التقييم الدراسي',

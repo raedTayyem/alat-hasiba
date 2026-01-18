@@ -50,7 +50,7 @@ const physicsCalculators: Calculator[] = [
     name: 'حاسبة التسارع',
     nameEn: 'Acceleration Calculator',
     nameKey: 'calc/physics:acceleration.title',
-    slug: 'acceleration-calculator',
+    slug: 'physics-acceleration-calculator',
     description: 'حساب التسارع بناءً على السرعة والزمن',
     descriptionEn: 'Calculate acceleration based on change in velocity and time.',
     descriptionKey: 'calc/physics:acceleration.description',

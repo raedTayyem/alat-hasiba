@@ -52,7 +52,9 @@
         "popularTitle": "Most Popular Calculators",
         "popularDescription": "The most requested and used tools by our visitors daily.",
         "categoryLabel": "Category",
-        "allPopular": "All Popular Calculators"
+        "allPopular": "All Popular Calculators",
+        "invalid_input": "Invalid input. Please check your values.",
+        "calculation_error": "An error occurred during calculation"
     },
     "benefits": {
         "title": "Why Use Alathasiba?",

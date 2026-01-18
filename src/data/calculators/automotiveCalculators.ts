@@ -419,7 +419,7 @@ const automotiveCalculators: Calculator[] = [
     nameEn: 'Battery Life Calculator - Car Battery Estimator',
     descriptionKey: "calc/automotive:battery-life-calculator.description", description: 'احسب العمر المتبقي لبطارية السيارة',
     descriptionEn: 'Calculate remaining car battery life based on usage patterns, age, and climate conditions. Free battery life estimator for vehicle maintenance planning.',
-    slug: 'battery-life-calculator',
+    slug: 'car-battery-life-calculator',
     category: 'automotive',
     icon: '🔋',
     componentName: 'BatteryLifeCalculator',

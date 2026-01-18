@@ -4,9 +4,37 @@
  */
 
 // Main calculator imports (existing calculators)
+// These are explicit mappings for calculators that don't follow the standard subdirectory pattern
 export const calculatorImports: Record<string, () => Promise<any>> = {
-  // Add existing calculator imports here as needed
-  // Example: 'PercentageCalculator': () => import('../components/calculators/PercentageCalculator'),
+  // Inheritance Calculator - uses index.tsx instead of component name
+  'InheritanceCalculator': () => import('../components/calculators/inheritance-calculator/index.tsx'),
+
+  // Coptic Calendar calculators - in coptic-calendar subdirectory but category is date-time
+  'CopticHolyDays': () => import('../components/calculators/coptic-calendar/CopticHolyDays.tsx'),
+  'CopticToGregorian': () => import('../components/calculators/coptic-calendar/CopticToGregorian.tsx'),
+  'CopticCalendarInfo': () => import('../components/calculators/coptic-calendar/CopticCalendarInfo.tsx'),
+
+  // Christian Calendar calculators - in christian-calendar subdirectory but category is date-time
+  'FixedFeastsCalculator': () => import('../components/calculators/christian-calendar/FixedFeastsCalculator.tsx'),
+  'HolyDaysCalculator': () => import('../components/calculators/christian-calendar/HolyDaysCalculator.tsx'),
+
+  // Hebrew Calendar calculators - in hebrew-calendar subdirectory but category is date-time
+  'HebrewHolidays': () => import('../components/calculators/hebrew-calendar/HebrewHolidays.tsx'),
+  'HebrewToGregorian': () => import('../components/calculators/hebrew-calendar/HebrewToGregorian.tsx'),
+  'HebrewCalendarInfo': () => import('../components/calculators/hebrew-calendar/HebrewCalendarInfo.tsx'),
+
+  // Holy Week calculators - in holy-week subdirectory but category is date-time
+  'HolyWeekDates': () => import('../components/calculators/holy-week/HolyWeekDates.tsx'),
+  'HolyWeekInfo': () => import('../components/calculators/holy-week/HolyWeekInfo.tsx'),
+  'HolyWeekTraditions': () => import('../components/calculators/holy-week/HolyWeekTraditions.tsx'),
+
+  // Yazidi Calendar calculators - in yazidi-calendar subdirectory but category is date-time
+  'YazidiCalendar': () => import('../components/calculators/yazidi-calendar/YazidiCalendar.tsx'),
+  'YazidiNewYearCalculator': () => import('../components/calculators/yazidi-calendar/YazidiNewYearCalculator.tsx'),
+
+  // Samaritan Calendar calculators - in samaritan-calendar subdirectory but category is date-time
+  'SamaritanCalendarConverter': () => import('../components/calculators/samaritan-calendar/SamaritanCalendarConverter.tsx'),
+  'SamaritanFestivalsCalculator': () => import('../components/calculators/samaritan-calendar/SamaritanFestivalsCalculator.tsx'),
 };
 
 // Subdirectory calculator imports for new categories
@@ -118,8 +146,6 @@ export const subdirectoryCalculatorImports: Record<string, (componentName: strin
   // Specialized Calendars
   'yazidi-calendar': (componentName: string) =>
     import(`../components/calculators/yazidi-calendar/${componentName}.tsx`),
-  'ancient-calendars': (componentName: string) =>
-    import(`../components/calculators/ancient-calendars/${componentName}.tsx`),
   'christian-calendar': (componentName: string) =>
     import(`../components/calculators/christian-calendar/${componentName}.tsx`),
   'coptic-calendar': (componentName: string) =>

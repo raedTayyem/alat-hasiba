@@ -327,7 +327,27 @@
     "calculationError": "حدث خطأ في الحساب",
     "errorLoadingPage": "خطأ في تحميل الصفحة",
     "goHome": "العودة للرئيسية",
-    "no_heirs_selected": "الرجاء اختيار وارث واحد على الأقل"
+    "no_heirs_selected": "الرجاء اختيار وارث واحد على الأقل",
+    "invalid_input": "مدخلات غير صحيحة. الرجاء التحقق من القيم",
+    "calculation_error": "حدث خطأ أثناء الحساب",
+    "positive_values_required": "جميع القيم يجب أن تكون أرقام موجبة",
+    "positive_values": "جميع القيم يجب أن تكون موجبة",
+    "missing_inputs": "الرجاء ملء جميع الحقول المطلوبة",
+    "all_fields": "جميع الحقول مطلوبة",
+    "invalid_dimensions": "الرجاء إدخال أبعاد صحيحة",
+    "year_range": "يجب أن تكون السنة ضمن نطاق صحيح",
+    "month_range": "يجب أن يكون الشهر بين 1 و 12",
+    "day_range": "يجب أن يكون اليوم صحيحاً للشهر المحدد",
+    "age_range": "يجب أن يكون العمر بين 0 و 150",
+    "positive_required": "القيمة يجب أن تكون موجبة",
+    "cannot_be_zero": "القيمة لا يمكن أن تكون صفر",
+    "cannot_be_negative": "القيمة لا يمكن أن تكون سالبة",
+    "must_be_greater_than_zero": "القيمة يجب أن تكون أكبر من صفر",
+    "invalid_percentage": "النسبة المئوية يجب أن تكون بين 0 و 100",
+    "invalid_weight": "الرجاء إدخال وزن صحيح",
+    "invalid_area": "الرجاء إدخال مساحة صحيحة",
+    "value_too_low": "القيمة منخفضة جداً",
+    "value_too_high": "القيمة مرتفعة جداً"
   },
   "placeholders": {
     "enterValue": "أدخل القيمة...",
@@ -337,6 +357,10 @@
     "enterName": "أدخل الاسم",
     "coordinateX": "س",
     "coordinateY": "ص"
+  },
+  "calculators": {
+    "invalid_input": "مدخلات غير صحيحة. الرجاء التحقق من القيم.",
+    "calculation_error": "حدث خطأ أثناء الحساب"
   },
   "nothingFound": "لم يتم العثور على شيء.",
   "calendar": {

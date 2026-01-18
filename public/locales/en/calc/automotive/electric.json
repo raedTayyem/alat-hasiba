@@ -351,6 +351,58 @@
       }
     ]
   },
+  "hybrid_savings": {
+    "title": "Hybrid Savings Calculator",
+    "description": "Compare fuel costs and savings between hybrid and conventional gas vehicles.",
+    "inputs": {
+      "annual_mileage": "Annual Mileage",
+      "gas_car_consumption": "Gas Car Consumption (L/100km)",
+      "hybrid_consumption": "Hybrid Consumption (L/100km)",
+      "fuel_price": "Fuel Price (per liter)",
+      "hybrid_premium": "Hybrid Price Premium ($)"
+    },
+    "tooltips": {
+      "annual_mileage": "Number of kilometers you drive per year",
+      "gas_car_consumption": "Fuel consumption of the conventional gas vehicle",
+      "hybrid_consumption": "Fuel consumption of the hybrid vehicle",
+      "fuel_price": "Current price of fuel per liter",
+      "hybrid_premium": "Additional cost of hybrid version over gas version"
+    },
+    "results": {
+      "annual_savings_label": "Annual Fuel Savings",
+      "per_year": "per year",
+      "detailed_results": "Savings Breakdown",
+      "gas_car_annual_cost": "Gas Car Annual Fuel Cost",
+      "hybrid_annual_cost": "Hybrid Annual Fuel Cost",
+      "monthly_savings": "Monthly Savings",
+      "savings_percentage": "Savings Percentage",
+      "fuel_saved": "Fuel Saved Annually",
+      "liters_per_year": "liters/year",
+      "break_even": "Break-Even Period",
+      "years": "years"
+    },
+    "formula_title": "How It's Calculated",
+    "formula_explanation": "Annual Fuel Cost = (Annual Mileage × Consumption / 100) × Fuel Price. Savings = Gas Car Cost - Hybrid Cost. Break-even = Hybrid Premium / Annual Savings.",
+    "about_title": "About Hybrid Savings",
+    "about_description": "Compare the fuel cost savings between hybrid and conventional vehicles to determine if the hybrid premium is worth it based on your driving patterns.",
+    "use_cases_title": "Common Uses",
+    "use_case_1": "Decide between hybrid and gas versions of a vehicle",
+    "use_case_2": "Calculate payback period for hybrid premium",
+    "use_case_3": "Estimate long-term fuel cost savings",
+    "error_missing_inputs": "Please enter all required values",
+    "error_positive_mileage": "Annual mileage must be greater than zero",
+    "error_positive_consumption": "Fuel consumption must be greater than zero",
+    "error_positive_price": "Fuel price must be greater than zero",
+    "error_hybrid_more_efficient": "Hybrid must have better (lower) fuel consumption than gas car",
+    "error_calculation": "An error occurred during calculation",
+    "placeholders": {
+      "annual_mileage": "15000",
+      "gas_car_consumption": "8.5",
+      "hybrid_consumption": "5.5",
+      "fuel_price": "1.50",
+      "hybrid_premium": "3000"
+    }
+  },
   "hybrid-savings-calculator": {
     "title": "Hybrid Savings Calculator - Fuel Economy Tool",
     "description": "Calculate fuel savings from hybrid vehicles vs gas cars. Free online hybrid car savings calculator for cost comparison and ROI.",

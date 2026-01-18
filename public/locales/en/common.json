@@ -210,7 +210,27 @@
     "errorLoadingPage": "Error loading page",
     "goHome": "Go Home",
     "positive_number": "Please enter a positive number",
-    "no_heirs_selected": "Please select at least one heir"
+    "no_heirs_selected": "Please select at least one heir",
+    "invalid_input": "Invalid input. Please check your values",
+    "calculation_error": "An error occurred during calculation",
+    "positive_values_required": "All values must be positive numbers",
+    "positive_values": "All values must be positive",
+    "missing_inputs": "Please fill in all required fields",
+    "all_fields": "All fields are required",
+    "invalid_dimensions": "Please enter valid dimensions",
+    "year_range": "Year must be within a valid range",
+    "month_range": "Month must be between 1 and 12",
+    "day_range": "Day must be valid for the selected month",
+    "age_range": "Age must be between 0 and 150",
+    "positive_required": "Value must be positive",
+    "cannot_be_zero": "Value cannot be zero",
+    "cannot_be_negative": "Value cannot be negative",
+    "must_be_greater_than_zero": "Value must be greater than zero",
+    "invalid_percentage": "Percentage must be between 0 and 100",
+    "invalid_weight": "Please enter a valid weight",
+    "invalid_area": "Please enter a valid area",
+    "value_too_low": "Value is too low",
+    "value_too_high": "Value is too high"
   },
   "placeholders": {
     "enterValue": "Enter value",
@@ -220,6 +240,10 @@
     "search": "Search...",
     "coordinateX": "X",
     "coordinateY": "Y"
+  },
+  "calculators": {
+    "invalid_input": "Invalid input. Please check your values.",
+    "calculation_error": "An error occurred during calculation"
   },
   "affiliate": {
     "learnMore": "Learn More",

@@ -1,0 +1,224 @@
+name: Translation Validation
+
+on:
+  pull_request:
+    branches: [ main, develop ]
+    paths:
+      - 'public/locales/**/*.json'
+      - 'src/**/*.tsx'
+      - 'src/**/*.ts'
+      - 'analyze-translations.cjs'
+  push:
+    branches: [ main, develop ]
+    paths:
+      - 'public/locales/**/*.json'
+      - 'src/**/*.tsx'
+      - 'src/**/*.ts'
+  workflow_dispatch:
+
+jobs:
+  translation-check:
+    name: Check Translation Coverage
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Run translation analysis
+        id: translation_analysis
+        run: |
+          echo "Running translation analysis..."
+          node analyze-translations.cjs > translation-output.txt 2>&1 || true
+
+          # Extract key metrics
+          TOTAL_CALCULATORS=$(grep "Total Calculators:" translation-output.txt | awk '{print $3}' || echo "0")
+          AVG_EN_COVERAGE=$(grep "Average EN Coverage:" translation-output.txt | awk '{print $4}' | tr -d '%' || echo "0")
+          AVG_AR_COVERAGE=$(grep "Average AR Coverage:" translation-output.txt | awk '{print $4}' | tr -d '%' || echo "0")
+          FULLY_TRANSLATED=$(grep "Fully Translated" translation-output.txt | awk '{print $4}' || echo "0")
+
+          echo "total_calculators=$TOTAL_CALCULATORS" >> $GITHUB_OUTPUT
+          echo "avg_en_coverage=$AVG_EN_COVERAGE" >> $GITHUB_OUTPUT
+          echo "avg_ar_coverage=$AVG_AR_COVERAGE" >> $GITHUB_OUTPUT
+          echo "fully_translated=$FULLY_TRANSLATED" >> $GITHUB_OUTPUT
+
+          cat translation-output.txt
+
+      - name: Upload translation report
+        uses: actions/upload-artifact@v4
+        with:
+          name: translation-report-${{ github.sha }}
+          path: |
+            translation-output.txt
+            translation-coverage-report.txt
+          retention-days: 30
+
+      - name: Check coverage thresholds
+        id: check_thresholds
+        run: |
+          EN_COVERAGE=${{ steps.translation_analysis.outputs.avg_en_coverage }}
+          AR_COVERAGE=${{ steps.translation_analysis.outputs.avg_ar_coverage }}
+
+          MIN_EN_THRESHOLD=80
+          MIN_AR_THRESHOLD=80
+
+          echo "EN Coverage: ${EN_COVERAGE}% (minimum: ${MIN_EN_THRESHOLD}%)"
+          echo "AR Coverage: ${AR_COVERAGE}% (minimum: ${MIN_AR_THRESHOLD}%)"
+
+          FAILED=0
+
+          if [ "$EN_COVERAGE" -lt "$MIN_EN_THRESHOLD" ]; then
+            echo "::warning::English translation coverage (${EN_COVERAGE}%) is below threshold (${MIN_EN_THRESHOLD}%)"
+            FAILED=1
+          fi
+
+          if [ "$AR_COVERAGE" -lt "$MIN_AR_THRESHOLD" ]; then
+            echo "::warning::Arabic translation coverage (${AR_COVERAGE}%) is below threshold (${MIN_AR_THRESHOLD}%)"
+            FAILED=1
+          fi
+
+          echo "failed=$FAILED" >> $GITHUB_OUTPUT
+
+      - name: Generate coverage badge data
+        run: |
+          EN_COVERAGE=${{ steps.translation_analysis.outputs.avg_en_coverage }}
+          AR_COVERAGE=${{ steps.translation_analysis.outputs.avg_ar_coverage }}
+
+          # Determine badge color based on coverage
+          if [ "$EN_COVERAGE" -ge 90 ]; then
+            EN_COLOR="brightgreen"
+          elif [ "$EN_COVERAGE" -ge 80 ]; then
+            EN_COLOR="green"
+          elif [ "$EN_COVERAGE" -ge 70 ]; then
+            EN_COLOR="yellow"
+          else
+            EN_COLOR="red"
+          fi
+
+          if [ "$AR_COVERAGE" -ge 90 ]; then
+            AR_COLOR="brightgreen"
+          elif [ "$AR_COVERAGE" -ge 80 ]; then
+            AR_COLOR="green"
+          elif [ "$AR_COVERAGE" -ge 70 ]; then
+            AR_COLOR="yellow"
+          else
+            AR_COLOR="red"
+          fi
+
+          echo "EN Badge: ![EN Coverage](https://img.shields.io/badge/EN_Coverage-${EN_COVERAGE}%25-${EN_COLOR})"
+          echo "AR Badge: ![AR Coverage](https://img.shields.io/badge/AR_Coverage-${AR_COVERAGE}%25-${AR_COLOR})"
+
+      - name: Comment on PR
+        if: github.event_name == 'pull_request'
+        uses: actions/github-script@v7
+        with:
+          script: |
+            const fs = require('fs');
+
+            // Read the translation output
+            let translationOutput = '';
+            try {
+              translationOutput = fs.readFileSync('translation-output.txt', 'utf8');
+            } catch (error) {
+              translationOutput = 'Unable to read translation output';
+            }
+
+            const totalCalculators = '${{ steps.translation_analysis.outputs.total_calculators }}';
+            const avgEnCoverage = '${{ steps.translation_analysis.outputs.avg_en_coverage }}';
+            const avgArCoverage = '${{ steps.translation_analysis.outputs.avg_ar_coverage }}';
+            const fullyTranslated = '${{ steps.translation_analysis.outputs.fully_translated }}';
+            const failed = '${{ steps.check_thresholds.outputs.failed }}';
+
+            // Determine status emoji
+            const statusEmoji = failed === '0' ? '✅' : '⚠️';
+
+            // Extract top issues from output
+            const lines = translationOutput.split('\n');
+            const topIssuesStart = lines.findIndex(l => l.includes('TOP 20 CALCULATORS'));
+            let topIssues = '';
+            if (topIssuesStart !== -1) {
+              topIssues = lines.slice(topIssuesStart, topIssuesStart + 30).join('\n');
+            }
+
+            const output = `## ${statusEmoji} Translation Coverage Report
+
+            ### Summary
+
+            | Metric | Value |
+            |--------|-------|
+            | Total Calculators | ${totalCalculators} |
+            | Average EN Coverage | ${avgEnCoverage}% |
+            | Average AR Coverage | ${avgArCoverage}% |
+            | Fully Translated | ${fullyTranslated} |
+
+            ### Coverage Badges
+
+            ![EN Coverage](https://img.shields.io/badge/EN_Coverage-${avgEnCoverage}%25-${avgEnCoverage >= 90 ? 'brightgreen' : avgEnCoverage >= 80 ? 'green' : avgEnCoverage >= 70 ? 'yellow' : 'red'})
+            ![AR Coverage](https://img.shields.io/badge/AR_Coverage-${avgArCoverage}%25-${avgArCoverage >= 90 ? 'brightgreen' : avgArCoverage >= 80 ? 'green' : avgArCoverage >= 70 ? 'yellow' : 'red'})
+
+            ### Status
+
+            ${failed === '0' ? '✅ All translation coverage thresholds met!' : '⚠️ Translation coverage below threshold (80%)'}
+
+            <details>
+            <summary>View Top Issues</summary>
+
+            \`\`\`
+            ${topIssues}
+            \`\`\`
+
+            </details>
+
+            <details>
+            <summary>View Full Report</summary>
+
+            Download the \`translation-report\` artifact for the complete analysis.
+
+            </details>
+
+            ---
+            *Translation analysis powered by \`analyze-translations.cjs\`*
+            `;
+
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+            });
+
+            const botComment = comments.find(comment =>
+              comment.user.type === 'Bot' &&
+              comment.body.includes('Translation Coverage Report')
+            );
+
+            if (botComment) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: botComment.id,
+                body: output
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body: output
+              });
+            }
+
+      - name: Fail if below threshold
+        if: steps.check_thresholds.outputs.failed == '1'
+        run: |
+          echo "::error::Translation coverage is below the required threshold"
+          echo "Please improve translation coverage before merging"
+          exit 1

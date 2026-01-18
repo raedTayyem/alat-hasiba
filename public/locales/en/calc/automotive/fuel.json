@@ -706,6 +706,100 @@
       }
     ]
   },
+  "fuel_cost": {
+    "title": "Fuel Cost Calculator",
+    "description": "Calculate total fuel costs for your trip based on distance, fuel consumption, and fuel price.",
+    "inputs": {
+      "distance": "Distance (km)",
+      "distance_tooltip": "Total trip distance in kilometers",
+      "fuel_consumption": "Fuel Consumption (L/100km)",
+      "fuel_consumption_tooltip": "Your vehicle's fuel consumption rate",
+      "fuel_price": "Fuel Price (per liter)",
+      "fuel_price_tooltip": "Current price of fuel per liter"
+    },
+    "results": {
+      "total_cost_label": "Total Fuel Cost",
+      "for_distance": "For {{distance}} km trip",
+      "breakdown_title": "Cost Breakdown",
+      "fuel_needed": "Fuel Needed",
+      "cost_per_km": "Cost per Kilometer",
+      "consumption_rate": "Consumption Rate",
+      "fuel_price": "Fuel Price",
+      "liters": "liters",
+      "per_km": "per km",
+      "l_per_100km": "L/100km",
+      "per_liter": "per liter"
+    },
+    "formula_title": "How It's Calculated",
+    "formula_explanation": "Fuel Needed (L) = Distance (km) × Consumption (L/100km) / 100. Total Cost = Fuel Needed × Price per Liter. This gives you the total fuel expense for your trip.",
+    "about_title": "About Fuel Cost",
+    "about_description": "Calculate the fuel expenses for your journey based on distance, vehicle efficiency, and current fuel prices. This helps you budget for trips and compare routes.",
+    "use_cases_title": "Common Uses",
+    "use_case_1": "Budget fuel costs before road trips",
+    "use_case_2": "Compare fuel expenses between different routes",
+    "use_case_3": "Calculate daily commute fuel costs",
+    "errors": {
+      "missing_inputs": "Please enter distance, fuel consumption, and fuel price",
+      "positive_distance": "Distance must be greater than zero",
+      "positive_consumption": "Fuel consumption must be greater than zero",
+      "positive_price": "Fuel price must be greater than zero",
+      "calculation": "An error occurred during calculation"
+    },
+    "placeholders": {
+      "distance": "500",
+      "fuel_consumption": "7.5",
+      "fuel_price": "1.50"
+    }
+  },
+  "carbon_emissions": {
+    "title": "Carbon Emissions Calculator",
+    "description": "Calculate CO2 emissions from your vehicle based on fuel consumption and distance traveled.",
+    "inputs": {
+      "distance": "Distance (km)",
+      "distance_tooltip": "Total distance traveled or planned",
+      "fuel_consumption": "Fuel Consumption (L/100km)",
+      "fuel_consumption_tooltip": "Your vehicle's fuel consumption rate",
+      "fuel_type": "Fuel Type",
+      "fuel_type_tooltip": "Type of fuel affects emission factor"
+    },
+    "fuel_types": {
+      "gasoline": "Gasoline (Petrol)",
+      "diesel": "Diesel",
+      "lpg": "LPG (Liquefied Petroleum Gas)",
+      "cng": "CNG (Compressed Natural Gas)"
+    },
+    "results": {
+      "total_emissions": "Total CO2 Emissions",
+      "emissions_label": "kg CO₂",
+      "breakdown_title": "Emissions Breakdown",
+      "fuel_used": "Fuel Used",
+      "emission_factor": "Emission Factor",
+      "emissions_per_km": "Emissions per km",
+      "trees_to_offset": "Trees to Offset (Annual)",
+      "liters": "liters",
+      "kg_per_liter": "kg CO₂/liter",
+      "g_per_km": "g/km",
+      "trees": "trees"
+    },
+    "formula_title": "How It's Calculated",
+    "formula_explanation": "Emissions = (Distance × Fuel Consumption / 100) × Emission Factor. Gasoline: 2.31 kg CO₂/L, Diesel: 2.68 kg CO₂/L. Each tree absorbs ~22 kg CO₂/year.",
+    "about_title": "About Carbon Emissions",
+    "about_description": "Understanding your vehicle's carbon footprint helps you make environmentally conscious decisions. This calculator estimates CO2 emissions based on fuel type and consumption.",
+    "use_cases_title": "Common Uses",
+    "use_case_1": "Calculate your carbon footprint from driving",
+    "use_case_2": "Compare emissions between different vehicles",
+    "use_case_3": "Determine carbon offset needs for environmental goals",
+    "errors": {
+      "missing_inputs": "Please enter distance and fuel consumption",
+      "positive_distance": "Distance must be greater than zero",
+      "positive_consumption": "Fuel consumption must be greater than zero",
+      "calculation": "An error occurred during calculation"
+    },
+    "placeholders": {
+      "distance": "1000",
+      "fuel_consumption": "7.5"
+    }
+  },
   "carbon-emissions-calculator": {
     "title": "Carbon Emissions Calculator - Vehicle CO2 Tool",
     "description": "Calculate your car carbon footprint and CO2 emissions. Free online calculator for measuring vehicle environmental impact and pollution.",

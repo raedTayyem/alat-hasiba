@@ -78,7 +78,7 @@ const healthCalculators: Calculator[] = [
     id: 167,
     nameKey: "calc/health:water-intake-calculator.title", name: 'حاسبة احتياجات الماء',
     nameEn: 'Water Intake Calculator - Daily Hydration Calculator',
-    slug: 'water-intake-calculator',
+    slug: 'daily-water-intake-calculator',
     descriptionKey: "calc/health:water-intake-calculator.description", description: 'حساب احتياجك اليومي من الماء بناءً على وزنك ونشاطك',
     descriptionEn: 'Calculate your daily water intake needs based on weight and activity level. Free hydration calculator to ensure optimal water consumption. Stay healthy and properly hydrated.',
     category: 'health',

@@ -176,6 +176,57 @@
       }
     ]
   },
+  "lease": {
+    "title": "Car Lease Calculator",
+    "description": "Calculate monthly lease payments and total lease costs.",
+    "inputs": {
+      "vehicle_price": "Vehicle Price (MSRP)",
+      "vehicle_price_tooltip": "Manufacturer's suggested retail price",
+      "down_payment": "Down Payment",
+      "down_payment_tooltip": "Initial payment at lease signing (cap cost reduction)",
+      "lease_term": "Lease Term (months)",
+      "lease_term_tooltip": "Duration of the lease in months (typically 24, 36, or 48)",
+      "residual_percent": "Residual Value (%)",
+      "residual_percent_tooltip": "Predicted percentage of MSRP at lease end (typically 50-60%)",
+      "money_factor": "Money Factor",
+      "money_factor_tooltip": "Lease interest rate (multiply by 2400 for equivalent APR)"
+    },
+    "results": {
+      "monthly_payment_label": "Monthly Lease Payment",
+      "per_month": "per month",
+      "payment_breakdown": "Payment Breakdown",
+      "depreciation_per_month": "Depreciation Charge",
+      "interest_per_month": "Finance Charge",
+      "total_lease_cost": "Total Lease Cost",
+      "total_depreciation": "Total Depreciation",
+      "cap_cost": "Capitalized Cost",
+      "residual_value": "Residual Value"
+    },
+    "formula_title": "How It's Calculated",
+    "formula_explanation": "Monthly Payment = (Cap Cost - Residual) / Term + (Cap Cost + Residual) × Money Factor. This includes depreciation charge plus finance charge.",
+    "about_title": "About Car Leasing",
+    "about_description": "Leasing lets you drive a new car with lower monthly payments than buying. You pay for the vehicle's depreciation during the lease term plus a finance charge.",
+    "use_cases_title": "When to Lease",
+    "use_case_1": "You want a new car every 2-3 years",
+    "use_case_2": "You drive under 12,000-15,000 miles per year",
+    "use_case_3": "You prefer lower monthly payments and warranty coverage",
+    "errors": {
+      "missing_inputs": "Please enter vehicle price, lease term, residual %, and money factor",
+      "positive_price": "Vehicle price must be greater than zero",
+      "positive_term": "Lease term must be greater than zero",
+      "valid_residual": "Residual percentage must be between 0 and 100%",
+      "positive_money_factor": "Money factor must be 0 or greater",
+      "down_less_than_price": "Down payment cannot exceed vehicle price",
+      "calculation": "An error occurred during calculation"
+    },
+    "placeholders": {
+      "vehicle_price": "35000",
+      "down_payment": "3000",
+      "lease_term": "36",
+      "residual_percent": "58",
+      "money_factor": "0.00125"
+    }
+  },
   "lease-calculator": {
     "title": "Car Lease Calculator - Vehicle Leasing Payment Tool",
     "description": "Calculate car lease payments and total leasing costs. Free online calculator for vehicle lease estimation and monthly payment planning.",
@@ -251,6 +302,71 @@
         "answer": "Yes! Negotiate the cap cost (selling price) just like buying. You can also sometimes negotiate money factor with well-qualified credit. Residuals are fixed by the manufacturer and not negotiable."
       }
     ]
+  },
+  "lease_vs_buy": {
+    "title": "Lease vs Buy Calculator",
+    "description": "Compare total costs of leasing versus buying a vehicle over time.",
+    "inputs": {
+      "vehicle_price": "Vehicle Price",
+      "vehicle_price_tooltip": "Total purchase price of the vehicle",
+      "down_payment": "Down Payment (if buying)",
+      "down_payment_tooltip": "Upfront payment when financing a purchase",
+      "loan_term": "Loan Term (months)",
+      "loan_term_tooltip": "Duration of auto loan if buying",
+      "interest_rate": "Interest Rate (%)",
+      "interest_rate_tooltip": "Annual interest rate for auto loan",
+      "lease_monthly": "Monthly Lease Payment",
+      "lease_monthly_tooltip": "Monthly payment for leasing option",
+      "lease_term": "Lease Term (months)",
+      "lease_term_tooltip": "Duration of the lease",
+      "ownership_years": "Ownership Period (years)",
+      "ownership_years_tooltip": "How many years to compare costs",
+      "depreciation_rate": "Annual Depreciation (%)",
+      "depreciation_rate_tooltip": "Estimated annual depreciation rate"
+    },
+    "results": {
+      "buy_total_cost": "Buy Total Cost",
+      "lease_total_cost": "Lease Total Cost",
+      "difference_label": "Cost Difference",
+      "better_option": "Better Option",
+      "buy_option": "Buying",
+      "lease_option": "Leasing",
+      "buy_breakdown": "Buying Breakdown",
+      "lease_breakdown": "Leasing Breakdown",
+      "monthly_payments": "Monthly Payments",
+      "total_paid": "Total Paid",
+      "equity_value": "Equity/Resale Value",
+      "net_cost": "Net Cost"
+    },
+    "formula_title": "How It's Calculated",
+    "formula_explanation": "Buy Cost = Down Payment + Loan Payments + Interest - Resale Value. Lease Cost = Down Payment + Monthly Payments for Ownership Period.",
+    "about_title": "About Lease vs Buy",
+    "about_description": "This calculator compares the total financial impact of leasing versus buying a vehicle over a specified period, helping you make the best decision for your situation.",
+    "use_cases_title": "When to Use",
+    "use_case_1": "Decide between leasing and buying a specific vehicle",
+    "use_case_2": "Understand long-term cost implications",
+    "use_case_3": "Evaluate equity building vs lower payments",
+    "errors": {
+      "missing_inputs": "Please enter all required values",
+      "positive_price": "Vehicle price must be greater than zero",
+      "positive_term": "Loan term must be greater than zero",
+      "positive_rate": "Interest rate must be 0 or greater",
+      "positive_lease_payment": "Lease payment must be greater than zero",
+      "positive_years": "Ownership years must be greater than zero",
+      "valid_depreciation": "Depreciation rate must be between 0 and 100%",
+      "down_less_than_price": "Down payment cannot exceed vehicle price",
+      "calculation": "An error occurred during calculation"
+    },
+    "placeholders": {
+      "vehicle_price": "35000",
+      "down_payment": "5000",
+      "loan_term": "60",
+      "interest_rate": "5.5",
+      "lease_monthly": "450",
+      "lease_term": "36",
+      "ownership_years": "5",
+      "depreciation_rate": "15"
+    }
   },
   "lease-vs-buy-calculator": {
     "title": "Lease vs Buy Calculator - Car Purchase Comparison Tool",
@@ -826,6 +942,57 @@
         "answer": "At least annually at renewal time. Rates change, and you might qualify for new discounts. Getting 3-5 quotes takes minimal time and can save hundreds of dollars per year."
       }
     ]
+  },
+  "registration_fee": {
+    "title": "Registration Fee Calculator",
+    "description": "Calculate annual vehicle registration and licensing fees.",
+    "inputs": {
+      "vehicle_type": "Vehicle Type",
+      "vehicle_value": "Vehicle Value ($)",
+      "vehicle_age": "Vehicle Age (years)",
+      "engine_size": "Engine Size (L)"
+    },
+    "tooltips": {
+      "vehicle_type": "Type of vehicle affects base registration fees",
+      "vehicle_value": "Current market value of the vehicle",
+      "vehicle_age": "Age of the vehicle in years (affects depreciation-based fees)",
+      "engine_size": "Engine displacement in liters (may affect fees in some states)"
+    },
+    "vehicle_types": {
+      "car": "Car / Sedan",
+      "truck": "Truck / Pickup",
+      "motorcycle": "Motorcycle",
+      "suv": "SUV / Crossover"
+    },
+    "results": {
+      "total_annual_fee_label": "Total Annual Registration Fee",
+      "per_year": "per year",
+      "fee_breakdown": "Fee Breakdown",
+      "base_fee": "Base Registration Fee",
+      "value_tax": "Value-Based Tax",
+      "engine_tax": "Engine Size Fee",
+      "age_discount": "Age Discount",
+      "detailed_breakdown": "Detailed Calculation",
+      "total": "Total"
+    },
+    "formula_title": "How It's Calculated",
+    "formula_explanation": "Registration fees vary by state and vehicle type. This calculator uses typical fee structures: base fee + value-based tax (declining with age) + engine size fees.",
+    "about_title": "About Registration Fees",
+    "about_description": "Vehicle registration fees vary significantly by state and depend on factors like vehicle value, weight, age, and type. This calculator provides estimated annual costs.",
+    "use_cases_title": "Common Uses",
+    "use_case_1": "Budget for annual vehicle registration renewal",
+    "use_case_2": "Compare registration costs between different vehicles",
+    "use_case_3": "Factor registration into total ownership costs",
+    "error_missing_inputs": "Please enter vehicle value and age",
+    "error_positive_value": "Vehicle value must be greater than zero",
+    "error_valid_age": "Vehicle age must be 0 or greater",
+    "error_positive_engine": "Engine size must be greater than zero",
+    "error_calculation": "An error occurred during calculation",
+    "placeholders": {
+      "vehicle_value": "25000",
+      "vehicle_age": "3",
+      "engine_size": "2.5"
+    }
   },
   "registration-fee-calculator": {
     "title": "Registration Fee Calculator - Vehicle License Cost Tool",

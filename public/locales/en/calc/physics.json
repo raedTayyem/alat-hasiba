@@ -18,6 +18,14 @@
     "results": {
       "force": "Resultant Force (F)"
     },
+    "errors": {
+      "enter_mass_acceleration": "Please enter mass and acceleration values",
+      "mass_positive": "Mass must be greater than zero"
+    },
+    "formulas": {
+      "newton_2": "F = ma",
+      "newton_2_desc": "Newton's Second Law: Force equals mass times acceleration"
+    },
     "units": {
       "force": "Newtons",
       "kg": "Kilogram (kg)",
@@ -513,6 +521,12 @@
   "rotational_motion": {
     "title": "Rotational Motion Calculator",
     "description": "Calculate angular velocity, radius, torque, and rotational kinetic energy.",
+    "keywords": "rotational, motion, angular, velocity, torque, momentum",
+    "errors": {
+      "radius_positive": "Radius must be greater than zero",
+      "enter_velocity": "Please enter either angular velocity or linear velocity",
+      "mass_positive": "Mass must be greater than zero"
+    },
     "inputs": {
       "angular_velocity": "Angular Velocity (ω) in rad/s",
       "radius": "Radius (r) in meters",
