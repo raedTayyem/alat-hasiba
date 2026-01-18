@@ -396,7 +396,10 @@
   },
   "aria": {
     "notifications": "الإشعارات",
-    "close": "إغلاق"
+    "close": "إغلاق",
+    "skipToMain": "الانتقال إلى المحتوى الرئيسي",
+    "calculateButton": "احسب النتيجة",
+    "resetButton": "إعادة تعيين النموذج"
   },
   "shared": {
     "results": {

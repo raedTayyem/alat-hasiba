@@ -331,7 +331,10 @@
   },
   "aria": {
     "notifications": "Notifications",
-    "close": "Close"
+    "close": "Close",
+    "skipToMain": "Skip to main content",
+    "calculateButton": "Calculate result",
+    "resetButton": "Reset form"
   },
   "shared": {
     "results": {

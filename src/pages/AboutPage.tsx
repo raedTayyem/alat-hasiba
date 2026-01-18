@@ -38,6 +38,9 @@ const AboutPage = () => {
         <meta property="og:url" content={pageUrl} />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://alathasiba.com/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="About Alathasiba - آلات حاسبة" />
         <meta property="og:locale" content={ogLocale} />
 
         {/* Twitter Card tags */}

@@ -164,6 +164,7 @@ const ToastItem = React.memo(({ toast, onDismiss }: ToastItemProps) => {
     <div
       role="status"
       aria-live="polite"
+      aria-atomic="true"
       className={cn(
         'flex items-center gap-3 min-w-[280px] max-w-md p-4 rounded-xl border-2 shadow-lg shadow-black/10 backdrop-blur-sm',
         'transition-all duration-300 ease-out',

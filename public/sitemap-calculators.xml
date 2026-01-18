@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Math Calculators -->
+  <url>
+    <loc>https://alathasiba.com/calculator/percentage-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/percentage-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/percentage-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/percentage-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/equation-solver</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/equation-solver" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/equation-solver" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/equation-solver" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/scientific-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/scientific-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/scientific-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/scientific-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/fraction-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/fraction-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/fraction-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/fraction-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/matrix-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/matrix-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/matrix-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/matrix-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/sequences-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/sequences-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/sequences-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/sequences-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/gcd-lcm-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/gcd-lcm-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/gcd-lcm-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/gcd-lcm-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/prime-factorization</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/prime-factorization" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/prime-factorization" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/prime-factorization" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/complex-numbers</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/complex-numbers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/complex-numbers" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/complex-numbers" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/logarithm-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/logarithm-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/logarithm-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/logarithm-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/calculus-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/calculus-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/calculus-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/calculus-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/trigonometry-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/trigonometry-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/trigonometry-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/trigonometry-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/probability-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/probability-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/probability-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/probability-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/statistics-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/statistics-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/statistics-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/statistics-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/descriptive-statistics-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/descriptive-statistics-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/descriptive-statistics-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/descriptive-statistics-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Geometry Calculators -->
+  <url>
+    <loc>https://alathasiba.com/calculator/triangle-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/triangle-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/triangle-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/triangle-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/circle-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/circle-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/circle-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/circle-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/rectangle-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/rectangle-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/rectangle-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/rectangle-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/parallelogram-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/parallelogram-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/parallelogram-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/parallelogram-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/analytic-geometry</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/analytic-geometry" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/analytic-geometry" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/analytic-geometry" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/bezier-curve-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/bezier-curve-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/bezier-curve-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/bezier-curve-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/coordinates-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/coordinates-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/coordinates-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/coordinates-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Converter Calculators -->
+  <url>
+    <loc>https://alathasiba.com/calculator/currency-converter</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/currency-converter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/currency-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/currency-converter" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/length-converter</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/length-converter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/length-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/length-converter" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/weight-converter</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/weight-converter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/weight-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/weight-converter" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/temperature-converter</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/temperature-converter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/temperature-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/temperature-converter" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/area-converter</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/area-converter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/area-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/area-converter" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/speed-converter</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/speed-converter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/speed-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/speed-converter" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/volume-converter</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/volume-converter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/volume-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/volume-converter" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/time-unit-converter</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/time-unit-converter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/time-unit-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/time-unit-converter" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/data-storage-converter</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/data-storage-converter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/data-storage-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/data-storage-converter" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/force-converter</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/force-converter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/force-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/force-converter" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/pressure-converter</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/pressure-converter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/pressure-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/pressure-converter" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/number-system-converter</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/number-system-converter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/number-system-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/number-system-converter" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Physics Calculators -->
+  <url>
+    <loc>https://alathasiba.com/calculator/rotational-motion-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/rotational-motion-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/rotational-motion-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/rotational-motion-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/newton-laws-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/newton-laws-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/newton-laws-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/newton-laws-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/velocity-acceleration-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/velocity-acceleration-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/velocity-acceleration-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/velocity-acceleration-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/density-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/density-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/density-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/density-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/energy-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/energy-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/energy-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/energy-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/power-electricity-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/power-electricity-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/power-electricity-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/power-electricity-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Finance Calculators -->
+  <url>
+    <loc>https://alathasiba.com/calculator/compound-interest</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/compound-interest" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/compound-interest" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/compound-interest" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/zakat-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/zakat-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/zakat-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/zakat-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/loan-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/loan-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/loan-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/loan-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/loan-amortization-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/loan-amortization-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/loan-amortization-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/loan-amortization-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/investment-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/investment-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/investment-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/investment-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/vat-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/vat-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/vat-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/vat-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/fuel-consumption-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/fuel-consumption-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/fuel-consumption-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/fuel-consumption-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/travel-cost-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/travel-cost-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/travel-cost-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/travel-cost-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/christian-tithe-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/christian-tithe-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/christian-tithe-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/christian-tithe-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/inheritance-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/inheritance-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/inheritance-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/inheritance-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/islamic-inheritance</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/islamic-inheritance" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/islamic-inheritance" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/islamic-inheritance" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Health Calculators -->
+  <url>
+    <loc>https://alathasiba.com/calculator/bmi-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/bmi-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/bmi-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/bmi-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/calorie-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/calorie-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/calorie-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/calorie-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/heart-rate-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/heart-rate-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/heart-rate-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/heart-rate-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/ideal-weight-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/ideal-weight-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/ideal-weight-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/ideal-weight-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/body-fat-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/body-fat-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/body-fat-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/body-fat-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/target-heart-rate-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/target-heart-rate-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/target-heart-rate-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/target-heart-rate-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/hba1c-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/hba1c-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/hba1c-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/hba1c-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/pregnancy-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/pregnancy-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/pregnancy-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/pregnancy-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Date/Time Calculators -->
+  <url>
+    <loc>https://alathasiba.com/calculator/lunar-age-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/lunar-age-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/lunar-age-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/lunar-age-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/day-of-week-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/day-of-week-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/day-of-week-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/day-of-week-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/world-time-converter</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/world-time-converter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/world-time-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/world-time-converter" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/age-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/age-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/age-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/age-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/date-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/date-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/date-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/date-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/date-difference-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/date-difference-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/date-difference-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/date-difference-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/timezone-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/timezone-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/timezone-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/timezone-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/hijri-gregorian-converter</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/hijri-gregorian-converter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/hijri-gregorian-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/hijri-gregorian-converter" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/hebrew-to-gregorian</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/hebrew-to-gregorian" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/hebrew-to-gregorian" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/hebrew-to-gregorian" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/coptic-to-gregorian</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/coptic-to-gregorian" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/coptic-to-gregorian" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/coptic-to-gregorian" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/easter-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/easter-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/easter-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/easter-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/easter-date-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/easter-date-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/easter-date-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/easter-date-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/lent-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/lent-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/lent-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/lent-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/druze-calendar</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/druze-calendar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/druze-calendar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/druze-calendar" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/bar-bat-mitzvah-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/bar-bat-mitzvah-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/bar-bat-mitzvah-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/bar-bat-mitzvah-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/yazidi-calendar</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/yazidi-calendar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/yazidi-calendar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/yazidi-calendar" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/babylonian-calendar-converter</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/babylonian-calendar-converter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/babylonian-calendar-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/babylonian-calendar-converter" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/egyptian-calendar-converter</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/egyptian-calendar-converter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/egyptian-calendar-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/egyptian-calendar-converter" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/mayan-calendar-converter</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/mayan-calendar-converter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/mayan-calendar-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/mayan-calendar-converter" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/roman-calendar-converter</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/roman-calendar-converter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/roman-calendar-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/roman-calendar-converter" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/fixed-christian-feasts-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/fixed-christian-feasts-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/fixed-christian-feasts-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/fixed-christian-feasts-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/movable-christian-holy-days-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/movable-christian-holy-days-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/movable-christian-holy-days-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/movable-christian-holy-days-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/coptic-holy-days-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/coptic-holy-days-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/coptic-holy-days-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/coptic-holy-days-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/gregorian-to-coptic-converter</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/gregorian-to-coptic-converter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/gregorian-to-coptic-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/gregorian-to-coptic-converter" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/gregorian-to-hebrew-converter</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/gregorian-to-hebrew-converter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/gregorian-to-hebrew-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/gregorian-to-hebrew-converter" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/hebrew-holidays-calendar</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/hebrew-holidays-calendar" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/hebrew-holidays-calendar" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/hebrew-holidays-calendar" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/holy-week-dates-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/holy-week-dates-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/holy-week-dates-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/holy-week-dates-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/samaritan-calendar-converter</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/samaritan-calendar-converter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/samaritan-calendar-converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/samaritan-calendar-converter" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/samaritan-festivals-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/samaritan-festivals-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/samaritan-festivals-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/samaritan-festivals-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/yazidi-new-year-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/yazidi-new-year-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/yazidi-new-year-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/yazidi-new-year-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Misc Calculators -->
+  <url>
+    <loc>https://alathasiba.com/calculator/text-encoder</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/text-encoder" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/text-encoder" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/text-encoder" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/gematria-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/gematria-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/gematria-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/gematria-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/abjad-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/abjad-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/abjad-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/abjad-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/numerology-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/numerology-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/numerology-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/numerology-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/ip-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/ip-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/ip-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/ip-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/qibla-direction-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/qibla-direction-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/qibla-direction-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/qibla-direction-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/shabbat-times-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/shabbat-times-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/shabbat-times-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/shabbat-times-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/biorhythm-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/biorhythm-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/biorhythm-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/biorhythm-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/historical-zodiac-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/historical-zodiac-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/historical-zodiac-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/historical-zodiac-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Education Calculators -->
+  <url>
+    <loc>https://alathasiba.com/calculator/chemistry-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/chemistry-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/chemistry-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/chemistry-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/reading-speed-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/reading-speed-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/reading-speed-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/reading-speed-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/grade-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/grade-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/grade-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/grade-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/gpa-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/gpa-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/gpa-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/gpa-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+
+  <!-- Engineering Calculators -->
+  <url>
+    <loc>https://alathasiba.com/calculator/electrical-resistance-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/electrical-resistance-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/electrical-resistance-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/electrical-resistance-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/material-conversion-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/material-conversion-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/material-conversion-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/material-conversion-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  <url>
+    <loc>https://alathasiba.com/calculator/concrete-calculator</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/calculator/concrete-calculator" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/calculator/concrete-calculator" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/calculator/concrete-calculator" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+</urlset>

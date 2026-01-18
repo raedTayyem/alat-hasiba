@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
 
 const PrivacyPolicyPage = () => {
-  const { t } = useTranslation('pages');
+  const { t, i18n } = useTranslation('pages');
 
   return (
     <>
@@ -10,6 +10,24 @@ const PrivacyPolicyPage = () => {
         <title>{t('privacy.title')}</title>
         <meta name="description" content={t('privacy.metaDescription')} />
         <meta name="keywords" content={t('privacy.metaKeywords')} />
+        <link rel="canonical" href="https://alathasiba.com/privacy" />
+
+        {/* Open Graph tags */}
+        <meta property="og:title" content={t('privacy.title')} />
+        <meta property="og:description" content={t('privacy.metaDescription')} />
+        <meta property="og:url" content="https://alathasiba.com/privacy" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content={i18n.language === 'ar' ? 'ar_SA' : 'en_US'} />
+        <meta property="og:image" content="https://alathasiba.com/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Privacy Policy - Alathasiba" />
+
+        {/* Twitter Card tags */}
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content={t('privacy.title')} />
+        <meta name="twitter:description" content={t('privacy.metaDescription')} />
+        <meta name="twitter:image" content="https://alathasiba.com/og-image.png" />
       </Helmet>
 
       <div className="max-w-4xl mx-auto py-8 px-4">

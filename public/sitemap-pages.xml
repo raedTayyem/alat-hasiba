@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Home Page -->
+  <url>
+    <loc>https://alathasiba.com/</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+
+  <!-- Categories List -->
+  <url>
+    <loc>https://alathasiba.com/categories</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/categories" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/categories" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/categories" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+
+  <!-- Most Used -->
+  <url>
+    <loc>https://alathasiba.com/most-used</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/most-used" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/most-used" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/most-used" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- About -->
+  <url>
+    <loc>https://alathasiba.com/about</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/about" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/about" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Contact -->
+  <url>
+    <loc>https://alathasiba.com/contact</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/contact" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+
+  <!-- Privacy Policy -->
+  <url>
+    <loc>https://alathasiba.com/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/privacy-policy" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+
+  <!-- Terms of Service -->
+  <url>
+    <loc>https://alathasiba.com/terms-of-service</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/terms-of-service" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/terms-of-service" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/terms-of-service" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.3</priority>
+  </url>
+</urlset>

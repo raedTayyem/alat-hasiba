@@ -43,6 +43,9 @@ const MostUsedPage = () => {
         <meta property="og:url" content="https://alathasiba.com/most-used" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://alathasiba.com/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content={`${t('pages.mostUsed.title')} - ${t('siteName')}`} />
         <meta property="og:locale" content={currentLocale} />
 
         {/* Twitter Card tags */}

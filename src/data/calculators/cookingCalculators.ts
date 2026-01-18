@@ -1,7 +1,7 @@
 import { Calculator } from './types';
 
 /**
- * Cooking & Nutrition Calculators (35 calculators)
+ * Cooking & Nutrition Calculators (10 calculators)
  * Comprehensive cooking, recipe, and nutrition calculation tools
  */
 
@@ -18,8 +18,10 @@ const cookingCalculators: Calculator[] = [
     descriptionKey: 'calc/cooking:baking-conversion.description',
     category: 'cooking',
     icon: '🥖',
-    componentName: 'BakingConversionCalculator',
-    popularity: 95
+    popularity: 8,
+    keywords: ['خبز', 'baking', 'conversion', 'تحويل', 'وحدات', 'cups', 'grams', 'أكواب'],
+    relatedCalculators: ['oven-temperature-converter', 'cooking-time', 'pizza-dough-calculator'],
+    componentName: 'BakingConversionCalculator'
   },
   {
     id: 2505,
@@ -32,8 +34,10 @@ const cookingCalculators: Calculator[] = [
     descriptionKey: 'calc/cooking:oven-temperature-converter.description',
     category: 'cooking',
     icon: '🌡️',
-    componentName: 'OvenTemperatureConverter',
-    popularity: 91
+    popularity: 7,
+    keywords: ['فرن', 'oven', 'temperature', 'حرارة', 'celsius', 'fahrenheit', 'تحويل', 'conversion'],
+    relatedCalculators: ['baking-conversion', 'cooking-time', 'turkey-cooking-calculator'],
+    componentName: 'OvenTemperatureConverter'
   },
   {
     id: 2506,
@@ -46,92 +50,122 @@ const cookingCalculators: Calculator[] = [
     descriptionKey: 'calc/cooking:cooking-time.description',
     category: 'cooking',
     icon: '⏱️',
-    componentName: 'CookingTimeCalculator',
-    popularity: 90
+    popularity: 8,
+    keywords: ['طهي', 'cooking', 'time', 'وقت', 'meat', 'لحم', 'دجاج', 'chicken'],
+    relatedCalculators: ['turkey-cooking-calculator', 'oven-temperature-converter', 'pasta-cooking-calculator'],
+    componentName: 'CookingTimeCalculator'
   },
   {
     id: 2507,
-    nameKey: "calc/cooking:turkey-cooking-calculator.title", name: 'حاسبة طهي الديك الرومي',
+    name: 'حاسبة طهي الديك الرومي',
     nameEn: 'Turkey Cooking Calculator - Free Roasting Time Tool',
-    descriptionKey: "calc/cooking:turkey-cooking-calculator.description", description: 'احسب وقت شواء الديك الرومي',
-    descriptionEn: 'Calculate perfect turkey roasting time and temperature. Free online calculator for Thanksgiving and holiday meal planning.',
+    nameKey: 'calc/cooking:turkey-cooking-calculator.title',
     slug: 'turkey-cooking-calculator',
+    description: 'احسب وقت شواء الديك الرومي',
+    descriptionEn: 'Calculate perfect turkey roasting time and temperature. Free online calculator for Thanksgiving and holiday meal planning.',
+    descriptionKey: 'calc/cooking:turkey-cooking-calculator.description',
     category: 'cooking',
     icon: '🦃',
-    componentName: 'TurkeyCookingCalculator',
-    popularity: 78
+    popularity: 6,
+    keywords: ['ديك رومي', 'turkey', 'شواء', 'roasting', 'thanksgiving', 'عيد', 'طهي', 'cooking'],
+    relatedCalculators: ['cooking-time', 'oven-temperature-converter', 'cake-serving-calculator'],
+    componentName: 'TurkeyCookingCalculator'
   },
   {
     id: 2509,
-    nameKey: "calc/cooking:pasta-cooking-calculator.title", name: 'حاسبة طهي المعكرونة',
+    name: 'حاسبة طهي المعكرونة',
     nameEn: 'Pasta Cooking Calculator - Free Serving Size Tool',
-    descriptionKey: "calc/cooking:pasta-cooking-calculator.description", description: 'احسب كمية ووقت طهي المعكرونة',
-    descriptionEn: 'Calculate pasta quantity and cooking time per person. Free online calculator for perfect spaghetti, penne, and all pasta types.',
+    nameKey: 'calc/cooking:pasta-cooking-calculator.title',
     slug: 'pasta-cooking-calculator',
+    description: 'احسب كمية ووقت طهي المعكرونة',
+    descriptionEn: 'Calculate pasta quantity and cooking time per person. Free online calculator for perfect spaghetti, penne, and all pasta types.',
+    descriptionKey: 'calc/cooking:pasta-cooking-calculator.description',
     category: 'cooking',
     icon: '🍝',
-    componentName: 'PastaCookingCalculator',
-    popularity: 84
+    popularity: 8,
+    keywords: ['معكرونة', 'pasta', 'spaghetti', 'كمية', 'serving', 'طهي', 'cooking', 'وقت'],
+    relatedCalculators: ['rice-cooking-calculator', 'cooking-time', 'baking-conversion'],
+    componentName: 'PastaCookingCalculator'
   },
   {
     id: 2511,
-    nameKey: "calc/cooking:cake-serving-calculator.title", name: 'حاسبة حجم الكيك',
+    name: 'حاسبة حجم الكيك',
     nameEn: 'Cake Serving Calculator - Free Party Planning Tool',
-    descriptionKey: "calc/cooking:cake-serving-calculator.description", description: 'احسب حجم الكيك المطلوب حسب عدد الضيوف',
-    descriptionEn: 'Calculate cake size needed for your guests. Free calculator determines perfect cake portions for weddings, birthdays, and events.',
+    nameKey: 'calc/cooking:cake-serving-calculator.title',
     slug: 'cake-serving-calculator',
+    description: 'احسب حجم الكيك المطلوب حسب عدد الضيوف',
+    descriptionEn: 'Calculate cake size needed for your guests. Free calculator determines perfect cake portions for weddings, birthdays, and events.',
+    descriptionKey: 'calc/cooking:cake-serving-calculator.description',
     category: 'cooking',
     icon: '🎂',
-    componentName: 'CakeServingCalculator',
-    popularity: 86
+    popularity: 7,
+    keywords: ['كيك', 'cake', 'حجم', 'size', 'حفلة', 'party', 'ضيوف', 'guests', 'عرس'],
+    relatedCalculators: ['baking-conversion', 'pizza-dough-calculator', 'oven-temperature-converter'],
+    componentName: 'CakeServingCalculator'
   },
   {
     id: 2520,
-    nameKey: "calc/cooking:coffee-ratio-calculator.title", name: 'حاسبة نسبة القهوة',
+    name: 'حاسبة نسبة القهوة',
     nameEn: 'Coffee Ratio Calculator - Free Brewing Guide Tool',
-    descriptionKey: "calc/cooking:coffee-ratio-calculator.description", description: 'احسب نسبة القهوة للماء المثالية',
-    descriptionEn: 'Calculate perfect coffee to water ratio for brewing. Free online calculator for espresso, pour over, French press, and more.',
+    nameKey: 'calc/cooking:coffee-ratio-calculator.title',
     slug: 'coffee-ratio-calculator',
+    description: 'احسب نسبة القهوة للماء المثالية',
+    descriptionEn: 'Calculate perfect coffee to water ratio for brewing. Free online calculator for espresso, pour over, French press, and more.',
+    descriptionKey: 'calc/cooking:coffee-ratio-calculator.description',
     category: 'cooking',
     icon: '☕',
-    componentName: 'CoffeeRatioCalculator',
-    popularity: 87
+    popularity: 7,
+    keywords: ['قهوة', 'coffee', 'نسبة', 'ratio', 'ماء', 'water', 'espresso', 'تحضير'],
+    relatedCalculators: ['rice-water-ratio-calculator', 'baking-conversion', 'cooking-time'],
+    componentName: 'CoffeeRatioCalculator'
   },
   {
     id: 2521,
-    nameKey: "calc/cooking:rice-calculator.title", name: 'حاسبة الأرز والماء',
+    name: 'حاسبة الأرز والماء',
     nameEn: 'Rice to Water Ratio Calculator',
-    descriptionKey: "calc/cooking:rice-calculator.description", description: 'احسب كمية الماء المناسبة لطهي الأرز',
-    descriptionEn: 'Calculate the perfect amount of water for different types of rice. Free online cooking tool for fluffy rice every time.',
+    nameKey: 'calc/cooking:rice-calculator.title',
     slug: 'rice-water-ratio-calculator',
+    description: 'احسب كمية الماء المناسبة لطهي الأرز',
+    descriptionEn: 'Calculate the perfect amount of water for different types of rice. Free online cooking tool for fluffy rice every time.',
+    descriptionKey: 'calc/cooking:rice-calculator.description',
     category: 'cooking',
     icon: '🍚',
-    componentName: 'RiceWaterRatioCalculator',
-    popularity: 88
+    popularity: 9,
+    keywords: ['أرز', 'rice', 'ماء', 'water', 'نسبة', 'ratio', 'طهي', 'cooking', 'بسمتي'],
+    relatedCalculators: ['rice-cooking-calculator', 'pasta-cooking-calculator', 'coffee-ratio-calculator'],
+    componentName: 'RiceWaterRatioCalculator'
   },
   {
     id: 2530,
-    nameKey: "calc/cooking:rice-cooking-calculator.title", name: 'حاسبة طهي الأرز',
+    name: 'حاسبة طهي الأرز',
     nameEn: 'Rice Cooking Calculator - Free Water Ratio Timer Tool',
-    descriptionKey: "calc/cooking:rice-cooking-calculator.description", description: 'احسب نسبة الماء للأرز ووقت الطهي',
-    descriptionEn: 'Calculate perfect rice to water ratio and cooking time. Free calculator for white, brown, basmati, jasmine, and all rice types.',
+    nameKey: 'calc/cooking:rice-cooking-calculator.title',
     slug: 'rice-cooking-calculator',
+    description: 'احسب نسبة الماء للأرز ووقت الطهي',
+    descriptionEn: 'Calculate perfect rice to water ratio and cooking time. Free calculator for white, brown, basmati, jasmine, and all rice types.',
+    descriptionKey: 'calc/cooking:rice-cooking-calculator.description',
     category: 'cooking',
     icon: '🍚',
-    componentName: 'RiceCookingCalculator',
-    popularity: 89
+    popularity: 9,
+    keywords: ['أرز', 'rice', 'طهي', 'cooking', 'وقت', 'time', 'نسبة', 'ratio', 'أبيض', 'بني'],
+    relatedCalculators: ['rice-water-ratio-calculator', 'pasta-cooking-calculator', 'cooking-time'],
+    componentName: 'RiceCookingCalculator'
   },
   {
     id: 2531,
-    nameKey: "calc/cooking:pizza-dough-calculator.title", name: 'حاسبة عجينة البيتزا',
+    name: 'حاسبة عجينة البيتزا',
     nameEn: 'Pizza Dough Calculator - Free Recipe Ingredient Tool',
-    descriptionKey: "calc/cooking:pizza-dough-calculator.description", description: 'احسب مكونات عجينة البيتزا',
-    descriptionEn: 'Calculate pizza dough ingredients for any number of pizzas. Free calculator with flour, yeast, water, and salt measurements.',
+    nameKey: 'calc/cooking:pizza-dough-calculator.title',
     slug: 'pizza-dough-calculator',
+    description: 'احسب مكونات عجينة البيتزا',
+    descriptionEn: 'Calculate pizza dough ingredients for any number of pizzas. Free calculator with flour, yeast, water, and salt measurements.',
+    descriptionKey: 'calc/cooking:pizza-dough-calculator.description',
     category: 'cooking',
     icon: '🍕',
-    componentName: 'PizzaDoughCalculator',
-    popularity: 88
+    popularity: 8,
+    keywords: ['بيتزا', 'pizza', 'عجينة', 'dough', 'دقيق', 'flour', 'خميرة', 'yeast', 'مكونات'],
+    relatedCalculators: ['baking-conversion', 'cake-serving-calculator', 'oven-temperature-converter'],
+    componentName: 'PizzaDoughCalculator'
   }
 ];
 

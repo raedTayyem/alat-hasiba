@@ -44,6 +44,10 @@ const SearchPage = () => {
         } />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={t('siteName')} />
+        <meta property="og:image" content="https://alathasiba.com/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content={t('siteName') + ' - ' + t('seo.siteDescription')} />
 
         {/* Canonical URL - points to base search page without query params */}
         <link rel="canonical" href={`${window.location.origin}/search`} />

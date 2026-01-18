@@ -26,6 +26,7 @@ export const CalculatorButtons: React.FC<CalculatorButtonsProps> = ({
       <button
         onClick={onCalculate}
         className="primary-button flex-1 flex items-center justify-center transition-all hover:-translate-y-0.5 active:translate-y-0 text-sm sm:text-base py-2.5 sm:py-3"
+        aria-label={t("aria.calculateButton")}
       >
         <CalculatorIcon />
         {calculateText || t("common.calculate")}
@@ -34,6 +35,7 @@ export const CalculatorButtons: React.FC<CalculatorButtonsProps> = ({
       <button
         onClick={onReset}
         className="outline-button min-w-[90px] sm:min-w-[120px] text-sm sm:text-base py-2.5 sm:py-3"
+        aria-label={t("aria.resetButton")}
       >
         <ResetIcon />
         {resetText || t("common.reset")}

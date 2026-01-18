@@ -31,6 +31,9 @@ const CategoriesPage = () => {
         <meta property="og:url" content="https://alathasiba.com/categories" />
         <meta property="og:type" content="website" />
         <meta property="og:image" content="https://alathasiba.com/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content={t('pages.categories.title') + ' - Alathasiba'} />
         <meta property="og:locale" content={i18n.language === 'ar' ? 'ar_SA' : 'en_US'} />
 
         {/* Twitter Card tags */}

@@ -48,6 +48,25 @@ const HomePage = () => {
         <title>{t('seo.defaultTitle')}</title>
         <meta name="description" content={t('seo.defaultDescription')} />
         <meta name="keywords" content={t('seo.keywords')} />
+        <link rel="canonical" href="https://alathasiba.com/" />
+
+        {/* Open Graph tags */}
+        <meta property="og:title" content={t('seo.defaultTitle')} />
+        <meta property="og:description" content={t('seo.defaultDescription')} />
+        <meta property="og:url" content="https://alathasiba.com/" />
+        <meta property="og:type" content="website" />
+        <meta property="og:image" content="https://alathasiba.com/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content={t('seo.siteName') + ' - ' + t('seo.defaultDescription')} />
+        <meta property="og:locale" content={i18n.language === 'ar' ? 'ar_SA' : 'en_US'} />
+
+        {/* Twitter Card tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={t('seo.defaultTitle')} />
+        <meta name="twitter:description" content={t('seo.defaultDescription')} />
+        <meta name="twitter:image" content="https://alathasiba.com/og-image.png" />
+
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}
         </script>

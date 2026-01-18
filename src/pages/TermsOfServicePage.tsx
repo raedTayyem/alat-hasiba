@@ -2,7 +2,7 @@ import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
 
 const TermsOfServicePage = () => {
-  const { t } = useTranslation('pages');
+  const { t, i18n } = useTranslation('pages');
 
   return (
     <>
@@ -10,6 +10,24 @@ const TermsOfServicePage = () => {
         <title>{t('terms.title')}</title>
         <meta name="description" content={t('terms.metaDescription')} />
         <meta name="keywords" content={t('terms.metaKeywords')} />
+        <link rel="canonical" href="https://alathasiba.com/terms" />
+
+        {/* Open Graph tags */}
+        <meta property="og:title" content={t('terms.title')} />
+        <meta property="og:description" content={t('terms.metaDescription')} />
+        <meta property="og:url" content="https://alathasiba.com/terms" />
+        <meta property="og:type" content="website" />
+        <meta property="og:locale" content={i18n.language === 'ar' ? 'ar_SA' : 'en_US'} />
+        <meta property="og:image" content="https://alathasiba.com/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Terms of Service - Alathasiba" />
+
+        {/* Twitter Card tags */}
+        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:title" content={t('terms.title')} />
+        <meta name="twitter:description" content={t('terms.metaDescription')} />
+        <meta name="twitter:image" content="https://alathasiba.com/og-image.png" />
       </Helmet>
 
       <div className="max-w-4xl mx-auto py-8 px-4">

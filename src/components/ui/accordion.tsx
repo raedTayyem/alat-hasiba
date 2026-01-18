@@ -62,11 +62,12 @@ const AccordionTrigger = React.forwardRef<HTMLButtonElement, AccordionTriggerPro
           "flex flex-1 items-center justify-between py-4 px-5 font-medium transition-all hover:underline",
           className
         )}
+        aria-expanded={expanded}
         data-expanded={expanded}
         {...props}
       >
         {children}
-        <span className={cn("transition-transform duration-200", expanded && "rotate-180")}>
+        <span className={cn("transition-transform duration-200", expanded && "rotate-180")} aria-hidden="true">
           ↓
         </span>
       </button>
@@ -84,6 +85,7 @@ const AccordionContent = React.forwardRef<HTMLDivElement, AccordionContentProps>
     return (
       <div
         ref={ref}
+        role="region"
         className={cn(
           "overflow-hidden text-sm transition-all",
           expanded ? "animate-accordion-down" : "animate-accordion-up",

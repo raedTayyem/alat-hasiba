@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <!-- Math Category -->
+  <url>
+    <loc>https://alathasiba.com/category/math</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/category/math" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/category/math" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/category/math" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Geometry Category -->
+  <url>
+    <loc>https://alathasiba.com/category/geometry</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/category/geometry" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/category/geometry" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/category/geometry" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Converter Category -->
+  <url>
+    <loc>https://alathasiba.com/category/converter</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/category/converter" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/category/converter" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/category/converter" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Physics Category -->
+  <url>
+    <loc>https://alathasiba.com/category/physics</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/category/physics" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/category/physics" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/category/physics" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Finance Category -->
+  <url>
+    <loc>https://alathasiba.com/category/finance</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/category/finance" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/category/finance" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/category/finance" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Health Category -->
+  <url>
+    <loc>https://alathasiba.com/category/health</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/category/health" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/category/health" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/category/health" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Date/Time Category -->
+  <url>
+    <loc>https://alathasiba.com/category/date-time</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/category/date-time" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/category/date-time" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/category/date-time" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Misc Category -->
+  <url>
+    <loc>https://alathasiba.com/category/misc</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/category/misc" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/category/misc" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/category/misc" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Education Category -->
+  <url>
+    <loc>https://alathasiba.com/category/education</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/category/education" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/category/education" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/category/education" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+
+  <!-- Engineering Category -->
+  <url>
+    <loc>https://alathasiba.com/category/engineering</loc>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://alathasiba.com/category/engineering" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://alathasiba.com/category/engineering" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://alathasiba.com/category/engineering" />
+    <lastmod>2026-01-18</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+</urlset>

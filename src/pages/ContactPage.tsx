@@ -33,6 +33,10 @@ const ContactPage = () => {
         <meta property="og:url" content="https://alathasiba.com/contact" />
         <meta property="og:type" content="website" />
         <meta property="og:locale" content={i18n.language === 'ar' ? 'ar_SA' : 'en_US'} />
+        <meta property="og:image" content="https://alathasiba.com/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Contact Alathasiba - آلات حاسبة" />
 
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary" />

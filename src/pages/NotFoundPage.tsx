@@ -17,6 +17,10 @@ const NotFoundPage = () => {
         <meta property="og:description" content={t('notFound.metaDescription')} />
         <meta property="og:type" content="website" />
         <meta property="og:site_name" content={t('common:siteName')} />
+        <meta property="og:image" content="https://alathasiba.com/og-image.png" />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:image:alt" content="Page Not Found - Alathasiba" />
 
         {/* HTTP status hint for crawlers */}
         <meta name="prerender-status-code" content="404" />
