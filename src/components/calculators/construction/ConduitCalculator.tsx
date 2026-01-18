@@ -23,6 +23,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -238,25 +239,25 @@ export default function ConduitCalculator() {
           label={t("conduit.wire_gauge")}
           tooltip={t("conduit.wire_gauge_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: '14', label: t("conduit.wire_awg_14") },
+              { value: '12', label: t("conduit.wire_awg_12") },
+              { value: '10', label: t("conduit.wire_awg_10") },
+              { value: '8', label: t("conduit.wire_awg_8") },
+              { value: '6', label: t("conduit.wire_awg_6") },
+              { value: '4', label: t("conduit.wire_awg_4") },
+              { value: '3', label: t("conduit.wire_awg_3") },
+              { value: '2', label: t("conduit.wire_awg_2") },
+              { value: '1', label: t("conduit.wire_awg_1") },
+              { value: '1/0', label: t("conduit.wire_awg_1_0") },
+              { value: '2/0', label: t("conduit.wire_awg_2_0") },
+              { value: '3/0', label: t("conduit.wire_awg_3_0") },
+              { value: '4/0', label: t("conduit.wire_awg_4_0") }
+            ]}
             value={wireGauge}
-            onChange={(e) => setWireGauge(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="14">{t("conduit.wire_awg_14")}</option>
-            <option value="12">{t("conduit.wire_awg_12")}</option>
-            <option value="10">{t("conduit.wire_awg_10")}</option>
-            <option value="8">{t("conduit.wire_awg_8")}</option>
-            <option value="6">{t("conduit.wire_awg_6")}</option>
-            <option value="4">{t("conduit.wire_awg_4")}</option>
-            <option value="3">{t("conduit.wire_awg_3")}</option>
-            <option value="2">{t("conduit.wire_awg_2")}</option>
-            <option value="1">{t("conduit.wire_awg_1")}</option>
-            <option value="1/0">{t("conduit.wire_awg_1_0")}</option>
-            <option value="2/0">{t("conduit.wire_awg_2_0")}</option>
-            <option value="3/0">{t("conduit.wire_awg_3_0")}</option>
-            <option value="4/0">{t("conduit.wire_awg_4_0")}</option>
-          </select>
+            onChange={setWireGauge}
+          />
         </InputContainer>
 
         {/* Unit Selection */}
@@ -264,14 +265,14 @@ export default function ConduitCalculator() {
           label={t("conduit.unit")}
           tooltip={t("conduit.unit_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'feet', label: t("conduit.feet") },
+              { value: 'meters', label: t("conduit.meters") }
+            ]}
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="feet">{t("conduit.feet")}</option>
-            <option value="meters">{t("conduit.meters")}</option>
-          </select>
+            onChange={setUnit}
+          />
         </InputContainer>
 
         {/* Run Length */}

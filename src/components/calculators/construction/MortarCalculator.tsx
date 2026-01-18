@@ -22,6 +22,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -218,15 +219,15 @@ export default function MortarCalculator() {
           label={t("mortar.masonry_type")}
           tooltip={t("mortar.masonry_type_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'brick', label: t("mortar.types.brick") },
+              { value: 'block', label: t("mortar.types.block") },
+              { value: 'stone', label: t("mortar.types.stone") }
+            ]}
             value={masonryType}
-            onChange={(e) => setMasonryType(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="brick">{t("mortar.types.brick")}</option>
-            <option value="block">{t("mortar.types.block")}</option>
-            <option value="stone">{t("mortar.types.stone")}</option>
-          </select>
+            onChange={setMasonryType}
+          />
         </InputContainer>
 
         {/* Joint Thickness */}
@@ -234,17 +235,14 @@ export default function MortarCalculator() {
           label={t("mortar.joint_thickness")}
           tooltip={t("mortar.joint_thickness_tooltip")}
         >
-          <select
+          <Combobox
+            options={JOINT_THICKNESS_OPTIONS.map((thickness) => ({
+              value: thickness.toString(),
+              label: `${thickness} ${t("common:units.mm")}`
+            }))}
             value={jointThickness}
-            onChange={(e) => setJointThickness(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            {JOINT_THICKNESS_OPTIONS.map((thickness) => (
-              <option key={thickness} value={thickness}>
-                {thickness} {t("common:units.mm")}
-              </option>
-            ))}
-          </select>
+            onChange={setJointThickness}
+          />
         </InputContainer>
 
         {/* Mix Ratio */}
@@ -252,16 +250,16 @@ export default function MortarCalculator() {
           label={t("mortar.mix_ratio")}
           tooltip={t("mortar.mix_ratio_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: '1:3', label: t("mortar.ratios.1_3") },
+              { value: '1:4', label: t("mortar.ratios.1_4") },
+              { value: '1:5', label: t("mortar.ratios.1_5") },
+              { value: '1:6', label: t("mortar.ratios.1_6") }
+            ]}
             value={mixRatio}
-            onChange={(e) => setMixRatio(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="1:3">{t("mortar.ratios.1_3")}</option>
-            <option value="1:4">{t("mortar.ratios.1_4")}</option>
-            <option value="1:5">{t("mortar.ratios.1_5")}</option>
-            <option value="1:6">{t("mortar.ratios.1_6")}</option>
-          </select>
+            onChange={setMixRatio}
+          />
         </InputContainer>
 
         {/* Waste Factor */}

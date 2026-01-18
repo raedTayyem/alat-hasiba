@@ -19,6 +19,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -185,14 +186,14 @@ export default function BrickCalculator() {
           label={t("brick.unit")}
           tooltip={t("brick.unit_tooltip")}
         >
-          <select
+          <Combobox
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="meters">{t("brick.meters")}</option>
-            <option value="feet">{t("brick.feet")}</option>
-          </select>
+            onChange={setUnit}
+            options={[
+              { value: 'meters', label: t("brick.meters") },
+              { value: 'feet', label: t("brick.feet") }
+            ]}
+          />
         </InputContainer>
 
         {/* Brick Size */}
@@ -200,15 +201,15 @@ export default function BrickCalculator() {
           label={t("brick.brick_size")}
           tooltip={t("brick.brick_size_tooltip")}
         >
-          <select
+          <Combobox
             value={brickSize}
-            onChange={(e) => setBrickSize(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="modular">{t("brick.modular")}</option>
-            <option value="standard">{t("brick.standard")}</option>
-            <option value="jumbo">{t("brick.jumbo")}</option>
-          </select>
+            onChange={setBrickSize}
+            options={[
+              { value: 'modular', label: t("brick.modular") },
+              { value: 'standard', label: t("brick.standard") },
+              { value: 'jumbo', label: t("brick.jumbo") }
+            ]}
+          />
         </InputContainer>
 
         {/* Wall Length */}

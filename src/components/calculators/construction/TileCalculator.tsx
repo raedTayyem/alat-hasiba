@@ -21,6 +21,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -77,6 +78,22 @@ export default function TileCalculator() {
   // UI state
   const [showResult, setShowResult] = useState<boolean>(false);
   const [error, setError] = useState<string>('');
+
+  // Combobox options
+  const unitOptions: ComboboxOption[] = [
+    { value: 'feet', label: t("tile.feet") },
+    { value: 'meters', label: t("tile.meters") }
+  ];
+
+  const tileSizeOptions: ComboboxOption[] = [
+    { value: '4x4', label: '4" × 4"' },
+    { value: '6x6', label: '6" × 6"' },
+    { value: '12x12', label: '12" × 12"' },
+    { value: '12x24', label: '12" × 24"' },
+    { value: '18x18', label: '18" × 18"' },
+    { value: '24x24', label: '24" × 24"' },
+    { value: 'custom', label: t("tile.custom_size") }
+  ];
 
   // ---------------------------------------------------------------------------
   // VALIDATION FUNCTIONS
@@ -234,14 +251,7 @@ export default function TileCalculator() {
           label={t("tile.unit")}
           tooltip={t("tile.unit_tooltip")}
         >
-          <select
-            value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="feet">{t("tile.feet")}</option>
-            <option value="meters">{t("tile.meters")}</option>
-          </select>
+          <Combobox options={unitOptions} value={unit} onChange={setUnit} />
         </InputContainer>
 
         {/* Area Length */}
@@ -283,19 +293,7 @@ export default function TileCalculator() {
           label={t("tile.tile_size")}
           tooltip={t("tile.tile_size_tooltip")}
         >
-          <select
-            value={tileSize}
-            onChange={(e) => setTileSize(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="4x4">4" × 4"</option>
-            <option value="6x6">6" × 6"</option>
-            <option value="12x12">12" × 12"</option>
-            <option value="12x24">12" × 24"</option>
-            <option value="18x18">18" × 18"</option>
-            <option value="24x24">24" × 24"</option>
-            <option value="custom">{t("tile.custom_size")}</option>
-          </select>
+          <Combobox options={tileSizeOptions} value={tileSize} onChange={setTileSize} />
         </InputContainer>
 
         {/* Custom Tile Dimensions */}

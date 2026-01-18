@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function CarbonOffsetCalculator() {
   const { t } = useTranslation('calc/environmental');
@@ -19,7 +20,7 @@ export default function CarbonOffsetCalculator() {
     landArea: number;
   } | null>(null);
 
-  const methodOptions = [
+  const methodOptions: ComboboxOption[] = [
     { value: 'trees', label: t("carbon_offset.options.trees") },
     { value: 'solar', label: t("carbon_offset.options.solar") },
     { value: 'wind', label: t("carbon_offset.options.wind") },
@@ -84,17 +85,7 @@ export default function CarbonOffsetCalculator() {
           label={t("carbon_offset.preferred_method")}
           tooltip={t("carbon_offset.preferred_method_tooltip")}
         >
-          <select
-            value={offsetMethod}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setOffsetMethod(e.target.value)}
-            className="calculator-input w-full"
-          >
-            {methodOptions.map((option) => (
-              <option key={option.value} value={option.value}>
-                {option.label}
-              </option>
-            ))}
-          </select>
+          <Combobox options={methodOptions} value={offsetMethod} onChange={setOffsetMethod} />
         </InputContainer>
       </div>
 

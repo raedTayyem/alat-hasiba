@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 export default function DogCalorieCalculator() {
   const { t } = useTranslation('calc/pet');
@@ -107,33 +108,33 @@ export default function DogCalorieCalculator() {
           label={t("dog-calorie-calculator.activity_level")}
           tooltip={t("dog-calorie-calculator.activity_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: "sedentary", label: t("dog-calorie-calculator.activity_sedentary") },
+              { value: "light", label: t("dog-calorie-calculator.activity_light") },
+              { value: "moderate", label: t("dog-calorie-calculator.activity_moderate") },
+              { value: "active", label: t("dog-calorie-calculator.activity_active") },
+              { value: "very_active", label: t("dog-calorie-calculator.activity_very_active") },
+              { value: "working", label: t("dog-calorie-calculator.activity_working") }
+            ]}
             value={activityLevel}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setActivityLevel(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="sedentary">{t("dog-calorie-calculator.activity_sedentary")}</option>
-            <option value="light">{t("dog-calorie-calculator.activity_light")}</option>
-            <option value="moderate">{t("dog-calorie-calculator.activity_moderate")}</option>
-            <option value="active">{t("dog-calorie-calculator.activity_active")}</option>
-            <option value="very_active">{t("dog-calorie-calculator.activity_very_active")}</option>
-            <option value="working">{t("dog-calorie-calculator.activity_working")}</option>
-          </select>
+            onChange={setActivityLevel}
+          />
         </InputContainer>
 
         <InputContainer
           label={t("dog-calorie-calculator.body_condition")}
           tooltip={t("dog-calorie-calculator.condition_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: "underweight", label: t("dog-calorie-calculator.condition_underweight") },
+              { value: "normal", label: t("dog-calorie-calculator.condition_normal") },
+              { value: "overweight", label: t("dog-calorie-calculator.condition_overweight") }
+            ]}
             value={condition}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setCondition(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="underweight">{t("dog-calorie-calculator.condition_underweight")}</option>
-            <option value="normal">{t("dog-calorie-calculator.condition_normal")}</option>
-            <option value="overweight">{t("dog-calorie-calculator.condition_overweight")}</option>
-          </select>
+            onChange={setCondition}
+          />
         </InputContainer>
 
         <InputContainer

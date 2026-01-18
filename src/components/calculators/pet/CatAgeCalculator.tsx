@@ -13,6 +13,7 @@ import InputContainer from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { initDateInputRTL } from '../../../utils/dateInputRTL';
+import { NumberInput } from '@/components/ui/number-input';
 
 interface CalculatorResult {
   humanYears: number;
@@ -127,10 +128,6 @@ export default function CatAgeCalculator() {
     }, 300);
   };
 
-  const handleKeyPress = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter') calculate();
-  };
-
   const inputSection = (
     <>
       <div className="calculator-section-title">{t("cat_age_calculator.title")}</div>
@@ -140,20 +137,16 @@ export default function CatAgeCalculator() {
           label={t("cat_age_calculator.label_age")}
           tooltip={t("cat_age_calculator.tooltip_age")}
         >
-          <input
-            type="number"
+          <NumberInput
             value={catAge}
-            onChange={(e) => {
-              setCatAge(e.target.value);
+            onValueChange={(value) => {
+              setCatAge(String(value));
               if (error) setError('');
             }}
-            onKeyPress={handleKeyPress}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder={t("cat_age_calculator.placeholder_age")}
-            dir="ltr"
-            step="0.1"
-            min="0"
-            max="30"
+            step={0.1}
+            min={0}
+            max={30}
           />
         </InputContainer>
       </div>

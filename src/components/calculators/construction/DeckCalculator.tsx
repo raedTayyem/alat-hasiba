@@ -23,6 +23,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -231,14 +232,14 @@ export default function DeckCalculator() {
           label={t("deck.unit")}
           tooltip={t("deck.unit_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'feet', label: t("deck.feet") },
+              { value: 'meters', label: t("deck.meters") }
+            ]}
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="feet">{t("deck.feet")}</option>
-            <option value="meters">{t("deck.meters")}</option>
-          </select>
+            onChange={setUnit}
+          />
         </InputContainer>
 
         {/* Deck Length */}
@@ -282,16 +283,16 @@ export default function DeckCalculator() {
           label={t("deck.board_size")}
           tooltip={t("deck.board_size_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: '5/4x6', label: t("deck.board_sizes.5_4x6") },
+              { value: '2x6', label: t("deck.board_sizes.2x6") },
+              { value: '2x4', label: t("deck.board_sizes.2x4") },
+              { value: 'composite', label: t("deck.board_sizes.composite") }
+            ]}
             value={boardSize}
-            onChange={(e) => setBoardSize(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="5/4x6">{t("deck.board_sizes.5_4x6")}</option>
-            <option value="2x6">{t("deck.board_sizes.2x6")}</option>
-            <option value="2x4">{t("deck.board_sizes.2x4")}</option>
-            <option value="composite">{t("deck.board_sizes.composite")}</option>
-          </select>
+            onChange={setBoardSize}
+          />
         </InputContainer>
 
         {/* Board Length */}
@@ -299,17 +300,17 @@ export default function DeckCalculator() {
           label={t("deck.board_length")}
           tooltip={t("deck.board_length_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: '8', label: t("deck.board_lengths.8ft") },
+              { value: '10', label: t("deck.board_lengths.10ft") },
+              { value: '12', label: t("deck.board_lengths.12ft") },
+              { value: '14', label: t("deck.board_lengths.14ft") },
+              { value: '16', label: t("deck.board_lengths.16ft") }
+            ]}
             value={boardLength}
-            onChange={(e) => setBoardLength(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="8">{t("deck.board_lengths.8ft")}</option>
-            <option value="10">{t("deck.board_lengths.10ft")}</option>
-            <option value="12">{t("deck.board_lengths.12ft")}</option>
-            <option value="14">{t("deck.board_lengths.14ft")}</option>
-            <option value="16">{t("deck.board_lengths.16ft")}</option>
-          </select>
+            onChange={setBoardLength}
+          />
         </InputContainer>
 
         {/* Joist Spacing */}
@@ -317,15 +318,15 @@ export default function DeckCalculator() {
           label={t("deck.joist_spacing")}
           tooltip={t("deck.joist_spacing_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: '12', label: t("deck.joist_options.12") },
+              { value: '16', label: t("deck.joist_options.16") },
+              { value: '24', label: t("deck.joist_options.24") }
+            ]}
             value={joistSpacing}
-            onChange={(e) => setJoistSpacing(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="12">{t("deck.joist_options.12")}</option>
-            <option value="16">{t("deck.joist_options.16")}</option>
-            <option value="24">{t("deck.joist_options.24")}</option>
-          </select>
+            onChange={setJoistSpacing}
+          />
         </InputContainer>
 
         {/* Waste Factor */}

@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function ThreePhaseCalculator() {
   const { t } = useTranslation('calc/electrical');
@@ -83,18 +84,20 @@ export default function ThreePhaseCalculator() {
     setError('');
   };
 
+  const connectionTypeOptions: ComboboxOption[] = [
+    { value: 'star', label: t("three_phase.star") },
+    { value: 'delta', label: t("three_phase.delta") }
+  ];
+
   const inputSection = (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("three_phase.connection_type")} tooltip={t("three_phase.connection_type_tooltip")}>
-          <select
+          <Combobox
+            options={connectionTypeOptions}
             value={connectionType}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setConnectionType(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="star">{t("three_phase.star")}</option>
-            <option value="delta">{t("three_phase.delta")}</option>
-          </select>
+            onChange={setConnectionType}
+          />
         </InputContainer>
 
         <InputContainer label={t("three_phase.line_voltage")} tooltip={t("three_phase.line_voltage_tooltip")}>

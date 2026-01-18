@@ -19,6 +19,7 @@ import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { initDateInputRTL } from '../../../utils/dateInputRTL';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -275,15 +276,12 @@ export default function GPACalculator() {
               </div>
               <div className="w-28">
                 {index === 0 && <label className="block text-xs font-medium mb-1 px-1">{t('gpa.grade')}</label>}
-                <select
+                <Combobox
+                  options={Object.keys(scale === 4 ? GRADE_POINTS_4 : GRADE_POINTS_5).map(g => ({ value: g, label: g }))}
                   value={course.grade}
-                  onChange={(e) => updateCourse(course.id, 'grade', e.target.value)}
-                  className="w-full h-14 bg-background border-2 border-border rounded-2xl px-2 text-sm focus:border-primary focus:ring-4 focus:ring-primary/10 outline-none transition-all"
-                >
-                  {Object.keys(scale === 4 ? GRADE_POINTS_4 : GRADE_POINTS_5).map(g => (
-                    <option key={g} value={g}>{g}</option>
-                  ))}
-                </select>
+                  onChange={(val) => updateCourse(course.id, 'grade', val)}
+                  width="w-full"
+                />
               </div>
               <div className="w-24">
                 {index === 0 && <label className="block text-xs font-medium mb-1 px-1">{t('gpa.credits')}</label>}

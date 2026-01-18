@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function SolarPanelCalculator() {
   const { t } = useTranslation('calc/electrical');
@@ -66,6 +67,12 @@ export default function SolarPanelCalculator() {
     setError('');
   };
 
+  const systemVoltageOptions: ComboboxOption[] = [
+    { value: '12', label: `12${t("ohms_law.unit_voltage")}` },
+    { value: '24', label: `24${t("ohms_law.unit_voltage")}` },
+    { value: '48', label: `48${t("ohms_law.unit_voltage")}` }
+  ];
+
   const inputSection = (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -92,15 +99,11 @@ export default function SolarPanelCalculator() {
         </InputContainer>
 
         <InputContainer label={t("solar_panel.inputs.system_voltage")} tooltip={t("solar_panel.tooltips.system_voltage")}>
-          <select
+          <Combobox
+            options={systemVoltageOptions}
             value={systemVoltage}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setSystemVoltage(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="12">12{t("ohms_law.unit_voltage")}</option>
-            <option value="24">24{t("ohms_law.unit_voltage")}</option>
-            <option value="48">48{t("ohms_law.unit_voltage")}</option>
-          </select>
+            onChange={setSystemVoltage}
+          />
         </InputContainer>
 
         <InputContainer label={t("solar_panel.inputs.panel_wattage")} tooltip={t("solar_panel.tooltips.panel_wattage")}>

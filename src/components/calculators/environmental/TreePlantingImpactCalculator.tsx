@@ -12,6 +12,7 @@ import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { initDateInputRTL } from '../../../utils/dateInputRTL';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 interface CalculatorResult {
   totalCO2Offset: number;
@@ -31,6 +32,13 @@ export default function TreePlantingImpactCalculator() {
   const [result, setResult] = useState<CalculatorResult | null>(null);
   const [showResult, setShowResult] = useState<boolean>(false);
   const [error, setError] = useState<string>('');
+
+  const treeTypeOptions: ComboboxOption[] = [
+    { value: 'deciduous', label: t("calculators.environmental.tree_planting.type_deciduous") },
+    { value: 'conifer', label: t("calculators.environmental.tree_planting.type_conifer") },
+    { value: 'tropical', label: t("calculators.environmental.tree_planting.type_tropical") },
+    { value: 'fruit', label: t("calculators.environmental.tree_planting.type_fruit") }
+  ];
 
   useEffect(() => {
     initDateInputRTL();
@@ -170,16 +178,7 @@ export default function TreePlantingImpactCalculator() {
           label={t("calculators.environmental.tree_planting.type_label")}
           tooltip={t("calculators.environmental.tree_planting.type_tooltip")}
         >
-          <select
-            value={treeType}
-            onChange={(e) => setTreeType(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="deciduous">{t("calculators.environmental.tree_planting.type_deciduous")}</option>
-            <option value="conifer">{t("calculators.environmental.tree_planting.type_conifer")}</option>
-            <option value="tropical">{t("calculators.environmental.tree_planting.type_tropical")}</option>
-            <option value="fruit">{t("calculators.environmental.tree_planting.type_fruit")}</option>
-          </select>
+          <Combobox options={treeTypeOptions} value={treeType} onChange={setTreeType} />
         </InputContainer>
       </div>
 

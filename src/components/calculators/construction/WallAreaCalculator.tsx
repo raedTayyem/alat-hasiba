@@ -19,9 +19,11 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Square, Minus, Plus, Info, DoorOpen } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { NumberInput } from '@/components/ui/number-input';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -230,14 +232,14 @@ export default function WallAreaCalculator() {
           label={t("wallArea.unit")}
           tooltip={t("wallArea.unit_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'meters', label: t("wallArea.meters") },
+              { value: 'feet', label: t("wallArea.feet") }
+            ]}
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="meters">{t("wallArea.meters")}</option>
-            <option value="feet">{t("wallArea.feet")}</option>
-          </select>
+            onChange={setUnit}
+          />
         </InputContainer>
 
         {/* Wall Length */}
@@ -245,10 +247,10 @@ export default function WallAreaCalculator() {
           label={t("wallArea.wall_length")}
           tooltip={t("wallArea.wall_length_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={wallLength}
-            onChange={(e) => {
-              setWallLength(e.target.value);
+            onValueChange={(val) => {
+              setWallLength(val.toString());
               if (error) setError('');
             }}
             placeholder={t("wallArea.placeholders.wall_length")}
@@ -262,10 +264,10 @@ export default function WallAreaCalculator() {
           label={t("wallArea.wall_height")}
           tooltip={t("wallArea.wall_height_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={wallHeight}
-            onChange={(e) => {
-              setWallHeight(e.target.value);
+            onValueChange={(val) => {
+              setWallHeight(val.toString());
               if (error) setError('');
             }}
             placeholder={t("wallArea.placeholders.wall_height")}
@@ -306,36 +308,30 @@ export default function WallAreaCalculator() {
             <div className="grid grid-cols-3 gap-2">
               <div>
                 <label className="text-xs text-foreground-70 block mb-1">{t("wallArea.width")}</label>
-                <input
-                  type="number"
+                <NumberInput
                   value={window.width}
-                  onChange={(e) => updateWindow(window.id, 'width', e.target.value)}
+                  onValueChange={(val) => updateWindow(window.id, 'width', val.toString())}
                   placeholder={STANDARD_WINDOW.width.toString()}
-                  className="w-full rounded-md border border-input bg-background px-2 py-2 text-sm"
                   min={0}
                   step={0.1}
                 />
               </div>
               <div>
                 <label className="text-xs text-foreground-70 block mb-1">{t("wallArea.height")}</label>
-                <input
-                  type="number"
+                <NumberInput
                   value={window.height}
-                  onChange={(e) => updateWindow(window.id, 'height', e.target.value)}
+                  onValueChange={(val) => updateWindow(window.id, 'height', val.toString())}
                   placeholder={STANDARD_WINDOW.height.toString()}
-                  className="w-full rounded-md border border-input bg-background px-2 py-2 text-sm"
                   min={0}
                   step={0.1}
                 />
               </div>
               <div>
                 <label className="text-xs text-foreground-70 block mb-1">{t("wallArea.quantity")}</label>
-                <input
-                  type="number"
+                <NumberInput
                   value={window.quantity}
-                  onChange={(e) => updateWindow(window.id, 'quantity', e.target.value)}
+                  onValueChange={(val) => updateWindow(window.id, 'quantity', val.toString())}
                   placeholder="1"
-                  className="w-full rounded-md border border-input bg-background px-2 py-2 text-sm"
                   min={0}
                   step={1}
                 />
@@ -376,36 +372,30 @@ export default function WallAreaCalculator() {
             <div className="grid grid-cols-3 gap-2">
               <div>
                 <label className="text-xs text-foreground-70 block mb-1">{t("wallArea.width")}</label>
-                <input
-                  type="number"
+                <NumberInput
                   value={door.width}
-                  onChange={(e) => updateDoor(door.id, 'width', e.target.value)}
+                  onValueChange={(val) => updateDoor(door.id, 'width', val.toString())}
                   placeholder={STANDARD_DOOR.width.toString()}
-                  className="w-full rounded-md border border-input bg-background px-2 py-2 text-sm"
                   min={0}
                   step={0.1}
                 />
               </div>
               <div>
                 <label className="text-xs text-foreground-70 block mb-1">{t("wallArea.height")}</label>
-                <input
-                  type="number"
+                <NumberInput
                   value={door.height}
-                  onChange={(e) => updateDoor(door.id, 'height', e.target.value)}
+                  onValueChange={(val) => updateDoor(door.id, 'height', val.toString())}
                   placeholder={STANDARD_DOOR.height.toString()}
-                  className="w-full rounded-md border border-input bg-background px-2 py-2 text-sm"
                   min={0}
                   step={0.1}
                 />
               </div>
               <div>
                 <label className="text-xs text-foreground-70 block mb-1">{t("wallArea.quantity")}</label>
-                <input
-                  type="number"
+                <NumberInput
                   value={door.quantity}
-                  onChange={(e) => updateDoor(door.id, 'quantity', e.target.value)}
+                  onValueChange={(val) => updateDoor(door.id, 'quantity', val.toString())}
                   placeholder="1"
-                  className="w-full rounded-md border border-input bg-background px-2 py-2 text-sm"
                   min={0}
                   step={1}
                 />

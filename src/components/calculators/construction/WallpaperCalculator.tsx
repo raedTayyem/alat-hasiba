@@ -22,6 +22,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -229,14 +230,14 @@ export default function WallpaperCalculator() {
           label={t("wallpaper.unit")}
           tooltip={t("wallpaper.unit_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'meters', label: t("wallpaper.meters") },
+              { value: 'feet', label: t("wallpaper.feet") }
+            ]}
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="meters">{t("wallpaper.meters")}</option>
-            <option value="feet">{t("wallpaper.feet")}</option>
-          </select>
+            onChange={setUnit}
+          />
         </InputContainer>
 
         {/* Room Perimeter */}
@@ -280,17 +281,17 @@ export default function WallpaperCalculator() {
           label={t("wallpaper.roll_size")}
           tooltip={t("wallpaper.roll_size_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'standard_us', label: t("wallpaper.sizes.standard_us") },
+              { value: 'standard_euro', label: t("wallpaper.sizes.standard_euro") },
+              { value: 'wide_euro', label: t("wallpaper.sizes.wide_euro") },
+              { value: 'metric', label: t("wallpaper.sizes.metric") },
+              { value: 'custom', label: t("wallpaper.sizes.custom") }
+            ]}
             value={rollSize}
-            onChange={(e) => setRollSize(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="standard_us">{t("wallpaper.sizes.standard_us")}</option>
-            <option value="standard_euro">{t("wallpaper.sizes.standard_euro")}</option>
-            <option value="wide_euro">{t("wallpaper.sizes.wide_euro")}</option>
-            <option value="metric">{t("wallpaper.sizes.metric")}</option>
-            <option value="custom">{t("wallpaper.sizes.custom")}</option>
-          </select>
+            onChange={setRollSize}
+          />
         </InputContainer>
 
         {/* Custom Roll Dimensions */}
@@ -337,17 +338,17 @@ export default function WallpaperCalculator() {
           label={t("wallpaper.pattern_type")}
           tooltip={t("wallpaper.pattern_type_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'none', label: t("wallpaper.patterns.none") },
+              { value: 'random', label: t("wallpaper.patterns.random") },
+              { value: 'straight', label: t("wallpaper.patterns.straight") },
+              { value: 'drop', label: t("wallpaper.patterns.drop") },
+              { value: 'large', label: t("wallpaper.patterns.large") }
+            ]}
             value={patternType}
-            onChange={(e) => setPatternType(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="none">{t("wallpaper.patterns.none")}</option>
-            <option value="random">{t("wallpaper.patterns.random")}</option>
-            <option value="straight">{t("wallpaper.patterns.straight")}</option>
-            <option value="drop">{t("wallpaper.patterns.drop")}</option>
-            <option value="large">{t("wallpaper.patterns.large")}</option>
-          </select>
+            onChange={setPatternType}
+          />
         </InputContainer>
 
         {/* Openings Area */}

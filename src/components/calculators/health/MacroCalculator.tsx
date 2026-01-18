@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
+import { Combobox } from '@/components/ui/combobox';
 
 interface MacroResult {
   calories: number;
@@ -130,88 +132,79 @@ export default function MacroCalculator() {
 
       <div className="max-w-md mx-auto space-y-4">
         <InputContainer label={t("body_fat.inputs.weight")} tooltip={t("body_fat.tooltips.weight")}>
-          <input
-            type="number"
+          <NumberInput
             value={weight}
-            onChange={(e) => setWeight(e.target.value)}
+            onValueChange={(val) => setWeight(String(val))}
             onKeyPress={(e) => e.key === 'Enter' && calculateMacros()}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder="70"
-            dir="ltr"
           />
         </InputContainer>
 
         <InputContainer label={t("body_fat.inputs.height")} tooltip={t("body_fat.tooltips.height")}>
-          <input
-            type="number"
+          <NumberInput
             value={height}
-            onChange={(e) => setHeight(e.target.value)}
+            onValueChange={(val) => setHeight(String(val))}
             onKeyPress={(e) => e.key === 'Enter' && calculateMacros()}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder="170"
-            dir="ltr"
           />
         </InputContainer>
 
         <InputContainer label={t("macro.inputs.age_years")} tooltip={t("macro.tooltips.age")}>
-          <input
-            type="number"
+          <NumberInput
             value={age}
-            onChange={(e) => setAge(e.target.value)}
+            onValueChange={(val) => setAge(String(val))}
             onKeyPress={(e) => e.key === 'Enter' && calculateMacros()}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder="30"
-            dir="ltr"
           />
         </InputContainer>
 
         <InputContainer label={t("body_fat.inputs.gender")} tooltip={t("macro.tooltips.gender")}>
-          <select
+          <Combobox
+            options={[
+              { value: "male", label: t("body_fat.inputs.male") },
+              { value: "female", label: t("body_fat.inputs.female") }
+            ]}
             value={gender}
-            onChange={(e) => setGender(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="male">{t("body_fat.inputs.male")}</option>
-            <option value="female">{t("body_fat.inputs.female")}</option>
-          </select>
+            onChange={setGender}
+          />
         </InputContainer>
 
         <InputContainer label={t("macro.inputs.activity_level")} tooltip={t("macro.tooltips.activity")}>
-          <select
+          <Combobox
+            options={[
+              { value: "1.2", label: t("macro.inputs.sedentary") },
+              { value: "1.375", label: t("macro.inputs.light_exercise") },
+              { value: "1.55", label: t("macro.inputs.moderate_exercise") },
+              { value: "1.725", label: t("macro.inputs.heavy_exercise") },
+              { value: "1.9", label: t("macro.inputs.athlete") }
+            ]}
             value={activityLevel}
-            onChange={(e) => setActivityLevel(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="1.2">{t("macro.inputs.sedentary")}</option>
-            <option value="1.375">{t("macro.inputs.light_exercise")}</option>
-            <option value="1.55">{t("macro.inputs.moderate_exercise")}</option>
-            <option value="1.725">{t("macro.inputs.heavy_exercise")}</option>
-            <option value="1.9">{t("macro.inputs.athlete")}</option>
-          </select>
+            onChange={setActivityLevel}
+          />
         </InputContainer>
 
         <InputContainer label={t("macro.inputs.goal")} tooltip={t("macro.tooltips.goal")}>
-          <select
+          <Combobox
+            options={[
+              { value: "lose", label: t("macro.inputs.weight_loss") },
+              { value: "maintain", label: t("macro.inputs.maintain_weight") },
+              { value: "gain", label: t("macro.inputs.weight_gain") }
+            ]}
             value={goal}
-            onChange={(e) => setGoal(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="lose">{t("macro.inputs.weight_loss")}</option>
-            <option value="maintain">{t("macro.inputs.maintain_weight")}</option>
-            <option value="gain">{t("macro.inputs.weight_gain")}</option>
-          </select>
+            onChange={setGoal}
+          />
         </InputContainer>
 
         <InputContainer label={t("macro.inputs.diet_style")} tooltip={t("macro.tooltips.diet_style")}>
-          <select
+          <Combobox
+            options={[
+              { value: "balanced", label: t("macro.inputs.balanced_diet") },
+              { value: "keto", label: t("macro.inputs.keto_diet") },
+              { value: "high-protein", label: t("macro.inputs.high_protein_diet") }
+            ]}
             value={dietStyle}
-            onChange={(e) => setDietStyle(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="balanced">{t("macro.inputs.balanced_diet")}</option>
-            <option value="keto">{t("macro.inputs.keto_diet")}</option>
-            <option value="high-protein">{t("macro.inputs.high_protein_diet")}</option>
-          </select>
+            onChange={setDietStyle}
+          />
         </InputContainer>
       </div>
 

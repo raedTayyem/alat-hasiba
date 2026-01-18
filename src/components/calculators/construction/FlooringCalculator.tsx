@@ -21,6 +21,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -72,6 +73,19 @@ export default function FlooringCalculator() {
   // UI state
   const [showResult, setShowResult] = useState<boolean>(false);
   const [error, setError] = useState<string>('');
+
+  // Combobox options
+  const unitOptions: ComboboxOption[] = [
+    { value: 'feet', label: t("flooring.feet") },
+    { value: 'meters', label: t("flooring.meters") }
+  ];
+
+  const flooringTypeOptions: ComboboxOption[] = [
+    { value: 'laminate', label: t("flooring.types.laminate") },
+    { value: 'hardwood', label: t("flooring.types.hardwood") },
+    { value: 'vinyl_plank', label: t("flooring.types.vinyl_plank") },
+    { value: 'engineered', label: t("flooring.types.engineered") }
+  ];
 
   // ---------------------------------------------------------------------------
   // VALIDATION FUNCTIONS
@@ -202,14 +216,7 @@ export default function FlooringCalculator() {
           label={t("flooring.unit")}
           tooltip={t("flooring.unit_tooltip")}
         >
-          <select
-            value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="feet">{t("flooring.feet")}</option>
-            <option value="meters">{t("flooring.meters")}</option>
-          </select>
+          <Combobox options={unitOptions} value={unit} onChange={setUnit} />
         </InputContainer>
 
         {/* Room Length */}
@@ -251,16 +258,7 @@ export default function FlooringCalculator() {
           label={t("flooring.flooring_type")}
           tooltip={t("flooring.flooring_type_tooltip")}
         >
-          <select
-            value={flooringType}
-            onChange={(e) => handleFlooringTypeChange(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="laminate">{t("flooring.types.laminate")}</option>
-            <option value="hardwood">{t("flooring.types.hardwood")}</option>
-            <option value="vinyl_plank">{t("flooring.types.vinyl_plank")}</option>
-            <option value="engineered">{t("flooring.types.engineered")}</option>
-          </select>
+          <Combobox options={flooringTypeOptions} value={flooringType} onChange={handleFlooringTypeChange} />
         </InputContainer>
 
         {/* Coverage per Box */}

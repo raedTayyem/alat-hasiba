@@ -24,6 +24,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -73,6 +74,16 @@ export default function LaborCostConstructionCalculator() {
   // UI state
   const [showResult, setShowResult] = useState<boolean>(false);
   const [error, setError] = useState<string>('');
+
+  // Combobox options
+  const currencyOptions: ComboboxOption[] = [
+    { value: 'USD', label: t("labor_cost.currencies.usd") },
+    { value: 'EUR', label: t("labor_cost.currencies.eur") },
+    { value: 'GBP', label: t("labor_cost.currencies.gbp") },
+    { value: 'SAR', label: t("labor_cost.currencies.sar") },
+    { value: 'AED', label: t("labor_cost.currencies.aed") },
+    { value: 'JOD', label: t("labor_cost.currencies.jod") }
+  ];
 
   // ---------------------------------------------------------------------------
   // VALIDATION FUNCTIONS
@@ -220,18 +231,7 @@ export default function LaborCostConstructionCalculator() {
           label={t("labor_cost.currency")}
           tooltip={t("labor_cost.currency_tooltip")}
         >
-          <select
-            value={currency}
-            onChange={(e) => setCurrency(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="USD">{t("labor_cost.currencies.usd")}</option>
-            <option value="EUR">{t("labor_cost.currencies.eur")}</option>
-            <option value="GBP">{t("labor_cost.currencies.gbp")}</option>
-            <option value="SAR">{t("labor_cost.currencies.sar")}</option>
-            <option value="AED">{t("labor_cost.currencies.aed")}</option>
-            <option value="JOD">{t("labor_cost.currencies.jod")}</option>
-          </select>
+          <Combobox options={currencyOptions} value={currency} onChange={setCurrency} />
         </InputContainer>
 
         {/* Regular Hours */}

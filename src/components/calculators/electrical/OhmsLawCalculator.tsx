@@ -12,6 +12,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 interface OhmsLawResult {
   voltage: number;
@@ -152,6 +153,12 @@ export default function OhmsLawCalculator() {
     }, 300);
   };
 
+  const calculateForOptions: ComboboxOption[] = [
+    { value: 'voltage', label: t("ohms_law.voltage") },
+    { value: 'current', label: t("ohms_law.current") },
+    { value: 'resistance', label: t("ohms_law.resistance") }
+  ];
+
   const inputSection = (
     <>
       <div className="text-2xl font-bold mb-6 text-center">
@@ -164,19 +171,15 @@ export default function OhmsLawCalculator() {
           label={t("ohms_law.calculate_for")}
           tooltip={t("ohms_law.calculate_for_tooltip")}
         >
-          <select
+          <Combobox
+            options={calculateForOptions}
             value={calculateFor}
-            onChange={(e) => {
-              setCalculateFor(e.target.value);
+            onChange={(value) => {
+              setCalculateFor(value);
               setResult(null);
               setError('');
             }}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="voltage">{t("ohms_law.voltage")}</option>
-            <option value="current">{t("ohms_law.current")}</option>
-            <option value="resistance">{t("ohms_law.resistance")}</option>
-          </select>
+          />
         </InputContainer>
 
         {calculateFor !== 'voltage' && (

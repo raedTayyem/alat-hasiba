@@ -22,6 +22,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -195,14 +196,14 @@ export default function InsulationCalculator() {
           label={t("insulation.unit")}
           tooltip={t("insulation.unit_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'meters', label: t("insulation.meters") },
+              { value: 'feet', label: t("insulation.feet") }
+            ]}
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="meters">{t("insulation.meters")}</option>
-            <option value="feet">{t("insulation.feet")}</option>
-          </select>
+            onChange={setUnit}
+          />
         </InputContainer>
 
         {/* Insulation Type */}
@@ -210,17 +211,17 @@ export default function InsulationCalculator() {
           label={t("insulation.insulation_type")}
           tooltip={t("insulation.insulation_type_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'fiberglass', label: t("insulation.types.fiberglass") },
+              { value: 'rockwool', label: t("insulation.types.rockwool") },
+              { value: 'cellulose', label: t("insulation.types.cellulose") },
+              { value: 'spray_foam_open', label: t("insulation.types.spray_foam_open") },
+              { value: 'spray_foam_closed', label: t("insulation.types.spray_foam_closed") }
+            ]}
             value={insulationType}
-            onChange={(e) => setInsulationType(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="fiberglass">{t("insulation.types.fiberglass")}</option>
-            <option value="rockwool">{t("insulation.types.rockwool")}</option>
-            <option value="cellulose">{t("insulation.types.cellulose")}</option>
-            <option value="spray_foam_open">{t("insulation.types.spray_foam_open")}</option>
-            <option value="spray_foam_closed">{t("insulation.types.spray_foam_closed")}</option>
-          </select>
+            onChange={setInsulationType}
+          />
         </InputContainer>
 
         {/* Total Area */}

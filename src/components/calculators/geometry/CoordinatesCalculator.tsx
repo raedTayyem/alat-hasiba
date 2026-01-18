@@ -15,6 +15,8 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { NumberInput } from '@/components/ui/number-input';
+import { Combobox } from '@/components/ui/combobox';
 
 interface CoordinatesResult {
   cartesianX: number;
@@ -104,88 +106,71 @@ export default function CoordinatesCalculator() {
     }, 300);
   };
 
-  const handleKeyPress = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter') {
-      calculate();
-    }
-  };
 
   const inputSection = (
     <>
       <div className="max-w-md mx-auto space-y-4">
         <InputContainer label={t("coordinates_calculator.conversion_type")} tooltip={t("coordinates_calculator.conversion_type_tooltip")}>
-          <select
+          <Combobox
+            options={[
+              { value: 'cartesian-to-polar', label: t("coordinates_calculator.cartesian_to_polar") },
+              { value: 'polar-to-cartesian', label: t("coordinates_calculator.polar_to_cartesian") }
+            ]}
             value={conversionType}
-            onChange={(e) => setConversionType(e.target.value as 'cartesian-to-polar' | 'polar-to-cartesian')}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="cartesian-to-polar">{t("coordinates_calculator.cartesian_to_polar")}</option>
-            <option value="polar-to-cartesian">{t("coordinates_calculator.polar_to_cartesian")}</option>
-          </select>
+            onChange={(val) => setConversionType(val as 'cartesian-to-polar' | 'polar-to-cartesian')}
+          />
         </InputContainer>
 
         {conversionType === 'cartesian-to-polar' ? (
           <>
             <InputContainer label={t("coordinates_calculator.x")} tooltip={t("coordinates_calculator.x_tooltip")}>
-              <input
-                type="number"
+              <NumberInput
                 value={x}
-                onChange={(e) => { setX(e.target.value); if (error) setError(''); }}
-                onKeyPress={handleKeyPress}
+                onValueChange={(value) => { setX(String(value)); if (error) setError(''); }}
                 className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
                 placeholder={t("coordinates_calculator.x_placeholder")}
-                dir="ltr"
-                step="0.01"
+                step={0.01}
               />
             </InputContainer>
             <InputContainer label={t("coordinates_calculator.y")} tooltip={t("coordinates_calculator.y_tooltip")}>
-              <input
-                type="number"
+              <NumberInput
                 value={y}
-                onChange={(e) => { setY(e.target.value); if (error) setError(''); }}
-                onKeyPress={handleKeyPress}
+                onValueChange={(value) => { setY(String(value)); if (error) setError(''); }}
                 className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
                 placeholder={t("coordinates_calculator.y_placeholder")}
-                dir="ltr"
-                step="0.01"
+                step={0.01}
               />
             </InputContainer>
           </>
         ) : (
           <>
             <InputContainer label={t("coordinates_calculator.r")} tooltip={t("coordinates_calculator.r_tooltip")}>
-              <input
-                type="number"
+              <NumberInput
                 value={r}
-                onChange={(e) => { setR(e.target.value); if (error) setError(''); }}
-                onKeyPress={handleKeyPress}
+                onValueChange={(value) => { setR(String(value)); if (error) setError(''); }}
                 className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
                 placeholder={t("coordinates_calculator.r_placeholder")}
-                dir="ltr"
-                step="0.01"
-                min="0"
+                step={0.01}
+                min={0}
               />
             </InputContainer>
             <InputContainer label={t("coordinates_calculator.angle_unit")} tooltip={t("coordinates_calculator.angle_unit_tooltip")}>
-              <select
+              <Combobox
+                options={[
+                  { value: 'degrees', label: t("coordinates_calculator.degrees") },
+                  { value: 'radians', label: t("coordinates_calculator.radians") }
+                ]}
                 value={angleUnit}
-                onChange={(e) => setAngleUnit(e.target.value as 'degrees' | 'radians')}
-                className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-              >
-                <option value="degrees">{t("coordinates_calculator.degrees")}</option>
-                <option value="radians">{t("coordinates_calculator.radians")}</option>
-              </select>
+                onChange={(val) => setAngleUnit(val as 'degrees' | 'radians')}
+              />
             </InputContainer>
             <InputContainer label={t("coordinates_calculator.theta")} tooltip={t("coordinates_calculator.theta_tooltip")}>
-              <input
-                type="number"
+              <NumberInput
                 value={theta}
-                onChange={(e) => { setTheta(e.target.value); if (error) setError(''); }}
-                onKeyPress={handleKeyPress}
+                onValueChange={(value) => { setTheta(String(value)); if (error) setError(''); }}
                 className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
                 placeholder={t("coordinates_calculator.theta_placeholder")}
-                dir="ltr"
-                step="0.01"
+                step={0.01}
               />
             </InputContainer>
           </>

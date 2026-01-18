@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function DecibelCalculator() {
   const { t } = useTranslation('calc/electrical');
@@ -55,18 +56,20 @@ export default function DecibelCalculator() {
     setError('');
   };
 
+  const calculationTypeOptions: ComboboxOption[] = [
+    { value: 'power', label: t("decibel-calculator.type_power") },
+    { value: 'voltage', label: t("decibel-calculator.type_voltage") }
+  ];
+
   const inputSection = (
     <>
       <div className="grid grid-cols-1 gap-4">
         <InputContainer label={t("decibel-calculator.calculation_type")} tooltip={t("decibel-calculator.type_tooltip")}>
-          <select
+          <Combobox
+            options={calculationTypeOptions}
             value={calculationType}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setCalculationType(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="power">{t("decibel-calculator.type_power")}</option>
-            <option value="voltage">{t("decibel-calculator.type_voltage")}</option>
-          </select>
+            onChange={setCalculationType}
+          />
         </InputContainer>
 
         <InputContainer

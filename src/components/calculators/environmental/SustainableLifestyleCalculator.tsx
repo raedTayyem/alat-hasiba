@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function SustainableLifestyleCalculator() {
   const { t } = useTranslation('calc/environmental');
@@ -24,41 +25,41 @@ export default function SustainableLifestyleCalculator() {
     improvements: { area: string; impact: string }[];
   } | null>(null);
 
-  const energyOptions = [
+  const energyOptions: ComboboxOption[] = [
     { value: 'solar', label: t("sustainable_lifestyle.options.solar") },
     { value: 'green', label: t("sustainable_lifestyle.options.green") },
     { value: 'efficient', label: t("sustainable_lifestyle.options.efficient") },
     { value: 'grid', label: t("sustainable_lifestyle.options.grid") }
   ];
 
-  const transportOptions = [
+  const transportOptions: ComboboxOption[] = [
     { value: 'walk', label: t("sustainable_lifestyle.options.walk") },
     { value: 'public', label: t("sustainable_lifestyle.options.public") },
     { value: 'hybrid', label: t("sustainable_lifestyle.options.hybrid") },
     { value: 'car', label: t("sustainable_lifestyle.options.car") }
   ];
 
-  const dietOptions = [
+  const dietOptions: ComboboxOption[] = [
     { value: 'vegan', label: t("sustainable_lifestyle.options.vegan") },
     { value: 'vegetarian', label: t("sustainable_lifestyle.options.vegetarian") },
     { value: 'flexitarian', label: t("sustainable_lifestyle.options.flexitarian") },
     { value: 'mixed', label: t("sustainable_lifestyle.options.mixed") }
   ];
 
-  const wasteOptions = [
+  const wasteOptions: ComboboxOption[] = [
     { value: 'zero', label: t("sustainable_lifestyle.options.zero") },
     { value: 'minimal', label: t("sustainable_lifestyle.options.minimal") },
     { value: 'sometimes', label: t("sustainable_lifestyle.options.sometimes") },
     { value: 'regular', label: t("sustainable_lifestyle.options.regular") }
   ];
 
-  const waterOptions = [
+  const waterOptions: ComboboxOption[] = [
     { value: 'minimal', label: t("sustainable_lifestyle.options.conservative") },
     { value: 'moderate', label: t("sustainable_lifestyle.options.moderate") },
     { value: 'high', label: t("sustainable_lifestyle.options.high") }
   ];
 
-  const shoppingOptions = [
+  const shoppingOptions: ComboboxOption[] = [
     { value: 'minimal', label: t("sustainable_lifestyle.options.sustainable") },
     { value: 'conscious', label: t("sustainable_lifestyle.options.conscious") },
     { value: 'regular', label: t("sustainable_lifestyle.options.regular") },
@@ -151,51 +152,27 @@ export default function SustainableLifestyleCalculator() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("sustainable_lifestyle.energy")} tooltip={t("sustainable_lifestyle.energy_tooltip")}>
-          <select value={energy} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setEnergy(e.target.value)} className="calculator-input w-full">
-            {energyOptions.map((opt: any) => (
-              <option key={opt.value} value={opt.value}>{opt.label}</option>
-            ))}
-          </select>
+          <Combobox options={energyOptions} value={energy} onChange={setEnergy} />
         </InputContainer>
 
         <InputContainer label={t("sustainable_lifestyle.transport")} tooltip={t("sustainable_lifestyle.transport_tooltip")}>
-          <select value={transport} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setTransport(e.target.value)} className="calculator-input w-full">
-            {transportOptions.map((opt: any) => (
-              <option key={opt.value} value={opt.value}>{opt.label}</option>
-            ))}
-          </select>
+          <Combobox options={transportOptions} value={transport} onChange={setTransport} />
         </InputContainer>
 
         <InputContainer label={t("sustainable_lifestyle.diet")} tooltip={t("sustainable_lifestyle.diet_tooltip")}>
-          <select value={diet} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setDiet(e.target.value)} className="calculator-input w-full">
-            {dietOptions.map((opt: any) => (
-              <option key={opt.value} value={opt.value}>{opt.label}</option>
-            ))}
-          </select>
+          <Combobox options={dietOptions} value={diet} onChange={setDiet} />
         </InputContainer>
 
         <InputContainer label={t("sustainable_lifestyle.waste")} tooltip={t("sustainable_lifestyle.waste_tooltip")}>
-          <select value={waste} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setWaste(e.target.value)} className="calculator-input w-full">
-            {wasteOptions.map((opt: any) => (
-              <option key={opt.value} value={opt.value}>{opt.label}</option>
-            ))}
-          </select>
+          <Combobox options={wasteOptions} value={waste} onChange={setWaste} />
         </InputContainer>
 
         <InputContainer label={t("sustainable_lifestyle.water")} tooltip={t("sustainable_lifestyle.water_tooltip")}>
-          <select value={water} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setWater(e.target.value)} className="calculator-input w-full">
-            {waterOptions.map((opt: any) => (
-              <option key={opt.value} value={opt.value}>{opt.label}</option>
-            ))}
-          </select>
+          <Combobox options={waterOptions} value={water} onChange={setWater} />
         </InputContainer>
 
         <InputContainer label={t("sustainable_lifestyle.shopping")} tooltip={t("sustainable_lifestyle.shopping_tooltip")}>
-          <select value={shopping} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setShopping(e.target.value)} className="calculator-input w-full">
-            {shoppingOptions.map((opt: any) => (
-              <option key={opt.value} value={opt.value}>{opt.label}</option>
-            ))}
-          </select>
+          <Combobox options={shoppingOptions} value={shopping} onChange={setShopping} />
         </InputContainer>
       </div>
 

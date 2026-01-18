@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function CompostingCalculator() {
   const { t } = useTranslation('calc/environmental');
@@ -21,7 +22,7 @@ export default function CompostingCalculator() {
     gardenBenefit: number;
   } | null>(null);
 
-  const methodOptions = [
+  const methodOptions: ComboboxOption[] = [
     { value: 'pile', label: t("composting.options.pile") },
     { value: 'bin', label: t("composting.options.bin") },
     { value: 'tumbler', label: t("composting.options.tumbler") },
@@ -101,11 +102,7 @@ export default function CompostingCalculator() {
         </InputContainer>
 
         <InputContainer label={t("composting.compost_method")} tooltip={t("composting.compost_method_tooltip")}>
-          <select value={compostMethod} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setCompostMethod(e.target.value)} className="calculator-input w-full">
-            {methodOptions.map((opt: any) => (
-              <option key={opt.value} value={opt.value}>{opt.label}</option>
-            ))}
-          </select>
+          <Combobox options={methodOptions} value={compostMethod} onChange={setCompostMethod} />
         </InputContainer>
       </div>
 

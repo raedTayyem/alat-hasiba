@@ -28,6 +28,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -204,15 +205,15 @@ export default function WindowCalculator() {
           label={t("window.unit")}
           tooltip={t("window.unit_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'mm', label: t("window.mm") },
+              { value: 'cm', label: t("window.cm") },
+              { value: 'inches', label: t("window.inches") }
+            ]}
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="mm">{t("window.mm")}</option>
-            <option value="cm">{t("window.cm")}</option>
-            <option value="inches">{t("window.inches")}</option>
-          </select>
+            onChange={setUnit}
+          />
         </InputContainer>
 
         {/* Frame Type */}
@@ -220,17 +221,17 @@ export default function WindowCalculator() {
           label={t("window.frame_type")}
           tooltip={t("window.frame_type_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'vinyl', label: t("window.frames.vinyl") },
+              { value: 'aluminum', label: t("window.frames.aluminum") },
+              { value: 'wood', label: t("window.frames.wood") },
+              { value: 'fiberglass', label: t("window.frames.fiberglass") },
+              { value: 'pvc', label: t("window.frames.pvc") }
+            ]}
             value={frameType}
-            onChange={(e) => setFrameType(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="vinyl">{t("window.frames.vinyl")}</option>
-            <option value="aluminum">{t("window.frames.aluminum")}</option>
-            <option value="wood">{t("window.frames.wood")}</option>
-            <option value="fiberglass">{t("window.frames.fiberglass")}</option>
-            <option value="pvc">{t("window.frames.pvc")}</option>
-          </select>
+            onChange={setFrameType}
+          />
         </InputContainer>
 
         {/* Opening Width */}

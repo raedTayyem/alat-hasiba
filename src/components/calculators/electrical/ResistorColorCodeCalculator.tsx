@@ -4,6 +4,7 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer from '@/components/ui/InputContainer';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function ResistorColorCodeCalculator() {
   const { t } = useTranslation(['calc/electrical', 'common']);
@@ -71,6 +72,26 @@ export default function ResistorColorCodeCalculator() {
 
   const result = calculateResistance();
 
+  const numBandsOptions: ComboboxOption[] = [
+    { value: '4', label: t("resistor_color_code.band_4") },
+    { value: '5', label: t("resistor_color_code.band_5") }
+  ];
+
+  const colorOptions: ComboboxOption[] = Object.entries(colorValues).map(([color]) => ({
+    value: color,
+    label: colorNames[color].ar
+  }));
+
+  const multiplierOptions: ComboboxOption[] = Object.entries(multipliers).map(([color]) => ({
+    value: color,
+    label: colorNames[color].ar
+  }));
+
+  const toleranceOptions: ComboboxOption[] = Object.entries(tolerances).map(([color]) => ({
+    value: color,
+    label: colorNames[color].ar
+  }));
+
   const inputSection = (
     <>
       <div className="calculator-section-title">
@@ -79,66 +100,51 @@ export default function ResistorColorCodeCalculator() {
 
       <div className="grid grid-cols-1 gap-4">
         <InputContainer label={t("resistor_color_code.num_bands")} tooltip={t("resistor_color_code.num_bands_tooltip")}>
-          <select
+          <Combobox
+            options={numBandsOptions}
             value={numBands}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setNumBands(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="4">{t("resistor_color_code.band_4")}</option>
-            <option value="5">{t("resistor_color_code.band_5")}</option>
-          </select>
+            onChange={setNumBands}
+          />
         </InputContainer>
 
         <InputContainer label={`${t("resistor_color_code.band")} 1`} tooltip={t("resistor_color_code.band")}>
-          <select
-            value={band1}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setBand1(e.target.value)}
-            className="calculator-input w-full"
-            style={{ borderRight: `8px solid ${colorNames[band1].hex}` }}
-          >
-            {Object.entries(colorValues).map(([color]) => (
-              <option key={color} value={color}>{colorNames[color].ar}</option>
-            ))}
-          </select>
+          <div style={{ borderRight: `8px solid ${colorNames[band1].hex}` }}>
+            <Combobox
+              options={colorOptions}
+              value={band1}
+              onChange={setBand1}
+            />
+          </div>
         </InputContainer>
 
         <InputContainer label={`${t("resistor_color_code.band")} 2`} tooltip={t("resistor_color_code.band")}>
-          <select
-            value={band2}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setBand2(e.target.value)}
-            className="calculator-input w-full"
-            style={{ borderRight: `8px solid ${colorNames[band2].hex}` }}
-          >
-            {Object.entries(colorValues).map(([color]) => (
-              <option key={color} value={color}>{colorNames[color].ar}</option>
-            ))}
-          </select>
+          <div style={{ borderRight: `8px solid ${colorNames[band2].hex}` }}>
+            <Combobox
+              options={colorOptions}
+              value={band2}
+              onChange={setBand2}
+            />
+          </div>
         </InputContainer>
 
         <InputContainer label={numBands === '4' ? t("resistor_color_code.multiplier") : `${t("resistor_color_code.band")} 3`} tooltip={t("resistor_color_code.band")}>
-          <select
-            value={band3}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setBand3(e.target.value)}
-            className="calculator-input w-full"
-            style={{ borderRight: `8px solid ${colorNames[band3].hex}` }}
-          >
-            {Object.entries(multipliers).map(([color]) => (
-              <option key={color} value={color}>{colorNames[color].ar}</option>
-            ))}
-          </select>
+          <div style={{ borderRight: `8px solid ${colorNames[band3].hex}` }}>
+            <Combobox
+              options={multiplierOptions}
+              value={band3}
+              onChange={setBand3}
+            />
+          </div>
         </InputContainer>
 
         <InputContainer label={t("resistor_color_code.tolerance")} tooltip={t("resistor_color_code.tolerance")}>
-          <select
-            value={band4}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setBand4(e.target.value)}
-            className="calculator-input w-full"
-            style={{ borderRight: `8px solid ${colorNames[band4].hex}` }}
-          >
-            {Object.entries(tolerances).map(([color]) => (
-              <option key={color} value={color}>{colorNames[color].ar}</option>
-            ))}
-          </select>
+          <div style={{ borderRight: `8px solid ${colorNames[band4].hex}` }}>
+            <Combobox
+              options={toleranceOptions}
+              value={band4}
+              onChange={setBand4}
+            />
+          </div>
         </InputContainer>
       </div>
     </>

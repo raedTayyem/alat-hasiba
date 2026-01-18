@@ -27,9 +27,11 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Pipette, Info, Ruler, Plus } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { NumberInput } from '@/components/ui/number-input';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -246,14 +248,14 @@ export default function PipeCalculator() {
           label={t("pipe.unit")}
           tooltip={t("pipe.unit_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'meters', label: t("pipe.meters") },
+              { value: 'feet', label: t("pipe.feet") }
+            ]}
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="meters">{t("pipe.meters")}</option>
-            <option value="feet">{t("pipe.feet")}</option>
-          </select>
+            onChange={setUnit}
+          />
         </InputContainer>
 
         {/* Pipe Diameter */}
@@ -261,22 +263,22 @@ export default function PipeCalculator() {
           label={t("pipe.pipe_diameter")}
           tooltip={t("pipe.pipe_diameter_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: '15mm', label: t("pipe.diameters.15mm") },
+              { value: '20mm', label: t("pipe.diameters.20mm") },
+              { value: '25mm', label: t("pipe.diameters.25mm") },
+              { value: '32mm', label: t("pipe.diameters.32mm") },
+              { value: '40mm', label: t("pipe.diameters.40mm") },
+              { value: '50mm', label: t("pipe.diameters.50mm") },
+              { value: '65mm', label: t("pipe.diameters.65mm") },
+              { value: '80mm', label: t("pipe.diameters.80mm") },
+              { value: '100mm', label: t("pipe.diameters.100mm") },
+              { value: '150mm', label: t("pipe.diameters.150mm") }
+            ]}
             value={pipeDiameter}
-            onChange={(e) => setPipeDiameter(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="15mm">{t("pipe.diameters.15mm")}</option>
-            <option value="20mm">{t("pipe.diameters.20mm")}</option>
-            <option value="25mm">{t("pipe.diameters.25mm")}</option>
-            <option value="32mm">{t("pipe.diameters.32mm")}</option>
-            <option value="40mm">{t("pipe.diameters.40mm")}</option>
-            <option value="50mm">{t("pipe.diameters.50mm")}</option>
-            <option value="65mm">{t("pipe.diameters.65mm")}</option>
-            <option value="80mm">{t("pipe.diameters.80mm")}</option>
-            <option value="100mm">{t("pipe.diameters.100mm")}</option>
-            <option value="150mm">{t("pipe.diameters.150mm")}</option>
-          </select>
+            onChange={setPipeDiameter}
+          />
         </InputContainer>
 
         {/* Fixture Count */}
@@ -284,10 +286,10 @@ export default function PipeCalculator() {
           label={t("pipe.fixture_count")}
           tooltip={t("pipe.fixture_count_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={fixtureCount}
-            onChange={(e) => {
-              setFixtureCount(e.target.value);
+            onValueChange={(val) => {
+              setFixtureCount(val.toString());
               if (error) setError('');
             }}
             placeholder={t("pipe.placeholders.fixtures")}
@@ -301,10 +303,10 @@ export default function PipeCalculator() {
           label={t("pipe.avg_distance")}
           tooltip={t("pipe.avg_distance_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={avgDistance}
-            onChange={(e) => {
-              setAvgDistance(e.target.value);
+            onValueChange={(val) => {
+              setAvgDistance(val.toString());
               if (error) setError('');
             }}
             placeholder={t("pipe.placeholders.distance")}
@@ -324,48 +326,44 @@ export default function PipeCalculator() {
             {/* 90° Elbows */}
             <div>
               <label className="text-sm text-foreground-70">{t("pipe.elbows_90")}</label>
-              <input
-                type="number"
+              <NumberInput
                 value={elbows90}
-                onChange={(e) => setElbows90(e.target.value)}
-                className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm"
+                onValueChange={(val) => setElbows90(val.toString())}
                 min={0}
+                step={1}
               />
             </div>
 
             {/* 45° Elbows */}
             <div>
               <label className="text-sm text-foreground-70">{t("pipe.elbows_45")}</label>
-              <input
-                type="number"
+              <NumberInput
                 value={elbows45}
-                onChange={(e) => setElbows45(e.target.value)}
-                className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm"
+                onValueChange={(val) => setElbows45(val.toString())}
                 min={0}
+                step={1}
               />
             </div>
 
             {/* Tees */}
             <div>
               <label className="text-sm text-foreground-70">{t("pipe.tees")}</label>
-              <input
-                type="number"
+              <NumberInput
                 value={tees}
-                onChange={(e) => setTees(e.target.value)}
-                className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm"
+                onValueChange={(val) => setTees(val.toString())}
                 min={0}
+                step={1}
               />
             </div>
 
             {/* Valves */}
             <div>
               <label className="text-sm text-foreground-70">{t("pipe.valves")}</label>
-              <input
-                type="number"
+              <NumberInput
                 value={valves}
-                onChange={(e) => setValves(e.target.value)}
-                className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm"
+                onValueChange={(val) => setValves(val.toString())}
                 min={0}
+                step={1}
               />
             </div>
           </div>
@@ -376,10 +374,10 @@ export default function PipeCalculator() {
           label={t("pipe.waste_factor")}
           tooltip={t("pipe.waste_factor_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={wasteFactor}
-            onChange={(e) => {
-              setWasteFactor(e.target.value);
+            onValueChange={(val) => {
+              setWasteFactor(val.toString());
               if (error) setError('');
             }}
             placeholder={t("pipe.placeholders.waste")}

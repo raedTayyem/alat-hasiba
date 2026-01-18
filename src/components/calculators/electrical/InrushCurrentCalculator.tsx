@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function InrushCurrentCalculator() {
   const { t } = useTranslation(['calc/electrical', 'common']);
@@ -69,21 +70,23 @@ export default function InrushCurrentCalculator() {
     setError('');
   };
 
+  const loadTypeOptions: ComboboxOption[] = [
+    { value: 'motor', label: t("inrush_current.motor") },
+    { value: 'transformer', label: t("inrush_current.transformer") },
+    { value: 'capacitor', label: t("inrush_current.capacitor") },
+    { value: 'led', label: t("inrush_current.led") },
+    { value: 'incandescent', label: t("inrush_current.incandescent") }
+  ];
+
   const inputSection = (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("inrush_current.load_type")} tooltip={t("inrush_current.load_type_tooltip")}>
-          <select
+          <Combobox
+            options={loadTypeOptions}
             value={loadType}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setLoadType(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="motor">{t("inrush_current.motor")}</option>
-            <option value="transformer">{t("inrush_current.transformer")}</option>
-            <option value="capacitor">{t("inrush_current.capacitor")}</option>
-            <option value="led">{t("inrush_current.led")}</option>
-            <option value="incandescent">{t("inrush_current.incandescent")}</option>
-          </select>
+            onChange={setLoadType}
+          />
         </InputContainer>
 
         <InputContainer label={t("inrush_current.rated_power")} tooltip={t("inrush_current.rated_power_tooltip")}>

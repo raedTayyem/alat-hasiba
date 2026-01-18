@@ -22,6 +22,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -198,14 +199,14 @@ export default function LandscapingCalculator() {
           label={t("landscaping.unit")}
           tooltip={t("landscaping.unit_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'imperial', label: t("landscaping.imperial") },
+              { value: 'metric', label: t("landscaping.metric") }
+            ]}
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="imperial">{t("landscaping.imperial")}</option>
-            <option value="metric">{t("landscaping.metric")}</option>
-          </select>
+            onChange={setUnit}
+          />
         </InputContainer>
 
         {/* Area */}

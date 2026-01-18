@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function MotorCalculator() {
   const { t } = useTranslation(['calc/electrical', 'common']);
@@ -69,18 +70,20 @@ export default function MotorCalculator() {
     setError('');
   };
 
+  const phaseTypeOptions: ComboboxOption[] = [
+    { value: 'single', label: t("motor.phase_single") },
+    { value: 'three', label: t("motor.phase_three") }
+  ];
+
   const inputSection = (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("motor.phase_type")} tooltip={t("motor.phase_tooltip")}>
-          <select
+          <Combobox
+            options={phaseTypeOptions}
             value={phaseType}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setPhaseType(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="single">{t("motor.phase_single")}</option>
-            <option value="three">{t("motor.phase_three")}</option>
-          </select>
+            onChange={setPhaseType}
+          />
         </InputContainer>
 
         <InputContainer label={t("motor.power")} tooltip={t("motor.power_tooltip")}>

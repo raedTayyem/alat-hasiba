@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 export default function PuppyGrowthCalculator() {
   const { t } = useTranslation('calc/pet');
@@ -119,16 +120,16 @@ export default function PuppyGrowthCalculator() {
           label={t("puppy-growth-calculator.breed_size")}
           tooltip={t("puppy-growth-calculator.size_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: "small", label: t("puppy-growth-calculator.size_small") },
+              { value: "medium", label: t("puppy-growth-calculator.size_medium") },
+              { value: "large", label: t("puppy-growth-calculator.size_large") },
+              { value: "giant", label: t("puppy-growth-calculator.size_giant") }
+            ]}
             value={breedSize}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setBreedSize(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="small">{t("puppy-growth-calculator.size_small")}</option>
-            <option value="medium">{t("puppy-growth-calculator.size_medium")}</option>
-            <option value="large">{t("puppy-growth-calculator.size_large")}</option>
-            <option value="giant">{t("puppy-growth-calculator.size_giant")}</option>
-          </select>
+            onChange={setBreedSize}
+          />
         </InputContainer>
       </div>
 

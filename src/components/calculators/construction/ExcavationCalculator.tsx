@@ -23,6 +23,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -203,14 +204,14 @@ export default function ExcavationCalculator() {
           label={t("excavation.unit")}
           tooltip={t("excavation.unit_tooltip")}
         >
-          <select
+          <Combobox
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="meters">{t("excavation.meters")}</option>
-            <option value="feet">{t("excavation.feet")}</option>
-          </select>
+            onChange={setUnit}
+            options={[
+              { value: 'meters', label: t("excavation.meters") },
+              { value: 'feet', label: t("excavation.feet") }
+            ]}
+          />
         </InputContainer>
 
         {/* Length */}
@@ -269,19 +270,19 @@ export default function ExcavationCalculator() {
           label={t("excavation.soil_type")}
           tooltip={t("excavation.soil_type_tooltip")}
         >
-          <select
+          <Combobox
             value={soilType}
-            onChange={(e) => setSoilType(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="sand">{t("excavation.soil_types.sand")}</option>
-            <option value="gravel">{t("excavation.soil_types.gravel")}</option>
-            <option value="loam">{t("excavation.soil_types.loam")}</option>
-            <option value="clay">{t("excavation.soil_types.clay")}</option>
-            <option value="rock">{t("excavation.soil_types.rock")}</option>
-            <option value="topsoil">{t("excavation.soil_types.topsoil")}</option>
-            <option value="custom">{t("excavation.soil_types.custom")}</option>
-          </select>
+            onChange={setSoilType}
+            options={[
+              { value: 'sand', label: t("excavation.soil_types.sand") },
+              { value: 'gravel', label: t("excavation.soil_types.gravel") },
+              { value: 'loam', label: t("excavation.soil_types.loam") },
+              { value: 'clay', label: t("excavation.soil_types.clay") },
+              { value: 'rock', label: t("excavation.soil_types.rock") },
+              { value: 'topsoil', label: t("excavation.soil_types.topsoil") },
+              { value: 'custom', label: t("excavation.soil_types.custom") }
+            ]}
+          />
         </InputContainer>
 
         {/* Custom Swell Factor */}

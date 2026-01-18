@@ -7,6 +7,7 @@ import InputContainer from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { initDateInputRTL } from '../../../utils/dateInputRTL';
+import { NumberInput } from '@/components/ui/number-input';
 
 interface RandomResult {
   number: number;
@@ -135,12 +136,6 @@ export default function RandomNumberGenerator() {
     }, 300);
   };
 
-  const handleKeyPress = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter') {
-      generate();
-    }
-  };
-
   const inputSection = (
     <>
       <div className="text-2xl font-bold mb-6 text-center">
@@ -152,17 +147,14 @@ export default function RandomNumberGenerator() {
           label={t("calc/misc:random_number_generator.min")}
           tooltip={t("calc/misc:random_number_generator.min_tooltip")}
         >
-          <input
-            type="number"
+          <NumberInput
             value={min}
-            onChange={(e) => {
-              setMin(e.target.value);
+            onValueChange={(val) => {
+              setMin(val.toString());
               if (error) setError('');
             }}
-            onKeyPress={handleKeyPress}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder={t("calc/misc:random_number_generator.min_placeholder")}
-            dir="ltr"
+            step={1}
           />
         </InputContainer>
 
@@ -170,17 +162,14 @@ export default function RandomNumberGenerator() {
           label={t("calc/misc:random_number_generator.max")}
           tooltip={t("calc/misc:random_number_generator.max_tooltip")}
         >
-          <input
-            type="number"
+          <NumberInput
             value={max}
-            onChange={(e) => {
-              setMax(e.target.value);
+            onValueChange={(val) => {
+              setMax(val.toString());
               if (error) setError('');
             }}
-            onKeyPress={handleKeyPress}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder={t("calc/misc:random_number_generator.max_placeholder")}
-            dir="ltr"
+            step={1}
           />
         </InputContainer>
 
@@ -188,19 +177,16 @@ export default function RandomNumberGenerator() {
           label={t("calc/misc:random_number_generator.count")}
           tooltip={t("calc/misc:random_number_generator.count_tooltip")}
         >
-          <input
-            type="number"
+          <NumberInput
             value={count}
-            onChange={(e) => {
-              setCount(e.target.value);
+            onValueChange={(val) => {
+              setCount(val.toString());
               if (error) setError('');
             }}
-            onKeyPress={handleKeyPress}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder={t("calc/misc:random_number_generator.count_placeholder")}
-            dir="ltr"
-            min="1"
-            max="10000"
+            min={1}
+            max={10000}
+            step={1}
           />
         </InputContainer>
 

@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 
 interface CyclingPowerResult {
   power: number;
@@ -95,40 +96,31 @@ export default function CyclingPowerCalculator() {
 
       <div className="max-w-md mx-auto space-y-4">
         <InputContainer label={t("calorie.inputs.weight")} tooltip={t("water.tooltips.weight")}>
-          <input
-            type="number"
+          <NumberInput
             value={weight}
-            onChange={(e) => setWeight(e.target.value)}
+            onValueChange={(val) => setWeight(String(val))}
             onKeyPress={(e) => e.key === 'Enter' && calculatePower()}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder={t("common.placeholders.enterValue")}
-            dir="ltr"
           />
         </InputContainer>
 
         <InputContainer label={t("cycling_power.inputs.speed_kmh")} tooltip={t("cycling_power.tooltips.speed")}>
-          <input
-            type="number"
+          <NumberInput
             value={speed}
-            onChange={(e) => setSpeed(e.target.value)}
+            onValueChange={(val) => setSpeed(String(val))}
             onKeyPress={(e) => e.key === 'Enter' && calculatePower()}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder={t("common.placeholders.enterValue")}
-            dir="ltr"
-            step="0.1"
+            step={0.1}
           />
         </InputContainer>
 
         <InputContainer label={t("cycling_power.inputs.gradient_percentage")} tooltip={t("cycling_power.tooltips.gradient")}>
-          <input
-            type="number"
+          <NumberInput
             value={gradient}
-            onChange={(e) => setGradient(e.target.value)}
+            onValueChange={(val) => setGradient(String(val))}
             onKeyPress={(e) => e.key === 'Enter' && calculatePower()}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder="0"
-            dir="ltr"
-            step="0.1"
+            step={0.1}
           />
         </InputContainer>
       </div>

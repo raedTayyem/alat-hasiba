@@ -7,6 +7,8 @@ import InputContainer from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { initDateInputRTL } from '../../../utils/dateInputRTL';
+import { NumberInput } from '@/components/ui/number-input';
+import { Combobox } from '@/components/ui/combobox';
 
 // Type definitions
 interface ProbabilityResult {
@@ -152,24 +154,6 @@ export default function ProbabilityCalculator() {
     }, 300);
   };
 
-  // Format number
-    // Event handlers
-  const handleNChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setN(e.target.value);
-    if (error) setError('');
-  };
-
-  const handleRChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setR(e.target.value);
-    if (error) setError('');
-  };
-
-  const handleKeyDown = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter') {
-      calculate();
-    }
-  };
-
   // Input section
   const inputSection = (
     <>
@@ -183,15 +167,15 @@ export default function ProbabilityCalculator() {
           label={t("probability_calculator.calculation_type")}
           tooltip={t("probability_calculator.calculation_type_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'combination', label: t("probability_calculator.combination") },
+              { value: 'permutation', label: t("probability_calculator.permutation") },
+              { value: 'factorial', label: t("probability_calculator.factorial") }
+            ]}
             value={calculationType}
-            onChange={(e) => setCalculationType(e.target.value as 'combination' | 'permutation' | 'factorial')}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="combination">{t("probability_calculator.combination")}</option>
-            <option value="permutation">{t("probability_calculator.permutation")}</option>
-            <option value="factorial">{t("probability_calculator.factorial")}</option>
-          </select>
+            onChange={(val) => setCalculationType(val as 'combination' | 'permutation' | 'factorial')}
+          />
         </InputContainer>
 
         {/* N Input */}
@@ -203,16 +187,15 @@ export default function ProbabilityCalculator() {
             ? t("probability_calculator.number_n_tooltip")
             : t("probability_calculator.total_items_n_tooltip")}
         >
-          <input
-            type="number"
+          <NumberInput
             value={n}
-            onChange={handleNChange}
-            onKeyDown={handleKeyDown}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
+            onValueChange={(val) => {
+              setN(val.toString());
+              if (error) setError('');
+            }}
             placeholder={calculationType === 'factorial' ? "5" : "10"}
-            dir="ltr"
-            min="0"
-            step="1"
+            min={0}
+            step={1}
           />
         </InputContainer>
 
@@ -222,16 +205,15 @@ export default function ProbabilityCalculator() {
             label={t("probability_calculator.selected_items_r")}
             tooltip={t("probability_calculator.selected_items_r_tooltip")}
           >
-            <input
-              type="number"
+            <NumberInput
               value={r}
-              onChange={handleRChange}
-              onKeyDown={handleKeyDown}
-              className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
+              onValueChange={(val) => {
+                setR(val.toString());
+                if (error) setError('');
+              }}
               placeholder="3"
-              dir="ltr"
-              min="0"
-              step="1"
+              min={0}
+              step={1}
             />
           </InputContainer>
         )}

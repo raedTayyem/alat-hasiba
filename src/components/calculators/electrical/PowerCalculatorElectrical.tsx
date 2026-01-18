@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function PowerCalculatorElectrical() {
   const { t } = useTranslation('calc/electrical');
@@ -71,18 +72,20 @@ export default function PowerCalculatorElectrical() {
     setError('');
   };
 
+  const phaseTypeOptions: ComboboxOption[] = [
+    { value: 'single', label: t("power_calc.single_phase") },
+    { value: 'three', label: t("power_calc.three_phase") }
+  ];
+
   const inputSection = (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("power_calc.phase")} tooltip={t("power_calc.phase_tooltip")}>
-          <select
+          <Combobox
+            options={phaseTypeOptions}
             value={phaseType}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setPhaseType(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="single">{t("power_calc.single_phase")}</option>
-            <option value="three">{t("power_calc.three_phase")}</option>
-          </select>
+            onChange={setPhaseType}
+          />
         </InputContainer>
 
         <InputContainer label={t("power_calc.voltage")} tooltip={t("power_calc.voltage")}>

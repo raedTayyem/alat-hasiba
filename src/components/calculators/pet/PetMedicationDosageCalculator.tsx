@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 export default function PetMedicationDosageCalculator() {
   const { t } = useTranslation('calc/pet');
@@ -108,30 +109,30 @@ export default function PetMedicationDosageCalculator() {
           label={t("pet-medication-dosage-calculator.administration_frequency")}
           tooltip={t("pet-medication-dosage-calculator.frequency_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: "6", label: t("pet-medication-dosage-calculator.frequency_6h") },
+              { value: "8", label: t("pet-medication-dosage-calculator.frequency_8h") },
+              { value: "12", label: t("pet-medication-dosage-calculator.frequency_12h") },
+              { value: "24", label: t("pet-medication-dosage-calculator.frequency_24h") }
+            ]}
             value={frequency}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setFrequency(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="6">{t("pet-medication-dosage-calculator.frequency_6h")}</option>
-            <option value="8">{t("pet-medication-dosage-calculator.frequency_8h")}</option>
-            <option value="12">{t("pet-medication-dosage-calculator.frequency_12h")}</option>
-            <option value="24">{t("pet-medication-dosage-calculator.frequency_24h")}</option>
-          </select>
+            onChange={setFrequency}
+          />
         </InputContainer>
 
         <InputContainer
           label={t("pet-medication-dosage-calculator.medication_form")}
           tooltip={t("pet-medication-dosage-calculator.form_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: "liquid", label: t("pet-medication-dosage-calculator.form_liquid") },
+              { value: "tablet", label: t("pet-medication-dosage-calculator.form_tablet") }
+            ]}
             value={medicationForm}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setMedicationForm(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="liquid">{t("pet-medication-dosage-calculator.form_liquid")}</option>
-            <option value="tablet">{t("pet-medication-dosage-calculator.form_tablet")}</option>
-          </select>
+            onChange={setMedicationForm}
+          />
         </InputContainer>
 
         {medicationForm === 'liquid' && (

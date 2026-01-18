@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function AntennaCalculator() {
   const { t } = useTranslation(['calc/electrical', 'common']);
@@ -53,6 +54,12 @@ export default function AntennaCalculator() {
     setError('');
   };
 
+  const antennaTypeOptions: ComboboxOption[] = [
+    { value: 'dipole', label: t("antenna.type_dipole") },
+    { value: 'monopole', label: t("antenna.type_monopole") },
+    { value: 'full', label: t("antenna.type_full") }
+  ];
+
   const inputSection = (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -68,15 +75,11 @@ export default function AntennaCalculator() {
         </InputContainer>
 
         <InputContainer label={t("antenna.type")} tooltip={t("antenna.type")}>
-          <select
+          <Combobox
+            options={antennaTypeOptions}
             value={antennaType}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setAntennaType(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="dipole">{t("antenna.type_dipole")}</option>
-            <option value="monopole">{t("antenna.type_monopole")}</option>
-            <option value="full">{t("antenna.type_full")}</option>
-          </select>
+            onChange={setAntennaType}
+          />
         </InputContainer>
       </div>
 

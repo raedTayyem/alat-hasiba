@@ -23,6 +23,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -201,14 +202,14 @@ export default function FenceCalculator() {
           label={t("fence.unit")}
           tooltip={t("fence.unit_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'meters', label: t("fence.meters") },
+              { value: 'feet', label: t("fence.feet") }
+            ]}
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="meters">{t("fence.meters")}</option>
-            <option value="feet">{t("fence.feet")}</option>
-          </select>
+            onChange={setUnit}
+          />
         </InputContainer>
 
         {/* Fence Length */}

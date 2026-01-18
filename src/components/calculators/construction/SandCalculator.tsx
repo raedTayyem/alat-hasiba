@@ -29,6 +29,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -194,14 +195,14 @@ export default function SandCalculator() {
           label={t("sand.unit")}
           tooltip={t("sand.unit_tooltip")}
         >
-          <select
+          <Combobox
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="meters">{t("sand.meters")}</option>
-            <option value="feet">{t("sand.feet")}</option>
-          </select>
+            onChange={setUnit}
+            options={[
+              { value: 'meters', label: t("sand.meters") },
+              { value: 'feet', label: t("sand.feet") }
+            ]}
+          />
         </InputContainer>
 
         {/* Sand Type */}
@@ -209,17 +210,17 @@ export default function SandCalculator() {
           label={t("sand.sand_type")}
           tooltip={t("sand.sand_type_tooltip")}
         >
-          <select
+          <Combobox
             value={sandType}
-            onChange={(e) => setSandType(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="dry_loose">{t("sand.types.dry_loose")}</option>
-            <option value="dry_compacted">{t("sand.types.dry_compacted")}</option>
-            <option value="wet">{t("sand.types.wet")}</option>
-            <option value="fine">{t("sand.types.fine")}</option>
-            <option value="coarse">{t("sand.types.coarse")}</option>
-          </select>
+            onChange={setSandType}
+            options={[
+              { value: 'dry_loose', label: t("sand.types.dry_loose") },
+              { value: 'dry_compacted', label: t("sand.types.dry_compacted") },
+              { value: 'wet', label: t("sand.types.wet") },
+              { value: 'fine', label: t("sand.types.fine") },
+              { value: 'coarse', label: t("sand.types.coarse") }
+            ]}
+          />
         </InputContainer>
 
         {/* Length */}

@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
+import { Combobox } from '@/components/ui/combobox';
 
 interface WHRResult {
   whr: number;
@@ -93,40 +95,34 @@ export default function WaistToHipRatioCalculator() {
 
       <div className="max-w-md mx-auto space-y-4">
         <InputContainer label={t("whr.inputs.waist")} tooltip={t("whr.tooltips.waist")}>
-          <input
-            type="number"
+          <NumberInput
             value={waist}
-            onChange={(e) => setWaist(e.target.value)}
+            onValueChange={(val) => setWaist(String(val))}
             onKeyPress={(e) => e.key === 'Enter' && calculateWHR()}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder="80"
-            dir="ltr"
-            step="0.1"
+            step={0.1}
           />
         </InputContainer>
 
         <InputContainer label={t("whr.inputs.hip")} tooltip={t("whr.tooltips.hip")}>
-          <input
-            type="number"
+          <NumberInput
             value={hip}
-            onChange={(e) => setHip(e.target.value)}
+            onValueChange={(val) => setHip(String(val))}
             onKeyPress={(e) => e.key === 'Enter' && calculateWHR()}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder="100"
-            dir="ltr"
-            step="0.1"
+            step={0.1}
           />
         </InputContainer>
 
         <InputContainer label={t("whr.inputs.gender")} tooltip={t("macro.tooltips.gender")}>
-          <select
+          <Combobox
+            options={[
+              { value: "male", label: t("body_fat.inputs.male") },
+              { value: "female", label: t("body_fat.inputs.female") }
+            ]}
             value={gender}
-            onChange={(e) => setGender(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="male">{t("body_fat.inputs.male")}</option>
-            <option value="female">{t("body_fat.inputs.female")}</option>
-          </select>
+            onChange={setGender}
+          />
         </InputContainer>
       </div>
 

@@ -22,6 +22,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -210,14 +211,14 @@ export default function PaintCalculator() {
           label={t("paint.unit")}
           tooltip={t("paint.unit_tooltip")}
         >
-          <select
+          <Combobox
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="sqft">{t("paint.sqft")}</option>
-            <option value="sqm">{t("paint.sqm")}</option>
-          </select>
+            onChange={setUnit}
+            options={[
+              { value: 'sqft', label: t("paint.sqft") },
+              { value: 'sqm', label: t("paint.sqm") }
+            ]}
+          />
         </InputContainer>
 
         {/* Wall Area */}
@@ -279,20 +280,20 @@ export default function PaintCalculator() {
           label={t("paint.paint_type")}
           tooltip={t("paint.paint_type_tooltip")}
         >
-          <select
+          <Combobox
             value={paintType}
-            onChange={(e) => setPaintType(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="standard">{t("paint.types.standard")}</option>
-            <option value="primer">{t("paint.types.primer")}</option>
-            <option value="exterior">{t("paint.types.exterior")}</option>
-            <option value="textured">{t("paint.types.textured")}</option>
-            <option value="high_gloss">{t("paint.types.high_gloss")}</option>
-            <option value="semi_gloss">{t("paint.types.semi_gloss")}</option>
-            <option value="flat_matte">{t("paint.types.flat_matte")}</option>
-            <option value="ceiling">{t("paint.types.ceiling")}</option>
-          </select>
+            onChange={setPaintType}
+            options={[
+              { value: 'standard', label: t("paint.types.standard") },
+              { value: 'primer', label: t("paint.types.primer") },
+              { value: 'exterior', label: t("paint.types.exterior") },
+              { value: 'textured', label: t("paint.types.textured") },
+              { value: 'high_gloss', label: t("paint.types.high_gloss") },
+              { value: 'semi_gloss', label: t("paint.types.semi_gloss") },
+              { value: 'flat_matte', label: t("paint.types.flat_matte") },
+              { value: 'ceiling', label: t("paint.types.ceiling") }
+            ]}
+          />
         </InputContainer>
 
         {/* Number of Coats */}

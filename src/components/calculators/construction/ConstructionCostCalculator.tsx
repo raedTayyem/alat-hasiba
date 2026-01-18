@@ -23,6 +23,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -267,16 +268,16 @@ export default function ConstructionCostCalculator() {
           label={t("construction_cost.inputs.construction_type")}
           tooltip={t("construction_cost.inputs.construction_type_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'economic', label: t("construction_cost.types.economic") },
+              { value: 'standard', label: t("construction_cost.types.standard") },
+              { value: 'luxury', label: t("construction_cost.types.luxury") },
+              { value: 'premium', label: t("construction_cost.types.premium") }
+            ]}
             value={constructionType}
-            onChange={(e) => setConstructionType(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="economic">{t("construction_cost.types.economic")}</option>
-            <option value="standard">{t("construction_cost.types.standard")}</option>
-            <option value="luxury">{t("construction_cost.types.luxury")}</option>
-            <option value="premium">{t("construction_cost.types.premium")}</option>
-          </select>
+            onChange={setConstructionType}
+          />
         </InputContainer>
 
         {/* Location Factor Selection */}
@@ -284,17 +285,17 @@ export default function ConstructionCostCalculator() {
           label={t("construction_cost.inputs.location")}
           tooltip={t("construction_cost.inputs.location_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'rural', label: t("construction_cost.locations.rural") },
+              { value: 'suburban', label: t("construction_cost.locations.suburban") },
+              { value: 'urban', label: t("construction_cost.locations.urban") },
+              { value: 'city_center', label: t("construction_cost.locations.city_center") },
+              { value: 'prime', label: t("construction_cost.locations.prime") }
+            ]}
             value={locationFactor}
-            onChange={(e) => setLocationFactor(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="rural">{t("construction_cost.locations.rural")}</option>
-            <option value="suburban">{t("construction_cost.locations.suburban")}</option>
-            <option value="urban">{t("construction_cost.locations.urban")}</option>
-            <option value="city_center">{t("construction_cost.locations.city_center")}</option>
-            <option value="prime">{t("construction_cost.locations.prime")}</option>
-          </select>
+            onChange={setLocationFactor}
+          />
         </InputContainer>
       </div>
 

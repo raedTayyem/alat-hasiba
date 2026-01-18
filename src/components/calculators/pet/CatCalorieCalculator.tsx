@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 export default function CatCalorieCalculator() {
   const { t } = useTranslation(['calc/pet', 'common']);
@@ -105,31 +106,31 @@ export default function CatCalorieCalculator() {
           label={t("cat_calorie_calculator.label_activity")}
           tooltip={t("cat_calorie_calculator.tooltip_activity")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: "sedentary", label: t("cat_calorie_calculator.activity_sedentary") },
+              { value: "light", label: t("cat_calorie_calculator.activity_light") },
+              { value: "moderate", label: t("cat_calorie_calculator.activity_moderate") },
+              { value: "active", label: t("cat_calorie_calculator.activity_active") }
+            ]}
             value={activityLevel}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setActivityLevel(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="sedentary">{t("cat_calorie_calculator.activity_sedentary")}</option>
-            <option value="light">{t("cat_calorie_calculator.activity_light")}</option>
-            <option value="moderate">{t("cat_calorie_calculator.activity_moderate")}</option>
-            <option value="active">{t("cat_calorie_calculator.activity_active")}</option>
-          </select>
+            onChange={setActivityLevel}
+          />
         </InputContainer>
 
         <InputContainer
           label={t("cat_calorie_calculator.label_condition")}
           tooltip={t("cat_calorie_calculator.tooltip_condition")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: "underweight", label: t("cat_calorie_calculator.condition_underweight") },
+              { value: "normal", label: t("cat_calorie_calculator.condition_normal") },
+              { value: "overweight", label: t("cat_calorie_calculator.condition_overweight") }
+            ]}
             value={condition}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setCondition(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="underweight">{t("cat_calorie_calculator.condition_underweight")}</option>
-            <option value="normal">{t("cat_calorie_calculator.condition_normal")}</option>
-            <option value="overweight">{t("cat_calorie_calculator.condition_overweight")}</option>
-          </select>
+            onChange={setCondition}
+          />
         </InputContainer>
 
         <InputContainer

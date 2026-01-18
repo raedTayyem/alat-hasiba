@@ -15,6 +15,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { NumberInput } from '@/components/ui/number-input';
 
 interface AnalyticGeometryResult {
   distance: number;
@@ -76,14 +77,8 @@ export default function AnalyticGeometryCalculator() {
     }, 300);
   };
 
-  const handleKeyPress = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter') {
-      calculate();
-    }
-  };
-
-  const handleInputChange = (setter: (value: string) => void) => (e: React.ChangeEvent<HTMLInputElement>) => {
-    setter(e.target.value);
+  const handleInputChange = (setter: (value: string) => void) => (value: string | number) => {
+    setter(String(value));
     if (error) setError('');
   };
 
@@ -92,53 +87,41 @@ export default function AnalyticGeometryCalculator() {
       <div className="max-w-md mx-auto space-y-4">
         <div className="grid grid-cols-2 gap-4">
           <InputContainer label={t("analytic_geometry_calculator.x1")} tooltip={t("analytic_geometry_calculator.x1_tooltip")}>
-            <input
-              type="number"
+            <NumberInput
               value={x1}
-              onChange={handleInputChange(setX1)}
-              onKeyPress={handleKeyPress}
+              onValueChange={handleInputChange(setX1)}
               className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
               placeholder={t("analytic_geometry_calculator.x1_placeholder")}
-              dir="ltr"
-              step="0.01"
+              step={0.01}
             />
           </InputContainer>
           <InputContainer label={t("analytic_geometry_calculator.y1")} tooltip={t("analytic_geometry_calculator.y1_tooltip")}>
-            <input
-              type="number"
+            <NumberInput
               value={y1}
-              onChange={handleInputChange(setY1)}
-              onKeyPress={handleKeyPress}
+              onValueChange={handleInputChange(setY1)}
               className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
               placeholder={t("analytic_geometry_calculator.y1_placeholder")}
-              dir="ltr"
-              step="0.01"
+              step={0.01}
             />
           </InputContainer>
         </div>
         <div className="grid grid-cols-2 gap-4">
           <InputContainer label={t("analytic_geometry_calculator.x2")} tooltip={t("analytic_geometry_calculator.x2_tooltip")}>
-            <input
-              type="number"
+            <NumberInput
               value={x2}
-              onChange={handleInputChange(setX2)}
-              onKeyPress={handleKeyPress}
+              onValueChange={handleInputChange(setX2)}
               className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
               placeholder={t("analytic_geometry_calculator.x2_placeholder")}
-              dir="ltr"
-              step="0.01"
+              step={0.01}
             />
           </InputContainer>
           <InputContainer label={t("analytic_geometry_calculator.y2")} tooltip={t("analytic_geometry_calculator.y2_tooltip")}>
-            <input
-              type="number"
+            <NumberInput
               value={y2}
-              onChange={handleInputChange(setY2)}
-              onKeyPress={handleKeyPress}
+              onValueChange={handleInputChange(setY2)}
               className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
               placeholder={t("analytic_geometry_calculator.y2_placeholder")}
-              dir="ltr"
-              step="0.01"
+              step={0.01}
             />
           </InputContainer>
         </div>

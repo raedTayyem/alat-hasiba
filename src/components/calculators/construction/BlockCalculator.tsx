@@ -21,6 +21,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -188,14 +189,14 @@ export default function BlockCalculator() {
           label={t("block.unit")}
           tooltip={t("block.unit_tooltip")}
         >
-          <select
+          <Combobox
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="meters">{t("block.meters")}</option>
-            <option value="feet">{t("block.feet")}</option>
-          </select>
+            onChange={setUnit}
+            options={[
+              { value: 'meters', label: t("block.meters") },
+              { value: 'feet', label: t("block.feet") }
+            ]}
+          />
         </InputContainer>
 
         {/* Block Size */}
@@ -203,17 +204,17 @@ export default function BlockCalculator() {
           label={t("block.block_size")}
           tooltip={t("block.block_size_tooltip")}
         >
-          <select
+          <Combobox
             value={blockSize}
-            onChange={(e) => setBlockSize(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="8x8x16">{t("block.sizes.8x8x16")}</option>
-            <option value="6x8x16">{t("block.sizes.6x8x16")}</option>
-            <option value="4x8x16">{t("block.sizes.4x8x16")}</option>
-            <option value="12x8x16">{t("block.sizes.12x8x16")}</option>
-            <option value="20x20x40">{t("block.sizes.20x20x40")}</option>
-          </select>
+            onChange={setBlockSize}
+            options={[
+              { value: '8x8x16', label: t("block.sizes.8x8x16") },
+              { value: '6x8x16', label: t("block.sizes.6x8x16") },
+              { value: '4x8x16', label: t("block.sizes.4x8x16") },
+              { value: '12x8x16', label: t("block.sizes.12x8x16") },
+              { value: '20x20x40', label: t("block.sizes.20x20x40") }
+            ]}
+          />
         </InputContainer>
 
         {/* Wall Length */}

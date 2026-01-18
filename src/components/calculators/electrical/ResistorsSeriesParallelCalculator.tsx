@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function ResistorsSeriesParallelCalculator() {
   const { t } = useTranslation(['calc/electrical', 'common']);
@@ -89,18 +90,20 @@ export default function ResistorsSeriesParallelCalculator() {
     setError('');
   };
 
+  const connectionTypeOptions: ComboboxOption[] = [
+    { value: 'series', label: t("resistors_parallel.series") },
+    { value: 'parallel', label: t("resistors_parallel.parallel") }
+  ];
+
   const inputSection = (
     <>
       <div className="grid grid-cols-1 gap-4">
         <InputContainer label={t("resistors_parallel.connection_type")} tooltip={t("resistors_parallel.connection_type_tooltip")}>
-          <select
+          <Combobox
+            options={connectionTypeOptions}
             value={connectionType}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setConnectionType(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="series">{t("resistors_parallel.series")}</option>
-            <option value="parallel">{t("resistors_parallel.parallel")}</option>
-          </select>
+            onChange={setConnectionType}
+          />
         </InputContainer>
 
         <InputContainer label={t("ohms_law.voltage")} tooltip={t("ohms_law.voltage")}>

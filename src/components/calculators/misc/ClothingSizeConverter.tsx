@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 import { initDateInputRTL } from '../../../utils/dateInputRTL';
 
 interface ClothingSizeResult {
@@ -152,6 +153,24 @@ export default function ClothingSizeConverter() {
     }
   };
 
+  const genderOptions = [
+    { value: 'men', label: t("calc/misc:clothing_size_converter.men") },
+    { value: 'women', label: t("calc/misc:clothing_size_converter.women") },
+  ];
+
+  const garmentTypeOptions = [
+    { value: 'shirts', label: t("calc/misc:clothing_size_converter.shirts") },
+    { value: 'pants', label: t("calc/misc:clothing_size_converter.pants") },
+    { value: 'dresses', label: t("calc/misc:clothing_size_converter.dresses") },
+  ];
+
+  const fromSystemOptions = [
+    { value: 'us', label: t("calc/misc:clothing_size_converter.us") },
+    { value: 'uk', label: t("calc/misc:clothing_size_converter.uk") },
+    { value: 'eu', label: t("calc/misc:clothing_size_converter.eu") },
+    { value: 'intl', label: t("calc/misc:clothing_size_converter.intl") },
+  ];
+
   const inputSection = (
     <>
       <div className="text-2xl font-bold mb-6 text-center">
@@ -163,35 +182,30 @@ export default function ClothingSizeConverter() {
           label={t("calc/misc:clothing_size_converter.gender")}
           tooltip={t("calc/misc:clothing_size_converter.gender_tooltip")}
         >
-          <select
+          <Combobox
+            options={genderOptions}
             value={gender}
-            onChange={(e) => {
-              setGender(e.target.value);
+            onChange={(val) => {
+              setGender(val);
               if (error) setError('');
             }}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="men">{t("calc/misc:clothing_size_converter.men")}</option>
-            <option value="women">{t("calc/misc:clothing_size_converter.women")}</option>
-          </select>
+            placeholder={t("calc/misc:clothing_size_converter.gender")}
+          />
         </InputContainer>
 
         <InputContainer
           label={t("calc/misc:clothing_size_converter.clothing_type")}
           tooltip={t("calc/misc:clothing_size_converter.clothing_type_tooltip")}
         >
-          <select
+          <Combobox
+            options={garmentTypeOptions}
             value={garmentType}
-            onChange={(e) => {
-              setGarmentType(e.target.value);
+            onChange={(val) => {
+              setGarmentType(val);
               if (error) setError('');
             }}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="shirts">{t("calc/misc:clothing_size_converter.shirts")}</option>
-            <option value="pants">{t("calc/misc:clothing_size_converter.pants")}</option>
-            <option value="dresses">{t("calc/misc:clothing_size_converter.dresses")}</option>
-          </select>
+            placeholder={t("calc/misc:clothing_size_converter.clothing_type")}
+          />
         </InputContainer>
 
         <InputContainer
@@ -216,19 +230,15 @@ export default function ClothingSizeConverter() {
           label={t("calc/misc:clothing_size_converter.from_system")}
           tooltip={t("calc/misc:clothing_size_converter.from_system_tooltip")}
         >
-          <select
+          <Combobox
+            options={fromSystemOptions}
             value={fromSystem}
-            onChange={(e) => {
-              setFromSystem(e.target.value);
+            onChange={(val) => {
+              setFromSystem(val);
               if (error) setError('');
             }}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="us">{t("calc/misc:clothing_size_converter.us")}</option>
-            <option value="uk">{t("calc/misc:clothing_size_converter.uk")}</option>
-            <option value="eu">{t("calc/misc:clothing_size_converter.eu")}</option>
-            <option value="intl">{t("calc/misc:clothing_size_converter.intl")}</option>
-          </select>
+            placeholder={t("calc/misc:clothing_size_converter.from_system")}
+          />
         </InputContainer>
       </div>
 

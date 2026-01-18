@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function VehicleEmissionsCalculator() {
   const { t } = useTranslation('calc/environmental');
@@ -19,7 +20,7 @@ export default function VehicleEmissionsCalculator() {
     treesNeeded: number;
   } | null>(null);
 
-  const fuelOptions = [
+  const fuelOptions: ComboboxOption[] = [
     { value: 'petrol', label: t("vehicle_emissions.options.petrol") },
     { value: 'diesel', label: t("vehicle_emissions.options.diesel") },
     { value: 'hybrid', label: t("vehicle_emissions.options.hybrid") },
@@ -84,17 +85,7 @@ export default function VehicleEmissionsCalculator() {
           label={t("vehicle_emissions.fuel_type")}
           tooltip={t("vehicle_emissions.fuel_type_tooltip")}
         >
-          <select
-            value={fuelType}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setFuelType(e.target.value)}
-            className="calculator-input w-full"
-          >
-            {fuelOptions.map((option) => (
-              <option key={option.value} value={option.value}>
-                {option.label}
-              </option>
-            ))}
-          </select>
+          <Combobox options={fuelOptions} value={fuelType} onChange={setFuelType} />
         </InputContainer>
 
         <InputContainer

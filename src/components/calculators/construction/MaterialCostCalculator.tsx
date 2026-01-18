@@ -23,6 +23,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -210,18 +211,18 @@ export default function MaterialCostCalculator() {
           label={t("material_cost.currency")}
           tooltip={t("material_cost.currency_tooltip")}
         >
-          <select
+          <Combobox
             value={currency}
-            onChange={(e) => setCurrency(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="USD">{t("material_cost.currencies.usd")}</option>
-            <option value="EUR">{t("material_cost.currencies.eur")}</option>
-            <option value="GBP">{t("material_cost.currencies.gbp")}</option>
-            <option value="SAR">{t("material_cost.currencies.sar")}</option>
-            <option value="AED">{t("material_cost.currencies.aed")}</option>
-            <option value="JOD">{t("material_cost.currencies.jod")}</option>
-          </select>
+            onChange={setCurrency}
+            options={[
+              { value: 'USD', label: t("material_cost.currencies.usd") },
+              { value: 'EUR', label: t("material_cost.currencies.eur") },
+              { value: 'GBP', label: t("material_cost.currencies.gbp") },
+              { value: 'SAR', label: t("material_cost.currencies.sar") },
+              { value: 'AED', label: t("material_cost.currencies.aed") },
+              { value: 'JOD', label: t("material_cost.currencies.jod") }
+            ]}
+          />
         </InputContainer>
 
         {/* Materials List */}

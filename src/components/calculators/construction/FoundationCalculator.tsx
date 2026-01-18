@@ -24,6 +24,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -276,20 +277,20 @@ export default function FoundationCalculator() {
           label={t("foundation.inputs.soil_type")}
           tooltip={t("foundation.inputs.soil_type_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'soft_clay', label: t("foundation.soil_types.soft_clay") },
+              { value: 'medium_clay', label: t("foundation.soil_types.medium_clay") },
+              { value: 'stiff_clay', label: t("foundation.soil_types.stiff_clay") },
+              { value: 'loose_sand', label: t("foundation.soil_types.loose_sand") },
+              { value: 'medium_sand', label: t("foundation.soil_types.medium_sand") },
+              { value: 'dense_sand', label: t("foundation.soil_types.dense_sand") },
+              { value: 'gravel', label: t("foundation.soil_types.gravel") },
+              { value: 'rock', label: t("foundation.soil_types.rock") }
+            ]}
             value={soilType}
-            onChange={(e) => setSoilType(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="soft_clay">{t("foundation.soil_types.soft_clay")}</option>
-            <option value="medium_clay">{t("foundation.soil_types.medium_clay")}</option>
-            <option value="stiff_clay">{t("foundation.soil_types.stiff_clay")}</option>
-            <option value="loose_sand">{t("foundation.soil_types.loose_sand")}</option>
-            <option value="medium_sand">{t("foundation.soil_types.medium_sand")}</option>
-            <option value="dense_sand">{t("foundation.soil_types.dense_sand")}</option>
-            <option value="gravel">{t("foundation.soil_types.gravel")}</option>
-            <option value="rock">{t("foundation.soil_types.rock")}</option>
-          </select>
+            onChange={setSoilType}
+          />
         </InputContainer>
 
         {/* Foundation Type Selection */}
@@ -297,15 +298,15 @@ export default function FoundationCalculator() {
           label={t("foundation.inputs.foundation_type")}
           tooltip={t("foundation.inputs.foundation_type_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'strip', label: t("foundation.foundation_types.strip") },
+              { value: 'raft', label: t("foundation.foundation_types.raft") },
+              { value: 'isolated', label: t("foundation.foundation_types.isolated") }
+            ]}
             value={foundationType}
-            onChange={(e) => setFoundationType(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="strip">{t("foundation.foundation_types.strip")}</option>
-            <option value="raft">{t("foundation.foundation_types.raft")}</option>
-            <option value="isolated">{t("foundation.foundation_types.isolated")}</option>
-          </select>
+            onChange={setFoundationType}
+          />
         </InputContainer>
       </div>
 

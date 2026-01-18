@@ -22,6 +22,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -199,14 +200,14 @@ export default function StringerCalculator() {
           label={t("stringer.unit")}
           tooltip={t("stringer.unit_tooltip")}
         >
-          <select
+          <Combobox
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="cm">{t("stringer.centimeters")}</option>
-            <option value="inches">{t("stringer.inches")}</option>
-          </select>
+            onChange={setUnit}
+            options={[
+              { value: 'cm', label: t("stringer.centimeters") },
+              { value: 'inches', label: t("stringer.inches") }
+            ]}
+          />
         </InputContainer>
 
         {/* Total Rise */}

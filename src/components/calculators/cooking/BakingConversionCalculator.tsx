@@ -147,46 +147,26 @@ export default function BakingConversionCalculator() {
   ];
 
   const ingredientOptions = [
-    {
-      label: t("baking-conversion.group_flour"),
-      options: [
-        { value: 'flour_all_purpose', label: t("baking-conversion.flour_all_purpose") },
-        { value: 'flour_bread', label: t("baking-conversion.flour_bread") },
-        { value: 'flour_cake', label: t("baking-conversion.flour_cake") },
-        { value: 'flour_whole_wheat', label: t("baking-conversion.flour_whole_wheat") },
-      ]
-    },
-    {
-      label: t("baking-conversion.group_sugar"),
-      options: [
-        { value: 'sugar_white', label: t("baking-conversion.sugar_white") },
-        { value: 'sugar_brown', label: t("baking-conversion.sugar_brown") },
-        { value: 'sugar_powdered', label: t("baking-conversion.sugar_powdered") },
-      ]
-    },
-    {
-      label: t("baking-conversion.group_fats"),
-      options: [
-        { value: 'butter', label: t("baking-conversion.butter") },
-        { value: 'oil', label: t("baking-conversion.oil") },
-      ]
-    },
-    {
-      label: t("baking-conversion.group_liquids"),
-      options: [
-        { value: 'milk', label: t("baking-conversion.milk") },
-        { value: 'water', label: t("baking-conversion.water") },
-        { value: 'honey', label: t("baking-conversion.honey") },
-      ]
-    },
-    {
-      label: t("baking-conversion.group_other"),
-      options: [
-        { value: 'cocoa_powder', label: t("baking-conversion.cocoa_powder") },
-        { value: 'nuts', label: t("baking-conversion.nuts") },
-        { value: 'oats', label: t("baking-conversion.oats") },
-      ]
-    }
+    // Flour group
+    { value: 'flour_all_purpose', label: `${t("baking-conversion.group_flour")}: ${t("baking-conversion.flour_all_purpose")}` },
+    { value: 'flour_bread', label: `${t("baking-conversion.group_flour")}: ${t("baking-conversion.flour_bread")}` },
+    { value: 'flour_cake', label: `${t("baking-conversion.group_flour")}: ${t("baking-conversion.flour_cake")}` },
+    { value: 'flour_whole_wheat', label: `${t("baking-conversion.group_flour")}: ${t("baking-conversion.flour_whole_wheat")}` },
+    // Sugar group
+    { value: 'sugar_white', label: `${t("baking-conversion.group_sugar")}: ${t("baking-conversion.sugar_white")}` },
+    { value: 'sugar_brown', label: `${t("baking-conversion.group_sugar")}: ${t("baking-conversion.sugar_brown")}` },
+    { value: 'sugar_powdered', label: `${t("baking-conversion.group_sugar")}: ${t("baking-conversion.sugar_powdered")}` },
+    // Fats group
+    { value: 'butter', label: `${t("baking-conversion.group_fats")}: ${t("baking-conversion.butter")}` },
+    { value: 'oil', label: `${t("baking-conversion.group_fats")}: ${t("baking-conversion.oil")}` },
+    // Liquids group
+    { value: 'milk', label: `${t("baking-conversion.group_liquids")}: ${t("baking-conversion.milk")}` },
+    { value: 'water', label: `${t("baking-conversion.group_liquids")}: ${t("baking-conversion.water")}` },
+    { value: 'honey', label: `${t("baking-conversion.group_liquids")}: ${t("baking-conversion.honey")}` },
+    // Other group
+    { value: 'cocoa_powder', label: `${t("baking-conversion.group_other")}: ${t("baking-conversion.cocoa_powder")}` },
+    { value: 'nuts', label: `${t("baking-conversion.group_other")}: ${t("baking-conversion.nuts")}` },
+    { value: 'oats', label: `${t("baking-conversion.group_other")}: ${t("baking-conversion.oats")}` },
   ];
 
   const inputSection = (
@@ -230,21 +210,12 @@ export default function BakingConversionCalculator() {
           label={t("baking-conversion.ingredient_label")}
           tooltip={t("baking-conversion.ingredient_tooltip")}
         >
-          <select
+          <Combobox
+            options={ingredientOptions}
             value={ingredient}
-            onChange={(e) => setIngredient(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm ring-offset-background placeholder:text-muted-foreground focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2 disabled:cursor-not-allowed disabled:opacity-50"
-          >
-            {ingredientOptions.map((group) => (
-              <optgroup key={group.label} label={group.label}>
-                {group.options.map((option) => (
-                  <option key={option.value} value={option.value}>
-                    {option.label}
-                  </option>
-                ))}
-              </optgroup>
-            ))}
-          </select>
+            onChange={(val) => setIngredient(val)}
+            placeholder={t("baking-conversion.ingredient_label")}
+          />
         </FormField>
       </div>
 

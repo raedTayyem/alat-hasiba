@@ -20,6 +20,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { NumberInput } from '@/components/ui/number-input';
 
 interface RectangleResult {
   area: number;
@@ -99,20 +100,14 @@ export default function RectangleCalculator() {
     }, 300);
   };
 
-  const handleLengthChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setLength(e.target.value);
+  const handleLengthChange = (value: string | number) => {
+    setLength(String(value));
     if (error) setError('');
   };
 
-  const handleWidthChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setWidth(e.target.value);
+  const handleWidthChange = (value: string | number) => {
+    setWidth(String(value));
     if (error) setError('');
-  };
-
-  const handleKeyPress = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter') {
-      calculate();
-    }
   };
 
   const inputSection = (
@@ -122,16 +117,13 @@ export default function RectangleCalculator() {
           label={t("rectangle_calculator.length")}
           tooltip={t("rectangle_calculator.length_tooltip")}
         >
-          <input
-            type="number"
+          <NumberInput
             value={length}
-            onChange={handleLengthChange}
-            onKeyPress={handleKeyPress}
+            onValueChange={handleLengthChange}
             className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder={t("rectangle_calculator.length_placeholder")}
-            dir="ltr"
-            step="0.01"
-            min="0"
+            step={0.01}
+            min={0}
           />
         </InputContainer>
 
@@ -139,16 +131,13 @@ export default function RectangleCalculator() {
           label={t("rectangle_calculator.width")}
           tooltip={t("rectangle_calculator.width_tooltip")}
         >
-          <input
-            type="number"
+          <NumberInput
             value={width}
-            onChange={handleWidthChange}
-            onKeyPress={handleKeyPress}
+            onValueChange={handleWidthChange}
             className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder={t("rectangle_calculator.width_placeholder")}
-            dir="ltr"
-            step="0.01"
-            min="0"
+            step={0.01}
+            min={0}
           />
         </InputContainer>
       </div>

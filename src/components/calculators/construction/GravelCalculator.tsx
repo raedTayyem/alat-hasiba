@@ -23,6 +23,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -225,14 +226,14 @@ export default function GravelCalculator() {
           label={t("gravel.unit")}
           tooltip={t("gravel.unit_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'meters', label: t("gravel.meters") },
+              { value: 'feet', label: t("gravel.feet") }
+            ]}
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="meters">{t("gravel.meters")}</option>
-            <option value="feet">{t("gravel.feet")}</option>
-          </select>
+            onChange={setUnit}
+          />
         </InputContainer>
 
         {/* Length */}
@@ -274,15 +275,15 @@ export default function GravelCalculator() {
           label={t("gravel.depth_unit")}
           tooltip={t("gravel.depth_unit_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'cm', label: t("gravel.centimeters") },
+              { value: 'inches', label: t("gravel.inches") },
+              { value: 'meters', label: t("gravel.meters") }
+            ]}
             value={depthUnit}
-            onChange={(e) => setDepthUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="cm">{t("gravel.centimeters")}</option>
-            <option value="inches">{t("gravel.inches")}</option>
-            <option value="meters">{t("gravel.meters")}</option>
-          </select>
+            onChange={setDepthUnit}
+          />
         </InputContainer>
 
         {/* Depth */}
@@ -307,22 +308,22 @@ export default function GravelCalculator() {
           label={t("gravel.material_type")}
           tooltip={t("gravel.material_type_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'pea_gravel', label: t("gravel.materials.pea_gravel") },
+              { value: 'crushed_stone', label: t("gravel.materials.crushed_stone") },
+              { value: 'river_rock', label: t("gravel.materials.river_rock") },
+              { value: 'limestone', label: t("gravel.materials.limestone") },
+              { value: 'granite', label: t("gravel.materials.granite") },
+              { value: 'slate', label: t("gravel.materials.slate") },
+              { value: 'decomposed_granite', label: t("gravel.materials.decomposed_granite") },
+              { value: 'lava_rock', label: t("gravel.materials.lava_rock") },
+              { value: 'marble_chips', label: t("gravel.materials.marble_chips") },
+              { value: 'custom', label: t("gravel.materials.custom") }
+            ]}
             value={materialType}
-            onChange={(e) => setMaterialType(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="pea_gravel">{t("gravel.materials.pea_gravel")}</option>
-            <option value="crushed_stone">{t("gravel.materials.crushed_stone")}</option>
-            <option value="river_rock">{t("gravel.materials.river_rock")}</option>
-            <option value="limestone">{t("gravel.materials.limestone")}</option>
-            <option value="granite">{t("gravel.materials.granite")}</option>
-            <option value="slate">{t("gravel.materials.slate")}</option>
-            <option value="decomposed_granite">{t("gravel.materials.decomposed_granite")}</option>
-            <option value="lava_rock">{t("gravel.materials.lava_rock")}</option>
-            <option value="marble_chips">{t("gravel.materials.marble_chips")}</option>
-            <option value="custom">{t("gravel.materials.custom")}</option>
-          </select>
+            onChange={setMaterialType}
+          />
         </InputContainer>
 
         {/* Custom Density */}

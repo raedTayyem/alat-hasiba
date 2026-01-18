@@ -22,6 +22,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -186,14 +187,14 @@ export default function DrywallCalculator() {
           label={t("drywall.unit")}
           tooltip={t("drywall.unit_tooltip")}
         >
-          <select
+          <Combobox
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="meters">{t("drywall.meters")}</option>
-            <option value="feet">{t("drywall.feet")}</option>
-          </select>
+            onChange={setUnit}
+            options={[
+              { value: 'meters', label: t("drywall.meters") },
+              { value: 'feet', label: t("drywall.feet") }
+            ]}
+          />
         </InputContainer>
 
         {/* Wall Area */}
@@ -219,16 +220,16 @@ export default function DrywallCalculator() {
           label={t("drywall.sheet_size")}
           tooltip={t("drywall.sheet_size_tooltip")}
         >
-          <select
+          <Combobox
             value={sheetSize}
-            onChange={(e) => setSheetSize(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="4x8">{t("drywall.sizes.4x8")}</option>
-            <option value="4x10">{t("drywall.sizes.4x10")}</option>
-            <option value="4x12">{t("drywall.sizes.4x12")}</option>
-            <option value="4x14">{t("drywall.sizes.4x14")}</option>
-          </select>
+            onChange={setSheetSize}
+            options={[
+              { value: '4x8', label: t("drywall.sizes.4x8") },
+              { value: '4x10', label: t("drywall.sizes.4x10") },
+              { value: '4x12', label: t("drywall.sizes.4x12") },
+              { value: '4x14', label: t("drywall.sizes.4x14") }
+            ]}
+          />
         </InputContainer>
 
         {/* Thickness */}
@@ -236,16 +237,16 @@ export default function DrywallCalculator() {
           label={t("drywall.thickness")}
           tooltip={t("drywall.thickness_tooltip")}
         >
-          <select
+          <Combobox
             value={thickness}
-            onChange={(e) => setThickness(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="0.25">{t("drywall.thickness_options.quarter")}</option>
-            <option value="0.375">{t("drywall.thickness_options.three_eighths")}</option>
-            <option value="0.5">{t("drywall.thickness_options.half")}</option>
-            <option value="0.625">{t("drywall.thickness_options.five_eighths")}</option>
-          </select>
+            onChange={setThickness}
+            options={[
+              { value: '0.25', label: t("drywall.thickness_options.quarter") },
+              { value: '0.375', label: t("drywall.thickness_options.three_eighths") },
+              { value: '0.5', label: t("drywall.thickness_options.half") },
+              { value: '0.625', label: t("drywall.thickness_options.five_eighths") }
+            ]}
+          />
         </InputContainer>
 
         {/* Waste Factor */}

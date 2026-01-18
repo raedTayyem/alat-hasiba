@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function PCBTraceWidthCalculator() {
   const { t } = useTranslation(['calc/electrical', 'common']);
@@ -67,6 +68,13 @@ export default function PCBTraceWidthCalculator() {
     setError('');
   };
 
+  const copperThicknessOptions: ComboboxOption[] = [
+    { value: '17', label: t("pcb_trace.options.thickness_label", { um: "17", oz: "0.5" }) },
+    { value: '35', label: t("pcb_trace.options.thickness_label", { um: "35", oz: "1" }) },
+    { value: '70', label: t("pcb_trace.options.thickness_label", { um: "70", oz: "2" }) },
+    { value: '105', label: t("pcb_trace.options.thickness_label", { um: "105", oz: "3" }) }
+  ];
+
   const inputSection = (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -93,16 +101,11 @@ export default function PCBTraceWidthCalculator() {
         </InputContainer>
 
         <InputContainer label={t("pcb_trace.inputs.thickness")} tooltip={t("pcb_trace.tooltips.thickness")}>
-          <select
+          <Combobox
+            options={copperThicknessOptions}
             value={copperThickness}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setCopperThickness(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="17">{t("pcb_trace.options.thickness_label", { um: "17", oz: "0.5" })}</option>
-            <option value="35">{t("pcb_trace.options.thickness_label", { um: "35", oz: "1" })}</option>
-            <option value="70">{t("pcb_trace.options.thickness_label", { um: "70", oz: "2" })}</option>
-            <option value="105">{t("pcb_trace.options.thickness_label", { um: "105", oz: "3" })}</option>
-          </select>
+            onChange={setCopperThickness}
+          />
         </InputContainer>
 
         <InputContainer label={t("pcb_trace.inputs.length")} tooltip={t("pcb_trace.tooltips.length")}>

@@ -16,6 +16,7 @@ import { NumberInput } from '@/components/ui/number-input';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { initDateInputRTL } from '../../../utils/dateInputRTL';
+import { Combobox } from '@/components/ui/combobox';
 
 interface CalculatorResult {
   annual: number;
@@ -194,20 +195,14 @@ export default function SalaryCalculator() {
           label={t("salary.inputs.pay_frequency")}
           tooltip={t("salary.inputs.pay_frequency_tooltip")}
         >
-          <select
+          <Combobox
+            options={frequencyOptions.map(opt => ({ value: opt.value, label: opt.label }))}
             value={payFrequency}
-            onChange={(e) => {
-              setPayFrequency(e.target.value as PayFrequency);
+            onChange={(val) => {
+              setPayFrequency(val as PayFrequency);
               if (error) setError('');
             }}
-            className="w-full h-14 rounded-2xl border-2 border-border bg-background px-4 text-lg font-medium focus:border-primary focus:ring-4 focus:ring-primary/10 transition-all duration-200"
-          >
-            {frequencyOptions.map((option) => (
-              <option key={option.value} value={option.value}>
-                {option.label}
-              </option>
-            ))}
-          </select>
+          />
         </FormField>
 
         <FormField

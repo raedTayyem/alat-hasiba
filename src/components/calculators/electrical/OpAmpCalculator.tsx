@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function OpAmpCalculator() {
   const { t } = useTranslation(['calc/electrical', 'common']);
@@ -62,18 +63,20 @@ export default function OpAmpCalculator() {
     setError('');
   };
 
+  const configOptions: ComboboxOption[] = [
+    { value: 'inverting', label: t("op_amp.inverting") },
+    { value: 'non-inverting', label: t("op_amp.non_inverting") }
+  ];
+
   const inputSection = (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("op_amp.config")} tooltip={t("op_amp.config_tooltip")}>
-          <select
+          <Combobox
+            options={configOptions}
             value={config}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setConfig(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="inverting">{t("op_amp.inverting")}</option>
-            <option value="non-inverting">{t("op_amp.non_inverting")}</option>
-          </select>
+            onChange={setConfig}
+          />
         </InputContainer>
 
         <InputContainer label={t("op_amp.input_voltage")} tooltip={t("op_amp.input_voltage_tooltip")}>

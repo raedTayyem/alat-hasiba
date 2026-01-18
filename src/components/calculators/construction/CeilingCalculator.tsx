@@ -23,6 +23,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -239,14 +240,14 @@ export default function CeilingCalculator() {
           label={t("ceiling.unit")}
           tooltip={t("ceiling.unit_tooltip")}
         >
-          <select
+          <Combobox
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="meters">{t("ceiling.meters")}</option>
-            <option value="feet">{t("ceiling.feet")}</option>
-          </select>
+            onChange={setUnit}
+            options={[
+              { value: 'meters', label: t("ceiling.meters") },
+              { value: 'feet', label: t("ceiling.feet") }
+            ]}
+          />
         </InputContainer>
 
         {/* Room Length */}
@@ -290,17 +291,17 @@ export default function CeilingCalculator() {
           label={t("ceiling.tile_size")}
           tooltip={t("ceiling.tile_size_tooltip")}
         >
-          <select
+          <Combobox
             value={tileSize}
-            onChange={(e) => setTileSize(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="2x2">{t("ceiling.sizes.2x2")}</option>
-            <option value="2x4">{t("ceiling.sizes.2x4")}</option>
-            <option value="600x600">{t("ceiling.sizes.600x600")}</option>
-            <option value="600x1200">{t("ceiling.sizes.600x1200")}</option>
-            <option value="custom">{t("ceiling.sizes.custom")}</option>
-          </select>
+            onChange={setTileSize}
+            options={[
+              { value: '2x2', label: t("ceiling.sizes.2x2") },
+              { value: '2x4', label: t("ceiling.sizes.2x4") },
+              { value: '600x600', label: t("ceiling.sizes.600x600") },
+              { value: '600x1200', label: t("ceiling.sizes.600x1200") },
+              { value: 'custom', label: t("ceiling.sizes.custom") }
+            ]}
+          />
         </InputContainer>
 
         {/* Custom Tile Dimensions */}

@@ -22,6 +22,8 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { NumberInput } from '@/components/ui/number-input';
+import { Combobox } from '@/components/ui/combobox';
 
 interface CircleResult {
   radius: number;
@@ -113,20 +115,14 @@ export default function CircleCalculator() {
     }, 300);
   };
 
-  const handleInputValueChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setInputValue(e.target.value);
+  const handleInputValueChange = (value: string | number) => {
+    setInputValue(String(value));
     if (error) setError('');
   };
 
-  const handleInputTypeChange = (e: React.ChangeEvent<HTMLSelectElement>) => {
-    setInputType(e.target.value as 'radius' | 'diameter' | 'circumference' | 'area');
+  const handleInputTypeChange = (val: string) => {
+    setInputType(val as 'radius' | 'diameter' | 'circumference' | 'area');
     if (error) setError('');
-  };
-
-  const handleKeyPress = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter') {
-      calculate();
-    }
   };
 
   const inputSection = (
@@ -136,32 +132,29 @@ export default function CircleCalculator() {
           label={t("circle_calculator.input_type")}
           tooltip={t("circle_calculator.input_type_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'radius', label: t("circle_calculator.radius") },
+              { value: 'diameter', label: t("circle_calculator.diameter") },
+              { value: 'circumference', label: t("circle_calculator.circumference") },
+              { value: 'area', label: t("circle_calculator.area") }
+            ]}
             value={inputType}
             onChange={handleInputTypeChange}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="radius">{t("circle_calculator.radius")}</option>
-            <option value="diameter">{t("circle_calculator.diameter")}</option>
-            <option value="circumference">{t("circle_calculator.circumference")}</option>
-            <option value="area">{t("circle_calculator.area")}</option>
-          </select>
+          />
         </InputContainer>
 
         <InputContainer
           label={t(`circle_calculator.${inputType}_label`)}
           tooltip={t(`circle_calculator.${inputType}_tooltip`)}
         >
-          <input
-            type="number"
+          <NumberInput
             value={inputValue}
-            onChange={handleInputValueChange}
-            onKeyPress={handleKeyPress}
+            onValueChange={handleInputValueChange}
             className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder={t(`circle_calculator.${inputType}_placeholder`)}
-            dir="ltr"
-            step="0.01"
-            min="0"
+            step={0.01}
+            min={0}
           />
         </InputContainer>
       </div>

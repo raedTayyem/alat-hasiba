@@ -24,6 +24,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -218,14 +219,14 @@ export default function StairCalculator() {
           label={t("stair.unit")}
           tooltip={t("stair.unit_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'cm', label: t("stair.centimeters") },
+              { value: 'inches', label: t("stair.inches") }
+            ]}
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="cm">{t("stair.centimeters")}</option>
-            <option value="inches">{t("stair.inches")}</option>
-          </select>
+            onChange={setUnit}
+          />
         </InputContainer>
 
         {/* Total Rise */}

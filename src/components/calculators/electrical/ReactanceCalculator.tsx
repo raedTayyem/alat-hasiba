@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function ReactanceCalculator() {
   const { t } = useTranslation(['calc/electrical', 'common']);
@@ -54,18 +55,20 @@ export default function ReactanceCalculator() {
     setError('');
   };
 
+  const reactanceTypeOptions: ComboboxOption[] = [
+    { value: 'inductive', label: t("reactance.inductive") },
+    { value: 'capacitive', label: t("reactance.capacitive") }
+  ];
+
   const inputSection = (
     <>
       <div className="grid grid-cols-1 gap-4">
         <InputContainer label={t("reactance.reactance_type")} tooltip={t("reactance.reactance_type_tooltip")}>
-          <select
+          <Combobox
+            options={reactanceTypeOptions}
             value={reactanceType}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setReactanceType(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="inductive">{t("reactance.inductive")}</option>
-            <option value="capacitive">{t("reactance.capacitive")}</option>
-          </select>
+            onChange={setReactanceType}
+          />
         </InputContainer>
 
         {reactanceType === 'inductive' ? (

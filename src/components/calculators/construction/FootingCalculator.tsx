@@ -21,6 +21,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -206,21 +207,21 @@ export default function FootingCalculator() {
           label={t("footing.soil_type")}
           tooltip={t("footing.soil_type_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'custom', label: t("footing.soil_types.custom") },
+              { value: 'soft_clay', label: t("footing.soil_types.soft_clay") },
+              { value: 'medium_clay', label: t("footing.soil_types.medium_clay") },
+              { value: 'stiff_clay', label: t("footing.soil_types.stiff_clay") },
+              { value: 'loose_sand', label: t("footing.soil_types.loose_sand") },
+              { value: 'medium_sand', label: t("footing.soil_types.medium_sand") },
+              { value: 'dense_sand', label: t("footing.soil_types.dense_sand") },
+              { value: 'gravel', label: t("footing.soil_types.gravel") },
+              { value: 'rock', label: t("footing.soil_types.rock") }
+            ]}
             value={soilType}
-            onChange={(e) => handleSoilTypeChange(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="custom">{t("footing.soil_types.custom")}</option>
-            <option value="soft_clay">{t("footing.soil_types.soft_clay")}</option>
-            <option value="medium_clay">{t("footing.soil_types.medium_clay")}</option>
-            <option value="stiff_clay">{t("footing.soil_types.stiff_clay")}</option>
-            <option value="loose_sand">{t("footing.soil_types.loose_sand")}</option>
-            <option value="medium_sand">{t("footing.soil_types.medium_sand")}</option>
-            <option value="dense_sand">{t("footing.soil_types.dense_sand")}</option>
-            <option value="gravel">{t("footing.soil_types.gravel")}</option>
-            <option value="rock">{t("footing.soil_types.rock")}</option>
-          </select>
+            onChange={handleSoilTypeChange}
+          />
         </InputContainer>
 
         {/* Soil Bearing Capacity */}

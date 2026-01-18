@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function Timer555Calculator() {
   const { t } = useTranslation('calc/electrical');
@@ -68,18 +69,20 @@ export default function Timer555Calculator() {
     setError('');
   };
 
+  const modeOptions: ComboboxOption[] = [
+    { value: 'astable', label: t("timer_555.astable") },
+    { value: 'monostable', label: t("timer_555.monostable") }
+  ];
+
   const inputSection = (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("timer_555.mode")} tooltip={t("timer_555.mode_tooltip")}>
-          <select
+          <Combobox
+            options={modeOptions}
             value={mode}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setMode(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="astable">{t("timer_555.astable")}</option>
-            <option value="monostable">{t("timer_555.monostable")}</option>
-          </select>
+            onChange={setMode}
+          />
         </InputContainer>
 
         <InputContainer label={t("timer_555.r1")} tooltip={t("timer_555.r1_tooltip")}>

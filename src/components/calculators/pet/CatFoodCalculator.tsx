@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 export default function CatFoodCalculator() {
   const { t } = useTranslation('calc/pet');
@@ -108,45 +109,45 @@ export default function CatFoodCalculator() {
           label={t("cat_food_calculator.label_activity")}
           tooltip={t("cat_food_calculator.tooltip_activity")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: "low", label: t("cat_food_calculator.activity_low") },
+              { value: "moderate", label: t("cat_food_calculator.activity_moderate") },
+              { value: "high", label: t("cat_food_calculator.activity_high") }
+            ]}
             value={activityLevel}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setActivityLevel(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="low">{t("cat_food_calculator.activity_low")}</option>
-            <option value="moderate">{t("cat_food_calculator.activity_moderate")}</option>
-            <option value="high">{t("cat_food_calculator.activity_high")}</option>
-          </select>
+            onChange={setActivityLevel}
+          />
         </InputContainer>
 
         <InputContainer
           label={t("cat_food_calculator.label_age")}
           tooltip={t("cat_food_calculator.tooltip_age")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: "kitten", label: t("cat_food_calculator.age_kitten") },
+              { value: "adult", label: t("cat_food_calculator.age_adult") },
+              { value: "senior", label: t("cat_food_calculator.age_senior") }
+            ]}
             value={age}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setAge(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="kitten">{t("cat_food_calculator.age_kitten")}</option>
-            <option value="adult">{t("cat_food_calculator.age_adult")}</option>
-            <option value="senior">{t("cat_food_calculator.age_senior")}</option>
-          </select>
+            onChange={setAge}
+          />
         </InputContainer>
 
         <InputContainer
           label={t("cat_food_calculator.label_food_type")}
           tooltip={t("cat_food_calculator.tooltip_food_type")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: "dry", label: t("cat_food_calculator.food_dry") },
+              { value: "wet", label: t("cat_food_calculator.food_wet") },
+              { value: "raw", label: t("cat_food_calculator.food_raw") }
+            ]}
             value={foodType}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setFoodType(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="dry">{t("cat_food_calculator.food_dry")}</option>
-            <option value="wet">{t("cat_food_calculator.food_wet")}</option>
-            <option value="raw">{t("cat_food_calculator.food_raw")}</option>
-          </select>
+            onChange={setFoodType}
+          />
         </InputContainer>
       </div>
 

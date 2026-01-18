@@ -13,6 +13,8 @@ import InputContainer from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { initDateInputRTL } from '../../../utils/dateInputRTL';
+import { NumberInput } from '@/components/ui/number-input';
+import { Combobox } from '@/components/ui/combobox';
 
 interface CalculatorResult {
   humanYears: number;
@@ -137,10 +139,6 @@ export default function DogAgeCalculator() {
     }, 300);
   };
 
-  const handleKeyPress = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter') calculate();
-  };
-
   const inputSection = (
     <>
       <div className="text-2xl font-bold mb-6 text-center">
@@ -152,20 +150,16 @@ export default function DogAgeCalculator() {
           label={t("dog_age_calculator.label_age")}
           tooltip={t("dog_age_calculator.tooltip_age")}
         >
-          <input
-            type="number"
+          <NumberInput
             value={dogAge}
-            onChange={(e) => {
-              setDogAge(e.target.value);
+            onValueChange={(value) => {
+              setDogAge(String(value));
               if (error) setError('');
             }}
-            onKeyPress={handleKeyPress}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder={t("dog_age_calculator.placeholder_age")}
-            dir="ltr"
-            step="0.1"
-            min="0"
-            max="30"
+            step={0.1}
+            min={0}
+            max={30}
           />
         </InputContainer>
 
@@ -173,16 +167,16 @@ export default function DogAgeCalculator() {
           label={t("dog_age_calculator.label_size")}
           tooltip={t("dog_age_calculator.tooltip_size")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'small', label: t("dog_age_calculator.size_small") },
+              { value: 'medium', label: t("dog_age_calculator.size_medium") },
+              { value: 'large', label: t("dog_age_calculator.size_large") },
+              { value: 'giant', label: t("dog_age_calculator.size_giant") }
+            ]}
             value={dogSize}
-            onChange={(e) => setDogSize(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="small">{t("dog_age_calculator.size_small")}</option>
-            <option value="medium">{t("dog_age_calculator.size_medium")}</option>
-            <option value="large">{t("dog_age_calculator.size_large")}</option>
-            <option value="giant">{t("dog_age_calculator.size_giant")}</option>
-          </select>
+            onChange={setDogSize}
+          />
         </InputContainer>
       </div>
 

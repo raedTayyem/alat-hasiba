@@ -23,6 +23,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -239,14 +240,14 @@ export default function RoofingCalculator() {
           label={t("roofing.unit")}
           tooltip={t("roofing.unit_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'feet', label: t("roofing.feet") },
+              { value: 'meters', label: t("roofing.meters") }
+            ]}
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="feet">{t("roofing.feet")}</option>
-            <option value="meters">{t("roofing.meters")}</option>
-          </select>
+            onChange={setUnit}
+          />
         </InputContainer>
 
         {/* Roof Length */}
@@ -288,16 +289,17 @@ export default function RoofingCalculator() {
           label={t("roofing.pitch")}
           tooltip={t("roofing.pitch_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              ...Object.keys(PITCH_FACTORS).map((p) => ({
+                value: p,
+                label: p
+              })),
+              { value: 'custom', label: t("roofing.custom_pitch") }
+            ]}
             value={pitch}
-            onChange={(e) => setPitch(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            {Object.keys(PITCH_FACTORS).map((p) => (
-              <option key={p} value={p}>{p}</option>
-            ))}
-            <option value="custom">{t("roofing.custom_pitch")}</option>
-          </select>
+            onChange={setPitch}
+          />
         </InputContainer>
 
         {/* Custom Pitch Inputs */}

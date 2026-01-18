@@ -29,6 +29,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -238,15 +239,15 @@ export default function DoorCalculator() {
           label={t("door.unit")}
           tooltip={t("door.unit_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'mm', label: t("door.mm") },
+              { value: 'cm', label: t("door.cm") },
+              { value: 'inches', label: t("door.inches") }
+            ]}
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="mm">{t("door.mm")}</option>
-            <option value="cm">{t("door.cm")}</option>
-            <option value="inches">{t("door.inches")}</option>
-          </select>
+            onChange={setUnit}
+          />
         </InputContainer>
 
         {/* Door Type */}
@@ -254,18 +255,18 @@ export default function DoorCalculator() {
           label={t("door.door_type")}
           tooltip={t("door.door_type_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'standard_interior', label: t("door.types.standard_interior") },
+              { value: 'standard_exterior', label: t("door.types.standard_exterior") },
+              { value: 'prehung', label: t("door.types.prehung") },
+              { value: 'pocket', label: t("door.types.pocket") },
+              { value: 'barn', label: t("door.types.barn") },
+              { value: 'french', label: t("door.types.french") }
+            ]}
             value={doorType}
-            onChange={(e) => setDoorType(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="standard_interior">{t("door.types.standard_interior")}</option>
-            <option value="standard_exterior">{t("door.types.standard_exterior")}</option>
-            <option value="prehung">{t("door.types.prehung")}</option>
-            <option value="pocket">{t("door.types.pocket")}</option>
-            <option value="barn">{t("door.types.barn")}</option>
-            <option value="french">{t("door.types.french")}</option>
-          </select>
+            onChange={setDoorType}
+          />
         </InputContainer>
 
         {/* Opening Width */}

@@ -23,6 +23,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -305,15 +306,11 @@ export default function MaterialConversionCalculator() {
           label={t("material-conversion.from_unit")}
           tooltip={t("material-conversion.from_unit_tooltip")}
         >
-          <select
+          <Combobox
+            options={Object.keys(units).map((unit) => ({ value: unit, label: unit }))}
             value={fromUnit}
-            onChange={(e) => setFromUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            {Object.keys(units).map((unit) => (
-              <option key={unit} value={unit}>{unit}</option>
-            ))}
-          </select>
+            onChange={setFromUnit}
+          />
         </InputContainer>
 
         {/* To Unit */}
@@ -321,15 +318,11 @@ export default function MaterialConversionCalculator() {
           label={t("material-conversion.to_unit")}
           tooltip={t("material-conversion.to_unit_tooltip")}
         >
-          <select
+          <Combobox
+            options={Object.keys(units).map((unit) => ({ value: unit, label: unit }))}
             value={toUnit}
-            onChange={(e) => setToUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            {Object.keys(units).map((unit) => (
-              <option key={unit} value={unit}>{unit}</option>
-            ))}
-          </select>
+            onChange={setToUnit}
+          />
         </InputContainer>
 
         {/* Material Selection (for weight mode) */}
@@ -338,15 +331,14 @@ export default function MaterialConversionCalculator() {
             label={t("material-conversion.material")}
             tooltip={t("material-conversion.material_tooltip")}
           >
-            <select
+            <Combobox
+              options={Object.entries(MATERIALS).map(([key, mat]) => ({
+                value: key,
+                label: `${t(`material-conversion.materials.${mat.name}`)} (${mat.density} kg/m³)`
+              }))}
               value={material}
-              onChange={(e) => setMaterial(e.target.value)}
-              className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-            >
-              {Object.entries(MATERIALS).map(([key, mat]) => (
-                <option key={key} value={key}>{t(`material-conversion.materials.${mat.name}`)} ({mat.density} kg/m³)</option>
-              ))}
-            </select>
+              onChange={setMaterial}
+            />
           </InputContainer>
         )}
       </div>

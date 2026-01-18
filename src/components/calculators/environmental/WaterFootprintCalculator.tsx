@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function WaterFootprintCalculator() {
   const { t } = useTranslation('calc/environmental');
@@ -20,7 +21,7 @@ export default function WaterFootprintCalculator() {
     breakdown: { [key: string]: number };
   } | null>(null);
 
-  const dietOptions = [
+  const dietOptions: ComboboxOption[] = [
     { value: 'vegan', label: t("sustainable_lifestyle.options.vegan") },
     { value: 'vegetarian', label: t("sustainable_lifestyle.options.vegetarian") },
     { value: 'mixed', label: t("sustainable_lifestyle.options.mixed") },
@@ -93,15 +94,7 @@ export default function WaterFootprintCalculator() {
           label={t("water_footprint.diet")}
           tooltip={t("water_footprint.diet_tooltip")}
         >
-          <select
-            value={diet}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setDiet(e.target.value)}
-            className="calculator-input w-full"
-          >
-            {dietOptions.map((opt: any) => (
-              <option key={opt.value} value={opt.value}>{opt.label}</option>
-            ))}
-          </select>
+          <Combobox options={dietOptions} value={diet} onChange={setDiet} />
         </InputContainer>
 
         <InputContainer

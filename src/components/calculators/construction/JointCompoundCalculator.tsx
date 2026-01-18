@@ -22,6 +22,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -198,14 +199,14 @@ export default function JointCompoundCalculator() {
           label={t("jointCompound.unit")}
           tooltip={t("jointCompound.unit_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'meters', label: t("jointCompound.meters") },
+              { value: 'feet', label: t("jointCompound.feet") }
+            ]}
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="meters">{t("jointCompound.meters")}</option>
-            <option value="feet">{t("jointCompound.feet")}</option>
-          </select>
+            onChange={setUnit}
+          />
         </InputContainer>
 
         {/* Number of Drywall Sheets */}
@@ -248,15 +249,15 @@ export default function JointCompoundCalculator() {
           label={t("jointCompound.number_of_coats")}
           tooltip={t("jointCompound.number_of_coats_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: '2', label: t("jointCompound.coats.two") },
+              { value: '3', label: t("jointCompound.coats.three") },
+              { value: '4', label: t("jointCompound.coats.four") }
+            ]}
             value={numberOfCoats}
-            onChange={(e) => setNumberOfCoats(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="2">{t("jointCompound.coats.two")}</option>
-            <option value="3">{t("jointCompound.coats.three")}</option>
-            <option value="4">{t("jointCompound.coats.four")}</option>
-          </select>
+            onChange={setNumberOfCoats}
+          />
         </InputContainer>
 
         {/* Compound Type */}
@@ -264,15 +265,15 @@ export default function JointCompoundCalculator() {
           label={t("jointCompound.compound_type")}
           tooltip={t("jointCompound.compound_type_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'all_purpose', label: t("jointCompound.types.all_purpose") },
+              { value: 'taping', label: t("jointCompound.types.taping") },
+              { value: 'topping', label: t("jointCompound.types.topping") }
+            ]}
             value={compoundType}
-            onChange={(e) => setCompoundType(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="all_purpose">{t("jointCompound.types.all_purpose")}</option>
-            <option value="taping">{t("jointCompound.types.taping")}</option>
-            <option value="topping">{t("jointCompound.types.topping")}</option>
-          </select>
+            onChange={setCompoundType}
+          />
         </InputContainer>
       </div>
 

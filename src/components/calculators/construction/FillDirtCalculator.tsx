@@ -23,6 +23,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -210,14 +211,14 @@ export default function FillDirtCalculator() {
           label={t("fill_dirt.unit")}
           tooltip={t("fill_dirt.unit_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'meters', label: t("fill_dirt.meters") },
+              { value: 'feet', label: t("fill_dirt.feet") }
+            ]}
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="meters">{t("fill_dirt.meters")}</option>
-            <option value="feet">{t("fill_dirt.feet")}</option>
-          </select>
+            onChange={setUnit}
+          />
         </InputContainer>
 
         {/* Length */}
@@ -276,17 +277,17 @@ export default function FillDirtCalculator() {
           label={t("fill_dirt.compaction_level")}
           tooltip={t("fill_dirt.compaction_level_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'light', label: t("fill_dirt.compaction_levels.light") },
+              { value: 'moderate', label: t("fill_dirt.compaction_levels.moderate") },
+              { value: 'heavy', label: t("fill_dirt.compaction_levels.heavy") },
+              { value: 'maximum', label: t("fill_dirt.compaction_levels.maximum") },
+              { value: 'custom', label: t("fill_dirt.compaction_levels.custom") }
+            ]}
             value={compactionLevel}
-            onChange={(e) => setCompactionLevel(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="light">{t("fill_dirt.compaction_levels.light")}</option>
-            <option value="moderate">{t("fill_dirt.compaction_levels.moderate")}</option>
-            <option value="heavy">{t("fill_dirt.compaction_levels.heavy")}</option>
-            <option value="maximum">{t("fill_dirt.compaction_levels.maximum")}</option>
-            <option value="custom">{t("fill_dirt.compaction_levels.custom")}</option>
-          </select>
+            onChange={setCompactionLevel}
+          />
         </InputContainer>
 
         {/* Custom Compaction Factor */}

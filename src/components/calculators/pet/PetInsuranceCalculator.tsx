@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 export default function PetInsuranceCalculator() {
   const { t } = useTranslation('calc/pet');
@@ -83,14 +84,14 @@ export default function PetInsuranceCalculator() {
           label={t("pet-insurance-calculator.pet_type")}
           tooltip={t("pet-insurance-calculator.pet_type_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: "dog", label: t("pet-insurance-calculator.pet_dog") },
+              { value: "cat", label: t("pet-insurance-calculator.pet_cat") }
+            ]}
             value={petType}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setPetType(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="dog">{t("pet-insurance-calculator.pet_dog")}</option>
-            <option value="cat">{t("pet-insurance-calculator.pet_cat")}</option>
-          </select>
+            onChange={setPetType}
+          />
         </InputContainer>
 
         <InputContainer
@@ -112,31 +113,31 @@ export default function PetInsuranceCalculator() {
           label={t("pet-insurance-calculator.coverage_level")}
           tooltip={t("pet-insurance-calculator.coverage_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: "basic", label: t("pet-insurance-calculator.coverage_basic") },
+              { value: "standard", label: t("pet-insurance-calculator.coverage_standard") },
+              { value: "premium", label: t("pet-insurance-calculator.coverage_premium") },
+              { value: "comprehensive", label: t("pet-insurance-calculator.coverage_comprehensive") }
+            ]}
             value={coverageLevel}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setCoverageLevel(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="basic">{t("pet-insurance-calculator.coverage_basic")}</option>
-            <option value="standard">{t("pet-insurance-calculator.coverage_standard")}</option>
-            <option value="premium">{t("pet-insurance-calculator.coverage_premium")}</option>
-            <option value="comprehensive">{t("pet-insurance-calculator.coverage_comprehensive")}</option>
-          </select>
+            onChange={setCoverageLevel}
+          />
         </InputContainer>
 
         <InputContainer
           label={t("pet-insurance-calculator.deductible")}
           tooltip={t("pet-insurance-calculator.deductible_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: "250", label: t("pet-insurance-calculator.deductible_250") },
+              { value: "500", label: t("pet-insurance-calculator.deductible_500") },
+              { value: "1000", label: t("pet-insurance-calculator.deductible_1000") }
+            ]}
             value={deductible}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setDeductible(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="250">{t("pet-insurance-calculator.deductible_250")}</option>
-            <option value="500">{t("pet-insurance-calculator.deductible_500")}</option>
-            <option value="1000">{t("pet-insurance-calculator.deductible_1000")}</option>
-          </select>
+            onChange={setDeductible}
+          />
         </InputContainer>
       </div>
 

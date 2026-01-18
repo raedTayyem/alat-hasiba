@@ -22,6 +22,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { NumberInput } from '@/components/ui/number-input';
 
 interface TriangleResult {
   area: number;
@@ -141,25 +142,19 @@ export default function TriangleCalculator() {
     }, 300);
   };
 
-  const handleSideAChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setSideA(e.target.value);
+  const handleSideAChange = (value: string | number) => {
+    setSideA(String(value));
     if (error) setError('');
   };
 
-  const handleSideBChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setSideB(e.target.value);
+  const handleSideBChange = (value: string | number) => {
+    setSideB(String(value));
     if (error) setError('');
   };
 
-  const handleSideCChange = (e: React.ChangeEvent<HTMLInputElement>) => {
-    setSideC(e.target.value);
+  const handleSideCChange = (value: string | number) => {
+    setSideC(String(value));
     if (error) setError('');
-  };
-
-  const handleKeyPress = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter') {
-      calculate();
-    }
   };
 
   const inputSection = (
@@ -169,16 +164,13 @@ export default function TriangleCalculator() {
           label={t("triangle_calculator.side_a")}
           tooltip={t("triangle_calculator.side_a_tooltip")}
         >
-          <input
-            type="number"
+          <NumberInput
             value={sideA}
-            onChange={handleSideAChange}
-            onKeyPress={handleKeyPress}
+            onValueChange={handleSideAChange}
             className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder={t("triangle_calculator.side_a_placeholder")}
-            dir="ltr"
-            step="0.01"
-            min="0"
+            step={0.01}
+            min={0}
           />
         </InputContainer>
 
@@ -186,16 +178,13 @@ export default function TriangleCalculator() {
           label={t("triangle_calculator.side_b")}
           tooltip={t("triangle_calculator.side_b_tooltip")}
         >
-          <input
-            type="number"
+          <NumberInput
             value={sideB}
-            onChange={handleSideBChange}
-            onKeyPress={handleKeyPress}
+            onValueChange={handleSideBChange}
             className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder={t("triangle_calculator.side_b_placeholder")}
-            dir="ltr"
-            step="0.01"
-            min="0"
+            step={0.01}
+            min={0}
           />
         </InputContainer>
 
@@ -203,16 +192,13 @@ export default function TriangleCalculator() {
           label={t("triangle_calculator.side_c")}
           tooltip={t("triangle_calculator.side_c_tooltip")}
         >
-          <input
-            type="number"
+          <NumberInput
             value={sideC}
-            onChange={handleSideCChange}
-            onKeyPress={handleKeyPress}
+            onValueChange={handleSideCChange}
             className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder={t("triangle_calculator.side_c_placeholder")}
-            dir="ltr"
-            step="0.01"
-            min="0"
+            step={0.01}
+            min={0}
           />
         </InputContainer>
       </div>

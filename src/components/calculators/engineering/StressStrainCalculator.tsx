@@ -22,6 +22,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -418,17 +419,14 @@ export default function StressStrainCalculator() {
             label={t("stress_strain.material")}
             tooltip={t("stress_strain.material_tooltip")}
           >
-            <select
+            <Combobox
+              options={Object.entries(COMMON_MATERIALS).map(([key, value]) => ({
+                value: key,
+                label: `${key.charAt(0).toUpperCase() + key.slice(1)} (${(value / 1e9).toFixed(0)} GPa)`
+              }))}
               value={selectedMaterial}
-              onChange={(e) => setSelectedMaterial(e.target.value)}
-              className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-            >
-              {Object.entries(COMMON_MATERIALS).map(([key, value]) => (
-                <option key={key} value={key}>
-                  {key.charAt(0).toUpperCase() + key.slice(1)} ({(value / 1e9).toFixed(0)} GPa)
-                </option>
-              ))}
-            </select>
+              onChange={setSelectedMaterial}
+            />
           </InputContainer>
         )}
       </div>

@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function WireGaugeCalculator() {
   const { t } = useTranslation('calc/electrical');
@@ -75,6 +76,17 @@ export default function WireGaugeCalculator() {
     setError('');
   };
 
+  const voltageSystemOptions: ComboboxOption[] = [
+    { value: '110', label: `110 ${t("ohms_law.unit_voltage")}` },
+    { value: '220', label: `220 ${t("ohms_law.unit_voltage")}` },
+    { value: '380', label: `380 ${t("ohms_law.unit_voltage")}` }
+  ];
+
+  const materialOptions: ComboboxOption[] = [
+    { value: 'copper', label: t("wire_gauge.material_copper") },
+    { value: 'aluminum', label: t("wire_gauge.material_aluminum") }
+  ];
+
   const inputSection = (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -101,26 +113,19 @@ export default function WireGaugeCalculator() {
         </InputContainer>
 
         <InputContainer label={t("wire_gauge.voltage")} tooltip={t("wire_gauge.voltage")}>
-          <select
+          <Combobox
+            options={voltageSystemOptions}
             value={voltageSystem}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setVoltageSystem(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="110">110 {t("ohms_law.unit_voltage")}</option>
-            <option value="220">220 {t("ohms_law.unit_voltage")}</option>
-            <option value="380">380 {t("ohms_law.unit_voltage")}</option>
-          </select>
+            onChange={setVoltageSystem}
+          />
         </InputContainer>
 
         <InputContainer label={t("wire_gauge.material")} tooltip={t("wire_gauge.material")}>
-          <select
+          <Combobox
+            options={materialOptions}
             value={material}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setMaterial(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="copper">{t("wire_gauge.material_copper")}</option>
-            <option value="aluminum">{t("wire_gauge.material_aluminum")}</option>
-          </select>
+            onChange={setMaterial}
+          />
         </InputContainer>
       </div>
 

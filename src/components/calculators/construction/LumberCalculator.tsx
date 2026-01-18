@@ -22,6 +22,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -216,16 +217,16 @@ export default function LumberCalculator() {
           label={t("lumber.unit")}
           tooltip={t("lumber.unit_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'inches', label: t("lumber.inches") },
+              { value: 'feet', label: t("lumber.feet") },
+              { value: 'cm', label: t("lumber.cm") },
+              { value: 'meters', label: t("lumber.meters") }
+            ]}
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="inches">{t("lumber.inches")}</option>
-            <option value="feet">{t("lumber.feet")}</option>
-            <option value="cm">{t("lumber.cm")}</option>
-            <option value="meters">{t("lumber.meters")}</option>
-          </select>
+            onChange={setUnit}
+          />
         </InputContainer>
 
         {/* Lumber Size */}
@@ -233,24 +234,24 @@ export default function LumberCalculator() {
           label={t("lumber.lumber_size")}
           tooltip={t("lumber.lumber_size_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: '2x4', label: t("lumber.sizes.2x4") },
+              { value: '2x6', label: t("lumber.sizes.2x6") },
+              { value: '2x8', label: t("lumber.sizes.2x8") },
+              { value: '2x10', label: t("lumber.sizes.2x10") },
+              { value: '2x12', label: t("lumber.sizes.2x12") },
+              { value: '4x4', label: t("lumber.sizes.4x4") },
+              { value: '4x6', label: t("lumber.sizes.4x6") },
+              { value: '1x4', label: t("lumber.sizes.1x4") },
+              { value: '1x6', label: t("lumber.sizes.1x6") },
+              { value: '1x8', label: t("lumber.sizes.1x8") },
+              { value: '1x12', label: t("lumber.sizes.1x12") },
+              { value: 'custom', label: t("lumber.sizes.custom") }
+            ]}
             value={lumberSize}
-            onChange={(e) => setLumberSize(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="2x4">{t("lumber.sizes.2x4")}</option>
-            <option value="2x6">{t("lumber.sizes.2x6")}</option>
-            <option value="2x8">{t("lumber.sizes.2x8")}</option>
-            <option value="2x10">{t("lumber.sizes.2x10")}</option>
-            <option value="2x12">{t("lumber.sizes.2x12")}</option>
-            <option value="4x4">{t("lumber.sizes.4x4")}</option>
-            <option value="4x6">{t("lumber.sizes.4x6")}</option>
-            <option value="1x4">{t("lumber.sizes.1x4")}</option>
-            <option value="1x6">{t("lumber.sizes.1x6")}</option>
-            <option value="1x8">{t("lumber.sizes.1x8")}</option>
-            <option value="1x12">{t("lumber.sizes.1x12")}</option>
-            <option value="custom">{t("lumber.sizes.custom")}</option>
-          </select>
+            onChange={setLumberSize}
+          />
         </InputContainer>
 
         {/* Custom Dimensions (shown when custom is selected) */}

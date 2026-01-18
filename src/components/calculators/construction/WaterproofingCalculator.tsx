@@ -21,6 +21,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -196,14 +197,14 @@ export default function WaterproofingCalculator() {
           label={t("waterproofing.unit")}
           tooltip={t("waterproofing.unit_tooltip")}
         >
-          <select
+          <Combobox
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="meters">{t("waterproofing.meters")}</option>
-            <option value="feet">{t("waterproofing.feet")}</option>
-          </select>
+            onChange={setUnit}
+            options={[
+              { value: 'meters', label: t("waterproofing.meters") },
+              { value: 'feet', label: t("waterproofing.feet") }
+            ]}
+          />
         </InputContainer>
 
         {/* Membrane Type */}
@@ -211,17 +212,17 @@ export default function WaterproofingCalculator() {
           label={t("waterproofing.membrane_type")}
           tooltip={t("waterproofing.membrane_type_tooltip")}
         >
-          <select
+          <Combobox
             value={membraneType}
-            onChange={(e) => setMembraneType(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="bituminous">{t("waterproofing.types.bituminous")}</option>
-            <option value="pvc">{t("waterproofing.types.pvc")}</option>
-            <option value="epdm">{t("waterproofing.types.epdm")}</option>
-            <option value="tpo">{t("waterproofing.types.tpo")}</option>
-            <option value="liquid">{t("waterproofing.types.liquid")}</option>
-          </select>
+            onChange={setMembraneType}
+            options={[
+              { value: 'bituminous', label: t("waterproofing.types.bituminous") },
+              { value: 'pvc', label: t("waterproofing.types.pvc") },
+              { value: 'epdm', label: t("waterproofing.types.epdm") },
+              { value: 'tpo', label: t("waterproofing.types.tpo") },
+              { value: 'liquid', label: t("waterproofing.types.liquid") }
+            ]}
+          />
         </InputContainer>
 
         {/* Length */}

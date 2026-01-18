@@ -20,6 +20,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { NumberInput } from '@/components/ui/number-input';
 
 interface ParallelogramResult {
   area: number;
@@ -92,54 +93,40 @@ export default function ParallelogramCalculator() {
     }, 300);
   };
 
-  const handleKeyPress = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter') {
-      calculate();
-    }
-  };
 
   const inputSection = (
     <>
       <div className="max-w-md mx-auto space-y-4">
         <InputContainer label={t("parallelogram_calculator.base")} tooltip={t("parallelogram_calculator.base_tooltip")}>
-          <input
-            type="number"
+          <NumberInput
             value={base}
-            onChange={(e) => { setBase(e.target.value); if (error) setError(''); }}
-            onKeyPress={handleKeyPress}
+            onValueChange={(value) => { setBase(String(value)); if (error) setError(''); }}
             className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder={t("parallelogram_calculator.base_placeholder")}
-            dir="ltr"
-            step="0.01"
-            min="0"
+            step={0.01}
+            min={0}
           />
         </InputContainer>
 
         <InputContainer label={t("parallelogram_calculator.side")} tooltip={t("parallelogram_calculator.side_tooltip")}>
-          <input
-            type="number"
+          <NumberInput
             value={side}
-            onChange={(e) => { setSide(e.target.value); if (error) setError(''); }}
-            onKeyPress={handleKeyPress}
+            onValueChange={(value) => { setSide(String(value)); if (error) setError(''); }}
             className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder={t("parallelogram_calculator.side_placeholder")}
-            dir="ltr"
-            step="0.01"
-            min="0"
+            step={0.01}
+            min={0}
           />
         </InputContainer>
 
         <InputContainer label={t("parallelogram_calculator.height")} tooltip={t("parallelogram_calculator.height_tooltip")}>
-          <input
-            type="number"
+          <NumberInput
             value={height}
-            onChange={(e) => { setHeight(e.target.value); if (error) setError(''); }}
-            onKeyPress={handleKeyPress}
+            onValueChange={(value) => { setHeight(String(value)); if (error) setError(''); }}
             className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder={t("parallelogram_calculator.height_placeholder")}
-            dir="ltr"
-            step="0.01"
-            min="0"
+            step={0.01}
+            min={0}
           />
         </InputContainer>
       </div>

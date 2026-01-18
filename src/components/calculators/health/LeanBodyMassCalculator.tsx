@@ -4,6 +4,7 @@ import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 
 interface LBMResult {
   lbm: number;
@@ -73,29 +74,23 @@ export default function LeanBodyMassCalculator() {
 
       <div className="max-w-md mx-auto space-y-4">
         <InputContainer label={t("calorie.inputs.weight")} tooltip={t("lbm.tooltips.weight")}>
-          <input
-            type="number"
+          <NumberInput
             value={weight}
-            onChange={(e) => setWeight(e.target.value)}
+            onValueChange={(val) => setWeight(String(val))}
             onKeyPress={(e) => e.key === 'Enter' && calculateLBM()}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder={t("common.placeholders.enterValue")}
-            dir="ltr"
           />
         </InputContainer>
 
         <InputContainer label={t("lbm.inputs.body_fat")} tooltip={t("lbm.tooltips.body_fat")}>
-          <input
-            type="number"
+          <NumberInput
             value={bodyFat}
-            onChange={(e) => setBodyFat(e.target.value)}
+            onValueChange={(val) => setBodyFat(String(val))}
             onKeyPress={(e) => e.key === 'Enter' && calculateLBM()}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder={t("common.placeholders.enterValue")}
-            dir="ltr"
-            step="0.1"
-            min="0"
-            max="100"
+            step={0.1}
+            min={0}
+            max={100}
           />
         </InputContainer>
       </div>

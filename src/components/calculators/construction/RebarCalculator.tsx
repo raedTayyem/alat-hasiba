@@ -23,6 +23,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -217,14 +218,14 @@ export default function RebarCalculator() {
           label={t("rebar.unit")}
           tooltip={t("rebar.unit_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'meters', label: t("rebar.meters") },
+              { value: 'feet', label: t("rebar.feet") }
+            ]}
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="meters">{t("rebar.meters")}</option>
-            <option value="feet">{t("rebar.feet")}</option>
-          </select>
+            onChange={setUnit}
+          />
         </InputContainer>
 
         {/* Slab Length */}
@@ -287,17 +288,14 @@ export default function RebarCalculator() {
           label={t("rebar.bar_size")}
           tooltip={t("rebar.bar_size_tooltip")}
         >
-          <select
+          <Combobox
+            options={Object.entries(REBAR_SIZES).map(([key, data]) => ({
+              value: key,
+              label: `${data.name} - ${data.weightPerMeter} kg/m`
+            }))}
             value={barSize}
-            onChange={(e) => setBarSize(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            {Object.entries(REBAR_SIZES).map(([key, data]) => (
-              <option key={key} value={key}>
-                {data.name} - {data.weightPerMeter} kg/m
-              </option>
-            ))}
-          </select>
+            onChange={setBarSize}
+          />
         </InputContainer>
       </div>
 

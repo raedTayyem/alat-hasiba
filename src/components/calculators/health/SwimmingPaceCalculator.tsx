@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
+import { Combobox } from '@/components/ui/combobox';
 
 interface SwimmingPaceResult {
   pacePer100m: string;
@@ -97,23 +99,22 @@ export default function SwimmingPaceCalculator() {
       <div className="max-w-md mx-auto space-y-4">
         <InputContainer label={t("common.distance")} tooltip={t("common.distance")}>
           <div className="flex gap-2">
-            <input
-              type="number"
+            <NumberInput
               value={distance}
-              onChange={(e) => setDistance(e.target.value)}
+              onValueChange={(val) => setDistance(String(val))}
               onKeyPress={(e) => e.key === 'Enter' && calculatePace()}
-              className="flex-1 rounded-md border border-input bg-background px-3 py-3 text-base"
+              className="flex-1"
               placeholder="100"
-              dir="ltr"
             />
-            <select
+            <Combobox
+              options={[
+                { value: "m", label: t("calc/converters:length.units.meter") },
+                { value: "yd", label: t("calc/converters:length.units.yard") }
+              ]}
               value={unit}
-              onChange={(e) => setUnit(e.target.value)}
-              className="rounded-md border border-input bg-background px-3 py-3 text-base"
-            >
-              <option value="m">{t("calc/converters:length.units.meter")}</option>
-              <option value="yd">{t("calc/converters:length.units.yard")}</option>
-            </select>
+              onChange={setUnit}
+              width="w-[120px]"
+            />
           </div>
         </InputContainer>
 
@@ -121,26 +122,20 @@ export default function SwimmingPaceCalculator() {
           <div className="grid grid-cols-2 gap-2">
             <div>
               <label className="text-xs text-foreground-70 mb-1 block">{t("common.minute")}</label>
-              <input
-                type="number"
+              <NumberInput
                 value={minutes}
-                onChange={(e) => setMinutes(e.target.value)}
-                className="w-full rounded-md border border-input bg-background px-3 py-2 text-base"
+                onValueChange={(val) => setMinutes(String(val))}
                 placeholder="1"
-                dir="ltr"
-                min="0"
+                min={0}
               />
             </div>
             <div>
               <label className="text-xs text-foreground-70 mb-1 block">{t("common.second")}</label>
-              <input
-                type="number"
+              <NumberInput
                 value={seconds}
-                onChange={(e) => setSeconds(e.target.value)}
-                className="w-full rounded-md border border-input bg-background px-3 py-2 text-base"
+                onValueChange={(val) => setSeconds(String(val))}
                 placeholder="30"
-                dir="ltr"
-                min="0"
+                min={0}
               />
             </div>
           </div>

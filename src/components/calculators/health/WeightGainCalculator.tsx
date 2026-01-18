@@ -4,6 +4,8 @@ import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
+import { Combobox } from '@/components/ui/combobox';
 
 export default function WeightGainCalculator() {
   const { t, i18n } = useTranslation(['calc/health', 'common']);
@@ -69,41 +71,35 @@ export default function WeightGainCalculator() {
 
       <div className="max-w-md mx-auto space-y-4">
         <InputContainer label={t("body_fat.inputs.weight")} tooltip={t("weight_gain.tooltips.current_weight")}>
-          <input
-            type="number"
+          <NumberInput
             value={currentWeight}
-            onChange={(e) => setCurrentWeight(e.target.value)}
+            onValueChange={(val) => setCurrentWeight(String(val))}
             onKeyPress={(e) => e.key === 'Enter' && calculateWeightGain()}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder="60"
-            dir="ltr"
-            step="0.1"
+            step={0.1}
           />
         </InputContainer>
 
         <InputContainer label={t("weight_gain.inputs.target_weight_kg")} tooltip={t("weight_gain.tooltips.target_weight")}>
-          <input
-            type="number"
+          <NumberInput
             value={targetWeight}
-            onChange={(e) => setTargetWeight(e.target.value)}
+            onValueChange={(val) => setTargetWeight(String(val))}
             onKeyPress={(e) => e.key === 'Enter' && calculateWeightGain()}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder="70"
-            dir="ltr"
-            step="0.1"
+            step={0.1}
           />
         </InputContainer>
 
         <InputContainer label={t("weight_gain.inputs.daily_calorie_surplus")} tooltip={t("weight_gain.tooltips.calorie_surplus")}>
-          <select
+          <Combobox
+            options={[
+              { value: "200", label: `200 ${t("calorie.results.calories")} (${t("weight_gain.inputs.slow")})` },
+              { value: "300", label: `300 ${t("calorie.results.calories")} (${t("weight_gain.inputs.moderate")})` },
+              { value: "500", label: `500 ${t("calorie.results.calories")} (${t("weight_gain.inputs.fast")})` }
+            ]}
             value={dailySurplus}
-            onChange={(e) => setDailySurplus(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="200">200 {t("calorie.results.calories")} ({t("weight_gain.inputs.slow")})</option>
-            <option value="300">300 {t("calorie.results.calories")} ({t("weight_gain.inputs.moderate")})</option>
-            <option value="500">500 {t("calorie.results.calories")} ({t("weight_gain.inputs.fast")})</option>
-          </select>
+            onChange={setDailySurplus}
+          />
         </InputContainer>
       </div>
 

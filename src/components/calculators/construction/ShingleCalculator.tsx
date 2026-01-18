@@ -20,6 +20,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -199,14 +200,14 @@ export default function ShingleCalculator() {
           label={t("shingle.unit")}
           tooltip={t("shingle.unit_tooltip")}
         >
-          <select
+          <Combobox
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="sqft">{t("shingle.sqft")}</option>
-            <option value="sqm">{t("shingle.sqm")}</option>
-          </select>
+            onChange={setUnit}
+            options={[
+              { value: 'sqft', label: t("shingle.sqft") },
+              { value: 'sqm', label: t("shingle.sqm") }
+            ]}
+          />
         </InputContainer>
 
         {/* Roof Area */}

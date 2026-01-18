@@ -21,6 +21,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -179,14 +180,14 @@ export default function SidingCalculator() {
           label={t("siding.unit")}
           tooltip={t("siding.unit_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'imperial', label: t("siding.imperial") },
+              { value: 'metric', label: t("siding.metric") }
+            ]}
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="imperial">{t("siding.imperial")}</option>
-            <option value="metric">{t("siding.metric")}</option>
-          </select>
+            onChange={setUnit}
+          />
         </InputContainer>
 
         {/* Wall Area */}
@@ -212,18 +213,18 @@ export default function SidingCalculator() {
           label={t("siding.siding_type")}
           tooltip={t("siding.siding_type_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'vinyl', label: t("siding.types.vinyl") },
+              { value: 'fiber_cement', label: t("siding.types.fiber_cement") },
+              { value: 'wood_lap', label: t("siding.types.wood_lap") },
+              { value: 'wood_shingle', label: t("siding.types.wood_shingle") },
+              { value: 'aluminum', label: t("siding.types.aluminum") },
+              { value: 'steel', label: t("siding.types.steel") }
+            ]}
             value={sidingType}
-            onChange={(e) => setSidingType(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="vinyl">{t("siding.types.vinyl")}</option>
-            <option value="fiber_cement">{t("siding.types.fiber_cement")}</option>
-            <option value="wood_lap">{t("siding.types.wood_lap")}</option>
-            <option value="wood_shingle">{t("siding.types.wood_shingle")}</option>
-            <option value="aluminum">{t("siding.types.aluminum")}</option>
-            <option value="steel">{t("siding.types.steel")}</option>
-          </select>
+            onChange={setSidingType}
+          />
         </InputContainer>
 
         {/* Waste Factor */}

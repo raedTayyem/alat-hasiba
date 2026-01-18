@@ -14,6 +14,8 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { NumberInput } from '@/components/ui/number-input';
+import { Combobox } from '@/components/ui/combobox';
 
 interface BezierResult {
   x: number;
@@ -98,134 +100,102 @@ export default function BezierCurveCalculator() {
     }, 300);
   };
 
-  const handleKeyPress = (e: React.KeyboardEvent) => {
-    if (e.key === 'Enter') {
-      calculate();
-    }
-  };
 
   const inputSection = (
     <>
       <div className="max-w-md mx-auto space-y-4">
         <InputContainer label={t("bezier_curve_calculator.curve_type")} tooltip={t("bezier_curve_calculator.curve_type_tooltip")}>
-          <select
+          <Combobox
+            options={[
+              { value: 'quadratic', label: t("bezier_curve_calculator.quadratic") },
+              { value: 'cubic', label: t("bezier_curve_calculator.cubic") }
+            ]}
             value={curveType}
-            onChange={(e) => setCurveType(e.target.value as 'quadratic' | 'cubic')}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="quadratic">{t("bezier_curve_calculator.quadratic")}</option>
-            <option value="cubic">{t("bezier_curve_calculator.cubic")}</option>
-          </select>
+            onChange={(val) => setCurveType(val as 'quadratic' | 'cubic')}
+          />
         </InputContainer>
         <InputContainer label={t("bezier_curve_calculator.t_value")} tooltip={t("bezier_curve_calculator.t_value_tooltip")}>
-          <input
-            type="number"
+          <NumberInput
             value={tParam}
-            onChange={(e) => { setTParam(e.target.value); if (error) setError(''); }}
-            onKeyPress={handleKeyPress}
+            onValueChange={(value) => { setTParam(String(value)); if (error) setError(''); }}
             className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
             placeholder="0.5"
-            dir="ltr"
-            step="0.01"
-            min="0"
-            max="1"
+            step={0.01}
+            min={0}
+            max={1}
           />
         </InputContainer>
         <div className="grid grid-cols-2 gap-4">
           <InputContainer label={t("bezier_curve_calculator.p0")} tooltip={t("bezier_curve_calculator.p0_tooltip")}>
             <div className="flex gap-2">
-              <input
-                type="number"
+              <NumberInput
                 value={p0x}
-                onChange={(e) => setP0x(e.target.value)}
-                onKeyPress={handleKeyPress}
+                onValueChange={(val) => setP0x(String(val))}
                 className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
                 placeholder="X"
-                dir="ltr"
-                step="0.01"
+                step={0.01}
               />
-              <input
-                type="number"
+              <NumberInput
                 value={p0y}
-                onChange={(e) => setP0y(e.target.value)}
-                onKeyPress={handleKeyPress}
+                onValueChange={(val) => setP0y(String(val))}
                 className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
                 placeholder="Y"
-                dir="ltr"
-                step="0.01"
+                step={0.01}
               />
             </div>
           </InputContainer>
           <InputContainer label={t("bezier_curve_calculator.p1")} tooltip={t("bezier_curve_calculator.p1_tooltip")}>
             <div className="flex gap-2">
-              <input
-                type="number"
+              <NumberInput
                 value={p1x}
-                onChange={(e) => setP1x(e.target.value)}
-                onKeyPress={handleKeyPress}
+                onValueChange={(val) => setP1x(String(val))}
                 className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
                 placeholder="X"
-                dir="ltr"
-                step="0.01"
+                step={0.01}
               />
-              <input
-                type="number"
+              <NumberInput
                 value={p1y}
-                onChange={(e) => setP1y(e.target.value)}
-                onKeyPress={handleKeyPress}
+                onValueChange={(val) => setP1y(String(val))}
                 className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
                 placeholder="Y"
-                dir="ltr"
-                step="0.01"
+                step={0.01}
               />
             </div>
           </InputContainer>
           <InputContainer label={t("bezier_curve_calculator.p2")} tooltip={t("bezier_curve_calculator.p2_tooltip")}>
             <div className="flex gap-2">
-              <input
-                type="number"
+              <NumberInput
                 value={p2x}
-                onChange={(e) => setP2x(e.target.value)}
-                onKeyPress={handleKeyPress}
+                onValueChange={(val) => setP2x(String(val))}
                 className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
                 placeholder="X"
-                dir="ltr"
-                step="0.01"
+                step={0.01}
               />
-              <input
-                type="number"
+              <NumberInput
                 value={p2y}
-                onChange={(e) => setP2y(e.target.value)}
-                onKeyPress={handleKeyPress}
+                onValueChange={(val) => setP2y(String(val))}
                 className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
                 placeholder="Y"
-                dir="ltr"
-                step="0.01"
+                step={0.01}
               />
             </div>
           </InputContainer>
           {curveType === 'cubic' && (
             <InputContainer label={t("bezier_curve_calculator.p3")} tooltip={t("bezier_curve_calculator.p3_tooltip")}>
               <div className="flex gap-2">
-                <input
-                  type="number"
+                <NumberInput
                   value={p3x}
-                  onChange={(e) => setP3x(e.target.value)}
-                  onKeyPress={handleKeyPress}
-                  className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
+                  onValueChange={(val) => setP3x(String(val))}
+                    className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
                   placeholder="X"
-                  dir="ltr"
-                  step="0.01"
+                  step={0.01}
                 />
-                <input
-                  type="number"
+                <NumberInput
                   value={p3y}
-                  onChange={(e) => setP3y(e.target.value)}
-                  onKeyPress={handleKeyPress}
-                  className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
+                  onValueChange={(val) => setP3y(String(val))}
+                    className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
                   placeholder="Y"
-                  dir="ltr"
-                  step="0.01"
+                  step={0.01}
                 />
               </div>
             </InputContainer>

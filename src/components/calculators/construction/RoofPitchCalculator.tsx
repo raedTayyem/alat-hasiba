@@ -22,6 +22,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox } from '@/components/ui/combobox';
 
 // =============================================================================
 // TYPE DEFINITIONS
@@ -184,16 +185,16 @@ export default function RoofPitchCalculator() {
           label={t("roofPitch.unit")}
           tooltip={t("roofPitch.unit_tooltip")}
         >
-          <select
+          <Combobox
+            options={[
+              { value: 'inches', label: t("roofPitch.inches") },
+              { value: 'feet', label: t("roofPitch.feet") },
+              { value: 'meters', label: t("roofPitch.meters") },
+              { value: 'centimeters', label: t("roofPitch.centimeters") }
+            ]}
             value={unit}
-            onChange={(e) => setUnit(e.target.value)}
-            className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-          >
-            <option value="inches">{t("roofPitch.inches")}</option>
-            <option value="feet">{t("roofPitch.feet")}</option>
-            <option value="meters">{t("roofPitch.meters")}</option>
-            <option value="centimeters">{t("roofPitch.centimeters")}</option>
-          </select>
+            onChange={setUnit}
+          />
         </InputContainer>
 
         {/* Rise */}

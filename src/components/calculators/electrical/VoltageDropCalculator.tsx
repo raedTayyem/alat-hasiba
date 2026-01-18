@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function VoltageDropCalculator() {
   const { t } = useTranslation(['calc/electrical', 'common']);
@@ -75,6 +76,28 @@ export default function VoltageDropCalculator() {
     setError('');
   };
 
+  const wireSizeOptions: ComboboxOption[] = [
+    { value: '1.5', label: t("voltage_drop.options.wire_mm2", { size: "1.5" }) },
+    { value: '2.5', label: t("voltage_drop.options.wire_mm2", { size: "2.5" }) },
+    { value: '4', label: t("voltage_drop.options.wire_mm2", { size: "4" }) },
+    { value: '6', label: t("voltage_drop.options.wire_mm2", { size: "6" }) },
+    { value: '10', label: t("voltage_drop.options.wire_mm2", { size: "10" }) },
+    { value: '16', label: t("voltage_drop.options.wire_mm2", { size: "16" }) },
+    { value: '25', label: t("voltage_drop.options.wire_mm2", { size: "25" }) },
+    { value: '35', label: t("voltage_drop.options.wire_mm2", { size: "35" }) },
+    { value: '50', label: t("voltage_drop.options.wire_mm2", { size: "50" }) }
+  ];
+
+  const phaseTypeOptions: ComboboxOption[] = [
+    { value: 'single', label: t("voltage_drop.options.single_phase") },
+    { value: 'three', label: t("voltage_drop.options.three_phase") }
+  ];
+
+  const materialOptions: ComboboxOption[] = [
+    { value: 'copper', label: t("voltage_drop.options.copper") },
+    { value: 'aluminum', label: t("voltage_drop.options.aluminum") }
+  ];
+
   const inputSection = (
     <>
       <div className="calculator-section-title">
@@ -116,43 +139,27 @@ export default function VoltageDropCalculator() {
         </InputContainer>
 
         <InputContainer label={t("voltage_drop.inputs.wire_size")} tooltip={t("voltage_drop.tooltips.wire_size")}>
-          <select
+          <Combobox
+            options={wireSizeOptions}
             value={wireSize}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setWireSize(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="1.5">{t("voltage_drop.options.wire_mm2", { size: "1.5" })}</option>
-            <option value="2.5">{t("voltage_drop.options.wire_mm2", { size: "2.5" })}</option>
-            <option value="4">{t("voltage_drop.options.wire_mm2", { size: "4" })}</option>
-            <option value="6">{t("voltage_drop.options.wire_mm2", { size: "6" })}</option>
-            <option value="10">{t("voltage_drop.options.wire_mm2", { size: "10" })}</option>
-            <option value="16">{t("voltage_drop.options.wire_mm2", { size: "16" })}</option>
-            <option value="25">{t("voltage_drop.options.wire_mm2", { size: "25" })}</option>
-            <option value="35">{t("voltage_drop.options.wire_mm2", { size: "35" })}</option>
-            <option value="50">{t("voltage_drop.options.wire_mm2", { size: "50" })}</option>
-          </select>
+            onChange={setWireSize}
+          />
         </InputContainer>
 
         <InputContainer label={t("voltage_drop.inputs.phase")} tooltip={t("voltage_drop.tooltips.phase")}>
-          <select
+          <Combobox
+            options={phaseTypeOptions}
             value={phaseType}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setPhaseType(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="single">{t("voltage_drop.options.single_phase")}</option>
-            <option value="three">{t("voltage_drop.options.three_phase")}</option>
-          </select>
+            onChange={setPhaseType}
+          />
         </InputContainer>
 
         <InputContainer label={t("voltage_drop.inputs.material")} tooltip={t("voltage_drop.tooltips.material")}>
-          <select
+          <Combobox
+            options={materialOptions}
             value={material}
-            onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setMaterial(e.target.value)}
-            className="calculator-input w-full"
-          >
-            <option value="copper">{t("voltage_drop.options.copper")}</option>
-            <option value="aluminum">{t("voltage_drop.options.aluminum")}</option>
-          </select>
+            onChange={setMaterial}
+          />
         </InputContainer>
       </div>
 

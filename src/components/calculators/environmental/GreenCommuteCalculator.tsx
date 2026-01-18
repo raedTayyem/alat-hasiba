@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function GreenCommuteCalculator() {
   const { t } = useTranslation('calc/environmental');
@@ -20,7 +21,7 @@ export default function GreenCommuteCalculator() {
     timeDifference: number;
   } | null>(null);
 
-  const modeOptions = [
+  const modeOptions: ComboboxOption[] = [
     { value: 'car', label: t("green_commute.options.car") },
     { value: 'bus', label: t("green_commute.options.bus") },
     { value: 'metro', label: t("green_commute.options.metro") },
@@ -98,19 +99,11 @@ export default function GreenCommuteCalculator() {
         </InputContainer>
 
         <InputContainer label={t("green_commute.current_mode")} tooltip={t("green_commute.current_mode_tooltip")}>
-          <select value={currentMode} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setCurrentMode(e.target.value)} className="calculator-input w-full">
-            {modeOptions.map((opt: any) => (
-              <option key={opt.value} value={opt.value}>{opt.label}</option>
-            ))}
-          </select>
+          <Combobox options={modeOptions} value={currentMode} onChange={setCurrentMode} />
         </InputContainer>
 
         <InputContainer label={t("green_commute.alternative_mode")} tooltip={t("green_commute.alternative_mode_tooltip")}>
-          <select value={alternativeMode} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setAlternativeMode(e.target.value)} className="calculator-input w-full">
-            {modeOptions.map((opt: any) => (
-              <option key={opt.value} value={opt.value}>{opt.label}</option>
-            ))}
-          </select>
+          <Combobox options={modeOptions} value={alternativeMode} onChange={setAlternativeMode} />
         </InputContainer>
 
         <InputContainer label={t("green_commute.days_per_week")} tooltip={t("green_commute.days_per_week_tooltip")}>
