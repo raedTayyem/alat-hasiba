@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
@@ -65,9 +66,9 @@ export default function ResonanceCalculator() {
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("resonance.inductance")} tooltip={t("resonance.enter_inductance")}>
-          <NumericInput
+          <NumberInput
             value={inductance}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setInductance(e.target.value)}
+            onValueChange={(val) => setInductance(String(val))}
             unit={t("ohms_law.unit_milli_henry")}
             placeholder={t("resonance.enter_inductance")}
             min={0}
@@ -76,9 +77,9 @@ export default function ResonanceCalculator() {
         </InputContainer>
 
         <InputContainer label={t("resonance.capacitance")} tooltip={t("resonance.enter_capacitance")}>
-          <NumericInput
+          <NumberInput
             value={capacitance}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCapacitance(e.target.value)}
+            onValueChange={(val) => setCapacitance(String(val))}
             unit={t("ohms_law.unit_micro_farad")}
             placeholder={t("resonance.enter_capacitance")}
             min={0}
@@ -87,9 +88,9 @@ export default function ResonanceCalculator() {
         </InputContainer>
 
         <InputContainer label={t("resonance.resistance")} tooltip={t("resonance.enter_resistance")}>
-          <NumericInput
+          <NumberInput
             value={resistance}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setResistance(e.target.value)}
+            onValueChange={(val) => setResistance(String(val))}
             unit={t("ohms_law.unit_resistance")}
             placeholder={t("resonance.enter_resistance")}
             min={0}

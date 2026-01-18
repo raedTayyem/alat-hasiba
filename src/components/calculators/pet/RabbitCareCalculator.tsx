@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
@@ -73,7 +74,7 @@ export default function RabbitCareCalculator() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("rabbit-care-calculator.rabbit_weight")}>
-          <NumericInput value={rabbitWeight} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setRabbitWeight(e.target.value)} unit={t("rabbit-care-calculator.kg")} placeholder={t("rabbit-care-calculator.enter_weight")} min={0} max={10} step={0.1} />
+          <NumberInput value={rabbitWeight} onValueChange={(val) => setRabbitWeight(String(val))} unit={t("rabbit-care-calculator.kg")} placeholder={t("rabbit-care-calculator.enter_weight")} min={0} max={10} step={0.1} />
         </InputContainer>
 
         <InputContainer label={t("rabbit-care-calculator.rabbit_size")}>

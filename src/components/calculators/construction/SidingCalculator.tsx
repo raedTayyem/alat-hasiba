@@ -18,7 +18,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Layers, Info, Home, Ruler } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -195,12 +196,12 @@ export default function SidingCalculator() {
           label={t("siding.wall_area")}
           tooltip={t("siding.wall_area_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={wallArea}
-            onChange={(e) => {
-              setWallArea(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setWallArea(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("siding.placeholders.wall_area")}
             min={0}
             step={1}
@@ -232,12 +233,12 @@ export default function SidingCalculator() {
           label={t("siding.waste_factor")}
           tooltip={t("siding.waste_factor_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={wasteFactor}
-            onChange={(e) => {
-              setWasteFactor(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setWasteFactor(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("siding.placeholders.waste")}
             min={0}
             max={100}

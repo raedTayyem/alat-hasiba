@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
@@ -92,9 +93,9 @@ export default function VehicleEmissionsCalculator() {
           label={t("vehicle_emissions.consumption")}
           tooltip={t("vehicle_emissions.consumption_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={consumption}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setConsumption(e.target.value)}
+            onValueChange={(val) => setConsumption(String(val))}
             unit={t("vehicle_emissions.consumption").split('(')[1].replace(')', '')}
             placeholder={t("vehicle_emissions.enter_consumption")}
             min={0}
@@ -106,9 +107,9 @@ export default function VehicleEmissionsCalculator() {
           label={t("vehicle_emissions.distance")}
           tooltip={t("vehicle_emissions.distance_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={distance}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setDistance(e.target.value)}
+            onValueChange={(val) => setDistance(String(val))}
             unit={t("vehicle_emissions.distance").split('(')[1].replace(')', '')}
             placeholder={t("vehicle_emissions.enter_distance")}
             min={0}

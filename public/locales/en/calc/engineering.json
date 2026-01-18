@@ -379,13 +379,13 @@
     "force_tooltip": "Output force of the cylinder in Newtons (N)",
     "pressure": "Pressure",
     "pressure_tooltip": "Hydraulic system pressure in bar",
-    "area": "Piston Area",
+    "area": "Area",
     "area_tooltip": "Cross-sectional area of the piston in square centimeters",
     "piston_diameter": "Piston Diameter",
     "piston_diameter_tooltip": "Outer diameter of the piston/bore in millimeters",
     "rod_diameter": "Rod Diameter",
     "rod_diameter_tooltip": "Diameter of the piston rod in millimeters (for double-acting cylinders)",
-    "velocity": "Piston Velocity",
+    "velocity": "Velocity",
     "velocity_tooltip": "Speed of piston movement in meters per second",
     "extension_force": "Extension Force",
     "retraction_force": "Retraction Force",
@@ -459,6 +459,12 @@
         "question": "What is a safe operating pressure?",
         "answer": "Safe pressure is typically 70-80% of test pressure. Standard cylinders operate at 160-250 bar, heavy-duty cylinders reach 400-700 bar."
       }
-    ]
+    ],
+    "invalid_input": "Invalid Input",
+    "positive_values": "Positive Values",
+    "area_positive": "Area Positive",
+    "pressure_positive": "Pressure Positive",
+    "rod_smaller": "Rod Smaller",
+    "cylinder_sizing": "Cylinder Sizing"
   }
 }

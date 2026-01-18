@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
@@ -94,7 +95,7 @@ export default function PetTravelCalculator() {
         </InputContainer>
 
         <InputContainer label={t("pet-travel-calculator.pet_weight")}>
-          <NumericInput value={petWeight} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPetWeight(e.target.value)} unit={t("pet-travel-calculator.kg")} placeholder={t("pet-travel-calculator.enter_weight")} min={0} max={50} step={0.5} />
+          <NumberInput value={petWeight} onValueChange={(val) => setPetWeight(String(val))} unit={t("pet-travel-calculator.kg")} placeholder={t("pet-travel-calculator.enter_weight")} min={0} max={50} step={0.5} />
         </InputContainer>
 
         <InputContainer label={t("pet-travel-calculator.travel_type")}>

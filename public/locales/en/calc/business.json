@@ -2707,7 +2707,7 @@
     ]
   },
   "markup": {
-    "title": "Markup Calculator",
+    "title": "Calculator",
     "description": "Calculate markup percentage and selling price from cost.",
     "inputs": {
       "calculation_mode": "Calculation Mode",
@@ -2820,7 +2820,30 @@
         "question": "How do I convert markup to profit margin?",
         "answer": "Margin = Markup / (1 + Markup). For 50% markup: 0.50 / 1.50 = 33.3% margin. For 100% markup: 1.00 / 2.00 = 50% margin."
       }
-    ]
+    ],
+    "invalid_percentage": "Invalid Percentage",
+    "invalid_selling_price": "Invalid Selling Price",
+    "calculation_mode": "Calculation Mode",
+    "calculation_mode_tooltip": "Enter calculation mode",
+    "by_percentage": "By Percentage",
+    "by_selling_price": "By Selling Price",
+    "cost": "Cost",
+    "cost_tooltip": "Enter cost",
+    "cost_placeholder": "Enter cost",
+    "markup_percentage": "Markup Percentage",
+    "markup_percentage_tooltip": "Enter markup percentage",
+    "markup_percentage_placeholder": "Enter markup percentage",
+    "selling_price": "Selling Price",
+    "selling_price_tooltip": "Enter selling price",
+    "selling_price_placeholder": "Enter selling price",
+    "use_cases": "Common Use Cases",
+    "use_case_1": "Primary use case",
+    "use_case_2": "Secondary use case",
+    "use_case_3": "Additional use case",
+    "markup_amount": "Markup Amount",
+    "breakdown": "Breakdown",
+    "profit_margin": "Profit Margin",
+    "formula": "Formula"
   },
   "sales_tax": {
     "title": "Sales Tax Calculator",
@@ -3408,7 +3431,7 @@
     ]
   },
   "inflation": {
-    "title": "Inflation Calculator",
+    "title": "Calculator",
     "description": "Calculate how inflation affects the future value of money and purchasing power over time.",
     "inputs": {
       "present_value": "Present Value",
@@ -3520,7 +3543,32 @@
         "question": "What is deflation and how is it different?",
         "answer": "Deflation is negative inflation - prices decrease over time. Rare but harmful to economies. Your money gains purchasing power but economic activity slows."
       }
-    ]
+    ],
+    "rate_too_low": "Rate Too Low",
+    "present_value": "Present Value",
+    "present_value_tooltip": "Enter present value",
+    "present_value_placeholder": "Enter present value",
+    "years": "Years",
+    "years_tooltip": "Enter years",
+    "years_placeholder": "Enter years",
+    "inflation_rate": "Inflation Rate",
+    "inflation_rate_tooltip": "Enter inflation rate",
+    "inflation_rate_placeholder": "Enter inflation rate",
+    "use_cases": "Common Use Cases",
+    "use_case_1": "Primary use case",
+    "use_case_2": "Secondary use case",
+    "use_case_3": "Additional use case",
+    "future_value": "Future Value",
+    "from_present": "From Present",
+    "analysis": "Analysis",
+    "total_inflation": "Total Inflation",
+    "over_period": "Over Period",
+    "purchasing_power_loss": "Purchasing Power Loss",
+    "loss": "Loss",
+    "yearly_breakdown": "Yearly Breakdown",
+    "year": "Year",
+    "formula_title": "Formula Title",
+    "formula": "Formula"
   },
   "salary": {
     "title": "Salary Calculator",
@@ -3651,7 +3699,7 @@
     ]
   },
   "hourly_wage": {
-    "title": "Hourly Wage Calculator",
+    "title": "Calculator",
     "description": "Convert annual salary to hourly wage and calculate earnings across different time periods.",
     "inputs": {
       "annual_salary": "Annual Salary",
@@ -3768,7 +3816,37 @@
         "question": "Is hourly or salary better?",
         "answer": "Depends on circumstances. Hourly guarantees payment for all hours worked including overtime. Salary offers stability but may mean unpaid overtime."
       }
-    ]
+    ],
+    "hours_too_high": "Hours Too High",
+    "weeks_too_high": "Weeks Too High",
+    "annual_salary": "Annual Salary",
+    "annual_salary_tooltip": "Enter annual salary",
+    "annual_salary_placeholder": "Enter annual salary",
+    "hours_per_week": "per hours week",
+    "hours_per_week_tooltip": "Enter hours per week",
+    "hours_per_week_placeholder": "Enter hours per week",
+    "weeks_per_year": "per weeks year",
+    "weeks_per_year_tooltip": "Enter weeks per year",
+    "weeks_per_year_placeholder": "Enter weeks per year",
+    "use_cases": "Common Use Cases",
+    "use_case_1": "Primary use case",
+    "use_case_2": "Secondary use case",
+    "use_case_3": "Additional use case",
+    "hourly_rate": "Hourly Rate",
+    "per_hour": "per hour",
+    "breakdown": "Breakdown",
+    "daily": "Daily",
+    "per_day": "per day",
+    "weekly": "Weekly",
+    "per_week": "per week",
+    "bi_weekly": "Bi Weekly",
+    "every_two_weeks": "Every Two Weeks",
+    "monthly": "Monthly",
+    "per_month": "per month",
+    "annual": "Annual",
+    "total_hours": "Total Hours",
+    "formula_title": "Formula Title",
+    "formula": "Formula"
   },
   "overtime": {
     "title": "Overtime Calculator",
@@ -4140,7 +4218,7 @@
     ]
   },
   "inventory_turnover": {
-    "title": "Inventory Turnover Calculator",
+    "title": "Calculator",
     "description": "Calculate inventory turnover ratio to measure stock management efficiency.",
     "cogs": "Cost of Goods Sold (COGS)",
     "cogs_tooltip": "Total cost of goods sold during the period",
@@ -4248,10 +4326,25 @@
         "question": "What if my turnover is too low?",
         "answer": "Low turnover ties up cash and increases holding costs. Review product mix, identify obsolete inventory, consider markdowns, and improve sales efforts."
       }
-    ]
+    ],
+    "use_cases_title": "Use Cases",
+    "use_case_1": "Primary use case",
+    "use_case_2": "Secondary use case",
+    "use_case_3": "Additional use case",
+    "turnover_ratio": "Turnover Ratio",
+    "times_per_year": "per times year",
+    "metrics": "Metrics",
+    "days_to_sell": "Days To Sell",
+    "days": "Days",
+    "monthly_turnover": "Monthly Turnover",
+    "per_month": "per month",
+    "interpretation_title": "Interpretation Title",
+    "interpretation_desc": "Interpretation Desc",
+    "formula_title": "Formula Title",
+    "formula_desc": "Formula Desc"
   },
   "labor_cost": {
-    "title": "Labor Cost Calculator",
+    "title": "Calculator",
     "description": "Calculate total labor costs including wages, hours, benefits, and overhead.",
     "hourly_rate": "Hourly Rate ($)",
     "hourly_rate_tooltip": "Base hourly wage before benefits",
@@ -4374,12 +4467,34 @@
         "question": "How does this compare to contractors?",
         "answer": "Contractors include their own benefits/overhead in rates. Compare contractor rates to fully-loaded employee cost, not base salary, for fair comparison."
       }
-    ]
+    ],
+    "invalid_benefits": "Invalid Benefits",
+    "invalid_overhead": "Invalid Overhead",
+    "invalid_employees": "Invalid Employees",
+    "use_cases_title": "Use Cases",
+    "use_case_1": "Primary use case",
+    "use_case_2": "Secondary use case",
+    "use_case_3": "Additional use case",
+    "weekly_total": "Weekly Total",
+    "effective_hourly_rate": "Effective Hourly Rate",
+    "cost_breakdown": "Cost Breakdown",
+    "base_wages": "Base Wages",
+    "per_week": "per week",
+    "benefits_cost": "Benefits Cost",
+    "overhead_cost": "Overhead Cost",
+    "cost_multiplier": "Cost Multiplier",
+    "burden_rate": "Burden Rate",
+    "monthly_cost": "Monthly Cost",
+    "per_month": "per month",
+    "annual_cost": "Annual Cost",
+    "per_year": "per year",
+    "formula_title": "Formula Title",
+    "formula_desc": "Formula Desc"
   },
   "loan_amortization": {
-    "title": "Loan Amortization Calculator",
+    "title": "Calculator",
     "description": "Calculate loan payments and generate a complete amortization schedule showing principal and interest breakdown.",
-    "principal": "Loan Principal",
+    "principal": "Principal",
     "principal_tooltip": "The total amount of money borrowed",
     "principal_placeholder": "e.g. 250000",
     "interest_rate": "Annual Interest Rate (%)",
@@ -4414,7 +4529,24 @@
       "use_case_1": "Plan mortgage payments",
       "use_case_2": "Compare loan options",
       "use_case_3": "Understand principal vs interest over time"
-    }
+    },
+    "use_cases_title": "Use Cases",
+    "use_case_1": "Primary use case",
+    "use_case_2": "Secondary use case",
+    "use_case_3": "Additional use case",
+    "monthly_payment": "Monthly Payment",
+    "per_month": "per month",
+    "summary": "Summary",
+    "total_payments": "Total Payments",
+    "total_interest": "Total Interest",
+    "amortization_schedule": "Amortization Schedule",
+    "month": "Month",
+    "payment": "Payment",
+    "interest": "Interest",
+    "balance": "Balance",
+    "show_less": "Show Less",
+    "formula_title": "Formula Title",
+    "formula_desc": "Formula Desc"
   },
   "lease": {
     "title": "Lease Calculator",
@@ -5118,7 +5250,7 @@
     ]
   },
   "ltv": {
-    "title": "LTV Calculator",
+    "title": "Calculator",
     "description": "Calculate Loan-to-Value (LTV) ratio for mortgages and loans. LTV is a key metric lenders use to assess risk and determine loan terms.",
     "inputs": {
       "loan_amount": "Loan Amount",
@@ -5247,7 +5379,35 @@
         "question": "Does LTV affect my interest rate?",
         "answer": "Yes. Lower LTV usually means lower rates. Rates may improve at 80%, 75%, and 60% LTV thresholds depending on lender."
       }
-    ]
+    ],
+    "loan_exceeds_property": "Loan Exceeds Property",
+    "loan_amount": "Loan Amount",
+    "loan_amount_tooltip": "Enter loan amount",
+    "loan_amount_placeholder": "Enter loan amount",
+    "property_value": "Property Value",
+    "property_value_tooltip": "Enter property value",
+    "property_value_placeholder": "Enter property value",
+    "use_cases": "Common Use Cases",
+    "use_case_1": "Primary use case",
+    "use_case_2": "Secondary use case",
+    "use_case_3": "Additional use case",
+    "ltv_ranges_title": "Ltv Ranges Title",
+    "ltv_range_low": "Ltv Range Low",
+    "ltv_range_moderate": "Ltv Range Moderate",
+    "ltv_range_high": "Ltv Range High",
+    "ltv_range_very_high": "Ltv Range Very High",
+    "ltv_ratio": "Ltv Ratio",
+    "breakdown": "Breakdown",
+    "equity": "Equity",
+    "down_payment": "Down Payment",
+    "pmi_required": "Pmi Required",
+    "pmi_not_required": "Pmi Not Required",
+    "pmi_explanation": "Pmi Explanation",
+    "no_pmi_explanation": "No Pmi Explanation",
+    "risk_assessment": "Risk Assessment",
+    "ltv_visual": "Ltv Visual",
+    "formula_title": "Formula Title",
+    "formula": "Formula"
   },
   "amazon_fba": {
     "title": "Amazon FBA Calculator",
@@ -5425,7 +5585,7 @@
     }
   },
   "income_tax": {
-    "title": "Income Tax Calculator",
+    "title": "Calculator",
     "description": "Calculate income tax based on progressive tax brackets and deductions.",
     "gross_income": "Gross Income",
     "gross_income_tooltip": "Your total income before deductions",
@@ -5453,7 +5613,20 @@
       "use_case_1": "Estimate annual tax liability",
       "use_case_2": "Plan tax withholding and payments",
       "use_case_3": "Compare filing status options"
-    }
+    },
+    "use_cases_title": "Use Cases",
+    "use_case_1": "Primary use case",
+    "use_case_2": "Secondary use case",
+    "use_case_3": "Additional use case",
+    "total_tax": "Total Tax",
+    "effective_rate": "Effective Rate",
+    "summary": "Summary",
+    "taxable_income": "Taxable Income",
+    "after_tax_income": "After Tax Income",
+    "bracket_breakdown": "Bracket Breakdown",
+    "on": "On",
+    "formula_title": "Formula Title",
+    "formula_desc": "Formula Desc"
   },
   "project_budget": {
     "title": "Project Budget Calculator",

@@ -20,7 +20,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Info, Home, Layers, Package, Triangle } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -255,12 +256,12 @@ export default function RoofingCalculator() {
           label={t("roofing.roof_length")}
           tooltip={t("roofing.roof_length_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={roofLength}
-            onChange={(e) => {
-              setRoofLength(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setRoofLength(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("roofing.placeholders.length")}
             min={0}
             step={1}
@@ -272,12 +273,12 @@ export default function RoofingCalculator() {
           label={t("roofing.roof_width")}
           tooltip={t("roofing.roof_width_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={roofWidth}
-            onChange={(e) => {
-              setRoofWidth(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setRoofWidth(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("roofing.placeholders.width")}
             min={0}
             step={1}
@@ -309,12 +310,12 @@ export default function RoofingCalculator() {
               label={t("roofing.rise")}
               tooltip={t("roofing.rise_tooltip")}
             >
-              <NumericInput
+              <NumberInput
                 value={customRise}
-                onChange={(e) => {
-                  setCustomRise(e.target.value);
-                  if (error) setError('');
-                }}
+                onValueChange={(value) => {
+                setCustomRise(String(value));
+                if (error) setError('');
+              }}
                 placeholder={t("roofing.placeholders.rise")}
                 min={0}
                 step={0.5}
@@ -324,12 +325,12 @@ export default function RoofingCalculator() {
               label={t("roofing.run")}
               tooltip={t("roofing.run_tooltip")}
             >
-              <NumericInput
+              <NumberInput
                 value={customRun}
-                onChange={(e) => {
-                  setCustomRun(e.target.value);
-                  if (error) setError('');
-                }}
+                onValueChange={(value) => {
+                setCustomRun(String(value));
+                if (error) setError('');
+              }}
                 placeholder={t("roofing.placeholders.run")}
                 min={0.1}
                 step={0.5}
@@ -343,12 +344,12 @@ export default function RoofingCalculator() {
           label={t("roofing.ridge_length")}
           tooltip={t("roofing.ridge_length_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={ridgeLength}
-            onChange={(e) => {
-              setRidgeLength(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setRidgeLength(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("roofing.placeholders.ridge")}
             min={0}
             step={1}
@@ -360,12 +361,12 @@ export default function RoofingCalculator() {
           label={t("roofing.waste_factor")}
           tooltip={t("roofing.waste_factor_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={wasteFactor}
-            onChange={(e) => {
-              setWasteFactor(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setWasteFactor(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("roofing.placeholders.waste")}
             min={0}
             max={50}

@@ -20,7 +20,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Cable, Info, Ruler, CircleDot } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -221,12 +222,12 @@ export default function ConduitCalculator() {
           label={t("conduit.wire_count")}
           tooltip={t("conduit.wire_count_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={wireCount}
-            onChange={(e) => {
-              setWireCount(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setWireCount(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("conduit.placeholders.wire_count")}
             min={1}
             max={100}
@@ -280,12 +281,12 @@ export default function ConduitCalculator() {
           label={t("conduit.run_length")}
           tooltip={t("conduit.run_length_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={runLength}
-            onChange={(e) => {
-              setRunLength(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setRunLength(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("conduit.placeholders.run_length")}
             min={0}
             step={1}

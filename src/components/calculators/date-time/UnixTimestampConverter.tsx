@@ -4,7 +4,8 @@ import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Calendar, Hash } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -100,10 +101,10 @@ export default function UnixTimestampConverter() {
 
         {mode === 'toDate' ? (
           <InputContainer label={t('unix_timestamp_converter.timestamp')}>
-            <NumericInput
+            <NumberInput
               value={timestamp}
-              onChange={(e) => {
-                setTimestamp(e.target.value);
+              onValueChange={(value) => {
+                setTimestamp(String(value));
                 if (error) setError('');
               }}
               placeholder="1234567890"
@@ -118,9 +119,9 @@ export default function UnixTimestampConverter() {
                 type="date"
                 value={selectedDate}
                 onChange={(e) => {
-                  setSelectedDate(e.target.value);
-                  if (error) setError('');
-                }}
+                setSelectedDate(e.target.value);
+                if (error) setError('');
+              }}
                 className="date-input-rtl w-full rounded-md border border-input bg-background px-3 py-3 text-base"
                 dir={isRTL ? "rtl" : "ltr"}
               />

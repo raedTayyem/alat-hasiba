@@ -2222,6 +2222,10 @@
       "height": "أدخل طولك بالسنتيمتر",
       "activity": "اختر مستوى نشاطك الأسبوعي المعتاد"
     },
+    "errors": {
+      "all_fields": "يرجى ملء جميع الحقول المطلوبة",
+      "age_range": "يجب أن يكون العمر بين 1 و 120 سنة"
+    },
     "results": {
       "bmr": "معدل الأيض الأساسي (BMR)",
       "calories": "سعرات حرارية",
@@ -3024,7 +3028,14 @@
       "low": "منخفض (1.6جم/كجم)",
       "moderate": "متوسط (2.0جم/كجم)",
       "high": "عالي (2.4جم/كجم)"
-    }
+    },
+    "cut": "Cut",
+    "maintain": "Maintain",
+    "bulk": "Bulk",
+    "recomp": "Recomp",
+    "low": "Low",
+    "moderate": "Moderate",
+    "high": "High"
   },
   "cycling_power": {
     "title": "حاسبة قوة الدراجة",

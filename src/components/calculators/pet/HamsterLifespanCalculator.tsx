@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
@@ -101,7 +102,7 @@ export default function HamsterLifespanCalculator() {
         </InputContainer>
 
         <InputContainer label={t("hamster_lifespan_calculator.label_age")}>
-          <NumericInput value={currentAge} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCurrentAge(e.target.value)} unit={t("hamster_lifespan_calculator.unit_months")} placeholder={t("hamster_lifespan_calculator.placeholder_age")} min={0} max={48} step={1} />
+          <NumberInput value={currentAge} onValueChange={(val) => setCurrentAge(String(val))} unit={t("hamster_lifespan_calculator.unit_months")} placeholder={t("hamster_lifespan_calculator.placeholder_age")} min={0} max={48} step={1} />
         </InputContainer>
       </div>
 

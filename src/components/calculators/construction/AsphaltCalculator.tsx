@@ -19,7 +19,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Layers, Info, Calculator } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -193,12 +194,12 @@ export default function AsphaltCalculator() {
           label={t("asphalt.area")}
           tooltip={t("asphalt.area_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={area}
-            onChange={(e) => {
-              setArea(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setArea(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("asphalt.placeholders.area")}
             min={0}
             step={1}
@@ -211,12 +212,12 @@ export default function AsphaltCalculator() {
           label={t("asphalt.thickness")}
           tooltip={t("asphalt.thickness_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={thickness}
-            onChange={(e) => {
-              setThickness(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setThickness(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("asphalt.placeholders.thickness")}
             min={0}
             step={0.5}
@@ -229,12 +230,12 @@ export default function AsphaltCalculator() {
           label={t("asphalt.density")}
           tooltip={t("asphalt.density_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={density}
-            onChange={(e) => {
-              setDensity(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setDensity(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("asphalt.placeholders.density")}
             min={0}
             step={1}

@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
@@ -86,9 +87,9 @@ export default function Timer555Calculator() {
         </InputContainer>
 
         <InputContainer label={t("timer_555.r1")} tooltip={t("timer_555.r1_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={r1}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setR1(e.target.value)}
+            onValueChange={(val) => setR1(String(val))}
             unit={t("ohms_law.unit_kilo_ohm")}
             placeholder={t("timer_555.enter_r1")}
             min={0}
@@ -98,9 +99,9 @@ export default function Timer555Calculator() {
 
         {mode === 'astable' && (
           <InputContainer label={t("timer_555.r2")} tooltip={t("timer_555.r2_tooltip")}>
-            <NumericInput
+            <NumberInput
               value={r2}
-              onChange={(e: React.ChangeEvent<HTMLInputElement>) => setR2(e.target.value)}
+              onValueChange={(val) => setR2(String(val))}
               unit={t("ohms_law.unit_kilo_ohm")}
               placeholder={t("timer_555.enter_r2")}
               min={0}
@@ -110,9 +111,9 @@ export default function Timer555Calculator() {
         )}
 
         <InputContainer label={t("timer_555.capacitance")} tooltip={t("timer_555.capacitance_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={capacitance}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCapacitance(e.target.value)}
+            onValueChange={(val) => setCapacitance(String(val))}
             unit={t("ohms_law.unit_micro_farad")}
             placeholder={t("timer_555.enter_capacitance")}
             min={0}

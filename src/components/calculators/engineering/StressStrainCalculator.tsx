@@ -19,7 +19,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { ArrowDown, Ruler, LayoutGrid, Info, Activity } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -302,10 +303,10 @@ export default function StressStrainCalculator() {
             label={t("stress_strain.force")}
             tooltip={t("stress_strain.force_tooltip")}
           >
-            <NumericInput
+            <NumberInput
               value={force}
-              onChange={(e) => {
-                setForce(e.target.value);
+              onValueChange={(value) => {
+                setForce(String(value));
                 if (error) setError('');
               }}
               placeholder={t("stress_strain.placeholders.force")}
@@ -322,10 +323,10 @@ export default function StressStrainCalculator() {
             label={t("stress_strain.area")}
             tooltip={t("stress_strain.area_tooltip")}
           >
-            <NumericInput
+            <NumberInput
               value={area}
-              onChange={(e) => {
-                setArea(e.target.value);
+              onValueChange={(value) => {
+                setArea(String(value));
                 if (error) setError('');
               }}
               placeholder={t("stress_strain.placeholders.area")}
@@ -342,10 +343,10 @@ export default function StressStrainCalculator() {
             label={t("stress_strain.original_length")}
             tooltip={t("stress_strain.original_length_tooltip")}
           >
-            <NumericInput
+            <NumberInput
               value={originalLength}
-              onChange={(e) => {
-                setOriginalLength(e.target.value);
+              onValueChange={(value) => {
+                setOriginalLength(String(value));
                 if (error) setError('');
               }}
               placeholder={t("stress_strain.placeholders.original_length")}
@@ -362,10 +363,10 @@ export default function StressStrainCalculator() {
             label={t("stress_strain.change_in_length")}
             tooltip={t("stress_strain.change_in_length_tooltip")}
           >
-            <NumericInput
+            <NumberInput
               value={changeInLength}
-              onChange={(e) => {
-                setChangeInLength(e.target.value);
+              onValueChange={(value) => {
+                setChangeInLength(String(value));
                 if (error) setError('');
               }}
               placeholder={t("stress_strain.placeholders.change_in_length")}
@@ -381,10 +382,10 @@ export default function StressStrainCalculator() {
             label={t("stress_strain.stress")}
             tooltip={t("stress_strain.stress_tooltip")}
           >
-            <NumericInput
+            <NumberInput
               value={stress}
-              onChange={(e) => {
-                setStress(e.target.value);
+              onValueChange={(value) => {
+                setStress(String(value));
                 if (error) setError('');
               }}
               placeholder={t("stress_strain.placeholders.stress")}
@@ -401,10 +402,10 @@ export default function StressStrainCalculator() {
             label={t("stress_strain.strain")}
             tooltip={t("stress_strain.strain_tooltip")}
           >
-            <NumericInput
+            <NumberInput
               value={strain}
-              onChange={(e) => {
-                setStrain(e.target.value);
+              onValueChange={(value) => {
+                setStrain(String(value));
                 if (error) setError('');
               }}
               placeholder={t("stress_strain.placeholders.strain")}

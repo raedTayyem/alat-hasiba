@@ -2602,7 +2602,7 @@
     ]
   },
   "markup": {
-    "title": "حاسبة نسبة الربح (Markup)",
+    "title": "حاسبة",
     "description": "احسب نسبة الربح وسعر البيع من التكلفة.",
     "inputs": {
       "calculation_mode": "وضع الحساب",
@@ -2715,7 +2715,30 @@
         "question": "كيف أحوّل نسبة الربح إلى هامش ربح؟",
         "answer": "الهامش = نسبة الربح / (1 + نسبة الربح). لنسبة ربح 50%: 0.50 / 1.50 = 33.3% هامش. لنسبة ربح 100%: 1.00 / 2.00 = 50% هامش."
       }
-    ]
+    ],
+    "invalid_percentage": "غير صالح Percentage",
+    "invalid_selling_price": "غير صالح Selling سعر",
+    "calculation_mode": "Calculation Mode",
+    "calculation_mode_tooltip": "أدخل Calculation Mode",
+    "by_percentage": "By Percentage",
+    "by_selling_price": "By Selling سعر",
+    "cost": "تكلفة",
+    "cost_tooltip": "أدخل تكلفة",
+    "cost_placeholder": "أدخل تكلفة",
+    "markup_percentage": "Markup Percentage",
+    "markup_percentage_tooltip": "أدخل Markup Percentage",
+    "markup_percentage_placeholder": "أدخل Markup Percentage",
+    "selling_price": "Selling سعر",
+    "selling_price_tooltip": "أدخل Selling سعر",
+    "selling_price_placeholder": "أدخل Selling سعر",
+    "use_cases": "حالات الاستخدام الشائعة",
+    "use_case_1": "حالة الاستخدام الأساسية",
+    "use_case_2": "حالة استخدام ثانوية",
+    "use_case_3": "حالة استخدام إضافية",
+    "markup_amount": "Markup Amount",
+    "breakdown": "Breakdown",
+    "profit_margin": "Profit Margin",
+    "formula": "Formula"
   },
   "sales_tax": {
     "title": "حاسبة ضريبة المبيعات",
@@ -3441,7 +3464,7 @@
     ]
   },
   "inventory_turnover": {
-    "title": "حاسبة دوران المخزون",
+    "title": "حاسبة",
     "description": "احسب نسبة دوران المخزون لقياس كفاءة إدارة المخزون.",
     "cogs": "تكلفة البضاعة المباعة (COGS)",
     "cogs_tooltip": "إجمالي تكلفة البضاعة المباعة خلال الفترة",
@@ -3549,10 +3572,25 @@
         "question": "هل يجب استخدام COGS أم المبيعات؟",
         "answer": "COGS أدق لأنه يعكس تكلفة المخزون. استخدام المبيعات يضخم النسبة بسبب هامش الربح، لكنه مقبول إذا كان COGS غير متاح."
       }
-    ]
+    ],
+    "use_cases_title": "حالات الاستخدام",
+    "use_case_1": "حالة الاستخدام الأساسية",
+    "use_case_2": "حالة استخدام ثانوية",
+    "use_case_3": "حالة استخدام إضافية",
+    "turnover_ratio": "Turnover Ratio",
+    "times_per_year": "لكل Times سنة",
+    "metrics": "Metrics",
+    "days_to_sell": "أيام To Sell",
+    "days": "أيام",
+    "monthly_turnover": "شهري Turnover",
+    "per_month": "لكل شهر",
+    "interpretation_title": "Interpretation Title",
+    "interpretation_desc": "Interpretation Desc",
+    "formula_title": "Formula Title",
+    "formula_desc": "Formula Desc"
   },
   "labor_cost": {
-    "title": "حاسبة تكلفة العمالة",
+    "title": "حاسبة",
     "description": "احسب إجمالي تكاليف العمالة بما في ذلك الأجور والساعات والمزايا.",
     "hourly_rate": "الأجر بالساعة ($)",
     "hourly_rate_tooltip": "الأجر الأساسي بالساعة قبل المزايا",
@@ -3675,12 +3713,34 @@
         "question": "كيف أقارن بين موظف بدوام كامل ومتعاقد؟",
         "answer": "احسب التكلفة الإجمالية للموظف (راتب + مزايا + مصاريف عامة) وقارنها بسعر المتعاقد بالساعة × الساعات المتوقعة. راعِ أيضاً المرونة والالتزام."
       }
-    ]
+    ],
+    "invalid_benefits": "غير صالح Benefits",
+    "invalid_overhead": "غير صالح Overhead",
+    "invalid_employees": "غير صالح Employees",
+    "use_cases_title": "حالات الاستخدام",
+    "use_case_1": "حالة الاستخدام الأساسية",
+    "use_case_2": "حالة استخدام ثانوية",
+    "use_case_3": "حالة استخدام إضافية",
+    "weekly_total": "أسبوعي إجمالي",
+    "effective_hourly_rate": "Effective Hourly معدل",
+    "cost_breakdown": "تكلفة Breakdown",
+    "base_wages": "Base Wages",
+    "per_week": "لكل أسبوع",
+    "benefits_cost": "Benefits تكلفة",
+    "overhead_cost": "Overhead تكلفة",
+    "cost_multiplier": "تكلفة Multiplier",
+    "burden_rate": "Burden معدل",
+    "monthly_cost": "شهري تكلفة",
+    "per_month": "لكل شهر",
+    "annual_cost": "سنوي تكلفة",
+    "per_year": "لكل سنة",
+    "formula_title": "Formula Title",
+    "formula_desc": "Formula Desc"
   },
   "loan_amortization": {
-    "title": "حاسبة استهلاك القرض",
+    "title": "حاسبة",
     "description": "احسب أقساط القرض وأنشئ جدول استهلاك كامل يوضح تفاصيل الأصل والفائدة.",
-    "principal": "أصل القرض",
+    "principal": "Principal",
     "principal_tooltip": "المبلغ الإجمالي المقترض",
     "principal_placeholder": "مثال: 250000",
     "interest_rate": "معدل الفائدة السنوي (%)",
@@ -3715,7 +3775,24 @@
       "use_case_1": "التخطيط لأقساط الرهن العقاري",
       "use_case_2": "مقارنة خيارات القروض",
       "use_case_3": "فهم الأصل مقابل الفائدة بمرور الوقت"
-    }
+    },
+    "use_cases_title": "حالات الاستخدام",
+    "use_case_1": "حالة الاستخدام الأساسية",
+    "use_case_2": "حالة استخدام ثانوية",
+    "use_case_3": "حالة استخدام إضافية",
+    "monthly_payment": "شهري Payment",
+    "per_month": "لكل شهر",
+    "summary": "Summary",
+    "total_payments": "إجمالي Payments",
+    "total_interest": "إجمالي Interest",
+    "amortization_schedule": "Amortization Schedule",
+    "month": "شهر",
+    "payment": "Payment",
+    "interest": "Interest",
+    "balance": "Balance",
+    "show_less": "Show Less",
+    "formula_title": "Formula Title",
+    "formula_desc": "Formula Desc"
   },
   "lease": {
     "title": "حاسبة الإيجار",
@@ -4012,7 +4089,7 @@
     ]
   },
   "inflation": {
-    "title": "حاسبة التضخم",
+    "title": "حاسبة",
     "description": "احسب كيف يؤثر التضخم على القيمة المستقبلية للمال والقوة الشرائية بمرور الوقت.",
     "inputs": {
       "present_value": "القيمة الحالية",
@@ -4124,7 +4201,32 @@
         "question": "هل التضخم دائماً سيء؟",
         "answer": "التضخم المعتدل (2-3%) صحي للاقتصاد ويشجع الإنفاق والاستثمار. الانكماش (تضخم سلبي) والتضخم المفرط أخطر."
       }
-    ]
+    ],
+    "rate_too_low": "معدل Too Low",
+    "present_value": "Present قيمة",
+    "present_value_tooltip": "أدخل Present قيمة",
+    "present_value_placeholder": "أدخل Present قيمة",
+    "years": "سنوات",
+    "years_tooltip": "أدخل سنوات",
+    "years_placeholder": "أدخل سنوات",
+    "inflation_rate": "Inflation معدل",
+    "inflation_rate_tooltip": "أدخل Inflation معدل",
+    "inflation_rate_placeholder": "أدخل Inflation معدل",
+    "use_cases": "حالات الاستخدام الشائعة",
+    "use_case_1": "حالة الاستخدام الأساسية",
+    "use_case_2": "حالة استخدام ثانوية",
+    "use_case_3": "حالة استخدام إضافية",
+    "future_value": "Future قيمة",
+    "from_present": "From Present",
+    "analysis": "Analysis",
+    "total_inflation": "إجمالي Inflation",
+    "over_period": "Over Period",
+    "purchasing_power_loss": "Purchasing Power Loss",
+    "loss": "Loss",
+    "yearly_breakdown": "Yearly Breakdown",
+    "year": "سنة",
+    "formula_title": "Formula Title",
+    "formula": "Formula"
   },
   "salary": {
     "title": "حاسبة الراتب",
@@ -4255,7 +4357,7 @@
     ]
   },
   "hourly_wage": {
-    "title": "حاسبة الأجر بالساعة",
+    "title": "حاسبة",
     "description": "تحويل الراتب السنوي إلى أجر بالساعة وحساب الأرباح عبر فترات زمنية مختلفة.",
     "inputs": {
       "annual_salary": "الراتب السنوي",
@@ -4372,7 +4474,37 @@
         "question": "كيف أرفع أجري بالساعة؟",
         "answer": "اطلب زيادة، تفاوض على ساعات أقل، طور مهارات مطلوبة، انتقل لشركة أفضل، أو ابدأ عمل جانبي بسعر أعلى."
       }
-    ]
+    ],
+    "hours_too_high": "ساعات Too High",
+    "weeks_too_high": "أسابيع Too High",
+    "annual_salary": "سنوي راتب",
+    "annual_salary_tooltip": "أدخل سنوي راتب",
+    "annual_salary_placeholder": "أدخل سنوي راتب",
+    "hours_per_week": "لكل ساعات أسبوع",
+    "hours_per_week_tooltip": "أدخل ساعات Per أسبوع",
+    "hours_per_week_placeholder": "أدخل ساعات Per أسبوع",
+    "weeks_per_year": "لكل أسابيع سنة",
+    "weeks_per_year_tooltip": "أدخل أسابيع Per سنة",
+    "weeks_per_year_placeholder": "أدخل أسابيع Per سنة",
+    "use_cases": "حالات الاستخدام الشائعة",
+    "use_case_1": "حالة الاستخدام الأساسية",
+    "use_case_2": "حالة استخدام ثانوية",
+    "use_case_3": "حالة استخدام إضافية",
+    "hourly_rate": "Hourly معدل",
+    "per_hour": "لكل ساعة",
+    "breakdown": "Breakdown",
+    "daily": "يومي",
+    "per_day": "لكل يوم",
+    "weekly": "أسبوعي",
+    "per_week": "لكل أسبوع",
+    "bi_weekly": "Bi أسبوعي",
+    "every_two_weeks": "Every Two أسابيع",
+    "monthly": "شهري",
+    "per_month": "لكل شهر",
+    "annual": "سنوي",
+    "total_hours": "إجمالي ساعات",
+    "formula_title": "Formula Title",
+    "formula": "Formula"
   },
   "overtime": {
     "title": "حاسبة العمل الإضافي",
@@ -5118,7 +5250,7 @@
     ]
   },
   "ltv": {
-    "title": "حاسبة نسبة القرض إلى القيمة",
+    "title": "حاسبة",
     "description": "احسب نسبة القرض إلى القيمة (LTV) للرهون العقارية والقروض. نسبة LTV هي مقياس رئيسي يستخدمه المقرضون لتقييم المخاطر وتحديد شروط القرض.",
     "inputs": {
       "loan_amount": "مبلغ القرض",
@@ -5247,7 +5379,35 @@
         "question": "هل تؤثر نسبة LTV على سعر الفائدة؟",
         "answer": "نعم. نسبة LTV أقل تعني عادة أسعار فائدة أقل. قد تتحسن الأسعار عند عتبات 80% و75% و60% من LTV حسب المقرض."
       }
-    ]
+    ],
+    "loan_exceeds_property": "Loan Exceeds Property",
+    "loan_amount": "Loan Amount",
+    "loan_amount_tooltip": "أدخل Loan Amount",
+    "loan_amount_placeholder": "أدخل Loan Amount",
+    "property_value": "Property قيمة",
+    "property_value_tooltip": "أدخل Property قيمة",
+    "property_value_placeholder": "أدخل Property قيمة",
+    "use_cases": "حالات الاستخدام الشائعة",
+    "use_case_1": "حالة الاستخدام الأساسية",
+    "use_case_2": "حالة استخدام ثانوية",
+    "use_case_3": "حالة استخدام إضافية",
+    "ltv_ranges_title": "Ltv Ranges Title",
+    "ltv_range_low": "Ltv Range Low",
+    "ltv_range_moderate": "Ltv Range Moderate",
+    "ltv_range_high": "Ltv Range High",
+    "ltv_range_very_high": "Ltv Range Very High",
+    "ltv_ratio": "Ltv Ratio",
+    "breakdown": "Breakdown",
+    "equity": "Equity",
+    "down_payment": "Down Payment",
+    "pmi_required": "Pmi مطلوب",
+    "pmi_not_required": "Pmi Not مطلوب",
+    "pmi_explanation": "Pmi Explanation",
+    "no_pmi_explanation": "No Pmi Explanation",
+    "risk_assessment": "Risk Assessment",
+    "ltv_visual": "Ltv Visual",
+    "formula_title": "Formula Title",
+    "formula": "Formula"
   },
   "amazon_fba": {
     "title": "حاسبة رسوم أمازون FBA",
@@ -5425,7 +5585,7 @@
     }
   },
   "income_tax": {
-    "title": "حاسبة ضريبة الدخل",
+    "title": "حاسبة",
     "description": "احسب ضريبة الدخل بناءً على الشرائح الضريبية التصاعدية والخصومات.",
     "gross_income": "إجمالي الدخل",
     "gross_income_tooltip": "إجمالي دخلك قبل الخصومات",
@@ -5453,7 +5613,20 @@
       "use_case_1": "تقدير المسؤولية الضريبية السنوية",
       "use_case_2": "التخطيط للاستقطاع الضريبي والمدفوعات",
       "use_case_3": "مقارنة خيارات حالة التقديم"
-    }
+    },
+    "use_cases_title": "حالات الاستخدام",
+    "use_case_1": "حالة الاستخدام الأساسية",
+    "use_case_2": "حالة استخدام ثانوية",
+    "use_case_3": "حالة استخدام إضافية",
+    "total_tax": "إجمالي Tax",
+    "effective_rate": "Effective معدل",
+    "summary": "Summary",
+    "taxable_income": "Taxable دخل",
+    "after_tax_income": "After Tax دخل",
+    "bracket_breakdown": "Bracket Breakdown",
+    "on": "On",
+    "formula_title": "Formula Title",
+    "formula_desc": "Formula Desc"
   },
   "project_budget": {
     "title": "حاسبة ميزانية المشروع",

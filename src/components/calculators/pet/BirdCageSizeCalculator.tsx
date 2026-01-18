@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
@@ -88,7 +89,7 @@ export default function BirdCageSizeCalculator() {
         </InputContainer>
 
         <InputContainer label={t("bird_cage_calculator.number_of_birds")}>
-          <NumericInput value={numberOfBirds} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setNumberOfBirds(e.target.value)} unit={t("aquarium_calculator.fish")} placeholder="1" min={1} max={10} step={1} />
+          <NumberInput value={numberOfBirds} onValueChange={(val) => setNumberOfBirds(String(val))} unit={t("aquarium_calculator.fish")} placeholder="1" min={1} max={10} step={1} />
         </InputContainer>
       </div>
 

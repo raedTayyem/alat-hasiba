@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -98,9 +99,9 @@ export default function PetInsuranceCalculator() {
           label={t("pet-insurance-calculator.pet_age")}
           tooltip={t("pet-insurance-calculator.pet_age_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={petAge}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPetAge(e.target.value)}
+            onValueChange={(val) => setPetAge(String(val))}
             unit={t("pet-insurance-calculator.age_unit")}
             placeholder={t("pet-insurance-calculator.enter_age")}
             min={0}

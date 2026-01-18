@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
@@ -144,7 +145,7 @@ export default function ReptileTankCalculator() {
         </InputContainer>
 
         <InputContainer label={t("reptile-tank-calculator.reptile_length")}>
-          <NumericInput value={reptileLength} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setReptileLength(e.target.value)} unit={t("reptile-tank-calculator.cm")} placeholder={t("reptile-tank-calculator.enter_length")} min={0} max={200} step={1} />
+          <NumberInput value={reptileLength} onValueChange={(val) => setReptileLength(String(val))} unit={t("reptile-tank-calculator.cm")} placeholder={t("reptile-tank-calculator.enter_length")} min={0} max={200} step={1} />
         </InputContainer>
       </div>
 

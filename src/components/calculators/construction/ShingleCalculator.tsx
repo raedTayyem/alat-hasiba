@@ -17,7 +17,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Info, Layers, Package } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -215,12 +216,12 @@ export default function ShingleCalculator() {
           label={t("shingle.roof_area")}
           tooltip={t("shingle.roof_area_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={roofArea}
-            onChange={(e) => {
-              setRoofArea(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setRoofArea(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("shingle.placeholders.roof_area")}
             min={0}
             step={1}
@@ -232,12 +233,12 @@ export default function ShingleCalculator() {
           label={t("shingle.coverage_per_bundle")}
           tooltip={t("shingle.coverage_per_bundle_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={coveragePerBundle}
-            onChange={(e) => {
-              setCoveragePerBundle(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setCoveragePerBundle(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("shingle.placeholders.coverage")}
             min={1}
             step={0.1}
@@ -250,12 +251,12 @@ export default function ShingleCalculator() {
           label={t("shingle.waste_factor")}
           tooltip={t("shingle.waste_factor_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={wasteFactor}
-            onChange={(e) => {
-              setWasteFactor(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setWasteFactor(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("shingle.placeholders.waste")}
             min={0}
             max={100}
@@ -269,12 +270,12 @@ export default function ShingleCalculator() {
           label={t("shingle.ridge_length")}
           tooltip={t("shingle.ridge_length_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={ridgeLength}
-            onChange={(e) => {
-              setRidgeLength(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setRidgeLength(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("shingle.placeholders.ridge")}
             min={0}
             step={1}
@@ -287,12 +288,12 @@ export default function ShingleCalculator() {
           label={t("shingle.eaves_length")}
           tooltip={t("shingle.eaves_length_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={eavesLength}
-            onChange={(e) => {
-              setEavesLength(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setEavesLength(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("shingle.placeholders.eaves")}
             min={0}
             step={1}

@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
@@ -64,9 +65,9 @@ export default function AntennaCalculator() {
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("antenna.frequency")} tooltip={t("antenna.enter_frequency")}>
-          <NumericInput
+          <NumberInput
             value={frequency}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setFrequency(e.target.value)}
+            onValueChange={(val) => setFrequency(String(val))}
             unit={t("common:units.MHz")}
             placeholder={t("antenna.enter_frequency")}
             min={0}

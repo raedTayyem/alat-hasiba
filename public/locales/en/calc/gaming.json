@@ -1,1512 +1,1529 @@
 {
-    "title": "Gaming Calculators",
-    "description": "A collection of tools and calculators for gamers and esports enthusiasts to track performance and improve gameplay.",
-    "kd-ratio-calculator": {
-        "title": "K/D Ratio Calculator",
-        "description": "Calculate your Kill/Death ratio for competitive FPS games.",
-        "howItWorks": {
-            "title": "How K/D Ratio Calculator Works",
-            "formula": "K/D Ratio = Total Kills / Total Deaths",
-            "explanation": "The Kill/Death ratio measures your combat effectiveness in FPS games. A ratio above 1.0 means you get more kills than deaths on average.",
-            "steps": [
-                "Enter your total number of kills",
-                "Enter your total number of deaths",
-                "Optionally enter games played for per-game stats",
-                "View your K/D ratio and performance metrics"
-            ]
-        },
-        "useCases": [
-            "Tracking improvement in games like Call of Duty, CS2, or Valorant",
-            "Comparing performance across gaming sessions",
-            "Setting personal improvement goals",
-            "Evaluating weapon or loadout effectiveness"
-        ],
-        "seoTips": [
-            "A K/D of 1.0 means you're breaking even",
-            "Professional players often have K/D ratios of 2.0+",
-            "K/D alone doesn't measure objective play",
-            "Focus on improving rather than comparing to others",
-            "Track K/D over time to see real progress"
-        ],
-        "commonMistakes": [
-            "Obsessing over K/D at the expense of winning",
-            "Not tracking games played for context",
-            "Comparing K/D across different games",
-            "Ignoring objective contributions"
-        ],
-        "faqs": [
-            {
-                "question": "What is a good K/D ratio?",
-                "answer": "A K/D above 1.0 is above average. Casual players often have 0.8-1.2, while skilled players may have 1.5-2.0+. Pro players can exceed 3.0."
-            },
-            {
-                "question": "Does K/D matter in ranked play?",
-                "answer": "Winning matters more than K/D for ranking up. However, a good K/D usually correlates with winning more gunfights and helping your team."
-            },
-            {
-                "question": "How can I improve my K/D?",
-                "answer": "Focus on positioning, crosshair placement, and game sense. Die less by playing smarter, and practice aim in training modes."
-            }
-        ]
+  "title": "Gaming Calculators",
+  "description": "A collection of tools and calculators for gamers and esports enthusiasts to track performance and improve gameplay.",
+  "kd-ratio-calculator": {
+    "title": "K/D Ratio Calculator",
+    "description": "Calculate your Kill/Death ratio for competitive FPS games.",
+    "howItWorks": {
+      "title": "How K/D Ratio Calculator Works",
+      "formula": "K/D Ratio = Total Kills / Total Deaths",
+      "explanation": "The Kill/Death ratio measures your combat effectiveness in FPS games. A ratio above 1.0 means you get more kills than deaths on average.",
+      "steps": [
+        "Enter your total number of kills",
+        "Enter your total number of deaths",
+        "Optionally enter games played for per-game stats",
+        "View your K/D ratio and performance metrics"
+      ]
     },
-    "win-rate-calculator": {
-        "title": "Win Rate Calculator",
-        "description": "Calculate your overall win rate percentage and monitor your progression.",
-        "howItWorks": {
-            "title": "How Win Rate Calculator Works",
-            "formula": "Win Rate = (Wins / Total Games) × 100%",
-            "explanation": "Win rate measures your success percentage across all games played. It's the primary metric for ranked progression in most competitive games.",
-            "steps": [
-                "Enter your total number of wins",
-                "Enter your total number of losses",
-                "Optionally add draws if applicable",
-                "View your win rate and games needed for target rates"
-            ]
-        },
-        "useCases": [
-            "Tracking ranked progression in competitive games",
-            "Setting realistic climbing goals",
-            "Comparing performance on different champions/agents",
-            "Evaluating improvement over seasons"
-        ],
-        "seoTips": [
-            "50% win rate means you're at your true skill level",
-            "Climbing requires sustained win rates above 50%",
-            "Small sample sizes can be misleading",
-            "Track win rate by role or character for insights"
-        ],
-        "commonMistakes": [
-            "Drawing conclusions from too few games",
-            "Not accounting for different game modes",
-            "Ignoring the impact of teammates in team games",
-            "Comparing win rates across different ranks"
-        ],
-        "faqs": [
-            {
-                "question": "What win rate do I need to climb ranks?",
-                "answer": "You need above 50% to climb. A 55% win rate will climb steadily, while 60%+ will climb quickly. Most players stabilize around 50% at their true rank."
-            },
-            {
-                "question": "Is 50% win rate bad?",
-                "answer": "No, 50% means the matchmaking system has found your skill level. You're playing against equally skilled opponents, which is how ranking systems are designed."
-            },
-            {
-                "question": "How many games for accurate win rate?",
-                "answer": "Generally 50-100 games gives a reliable win rate. Fewer games means more variance due to luck or streaks."
-            }
-        ]
+    "useCases": [
+      "Tracking improvement in games like Call of Duty, CS2, or Valorant",
+      "Comparing performance across gaming sessions",
+      "Setting personal improvement goals",
+      "Evaluating weapon or loadout effectiveness"
+    ],
+    "seoTips": [
+      "A K/D of 1.0 means you're breaking even",
+      "Professional players often have K/D ratios of 2.0+",
+      "K/D alone doesn't measure objective play",
+      "Focus on improving rather than comparing to others",
+      "Track K/D over time to see real progress"
+    ],
+    "commonMistakes": [
+      "Obsessing over K/D at the expense of winning",
+      "Not tracking games played for context",
+      "Comparing K/D across different games",
+      "Ignoring objective contributions"
+    ],
+    "faqs": [
+      {
+        "question": "What is a good K/D ratio?",
+        "answer": "A K/D above 1.0 is above average. Casual players often have 0.8-1.2, while skilled players may have 1.5-2.0+. Pro players can exceed 3.0."
+      },
+      {
+        "question": "Does K/D matter in ranked play?",
+        "answer": "Winning matters more than K/D for ranking up. However, a good K/D usually correlates with winning more gunfights and helping your team."
+      },
+      {
+        "question": "How can I improve my K/D?",
+        "answer": "Focus on positioning, crosshair placement, and game sense. Die less by playing smarter, and practice aim in training modes."
+      }
+    ]
+  },
+  "win-rate-calculator": {
+    "title": "Win Rate Calculator",
+    "description": "Calculate your overall win rate percentage and monitor your progression.",
+    "howItWorks": {
+      "title": "How Win Rate Calculator Works",
+      "formula": "Win Rate = (Wins / Total Games) × 100%",
+      "explanation": "Win rate measures your success percentage across all games played. It's the primary metric for ranked progression in most competitive games.",
+      "steps": [
+        "Enter your total number of wins",
+        "Enter your total number of losses",
+        "Optionally add draws if applicable",
+        "View your win rate and games needed for target rates"
+      ]
     },
-    "kda-calculator": {
-        "title": "KDA Calculator",
-        "description": "Calculate Kill/Death/Assist ratio for MOBA and other competitive games.",
-        "howItWorks": {
-            "title": "How KDA Calculator Works",
-            "formula": "KDA = (Kills + Assists) / Deaths",
-            "explanation": "KDA measures your overall contribution in team fights, valuing both kills and assists while penalizing deaths.",
-            "steps": [
-                "Enter your total kills",
-                "Enter your total deaths",
-                "Enter your total assists",
-                "View KDA ratio and kill participation"
-            ]
-        },
-        "useCases": [
-            "Evaluating performance in MOBAs like League of Legends or Dota 2",
-            "Comparing different champion/hero performances",
-            "Measuring support player contributions",
-            "Tracking improvement over time"
-        ],
-        "seoTips": [
-            "Support players often have high assists but low kills",
-            "A KDA above 3.0 is generally considered good",
-            "Deaths matter most - dying less improves KDA significantly",
-            "Kill participation matters more than raw KDA"
-        ],
-        "commonMistakes": [
-            "Comparing KDA across different roles",
-            "Ignoring game context (winning vs losing)",
-            "Valuing KDA over objective play",
-            "Not considering team composition"
-        ],
-        "faqs": [
-            {
-                "question": "What is a good KDA?",
-                "answer": "Above 3.0 is good, above 4.0 is excellent. However, this varies by role - supports may have higher KDAs while carries may trade deaths for high-impact plays."
-            },
-            {
-                "question": "Why include assists in KDA?",
-                "answer": "Assists recognize contributions to team fights beyond last-hitting. This makes KDA more fair for support players and teamwork-oriented gameplay."
-            },
-            {
-                "question": "Is KDA the best performance metric?",
-                "answer": "No, KDA doesn't measure objectives, vision, map control, or clutch plays. It's one metric among many for evaluating performance."
-            }
-        ]
+    "useCases": [
+      "Tracking ranked progression in competitive games",
+      "Setting realistic climbing goals",
+      "Comparing performance on different champions/agents",
+      "Evaluating improvement over seasons"
+    ],
+    "seoTips": [
+      "50% win rate means you're at your true skill level",
+      "Climbing requires sustained win rates above 50%",
+      "Small sample sizes can be misleading",
+      "Track win rate by role or character for insights"
+    ],
+    "commonMistakes": [
+      "Drawing conclusions from too few games",
+      "Not accounting for different game modes",
+      "Ignoring the impact of teammates in team games",
+      "Comparing win rates across different ranks"
+    ],
+    "faqs": [
+      {
+        "question": "What win rate do I need to climb ranks?",
+        "answer": "You need above 50% to climb. A 55% win rate will climb steadily, while 60%+ will climb quickly. Most players stabilize around 50% at their true rank."
+      },
+      {
+        "question": "Is 50% win rate bad?",
+        "answer": "No, 50% means the matchmaking system has found your skill level. You're playing against equally skilled opponents, which is how ranking systems are designed."
+      },
+      {
+        "question": "How many games for accurate win rate?",
+        "answer": "Generally 50-100 games gives a reliable win rate. Fewer games means more variance due to luck or streaks."
+      }
+    ]
+  },
+  "kda-calculator": {
+    "title": "KDA Calculator",
+    "description": "Calculate Kill/Death/Assist ratio for MOBA and other competitive games.",
+    "howItWorks": {
+      "title": "How KDA Calculator Works",
+      "formula": "KDA = (Kills + Assists) / Deaths",
+      "explanation": "KDA measures your overall contribution in team fights, valuing both kills and assists while penalizing deaths.",
+      "steps": [
+        "Enter your total kills",
+        "Enter your total deaths",
+        "Enter your total assists",
+        "View KDA ratio and kill participation"
+      ]
     },
-    "xp-calculator": {
-        "title": "XP Calculator",
-        "description": "Calculate experience points (XP) needed for the next level in RPG games.",
-        "howItWorks": {
-            "title": "How XP Calculator Works",
-            "formula": "XP Needed = Target Level XP - Current XP",
-            "explanation": "This calculator helps you plan your leveling journey by showing how much experience you need and estimating time to reach your goal.",
-            "steps": [
-                "Enter your current level",
-                "Enter current XP in the level",
-                "Set your target level",
-                "Enter XP per level (if known)",
-                "View total XP needed and progress"
-            ]
-        },
-        "useCases": [
-            "Planning grinding sessions in RPGs",
-            "Estimating time to max level",
-            "Resource management for XP items",
-            "Comparing leveling efficiency"
-        ],
-        "seoTips": [
-            "Most games use exponential XP curves",
-            "Rested XP bonuses can significantly reduce grind time",
-            "Higher level content usually gives more XP",
-            "Group play often provides XP bonuses"
-        ],
-        "commonMistakes": [
-            "Assuming linear XP requirements",
-            "Not factoring in XP bonuses",
-            "Ignoring efficient grinding spots",
-            "Burning out from excessive grinding"
-        ],
-        "faqs": [
-            {
-                "question": "Why do games use exponential XP curves?",
-                "answer": "Exponential curves slow progression at higher levels, extending game content and giving a sense of accomplishment for reaching high levels."
-            },
-            {
-                "question": "How can I level up faster?",
-                "answer": "Use XP boosts, focus on efficient quests/content, group up for bonuses, and utilize rested XP. Research optimal routes for your specific game."
-            },
-            {
-                "question": "Does level matter in endgame?",
-                "answer": "Usually reaching max level is just the start of endgame content. The real progression often comes from gear, skills, or other systems."
-            }
-        ]
+    "useCases": [
+      "Evaluating performance in MOBAs like League of Legends or Dota 2",
+      "Comparing different champion/hero performances",
+      "Measuring support player contributions",
+      "Tracking improvement over time"
+    ],
+    "seoTips": [
+      "Support players often have high assists but low kills",
+      "A KDA above 3.0 is generally considered good",
+      "Deaths matter most - dying less improves KDA significantly",
+      "Kill participation matters more than raw KDA"
+    ],
+    "commonMistakes": [
+      "Comparing KDA across different roles",
+      "Ignoring game context (winning vs losing)",
+      "Valuing KDA over objective play",
+      "Not considering team composition"
+    ],
+    "faqs": [
+      {
+        "question": "What is a good KDA?",
+        "answer": "Above 3.0 is good, above 4.0 is excellent. However, this varies by role - supports may have higher KDAs while carries may trade deaths for high-impact plays."
+      },
+      {
+        "question": "Why include assists in KDA?",
+        "answer": "Assists recognize contributions to team fights beyond last-hitting. This makes KDA more fair for support players and teamwork-oriented gameplay."
+      },
+      {
+        "question": "Is KDA the best performance metric?",
+        "answer": "No, KDA doesn't measure objectives, vision, map control, or clutch plays. It's one metric among many for evaluating performance."
+      }
+    ]
+  },
+  "xp-calculator": {
+    "title": "XP Calculator",
+    "description": "Calculate experience points (XP) needed for the next level in RPG games.",
+    "howItWorks": {
+      "title": "How XP Calculator Works",
+      "formula": "XP Needed = Target Level XP - Current XP",
+      "explanation": "This calculator helps you plan your leveling journey by showing how much experience you need and estimating time to reach your goal.",
+      "steps": [
+        "Enter your current level",
+        "Enter current XP in the level",
+        "Set your target level",
+        "Enter XP per level (if known)",
+        "View total XP needed and progress"
+      ]
     },
-    "level-up-calculator": {
-        "title": "Level Up Calculator",
-        "description": "Calculate time required to reach target level in games.",
-        "howItWorks": {
-            "title": "How Level Up Calculator Works",
-            "formula": "Time = Total XP Needed / XP Per Hour",
-            "explanation": "Estimate how long it will take to reach your target level based on your XP earning rate and the game's leveling curve.",
-            "steps": [
-                "Enter your current level",
-                "Set your target level",
-                "Enter your average XP per hour",
-                "Input base XP per level",
-                "Set scaling factor if applicable",
-                "View estimated time to level"
-            ]
-        },
-        "useCases": [
-            "Planning gaming sessions effectively",
-            "Deciding whether to level alt characters",
-            "Comparing leveling methods",
-            "Setting realistic gaming goals"
-        ],
-        "seoTips": [
-            "Track your actual XP/hour for accurate estimates",
-            "Account for breaks and non-grinding time",
-            "Different activities have different XP rates",
-            "Events often boost XP significantly"
-        ],
-        "commonMistakes": [
-            "Overestimating sustainable XP rates",
-            "Not accounting for scaling XP requirements",
-            "Ignoring fatigue and diminishing returns",
-            "Forgetting travel and downtime"
-        ],
-        "faqs": [
-            {
-                "question": "How do I measure my XP per hour?",
-                "answer": "Note your XP at the start and after one hour of focused play. Do this several times for an accurate average."
-            },
-            {
-                "question": "Why does leveling slow down so much?",
-                "answer": "Most games use scaling XP requirements where each level needs more XP than the last. This extends gameplay and makes high levels feel meaningful."
-            },
-            {
-                "question": "Should I rush to max level?",
-                "answer": "Depends on the game. Some games have content at all levels worth experiencing. Others are designed around endgame content at max level."
-            }
-        ]
+    "useCases": [
+      "Planning grinding sessions in RPGs",
+      "Estimating time to max level",
+      "Resource management for XP items",
+      "Comparing leveling efficiency"
+    ],
+    "seoTips": [
+      "Most games use exponential XP curves",
+      "Rested XP bonuses can significantly reduce grind time",
+      "Higher level content usually gives more XP",
+      "Group play often provides XP bonuses"
+    ],
+    "commonMistakes": [
+      "Assuming linear XP requirements",
+      "Not factoring in XP bonuses",
+      "Ignoring efficient grinding spots",
+      "Burning out from excessive grinding"
+    ],
+    "faqs": [
+      {
+        "question": "Why do games use exponential XP curves?",
+        "answer": "Exponential curves slow progression at higher levels, extending game content and giving a sense of accomplishment for reaching high levels."
+      },
+      {
+        "question": "How can I level up faster?",
+        "answer": "Use XP boosts, focus on efficient quests/content, group up for bonuses, and utilize rested XP. Research optimal routes for your specific game."
+      },
+      {
+        "question": "Does level matter in endgame?",
+        "answer": "Usually reaching max level is just the start of endgame content. The real progression often comes from gear, skills, or other systems."
+      }
+    ]
+  },
+  "level-up-calculator": {
+    "title": "Level Up Calculator",
+    "description": "Calculate time required to reach target level in games.",
+    "howItWorks": {
+      "title": "How Level Up Calculator Works",
+      "formula": "Time = Total XP Needed / XP Per Hour",
+      "explanation": "Estimate how long it will take to reach your target level based on your XP earning rate and the game's leveling curve.",
+      "steps": [
+        "Enter your current level",
+        "Set your target level",
+        "Enter your average XP per hour",
+        "Input base XP per level",
+        "Set scaling factor if applicable",
+        "View estimated time to level"
+      ]
     },
-    "dps-calculator": {
-        "title": "DPS Calculator",
-        "description": "Calculate Damage Per Second (DPS) to maximize your combat efficiency.",
-        "howItWorks": {
-            "title": "How DPS Calculator Works",
-            "formula": "DPS = (Base Damage × (1 + Crit Chance × (Crit Multiplier - 1))) × Attack Speed",
-            "explanation": "DPS calculates your average damage output per second, factoring in base damage, attack speed, and critical hit statistics.",
-            "steps": [
-                "Enter damage per hit",
-                "Enter attacks per second",
-                "Add critical chance percentage",
-                "Set critical multiplier",
-                "View DPS and damage breakdowns"
-            ]
-        },
-        "useCases": [
-            "Comparing weapons and builds in RPGs",
-            "Optimizing gear and stats",
-            "Theorycrafting optimal loadouts",
-            "Evaluating damage upgrades"
-        ],
-        "seoTips": [
-            "DPS is just theoretical - actual combat varies",
-            "Consider uptime and practical application",
-            "Attack speed and crit often scale together",
-            "Don't neglect survivability for pure DPS"
-        ],
-        "commonMistakes": [
-            "Ignoring practical constraints like mana or stamina",
-            "Not considering boss mechanics and downtime",
-            "Overlooking synergies between stats",
-            "Sacrificing too much defense for offense"
-        ],
-        "faqs": [
-            {
-                "question": "Is higher DPS always better?",
-                "answer": "Not always. Burst damage, survivability, and utility matter too. A dead DPS does zero damage."
-            },
-            {
-                "question": "How do I increase my DPS?",
-                "answer": "Improve any factor in the formula: base damage, attack speed, crit chance, or crit multiplier. Often one stat is more efficient to stack."
-            },
-            {
-                "question": "Does this account for abilities?",
-                "answer": "This calculator covers basic attacks. For games with abilities, total DPS includes ability damage, cooldowns, and rotations."
-            }
-        ]
+    "useCases": [
+      "Planning gaming sessions effectively",
+      "Deciding whether to level alt characters",
+      "Comparing leveling methods",
+      "Setting realistic gaming goals"
+    ],
+    "seoTips": [
+      "Track your actual XP/hour for accurate estimates",
+      "Account for breaks and non-grinding time",
+      "Different activities have different XP rates",
+      "Events often boost XP significantly"
+    ],
+    "commonMistakes": [
+      "Overestimating sustainable XP rates",
+      "Not accounting for scaling XP requirements",
+      "Ignoring fatigue and diminishing returns",
+      "Forgetting travel and downtime"
+    ],
+    "faqs": [
+      {
+        "question": "How do I measure my XP per hour?",
+        "answer": "Note your XP at the start and after one hour of focused play. Do this several times for an accurate average."
+      },
+      {
+        "question": "Why does leveling slow down so much?",
+        "answer": "Most games use scaling XP requirements where each level needs more XP than the last. This extends gameplay and makes high levels feel meaningful."
+      },
+      {
+        "question": "Should I rush to max level?",
+        "answer": "Depends on the game. Some games have content at all levels worth experiencing. Others are designed around endgame content at max level."
+      }
+    ]
+  },
+  "dps-calculator": {
+    "title": "DPS Calculator",
+    "description": "Calculate Damage Per Second (DPS) to maximize your combat efficiency.",
+    "howItWorks": {
+      "title": "How DPS Calculator Works",
+      "formula": "DPS = (Base Damage × (1 + Crit Chance × (Crit Multiplier - 1))) × Attack Speed",
+      "explanation": "DPS calculates your average damage output per second, factoring in base damage, attack speed, and critical hit statistics.",
+      "steps": [
+        "Enter damage per hit",
+        "Enter attacks per second",
+        "Add critical chance percentage",
+        "Set critical multiplier",
+        "View DPS and damage breakdowns"
+      ]
     },
-    "loot-drop-calculator": {
-        "title": "Loot Drop Calculator",
-        "description": "Calculate the probability of obtaining rare loot based on stated drop rates.",
-        "howItWorks": {
-            "title": "How Loot Drop Calculator Works",
-            "formula": "Success Chance = 1 - (1 - Drop Rate)^Attempts",
-            "explanation": "Calculate the probability of getting at least one drop after multiple attempts, accounting for the nature of independent probability events.",
-            "steps": [
-                "Enter the drop rate percentage",
-                "Enter number of attempts",
-                "View success probability",
-                "See attempts needed for desired certainty"
-            ]
-        },
-        "useCases": [
-            "Planning farming sessions for rare items",
-            "Setting realistic expectations for RNG",
-            "Comparing different farming locations",
-            "Understanding probability in games"
-        ],
-        "seoTips": [
-            "Low drop rates require many more attempts than expected",
-            "A 1% drop rate doesn't guarantee success in 100 tries",
-            "Bad luck protection exists in some games",
-            "Track your actual attempts vs expected"
-        ],
-        "commonMistakes": [
-            "Thinking 1% means guaranteed in 100 tries",
-            "Not understanding independent probability",
-            "Rage quitting due to bad RNG streaks",
-            "Not factoring in attempt time"
-        ],
-        "faqs": [
-            {
-                "question": "Why haven't I gotten the drop after so many tries?",
-                "answer": "Each attempt is independent. Even at 95% cumulative chance, 5% of players still won't have the drop. Bad luck happens."
-            },
-            {
-                "question": "How many attempts for 50% chance?",
-                "answer": "For a drop rate of p, you need approximately 0.693/p attempts for 50% cumulative chance. For 1% drop: about 69 attempts."
-            },
-            {
-                "question": "What is bad luck protection?",
-                "answer": "Some games increase drop rates after failed attempts or guarantee drops after a certain number of tries. Check if your game has this."
-            }
-        ]
+    "useCases": [
+      "Comparing weapons and builds in RPGs",
+      "Optimizing gear and stats",
+      "Theorycrafting optimal loadouts",
+      "Evaluating damage upgrades"
+    ],
+    "seoTips": [
+      "DPS is just theoretical - actual combat varies",
+      "Consider uptime and practical application",
+      "Attack speed and crit often scale together",
+      "Don't neglect survivability for pure DPS"
+    ],
+    "commonMistakes": [
+      "Ignoring practical constraints like mana or stamina",
+      "Not considering boss mechanics and downtime",
+      "Overlooking synergies between stats",
+      "Sacrificing too much defense for offense"
+    ],
+    "faqs": [
+      {
+        "question": "Is higher DPS always better?",
+        "answer": "Not always. Burst damage, survivability, and utility matter too. A dead DPS does zero damage."
+      },
+      {
+        "question": "How do I increase my DPS?",
+        "answer": "Improve any factor in the formula: base damage, attack speed, crit chance, or crit multiplier. Often one stat is more efficient to stack."
+      },
+      {
+        "question": "Does this account for abilities?",
+        "answer": "This calculator covers basic attacks. For games with abilities, total DPS includes ability damage, cooldowns, and rotations."
+      }
+    ]
+  },
+  "loot-drop-calculator": {
+    "title": "Loot Drop Calculator",
+    "description": "Calculate the probability of obtaining rare loot based on stated drop rates.",
+    "howItWorks": {
+      "title": "How Loot Drop Calculator Works",
+      "formula": "Success Chance = 1 - (1 - Drop Rate)^Attempts",
+      "explanation": "Calculate the probability of getting at least one drop after multiple attempts, accounting for the nature of independent probability events.",
+      "steps": [
+        "Enter the drop rate percentage",
+        "Enter number of attempts",
+        "View success probability",
+        "See attempts needed for desired certainty"
+      ]
     },
-    "fps-calculator": {
-        "title": "FPS Calculator",
-        "description": "Estimate the expected frames per second (FPS) for your hardware in different games.",
-        "howItWorks": {
-            "title": "How FPS Calculator Works",
-            "formula": "Frame Time (ms) = 1000 / FPS",
-            "explanation": "Convert between FPS and frame time to understand performance characteristics and smoothness of gameplay.",
-            "steps": [
-                "Enter your current FPS",
-                "View corresponding frame time",
-                "See frames per minute and hour",
-                "Understand the smoothness level"
-            ]
-        },
-        "useCases": [
-            "Understanding game performance",
-            "Comparing monitor refresh rates",
-            "Troubleshooting stuttering issues",
-            "Setting performance targets"
-        ],
-        "seoTips": [
-            "60 FPS is considered smooth for most games",
-            "144+ FPS benefits competitive gaming",
-            "Frame time consistency matters as much as average FPS",
-            "Match FPS to monitor refresh rate when possible"
-        ],
-        "commonMistakes": [
-            "Only looking at average FPS, not frame times",
-            "Ignoring 1% low FPS figures",
-            "Running higher FPS than monitor can display",
-            "Not considering input lag"
-        ],
-        "faqs": [
-            {
-                "question": "What FPS do I need?",
-                "answer": "60 FPS is smooth for casual gaming. 144+ FPS provides advantages in competitive games. Diminishing returns exist above 240 FPS."
-            },
-            {
-                "question": "Why does frame time matter?",
-                "answer": "Consistent frame times feel smoother than high average FPS with spikes. 16.7ms consistent feels better than averaging 10ms with 50ms spikes."
-            },
-            {
-                "question": "Does higher FPS reduce input lag?",
-                "answer": "Yes, higher FPS means more recent frames are displayed, reducing the delay between your input and seeing the result on screen."
-            }
-        ]
+    "useCases": [
+      "Planning farming sessions for rare items",
+      "Setting realistic expectations for RNG",
+      "Comparing different farming locations",
+      "Understanding probability in games"
+    ],
+    "seoTips": [
+      "Low drop rates require many more attempts than expected",
+      "A 1% drop rate doesn't guarantee success in 100 tries",
+      "Bad luck protection exists in some games",
+      "Track your actual attempts vs expected"
+    ],
+    "commonMistakes": [
+      "Thinking 1% means guaranteed in 100 tries",
+      "Not understanding independent probability",
+      "Rage quitting due to bad RNG streaks",
+      "Not factoring in attempt time"
+    ],
+    "faqs": [
+      {
+        "question": "Why haven't I gotten the drop after so many tries?",
+        "answer": "Each attempt is independent. Even at 95% cumulative chance, 5% of players still won't have the drop. Bad luck happens."
+      },
+      {
+        "question": "How many attempts for 50% chance?",
+        "answer": "For a drop rate of p, you need approximately 0.693/p attempts for 50% cumulative chance. For 1% drop: about 69 attempts."
+      },
+      {
+        "question": "What is bad luck protection?",
+        "answer": "Some games increase drop rates after failed attempts or guarantee drops after a certain number of tries. Check if your game has this."
+      }
+    ]
+  },
+  "fps-calculator": {
+    "title": "FPS Calculator",
+    "description": "Estimate the expected frames per second (FPS) for your hardware in different games.",
+    "howItWorks": {
+      "title": "How FPS Calculator Works",
+      "formula": "Frame Time (ms) = 1000 / FPS",
+      "explanation": "Convert between FPS and frame time to understand performance characteristics and smoothness of gameplay.",
+      "steps": [
+        "Enter your current FPS",
+        "View corresponding frame time",
+        "See frames per minute and hour",
+        "Understand the smoothness level"
+      ]
     },
-    "fov-calculator": {
-        "title": "FOV Calculator",
-        "description": "Determine the optimal Field of View (FOV) based on your monitor size and distance.",
-        "howItWorks": {
-            "title": "How FOV Calculator Works",
-            "formula": "Conversions between horizontal, vertical, and aspect-ratio-based FOV",
-            "explanation": "Convert field of view values between different measurement types used by different games, accounting for your monitor's aspect ratio.",
-            "steps": [
-                "Enter your current FOV value",
-                "Select the FOV type (horizontal or vertical)",
-                "Choose your aspect ratio",
-                "View converted FOV values for different systems"
-            ]
-        },
-        "useCases": [
-            "Matching FOV settings across different games",
-            "Optimizing for your monitor and seating distance",
-            "Reducing motion sickness from wrong FOV",
-            "Transferring settings to new monitors"
-        ],
-        "seoTips": [
-            "Higher FOV sees more but targets appear smaller",
-            "90-110 horizontal FOV is common for PC gaming",
-            "Console games often use lower FOV defaults",
-            "Too high FOV can cause fisheye distortion"
-        ],
-        "commonMistakes": [
-            "Not knowing if game uses vertical or horizontal FOV",
-            "Setting FOV too high causing distortion",
-            "Not adjusting FOV when changing monitors",
-            "Copying pro settings without understanding why"
-        ],
-        "faqs": [
-            {
-                "question": "What FOV should I use?",
-                "answer": "Most PC players prefer 90-110 horizontal FOV. Lower if you sit far from the screen, higher if close. Find what feels natural and doesn't cause motion sickness."
-            },
-            {
-                "question": "Does FOV affect performance?",
-                "answer": "Higher FOV renders more of the world, which can slightly reduce FPS. The impact varies by game and is usually minimal."
-            },
-            {
-                "question": "Why do games use different FOV systems?",
-                "answer": "Some use horizontal FOV (based on screen width), others use vertical (based on height). This affects how FOV changes with aspect ratio."
-            }
-        ]
+    "useCases": [
+      "Understanding game performance",
+      "Comparing monitor refresh rates",
+      "Troubleshooting stuttering issues",
+      "Setting performance targets"
+    ],
+    "seoTips": [
+      "60 FPS is considered smooth for most games",
+      "144+ FPS benefits competitive gaming",
+      "Frame time consistency matters as much as average FPS",
+      "Match FPS to monitor refresh rate when possible"
+    ],
+    "commonMistakes": [
+      "Only looking at average FPS, not frame times",
+      "Ignoring 1% low FPS figures",
+      "Running higher FPS than monitor can display",
+      "Not considering input lag"
+    ],
+    "faqs": [
+      {
+        "question": "What FPS do I need?",
+        "answer": "60 FPS is smooth for casual gaming. 144+ FPS provides advantages in competitive games. Diminishing returns exist above 240 FPS."
+      },
+      {
+        "question": "Why does frame time matter?",
+        "answer": "Consistent frame times feel smoother than high average FPS with spikes. 16.7ms consistent feels better than averaging 10ms with 50ms spikes."
+      },
+      {
+        "question": "Does higher FPS reduce input lag?",
+        "answer": "Yes, higher FPS means more recent frames are displayed, reducing the delay between your input and seeing the result on screen."
+      }
+    ]
+  },
+  "fov-calculator": {
+    "title": "FOV Calculator",
+    "description": "Determine the optimal Field of View (FOV) based on your monitor size and distance.",
+    "howItWorks": {
+      "title": "How FOV Calculator Works",
+      "formula": "Conversions between horizontal, vertical, and aspect-ratio-based FOV",
+      "explanation": "Convert field of view values between different measurement types used by different games, accounting for your monitor's aspect ratio.",
+      "steps": [
+        "Enter your current FOV value",
+        "Select the FOV type (horizontal or vertical)",
+        "Choose your aspect ratio",
+        "View converted FOV values for different systems"
+      ]
     },
-    "minecraft-calculator": {
-        "title": "Minecraft Calculator",
-        "description": "A tool to help you calculate resources and complex recipes in the Minecraft world.",
-        "howItWorks": {
-            "title": "How Minecraft Calculator Works",
-            "formula": "Resource calculations based on stack sizes and crafting recipes",
-            "explanation": "Calculate building materials, crafting requirements, and optimal mining levels based on Minecraft's game mechanics.",
-            "steps": [
-                "Select calculation type (building, crafting, or ore)",
-                "Enter required blocks or select recipe",
-                "For ores, enter your Y-level",
-                "View materials needed and optimal strategies"
-            ]
-        },
-        "useCases": [
-            "Planning large survival builds",
-            "Calculating material requirements",
-            "Finding optimal mining heights",
-            "Efficient crafting without waste"
-        ],
-        "seoTips": [
-            "Diamonds are most common at Y-level -59",
-            "Stack size is 64 for most items",
-            "Stairs are less material-efficient than slabs",
-            "Mining at chunk borders can be efficient"
-        ],
-        "commonMistakes": [
-            "Mining at wrong Y-levels for target ore",
-            "Not accounting for tool durability",
-            "Forgetting Fortune III multiplies drops",
-            "Underestimating large build requirements"
-        ],
-        "faqs": [
-            {
-                "question": "What Y-level is best for diamonds?",
-                "answer": "In Minecraft 1.18+, diamonds are most common at Y-level -59. Mining at bedrock level (around -59 to -64) gives the best results."
-            },
-            {
-                "question": "How many blocks in a stack?",
-                "answer": "Most blocks stack to 64. Some items like ender pearls stack to 16, and tools/armor don't stack at all."
-            },
-            {
-                "question": "How do I calculate for a large build?",
-                "answer": "Measure your build dimensions, calculate total blocks needed, then divide by 64 for stacks. Factor in different materials and waste."
-            }
-        ]
+    "useCases": [
+      "Matching FOV settings across different games",
+      "Optimizing for your monitor and seating distance",
+      "Reducing motion sickness from wrong FOV",
+      "Transferring settings to new monitors"
+    ],
+    "seoTips": [
+      "Higher FOV sees more but targets appear smaller",
+      "90-110 horizontal FOV is common for PC gaming",
+      "Console games often use lower FOV defaults",
+      "Too high FOV can cause fisheye distortion"
+    ],
+    "commonMistakes": [
+      "Not knowing if game uses vertical or horizontal FOV",
+      "Setting FOV too high causing distortion",
+      "Not adjusting FOV when changing monitors",
+      "Copying pro settings without understanding why"
+    ],
+    "faqs": [
+      {
+        "question": "What FOV should I use?",
+        "answer": "Most PC players prefer 90-110 horizontal FOV. Lower if you sit far from the screen, higher if close. Find what feels natural and doesn't cause motion sickness."
+      },
+      {
+        "question": "Does FOV affect performance?",
+        "answer": "Higher FOV renders more of the world, which can slightly reduce FPS. The impact varies by game and is usually minimal."
+      },
+      {
+        "question": "Why do games use different FOV systems?",
+        "answer": "Some use horizontal FOV (based on screen width), others use vertical (based on height). This affects how FOV changes with aspect ratio."
+      }
+    ]
+  },
+  "minecraft-calculator": {
+    "title": "Minecraft Calculator",
+    "description": "A tool to help you calculate resources and complex recipes in the Minecraft world.",
+    "howItWorks": {
+      "title": "How Minecraft Calculator Works",
+      "formula": "Resource calculations based on stack sizes and crafting recipes",
+      "explanation": "Calculate building materials, crafting requirements, and optimal mining levels based on Minecraft's game mechanics.",
+      "steps": [
+        "Select calculation type (building, crafting, or ore)",
+        "Enter required blocks or select recipe",
+        "For ores, enter your Y-level",
+        "View materials needed and optimal strategies"
+      ]
     },
-    "fov": {
-        "title": "FOV Calculator",
-        "description": "Convert Field of View between different types and aspect ratios.",
-        "howItWorks": {
-            "title": "How the FOV Calculator Works",
-            "formula": "hFOV = 2 × arctan(tan(vFOV/2) × Aspect Ratio)",
-            "explanation": "This calculator converts field of view values between horizontal and vertical measurements across different aspect ratios. Since games use different FOV systems, this tool helps you maintain consistent visual settings when switching between titles or monitors.",
-            "steps": [
-                {
-                    "name": "Enter FOV Value",
-                    "text": "Input your current field of view setting from your game"
-                },
-                {
-                    "name": "Select FOV Type",
-                    "text": "Choose whether your game uses horizontal or vertical FOV"
-                },
-                {
-                    "name": "Choose Aspect Ratio",
-                    "text": "Select your monitor's aspect ratio for accurate conversion"
-                },
-                {
-                    "name": "View Conversions",
-                    "text": "See equivalent FOV values for different systems and aspect ratios"
-                }
-            ]
+    "useCases": [
+      "Planning large survival builds",
+      "Calculating material requirements",
+      "Finding optimal mining heights",
+      "Efficient crafting without waste"
+    ],
+    "seoTips": [
+      "Diamonds are most common at Y-level -59",
+      "Stack size is 64 for most items",
+      "Stairs are less material-efficient than slabs",
+      "Mining at chunk borders can be efficient"
+    ],
+    "commonMistakes": [
+      "Mining at wrong Y-levels for target ore",
+      "Not accounting for tool durability",
+      "Forgetting Fortune III multiplies drops",
+      "Underestimating large build requirements"
+    ],
+    "faqs": [
+      {
+        "question": "What Y-level is best for diamonds?",
+        "answer": "In Minecraft 1.18+, diamonds are most common at Y-level -59. Mining at bedrock level (around -59 to -64) gives the best results."
+      },
+      {
+        "question": "How many blocks in a stack?",
+        "answer": "Most blocks stack to 64. Some items like ender pearls stack to 16, and tools/armor don't stack at all."
+      },
+      {
+        "question": "How do I calculate for a large build?",
+        "answer": "Measure your build dimensions, calculate total blocks needed, then divide by 64 for stacks. Factor in different materials and waste."
+      }
+    ]
+  },
+  "fov": {
+    "title": "FOV Calculator",
+    "description": "Convert Field of View between different types and aspect ratios.",
+    "howItWorks": {
+      "title": "How the FOV Calculator Works",
+      "formula": "hFOV = 2 × arctan(tan(vFOV/2) × Aspect Ratio)",
+      "explanation": "This calculator converts field of view values between horizontal and vertical measurements across different aspect ratios. Since games use different FOV systems, this tool helps you maintain consistent visual settings when switching between titles or monitors.",
+      "steps": [
+        {
+          "name": "Enter FOV Value",
+          "text": "Input your current field of view setting from your game"
         },
-        "useCases": [
-            {
-                "title": "Cross-Game Consistency",
-                "description": "Match your preferred FOV across different games that use different measurement systems"
-            },
-            {
-                "title": "Monitor Upgrades",
-                "description": "Calculate new FOV settings when switching to a different aspect ratio monitor"
-            },
-            {
-                "title": "Motion Sickness Prevention",
-                "description": "Find the optimal FOV for your setup to reduce discomfort during gameplay"
-            },
-            {
-                "title": "Ultrawide Optimization",
-                "description": "Configure correct FOV for 21:9 and 32:9 ultrawide displays"
-            }
-        ],
-        "seoTips": [
-            "Most PC games use horizontal FOV between 90-110 degrees for comfortable play",
-            "Console ports often default to lower FOV designed for TV viewing distances",
-            "Ultrawide monitors need wider FOV to avoid zoomed-in tunnel vision effect",
-            "Your ideal FOV depends on monitor size and viewing distance"
-        ],
-        "commonMistakes": [
-            "Using the same FOV number across games without checking if they use horizontal or vertical measurement",
-            "Setting FOV too high causing extreme fisheye distortion at screen edges",
-            "Copying professional player FOV without considering different monitor setups",
-            "Not adjusting FOV after changing monitor size or sitting distance"
-        ],
-        "faqs": [
-            {
-                "question": "What is the difference between horizontal and vertical FOV?",
-                "answer": "Horizontal FOV measures the viewing angle across the screen width, while vertical FOV measures height. The same number means different actual views depending on which system a game uses."
-            },
-            {
-                "question": "Why do I feel sick at certain FOV settings?",
-                "answer": "FOV mismatch between your screen size and viewing distance tricks your brain. Too low FOV on a close monitor or too high FOV on a distant one causes motion sickness."
-            },
-            {
-                "question": "What FOV do professional players use?",
-                "answer": "Most competitive FPS players use 100-110 horizontal FOV. Lower FOV can make targets larger but limits peripheral vision, so optimal settings depend on game and playstyle."
-            }
-        ],
-        "inputs": {
-            "fov_value": "FOV Value",
-            "fov_type": "FOV Type",
-            "aspect_ratio": "Aspect Ratio"
+        {
+          "name": "Select FOV Type",
+          "text": "Choose whether your game uses horizontal or vertical FOV"
         },
-        "tooltips": {
-            "fov_value": "Enter the current FOV value",
-            "fov_type": "Select the type of FOV (Horizontal or Vertical)",
-            "aspect_ratio": "Select the aspect ratio of your screen"
+        {
+          "name": "Choose Aspect Ratio",
+          "text": "Select your monitor's aspect ratio for accurate conversion"
         },
-        "placeholders": {
-            "fov_value": "e.g. 90"
-        },
-        "options": {
-            "horizontal": "Horizontal (hFOV)",
-            "vertical": "Vertical (vFOV)"
-        },
-        "results": {
-            "horizontal": "Horizontal FOV",
-            "vertical": "Vertical FOV",
-            "fov_4_3": "FOV 4:3",
-            "fov_16_9": "FOV 16:9",
-            "fov_21_9": "FOV 21:9",
-            "fov_16_10": "FOV 16:10",
-            "fov_32_9": "FOV 32:9"
-        },
-        "errors": {
-            "invalid": "Please enter a valid number",
-            "range": "FOV must be between 0 and 180"
-        },
-        "info": {
-            "title": "About FOV",
-            "desc": "Field of View determines how much of the game world you can see. Different games use different measurement systems (Horizontal, Vertical, 4:3 Base)."
+        {
+          "name": "View Conversions",
+          "text": "See equivalent FOV values for different systems and aspect ratios"
         }
+      ]
     },
-    "dps": {
-        "title": "DPS Calculator",
-        "description": "Calculate Damage Per Second (DPS) to maximize your combat efficiency.",
-        "howItWorks": {
-            "title": "How the DPS Calculator Works",
-            "formula": "DPS = (Base Damage × (1 + Crit Chance × (Crit Multiplier - 1))) × Attack Speed",
-            "explanation": "DPS (Damage Per Second) is the fundamental metric for measuring offensive output in games. This calculator computes your average sustained damage by factoring in base damage, attack speed, critical hit chance, and critical damage multiplier to give you an accurate picture of your combat effectiveness.",
-            "steps": [
-                {
-                    "name": "Enter Base Damage",
-                    "text": "Input the damage dealt per single hit or attack"
-                },
-                {
-                    "name": "Set Attack Speed",
-                    "text": "Enter how many attacks you perform per second"
-                },
-                {
-                    "name": "Add Critical Stats",
-                    "text": "Input your critical hit chance percentage and damage multiplier"
-                },
-                {
-                    "name": "Review Results",
-                    "text": "See your DPS along with damage per minute and total damage over time"
-                }
-            ]
-        },
-        "useCases": [
-            {
-                "title": "Weapon Comparison",
-                "description": "Compare different weapons or gear setups to find the highest damage output for your build"
-            },
-            {
-                "title": "Build Optimization",
-                "description": "Determine whether to prioritize attack speed, base damage, or critical stats for maximum DPS"
-            },
-            {
-                "title": "Theorycrafting",
-                "description": "Plan optimal character builds before committing resources in RPGs and MMOs"
-            },
-            {
-                "title": "Boss Strategy",
-                "description": "Calculate expected time to defeat bosses based on your damage output"
-            }
-        ],
-        "seoTips": [
-            "Balance between base damage and attack speed often yields better DPS than maximizing one stat",
-            "Critical chance above 50% makes critical multiplier increasingly valuable",
-            "Consider practical uptime - theoretical DPS rarely matches actual combat performance",
-            "Factor in buffs, debuffs, and party synergies for accurate raid calculations"
-        ],
-        "commonMistakes": [
-            "Ignoring attack animation times and cooldowns in DPS calculations",
-            "Forgetting that some games have diminishing returns on attack speed",
-            "Not accounting for enemy resistances and armor when planning builds",
-            "Sacrificing too much survivability for marginal DPS gains"
-        ],
-        "faqs": [
-            {
-                "question": "What is a good DPS number?",
-                "answer": "DPS requirements vary dramatically between games and content. Compare your DPS to others in the same game and content level rather than looking for universal benchmarks."
-            },
-            {
-                "question": "Should I prioritize crit chance or crit damage?",
-                "answer": "Aim for a balance - generally 1:2 ratio of crit chance to crit damage is efficient. If you have 50% crit chance, 100% crit damage is optimal in most games."
-            },
-            {
-                "question": "Why is my actual DPS lower than calculated?",
-                "answer": "Real combat includes movement, dodging, ability cooldowns, target switching, and mechanics that reduce your effective damage uptime."
-            }
-        ],
-        "damage_label": "Damage Per Hit",
-        "damage_tooltip": "Average damage dealt per single hit",
-        "damage_placeholder": "e.g., 100",
-        "attack_speed_label": "Attacks Per Second",
-        "attack_speed_tooltip": "Number of attacks performed in one second",
-        "attack_speed_placeholder": "e.g., 1.5",
-        "crit_chance_label": "Critical Chance (%)",
-        "crit_chance_tooltip": "Probability of landing a critical hit",
-        "crit_chance_placeholder": "e.g., 20",
-        "crit_multiplier_label": "Critical Multiplier",
-        "crit_multiplier_tooltip": "Damage multiplier on critical hits (e.g., 2.0 for 200%)",
-        "crit_multiplier_placeholder": "e.g., 2.0",
-        "duration_label": "Duration (seconds)",
-        "duration_tooltip": "Time period to calculate total damage for",
-        "duration_placeholder": "e.g., 60",
-        "result_label": "Damage Per Second",
-        "result_unit": "DPS",
-        "additional_info_title": "Additional Information",
-        "dpm_label": "Damage Per Minute",
-        "dpm_unit": "DPM",
-        "total_damage_label": "Total Damage",
-        "total_damage_unit": "Damage",
-        "attacks_per_second_label": "Attack Rate",
-        "attacks_per_second_unit": "Attacks/Sec",
-        "formula_title": "How DPS is Calculated",
-        "formula_explanation": "DPS = (Base Damage * (1 - Crit Chance) + (Base Damage * Crit Multiplier * Crit Chance)) * Attack Speed",
-        "use_cases_title": "When to Use DPS Calculator?",
-        "use_case_1": "Comparing weapons or builds in RPGs/MMOs",
-        "use_case_2": "Optimizing loadouts for FPS games",
-        "use_case_3": "Theorycrafting for competitive gaming",
-        "error_invalid": "Please enter valid numbers",
-        "error_positive": "Damage and Speed must be positive",
-        "error_crit_range": "Critical Chance must be between 0 and 100",
-        "error_calculation": "An error occurred during calculation"
+    "useCases": [
+      {
+        "title": "Cross-Game Consistency",
+        "description": "Match your preferred FOV across different games that use different measurement systems"
+      },
+      {
+        "title": "Monitor Upgrades",
+        "description": "Calculate new FOV settings when switching to a different aspect ratio monitor"
+      },
+      {
+        "title": "Motion Sickness Prevention",
+        "description": "Find the optimal FOV for your setup to reduce discomfort during gameplay"
+      },
+      {
+        "title": "Ultrawide Optimization",
+        "description": "Configure correct FOV for 21:9 and 32:9 ultrawide displays"
+      }
+    ],
+    "seoTips": [
+      "Most PC games use horizontal FOV between 90-110 degrees for comfortable play",
+      "Console ports often default to lower FOV designed for TV viewing distances",
+      "Ultrawide monitors need wider FOV to avoid zoomed-in tunnel vision effect",
+      "Your ideal FOV depends on monitor size and viewing distance"
+    ],
+    "commonMistakes": [
+      "Using the same FOV number across games without checking if they use horizontal or vertical measurement",
+      "Setting FOV too high causing extreme fisheye distortion at screen edges",
+      "Copying professional player FOV without considering different monitor setups",
+      "Not adjusting FOV after changing monitor size or sitting distance"
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between horizontal and vertical FOV?",
+        "answer": "Horizontal FOV measures the viewing angle across the screen width, while vertical FOV measures height. The same number means different actual views depending on which system a game uses."
+      },
+      {
+        "question": "Why do I feel sick at certain FOV settings?",
+        "answer": "FOV mismatch between your screen size and viewing distance tricks your brain. Too low FOV on a close monitor or too high FOV on a distant one causes motion sickness."
+      },
+      {
+        "question": "What FOV do professional players use?",
+        "answer": "Most competitive FPS players use 100-110 horizontal FOV. Lower FOV can make targets larger but limits peripheral vision, so optimal settings depend on game and playstyle."
+      }
+    ],
+    "inputs": {
+      "fov_value": "FOV Value",
+      "fov_type": "FOV Type",
+      "aspect_ratio": "Aspect Ratio"
     },
-    "fps": {
-        "title": "FPS Calculator",
-        "description": "Estimate the expected frames per second (FPS) for your hardware in different games.",
-        "howItWorks": {
-            "title": "How the FPS Calculator Works",
-            "formula": "Frame Time (ms) = 1000 / FPS",
-            "explanation": "This calculator converts between frames per second (FPS) and frame time in milliseconds. Understanding frame time helps you analyze performance consistency and identify stuttering issues that average FPS alone cannot reveal.",
-            "steps": [
-                {
-                    "name": "Enter FPS Value",
-                    "text": "Input your current or target frames per second"
-                },
-                {
-                    "name": "View Frame Time",
-                    "text": "See the corresponding frame time in milliseconds"
-                },
-                {
-                    "name": "Analyze Performance",
-                    "text": "Compare frame times to understand smoothness and input lag"
-                },
-                {
-                    "name": "Check Extended Stats",
-                    "text": "View frames per minute and hour for benchmarking"
-                }
-            ]
-        },
-        "useCases": [
-            {
-                "title": "Performance Benchmarking",
-                "description": "Measure and compare game performance across different settings or hardware configurations"
-            },
-            {
-                "title": "Monitor Matching",
-                "description": "Determine if your FPS aligns with your monitor's refresh rate for optimal smoothness"
-            },
-            {
-                "title": "Stutter Analysis",
-                "description": "Convert FPS to frame time to identify inconsistent frame pacing issues"
-            },
-            {
-                "title": "Competitive Optimization",
-                "description": "Ensure your system delivers the frame rates needed for competitive gaming advantages"
-            }
-        ],
-        "seoTips": [
-            "Frame time consistency matters more than peak FPS for smooth gameplay",
-            "60 FPS equals 16.67ms frame time - the baseline for smooth gaming",
-            "Competitive esports players typically target 144+ FPS for reduced input lag",
-            "V-Sync eliminates screen tearing but adds input lag equal to one frame time"
-        ],
-        "commonMistakes": [
-            "Only monitoring average FPS while ignoring frame time spikes and 1% lows",
-            "Running uncapped FPS much higher than monitor refresh rate without benefit",
-            "Assuming higher FPS always means better performance without checking consistency",
-            "Not considering that different games have different FPS requirements"
-        ],
-        "faqs": [
-            {
-                "question": "Is 60 FPS enough for gaming?",
-                "answer": "60 FPS is smooth for single-player and casual games. Competitive multiplayer benefits from 144+ FPS for lower input lag and smoother motion tracking."
-            },
-            {
-                "question": "What causes stuttering even at high FPS?",
-                "answer": "Stuttering occurs when frame times are inconsistent. You might average 100 FPS but experience hitches if individual frames spike to 50ms or higher."
-            },
-            {
-                "question": "Does FPS above my monitor refresh rate help?",
-                "answer": "Yes, higher FPS reduces input lag even if your monitor cannot display all frames. This matters in competitive games where responsiveness is crucial."
-            }
-        ],
-        "fps_label": "Frames Per Second",
-        "fps_tooltip": "Current FPS value",
-        "fps_placeholder": "e.g., 60",
-        "result_label": "Frame Time",
-        "result_unit": "ms",
-        "frames_per_minute_label": "Frames Per Minute",
-        "frames_per_minute_unit": "Frames",
-        "frames_per_hour_label": "Frames Per Hour",
-        "frames_per_hour_unit": "Frames",
-        "formula_title": "How Frame Time is Calculated",
-        "formula_explanation": "Frame Time (ms) = 1000 / FPS. Lower frame time means smoother gameplay and less input lag.",
-        "use_cases_title": "Why Monitor FPS?",
-        "use_case_1": "To ensure smooth gameplay and responsiveness",
-        "use_case_2": "To benchmark hardware performance",
-        "use_case_3": "To optimize game settings for better visuals or performance",
-        "error_invalid": "Please enter a valid number",
-        "error_positive": "FPS must be greater than zero",
-        "error_calculation": "An error occurred during calculation"
+    "tooltips": {
+      "fov_value": "Enter the current FOV value",
+      "fov_type": "Select the type of FOV (Horizontal or Vertical)",
+      "aspect_ratio": "Select the aspect ratio of your screen"
     },
-    "loot_drop": {
-        "title": "Loot Drop Calculator",
-        "description": "Calculate the probability of obtaining rare loot based on stated drop rates.",
-        "howItWorks": {
-            "title": "How the Loot Drop Calculator Works",
-            "formula": "Success Probability = 1 - (1 - Drop Rate)^Attempts",
-            "explanation": "This calculator uses probability theory to determine your chances of obtaining at least one drop after a given number of attempts. It accounts for the independent nature of each drop attempt, showing you realistic expectations for farming rare items.",
-            "steps": [
-                {
-                    "name": "Enter Drop Rate",
-                    "text": "Input the stated drop percentage for the item you're farming"
-                },
-                {
-                    "name": "Set Attempts",
-                    "text": "Enter how many times you plan to try or have already attempted"
-                },
-                {
-                    "name": "View Success Chance",
-                    "text": "See your cumulative probability of getting at least one drop"
-                },
-                {
-                    "name": "Plan Your Farming",
-                    "text": "Check attempts needed for 95% and 99% confidence levels"
-                }
-            ]
-        },
-        "useCases": [
-            {
-                "title": "Farming Session Planning",
-                "description": "Determine how many runs you need to budget for a reasonable chance at rare drops"
-            },
-            {
-                "title": "Expectation Management",
-                "description": "Understand that low drop rates require more attempts than intuition suggests"
-            },
-            {
-                "title": "Efficiency Comparison",
-                "description": "Compare different farming locations by calculating drops per hour expectations"
-            },
-            {
-                "title": "Bad Luck Verification",
-                "description": "Check if your dry streak is statistically unusual or within normal variance"
-            }
-        ],
-        "seoTips": [
-            "A 1% drop rate does not guarantee the item in 100 attempts - you only have 63% chance",
-            "For 95% confidence on a 1% drop, you need approximately 300 attempts",
-            "Each attempt is independent - previous failures do not increase future chances",
-            "Some games have pity systems that increase drop rates after consecutive failures"
-        ],
-        "commonMistakes": [
-            "Believing that the gambler's fallacy applies - thinking you're 'due' for a drop",
-            "Not accounting for time per attempt when calculating farming efficiency",
-            "Assuming bad luck protection exists when the game has true random drops",
-            "Rage-quitting after statistically normal dry streaks"
-        ],
-        "faqs": [
-            {
-                "question": "Why haven't I gotten the drop after double the expected attempts?",
-                "answer": "With independent probability, about 13% of players will need more than double the expected attempts. This is normal variance, not broken RNG."
-            },
-            {
-                "question": "How do I know if a game has bad luck protection?",
-                "answer": "Check patch notes, datamined info, or community testing. Games with pity systems usually mention them, though some keep the mechanics hidden."
-            },
-            {
-                "question": "Should I give up after many failed attempts?",
-                "answer": "Past attempts don't affect future odds. Evaluate whether the item is worth more attempts based on your time, not sunk cost from previous tries."
-            }
-        ],
-        "drop_rate_label": "Drop Rate (%)",
-        "drop_rate_tooltip": "Chance of drop per single attempt",
-        "drop_rate_placeholder": "e.g., 5",
-        "attempts_label": "Number of Attempts",
-        "attempts_tooltip": "How many times you will try",
-        "attempts_placeholder": "e.g., 20",
-        "result_label": "Success Chance",
-        "result_unit": "Chance",
-        "additional_info_title": "Detailed Probability",
-        "fail_chance_label": "Chance of Failure",
-        "fail_chance_unit": "Fail",
-        "expected_attempts_label": "Expected Attempts",
-        "expected_attempts_unit": "Runs",
-        "guarantee_95_label": "Attempts for 95% Chance",
-        "guarantee_95_unit": "Runs",
-        "guarantee_99_label": "Attempts for 99% Chance",
-        "guarantee_99_unit": "Runs",
-        "formula_title": "How Drop Rate is Calculated",
-        "formula_explanation": "Probability = 1 - (1 - Drop Rate)^Attempts. This calculates the chance of getting at least one drop.",
-        "use_cases_title": "Why Calculate Drop Rates?",
-        "use_case_1": "To manage expectations for farming rare items",
-        "use_case_2": "To estimate time or resources needed",
-        "use_case_3": "To compare different farming spots",
-        "error_invalid": "Please enter valid numbers",
-        "error_rate_range": "Drop rate must be between 0 and 100",
-        "error_positive": "Attempts must be greater than zero",
-        "error_calculation": "An error occurred during calculation"
+    "placeholders": {
+      "fov_value": "e.g. 90"
     },
-    "kda": {
-        "title": "KDA Calculator",
-        "description": "Calculate Kill/Death/Assist ratio for MOBA and other competitive games.",
-        "howItWorks": {
-            "title": "How the KDA Calculator Works",
-            "formula": "KDA = (Kills + Assists) / Deaths",
-            "explanation": "KDA measures your overall contribution to team fights in MOBA and team-based games. Unlike K/D ratio, KDA credits assists equally with kills, making it a fairer metric for support players and team-oriented gameplay styles.",
-            "steps": [
-                {
-                    "name": "Enter Kills",
-                    "text": "Input your total number of kills across matches"
-                },
-                {
-                    "name": "Enter Deaths",
-                    "text": "Input your total number of deaths"
-                },
-                {
-                    "name": "Enter Assists",
-                    "text": "Input your total assists to get full KDA"
-                },
-                {
-                    "name": "Add Team Stats",
-                    "text": "Optionally enter team kills to see your kill participation percentage"
-                }
-            ]
-        },
-        "useCases": [
-            {
-                "title": "MOBA Performance Tracking",
-                "description": "Monitor your effectiveness in games like League of Legends, Dota 2, or Mobile Legends"
-            },
-            {
-                "title": "Champion Comparison",
-                "description": "Compare your performance across different champions or heroes to find your best picks"
-            },
-            {
-                "title": "Support Evaluation",
-                "description": "Fairly assess support player contributions where assists matter as much as kills"
-            },
-            {
-                "title": "Improvement Tracking",
-                "description": "Track KDA trends over time to measure skill development"
-            }
-        ],
-        "seoTips": [
-            "A KDA of 3.0 or higher is considered good in most MOBA games",
-            "Deaths impact KDA more significantly - dying less improves your ratio dramatically",
-            "Kill participation percentage often matters more than raw KDA for team contribution",
-            "Different roles have different expected KDA ranges - supports may have higher assists but fewer kills"
-        ],
-        "commonMistakes": [
-            "Comparing KDA between different roles without context",
-            "Prioritizing KDA over winning - sometimes deaths are worth it for objectives",
-            "Not considering game length and team composition when evaluating KDA",
-            "Ignoring kill participation which shows actual team fight involvement"
-        ],
-        "faqs": [
-            {
-                "question": "Is KDA or K/D more important?",
-                "answer": "KDA is generally more useful in team games as it recognizes assists. K/D matters more in FPS games where individual elimination performance is key."
-            },
-            {
-                "question": "What KDA should I aim for as a support?",
-                "answer": "Supports often have 4.0+ KDA due to high assists and low deaths. Focus on kill participation percentage (60%+) rather than raw KDA."
-            },
-            {
-                "question": "Why is my KDA good but I'm still losing?",
-                "answer": "KDA doesn't measure objective control, vision, map pressure, or shot-calling. High KDA with low impact on objectives leads to losses."
-            }
-        ],
-        "kills_label": "Kills",
-        "kills_tooltip": "Total number of kills",
-        "kills_placeholder": "e.g., 10",
-        "deaths_label": "Deaths",
-        "deaths_tooltip": "Total number of deaths",
-        "deaths_placeholder": "e.g., 5",
-        "assists_label": "Assists",
-        "assists_tooltip": "Total number of assists",
-        "assists_placeholder": "e.g., 15",
-        "games_label": "Games Played",
-        "games_tooltip": "Number of games played (for averages)",
-        "games_placeholder": "e.g., 1",
-        "team_kills_label": "Team Kills",
-        "team_kills_tooltip": "Total kills by your team (for kill participation)",
-        "team_kills_placeholder": "e.g., 40",
-        "result_label": "KDA Ratio",
-        "result_unit": "KDA",
-        "additional_info_title": "Detailed Statistics",
-        "kd_ratio_label": "K/D Ratio",
-        "kd_ratio_unit": "K/D",
-        "kill_participation_label": "Kill Participation",
-        "kill_participation_unit": "%",
-        "avg_kills_label": "Avg Kills/Game",
-        "avg_kills_unit": "Kills",
-        "avg_deaths_label": "Avg Deaths/Game",
-        "avg_deaths_unit": "Deaths",
-        "avg_assists_label": "Avg Assists/Game",
-        "avg_assists_unit": "Assists",
-        "formula_title": "How KDA is Calculated",
-        "formula_explanation": "KDA = (Kills + Assists) / Deaths. K/D Ratio ignores assists. Kill Participation is your contribution to team kills.",
-        "use_cases_title": "Why Track KDA?",
-        "use_case_1": "To measure overall performance and impact",
-        "use_case_2": "To compare stats across different matches",
-        "use_case_3": "To identify areas for improvement (e.g., reducing deaths)",
-        "error_invalid": "Please enter valid numbers",
-        "error_negative": "Values cannot be negative",
-        "error_calculation": "An error occurred during calculation"
+    "options": {
+      "horizontal": "Horizontal (hFOV)",
+      "vertical": "Vertical (vFOV)"
     },
-    "minecraft_calculator": {
-        "title": "Minecraft Calculator",
-        "description": "Resource calculations, ore distribution, and crafting recipes.",
-        "howItWorks": {
-            "title": "How the Minecraft Calculator Works",
-            "formula": "Stacks = Total Blocks / 64; Optimal Y-Level based on 1.18+ ore distribution",
-            "explanation": "This comprehensive Minecraft tool helps you calculate building material requirements, plan efficient crafting, and find optimal mining heights based on the current ore distribution system introduced in version 1.18.",
-            "steps": [
-                {
-                    "name": "Choose Calculation Type",
-                    "text": "Select building resources, crafting recipes, or ore distribution"
-                },
-                {
-                    "name": "Enter Requirements",
-                    "text": "Input block counts, recipe types, or current Y-level"
-                },
-                {
-                    "name": "Review Results",
-                    "text": "See stacks needed, crafting ratios, or ore spawn chances"
-                },
-                {
-                    "name": "Plan Efficiently",
-                    "text": "Use the data to optimize your gameplay strategy"
-                }
-            ]
-        },
-        "useCases": [
-            {
-                "title": "Large Build Planning",
-                "description": "Calculate exact material requirements for survival mega-builds before gathering"
-            },
-            {
-                "title": "Optimal Mining",
-                "description": "Find the best Y-level for each ore type in Minecraft 1.18+ world generation"
-            },
-            {
-                "title": "Efficient Crafting",
-                "description": "Determine material efficiency for slabs, stairs, and other shaped recipes"
-            },
-            {
-                "title": "Resource Management",
-                "description": "Track inventory in stacks and plan storage requirements"
-            }
-        ],
-        "seoTips": [
-            "Diamonds spawn most frequently at Y-level -59 in Minecraft 1.18+",
-            "Slabs give 6 output from 3 blocks - twice as efficient as full blocks for flooring",
-            "Iron ore has two spawn peaks: around Y=16 and Y=232",
-            "Fortune III can more than triple your diamond yield - always use it for ores"
-        ],
-        "commonMistakes": [
-            "Using outdated Y-level information from before the 1.18 cave update",
-            "Not accounting for Silk Touch vs Fortune when planning ore mining",
-            "Forgetting that some blocks like netherrack mine faster than calculated",
-            "Underestimating material needs for detailed builds with multiple block types"
-        ],
-        "faqs": [
-            {
-                "question": "What changed about ore distribution in 1.18?",
-                "answer": "Ores now use triangular distribution patterns with specific Y-level peaks instead of uniform spawning. The world also extends down to Y=-64, creating new optimal mining heights."
-            },
-            {
-                "question": "Are stairs or slabs more material efficient?",
-                "answer": "Slabs are more efficient (3 blocks make 6 slabs). Stairs use 6 blocks for 4 stairs. For pure efficiency, use slabs; stairs are for aesthetics."
-            },
-            {
-                "question": "How do I calculate materials for a circular build?",
-                "answer": "Use the building calculator for the bounding rectangle, then estimate about 78.5% of that for a circle (pi/4). Add extra for the actual pixelated shape."
-            }
-        ],
-        "calculation_type_label": "Calculation Type",
-        "calculation_type_tooltip": "Choose what you want to calculate",
-        "type_building": "Building Resources",
-        "type_crafting": "Crafting",
-        "type_ore": "Ore Distribution",
-        "blocks_label": "Number of Blocks",
-        "blocks_tooltip": "Total blocks needed",
-        "blocks_placeholder": "e.g., 640",
-        "recipe_label": "Recipe Type",
-        "recipe_tooltip": "What are you crafting?",
-        "recipe_blocks": "Blocks (1:1)",
-        "recipe_slabs": "Slabs (3:6)",
-        "recipe_stairs": "Stairs (6:4)",
-        "recipe_walls": "Walls (6:6)",
-        "recipe_fence": "Fence (4:3)",
-        "ore_type_label": "Ore Type",
-        "ore_type_tooltip": "Select ore to find",
-        "ore_coal": "Coal",
-        "ore_iron": "Iron",
-        "ore_gold": "Gold",
-        "ore_diamond": "Diamond",
-        "ore_redstone": "Redstone",
-        "ore_lapis": "Lapis Lazuli",
-        "ore_emerald": "Emerald",
-        "y_level_label": "Y-Level (Height)",
-        "y_level_tooltip": "Your current height coordinate",
-        "result_label": "Calculation Result",
-        "ore_chance": "Chance per block exposed",
-        "blocks_unit": "Blocks",
-        "additional_info_title": "Details",
-        "stacks_label": "Stacks (64)",
-        "stacks_unit": "stacks",
-        "remainder_label": "Remainder",
-        "time_label": "Estimated Build Time",
-        "time_unit": "seconds",
-        "blocks_per_ore_label": "Avg Blocks Mined per Ore",
-        "blocks_per_ore_unit": "blocks",
-        "no_ore": "None at this level",
-        "formula_title": "How it Works",
-        "formula_explanation": "Calculates resources based on stack size (64). Ore chances are based on 1.18+ distribution.",
-        "use_cases_title": "Useful For",
-        "use_case_1": "Planning large builds in Survival",
-        "use_case_2": "Optimizing mining strategies",
-        "use_case_3": "Crafting efficiently without waste",
-        "error_invalid": "Please enter a valid number",
-        "error_positive": "Number of blocks must be positive",
-        "error_y_range": "Y-level must be between -64 and 320"
+    "results": {
+      "horizontal": "Horizontal FOV",
+      "vertical": "Vertical FOV",
+      "fov_4_3": "FOV 4:3",
+      "fov_16_9": "FOV 16:9",
+      "fov_21_9": "FOV 21:9",
+      "fov_16_10": "FOV 16:10",
+      "fov_32_9": "FOV 32:9"
     },
-    "win_rate": {
-        "title": "Win Rate Calculator",
-        "description": "Calculate your overall win rate percentage and monitor your progression.",
-        "howItWorks": {
-            "title": "How the Win Rate Calculator Works",
-            "formula": "Win Rate = (Wins / Total Games) × 100%",
-            "explanation": "This calculator determines your winning percentage across all games played. Win rate is the primary metric for measuring success in ranked competitive games and helps you understand where you stand relative to the matchmaking system.",
-            "steps": [
-                {
-                    "name": "Enter Wins",
-                    "text": "Input your total number of victories"
-                },
-                {
-                    "name": "Enter Losses",
-                    "text": "Input your total number of defeats"
-                },
-                {
-                    "name": "Add Draws",
-                    "text": "Optionally include draws if your game has them"
-                },
-                {
-                    "name": "Review Statistics",
-                    "text": "See your win rate and games needed to reach target percentages"
-                }
-            ]
-        },
-        "useCases": [
-            {
-                "title": "Ranked Progression",
-                "description": "Track your win rate to understand your climbing potential in ranked modes"
-            },
-            {
-                "title": "Goal Setting",
-                "description": "Calculate how many wins you need to reach a target win rate percentage"
-            },
-            {
-                "title": "Character Analysis",
-                "description": "Compare win rates across different characters or champions to find your best picks"
-            },
-            {
-                "title": "Session Tracking",
-                "description": "Monitor daily or weekly win rates to identify performance patterns"
-            }
-        ],
-        "seoTips": [
-            "A 50% win rate means the matchmaking has found your true skill level",
-            "You need sustained 55%+ win rate to climb ranks meaningfully",
-            "Win rate stabilizes after approximately 100 games at a given rank",
-            "Duo queuing can affect win rate - track solo and party stats separately"
-        ],
-        "commonMistakes": [
-            "Drawing conclusions from too small a sample size (less than 30 games)",
-            "Not separating win rates by game mode or character",
-            "Comparing win rates across different ranks or skill levels",
-            "Ignoring external factors like time of day or patch changes"
-        ],
-        "faqs": [
-            {
-                "question": "What win rate do I need to climb?",
-                "answer": "Above 50% will result in climbing over time. 55% is steady progress, 60%+ is fast climbing. The exact LP/MMR gained varies by game."
-            },
-            {
-                "question": "Is 50% win rate bad?",
-                "answer": "No, 50% means perfect matchmaking - you're playing against equally skilled opponents. This is the intended stable state at your true rank."
-            },
-            {
-                "question": "Why is my win rate high but I'm not climbing?",
-                "answer": "Check your sample size. Also, some games have hidden MMR that may differ from displayed rank, affecting how quickly you visibly climb."
-            }
-        ],
-        "wins_label": "Wins",
-        "wins_tooltip": "Total number of wins",
-        "wins_placeholder": "e.g., 50",
-        "losses_label": "Losses",
-        "losses_tooltip": "Total number of losses",
-        "losses_placeholder": "e.g., 40",
-        "draws_label": "Draws (Optional)",
-        "draws_tooltip": "Total number of draws",
-        "draws_placeholder": "e.g., 5",
-        "result_label": "Win Rate",
-        "result_unit": "Win Rate",
-        "additional_info_title": "Additional Statistics",
-        "games_played_label": "Total Games",
-        "games_played_unit": "Games",
-        "loss_rate_label": "Loss Rate",
-        "loss_rate_unit": "Loss Rate",
-        "wins_for_50_label": "Wins needed for 50%",
-        "wins_for_50_unit": "Wins",
-        "wins_for_60_label": "Wins needed for 60%",
-        "wins_for_60_unit": "Wins",
-        "formula_title": "How Win Rate is Calculated",
-        "formula_explanation": "Win Rate = (Wins / Total Games) * 100. Total Games = Wins + Losses + Draws.",
-        "use_cases_title": "Why Track Win Rate?",
-        "use_case_1": "To gauge your skill level relative to others",
-        "use_case_2": "To track improvement over a season",
-        "use_case_3": "To set realistic goals for climbing ranks",
-        "error_invalid": "Please enter valid numbers",
-        "error_negative": "Values cannot be negative",
-        "error_no_games": "Total games must be greater than zero",
-        "error_calculation": "An error occurred during calculation"
+    "errors": {
+      "invalid": "Please enter a valid number",
+      "range": "FOV must be between 0 and 180"
     },
-    "xp": {
-        "title": "XP Calculator",
-        "description": "Calculate experience points (XP) needed for the next level in RPG games.",
-        "howItWorks": {
-            "title": "How the XP Calculator Works",
-            "formula": "XP Remaining = (Target Level - Current Level) × XP Per Level - Current XP",
-            "explanation": "This calculator helps you plan your leveling journey by determining how much experience you need to reach your goal. It works with linear XP systems and provides estimates for time and effort required.",
-            "steps": [
-                {
-                    "name": "Enter Current Level",
-                    "text": "Input your character's current level"
-                },
-                {
-                    "name": "Enter Current XP",
-                    "text": "Add your progress toward the next level"
-                },
-                {
-                    "name": "Set Target Level",
-                    "text": "Choose the level you want to reach"
-                },
-                {
-                    "name": "Configure XP Rate",
-                    "text": "Input the XP required per level in your game"
-                }
-            ]
-        },
-        "useCases": [
-            {
-                "title": "Grinding Planning",
-                "description": "Calculate how much XP you need to farm before reaching your target level"
-            },
-            {
-                "title": "Resource Management",
-                "description": "Determine how many XP items or boosts you need to consume"
-            },
-            {
-                "title": "Time Estimation",
-                "description": "Estimate how long it will take to reach max level at your current rate"
-            },
-            {
-                "title": "Efficiency Comparison",
-                "description": "Compare different leveling methods by their XP yield"
-            }
-        ],
-        "seoTips": [
-            "Most modern games use exponential XP curves - this calculator uses linear approximation",
-            "XP boosters and events can cut grinding time by 50% or more",
-            "Rested XP in many MMOs doubles XP gain for a limited amount",
-            "Higher level content typically gives proportionally more XP"
-        ],
-        "commonMistakes": [
-            "Assuming all games use linear XP requirements between levels",
-            "Not accounting for XP bonuses from gear, buffs, or group play",
-            "Burning out by grinding too intensively without breaks",
-            "Ignoring story content that often provides significant XP"
-        ],
-        "faqs": [
-            {
-                "question": "Why does leveling get slower at higher levels?",
-                "answer": "Most games use exponential XP curves where each level requires more XP than the last. This extends game content and makes high levels feel like achievements."
-            },
-            {
-                "question": "How can I level up faster?",
-                "answer": "Use XP boosts, complete high-reward content, group up for bonuses, take advantage of events, and use rested XP systems if available."
-            },
-            {
-                "question": "Should I rush to max level?",
-                "answer": "Depends on the game. Some games focus on endgame content at max level, while others have meaningful content at every level. Consider what content interests you."
-            }
-        ],
-        "current_level_label": "Current Level",
-        "current_level_tooltip": "Your current level in the game",
-        "current_level_placeholder": "e.g., 50",
-        "current_xp_label": "Current XP",
-        "current_xp_tooltip": "Experience points you currently have in this level",
-        "current_xp_placeholder": "e.g., 5000",
-        "target_level_label": "Target Level",
-        "target_level_tooltip": "Level you want to reach",
-        "target_level_placeholder": "e.g., 60",
-        "xp_per_level_label": "XP Per Level (Approx)",
-        "xp_per_level_tooltip": "Average or fixed XP needed per level (if constant)",
-        "xp_per_level_placeholder": "e.g., 10000",
-        "result_label": "XP Remaining",
-        "result_unit": "XP",
-        "additional_info_title": "Leveling Progress",
-        "levels_to_gain_label": "Levels to Gain",
-        "levels_to_gain_unit": "Levels",
-        "percent_complete_label": "Percent Complete",
-        "percent_complete_unit": "%",
-        "total_xp_label": "Total XP Required",
-        "total_xp_unit": "XP",
-        "formula_title": "How XP is Calculated",
-        "formula_explanation": "This calculator uses a simplified linear model: Total XP = Levels to Gain * XP per Level. Many games use exponential curves.",
-        "use_cases_title": "When to Use XP Calculator?",
-        "use_case_1": "Planning grinding sessions",
-        "use_case_2": "Estimating time to reach level cap",
-        "use_case_3": "Resource management for leveling items",
-        "error_invalid": "Please enter valid numbers",
-        "error_positive": "Levels and XP must be positive",
-        "error_target_higher": "Target level must be higher than current level",
-        "error_calculation": "An error occurred during calculation"
-    },
-    "kd_ratio": {
-        "title": "K/D Ratio Calculator",
-        "description": "Calculate your Kill/Death ratio for competitive FPS games and track your performance over time.",
-        "howItWorks": {
-            "title": "How the K/D Ratio Calculator Works",
-            "formula": "K/D Ratio = Total Kills / Total Deaths",
-            "explanation": "The Kill/Death ratio is the primary individual performance metric in FPS games. It measures how many enemies you eliminate for each time you die, providing insight into your combat effectiveness and survival skills.",
-            "steps": [
-                {
-                    "name": "Enter Total Kills",
-                    "text": "Input your cumulative kills across all matches"
-                },
-                {
-                    "name": "Enter Total Deaths",
-                    "text": "Input your cumulative deaths across all matches"
-                },
-                {
-                    "name": "Add Games Played",
-                    "text": "Optionally enter game count for per-match averages"
-                },
-                {
-                    "name": "Analyze Performance",
-                    "text": "Review your K/D ratio and efficiency metrics"
-                }
-            ]
-        },
-        "useCases": [
-            {
-                "title": "FPS Performance Tracking",
-                "description": "Monitor your combat effectiveness in games like Call of Duty, CS2, Valorant, and Apex Legends"
-            },
-            {
-                "title": "Improvement Measurement",
-                "description": "Track K/D over time to see if your gameplay is improving"
-            },
-            {
-                "title": "Loadout Comparison",
-                "description": "Compare your K/D with different weapons, classes, or playstyles"
-            },
-            {
-                "title": "Goal Setting",
-                "description": "Set realistic K/D improvement targets based on current performance"
-            }
-        ],
-        "seoTips": [
-            "A K/D of 1.0 means you break even - one kill per death",
-            "Average players typically have K/D between 0.8 and 1.2",
-            "Professional players often maintain K/D above 2.0",
-            "K/D improves faster by dying less than by getting more kills"
-        ],
-        "commonMistakes": [
-            "Obsessing over K/D at the expense of objective play and winning",
-            "Comparing K/D across different games with different mechanics",
-            "Not considering that K/D varies by game mode and map",
-            "Playing too passively to protect K/D instead of making impactful plays"
-        ],
-        "faqs": [
-            {
-                "question": "What is a good K/D ratio?",
-                "answer": "Above 1.0 is above average. 1.5+ is good, 2.0+ is excellent. However, context matters - aggressive objective play may lower K/D while still winning games."
-            },
-            {
-                "question": "How can I improve my K/D?",
-                "answer": "Focus on positioning, crosshair placement, map knowledge, and game sense. Dying less is often easier than getting more kills. Use aim trainers and review your deaths."
-            },
-            {
-                "question": "Does K/D affect matchmaking?",
-                "answer": "Most games use MMR/Elo systems based on wins, not K/D. However, high K/D usually correlates with winning more gunfights and thus winning more games."
-            }
-        ],
-        "kills_label": "Kills",
-        "kills_tooltip": "Total number of kills across all games",
-        "kills_placeholder": "e.g., 150",
-        "deaths_label": "Deaths",
-        "deaths_tooltip": "Total number of deaths across all games",
-        "deaths_placeholder": "e.g., 100",
-        "games_label": "Games Played",
-        "games_tooltip": "Number of games played (for calculating averages)",
-        "games_placeholder": "e.g., 20",
-        "error_invalid": "Please enter valid numbers",
-        "error_negative": "Values cannot be negative",
-        "error_calculation": "An error occurred during calculation",
-        "result_label": "K/D Ratio",
-        "result_unit": "K/D",
-        "additional_info_title": "Performance Statistics",
-        "avg_kills_label": "Average Kills Per Game",
-        "avg_kills_unit": "Kills",
-        "avg_deaths_label": "Average Deaths Per Game",
-        "avg_deaths_unit": "Deaths",
-        "kill_efficiency_label": "Kill Efficiency",
-        "kill_efficiency_unit": "%",
-        "info_title": "About K/D Ratio",
-        "info_description": "The Kill/Death ratio is a key performance metric in competitive FPS games. A K/D above 1.0 means you get more kills than deaths on average.",
-        "use_cases_title": "When to Use K/D Calculator?",
-        "use_case_1": "Tracking improvement in FPS games like Call of Duty or CS2",
-        "use_case_2": "Comparing performance across different gaming sessions",
-        "use_case_3": "Setting goals for competitive play and ranking up",
-        "formula_title": "How K/D is Calculated",
-        "formula_explanation": "K/D Ratio = Total Kills / Total Deaths. If deaths are zero, the ratio equals the number of kills (perfect ratio)."
-    },
-    "level_up": {
-        "title": "Level Up Calculator",
-        "description": "Calculate the time required to reach your target level in RPG and MMO games.",
-        "howItWorks": {
-            "title": "How the Level Up Calculator Works",
-            "formula": "Time = Total XP Required / XP Per Hour",
-            "explanation": "This calculator estimates how long it will take to reach your target level based on your XP earning rate and the game's leveling curve. It accounts for scaling XP requirements that increase with each level.",
-            "steps": [
-                {
-                    "name": "Enter Current Level",
-                    "text": "Input your starting level for the calculation"
-                },
-                {
-                    "name": "Set Target Level",
-                    "text": "Choose the level you want to reach"
-                },
-                {
-                    "name": "Input XP Per Hour",
-                    "text": "Enter your average experience points earned per hour"
-                },
-                {
-                    "name": "Configure Scaling",
-                    "text": "Set base XP per level and scaling factor for accuracy"
-                }
-            ]
-        },
-        "useCases": [
-            {
-                "title": "Session Planning",
-                "description": "Determine how many gaming sessions you need to reach a milestone level"
-            },
-            {
-                "title": "Activity Comparison",
-                "description": "Compare different activities by calculating which levels you fastest"
-            },
-            {
-                "title": "Alt Character Planning",
-                "description": "Decide if leveling an alternate character is worth the time investment"
-            },
-            {
-                "title": "Event Optimization",
-                "description": "Calculate how much you can level during limited-time XP boost events"
-            }
-        ],
-        "seoTips": [
-            "Track your actual XP per hour over multiple sessions for accurate estimates",
-            "XP events can double or triple your leveling speed - plan around them",
-            "Most games have natural breakpoints where XP requirements jump significantly",
-            "Group content often provides better XP per hour than solo play"
-        ],
-        "commonMistakes": [
-            "Overestimating sustainable XP rates by measuring only peak efficiency",
-            "Not accounting for breaks, inventory management, and travel time",
-            "Forgetting that XP requirements often scale exponentially, not linearly",
-            "Ignoring fatigue - long sessions often have diminishing XP per hour"
-        ],
-        "faqs": [
-            {
-                "question": "How do I measure my XP per hour accurately?",
-                "answer": "Note your XP at the start of a session and after one hour of normal play. Repeat several times and average the results for reliability."
-            },
-            {
-                "question": "Why is the later leveling so much slower?",
-                "answer": "Most games use exponential scaling where each level needs significantly more XP. A level 90-91 might need 10x the XP of level 10-11."
-            },
-            {
-                "question": "Is it better to grind or do quests?",
-                "answer": "Usually quests are faster for first-time leveling. Pure grinding becomes efficient when you know optimal spots and have overpowered gear for the content."
-            }
-        ],
-        "current_level_label": "Current Level",
-        "current_level_tooltip": "Your current level in the game",
-        "current_level_placeholder": "e.g., 25",
-        "target_level_label": "Target Level",
-        "target_level_tooltip": "The level you want to reach",
-        "target_level_placeholder": "e.g., 50",
-        "xp_per_hour_label": "XP Per Hour",
-        "xp_per_hour_tooltip": "Average experience points earned per hour of gameplay",
-        "xp_per_hour_placeholder": "e.g., 5000",
-        "xp_per_level_label": "Base XP Per Level",
-        "xp_per_level_tooltip": "Base experience points required to level up once",
-        "xp_per_level_placeholder": "e.g., 1000",
-        "scaling_factor_label": "Scaling Factor",
-        "scaling_factor_tooltip": "How much XP requirement increases per level (1.0 = no scaling, 1.1 = 10% increase)",
-        "scaling_factor_placeholder": "e.g., 1.1",
-        "error_invalid": "Please enter valid numbers",
-        "error_negative": "Values cannot be negative",
-        "error_target_higher": "Target level must be higher than current level",
-        "error_calculation": "An error occurred during calculation",
-        "result_label": "Time to Level Up",
-        "result_unit": "Hours",
-        "additional_info_title": "Leveling Details",
-        "total_xp_label": "Total XP Required",
-        "total_xp_unit": "XP",
-        "levels_to_gain_label": "Levels to Gain",
-        "levels_to_gain_unit": "Levels",
-        "xp_per_level_avg_label": "Average XP Per Level",
-        "xp_per_level_avg_unit": "XP",
-        "info_title": "About Level Up Calculator",
-        "info_description": "This calculator helps you estimate the time needed to reach your target level based on your XP earning rate and the game's leveling curve.",
-        "use_cases_title": "When to Use Level Up Calculator?",
-        "use_case_1": "Planning grinding sessions in MMORPGs",
-        "use_case_2": "Estimating time investment for reaching endgame content",
-        "use_case_3": "Comparing leveling efficiency between different activities",
-        "formula_title": "How Time is Calculated",
-        "formula_explanation": "Total XP = Sum of (Base XP * Scaling Factor^Level) for each level. Time = Total XP / XP Per Hour."
+    "info": {
+      "title": "About FOV",
+      "desc": "Field of View determines how much of the game world you can see. Different games use different measurement systems (Horizontal, Vertical, 4:3 Base)."
     }
+  },
+  "dps": {
+    "title": "DPS Calculator",
+    "description": "Calculate Damage Per Second (DPS) to maximize your combat efficiency.",
+    "howItWorks": {
+      "title": "How the DPS Calculator Works",
+      "formula": "DPS = (Base Damage × (1 + Crit Chance × (Crit Multiplier - 1))) × Attack Speed",
+      "explanation": "DPS (Damage Per Second) is the fundamental metric for measuring offensive output in games. This calculator computes your average sustained damage by factoring in base damage, attack speed, critical hit chance, and critical damage multiplier to give you an accurate picture of your combat effectiveness.",
+      "steps": [
+        {
+          "name": "Enter Base Damage",
+          "text": "Input the damage dealt per single hit or attack"
+        },
+        {
+          "name": "Set Attack Speed",
+          "text": "Enter how many attacks you perform per second"
+        },
+        {
+          "name": "Add Critical Stats",
+          "text": "Input your critical hit chance percentage and damage multiplier"
+        },
+        {
+          "name": "Review Results",
+          "text": "See your DPS along with damage per minute and total damage over time"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Weapon Comparison",
+        "description": "Compare different weapons or gear setups to find the highest damage output for your build"
+      },
+      {
+        "title": "Build Optimization",
+        "description": "Determine whether to prioritize attack speed, base damage, or critical stats for maximum DPS"
+      },
+      {
+        "title": "Theorycrafting",
+        "description": "Plan optimal character builds before committing resources in RPGs and MMOs"
+      },
+      {
+        "title": "Boss Strategy",
+        "description": "Calculate expected time to defeat bosses based on your damage output"
+      }
+    ],
+    "seoTips": [
+      "Balance between base damage and attack speed often yields better DPS than maximizing one stat",
+      "Critical chance above 50% makes critical multiplier increasingly valuable",
+      "Consider practical uptime - theoretical DPS rarely matches actual combat performance",
+      "Factor in buffs, debuffs, and party synergies for accurate raid calculations"
+    ],
+    "commonMistakes": [
+      "Ignoring attack animation times and cooldowns in DPS calculations",
+      "Forgetting that some games have diminishing returns on attack speed",
+      "Not accounting for enemy resistances and armor when planning builds",
+      "Sacrificing too much survivability for marginal DPS gains"
+    ],
+    "faqs": [
+      {
+        "question": "What is a good DPS number?",
+        "answer": "DPS requirements vary dramatically between games and content. Compare your DPS to others in the same game and content level rather than looking for universal benchmarks."
+      },
+      {
+        "question": "Should I prioritize crit chance or crit damage?",
+        "answer": "Aim for a balance - generally 1:2 ratio of crit chance to crit damage is efficient. If you have 50% crit chance, 100% crit damage is optimal in most games."
+      },
+      {
+        "question": "Why is my actual DPS lower than calculated?",
+        "answer": "Real combat includes movement, dodging, ability cooldowns, target switching, and mechanics that reduce your effective damage uptime."
+      }
+    ],
+    "damage_label": "Damage Per Hit",
+    "damage_tooltip": "Average damage dealt per single hit",
+    "damage_placeholder": "e.g., 100",
+    "attack_speed_label": "Attacks Per Second",
+    "attack_speed_tooltip": "Number of attacks performed in one second",
+    "attack_speed_placeholder": "e.g., 1.5",
+    "crit_chance_label": "Critical Chance (%)",
+    "crit_chance_tooltip": "Probability of landing a critical hit",
+    "crit_chance_placeholder": "e.g., 20",
+    "crit_multiplier_label": "Critical Multiplier",
+    "crit_multiplier_tooltip": "Damage multiplier on critical hits (e.g., 2.0 for 200%)",
+    "crit_multiplier_placeholder": "e.g., 2.0",
+    "duration_label": "Duration (seconds)",
+    "duration_tooltip": "Time period to calculate total damage for",
+    "duration_placeholder": "e.g., 60",
+    "result_label": "Damage Per Second",
+    "result_unit": "DPS",
+    "additional_info_title": "Additional Information",
+    "dpm_label": "Damage Per Minute",
+    "dpm_unit": "DPM",
+    "total_damage_label": "Total Damage",
+    "total_damage_unit": "Damage",
+    "attacks_per_second_label": "Attack Rate",
+    "attacks_per_second_unit": "Attacks/Sec",
+    "formula_title": "How DPS is Calculated",
+    "formula_explanation": "DPS = (Base Damage * (1 - Crit Chance) + (Base Damage * Crit Multiplier * Crit Chance)) * Attack Speed",
+    "use_cases_title": "When to Use DPS Calculator?",
+    "use_case_1": "Comparing weapons or builds in RPGs/MMOs",
+    "use_case_2": "Optimizing loadouts for FPS games",
+    "use_case_3": "Theorycrafting for competitive gaming",
+    "error_invalid": "Please enter valid numbers",
+    "error_positive": "Damage and Speed must be positive",
+    "error_crit_range": "Critical Chance must be between 0 and 100",
+    "error_calculation": "An error occurred during calculation"
+  },
+  "fps": {
+    "title": "FPS Calculator",
+    "description": "Estimate the expected frames per second (FPS) for your hardware in different games.",
+    "howItWorks": {
+      "title": "How the FPS Calculator Works",
+      "formula": "Frame Time (ms) = 1000 / FPS",
+      "explanation": "This calculator converts between frames per second (FPS) and frame time in milliseconds. Understanding frame time helps you analyze performance consistency and identify stuttering issues that average FPS alone cannot reveal.",
+      "steps": [
+        {
+          "name": "Enter FPS Value",
+          "text": "Input your current or target frames per second"
+        },
+        {
+          "name": "View Frame Time",
+          "text": "See the corresponding frame time in milliseconds"
+        },
+        {
+          "name": "Analyze Performance",
+          "text": "Compare frame times to understand smoothness and input lag"
+        },
+        {
+          "name": "Check Extended Stats",
+          "text": "View frames per minute and hour for benchmarking"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Performance Benchmarking",
+        "description": "Measure and compare game performance across different settings or hardware configurations"
+      },
+      {
+        "title": "Monitor Matching",
+        "description": "Determine if your FPS aligns with your monitor's refresh rate for optimal smoothness"
+      },
+      {
+        "title": "Stutter Analysis",
+        "description": "Convert FPS to frame time to identify inconsistent frame pacing issues"
+      },
+      {
+        "title": "Competitive Optimization",
+        "description": "Ensure your system delivers the frame rates needed for competitive gaming advantages"
+      }
+    ],
+    "seoTips": [
+      "Frame time consistency matters more than peak FPS for smooth gameplay",
+      "60 FPS equals 16.67ms frame time - the baseline for smooth gaming",
+      "Competitive esports players typically target 144+ FPS for reduced input lag",
+      "V-Sync eliminates screen tearing but adds input lag equal to one frame time"
+    ],
+    "commonMistakes": [
+      "Only monitoring average FPS while ignoring frame time spikes and 1% lows",
+      "Running uncapped FPS much higher than monitor refresh rate without benefit",
+      "Assuming higher FPS always means better performance without checking consistency",
+      "Not considering that different games have different FPS requirements"
+    ],
+    "faqs": [
+      {
+        "question": "Is 60 FPS enough for gaming?",
+        "answer": "60 FPS is smooth for single-player and casual games. Competitive multiplayer benefits from 144+ FPS for lower input lag and smoother motion tracking."
+      },
+      {
+        "question": "What causes stuttering even at high FPS?",
+        "answer": "Stuttering occurs when frame times are inconsistent. You might average 100 FPS but experience hitches if individual frames spike to 50ms or higher."
+      },
+      {
+        "question": "Does FPS above my monitor refresh rate help?",
+        "answer": "Yes, higher FPS reduces input lag even if your monitor cannot display all frames. This matters in competitive games where responsiveness is crucial."
+      }
+    ],
+    "fps_label": "Frames Per Second",
+    "fps_tooltip": "Current FPS value",
+    "fps_placeholder": "e.g., 60",
+    "result_label": "Frame Time",
+    "result_unit": "ms",
+    "frames_per_minute_label": "Frames Per Minute",
+    "frames_per_minute_unit": "Frames",
+    "frames_per_hour_label": "Frames Per Hour",
+    "frames_per_hour_unit": "Frames",
+    "formula_title": "How Frame Time is Calculated",
+    "formula_explanation": "Frame Time (ms) = 1000 / FPS. Lower frame time means smoother gameplay and less input lag.",
+    "use_cases_title": "Why Monitor FPS?",
+    "use_case_1": "To ensure smooth gameplay and responsiveness",
+    "use_case_2": "To benchmark hardware performance",
+    "use_case_3": "To optimize game settings for better visuals or performance",
+    "error_invalid": "Please enter a valid number",
+    "error_positive": "FPS must be greater than zero",
+    "error_calculation": "An error occurred during calculation"
+  },
+  "loot_drop": {
+    "title": "Loot Drop Calculator",
+    "description": "Calculate the probability of obtaining rare loot based on stated drop rates.",
+    "howItWorks": {
+      "title": "How the Loot Drop Calculator Works",
+      "formula": "Success Probability = 1 - (1 - Drop Rate)^Attempts",
+      "explanation": "This calculator uses probability theory to determine your chances of obtaining at least one drop after a given number of attempts. It accounts for the independent nature of each drop attempt, showing you realistic expectations for farming rare items.",
+      "steps": [
+        {
+          "name": "Enter Drop Rate",
+          "text": "Input the stated drop percentage for the item you're farming"
+        },
+        {
+          "name": "Set Attempts",
+          "text": "Enter how many times you plan to try or have already attempted"
+        },
+        {
+          "name": "View Success Chance",
+          "text": "See your cumulative probability of getting at least one drop"
+        },
+        {
+          "name": "Plan Your Farming",
+          "text": "Check attempts needed for 95% and 99% confidence levels"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Farming Session Planning",
+        "description": "Determine how many runs you need to budget for a reasonable chance at rare drops"
+      },
+      {
+        "title": "Expectation Management",
+        "description": "Understand that low drop rates require more attempts than intuition suggests"
+      },
+      {
+        "title": "Efficiency Comparison",
+        "description": "Compare different farming locations by calculating drops per hour expectations"
+      },
+      {
+        "title": "Bad Luck Verification",
+        "description": "Check if your dry streak is statistically unusual or within normal variance"
+      }
+    ],
+    "seoTips": [
+      "A 1% drop rate does not guarantee the item in 100 attempts - you only have 63% chance",
+      "For 95% confidence on a 1% drop, you need approximately 300 attempts",
+      "Each attempt is independent - previous failures do not increase future chances",
+      "Some games have pity systems that increase drop rates after consecutive failures"
+    ],
+    "commonMistakes": [
+      "Believing that the gambler's fallacy applies - thinking you're 'due' for a drop",
+      "Not accounting for time per attempt when calculating farming efficiency",
+      "Assuming bad luck protection exists when the game has true random drops",
+      "Rage-quitting after statistically normal dry streaks"
+    ],
+    "faqs": [
+      {
+        "question": "Why haven't I gotten the drop after double the expected attempts?",
+        "answer": "With independent probability, about 13% of players will need more than double the expected attempts. This is normal variance, not broken RNG."
+      },
+      {
+        "question": "How do I know if a game has bad luck protection?",
+        "answer": "Check patch notes, datamined info, or community testing. Games with pity systems usually mention them, though some keep the mechanics hidden."
+      },
+      {
+        "question": "Should I give up after many failed attempts?",
+        "answer": "Past attempts don't affect future odds. Evaluate whether the item is worth more attempts based on your time, not sunk cost from previous tries."
+      }
+    ],
+    "drop_rate_label": "Drop Rate (%)",
+    "drop_rate_tooltip": "Chance of drop per single attempt",
+    "drop_rate_placeholder": "e.g., 5",
+    "attempts_label": "Number of Attempts",
+    "attempts_tooltip": "How many times you will try",
+    "attempts_placeholder": "e.g., 20",
+    "result_label": "Success Chance",
+    "result_unit": "Chance",
+    "additional_info_title": "Detailed Probability",
+    "fail_chance_label": "Chance of Failure",
+    "fail_chance_unit": "Fail",
+    "expected_attempts_label": "Expected Attempts",
+    "expected_attempts_unit": "Runs",
+    "guarantee_95_label": "Attempts for 95% Chance",
+    "guarantee_95_unit": "Runs",
+    "guarantee_99_label": "Attempts for 99% Chance",
+    "guarantee_99_unit": "Runs",
+    "formula_title": "How Drop Rate is Calculated",
+    "formula_explanation": "Probability = 1 - (1 - Drop Rate)^Attempts. This calculates the chance of getting at least one drop.",
+    "use_cases_title": "Why Calculate Drop Rates?",
+    "use_case_1": "To manage expectations for farming rare items",
+    "use_case_2": "To estimate time or resources needed",
+    "use_case_3": "To compare different farming spots",
+    "error_invalid": "Please enter valid numbers",
+    "error_rate_range": "Drop rate must be between 0 and 100",
+    "error_positive": "Attempts must be greater than zero",
+    "error_calculation": "An error occurred during calculation",
+    "info_title": "Information",
+    "info_description": "Info Description"
+  },
+  "kda": {
+    "title": "KDA Calculator",
+    "description": "Calculate Kill/Death/Assist ratio for MOBA and other competitive games.",
+    "howItWorks": {
+      "title": "How the KDA Calculator Works",
+      "formula": "KDA = (Kills + Assists) / Deaths",
+      "explanation": "KDA measures your overall contribution to team fights in MOBA and team-based games. Unlike K/D ratio, KDA credits assists equally with kills, making it a fairer metric for support players and team-oriented gameplay styles.",
+      "steps": [
+        {
+          "name": "Enter Kills",
+          "text": "Input your total number of kills across matches"
+        },
+        {
+          "name": "Enter Deaths",
+          "text": "Input your total number of deaths"
+        },
+        {
+          "name": "Enter Assists",
+          "text": "Input your total assists to get full KDA"
+        },
+        {
+          "name": "Add Team Stats",
+          "text": "Optionally enter team kills to see your kill participation percentage"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "MOBA Performance Tracking",
+        "description": "Monitor your effectiveness in games like League of Legends, Dota 2, or Mobile Legends"
+      },
+      {
+        "title": "Champion Comparison",
+        "description": "Compare your performance across different champions or heroes to find your best picks"
+      },
+      {
+        "title": "Support Evaluation",
+        "description": "Fairly assess support player contributions where assists matter as much as kills"
+      },
+      {
+        "title": "Improvement Tracking",
+        "description": "Track KDA trends over time to measure skill development"
+      }
+    ],
+    "seoTips": [
+      "A KDA of 3.0 or higher is considered good in most MOBA games",
+      "Deaths impact KDA more significantly - dying less improves your ratio dramatically",
+      "Kill participation percentage often matters more than raw KDA for team contribution",
+      "Different roles have different expected KDA ranges - supports may have higher assists but fewer kills"
+    ],
+    "commonMistakes": [
+      "Comparing KDA between different roles without context",
+      "Prioritizing KDA over winning - sometimes deaths are worth it for objectives",
+      "Not considering game length and team composition when evaluating KDA",
+      "Ignoring kill participation which shows actual team fight involvement"
+    ],
+    "faqs": [
+      {
+        "question": "Is KDA or K/D more important?",
+        "answer": "KDA is generally more useful in team games as it recognizes assists. K/D matters more in FPS games where individual elimination performance is key."
+      },
+      {
+        "question": "What KDA should I aim for as a support?",
+        "answer": "Supports often have 4.0+ KDA due to high assists and low deaths. Focus on kill participation percentage (60%+) rather than raw KDA."
+      },
+      {
+        "question": "Why is my KDA good but I'm still losing?",
+        "answer": "KDA doesn't measure objective control, vision, map pressure, or shot-calling. High KDA with low impact on objectives leads to losses."
+      }
+    ],
+    "kills_label": "Kills",
+    "kills_tooltip": "Total number of kills",
+    "kills_placeholder": "e.g., 10",
+    "deaths_label": "Deaths",
+    "deaths_tooltip": "Total number of deaths",
+    "deaths_placeholder": "e.g., 5",
+    "assists_label": "Assists",
+    "assists_tooltip": "Total number of assists",
+    "assists_placeholder": "e.g., 15",
+    "games_label": "Games Played",
+    "games_tooltip": "Number of games played (for averages)",
+    "games_placeholder": "e.g., 1",
+    "team_kills_label": "Team Kills",
+    "team_kills_tooltip": "Total kills by your team (for kill participation)",
+    "team_kills_placeholder": "e.g., 40",
+    "result_label": "KDA Ratio",
+    "result_unit": "KDA",
+    "additional_info_title": "Detailed Statistics",
+    "kd_ratio_label": "K/D Ratio",
+    "kd_ratio_unit": "K/D",
+    "kill_participation_label": "Kill Participation",
+    "kill_participation_unit": "%",
+    "avg_kills_label": "Avg Kills/Game",
+    "avg_kills_unit": "Kills",
+    "avg_deaths_label": "Avg Deaths/Game",
+    "avg_deaths_unit": "Deaths",
+    "avg_assists_label": "Avg Assists/Game",
+    "avg_assists_unit": "Assists",
+    "formula_title": "How KDA is Calculated",
+    "formula_explanation": "KDA = (Kills + Assists) / Deaths. K/D Ratio ignores assists. Kill Participation is your contribution to team kills.",
+    "use_cases_title": "Why Track KDA?",
+    "use_case_1": "To measure overall performance and impact",
+    "use_case_2": "To compare stats across different matches",
+    "use_case_3": "To identify areas for improvement (e.g., reducing deaths)",
+    "error_invalid": "Please enter valid numbers",
+    "error_negative": "Values cannot be negative",
+    "error_calculation": "An error occurred during calculation",
+    "info_title": "Information",
+    "info_description": "Info Description"
+  },
+  "minecraft_calculator": {
+    "title": "Minecraft Calculator",
+    "description": "Resource calculations, ore distribution, and crafting recipes.",
+    "howItWorks": {
+      "title": "How the Minecraft Calculator Works",
+      "formula": "Stacks = Total Blocks / 64; Optimal Y-Level based on 1.18+ ore distribution",
+      "explanation": "This comprehensive Minecraft tool helps you calculate building material requirements, plan efficient crafting, and find optimal mining heights based on the current ore distribution system introduced in version 1.18.",
+      "steps": [
+        {
+          "name": "Choose Calculation Type",
+          "text": "Select building resources, crafting recipes, or ore distribution"
+        },
+        {
+          "name": "Enter Requirements",
+          "text": "Input block counts, recipe types, or current Y-level"
+        },
+        {
+          "name": "Review Results",
+          "text": "See stacks needed, crafting ratios, or ore spawn chances"
+        },
+        {
+          "name": "Plan Efficiently",
+          "text": "Use the data to optimize your gameplay strategy"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Large Build Planning",
+        "description": "Calculate exact material requirements for survival mega-builds before gathering"
+      },
+      {
+        "title": "Optimal Mining",
+        "description": "Find the best Y-level for each ore type in Minecraft 1.18+ world generation"
+      },
+      {
+        "title": "Efficient Crafting",
+        "description": "Determine material efficiency for slabs, stairs, and other shaped recipes"
+      },
+      {
+        "title": "Resource Management",
+        "description": "Track inventory in stacks and plan storage requirements"
+      }
+    ],
+    "seoTips": [
+      "Diamonds spawn most frequently at Y-level -59 in Minecraft 1.18+",
+      "Slabs give 6 output from 3 blocks - twice as efficient as full blocks for flooring",
+      "Iron ore has two spawn peaks: around Y=16 and Y=232",
+      "Fortune III can more than triple your diamond yield - always use it for ores"
+    ],
+    "commonMistakes": [
+      "Using outdated Y-level information from before the 1.18 cave update",
+      "Not accounting for Silk Touch vs Fortune when planning ore mining",
+      "Forgetting that some blocks like netherrack mine faster than calculated",
+      "Underestimating material needs for detailed builds with multiple block types"
+    ],
+    "faqs": [
+      {
+        "question": "What changed about ore distribution in 1.18?",
+        "answer": "Ores now use triangular distribution patterns with specific Y-level peaks instead of uniform spawning. The world also extends down to Y=-64, creating new optimal mining heights."
+      },
+      {
+        "question": "Are stairs or slabs more material efficient?",
+        "answer": "Slabs are more efficient (3 blocks make 6 slabs). Stairs use 6 blocks for 4 stairs. For pure efficiency, use slabs; stairs are for aesthetics."
+      },
+      {
+        "question": "How do I calculate materials for a circular build?",
+        "answer": "Use the building calculator for the bounding rectangle, then estimate about 78.5% of that for a circle (pi/4). Add extra for the actual pixelated shape."
+      }
+    ],
+    "calculation_type_label": "Calculation Type",
+    "calculation_type_tooltip": "Choose what you want to calculate",
+    "type_building": "Building Resources",
+    "type_crafting": "Crafting",
+    "type_ore": "Ore Distribution",
+    "blocks_label": "Number of Blocks",
+    "blocks_tooltip": "Total blocks needed",
+    "blocks_placeholder": "e.g., 640",
+    "recipe_label": "Recipe Type",
+    "recipe_tooltip": "What are you crafting?",
+    "recipe_blocks": "Blocks (1:1)",
+    "recipe_slabs": "Slabs (3:6)",
+    "recipe_stairs": "Stairs (6:4)",
+    "recipe_walls": "Walls (6:6)",
+    "recipe_fence": "Fence (4:3)",
+    "ore_type_label": "Ore Type",
+    "ore_type_tooltip": "Select ore to find",
+    "ore_coal": "Coal",
+    "ore_iron": "Iron",
+    "ore_gold": "Gold",
+    "ore_diamond": "Diamond",
+    "ore_redstone": "Redstone",
+    "ore_lapis": "Lapis Lazuli",
+    "ore_emerald": "Emerald",
+    "y_level_label": "Y-Level (Height)",
+    "y_level_tooltip": "Your current height coordinate",
+    "result_label": "Calculation Result",
+    "ore_chance": "Chance per block exposed",
+    "blocks_unit": "Blocks",
+    "additional_info_title": "Details",
+    "stacks_label": "Stacks (64)",
+    "stacks_unit": "stacks",
+    "remainder_label": "Remainder",
+    "time_label": "Estimated Build Time",
+    "time_unit": "seconds",
+    "blocks_per_ore_label": "Avg Blocks Mined per Ore",
+    "blocks_per_ore_unit": "blocks",
+    "no_ore": "None at this level",
+    "formula_title": "How it Works",
+    "formula_explanation": "Calculates resources based on stack size (64). Ore chances are based on 1.18+ distribution.",
+    "use_cases_title": "Useful For",
+    "use_case_1": "Planning large builds in Survival",
+    "use_case_2": "Optimizing mining strategies",
+    "use_case_3": "Crafting efficiently without waste",
+    "error_invalid": "Please enter a valid number",
+    "error_positive": "Number of blocks must be positive",
+    "error_y_range": "Y-level must be between -64 and 320"
+  },
+  "win_rate": {
+    "title": "Win Rate Calculator",
+    "description": "Calculate your overall win rate percentage and monitor your progression.",
+    "howItWorks": {
+      "title": "How the Win Rate Calculator Works",
+      "formula": "Win Rate = (Wins / Total Games) × 100%",
+      "explanation": "This calculator determines your winning percentage across all games played. Win rate is the primary metric for measuring success in ranked competitive games and helps you understand where you stand relative to the matchmaking system.",
+      "steps": [
+        {
+          "name": "Enter Wins",
+          "text": "Input your total number of victories"
+        },
+        {
+          "name": "Enter Losses",
+          "text": "Input your total number of defeats"
+        },
+        {
+          "name": "Add Draws",
+          "text": "Optionally include draws if your game has them"
+        },
+        {
+          "name": "Review Statistics",
+          "text": "See your win rate and games needed to reach target percentages"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Ranked Progression",
+        "description": "Track your win rate to understand your climbing potential in ranked modes"
+      },
+      {
+        "title": "Goal Setting",
+        "description": "Calculate how many wins you need to reach a target win rate percentage"
+      },
+      {
+        "title": "Character Analysis",
+        "description": "Compare win rates across different characters or champions to find your best picks"
+      },
+      {
+        "title": "Session Tracking",
+        "description": "Monitor daily or weekly win rates to identify performance patterns"
+      }
+    ],
+    "seoTips": [
+      "A 50% win rate means the matchmaking has found your true skill level",
+      "You need sustained 55%+ win rate to climb ranks meaningfully",
+      "Win rate stabilizes after approximately 100 games at a given rank",
+      "Duo queuing can affect win rate - track solo and party stats separately"
+    ],
+    "commonMistakes": [
+      "Drawing conclusions from too small a sample size (less than 30 games)",
+      "Not separating win rates by game mode or character",
+      "Comparing win rates across different ranks or skill levels",
+      "Ignoring external factors like time of day or patch changes"
+    ],
+    "faqs": [
+      {
+        "question": "What win rate do I need to climb?",
+        "answer": "Above 50% will result in climbing over time. 55% is steady progress, 60%+ is fast climbing. The exact LP/MMR gained varies by game."
+      },
+      {
+        "question": "Is 50% win rate bad?",
+        "answer": "No, 50% means perfect matchmaking - you're playing against equally skilled opponents. This is the intended stable state at your true rank."
+      },
+      {
+        "question": "Why is my win rate high but I'm not climbing?",
+        "answer": "Check your sample size. Also, some games have hidden MMR that may differ from displayed rank, affecting how quickly you visibly climb."
+      }
+    ],
+    "wins_label": "Wins",
+    "wins_tooltip": "Total number of wins",
+    "wins_placeholder": "e.g., 50",
+    "losses_label": "Losses",
+    "losses_tooltip": "Total number of losses",
+    "losses_placeholder": "e.g., 40",
+    "draws_label": "Draws (Optional)",
+    "draws_tooltip": "Total number of draws",
+    "draws_placeholder": "e.g., 5",
+    "result_label": "Win Rate",
+    "result_unit": "Win Rate",
+    "additional_info_title": "Additional Statistics",
+    "games_played_label": "Total Games",
+    "games_played_unit": "Games",
+    "loss_rate_label": "Loss Rate",
+    "loss_rate_unit": "Loss Rate",
+    "wins_for_50_label": "Wins needed for 50%",
+    "wins_for_50_unit": "Wins",
+    "wins_for_60_label": "Wins needed for 60%",
+    "wins_for_60_unit": "Wins",
+    "formula_title": "How Win Rate is Calculated",
+    "formula_explanation": "Win Rate = (Wins / Total Games) * 100. Total Games = Wins + Losses + Draws.",
+    "use_cases_title": "Why Track Win Rate?",
+    "use_case_1": "To gauge your skill level relative to others",
+    "use_case_2": "To track improvement over a season",
+    "use_case_3": "To set realistic goals for climbing ranks",
+    "error_invalid": "Please enter valid numbers",
+    "error_negative": "Values cannot be negative",
+    "error_no_games": "Total games must be greater than zero",
+    "error_calculation": "An error occurred during calculation"
+  },
+  "xp": {
+    "title": "XP Calculator",
+    "description": "Calculate experience points (XP) needed for the next level in RPG games.",
+    "howItWorks": {
+      "title": "How the XP Calculator Works",
+      "formula": "XP Remaining = (Target Level - Current Level) × XP Per Level - Current XP",
+      "explanation": "This calculator helps you plan your leveling journey by determining how much experience you need to reach your goal. It works with linear XP systems and provides estimates for time and effort required.",
+      "steps": [
+        {
+          "name": "Enter Current Level",
+          "text": "Input your character's current level"
+        },
+        {
+          "name": "Enter Current XP",
+          "text": "Add your progress toward the next level"
+        },
+        {
+          "name": "Set Target Level",
+          "text": "Choose the level you want to reach"
+        },
+        {
+          "name": "Configure XP Rate",
+          "text": "Input the XP required per level in your game"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Grinding Planning",
+        "description": "Calculate how much XP you need to farm before reaching your target level"
+      },
+      {
+        "title": "Resource Management",
+        "description": "Determine how many XP items or boosts you need to consume"
+      },
+      {
+        "title": "Time Estimation",
+        "description": "Estimate how long it will take to reach max level at your current rate"
+      },
+      {
+        "title": "Efficiency Comparison",
+        "description": "Compare different leveling methods by their XP yield"
+      }
+    ],
+    "seoTips": [
+      "Most modern games use exponential XP curves - this calculator uses linear approximation",
+      "XP boosters and events can cut grinding time by 50% or more",
+      "Rested XP in many MMOs doubles XP gain for a limited amount",
+      "Higher level content typically gives proportionally more XP"
+    ],
+    "commonMistakes": [
+      "Assuming all games use linear XP requirements between levels",
+      "Not accounting for XP bonuses from gear, buffs, or group play",
+      "Burning out by grinding too intensively without breaks",
+      "Ignoring story content that often provides significant XP"
+    ],
+    "faqs": [
+      {
+        "question": "Why does leveling get slower at higher levels?",
+        "answer": "Most games use exponential XP curves where each level requires more XP than the last. This extends game content and makes high levels feel like achievements."
+      },
+      {
+        "question": "How can I level up faster?",
+        "answer": "Use XP boosts, complete high-reward content, group up for bonuses, take advantage of events, and use rested XP systems if available."
+      },
+      {
+        "question": "Should I rush to max level?",
+        "answer": "Depends on the game. Some games focus on endgame content at max level, while others have meaningful content at every level. Consider what content interests you."
+      }
+    ],
+    "current_level_label": "Current Level",
+    "current_level_tooltip": "Your current level in the game",
+    "current_level_placeholder": "e.g., 50",
+    "current_xp_label": "Current XP",
+    "current_xp_tooltip": "Experience points you currently have in this level",
+    "current_xp_placeholder": "e.g., 5000",
+    "target_level_label": "Target Level",
+    "target_level_tooltip": "Level you want to reach",
+    "target_level_placeholder": "e.g., 60",
+    "xp_per_level_label": "XP Per Level (Approx)",
+    "xp_per_level_tooltip": "Average or fixed XP needed per level (if constant)",
+    "xp_per_level_placeholder": "e.g., 10000",
+    "result_label": "XP Remaining",
+    "result_unit": "XP",
+    "additional_info_title": "Leveling Progress",
+    "levels_to_gain_label": "Levels to Gain",
+    "levels_to_gain_unit": "Levels",
+    "percent_complete_label": "Percent Complete",
+    "percent_complete_unit": "%",
+    "total_xp_label": "Total XP Required",
+    "total_xp_unit": "XP",
+    "formula_title": "How XP is Calculated",
+    "formula_explanation": "This calculator uses a simplified linear model: Total XP = Levels to Gain * XP per Level. Many games use exponential curves.",
+    "use_cases_title": "When to Use XP Calculator?",
+    "use_case_1": "Planning grinding sessions",
+    "use_case_2": "Estimating time to reach level cap",
+    "use_case_3": "Resource management for leveling items",
+    "error_invalid": "Please enter valid numbers",
+    "error_positive": "Levels and XP must be positive",
+    "error_target_higher": "Target level must be higher than current level",
+    "error_calculation": "An error occurred during calculation"
+  },
+  "kd_ratio": {
+    "title": "K/D Ratio Calculator",
+    "description": "Calculate your Kill/Death ratio for competitive FPS games and track your performance over time.",
+    "howItWorks": {
+      "title": "How the K/D Ratio Calculator Works",
+      "formula": "K/D Ratio = Total Kills / Total Deaths",
+      "explanation": "The Kill/Death ratio is the primary individual performance metric in FPS games. It measures how many enemies you eliminate for each time you die, providing insight into your combat effectiveness and survival skills.",
+      "steps": [
+        {
+          "name": "Enter Total Kills",
+          "text": "Input your cumulative kills across all matches"
+        },
+        {
+          "name": "Enter Total Deaths",
+          "text": "Input your cumulative deaths across all matches"
+        },
+        {
+          "name": "Add Games Played",
+          "text": "Optionally enter game count for per-match averages"
+        },
+        {
+          "name": "Analyze Performance",
+          "text": "Review your K/D ratio and efficiency metrics"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "FPS Performance Tracking",
+        "description": "Monitor your combat effectiveness in games like Call of Duty, CS2, Valorant, and Apex Legends"
+      },
+      {
+        "title": "Improvement Measurement",
+        "description": "Track K/D over time to see if your gameplay is improving"
+      },
+      {
+        "title": "Loadout Comparison",
+        "description": "Compare your K/D with different weapons, classes, or playstyles"
+      },
+      {
+        "title": "Goal Setting",
+        "description": "Set realistic K/D improvement targets based on current performance"
+      }
+    ],
+    "seoTips": [
+      "A K/D of 1.0 means you break even - one kill per death",
+      "Average players typically have K/D between 0.8 and 1.2",
+      "Professional players often maintain K/D above 2.0",
+      "K/D improves faster by dying less than by getting more kills"
+    ],
+    "commonMistakes": [
+      "Obsessing over K/D at the expense of objective play and winning",
+      "Comparing K/D across different games with different mechanics",
+      "Not considering that K/D varies by game mode and map",
+      "Playing too passively to protect K/D instead of making impactful plays"
+    ],
+    "faqs": [
+      {
+        "question": "What is a good K/D ratio?",
+        "answer": "Above 1.0 is above average. 1.5+ is good, 2.0+ is excellent. However, context matters - aggressive objective play may lower K/D while still winning games."
+      },
+      {
+        "question": "How can I improve my K/D?",
+        "answer": "Focus on positioning, crosshair placement, map knowledge, and game sense. Dying less is often easier than getting more kills. Use aim trainers and review your deaths."
+      },
+      {
+        "question": "Does K/D affect matchmaking?",
+        "answer": "Most games use MMR/Elo systems based on wins, not K/D. However, high K/D usually correlates with winning more gunfights and thus winning more games."
+      }
+    ],
+    "kills_label": "Kills",
+    "kills_tooltip": "Total number of kills across all games",
+    "kills_placeholder": "e.g., 150",
+    "deaths_label": "Deaths",
+    "deaths_tooltip": "Total number of deaths across all games",
+    "deaths_placeholder": "e.g., 100",
+    "games_label": "Games Played",
+    "games_tooltip": "Number of games played (for calculating averages)",
+    "games_placeholder": "e.g., 20",
+    "error_invalid": "Please enter valid numbers",
+    "error_negative": "Values cannot be negative",
+    "error_calculation": "An error occurred during calculation",
+    "result_label": "K/D Ratio",
+    "result_unit": "K/D",
+    "additional_info_title": "Performance Statistics",
+    "avg_kills_label": "Average Kills Per Game",
+    "avg_kills_unit": "Kills",
+    "avg_deaths_label": "Average Deaths Per Game",
+    "avg_deaths_unit": "Deaths",
+    "kill_efficiency_label": "Kill Efficiency",
+    "kill_efficiency_unit": "%",
+    "info_title": "About K/D Ratio",
+    "info_description": "The Kill/Death ratio is a key performance metric in competitive FPS games. A K/D above 1.0 means you get more kills than deaths on average.",
+    "use_cases_title": "When to Use K/D Calculator?",
+    "use_case_1": "Tracking improvement in FPS games like Call of Duty or CS2",
+    "use_case_2": "Comparing performance across different gaming sessions",
+    "use_case_3": "Setting goals for competitive play and ranking up",
+    "formula_title": "How K/D is Calculated",
+    "formula_explanation": "K/D Ratio = Total Kills / Total Deaths. If deaths are zero, the ratio equals the number of kills (perfect ratio)."
+  },
+  "level_up": {
+    "title": "Level Up Calculator",
+    "description": "Calculate the time required to reach your target level in RPG and MMO games.",
+    "howItWorks": {
+      "title": "How the Level Up Calculator Works",
+      "formula": "Time = Total XP Required / XP Per Hour",
+      "explanation": "This calculator estimates how long it will take to reach your target level based on your XP earning rate and the game's leveling curve. It accounts for scaling XP requirements that increase with each level.",
+      "steps": [
+        {
+          "name": "Enter Current Level",
+          "text": "Input your starting level for the calculation"
+        },
+        {
+          "name": "Set Target Level",
+          "text": "Choose the level you want to reach"
+        },
+        {
+          "name": "Input XP Per Hour",
+          "text": "Enter your average experience points earned per hour"
+        },
+        {
+          "name": "Configure Scaling",
+          "text": "Set base XP per level and scaling factor for accuracy"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Session Planning",
+        "description": "Determine how many gaming sessions you need to reach a milestone level"
+      },
+      {
+        "title": "Activity Comparison",
+        "description": "Compare different activities by calculating which levels you fastest"
+      },
+      {
+        "title": "Alt Character Planning",
+        "description": "Decide if leveling an alternate character is worth the time investment"
+      },
+      {
+        "title": "Event Optimization",
+        "description": "Calculate how much you can level during limited-time XP boost events"
+      }
+    ],
+    "seoTips": [
+      "Track your actual XP per hour over multiple sessions for accurate estimates",
+      "XP events can double or triple your leveling speed - plan around them",
+      "Most games have natural breakpoints where XP requirements jump significantly",
+      "Group content often provides better XP per hour than solo play"
+    ],
+    "commonMistakes": [
+      "Overestimating sustainable XP rates by measuring only peak efficiency",
+      "Not accounting for breaks, inventory management, and travel time",
+      "Forgetting that XP requirements often scale exponentially, not linearly",
+      "Ignoring fatigue - long sessions often have diminishing XP per hour"
+    ],
+    "faqs": [
+      {
+        "question": "How do I measure my XP per hour accurately?",
+        "answer": "Note your XP at the start of a session and after one hour of normal play. Repeat several times and average the results for reliability."
+      },
+      {
+        "question": "Why is the later leveling so much slower?",
+        "answer": "Most games use exponential scaling where each level needs significantly more XP. A level 90-91 might need 10x the XP of level 10-11."
+      },
+      {
+        "question": "Is it better to grind or do quests?",
+        "answer": "Usually quests are faster for first-time leveling. Pure grinding becomes efficient when you know optimal spots and have overpowered gear for the content."
+      }
+    ],
+    "current_level_label": "Current Level",
+    "current_level_tooltip": "Your current level in the game",
+    "current_level_placeholder": "e.g., 25",
+    "target_level_label": "Target Level",
+    "target_level_tooltip": "The level you want to reach",
+    "target_level_placeholder": "e.g., 50",
+    "xp_per_hour_label": "XP Per Hour",
+    "xp_per_hour_tooltip": "Average experience points earned per hour of gameplay",
+    "xp_per_hour_placeholder": "e.g., 5000",
+    "xp_per_level_label": "Base XP Per Level",
+    "xp_per_level_tooltip": "Base experience points required to level up once",
+    "xp_per_level_placeholder": "e.g., 1000",
+    "scaling_factor_label": "Scaling Factor",
+    "scaling_factor_tooltip": "How much XP requirement increases per level (1.0 = no scaling, 1.1 = 10% increase)",
+    "scaling_factor_placeholder": "e.g., 1.1",
+    "error_invalid": "Please enter valid numbers",
+    "error_negative": "Values cannot be negative",
+    "error_target_higher": "Target level must be higher than current level",
+    "error_calculation": "An error occurred during calculation",
+    "result_label": "Time to Level Up",
+    "result_unit": "Hours",
+    "additional_info_title": "Leveling Details",
+    "total_xp_label": "Total XP Required",
+    "total_xp_unit": "XP",
+    "levels_to_gain_label": "Levels to Gain",
+    "levels_to_gain_unit": "Levels",
+    "xp_per_level_avg_label": "Average XP Per Level",
+    "xp_per_level_avg_unit": "XP",
+    "info_title": "About Level Up Calculator",
+    "info_description": "This calculator helps you estimate the time needed to reach your target level based on your XP earning rate and the game's leveling curve.",
+    "use_cases_title": "When to Use Level Up Calculator?",
+    "use_case_1": "Planning grinding sessions in MMORPGs",
+    "use_case_2": "Estimating time investment for reaching endgame content",
+    "use_case_3": "Comparing leveling efficiency between different activities",
+    "formula_title": "How Time is Calculated",
+    "formula_explanation": "Total XP = Sum of (Base XP * Scaling Factor^Level) for each level. Time = Total XP / XP Per Hour.",
+    "error_positive": "Positive",
+    "minutes": "Minutes",
+    "hours": "Hours",
+    "days": "Days",
+    "estimated_hours_label": "Estimated Hours Label",
+    "estimated_hours_unit": "Estimated Hours Unit",
+    "estimated_days_label": "Estimated Days Label",
+    "estimated_days_unit": "Estimated Days Unit",
+    "sessions_title": "Sessions Title",
+    "sessions_2hr_label": "Sessions 2Hr Label",
+    "sessions_unit": "Sessions Unit",
+    "sessions_3hr_label": "Sessions 3Hr Label",
+    "sessions_4hr_label": "Sessions 4Hr Label"
+  }
 }

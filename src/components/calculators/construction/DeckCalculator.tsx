@@ -20,7 +20,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Package, Ruler, Info, Layers, Square } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -247,12 +248,12 @@ export default function DeckCalculator() {
           label={t("deck.deck_length")}
           tooltip={t("deck.deck_length_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={deckLength}
-            onChange={(e) => {
-              setDeckLength(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setDeckLength(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("deck.placeholders.length")}
             min={0}
             step={0.5}
@@ -265,12 +266,12 @@ export default function DeckCalculator() {
           label={t("deck.deck_width")}
           tooltip={t("deck.deck_width_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={deckWidth}
-            onChange={(e) => {
-              setDeckWidth(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setDeckWidth(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("deck.placeholders.width")}
             min={0}
             step={0.5}
@@ -334,12 +335,12 @@ export default function DeckCalculator() {
           label={t("deck.waste_factor")}
           tooltip={t("deck.waste_factor_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={wasteFactor}
-            onChange={(e) => {
-              setWasteFactor(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setWasteFactor(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("deck.placeholders.waste")}
             min={0}
             max={50}

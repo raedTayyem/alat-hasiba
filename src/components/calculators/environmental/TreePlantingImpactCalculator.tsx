@@ -8,7 +8,8 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { initDateInputRTL } from '../../../utils/dateInputRTL';
@@ -145,12 +146,12 @@ export default function TreePlantingImpactCalculator() {
           label={t("calculators.environmental.tree_planting.trees_label")}
           tooltip={t("calculators.environmental.tree_planting.trees_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={numberOfTrees}
-            onChange={(e) => {
-              setNumberOfTrees(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setNumberOfTrees(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("calculators.environmental.tree_planting.trees_placeholder")}
             min={1}
             unit={t("calculators.environmental.tree_planting.trees_unit")}
@@ -161,12 +162,12 @@ export default function TreePlantingImpactCalculator() {
           label={t("calculators.environmental.tree_planting.age_label")}
           tooltip={t("calculators.environmental.tree_planting.age_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={treeAge}
-            onChange={(e) => {
-              setTreeAge(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setTreeAge(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("calculators.environmental.tree_planting.age_placeholder")}
             min={0}
             max={100}

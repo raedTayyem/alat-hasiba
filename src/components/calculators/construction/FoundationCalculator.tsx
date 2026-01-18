@@ -21,7 +21,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Square, Layers, Box, Info, Building2, Ruler } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -241,12 +242,12 @@ export default function FoundationCalculator() {
           label={t("foundation.inputs.building_area")}
           tooltip={t("foundation.inputs.building_area_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={buildingArea}
-            onChange={(e) => {
-              setBuildingArea(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setBuildingArea(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("foundation.placeholders.building_area")}
             min={0}
             step={10}
@@ -259,12 +260,12 @@ export default function FoundationCalculator() {
           label={t("foundation.inputs.number_of_floors")}
           tooltip={t("foundation.inputs.number_of_floors_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={numberOfFloors}
-            onChange={(e) => {
-              setNumberOfFloors(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setNumberOfFloors(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("foundation.placeholders.number_of_floors")}
             min={1}
             max={100}

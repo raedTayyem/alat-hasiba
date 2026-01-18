@@ -18,7 +18,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Info, LayoutGrid, Package, Square } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
@@ -259,12 +260,12 @@ export default function TileCalculator() {
           label={t("tile.area_length")}
           tooltip={t("tile.area_length_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={areaLength}
-            onChange={(e) => {
-              setAreaLength(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setAreaLength(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("tile.placeholders.length")}
             min={0}
             step={0.1}
@@ -276,12 +277,12 @@ export default function TileCalculator() {
           label={t("tile.area_width")}
           tooltip={t("tile.area_width_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={areaWidth}
-            onChange={(e) => {
-              setAreaWidth(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setAreaWidth(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("tile.placeholders.width")}
             min={0}
             step={0.1}
@@ -303,12 +304,12 @@ export default function TileCalculator() {
               label={t("tile.tile_width")}
               tooltip={t("tile.tile_width_tooltip")}
             >
-              <NumericInput
+              <NumberInput
                 value={customTileWidth}
-                onChange={(e) => {
-                  setCustomTileWidth(e.target.value);
-                  if (error) setError('');
-                }}
+                onValueChange={(value) => {
+                setCustomTileWidth(String(value));
+                if (error) setError('');
+              }}
                 placeholder={t("tile.placeholders.tile_width")}
                 min={0}
                 step={0.5}
@@ -320,12 +321,12 @@ export default function TileCalculator() {
               label={t("tile.tile_height")}
               tooltip={t("tile.tile_height_tooltip")}
             >
-              <NumericInput
+              <NumberInput
                 value={customTileHeight}
-                onChange={(e) => {
-                  setCustomTileHeight(e.target.value);
-                  if (error) setError('');
-                }}
+                onValueChange={(value) => {
+                setCustomTileHeight(String(value));
+                if (error) setError('');
+              }}
                 placeholder={t("tile.placeholders.tile_height")}
                 min={0}
                 step={0.5}
@@ -340,12 +341,12 @@ export default function TileCalculator() {
           label={t("tile.grout_width")}
           tooltip={t("tile.grout_width_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={groutWidth}
-            onChange={(e) => {
-              setGroutWidth(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setGroutWidth(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("tile.placeholders.grout")}
             min={0}
             step={0.0625}
@@ -358,12 +359,12 @@ export default function TileCalculator() {
           label={t("tile.tiles_per_box")}
           tooltip={t("tile.tiles_per_box_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={tilesPerBox}
-            onChange={(e) => {
-              setTilesPerBox(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setTilesPerBox(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("tile.placeholders.tiles_per_box")}
             min={1}
             step={1}
@@ -375,12 +376,12 @@ export default function TileCalculator() {
           label={t("tile.waste_factor")}
           tooltip={t("tile.waste_factor_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={wasteFactor}
-            onChange={(e) => {
-              setWasteFactor(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setWasteFactor(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("tile.placeholders.waste")}
             min={0}
             max={100}

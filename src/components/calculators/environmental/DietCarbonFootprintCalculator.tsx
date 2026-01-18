@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 
 export default function DietCarbonFootprintCalculator() {
@@ -95,9 +96,9 @@ export default function DietCarbonFootprintCalculator() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("diet_footprint.beef")} tooltip={t("diet_footprint.beef_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={beef}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setBeef(e.target.value)}
+            onValueChange={(val) => setBeef(String(val))}
             endIcon={<span className="text-xs text-muted-foreground">{t("co2_emissions.kg_co2").split(' ')[0]}</span>}
             placeholder={t("diet_footprint.enter_amount")}
             min={0}
@@ -106,9 +107,9 @@ export default function DietCarbonFootprintCalculator() {
         </InputContainer>
 
         <InputContainer label={t("diet_footprint.chicken")} tooltip={t("diet_footprint.chicken_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={chicken}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setChicken(e.target.value)}
+            onValueChange={(val) => setChicken(String(val))}
             endIcon={<span className="text-xs text-muted-foreground">{t("co2_emissions.kg_co2").split(' ')[0]}</span>}
             placeholder={t("diet_footprint.enter_amount")}
             min={0}
@@ -117,9 +118,9 @@ export default function DietCarbonFootprintCalculator() {
         </InputContainer>
 
         <InputContainer label={t("diet_footprint.fish")} tooltip={t("diet_footprint.fish_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={fish}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setFish(e.target.value)}
+            onValueChange={(val) => setFish(String(val))}
             endIcon={<span className="text-xs text-muted-foreground">{t("co2_emissions.kg_co2").split(' ')[0]}</span>}
             placeholder={t("diet_footprint.enter_amount")}
             min={0}
@@ -128,9 +129,9 @@ export default function DietCarbonFootprintCalculator() {
         </InputContainer>
 
         <InputContainer label={t("diet_footprint.dairy")} tooltip={t("diet_footprint.dairy_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={dairy}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setDairy(e.target.value)}
+            onValueChange={(val) => setDairy(String(val))}
             endIcon={<span className="text-xs text-muted-foreground">{t("co2_emissions.kg_co2").split(' ')[0]}</span>}
             placeholder={t("diet_footprint.enter_amount")}
             min={0}
@@ -139,9 +140,9 @@ export default function DietCarbonFootprintCalculator() {
         </InputContainer>
 
         <InputContainer label={t("diet_footprint.vegetables")} tooltip={t("diet_footprint.vegetables_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={vegetables}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setVegetables(e.target.value)}
+            onValueChange={(val) => setVegetables(String(val))}
             endIcon={<span className="text-xs text-muted-foreground">{t("co2_emissions.kg_co2").split(' ')[0]}</span>}
             placeholder={t("diet_footprint.enter_amount")}
             min={0}
@@ -150,9 +151,9 @@ export default function DietCarbonFootprintCalculator() {
         </InputContainer>
 
         <InputContainer label={t("diet_footprint.grains")} tooltip={t("diet_footprint.grains_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={grains}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setGrains(e.target.value)}
+            onValueChange={(val) => setGrains(String(val))}
             endIcon={<span className="text-xs text-muted-foreground">{t("co2_emissions.kg_co2").split(' ')[0]}</span>}
             placeholder={t("diet_footprint.enter_amount")}
             min={0}

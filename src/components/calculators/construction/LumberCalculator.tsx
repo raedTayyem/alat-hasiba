@@ -19,7 +19,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Package, Ruler, Info, Layers } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -261,12 +262,12 @@ export default function LumberCalculator() {
               label={t("lumber.custom_thickness")}
               tooltip={t("lumber.custom_thickness_tooltip")}
             >
-              <NumericInput
+              <NumberInput
                 value={customThickness}
-                onChange={(e) => {
-                  setCustomThickness(e.target.value);
-                  if (error) setError('');
-                }}
+                onValueChange={(value) => {
+                setCustomThickness(String(value));
+                if (error) setError('');
+              }}
                 placeholder={t("lumber.placeholders.thickness")}
                 min={0}
                 step={0.25}
@@ -278,12 +279,12 @@ export default function LumberCalculator() {
               label={t("lumber.custom_width")}
               tooltip={t("lumber.custom_width_tooltip")}
             >
-              <NumericInput
+              <NumberInput
                 value={customWidth}
-                onChange={(e) => {
-                  setCustomWidth(e.target.value);
-                  if (error) setError('');
-                }}
+                onValueChange={(value) => {
+                setCustomWidth(String(value));
+                if (error) setError('');
+              }}
                 placeholder={t("lumber.placeholders.width")}
                 min={0}
                 step={0.25}
@@ -298,12 +299,12 @@ export default function LumberCalculator() {
           label={t("lumber.length")}
           tooltip={t("lumber.length_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={length}
-            onChange={(e) => {
-              setLength(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setLength(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("lumber.placeholders.length")}
             min={0}
             step={0.1}
@@ -316,12 +317,12 @@ export default function LumberCalculator() {
           label={t("lumber.quantity")}
           tooltip={t("lumber.quantity_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={quantity}
-            onChange={(e) => {
-              setQuantity(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setQuantity(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("lumber.placeholders.quantity")}
             min={1}
             step={1}

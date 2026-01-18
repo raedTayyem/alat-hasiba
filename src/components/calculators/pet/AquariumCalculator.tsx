@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
@@ -83,15 +84,15 @@ export default function AquariumCalculator() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <InputContainer label={t("aquarium_calculator.length")}>
-          <NumericInput value={length} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setLength(e.target.value)} unit={t("common:common.units.cm")} placeholder="0" min={0} step={1} />
+          <NumberInput value={length} onValueChange={(val) => setLength(String(val))} unit={t("common:common.units.cm")} placeholder="0" min={0} step={1} />
         </InputContainer>
 
         <InputContainer label={t("aquarium_calculator.width")}>
-          <NumericInput value={width} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setWidth(e.target.value)} unit={t("common:common.units.cm")} placeholder="0" min={0} step={1} />
+          <NumberInput value={width} onValueChange={(val) => setWidth(String(val))} unit={t("common:common.units.cm")} placeholder="0" min={0} step={1} />
         </InputContainer>
 
         <InputContainer label={t("aquarium_calculator.height")}>
-          <NumericInput value={height} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setHeight(e.target.value)} unit={t("common:common.units.cm")} placeholder="0" min={0} step={1} />
+          <NumberInput value={height} onValueChange={(val) => setHeight(String(val))} unit={t("common:common.units.cm")} placeholder="0" min={0} step={1} />
         </InputContainer>
       </div>
 

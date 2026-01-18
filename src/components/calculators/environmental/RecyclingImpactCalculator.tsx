@@ -8,7 +8,8 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { initDateInputRTL } from '../../../utils/dateInputRTL';
@@ -124,12 +125,12 @@ export default function RecyclingImpactCalculator() {
           label={t("recycling_impact.paper_label")}
           tooltip={t("recycling_impact.paper_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={paper}
-            onChange={(e) => {
-              setPaper(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setPaper(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("recycling_impact.paper_placeholder")}
             min={0}
             unit={t("common:units.kg")}
@@ -140,12 +141,12 @@ export default function RecyclingImpactCalculator() {
           label={t("recycling_impact.plastic_label")}
           tooltip={t("recycling_impact.plastic_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={plastic}
-            onChange={(e) => {
-              setPlastic(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setPlastic(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("recycling_impact.plastic_placeholder")}
             min={0}
             unit={t("common:units.kg")}
@@ -156,12 +157,12 @@ export default function RecyclingImpactCalculator() {
           label={t("recycling_impact.glass_label")}
           tooltip={t("recycling_impact.glass_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={glass}
-            onChange={(e) => {
-              setGlass(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setGlass(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("recycling_impact.glass_placeholder")}
             min={0}
             unit={t("common:units.kg")}
@@ -172,12 +173,12 @@ export default function RecyclingImpactCalculator() {
           label={t("recycling_impact.metal_label")}
           tooltip={t("recycling_impact.metal_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={metal}
-            onChange={(e) => {
-              setMetal(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setMetal(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("recycling_impact.metal_placeholder")}
             min={0}
             unit={t("common:units.kg")}

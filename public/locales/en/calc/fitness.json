@@ -1960,6 +1960,10 @@
       "height": "Enter your height in centimeters",
       "activity": "Select your typical weekly activity level"
     },
+    "errors": {
+      "all_fields": "Please fill in all required fields",
+      "age_range": "Age must be between 1 and 120 years"
+    },
     "results": {
       "bmr": "Basal Metabolic Rate (BMR)",
       "calories": "calories",
@@ -2824,7 +2828,14 @@
         "question": "How much protein do I need daily?",
         "answer": "For active individuals: 1.6-2.2 g per kg of body weight. Higher end for cutting, lower end for maintenance."
       }
-    ]
+    ],
+    "cut": "Cut",
+    "maintain": "Maintain",
+    "bulk": "Bulk",
+    "recomp": "Recomp",
+    "low": "Low",
+    "moderate": "Moderate",
+    "high": "High"
   },
   "calorie_deficit": {
     "title": "Calorie Deficit Calculator",

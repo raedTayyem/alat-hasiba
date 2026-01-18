@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
@@ -67,9 +68,9 @@ export default function CapacitorCalculator() {
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("capacitor.capacitance")} tooltip={t("capacitor.capacitance_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={capacitance}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCapacitance(e.target.value)}
+            onValueChange={(val) => setCapacitance(String(val))}
             unit={t("common:common.units.uF")}
             placeholder={t("capacitor.enter_capacitance")}
             min={0}
@@ -78,9 +79,9 @@ export default function CapacitorCalculator() {
         </InputContainer>
 
         <InputContainer label={t("capacitor.voltage")} tooltip={t("capacitor.voltage_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={voltage}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setVoltage(e.target.value)}
+            onValueChange={(val) => setVoltage(String(val))}
             unit={t("common:common.units.V")}
             placeholder={t("capacitor.enter_voltage")}
             min={0}
@@ -89,9 +90,9 @@ export default function CapacitorCalculator() {
         </InputContainer>
 
         <InputContainer label={t("capacitor.frequency")} tooltip={t("capacitor.frequency_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={frequency}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setFrequency(e.target.value)}
+            onValueChange={(val) => setFrequency(String(val))}
             unit={t("common:common.units.Hz")}
             placeholder={t("capacitor.enter_frequency")}
             min={0}

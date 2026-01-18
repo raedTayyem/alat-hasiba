@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
@@ -89,9 +90,9 @@ export default function PowerCalculatorElectrical() {
         </InputContainer>
 
         <InputContainer label={t("power_calc.voltage")} tooltip={t("power_calc.voltage")}>
-          <NumericInput
+          <NumberInput
             value={voltage}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setVoltage(e.target.value)}
+            onValueChange={(val) => setVoltage(String(val))}
             unit={t("ohms_law.unit_voltage")}
             placeholder={t("power_calc.enter_voltage")}
             min={0}
@@ -100,9 +101,9 @@ export default function PowerCalculatorElectrical() {
         </InputContainer>
 
         <InputContainer label={t("power_calc.current")} tooltip={t("power_calc.current")}>
-          <NumericInput
+          <NumberInput
             value={current}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCurrent(e.target.value)}
+            onValueChange={(val) => setCurrent(String(val))}
             unit={t("ohms_law.unit_current")}
             placeholder={t("power_calc.enter_current")}
             min={0}
@@ -111,9 +112,9 @@ export default function PowerCalculatorElectrical() {
         </InputContainer>
 
         <InputContainer label={t("power_calc.power_factor")} tooltip={t("power_calc.power_factor")}>
-          <NumericInput
+          <NumberInput
             value={powerFactor}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPowerFactor(e.target.value)}
+            onValueChange={(val) => setPowerFactor(String(val))}
             unit=""
             placeholder={t("power_calc.enter_pf")}
             min={0}

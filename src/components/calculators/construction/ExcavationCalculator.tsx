@@ -20,7 +20,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Shovel, Info, Box, Truck } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -219,12 +220,12 @@ export default function ExcavationCalculator() {
           label={t("excavation.length")}
           tooltip={t("excavation.length_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={length}
-            onChange={(e) => {
-              setLength(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setLength(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("excavation.placeholders.length")}
             min={0}
             step={0.1}
@@ -236,12 +237,12 @@ export default function ExcavationCalculator() {
           label={t("excavation.width")}
           tooltip={t("excavation.width_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={width}
-            onChange={(e) => {
-              setWidth(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setWidth(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("excavation.placeholders.width")}
             min={0}
             step={0.1}
@@ -253,12 +254,12 @@ export default function ExcavationCalculator() {
           label={t("excavation.depth")}
           tooltip={t("excavation.depth_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={depth}
-            onChange={(e) => {
-              setDepth(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setDepth(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("excavation.placeholders.depth")}
             min={0}
             step={0.1}
@@ -291,10 +292,10 @@ export default function ExcavationCalculator() {
             label={t("excavation.custom_swell_factor")}
             tooltip={t("excavation.custom_swell_factor_tooltip")}
           >
-            <NumericInput
+            <NumberInput
               value={customSwellFactor}
-              onChange={(e) => {
-                setCustomSwellFactor(e.target.value);
+              onValueChange={(value) => {
+                setCustomSwellFactor(String(value));
                 if (error) setError('');
               }}
               placeholder={t("excavation.placeholders.swell_factor")}

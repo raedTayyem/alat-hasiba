@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
@@ -77,9 +78,9 @@ export default function SolarPanelCalculator() {
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("solar_panel.inputs.daily_consumption")} tooltip={t("solar_panel.tooltips.daily_consumption")}>
-          <NumericInput
+          <NumberInput
             value={dailyConsumption}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setDailyConsumption(e.target.value)}
+            onValueChange={(val) => setDailyConsumption(String(val))}
             unit={t("ohms_law.unit_watt_hour")}
             placeholder={t("solar_panel.placeholders.daily_consumption")}
             min={0}
@@ -88,9 +89,9 @@ export default function SolarPanelCalculator() {
         </InputContainer>
 
         <InputContainer label={t("solar_panel.inputs.sun_hours")} tooltip={t("solar_panel.tooltips.sun_hours")}>
-          <NumericInput
+          <NumberInput
             value={peakSunHours}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPeakSunHours(e.target.value)}
+            onValueChange={(val) => setPeakSunHours(String(val))}
             unit={t("battery_life.hours")}
             placeholder={t("solar_panel.placeholders.sun_hours")}
             min={0}
@@ -107,9 +108,9 @@ export default function SolarPanelCalculator() {
         </InputContainer>
 
         <InputContainer label={t("solar_panel.inputs.panel_wattage")} tooltip={t("solar_panel.tooltips.panel_wattage")}>
-          <NumericInput
+          <NumberInput
             value={panelWattage}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPanelWattage(e.target.value)}
+            onValueChange={(val) => setPanelWattage(String(val))}
             unit={t("ohms_law.unit_power")}
             placeholder={t("solar_panel.placeholders.panel_wattage")}
             min={0}

@@ -19,7 +19,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Package, Layers, Info, PaintBucket } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -214,12 +215,12 @@ export default function JointCompoundCalculator() {
           label={t("jointCompound.number_of_sheets")}
           tooltip={t("jointCompound.number_of_sheets_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={numberOfSheets}
-            onChange={(e) => {
-              setNumberOfSheets(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setNumberOfSheets(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("jointCompound.placeholders.sheets")}
             min={0}
             step={1}
@@ -231,12 +232,12 @@ export default function JointCompoundCalculator() {
           label={t("jointCompound.joint_length")}
           tooltip={t("jointCompound.joint_length_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={jointLength}
-            onChange={(e) => {
-              setJointLength(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setJointLength(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("jointCompound.placeholders.joint_length")}
             min={0}
             step={0.1}

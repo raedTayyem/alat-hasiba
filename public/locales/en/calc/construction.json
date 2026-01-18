@@ -524,11 +524,11 @@
     "unit_tooltip": "Select imperial or metric measurements",
     "imperial": "Imperial (sq ft, inches)",
     "metric": "Metric (sq m, cm)",
-    "area": "Project Area",
+    "area": "Area",
     "area_tooltip": "Total area for mulch and soil calculations",
     "mulch_depth": "Mulch Depth",
     "mulch_depth_tooltip": "Recommended: 2-4 inches for weed control and moisture retention",
-    "soil_depth": "Soil/Topsoil Depth",
+    "soil_depth": "Soil Depth",
     "soil_depth_tooltip": "Depth of new soil layer to add",
     "sod_area": "Sod Area",
     "sod_area_tooltip": "Area to cover with sod/turf grass",
@@ -640,7 +640,10 @@
         "question": "What is the difference between mulch and compost?",
         "answer": "Mulch is placed on top of soil for weed control and moisture retention. Compost is mixed into soil to improve structure and add nutrients."
       }
-    ]
+    ],
+    "no_inputs": "No Inputs",
+    "invalid_waste": "Invalid Waste",
+    "waste": "Waste"
   },
   "siding": {
     "title": "Siding Calculator",
@@ -3621,13 +3624,13 @@
       "spray_foam_open": "Open Cell Spray Foam",
       "spray_foam_closed": "Closed Cell Spray Foam"
     },
-    "area": "Total Area",
+    "area": "Area",
     "area_tooltip": "Total area to be insulated",
     "batt_width": "Batt Width",
     "batt_width_tooltip": "Width of insulation batts",
     "batt_length": "Batt Length",
     "batt_length_tooltip": "Length of insulation batts",
-    "thickness": "Insulation Thickness",
+    "thickness": "Thickness",
     "thickness_tooltip": "Thickness of insulation in inches",
     "waste_factor": "Waste Factor",
     "waste_factor_tooltip": "Extra material for waste and cuts (typically 10%)",
@@ -3736,7 +3739,16 @@
         "question": "Can I install insulation myself?",
         "answer": "Yes, batt insulation is DIY-friendly. Wear protective gear and ensure proper fit. Spray foam and blown-in typically require professionals."
       }
-    ]
+    ],
+    "invalid_dimensions": "Invalid Dimensions",
+    "positive_values": "Positive Values",
+    "invalid_waste": "Invalid Waste",
+    "fiberglass": "Fiberglass",
+    "rockwool": "Rockwool",
+    "cellulose": "Cellulose",
+    "spray_foam_open": "Spray Foam Open",
+    "spray_foam_closed": "Spray Foam Closed",
+    "waste": "Waste"
   },
   "block": {
     "title": "Block Calculator",
@@ -3754,12 +3766,20 @@
     "sizes": {
       "standard": "Standard (8×8×16 inches / 200×200×400mm)",
       "half": "Half Block (8×8×8 inches / 200×200×200mm)",
-      "large": "Large (8×12×16 inches / 200×300×400mm)"
+      "large": "Large (8×12×16 inches / 200×300×400mm)",
+      "4x8x16": "4×8×16 inches",
+      "6x8x16": "6×8×16 inches",
+      "8x8x16": "8×8×16 inches (Standard)",
+      "12x8x16": "12×8×16 inches",
+      "20x20x40": "20×20×40 cm (Metric)"
     },
     "waste_factor": "Waste Factor (%)",
     "waste_factor_tooltip": "Extra material for cutting and breakage (typically 5-10%)",
     "result_blocks": "Total Blocks Needed",
     "blocks": "blocks",
+    "extra_blocks": "Extra Blocks (with waste)",
+    "without_waste": "without waste",
+    "mortar_volume": "Mortar Volume",
     "details": "Project Details",
     "wall_area": "Wall Area",
     "mortar_bags": "Mortar Bags (80 lb)",
@@ -4289,9 +4309,9 @@
     "custom_thickness_tooltip": "Thickness of the lumber piece",
     "custom_width": "Custom Width",
     "custom_width_tooltip": "Width of the lumber piece",
-    "quantity": "Number of Pieces",
+    "quantity": "Quantity",
     "quantity_tooltip": "How many pieces of lumber",
-    "length": "Length per Piece",
+    "length": "Length",
     "length_tooltip": "Length of each lumber piece",
     "result_board_feet": "Total Board Feet",
     "board_feet": "Board Feet",
@@ -4401,7 +4421,24 @@
         "question": "What is the difference between SPF and treated lumber?",
         "answer": "SPF (Spruce-Pine-Fir) is untreated softwood for interior use. Pressure-treated lumber has preservatives for moisture and insect resistance in exterior applications."
       }
-    ]
+    ],
+    "invalid_length": "Invalid Length",
+    "invalid_quantity": "Invalid Quantity",
+    "invalid_dimensions": "Invalid Dimensions",
+    "2x4": "2X4",
+    "2x6": "2X6",
+    "2x8": "2X8",
+    "2x10": "2X10",
+    "2x12": "2X12",
+    "4x4": "4X4",
+    "4x6": "4X6",
+    "1x4": "1X4",
+    "1x6": "1X6",
+    "1x8": "1X8",
+    "1x12": "1X12",
+    "custom": "Custom",
+    "thickness": "Thickness",
+    "width": "Width"
   },
   "deck": {
     "title": "Deck Calculator",
@@ -4717,6 +4754,33 @@
     "use_case_1": "Residential room decoration",
     "use_case_2": "Accent wall coverage",
     "use_case_3": "Commercial interior design",
+    "roll_size": "Roll Size",
+    "roll_size_tooltip": "Select standard roll size or enter custom dimensions",
+    "pattern_type": "Pattern Type",
+    "pattern_type_tooltip": "Pattern match type affects material waste",
+    "openings_area": "Openings Area",
+    "openings_area_tooltip": "Total area of doors and windows to subtract",
+    "waste_factor": "Waste Factor (%)",
+    "waste_factor_tooltip": "Additional material for cutting waste and errors",
+    "total_wall_area": "Total Wall Area",
+    "net_wall_area": "Net Wall Area",
+    "roll_coverage": "Roll Coverage",
+    "total_coverage": "Total Coverage",
+    "without_waste": "without waste",
+    "sizes": {
+      "standard_us": "Standard US (27\" × 33')",
+      "standard_euro": "Standard Euro (21\" × 33')",
+      "wide_euro": "Wide Euro (27.5\" × 33')",
+      "metric": "Metric (53cm × 10m)",
+      "custom": "Custom Size"
+    },
+    "patterns": {
+      "none": "No Pattern (Solid Color)",
+      "random": "Random Match",
+      "straight": "Straight Match",
+      "drop": "Half-Drop Match",
+      "large": "Large Pattern"
+    },
     "errors": {
       "invalid_dimensions": "Please enter valid room dimensions",
       "positive_values": "Dimensions must be greater than zero",

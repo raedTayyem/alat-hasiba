@@ -375,17 +375,17 @@
       "area": "حساب المساحة",
       "cylinder_sizing": "تحديد حجم الأسطوانة"
     },
-    "force": "القوة",
+    "force": "Force",
     "force_tooltip": "قوة خرج الأسطوانة بالنيوتن (N)",
-    "pressure": "الضغط",
+    "pressure": "Pressure",
     "pressure_tooltip": "ضغط النظام الهيدروليكي بالبار",
-    "area": "مساحة المكبس",
+    "area": "Area",
     "area_tooltip": "مساحة المقطع العرضي للمكبس بالسنتيمتر المربع",
-    "piston_diameter": "قطر المكبس",
+    "piston_diameter": "Piston Diameter",
     "piston_diameter_tooltip": "القطر الخارجي للمكبس/التجويف بالمليمتر",
-    "rod_diameter": "قطر الساق",
+    "rod_diameter": "Rod Diameter",
     "rod_diameter_tooltip": "قطر ساق المكبس بالمليمتر (للأسطوانات مزدوجة الفعل)",
-    "velocity": "سرعة المكبس",
+    "velocity": "Velocity",
     "velocity_tooltip": "سرعة حركة المكبس بالمتر في الثانية",
     "extension_force": "قوة التمديد",
     "retraction_force": "قوة السحب",
@@ -459,6 +459,12 @@
         "question": "ما هو ضغط التشغيل الآمن؟",
         "answer": "الضغط الآمن عادة 70-80% من ضغط الاختبار. الأسطوانات القياسية تعمل عند 160-250 بار، والثقيلة تصل إلى 400-700 بار."
       }
-    ]
+    ],
+    "invalid_input": "غير صالح Input",
+    "positive_values": "موجب Values",
+    "area_positive": "Area موجب",
+    "pressure_positive": "Pressure موجب",
+    "rod_smaller": "Rod Smaller",
+    "cylinder_sizing": "Cylinder Sizing"
   }
 }

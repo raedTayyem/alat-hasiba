@@ -19,7 +19,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Square, Info, Package, Ruler } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -245,10 +246,10 @@ export default function WallpaperCalculator() {
           label={t("wallpaper.room_perimeter")}
           tooltip={t("wallpaper.room_perimeter_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={roomPerimeter}
-            onChange={(e) => {
-              setRoomPerimeter(e.target.value);
+            onValueChange={(value) => {
+              setRoomPerimeter(value.toString());
               if (error) setError('');
             }}
             placeholder={t("wallpaper.placeholders.perimeter")}
@@ -263,10 +264,10 @@ export default function WallpaperCalculator() {
           label={t("wallpaper.wall_height")}
           tooltip={t("wallpaper.wall_height_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={wallHeight}
-            onChange={(e) => {
-              setWallHeight(e.target.value);
+            onValueChange={(value) => {
+              setWallHeight(value.toString());
               if (error) setError('');
             }}
             placeholder={t("wallpaper.placeholders.height")}
@@ -301,10 +302,10 @@ export default function WallpaperCalculator() {
               label={t("wallpaper.roll_width")}
               tooltip={t("wallpaper.roll_width_tooltip")}
             >
-              <NumericInput
+              <NumberInput
                 value={customRollWidth}
-                onChange={(e) => {
-                  setCustomRollWidth(e.target.value);
+                onValueChange={(value) => {
+                  setCustomRollWidth(value.toString());
                   if (error) setError('');
                 }}
                 placeholder={t("wallpaper.placeholders.roll_width")}
@@ -318,10 +319,10 @@ export default function WallpaperCalculator() {
               label={t("wallpaper.roll_length")}
               tooltip={t("wallpaper.roll_length_tooltip")}
             >
-              <NumericInput
+              <NumberInput
                 value={customRollLength}
-                onChange={(e) => {
-                  setCustomRollLength(e.target.value);
+                onValueChange={(value) => {
+                  setCustomRollLength(value.toString());
                   if (error) setError('');
                 }}
                 placeholder={t("wallpaper.placeholders.roll_length")}
@@ -356,10 +357,10 @@ export default function WallpaperCalculator() {
           label={t("wallpaper.openings_area")}
           tooltip={t("wallpaper.openings_area_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={openingsArea}
-            onChange={(e) => {
-              setOpeningsArea(e.target.value);
+            onValueChange={(value) => {
+              setOpeningsArea(value.toString());
               if (error) setError('');
             }}
             placeholder={t("wallpaper.placeholders.openings")}
@@ -374,12 +375,12 @@ export default function WallpaperCalculator() {
           label={t("wallpaper.waste_factor")}
           tooltip={t("wallpaper.waste_factor_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={wasteFactor}
-            onChange={(e) => {
-              setWasteFactor(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setWasteFactor(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("wallpaper.placeholders.waste")}
             min={0}
             max={50}

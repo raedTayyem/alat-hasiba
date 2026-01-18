@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
@@ -104,7 +105,7 @@ export default function HorseFeedCalculator() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <InputContainer label={t("horse_feed_calculator.label_weight")}>
-          <NumericInput value={horseWeight} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setHorseWeight(e.target.value)} unit={t("horse_feed_calculator.unit_kg")} placeholder={t("horse_feed_calculator.placeholder_weight")} min={0} max={1000} step={10} />
+          <NumberInput value={horseWeight} onValueChange={(val) => setHorseWeight(String(val))} unit={t("horse_feed_calculator.unit_kg")} placeholder={t("horse_feed_calculator.placeholder_weight")} min={0} max={1000} step={10} />
         </InputContainer>
 
         <InputContainer label={t("horse_feed_calculator.label_work_level")}>

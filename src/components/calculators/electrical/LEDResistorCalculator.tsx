@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
@@ -88,9 +89,9 @@ export default function LEDResistorCalculator() {
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("led_resistor.supply_voltage")} tooltip={t("led_resistor.supply_voltage_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={supplyVoltage}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setSupplyVoltage(e.target.value)}
+            onValueChange={(val) => setSupplyVoltage(String(val))}
             unit={t("common:units.V")}
             placeholder={t("led_resistor.enter_vs")}
             min={0}
@@ -99,9 +100,9 @@ export default function LEDResistorCalculator() {
         </InputContainer>
 
         <InputContainer label={t("led_resistor.led_voltage")} tooltip={t("led_resistor.led_voltage_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={ledVoltage}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setLedVoltage(e.target.value)}
+            onValueChange={(val) => setLedVoltage(String(val))}
             unit={t("common:units.V")}
             placeholder={t("led_resistor.enter_vf")}
             min={0}
@@ -110,9 +111,9 @@ export default function LEDResistorCalculator() {
         </InputContainer>
 
         <InputContainer label={t("led_resistor.led_current")} tooltip={t("led_resistor.led_current_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={ledCurrent}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setLedCurrent(e.target.value)}
+            onValueChange={(val) => setLedCurrent(String(val))}
             unit={t("common:units.mA")}
             placeholder={t("led_resistor.enter_if")}
             min={0}
@@ -121,9 +122,9 @@ export default function LEDResistorCalculator() {
         </InputContainer>
 
         <InputContainer label={t("led_resistor.num_leds")} tooltip={t("led_resistor.num_leds_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={numLEDs}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setNumLEDs(e.target.value)}
+            onValueChange={(val) => setNumLEDs(String(val))}
             unit={t("common:units.LED")}
             placeholder="1"
             min={1}

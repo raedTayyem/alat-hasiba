@@ -20,7 +20,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Scale, Box, Ruler, Info, ArrowRightLeft } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -289,12 +290,12 @@ export default function MaterialConversionCalculator() {
           label={t("material-conversion.value")}
           tooltip={t("material-conversion.value_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={inputValue}
-            onChange={(e) => {
-              setInputValue(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setInputValue(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("material-conversion.placeholders.value")}
             min={0}
             step={0.01}

@@ -1,773 +1,800 @@
 {
-    "title": "Agriculture Calculators",
-    "description": "A comprehensive set of agricultural tools and calculators to help you manage your farm and optimize production.",
-    "seed-rate-calculator": {
-        "title": "Seed Rate Calculator",
-        "description": "Calculate the quantity of seeds required per acre or hectare based on land area and crop type."
+  "title": "Agriculture Calculators",
+  "description": "A comprehensive set of agricultural tools and calculators to help you manage your farm and optimize production.",
+  "seed-rate-calculator": {
+    "title": "Seed Rate Calculator",
+    "description": "Calculate the quantity of seeds required per acre or hectare based on land area and crop type."
+  },
+  "fertilizer-calculator": {
+    "title": "Fertilizer Calculator",
+    "description": "Calculate the exact amount of fertilizer needed for your crops to achieve the best results."
+  },
+  "irrigation-calculator": {
+    "title": "Irrigation Calculator",
+    "description": "Determine irrigation water requirements for your crops based on land area and soil type."
+  },
+  "milk-production-calculator": {
+    "title": "Milk Production Calculator",
+    "description": "Predict daily and monthly milk production for your cattle or goat herd."
+  },
+  "egg-production-calculator": {
+    "title": "Egg Production Calculator",
+    "description": "Calculate the egg production rate for your poultry flock and track production efficiency."
+  },
+  "pesticide-calculator": {
+    "title": "Pesticide Calculator",
+    "description": "Calculate the appropriate amount of pesticides needed to treat a specific area safely."
+  },
+  "compost-calculator": {
+    "title": "Compost Calculator",
+    "description": "Calculate the ideal ratios for mixing organic materials to produce high-quality compost."
+  },
+  "greenhouse-calculator": {
+    "title": "Greenhouse Calculator",
+    "description": "Plan the specifications and costs for your greenhouse, including area and ventilation."
+  },
+  "tractor-fuel-calculator": {
+    "title": "Tractor Fuel Calculator",
+    "description": "Estimate tractor fuel consumption based on working hours or plowed area."
+  },
+  "tractor_fuel": {
+    "title": "Tractor Fuel Calculator",
+    "description": "Estimate tractor fuel consumption based on working hours or plowed area.",
+    "operation_label": "Operation",
+    "operation_tooltip": "Select the type of operation",
+    "op_plowing": "Plowing",
+    "op_tillage": "Tillage",
+    "op_planting": "Planting",
+    "op_spraying": "Spraying",
+    "op_harvesting": "Harvesting",
+    "acreage_label": "Acreage (acres)",
+    "acreage_tooltip": "Total area in acres",
+    "tractor_hp_label": "Tractor Horsepower (HP)",
+    "tractor_hp_tooltip": "Engine power in HP",
+    "fuel_price_label": "Fuel Price ($/gal)",
+    "fuel_price_tooltip": "Cost per gallon of diesel",
+    "error_invalid_input": "Please enter valid positive numbers for all fields.",
+    "result_gallons": "Total Gallons Needed",
+    "fuel_cost": "Estimated Fuel Cost",
+    "hours_needed": "Estimated Hours",
+    "efficiency": "Efficiency Rating",
+    "unit_hrs": "hrs",
+    "howItWorks": {
+      "title": "How the Tractor Fuel Calculator Works",
+      "formula": "Fuel Consumption = (HP × Load Factor × Hours) / Fuel Efficiency",
+      "explanation": "This calculator estimates diesel fuel consumption based on tractor horsepower, the type of field operation, and acreage. Different operations require different amounts of power - plowing is the most fuel-intensive, while spraying uses the least.",
+      "steps": [
+        "Select the type of field operation (plowing, tillage, planting, etc.)",
+        "Enter the total acreage to be worked",
+        "Input your tractor's horsepower rating",
+        "Enter the current fuel price per gallon",
+        "Review the calculated fuel needs and estimated costs"
+      ]
     },
-    "fertilizer-calculator": {
-        "title": "Fertilizer Calculator",
-        "description": "Calculate the exact amount of fertilizer needed for your crops to achieve the best results."
+    "useCases": [
+      "Budgeting fuel costs for the upcoming farming season",
+      "Comparing fuel efficiency between different tractors",
+      "Planning fuel purchases and storage needs",
+      "Estimating operational costs for custom farming services"
+    ],
+    "seoTips": [
+      "Plowing typically uses 2-3 gallons per acre for 100HP tractors",
+      "Maintain proper tire pressure to improve fuel efficiency by 10-15%",
+      "Diesel prices vary seasonally - buy in bulk during low seasons",
+      "Modern tier 4 engines are 15-20% more fuel efficient than older models",
+      "Track actual fuel use to refine estimates for your specific conditions"
+    ],
+    "commonMistakes": [
+      "Not accounting for field conditions (wet soil uses more fuel)",
+      "Ignoring the impact of implement width on coverage rate",
+      "Using highway fuel consumption rates instead of field rates",
+      "Forgetting to include travel time between fields"
+    ],
+    "faqs": [
+      {
+        "question": "How much fuel does plowing use compared to other operations?",
+        "answer": "Plowing is the most fuel-intensive operation, using about 2-3 gallons per acre. Tillage uses 1-2 gallons, planting uses 0.5-1 gallon, and spraying uses only 0.2-0.4 gallons per acre."
+      },
+      {
+        "question": "Does tractor size affect fuel efficiency?",
+        "answer": "Yes, larger tractors are often more fuel-efficient per acre because they can pull wider implements. A 200HP tractor with a 12-row planter is more efficient than a 100HP tractor with a 6-row planter."
+      },
+      {
+        "question": "How can I reduce tractor fuel consumption?",
+        "answer": "Maintain proper tire inflation, match implement size to tractor power, reduce unnecessary idling, perform regular maintenance, and consider conservation tillage practices."
+      },
+      {
+        "question": "Should I use diesel or biodiesel?",
+        "answer": "Modern tractors can typically use B20 (20% biodiesel blend) without modifications. Biodiesel may slightly reduce power but provides similar fuel economy and lower emissions."
+      }
+    ]
+  },
+  "irrigation": {
+    "title": "Irrigation Calculator",
+    "description": "Determine irrigation water requirements for your crops.",
+    "area_label": "Field Area (acres)",
+    "area_tooltip": "Total area to be irrigated",
+    "area_placeholder": "e.g. 10",
+    "crop_type_label": "Crop Type",
+    "crop_type_tooltip": "Select the crop you are growing",
+    "crop_corn": "Corn",
+    "crop_wheat": "Wheat",
+    "crop_vegetables": "Vegetables",
+    "climate_label": "Climate Condition",
+    "climate_tooltip": "Select current weather conditions",
+    "climate_hot": "Hot & Dry",
+    "climate_moderate": "Moderate",
+    "climate_cool": "Cool & Humid",
+    "growth_stage_label": "Growth Stage",
+    "growth_stage_tooltip": "Current stage of crop development",
+    "stage_vegetative": "Vegetative",
+    "stage_flowering": "Flowering",
+    "stage_maturity": "Maturity",
+    "error_invalid_input": "Please enter a valid area.",
+    "error_calculation": "Error calculating results.",
+    "info_title": "Irrigation Information",
+    "info_description": "Calculate water needs based on crop, soil, and climate factors.",
+    "result_label": "Water Needed",
+    "result_gallons": "Total Gallons",
+    "liters": "Liters",
+    "acre_feet": "Acre-Feet",
+    "irrigation_time": "Est. Irrigation Time (at 500 GPM)",
+    "cost_estimate": "Est. Cost ($)",
+    "unit_min": "min",
+    "howItWorks": {
+      "title": "How the Irrigation Calculator Works",
+      "formula": "Water Needed = Base ET × Crop Coefficient × Growth Stage Factor × Climate Adjustment × Area",
+      "explanation": "This calculator uses evapotranspiration (ET) data combined with crop-specific coefficients to determine water requirements. Different crops, growth stages, and climate conditions all affect how much water your fields need.",
+      "steps": [
+        "Enter the total field area in acres",
+        "Select your crop type from the dropdown",
+        "Choose the current climate conditions",
+        "Select the crop's current growth stage",
+        "Review water requirements in gallons, liters, and acre-feet"
+      ]
     },
-    "irrigation-calculator": {
-        "title": "Irrigation Calculator",
-        "description": "Determine irrigation water requirements for your crops based on land area and soil type."
+    "useCases": [
+      "Planning irrigation schedules for different crop rotations",
+      "Sizing irrigation pumps and delivery systems",
+      "Estimating water costs for budgeting purposes",
+      "Applying for water rights or permits"
+    ],
+    "seoTips": [
+      "Corn needs about 25 inches of water throughout the growing season",
+      "Drip irrigation can reduce water use by 30-50% compared to flood irrigation",
+      "Morning irrigation reduces evaporation losses",
+      "Flowering stage is critical - water stress during this time severely impacts yields",
+      "Soil moisture sensors can help optimize irrigation timing"
+    ],
+    "commonMistakes": [
+      "Over-irrigating which wastes water and can cause root diseases",
+      "Under-watering during critical growth stages",
+      "Not accounting for recent rainfall when scheduling irrigation",
+      "Ignoring soil type differences in water retention"
+    ],
+    "faqs": [
+      {
+        "question": "How much water does corn need?",
+        "answer": "Corn typically needs 20-25 inches of water over the growing season. Peak water use occurs during tasseling and silking, when corn may need 0.3-0.4 inches per day."
+      },
+      {
+        "question": "When is the best time to irrigate?",
+        "answer": "Early morning (4-9 AM) is ideal. This minimizes evaporation losses and allows foliage to dry before evening, reducing disease risk."
+      },
+      {
+        "question": "How do I know if I'm over or under-watering?",
+        "answer": "Use soil moisture probes or tensiometers. Wilting in the afternoon that recovers overnight is normal, but morning wilt indicates severe stress. Waterlogged soil or standing water indicates over-irrigation."
+      },
+      {
+        "question": "Does soil type affect irrigation needs?",
+        "answer": "Yes, significantly. Sandy soils drain quickly and need more frequent, lighter irrigation. Clay soils hold water longer but can become waterlogged. Loamy soils are ideal for most crops."
+      }
+    ],
+    "error_positive_required": "Positive required"
+  },
+  "compost": {
+    "title": "Compost Calculator",
+    "description": "Calculate C:N ratio for compost.",
+    "total_volume_label": "Total Volume (cu ft)",
+    "total_volume_tooltip": "Desired final compost volume",
+    "target_ratio_label": "Target C:N Ratio",
+    "target_ratio_tooltip": "Ideal is usually 30:1",
+    "error_invalid_input": "Please enter valid positive numbers.",
+    "error_positive_required": "All values must be positive numbers.",
+    "result_ratio": "Carbon to Nitrogen Ratio",
+    "result_label": "C:N Ratio",
+    "green_material": "Green Material (Nitrogen)",
+    "brown_material": "Brown Material (Carbon)",
+    "total_volume": "Total Volume",
+    "unit_cu_ft": "cu ft",
+    "info_title": "About Compost Calculator",
+    "info_description": "This calculator helps you determine the ideal ratio of green (nitrogen-rich) to brown (carbon-rich) materials for optimal composting. The target C:N ratio of 30:1 creates the best environment for decomposition.",
+    "howItWorks": {
+      "title": "How the Compost Calculator Works",
+      "formula": "C:N Ratio = (Carbon in Browns + Carbon in Greens) / (Nitrogen in Browns + Nitrogen in Greens)",
+      "explanation": "Successful composting requires balancing carbon-rich 'brown' materials with nitrogen-rich 'green' materials. The ideal ratio is approximately 30:1 (carbon to nitrogen). This calculator helps you determine the right mix of materials.",
+      "steps": [
+        "Enter your desired total compost volume",
+        "Specify your target C:N ratio (30:1 is recommended)",
+        "The calculator determines the proportion of greens and browns needed",
+        "Review the volumes of each material type required"
+      ]
     },
-    "milk-production-calculator": {
-        "title": "Milk Production Calculator",
-        "description": "Predict daily and monthly milk production for your cattle or goat herd."
+    "useCases": [
+      "Creating optimal compost for garden amendments",
+      "Managing farm waste into valuable fertilizer",
+      "Reducing landfill waste through proper composting",
+      "Producing consistent, high-quality compost for sale"
+    ],
+    "seoTips": [
+      "Browns include dry leaves, straw, cardboard, and wood chips",
+      "Greens include grass clippings, food scraps, coffee grounds, and manure",
+      "Turn compost every 1-2 weeks to speed decomposition",
+      "Proper moisture is key - compost should feel like a wrung-out sponge",
+      "Hot composting (130-160F) kills weed seeds and pathogens"
+    ],
+    "commonMistakes": [
+      "Adding too many greens, causing smelly, anaerobic conditions",
+      "Not maintaining adequate moisture levels",
+      "Making the pile too small to generate sufficient heat",
+      "Including meat, dairy, or diseased plants that attract pests"
+    ],
+    "faqs": [
+      {
+        "question": "What is the ideal C:N ratio for composting?",
+        "answer": "The ideal ratio is 25:1 to 35:1, with 30:1 being optimal. Too much carbon (high ratio) slows decomposition, while too much nitrogen (low ratio) causes odors and nitrogen loss."
+      },
+      {
+        "question": "How long does composting take?",
+        "answer": "Hot composting with proper management takes 2-3 months. Cold composting (minimal turning) takes 6-12 months. Vermicomposting with worms takes 2-4 months."
+      },
+      {
+        "question": "Why does my compost smell bad?",
+        "answer": "Bad odors usually indicate too much nitrogen (greens) or poor aeration. Add more browns and turn the pile more frequently. Ammonia smell means nitrogen is escaping."
+      },
+      {
+        "question": "Can I compost in winter?",
+        "answer": "Yes, but decomposition slows significantly below 40F. Keep the pile larger (at least 3x3x3 feet) and insulate with straw or leaves to maintain internal heat."
+      }
+    ]
+  },
+  "greenhouse": {
+    "title": "Greenhouse Calculator",
+    "description": "Plan greenhouse dimensions and climate control.",
+    "length_label": "Length (ft)",
+    "length_tooltip": "Length of the greenhouse structure",
+    "width_label": "Width (ft)",
+    "width_tooltip": "Width of the greenhouse structure",
+    "height_label": "Average Height (ft)",
+    "height_tooltip": "Average height of the structure",
+    "climate_label": "Local Climate",
+    "climate_tooltip": "Select general climate condition",
+    "climate_hot": "Hot",
+    "climate_moderate": "Moderate",
+    "climate_cold": "Cold",
+    "error_invalid_input": "Please enter valid dimensions.",
+    "error_positive_required": "All dimensions must be positive numbers.",
+    "info_title": "About Greenhouse Planning",
+    "info_description": "This calculator helps you plan greenhouse specifications including floor area, internal volume, plant capacity, and estimated heating/cooling loads based on climate conditions.",
+    "result_label": "Greenhouse Specifications",
+    "result_area": "Floor Area (sq ft)",
+    "volume": "Internal Volume",
+    "plant_capacity": "Est. Plant Capacity",
+    "heating_load": "Heating Load (Cold Climate)",
+    "cooling_load": "Cooling Load (Hot Climate)",
+    "unit_cu_ft": "cu ft",
+    "unit_btu_hr": "BTU/hr",
+    "howItWorks": {
+      "title": "How the Greenhouse Calculator Works",
+      "formula": "Floor Area = Length × Width; Volume = Length × Width × Average Height",
+      "explanation": "This calculator helps plan greenhouse specifications by computing floor area, internal volume, and estimated plant capacity. Climate conditions affect heating/cooling requirements and ventilation needs.",
+      "steps": [
+        "Enter the planned length of your greenhouse",
+        "Enter the width of the structure",
+        "Input the average height (accounting for roof slope)",
+        "Select your local climate conditions",
+        "Review calculated floor area, volume, and plant capacity"
+      ]
     },
-    "egg-production-calculator": {
-        "title": "Egg Production Calculator",
-        "description": "Calculate the egg production rate for your poultry flock and track production efficiency."
+    "useCases": [
+      "Planning a new greenhouse construction project",
+      "Calculating heating and cooling requirements",
+      "Determining plant capacity for production planning",
+      "Sizing ventilation fans and environmental controls"
+    ],
+    "seoTips": [
+      "Orient greenhouses east-west for maximum winter sun exposure",
+      "Allow 10-12 sq ft per tomato plant, 4-6 sq ft for peppers",
+      "Ventilation should exchange air every 1-2 minutes in hot climates",
+      "Double-wall polycarbonate reduces heating costs by 30-40%",
+      "Consider roll-up sides for passive ventilation in moderate climates"
+    ],
+    "commonMistakes": [
+      "Underestimating the heating costs for cold climates",
+      "Insufficient ventilation leading to humidity problems",
+      "Not accounting for pathways and equipment space",
+      "Choosing materials unsuited to local weather conditions"
+    ],
+    "faqs": [
+      {
+        "question": "What size greenhouse do I need?",
+        "answer": "For hobby use, 100-200 sq ft is adequate. Small commercial operations typically start at 1,000-3,000 sq ft. Consider future expansion when planning."
+      },
+      {
+        "question": "How much does greenhouse heating cost?",
+        "answer": "Heating costs vary widely by climate and insulation. In cold climates, expect $2-5 per square foot annually for heating. Double-layer glazing can cut costs by 40%."
+      },
+      {
+        "question": "What is the best greenhouse covering?",
+        "answer": "Glass is most durable but expensive. Double-wall polycarbonate offers good insulation and durability. Polyethylene film is cheapest but needs replacing every 2-4 years."
+      },
+      {
+        "question": "How much ventilation does a greenhouse need?",
+        "answer": "Plan for 1-1.5 air exchanges per minute in hot weather. For a 1,000 cu ft greenhouse, you need fans capable of moving 1,000-1,500 CFM."
+      }
+    ]
+  },
+  "milk_production": {
+    "title": "Milk Production Calculator",
+    "description": "Predict milk production and revenue.",
+    "cow_count_label": "Number of Cows",
+    "cow_count_tooltip": "Total milking cows in herd",
+    "milk_per_cow_label": "Avg Milk per Cow (gal/day)",
+    "milk_per_cow_tooltip": "Average daily yield per cow",
+    "price_label": "Milk Price ($/gal)",
+    "price_tooltip": "Selling price per gallon",
+    "error_invalid_input": "Please enter valid positive numbers.",
+    "error_positive_required": "Number of cows and milk production must be positive",
+    "error_price_negative": "Price cannot be negative",
+    "info_title": "About Milk Production",
+    "info_description": "This calculator helps estimate daily, weekly, monthly, and annual milk production based on herd size and average yield per cow.",
+    "result_label": "Total Daily Production",
+    "result_daily": "Daily Production (gal)",
+    "weekly": "Weekly Production",
+    "monthly": "Monthly Production",
+    "annual": "Annual Production",
+    "annual_revenue": "Est. Annual Revenue",
+    "unit_gal": "gal",
+    "howItWorks": {
+      "title": "How the Milk Production Calculator Works",
+      "formula": "Daily Production = Number of Cows × Gallons per Cow per Day",
+      "explanation": "This calculator projects milk production and revenue based on herd size and individual cow productivity. It accounts for daily, monthly, and annual production to help with business planning.",
+      "steps": [
+        "Enter the number of milking cows in your herd",
+        "Input the average daily milk yield per cow in gallons",
+        "Enter the current or expected milk price per gallon",
+        "Review daily, monthly, and annual production projections",
+        "See estimated annual revenue based on current prices"
+      ]
     },
-    "pesticide-calculator": {
-        "title": "Pesticide Calculator",
-        "description": "Calculate the appropriate amount of pesticides needed to treat a specific area safely."
+    "useCases": [
+      "Projecting dairy farm income and profitability",
+      "Planning milk storage and cooling capacity",
+      "Evaluating the economics of herd expansion",
+      "Negotiating milk contracts with processors"
+    ],
+    "seoTips": [
+      "Holstein cows average 8-9 gallons per day, Jerseys average 5-6 gallons",
+      "Peak production occurs 40-60 days after calving",
+      "Proper nutrition can increase production by 10-20%",
+      "Heat stress can reduce production by 10-25% in summer",
+      "Three-times-daily milking increases yield by 10-15% but adds labor costs"
+    ],
+    "commonMistakes": [
+      "Assuming all cows produce equally throughout the year",
+      "Not accounting for dry periods and calving intervals",
+      "Ignoring seasonal price fluctuations in milk markets",
+      "Underestimating feed costs when calculating profitability"
+    ],
+    "faqs": [
+      {
+        "question": "How much milk does a cow produce per day?",
+        "answer": "Production varies by breed and management. Holsteins average 8-9 gallons (30-35 liters) per day at peak. Jerseys produce 5-6 gallons but with higher butterfat content."
+      },
+      {
+        "question": "What affects milk production?",
+        "answer": "Key factors include breed genetics, nutrition quality, days in milk (lactation stage), age (mature cows produce more), health status, and environmental comfort (heat stress reduces production)."
+      },
+      {
+        "question": "How long do dairy cows produce milk?",
+        "answer": "A typical lactation lasts 305 days, followed by a 60-day dry period before the next calf. Cows can remain productive for 4-6 lactations or more with good management."
+      },
+      {
+        "question": "Is organic milk more profitable?",
+        "answer": "Organic milk commands premium prices (often 50-100% higher) but has higher production costs, lower yields, and stricter regulations. Profitability depends on your specific operation and market access."
+      }
+    ]
+  },
+  "egg_production": {
+    "title": "Egg Production Calculator",
+    "description": "Calculate egg production and efficiency.",
+    "hen_count_label": "Number of Hens",
+    "hen_count_tooltip": "Total laying hens",
+    "lay_rate_label": "Lay Rate (%)",
+    "lay_rate_tooltip": "Percentage of hens laying daily",
+    "price_label": "Price per Dozen ($)",
+    "price_tooltip": "Selling price for 12 eggs",
+    "error_invalid_input": "Please enter valid numbers (Rate 0-100).",
+    "error_hen_count_positive": "Number of hens must be greater than zero.",
+    "error_lay_rate_range": "Lay rate must be between 0 and 100%.",
+    "error_price_negative": "Price cannot be negative.",
+    "info_title": "About Egg Production",
+    "info_description": "This calculator estimates daily, weekly, monthly, and annual egg production based on your flock size and laying rate percentage.",
+    "result_label": "Daily Production",
+    "result_daily": "Daily Eggs",
+    "weekly": "Weekly Eggs",
+    "monthly": "Monthly Eggs",
+    "annual": "Annual Eggs",
+    "annual_revenue": "Est. Annual Revenue",
+    "unit_eggs": "eggs",
+    "howItWorks": {
+      "title": "How the Egg Production Calculator Works",
+      "formula": "Daily Eggs = Number of Hens × (Lay Rate / 100)",
+      "explanation": "This calculator estimates egg production based on flock size and laying rate. Commercial hens typically lay at 80-95% rate during peak production, declining over time.",
+      "steps": [
+        "Enter the total number of laying hens",
+        "Input the current or expected laying rate percentage",
+        "Enter your selling price per dozen eggs",
+        "Review daily, monthly, and annual egg production",
+        "See estimated annual revenue projections"
+      ]
     },
-    "compost-calculator": {
-        "title": "Compost Calculator",
-        "description": "Calculate the ideal ratios for mixing organic materials to produce high-quality compost."
+    "useCases": [
+      "Planning egg inventory and sales schedules",
+      "Evaluating flock productivity and efficiency",
+      "Calculating break-even points for layer operations",
+      "Deciding optimal flock replacement timing"
+    ],
+    "seoTips": [
+      "Peak production (90%+) occurs at 25-35 weeks of age",
+      "16 hours of light daily optimizes laying rate",
+      "Laying rate naturally declines 10-15% annually after peak",
+      "Molt can be induced to extend productive life",
+      "Free-range eggs can command 50-100% premium prices"
+    ],
+    "commonMistakes": [
+      "Expecting peak production rates throughout the year",
+      "Not planning for seasonal laying rate drops",
+      "Ignoring feed-to-egg conversion ratios in cost analysis",
+      "Underestimating egg breakage and cull rates"
+    ],
+    "faqs": [
+      {
+        "question": "How many eggs does a hen lay per year?",
+        "answer": "Commercial laying hens produce 280-320 eggs in their first year. Production declines about 10-15% each subsequent year. Heritage breeds typically lay 150-250 eggs annually."
+      },
+      {
+        "question": "What is a good laying rate?",
+        "answer": "Commercial operations target 90-95% during peak production (25-35 weeks). Rates of 80% are still profitable. Below 65-70%, hens may be candidates for replacement."
+      },
+      {
+        "question": "When do hens start laying?",
+        "answer": "Most commercial breeds start laying at 18-22 weeks of age, reach peak production at 25-35 weeks, and remain productive for 18-24 months before significant decline."
+      },
+      {
+        "question": "How does light affect egg production?",
+        "answer": "Hens need 14-16 hours of light daily for optimal production. As days shorten in fall, supplemental lighting maintains laying rates. Sudden light changes can cause stress and production drops."
+      }
+    ]
+  },
+  "pesticide": {
+    "title": "Pesticide Calculator",
+    "description": "Calculate pesticide mixing and application.",
+    "pesticide_type_label": "Pesticide Type",
+    "pesticide_type_tooltip": "Select type of chemical",
+    "type_herbicide": "Herbicide",
+    "type_insecticide": "Insecticide",
+    "type_fungicide": "Fungicide",
+    "area_label": "Field Area (acres)",
+    "area_tooltip": "Area to treat",
+    "area_placeholder": "e.g. 50",
+    "concentration_label": "Concentration (%)",
+    "concentration_tooltip": "Active ingredient concentration",
+    "concentration_placeholder": "e.g. 40",
+    "target_rate_label": "Target Rate (lb a.i./acre)",
+    "target_rate_tooltip": "Pounds active ingredient per acre",
+    "target_rate_placeholder": "e.g. 1.5",
+    "error_invalid_input": "Invalid input.",
+    "error_positive_required": "Positive values required.",
+    "error_calculation": "Calculation error.",
+    "info_title": "Safety Information",
+    "info_description": "Always read the label before applying pesticides. Wear protective gear.",
+    "result_label": "Pesticide Needed",
+    "result_gallons": "Gallons",
+    "water_needed": "Water Needed",
+    "spray_volume": "Total Spray Volume",
+    "application_rate": "Application Rate",
+    "cost_estimate": "Est. Cost",
+    "unit_gal": "gal",
+    "unit_gal_acre": "gal/acre",
+    "howItWorks": {
+      "title": "How the Pesticide Calculator Works",
+      "formula": "Product Needed = (Target Rate × Area) / (Concentration / 100)",
+      "explanation": "This calculator determines the amount of pesticide product needed to achieve the desired active ingredient application rate. It accounts for product concentration and total area to be treated.",
+      "steps": [
+        "Select the type of pesticide (herbicide, insecticide, or fungicide)",
+        "Enter the total area to be treated in acres",
+        "Input the product's active ingredient concentration",
+        "Specify the target application rate in pounds per acre",
+        "Review the total product and water needed for application"
+      ]
     },
-    "greenhouse-calculator": {
-        "title": "Greenhouse Calculator",
-        "description": "Plan the specifications and costs for your greenhouse, including area and ventilation."
+    "useCases": [
+      "Calculating precise pesticide amounts for spray tank mixing",
+      "Ensuring label compliance for application rates",
+      "Estimating pesticide costs for budgeting",
+      "Training applicators on proper mixing procedures"
+    ],
+    "seoTips": [
+      "Always calibrate sprayers before the application season",
+      "Apply pesticides in early morning or evening to reduce drift",
+      "Check weather forecasts - avoid application before rain",
+      "Rotate pesticide classes to prevent resistance development",
+      "Keep detailed records of all applications for compliance"
+    ],
+    "commonMistakes": [
+      "Mixing different pesticides without checking compatibility",
+      "Applying in windy conditions causing drift to non-target areas",
+      "Using incorrect nozzle types for the pesticide formulation",
+      "Not accounting for tank residue from previous applications"
+    ],
+    "faqs": [
+      {
+        "question": "How do I calibrate my sprayer?",
+        "answer": "Fill the tank with water, spray a known area, measure water used, and calculate gallons per acre. Adjust pressure or speed to achieve the desired application rate. Recalibrate at least annually."
+      },
+      {
+        "question": "What does 'active ingredient' mean?",
+        "answer": "The active ingredient (a.i.) is the chemical compound that actually controls the pest. A product labeled '40% glyphosate' contains 40% active ingredient and 60% inert carriers and adjuvants."
+      },
+      {
+        "question": "Can I mix different pesticides together?",
+        "answer": "Some combinations are compatible and save application time. However, mixing can cause chemical reactions, reduced efficacy, or crop damage. Always check product labels and compatibility charts."
+      },
+      {
+        "question": "How do I prevent pesticide resistance?",
+        "answer": "Rotate between different modes of action (chemical classes), use integrated pest management, apply at labeled rates, and avoid treating the same area repeatedly with the same product."
+      }
+    ]
+  },
+  "fertilizer": {
+    "title": "Fertilizer Calculator",
+    "description": "Calculate NPK fertilizer needs.",
+    "crop_type_label": "Crop Type",
+    "crop_type_tooltip": "Select crop",
+    "crop_corn": "Corn",
+    "crop_wheat": "Wheat",
+    "crop_soybean": "Soybean",
+    "crop_cotton": "Cotton",
+    "area_label": "Field Area (acres)",
+    "area_tooltip": "Area to fertilize",
+    "area_placeholder": "e.g. 100",
+    "target_yield_label": "Target Yield (bu/acre)",
+    "target_yield_tooltip": "Expected yield per acre",
+    "target_yield_placeholder": "e.g. 180",
+    "soil_n_label": "Soil Test N (lb/acre)",
+    "soil_n_tooltip": "Existing Nitrogen in soil",
+    "soil_p_label": "Soil Test P (lb/acre)",
+    "soil_p_tooltip": "Existing Phosphorus in soil",
+    "soil_k_label": "Soil Test K (lb/acre)",
+    "soil_k_tooltip": "Existing Potassium in soil",
+    "error_invalid_input": "Invalid input numbers.",
+    "error_positive_required": "Positive values required.",
+    "error_calculation": "Calculation error.",
+    "info_title": "Fertilizer Tips",
+    "info_description": "Base fertilizer applications on soil test results for efficiency and environmental safety.",
+    "result_label": "Total Fertilizer Needed",
+    "result_unit": "Total lbs N+P+K",
+    "result_unit_val": "lbs",
+    "npk_breakdown": "NPK Breakdown",
+    "nitrogen": "Nitrogen",
+    "phosphorus": "Phosphorus",
+    "potassium": "Potassium",
+    "cost_estimate": "Est. Cost",
+    "unit_lbs_acre": "lbs/acre",
+    "element_n": "N",
+    "element_p": "P",
+    "element_k": "K",
+    "howItWorks": {
+      "title": "How the Fertilizer Calculator Works",
+      "formula": "Fertilizer Needed = (Crop Requirement × Target Yield) - Existing Soil Nutrients",
+      "explanation": "This calculator determines NPK (nitrogen, phosphorus, potassium) requirements based on crop type, yield goals, and existing soil nutrient levels from soil tests. It calculates the deficit that needs to be supplied through fertilization.",
+      "steps": [
+        "Select your crop type from the dropdown",
+        "Enter the field area in acres",
+        "Set your target yield in bushels per acre",
+        "Input soil test results for N, P, and K",
+        "Review the calculated fertilizer requirements"
+      ]
     },
-    "tractor-fuel-calculator": {
-        "title": "Tractor Fuel Calculator",
-        "description": "Estimate tractor fuel consumption based on working hours or plowed area."
+    "useCases": [
+      "Developing nutrient management plans for crops",
+      "Optimizing fertilizer purchases based on actual needs",
+      "Maximizing yields while minimizing input costs",
+      "Meeting environmental regulations for nutrient application"
+    ],
+    "seoTips": [
+      "Soil test every 2-3 years to track nutrient trends",
+      "Corn typically needs 1.0-1.2 lbs N per bushel of yield goal",
+      "Split nitrogen applications improve efficiency and reduce loss",
+      "Soybeans fix their own nitrogen but need P and K",
+      "Fall application of P and K is often more cost-effective"
+    ],
+    "commonMistakes": [
+      "Applying fertilizer without current soil test results",
+      "Over-applying nitrogen which wastes money and pollutes water",
+      "Ignoring micronutrient deficiencies (zinc, sulfur, etc.)",
+      "Not crediting nitrogen from previous legume crops"
+    ],
+    "faqs": [
+      {
+        "question": "How often should I soil test?",
+        "answer": "Test every 2-3 years for most fields. Test annually if you're making major changes to your fertility program or experiencing yield problems."
+      },
+      {
+        "question": "What do the NPK numbers mean?",
+        "answer": "NPK numbers on fertilizer bags show the percentage of nitrogen (N), phosphorus (P2O5), and potassium (K2O). A 10-20-10 fertilizer contains 10% N, 20% P2O5, and 10% K2O by weight."
+      },
+      {
+        "question": "Should I apply all nitrogen at once?",
+        "answer": "For most crops, split applications are more efficient. Apply 30-50% at planting and the remainder as sidedress when the crop can use it. This reduces losses to leaching and volatilization."
+      },
+      {
+        "question": "Do soybeans need nitrogen fertilizer?",
+        "answer": "Generally no - soybeans fix their own nitrogen through root nodule bacteria. However, they do need adequate P and K. In some cases, a small starter N application (20-30 lbs) may help early growth."
+      }
+    ]
+  },
+  "seed_rate": {
+    "title": "Seed Rate Calculator",
+    "description": "Calculate seeding rate per acre.",
+    "crop_type_label": "Crop Type",
+    "crop_type_tooltip": "Select the type of crop you're planting",
+    "crop_corn": "Corn",
+    "crop_wheat": "Wheat",
+    "crop_soybean": "Soybean",
+    "crop_rice": "Rice",
+    "crop_cotton": "Cotton",
+    "crop_sunflower": "Sunflower",
+    "crop_custom": "Custom",
+    "area_label": "Field Area",
+    "area_tooltip": "Enter the total area to be seeded",
+    "area_placeholder": "e.g. 100",
+    "unit_acres": "Acres",
+    "unit_hectares": "Hectares",
+    "acres": "acres",
+    "row_spacing_label": "Row Spacing (inches)",
+    "row_spacing_tooltip": "Distance between rows in inches",
+    "row_spacing_placeholder": "e.g. 30",
+    "plant_spacing_label": "Plant Spacing (inches)",
+    "plant_spacing_tooltip": "Distance between plants within a row",
+    "plant_spacing_placeholder": "e.g. 6",
+    "germination_label": "Germination Rate (%)",
+    "germination_tooltip": "Expected seed germination percentage",
+    "germination_placeholder": "e.g. 90",
+    "info_title": "Seed Rate Info",
+    "info_description": "Correct seeding rate ensures optimal plant population and yield.",
+    "use_cases_title": "Use Cases",
+    "use_case_1": "Plan seed purchases",
+    "use_case_2": "Calibrate planters",
+    "use_case_3": "Estimate costs",
+    "result_label": "Seeds Needed",
+    "result_seeds": "Total Seeds",
+    "details_title": "Detailed Requirements",
+    "weight_pounds": "Weight in Pounds",
+    "weight_kilograms": "Weight in Kilograms",
+    "per_square_meter": "Seeds per m²",
+    "per_square_foot": "Seeds per sq ft",
+    "formula_title": "Formula Used",
+    "formula_explanation": "Based on desired plant population and germination rate.",
+    "error_invalid_input": "Invalid input.",
+    "error_positive_required": "Positive values required.",
+    "error_germination_range": "Germination must be 0-100.",
+    "error_calculation": "Calculation error.",
+    "unit_lbs": "lbs",
+    "unit_kg": "kg",
+    "howItWorks": {
+      "title": "How the Seed Rate Calculator Works",
+      "formula": "Seeds per Acre = (43,560 sq ft / (Row Spacing × Plant Spacing)) / (Germination Rate / 100)",
+      "explanation": "This calculator determines how many seeds you need based on desired plant population, row and plant spacing, and expected germination rate. It accounts for germination losses to ensure you achieve your target stand.",
+      "steps": [
+        "Select your crop type or choose custom settings",
+        "Enter the total field area in acres or hectares",
+        "Specify row spacing and plant spacing in inches",
+        "Input the expected germination rate percentage",
+        "Review seeds needed and weight requirements"
+      ]
     },
-    "tractor_fuel": {
-        "title": "Tractor Fuel Calculator",
-        "description": "Estimate tractor fuel consumption based on working hours or plowed area.",
-        "operation_label": "Operation",
-        "operation_tooltip": "Select the type of operation",
-        "op_plowing": "Plowing",
-        "op_tillage": "Tillage",
-        "op_planting": "Planting",
-        "op_spraying": "Spraying",
-        "op_harvesting": "Harvesting",
-        "acreage_label": "Acreage (acres)",
-        "acreage_tooltip": "Total area in acres",
-        "tractor_hp_label": "Tractor Horsepower (HP)",
-        "tractor_hp_tooltip": "Engine power in HP",
-        "fuel_price_label": "Fuel Price ($/gal)",
-        "fuel_price_tooltip": "Cost per gallon of diesel",
-        "error_invalid_input": "Please enter valid positive numbers for all fields.",
-        "result_gallons": "Total Gallons Needed",
-        "fuel_cost": "Estimated Fuel Cost",
-        "hours_needed": "Estimated Hours",
-        "efficiency": "Efficiency Rating",
-        "unit_hrs": "hrs",
-        "howItWorks": {
-            "title": "How the Tractor Fuel Calculator Works",
-            "formula": "Fuel Consumption = (HP × Load Factor × Hours) / Fuel Efficiency",
-            "explanation": "This calculator estimates diesel fuel consumption based on tractor horsepower, the type of field operation, and acreage. Different operations require different amounts of power - plowing is the most fuel-intensive, while spraying uses the least.",
-            "steps": [
-                "Select the type of field operation (plowing, tillage, planting, etc.)",
-                "Enter the total acreage to be worked",
-                "Input your tractor's horsepower rating",
-                "Enter the current fuel price per gallon",
-                "Review the calculated fuel needs and estimated costs"
-            ]
-        },
-        "useCases": [
-            "Budgeting fuel costs for the upcoming farming season",
-            "Comparing fuel efficiency between different tractors",
-            "Planning fuel purchases and storage needs",
-            "Estimating operational costs for custom farming services"
-        ],
-        "seoTips": [
-            "Plowing typically uses 2-3 gallons per acre for 100HP tractors",
-            "Maintain proper tire pressure to improve fuel efficiency by 10-15%",
-            "Diesel prices vary seasonally - buy in bulk during low seasons",
-            "Modern tier 4 engines are 15-20% more fuel efficient than older models",
-            "Track actual fuel use to refine estimates for your specific conditions"
-        ],
-        "commonMistakes": [
-            "Not accounting for field conditions (wet soil uses more fuel)",
-            "Ignoring the impact of implement width on coverage rate",
-            "Using highway fuel consumption rates instead of field rates",
-            "Forgetting to include travel time between fields"
-        ],
-        "faqs": [
-            {
-                "question": "How much fuel does plowing use compared to other operations?",
-                "answer": "Plowing is the most fuel-intensive operation, using about 2-3 gallons per acre. Tillage uses 1-2 gallons, planting uses 0.5-1 gallon, and spraying uses only 0.2-0.4 gallons per acre."
-            },
-            {
-                "question": "Does tractor size affect fuel efficiency?",
-                "answer": "Yes, larger tractors are often more fuel-efficient per acre because they can pull wider implements. A 200HP tractor with a 12-row planter is more efficient than a 100HP tractor with a 6-row planter."
-            },
-            {
-                "question": "How can I reduce tractor fuel consumption?",
-                "answer": "Maintain proper tire inflation, match implement size to tractor power, reduce unnecessary idling, perform regular maintenance, and consider conservation tillage practices."
-            },
-            {
-                "question": "Should I use diesel or biodiesel?",
-                "answer": "Modern tractors can typically use B20 (20% biodiesel blend) without modifications. Biodiesel may slightly reduce power but provides similar fuel economy and lower emissions."
-            }
-        ]
-    },
-    "irrigation": {
-        "title": "Irrigation Calculator",
-        "description": "Determine irrigation water requirements for your crops.",
-        "area_label": "Field Area (acres)",
-        "area_tooltip": "Total area to be irrigated",
-        "area_placeholder": "e.g. 10",
-        "crop_type_label": "Crop Type",
-        "crop_type_tooltip": "Select the crop you are growing",
-        "crop_corn": "Corn",
-        "crop_wheat": "Wheat",
-        "crop_vegetables": "Vegetables",
-        "climate_label": "Climate Condition",
-        "climate_tooltip": "Select current weather conditions",
-        "climate_hot": "Hot & Dry",
-        "climate_moderate": "Moderate",
-        "climate_cool": "Cool & Humid",
-        "growth_stage_label": "Growth Stage",
-        "growth_stage_tooltip": "Current stage of crop development",
-        "stage_vegetative": "Vegetative",
-        "stage_flowering": "Flowering",
-        "stage_maturity": "Maturity",
-        "error_invalid_input": "Please enter a valid area.",
-        "error_calculation": "Error calculating results.",
-        "info_title": "Irrigation Information",
-        "info_description": "Calculate water needs based on crop, soil, and climate factors.",
-        "result_label": "Water Needed",
-        "result_gallons": "Total Gallons",
-        "liters": "Liters",
-        "acre_feet": "Acre-Feet",
-        "irrigation_time": "Est. Irrigation Time (at 500 GPM)",
-        "cost_estimate": "Est. Cost ($)",
-        "unit_min": "min",
-        "howItWorks": {
-            "title": "How the Irrigation Calculator Works",
-            "formula": "Water Needed = Base ET × Crop Coefficient × Growth Stage Factor × Climate Adjustment × Area",
-            "explanation": "This calculator uses evapotranspiration (ET) data combined with crop-specific coefficients to determine water requirements. Different crops, growth stages, and climate conditions all affect how much water your fields need.",
-            "steps": [
-                "Enter the total field area in acres",
-                "Select your crop type from the dropdown",
-                "Choose the current climate conditions",
-                "Select the crop's current growth stage",
-                "Review water requirements in gallons, liters, and acre-feet"
-            ]
-        },
-        "useCases": [
-            "Planning irrigation schedules for different crop rotations",
-            "Sizing irrigation pumps and delivery systems",
-            "Estimating water costs for budgeting purposes",
-            "Applying for water rights or permits"
-        ],
-        "seoTips": [
-            "Corn needs about 25 inches of water throughout the growing season",
-            "Drip irrigation can reduce water use by 30-50% compared to flood irrigation",
-            "Morning irrigation reduces evaporation losses",
-            "Flowering stage is critical - water stress during this time severely impacts yields",
-            "Soil moisture sensors can help optimize irrigation timing"
-        ],
-        "commonMistakes": [
-            "Over-irrigating which wastes water and can cause root diseases",
-            "Under-watering during critical growth stages",
-            "Not accounting for recent rainfall when scheduling irrigation",
-            "Ignoring soil type differences in water retention"
-        ],
-        "faqs": [
-            {
-                "question": "How much water does corn need?",
-                "answer": "Corn typically needs 20-25 inches of water over the growing season. Peak water use occurs during tasseling and silking, when corn may need 0.3-0.4 inches per day."
-            },
-            {
-                "question": "When is the best time to irrigate?",
-                "answer": "Early morning (4-9 AM) is ideal. This minimizes evaporation losses and allows foliage to dry before evening, reducing disease risk."
-            },
-            {
-                "question": "How do I know if I'm over or under-watering?",
-                "answer": "Use soil moisture probes or tensiometers. Wilting in the afternoon that recovers overnight is normal, but morning wilt indicates severe stress. Waterlogged soil or standing water indicates over-irrigation."
-            },
-            {
-                "question": "Does soil type affect irrigation needs?",
-                "answer": "Yes, significantly. Sandy soils drain quickly and need more frequent, lighter irrigation. Clay soils hold water longer but can become waterlogged. Loamy soils are ideal for most crops."
-            }
-        ]
-    },
-    "compost": {
-        "title": "Compost Calculator",
-        "description": "Calculate C:N ratio for compost.",
-        "total_volume_label": "Total Volume (cu ft)",
-        "total_volume_tooltip": "Desired final compost volume",
-        "target_ratio_label": "Target C:N Ratio",
-        "target_ratio_tooltip": "Ideal is usually 30:1",
-        "error_invalid_input": "Please enter valid positive numbers.",
-        "result_ratio": "Carbon to Nitrogen Ratio",
-        "green_material": "Green Material (Nitrogen)",
-        "brown_material": "Brown Material (Carbon)",
-        "unit_cu_ft": "cu ft",
-        "howItWorks": {
-            "title": "How the Compost Calculator Works",
-            "formula": "C:N Ratio = (Carbon in Browns + Carbon in Greens) / (Nitrogen in Browns + Nitrogen in Greens)",
-            "explanation": "Successful composting requires balancing carbon-rich 'brown' materials with nitrogen-rich 'green' materials. The ideal ratio is approximately 30:1 (carbon to nitrogen). This calculator helps you determine the right mix of materials.",
-            "steps": [
-                "Enter your desired total compost volume",
-                "Specify your target C:N ratio (30:1 is recommended)",
-                "The calculator determines the proportion of greens and browns needed",
-                "Review the volumes of each material type required"
-            ]
-        },
-        "useCases": [
-            "Creating optimal compost for garden amendments",
-            "Managing farm waste into valuable fertilizer",
-            "Reducing landfill waste through proper composting",
-            "Producing consistent, high-quality compost for sale"
-        ],
-        "seoTips": [
-            "Browns include dry leaves, straw, cardboard, and wood chips",
-            "Greens include grass clippings, food scraps, coffee grounds, and manure",
-            "Turn compost every 1-2 weeks to speed decomposition",
-            "Proper moisture is key - compost should feel like a wrung-out sponge",
-            "Hot composting (130-160F) kills weed seeds and pathogens"
-        ],
-        "commonMistakes": [
-            "Adding too many greens, causing smelly, anaerobic conditions",
-            "Not maintaining adequate moisture levels",
-            "Making the pile too small to generate sufficient heat",
-            "Including meat, dairy, or diseased plants that attract pests"
-        ],
-        "faqs": [
-            {
-                "question": "What is the ideal C:N ratio for composting?",
-                "answer": "The ideal ratio is 25:1 to 35:1, with 30:1 being optimal. Too much carbon (high ratio) slows decomposition, while too much nitrogen (low ratio) causes odors and nitrogen loss."
-            },
-            {
-                "question": "How long does composting take?",
-                "answer": "Hot composting with proper management takes 2-3 months. Cold composting (minimal turning) takes 6-12 months. Vermicomposting with worms takes 2-4 months."
-            },
-            {
-                "question": "Why does my compost smell bad?",
-                "answer": "Bad odors usually indicate too much nitrogen (greens) or poor aeration. Add more browns and turn the pile more frequently. Ammonia smell means nitrogen is escaping."
-            },
-            {
-                "question": "Can I compost in winter?",
-                "answer": "Yes, but decomposition slows significantly below 40F. Keep the pile larger (at least 3x3x3 feet) and insulate with straw or leaves to maintain internal heat."
-            }
-        ]
-    },
-    "greenhouse": {
-        "title": "Greenhouse Calculator",
-        "description": "Plan greenhouse dimensions and climate control.",
-        "length_label": "Length (ft)",
-        "length_tooltip": "Length of the greenhouse structure",
-        "width_label": "Width (ft)",
-        "width_tooltip": "Width of the greenhouse structure",
-        "height_label": "Average Height (ft)",
-        "height_tooltip": "Average height of the structure",
-        "climate_label": "Local Climate",
-        "climate_tooltip": "Select general climate condition",
-        "climate_hot": "Hot",
-        "climate_moderate": "Moderate",
-        "climate_cold": "Cold",
-        "error_invalid_input": "Please enter valid dimensions.",
-        "result_area": "Floor Area (sq ft)",
-        "volume": "Internal Volume",
-        "plant_capacity": "Est. Plant Capacity",
-        "unit_cu_ft": "cu ft",
-        "howItWorks": {
-            "title": "How the Greenhouse Calculator Works",
-            "formula": "Floor Area = Length × Width; Volume = Length × Width × Average Height",
-            "explanation": "This calculator helps plan greenhouse specifications by computing floor area, internal volume, and estimated plant capacity. Climate conditions affect heating/cooling requirements and ventilation needs.",
-            "steps": [
-                "Enter the planned length of your greenhouse",
-                "Enter the width of the structure",
-                "Input the average height (accounting for roof slope)",
-                "Select your local climate conditions",
-                "Review calculated floor area, volume, and plant capacity"
-            ]
-        },
-        "useCases": [
-            "Planning a new greenhouse construction project",
-            "Calculating heating and cooling requirements",
-            "Determining plant capacity for production planning",
-            "Sizing ventilation fans and environmental controls"
-        ],
-        "seoTips": [
-            "Orient greenhouses east-west for maximum winter sun exposure",
-            "Allow 10-12 sq ft per tomato plant, 4-6 sq ft for peppers",
-            "Ventilation should exchange air every 1-2 minutes in hot climates",
-            "Double-wall polycarbonate reduces heating costs by 30-40%",
-            "Consider roll-up sides for passive ventilation in moderate climates"
-        ],
-        "commonMistakes": [
-            "Underestimating the heating costs for cold climates",
-            "Insufficient ventilation leading to humidity problems",
-            "Not accounting for pathways and equipment space",
-            "Choosing materials unsuited to local weather conditions"
-        ],
-        "faqs": [
-            {
-                "question": "What size greenhouse do I need?",
-                "answer": "For hobby use, 100-200 sq ft is adequate. Small commercial operations typically start at 1,000-3,000 sq ft. Consider future expansion when planning."
-            },
-            {
-                "question": "How much does greenhouse heating cost?",
-                "answer": "Heating costs vary widely by climate and insulation. In cold climates, expect $2-5 per square foot annually for heating. Double-layer glazing can cut costs by 40%."
-            },
-            {
-                "question": "What is the best greenhouse covering?",
-                "answer": "Glass is most durable but expensive. Double-wall polycarbonate offers good insulation and durability. Polyethylene film is cheapest but needs replacing every 2-4 years."
-            },
-            {
-                "question": "How much ventilation does a greenhouse need?",
-                "answer": "Plan for 1-1.5 air exchanges per minute in hot weather. For a 1,000 cu ft greenhouse, you need fans capable of moving 1,000-1,500 CFM."
-            }
-        ]
-    },
-    "milk_production": {
-        "title": "Milk Production Calculator",
-        "description": "Predict milk production and revenue.",
-        "cow_count_label": "Number of Cows",
-        "cow_count_tooltip": "Total milking cows in herd",
-        "milk_per_cow_label": "Avg Milk per Cow (gal/day)",
-        "milk_per_cow_tooltip": "Average daily yield per cow",
-        "price_label": "Milk Price ($/gal)",
-        "price_tooltip": "Selling price per gallon",
-        "error_invalid_input": "Please enter valid positive numbers.",
-        "result_daily": "Daily Production (gal)",
-        "monthly": "Monthly Production",
-        "annual": "Annual Production",
-        "annual_revenue": "Est. Annual Revenue",
-        "unit_gal": "gal",
-        "howItWorks": {
-            "title": "How the Milk Production Calculator Works",
-            "formula": "Daily Production = Number of Cows × Gallons per Cow per Day",
-            "explanation": "This calculator projects milk production and revenue based on herd size and individual cow productivity. It accounts for daily, monthly, and annual production to help with business planning.",
-            "steps": [
-                "Enter the number of milking cows in your herd",
-                "Input the average daily milk yield per cow in gallons",
-                "Enter the current or expected milk price per gallon",
-                "Review daily, monthly, and annual production projections",
-                "See estimated annual revenue based on current prices"
-            ]
-        },
-        "useCases": [
-            "Projecting dairy farm income and profitability",
-            "Planning milk storage and cooling capacity",
-            "Evaluating the economics of herd expansion",
-            "Negotiating milk contracts with processors"
-        ],
-        "seoTips": [
-            "Holstein cows average 8-9 gallons per day, Jerseys average 5-6 gallons",
-            "Peak production occurs 40-60 days after calving",
-            "Proper nutrition can increase production by 10-20%",
-            "Heat stress can reduce production by 10-25% in summer",
-            "Three-times-daily milking increases yield by 10-15% but adds labor costs"
-        ],
-        "commonMistakes": [
-            "Assuming all cows produce equally throughout the year",
-            "Not accounting for dry periods and calving intervals",
-            "Ignoring seasonal price fluctuations in milk markets",
-            "Underestimating feed costs when calculating profitability"
-        ],
-        "faqs": [
-            {
-                "question": "How much milk does a cow produce per day?",
-                "answer": "Production varies by breed and management. Holsteins average 8-9 gallons (30-35 liters) per day at peak. Jerseys produce 5-6 gallons but with higher butterfat content."
-            },
-            {
-                "question": "What affects milk production?",
-                "answer": "Key factors include breed genetics, nutrition quality, days in milk (lactation stage), age (mature cows produce more), health status, and environmental comfort (heat stress reduces production)."
-            },
-            {
-                "question": "How long do dairy cows produce milk?",
-                "answer": "A typical lactation lasts 305 days, followed by a 60-day dry period before the next calf. Cows can remain productive for 4-6 lactations or more with good management."
-            },
-            {
-                "question": "Is organic milk more profitable?",
-                "answer": "Organic milk commands premium prices (often 50-100% higher) but has higher production costs, lower yields, and stricter regulations. Profitability depends on your specific operation and market access."
-            }
-        ]
-    },
-    "egg_production": {
-        "title": "Egg Production Calculator",
-        "description": "Calculate egg production and efficiency.",
-        "hen_count_label": "Number of Hens",
-        "hen_count_tooltip": "Total laying hens",
-        "lay_rate_label": "Lay Rate (%)",
-        "lay_rate_tooltip": "Percentage of hens laying daily",
-        "price_label": "Price per Dozen ($)",
-        "price_tooltip": "Selling price for 12 eggs",
-        "error_invalid_input": "Please enter valid numbers (Rate 0-100).",
-        "result_daily": "Daily Eggs",
-        "monthly": "Monthly Eggs",
-        "annual": "Annual Eggs",
-        "annual_revenue": "Est. Annual Revenue",
-        "unit_eggs": "eggs",
-        "howItWorks": {
-            "title": "How the Egg Production Calculator Works",
-            "formula": "Daily Eggs = Number of Hens × (Lay Rate / 100)",
-            "explanation": "This calculator estimates egg production based on flock size and laying rate. Commercial hens typically lay at 80-95% rate during peak production, declining over time.",
-            "steps": [
-                "Enter the total number of laying hens",
-                "Input the current or expected laying rate percentage",
-                "Enter your selling price per dozen eggs",
-                "Review daily, monthly, and annual egg production",
-                "See estimated annual revenue projections"
-            ]
-        },
-        "useCases": [
-            "Planning egg inventory and sales schedules",
-            "Evaluating flock productivity and efficiency",
-            "Calculating break-even points for layer operations",
-            "Deciding optimal flock replacement timing"
-        ],
-        "seoTips": [
-            "Peak production (90%+) occurs at 25-35 weeks of age",
-            "16 hours of light daily optimizes laying rate",
-            "Laying rate naturally declines 10-15% annually after peak",
-            "Molt can be induced to extend productive life",
-            "Free-range eggs can command 50-100% premium prices"
-        ],
-        "commonMistakes": [
-            "Expecting peak production rates throughout the year",
-            "Not planning for seasonal laying rate drops",
-            "Ignoring feed-to-egg conversion ratios in cost analysis",
-            "Underestimating egg breakage and cull rates"
-        ],
-        "faqs": [
-            {
-                "question": "How many eggs does a hen lay per year?",
-                "answer": "Commercial laying hens produce 280-320 eggs in their first year. Production declines about 10-15% each subsequent year. Heritage breeds typically lay 150-250 eggs annually."
-            },
-            {
-                "question": "What is a good laying rate?",
-                "answer": "Commercial operations target 90-95% during peak production (25-35 weeks). Rates of 80% are still profitable. Below 65-70%, hens may be candidates for replacement."
-            },
-            {
-                "question": "When do hens start laying?",
-                "answer": "Most commercial breeds start laying at 18-22 weeks of age, reach peak production at 25-35 weeks, and remain productive for 18-24 months before significant decline."
-            },
-            {
-                "question": "How does light affect egg production?",
-                "answer": "Hens need 14-16 hours of light daily for optimal production. As days shorten in fall, supplemental lighting maintains laying rates. Sudden light changes can cause stress and production drops."
-            }
-        ]
-    },
-    "pesticide": {
-        "title": "Pesticide Calculator",
-        "description": "Calculate pesticide mixing and application.",
-        "pesticide_type_label": "Pesticide Type",
-        "pesticide_type_tooltip": "Select type of chemical",
-        "type_herbicide": "Herbicide",
-        "type_insecticide": "Insecticide",
-        "type_fungicide": "Fungicide",
-        "area_label": "Field Area (acres)",
-        "area_tooltip": "Area to treat",
-        "area_placeholder": "e.g. 50",
-        "concentration_label": "Concentration (%)",
-        "concentration_tooltip": "Active ingredient concentration",
-        "concentration_placeholder": "e.g. 40",
-        "target_rate_label": "Target Rate (lb a.i./acre)",
-        "target_rate_tooltip": "Pounds active ingredient per acre",
-        "target_rate_placeholder": "e.g. 1.5",
-        "error_invalid_input": "Invalid input.",
-        "error_positive_required": "Positive values required.",
-        "error_calculation": "Calculation error.",
-        "info_title": "Safety Information",
-        "info_description": "Always read the label before applying pesticides. Wear protective gear.",
-        "result_label": "Pesticide Needed",
-        "result_gallons": "Gallons",
-        "water_needed": "Water Needed",
-        "spray_volume": "Total Spray Volume",
-        "application_rate": "Application Rate",
-        "cost_estimate": "Est. Cost",
-        "unit_gal": "gal",
-        "unit_gal_acre": "gal/acre",
-        "howItWorks": {
-            "title": "How the Pesticide Calculator Works",
-            "formula": "Product Needed = (Target Rate × Area) / (Concentration / 100)",
-            "explanation": "This calculator determines the amount of pesticide product needed to achieve the desired active ingredient application rate. It accounts for product concentration and total area to be treated.",
-            "steps": [
-                "Select the type of pesticide (herbicide, insecticide, or fungicide)",
-                "Enter the total area to be treated in acres",
-                "Input the product's active ingredient concentration",
-                "Specify the target application rate in pounds per acre",
-                "Review the total product and water needed for application"
-            ]
-        },
-        "useCases": [
-            "Calculating precise pesticide amounts for spray tank mixing",
-            "Ensuring label compliance for application rates",
-            "Estimating pesticide costs for budgeting",
-            "Training applicators on proper mixing procedures"
-        ],
-        "seoTips": [
-            "Always calibrate sprayers before the application season",
-            "Apply pesticides in early morning or evening to reduce drift",
-            "Check weather forecasts - avoid application before rain",
-            "Rotate pesticide classes to prevent resistance development",
-            "Keep detailed records of all applications for compliance"
-        ],
-        "commonMistakes": [
-            "Mixing different pesticides without checking compatibility",
-            "Applying in windy conditions causing drift to non-target areas",
-            "Using incorrect nozzle types for the pesticide formulation",
-            "Not accounting for tank residue from previous applications"
-        ],
-        "faqs": [
-            {
-                "question": "How do I calibrate my sprayer?",
-                "answer": "Fill the tank with water, spray a known area, measure water used, and calculate gallons per acre. Adjust pressure or speed to achieve the desired application rate. Recalibrate at least annually."
-            },
-            {
-                "question": "What does 'active ingredient' mean?",
-                "answer": "The active ingredient (a.i.) is the chemical compound that actually controls the pest. A product labeled '40% glyphosate' contains 40% active ingredient and 60% inert carriers and adjuvants."
-            },
-            {
-                "question": "Can I mix different pesticides together?",
-                "answer": "Some combinations are compatible and save application time. However, mixing can cause chemical reactions, reduced efficacy, or crop damage. Always check product labels and compatibility charts."
-            },
-            {
-                "question": "How do I prevent pesticide resistance?",
-                "answer": "Rotate between different modes of action (chemical classes), use integrated pest management, apply at labeled rates, and avoid treating the same area repeatedly with the same product."
-            }
-        ]
-    },
-    "fertilizer": {
-        "title": "Fertilizer Calculator",
-        "description": "Calculate NPK fertilizer needs.",
-        "crop_type_label": "Crop Type",
-        "crop_type_tooltip": "Select crop",
-        "crop_corn": "Corn",
-        "crop_wheat": "Wheat",
-        "crop_soybean": "Soybean",
-        "crop_cotton": "Cotton",
-        "area_label": "Field Area (acres)",
-        "area_tooltip": "Area to fertilize",
-        "area_placeholder": "e.g. 100",
-        "target_yield_label": "Target Yield (bu/acre)",
-        "target_yield_tooltip": "Expected yield per acre",
-        "target_yield_placeholder": "e.g. 180",
-        "soil_n_label": "Soil Test N (lb/acre)",
-        "soil_n_tooltip": "Existing Nitrogen in soil",
-        "soil_p_label": "Soil Test P (lb/acre)",
-        "soil_p_tooltip": "Existing Phosphorus in soil",
-        "soil_k_label": "Soil Test K (lb/acre)",
-        "soil_k_tooltip": "Existing Potassium in soil",
-        "error_invalid_input": "Invalid input numbers.",
-        "error_positive_required": "Positive values required.",
-        "error_calculation": "Calculation error.",
-        "info_title": "Fertilizer Tips",
-        "info_description": "Base fertilizer applications on soil test results for efficiency and environmental safety.",
-        "result_label": "Total Fertilizer Needed",
-        "result_unit": "Total lbs N+P+K",
-        "result_unit_val": "lbs",
-        "npk_breakdown": "NPK Breakdown",
-        "nitrogen": "Nitrogen",
-        "phosphorus": "Phosphorus",
-        "potassium": "Potassium",
-        "cost_estimate": "Est. Cost",
-        "unit_lbs_acre": "lbs/acre",
-        "element_n": "N",
-        "element_p": "P",
-        "element_k": "K",
-        "howItWorks": {
-            "title": "How the Fertilizer Calculator Works",
-            "formula": "Fertilizer Needed = (Crop Requirement × Target Yield) - Existing Soil Nutrients",
-            "explanation": "This calculator determines NPK (nitrogen, phosphorus, potassium) requirements based on crop type, yield goals, and existing soil nutrient levels from soil tests. It calculates the deficit that needs to be supplied through fertilization.",
-            "steps": [
-                "Select your crop type from the dropdown",
-                "Enter the field area in acres",
-                "Set your target yield in bushels per acre",
-                "Input soil test results for N, P, and K",
-                "Review the calculated fertilizer requirements"
-            ]
-        },
-        "useCases": [
-            "Developing nutrient management plans for crops",
-            "Optimizing fertilizer purchases based on actual needs",
-            "Maximizing yields while minimizing input costs",
-            "Meeting environmental regulations for nutrient application"
-        ],
-        "seoTips": [
-            "Soil test every 2-3 years to track nutrient trends",
-            "Corn typically needs 1.0-1.2 lbs N per bushel of yield goal",
-            "Split nitrogen applications improve efficiency and reduce loss",
-            "Soybeans fix their own nitrogen but need P and K",
-            "Fall application of P and K is often more cost-effective"
-        ],
-        "commonMistakes": [
-            "Applying fertilizer without current soil test results",
-            "Over-applying nitrogen which wastes money and pollutes water",
-            "Ignoring micronutrient deficiencies (zinc, sulfur, etc.)",
-            "Not crediting nitrogen from previous legume crops"
-        ],
-        "faqs": [
-            {
-                "question": "How often should I soil test?",
-                "answer": "Test every 2-3 years for most fields. Test annually if you're making major changes to your fertility program or experiencing yield problems."
-            },
-            {
-                "question": "What do the NPK numbers mean?",
-                "answer": "NPK numbers on fertilizer bags show the percentage of nitrogen (N), phosphorus (P2O5), and potassium (K2O). A 10-20-10 fertilizer contains 10% N, 20% P2O5, and 10% K2O by weight."
-            },
-            {
-                "question": "Should I apply all nitrogen at once?",
-                "answer": "For most crops, split applications are more efficient. Apply 30-50% at planting and the remainder as sidedress when the crop can use it. This reduces losses to leaching and volatilization."
-            },
-            {
-                "question": "Do soybeans need nitrogen fertilizer?",
-                "answer": "Generally no - soybeans fix their own nitrogen through root nodule bacteria. However, they do need adequate P and K. In some cases, a small starter N application (20-30 lbs) may help early growth."
-            }
-        ]
-    },
-    "seed_rate": {
-        "title": "Seed Rate Calculator",
-        "description": "Calculate seeding rate per acre.",
-        "crop_type_label": "Crop Type",
-        "crop_type_tooltip": "Select the type of crop you're planting",
-        "crop_corn": "Corn",
-        "crop_wheat": "Wheat",
-        "crop_soybean": "Soybean",
-        "crop_rice": "Rice",
-        "crop_cotton": "Cotton",
-        "crop_sunflower": "Sunflower",
-        "crop_custom": "Custom",
-        "area_label": "Field Area",
-        "area_tooltip": "Enter the total area to be seeded",
-        "area_placeholder": "e.g. 100",
-        "unit_acres": "Acres",
-        "unit_hectares": "Hectares",
-        "row_spacing_label": "Row Spacing (inches)",
-        "row_spacing_tooltip": "Distance between rows in inches",
-        "row_spacing_placeholder": "e.g. 30",
-        "plant_spacing_label": "Plant Spacing (inches)",
-        "plant_spacing_tooltip": "Distance between plants within a row",
-        "plant_spacing_placeholder": "e.g. 6",
-        "germination_label": "Germination Rate (%)",
-        "germination_tooltip": "Expected seed germination percentage",
-        "germination_placeholder": "e.g. 90",
-        "info_title": "Seed Rate Info",
-        "info_description": "Correct seeding rate ensures optimal plant population and yield.",
-        "use_cases_title": "Use Cases",
-        "use_case_1": "Plan seed purchases",
-        "use_case_2": "Calibrate planters",
-        "use_case_3": "Estimate costs",
-        "result_label": "Seeds Needed",
-        "result_seeds": "Total Seeds",
-        "details_title": "Detailed Requirements",
-        "weight_pounds": "Weight in Pounds",
-        "weight_kilograms": "Weight in Kilograms",
-        "per_square_meter": "Seeds per m²",
-        "per_square_foot": "Seeds per sq ft",
-        "formula_title": "Formula Used",
-        "formula_explanation": "Based on desired plant population and germination rate.",
-        "error_invalid_input": "Invalid input.",
-        "error_positive_required": "Positive values required.",
-        "error_germination_range": "Germination must be 0-100.",
-        "error_calculation": "Calculation error.",
-        "unit_lbs": "lbs",
-        "unit_kg": "kg",
-        "howItWorks": {
-            "title": "How the Seed Rate Calculator Works",
-            "formula": "Seeds per Acre = (43,560 sq ft / (Row Spacing × Plant Spacing)) / (Germination Rate / 100)",
-            "explanation": "This calculator determines how many seeds you need based on desired plant population, row and plant spacing, and expected germination rate. It accounts for germination losses to ensure you achieve your target stand.",
-            "steps": [
-                "Select your crop type or choose custom settings",
-                "Enter the total field area in acres or hectares",
-                "Specify row spacing and plant spacing in inches",
-                "Input the expected germination rate percentage",
-                "Review seeds needed and weight requirements"
-            ]
-        },
-        "useCases": [
-            "Calculating seed order quantities for the planting season",
-            "Calibrating planter settings for optimal seed drop",
-            "Comparing seeding costs between different crops",
-            "Planning replanting needs based on emergence counts"
-        ],
-        "seoTips": [
-            "Corn is typically planted at 32,000-36,000 seeds per acre",
-            "Higher seeding rates don't always mean higher yields",
-            "Buy seed with germination rates above 90% for best results",
-            "Adjust rates for field conditions (heavier rates on poor soils)",
-            "Keep seed in cool, dry storage to maintain germination"
-        ],
-        "commonMistakes": [
-            "Using last year's germination test for old seed",
-            "Not adjusting for variety-specific recommendations",
-            "Ignoring seed size variations when calculating weight",
-            "Planting at rates too high for available moisture"
-        ],
-        "faqs": [
-            {
-                "question": "What is the optimal plant population for corn?",
-                "answer": "Most modern corn hybrids perform best at 32,000-36,000 plants per acre in favorable conditions. Lower populations (28,000-32,000) may be better in drought-prone areas or with limited irrigation."
-            },
-            {
-                "question": "How does row spacing affect yield?",
-                "answer": "Narrower rows (15-20 inches vs 30 inches) can increase yields 5-10% by improving light interception. However, equipment and crop management practices may limit row spacing options."
-            },
-            {
-                "question": "Should I increase seeding rate for poor germination?",
-                "answer": "Yes, adjust your seeding rate inversely to germination rate. If seed tests at 85% germination instead of 95%, increase seeding rate by about 12% to achieve the same final stand."
-            },
-            {
-                "question": "What affects seed germination rates?",
-                "answer": "Storage conditions (temperature, humidity), seed age, seed treatment, and harvest conditions all affect germination. Always use current germination test results, not the number printed on the bag."
-            }
-        ]
-    },
-    "farm_profit": {
-        "title": "Farm Profit Calculator",
-        "description": "Calculate farm profitability and return on investment",
-        "revenue_section": "Revenue Sources",
-        "costs_section": "Operating Costs",
-        "crop_revenue_label": "Crop Revenue",
-        "crop_revenue_tooltip": "Total income from crop sales",
-        "crop_revenue_placeholder": "e.g. 150000",
-        "livestock_revenue_label": "Livestock Revenue",
-        "livestock_revenue_tooltip": "Total income from livestock sales",
-        "livestock_revenue_placeholder": "e.g. 75000",
-        "other_revenue_label": "Other Revenue",
-        "other_revenue_tooltip": "Additional farm income (grants, rentals, etc.)",
-        "other_revenue_placeholder": "e.g. 10000",
-        "seed_costs_label": "Seed Costs",
-        "seed_costs_tooltip": "Total expenditure on seeds",
-        "seed_costs_placeholder": "e.g. 25000",
-        "fertilizer_costs_label": "Fertilizer Costs",
-        "fertilizer_costs_tooltip": "Total fertilizer and soil amendment costs",
-        "fertilizer_costs_placeholder": "e.g. 35000",
-        "labor_costs_label": "Labor Costs",
-        "labor_costs_tooltip": "Total wages and labor expenses",
-        "labor_costs_placeholder": "e.g. 50000",
-        "equipment_costs_label": "Equipment Costs",
-        "equipment_costs_tooltip": "Machinery operation, fuel, and maintenance",
-        "equipment_costs_placeholder": "e.g. 40000",
-        "other_costs_label": "Other Costs",
-        "other_costs_tooltip": "Additional expenses (utilities, insurance, etc.)",
-        "other_costs_placeholder": "e.g. 20000",
-        "initial_investment_label": "Initial Investment (Optional)",
-        "initial_investment_tooltip": "Total capital invested in the farm operation",
-        "initial_investment_placeholder": "e.g. 500000",
-        "error_no_input": "Please enter at least one revenue or cost value",
-        "error_negative_values": "Values cannot be negative",
-        "error_calculation": "An error occurred during calculation",
-        "result_net_profit": "Net Profit",
-        "profit": "Profit",
-        "loss": "Loss",
-        "total_revenue": "Total Revenue",
-        "total_costs": "Total Costs",
-        "profit_margin": "Profit Margin",
-        "roi": "Return on Investment",
-        "break_even": "Break-Even Point",
-        "break_even_description": "Minimum revenue needed to cover all costs",
-        "analysis_title": "Profitability Analysis",
-        "analysis_profitable": "Your farm is operating profitably.",
-        "analysis_excellent_margin": "Excellent profit margin - you're doing great!",
-        "analysis_good_margin": "Good profit margin - solid performance.",
-        "analysis_low_margin": "Profit margin is low - consider cost reduction strategies.",
-        "analysis_loss": "Your farm is operating at a loss. Review costs and revenue opportunities.",
-        "analysis_positive_roi": "Your ROI of {{roi}}% indicates a good return on your investment.",
-        "info_title": "About Farm Profit Calculator",
-        "info_description": "This calculator helps you analyze your farm's financial performance by calculating net profit, profit margins, and return on investment. Enter your revenue sources and operating costs to get a comprehensive profitability analysis."
-    }
+    "useCases": [
+      "Calculating seed order quantities for the planting season",
+      "Calibrating planter settings for optimal seed drop",
+      "Comparing seeding costs between different crops",
+      "Planning replanting needs based on emergence counts"
+    ],
+    "seoTips": [
+      "Corn is typically planted at 32,000-36,000 seeds per acre",
+      "Higher seeding rates don't always mean higher yields",
+      "Buy seed with germination rates above 90% for best results",
+      "Adjust rates for field conditions (heavier rates on poor soils)",
+      "Keep seed in cool, dry storage to maintain germination"
+    ],
+    "commonMistakes": [
+      "Using last year's germination test for old seed",
+      "Not adjusting for variety-specific recommendations",
+      "Ignoring seed size variations when calculating weight",
+      "Planting at rates too high for available moisture"
+    ],
+    "faqs": [
+      {
+        "question": "What is the optimal plant population for corn?",
+        "answer": "Most modern corn hybrids perform best at 32,000-36,000 plants per acre in favorable conditions. Lower populations (28,000-32,000) may be better in drought-prone areas or with limited irrigation."
+      },
+      {
+        "question": "How does row spacing affect yield?",
+        "answer": "Narrower rows (15-20 inches vs 30 inches) can increase yields 5-10% by improving light interception. However, equipment and crop management practices may limit row spacing options."
+      },
+      {
+        "question": "Should I increase seeding rate for poor germination?",
+        "answer": "Yes, adjust your seeding rate inversely to germination rate. If seed tests at 85% germination instead of 95%, increase seeding rate by about 12% to achieve the same final stand."
+      },
+      {
+        "question": "What affects seed germination rates?",
+        "answer": "Storage conditions (temperature, humidity), seed age, seed treatment, and harvest conditions all affect germination. Always use current germination test results, not the number printed on the bag."
+      }
+    ]
+  },
+  "farm_profit": {
+    "title": "Farm Profit Calculator",
+    "description": "Calculate farm profitability and return on investment",
+    "revenue_section": "Revenue Sources",
+    "costs_section": "Operating Costs",
+    "crop_revenue_label": "Crop Revenue",
+    "crop_revenue_tooltip": "Total income from crop sales",
+    "crop_revenue_placeholder": "e.g. 150000",
+    "livestock_revenue_label": "Livestock Revenue",
+    "livestock_revenue_tooltip": "Total income from livestock sales",
+    "livestock_revenue_placeholder": "e.g. 75000",
+    "other_revenue_label": "Other Revenue",
+    "other_revenue_tooltip": "Additional farm income (grants, rentals, etc.)",
+    "other_revenue_placeholder": "e.g. 10000",
+    "seed_costs_label": "Seed Costs",
+    "seed_costs_tooltip": "Total expenditure on seeds",
+    "seed_costs_placeholder": "e.g. 25000",
+    "fertilizer_costs_label": "Fertilizer Costs",
+    "fertilizer_costs_tooltip": "Total fertilizer and soil amendment costs",
+    "fertilizer_costs_placeholder": "e.g. 35000",
+    "labor_costs_label": "Labor Costs",
+    "labor_costs_tooltip": "Total wages and labor expenses",
+    "labor_costs_placeholder": "e.g. 50000",
+    "equipment_costs_label": "Equipment Costs",
+    "equipment_costs_tooltip": "Machinery operation, fuel, and maintenance",
+    "equipment_costs_placeholder": "e.g. 40000",
+    "other_costs_label": "Other Costs",
+    "other_costs_tooltip": "Additional expenses (utilities, insurance, etc.)",
+    "other_costs_placeholder": "e.g. 20000",
+    "initial_investment_label": "Initial Investment (Optional)",
+    "initial_investment_tooltip": "Total capital invested in the farm operation",
+    "initial_investment_placeholder": "e.g. 500000",
+    "error_no_input": "Please enter at least one revenue or cost value",
+    "error_negative_values": "Values cannot be negative",
+    "error_calculation": "An error occurred during calculation",
+    "result_net_profit": "Net Profit",
+    "profit": "Profit",
+    "loss": "Loss",
+    "total_revenue": "Total Revenue",
+    "total_costs": "Total Costs",
+    "profit_margin": "Profit Margin",
+    "roi": "Return on Investment",
+    "break_even": "Break-Even Point",
+    "break_even_description": "Minimum revenue needed to cover all costs",
+    "analysis_title": "Profitability Analysis",
+    "analysis_profitable": "Your farm is operating profitably.",
+    "analysis_excellent_margin": "Excellent profit margin - you're doing great!",
+    "analysis_good_margin": "Good profit margin - solid performance.",
+    "analysis_low_margin": "Profit margin is low - consider cost reduction strategies.",
+    "analysis_loss": "Your farm is operating at a loss. Review costs and revenue opportunities.",
+    "analysis_positive_roi": "Your ROI of {{roi}}% indicates a good return on your investment.",
+    "info_title": "About Farm Profit Calculator",
+    "info_description": "This calculator helps you analyze your farm's financial performance by calculating net profit, profit margins, and return on investment. Enter your revenue sources and operating costs to get a comprehensive profitability analysis."
+  }
 }

@@ -18,7 +18,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Square, Box, Layers, Info } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -222,12 +223,12 @@ export default function BlockCalculator() {
           label={t("block.wall_length")}
           tooltip={t("block.wall_length_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={wallLength}
-            onChange={(e) => {
-              setWallLength(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setWallLength(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("block.placeholders.wall_length")}
             step={0.1}
             min={0}
@@ -239,12 +240,12 @@ export default function BlockCalculator() {
           label={t("block.wall_height")}
           tooltip={t("block.wall_height_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={wallHeight}
-            onChange={(e) => {
-              setWallHeight(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setWallHeight(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("block.placeholders.wall_height")}
             step={0.1}
             min={0}
@@ -256,12 +257,12 @@ export default function BlockCalculator() {
           label={t("block.waste_factor")}
           tooltip={t("block.waste_factor_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={wasteFactor}
-            onChange={(e) => {
-              setWasteFactor(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setWasteFactor(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("block.placeholders.waste")}
             step={1}
             min={0}

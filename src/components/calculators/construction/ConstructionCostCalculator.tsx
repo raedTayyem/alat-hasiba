@@ -20,7 +20,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { DollarSign, Building2, Hammer, Users, MapPin, Info } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -232,12 +233,12 @@ export default function ConstructionCostCalculator() {
           label={t("construction_cost.inputs.area")}
           tooltip={t("construction_cost.inputs.area_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={buildingArea}
-            onChange={(e) => {
-              setBuildingArea(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setBuildingArea(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("construction_cost.placeholders.area")}
             min={0}
             step={10}
@@ -250,12 +251,12 @@ export default function ConstructionCostCalculator() {
           label={t("construction_cost.inputs.floors")}
           tooltip={t("construction_cost.inputs.floors_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={numberOfFloors}
-            onChange={(e) => {
-              setNumberOfFloors(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setNumberOfFloors(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("construction_cost.placeholders.floors")}
             min={1}
             max={200}

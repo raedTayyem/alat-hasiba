@@ -18,7 +18,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Info, LayoutGrid, Package, Ruler } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -235,12 +236,12 @@ export default function GroutCalculator() {
           label={t("grout.tile_area")}
           tooltip={t("grout.tile_area_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={tileArea}
-            onChange={(e) => {
-              setTileArea(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setTileArea(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("grout.placeholders.area")}
             min={0}
             step={1}
@@ -252,12 +253,12 @@ export default function GroutCalculator() {
           label={t("grout.tile_width")}
           tooltip={t("grout.tile_width_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={tileWidth}
-            onChange={(e) => {
-              setTileWidth(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setTileWidth(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("grout.placeholders.tile_width")}
             min={0}
             step={0.5}
@@ -270,12 +271,12 @@ export default function GroutCalculator() {
           label={t("grout.tile_height")}
           tooltip={t("grout.tile_height_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={tileHeight}
-            onChange={(e) => {
-              setTileHeight(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setTileHeight(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("grout.placeholders.tile_height")}
             min={0}
             step={0.5}
@@ -288,12 +289,12 @@ export default function GroutCalculator() {
           label={t("grout.joint_width")}
           tooltip={t("grout.joint_width_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={jointWidth}
-            onChange={(e) => {
-              setJointWidth(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setJointWidth(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("grout.placeholders.joint_width")}
             min={0}
             step={0.0625}
@@ -306,12 +307,12 @@ export default function GroutCalculator() {
           label={t("grout.joint_depth")}
           tooltip={t("grout.joint_depth_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={jointDepth}
-            onChange={(e) => {
-              setJointDepth(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setJointDepth(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("grout.placeholders.joint_depth")}
             min={0}
             step={0.0625}

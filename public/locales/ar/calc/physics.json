@@ -624,6 +624,11 @@
       "final_velocity": "السرعة عند نهاية الحركة",
       "time": "الزمن المستغرق للتغير"
     },
+    "errors": {
+      "enter_velocities": "يرجى إدخال قيمة واحدة على الأقل للسرعة",
+      "enter_time": "يرجى إدخال مدة الزمن",
+      "time_positive": "يجب أن يكون الزمن أكبر من صفر"
+    },
     "results": {
       "acceleration": "التسارع المقدر (a)"
     },
@@ -631,7 +636,8 @@
       "acceleration": "م/ث²"
     },
     "formulas": {
-      "acceleration": "التسارع يساوي الفرق بين السرعة النهائية والابتدائية مقسوماً على الزمن.",
+      "acceleration": "a = (v - v₀) / t",
+      "acceleration_desc": "التسارع يساوي التغير في السرعة مقسوماً على الزمن",
       "formula_short": "a = (v_f - v_i) / t"
     },
     "how_to_use": {

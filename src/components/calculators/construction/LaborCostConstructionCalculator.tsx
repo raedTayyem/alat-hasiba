@@ -21,7 +21,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Users, Info, Clock, Briefcase } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
@@ -239,12 +240,12 @@ export default function LaborCostConstructionCalculator() {
           label={t("labor_cost.regular_hours")}
           tooltip={t("labor_cost.regular_hours_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={regularHours}
-            onChange={(e) => {
-              setRegularHours(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setRegularHours(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("labor_cost.placeholders.hours")}
             min={0}
             step={1}
@@ -257,12 +258,12 @@ export default function LaborCostConstructionCalculator() {
           label={t("labor_cost.overtime_hours")}
           tooltip={t("labor_cost.overtime_hours_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={overtimeHours}
-            onChange={(e) => {
-              setOvertimeHours(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setOvertimeHours(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("labor_cost.placeholders.overtime")}
             min={0}
             step={1}
@@ -275,12 +276,12 @@ export default function LaborCostConstructionCalculator() {
           label={t("labor_cost.hourly_rate")}
           tooltip={t("labor_cost.hourly_rate_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={hourlyRate}
-            onChange={(e) => {
-              setHourlyRate(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setHourlyRate(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("labor_cost.placeholders.rate")}
             min={0}
             step={0.5}
@@ -293,12 +294,12 @@ export default function LaborCostConstructionCalculator() {
           label={t("labor_cost.workers_count")}
           tooltip={t("labor_cost.workers_count_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={workersCount}
-            onChange={(e) => {
-              setWorkersCount(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setWorkersCount(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("labor_cost.placeholders.workers")}
             min={1}
             step={1}
@@ -311,12 +312,12 @@ export default function LaborCostConstructionCalculator() {
           label={t("labor_cost.overtime_multiplier")}
           tooltip={t("labor_cost.overtime_multiplier_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={overtimeMultiplier}
-            onChange={(e) => {
-              setOvertimeMultiplier(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setOvertimeMultiplier(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("labor_cost.placeholders.multiplier")}
             min={1}
             step={0.1}
@@ -329,12 +330,12 @@ export default function LaborCostConstructionCalculator() {
           label={t("labor_cost.overhead_rate")}
           tooltip={t("labor_cost.overhead_rate_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={overheadRate}
-            onChange={(e) => {
-              setOverheadRate(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setOverheadRate(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("labor_cost.placeholders.overhead")}
             min={0}
             max={100}

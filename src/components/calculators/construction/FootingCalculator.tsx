@@ -18,7 +18,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Square, Layers, Box, Info } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -189,12 +190,12 @@ export default function FootingCalculator() {
           label={t("footing.column_load")}
           tooltip={t("footing.column_load_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={columnLoad}
-            onChange={(e) => {
-              setColumnLoad(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setColumnLoad(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("footing.placeholders.column_load")}
             min={0}
             step={10}
@@ -229,10 +230,10 @@ export default function FootingCalculator() {
           label={t("footing.soil_capacity")}
           tooltip={t("footing.soil_capacity_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={soilCapacity}
-            onChange={(e) => {
-              setSoilCapacity(e.target.value);
+            onValueChange={(value) => {
+              setSoilCapacity(value.toString());
               setSoilType('custom');
               if (error) setError('');
             }}
@@ -248,12 +249,12 @@ export default function FootingCalculator() {
           label={t("footing.safety_factor")}
           tooltip={t("footing.safety_factor_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={safetyFactor}
-            onChange={(e) => {
-              setSafetyFactor(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setSafetyFactor(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("footing.placeholders.safety_factor")}
             min={1}
             max={5}
@@ -266,12 +267,12 @@ export default function FootingCalculator() {
           label={t("footing.footing_depth")}
           tooltip={t("footing.footing_depth_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={footingDepth}
-            onChange={(e) => {
-              setFootingDepth(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setFootingDepth(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("footing.placeholders.footing_depth")}
             min={0.1}
             step={0.05}

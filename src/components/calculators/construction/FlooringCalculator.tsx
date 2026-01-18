@@ -18,7 +18,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Info, Layers, Package, Square } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
@@ -224,12 +225,12 @@ export default function FlooringCalculator() {
           label={t("flooring.room_length")}
           tooltip={t("flooring.room_length_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={roomLength}
-            onChange={(e) => {
-              setRoomLength(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setRoomLength(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("flooring.placeholders.length")}
             min={0}
             step={0.1}
@@ -241,12 +242,12 @@ export default function FlooringCalculator() {
           label={t("flooring.room_width")}
           tooltip={t("flooring.room_width_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={roomWidth}
-            onChange={(e) => {
-              setRoomWidth(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setRoomWidth(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("flooring.placeholders.width")}
             min={0}
             step={0.1}
@@ -266,12 +267,12 @@ export default function FlooringCalculator() {
           label={t("flooring.coverage_per_box")}
           tooltip={t("flooring.coverage_per_box_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={coveragePerBox}
-            onChange={(e) => {
-              setCoveragePerBox(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setCoveragePerBox(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("flooring.placeholders.coverage")}
             min={1}
             step={1}
@@ -284,12 +285,12 @@ export default function FlooringCalculator() {
           label={t("flooring.waste_factor")}
           tooltip={t("flooring.waste_factor_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={wasteFactor}
-            onChange={(e) => {
-              setWasteFactor(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setWasteFactor(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("flooring.placeholders.waste")}
             min={0}
             max={100}

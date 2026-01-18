@@ -26,7 +26,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { DoorOpen, Info, Maximize, Frame } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -274,12 +275,12 @@ export default function DoorCalculator() {
           label={t("door.opening_width")}
           tooltip={t("door.opening_width_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={openingWidth}
-            onChange={(e) => {
-              setOpeningWidth(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setOpeningWidth(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("door.placeholders.width")}
             min={0}
             step={1}
@@ -291,12 +292,12 @@ export default function DoorCalculator() {
           label={t("door.opening_height")}
           tooltip={t("door.opening_height_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={openingHeight}
-            onChange={(e) => {
-              setOpeningHeight(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setOpeningHeight(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("door.placeholders.height")}
             min={0}
             step={1}

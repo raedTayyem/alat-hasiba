@@ -25,7 +25,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Square, Info, Maximize, Frame } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -239,10 +240,10 @@ export default function WindowCalculator() {
           label={t("window.opening_width")}
           tooltip={t("window.opening_width_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={openingWidth}
-            onChange={(e) => {
-              setOpeningWidth(e.target.value);
+            onValueChange={(value) => {
+              setOpeningWidth(value.toString());
               if (error) setError('');
             }}
             placeholder={t("window.placeholders.width")}
@@ -256,10 +257,10 @@ export default function WindowCalculator() {
           label={t("window.opening_height")}
           tooltip={t("window.opening_height_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={openingHeight}
-            onChange={(e) => {
-              setOpeningHeight(e.target.value);
+            onValueChange={(value) => {
+              setOpeningHeight(value.toString());
               if (error) setError('');
             }}
             placeholder={t("window.placeholders.height")}

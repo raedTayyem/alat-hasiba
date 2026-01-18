@@ -524,13 +524,13 @@
     "unit_tooltip": "اختر القياسات الإمبراطورية أو المترية",
     "imperial": "إمبراطوري (قدم²، بوصة)",
     "metric": "متري (م²، سم)",
-    "area": "مساحة المشروع",
+    "area": "Area",
     "area_tooltip": "المساحة الإجمالية لحسابات النشارة والتربة",
-    "mulch_depth": "عمق النشارة",
+    "mulch_depth": "Mulch Depth",
     "mulch_depth_tooltip": "الموصى به: 2-4 بوصات للتحكم في الأعشاب والاحتفاظ بالرطوبة",
-    "soil_depth": "عمق التربة",
+    "soil_depth": "Soil Depth",
     "soil_depth_tooltip": "عمق طبقة التربة الجديدة المراد إضافتها",
-    "sod_area": "مساحة العشب",
+    "sod_area": "Sod Area",
     "sod_area_tooltip": "المساحة المراد تغطيتها بالعشب/النجيل",
     "waste_factor": "نسبة الهدر (%)",
     "waste_factor_tooltip": "مواد إضافية للحواف والمنحنيات والهدر (عادة 5-10%)",
@@ -640,7 +640,10 @@
         "question": "ما الفرق بين النشارة والسماد؟",
         "answer": "النشارة توضع فوق التربة للتحكم بالأعشاب والاحتفاظ بالرطوبة. السماد يُخلط في التربة لتحسين البنية وإضافة المغذيات."
       }
-    ]
+    ],
+    "no_inputs": "No Inputs",
+    "invalid_waste": "غير صالح Waste",
+    "waste": "Waste"
   },
   "siding": {
     "title": "حاسبة تكسية الجدران",
@@ -3621,13 +3624,13 @@
       "spray_foam_open": "رغوة الرش مفتوحة الخلايا",
       "spray_foam_closed": "رغوة الرش مغلقة الخلايا"
     },
-    "area": "المساحة الإجمالية",
+    "area": "Area",
     "area_tooltip": "المساحة الكلية المراد عزلها",
-    "batt_width": "عرض اللفافة",
+    "batt_width": "Batt Width",
     "batt_width_tooltip": "عرض لفافات العزل",
-    "batt_length": "طول اللفافة",
+    "batt_length": "Batt Length",
     "batt_length_tooltip": "طول لفافات العزل",
-    "thickness": "سماكة العزل",
+    "thickness": "Thickness",
     "thickness_tooltip": "سماكة العزل بالبوصة",
     "waste_factor": "نسبة الهدر",
     "waste_factor_tooltip": "مواد إضافية للهدر والقص (عادة 10%)",
@@ -3736,7 +3739,16 @@
         "question": "متى أحتاج حاجز بخار؟",
         "answer": "في المناطق الباردة: على الجانب الداخلي (الدافئ). في المناطق الحارة الرطبة: على الجانب الخارجي. تحقق من كود البناء المحلي."
       }
-    ]
+    ],
+    "invalid_dimensions": "غير صالح Dimensions",
+    "positive_values": "موجب Values",
+    "invalid_waste": "غير صالح Waste",
+    "fiberglass": "Fiberglass",
+    "rockwool": "Rockwool",
+    "cellulose": "Cellulose",
+    "spray_foam_open": "Spray Foam Open",
+    "spray_foam_closed": "Spray Foam Closed",
+    "waste": "Waste"
   },
   "block": {
     "title": "حاسبة البلوك الخرساني",
@@ -3754,12 +3766,20 @@
     "sizes": {
       "standard": "قياسي (20×20×40 سم)",
       "half": "نصف بلوكة (20×20×20 سم)",
-      "large": "كبير (20×30×40 سم)"
+      "large": "كبير (20×30×40 سم)",
+      "4x8x16": "4×8×16 بوصة",
+      "6x8x16": "6×8×16 بوصة",
+      "8x8x16": "8×8×16 بوصة (قياسي)",
+      "12x8x16": "12×8×16 بوصة",
+      "20x20x40": "20×20×40 سم (متري)"
     },
     "waste_factor": "نسبة الهدر (%)",
     "waste_factor_tooltip": "مواد إضافية للقص والكسر (عادة 5-10%)",
     "result_blocks": "إجمالي البلوك المطلوب",
     "blocks": "بلوكة",
+    "extra_blocks": "بلوك إضافي (مع الهدر)",
+    "without_waste": "بدون هدر",
+    "mortar_volume": "حجم المونة",
     "details": "تفاصيل المشروع",
     "wall_area": "مساحة الجدار",
     "mortar_bags": "أكياس المونة (40 كجم)",
@@ -4289,9 +4309,9 @@
     "custom_thickness_tooltip": "سماكة قطعة الخشب",
     "custom_width": "العرض المخصص",
     "custom_width_tooltip": "عرض قطعة الخشب",
-    "quantity": "عدد القطع",
+    "quantity": "Quantity",
     "quantity_tooltip": "كم قطعة خشب",
-    "length": "طول كل قطعة",
+    "length": "Length",
     "length_tooltip": "طول كل قطعة خشب",
     "result_board_feet": "إجمالي أقدام الألواح",
     "board_feet": "أقدام الألواح",
@@ -4401,7 +4421,24 @@
         "question": "ما الفرق بين SPF والخشب المعالج؟",
         "answer": "SPF (تنوب-صنوبر-شوح) خشب لين غير معالج للاستخدام الداخلي. الخشب المعالج بالضغط يحتوي مواد حافظة لمقاومة الرطوبة والحشرات في التطبيقات الخارجية."
       }
-    ]
+    ],
+    "invalid_length": "غير صالح Length",
+    "invalid_quantity": "غير صالح Quantity",
+    "invalid_dimensions": "غير صالح Dimensions",
+    "2x4": "2X4",
+    "2x6": "2X6",
+    "2x8": "2X8",
+    "2x10": "2X10",
+    "2x12": "2X12",
+    "4x4": "4X4",
+    "4x6": "4X6",
+    "1x4": "1X4",
+    "1x6": "1X6",
+    "1x8": "1X8",
+    "1x12": "1X12",
+    "custom": "Custom",
+    "thickness": "Thickness",
+    "width": "Width"
   },
   "deck": {
     "title": "حاسبة الشرفات الخشبية",
@@ -4717,6 +4754,33 @@
     "use_case_1": "ديكور الغرف السكنية",
     "use_case_2": "تغطية جدار مميز",
     "use_case_3": "التصميم الداخلي التجاري",
+    "roll_size": "حجم اللفة",
+    "roll_size_tooltip": "اختر حجم لفة قياسي أو أدخل أبعاداً مخصصة",
+    "pattern_type": "نوع النمط",
+    "pattern_type_tooltip": "نوع مطابقة النمط يؤثر على هدر المواد",
+    "openings_area": "مساحة الفتحات",
+    "openings_area_tooltip": "إجمالي مساحة الأبواب والنوافذ للخصم",
+    "waste_factor": "عامل الهدر (%)",
+    "waste_factor_tooltip": "مواد إضافية للقص والأخطاء",
+    "total_wall_area": "إجمالي مساحة الجدار",
+    "net_wall_area": "صافي مساحة الجدار",
+    "roll_coverage": "تغطية اللفة",
+    "total_coverage": "التغطية الإجمالية",
+    "without_waste": "بدون هدر",
+    "sizes": {
+      "standard_us": "قياسي أمريكي (27 بوصة × 33 قدم)",
+      "standard_euro": "قياسي أوروبي (21 بوصة × 33 قدم)",
+      "wide_euro": "أوروبي عريض (27.5 بوصة × 33 قدم)",
+      "metric": "متري (53 سم × 10 م)",
+      "custom": "حجم مخصص"
+    },
+    "patterns": {
+      "none": "بدون نمط (لون صلب)",
+      "random": "مطابقة عشوائية",
+      "straight": "مطابقة مستقيمة",
+      "drop": "مطابقة نصف منخفضة",
+      "large": "نمط كبير"
+    },
     "errors": {
       "invalid_dimensions": "الرجاء إدخال أبعاد غرفة صحيحة",
       "positive_values": "يجب أن تكون الأبعاد أكبر من صفر",

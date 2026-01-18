@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
@@ -73,9 +74,9 @@ export default function LM317Calculator() {
       </div>
       <div className="max-w-md mx-auto space-y-4">
         <InputContainer label={t("lm317.inputs.output_voltage")} tooltip={t("lm317.tooltips.output_voltage")}>
-          <NumericInput
+          <NumberInput
             value={outputVoltage}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setOutputVoltage(e.target.value)}
+            onValueChange={(val) => setOutputVoltage(String(val))}
             unit={t("ohms_law.unit_voltage")}
             placeholder={t("lm317.placeholders.output_voltage")}
             min={1.25}
@@ -83,9 +84,9 @@ export default function LM317Calculator() {
           />
         </InputContainer>
         <InputContainer label={t("lm317.inputs.resistor_1")} tooltip={t("lm317.tooltips.resistor_1")}>
-          <NumericInput
+          <NumberInput
             value={r1}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setR1(e.target.value)}
+            onValueChange={(val) => setR1(String(val))}
             unit={t("ohms_law.unit_resistance")}
             placeholder={t("lm317.placeholders.resistor_1")}
             min={0}

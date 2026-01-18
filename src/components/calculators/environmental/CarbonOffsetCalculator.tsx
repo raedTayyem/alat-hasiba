@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
@@ -72,9 +73,9 @@ export default function CarbonOffsetCalculator() {
           label={t("carbon_offset.co2_amount")}
           tooltip={t("carbon_offset.co2_amount_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={co2Amount}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCo2Amount(e.target.value)}
+            onValueChange={(val) => setCo2Amount(String(val))}
             endIcon={<span className="text-xs text-muted-foreground">{t("co2_emissions.kg_co2")}</span>}
             placeholder={t("co2_emissions.enter_amount")}
             min={0}

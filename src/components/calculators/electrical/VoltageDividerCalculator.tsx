@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
@@ -64,9 +65,9 @@ export default function VoltageDividerCalculator() {
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("voltage_divider.input_voltage")} tooltip={t("voltage_divider.input_voltage_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={inputVoltage}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setInputVoltage(e.target.value)}
+            onValueChange={(val) => setInputVoltage(String(val))}
             unit={t("ohms_law.unit_voltage")}
             placeholder={t("voltage_divider.enter_vin")}
             min={0}
@@ -75,9 +76,9 @@ export default function VoltageDividerCalculator() {
         </InputContainer>
 
         <InputContainer label={t("voltage_divider.resistor_1")} tooltip={t("voltage_divider.resistor_1_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={r1}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setR1(e.target.value)}
+            onValueChange={(val) => setR1(String(val))}
             unit={t("ohms_law.unit_resistance")}
             placeholder={t("voltage_divider.enter_r1")}
             min={0}
@@ -86,9 +87,9 @@ export default function VoltageDividerCalculator() {
         </InputContainer>
 
         <InputContainer label={t("voltage_divider.resistor_2")} tooltip={t("voltage_divider.resistor_2_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={r2}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setR2(e.target.value)}
+            onValueChange={(val) => setR2(String(val))}
             unit={t("ohms_law.unit_resistance")}
             placeholder={t("voltage_divider.enter_r2")}
             min={0}

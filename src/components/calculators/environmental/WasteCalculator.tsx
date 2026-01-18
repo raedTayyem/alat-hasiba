@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 
 export default function WasteCalculator() {
@@ -72,9 +73,9 @@ export default function WasteCalculator() {
           label={t("waste.food_waste")}
           tooltip={t("waste.food_waste_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={foodWaste}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setFoodWaste(e.target.value)}
+            onValueChange={(val) => setFoodWaste(String(val))}
             unit={t("co2_emissions.kg_co2").split(' ')[0]}
             placeholder={t("waste.enter_amount")}
             min={0}
@@ -86,9 +87,9 @@ export default function WasteCalculator() {
           label={t("waste.plastic_waste")}
           tooltip={t("waste.plastic_waste_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={plasticWaste}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPlasticWaste(e.target.value)}
+            onValueChange={(val) => setPlasticWaste(String(val))}
             unit={t("co2_emissions.kg_co2").split(' ')[0]}
             placeholder={t("waste.enter_amount")}
             min={0}
@@ -100,9 +101,9 @@ export default function WasteCalculator() {
           label={t("waste.paper_waste")}
           tooltip={t("waste.paper_waste_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={paperWaste}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPaperWaste(e.target.value)}
+            onValueChange={(val) => setPaperWaste(String(val))}
             unit={t("co2_emissions.kg_co2").split(' ')[0]}
             placeholder={t("waste.enter_amount")}
             min={0}
@@ -114,9 +115,9 @@ export default function WasteCalculator() {
           label={t("waste.other_waste")}
           tooltip={t("waste.other_waste_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={otherWaste}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setOtherWaste(e.target.value)}
+            onValueChange={(val) => setOtherWaste(String(val))}
             unit={t("co2_emissions.kg_co2").split(' ')[0]}
             placeholder={t("waste.enter_amount")}
             min={0}
@@ -128,9 +129,9 @@ export default function WasteCalculator() {
           label={t("waste.household_size")}
           tooltip={t("waste.household_size_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={householdSize}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setHouseholdSize(e.target.value)}
+            onValueChange={(val) => setHouseholdSize(String(val))}
             unit={t("flight_emissions.persons")}
             placeholder={t("waste.enter_number")}
             min={1}

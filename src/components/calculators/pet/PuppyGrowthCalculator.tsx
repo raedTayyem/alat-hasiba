@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -90,9 +91,9 @@ export default function PuppyGrowthCalculator() {
           label={t("puppy-growth-calculator.current_weight")}
           tooltip={t("puppy-growth-calculator.weight_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={currentWeight}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCurrentWeight(e.target.value)}
+            onValueChange={(val) => setCurrentWeight(String(val))}
             unit={t("puppy-growth-calculator.kg")}
             placeholder={t("puppy-growth-calculator.enter_weight")}
             min={0}
@@ -105,9 +106,9 @@ export default function PuppyGrowthCalculator() {
           label={t("puppy-growth-calculator.current_age")}
           tooltip={t("puppy-growth-calculator.age_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={currentAge}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCurrentAge(e.target.value)}
+            onValueChange={(val) => setCurrentAge(String(val))}
             unit={t("puppy-growth-calculator.months")}
             placeholder={t("puppy-growth-calculator.enter_age")}
             min={1}

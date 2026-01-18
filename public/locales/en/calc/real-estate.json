@@ -952,7 +952,8 @@
         "question": "Is the interest tax deductible?",
         "answer": "May be deductible if used for home improvement. Consult an accountant."
       }
-    ]
+    ],
+    "empty_state": "Enter values to see results"
   },
   "down-payment-calculator": {
     "title": "Down Payment Calculator - Home Purchase Savings Goal",
@@ -1966,9 +1967,14 @@
     "vacancy_rate": "Vacancy Rate (%)",
     "vacancy_tooltip": "Expected vacancy rate",
     "enter_vacancy": "Enter vacancy rate",
+    "vacancy_loss": "Vacancy Loss",
+    "vacancy_loss_tooltip": "Expected income loss from vacancies",
+    "enter_vacancy_loss": "Enter vacancy loss",
     "operating_expenses": "Operating Expenses",
+    "operating_expenses_tooltip": "Annual operating expenses (taxes, insurance, maintenance, etc.)",
     "expenses_tooltip": "Annual operating expenses",
     "enter_expenses": "Enter expenses",
+    "enter_operating_expenses": "Enter operating expenses",
     "calculate_btn": "Calculate NOI",
     "reset_btn": "Reset",
     "results_title": "NOI Analysis",
@@ -1979,6 +1985,11 @@
     "info_title": "About NOI",
     "info_description": "NOI = Gross Income - Vacancy Loss - Operating Expenses",
     "empty_state": "Enter property details to calculate NOI",
+    "tips_title": "NOI Tips",
+    "tip_definition": "NOI = Effective Gross Income - Operating Expenses. It excludes debt service (mortgage payments).",
+    "tip_cap_rate": "Use NOI to calculate Cap Rate: Cap Rate = NOI / Property Value",
+    "tip_mortgage": "Remember: NOI doesn't include mortgage payments. For cash flow, subtract debt service from NOI.",
+    "footer_note": "NOI is a key metric for evaluating investment property performance and calculating cap rates.",
     "howItWorks": {
       "title": "How Does the NOI Calculator Work?",
       "formula": "NOI = Effective Gross Income - Operating Expenses",
@@ -2380,6 +2391,14 @@
         "question": "Does LTV affect refinancing?",
         "answer": "Yes, LTV is critical for refinancing. Most refinance programs require LTV of 80-95%. Cash-out refinances typically have lower LTV limits around 80%."
       }
-    ]
+    ],
+    "home_value": "Home Value",
+    "home_value_tooltip": "Enter home value",
+    "result_status_good": "Result Status Good",
+    "result_status_high": "Result Status High",
+    "result_status_critical": "Result Status Critical",
+    "tip_80": "Tip 80",
+    "tip_risk": "Tip Risk",
+    "tip_equity": "Tip Equity"
   }
 }

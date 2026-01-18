@@ -21,7 +21,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Circle, ArrowDown, Gauge, Info, Droplets, Activity } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
@@ -292,10 +293,10 @@ export default function HydraulicCylinderCalculator() {
             label={t("hydraulic_cylinder.pressure")}
             tooltip={t("hydraulic_cylinder.pressure_tooltip")}
           >
-            <NumericInput
+            <NumberInput
               value={pressure}
-              onChange={(e) => {
-                setPressure(e.target.value);
+              onValueChange={(value) => {
+                setPressure(String(value));
                 if (error) setError('');
               }}
               placeholder={t("hydraulic_cylinder.placeholders.pressure")}
@@ -312,10 +313,10 @@ export default function HydraulicCylinderCalculator() {
             label={t("hydraulic_cylinder.force")}
             tooltip={t("hydraulic_cylinder.force_tooltip")}
           >
-            <NumericInput
+            <NumberInput
               value={force}
-              onChange={(e) => {
-                setForce(e.target.value);
+              onValueChange={(value) => {
+                setForce(String(value));
                 if (error) setError('');
               }}
               placeholder={t("hydraulic_cylinder.placeholders.force")}
@@ -332,10 +333,10 @@ export default function HydraulicCylinderCalculator() {
             label={t("hydraulic_cylinder.area")}
             tooltip={t("hydraulic_cylinder.area_tooltip")}
           >
-            <NumericInput
+            <NumberInput
               value={area}
-              onChange={(e) => {
-                setArea(e.target.value);
+              onValueChange={(value) => {
+                setArea(String(value));
                 if (error) setError('');
               }}
               placeholder={t("hydraulic_cylinder.placeholders.area")}
@@ -353,12 +354,12 @@ export default function HydraulicCylinderCalculator() {
               label={t("hydraulic_cylinder.piston_diameter")}
               tooltip={t("hydraulic_cylinder.piston_diameter_tooltip")}
             >
-              <NumericInput
+              <NumberInput
                 value={pistonDiameter}
-                onChange={(e) => {
-                  setPistonDiameter(e.target.value);
-                  if (error) setError('');
-                }}
+                onValueChange={(value) => {
+                setPistonDiameter(String(value));
+                if (error) setError('');
+              }}
                 placeholder={t("hydraulic_cylinder.placeholders.piston_diameter")}
                 unit={t("common:units.mm")}
                 min={0}
@@ -370,12 +371,12 @@ export default function HydraulicCylinderCalculator() {
               label={t("hydraulic_cylinder.rod_diameter")}
               tooltip={t("hydraulic_cylinder.rod_diameter_tooltip")}
             >
-              <NumericInput
+              <NumberInput
                 value={rodDiameter}
-                onChange={(e) => {
-                  setRodDiameter(e.target.value);
-                  if (error) setError('');
-                }}
+                onValueChange={(value) => {
+                setRodDiameter(String(value));
+                if (error) setError('');
+              }}
                 placeholder={t("hydraulic_cylinder.placeholders.rod_diameter")}
                 unit={t("common:units.mm")}
                 min={0}
@@ -387,12 +388,12 @@ export default function HydraulicCylinderCalculator() {
               label={t("hydraulic_cylinder.velocity")}
               tooltip={t("hydraulic_cylinder.velocity_tooltip")}
             >
-              <NumericInput
+              <NumberInput
                 value={velocity}
-                onChange={(e) => {
-                  setVelocity(e.target.value);
-                  if (error) setError('');
-                }}
+                onValueChange={(value) => {
+                setVelocity(String(value));
+                if (error) setError('');
+              }}
                 placeholder={t("hydraulic_cylinder.placeholders.velocity")}
                 unit={t("common:units.m_per_s")}
                 min={0}

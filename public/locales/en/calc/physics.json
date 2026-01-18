@@ -624,6 +624,11 @@
       "final_velocity": "Velocity at the end of motion",
       "time": "Time duration of change"
     },
+    "errors": {
+      "enter_velocities": "Please enter at least one velocity value",
+      "enter_time": "Please enter the time duration",
+      "time_positive": "Time must be greater than zero"
+    },
     "results": {
       "acceleration": "Estimated Acceleration (a)"
     },
@@ -631,7 +636,8 @@
       "acceleration": "m/s²"
     },
     "formulas": {
-      "acceleration": "Acceleration is the difference between final and initial velocity divided by time.",
+      "acceleration": "a = (v - v₀) / t",
+      "acceleration_desc": "Acceleration equals the change in velocity divided by time",
       "formula_short": "a = (v_f - v_i) / t"
     },
     "how_to_use": {

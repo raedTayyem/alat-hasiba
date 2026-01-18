@@ -20,7 +20,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { LayoutGrid, Square, Info, Package, Ruler } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -255,12 +256,12 @@ export default function CeilingCalculator() {
           label={t("ceiling.room_length")}
           tooltip={t("ceiling.room_length_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={roomLength}
-            onChange={(e) => {
-              setRoomLength(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setRoomLength(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("ceiling.placeholders.length")}
             min={0}
             step={0.1}
@@ -273,12 +274,12 @@ export default function CeilingCalculator() {
           label={t("ceiling.room_width")}
           tooltip={t("ceiling.room_width_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={roomWidth}
-            onChange={(e) => {
-              setRoomWidth(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setRoomWidth(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("ceiling.placeholders.width")}
             min={0}
             step={0.1}
@@ -311,12 +312,12 @@ export default function CeilingCalculator() {
               label={t("ceiling.tile_length")}
               tooltip={t("ceiling.tile_length_tooltip")}
             >
-              <NumericInput
+              <NumberInput
                 value={customTileLength}
-                onChange={(e) => {
-                  setCustomTileLength(e.target.value);
-                  if (error) setError('');
-                }}
+                onValueChange={(value) => {
+                setCustomTileLength(String(value));
+                if (error) setError('');
+              }}
                 placeholder={t("ceiling.placeholders.tile_length")}
                 min={0}
                 step={0.01}
@@ -328,12 +329,12 @@ export default function CeilingCalculator() {
               label={t("ceiling.tile_width")}
               tooltip={t("ceiling.tile_width_tooltip")}
             >
-              <NumericInput
+              <NumberInput
                 value={customTileWidth}
-                onChange={(e) => {
-                  setCustomTileWidth(e.target.value);
-                  if (error) setError('');
-                }}
+                onValueChange={(value) => {
+                setCustomTileWidth(String(value));
+                if (error) setError('');
+              }}
                 placeholder={t("ceiling.placeholders.tile_width")}
                 min={0}
                 step={0.01}
@@ -348,12 +349,12 @@ export default function CeilingCalculator() {
           label={t("ceiling.waste_factor")}
           tooltip={t("ceiling.waste_factor_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={wasteFactor}
-            onChange={(e) => {
-              setWasteFactor(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setWasteFactor(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("ceiling.placeholders.waste")}
             min={0}
             max={50}

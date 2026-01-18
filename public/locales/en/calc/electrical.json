@@ -1,6 +1,6 @@
 {
   "lm317": {
-    "title": "LM317 Calculator",
+    "title": "Calculator",
     "description": "Calculate output voltage or required resistors for LM317 voltage regulator.",
     "inputs": {
       "output_voltage": "Output Voltage (Vout)",
@@ -72,7 +72,14 @@
         "question": "How do I calculate power dissipation in LM317?",
         "answer": "Power = (Vin - Vout) × Iout. Ensure you don't exceed maximum power and use an appropriate heatsink."
       }
-    ]
+    ],
+    "invalid_input": "Invalid Input",
+    "output_voltage": "Output Voltage",
+    "resistor_1": "Resistor 1",
+    "calculated_r2": "Calculated R2",
+    "nearest_standard": "Nearest Standard",
+    "actual_vout": "Actual Vout",
+    "desc": "Desc"
   },
   "ohms_law": {
     "title": "Ohm's Law Calculator",
@@ -1751,7 +1758,8 @@
         "question": "What type of circuit breaker handles inrush?",
         "answer": "Use Type C or D breakers for motor/transformer loads. Type B trips at 3-5x, Type C at 5-10x, and Type D at 10-20x rated current."
       }
-    ]
+    ],
+    "current": "Current"
   },
   "capacitor": {
     "title": "Capacitor Calculator",

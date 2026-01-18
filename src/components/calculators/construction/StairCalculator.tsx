@@ -21,7 +21,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Footprints, Info, ArrowUpDown, Ruler } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -234,12 +235,12 @@ export default function StairCalculator() {
           label={t("stair.total_rise")}
           tooltip={t("stair.total_rise_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={totalRise}
-            onChange={(e) => {
-              setTotalRise(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setTotalRise(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("stair.placeholders.total_rise")}
             min={0}
             step={1}
@@ -251,12 +252,12 @@ export default function StairCalculator() {
           label={t("stair.desired_riser_height")}
           tooltip={t("stair.desired_riser_height_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={desiredRiserHeight}
-            onChange={(e) => {
-              setDesiredRiserHeight(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setDesiredRiserHeight(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("stair.placeholders.riser_height")}
             min={0}
             step={0.5}

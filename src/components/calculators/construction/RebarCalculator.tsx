@@ -20,7 +20,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { LayoutGrid, Info, Ruler, Scale } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -233,12 +234,12 @@ export default function RebarCalculator() {
           label={t("rebar.slab_length")}
           tooltip={t("rebar.slab_length_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={slabLength}
-            onChange={(e) => {
-              setSlabLength(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setSlabLength(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("rebar.placeholders.slab_length")}
             min={0}
             step={0.1}
@@ -251,12 +252,12 @@ export default function RebarCalculator() {
           label={t("rebar.slab_width")}
           tooltip={t("rebar.slab_width_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={slabWidth}
-            onChange={(e) => {
-              setSlabWidth(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setSlabWidth(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("rebar.placeholders.slab_width")}
             min={0}
             step={0.1}
@@ -269,12 +270,12 @@ export default function RebarCalculator() {
           label={t("rebar.bar_spacing")}
           tooltip={t("rebar.bar_spacing_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={barSpacing}
-            onChange={(e) => {
-              setBarSpacing(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setBarSpacing(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("rebar.placeholders.bar_spacing")}
             min={50}
             max={500}

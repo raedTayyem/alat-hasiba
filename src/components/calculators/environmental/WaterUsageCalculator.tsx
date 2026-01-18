@@ -8,7 +8,8 @@
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { initDateInputRTL } from '../../../utils/dateInputRTL';
@@ -140,12 +141,12 @@ export default function WaterUsageCalculator() {
           label={t("calculators.environmental.water_usage.shower_label")}
           tooltip={t("calculators.environmental.water_usage.shower_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={showerMinutes}
-            onChange={(e) => {
-              setShowerMinutes(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setShowerMinutes(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("calculators.environmental.water_usage.shower_placeholder")}
             min={0}
             unit={t("calculators.environmental.water_usage.minutes_unit")}
@@ -156,12 +157,12 @@ export default function WaterUsageCalculator() {
           label={t("calculators.environmental.water_usage.toilet_label")}
           tooltip={t("calculators.environmental.water_usage.toilet_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={toiletFlushes}
-            onChange={(e) => {
-              setToiletFlushes(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setToiletFlushes(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("calculators.environmental.water_usage.toilet_placeholder")}
             min={0}
             unit={t("calculators.environmental.water_usage.times_unit")}
@@ -172,12 +173,12 @@ export default function WaterUsageCalculator() {
           label={t("calculators.environmental.water_usage.dish_label")}
           tooltip={t("calculators.environmental.water_usage.dish_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={dishwashing}
-            onChange={(e) => {
-              setDishwashing(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setDishwashing(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("calculators.environmental.water_usage.dish_placeholder")}
             min={0}
             unit={t("calculators.environmental.water_usage.minutes_unit")}
@@ -188,12 +189,12 @@ export default function WaterUsageCalculator() {
           label={t("calculators.environmental.water_usage.laundry_label")}
           tooltip={t("calculators.environmental.water_usage.laundry_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={laundryLoads}
-            onChange={(e) => {
-              setLaundryLoads(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setLaundryLoads(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("calculators.environmental.water_usage.laundry_placeholder")}
             min={0}
             unit={t("calculators.environmental.water_usage.loads_unit")}
@@ -204,12 +205,12 @@ export default function WaterUsageCalculator() {
           label={t("calculators.environmental.water_usage.cost_label")}
           tooltip={t("calculators.environmental.water_usage.cost_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={costPerLiter}
-            onChange={(e) => {
-              setCostPerLiter(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setCostPerLiter(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("calculators.environmental.water_usage.cost_placeholder")}
             min={0}
             step={0.001}

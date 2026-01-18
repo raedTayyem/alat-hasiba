@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -80,9 +81,9 @@ export default function PetMedicationDosageCalculator() {
           label={t("pet-medication-dosage-calculator.pet_weight")}
           tooltip={t("pet-medication-dosage-calculator.pet_weight_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={petWeight}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPetWeight(e.target.value)}
+            onValueChange={(val) => setPetWeight(String(val))}
             unit={t("pet-medication-dosage-calculator.weight_unit")}
             placeholder={t("pet-medication-dosage-calculator.enter_weight")}
             min={0}
@@ -95,9 +96,9 @@ export default function PetMedicationDosageCalculator() {
           label={t("pet-medication-dosage-calculator.dosage_per_kg")}
           tooltip={t("pet-medication-dosage-calculator.dosage_per_kg_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={dosagePerKg}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setDosagePerKg(e.target.value)}
+            onValueChange={(val) => setDosagePerKg(String(val))}
             unit={t("pet-medication-dosage-calculator.dosage_unit")}
             placeholder={t("pet-medication-dosage-calculator.enter_dosage")}
             min={0}
@@ -140,9 +141,9 @@ export default function PetMedicationDosageCalculator() {
             label={t("pet-medication-dosage-calculator.concentration")}
             tooltip={t("pet-medication-dosage-calculator.concentration_tooltip")}
           >
-            <NumericInput
+            <NumberInput
               value={concentration}
-              onChange={(e: React.ChangeEvent<HTMLInputElement>) => setConcentration(e.target.value)}
+              onValueChange={(val) => setConcentration(String(val))}
               unit={t("pet-medication-dosage-calculator.concentration_unit")}
               placeholder={t("pet-medication-dosage-calculator.enter_concentration")}
               min={0}

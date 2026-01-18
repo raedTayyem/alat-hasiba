@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 
 export default function PlasticFootprintCalculator() {
@@ -76,23 +77,23 @@ export default function PlasticFootprintCalculator() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("plastic_footprint.bottles")} tooltip={t("plastic_footprint.bottles_tooltip")}>
-          <NumericInput value={bottles} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setBottles(e.target.value)} unit={t("plastic_footprint.bottles_unit")} placeholder={t("plastic_footprint.enter_number")} min={0} />
+          <NumberInput value={bottles} onValueChange={(val) => setBottles(String(val))} unit={t("plastic_footprint.bottles_unit")} placeholder={t("plastic_footprint.enter_number")} min={0} />
         </InputContainer>
 
         <InputContainer label={t("plastic_footprint.bags")} tooltip={t("plastic_footprint.bags_tooltip")}>
-          <NumericInput value={bags} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setBags(e.target.value)} unit={t("plastic_footprint.bags_unit")} placeholder={t("plastic_footprint.enter_number")} min={0} />
+          <NumberInput value={bags} onValueChange={(val) => setBags(String(val))} unit={t("plastic_footprint.bags_unit")} placeholder={t("plastic_footprint.enter_number")} min={0} />
         </InputContainer>
 
         <InputContainer label={t("plastic_footprint.packaging")} tooltip={t("plastic_footprint.packaging_tooltip")}>
-          <NumericInput value={packaging} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPackaging(e.target.value)} unit={t("co2_emissions.kg_co2").split(' ')[0].replace('kg', 'g')} placeholder={t("plastic_footprint.enter_weight")} min={0} />
+          <NumberInput value={packaging} onValueChange={(val) => setPackaging(String(val))} unit={t("co2_emissions.kg_co2").split(' ')[0].replace('kg', 'g')} placeholder={t("plastic_footprint.enter_weight")} min={0} />
         </InputContainer>
 
         <InputContainer label={t("plastic_footprint.straws")} tooltip={t("plastic_footprint.straws_tooltip")}>
-          <NumericInput value={straws} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setStraws(e.target.value)} unit={t("plastic_footprint.straws_unit")} placeholder={t("plastic_footprint.enter_number")} min={0} />
+          <NumberInput value={straws} onValueChange={(val) => setStraws(String(val))} unit={t("plastic_footprint.straws_unit")} placeholder={t("plastic_footprint.enter_number")} min={0} />
         </InputContainer>
 
         <InputContainer label={t("plastic_footprint.containers")} tooltip={t("plastic_footprint.containers_tooltip")}>
-          <NumericInput value={containers} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setContainers(e.target.value)} unit={t("plastic_footprint.containers_unit")} placeholder={t("plastic_footprint.enter_number")} min={0} />
+          <NumberInput value={containers} onValueChange={(val) => setContainers(String(val))} unit={t("plastic_footprint.containers_unit")} placeholder={t("plastic_footprint.enter_number")} min={0} />
         </InputContainer>
       </div>
 

@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
@@ -80,9 +81,9 @@ export default function CompostingCalculator() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("composting.food_waste")} tooltip={t("composting.food_waste_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={foodWaste}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setFoodWaste(e.target.value)}
+            onValueChange={(val) => setFoodWaste(String(val))}
             endIcon={<span className="text-xs text-muted-foreground">{t("co2_emissions.kg_co2").split(' ')[0]}</span>}
             placeholder={t("composting.enter_amount")}
             min={0}
@@ -91,9 +92,9 @@ export default function CompostingCalculator() {
         </InputContainer>
 
         <InputContainer label={t("composting.yard_waste")} tooltip={t("composting.yard_waste_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={yardWaste}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setYardWaste(e.target.value)}
+            onValueChange={(val) => setYardWaste(String(val))}
             endIcon={<span className="text-xs text-muted-foreground">{t("co2_emissions.kg_co2").split(' ')[0]}</span>}
             placeholder={t("composting.enter_amount")}
             min={0}

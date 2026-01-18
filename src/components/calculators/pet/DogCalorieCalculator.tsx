@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -93,9 +94,9 @@ export default function DogCalorieCalculator() {
           label={t("dog-calorie-calculator.weight")}
           tooltip={t("dog-calorie-calculator.weight_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={weight}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setWeight(e.target.value)}
+            onValueChange={(val) => setWeight(String(val))}
             unit={t("dog-calorie-calculator.weight_unit")}
             placeholder={t("dog-calorie-calculator.enter_weight")}
             min={0}

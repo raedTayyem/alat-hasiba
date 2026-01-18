@@ -19,7 +19,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Square, Layers, Info, Package } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -202,12 +203,12 @@ export default function DrywallCalculator() {
           label={t("drywall.wall_area")}
           tooltip={t("drywall.wall_area_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={wallArea}
-            onChange={(e) => {
-              setWallArea(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setWallArea(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("drywall.placeholders.wall_area")}
             min={0}
             step={0.1}
@@ -254,12 +255,12 @@ export default function DrywallCalculator() {
           label={t("drywall.waste_factor")}
           tooltip={t("drywall.waste_factor_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={wasteFactor}
-            onChange={(e) => {
-              setWasteFactor(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setWasteFactor(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("drywall.placeholders.waste")}
             min={0}
             max={50}

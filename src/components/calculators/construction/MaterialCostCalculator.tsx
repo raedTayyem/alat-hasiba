@@ -20,7 +20,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Info, Plus, Trash2, Package } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -262,16 +263,16 @@ export default function MaterialCostCalculator() {
                   placeholder={t("material_cost.placeholders.name")}
                   className="w-full rounded-md border border-input bg-background px-3 py-2 text-sm"
                 />
-                <NumericInput
+                <NumberInput
                   value={material.quantity}
-                  onChange={(e) => updateMaterial(material.id, 'quantity', e.target.value)}
+                  onValueChange={(val) => updateMaterial(material.id, 'quantity', String(val))}
                   placeholder={t("material_cost.placeholders.quantity")}
                   min={0}
                   step={1}
                 />
-                <NumericInput
+                <NumberInput
                   value={material.unitPrice}
-                  onChange={(e) => updateMaterial(material.id, 'unitPrice', e.target.value)}
+                  onValueChange={(val) => updateMaterial(material.id, 'unitPrice', String(val))}
                   placeholder={t("material_cost.placeholders.unit_price")}
                   min={0}
                   step={0.01}
@@ -286,12 +287,12 @@ export default function MaterialCostCalculator() {
           label={t("material_cost.tax_rate")}
           tooltip={t("material_cost.tax_rate_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={taxRate}
-            onChange={(e) => {
-              setTaxRate(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setTaxRate(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("material_cost.placeholders.tax")}
             min={0}
             max={100}

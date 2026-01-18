@@ -19,7 +19,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Layers, Info, Leaf, Mountain } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -214,12 +215,12 @@ export default function LandscapingCalculator() {
           label={t("landscaping.area")}
           tooltip={t("landscaping.area_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={area}
-            onChange={(e) => {
-              setArea(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setArea(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("landscaping.placeholders.area")}
             min={0}
             step={1}
@@ -232,12 +233,12 @@ export default function LandscapingCalculator() {
           label={t("landscaping.mulch_depth")}
           tooltip={t("landscaping.mulch_depth_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={mulchDepth}
-            onChange={(e) => {
-              setMulchDepth(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setMulchDepth(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("landscaping.placeholders.mulch_depth")}
             min={0}
             step={0.5}
@@ -250,12 +251,12 @@ export default function LandscapingCalculator() {
           label={t("landscaping.soil_depth")}
           tooltip={t("landscaping.soil_depth_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={soilDepth}
-            onChange={(e) => {
-              setSoilDepth(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setSoilDepth(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("landscaping.placeholders.soil_depth")}
             min={0}
             step={0.5}
@@ -268,12 +269,12 @@ export default function LandscapingCalculator() {
           label={t("landscaping.sod_area")}
           tooltip={t("landscaping.sod_area_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={sodArea}
-            onChange={(e) => {
-              setSodArea(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setSodArea(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("landscaping.placeholders.sod_area")}
             min={0}
             step={1}
@@ -286,12 +287,12 @@ export default function LandscapingCalculator() {
           label={t("landscaping.waste_factor")}
           tooltip={t("landscaping.waste_factor_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={wasteFactor}
-            onChange={(e) => {
-              setWasteFactor(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setWasteFactor(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("landscaping.placeholders.waste")}
             min={0}
             max={100}

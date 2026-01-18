@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
@@ -103,9 +104,9 @@ export default function KittenGrowthCalculator() {
           label={t("kitten_growth_calculator.label_weight")}
           tooltip={t("kitten_growth_calculator.tooltip_weight")}
         >
-          <NumericInput
+          <NumberInput
             value={currentWeight}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCurrentWeight(e.target.value)}
+            onValueChange={(val) => setCurrentWeight(String(val))}
             unit={t("cat_food_calculator.unit_kg") || "kg"}
             placeholder={t("kitten_growth_calculator.placeholder_weight")}
             min={0}
@@ -118,9 +119,9 @@ export default function KittenGrowthCalculator() {
           label={t("kitten_growth_calculator.label_age")}
           tooltip={t("kitten_growth_calculator.tooltip_age")}
         >
-          <NumericInput
+          <NumberInput
             value={currentAge}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCurrentAge(e.target.value)}
+            onValueChange={(val) => setCurrentAge(String(val))}
             unit={t("kitten_growth_calculator.unit_weeks")}
             placeholder={t("kitten_growth_calculator.placeholder_age")}
             min={1}

@@ -92,7 +92,7 @@ export default function CatPregnancyCalculator() {
           <input
             type="date"
             value={matingDate}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setMatingDate(e.target.value)}
+            onChange={(e) => setMatingDate(e.target.value)}
             className="calculator-input w-full"
             max={new Date().toISOString().split('T')[0]}
           />

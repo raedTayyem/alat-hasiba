@@ -1204,5 +1204,37 @@
                 "answer": "The Law of Cosines relates the lengths of a triangle's sides to the cosine of one of its angles: c² = a² + b² - 2ab·cos(C). It's used to find angles when all sides are known, or to find a side when two sides and the included angle are known."
             }
         ]
+    },
+    "analytic_geometry_calculator": {
+        "title": "Analytic Geometry Calculator",
+        "description": "Calculate distance, midpoint, and slope between two points in the coordinate plane using analytic geometry formulas.",
+        "x1": "Point 1 - X Coordinate",
+        "x1_tooltip": "Enter the X coordinate of the first point",
+        "x1_placeholder": "Enter X₁",
+        "y1": "Point 1 - Y Coordinate",
+        "y1_tooltip": "Enter the Y coordinate of the first point",
+        "y1_placeholder": "Enter Y₁",
+        "x2": "Point 2 - X Coordinate",
+        "x2_tooltip": "Enter the X coordinate of the second point",
+        "x2_placeholder": "Enter X₂",
+        "y2": "Point 2 - Y Coordinate",
+        "y2_tooltip": "Enter the Y coordinate of the second point",
+        "y2_placeholder": "Enter Y₂",
+        "error_invalid_input": "Please enter valid numeric coordinates for both points",
+        "error_calculation": "An error occurred during calculation",
+        "info_title": "About Analytic Geometry",
+        "info_description": "Analytic geometry studies geometric properties using coordinate systems and algebraic methods. Calculate distance, midpoint, and slope between any two points.",
+        "formulas_title": "Formulas Used",
+        "formula_distance": "Distance: d = √[(x₂-x₁)² + (y₂-y₁)²]",
+        "formula_midpoint": "Midpoint: M = ((x₁+x₂)/2, (y₁+y₂)/2)",
+        "formula_slope": "Slope: m = (y₂-y₁)/(x₂-x₁)",
+        "result_distance": "Distance Between Points",
+        "unit_length": "units",
+        "additional_info": "Additional Information",
+        "midpoint": "Midpoint",
+        "slope": "Slope",
+        "undefined": "Undefined (Vertical Line)",
+        "formula_explanation_title": "Understanding the Calculations",
+        "formula_explanation": "The distance formula is derived from the Pythagorean theorem. The midpoint is the average of the coordinates. Slope represents the rate of change and is undefined for vertical lines."
     }
 }

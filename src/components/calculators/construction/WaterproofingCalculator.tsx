@@ -18,7 +18,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Droplets, Layers, Info, Package } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -230,12 +231,12 @@ export default function WaterproofingCalculator() {
           label={t("waterproofing.length")}
           tooltip={t("waterproofing.length_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={length}
-            onChange={(e) => {
-              setLength(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setLength(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("waterproofing.placeholders.length")}
             min={0}
             step={0.1}
@@ -248,12 +249,12 @@ export default function WaterproofingCalculator() {
           label={t("waterproofing.width")}
           tooltip={t("waterproofing.width_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={width}
-            onChange={(e) => {
-              setWidth(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setWidth(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("waterproofing.placeholders.width")}
             min={0}
             step={0.1}
@@ -266,12 +267,12 @@ export default function WaterproofingCalculator() {
           label={t("waterproofing.overlap")}
           tooltip={t("waterproofing.overlap_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={overlapPercent}
-            onChange={(e) => {
-              setOverlapPercent(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setOverlapPercent(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("waterproofing.placeholders.overlap")}
             min={0}
             max={50}
@@ -285,12 +286,12 @@ export default function WaterproofingCalculator() {
           label={t("waterproofing.perimeter")}
           tooltip={t("waterproofing.perimeter_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={perimeterLength}
-            onChange={(e) => {
-              setPerimeterLength(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setPerimeterLength(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("waterproofing.placeholders.perimeter")}
             min={0}
             step={0.1}

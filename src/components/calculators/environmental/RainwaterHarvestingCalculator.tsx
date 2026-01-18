@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 
 export default function RainwaterHarvestingCalculator() {
@@ -65,15 +66,15 @@ export default function RainwaterHarvestingCalculator() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("rainwater_harvesting.roof_area")} tooltip={t("rainwater_harvesting.roof_area_tooltip")}>
-          <NumericInput value={roofArea} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setRoofArea(e.target.value)} unit={t("composting.sq_m")} placeholder={t("rainwater_harvesting.enter_area")} min={0} />
+          <NumberInput value={roofArea} onValueChange={(val) => setRoofArea(String(val))} unit={t("composting.sq_m")} placeholder={t("rainwater_harvesting.enter_area")} min={0} />
         </InputContainer>
 
         <InputContainer label={t("rainwater_harvesting.rainfall")} tooltip={t("rainwater_harvesting.rainfall_tooltip")}>
-          <NumericInput value={annualRainfall} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setAnnualRainfall(e.target.value)} unit={t("rainwater_harvesting.rainfall").split('(')[1].replace(')', '')} placeholder={t("rainwater_harvesting.enter_rate")} min={0} />
+          <NumberInput value={annualRainfall} onValueChange={(val) => setAnnualRainfall(String(val))} unit={t("rainwater_harvesting.rainfall").split('(')[1].replace(')', '')} placeholder={t("rainwater_harvesting.enter_rate")} min={0} />
         </InputContainer>
 
         <InputContainer label={t("rainwater_harvesting.efficiency")} tooltip={t("rainwater_harvesting.efficiency_tooltip")}>
-          <NumericInput value={efficiency} onChange={(e: React.ChangeEvent<HTMLInputElement>) => setEfficiency(e.target.value)} unit={t("common:units.percent")} placeholder={t("rainwater_harvesting.enter_efficiency")} min={0} max={100} />
+          <NumberInput value={efficiency} onValueChange={(val) => setEfficiency(String(val))} unit={t("common:units.percent")} placeholder={t("rainwater_harvesting.enter_efficiency")} min={0} max={100} />
         </InputContainer>
       </div>
 

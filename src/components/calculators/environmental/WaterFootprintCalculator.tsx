@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
@@ -101,9 +102,9 @@ export default function WaterFootprintCalculator() {
           label={t("water_footprint.shower")}
           tooltip={t("water_footprint.shower_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={showerMinutes}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setShowerMinutes(e.target.value)}
+            onValueChange={(val) => setShowerMinutes(String(val))}
             unit={t("green_commute.min")}
             placeholder={t("water_footprint.enter_minutes")}
             min={0}
@@ -114,9 +115,9 @@ export default function WaterFootprintCalculator() {
           label={t("water_footprint.laundry")}
           tooltip={t("water_footprint.laundry_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={laundryLoads}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setLaundryLoads(e.target.value)}
+            onValueChange={(val) => setLaundryLoads(String(val))}
             unit={t("water_footprint.laundry_tooltip").split(' ')[3]}
             placeholder={t("water_footprint.enter_number")}
             min={0}
@@ -127,9 +128,9 @@ export default function WaterFootprintCalculator() {
           label={t("water_footprint.car_wash")}
           tooltip={t("water_footprint.car_wash_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={carWashes}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCarWashes(e.target.value)}
+            onValueChange={(val) => setCarWashes(String(val))}
             unit={t("water_footprint.car_wash_tooltip").split(' ')[2]}
             placeholder={t("water_footprint.enter_number")}
             min={0}

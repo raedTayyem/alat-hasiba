@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
@@ -73,9 +74,9 @@ export default function ReactanceCalculator() {
 
         {reactanceType === 'inductive' ? (
           <InputContainer label={t("reactance.inductance")} tooltip={t("reactance.inductance_tooltip")}>
-          <NumericInput
+          <NumberInput
               value={inductance}
-              onChange={(e: React.ChangeEvent<HTMLInputElement>) => setInductance(e.target.value)}
+              onValueChange={(val) => setInductance(String(val))}
               unit={t("common:units.mH")}
               placeholder={t("reactance.enter_inductance")}
               min={0}
@@ -84,9 +85,9 @@ export default function ReactanceCalculator() {
           </InputContainer>
         ) : (
           <InputContainer label={t("reactance.capacitance")} tooltip={t("reactance.capacitance_tooltip")}>
-            <NumericInput
+            <NumberInput
               value={capacitance}
-              onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCapacitance(e.target.value)}
+              onValueChange={(val) => setCapacitance(String(val))}
               unit={t("common:units.uF")}
               placeholder={t("reactance.enter_capacitance")}
               min={0}
@@ -96,9 +97,9 @@ export default function ReactanceCalculator() {
         )}
 
         <InputContainer label={t("reactance.frequency")} tooltip={t("reactance.frequency_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={frequency}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setFrequency(e.target.value)}
+            onValueChange={(val) => setFrequency(String(val))}
             unit={t("common:units.Hz")}
             placeholder={t("reactance.enter_frequency")}
             min={0}

@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
@@ -90,9 +91,9 @@ export default function InrushCurrentCalculator() {
         </InputContainer>
 
         <InputContainer label={t("inrush_current.rated_power")} tooltip={t("inrush_current.rated_power_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={ratedCurrent}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setRatedCurrent(e.target.value)}
+            onValueChange={(val) => setRatedCurrent(String(val))}
             unit={t("ohms_law.unit_current")}
             placeholder={t("inrush_current.placeholders.current")}
             min={0}
@@ -101,9 +102,9 @@ export default function InrushCurrentCalculator() {
         </InputContainer>
 
         <InputContainer label={t("calculators.power_15")} tooltip={t("calculators.power_13")}>
-          <NumericInput
+          <NumberInput
             value={power}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPower(e.target.value)}
+            onValueChange={(val) => setPower(String(val))}
             unit={t("common:units.kW")}
             placeholder={t("inrush_current.enter_power")}
             min={0}
@@ -112,9 +113,9 @@ export default function InrushCurrentCalculator() {
         </InputContainer>
 
         <InputContainer label={t("inrush_current.voltage")} tooltip={t("inrush_current.voltage_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={voltage}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setVoltage(e.target.value)}
+            onValueChange={(val) => setVoltage(String(val))}
             unit={t("ohms_law.unit_voltage")}
             placeholder="380"
             min={0}

@@ -19,7 +19,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Layers, Thermometer, Info, Package } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -229,12 +230,12 @@ export default function InsulationCalculator() {
           label={t("insulation.area")}
           tooltip={t("insulation.area_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={area}
-            onChange={(e) => {
-              setArea(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setArea(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("insulation.placeholders.area")}
             min={0}
             step={0.1}
@@ -247,12 +248,12 @@ export default function InsulationCalculator() {
           label={t("insulation.batt_width")}
           tooltip={t("insulation.batt_width_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={battWidth}
-            onChange={(e) => {
-              setBattWidth(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setBattWidth(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("insulation.placeholders.batt_width")}
             min={0}
             step={0.01}
@@ -265,12 +266,12 @@ export default function InsulationCalculator() {
           label={t("insulation.batt_length")}
           tooltip={t("insulation.batt_length_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={battLength}
-            onChange={(e) => {
-              setBattLength(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setBattLength(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("insulation.placeholders.batt_length")}
             min={0}
             step={0.01}
@@ -283,12 +284,12 @@ export default function InsulationCalculator() {
           label={t("insulation.thickness")}
           tooltip={t("insulation.thickness_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={thickness}
-            onChange={(e) => {
-              setThickness(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setThickness(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("insulation.placeholders.thickness")}
             min={0}
             step={0.5}
@@ -301,12 +302,12 @@ export default function InsulationCalculator() {
           label={t("insulation.waste_factor")}
           tooltip={t("insulation.waste_factor_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={wasteFactor}
-            onChange={(e) => {
-              setWasteFactor(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setWasteFactor(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("insulation.placeholders.waste")}
             min={0}
             max={100}

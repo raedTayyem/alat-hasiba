@@ -20,7 +20,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Columns, Info, Ruler, LayoutGrid } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -217,12 +218,12 @@ export default function FenceCalculator() {
           label={t("fence.fence_length")}
           tooltip={t("fence.fence_length_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={fenceLength}
-            onChange={(e) => {
-              setFenceLength(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setFenceLength(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("fence.placeholders.fence_length")}
             min={0}
             step={0.1}
@@ -234,12 +235,12 @@ export default function FenceCalculator() {
           label={t("fence.fence_height")}
           tooltip={t("fence.fence_height_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={fenceHeight}
-            onChange={(e) => {
-              setFenceHeight(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setFenceHeight(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("fence.placeholders.fence_height")}
             min={0}
             step={0.1}
@@ -251,12 +252,12 @@ export default function FenceCalculator() {
           label={t("fence.post_spacing")}
           tooltip={t("fence.post_spacing_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={postSpacing}
-            onChange={(e) => {
-              setPostSpacing(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setPostSpacing(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("fence.placeholders.post_spacing")}
             min={0}
             step={0.1}
@@ -268,12 +269,12 @@ export default function FenceCalculator() {
           label={t("fence.panel_width")}
           tooltip={t("fence.panel_width_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={panelWidth}
-            onChange={(e) => {
-              setPanelWidth(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setPanelWidth(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("fence.placeholders.panel_width")}
             min={0}
             step={0.1}

@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 
 export default function HomeEnergyAuditCalculator() {
@@ -82,9 +83,9 @@ export default function HomeEnergyAuditCalculator() {
           label={t("home_energy_audit.lighting")}
           tooltip={t("home_energy_audit.lighting_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={electricity}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setElectricity(e.target.value)}
+            onValueChange={(val) => setElectricity(String(val))}
             unit={t("common:units.kWh")}
             placeholder={t("home_energy_audit.enter_consumption")}
             min={0}
@@ -95,9 +96,9 @@ export default function HomeEnergyAuditCalculator() {
           label={t("home_energy_audit.heating")}
           tooltip={t("home_energy_audit.heating_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={heating}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setHeating(e.target.value)}
+            onValueChange={(val) => setHeating(String(val))}
             unit={t("common:units.kWh")}
             placeholder={t("home_energy_audit.enter_consumption")}
             min={0}
@@ -108,9 +109,9 @@ export default function HomeEnergyAuditCalculator() {
           label={t("home_energy_audit.cooling")}
           tooltip={t("home_energy_audit.cooling_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={cooling}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCooling(e.target.value)}
+            onValueChange={(val) => setCooling(String(val))}
             unit={t("common:units.kWh")}
             placeholder={t("home_energy_audit.enter_consumption")}
             min={0}
@@ -121,9 +122,9 @@ export default function HomeEnergyAuditCalculator() {
           label={t("home_energy_audit.water_heater")}
           tooltip={t("home_energy_audit.water_heater_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={waterHeater}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setWaterHeater(e.target.value)}
+            onValueChange={(val) => setWaterHeater(String(val))}
             unit={t("common:units.kWh")}
             placeholder={t("home_energy_audit.enter_consumption")}
             min={0}
@@ -134,9 +135,9 @@ export default function HomeEnergyAuditCalculator() {
           label={t("home_energy_audit.appliances")}
           tooltip={t("home_energy_audit.appliances_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={appliances}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setAppliances(e.target.value)}
+            onValueChange={(val) => setAppliances(String(val))}
             unit={t("common:units.kWh")}
             placeholder={t("home_energy_audit.enter_consumption")}
             min={0}

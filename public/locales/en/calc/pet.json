@@ -2258,7 +2258,8 @@
         "question": "Should I use a complete feed?",
         "answer": "Complete feeds are convenient but hay should still be offered for dental health and digestive function unless a horse cannot chew properly."
       }
-    ]
+    ],
+    "error_invalid_weight": "Invalid weight"
   },
   "horse-feed-calculator": {
     "title": "Horse Feed Calculator",
@@ -2428,7 +2429,10 @@
         "question": "Is my kitten underweight?",
         "answer": "Healthy kittens should gain steadily. If weight plateaus or drops, consult a vet. Ribs should be felt but not prominently visible."
       }
-    ]
+    ],
+    "error_invalid_weight": "Invalid weight",
+    "error_invalid_age": "Invalid age",
+    "unit_weeks": "Unit Weeks"
   },
   "kitten-growth-calculator": {
     "title": "Kitten Growth Calculator",

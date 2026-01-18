@@ -9,7 +9,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
@@ -187,10 +188,10 @@ export default function OhmsLawCalculator() {
             label={t("ohms_law.voltage")}
             tooltip={t("ohms_law.enter_voltage")}
           >
-            <NumericInput
+            <NumberInput
               value={voltage}
-              onChange={(e) => {
-                setVoltage(e.target.value);
+              onValueChange={(val) => {
+                setVoltage(String(val));
                 if (error) setError('');
               }}
               unit={t("ohms_law.unit_voltage")}
@@ -206,10 +207,10 @@ export default function OhmsLawCalculator() {
             label={t("ohms_law.current")}
             tooltip={t("ohms_law.enter_current")}
           >
-            <NumericInput
+            <NumberInput
               value={current}
-              onChange={(e) => {
-                setCurrent(e.target.value);
+              onValueChange={(val) => {
+                setCurrent(String(val));
                 if (error) setError('');
               }}
               unit={t("ohms_law.unit_current")}
@@ -225,10 +226,10 @@ export default function OhmsLawCalculator() {
             label={t("ohms_law.resistance")}
             tooltip={t("ohms_law.enter_resistance")}
           >
-            <NumericInput
+            <NumberInput
               value={resistance}
-              onChange={(e) => {
-                setResistance(e.target.value);
+              onValueChange={(val) => {
+                setResistance(String(val));
                 if (error) setError('');
               }}
               unit={t("ohms_law.unit_resistance")}

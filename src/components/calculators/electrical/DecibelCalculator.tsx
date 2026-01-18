@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
@@ -76,9 +77,9 @@ export default function DecibelCalculator() {
           label={calculationType === 'power' ? t("decibel-calculator.value_1_power") : t("decibel-calculator.value_1_voltage")}
           tooltip={t("decibel-calculator.value_1_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={value1}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setValue1(e.target.value)}
+            onValueChange={(val) => setValue1(String(val))}
             unit={calculationType === 'power' ? 'W' : 'V/A'}
             placeholder={t("decibel-calculator.enter_value")}
             min={0}
@@ -90,9 +91,9 @@ export default function DecibelCalculator() {
           label={calculationType === 'power' ? t("decibel-calculator.value_2_power") : t("decibel-calculator.value_2_voltage")}
           tooltip={t("decibel-calculator.value_2_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={value2}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setValue2(e.target.value)}
+            onValueChange={(val) => setValue2(String(val))}
             unit={calculationType === 'power' ? 'W' : 'V/A'}
             placeholder={t("decibel-calculator.enter_value")}
             min={0}

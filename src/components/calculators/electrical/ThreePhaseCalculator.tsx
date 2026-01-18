@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
@@ -101,9 +102,9 @@ export default function ThreePhaseCalculator() {
         </InputContainer>
 
         <InputContainer label={t("three_phase.line_voltage")} tooltip={t("three_phase.line_voltage_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={voltage}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setVoltage(e.target.value)}
+            onValueChange={(val) => setVoltage(String(val))}
             unit={t("common:common.units.V")}
             placeholder={t("three_phase.enter_voltage")}
             min={0}
@@ -112,9 +113,9 @@ export default function ThreePhaseCalculator() {
         </InputContainer>
 
         <InputContainer label={t("three_phase.line_current")} tooltip={t("three_phase.line_current_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={current}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCurrent(e.target.value)}
+            onValueChange={(val) => setCurrent(String(val))}
             unit={t("common:common.units.A")}
             placeholder={t("three_phase.enter_current")}
             min={0}
@@ -123,9 +124,9 @@ export default function ThreePhaseCalculator() {
         </InputContainer>
 
         <InputContainer label={t("three_phase.power_factor")} tooltip={t("three_phase.power_factor_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={powerFactor}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPowerFactor(e.target.value)}
+            onValueChange={(val) => setPowerFactor(String(val))}
             unit=""
             placeholder="0.85"
             min={0}

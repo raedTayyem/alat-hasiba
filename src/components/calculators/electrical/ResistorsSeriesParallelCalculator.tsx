@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
@@ -107,9 +108,9 @@ export default function ResistorsSeriesParallelCalculator() {
         </InputContainer>
 
         <InputContainer label={t("ohms_law.voltage")} tooltip={t("ohms_law.voltage")}>
-          <NumericInput
+          <NumberInput
             value={voltage}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setVoltage(e.target.value)}
+            onValueChange={(val) => setVoltage(String(val))}
             unit={t("ohms_law.unit_voltage")}
             placeholder={t("ohms_law.enter_voltage")}
             min={0}
@@ -121,9 +122,9 @@ export default function ResistorsSeriesParallelCalculator() {
           <label className="block text-sm font-medium text-foreground-70">{t("resistors_parallel.resistor_values")}</label>
           {resistors.map((resistor, index) => (
             <div key={index} className="flex gap-2">
-              <NumericInput
+              <NumberInput
                 value={resistor}
-                onChange={(e: React.ChangeEvent<HTMLInputElement>) => updateResistor(index, e.target.value)}
+                onValueChange={(val) => updateResistor(index, String(val))}
                 unit={t("ohms_law.unit_resistance")}
                 placeholder={`R${index + 1}`}
                 min={0}

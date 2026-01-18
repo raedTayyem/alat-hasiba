@@ -19,7 +19,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Info, Triangle, Ruler, Percent, ArrowUpRight } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -202,12 +203,12 @@ export default function RoofPitchCalculator() {
           label={t("roofPitch.rise")}
           tooltip={t("roofPitch.rise_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={rise}
-            onChange={(e) => {
-              setRise(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setRise(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("roofPitch.placeholders.rise")}
             min={0}
             step={0.5}
@@ -219,12 +220,12 @@ export default function RoofPitchCalculator() {
           label={t("roofPitch.run")}
           tooltip={t("roofPitch.run_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={run}
-            onChange={(e) => {
-              setRun(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setRun(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("roofPitch.placeholders.run")}
             min={0.1}
             step={0.5}

@@ -1,6 +1,6 @@
 {
   "lm317": {
-    "title": "حاسبة LM317",
+    "title": "حاسبة",
     "description": "حساب جهد الخرج أو المقاومات المطلوبة لمنظم الجهد LM317.",
     "inputs": {
       "output_voltage": "جهد الخرج (Vout)",
@@ -72,7 +72,14 @@
         "question": "كيف أحسب القدرة المبددة في LM317؟",
         "answer": "القدرة = (Vin - Vout) × Iout. تأكد من عدم تجاوز الحد الأقصى للقدرة مع استخدام مبرد مناسب."
       }
-    ]
+    ],
+    "invalid_input": "غير صالح Input",
+    "output_voltage": "Output Voltage",
+    "resistor_1": "Resistor 1",
+    "calculated_r2": "Calculated R2",
+    "nearest_standard": "Nearest Standard",
+    "actual_vout": "Actual Vout",
+    "desc": "Desc"
   },
   "ohms_law": {
     "title": "حاسبة قانون أوم",
@@ -1751,7 +1758,8 @@
         "question": "لماذا تضيء الأنوار خافتة عند تشغيل المكيف؟",
         "answer": "تيار إقلاع المكيف يسبب هبوط جهد مؤقت في الشبكة. إذا كان ملحوظاً، قد تحتاج كابل أسمك أو دائرة منفصلة للمكيف."
       }
-    ]
+    ],
+    "current": "Current"
   },
   "capacitor": {
     "title": "حاسبة المكثف",

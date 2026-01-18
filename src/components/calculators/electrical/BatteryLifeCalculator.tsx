@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
@@ -54,9 +55,9 @@ export default function BatteryLifeCalculator() {
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("battery_life.capacity")} tooltip={t("battery_life.capacity_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={batteryCapacity}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setBatteryCapacity(e.target.value)}
+            onValueChange={(val) => setBatteryCapacity(String(val))}
             unit={t("common:units.mAh")}
             placeholder={t("battery_life.enter_capacity")}
             min={0}
@@ -65,9 +66,9 @@ export default function BatteryLifeCalculator() {
         </InputContainer>
 
         <InputContainer label={t("battery_life.load_current")} tooltip={t("battery_life.current_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={loadCurrent}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setLoadCurrent(e.target.value)}
+            onValueChange={(val) => setLoadCurrent(String(val))}
             unit={t("common:units.mA")}
             placeholder={t("battery_life.enter_current")}
             min={0}
@@ -76,9 +77,9 @@ export default function BatteryLifeCalculator() {
         </InputContainer>
 
         <InputContainer label={t("battery_life.efficiency")} tooltip={t("battery_life.efficiency_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={efficiency}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setEfficiency(e.target.value)}
+            onValueChange={(val) => setEfficiency(String(val))}
             unit={t("common:units.percent")}
             placeholder="90"
             min={0}

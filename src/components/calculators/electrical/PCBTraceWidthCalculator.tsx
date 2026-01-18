@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
@@ -79,9 +80,9 @@ export default function PCBTraceWidthCalculator() {
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("pcb_trace.inputs.current")} tooltip={t("pcb_trace.tooltips.current")}>
-          <NumericInput
+          <NumberInput
             value={current}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCurrent(e.target.value)}
+            onValueChange={(val) => setCurrent(String(val))}
             unit={t("common:units.A")}
             placeholder={t("pcb_trace.placeholders.current")}
             min={0}
@@ -90,9 +91,9 @@ export default function PCBTraceWidthCalculator() {
         </InputContainer>
 
         <InputContainer label={t("pcb_trace.inputs.temp_rise")} tooltip={t("pcb_trace.tooltips.temp_rise")}>
-          <NumericInput
+          <NumberInput
             value={tempRise}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setTempRise(e.target.value)}
+            onValueChange={(val) => setTempRise(String(val))}
             unit={t("common:units.celsius")}
             placeholder={t("pcb_trace.placeholders.temp_rise")}
             min={0}
@@ -109,9 +110,9 @@ export default function PCBTraceWidthCalculator() {
         </InputContainer>
 
         <InputContainer label={t("pcb_trace.inputs.length")} tooltip={t("pcb_trace.tooltips.length")}>
-          <NumericInput
+          <NumberInput
             value={traceLength}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setTraceLength(e.target.value)}
+            onValueChange={(val) => setTraceLength(String(val))}
             unit={t("common:units.mm")}
             placeholder={t("pcb_trace.placeholders.length")}
             min={0}

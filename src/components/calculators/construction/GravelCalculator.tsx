@@ -20,7 +20,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Mountain, Info, Box, Truck, Scale } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -241,12 +242,12 @@ export default function GravelCalculator() {
           label={t("gravel.length")}
           tooltip={t("gravel.length_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={length}
-            onChange={(e) => {
-              setLength(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setLength(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("gravel.placeholders.length")}
             min={0}
             step={0.1}
@@ -258,12 +259,12 @@ export default function GravelCalculator() {
           label={t("gravel.width")}
           tooltip={t("gravel.width_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={width}
-            onChange={(e) => {
-              setWidth(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setWidth(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("gravel.placeholders.width")}
             min={0}
             step={0.1}
@@ -291,12 +292,12 @@ export default function GravelCalculator() {
           label={t("gravel.depth")}
           tooltip={t("gravel.depth_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={depth}
-            onChange={(e) => {
-              setDepth(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setDepth(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("gravel.placeholders.depth")}
             min={0}
             step={0.5}
@@ -332,10 +333,10 @@ export default function GravelCalculator() {
             label={t("gravel.custom_density")}
             tooltip={t("gravel.custom_density_tooltip")}
           >
-            <NumericInput
+            <NumberInput
               value={customDensity}
-              onChange={(e) => {
-                setCustomDensity(e.target.value);
+              onValueChange={(value) => {
+                setCustomDensity(String(value));
                 if (error) setError('');
               }}
               placeholder={t("gravel.placeholders.density")}

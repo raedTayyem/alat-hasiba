@@ -19,7 +19,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Ruler, Info, ArrowUpDown, RotateCcw } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -215,12 +216,12 @@ export default function StringerCalculator() {
           label={t("stringer.total_rise")}
           tooltip={t("stringer.total_rise_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={totalRise}
-            onChange={(e) => {
-              setTotalRise(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setTotalRise(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("stringer.placeholders.total_rise")}
             min={0}
             step={1}
@@ -232,12 +233,12 @@ export default function StringerCalculator() {
           label={t("stringer.total_run")}
           tooltip={t("stringer.total_run_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={totalRun}
-            onChange={(e) => {
-              setTotalRun(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setTotalRun(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("stringer.placeholders.total_run")}
             min={0}
             step={1}
@@ -249,12 +250,12 @@ export default function StringerCalculator() {
           label={t("stringer.number_of_steps")}
           tooltip={t("stringer.number_of_steps_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={numberOfSteps}
-            onChange={(e) => {
-              setNumberOfSteps(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setNumberOfSteps(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("stringer.placeholders.number_of_steps")}
             min={2}
             step={1}
@@ -266,12 +267,12 @@ export default function StringerCalculator() {
           label={t("stringer.stringer_width")}
           tooltip={t("stringer.stringer_width_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={stringerWidth}
-            onChange={(e) => {
-              setStringerWidth(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setStringerWidth(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("stringer.placeholders.stringer_width")}
             min={0}
             step={0.1}

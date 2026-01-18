@@ -19,7 +19,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Paintbrush, Info, Layers, Square } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -226,12 +227,12 @@ export default function PaintCalculator() {
           label={t("paint.wall_area")}
           tooltip={t("paint.wall_area_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={wallArea}
-            onChange={(e) => {
-              setWallArea(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setWallArea(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("paint.placeholders.wall_area")}
             min={0}
             step={1}
@@ -244,12 +245,12 @@ export default function PaintCalculator() {
           label={t("paint.window_area")}
           tooltip={t("paint.window_area_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={windowArea}
-            onChange={(e) => {
-              setWindowArea(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setWindowArea(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("paint.placeholders.window_area")}
             min={0}
             step={1}
@@ -262,12 +263,12 @@ export default function PaintCalculator() {
           label={t("paint.door_area")}
           tooltip={t("paint.door_area_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={doorArea}
-            onChange={(e) => {
-              setDoorArea(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setDoorArea(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("paint.placeholders.door_area")}
             min={0}
             step={1}
@@ -301,12 +302,12 @@ export default function PaintCalculator() {
           label={t("paint.number_of_coats")}
           tooltip={t("paint.number_of_coats_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={numberOfCoats}
-            onChange={(e) => {
-              setNumberOfCoats(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setNumberOfCoats(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("paint.placeholders.coats")}
             min={1}
             max={5}

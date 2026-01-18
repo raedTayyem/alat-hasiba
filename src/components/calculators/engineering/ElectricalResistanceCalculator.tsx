@@ -19,7 +19,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Zap, Activity, CircuitBoard, Info } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 
@@ -206,10 +207,10 @@ export default function ElectricalResistanceCalculator() {
             label={t("electrical-resistance.voltage")}
             tooltip={t("electrical-resistance.voltage_tooltip")}
           >
-            <NumericInput
+            <NumberInput
               value={voltage}
-              onChange={(e) => {
-                setVoltage(e.target.value);
+              onValueChange={(value) => {
+                setVoltage(String(value));
                 if (error) setError('');
               }}
               placeholder={t("electrical-resistance.placeholders.voltage")}
@@ -226,10 +227,10 @@ export default function ElectricalResistanceCalculator() {
             label={t("electrical-resistance.current")}
             tooltip={t("electrical-resistance.current_tooltip")}
           >
-            <NumericInput
+            <NumberInput
               value={current}
-              onChange={(e) => {
-                setCurrent(e.target.value);
+              onValueChange={(value) => {
+                setCurrent(String(value));
                 if (error) setError('');
               }}
               placeholder={t("electrical-resistance.placeholders.current")}
@@ -246,10 +247,10 @@ export default function ElectricalResistanceCalculator() {
             label={t("electrical-resistance.resistance")}
             tooltip={t("electrical-resistance.resistance_tooltip")}
           >
-            <NumericInput
+            <NumberInput
               value={resistance}
-              onChange={(e) => {
-                setResistance(e.target.value);
+              onValueChange={(value) => {
+                setResistance(String(value));
                 if (error) setError('');
               }}
               placeholder={t("electrical-resistance.placeholders.resistance")}

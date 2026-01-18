@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
@@ -87,9 +88,9 @@ export default function MotorCalculator() {
         </InputContainer>
 
         <InputContainer label={t("motor.power")} tooltip={t("motor.power_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={power}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPower(e.target.value)}
+            onValueChange={(val) => setPower(String(val))}
             unit={t("ohms_law.unit_kilo_watt")}
             placeholder={t("motor.enter_power")}
             min={0}
@@ -98,9 +99,9 @@ export default function MotorCalculator() {
         </InputContainer>
 
         <InputContainer label={t("motor.voltage")} tooltip={t("motor.voltage_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={voltage}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setVoltage(e.target.value)}
+            onValueChange={(val) => setVoltage(String(val))}
             unit={t("ohms_law.unit_voltage")}
             placeholder="220, 380, 400"
             min={0}
@@ -109,9 +110,9 @@ export default function MotorCalculator() {
         </InputContainer>
 
         <InputContainer label={t("motor.efficiency")} tooltip={t("motor.efficiency_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={efficiency}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setEfficiency(e.target.value)}
+            onValueChange={(val) => setEfficiency(String(val))}
             unit={t("common:units.percent")}
             placeholder="80-95"
             min={0}
@@ -121,9 +122,9 @@ export default function MotorCalculator() {
         </InputContainer>
 
         <InputContainer label={t("motor.power_factor")} tooltip={t("motor.pf_tooltip")}>
-          <NumericInput
+          <NumberInput
             value={powerFactor}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setPowerFactor(e.target.value)}
+            onValueChange={(val) => setPowerFactor(String(val))}
             unit=""
             placeholder="0.8-0.9"
             min={0}

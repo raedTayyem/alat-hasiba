@@ -20,7 +20,8 @@ import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import { Mountain, Info, Box, Truck } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox } from '@/components/ui/combobox';
@@ -226,12 +227,12 @@ export default function FillDirtCalculator() {
           label={t("fill_dirt.length")}
           tooltip={t("fill_dirt.length_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={length}
-            onChange={(e) => {
-              setLength(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setLength(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("fill_dirt.placeholders.length")}
             min={0}
             step={0.1}
@@ -243,12 +244,12 @@ export default function FillDirtCalculator() {
           label={t("fill_dirt.width")}
           tooltip={t("fill_dirt.width_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={width}
-            onChange={(e) => {
-              setWidth(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setWidth(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("fill_dirt.placeholders.width")}
             min={0}
             step={0.1}
@@ -260,12 +261,12 @@ export default function FillDirtCalculator() {
           label={t("fill_dirt.depth")}
           tooltip={t("fill_dirt.depth_tooltip")}
         >
-          <NumericInput
+          <NumberInput
             value={depth}
-            onChange={(e) => {
-              setDepth(e.target.value);
-              if (error) setError('');
-            }}
+            onValueChange={(value) => {
+                setDepth(String(value));
+                if (error) setError('');
+              }}
             placeholder={t("fill_dirt.placeholders.depth")}
             min={0}
             step={0.01}
@@ -296,10 +297,10 @@ export default function FillDirtCalculator() {
             label={t("fill_dirt.custom_compaction")}
             tooltip={t("fill_dirt.custom_compaction_tooltip")}
           >
-            <NumericInput
+            <NumberInput
               value={customCompaction}
-              onChange={(e) => {
-                setCustomCompaction(e.target.value);
+              onValueChange={(value) => {
+                setCustomCompaction(String(value));
                 if (error) setError('');
               }}
               placeholder={t("fill_dirt.placeholders.compaction")}

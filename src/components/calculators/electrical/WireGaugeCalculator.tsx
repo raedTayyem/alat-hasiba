@@ -3,7 +3,8 @@
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
+import InputContainer from '@/components/ui/InputContainer';
+import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Combobox, ComboboxOption } from '@/components/ui/combobox';
@@ -91,9 +92,9 @@ export default function WireGaugeCalculator() {
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("wire_gauge.current")} tooltip={t("wire_gauge.enter_current")}>
-          <NumericInput
+          <NumberInput
             value={current}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setCurrent(e.target.value)}
+            onValueChange={(val) => setCurrent(String(val))}
             unit={t("common:common.units.A")}
             placeholder={t("wire_gauge.enter_current")}
             min={0}
@@ -102,9 +103,9 @@ export default function WireGaugeCalculator() {
         </InputContainer>
 
         <InputContainer label={t("wire_gauge.distance")} tooltip={t("wire_gauge.enter_distance")}>
-          <NumericInput
+          <NumberInput
             value={length}
-            onChange={(e: React.ChangeEvent<HTMLInputElement>) => setLength(e.target.value)}
+            onValueChange={(val) => setLength(String(val))}
             unit={t("common:common.units.m")}
             placeholder={t("wire_gauge.enter_distance")}
             min={0}
