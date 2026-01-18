@@ -991,5 +991,40 @@
         "answer": "Partially, but pure water is best since caffeine is a diuretic."
       }
     ]
+  },
+  "calorie": {
+    "inputs": {
+      "age": "Age",
+      "gender": "Gender",
+      "weight": "Weight (kg)",
+      "height": "Height (cm)",
+      "activity_level": "Activity Level",
+      "male": "Male",
+      "female": "Female",
+      "activity": {
+        "sedentary": "Sedentary (little or no exercise)",
+        "light": "Light activity (exercise 1-3 days/week)",
+        "moderate": "Moderate activity (exercise 3-5 days/week)",
+        "active": "Active (exercise 6-7 days/week)",
+        "very_active": "Very active (daily intense exercise)"
+      }
+    },
+    "tooltips": {
+      "gender": "Gender affects basal metabolic rate",
+      "age": "Age in years",
+      "weight": "Current body weight in kilograms",
+      "height": "Height in centimeters",
+      "activity": "Your usual daily activity"
+    },
+    "results": {
+      "bmr": "Basal Metabolic Rate (BMR)",
+      "calories": "calories"
+    },
+    "errors": {
+      "all_fields": "Please enter all required fields",
+      "age_range": "Age must be between 15 and 100 years",
+      "weight_positive": "Weight must be a positive and realistic value",
+      "height_positive": "Height must be a positive and realistic value"
+    }
   }
 }

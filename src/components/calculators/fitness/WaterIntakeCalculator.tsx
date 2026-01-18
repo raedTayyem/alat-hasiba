@@ -18,7 +18,7 @@ interface WaterIntakeResult {
 }
 
 export default function WaterIntakeCalculator() {
-  const { t } = useTranslation(['calc/health', 'common']);
+  const { t } = useTranslation(['calc/fitness', 'common']);
   // State management
   const [weight, setWeight] = useState<string>('');
   const [activityLevel, setActivityLevel] = useState<string>('sedentary');

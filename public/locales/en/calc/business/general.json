@@ -2189,6 +2189,7 @@
     },
     "results": {
       "invoice_total": "Total Invoice Amount",
+      "for_hours": "for {{hours}} hours",
       "breakdown": "Invoice Breakdown",
       "billable_hours": "Billable Hours",
       "hours": "hours",
@@ -2228,6 +2229,7 @@
     },
     "results": {
       "cost_per_unit": "Cost Per Unit",
+      "for_units": "for {{units}} units",
       "per_unit": "per unit",
       "breakdown": "Cost Breakdown",
       "fixed_costs": "Fixed Costs",

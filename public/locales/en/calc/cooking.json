@@ -315,7 +315,11 @@
         "question": "How accurate are gas mark conversions?",
         "answer": "Gas marks are approximate ranges, not exact temperatures. Each increment represents about 25°F or 14°C."
       }
-    ]
+    ],
+    "tooltips": {
+      "temperature": "Enter the temperature to convert",
+      "from_unit": "Select the temperature unit to convert from"
+    }
   },
   "baking-conversion": {
     "title": "Baking Conversion Calculator - Cup to Gram Converter",
@@ -409,7 +413,12 @@
         "question": "How do I convert butter sticks to grams?",
         "answer": "1 US butter stick = 113g = 1/2 cup = 8 tablespoons. European butter may vary slightly."
       }
-    ]
+    ],
+    "tooltips": {
+      "amount": "Enter the amount to convert",
+      "from_unit": "Select the unit you're converting from",
+      "ingredient": "Select the ingredient for accurate conversion"
+    }
   },
   "cooking-time": {
     "title": "Cooking Time Calculator - Meat Roasting Timer",
@@ -492,7 +501,12 @@
         "question": "Why is resting time important?",
         "answer": "Resting allows juices to redistribute throughout the meat. Cutting too soon causes juices to run out, making meat dry."
       }
-    ]
+    ],
+    "tooltips": {
+      "weight": "Enter the weight of the meat in pounds",
+      "meat_type": "Select the type of meat you're cooking",
+      "cooking_method": "Choose your preferred cooking method"
+    }
   },
   "turkey-cooking-calculator": {
     "title": "Turkey Cooking Calculator - Free Roasting Time Tool",
@@ -574,7 +588,11 @@
         "question": "Why is my turkey dry?",
         "answer": "Common causes: overcooking, not basting, or carving too soon. Use a thermometer and don't exceed 165°F in the breast."
       }
-    ]
+    ],
+    "tooltips": {
+      "weight": "Weight of the turkey in pounds",
+      "stuffed": "Is the turkey stuffed with dressing?"
+    }
   },
   "roast-cooking-calculator": {
     "title": "Roast Cooking Calculator - Free Oven Roasting Timer",
@@ -703,7 +721,11 @@
         "question": "How do I measure spaghetti without a scale?",
         "answer": "A 2-inch diameter bundle of spaghetti is roughly 8 oz (4 servings). Use a spaghetti measure tool for accuracy."
       }
-    ]
+    ],
+    "tooltips": {
+      "servings": "How many people are you cooking for?",
+      "unit": "Choose your preferred measurement unit for pasta"
+    }
   },
   "cake-serving-calculator": {
     "title": "Cake Serving Calculator - Free Party Planning Tool",
@@ -789,7 +811,11 @@
         "question": "Should I get extra cake?",
         "answer": "Yes, order 10-15% more than your guest count. Some want seconds, and you'll want photos with an intact cake."
       }
-    ]
+    ],
+    "tooltips": {
+      "cake_shape": "Choose the shape of your cake",
+      "cake_size": "Select the size of your cake"
+    }
   },
   "bread-hydration-calculator": {
     "title": "Bread Hydration Calculator - Free Dough Baker Percentage Tool",
@@ -1581,7 +1607,11 @@
         "question": "How long should pizza dough ferment?",
         "answer": "Minimum 8 hours, ideally 24-72 hours in the refrigerator. Longer fermentation develops more flavor and better texture."
       }
-    ]
+    ],
+    "tooltips": {
+      "pizzas": "How many pizzas do you want to make?",
+      "hydration": "Water content percentage (higher = softer dough)"
+    }
   },
   "rice-cooking-calculator": {
     "title": "Rice Cooking Calculator - Water Ratio Timer Tool",
@@ -1662,7 +1692,11 @@
         "question": "Should I soak rice before cooking?",
         "answer": "Basmati benefits from 30-minute soaking for longer grains. Most other rice doesn't require soaking."
       }
-    ]
+    ],
+    "tooltips": {
+      "servings": "Number of people you're serving",
+      "rice_type": "Choose the type of rice you're cooking"
+    }
   },
   "coffee-ratio-calculator": {
     "title": "Coffee Ratio Calculator - Free Brewing Guide",
@@ -1741,7 +1775,11 @@
         "question": "What temperature water for coffee?",
         "answer": "195-205°F (90-96°C). Boiling water scorches coffee; too cool under-extracts. Wait 30 seconds off boil."
       }
-    ]
+    ],
+    "tooltips": {
+      "cups": "Number of cups of coffee you want to make",
+      "strength": "Choose your preferred coffee strength"
+    }
   },
   "rice-calculator": {
     "title": "Rice to Water Ratio Calculator",
@@ -2025,6 +2063,100 @@
       {
         "question": "Is food safe if freezer lost power?",
         "answer": "A full freezer stays safe for 48 hours unopened, half-full for 24 hours. Don't refreeze if thawed above 40°F."
+      }
+    ]
+  },
+  "rice-water-ratio-calculator": {
+    "title": "Rice Water Ratio Calculator - Perfect Rice Every Time",
+    "description": "Calculate the perfect water-to-rice ratio for any type of rice. Free calculator for white, brown, basmati, jasmine, and wild rice.",
+    "rice_type_label": "Rice Type",
+    "rice_type_tooltip": "Select the type of rice you're cooking",
+    "rice_type_placeholder": "Choose rice type",
+    "unit_label": "Measurement Unit",
+    "unit_tooltip": "Choose your preferred measurement unit",
+    "unit_cups": "Cups",
+    "unit_grams": "Grams",
+    "amount_label": "Rice Amount",
+    "amount_tooltip": "Enter the amount of rice you're cooking",
+    "amount_placeholder": "e.g. 1",
+    "result_label": "Water Needed",
+    "additional_info_title": "Cooking Instructions",
+    "water_needed_label": "Water Amount",
+    "cooking_time_label": "Cooking Time",
+    "tips_title": "Cooking Tips",
+    "info_title": "About Rice Ratios",
+    "info_description": "Different types of rice require different water ratios. This calculator provides the optimal ratio for perfect, fluffy rice every time.",
+    "use_cases_title": "Perfect For",
+    "use_case_1": "Cooking perfect rice for meals",
+    "use_case_2": "Meal prep and batch cooking",
+    "use_case_3": "Learning different rice varieties",
+    "type_white_long_grain": "White Long Grain",
+    "type_white_short_grain": "White Short Grain",
+    "type_brown_long_grain": "Brown Long Grain",
+    "type_brown_short_grain": "Brown Short Grain",
+    "type_basmati": "Basmati",
+    "type_jasmine": "Jasmine",
+    "type_wild_rice": "Wild Rice",
+    "type_sushi_rice": "Sushi Rice",
+    "instructions_white": "Bring water to boil, add rice, reduce heat, cover and simmer until water is absorbed.",
+    "instructions_brown": "Bring water to boil, add rice, reduce heat, cover and simmer. Brown rice takes longer than white.",
+    "instructions_wild": "Rinse well, bring water to boil, add rice, reduce heat, cover and simmer until tender.",
+    "errors": {
+      "enter_value": "Please enter a value",
+      "invalid_input": "Please enter a valid number",
+      "positive_amount": "Amount must be greater than zero",
+      "calculation": "An error occurred during calculation"
+    },
+    "tooltips": {
+      "rice_type": "Select the type of rice you're cooking for accurate water ratios",
+      "unit": "Choose your preferred measurement unit (cups or grams)",
+      "amount": "Enter how much rice you want to cook"
+    },
+    "howItWorks": {
+      "title": "How the Rice Water Ratio Calculator Works",
+      "formula": "Water Amount = Rice Amount × Water Ratio (varies by rice type)",
+      "explanation": "Different rice varieties absorb water differently. This calculator uses the optimal water-to-rice ratios for each type to ensure perfect results.",
+      "steps": [
+        "Select your rice type (white, brown, basmati, etc.)",
+        "Choose your measurement unit (cups or grams)",
+        "Enter the amount of rice",
+        "Get the exact water amount and cooking time"
+      ]
+    },
+    "useCases": [
+      "Cooking perfect rice for any meal",
+      "Meal prep and batch cooking rice",
+      "Learning to cook different rice varieties",
+      "Avoiding soggy or undercooked rice"
+    ],
+    "seoTips": [
+      "White long grain: 2:1 water-to-rice ratio",
+      "Brown rice needs more water and time than white rice",
+      "Basmati and jasmine: 1.5:1 ratio for fluffy texture",
+      "Always rinse rice to remove excess starch"
+    ],
+    "commonMistakes": [
+      "Using the same ratio for all rice types",
+      "Not rinsing rice before cooking",
+      "Lifting the lid during cooking (releases steam)",
+      "Forgetting to let rice rest after cooking"
+    ],
+    "faqs": [
+      {
+        "question": "Why do different types of rice need different water ratios?",
+        "answer": "Rice varieties have different starch content, grain size, and processing levels, which affect water absorption. Brown rice has more fiber and takes longer to cook than white rice."
+      },
+      {
+        "question": "Should I rinse rice before cooking?",
+        "answer": "Yes, for most rice types. Rinsing removes excess starch and prevents gummy texture. Rinse until water runs clear."
+      },
+      {
+        "question": "Can I cook rice without measuring?",
+        "answer": "For consistent results, always measure. A common finger method exists (water up to first knuckle above rice), but measured ratios are more reliable."
+      },
+      {
+        "question": "Why is my rice mushy or undercooked?",
+        "answer": "Too much water makes rice mushy; too little leaves it undercooked. Use the correct ratio for your rice type and don't lift the lid during cooking."
       }
     ]
   }

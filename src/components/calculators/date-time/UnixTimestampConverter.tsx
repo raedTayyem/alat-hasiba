@@ -11,7 +11,7 @@ import { Combobox } from '@/components/ui/combobox';
 import { initDateInputRTL } from '../../../utils/dateInputRTL';
 
 export default function UnixTimestampConverter() {
-  const { t, i18n } = useTranslation(['calc/date_time', 'common']);
+  const { t, i18n } = useTranslation(['calc/date-time', 'common']);
   const isRTL = i18n.language === 'ar';
   const [mode, setMode] = useState<string>('toDate');
   const [timestamp, setTimestamp] = useState<string>('');

@@ -42,7 +42,7 @@ export default function DateDifferenceCalculator() {
   // ---------------------------------------------------------------------------
   // HOOKS
   // ---------------------------------------------------------------------------
-  const { t, i18n } = useTranslation(['calc/date_time', 'common']);
+  const { t, i18n } = useTranslation(['calc/date-time', 'common']);
   const isRTL = i18n.language === 'ar';
   // ---------------------------------------------------------------------------
   // STATE MANAGEMENT

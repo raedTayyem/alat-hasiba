@@ -754,19 +754,72 @@
   "carbon_emissions": {
     "title": "حاسبة انبعاثات الكربون",
     "description": "احسب انبعاثات ثاني أكسيد الكربون من سيارتك بناءً على استهلاك الوقود والمسافة المقطوعة.",
+    "metric": "متري",
+    "imperial": "إمبراطوري",
+    "unit_system": "نظام الوحدات",
+    "unit_system_tooltip": "اختر نظام القياس (متري أو إمبراطوري)",
+    "fuel_petrol": "بنزين",
+    "fuel_diesel": "ديزل",
+    "fuel_lpg": "غاز البترول المسال (LPG)",
+    "fuel_cng": "غاز طبيعي مضغوط (CNG)",
+    "fuel_e85": "إيثانول E85",
+    "fuel_biodiesel": "وقود حيوي",
+    "fuel_type_tooltip": "نوع الوقود يؤثر على معامل الانبعاث",
+    "consumption_tooltip": "معدل استهلاك الوقود لسيارتك",
+    "distance_tooltip": "إجمالي المسافة المقطوعة أو المخططة",
+    "annual_tooltip": "المسافة السنوية المقطوعة",
+    "error_missing_inputs": "يرجى إدخال المسافة واستهلاك الوقود",
+    "error_positive_consumption": "يجب أن يكون استهلاك الوقود أكبر من صفر",
+    "error_positive_distance": "يجب أن تكون المسافة أكبر من صفر",
+    "error_calculation": "حدث خطأ أثناء الحساب",
+    "kg_co2": "كجم CO₂",
+    "kg_co2_year": "كجم CO₂/سنة",
+    "kg_per_liter": "كجم CO₂/لتر",
+    "liters": "لتر",
+    "result_title": "نتائج الانبعاثات",
+    "trip_emissions": "انبعاثات الرحلة",
+    "annual_emissions": "الانبعاثات السنوية",
+    "fuel_consumed": "الوقود المستهلك",
+    "detailed_results": "النتائج التفصيلية",
+    "emission_factors_title": "معاملات الانبعاث",
+    "emission_petrol": "بنزين",
+    "emission_diesel": "ديزل",
+    "emission_lpg": "غاز البترول المسال",
+    "emission_factor_used": "معامل الانبعاث المستخدم",
+    "trees_to_offset": "الأشجار للتعويض",
+    "trees": "شجرة",
+    "vs_average": "مقابل السيارة المتوسطة",
     "inputs": {
       "distance": "المسافة (كم)",
+      "distance_km": "المسافة (كم)",
+      "distance_miles": "المسافة (ميل)",
       "distance_tooltip": "إجمالي المسافة المقطوعة أو المخططة",
       "fuel_consumption": "استهلاك الوقود (لتر/100كم)",
+      "consumption_l100km": "استهلاك الوقود (لتر/100كم)",
+      "consumption_mpg": "كفاءة الوقود (ميل/جالون)",
       "fuel_consumption_tooltip": "معدل استهلاك الوقود لسيارتك",
       "fuel_type": "نوع الوقود",
-      "fuel_type_tooltip": "نوع الوقود يؤثر على معامل الانبعاث"
+      "fuel_type_tooltip": "نوع الوقود يؤثر على معامل الانبعاث",
+      "annual_km": "المسافة السنوية (كم)",
+      "annual_miles": "المسافة السنوية (ميل)",
+      "speed_kmh": "السرعة (كم/س)",
+      "speed_mph": "السرعة (ميل/س)"
     },
     "fuel_types": {
       "gasoline": "بنزين",
       "diesel": "ديزل",
       "lpg": "غاز البترول المسال (LPG)",
       "cng": "غاز طبيعي مضغوط (CNG)"
+    },
+    "placeholders": {
+      "distance": "1000",
+      "distance_km": "1000",
+      "distance_miles": "620",
+      "fuel_consumption": "7.5",
+      "consumption_l100km": "7.5",
+      "consumption_mpg": "31",
+      "annual_km": "15000",
+      "annual_miles": "9320"
     },
     "results": {
       "total_emissions": "إجمالي انبعاثات CO₂",
@@ -875,5 +928,57 @@
         "answer": "الديزل ينتج CO2 أكثر لكل لتر (2.68 مقابل 2.31)، لكن محركات الديزل أكثر كفاءة. عادة السيارات الديزل تنتج انبعاثات إجمالية مماثلة أو أقل قليلاً من البنزين."
       }
     ]
+  },
+  "hybrid_savings": {
+    "title": "حاسبة توفير الهجين",
+    "description": "قارن تكاليف الوقود بين السيارات الهجينة والتقليدية واحسب التوفير.",
+    "inputs": {
+      "annual_mileage": "الأميال السنوية (كم)",
+      "gas_car_consumption": "استهلاك السيارة التقليدية (لتر/100كم)",
+      "hybrid_consumption": "استهلاك السيارة الهجينة (لتر/100كم)",
+      "fuel_price": "سعر الوقود للتر",
+      "hybrid_premium": "فرق سعر الهجين (اختياري)"
+    },
+    "tooltips": {
+      "annual_mileage": "كم كيلومتر تقود سنوياً",
+      "gas_car_consumption": "استهلاك الوقود للسيارة التقليدية التي تعمل بالبنزين",
+      "hybrid_consumption": "استهلاك الوقود للسيارة الهجينة",
+      "fuel_price": "السعر الحالي للتر الوقود",
+      "hybrid_premium": "التكلفة الإضافية للهجين مقارنة بالنسخة التقليدية"
+    },
+    "placeholders": {
+      "annual_mileage": "15000",
+      "gas_car_consumption": "8.0",
+      "hybrid_consumption": "5.0",
+      "fuel_price": "1.50",
+      "hybrid_premium": "5000"
+    },
+    "results": {
+      "annual_savings_label": "التوفير السنوي في الوقود",
+      "per_year": "سنوياً",
+      "detailed_results": "تفاصيل التوفير",
+      "gas_car_annual_cost": "التكلفة السنوية للسيارة التقليدية",
+      "hybrid_annual_cost": "التكلفة السنوية للسيارة الهجينة",
+      "monthly_savings": "التوفير الشهري",
+      "savings_percentage": "نسبة التوفير",
+      "fuel_saved": "الوقود الموفر سنوياً",
+      "liters_per_year": "لتر/سنة",
+      "break_even": "فترة استرداد التكلفة",
+      "years": "سنوات"
+    },
+    "formula_title": "كيفية الحساب",
+    "formula_explanation": "التوفير = (تكلفة وقود السيارة التقليدية - تكلفة وقود الهجين). نقطة التعادل = فرق سعر الهجين / التوفير السنوي.",
+    "about_title": "عن حاسبة توفير الهجين",
+    "about_description": "احسب كم يمكنك توفيره سنوياً باختيار سيارة هجينة بدلاً من سيارة بنزين تقليدية، وحدد فترة استرداد التكلفة.",
+    "use_cases_title": "الاستخدامات الشائعة",
+    "use_case_1": "تحديد ما إذا كان فرق سعر الهجين يستحق العناء لأنماط قيادتك",
+    "use_case_2": "حساب التوفير طويل الأجل من كفاءة استهلاك الوقود",
+    "use_case_3": "مقارنة إجمالي تكلفة الملكية بين أنواع المركبات",
+    "error_missing_inputs": "يرجى إدخال جميع القيم المطلوبة",
+    "error_positive_mileage": "يجب أن تكون الأميال السنوية أكبر من صفر",
+    "error_positive_consumption": "يجب أن يكون استهلاك الوقود أكبر من صفر",
+    "error_positive_price": "يجب أن يكون سعر الوقود أكبر من صفر",
+    "error_hybrid_more_efficient": "يجب أن تكون السيارة الهجينة أكثر كفاءة في استهلاك الوقود من التقليدية",
+    "error_calculation": "حدث خطأ أثناء الحساب"
   }
 }

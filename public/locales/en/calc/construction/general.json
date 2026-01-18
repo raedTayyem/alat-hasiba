@@ -584,5 +584,63 @@
     "conduit-calculator": {
         "title": "Conduit Calculator - Electrical Conduit",
         "description": "Calculate electrical conduit needed for wiring projects. Our free conduit calculator estimates EMT, PVC, and metal conduit quantities for electrical installations. Essential for safe wire routing and protection."
+    },
+    "construction_cost": {
+        "title": "Construction Cost Calculator",
+        "description": "Calculate total construction costs based on building area, floors, construction type, and location factors.",
+        "inputs": {
+            "area": "Building Area per Floor",
+            "area_tooltip": "Total floor area of the building (per floor)",
+            "floors": "Number of Floors",
+            "floors_tooltip": "Total number of floors in the building",
+            "construction_type": "Construction Type",
+            "construction_type_tooltip": "Quality level of construction affects material and finishing costs",
+            "location": "Location Factor",
+            "location_tooltip": "Location affects labor and material costs"
+        },
+        "types": {
+            "economic": "Economic - Budget Construction",
+            "standard": "Standard - Standard Quality",
+            "luxury": "Luxury - High-End Finishes",
+            "premium": "Premium - Exclusive Quality"
+        },
+        "locations": {
+            "rural": "Rural Area",
+            "suburban": "Suburban Area",
+            "urban": "Urban Standard",
+            "city_center": "City Center",
+            "prime": "Prime Location"
+        },
+        "placeholders": {
+            "area": "500",
+            "floors": "2"
+        },
+        "errors": {
+            "invalid_area": "Please enter a valid building area",
+            "area_too_large": "Building area exceeds maximum limit (100,000 m²)",
+            "invalid_floors": "Number of floors must be between 1 and 200"
+        },
+        "result_total": "Total Construction Cost",
+        "currency_unit": "Currency",
+        "per_sqm": "per m²",
+        "cost_breakdown": "Cost Breakdown",
+        "result_material": "Material Cost",
+        "result_labor": "Labor Cost",
+        "of_total": "of total",
+        "detailed_breakdown": "Detailed Cost Breakdown",
+        "result_foundation": "Foundation & Substructure",
+        "result_structure": "Structural Frame",
+        "result_finishing": "Finishing Works",
+        "result_mechanical": "HVAC & Plumbing",
+        "result_electrical": "Electrical Systems",
+        "result_contingency": "Contingency Reserve",
+        "formula_title": "Calculation Formula",
+        "formula": "Total Cost = Base Cost × Type Factor × Location Factor × Height Factor. Base Cost = Area × Floors × Base Rate.",
+        "info_title": "About Construction Cost Calculation",
+        "info_description": "This calculator estimates construction costs based on building specifications, quality level, and location. Costs include materials, labor, and all major construction phases with contingency allowance.",
+        "use_cases_title": "Common Uses",
+        "use_case_1": "Residential building cost estimation",
+        "use_case_2": "Commercial project budgeting",
+        "use_case_3": "Construction feasibility studies"
     }
 }

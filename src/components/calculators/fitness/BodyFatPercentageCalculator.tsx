@@ -9,7 +9,7 @@ import { NumberInput } from '@/components/ui/number-input';
 import { Combobox } from '@/components/ui/combobox';
 
 export default function BodyFatPercentageCalculator() {
-  const { t } = useTranslation(['calc/fitness', 'common', 'calc/health']);
+  const { t } = useTranslation(['calc/fitness', 'common']);
   
   const [gender, setGender] = useState<string>('male');
   const [age, setAge] = useState<string>('');
@@ -82,8 +82,8 @@ export default function BodyFatPercentageCalculator() {
   };
 
   const genderOptions = [
-    { value: 'male', label: t("calc/health:calorie.inputs.male") },
-    { value: 'female', label: t("calc/health:calorie.inputs.female") },
+    { value: 'male', label: t("calorie.inputs.male") },
+    { value: 'female', label: t("calorie.inputs.female") },
   ];
 
   const inputSection = (
@@ -94,7 +94,7 @@ export default function BodyFatPercentageCalculator() {
             options={genderOptions}
             value={gender}
             onChange={(val) => setGender(val)}
-            placeholder={t("calc/health:calorie.inputs.gender")}
+            placeholder={t("calorie.inputs.gender")}
           />
         </FormField>
 

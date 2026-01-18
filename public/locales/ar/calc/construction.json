@@ -4228,9 +4228,26 @@
     "unit_tooltip": "اختر وحدة القياس لأبعاد الأخشاب",
     "inches": "بوصة",
     "feet": "قدم",
+    "cm": "سنتيمتر",
     "meters": "متر",
+    "lumber_size": "حجم الخشب",
+    "lumber_size_tooltip": "اختر أبعاد الخشب الشائعة أو اختر مخصص",
     "lumber_type": "نوع الخشب",
     "lumber_type_tooltip": "اختر أبعاد الخشب الشائعة",
+    "sizes": {
+      "2x4": "2×4",
+      "2x6": "2×6",
+      "2x8": "2×8",
+      "2x10": "2×10",
+      "2x12": "2×12",
+      "4x4": "4×4",
+      "4x6": "4×6",
+      "1x4": "1×4",
+      "1x6": "1×6",
+      "1x8": "1×8",
+      "1x12": "1×12",
+      "custom": "مخصص"
+    },
     "types": {
       "2x4": "2×4 (38×89 مم)",
       "2x6": "2×6 (38×140 مم)",
@@ -4240,17 +4257,28 @@
       "4x4": "4×4 (89×89 مم)",
       "custom": "أبعاد مخصصة"
     },
+    "custom_thickness": "السماكة المخصصة",
+    "custom_thickness_tooltip": "سماكة قطعة الخشب",
+    "custom_width": "العرض المخصص",
+    "custom_width_tooltip": "عرض قطعة الخشب",
     "quantity": "عدد القطع",
     "quantity_tooltip": "كم قطعة خشب",
     "length": "طول كل قطعة",
-    "length_tooltip": "طول كل قطعة بالقدم",
+    "length_tooltip": "طول كل قطعة خشب",
     "result_board_feet": "إجمالي أقدام الألواح",
+    "board_feet": "أقدام الألواح",
+    "per_piece": "لكل قطعة",
     "bf": "قدم لوح",
     "details": "تفاصيل الأخشاب",
+    "measurements": "القياسات",
+    "linear_feet": "الأقدام الخطية",
+    "cubic_volume": "الحجم المكعب",
+    "estimated_weight": "الوزن المقدر",
+    "softwood_estimate": "تقدير الخشب اللين",
     "total_linear": "إجمالي الأقدام الخطية",
     "weight_estimate": "الوزن المقدر",
     "formula_title": "صيغة الحساب",
-    "formula": "أقدام الألواح = (السماكة × العرض × الطول) / 12. للأخشاب البُعدية بالبوصة والقدم.",
+    "formula": "أقدام الألواح = (السماكة × العرض × الطول) / 144. الإجمالي = أقدام الألواح لكل قطعة × الكمية.",
     "info_title": "عن حساب الأخشاب",
     "info_description": "قدم اللوح هي الوحدة القياسية لحجم الأخشاب. فهم أقدام الألواح يساعد في تقدير التكاليف وتخطيط طلبات المواد.",
     "use_cases_title": "الاستخدامات الشائعة",
@@ -4260,9 +4288,12 @@
     "errors": {
       "invalid_quantity": "الرجاء إدخال كمية صحيحة",
       "invalid_length": "الرجاء إدخال طول صحيح",
+      "invalid_dimensions": "الرجاء إدخال أبعاد مخصصة صحيحة",
       "positive_values": "يجب أن تكون القيم أكبر من صفر"
     },
     "placeholders": {
+      "thickness": "1.5",
+      "width": "3.5",
       "quantity": "50",
       "length": "8"
     },
@@ -5150,10 +5181,48 @@
     "use_case_1": "أساسات القبو الكامل",
     "use_case_2": "أساسات الأساس الزاحف",
     "use_case_3": "أساسات الجراج والمباني الملحقة",
+    "inputs": {
+      "building_area": "مساحة المبنى",
+      "building_area_tooltip": "إجمالي مساحة أرضية المبنى بالمتر المربع",
+      "number_of_floors": "عدد الطوابق",
+      "number_of_floors_tooltip": "إجمالي عدد الطوابق بما في ذلك الطابق الأرضي",
+      "soil_type": "نوع التربة",
+      "soil_type_tooltip": "نوع التربة في موقع البناء",
+      "foundation_type": "نوع الأساس",
+      "foundation_type_tooltip": "اختر نوع نظام الأساس"
+    },
+    "soil_types": {
+      "soft_clay": "طين لين",
+      "medium_clay": "طين متوسط",
+      "stiff_clay": "طين صلب",
+      "loose_sand": "رمل فضفاض",
+      "medium_sand": "رمل متوسط",
+      "dense_sand": "رمل كثيف",
+      "gravel": "حصى",
+      "rock": "صخر"
+    },
+    "foundation_types": {
+      "strip": "أساس شريطي",
+      "raft": "أساس لوحي",
+      "isolated": "قواعد منفصلة"
+    },
+    "result_concrete_volume": "حجم الخرسانة المطلوب",
+    "width": "العرض",
+    "depth": "العمق",
+    "details": "تفاصيل الأساس",
+    "result_width": "عرض الأساس",
+    "result_depth": "عمق الأساس",
+    "result_rebar": "كمية التسليح",
+    "result_total_load": "الحمل الكلي للمبنى",
+    "result_length": "طول الأساس",
+    "result_soil_pressure": "ضغط التربة",
     "errors": {
       "invalid_dimensions": "الرجاء إدخال أبعاد أساس صحيحة",
       "positive_values": "يجب أن تكون الأبعاد أكبر من صفر",
-      "invalid_waste": "يجب أن تكون نسبة الهدر بين 0 و 100"
+      "invalid_waste": "يجب أن تكون نسبة الهدر بين 0 و 100",
+      "invalid_area": "الرجاء إدخال مساحة مبنى صحيحة",
+      "area_too_large": "مساحة المبنى تتجاوز الحد الأقصى المسموح (10,000 م²)",
+      "invalid_floors": "يجب أن يكون عدد الطوابق بين 1 و 100"
     },
     "placeholders": {
       "perimeter": "45",
@@ -5161,7 +5230,9 @@
       "wall_thickness": "0.2",
       "footing_width": "0.4",
       "footing_depth": "0.2",
-      "waste": "5"
+      "waste": "5",
+      "building_area": "200",
+      "number_of_floors": "2"
     },
     "howItWorks": {
       "title": "كيف تعمل حاسبة الأساسات",

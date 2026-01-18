@@ -9,7 +9,7 @@ import { NumberInput } from '@/components/ui/number-input';
 import { Combobox } from '@/components/ui/combobox';
 
 export default function BMRCalculator() {
-  const { t } = useTranslation(['calc/fitness', 'common', 'calc/health']);
+  const { t } = useTranslation(['calc/fitness', 'common']);
   const [gender, setGender] = useState<string>('male');
   const [age, setAge] = useState<string>('');
   const [weight, setWeight] = useState<string>('');
@@ -35,22 +35,22 @@ export default function BMRCalculator() {
 
     // Validation
     if (!age || !weight || !height) {
-      setError(t("calc/health:calorie.errors.all_fields"));
+      setError(t("calorie.errors.all_fields"));
       return;
     }
 
     if (ageVal <= 0 || ageVal > 120) {
-      setError(t("calc/health:calorie.errors.age_range"));
+      setError(t("calorie.errors.age_range"));
       return;
     }
 
     if (weightVal <= 0 || weightVal > 500) {
-      setError(t("calc/health:calorie.errors.weight_positive"));
+      setError(t("calorie.errors.weight_positive"));
       return;
     }
 
     if (heightVal <= 0 || heightVal > 300) {
-      setError(t("calc/health:calorie.errors.height_positive"));
+      setError(t("calorie.errors.height_positive"));
       return;
     }
 
@@ -110,8 +110,8 @@ export default function BMRCalculator() {
   };
 
   const genderOptions = [
-    { value: 'male', label: t("calc/health:calorie.inputs.male") },
-    { value: 'female', label: t("calc/health:calorie.inputs.female") },
+    { value: 'male', label: t("calorie.inputs.male") },
+    { value: 'female', label: t("calorie.inputs.female") },
   ];
 
   const inputSection = (
@@ -120,20 +120,20 @@ export default function BMRCalculator() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <FormField
-          label={t("calc/health:calorie.inputs.gender")}
-          tooltip={t("calc/health:calorie.tooltips.gender")}
+          label={t("calorie.inputs.gender")}
+          tooltip={t("calorie.tooltips.gender")}
         >
           <Combobox
             options={genderOptions}
             value={gender}
             onChange={(val) => setGender(val)}
-            placeholder={t("calc/health:calorie.inputs.gender")}
+            placeholder={t("calorie.inputs.gender")}
           />
         </FormField>
 
         <FormField
-          label={t("calc/health:calorie.inputs.age")}
-          tooltip={t("calc/health:calorie.tooltips.age")}
+          label={t("calorie.inputs.age")}
+          tooltip={t("calorie.tooltips.age")}
         >
           <NumberInput
             value={age}
@@ -147,8 +147,8 @@ export default function BMRCalculator() {
         </FormField>
 
         <FormField
-          label={t("calc/health:calorie.inputs.weight")}
-          tooltip={t("calc/health:calorie.tooltips.weight")}
+          label={t("calorie.inputs.weight")}
+          tooltip={t("calorie.tooltips.weight")}
         >
           <NumberInput
             value={weight}
@@ -163,8 +163,8 @@ export default function BMRCalculator() {
         </FormField>
 
         <FormField
-          label={t("calc/health:calorie.inputs.height")}
-          tooltip={t("calc/health:calorie.tooltips.height")}
+          label={t("calorie.inputs.height")}
+          tooltip={t("calorie.tooltips.height")}
         >
           <NumberInput
             value={height}
@@ -219,7 +219,7 @@ export default function BMRCalculator() {
             <div className="text-xl font-bold text-blue-600">
               {result.mifflinStJeor}
             </div>
-            <div className="text-xs text-foreground-70 mt-1">{t("calc/health:calorie.results.calories")}</div>
+            <div className="text-xs text-foreground-70 mt-1">{t("calorie.results.calories")}</div>
           </div>
 
           <div className="bg-green-50 dark:bg-green-950/20 border border-green-100 dark:border-green-900/20 p-4 rounded-lg">
@@ -227,7 +227,7 @@ export default function BMRCalculator() {
             <div className="text-xl font-bold text-green-600">
               {result.harrisBenedict}
             </div>
-            <div className="text-xs text-foreground-70 mt-1">{t("calc/health:calorie.results.calories")}</div>
+            <div className="text-xs text-foreground-70 mt-1">{t("calorie.results.calories")}</div>
           </div>
 
           <div className="bg-purple-50 dark:bg-purple-950/20 border border-purple-100 dark:border-purple-900/20 p-4 rounded-lg">
@@ -235,7 +235,7 @@ export default function BMRCalculator() {
             <div className="text-xl font-bold text-purple-600">
               {result.katchMcArdle}
             </div>
-            <div className="text-xs text-foreground-70 mt-1">{t("calc/health:calorie.results.calories")}</div>
+            <div className="text-xs text-foreground-70 mt-1">{t("calorie.results.calories")}</div>
           </div>
         </div>
 

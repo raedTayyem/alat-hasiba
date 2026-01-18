@@ -517,7 +517,12 @@
         "question": "What happens to the atoms that decay?",
         "answer": "Radioactive atoms transform into different elements (daughter products) by emitting particles or radiation. For example, C-14 decays to N-14 by emitting a beta particle."
       }
-    ]
+    ],
+    "tooltips": {
+      "initial_amount": "The starting quantity of the substance before decay",
+      "half_life_period": "The time required for half of the substance to decay",
+      "elapsed_time": "The total time that has passed since the start"
+    }
   },
   "molar_mass": {
     "title": "Molar Mass Calculator",

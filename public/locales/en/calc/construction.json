@@ -4228,9 +4228,26 @@
         "unit_tooltip": "Select measurement unit for lumber dimensions",
         "inches": "Inches",
         "feet": "Feet",
+        "cm": "Centimeters",
         "meters": "Meters",
+        "lumber_size": "Lumber Size",
+        "lumber_size_tooltip": "Select common lumber dimension or choose custom",
         "lumber_type": "Lumber Type",
         "lumber_type_tooltip": "Select common lumber dimension",
+        "sizes": {
+            "2x4": "2×4",
+            "2x6": "2×6",
+            "2x8": "2×8",
+            "2x10": "2×10",
+            "2x12": "2×12",
+            "4x4": "4×4",
+            "4x6": "4×6",
+            "1x4": "1×4",
+            "1x6": "1×6",
+            "1x8": "1×8",
+            "1x12": "1×12",
+            "custom": "Custom"
+        },
         "types": {
             "2x4": "2×4 (38×89mm)",
             "2x6": "2×6 (38×140mm)",
@@ -4240,17 +4257,28 @@
             "4x4": "4×4 (89×89mm)",
             "custom": "Custom Dimensions"
         },
+        "custom_thickness": "Custom Thickness",
+        "custom_thickness_tooltip": "Thickness of the lumber piece",
+        "custom_width": "Custom Width",
+        "custom_width_tooltip": "Width of the lumber piece",
         "quantity": "Number of Pieces",
         "quantity_tooltip": "How many pieces of lumber",
         "length": "Length per Piece",
-        "length_tooltip": "Length of each piece in feet",
+        "length_tooltip": "Length of each lumber piece",
         "result_board_feet": "Total Board Feet",
+        "board_feet": "Board Feet",
+        "per_piece": "per piece",
         "bf": "board feet",
         "details": "Lumber Details",
+        "measurements": "Measurements",
+        "linear_feet": "Linear Feet",
+        "cubic_volume": "Cubic Volume",
+        "estimated_weight": "Estimated Weight",
+        "softwood_estimate": "Softwood estimate",
         "total_linear": "Total Linear Feet",
         "weight_estimate": "Estimated Weight",
         "formula_title": "Calculation Formula",
-        "formula": "Board Feet = (Thickness × Width × Length) / 12. For dimensional lumber in inches and feet.",
+        "formula": "Board Feet = (Thickness × Width × Length) / 144. Total = Board Feet per Piece × Quantity.",
         "info_title": "About Lumber Calculation",
         "info_description": "Board feet is the standard unit for lumber volume. Understanding board feet helps estimate costs and plan material orders.",
         "use_cases_title": "Common Uses",
@@ -4260,9 +4288,12 @@
         "errors": {
             "invalid_quantity": "Please enter valid quantity",
             "invalid_length": "Please enter valid length",
+            "invalid_dimensions": "Please enter valid custom dimensions",
             "positive_values": "Values must be greater than zero"
         },
         "placeholders": {
+            "thickness": "1.5",
+            "width": "3.5",
             "quantity": "50",
             "length": "8"
         },
@@ -5150,10 +5181,48 @@
         "use_case_1": "Full basement foundations",
         "use_case_2": "Crawl space foundations",
         "use_case_3": "Garage and outbuilding foundations",
+        "inputs": {
+            "building_area": "Building Area",
+            "building_area_tooltip": "Total floor area of the building in square meters",
+            "number_of_floors": "Number of Floors",
+            "number_of_floors_tooltip": "Total number of floors including ground floor",
+            "soil_type": "Soil Type",
+            "soil_type_tooltip": "Type of soil at the construction site",
+            "foundation_type": "Foundation Type",
+            "foundation_type_tooltip": "Select the foundation system type"
+        },
+        "soil_types": {
+            "soft_clay": "Soft Clay",
+            "medium_clay": "Medium Clay",
+            "stiff_clay": "Stiff Clay",
+            "loose_sand": "Loose Sand",
+            "medium_sand": "Medium Sand",
+            "dense_sand": "Dense Sand",
+            "gravel": "Gravel",
+            "rock": "Rock"
+        },
+        "foundation_types": {
+            "strip": "Strip Foundation",
+            "raft": "Raft Foundation",
+            "isolated": "Isolated Footings"
+        },
+        "result_concrete_volume": "Concrete Volume Required",
+        "width": "Width",
+        "depth": "Depth",
+        "details": "Foundation Details",
+        "result_width": "Foundation Width",
+        "result_depth": "Foundation Depth",
+        "result_rebar": "Rebar Amount",
+        "result_total_load": "Total Building Load",
+        "result_length": "Foundation Length",
+        "result_soil_pressure": "Soil Pressure",
         "errors": {
             "invalid_dimensions": "Please enter valid foundation dimensions",
             "positive_values": "Dimensions must be greater than zero",
-            "invalid_waste": "Waste factor must be between 0 and 100"
+            "invalid_waste": "Waste factor must be between 0 and 100",
+            "invalid_area": "Please enter a valid building area",
+            "area_too_large": "Building area exceeds maximum allowed (10,000 m²)",
+            "invalid_floors": "Number of floors must be between 1 and 100"
         },
         "placeholders": {
             "perimeter": "150",
@@ -5161,7 +5230,9 @@
             "wall_thickness": "0.67",
             "footing_width": "1.33",
             "footing_depth": "0.67",
-            "waste": "5"
+            "waste": "5",
+            "building_area": "200",
+            "number_of_floors": "2"
         },
         "howItWorks": {
             "title": "How the Foundation Calculator Works",

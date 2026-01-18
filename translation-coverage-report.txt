@@ -2,7 +2,7 @@
 COMPREHENSIVE TRANSLATION COVERAGE REPORT
 ==============================================
 
-Generated: 2026-01-18T16:14:19.753Z
+Generated: 2026-01-18T18:21:16.862Z
 Total Calculators: 395
 
 ==============================================
@@ -22252,9 +22252,28 @@ Calculator: swimming-pace-calculator
 
 Calculator: tdee-calculator
   Total Keys: 39
-  EN Coverage: 59% (23/39)
-  AR Coverage: 59% (23/39)
-  Missing EN (16):
+  EN Coverage: 10% (4/39)
+  AR Coverage: 10% (4/39)
+  Missing EN (35):
+    - calorie.inputs.male
+    - calorie.inputs.female
+    - calorie.inputs.activity.sedentary
+    - calorie.inputs.activity.light
+    - calorie.inputs.activity.moderate
+    - calorie.inputs.activity.active
+    - calorie.inputs.activity.very_active
+    - calorie.inputs.gender
+    - calorie.tooltips.gender
+    - calorie.inputs.age
+    - calorie.tooltips.age
+    - calorie.inputs.weight
+    - calorie.tooltips.weight
+    - calorie.inputs.height
+    - calorie.tooltips.height
+    - calorie.inputs.activity_level
+    - calorie.tooltips.activity
+    - calorie.results.bmr
+    - calorie.results.calories
     - tdee.tdee_value
     - tdee.maintenance_calories
     - tdee.weight_loss_goals
@@ -22271,7 +22290,26 @@ Calculator: tdee-calculator
     - tdee.title
     - tdee.description
     - tdee.footer_note
-  Missing AR (16):
+  Missing AR (35):
+    - calorie.inputs.male
+    - calorie.inputs.female
+    - calorie.inputs.activity.sedentary
+    - calorie.inputs.activity.light
+    - calorie.inputs.activity.moderate
+    - calorie.inputs.activity.active
+    - calorie.inputs.activity.very_active
+    - calorie.inputs.gender
+    - calorie.tooltips.gender
+    - calorie.inputs.age
+    - calorie.tooltips.age
+    - calorie.inputs.weight
+    - calorie.tooltips.weight
+    - calorie.inputs.height
+    - calorie.tooltips.height
+    - calorie.inputs.activity_level
+    - calorie.tooltips.activity
+    - calorie.results.bmr
+    - calorie.results.calories
     - tdee.tdee_value
     - tdee.maintenance_calories
     - tdee.weight_loss_goals

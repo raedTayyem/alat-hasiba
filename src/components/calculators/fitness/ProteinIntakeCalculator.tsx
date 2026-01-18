@@ -9,7 +9,7 @@ import { NumberInput } from '@/components/ui/number-input';
 import { Combobox } from '@/components/ui/combobox';
 
 export default function ProteinIntakeCalculator() {
-  const { t } = useTranslation(['calc/fitness', 'common', 'calc/health']);
+  const { t } = useTranslation(['calc/fitness', 'common']);
   const [weight, setWeight] = useState<string>('');
   const [goal, setGoal] = useState<string>('maintain');
   const [activityLevel, setActivityLevel] = useState<string>('moderate');
@@ -25,12 +25,12 @@ export default function ProteinIntakeCalculator() {
   const calculate = () => {
     const weightVal = parseFloat(weight);
     if (!weightVal) {
-      setError(t("calc/health:calorie.errors.all_fields"));
+      setError(t("calorie.errors.all_fields"));
       return;
     }
 
     if (weightVal <= 0 || weightVal > 500) {
-      setError(t("calc/health:calorie.errors.weight_positive"));
+      setError(t("calorie.errors.weight_positive"));
       return;
     }
 

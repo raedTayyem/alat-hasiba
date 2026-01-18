@@ -124,7 +124,7 @@ const getCelebrationInfo = (t: (key: string) => string) => {
 };
 
 export default function BarBatMitzvahCalculator() {
-  const { t, i18n } = useTranslation(['calc/date_time', 'common']);
+  const { t, i18n } = useTranslation(['calc/date-time', 'common']);
   const isRTL = i18n.language === 'ar';
   // State for inputs
   const [birthDate, setBirthDate] = useState<string>(new Date().toISOString().split('T')[0]);

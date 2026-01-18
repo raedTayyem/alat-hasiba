@@ -1992,5 +1992,101 @@
         "answer": "Batteries add cost but provide energy independence and emergency backup. They are most valuable with time-of-use electricity rates."
       }
     ]
+  },
+  "tree_planting": {
+    "title": "Tree Planting Impact Calculator",
+    "description": "Calculate the environmental impact of planting trees including CO₂ offset, oxygen production, and ecosystem benefits.",
+    "trees_label": "Number of Trees",
+    "trees_tooltip": "How many trees you plan to plant or have planted",
+    "trees_placeholder": "e.g., 10",
+    "trees_unit": "trees",
+    "age_label": "Tree Age (years)",
+    "age_tooltip": "How old the trees are or will be",
+    "age_placeholder": "e.g., 10",
+    "years_unit": "years",
+    "type_label": "Tree Type",
+    "type_tooltip": "Different tree types have different CO₂ absorption rates",
+    "type_deciduous": "Deciduous (Oak, Maple)",
+    "type_conifer": "Conifer (Pine, Spruce)",
+    "type_tropical": "Tropical (Mahogany, Teak)",
+    "type_fruit": "Fruit Trees (Apple, Orange)",
+    "result_label": "Total CO₂ Offset",
+    "result_unit": "kg CO₂",
+    "details_title": "Environmental Impact",
+    "oxygen_produced": "Oxygen Produced",
+    "water_filtered": "Water Filtered",
+    "wildlife_supported": "Wildlife Supported",
+    "species": "species",
+    "lifetime_co2": "Lifetime CO₂ Offset (50 years)",
+    "monetary_value": "Ecosystem Services Value",
+    "formula_title": "How Trees Help",
+    "formula_explanation": "Trees absorb CO₂ through photosynthesis, produce oxygen, filter water, prevent erosion, and provide habitat for wildlife. A single mature tree can absorb 21 kg of CO₂ per year.",
+    "info_title": "Why Plant Trees?",
+    "info_description": "Trees are nature's carbon capture technology. They absorb CO₂, produce oxygen, cool the environment, filter water, and support biodiversity.",
+    "use_cases_title": "Benefits of Tree Planting",
+    "use_case_1": "Combat climate change by removing CO₂ from the atmosphere",
+    "use_case_2": "Improve air quality and reduce urban heat islands",
+    "use_case_3": "Provide habitat for wildlife and preserve biodiversity",
+    "error_required": "Please enter the number of trees and their age",
+    "error_positive": "Values must be positive numbers",
+    "error_age_max": "Tree age cannot exceed 100 years",
+    "error_calculation": "An error occurred during calculation",
+    "minutes_unit": "minutes",
+    "times_unit": "times",
+    "loads_unit": "loads",
+    "currency_unit": "SAR",
+    "howItWorks": {
+      "title": "How Does the Tree Planting Impact Calculator Work?",
+      "formula": "CO₂ Offset = Number of trees × Annual absorption rate × Age | Oxygen = Trees × 120 kg/year × Age",
+      "explanation": "This calculator estimates the cumulative environmental benefits of tree planting. Different tree species have varying CO₂ absorption rates, with tropical trees being most efficient at approximately 28 kg CO₂ per year.",
+      "steps": [
+        "Enter the number of trees you plan to plant or have planted",
+        "Enter the age of the trees (or projected age)",
+        "Select the tree type based on species category",
+        "View total CO₂ offset, oxygen production, and other benefits",
+        "See the monetary value of ecosystem services provided"
+      ]
+    },
+    "useCases": [
+      "Calculate carbon offset from reforestation projects",
+      "Plan corporate tree planting initiatives",
+      "Understand personal environmental impact of backyard planting",
+      "Justify tree preservation policies with quantified benefits"
+    ],
+    "seoTips": [
+      "A deciduous tree absorbs about 21 kg CO₂ per year",
+      "Tropical trees are 30% more efficient at carbon capture",
+      "One mature tree produces 120 kg of oxygen annually",
+      "Trees filter approximately 40,000 liters of water per year",
+      "Tree planting has an ROI of $50-100 per tree in ecosystem services"
+    ],
+    "commonMistakes": [
+      "Not accounting for tree mortality rates (typically 10-20%)",
+      "Forgetting that young trees absorb less CO₂ than mature trees",
+      "Planting non-native species that don't thrive in local conditions",
+      "Ignoring ongoing maintenance requirements"
+    ],
+    "faqs": [
+      {
+        "question": "How much CO₂ does one tree absorb per year?",
+        "answer": "A mature tree absorbs approximately 21 kg of CO₂ per year, though this varies by species, age, and environment. Tropical trees can absorb up to 28 kg annually."
+      },
+      {
+        "question": "How long does it take for a tree to become carbon positive?",
+        "answer": "Most trees become net carbon positive within 1-2 years after planting, once they are established and growing actively."
+      },
+      {
+        "question": "Which trees are best for carbon capture?",
+        "answer": "Fast-growing tropical species and large deciduous trees like oak and maple are most effective. Native species adapted to local conditions perform best long-term."
+      },
+      {
+        "question": "How many trees needed to offset my carbon footprint?",
+        "answer": "For an average footprint of 4 tons CO₂/year, you would need approximately 190 mature trees to fully offset annual emissions."
+      },
+      {
+        "question": "What other benefits do trees provide besides CO₂ absorption?",
+        "answer": "Trees produce oxygen, filter water and air pollutants, prevent soil erosion, reduce urban heat, provide wildlife habitat, and increase property values by 10-20%."
+      }
+    ]
   }
 }

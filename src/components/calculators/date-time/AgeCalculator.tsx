@@ -19,7 +19,7 @@ interface AgeResult {
 }
 
 export default function AgeCalculator() {
-  const { t, i18n } = useTranslation(['calc/date_time', 'common']);
+  const { t, i18n } = useTranslation(['calc/date-time', 'common']);
   const isRTL = i18n.language === 'ar';
   const [birthDate, setBirthDate] = useState<string>('');
   const [result, setResult] = useState<AgeResult | null>(null);

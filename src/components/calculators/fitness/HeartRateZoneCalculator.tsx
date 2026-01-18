@@ -8,7 +8,7 @@ import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';
 
 export default function HeartRateZoneCalculator() {
-  const { t } = useTranslation(['calc/fitness', 'common', 'calc/health']);
+  const { t } = useTranslation(['calc/fitness', 'common']);
   const [age, setAge] = useState<string>('');
   const [restingHR, setRestingHR] = useState<string>('');
   const [result, setResult] = useState<{
@@ -29,12 +29,12 @@ export default function HeartRateZoneCalculator() {
 
     // Validation
     if (!age || !restingHR) {
-      setError(t("calc/health:calorie.errors.all_fields"));
+      setError(t("calorie.errors.all_fields"));
       return;
     }
 
     if (ageVal <= 0 || ageVal > 120) {
-      setError(t("calc/health:calorie.errors.age_range"));
+      setError(t("calorie.errors.age_range"));
       return;
     }
 
@@ -104,8 +104,8 @@ export default function HeartRateZoneCalculator() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <FormField
-          label={t("calc/health:calorie.inputs.age")}
-          tooltip={t("calc/health:calorie.tooltips.age")}
+          label={t("calorie.inputs.age")}
+          tooltip={t("calorie.tooltips.age")}
         >
           <NumberInput
             value={age}

@@ -8,7 +8,7 @@ import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';
 
 export default function BodyRecompositionCalculator() {
-  const { t } = useTranslation(['calc/fitness', 'common', 'calc/health']);
+  const { t } = useTranslation(['calc/fitness', 'common']);
 
   const [tdee, setTdee] = useState<string>('');
   const [weight, setWeight] = useState<string>('');
@@ -114,7 +114,7 @@ export default function BodyRecompositionCalculator() {
               <Zap className="w-4 h-4" />
               {t("body_recomposition.training_calories")}
             </div>
-            <div className="text-2xl font-bold text-green-600">{result.trainingDayCalories} {t("calc/health:calorie.results.calories")}</div>
+            <div className="text-2xl font-bold text-green-600">{result.trainingDayCalories} {t("calorie.results.calories")}</div>
             <div className="text-xs text-green-700 mt-1">(+200 {t("body_recomposition.surplus")})</div>
           </div>
 
@@ -123,7 +123,7 @@ export default function BodyRecompositionCalculator() {
               <Activity className="w-4 h-4" />
               {t("body_recomposition.rest_calories")}
             </div>
-            <div className="text-2xl font-bold text-blue-600">{result.restDayCalories} {t("calc/health:calorie.results.calories")}</div>
+            <div className="text-2xl font-bold text-blue-600">{result.restDayCalories} {t("calorie.results.calories")}</div>
             <div className="text-xs text-blue-700 mt-1">(-200 {t("body_recomposition.deficit")})</div>
           </div>
         </div>

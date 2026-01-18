@@ -9,7 +9,7 @@ import { NumberInput } from '@/components/ui/number-input';
 import { Combobox } from '@/components/ui/combobox';
 
 export default function VO2MaxCalculator() {
-  const { t } = useTranslation(['calc/fitness', 'common', 'calc/health']);
+  const { t } = useTranslation(['calc/fitness', 'common']);
   const [gender, setGender] = useState<string>('male');
   const [age, setAge] = useState<string>('');
   const [restingHR, setRestingHR] = useState<string>('');
@@ -30,12 +30,12 @@ export default function VO2MaxCalculator() {
 
     // Validation
     if (!age || !restingHR) {
-      setError(t("calc/health:calorie.errors.all_fields"));
+      setError(t("calorie.errors.all_fields"));
       return;
     }
 
     if (ageVal <= 0 || ageVal > 120) {
-      setError(t("calc/health:calorie.errors.age_range"));
+      setError(t("calorie.errors.age_range"));
       return;
     }
 
@@ -94,8 +94,8 @@ export default function VO2MaxCalculator() {
   };
 
   const genderOptions = [
-    { value: 'male', label: t("calc/health:calorie.inputs.male") },
-    { value: 'female', label: t("calc/health:calorie.inputs.female") },
+    { value: 'male', label: t("calorie.inputs.male") },
+    { value: 'female', label: t("calorie.inputs.female") },
   ];
 
   const inputSection = (
@@ -104,20 +104,20 @@ export default function VO2MaxCalculator() {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <FormField
-          label={t("calc/health:calorie.inputs.gender")}
-          tooltip={t("calc/health:calorie.tooltips.gender")}
+          label={t("calorie.inputs.gender")}
+          tooltip={t("calorie.tooltips.gender")}
         >
           <Combobox
             options={genderOptions}
             value={gender}
             onChange={(val) => setGender(val)}
-            placeholder={t("calc/health:calorie.inputs.gender")}
+            placeholder={t("calorie.inputs.gender")}
           />
         </FormField>
 
         <FormField
-          label={t("calc/health:calorie.inputs.age")}
-          tooltip={t("calc/health:calorie.tooltips.age")}
+          label={t("calorie.inputs.age")}
+          tooltip={t("calorie.tooltips.age")}
         >
           <NumberInput
             value={age}

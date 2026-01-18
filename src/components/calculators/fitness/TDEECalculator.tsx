@@ -9,7 +9,7 @@ import { NumberInput } from '@/components/ui/number-input';
 import { Combobox } from '@/components/ui/combobox';
 
 export default function TDEECalculator() {
-  const { t } = useTranslation(['calc/fitness', 'common', 'calc/health']);
+  const { t } = useTranslation(['calc/fitness', 'common']);
   const [gender, setGender] = useState<string>('male');
   const [age, setAge] = useState<string>('');
   const [weight, setWeight] = useState<string>('');
@@ -82,36 +82,36 @@ export default function TDEECalculator() {
   };
 
   const genderOptions = [
-    { value: 'male', label: t("calc/health:calorie.inputs.male") },
-    { value: 'female', label: t("calc/health:calorie.inputs.female") },
+    { value: 'male', label: t("calorie.inputs.male") },
+    { value: 'female', label: t("calorie.inputs.female") },
   ];
 
   const activityLevelOptions = [
-    { value: 'sedentary', label: t("calc/health:calorie.inputs.activity.sedentary") },
-    { value: 'light', label: t("calc/health:calorie.inputs.activity.light") },
-    { value: 'moderate', label: t("calc/health:calorie.inputs.activity.moderate") },
-    { value: 'active', label: t("calc/health:calorie.inputs.activity.active") },
-    { value: 'veryActive', label: t("calc/health:calorie.inputs.activity.very_active") },
+    { value: 'sedentary', label: t("calorie.inputs.activity.sedentary") },
+    { value: 'light', label: t("calorie.inputs.activity.light") },
+    { value: 'moderate', label: t("calorie.inputs.activity.moderate") },
+    { value: 'active', label: t("calorie.inputs.activity.active") },
+    { value: 'veryActive', label: t("calorie.inputs.activity.very_active") },
   ];
 
   const inputSection = (
     <>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <FormField
-          label={t("calc/health:calorie.inputs.gender")}
-          tooltip={t("calc/health:calorie.tooltips.gender")}
+          label={t("calorie.inputs.gender")}
+          tooltip={t("calorie.tooltips.gender")}
         >
           <Combobox
             options={genderOptions}
             value={gender}
             onChange={(val) => setGender(val)}
-            placeholder={t("calc/health:calorie.inputs.gender")}
+            placeholder={t("calorie.inputs.gender")}
           />
         </FormField>
 
         <FormField
-          label={t("calc/health:calorie.inputs.age")}
-          tooltip={t("calc/health:calorie.tooltips.age")}
+          label={t("calorie.inputs.age")}
+          tooltip={t("calorie.tooltips.age")}
         >
           <NumberInput
             value={age}
@@ -125,8 +125,8 @@ export default function TDEECalculator() {
         </FormField>
 
         <FormField
-          label={t("calc/health:calorie.inputs.weight")}
-          tooltip={t("calc/health:calorie.tooltips.weight")}
+          label={t("calorie.inputs.weight")}
+          tooltip={t("calorie.tooltips.weight")}
         >
           <NumberInput
             value={weight}
@@ -141,8 +141,8 @@ export default function TDEECalculator() {
         </FormField>
 
         <FormField
-          label={t("calc/health:calorie.inputs.height")}
-          tooltip={t("calc/health:calorie.tooltips.height")}
+          label={t("calorie.inputs.height")}
+          tooltip={t("calorie.tooltips.height")}
         >
           <NumberInput
             value={height}
@@ -156,15 +156,15 @@ export default function TDEECalculator() {
         </FormField>
 
         <FormField
-          label={t("calc/health:calorie.inputs.activity_level")}
-          tooltip={t("calc/health:calorie.tooltips.activity")}
+          label={t("calorie.inputs.activity_level")}
+          tooltip={t("calorie.tooltips.activity")}
           className="md:col-span-2"
         >
           <Combobox
             options={activityLevelOptions}
             value={activityLevel}
             onChange={(val) => setActivityLevel(val)}
-            placeholder={t("calc/health:calorie.inputs.activity_level")}
+            placeholder={t("calorie.inputs.activity_level")}
           />
         </FormField>
       </div>
@@ -191,9 +191,9 @@ export default function TDEECalculator() {
           <div className="bg-blue-50 dark:bg-blue-950/20 border border-blue-100 dark:border-blue-900/20 p-4 rounded-lg">
             <div className="text-sm text-foreground-70 mb-1 flex items-center gap-1">
               <Flame className="w-4 h-4" />
-              {t("calc/health:calorie.results.bmr")}
+              {t("calorie.results.bmr")}
             </div>
-            <div className="text-2xl font-bold text-blue-600">{result.bmr} {t("calc/health:calorie.results.calories")}</div>
+            <div className="text-2xl font-bold text-blue-600">{result.bmr} {t("calorie.results.calories")}</div>
           </div>
 
           <div className="bg-primary/5 border border-primary/20 p-4 rounded-lg">
@@ -201,7 +201,7 @@ export default function TDEECalculator() {
               <Activity className="w-4 h-4" />
               {t("tdee.tdee_value")}
             </div>
-            <div className="text-2xl font-bold text-primary">{result.tdee} {t("calc/health:calorie.results.calories")}</div>
+            <div className="text-2xl font-bold text-primary">{result.tdee} {t("calorie.results.calories")}</div>
           </div>
 
           <div className="bg-green-50 dark:bg-green-950/20 border border-green-100 dark:border-green-900/20 p-4 rounded-lg md:col-span-2">
@@ -209,7 +209,7 @@ export default function TDEECalculator() {
               <Target className="w-4 h-4" />
               {t("tdee.maintenance_calories")}
             </div>
-            <div className="text-xl font-bold text-green-600">{result.maintain} {t("calc/health:calorie.results.calories")}</div>
+            <div className="text-xl font-bold text-green-600">{result.maintain} {t("calorie.results.calories")}</div>
           </div>
         </div>
 
@@ -218,15 +218,15 @@ export default function TDEECalculator() {
           <div className="grid grid-cols-1 gap-2">
             <div className="bg-foreground/5 p-3 rounded-lg flex justify-between items-center">
               <span className="text-sm">{t("tdee.mild_loss")}</span>
-              <span className="font-bold">{result.mildWeightLoss} {t("calc/health:calorie.results.calories")}</span>
+              <span className="font-bold">{result.mildWeightLoss} {t("calorie.results.calories")}</span>
             </div>
             <div className="bg-foreground/5 p-3 rounded-lg flex justify-between items-center">
               <span className="text-sm">{t("tdee.normal_loss")}</span>
-              <span className="font-bold">{result.weightLoss} {t("calc/health:calorie.results.calories")}</span>
+              <span className="font-bold">{result.weightLoss} {t("calorie.results.calories")}</span>
             </div>
             <div className="bg-foreground/5 p-3 rounded-lg flex justify-between items-center">
               <span className="text-sm">{t("tdee.extreme_loss")}</span>
-              <span className="font-bold">{result.extremeWeightLoss} {t("calc/health:calorie.results.calories")}</span>
+              <span className="font-bold">{result.extremeWeightLoss} {t("calorie.results.calories")}</span>
             </div>
           </div>
         </div>
@@ -236,15 +236,15 @@ export default function TDEECalculator() {
           <div className="grid grid-cols-1 gap-2">
             <div className="bg-foreground/5 p-3 rounded-lg flex justify-between items-center">
               <span className="text-sm">{t("tdee.mild_gain")}</span>
-              <span className="font-bold">{result.mildWeightGain} {t("calc/health:calorie.results.calories")}</span>
+              <span className="font-bold">{result.mildWeightGain} {t("calorie.results.calories")}</span>
             </div>
             <div className="bg-foreground/5 p-3 rounded-lg flex justify-between items-center">
               <span className="text-sm">{t("tdee.normal_gain")}</span>
-              <span className="font-bold">{result.weightGain} {t("calc/health:calorie.results.calories")}</span>
+              <span className="font-bold">{result.weightGain} {t("calorie.results.calories")}</span>
             </div>
             <div className="bg-foreground/5 p-3 rounded-lg flex justify-between items-center">
               <span className="text-sm">{t("tdee.extreme_gain")}</span>
-              <span className="font-bold">{result.extremeWeightGain} {t("calc/health:calorie.results.calories")}</span>
+              <span className="font-bold">{result.extremeWeightGain} {t("calorie.results.calories")}</span>
             </div>
           </div>
         </div>

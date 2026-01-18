@@ -17,7 +17,7 @@ interface DayOfWeekResult {
 }
 
 export default function DayOfWeekCalculator() {
-  const { t, i18n } = useTranslation(['calc/date_time', 'common']);
+  const { t, i18n } = useTranslation(['calc/date-time', 'common']);
   const isRTL = i18n.language === 'ar';
   const [selectedDate, setSelectedDate] = useState<string>('');
   const [result, setResult] = useState<DayOfWeekResult | null>(null);

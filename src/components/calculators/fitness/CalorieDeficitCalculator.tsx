@@ -8,7 +8,7 @@ import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';
 
 export default function CalorieDeficitCalculator() {
-  const { t } = useTranslation(['calc/fitness', 'common', 'calc/health']);
+  const { t } = useTranslation(['calc/fitness', 'common']);
 
   const [currentWeight, setCurrentWeight] = useState<string>('');
   const [targetWeight, setTargetWeight] = useState<string>('');
@@ -149,21 +149,21 @@ export default function CalorieDeficitCalculator() {
           <div className="text-sm text-foreground-70 mb-1">
             {t("calorie_deficit.daily_deficit")}
           </div>
-          <div className="text-xl font-bold text-green-600">{result.dailyDeficit} {t("calc/health:calorie.results.calories")}</div>
+          <div className="text-xl font-bold text-green-600">{result.dailyDeficit} {t("calorie.results.calories")}</div>
         </div>
 
         <div className="bg-purple-50 dark:bg-purple-950/20 border border-purple-100 dark:border-purple-900/20 p-4 rounded-lg">
           <div className="text-sm text-foreground-70 mb-1">
             {t("calorie_deficit.daily_calories")}
           </div>
-          <div className="text-xl font-bold text-purple-600">{result.dailyCalories} {t("calc/health:calorie.results.calories")}</div>
+          <div className="text-xl font-bold text-purple-600">{result.dailyCalories} {t("calorie.results.calories")}</div>
         </div>
 
         <div className="bg-orange-50 dark:bg-orange-950/20 border border-orange-100 dark:border-orange-900/20 p-4 rounded-lg">
           <div className="text-sm text-foreground-70 mb-1">
             {t("calorie_deficit.total_deficit")}
           </div>
-          <div className="text-xl font-bold">{result.totalDeficit.toLocaleString()} {t("calc/health:calorie.results.calories")}</div>
+          <div className="text-xl font-bold">{result.totalDeficit.toLocaleString()} {t("calorie.results.calories")}</div>
         </div>
 
         {result.dailyDeficit > 1000 && (

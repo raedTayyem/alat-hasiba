@@ -2189,6 +2189,7 @@
     },
     "results": {
       "invoice_total": "إجمالي مبلغ الفاتورة",
+      "for_hours": "لـ {{hours}} ساعة",
       "breakdown": "تفصيل الفاتورة",
       "billable_hours": "الساعات القابلة للفوترة",
       "hours": "ساعات",
@@ -2228,6 +2229,7 @@
     },
     "results": {
       "cost_per_unit": "التكلفة لكل وحدة",
+      "for_units": "لـ {{units}} وحدة",
       "per_unit": "لكل وحدة",
       "breakdown": "تفصيل التكلفة",
       "fixed_costs": "التكاليف الثابتة",

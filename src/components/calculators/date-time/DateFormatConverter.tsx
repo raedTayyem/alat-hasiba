@@ -10,7 +10,7 @@ import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { initDateInputRTL } from '../../../utils/dateInputRTL';
 
 export default function DateFormatConverter() {
-  const { t, i18n } = useTranslation(['calc/date_time', 'common']);
+  const { t, i18n } = useTranslation(['calc/date-time', 'common']);
   const isRTL = i18n.language === 'ar';
   const [selectedDate, setSelectedDate] = useState<string>('');
   const [formats, setFormats] = useState<{[key: string]: string}>({});
