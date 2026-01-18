@@ -1276,7 +1276,16 @@
         "question": "هل حصاد مياه الأمطار مجدي اقتصادياً؟",
         "answer": "العائد على الاستثمار يعتمد على تكاليف المياه المحلية والأمطار. في المناطق ذات المياه الغالية أو الإمداد غير الموثوق، الأنظمة غالباً تسترد تكلفتها في 5-10 سنوات."
       }
-    ]
+    ],
+    "composting": {
+      "sq_m": "Sq M"
+    },
+    "units": {
+      "percent": "Percent"
+    },
+    "carbon_offset": {
+      "sar": "Sar"
+    }
   },
   "plastic_footprint": {
     "title": "حاسبة البصمة البلاستيكية",
@@ -1364,7 +1373,8 @@
         "question": "ما هي أفضل طريقة لتقليل استخدام البلاستيك؟",
         "answer": "ابدأ بالزجاجات والأكياس والحاويات القابلة لإعادة الاستخدام. هذه التغييرات الثلاثة يمكن أن تقلل استخدام البلاستيك الشخصي بنسبة 30-50%."
       }
-    ]
+    ],
+    "note_space": " "
   },
   "recycling_impact": {
     "title": "حاسبة تأثير إعادة التدوير",
@@ -1516,7 +1526,13 @@
         "question": "كم يعيد الشخص العادي تدويره؟",
         "answer": "المتوسط العالمي حوالي 9% من البلاستيك، 65% من الورق، 30% من الزجاج، و35% من المعدن. تختلف هذه النسب بشكل كبير حسب البلد."
       }
-    ]
+    ],
+    "units": {
+      "kg": "Kg"
+    },
+    "co2_emissions": {
+      "kg_co2": "Kg Co2"
+    }
   },
   "sustainable_lifestyle": {
     "title": "حاسبة نمط الحياة المستدام",
@@ -1586,7 +1602,8 @@
       "high": "مرتفع",
       "sustainable": "حد أدنى ومستدام",
       "conscious": "مستهلك واعي بيئياً",
-      "excessive": "استهلاك مفرط للموارد"
+      "excessive": "استهلاك مفرط للموارد",
+      "meat_heavy": "Meat Heavy"
     },
     "score": "درجتك",
     "rating": "التقييم",
@@ -1903,7 +1920,13 @@
         "question": "هل أخذ دشات أقصر يساعد حقاً؟",
         "answer": "يساعد، لكن المياه المباشرة فقط 5-10% من بصمتك. دش أقصر بـ 5 دقائق يوفر 50 لتر، لكن أكل 100 جرام أقل من لحم البقر يوفر 1,500 لتر."
       }
-    ]
+    ],
+    "sustainable_lifestyle": {
+      "options": {
+        "meat_heavy": "نظام غذائي غني باللحوم"
+      }
+    },
+    "note_space": " "
   },
   "solar_roi": {
     "title": "حاسبة العائد على الاستثمار للألواح الشمسية",
@@ -2088,5 +2111,155 @@
         "answer": "تنتج الأشجار الأكسجين، تفلتر المياه وملوثات الهواء، تمنع تآكل التربة، تقلل الحرارة الحضرية، توفر موطناً للحياة البرية، وتزيد قيمة العقارات بنسبة 10-20%."
       }
     ]
+  },
+  "common": {
+    "error": {
+      "invalid_input": "Invalid إدخال"
+    }
+  },
+  "mixed": "Mixed",
+  " ": "",
+  "/": "/",
+  "car": "Car",
+  "common:units": {
+    "kWh": "K Wh",
+    "percent": "نسبة مئوية",
+    "kg": "Kجرام",
+    "kW": "K W"
+  },
+  "(": "(",
+  "common:common": {
+    "units": {
+      "kWh": "K Wh"
+    }
+  },
+  "calculators": {
+    "environmental": {
+      "tree_planting": {
+        "type_fruit": "النوع Fruit",
+        "type_label": "النوع التسمية",
+        "age_tooltip": "Aجرامe Tooltip",
+        "oxygen_produced": "Oxyجرامen Produced",
+        "info_title": "معلومات العنوان",
+        "use_case_3": "Use Case 3",
+        "species": "Species",
+        "age_label": "Aجرامe التسمية",
+        "result_unit": "النتيجة Unit",
+        "error_required": "خطأ مطلوب",
+        "description": "الوصف",
+        "use_case_2": "Use Case 2",
+        "formula_explanation": "الشكلula Explanation",
+        "water_filtered": "Water التصفيةed",
+        "years_unit": "السنةs Unit",
+        "type_tropical": "النوع Tropical",
+        "use_case_1": "Use Case 1",
+        "use_cases_title": "Use Cases العنوان",
+        "lifetime_co2": "لترifetiمe Co2",
+        "formula_title": "الشكلula العنوان",
+        "type_conifer": "النوع Conifer",
+        "wildlife_supported": "Wildlife الدعمed",
+        "age_placeholder": "Aجرامe Placeholder",
+        "trees_placeholder": "Trees Placeholder",
+        "title": "العنوان",
+        "info_description": "معلومات الوصف",
+        "trees_tooltip": "Trees Tooltip",
+        "error_age_max": "خطأ Aجرامe Max",
+        "trees_unit": "Trees Unit",
+        "result_label": "النتيجة التسمية",
+        "type_tooltip": "النوع Tooltip",
+        "type_deciduous": "النوع Deciduous",
+        "error_positive": "خطأ Positive",
+        "trees_label": "Trees التسمية",
+        "error_calculation": "خطأ الحساب",
+        "details_title": "Details العنوان",
+        "monetary_value": "Monetary القيمة"
+      },
+      "water_usage": {
+        "use_case_2": "Use Case 2",
+        "toilet_placeholder": "Toilet Placeholder",
+        "dish_placeholder": "Dish Placeholder",
+        "info_description": "معلومات الوصف",
+        "description": "الوصف",
+        "use_case_3": "Use Case 3",
+        "toilet_label": "Toilet التسمية",
+        "comparison_high": "Coمparison Hiجرامh",
+        "yearly_usage": "السنةly Usaجرامe",
+        "shower_placeholder": "Shower Placeholder",
+        "dish_tooltip": "Dish Tooltip",
+        "use_cases_title": "Use Cases العنوان",
+        "laundry_placeholder": "لترaundry Placeholder",
+        "comparison_title": "Coمparison العنوان",
+        "laundry_tooltip": "لترaundry Tooltip",
+        "error_negative": "خطأ Neجرامative",
+        "shower_label": "Shower التسمية",
+        "daily_cost": "Daily التكلفة",
+        "comparison_average": "Coمparison المتوسط",
+        "times_unit": "الوقتs Unit",
+        "use_case_1": "Use Case 1",
+        "cost_placeholder": "التكلفة Placeholder",
+        "toilet_tooltip": "Toilet Tooltip",
+        "dish_label": "Dish التسمية",
+        "loads_unit": "لترoads Unit",
+        "info_title": "معلومات العنوان",
+        "title": "العنوان",
+        "liters": "لترiters",
+        "currency_unit": "Currency Unit",
+        "comparison_low": "Coمparison لترow",
+        "error_at_least_one": "خطأ At لترeast One",
+        "shower_tooltip": "Shower Tooltip",
+        "result_label": "النتيجة التسمية",
+        "laundry_label": "لترaundry التسمية",
+        "result_unit": "النتيجة Unit",
+        "cost_label": "التكلفة التسمية",
+        "details_title": "Details العنوان",
+        "cost_tooltip": "التكلفة Tooltip",
+        "yearly_cost": "السنةly التكلفة",
+        "monthly_usage": "الشهرly Usaجرامe",
+        "error_calculation": "خطأ الحساب",
+        "monthly_cost": "الشهرly التكلفة",
+        "minutes_unit": "الدقيقةs Unit"
+      }
+    }
+  },
+  "solar_panel_roi": {
+    "solar-panel-roi-calculator": {
+      "input_title": "الإدخال العنوان",
+      "system_size": "System Size",
+      "system_size_tooltip": "system size تلميح",
+      "enter_size": "أدخل size",
+      "install_cost": "install التكلفة",
+      "install_cost_tooltip": "install التكلفة تلميح",
+      "currency": "Currency",
+      "enter_cost": "أدخل التكلفة",
+      "monthly_bill": "Monthly Bill",
+      "monthly_bill_tooltip": "monthly bill تلميح",
+      "enter_bill": "أدخل bill",
+      "sun_hours": "Sun Hours",
+      "sun_hours_tooltip": "sun hours تلميح",
+      "hours": "Hours",
+      "enter_hours": "أدخل hours",
+      "results_title": "النتائج العنوان",
+      "payback_period": "Payback Period",
+      "years": "Years",
+      "annual_production": "Annual Production",
+      "annual_savings": "annual المدخرات",
+      "roi_25_years": "Roi 25 Years",
+      "co2_offset": "Co2 Offset",
+      "kg": "Kg",
+      "trees_equivalent": "Trees Equivalent",
+      "trees": "Trees",
+      "benefits_title": "benefits العنوان",
+      "benefit_1": "Benefit 1",
+      "benefit_2": "Benefit 2",
+      "benefit_3": "Benefit 3",
+      "benefit_4": "Benefit 4",
+      "empty_state": "Empty State",
+      "title": "العنوان",
+      "description": "الوصف",
+      "footer_note": "Footer Note"
+    },
+    "units": {
+      "kW": "K W"
+    }
   }
 }

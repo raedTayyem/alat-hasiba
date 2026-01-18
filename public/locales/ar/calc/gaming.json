@@ -684,7 +684,9 @@
     "error_invalid": "الرجاء إدخال أرقام صحيحة",
     "error_positive": "يجب أن يكون الضرر والسرعة قيماً موجبة",
     "error_crit_range": "نسبة الضربة الحرجة يجب أن تكون بين 0 و 100",
-    "error_calculation": "حدث خطأ أثناء الحساب"
+    "error_calculation": "حدث خطأ أثناء الحساب",
+    "info_description": "الضرر في الثانية هو مقياس للضرر الذي يتم إلحاقه مع مرور الوقت في ألعاب الفيديو",
+    "info_title": "حول الضرر في الثانية"
   },
   "fps": {
     "title": "حاسبة FPS",
@@ -773,7 +775,8 @@
     "use_case_3": "لتحسين إعدادات اللعبة للحصول على أفضل صورة أو أداء",
     "error_invalid": "الرجاء إدخال رقم صحيح",
     "error_positive": "يجب أن تكون قيمة FPS أكبر من صفر",
-    "error_calculation": "حدث خطأ أثناء الحساب"
+    "error_calculation": "حدث خطأ أثناء الحساب",
+    "additional_info_title": "معلومات إضافية"
   },
   "kda": {
     "title": "حاسبة KDA",
@@ -1001,7 +1004,10 @@
     "use_case_3": "التصنيع بكفاءة دون هدر",
     "error_invalid": "الرجاء إدخال رقم صحيح",
     "error_positive": "عدد البلوكات يجب أن يكون موجباً",
-    "error_y_range": "مستوى Y يجب أن يكون بين -64 و 320"
+    "error_y_range": "مستوى Y يجب أن يكون بين -64 و 320",
+    "info_title": "موارد ماين كرافت",
+    "error_calculation": "خطأ في الحساب",
+    "info_description": "احسب المواد والموارد اللازمة لمشاريع البناء في ماين كرافت"
   },
   "win_rate": {
     "title": "حاسبة نسبة الفوز",
@@ -1102,7 +1108,9 @@
     "error_invalid": "الرجاء إدخال أرقام صحيحة",
     "error_negative": "لا يمكن أن تكون القيم سالبة",
     "error_no_games": "يجب أن يكون إجمالي المباريات أكبر من صفر",
-    "error_calculation": "حدث خطأ أثناء الحساب"
+    "error_calculation": "حدث خطأ أثناء الحساب",
+    "info_description": "تتبع أدائك في الألعاب من خلال حسابات معدل الفوز",
+    "info_title": "إحصائيات معدل الفوز"
   },
   "xp": {
     "title": "حاسبة نقاط الخبرة",
@@ -1204,7 +1212,9 @@
     "error_invalid": "الرجاء إدخال أرقام صحيحة",
     "error_positive": "يجب أن تكون المستويات والخبرة قيماً موجبة",
     "error_target_higher": "يجب أن يكون المستوى المستهدف أعلى من المستوى الحالي",
-    "error_calculation": "حدث خطأ أثناء الحساب"
+    "error_calculation": "حدث خطأ أثناء الحساب",
+    "info_title": "نقاط الخبرة",
+    "info_description": "احسب نقاط الخبرة اللازمة للترقي في الألعاب"
   },
   "loot_drop": {
     "title": "حاسبة احتمال سقوط الغنائم",
@@ -1525,5 +1535,11 @@
     "sessions_unit": "Sessions Unit",
     "sessions_3hr_label": "Sessions 3Hr Label",
     "sessions_4hr_label": "Sessions 4Hr Label"
-  }
+  },
+  "common": {
+    "errors": {
+      "calculationError": "الحساب خطأ"
+    }
+  },
+  ":": ":"
 }

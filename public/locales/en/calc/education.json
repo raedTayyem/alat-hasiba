@@ -271,7 +271,9 @@
     "explanation": "GPA is calculated by multiplying each course grade point by its credit hours, then dividing the total grade points by the total credit hours.",
     "errors": {
       "invalid_current_gpa": "Current GPA cannot exceed the selected scale",
-      "no_courses": "Please add at least one course"
+      "no_courses": "Please add at least one course",
+      "invalid_current_credits": "Invalid Current Credits",
+      "invalid_credits": "Invalid Credits"
     },
     "howItWorks": {
       "title": "How the GPA Calculator Works",
@@ -319,7 +321,17 @@
         "question": "How can I raise my cumulative GPA?",
         "answer": "Focus on courses with more credit hours, take advantage of course repeat opportunities, and plan ahead for future semesters."
       }
-    ]
+    ],
+    "prior_credits": "Prior Credits",
+    "grading_scale": "Grading Scale",
+    "course": "Course",
+    "cumulative_optional": "Cumulative Optional",
+    "breakdown": "Breakdown",
+    "equivalent_letter": "Equivalent Letter",
+    "prior_gpa": "Prior GPA",
+    "result_placeholder": "Result Placeholder",
+    "total_grade_points": "Total Grade Points",
+    "courses": "Courses"
   },
   "final_grade": {
     "title": "Final Grade Calculator",
@@ -575,7 +587,12 @@
         "question": "Are unanswered questions counted as wrong?",
         "answer": "Yes, in most tests, unanswered questions are counted as incorrect answers."
       }
-    ]
+    ],
+    "scale_d": "Scale D",
+    "scale_b": "Scale B",
+    "scale_c": "Scale C",
+    "scale_f": "Scale F",
+    "scale_a": "Scale A"
   },
   "assignment_tracker": {
     "title": "Assignment Tracker",
@@ -700,7 +717,11 @@
         "question": "How do I deal with procrastination?",
         "answer": "Start with a small 5-minute task, use the Pomodoro technique, and remove distractions from your environment."
       }
-    ]
+    ],
+    "errors": {
+      "invalid_days": "Invalid Days",
+      "invalid_credits": "Invalid Credits"
+    }
   },
   "reading_speed": {
     "title": "Reading Speed Calculator",
@@ -764,6 +785,30 @@
         "question": "Does high speed affect comprehension?",
         "answer": "Not necessarily. With practice, you can increase speed while maintaining or improving comprehension."
       }
-    ]
-  }
+    ],
+    "errors": {
+      "invalid_time": "Invalid Time",
+      "invalid_words": "Invalid Words"
+    }
+  },
+  "common": {
+    "errors": {
+      "calculationError": "Calculation Error"
+    },
+    "results_ready": "Results Ready"
+  },
+  "common:units": {
+    "percent": "Percent"
+  },
+  "20": "20",
+  "calculators": {
+    "grade_features": "Grade Features",
+    "grade_feature_2": "Grade Feature 2",
+    "grade_feature_4": "Grade Feature 4",
+    "grade_what_is": "Grade What Is",
+    "grade_feature_3": "Grade Feature 3",
+    "grade_feature_1": "Grade Feature 1",
+    "grade_description": "Grade Description"
+  },
+  "T": "T"
 }

@@ -289,7 +289,8 @@
         "question": "Why is my cat always hungry?",
         "answer": "This could indicate the portions are too small, the food lacks nutrients, or there may be health issues. Consult your vet if hunger seems excessive."
       }
-    ]
+    ],
+    "unit_calories": "kcal/day"
   },
   "cat-food-calculator": {
     "title": "Cat Food Calculator",
@@ -625,7 +626,8 @@
         "question": "Do large breed puppies need different calories?",
         "answer": "Yes, large breed puppies should be fed for controlled growth to prevent joint problems. Don't overfeed to speed up growth."
       }
-    ]
+    ],
+    "error_invalid_weight": "Please enter a valid weight"
   },
   "dog_food_calculator": {
     "title": "Dog Food Calculator",
@@ -720,7 +722,9 @@
         "question": "Do puppies need different amounts?",
         "answer": "Yes, puppies need more food relative to their body weight due to rapid growth. Large breed puppies need controlled portions to prevent joint issues."
       }
-    ]
+    ],
+    "error_invalid_weight": "Please enter a valid weight",
+    "results_title": "Feeding Recommendations"
   },
   "dog-food-calculator": {
     "title": "Dog Food Calculator",

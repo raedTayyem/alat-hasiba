@@ -2,20 +2,20 @@
 COMPREHENSIVE TRANSLATION COVERAGE REPORT
 ==============================================
 
-Generated: 2026-01-18T18:44:15.674Z
+Generated: 2026-01-18T23:28:36.026Z
 Total Calculators: 395
 
 ==============================================
 SUMMARY STATISTICS
 ==============================================
 
-Total Translation Keys: 12442
+Total Translation Keys: 12441
 Average Keys per Calculator: 31
-Average EN Coverage: 5%
-Average AR Coverage: 5%
-Fully Translated (100% EN+AR): 5 calculators
-Partially Translated: 193 calculators
-Missing All Translations: 171 calculators
+Average EN Coverage: 6%
+Average AR Coverage: 6%
+Fully Translated (100% EN+AR): 6 calculators
+Partially Translated: 231 calculators
+Missing All Translations: 132 calculators
 No Component Found: 26 calculators
 
 ==============================================
@@ -35,10 +35,9 @@ Calculator: abjad-calculator
 
 Calculator: ac-circuit-calculator
   Total Keys: 34
-  EN Coverage: 0% (0/34)
-  AR Coverage: 0% (0/34)
-  Missing EN (34):
-    - common.error.invalid_input
+  EN Coverage: 3% (1/34)
+  AR Coverage: 3% (1/34)
+  Missing EN (33):
     - resonance.resistance
     - resonance.enter_resistance
     - ohms_law.unit_resistance
@@ -72,8 +71,7 @@ Calculator: ac-circuit-calculator
     - ac_circuit.title
     - ac_circuit.description
     - resistors_parallel.footer_note
-  Missing AR (34):
-    - common.error.invalid_input
+  Missing AR (33):
     - resonance.resistance
     - resonance.enter_resistance
     - ohms_law.unit_resistance
@@ -481,12 +479,12 @@ Calculator: antenna-calculator
   AR Coverage: 5% (1/19)
   Missing EN (18):
     - common.errors.invalid
-    - antenna.frequency
-    - antenna.enter_frequency
-    - antenna.type
     - antenna.type_dipole
     - antenna.type_monopole
     - antenna.type_full
+    - antenna.frequency
+    - antenna.enter_frequency
+    - antenna.type
     - ohms_law.results_title
     - antenna.wavelength
     - antenna.quarter_wave
@@ -500,12 +498,12 @@ Calculator: antenna-calculator
     - resistors_parallel.footer_note
   Missing AR (18):
     - common.errors.invalid
-    - antenna.frequency
-    - antenna.enter_frequency
-    - antenna.type
     - antenna.type_dipole
     - antenna.type_monopole
     - antenna.type_full
+    - antenna.frequency
+    - antenna.enter_frequency
+    - antenna.type
     - ohms_law.results_title
     - antenna.wavelength
     - antenna.quarter_wave
@@ -524,14 +522,14 @@ Calculator: aquarium-calculator
   AR Coverage: 4% (1/26)
   Missing EN (25):
     - aquarium_calculator.error_invalid_dimensions
+    - aquarium_calculator.fish_small
+    - aquarium_calculator.fish_medium
+    - aquarium_calculator.fish_large
     - aquarium_calculator.title
     - aquarium_calculator.length
     - aquarium_calculator.width
     - aquarium_calculator.height
     - aquarium_calculator.fish_size
-    - aquarium_calculator.fish_small
-    - aquarium_calculator.fish_medium
-    - aquarium_calculator.fish_large
     - aquarium_calculator.calculate_btn
     - aquarium_calculator.reset_btn
     - aquarium_calculator.results_title
@@ -550,14 +548,14 @@ Calculator: aquarium-calculator
     - aquarium_calculator.footer_note
   Missing AR (25):
     - aquarium_calculator.error_invalid_dimensions
+    - aquarium_calculator.fish_small
+    - aquarium_calculator.fish_medium
+    - aquarium_calculator.fish_large
     - aquarium_calculator.title
     - aquarium_calculator.length
     - aquarium_calculator.width
     - aquarium_calculator.height
     - aquarium_calculator.fish_size
-    - aquarium_calculator.fish_small
-    - aquarium_calculator.fish_medium
-    - aquarium_calculator.fish_large
     - aquarium_calculator.calculate_btn
     - aquarium_calculator.reset_btn
     - aquarium_calculator.results_title
@@ -624,13 +622,12 @@ Calculator: area-converter
 
 Calculator: asphalt-calculator
   Total Keys: 40
-  EN Coverage: 0% (0/40)
-  AR Coverage: 0% (0/40)
-  Missing EN (40):
+  EN Coverage: 3% (1/40)
+  AR Coverage: 3% (1/40)
+  Missing EN (39):
     - asphalt.errors.invalid_dimensions
     - asphalt.errors.positive_values
     - asphalt.errors.invalid_density
-    - common:common.errors.calculationError
     - asphalt.unit
     - asphalt.unit_tooltip
     - asphalt.imperial
@@ -667,11 +664,10 @@ Calculator: asphalt-calculator
     - asphalt.formula
     - asphalt.title
     - asphalt.description
-  Missing AR (40):
+  Missing AR (39):
     - asphalt.errors.invalid_dimensions
     - asphalt.errors.positive_values
     - asphalt.errors.invalid_density
-    - common:common.errors.calculationError
     - asphalt.unit
     - asphalt.unit_tooltip
     - asphalt.imperial
@@ -823,13 +819,12 @@ Calculator: athletic-performance-calculator
 
 Calculator: attendance-calculator
   Total Keys: 17
-  EN Coverage: 6% (1/17)
-  AR Coverage: 6% (1/17)
-  Missing EN (16):
+  EN Coverage: 12% (2/17)
+  AR Coverage: 12% (2/17)
+  Missing EN (15):
     - attendance.errors.invalid_total
     - attendance.errors.invalid_attended
     - attendance.errors.invalid_target
-    - common.errors.calculationError
     - attendance.total_classes
     - attendance.attended_classes
     - attendance.target_percentage
@@ -842,11 +837,10 @@ Calculator: attendance-calculator
     - attendance.result_placeholder
     - attendance.title
     - attendance.description
-  Missing AR (16):
+  Missing AR (15):
     - attendance.errors.invalid_total
     - attendance.errors.invalid_attended
     - attendance.errors.invalid_target
-    - common.errors.calculationError
     - attendance.total_classes
     - attendance.attended_classes
     - attendance.target_percentage
@@ -1162,18 +1156,8 @@ Calculator: bezier-curve-calculator
 
 Calculator: biorhythm-calculator
   Total Keys: 27
-  EN Coverage: 85% (23/27)
-  AR Coverage: 85% (23/27)
-  Missing EN (4):
-    - calc/misc:biorhythm.use_cases_title
-    - calc/misc:biorhythm.use_case_1
-    - calc/misc:biorhythm.use_case_2
-    - calc/misc:biorhythm.use_case_3
-  Missing AR (4):
-    - calc/misc:biorhythm.use_cases_title
-    - calc/misc:biorhythm.use_case_1
-    - calc/misc:biorhythm.use_case_2
-    - calc/misc:biorhythm.use_case_3
+  EN Coverage: 100% (27/27)
+  AR Coverage: 100% (27/27)
 
 Calculator: bird-cage-size-calculator
   Total Keys: 27
@@ -1181,14 +1165,14 @@ Calculator: bird-cage-size-calculator
   AR Coverage: 0% (0/27)
   Missing EN (27):
     - bird_cage_calculator.error_invalid_birds
-    - bird_cage_calculator.title
-    - bird_cage_calculator.bird_type
     - bird_cage_calculator.budgie
     - bird_cage_calculator.cockatiel
     - bird_cage_calculator.lovebird
     - bird_cage_calculator.conure
     - bird_cage_calculator.parrot
     - bird_cage_calculator.macaw
+    - bird_cage_calculator.title
+    - bird_cage_calculator.bird_type
     - bird_cage_calculator.number_of_birds
     - aquarium_calculator.fish
     - bird_cage_calculator.calculate_btn
@@ -1209,14 +1193,14 @@ Calculator: bird-cage-size-calculator
     - bird-cage-size-calculator.tips.0
   Missing AR (27):
     - bird_cage_calculator.error_invalid_birds
-    - bird_cage_calculator.title
-    - bird_cage_calculator.bird_type
     - bird_cage_calculator.budgie
     - bird_cage_calculator.cockatiel
     - bird_cage_calculator.lovebird
     - bird_cage_calculator.conure
     - bird_cage_calculator.parrot
     - bird_cage_calculator.macaw
+    - bird_cage_calculator.title
+    - bird_cage_calculator.bird_type
     - bird_cage_calculator.number_of_birds
     - aquarium_calculator.fish
     - bird_cage_calculator.calculate_btn
@@ -1238,13 +1222,12 @@ Calculator: bird-cage-size-calculator
 
 Calculator: block-calculator
   Total Keys: 43
-  EN Coverage: 2% (1/43)
-  AR Coverage: 2% (1/43)
-  Missing EN (42):
+  EN Coverage: 5% (2/43)
+  AR Coverage: 5% (2/43)
+  Missing EN (41):
     - block.errors.invalid_dimensions
     - block.errors.positive_values
     - block.errors.invalid_waste
-    - common:common.errors.calculationError
     - block.unit
     - block.unit_tooltip
     - block.meters
@@ -1283,11 +1266,10 @@ Calculator: block-calculator
     - block.formula
     - block.title
     - block.description
-  Missing AR (42):
+  Missing AR (41):
     - block.errors.invalid_dimensions
     - block.errors.positive_values
     - block.errors.invalid_waste
-    - common:common.errors.calculationError
     - block.unit
     - block.unit_tooltip
     - block.meters
@@ -1471,9 +1453,9 @@ Calculator: bmr-calculator
 
 Calculator: body-fat-calculator
   Total Keys: 43
-  EN Coverage: 5% (2/43)
-  AR Coverage: 5% (2/43)
-  Missing EN (41):
+  EN Coverage: 7% (3/43)
+  AR Coverage: 7% (3/43)
+  Missing EN (40):
     - body_fat.categories.essential_fat
     - body_fat.categories.athletic
     - body_fat.categories.fit
@@ -1483,7 +1465,6 @@ Calculator: body-fat-calculator
     - body_fat.errors.hip_required
     - body_fat.errors.age_range
     - body_fat.errors.positive_measurements
-    - common.errors.calculationError
     - body_fat.inputs.male
     - body_fat.inputs.female
     - body_fat.title
@@ -1515,7 +1496,7 @@ Calculator: body-fat-calculator
     - body_fat.results.method_title
     - body_fat.results.method_desc
     - body_fat.description
-  Missing AR (41):
+  Missing AR (40):
     - body_fat.categories.essential_fat
     - body_fat.categories.athletic
     - body_fat.categories.fit
@@ -1525,7 +1506,6 @@ Calculator: body-fat-calculator
     - body_fat.errors.hip_required
     - body_fat.errors.age_range
     - body_fat.errors.positive_measurements
-    - common.errors.calculationError
     - body_fat.inputs.male
     - body_fat.inputs.female
     - body_fat.title
@@ -2123,13 +2103,12 @@ Calculator: break-even-calculator
 
 Calculator: brick-calculator
   Total Keys: 40
-  EN Coverage: 3% (1/40)
-  AR Coverage: 3% (1/40)
-  Missing EN (39):
+  EN Coverage: 5% (2/40)
+  AR Coverage: 5% (2/40)
+  Missing EN (38):
     - brick.errors.invalid_dimensions
     - brick.errors.positive_values
     - brick.errors.invalid_waste
-    - common.errors.calculationError
     - brick.unit
     - brick.unit_tooltip
     - brick.meters
@@ -2165,11 +2144,10 @@ Calculator: brick-calculator
     - brick.formula_title
     - brick.formula
     - brick.title
-  Missing AR (39):
+  Missing AR (38):
     - brick.errors.invalid_dimensions
     - brick.errors.positive_values
     - brick.errors.invalid_waste
-    - common.errors.calculationError
     - brick.unit
     - brick.unit_tooltip
     - brick.meters
@@ -2427,9 +2405,9 @@ Calculator: cake-serving-calculator
 
 Calculator: calculus-calculator
   Total Keys: 47
-  EN Coverage: 2% (1/47)
-  AR Coverage: 2% (1/47)
-  Missing EN (46):
+  EN Coverage: 4% (2/47)
+  AR Coverage: 4% (2/47)
+  Missing EN (45):
     - calculus.errors.empty_input
     - calculus.errors.calculation_error
     - calculus.steps.derivative_x
@@ -2474,9 +2452,8 @@ Calculator: calculus-calculator
     - calculus.rules.integral_rule_3
     - calculus.rules.integral_rule_4
     - calculus.rules.integral_rule_5
-    - calculators.calc_494
     - calculus.description
-  Missing AR (46):
+  Missing AR (45):
     - calculus.errors.empty_input
     - calculus.errors.calculation_error
     - calculus.steps.derivative_x
@@ -2521,19 +2498,17 @@ Calculator: calculus-calculator
     - calculus.rules.integral_rule_3
     - calculus.rules.integral_rule_4
     - calculus.rules.integral_rule_5
-    - calculators.calc_494
     - calculus.description
 
 Calculator: calorie-calculator
   Total Keys: 53
-  EN Coverage: 4% (2/53)
-  AR Coverage: 4% (2/53)
-  Missing EN (51):
+  EN Coverage: 6% (3/53)
+  AR Coverage: 6% (3/53)
+  Missing EN (50):
     - calorie.errors.all_fields
     - calorie.errors.age_range
     - calorie.errors.weight_positive
     - calorie.errors.height_positive
-    - common.errors.calculationError
     - calorie.inputs.male
     - calorie.inputs.female
     - calorie.inputs.activity.sedentary
@@ -2580,12 +2555,11 @@ Calculator: calorie-calculator
     - calorie.results.calculation_method
     - calorie.results.method_desc
     - calorie.description
-  Missing AR (51):
+  Missing AR (50):
     - calorie.errors.all_fields
     - calorie.errors.age_range
     - calorie.errors.weight_positive
     - calorie.errors.height_positive
-    - common.errors.calculationError
     - calorie.inputs.male
     - calorie.inputs.female
     - calorie.inputs.activity.sedentary
@@ -2923,9 +2897,9 @@ Calculator: car-comparison-calculator
 
 Calculator: car-depreciation-calculator
   Total Keys: 31
-  EN Coverage: 0% (0/31)
-  AR Coverage: 0% (0/31)
-  Missing EN (31):
+  EN Coverage: 3% (1/31)
+  AR Coverage: 3% (1/31)
+  Missing EN (30):
     - car_depreciation.error_missing_inputs
     - car_depreciation.error_positive_price
     - car_depreciation.error_positive_age
@@ -2948,7 +2922,6 @@ Calculator: car-depreciation-calculator
     - car_depreciation.use_case_2
     - car_depreciation.use_case_3
     - car_depreciation.current_value_label
-    - common.currencySymbol
     - car_depreciation.depreciated
     - car_depreciation.detailed_results
     - car_depreciation.total_depreciation
@@ -2957,7 +2930,7 @@ Calculator: car-depreciation-calculator
     - car_depreciation.formula_title
     - car_depreciation.formula_explanation
     - car_depreciation.description
-  Missing AR (31):
+  Missing AR (30):
     - car_depreciation.error_missing_inputs
     - car_depreciation.error_positive_price
     - car_depreciation.error_positive_age
@@ -2980,7 +2953,6 @@ Calculator: car-depreciation-calculator
     - car_depreciation.use_case_2
     - car_depreciation.use_case_3
     - car_depreciation.current_value_label
-    - common.currencySymbol
     - car_depreciation.depreciated
     - car_depreciation.detailed_results
     - car_depreciation.total_depreciation
@@ -2992,9 +2964,9 @@ Calculator: car-depreciation-calculator
 
 Calculator: car-insurance-calculator
   Total Keys: 44
-  EN Coverage: 0% (0/44)
-  AR Coverage: 0% (0/44)
-  Missing EN (44):
+  EN Coverage: 2% (1/44)
+  AR Coverage: 2% (1/44)
+  Missing EN (43):
     - car_insurance.error_missing_value
     - car_insurance.error_positive_value
     - car_insurance.risk_low
@@ -3028,7 +3000,6 @@ Calculator: car-insurance-calculator
     - car_insurance.factor_3
     - car_insurance.factor_4
     - car_insurance.annual_premium_label
-    - common.currencySymbol
     - car_insurance.month
     - car_insurance.detailed_results
     - car_insurance.base_rate
@@ -3039,7 +3010,7 @@ Calculator: car-insurance-calculator
     - car_insurance.note_title
     - car_insurance.note_description
     - car_insurance.description
-  Missing AR (44):
+  Missing AR (43):
     - car_insurance.error_missing_value
     - car_insurance.error_positive_value
     - car_insurance.risk_low
@@ -3073,7 +3044,6 @@ Calculator: car-insurance-calculator
     - car_insurance.factor_3
     - car_insurance.factor_4
     - car_insurance.annual_premium_label
-    - common.currencySymbol
     - car_insurance.month
     - car_insurance.detailed_results
     - car_insurance.base_rate
@@ -3087,9 +3057,9 @@ Calculator: car-insurance-calculator
 
 Calculator: car-loan-calculator
   Total Keys: 43
-  EN Coverage: 0% (0/43)
-  AR Coverage: 0% (0/43)
-  Missing EN (43):
+  EN Coverage: 2% (1/43)
+  AR Coverage: 2% (1/43)
+  Missing EN (42):
     - car_loan.error_missing_inputs
     - car_loan.error_positive_loan
     - car_loan.error_positive_rate
@@ -3123,7 +3093,6 @@ Calculator: car-loan-calculator
     - car_loan.use_case_2
     - car_loan.use_case_3
     - car_loan.monthly_payment_label
-    - common.currencySymbol
     - car_loan.per_month
     - car_loan.detailed_results
     - car_loan.total_payment
@@ -3133,7 +3102,7 @@ Calculator: car-loan-calculator
     - car_loan.formula_title
     - car_loan.formula_explanation
     - car_loan.description
-  Missing AR (43):
+  Missing AR (42):
     - car_loan.error_missing_inputs
     - car_loan.error_positive_loan
     - car_loan.error_positive_rate
@@ -3167,7 +3136,6 @@ Calculator: car-loan-calculator
     - car_loan.use_case_2
     - car_loan.use_case_3
     - car_loan.monthly_payment_label
-    - common.currencySymbol
     - car_loan.per_month
     - car_loan.detailed_results
     - car_loan.total_payment
@@ -3180,9 +3148,9 @@ Calculator: car-loan-calculator
 
 Calculator: car-maintenance-calculator
   Total Keys: 53
-  EN Coverage: 0% (0/53)
-  AR Coverage: 0% (0/53)
-  Missing EN (53):
+  EN Coverage: 2% (1/53)
+  AR Coverage: 2% (1/53)
+  Missing EN (52):
     - car_maintenance.error_missing_mileage
     - car_maintenance.error_positive_mileage
     - car_maintenance.error_positive_intervals
@@ -3223,7 +3191,6 @@ Calculator: car-maintenance-calculator
     - car_maintenance.tip_2
     - car_maintenance.tip_3
     - car_maintenance.annual_cost_label
-    - common.currencySymbol
     - car_maintenance.month
     - car_maintenance.cost_breakdown
     - car_maintenance.oil_changes
@@ -3236,7 +3203,7 @@ Calculator: car-maintenance-calculator
     - car_maintenance.formula_title
     - car_maintenance.formula_explanation
     - car_maintenance.description
-  Missing AR (53):
+  Missing AR (52):
     - car_maintenance.error_missing_mileage
     - car_maintenance.error_positive_mileage
     - car_maintenance.error_positive_intervals
@@ -3277,7 +3244,6 @@ Calculator: car-maintenance-calculator
     - car_maintenance.tip_2
     - car_maintenance.tip_3
     - car_maintenance.annual_cost_label
-    - common.currencySymbol
     - car_maintenance.month
     - car_maintenance.cost_breakdown
     - car_maintenance.oil_changes
@@ -3293,9 +3259,9 @@ Calculator: car-maintenance-calculator
 
 Calculator: car-payment-calculator
   Total Keys: 36
-  EN Coverage: 0% (0/36)
-  AR Coverage: 0% (0/36)
-  Missing EN (36):
+  EN Coverage: 3% (1/36)
+  AR Coverage: 3% (1/36)
+  Missing EN (35):
     - car_payment.error_missing_inputs
     - car_payment.error_positive_price
     - car_payment.error_down_payment
@@ -3322,7 +3288,6 @@ Calculator: car-payment-calculator
     - car_payment.tip_2
     - car_payment.tip_3
     - car_payment.monthly_payment_label
-    - common.currencySymbol
     - car_payment.per_month
     - car_payment.detailed_results
     - car_payment.loan_amount
@@ -3332,7 +3297,7 @@ Calculator: car-payment-calculator
     - car_payment.formula_title
     - car_payment.formula_explanation
     - car_payment.description
-  Missing AR (36):
+  Missing AR (35):
     - car_payment.error_missing_inputs
     - car_payment.error_positive_price
     - car_payment.error_down_payment
@@ -3359,7 +3324,6 @@ Calculator: car-payment-calculator
     - car_payment.tip_2
     - car_payment.tip_3
     - car_payment.monthly_payment_label
-    - common.currencySymbol
     - car_payment.per_month
     - car_payment.detailed_results
     - car_payment.loan_amount
@@ -4114,14 +4078,13 @@ Calculator: cat-pregnancy-calculator
 
 Calculator: ceiling-calculator
   Total Keys: 55
-  EN Coverage: 2% (1/55)
-  AR Coverage: 2% (1/55)
-  Missing EN (54):
+  EN Coverage: 4% (2/55)
+  AR Coverage: 4% (2/55)
+  Missing EN (53):
     - ceiling.errors.invalid_dimensions
     - ceiling.errors.positive_values
     - ceiling.errors.invalid_tile_size
     - ceiling.errors.invalid_waste
-    - common:common.errors.calculationError
     - ceiling.unit
     - ceiling.unit_tooltip
     - ceiling.meters
@@ -4171,12 +4134,11 @@ Calculator: ceiling-calculator
     - ceiling.formula
     - ceiling.title
     - ceiling.description
-  Missing AR (54):
+  Missing AR (53):
     - ceiling.errors.invalid_dimensions
     - ceiling.errors.positive_values
     - ceiling.errors.invalid_tile_size
     - ceiling.errors.invalid_waste
-    - common:common.errors.calculationError
     - ceiling.unit
     - ceiling.unit_tooltip
     - ceiling.meters
@@ -4391,16 +4353,15 @@ Calculator: clothing-size-converter
 
 Calculator: co2-emissions-calculator
   Total Keys: 30
-  EN Coverage: 0% (0/30)
-  AR Coverage: 0% (0/30)
-  Missing EN (30):
+  EN Coverage: 3% (1/30)
+  AR Coverage: 3% (1/30)
+  Missing EN (29):
     - co2_emissions.options.electricity
     - co2_emissions.options.naturalgas
     - co2_emissions.options.petrol
     - co2_emissions.options.diesel
     - co2_emissions.options.coal
     - co2_emissions.options.propane
-    - common.error.invalid_input
     - co2_emissions.activity_details
     - co2_emissions.activity_type
     - co2_emissions.activity_type_tooltip
@@ -4424,14 +4385,13 @@ Calculator: co2-emissions-calculator
     - co2_emissions.title
     - co2_emissions.description
     - co2_emissions.footer_note
-  Missing AR (30):
+  Missing AR (29):
     - co2_emissions.options.electricity
     - co2_emissions.options.naturalgas
     - co2_emissions.options.petrol
     - co2_emissions.options.diesel
     - co2_emissions.options.coal
     - co2_emissions.options.propane
-    - common.error.invalid_input
     - co2_emissions.activity_details
     - co2_emissions.activity_type
     - co2_emissions.activity_type_tooltip
@@ -4775,13 +4735,12 @@ Calculator: compound-interest
 
 Calculator: concrete-calculator
   Total Keys: 45
-  EN Coverage: 2% (1/45)
-  AR Coverage: 2% (1/45)
-  Missing EN (44):
+  EN Coverage: 7% (3/45)
+  AR Coverage: 7% (3/45)
+  Missing EN (42):
     - concrete.errors.invalid_dimensions
     - concrete.errors.positive_values
     - concrete.errors.invalid_waste
-    - common.errors.calculationError
     - concrete.unit
     - concrete.unit_tooltip
     - concrete.meters
@@ -4811,7 +4770,6 @@ Calculator: concrete-calculator
     - concrete.bags_25kg
     - concrete.bags_50kg
     - concrete.with_waste
-    - common:common.units.m3
     - concrete.total_weight
     - concrete.kg
     - concrete.materials
@@ -4822,11 +4780,10 @@ Calculator: concrete-calculator
     - concrete.formula
     - concrete.title
     - concrete.description
-  Missing AR (44):
+  Missing AR (42):
     - concrete.errors.invalid_dimensions
     - concrete.errors.positive_values
     - concrete.errors.invalid_waste
-    - common.errors.calculationError
     - concrete.unit
     - concrete.unit_tooltip
     - concrete.meters
@@ -4856,7 +4813,6 @@ Calculator: concrete-calculator
     - concrete.bags_25kg
     - concrete.bags_50kg
     - concrete.with_waste
-    - common:common.units.m3
     - concrete.total_weight
     - concrete.kg
     - concrete.materials
@@ -4873,13 +4829,12 @@ Calculator: concrete-strength-calculator
 
 Calculator: conduit-calculator
   Total Keys: 49
-  EN Coverage: 0% (0/49)
-  AR Coverage: 0% (0/49)
-  Missing EN (49):
+  EN Coverage: 2% (1/49)
+  AR Coverage: 2% (1/49)
+  Missing EN (48):
     - conduit.errors.invalid_wire_count
     - conduit.errors.max_wires
     - conduit.errors.invalid_length
-    - common:common.errors.calculationError
     - conduit.wire_count
     - conduit.wire_count_tooltip
     - conduit.placeholders.wire_count
@@ -4925,11 +4880,10 @@ Calculator: conduit-calculator
     - conduit.formula
     - conduit.title
     - conduit.description
-  Missing AR (49):
+  Missing AR (48):
     - conduit.errors.invalid_wire_count
     - conduit.errors.max_wires
     - conduit.errors.invalid_length
-    - common:common.errors.calculationError
     - conduit.wire_count
     - conduit.wire_count_tooltip
     - conduit.placeholders.wire_count
@@ -5039,13 +4993,12 @@ Calculator: confidence-interval-calculator
 
 Calculator: construction-cost-calculator
   Total Keys: 48
-  EN Coverage: 2% (1/48)
-  AR Coverage: 2% (1/48)
-  Missing EN (47):
+  EN Coverage: 4% (2/48)
+  AR Coverage: 4% (2/48)
+  Missing EN (46):
     - construction_cost.errors.invalid_area
     - construction_cost.errors.area_too_large
     - construction_cost.errors.invalid_floors
-    - common:common.errors.calculationError
     - construction_cost.inputs.area
     - construction_cost.inputs.area_tooltip
     - construction_cost.placeholders.area
@@ -5089,11 +5042,10 @@ Calculator: construction-cost-calculator
     - construction_cost.formula
     - construction_cost.title
     - construction_cost.description
-  Missing AR (47):
+  Missing AR (46):
     - construction_cost.errors.invalid_area
     - construction_cost.errors.area_too_large
     - construction_cost.errors.invalid_floors
-    - common:common.errors.calculationError
     - construction_cost.inputs.area
     - construction_cost.inputs.area_tooltip
     - construction_cost.placeholders.area
@@ -5191,9 +5143,9 @@ Calculator: conversion-rate-calculator
 
 Calculator: cooking-time
   Total Keys: 38
-  EN Coverage: 5% (2/38)
-  AR Coverage: 5% (2/38)
-  Missing EN (36):
+  EN Coverage: 11% (4/38)
+  AR Coverage: 11% (4/38)
+  Missing EN (34):
     - cooking-time.error_invalid_input
     - cooking-time.error_positive_weight
     - cooking-time.error_weight_too_large
@@ -5220,8 +5172,6 @@ Calculator: cooking-time
     - cooking-time.use_case_2
     - cooking-time.use_case_3
     - cooking-time.result_label
-    - common:common.units.h
-    - common:common.units.min
     - cooking-time.result_unit
     - cooking-time.additional_info_title
     - cooking-time.temperature_label
@@ -5230,7 +5180,7 @@ Calculator: cooking-time
     - cooking-time.formula_title
     - cooking-time.formula_explanation
     - cooking-time.description
-  Missing AR (36):
+  Missing AR (34):
     - cooking-time.error_invalid_input
     - cooking-time.error_positive_weight
     - cooking-time.error_weight_too_large
@@ -5257,8 +5207,6 @@ Calculator: cooking-time
     - cooking-time.use_case_2
     - cooking-time.use_case_3
     - cooking-time.result_label
-    - common:common.units.h
-    - common:common.units.min
     - cooking-time.result_unit
     - cooking-time.additional_info_title
     - cooking-time.temperature_label
@@ -5446,9 +5394,9 @@ Calculator: coptic-to-gregorian
 
 Calculator: cost-per-square-foot-calculator
   Total Keys: 15
-  EN Coverage: 7% (1/15)
-  AR Coverage: 7% (1/15)
-  Missing EN (14):
+  EN Coverage: 13% (2/15)
+  AR Coverage: 13% (2/15)
+  Missing EN (13):
     - cost_per_square_foot_calculator.title
     - cost_per_square_foot_calculator.total_cost
     - cost_per_square_foot_calculator.total_cost_tooltip
@@ -5459,11 +5407,10 @@ Calculator: cost-per-square-foot-calculator
     - cost_per_square_foot_calculator.reset_btn
     - cost_per_square_foot_calculator.results_title
     - cost_per_square_foot_calculator.cost_per_unit
-    - common:common.currencySymbol
     - cost_per_square_foot_calculator.footer_note
     - cost_per_square_foot_calculator.empty_state
     - cost_per_square_foot_calculator.description
-  Missing AR (14):
+  Missing AR (13):
     - cost_per_square_foot_calculator.title
     - cost_per_square_foot_calculator.total_cost
     - cost_per_square_foot_calculator.total_cost_tooltip
@@ -5474,7 +5421,6 @@ Calculator: cost-per-square-foot-calculator
     - cost_per_square_foot_calculator.reset_btn
     - cost_per_square_foot_calculator.results_title
     - cost_per_square_foot_calculator.cost_per_unit
-    - common:common.currencySymbol
     - cost_per_square_foot_calculator.footer_note
     - cost_per_square_foot_calculator.empty_state
     - cost_per_square_foot_calculator.description
@@ -5833,13 +5779,12 @@ Calculator: data-storage-converter
 
 Calculator: date-difference-calculator
   Total Keys: 27
-  EN Coverage: 0% (0/27)
-  AR Coverage: 0% (0/27)
-  Missing EN (27):
+  EN Coverage: 4% (1/27)
+  AR Coverage: 4% (1/27)
+  Missing EN (26):
     - date_difference.error_empty_dates
     - date_difference.error_invalid_dates
     - date_difference.error_start_after_end
-    - common.errors.calculationError
     - date_difference.title
     - date_difference.start_date
     - date_difference.start_date_tooltip
@@ -5863,11 +5808,10 @@ Calculator: date-difference-calculator
     - date_difference.total_minutes
     - date_difference.note_title
     - date_difference.note_text
-  Missing AR (27):
+  Missing AR (26):
     - date_difference.error_empty_dates
     - date_difference.error_invalid_dates
     - date_difference.error_start_after_end
-    - common.errors.calculationError
     - date_difference.title
     - date_difference.start_date
     - date_difference.start_date_tooltip
@@ -6052,10 +5996,10 @@ Calculator: decibel-calculator
   AR Coverage: 0% (0/21)
   Missing EN (21):
     - common.errors.invalid
-    - decibel-calculator.calculation_type
-    - decibel-calculator.type_tooltip
     - decibel-calculator.type_power
     - decibel-calculator.type_voltage
+    - decibel-calculator.calculation_type
+    - decibel-calculator.type_tooltip
     - decibel-calculator.value_1_power
     - decibel-calculator.value_1_voltage
     - decibel-calculator.value_1_tooltip
@@ -6074,10 +6018,10 @@ Calculator: decibel-calculator
     - decibel-calculator.footer_note
   Missing AR (21):
     - common.errors.invalid
-    - decibel-calculator.calculation_type
-    - decibel-calculator.type_tooltip
     - decibel-calculator.type_power
     - decibel-calculator.type_voltage
+    - decibel-calculator.calculation_type
+    - decibel-calculator.type_tooltip
     - decibel-calculator.value_1_power
     - decibel-calculator.value_1_voltage
     - decibel-calculator.value_1_tooltip
@@ -6097,14 +6041,13 @@ Calculator: decibel-calculator
 
 Calculator: deck-calculator
   Total Keys: 62
-  EN Coverage: 2% (1/62)
-  AR Coverage: 2% (1/62)
-  Missing EN (61):
+  EN Coverage: 3% (2/62)
+  AR Coverage: 3% (2/62)
+  Missing EN (60):
     - deck.errors.invalid_dimensions
     - deck.errors.positive_values
     - deck.errors.invalid_board_length
     - deck.errors.invalid_waste
-    - common:common.errors.calculationError
     - deck.unit
     - deck.unit_tooltip
     - deck.feet
@@ -6161,12 +6104,11 @@ Calculator: deck-calculator
     - deck.formula
     - deck.title
     - deck.description
-  Missing AR (61):
+  Missing AR (60):
     - deck.errors.invalid_dimensions
     - deck.errors.positive_values
     - deck.errors.invalid_board_length
     - deck.errors.invalid_waste
-    - common:common.errors.calculationError
     - deck.unit
     - deck.unit_tooltip
     - deck.feet
@@ -6984,13 +6926,12 @@ Calculator: dog-pregnancy-calculator
 
 Calculator: door-calculator
   Total Keys: 48
-  EN Coverage: 0% (0/48)
-  AR Coverage: 0% (0/48)
-  Missing EN (48):
+  EN Coverage: 4% (2/48)
+  AR Coverage: 4% (2/48)
+  Missing EN (46):
     - door.errors.invalid_dimensions
     - door.errors.positive_values
     - door.errors.opening_too_small
-    - common:common.errors.calculationError
     - door.unit
     - door.unit_tooltip
     - door.mm
@@ -7020,7 +6961,6 @@ Calculator: door-calculator
     - door.nearest_standard
     - door.dimensions
     - door.door_area
-    - common:common.units.m2
     - door.door_area_sqft
     - door.sqft
     - door.rough_opening
@@ -7035,11 +6975,10 @@ Calculator: door-calculator
     - door.formula
     - door.title
     - door.description
-  Missing AR (48):
+  Missing AR (46):
     - door.errors.invalid_dimensions
     - door.errors.positive_values
     - door.errors.opening_too_small
-    - common:common.errors.calculationError
     - door.unit
     - door.unit_tooltip
     - door.mm
@@ -7069,7 +7008,6 @@ Calculator: door-calculator
     - door.nearest_standard
     - door.dimensions
     - door.door_area
-    - common:common.units.m2
     - door.door_area_sqft
     - door.sqft
     - door.rough_opening
@@ -7225,13 +7163,12 @@ Calculator: dps-calculator
 
 Calculator: drywall-calculator
   Total Keys: 48
-  EN Coverage: 2% (1/48)
-  AR Coverage: 2% (1/48)
-  Missing EN (47):
+  EN Coverage: 4% (2/48)
+  AR Coverage: 4% (2/48)
+  Missing EN (46):
     - drywall.errors.invalid_dimensions
     - drywall.errors.positive_values
     - drywall.errors.invalid_waste
-    - common:common.errors.calculationError
     - drywall.unit
     - drywall.unit_tooltip
     - drywall.meters
@@ -7275,11 +7212,10 @@ Calculator: drywall-calculator
     - drywall.formula
     - drywall.title
     - drywall.description
-  Missing AR (47):
+  Missing AR (46):
     - drywall.errors.invalid_dimensions
     - drywall.errors.positive_values
     - drywall.errors.invalid_waste
-    - common:common.errors.calculationError
     - drywall.unit
     - drywall.unit_tooltip
     - drywall.meters
@@ -7600,10 +7536,9 @@ Calculator: egg-production-calculator
 
 Calculator: electrical-load-calculator
   Total Keys: 26
-  EN Coverage: 0% (0/26)
-  AR Coverage: 0% (0/26)
-  Missing EN (26):
-    - common.error.invalid_input
+  EN Coverage: 4% (1/26)
+  AR Coverage: 4% (1/26)
+  Missing EN (25):
     - electrical_load.voltage
     - electrical_load.voltage_tooltip
     - ohms_law.unit_voltage
@@ -7629,8 +7564,7 @@ Calculator: electrical-load-calculator
     - electrical_load.title
     - electrical_load.description
     - electrical_load.footer_note
-  Missing AR (26):
-    - common.error.invalid_input
+  Missing AR (25):
     - electrical_load.voltage
     - electrical_load.voltage_tooltip
     - ohms_law.unit_voltage
@@ -7659,13 +7593,12 @@ Calculator: electrical-load-calculator
 
 Calculator: electrical-resistance-calculator
   Total Keys: 35
-  EN Coverage: 9% (3/35)
-  AR Coverage: 9% (3/35)
-  Missing EN (32):
+  EN Coverage: 11% (4/35)
+  AR Coverage: 11% (4/35)
+  Missing EN (31):
     - electrical-resistance.errors.invalid_input
     - electrical-resistance.errors.current_zero
     - electrical-resistance.errors.resistance_zero
-    - common:common.errors.calculationError
     - electrical-resistance.modes.resistance
     - electrical-resistance.modes.voltage
     - electrical-resistance.modes.current
@@ -7694,11 +7627,10 @@ Calculator: electrical-resistance-calculator
     - electrical-resistance.ohms_law_explanation
     - electrical-resistance.title
     - electrical-resistance.description
-  Missing AR (32):
+  Missing AR (31):
     - electrical-resistance.errors.invalid_input
     - electrical-resistance.errors.current_zero
     - electrical-resistance.errors.resistance_zero
-    - common:common.errors.calculationError
     - electrical-resistance.modes.resistance
     - electrical-resistance.modes.voltage
     - electrical-resistance.modes.current
@@ -7730,10 +7662,9 @@ Calculator: electrical-resistance-calculator
 
 Calculator: electricity-bill-calculator
   Total Keys: 22
-  EN Coverage: 9% (2/22)
-  AR Coverage: 9% (2/22)
-  Missing EN (20):
-    - common.error.invalid_input
+  EN Coverage: 14% (3/22)
+  AR Coverage: 14% (3/22)
+  Missing EN (19):
     - electricity_bill.consumption
     - electricity_bill.consumption_tooltip
     - electricity_bill.price_per_kwh
@@ -7753,8 +7684,7 @@ Calculator: electricity-bill-calculator
     - electricity_bill.title
     - electricity_bill.description
     - electricity_bill.footer_note
-  Missing AR (20):
-    - common.error.invalid_input
+  Missing AR (19):
     - electricity_bill.consumption
     - electricity_bill.consumption_tooltip
     - electricity_bill.price_per_kwh
@@ -7910,15 +7840,14 @@ Calculator: energy-calculator
 
 Calculator: energy-saving-calculator
   Total Keys: 33
-  EN Coverage: 3% (1/33)
-  AR Coverage: 3% (1/33)
-  Missing EN (32):
+  EN Coverage: 6% (2/33)
+  AR Coverage: 6% (2/33)
+  Missing EN (31):
     - energy_saving.options.led
     - energy_saving.options.ac_upgrade
     - energy_saving.options.insulation
     - energy_saving.options.solar_heater
     - energy_saving.options.smart_thermostat
-    - common.error.invalid_input
     - energy_saving.section_title
     - energy_saving.improvement_type
     - energy_saving.improvement_type_tooltip
@@ -7945,13 +7874,12 @@ Calculator: energy-saving-calculator
     - energy_saving.title
     - energy_saving.description
     - energy_saving.footer_note
-  Missing AR (32):
+  Missing AR (31):
     - energy_saving.options.led
     - energy_saving.options.ac_upgrade
     - energy_saving.options.insulation
     - energy_saving.options.solar_heater
     - energy_saving.options.smart_thermostat
-    - common.error.invalid_input
     - energy_saving.section_title
     - energy_saving.improvement_type
     - energy_saving.improvement_type_tooltip
@@ -7984,9 +7912,9 @@ Calculator: equipment-lease-calculator
 
 Calculator: ev-charging-calculator
   Total Keys: 46
-  EN Coverage: 4% (2/46)
-  AR Coverage: 4% (2/46)
-  Missing EN (44):
+  EN Coverage: 7% (3/46)
+  AR Coverage: 7% (3/46)
+  Missing EN (43):
     - ev_charging.error_missing_inputs
     - ev_charging.error_positive_capacity
     - ev_charging.error_valid_current
@@ -8022,7 +7950,6 @@ Calculator: ev-charging-calculator
     - ev_charging.dcfast_description
     - ev_charging.result_title
     - ev_charging.energy_needed
-    - common.currencySymbol
     - ev_charging.total_cost
     - ev_charging.charger_comparison
     - ev_charging.level1
@@ -8031,7 +7958,7 @@ Calculator: ev-charging-calculator
     - ev_charging.formula_title
     - ev_charging.formula_explanation
     - ev_charging.description
-  Missing AR (44):
+  Missing AR (43):
     - ev_charging.error_missing_inputs
     - ev_charging.error_positive_capacity
     - ev_charging.error_valid_current
@@ -8067,7 +7994,6 @@ Calculator: ev-charging-calculator
     - ev_charging.dcfast_description
     - ev_charging.result_title
     - ev_charging.energy_needed
-    - common.currencySymbol
     - ev_charging.total_cost
     - ev_charging.charger_comparison
     - ev_charging.level1
@@ -8172,13 +8098,12 @@ Calculator: ev-range-calculator
 
 Calculator: excavation-calculator
   Total Keys: 54
-  EN Coverage: 0% (0/54)
-  AR Coverage: 0% (0/54)
-  Missing EN (54):
+  EN Coverage: 2% (1/54)
+  AR Coverage: 2% (1/54)
+  Missing EN (53):
     - excavation.errors.invalid_dimensions
     - excavation.errors.positive_values
     - excavation.errors.invalid_swell_factor
-    - common:common.errors.calculationError
     - excavation.unit
     - excavation.unit_tooltip
     - excavation.meters
@@ -8229,11 +8154,10 @@ Calculator: excavation-calculator
     - excavation.formula
     - excavation.title
     - excavation.description
-  Missing AR (54):
+  Missing AR (53):
     - excavation.errors.invalid_dimensions
     - excavation.errors.positive_values
     - excavation.errors.invalid_swell_factor
-    - common:common.errors.calculationError
     - excavation.unit
     - excavation.unit_tooltip
     - excavation.meters
@@ -8396,14 +8320,13 @@ Calculator: farm-profit-calculator
 
 Calculator: fence-calculator
   Total Keys: 46
-  EN Coverage: 0% (0/46)
-  AR Coverage: 0% (0/46)
-  Missing EN (46):
+  EN Coverage: 2% (1/46)
+  AR Coverage: 2% (1/46)
+  Missing EN (45):
     - fence.errors.invalid_dimensions
     - fence.errors.positive_values
     - fence.errors.invalid_spacing
     - fence.errors.invalid_panel_width
-    - common:common.errors.calculationError
     - fence.unit
     - fence.unit_tooltip
     - fence.meters
@@ -8445,12 +8368,11 @@ Calculator: fence-calculator
     - fence.formula
     - fence.title
     - fence.description
-  Missing AR (46):
+  Missing AR (45):
     - fence.errors.invalid_dimensions
     - fence.errors.positive_values
     - fence.errors.invalid_spacing
     - fence.errors.invalid_panel_width
-    - common:common.errors.calculationError
     - fence.unit
     - fence.unit_tooltip
     - fence.meters
@@ -8580,13 +8502,12 @@ Calculator: fertilizer-calculator
 
 Calculator: fill-dirt-calculator
   Total Keys: 51
-  EN Coverage: 0% (0/51)
-  AR Coverage: 0% (0/51)
-  Missing EN (51):
+  EN Coverage: 2% (1/51)
+  AR Coverage: 2% (1/51)
+  Missing EN (50):
     - fill_dirt.errors.invalid_dimensions
     - fill_dirt.errors.positive_values
     - fill_dirt.errors.invalid_compaction
-    - common:common.errors.calculationError
     - fill_dirt.unit
     - fill_dirt.unit_tooltip
     - fill_dirt.meters
@@ -8634,11 +8555,10 @@ Calculator: fill-dirt-calculator
     - fill_dirt.formula
     - fill_dirt.title
     - fill_dirt.description
-  Missing AR (51):
+  Missing AR (50):
     - fill_dirt.errors.invalid_dimensions
     - fill_dirt.errors.positive_values
     - fill_dirt.errors.invalid_compaction
-    - common:common.errors.calculationError
     - fill_dirt.unit
     - fill_dirt.unit_tooltip
     - fill_dirt.meters
@@ -8689,14 +8609,13 @@ Calculator: fill-dirt-calculator
 
 Calculator: final-grade-calculator
   Total Keys: 20
-  EN Coverage: 5% (1/20)
-  AR Coverage: 5% (1/20)
-  Missing EN (19):
+  EN Coverage: 10% (2/20)
+  AR Coverage: 10% (2/20)
+  Missing EN (18):
     - final_grade.errors.invalid_current
     - final_grade.errors.invalid_desired
     - final_grade.errors.invalid_weight
     - final_grade.messages.already_achieved
-    - common.errors.calculationError
     - final_grade.current_grade
     - final_grade.desired_grade
     - final_grade.final_exam_weight
@@ -8711,12 +8630,11 @@ Calculator: final-grade-calculator
     - final_grade.result_placeholder
     - final_grade.title
     - final_grade.description
-  Missing AR (19):
+  Missing AR (18):
     - final_grade.errors.invalid_current
     - final_grade.errors.invalid_desired
     - final_grade.errors.invalid_weight
     - final_grade.messages.already_achieved
-    - common.errors.calculationError
     - final_grade.current_grade
     - final_grade.desired_grade
     - final_grade.final_exam_weight
@@ -8818,14 +8736,13 @@ Calculator: flexibility-score-calculator
 
 Calculator: flight-emissions-calculator
   Total Keys: 33
-  EN Coverage: 0% (0/33)
-  AR Coverage: 0% (0/33)
-  Missing EN (33):
+  EN Coverage: 3% (1/33)
+  AR Coverage: 3% (1/33)
+  Missing EN (32):
     - flight-emissions-calculator.class_economy
     - flight-emissions-calculator.class_premium
     - flight-emissions-calculator.class_business
     - flight-emissions-calculator.class_first
-    - common.error.invalid_input
     - flight-emissions-calculator.input_title
     - flight-emissions-calculator.travel_class
     - flight-emissions-calculator.travel_class_tooltip
@@ -8854,12 +8771,11 @@ Calculator: flight-emissions-calculator
     - flight-emissions-calculator.title
     - flight-emissions-calculator.description
     - flight-emissions-calculator.footer_note
-  Missing AR (33):
+  Missing AR (32):
     - flight-emissions-calculator.class_economy
     - flight-emissions-calculator.class_premium
     - flight-emissions-calculator.class_business
     - flight-emissions-calculator.class_first
-    - common.error.invalid_input
     - flight-emissions-calculator.input_title
     - flight-emissions-calculator.travel_class
     - flight-emissions-calculator.travel_class_tooltip
@@ -8891,18 +8807,21 @@ Calculator: flight-emissions-calculator
 
 Calculator: flooring-calculator
   Total Keys: 50
-  EN Coverage: 2% (1/50)
-  AR Coverage: 2% (1/50)
-  Missing EN (49):
+  EN Coverage: 4% (2/50)
+  AR Coverage: 4% (2/50)
+  Missing EN (48):
+    - flooring.feet
+    - flooring.meters
+    - flooring.types.laminate
+    - flooring.types.hardwood
+    - flooring.types.vinyl_plank
+    - flooring.types.engineered
     - flooring.errors.invalid_dimensions
     - flooring.errors.positive_values
     - flooring.errors.invalid_coverage
     - flooring.errors.invalid_waste
-    - common.errors.calculationError
     - flooring.unit
     - flooring.unit_tooltip
-    - flooring.feet
-    - flooring.meters
     - flooring.room_length
     - flooring.room_length_tooltip
     - flooring.placeholders.length
@@ -8911,10 +8830,6 @@ Calculator: flooring-calculator
     - flooring.placeholders.width
     - flooring.flooring_type
     - flooring.flooring_type_tooltip
-    - flooring.types.laminate
-    - flooring.types.hardwood
-    - flooring.types.vinyl_plank
-    - flooring.types.engineered
     - flooring.coverage_per_box
     - flooring.coverage_per_box_tooltip
     - flooring.placeholders.coverage
@@ -8943,16 +8858,19 @@ Calculator: flooring-calculator
     - flooring.formula
     - flooring.title
     - flooring.description
-  Missing AR (49):
+  Missing AR (48):
+    - flooring.feet
+    - flooring.meters
+    - flooring.types.laminate
+    - flooring.types.hardwood
+    - flooring.types.vinyl_plank
+    - flooring.types.engineered
     - flooring.errors.invalid_dimensions
     - flooring.errors.positive_values
     - flooring.errors.invalid_coverage
     - flooring.errors.invalid_waste
-    - common.errors.calculationError
     - flooring.unit
     - flooring.unit_tooltip
-    - flooring.feet
-    - flooring.meters
     - flooring.room_length
     - flooring.room_length_tooltip
     - flooring.placeholders.length
@@ -8961,10 +8879,6 @@ Calculator: flooring-calculator
     - flooring.placeholders.width
     - flooring.flooring_type
     - flooring.flooring_type_tooltip
-    - flooring.types.laminate
-    - flooring.types.hardwood
-    - flooring.types.vinyl_plank
-    - flooring.types.engineered
     - flooring.coverage_per_box
     - flooring.coverage_per_box_tooltip
     - flooring.placeholders.coverage
@@ -8996,14 +8910,13 @@ Calculator: flooring-calculator
 
 Calculator: footing-calculator
   Total Keys: 49
-  EN Coverage: 6% (3/49)
-  AR Coverage: 6% (3/49)
-  Missing EN (46):
+  EN Coverage: 8% (4/49)
+  AR Coverage: 8% (4/49)
+  Missing EN (45):
     - footing.errors.invalid_load
     - footing.errors.invalid_capacity
     - footing.errors.invalid_safety_factor
     - footing.errors.invalid_depth
-    - common:common.errors.calculationError
     - footing.column_load
     - footing.column_load_tooltip
     - footing.placeholders.column_load
@@ -9045,12 +8958,11 @@ Calculator: footing-calculator
     - footing.formula
     - footing.title
     - footing.description
-  Missing AR (46):
+  Missing AR (45):
     - footing.errors.invalid_load
     - footing.errors.invalid_capacity
     - footing.errors.invalid_safety_factor
     - footing.errors.invalid_depth
-    - common:common.errors.calculationError
     - footing.column_load
     - footing.column_load_tooltip
     - footing.placeholders.column_load
@@ -9171,13 +9083,12 @@ Calculator: force-converter
 
 Calculator: foundation-calculator
   Total Keys: 51
-  EN Coverage: 10% (5/51)
-  AR Coverage: 10% (5/51)
-  Missing EN (46):
+  EN Coverage: 12% (6/51)
+  AR Coverage: 12% (6/51)
+  Missing EN (45):
     - foundation.errors.invalid_area
     - foundation.errors.area_too_large
     - foundation.errors.invalid_floors
-    - common:common.errors.calculationError
     - foundation.inputs.building_area
     - foundation.inputs.building_area_tooltip
     - foundation.placeholders.building_area
@@ -9220,11 +9131,10 @@ Calculator: foundation-calculator
     - foundation.formula
     - foundation.title
     - foundation.description
-  Missing AR (46):
+  Missing AR (45):
     - foundation.errors.invalid_area
     - foundation.errors.area_too_large
     - foundation.errors.invalid_floors
-    - common:common.errors.calculationError
     - foundation.inputs.building_area
     - foundation.inputs.building_area_tooltip
     - foundation.placeholders.building_area
@@ -9270,12 +9180,11 @@ Calculator: foundation-calculator
 
 Calculator: fov-calculator
   Total Keys: 21
-  EN Coverage: 0% (0/21)
-  AR Coverage: 0% (0/21)
-  Missing EN (21):
+  EN Coverage: 5% (1/21)
+  AR Coverage: 5% (1/21)
+  Missing EN (20):
     - fov.errors.invalid
     - fov.errors.range
-    - common.errors.calculationError
     - fov.options.horizontal
     - fov.options.vertical
     - fov.title
@@ -9294,10 +9203,9 @@ Calculator: fov-calculator
     - fov.results.fov_16_9
     - fov.results.fov_21_9
     - fov.description
-  Missing AR (21):
+  Missing AR (20):
     - fov.errors.invalid
     - fov.errors.range
-    - common.errors.calculationError
     - fov.options.horizontal
     - fov.options.vertical
     - fov.title
@@ -9504,10 +9412,9 @@ Calculator: franchise-calculator
 
 Calculator: frequency-calculator
   Total Keys: 29
-  EN Coverage: 7% (2/29)
-  AR Coverage: 7% (2/29)
-  Missing EN (27):
-    - common.error.invalid_input
+  EN Coverage: 14% (4/29)
+  AR Coverage: 14% (4/29)
+  Missing EN (25):
     - frequency-calculator.option_frequency
     - frequency-calculator.option_period
     - frequency-calculator.option_wavelength
@@ -9524,7 +9431,6 @@ Calculator: frequency-calculator
     - ohms_law.unit_hertz
     - ohms_law.unit_kilo_hertz
     - frequency-calculator.period_result
-    - common:common.units.s
     - frequency-calculator.wavelength_result
     - frequency-calculator.angular_frequency
     - ohms_law.unit_rad_s
@@ -9534,8 +9440,7 @@ Calculator: frequency-calculator
     - frequency-calculator.title
     - frequency-calculator.description
     - frequency-calculator.footer_note
-  Missing AR (27):
-    - common.error.invalid_input
+  Missing AR (25):
     - frequency-calculator.option_frequency
     - frequency-calculator.option_period
     - frequency-calculator.option_wavelength
@@ -9552,7 +9457,6 @@ Calculator: frequency-calculator
     - ohms_law.unit_hertz
     - ohms_law.unit_kilo_hertz
     - frequency-calculator.period_result
-    - common:common.units.s
     - frequency-calculator.wavelength_result
     - frequency-calculator.angular_frequency
     - ohms_law.unit_rad_s
@@ -9740,9 +9644,9 @@ Calculator: fuel-cost-calculator
 
 Calculator: fuel-economy-calculator
   Total Keys: 50
-  EN Coverage: 4% (2/50)
-  AR Coverage: 4% (2/50)
-  Missing EN (48):
+  EN Coverage: 6% (3/50)
+  AR Coverage: 6% (3/50)
+  Missing EN (47):
     - fuel_economy.error_missing_inputs
     - fuel_economy.error_positive_values
     - fuel_economy.error_positive_price
@@ -9783,7 +9687,6 @@ Calculator: fuel-economy-calculator
     - fuel_economy.detailed_results
     - fuel_economy.km_per_liter
     - fuel_economy.cost_per_mile
-    - common.currencySymbol
     - fuel_economy.mile
     - fuel_economy.cost_per_km
     - fuel_economy.annual_fuel_cost
@@ -9791,7 +9694,7 @@ Calculator: fuel-economy-calculator
     - fuel_economy.formula_title
     - fuel_economy.formula_explanation
     - fuel_economy.description
-  Missing AR (48):
+  Missing AR (47):
     - fuel_economy.error_missing_inputs
     - fuel_economy.error_positive_values
     - fuel_economy.error_positive_price
@@ -9832,7 +9735,6 @@ Calculator: fuel-economy-calculator
     - fuel_economy.detailed_results
     - fuel_economy.km_per_liter
     - fuel_economy.cost_per_mile
-    - common.currencySymbol
     - fuel_economy.mile
     - fuel_economy.cost_per_km
     - fuel_economy.annual_fuel_cost
@@ -10050,13 +9952,12 @@ Calculator: gear-ratio-calculator
 
 Calculator: gpa-calculator
   Total Keys: 23
-  EN Coverage: 0% (0/23)
-  AR Coverage: 0% (0/23)
-  Missing EN (23):
+  EN Coverage: 4% (1/23)
+  AR Coverage: 4% (1/23)
+  Missing EN (22):
     - gpa.errors.no_courses
     - gpa.errors.invalid_credits
     - gpa.errors.invalid_current_credits
-    - common.errors.calculationError
     - gpa.grading_scale
     - gpa.courses
     - gpa.add_course
@@ -10076,11 +9977,10 @@ Calculator: gpa-calculator
     - gpa.result_placeholder
     - gpa.title
     - gpa.description
-  Missing AR (23):
+  Missing AR (22):
     - gpa.errors.no_courses
     - gpa.errors.invalid_credits
     - gpa.errors.invalid_current_credits
-    - common.errors.calculationError
     - gpa.grading_scale
     - gpa.courses
     - gpa.add_course
@@ -10103,14 +10003,13 @@ Calculator: gpa-calculator
 
 Calculator: grade-calculator
   Total Keys: 35
-  EN Coverage: 0% (0/35)
-  AR Coverage: 0% (0/35)
-  Missing EN (35):
+  EN Coverage: 3% (1/35)
+  AR Coverage: 3% (1/35)
+  Missing EN (34):
     - grade.errors.weights_total_100
     - grade.errors.invalid_weight
     - grade.errors.invalid_score
     - grade.errors.invalid_desired
-    - common.errors.calculationError
     - grade.title
     - grade.categories
     - grade.add_category
@@ -10141,12 +10040,11 @@ Calculator: grade-calculator
     - grade.formula
     - grade.formula_explanation
     - grade.description
-  Missing AR (35):
+  Missing AR (34):
     - grade.errors.weights_total_100
     - grade.errors.invalid_weight
     - grade.errors.invalid_score
     - grade.errors.invalid_desired
-    - common.errors.calculationError
     - grade.title
     - grade.categories
     - grade.add_category
@@ -10180,13 +10078,12 @@ Calculator: grade-calculator
 
 Calculator: gravel-calculator
   Total Keys: 65
-  EN Coverage: 0% (0/65)
-  AR Coverage: 0% (0/65)
-  Missing EN (65):
+  EN Coverage: 2% (1/65)
+  AR Coverage: 2% (1/65)
+  Missing EN (64):
     - gravel.errors.invalid_dimensions
     - gravel.errors.positive_values
     - gravel.errors.invalid_density
-    - common:common.errors.calculationError
     - gravel.unit
     - gravel.unit_tooltip
     - gravel.meters
@@ -10248,11 +10145,10 @@ Calculator: gravel-calculator
     - gravel.formula
     - gravel.title
     - gravel.description
-  Missing AR (65):
+  Missing AR (64):
     - gravel.errors.invalid_dimensions
     - gravel.errors.positive_values
     - gravel.errors.invalid_density
-    - common:common.errors.calculationError
     - gravel.unit
     - gravel.unit_tooltip
     - gravel.meters
@@ -10496,14 +10392,13 @@ Calculator: gross-rent-multiplier-calculator
 
 Calculator: grout-calculator
   Total Keys: 49
-  EN Coverage: 0% (0/49)
-  AR Coverage: 0% (0/49)
-  Missing EN (49):
+  EN Coverage: 2% (1/49)
+  AR Coverage: 2% (1/49)
+  Missing EN (48):
     - grout.errors.invalid_area
     - grout.errors.invalid_tile_size
     - grout.errors.invalid_joint_width
     - grout.errors.invalid_joint_depth
-    - common.errors.calculationError
     - grout.unit
     - grout.unit_tooltip
     - grout.sqft
@@ -10548,12 +10443,11 @@ Calculator: grout-calculator
     - grout.formula
     - grout.title
     - grout.description
-  Missing AR (49):
+  Missing AR (48):
     - grout.errors.invalid_area
     - grout.errors.invalid_tile_size
     - grout.errors.invalid_joint_width
     - grout.errors.invalid_joint_depth
-    - common.errors.calculationError
     - grout.unit
     - grout.unit_tooltip
     - grout.sqft
@@ -10678,12 +10572,12 @@ Calculator: hamster-lifespan-calculator
     - hamster_lifespan_calculator.stage_adult
     - hamster_lifespan_calculator.stage_senior
     - hamster_lifespan_calculator.stage_elderly
-    - hamster_lifespan_calculator.title
-    - hamster_lifespan_calculator.label_type
     - hamster_lifespan_calculator.type_syrian
     - hamster_lifespan_calculator.type_dwarf
     - hamster_lifespan_calculator.type_roborovski
     - hamster_lifespan_calculator.type_chinese
+    - hamster_lifespan_calculator.title
+    - hamster_lifespan_calculator.label_type
     - hamster_lifespan_calculator.label_age
     - hamster_lifespan_calculator.unit_months
     - hamster_lifespan_calculator.placeholder_age
@@ -10704,12 +10598,12 @@ Calculator: hamster-lifespan-calculator
     - hamster_lifespan_calculator.stage_adult
     - hamster_lifespan_calculator.stage_senior
     - hamster_lifespan_calculator.stage_elderly
-    - hamster_lifespan_calculator.title
-    - hamster_lifespan_calculator.label_type
     - hamster_lifespan_calculator.type_syrian
     - hamster_lifespan_calculator.type_dwarf
     - hamster_lifespan_calculator.type_roborovski
     - hamster_lifespan_calculator.type_chinese
+    - hamster_lifespan_calculator.title
+    - hamster_lifespan_calculator.label_type
     - hamster_lifespan_calculator.label_age
     - hamster_lifespan_calculator.unit_months
     - hamster_lifespan_calculator.placeholder_age
@@ -11244,20 +11138,20 @@ Calculator: horse-feed-calculator
   AR Coverage: 0% (0/28)
   Missing EN (28):
     - horse_feed_calculator.error_invalid_weight
-    - horse_feed_calculator.title
-    - horse_feed_calculator.label_weight
-    - horse_feed_calculator.unit_kg
-    - horse_feed_calculator.placeholder_weight
-    - horse_feed_calculator.label_work_level
     - horse_feed_calculator.work_maintenance
     - horse_feed_calculator.work_light
     - horse_feed_calculator.work_moderate
     - horse_feed_calculator.work_heavy
     - horse_feed_calculator.work_very_heavy
-    - horse_feed_calculator.label_feed_type
     - horse_feed_calculator.feed_hay_only
     - horse_feed_calculator.feed_mixed
     - horse_feed_calculator.feed_performance
+    - horse_feed_calculator.title
+    - horse_feed_calculator.label_weight
+    - horse_feed_calculator.unit_kg
+    - horse_feed_calculator.placeholder_weight
+    - horse_feed_calculator.label_work_level
+    - horse_feed_calculator.label_feed_type
     - horse_feed_calculator.calculate_btn
     - horse_feed_calculator.reset_btn
     - horse_feed_calculator.result_daily_total
@@ -11273,20 +11167,20 @@ Calculator: horse-feed-calculator
     - horse_feed_calculator.footer_note
   Missing AR (28):
     - horse_feed_calculator.error_invalid_weight
-    - horse_feed_calculator.title
-    - horse_feed_calculator.label_weight
-    - horse_feed_calculator.unit_kg
-    - horse_feed_calculator.placeholder_weight
-    - horse_feed_calculator.label_work_level
     - horse_feed_calculator.work_maintenance
     - horse_feed_calculator.work_light
     - horse_feed_calculator.work_moderate
     - horse_feed_calculator.work_heavy
     - horse_feed_calculator.work_very_heavy
-    - horse_feed_calculator.label_feed_type
     - horse_feed_calculator.feed_hay_only
     - horse_feed_calculator.feed_mixed
     - horse_feed_calculator.feed_performance
+    - horse_feed_calculator.title
+    - horse_feed_calculator.label_weight
+    - horse_feed_calculator.unit_kg
+    - horse_feed_calculator.placeholder_weight
+    - horse_feed_calculator.label_work_level
+    - horse_feed_calculator.label_feed_type
     - horse_feed_calculator.calculate_btn
     - horse_feed_calculator.reset_btn
     - horse_feed_calculator.result_daily_total
@@ -11532,15 +11426,14 @@ Calculator: hybrid-savings-calculator
 
 Calculator: hydraulic-cylinder-calculator
   Total Keys: 50
-  EN Coverage: 10% (5/50)
-  AR Coverage: 10% (5/50)
-  Missing EN (45):
+  EN Coverage: 12% (6/50)
+  AR Coverage: 12% (6/50)
+  Missing EN (44):
     - hydraulic_cylinder.errors.invalid_input
     - hydraulic_cylinder.errors.positive_values
     - hydraulic_cylinder.errors.area_positive
     - hydraulic_cylinder.errors.pressure_positive
     - hydraulic_cylinder.errors.rod_smaller
-    - common:common.errors.calculationError
     - hydraulic_cylinder.modes.force
     - hydraulic_cylinder.modes.pressure
     - hydraulic_cylinder.modes.area
@@ -11580,13 +11473,12 @@ Calculator: hydraulic-cylinder-calculator
     - hydraulic_cylinder.pascals_law_explanation
     - hydraulic_cylinder.title
     - hydraulic_cylinder.description
-  Missing AR (45):
+  Missing AR (44):
     - hydraulic_cylinder.errors.invalid_input
     - hydraulic_cylinder.errors.positive_values
     - hydraulic_cylinder.errors.area_positive
     - hydraulic_cylinder.errors.pressure_positive
     - hydraulic_cylinder.errors.rod_smaller
-    - common:common.errors.calculationError
     - hydraulic_cylinder.modes.force
     - hydraulic_cylinder.modes.pressure
     - hydraulic_cylinder.modes.area
@@ -11629,12 +11521,11 @@ Calculator: hydraulic-cylinder-calculator
 
 Calculator: ideal-weight-calculator
   Total Keys: 25
-  EN Coverage: 8% (2/25)
-  AR Coverage: 8% (2/25)
-  Missing EN (23):
+  EN Coverage: 12% (3/25)
+  AR Coverage: 12% (3/25)
+  Missing EN (22):
     - ideal_weight.errors.enter_height
     - ideal_weight.errors.height_range
-    - common.errors.calculationError
     - ideal_weight.inputs.male
     - ideal_weight.inputs.female
     - ideal_weight.title
@@ -11655,10 +11546,9 @@ Calculator: ideal-weight-calculator
     - ideal_weight.about.note_title
     - ideal_weight.about.note_desc
     - ideal_weight.description
-  Missing AR (23):
+  Missing AR (22):
     - ideal_weight.errors.enter_height
     - ideal_weight.errors.height_range
-    - common.errors.calculationError
     - ideal_weight.inputs.male
     - ideal_weight.inputs.female
     - ideal_weight.title
@@ -11682,10 +11572,9 @@ Calculator: ideal-weight-calculator
 
 Calculator: impedance-calculator
   Total Keys: 16
-  EN Coverage: 0% (0/16)
-  AR Coverage: 0% (0/16)
-  Missing EN (16):
-    - common.error.invalid_input
+  EN Coverage: 6% (1/16)
+  AR Coverage: 6% (1/16)
+  Missing EN (15):
     - impedance-calculator.resistance
     - impedance-calculator.resistance_tooltip
     - impedance-calculator.enter_resistance
@@ -11701,8 +11590,7 @@ Calculator: impedance-calculator
     - impedance-calculator.title
     - impedance-calculator.description
     - impedance-calculator.footer_note
-  Missing AR (16):
-    - common.error.invalid_input
+  Missing AR (15):
     - impedance-calculator.resistance
     - impedance-calculator.resistance_tooltip
     - impedance-calculator.enter_resistance
@@ -11782,10 +11670,9 @@ Calculator: income-tax-calculator
 
 Calculator: inductor-calculator
   Total Keys: 19
-  EN Coverage: 0% (0/19)
-  AR Coverage: 0% (0/19)
-  Missing EN (19):
-    - common.error.invalid_input
+  EN Coverage: 5% (1/19)
+  AR Coverage: 5% (1/19)
+  Missing EN (18):
     - inductor.inductance
     - inductor.enter_inductance
     - inductor.current
@@ -11804,8 +11691,7 @@ Calculator: inductor-calculator
     - resistors_parallel.empty_state
     - inductor.title
     - inductor.description
-  Missing AR (19):
-    - common.error.invalid_input
+  Missing AR (18):
     - inductor.inductance
     - inductor.enter_inductance
     - inductor.current
@@ -12061,13 +11947,13 @@ Calculator: inrush-current-calculator
   AR Coverage: 6% (2/31)
   Missing EN (29):
     - common:common.errors.invalid
-    - inrush_current.load_type
-    - inrush_current.load_type_tooltip
     - inrush_current.motor
     - inrush_current.transformer
     - inrush_current.capacitor
     - inrush_current.led
     - inrush_current.incandescent
+    - inrush_current.load_type
+    - inrush_current.load_type_tooltip
     - inrush_current.rated_power
     - inrush_current.rated_power_tooltip
     - ohms_law.unit_current
@@ -12091,13 +11977,13 @@ Calculator: inrush-current-calculator
     - inrush_current.footer_note
   Missing AR (29):
     - common:common.errors.invalid
-    - inrush_current.load_type
-    - inrush_current.load_type_tooltip
     - inrush_current.motor
     - inrush_current.transformer
     - inrush_current.capacitor
     - inrush_current.led
     - inrush_current.incandescent
+    - inrush_current.load_type
+    - inrush_current.load_type_tooltip
     - inrush_current.rated_power
     - inrush_current.rated_power_tooltip
     - ohms_law.unit_current
@@ -12122,13 +12008,12 @@ Calculator: inrush-current-calculator
 
 Calculator: insulation-calculator
   Total Keys: 51
-  EN Coverage: 4% (2/51)
-  AR Coverage: 4% (2/51)
-  Missing EN (49):
+  EN Coverage: 6% (3/51)
+  AR Coverage: 6% (3/51)
+  Missing EN (48):
     - insulation.errors.invalid_dimensions
     - insulation.errors.positive_values
     - insulation.errors.invalid_waste
-    - common:common.errors.calculationError
     - insulation.unit
     - insulation.unit_tooltip
     - insulation.meters
@@ -12174,11 +12059,10 @@ Calculator: insulation-calculator
     - insulation.formula
     - insulation.title
     - insulation.description
-  Missing AR (49):
+  Missing AR (48):
     - insulation.errors.invalid_dimensions
     - insulation.errors.positive_values
     - insulation.errors.invalid_waste
-    - common:common.errors.calculationError
     - insulation.unit
     - insulation.unit_tooltip
     - insulation.meters
@@ -12424,13 +12308,12 @@ Calculator: islamic-inheritance
 
 Calculator: joint-compound-calculator
   Total Keys: 42
-  EN Coverage: 0% (0/42)
-  AR Coverage: 0% (0/42)
-  Missing EN (42):
+  EN Coverage: 2% (1/42)
+  AR Coverage: 2% (1/42)
+  Missing EN (41):
     - jointCompound.errors.invalid_input
     - jointCompound.errors.positive_values
     - jointCompound.errors.invalid_coats
-    - common:common.errors.calculationError
     - jointCompound.unit
     - jointCompound.unit_tooltip
     - jointCompound.meters
@@ -12469,11 +12352,10 @@ Calculator: joint-compound-calculator
     - jointCompound.formula
     - jointCompound.title
     - jointCompound.description
-  Missing AR (42):
+  Missing AR (41):
     - jointCompound.errors.invalid_input
     - jointCompound.errors.positive_values
     - jointCompound.errors.invalid_coats
-    - common:common.errors.calculationError
     - jointCompound.unit
     - jointCompound.unit_tooltip
     - jointCompound.meters
@@ -12819,24 +12701,23 @@ Calculator: labor-cost-calculator
 
 Calculator: labor-cost-construction-calculator
   Total Keys: 59
-  EN Coverage: 3% (2/59)
-  AR Coverage: 3% (2/59)
-  Missing EN (57):
-    - labor_cost.errors.invalid_inputs
-    - labor_cost.errors.positive_values
-    - labor_cost.errors.invalid_workers
-    - labor_cost.errors.invalid_overhead
-    - labor_cost.errors.invalid_overtime
-    - labor_cost.errors.invalid_multiplier
-    - common:common.errors.calculationError
-    - labor_cost.currency
-    - labor_cost.currency_tooltip
+  EN Coverage: 5% (3/59)
+  AR Coverage: 5% (3/59)
+  Missing EN (56):
     - labor_cost.currencies.usd
     - labor_cost.currencies.eur
     - labor_cost.currencies.gbp
     - labor_cost.currencies.sar
     - labor_cost.currencies.aed
     - labor_cost.currencies.jod
+    - labor_cost.errors.invalid_inputs
+    - labor_cost.errors.positive_values
+    - labor_cost.errors.invalid_workers
+    - labor_cost.errors.invalid_overhead
+    - labor_cost.errors.invalid_overtime
+    - labor_cost.errors.invalid_multiplier
+    - labor_cost.currency
+    - labor_cost.currency_tooltip
     - labor_cost.regular_hours
     - labor_cost.regular_hours_tooltip
     - labor_cost.placeholders.hours
@@ -12879,22 +12760,21 @@ Calculator: labor-cost-construction-calculator
     - labor_cost.formula
     - labor_cost.title
     - labor_cost.description
-  Missing AR (57):
-    - labor_cost.errors.invalid_inputs
-    - labor_cost.errors.positive_values
-    - labor_cost.errors.invalid_workers
-    - labor_cost.errors.invalid_overhead
-    - labor_cost.errors.invalid_overtime
-    - labor_cost.errors.invalid_multiplier
-    - common:common.errors.calculationError
-    - labor_cost.currency
-    - labor_cost.currency_tooltip
+  Missing AR (56):
     - labor_cost.currencies.usd
     - labor_cost.currencies.eur
     - labor_cost.currencies.gbp
     - labor_cost.currencies.sar
     - labor_cost.currencies.aed
     - labor_cost.currencies.jod
+    - labor_cost.errors.invalid_inputs
+    - labor_cost.errors.positive_values
+    - labor_cost.errors.invalid_workers
+    - labor_cost.errors.invalid_overhead
+    - labor_cost.errors.invalid_overtime
+    - labor_cost.errors.invalid_multiplier
+    - labor_cost.currency
+    - labor_cost.currency_tooltip
     - labor_cost.regular_hours
     - labor_cost.regular_hours_tooltip
     - labor_cost.placeholders.hours
@@ -12940,12 +12820,11 @@ Calculator: labor-cost-construction-calculator
 
 Calculator: landscaping-calculator
   Total Keys: 44
-  EN Coverage: 2% (1/44)
-  AR Coverage: 2% (1/44)
-  Missing EN (43):
+  EN Coverage: 5% (2/44)
+  AR Coverage: 5% (2/44)
+  Missing EN (42):
     - landscaping.errors.no_inputs
     - landscaping.errors.invalid_waste
-    - common:common.errors.calculationError
     - landscaping.unit
     - landscaping.unit_tooltip
     - landscaping.imperial
@@ -12986,10 +12865,9 @@ Calculator: landscaping-calculator
     - landscaping.formula
     - landscaping.title
     - landscaping.description
-  Missing AR (43):
+  Missing AR (42):
     - landscaping.errors.no_inputs
     - landscaping.errors.invalid_waste
-    - common:common.errors.calculationError
     - landscaping.unit
     - landscaping.unit_tooltip
     - landscaping.imperial
@@ -13738,9 +13616,9 @@ Calculator: loan-amortization-calculator
 
 Calculator: loan-calculator
   Total Keys: 40
-  EN Coverage: 5% (2/40)
-  AR Coverage: 5% (2/40)
-  Missing EN (38):
+  EN Coverage: 8% (3/40)
+  AR Coverage: 8% (3/40)
+  Missing EN (37):
     - loan.title
     - loan.description
     - loan.keywords
@@ -13753,7 +13631,6 @@ Calculator: loan-calculator
     - loan.formulaExpressions.monthlyPayment
     - loan.formulaExpressions.totalPayment
     - loan.formulaExpressions.totalInterest
-    - common.errors.calculationError
     - common.inputs
     - loan.inputs.principal
     - loan.tooltips.principal
@@ -13779,7 +13656,7 @@ Calculator: loan-calculator
     - loan.how_to_use.step3
     - loan.how_to_use.step4
     - common.features
-  Missing AR (38):
+  Missing AR (37):
     - loan.title
     - loan.description
     - loan.keywords
@@ -13792,7 +13669,6 @@ Calculator: loan-calculator
     - loan.formulaExpressions.monthlyPayment
     - loan.formulaExpressions.totalPayment
     - loan.formulaExpressions.totalInterest
-    - common.errors.calculationError
     - common.inputs
     - loan.inputs.principal
     - loan.tooltips.principal
@@ -14053,13 +13929,12 @@ Calculator: ltv-calculator
 
 Calculator: lumber-calculator
   Total Keys: 54
-  EN Coverage: 0% (0/54)
-  AR Coverage: 0% (0/54)
-  Missing EN (54):
+  EN Coverage: 2% (1/54)
+  AR Coverage: 2% (1/54)
+  Missing EN (53):
     - lumber.errors.invalid_length
     - lumber.errors.invalid_quantity
     - lumber.errors.invalid_dimensions
-    - common:common.errors.calculationError
     - lumber.unit
     - lumber.unit_tooltip
     - lumber.inches
@@ -14110,11 +13985,10 @@ Calculator: lumber-calculator
     - lumber.formula
     - lumber.title
     - lumber.description
-  Missing AR (54):
+  Missing AR (53):
     - lumber.errors.invalid_length
     - lumber.errors.invalid_quantity
     - lumber.errors.invalid_dimensions
-    - common:common.errors.calculationError
     - lumber.unit
     - lumber.unit_tooltip
     - lumber.inches
@@ -14373,12 +14247,11 @@ Calculator: markup-calculator
 
 Calculator: material-conversion-calculator
   Total Keys: 30
-  EN Coverage: 0% (0/30)
-  AR Coverage: 0% (0/30)
-  Missing EN (30):
+  EN Coverage: 3% (1/30)
+  AR Coverage: 3% (1/30)
+  Missing EN (29):
     - material-conversion.errors.invalid_input
     - material-conversion.errors.positive_value
-    - common:common.errors.calculationError
     - material-conversion.modes.weight
     - material-conversion.modes.length
     - material-conversion.modes.area
@@ -14406,10 +14279,9 @@ Calculator: material-conversion-calculator
     - material-conversion.conversion_explanation
     - material-conversion.title
     - material-conversion.description
-  Missing AR (30):
+  Missing AR (29):
     - material-conversion.errors.invalid_input
     - material-conversion.errors.positive_value
-    - common:common.errors.calculationError
     - material-conversion.modes.weight
     - material-conversion.modes.length
     - material-conversion.modes.area
@@ -14440,13 +14312,12 @@ Calculator: material-conversion-calculator
 
 Calculator: material-cost-calculator
   Total Keys: 37
-  EN Coverage: 3% (1/37)
-  AR Coverage: 3% (1/37)
-  Missing EN (36):
+  EN Coverage: 5% (2/37)
+  AR Coverage: 5% (2/37)
+  Missing EN (35):
     - material_cost.errors.no_materials
     - material_cost.errors.invalid_tax
     - material_cost.unnamed_item
-    - common:common.errors.calculationError
     - material_cost.currency
     - material_cost.currency_tooltip
     - material_cost.currencies.usd
@@ -14479,11 +14350,10 @@ Calculator: material-cost-calculator
     - material_cost.formula
     - material_cost.title
     - material_cost.description
-  Missing AR (36):
+  Missing AR (35):
     - material_cost.errors.no_materials
     - material_cost.errors.invalid_tax
     - material_cost.unnamed_item
-    - common:common.errors.calculationError
     - material_cost.currency
     - material_cost.currency_tooltip
     - material_cost.currencies.usd
@@ -14934,13 +14804,12 @@ Calculator: momentum-calculator
 
 Calculator: mortar-calculator
   Total Keys: 48
-  EN Coverage: 10% (5/48)
-  AR Coverage: 10% (5/48)
-  Missing EN (43):
+  EN Coverage: 13% (6/48)
+  AR Coverage: 13% (6/48)
+  Missing EN (42):
     - mortar.errors.invalid_area
     - mortar.errors.invalid_thickness
     - mortar.errors.invalid_waste
-    - common:common.errors.calculationError
     - mortar.wall_area
     - mortar.wall_area_tooltip
     - mortar.placeholders.wall_area
@@ -14980,11 +14849,10 @@ Calculator: mortar-calculator
     - mortar.formula
     - mortar.title
     - mortar.description
-  Missing AR (43):
+  Missing AR (42):
     - mortar.errors.invalid_area
     - mortar.errors.invalid_thickness
     - mortar.errors.invalid_waste
-    - common:common.errors.calculationError
     - mortar.wall_area
     - mortar.wall_area_tooltip
     - mortar.placeholders.wall_area
@@ -15037,10 +14905,10 @@ Calculator: motor-calculator
   AR Coverage: 3% (1/30)
   Missing EN (29):
     - common:common.errors.invalid
-    - motor.phase_type
-    - motor.phase_tooltip
     - motor.phase_single
     - motor.phase_three
+    - motor.phase_type
+    - motor.phase_tooltip
     - motor.power
     - motor.power_tooltip
     - ohms_law.unit_kilo_watt
@@ -15067,10 +14935,10 @@ Calculator: motor-calculator
     - motor.footer_note
   Missing AR (29):
     - common:common.errors.invalid
-    - motor.phase_type
-    - motor.phase_tooltip
     - motor.phase_single
     - motor.phase_three
+    - motor.phase_type
+    - motor.phase_tooltip
     - motor.power
     - motor.power_tooltip
     - ohms_law.unit_kilo_watt
@@ -15236,15 +15104,14 @@ Calculator: noi-calculator
 
 Calculator: number-system-converter
   Total Keys: 26
-  EN Coverage: 4% (1/26)
-  AR Coverage: 4% (1/26)
-  Missing EN (25):
+  EN Coverage: 8% (2/26)
+  AR Coverage: 8% (2/26)
+  Missing EN (24):
     - number_system.binary
     - number_system.octal
     - number_system.decimal
     - number_system.hexadecimal
     - common.errors.invalid
-    - common.errors.calculationError
     - number_system.title
     - number_system.input_base
     - number_system.select_input_base
@@ -15264,13 +15131,12 @@ Calculator: number-system-converter
     - number_system.all_representations
     - number_system.formula_desc
     - number_system.description
-  Missing AR (25):
+  Missing AR (24):
     - number_system.binary
     - number_system.octal
     - number_system.decimal
     - number_system.hexadecimal
     - common.errors.invalid
-    - common.errors.calculationError
     - number_system.title
     - number_system.input_base
     - number_system.select_input_base
@@ -15293,18 +15159,17 @@ Calculator: number-system-converter
 
 Calculator: ohms-law-calculator
   Total Keys: 36
-  EN Coverage: 0% (0/36)
-  AR Coverage: 0% (0/36)
-  Missing EN (36):
+  EN Coverage: 3% (1/36)
+  AR Coverage: 3% (1/36)
+  Missing EN (35):
     - common.errors.invalid
     - common.errors.positiveNumber
-    - common.errors.calculationError
-    - ohms_law.title
-    - ohms_law.calculate_for
-    - ohms_law.calculate_for_tooltip
     - ohms_law.voltage
     - ohms_law.current
     - ohms_law.resistance
+    - ohms_law.title
+    - ohms_law.calculate_for
+    - ohms_law.calculate_for_tooltip
     - ohms_law.enter_voltage
     - ohms_law.unit_voltage
     - ohms_law.enter_current
@@ -15332,16 +15197,15 @@ Calculator: ohms-law-calculator
     - ohms_law.formula_p_i2r
     - ohms_law.formula_p_v2r
     - ohms_law.description
-  Missing AR (36):
+  Missing AR (35):
     - common.errors.invalid
     - common.errors.positiveNumber
-    - common.errors.calculationError
-    - ohms_law.title
-    - ohms_law.calculate_for
-    - ohms_law.calculate_for_tooltip
     - ohms_law.voltage
     - ohms_law.current
     - ohms_law.resistance
+    - ohms_law.title
+    - ohms_law.calculate_for
+    - ohms_law.calculate_for_tooltip
     - ohms_law.enter_voltage
     - ohms_law.unit_voltage
     - ohms_law.enter_current
@@ -15493,10 +15357,10 @@ Calculator: op-amp-calculator
   EN Coverage: 3% (1/30)
   AR Coverage: 3% (1/30)
   Missing EN (29):
-    - op_amp.config
-    - op_amp.config_tooltip
     - op_amp.inverting
     - op_amp.non_inverting
+    - op_amp.config
+    - op_amp.config_tooltip
     - op_amp.input_voltage
     - op_amp.input_voltage_tooltip
     - ohms_law.unit_voltage
@@ -15523,10 +15387,10 @@ Calculator: op-amp-calculator
     - op_amp.description
     - op_amp.footer_note
   Missing AR (29):
-    - op_amp.config
-    - op_amp.config_tooltip
     - op_amp.inverting
     - op_amp.non_inverting
+    - op_amp.config
+    - op_amp.config_tooltip
     - op_amp.input_voltage
     - op_amp.input_voltage_tooltip
     - ohms_law.unit_voltage
@@ -15702,14 +15566,13 @@ Calculator: pace-calculator
 
 Calculator: paint-calculator
   Total Keys: 58
-  EN Coverage: 0% (0/58)
-  AR Coverage: 0% (0/58)
-  Missing EN (58):
+  EN Coverage: 2% (1/58)
+  AR Coverage: 2% (1/58)
+  Missing EN (57):
     - paint.errors.invalid_area
     - paint.errors.negative_deductions
     - paint.errors.deductions_exceed_area
     - paint.errors.invalid_coats
-    - common:common.errors.calculationError
     - paint.unit
     - paint.unit_tooltip
     - paint.sqft
@@ -15763,12 +15626,11 @@ Calculator: paint-calculator
     - paint.formula
     - paint.title
     - paint.description
-  Missing AR (58):
+  Missing AR (57):
     - paint.errors.invalid_area
     - paint.errors.negative_deductions
     - paint.errors.deductions_exceed_area
     - paint.errors.invalid_coats
-    - common:common.errors.calculationError
     - paint.unit
     - paint.unit_tooltip
     - paint.sqft
@@ -16216,18 +16078,18 @@ Calculator: pet-adoption-cost-calculator
   EN Coverage: 0% (0/27)
   AR Coverage: 0% (0/27)
   Missing EN (27):
-    - pet-adoption-cost-calculator.input_title
-    - pet-adoption-cost-calculator.pet_type
     - pet-adoption-cost-calculator.pet_dog
     - pet-adoption-cost-calculator.pet_cat
-    - pet-adoption-cost-calculator.pet_size
     - pet-adoption-cost-calculator.size_small
     - pet-adoption-cost-calculator.size_medium
     - pet-adoption-cost-calculator.size_large
-    - pet-adoption-cost-calculator.food_quality
     - pet-adoption-cost-calculator.quality_budget
     - pet-adoption-cost-calculator.quality_standard
     - pet-adoption-cost-calculator.quality_premium
+    - pet-adoption-cost-calculator.input_title
+    - pet-adoption-cost-calculator.pet_type
+    - pet-adoption-cost-calculator.pet_size
+    - pet-adoption-cost-calculator.food_quality
     - pet-adoption-cost-calculator.calculate_btn
     - pet-adoption-cost-calculator.reset_btn
     - pet-adoption-cost-calculator.results_title
@@ -16244,18 +16106,18 @@ Calculator: pet-adoption-cost-calculator
     - pet-adoption-cost-calculator.description
     - pet-adoption-cost-calculator.footer_note
   Missing AR (27):
-    - pet-adoption-cost-calculator.input_title
-    - pet-adoption-cost-calculator.pet_type
     - pet-adoption-cost-calculator.pet_dog
     - pet-adoption-cost-calculator.pet_cat
-    - pet-adoption-cost-calculator.pet_size
     - pet-adoption-cost-calculator.size_small
     - pet-adoption-cost-calculator.size_medium
     - pet-adoption-cost-calculator.size_large
-    - pet-adoption-cost-calculator.food_quality
     - pet-adoption-cost-calculator.quality_budget
     - pet-adoption-cost-calculator.quality_standard
     - pet-adoption-cost-calculator.quality_premium
+    - pet-adoption-cost-calculator.input_title
+    - pet-adoption-cost-calculator.pet_type
+    - pet-adoption-cost-calculator.pet_size
+    - pet-adoption-cost-calculator.food_quality
     - pet-adoption-cost-calculator.calculate_btn
     - pet-adoption-cost-calculator.reset_btn
     - pet-adoption-cost-calculator.results_title
@@ -16440,19 +16302,19 @@ Calculator: pet-travel-calculator
   AR Coverage: 0% (0/27)
   Missing EN (27):
     - pet-travel-calculator.error_invalid_weight
-    - pet-travel-calculator.input_title
-    - pet-travel-calculator.pet_type
     - pet-travel-calculator.pet_dog
     - pet-travel-calculator.pet_cat
+    - pet-travel-calculator.travel_domestic
+    - pet-travel-calculator.travel_international
+    - pet-travel-calculator.transport_air
+    - pet-travel-calculator.transport_ground
+    - pet-travel-calculator.input_title
+    - pet-travel-calculator.pet_type
     - pet-travel-calculator.pet_weight
     - pet-travel-calculator.kg
     - pet-travel-calculator.enter_weight
     - pet-travel-calculator.travel_type
-    - pet-travel-calculator.travel_domestic
-    - pet-travel-calculator.travel_international
     - pet-travel-calculator.transport_mode
-    - pet-travel-calculator.transport_air
-    - pet-travel-calculator.transport_ground
     - pet-travel-calculator.calculate_btn
     - pet-travel-calculator.reset_btn
     - pet-travel-calculator.results_title
@@ -16468,19 +16330,19 @@ Calculator: pet-travel-calculator
     - pet-travel-calculator.footer_note
   Missing AR (27):
     - pet-travel-calculator.error_invalid_weight
-    - pet-travel-calculator.input_title
-    - pet-travel-calculator.pet_type
     - pet-travel-calculator.pet_dog
     - pet-travel-calculator.pet_cat
+    - pet-travel-calculator.travel_domestic
+    - pet-travel-calculator.travel_international
+    - pet-travel-calculator.transport_air
+    - pet-travel-calculator.transport_ground
+    - pet-travel-calculator.input_title
+    - pet-travel-calculator.pet_type
     - pet-travel-calculator.pet_weight
     - pet-travel-calculator.kg
     - pet-travel-calculator.enter_weight
     - pet-travel-calculator.travel_type
-    - pet-travel-calculator.travel_domestic
-    - pet-travel-calculator.travel_international
     - pet-travel-calculator.transport_mode
-    - pet-travel-calculator.transport_air
-    - pet-travel-calculator.transport_ground
     - pet-travel-calculator.calculate_btn
     - pet-travel-calculator.reset_btn
     - pet-travel-calculator.results_title
@@ -16559,13 +16421,12 @@ Calculator: physics-acceleration-calculator
 
 Calculator: pipe-calculator
   Total Keys: 59
-  EN Coverage: 2% (1/59)
-  AR Coverage: 2% (1/59)
-  Missing EN (58):
+  EN Coverage: 3% (2/59)
+  AR Coverage: 3% (2/59)
+  Missing EN (57):
     - pipe.errors.invalid_fixtures
     - pipe.errors.invalid_distance
     - pipe.errors.invalid_waste
-    - common:common.errors.calculationError
     - pipe.unit
     - pipe.unit_tooltip
     - pipe.meters
@@ -16620,11 +16481,10 @@ Calculator: pipe-calculator
     - pipe.formula
     - pipe.title
     - pipe.description
-  Missing AR (58):
+  Missing AR (57):
     - pipe.errors.invalid_fixtures
     - pipe.errors.invalid_distance
     - pipe.errors.invalid_waste
-    - common:common.errors.calculationError
     - pipe.unit
     - pipe.unit_tooltip
     - pipe.meters
@@ -16891,10 +16751,10 @@ Calculator: power-calculator-electrical
   AR Coverage: 0% (0/33)
   Missing EN (33):
     - common.errors.invalid
-    - power_calc.phase
-    - power_calc.phase_tooltip
     - power_calc.single_phase
     - power_calc.three_phase
+    - power_calc.phase
+    - power_calc.phase_tooltip
     - power_calc.voltage
     - ohms_law.unit_voltage
     - power_calc.enter_voltage
@@ -16925,10 +16785,10 @@ Calculator: power-calculator-electrical
     - resistors_parallel.footer_note
   Missing AR (33):
     - common.errors.invalid
-    - power_calc.phase
-    - power_calc.phase_tooltip
     - power_calc.single_phase
     - power_calc.three_phase
+    - power_calc.phase
+    - power_calc.phase_tooltip
     - power_calc.voltage
     - ohms_law.unit_voltage
     - power_calc.enter_voltage
@@ -17188,9 +17048,9 @@ Calculator: power-factor-calculator
 
 Calculator: pregnancy-calculator
   Total Keys: 33
-  EN Coverage: 3% (1/33)
-  AR Coverage: 3% (1/33)
-  Missing EN (32):
+  EN Coverage: 6% (2/33)
+  AR Coverage: 6% (2/33)
+  Missing EN (31):
     - pregnancy.errors.lmp_required
     - pregnancy.errors.lmp_future
     - pregnancy.errors.too_long
@@ -17200,7 +17060,6 @@ Calculator: pregnancy-calculator
     - pregnancy.recommendations.t1
     - pregnancy.recommendations.t2
     - pregnancy.recommendations.t3
-    - common.errors.calculationError
     - pregnancy.title
     - pregnancy.inputs.lmp_label
     - pregnancy.inputs.lmp_tooltip
@@ -17223,7 +17082,7 @@ Calculator: pregnancy-calculator
     - pregnancy.recommendations.title
     - pregnancy.recommendations.disclaimer
     - pregnancy.description
-  Missing AR (32):
+  Missing AR (31):
     - pregnancy.errors.lmp_required
     - pregnancy.errors.lmp_future
     - pregnancy.errors.too_long
@@ -17233,7 +17092,6 @@ Calculator: pregnancy-calculator
     - pregnancy.recommendations.t1
     - pregnancy.recommendations.t2
     - pregnancy.recommendations.t3
-    - common.errors.calculationError
     - pregnancy.title
     - pregnancy.inputs.lmp_label
     - pregnancy.inputs.lmp_tooltip
@@ -17615,13 +17473,12 @@ Calculator: productivity-calculator
 
 Calculator: profit-margin-calculator
   Total Keys: 31
-  EN Coverage: 0% (0/31)
-  AR Coverage: 0% (0/31)
-  Missing EN (31):
+  EN Coverage: 10% (3/31)
+  AR Coverage: 10% (3/31)
+  Missing EN (28):
     - common.errors.invalid
     - profit_margin.errors.revenue_positive
     - profit_margin.errors.expenses_non_negative
-    - common.errors.calculationError
     - profit_margin.title
     - profit_margin.inputs.revenue
     - profit_margin.inputs.revenue_tooltip
@@ -17643,17 +17500,14 @@ Calculator: profit-margin-calculator
     - profit_margin.info.use_case_3
     - profit_margin.results.net_margin
     - profit_margin.results.net_profit
-    - common:common.currencySymbol
     - profit_margin.results.breakdown
     - profit_margin.results.gross_profit
     - profit_margin.results.operating_profit
-    - common.formula
     - profit_margin.results.formula
-  Missing AR (31):
+  Missing AR (28):
     - common.errors.invalid
     - profit_margin.errors.revenue_positive
     - profit_margin.errors.expenses_non_negative
-    - common.errors.calculationError
     - profit_margin.title
     - profit_margin.inputs.revenue
     - profit_margin.inputs.revenue_tooltip
@@ -17675,11 +17529,9 @@ Calculator: profit-margin-calculator
     - profit_margin.info.use_case_3
     - profit_margin.results.net_margin
     - profit_margin.results.net_profit
-    - common:common.currencySymbol
     - profit_margin.results.breakdown
     - profit_margin.results.gross_profit
     - profit_margin.results.operating_profit
-    - common.formula
     - profit_margin.results.formula
 
 Calculator: project-budget-calculator
@@ -17875,12 +17727,11 @@ Calculator: property-tax-calculator
 
 Calculator: protein-calculator
   Total Keys: 47
-  EN Coverage: 6% (3/47)
-  AR Coverage: 6% (3/47)
-  Missing EN (44):
+  EN Coverage: 9% (4/47)
+  AR Coverage: 9% (4/47)
+  Missing EN (43):
     - common.errors.invalid
     - protein.errors.weight_range
-    - common.errors.calculationError
     - protein.inputs.sedentary
     - protein.inputs.light
     - protein.inputs.moderate
@@ -17922,10 +17773,9 @@ Calculator: protein-calculator
     - protein.tips.title
     - protein.tips.desc
     - protein.description
-  Missing AR (44):
+  Missing AR (43):
     - common.errors.invalid
     - protein.errors.weight_range
-    - common.errors.calculationError
     - protein.inputs.sedentary
     - protein.inputs.light
     - protein.inputs.moderate
@@ -18147,14 +17997,14 @@ Calculator: rabbit-care-calculator
   AR Coverage: 0% (0/26)
   Missing EN (26):
     - rabbit-care-calculator.error_invalid_weight
+    - rabbit-care-calculator.size_small
+    - rabbit-care-calculator.size_medium
+    - rabbit-care-calculator.size_large
     - rabbit-care-calculator.input_title
     - rabbit-care-calculator.rabbit_weight
     - rabbit-care-calculator.kg
     - rabbit-care-calculator.enter_weight
     - rabbit-care-calculator.rabbit_size
-    - rabbit-care-calculator.size_small
-    - rabbit-care-calculator.size_medium
-    - rabbit-care-calculator.size_large
     - rabbit-care-calculator.calculate_btn
     - rabbit-care-calculator.reset_btn
     - rabbit-care-calculator.results_title
@@ -18174,14 +18024,14 @@ Calculator: rabbit-care-calculator
     - rabbit-care-calculator.footer_note
   Missing AR (26):
     - rabbit-care-calculator.error_invalid_weight
+    - rabbit-care-calculator.size_small
+    - rabbit-care-calculator.size_medium
+    - rabbit-care-calculator.size_large
     - rabbit-care-calculator.input_title
     - rabbit-care-calculator.rabbit_weight
     - rabbit-care-calculator.kg
     - rabbit-care-calculator.enter_weight
     - rabbit-care-calculator.rabbit_size
-    - rabbit-care-calculator.size_small
-    - rabbit-care-calculator.size_medium
-    - rabbit-care-calculator.size_large
     - rabbit-care-calculator.calculate_btn
     - rabbit-care-calculator.reset_btn
     - rabbit-care-calculator.results_title
@@ -18346,10 +18196,10 @@ Calculator: reactance-calculator
   EN Coverage: 10% (3/30)
   AR Coverage: 10% (3/30)
   Missing EN (27):
-    - reactance.reactance_type
-    - reactance.reactance_type_tooltip
     - reactance.inductive
     - reactance.capacitive
+    - reactance.reactance_type
+    - reactance.reactance_type_tooltip
     - reactance.inductance
     - reactance.inductance_tooltip
     - reactance.enter_inductance
@@ -18374,10 +18224,10 @@ Calculator: reactance-calculator
     - reactance.description
     - reactance.footer_note
   Missing AR (27):
-    - reactance.reactance_type
-    - reactance.reactance_type_tooltip
     - reactance.inductive
     - reactance.capacitive
+    - reactance.reactance_type
+    - reactance.reactance_type_tooltip
     - reactance.inductance
     - reactance.inductance_tooltip
     - reactance.enter_inductance
@@ -18512,14 +18362,13 @@ Calculator: real-estate-roi-calculator
 
 Calculator: rebar-calculator
   Total Keys: 47
-  EN Coverage: 0% (0/47)
-  AR Coverage: 0% (0/47)
-  Missing EN (47):
+  EN Coverage: 2% (1/47)
+  AR Coverage: 2% (1/47)
+  Missing EN (46):
     - rebar.errors.invalid_dimensions
     - rebar.errors.positive_values
     - rebar.errors.invalid_spacing
     - rebar.errors.max_spacing
-    - common:common.errors.calculationError
     - rebar.unit
     - rebar.unit_tooltip
     - rebar.meters
@@ -18562,12 +18411,11 @@ Calculator: rebar-calculator
     - rebar.formula
     - rebar.title
     - rebar.description
-  Missing AR (47):
+  Missing AR (46):
     - rebar.errors.invalid_dimensions
     - rebar.errors.positive_values
     - rebar.errors.invalid_spacing
     - rebar.errors.max_spacing
-    - common:common.errors.calculationError
     - rebar.unit
     - rebar.unit_tooltip
     - rebar.meters
@@ -19310,13 +19158,13 @@ Calculator: reptile-tank-calculator
     - reptile-tank-calculator.substrate_tortoise_en
     - reptile-tank-calculator.substrate_iguana
     - reptile-tank-calculator.substrate_iguana_en
-    - reptile-tank-calculator.input_title
-    - reptile-tank-calculator.reptile_type
     - reptile-tank-calculator.reptile_bearded_dragon
     - reptile-tank-calculator.reptile_gecko
     - reptile-tank-calculator.reptile_snake
     - reptile-tank-calculator.reptile_tortoise
     - reptile-tank-calculator.reptile_iguana
+    - reptile-tank-calculator.input_title
+    - reptile-tank-calculator.reptile_type
     - reptile-tank-calculator.reptile_length
     - reptile-tank-calculator.cm
     - reptile-tank-calculator.enter_length
@@ -19349,13 +19197,13 @@ Calculator: reptile-tank-calculator
     - reptile-tank-calculator.substrate_tortoise_en
     - reptile-tank-calculator.substrate_iguana
     - reptile-tank-calculator.substrate_iguana_en
-    - reptile-tank-calculator.input_title
-    - reptile-tank-calculator.reptile_type
     - reptile-tank-calculator.reptile_bearded_dragon
     - reptile-tank-calculator.reptile_gecko
     - reptile-tank-calculator.reptile_snake
     - reptile-tank-calculator.reptile_tortoise
     - reptile-tank-calculator.reptile_iguana
+    - reptile-tank-calculator.input_title
+    - reptile-tank-calculator.reptile_type
     - reptile-tank-calculator.reptile_length
     - reptile-tank-calculator.cm
     - reptile-tank-calculator.enter_length
@@ -19398,11 +19246,11 @@ Calculator: resistor-color-code-calculator
     - ohms_law.unit_mega_ohm
     - ohms_law.unit_kilo_ohm
     - ohms_law.unit_resistance
+    - resistor_color_code.band_4
+    - resistor_color_code.band_5
     - resistor_color_code.title
     - resistor_color_code.num_bands
     - resistor_color_code.num_bands_tooltip
-    - resistor_color_code.band_4
-    - resistor_color_code.band_5
     - resistor_color_code.band
     - resistor_color_code.multiplier
     - resistor_color_code.tolerance
@@ -19432,11 +19280,11 @@ Calculator: resistor-color-code-calculator
     - ohms_law.unit_mega_ohm
     - ohms_law.unit_kilo_ohm
     - ohms_law.unit_resistance
+    - resistor_color_code.band_4
+    - resistor_color_code.band_5
     - resistor_color_code.title
     - resistor_color_code.num_bands
     - resistor_color_code.num_bands_tooltip
-    - resistor_color_code.band_4
-    - resistor_color_code.band_5
     - resistor_color_code.band
     - resistor_color_code.multiplier
     - resistor_color_code.tolerance
@@ -19455,10 +19303,10 @@ Calculator: resistors-series-parallel-calculator
   EN Coverage: 4% (1/28)
   AR Coverage: 4% (1/28)
   Missing EN (27):
-    - resistors_parallel.connection_type
-    - resistors_parallel.connection_type_tooltip
     - resistors_parallel.series
     - resistors_parallel.parallel
+    - resistors_parallel.connection_type
+    - resistors_parallel.connection_type_tooltip
     - ohms_law.voltage
     - ohms_law.unit_voltage
     - ohms_law.enter_voltage
@@ -19483,10 +19331,10 @@ Calculator: resistors-series-parallel-calculator
     - resistors_parallel.description
     - resistors_parallel.footer_note
   Missing AR (27):
-    - resistors_parallel.connection_type
-    - resistors_parallel.connection_type_tooltip
     - resistors_parallel.series
     - resistors_parallel.parallel
+    - resistors_parallel.connection_type
+    - resistors_parallel.connection_type_tooltip
     - ohms_law.voltage
     - ohms_law.unit_voltage
     - ohms_law.enter_voltage
@@ -19645,9 +19493,9 @@ Calculator: retirement-savings-calculator
 
 Calculator: rice-cooking-calculator
   Total Keys: 33
-  EN Coverage: 0% (0/33)
-  AR Coverage: 0% (0/33)
-  Missing EN (33):
+  EN Coverage: 3% (1/33)
+  AR Coverage: 3% (1/33)
+  Missing EN (32):
     - rice-cooking-calculator.error_invalid_input
     - rice-cooking-calculator.error_positive_values
     - rice-cooking-calculator.error_too_many_servings
@@ -19676,12 +19524,11 @@ Calculator: rice-cooking-calculator
     - rice-cooking-calculator.cups_unit
     - rice-cooking-calculator.cooked_rice_label
     - rice-cooking-calculator.cooking_time_label
-    - common:common.units.min
     - rice-cooking-calculator.rice_type_result_label
     - rice-cooking-calculator.formula_title
     - rice-cooking-calculator.formula_explanation
     - rice-cooking-calculator.description
-  Missing AR (33):
+  Missing AR (32):
     - rice-cooking-calculator.error_invalid_input
     - rice-cooking-calculator.error_positive_values
     - rice-cooking-calculator.error_too_many_servings
@@ -19710,7 +19557,6 @@ Calculator: rice-cooking-calculator
     - rice-cooking-calculator.cups_unit
     - rice-cooking-calculator.cooked_rice_label
     - rice-cooking-calculator.cooking_time_label
-    - common:common.units.min
     - rice-cooking-calculator.rice_type_result_label
     - rice-cooking-calculator.formula_title
     - rice-cooking-calculator.formula_explanation
@@ -19718,9 +19564,9 @@ Calculator: rice-cooking-calculator
 
 Calculator: rice-water-ratio-calculator
   Total Keys: 27
-  EN Coverage: 0% (0/27)
-  AR Coverage: 0% (0/27)
-  Missing EN (27):
+  EN Coverage: 4% (1/27)
+  AR Coverage: 4% (1/27)
+  Missing EN (26):
     - rice-water-ratio-calculator.error_invalid_input
     - rice-water-ratio-calculator.error_positive_amount
     - rice-water-ratio-calculator.error_calculation
@@ -19745,10 +19591,9 @@ Calculator: rice-water-ratio-calculator
     - rice-water-ratio-calculator.additional_info_title
     - rice-water-ratio-calculator.water_needed_label
     - rice-water-ratio-calculator.cooking_time_label
-    - common:common.units.min
     - rice-water-ratio-calculator.tips_title
     - rice-water-ratio-calculator.description
-  Missing AR (27):
+  Missing AR (26):
     - rice-water-ratio-calculator.error_invalid_input
     - rice-water-ratio-calculator.error_positive_amount
     - rice-water-ratio-calculator.error_calculation
@@ -19773,7 +19618,6 @@ Calculator: rice-water-ratio-calculator
     - rice-water-ratio-calculator.additional_info_title
     - rice-water-ratio-calculator.water_needed_label
     - rice-water-ratio-calculator.cooking_time_label
-    - common:common.units.min
     - rice-water-ratio-calculator.tips_title
     - rice-water-ratio-calculator.description
 
@@ -19885,9 +19729,9 @@ Calculator: roi-calculator
 
 Calculator: roof-pitch-calculator
   Total Keys: 40
-  EN Coverage: 0% (0/40)
-  AR Coverage: 0% (0/40)
-  Missing EN (40):
+  EN Coverage: 3% (1/40)
+  AR Coverage: 3% (1/40)
+  Missing EN (39):
     - roofPitch.roof_types.flat
     - roofPitch.roof_types.low_slope
     - roofPitch.roof_types.conventional
@@ -19896,7 +19740,6 @@ Calculator: roof-pitch-calculator
     - roofPitch.errors.invalid_values
     - roofPitch.errors.negative_rise
     - roofPitch.errors.positive_run
-    - common:common.errors.calculationError
     - roofPitch.unit
     - roofPitch.unit_tooltip
     - roofPitch.inches
@@ -19928,7 +19771,7 @@ Calculator: roof-pitch-calculator
     - roofPitch.formula
     - roofPitch.title
     - roofPitch.description
-  Missing AR (40):
+  Missing AR (39):
     - roofPitch.roof_types.flat
     - roofPitch.roof_types.low_slope
     - roofPitch.roof_types.conventional
@@ -19937,7 +19780,6 @@ Calculator: roof-pitch-calculator
     - roofPitch.errors.invalid_values
     - roofPitch.errors.negative_rise
     - roofPitch.errors.positive_run
-    - common:common.errors.calculationError
     - roofPitch.unit
     - roofPitch.unit_tooltip
     - roofPitch.inches
@@ -19972,14 +19814,13 @@ Calculator: roof-pitch-calculator
 
 Calculator: roofing-calculator
   Total Keys: 58
-  EN Coverage: 2% (1/58)
-  AR Coverage: 2% (1/58)
-  Missing EN (57):
+  EN Coverage: 3% (2/58)
+  AR Coverage: 3% (2/58)
+  Missing EN (56):
     - roofing.errors.invalid_dimensions
     - roofing.errors.positive_values
     - roofing.errors.invalid_pitch
     - roofing.errors.invalid_waste
-    - common:common.errors.calculationError
     - roofing.unit
     - roofing.unit_tooltip
     - roofing.feet
@@ -20032,12 +19873,11 @@ Calculator: roofing-calculator
     - roofing.formula
     - roofing.title
     - roofing.description
-  Missing AR (57):
+  Missing AR (56):
     - roofing.errors.invalid_dimensions
     - roofing.errors.positive_values
     - roofing.errors.invalid_pitch
     - roofing.errors.invalid_waste
-    - common:common.errors.calculationError
     - roofing.unit
     - roofing.unit_tooltip
     - roofing.feet
@@ -20517,13 +20357,12 @@ Calculator: sample-size-calculator
 
 Calculator: sand-calculator
   Total Keys: 51
-  EN Coverage: 2% (1/51)
-  AR Coverage: 2% (1/51)
-  Missing EN (50):
+  EN Coverage: 8% (4/51)
+  AR Coverage: 8% (4/51)
+  Missing EN (47):
     - sand.errors.invalid_dimensions
     - sand.errors.positive_values
     - sand.errors.invalid_waste
-    - common:common.errors.calculationError
     - sand.unit
     - sand.unit_tooltip
     - sand.meters
@@ -20560,9 +20399,7 @@ Calculator: sand-calculator
     - sand.weight_tons
     - sand.weight_kg
     - sand.with_waste
-    - common:common.units.m3
     - sand.coverage_area
-    - common:common.units.m2
     - sand.additional_info
     - sand.weight_pounds
     - sand.lbs
@@ -20570,11 +20407,10 @@ Calculator: sand-calculator
     - sand.formula
     - sand.title
     - sand.description
-  Missing AR (50):
+  Missing AR (47):
     - sand.errors.invalid_dimensions
     - sand.errors.positive_values
     - sand.errors.invalid_waste
-    - common:common.errors.calculationError
     - sand.unit
     - sand.unit_tooltip
     - sand.meters
@@ -20611,9 +20447,7 @@ Calculator: sand-calculator
     - sand.weight_tons
     - sand.weight_kg
     - sand.with_waste
-    - common:common.units.m3
     - sand.coverage_area
-    - common:common.units.m2
     - sand.additional_info
     - sand.weight_pounds
     - sand.lbs
@@ -20817,13 +20651,12 @@ Calculator: seed-rate-calculator
 
 Calculator: semester-grade-calculator
   Total Keys: 19
-  EN Coverage: 0% (0/19)
-  AR Coverage: 0% (0/19)
-  Missing EN (19):
+  EN Coverage: 5% (1/19)
+  AR Coverage: 5% (1/19)
+  Missing EN (18):
     - semester.errors.no_courses
     - semester.errors.invalid_grade
     - semester.errors.invalid_weight
-    - common.errors.calculationError
     - semester.courses
     - semester.add_course
     - semester.course_name
@@ -20839,11 +20672,10 @@ Calculator: semester-grade-calculator
     - semester.result_placeholder
     - semester.title
     - semester.description
-  Missing AR (19):
+  Missing AR (18):
     - semester.errors.no_courses
     - semester.errors.invalid_grade
     - semester.errors.invalid_weight
-    - common.errors.calculationError
     - semester.courses
     - semester.add_course
     - semester.course_name
@@ -20935,14 +20767,13 @@ Calculator: sequences-calculator
 
 Calculator: shingle-calculator
   Total Keys: 48
-  EN Coverage: 2% (1/48)
-  AR Coverage: 2% (1/48)
-  Missing EN (47):
+  EN Coverage: 4% (2/48)
+  AR Coverage: 4% (2/48)
+  Missing EN (46):
     - shingle.errors.invalid_area
     - shingle.errors.positive_values
     - shingle.errors.invalid_coverage
     - shingle.errors.invalid_waste
-    - common.errors.calculationError
     - shingle.unit
     - shingle.unit_tooltip
     - shingle.sqft
@@ -20985,12 +20816,11 @@ Calculator: shingle-calculator
     - shingle.formula
     - shingle.title
     - shingle.description
-  Missing AR (47):
+  Missing AR (46):
     - shingle.errors.invalid_area
     - shingle.errors.positive_values
     - shingle.errors.invalid_coverage
     - shingle.errors.invalid_waste
-    - common.errors.calculationError
     - shingle.unit
     - shingle.unit_tooltip
     - shingle.sqft
@@ -21197,13 +21027,12 @@ Calculator: shopify-profit-calculator
 
 Calculator: siding-calculator
   Total Keys: 44
-  EN Coverage: 2% (1/44)
-  AR Coverage: 2% (1/44)
-  Missing EN (43):
+  EN Coverage: 5% (2/44)
+  AR Coverage: 5% (2/44)
+  Missing EN (42):
     - siding.errors.invalid_area
     - siding.errors.positive_values
     - siding.errors.invalid_waste
-    - common:common.errors.calculationError
     - siding.unit
     - siding.unit_tooltip
     - siding.imperial
@@ -21243,11 +21072,10 @@ Calculator: siding-calculator
     - siding.formula
     - siding.title
     - siding.description
-  Missing AR (43):
+  Missing AR (42):
     - siding.errors.invalid_area
     - siding.errors.positive_values
     - siding.errors.invalid_waste
-    - common:common.errors.calculationError
     - siding.unit
     - siding.unit_tooltip
     - siding.imperial
@@ -21365,6 +21193,7 @@ Calculator: solar-panel-calculator
   AR Coverage: 0% (0/28)
   Missing EN (28):
     - common.errors.invalid
+    - ohms_law.unit_voltage
     - solar_panel.inputs.daily_consumption
     - solar_panel.tooltips.daily_consumption
     - ohms_law.unit_watt_hour
@@ -21375,7 +21204,6 @@ Calculator: solar-panel-calculator
     - solar_panel.placeholders.sun_hours
     - solar_panel.inputs.system_voltage
     - solar_panel.tooltips.system_voltage
-    - ohms_law.unit_voltage
     - solar_panel.inputs.panel_wattage
     - solar_panel.tooltips.panel_wattage
     - ohms_law.unit_power
@@ -21394,6 +21222,7 @@ Calculator: solar-panel-calculator
     - solar_panel.title
   Missing AR (28):
     - common.errors.invalid
+    - ohms_law.unit_voltage
     - solar_panel.inputs.daily_consumption
     - solar_panel.tooltips.daily_consumption
     - ohms_law.unit_watt_hour
@@ -21404,7 +21233,6 @@ Calculator: solar-panel-calculator
     - solar_panel.placeholders.sun_hours
     - solar_panel.inputs.system_voltage
     - solar_panel.tooltips.system_voltage
-    - ohms_law.unit_voltage
     - solar_panel.inputs.panel_wattage
     - solar_panel.tooltips.panel_wattage
     - ohms_law.unit_power
@@ -21530,9 +21358,9 @@ Calculator: speed-converter
 
 Calculator: stair-calculator
   Total Keys: 43
-  EN Coverage: 0% (0/43)
-  AR Coverage: 0% (0/43)
-  Missing EN (43):
+  EN Coverage: 2% (1/43)
+  AR Coverage: 2% (1/43)
+  Missing EN (42):
     - stair.errors.invalid_rise
     - stair.errors.positive_values
     - stair.errors.invalid_riser_height
@@ -21541,7 +21369,6 @@ Calculator: stair-calculator
     - stair.compliance.tread_too_shallow
     - stair.compliance.angle_steep
     - stair.compliance.compliant
-    - common:common.errors.calculationError
     - stair.unit
     - stair.unit_tooltip
     - stair.centimeters
@@ -21576,7 +21403,7 @@ Calculator: stair-calculator
     - stair.formula
     - stair.title
     - stair.description
-  Missing AR (43):
+  Missing AR (42):
     - stair.errors.invalid_rise
     - stair.errors.positive_values
     - stair.errors.invalid_riser_height
@@ -21585,7 +21412,6 @@ Calculator: stair-calculator
     - stair.compliance.tread_too_shallow
     - stair.compliance.angle_steep
     - stair.compliance.compliant
-    - common:common.errors.calculationError
     - stair.unit
     - stair.unit_tooltip
     - stair.centimeters
@@ -21897,15 +21723,14 @@ Calculator: stopping-distance-calculator
 
 Calculator: stress-strain-calculator
   Total Keys: 51
-  EN Coverage: 8% (4/51)
-  AR Coverage: 8% (4/51)
-  Missing EN (47):
+  EN Coverage: 10% (5/51)
+  AR Coverage: 10% (5/51)
+  Missing EN (46):
     - stress_strain.errors.invalid_input
     - stress_strain.errors.area_positive
     - stress_strain.errors.length_positive
     - stress_strain.errors.strain_zero
     - stress_strain.errors.positive_values
-    - common:common.errors.calculationError
     - stress_strain.modes.stress
     - stress_strain.modes.strain
     - stress_strain.modes.youngs_modulus
@@ -21947,13 +21772,12 @@ Calculator: stress-strain-calculator
     - stress_strain.hookes_law_explanation
     - stress_strain.title
     - stress_strain.description
-  Missing AR (47):
+  Missing AR (46):
     - stress_strain.errors.invalid_input
     - stress_strain.errors.area_positive
     - stress_strain.errors.length_positive
     - stress_strain.errors.strain_zero
     - stress_strain.errors.positive_values
-    - common:common.errors.calculationError
     - stress_strain.modes.stress
     - stress_strain.modes.strain
     - stress_strain.modes.youngs_modulus
@@ -21998,14 +21822,13 @@ Calculator: stress-strain-calculator
 
 Calculator: stringer-calculator
   Total Keys: 43
-  EN Coverage: 0% (0/43)
-  AR Coverage: 0% (0/43)
-  Missing EN (43):
+  EN Coverage: 2% (1/43)
+  AR Coverage: 2% (1/43)
+  Missing EN (42):
     - stringer.errors.invalid_dimensions
     - stringer.errors.positive_values
     - stringer.errors.invalid_width
     - stringer.errors.invalid_steps
-    - common:common.errors.calculationError
     - stringer.unit
     - stringer.unit_tooltip
     - stringer.centimeters
@@ -22044,12 +21867,11 @@ Calculator: stringer-calculator
     - stringer.formula
     - stringer.title
     - stringer.description
-  Missing AR (43):
+  Missing AR (42):
     - stringer.errors.invalid_dimensions
     - stringer.errors.positive_values
     - stringer.errors.invalid_width
     - stringer.errors.invalid_steps
-    - common:common.errors.calculationError
     - stringer.unit
     - stringer.unit_tooltip
     - stringer.centimeters
@@ -22259,9 +22081,9 @@ Calculator: sustainable-lifestyle-calculator
 
 Calculator: swimming-pace-calculator
   Total Keys: 23
-  EN Coverage: 4% (1/23)
-  AR Coverage: 4% (1/23)
-  Missing EN (22):
+  EN Coverage: 9% (2/23)
+  AR Coverage: 9% (2/23)
+  Missing EN (21):
     - swimming_pace.distance
     - swimming_pace.distance_tooltip
     - swimming_pace.enter_distance
@@ -22277,14 +22099,13 @@ Calculator: swimming-pace-calculator
     - swimming_pace.pace_100m
     - swimming_pace.min_100m
     - swimming_pace.speed_mps
-    - common:common.units.s
     - swimming_pace.tips_title
     - swimming_pace.tips_desc
     - swimming_pace.empty_state
     - swimming_pace.title
     - swimming_pace.description
     - swimming_pace.footer_note
-  Missing AR (22):
+  Missing AR (21):
     - swimming_pace.distance
     - swimming_pace.distance_tooltip
     - swimming_pace.enter_distance
@@ -22300,7 +22121,6 @@ Calculator: swimming-pace-calculator
     - swimming_pace.pace_100m
     - swimming_pace.min_100m
     - swimming_pace.speed_mps
-    - common:common.units.s
     - swimming_pace.tips_title
     - swimming_pace.tips_desc
     - swimming_pace.empty_state
@@ -22491,12 +22311,11 @@ Calculator: temperature-converter
 
 Calculator: test-score-calculator
   Total Keys: 19
-  EN Coverage: 0% (0/19)
-  AR Coverage: 0% (0/19)
-  Missing EN (19):
+  EN Coverage: 5% (1/19)
+  AR Coverage: 5% (1/19)
+  Missing EN (18):
     - test_score.errors.invalid_total
     - test_score.errors.invalid_wrong
-    - common.errors.calculationError
     - test_score.total_questions
     - test_score.wrong_answers
     - test_score.result_title
@@ -22513,10 +22332,9 @@ Calculator: test-score-calculator
     - test_score.result_placeholder
     - test_score.title
     - test_score.description
-  Missing AR (19):
+  Missing AR (18):
     - test_score.errors.invalid_total
     - test_score.errors.invalid_wrong
-    - common.errors.calculationError
     - test_score.total_questions
     - test_score.wrong_answers
     - test_score.result_title
@@ -22539,10 +22357,10 @@ Calculator: three-phase-calculator
   EN Coverage: 18% (6/34)
   AR Coverage: 18% (6/34)
   Missing EN (28):
-    - three_phase.connection_type
-    - three_phase.connection_type_tooltip
     - three_phase.star
     - three_phase.delta
+    - three_phase.connection_type
+    - three_phase.connection_type_tooltip
     - three_phase.line_voltage
     - three_phase.line_voltage_tooltip
     - three_phase.enter_voltage
@@ -22568,10 +22386,10 @@ Calculator: three-phase-calculator
     - three_phase.description
     - three_phase.footer_note
   Missing AR (28):
-    - three_phase.connection_type
-    - three_phase.connection_type_tooltip
     - three_phase.star
     - three_phase.delta
+    - three_phase.connection_type
+    - three_phase.connection_type_tooltip
     - three_phase.line_voltage
     - three_phase.line_voltage_tooltip
     - three_phase.enter_voltage
@@ -22599,19 +22417,19 @@ Calculator: three-phase-calculator
 
 Calculator: tile-calculator
   Total Keys: 58
-  EN Coverage: 2% (1/58)
-  AR Coverage: 2% (1/58)
-  Missing EN (57):
+  EN Coverage: 3% (2/58)
+  AR Coverage: 3% (2/58)
+  Missing EN (56):
+    - tile.feet
+    - tile.meters
+    - tile.custom_size
     - tile.errors.invalid_dimensions
     - tile.errors.positive_values
     - tile.errors.invalid_tile_size
     - tile.errors.invalid_grout
     - tile.errors.invalid_waste
-    - common.errors.calculationError
     - tile.unit
     - tile.unit_tooltip
-    - tile.feet
-    - tile.meters
     - tile.area_length
     - tile.area_length_tooltip
     - tile.placeholders.length
@@ -22620,7 +22438,6 @@ Calculator: tile-calculator
     - tile.placeholders.width
     - tile.tile_size
     - tile.tile_size_tooltip
-    - tile.custom_size
     - tile.tile_width
     - tile.tile_width_tooltip
     - tile.placeholders.tile_width
@@ -22659,17 +22476,17 @@ Calculator: tile-calculator
     - tile.formula
     - tile.title
     - tile.description
-  Missing AR (57):
+  Missing AR (56):
+    - tile.feet
+    - tile.meters
+    - tile.custom_size
     - tile.errors.invalid_dimensions
     - tile.errors.positive_values
     - tile.errors.invalid_tile_size
     - tile.errors.invalid_grout
     - tile.errors.invalid_waste
-    - common.errors.calculationError
     - tile.unit
     - tile.unit_tooltip
-    - tile.feet
-    - tile.meters
     - tile.area_length
     - tile.area_length_tooltip
     - tile.placeholders.length
@@ -22678,7 +22495,6 @@ Calculator: tile-calculator
     - tile.placeholders.width
     - tile.tile_size
     - tile.tile_size_tooltip
-    - tile.custom_size
     - tile.tile_width
     - tile.tile_width_tooltip
     - tile.placeholders.tile_width
@@ -23501,6 +23317,10 @@ Calculator: tree-planting-impact-calculator
   EN Coverage: 0% (0/37)
   AR Coverage: 0% (0/37)
   Missing EN (37):
+    - calculators.environmental.tree_planting.type_deciduous
+    - calculators.environmental.tree_planting.type_conifer
+    - calculators.environmental.tree_planting.type_tropical
+    - calculators.environmental.tree_planting.type_fruit
     - calculators.environmental.tree_planting.error_required
     - calculators.environmental.tree_planting.error_positive
     - calculators.environmental.tree_planting.error_age_max
@@ -23516,10 +23336,6 @@ Calculator: tree-planting-impact-calculator
     - calculators.environmental.tree_planting.years_unit
     - calculators.environmental.tree_planting.type_label
     - calculators.environmental.tree_planting.type_tooltip
-    - calculators.environmental.tree_planting.type_deciduous
-    - calculators.environmental.tree_planting.type_conifer
-    - calculators.environmental.tree_planting.type_tropical
-    - calculators.environmental.tree_planting.type_fruit
     - calculators.environmental.tree_planting.info_title
     - calculators.environmental.tree_planting.info_description
     - calculators.environmental.tree_planting.use_cases_title
@@ -23539,6 +23355,10 @@ Calculator: tree-planting-impact-calculator
     - calculators.environmental.tree_planting.formula_explanation
     - calculators.environmental.tree_planting.description
   Missing AR (37):
+    - calculators.environmental.tree_planting.type_deciduous
+    - calculators.environmental.tree_planting.type_conifer
+    - calculators.environmental.tree_planting.type_tropical
+    - calculators.environmental.tree_planting.type_fruit
     - calculators.environmental.tree_planting.error_required
     - calculators.environmental.tree_planting.error_positive
     - calculators.environmental.tree_planting.error_age_max
@@ -23554,10 +23374,6 @@ Calculator: tree-planting-impact-calculator
     - calculators.environmental.tree_planting.years_unit
     - calculators.environmental.tree_planting.type_label
     - calculators.environmental.tree_planting.type_tooltip
-    - calculators.environmental.tree_planting.type_deciduous
-    - calculators.environmental.tree_planting.type_conifer
-    - calculators.environmental.tree_planting.type_tropical
-    - calculators.environmental.tree_planting.type_fruit
     - calculators.environmental.tree_planting.info_title
     - calculators.environmental.tree_planting.info_description
     - calculators.environmental.tree_planting.use_cases_title
@@ -23780,16 +23596,14 @@ Calculator: trip-cost-calculator
 
 Calculator: turkey-cooking-calculator
   Total Keys: 34
-  EN Coverage: 9% (3/34)
-  AR Coverage: 9% (3/34)
-  Missing EN (31):
+  EN Coverage: 15% (5/34)
+  AR Coverage: 15% (5/34)
+  Missing EN (29):
     - turkey-cooking-calculator.error_invalid_input
     - turkey-cooking-calculator.error_positive_values
     - turkey-cooking-calculator.error_too_large
     - turkey-cooking-calculator.error_too_small
     - turkey-cooking-calculator.error_calculation
-    - common:common.units.h
-    - common:common.units.min
     - turkey-cooking-calculator.title
     - turkey-cooking-calculator.weight_label
     - turkey-cooking-calculator.weight_tooltip
@@ -23814,14 +23628,12 @@ Calculator: turkey-cooking-calculator
     - turkey-cooking-calculator.formula_title
     - turkey-cooking-calculator.formula_explanation
     - turkey-cooking-calculator.description
-  Missing AR (31):
+  Missing AR (29):
     - turkey-cooking-calculator.error_invalid_input
     - turkey-cooking-calculator.error_positive_values
     - turkey-cooking-calculator.error_too_large
     - turkey-cooking-calculator.error_too_small
     - turkey-cooking-calculator.error_calculation
-    - common:common.units.h
-    - common:common.units.min
     - turkey-cooking-calculator.title
     - turkey-cooking-calculator.weight_label
     - turkey-cooking-calculator.weight_tooltip
@@ -24133,12 +23945,10 @@ Calculator: vehicle-emissions-calculator
     - vehicle_emissions.footer_note
 
 Calculator: velocity-acceleration-calculator
-  Total Keys: 64
-  EN Coverage: 5% (3/64)
-  AR Coverage: 5% (3/64)
-  Missing EN (61):
-    - velocity_acceleration.units.s
-    - velocity_acceleration.units.m_s2
+  Total Keys: 63
+  EN Coverage: 5% (3/63)
+  AR Coverage: 5% (3/63)
+  Missing EN (60):
     - velocity_acceleration.errors.enter_distance_time
     - velocity_acceleration.errors.time_zero
     - velocity_acceleration.errors.enter_time_velocity
@@ -24168,6 +23978,7 @@ Calculator: velocity-acceleration-calculator
     - velocity_acceleration.units.ft
     - velocity_acceleration.units.mi
     - velocity_acceleration.units.yd
+    - velocity_acceleration.units.s
     - velocity_acceleration.units.min
     - velocity_acceleration.units.h
     - velocity_acceleration.units.ms
@@ -24198,9 +24009,7 @@ Calculator: velocity-acceleration-calculator
     - velocity_acceleration.results.acceleration
     - velocity_acceleration.results.final_velocity
     - velocity_acceleration.results.initial_velocity
-  Missing AR (61):
-    - velocity_acceleration.units.s
-    - velocity_acceleration.units.m_s2
+  Missing AR (60):
     - velocity_acceleration.errors.enter_distance_time
     - velocity_acceleration.errors.time_zero
     - velocity_acceleration.errors.enter_time_velocity
@@ -24230,6 +24039,7 @@ Calculator: velocity-acceleration-calculator
     - velocity_acceleration.units.ft
     - velocity_acceleration.units.mi
     - velocity_acceleration.units.yd
+    - velocity_acceleration.units.s
     - velocity_acceleration.units.min
     - velocity_acceleration.units.h
     - velocity_acceleration.units.ms
@@ -24469,6 +24279,10 @@ Calculator: voltage-drop-calculator
   EN Coverage: 15% (5/33)
   AR Coverage: 15% (5/33)
   Missing EN (28):
+    - voltage_drop.options.single_phase
+    - voltage_drop.options.three_phase
+    - voltage_drop.options.copper
+    - voltage_drop.options.aluminum
     - voltage_drop.title
     - voltage_drop.inputs.voltage
     - voltage_drop.tooltips.voltage
@@ -24483,12 +24297,8 @@ Calculator: voltage-drop-calculator
     - voltage_drop.tooltips.wire_size
     - voltage_drop.inputs.phase
     - voltage_drop.tooltips.phase
-    - voltage_drop.options.single_phase
-    - voltage_drop.options.three_phase
     - voltage_drop.inputs.material
     - voltage_drop.tooltips.material
-    - voltage_drop.options.copper
-    - voltage_drop.options.aluminum
     - voltage_drop.results.voltage_drop
     - voltage_drop.results.acceptable
     - voltage_drop.results.unacceptable
@@ -24498,6 +24308,10 @@ Calculator: voltage-drop-calculator
     - voltage_drop.info.desc
     - voltage_drop.description
   Missing AR (28):
+    - voltage_drop.options.single_phase
+    - voltage_drop.options.three_phase
+    - voltage_drop.options.copper
+    - voltage_drop.options.aluminum
     - voltage_drop.title
     - voltage_drop.inputs.voltage
     - voltage_drop.tooltips.voltage
@@ -24512,12 +24326,8 @@ Calculator: voltage-drop-calculator
     - voltage_drop.tooltips.wire_size
     - voltage_drop.inputs.phase
     - voltage_drop.tooltips.phase
-    - voltage_drop.options.single_phase
-    - voltage_drop.options.three_phase
     - voltage_drop.inputs.material
     - voltage_drop.tooltips.material
-    - voltage_drop.options.copper
-    - voltage_drop.options.aluminum
     - voltage_drop.results.voltage_drop
     - voltage_drop.results.acceptable
     - voltage_drop.results.unacceptable
@@ -24655,12 +24465,11 @@ Calculator: waist-to-hip-ratio-calculator
 
 Calculator: wall-area-calculator
   Total Keys: 41
-  EN Coverage: 0% (0/41)
-  AR Coverage: 0% (0/41)
-  Missing EN (41):
+  EN Coverage: 2% (1/41)
+  AR Coverage: 2% (1/41)
+  Missing EN (40):
     - wallArea.errors.invalid_dimensions
     - wallArea.errors.positive_values
-    - common:common.errors.calculationError
     - wallArea.unit
     - wallArea.unit_tooltip
     - wallArea.meters
@@ -24699,10 +24508,9 @@ Calculator: wall-area-calculator
     - wallArea.formula
     - wallArea.title
     - wallArea.description
-  Missing AR (41):
+  Missing AR (40):
     - wallArea.errors.invalid_dimensions
     - wallArea.errors.positive_values
-    - common:common.errors.calculationError
     - wallArea.unit
     - wallArea.unit_tooltip
     - wallArea.meters
@@ -24744,15 +24552,14 @@ Calculator: wall-area-calculator
 
 Calculator: wallpaper-calculator
   Total Keys: 61
-  EN Coverage: 2% (1/61)
-  AR Coverage: 2% (1/61)
-  Missing EN (60):
+  EN Coverage: 3% (2/61)
+  AR Coverage: 3% (2/61)
+  Missing EN (59):
     - wallpaper.errors.invalid_dimensions
     - wallpaper.errors.positive_values
     - wallpaper.errors.invalid_roll_size
     - wallpaper.errors.invalid_openings
     - wallpaper.errors.invalid_waste
-    - common:common.errors.calculationError
     - wallpaper.unit
     - wallpaper.unit_tooltip
     - wallpaper.meters
@@ -24807,13 +24614,12 @@ Calculator: wallpaper-calculator
     - wallpaper.formula
     - wallpaper.title
     - wallpaper.description
-  Missing AR (60):
+  Missing AR (59):
     - wallpaper.errors.invalid_dimensions
     - wallpaper.errors.positive_values
     - wallpaper.errors.invalid_roll_size
     - wallpaper.errors.invalid_openings
     - wallpaper.errors.invalid_waste
-    - common:common.errors.calculationError
     - wallpaper.unit
     - wallpaper.unit_tooltip
     - wallpaper.meters
@@ -25007,12 +24813,11 @@ Calculator: water-footprint-calculator
 
 Calculator: water-intake-calculator
   Total Keys: 44
-  EN Coverage: 7% (3/44)
-  AR Coverage: 7% (3/44)
-  Missing EN (41):
+  EN Coverage: 9% (4/44)
+  AR Coverage: 9% (4/44)
+  Missing EN (40):
     - common.errors.invalid
     - water.errors.weight_range
-    - common.errors.calculationError
     - protein.inputs.sedentary
     - protein.inputs.light
     - protein.inputs.moderate
@@ -25051,10 +24856,9 @@ Calculator: water-intake-calculator
     - water.tips.title
     - water.tips.desc
     - water.description
-  Missing AR (41):
+  Missing AR (40):
     - common.errors.invalid
     - water.errors.weight_range
-    - common.errors.calculationError
     - protein.inputs.sedentary
     - protein.inputs.light
     - protein.inputs.moderate
@@ -25189,13 +24993,12 @@ Calculator: water-usage-calculator
 
 Calculator: waterproofing-calculator
   Total Keys: 47
-  EN Coverage: 2% (1/47)
-  AR Coverage: 2% (1/47)
-  Missing EN (46):
+  EN Coverage: 4% (2/47)
+  AR Coverage: 4% (2/47)
+  Missing EN (45):
     - waterproofing.errors.invalid_dimensions
     - waterproofing.errors.positive_values
     - waterproofing.errors.invalid_overlap
-    - common:common.errors.calculationError
     - waterproofing.unit
     - waterproofing.unit_tooltip
     - waterproofing.meters
@@ -25238,11 +25041,10 @@ Calculator: waterproofing-calculator
     - waterproofing.formula
     - waterproofing.title
     - waterproofing.description
-  Missing AR (46):
+  Missing AR (45):
     - waterproofing.errors.invalid_dimensions
     - waterproofing.errors.positive_values
     - waterproofing.errors.invalid_overlap
-    - common:common.errors.calculationError
     - waterproofing.unit
     - waterproofing.unit_tooltip
     - waterproofing.meters
@@ -25711,13 +25513,12 @@ Calculator: win-rate-calculator
 
 Calculator: window-calculator
   Total Keys: 45
-  EN Coverage: 0% (0/45)
-  AR Coverage: 0% (0/45)
-  Missing EN (45):
+  EN Coverage: 4% (2/45)
+  AR Coverage: 4% (2/45)
+  Missing EN (43):
     - window.errors.invalid_dimensions
     - window.errors.positive_values
     - window.errors.opening_too_small
-    - common:common.errors.calculationError
     - window.unit
     - window.unit_tooltip
     - window.mm
@@ -25745,7 +25546,6 @@ Calculator: window-calculator
     - window.result_glass_size
     - window.dimensions
     - window.glass_area
-    - common:common.units.m2
     - window.glass_area_sqft
     - window.sqft
     - window.rough_opening
@@ -25759,11 +25559,10 @@ Calculator: window-calculator
     - window.formula
     - window.title
     - window.description
-  Missing AR (45):
+  Missing AR (43):
     - window.errors.invalid_dimensions
     - window.errors.positive_values
     - window.errors.opening_too_small
-    - common:common.errors.calculationError
     - window.unit
     - window.unit_tooltip
     - window.mm
@@ -25791,7 +25590,6 @@ Calculator: window-calculator
     - window.result_glass_size
     - window.dimensions
     - window.glass_area
-    - common:common.units.m2
     - window.glass_area_sqft
     - window.sqft
     - window.rough_opening
@@ -25811,15 +25609,15 @@ Calculator: wire-gauge-calculator
   EN Coverage: 16% (4/25)
   AR Coverage: 16% (4/25)
   Missing EN (21):
+    - ohms_law.unit_voltage
+    - wire_gauge.material_copper
+    - wire_gauge.material_aluminum
     - wire_gauge.current
     - wire_gauge.enter_current
     - wire_gauge.distance
     - wire_gauge.enter_distance
     - wire_gauge.voltage
-    - ohms_law.unit_voltage
     - wire_gauge.material
-    - wire_gauge.material_copper
-    - wire_gauge.material_aluminum
     - ohms_law.results_title
     - wire_gauge.recommended_gauge
     - wire_gauge.awg_prefix
@@ -25833,15 +25631,15 @@ Calculator: wire-gauge-calculator
     - wire_gauge.description
     - wire_gauge.footer_note
   Missing AR (21):
+    - ohms_law.unit_voltage
+    - wire_gauge.material_copper
+    - wire_gauge.material_aluminum
     - wire_gauge.current
     - wire_gauge.enter_current
     - wire_gauge.distance
     - wire_gauge.enter_distance
     - wire_gauge.voltage
-    - ohms_law.unit_voltage
     - wire_gauge.material
-    - wire_gauge.material_copper
-    - wire_gauge.material_aluminum
     - ohms_law.results_title
     - wire_gauge.recommended_gauge
     - wire_gauge.awg_prefix

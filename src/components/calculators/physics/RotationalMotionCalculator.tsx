@@ -61,13 +61,20 @@ export default function RotationalMotionCalculator() {
   };
 
   const getUnitLabel = (unit: string) => {
+    // Hardcode universal unit symbols that don't need translation
+    const universalUnits: { [key: string]: string } = {
+      'm': 'm',
+      's': 's',
+      'N': 'N',
+      'J': 'J',
+    };
+
+    if (universalUnits[unit]) return universalUnits[unit];
+
+    // Use translation for compound/descriptive units
     const unitKeys: { [key: string]: string } = {
       'm/s': 'rotational_motion.units.m_s',
       'm/s²': 'rotational_motion.units.m_s2',
-      'N': 'rotational_motion.units.N',
-      'J': 'rotational_motion.units.J',
-      'm': 'rotational_motion.units.m',
-      's': 'rotational_motion.units.s',
       'kg·m²/s': 'rotational_motion.units.kg_m2_s',
     };
     return unitKeys[unit] ? t(unitKeys[unit]) : unit;

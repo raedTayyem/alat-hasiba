@@ -83,21 +83,28 @@ export default function EnergyCalculator() {
   };
 
   const getUnitLabel = (unit: string) => {
+    // Hardcode universal unit symbols that don't need translation
+    const universalUnits: { [key: string]: string } = {
+      'kg': 'kg',
+      'g': 'g',
+      'm': 'm',
+      'J': 'J',
+      'km': 'km',
+      'cm': 'cm',
+    };
+
+    if (universalUnits[unit]) return universalUnits[unit];
+
+    // Use translation for descriptive units
     const unitKeys: { [key: string]: string } = {
-      'kg': 'force.units.kg',
-      'g': 'force.units.g',
       'lb': 'force.units.lb',
       'oz': 'force.units.oz',
       'm/s': 'force.units.m_s',
       'km/h': 'force.units.km_h',
       'mph': 'force.units.mph',
       'ft/s': 'force.units.ft_s',
-      'm': 'force.units.m',
-      'km': 'force.units.km',
-      'cm': 'force.units.cm',
       'ft': 'force.units.ft',
       'mi': 'force.units.mi',
-      'J': 'energy.units.J',
       'kJ': 'energy.units.kJ',
       'cal': 'energy.units.cal',
       'kcal': 'energy.units.kcal',

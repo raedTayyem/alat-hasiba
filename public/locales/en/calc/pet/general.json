@@ -240,7 +240,8 @@
         "question": "What perch diameter is best?",
         "answer": "Perches should vary in diameter so the bird's foot doesn't always grip the same way. This prevents foot problems and arthritis."
       }
-    ]
+    ],
+    "error_invalid_birds": "Please enter a valid number of birds"
   },
   "bird-cage-calculator": {
     "title": "Bird Cage Size Calculator",
@@ -663,7 +664,8 @@
         "question": "Do rabbits need exercise outside their cage?",
         "answer": "Yes! Rabbits need 3-4 hours of exercise outside their enclosure daily. A rabbit-proofed room or secure pen works well."
       }
-    ]
+    ],
+    "error_invalid_weight": "Please enter a valid weight"
   },
   "reptile_tank_calculator": {
     "title": "Reptile Tank Calculator - Terrarium Size and Setup",
@@ -800,5 +802,8 @@
         "answer": "Spot clean daily (remove waste and uneaten food). Deep clean monthly, disinfecting surfaces and replacing substrate as needed."
       }
     ]
+  },
+  "hamster_lifespan_calculator": {
+    "error_invalid_age": "Please enter a valid age"
   }
 }

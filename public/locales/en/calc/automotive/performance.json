@@ -1076,5 +1076,8 @@
         "answer": "Heavy vehicles have much more kinetic energy to dissipate when braking. A loaded truck on a steep grade may have 2-3x the stopping distance of a car. Truck escape ramps exist because runaway trucks cannot stop on steep grades."
       }
     ]
+  },
+  "fuel_economy": {
+    "use_case_3": "Plan fuel budgets for trips"
   }
 }

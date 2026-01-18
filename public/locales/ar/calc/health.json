@@ -1,4 +1,5 @@
 {
+  "0": "0",
   "bmi-calculator": {
     "title": "حاسبة مؤشر كتلة الجسم - احسب BMI أونلاين",
     "description": "احسب مؤشر كتلة الجسم لمعرفة ما إذا كان وزنك صحياً. حاسبة BMI مجانية مع توصيات صحية وجداول تفصيلية.",
@@ -597,7 +598,11 @@
     },
     "errors": {
       "all_fields": "الرجاء إدخال الطول والوزن",
-      "positive": "الرجاء إدخال قيم صحيحة أكبر من صفر"
+      "positive": "الرجاء إدخال قيم صحيحة أكبر من صفر",
+      "empty_state": {
+        "title": "احسب مؤشر كتلة الجسم",
+        "subtitle": "أدخل وزنك وطولك للبدء"
+      }
     },
     "empty_state": {
       "title": "أدخل بياناتك لتبدأ",
@@ -1036,7 +1041,11 @@
         "question": "كم مرة يجب أن أقيس نسبة الدهون؟",
         "answer": "مرة كل 4-6 أسابيع كافية. القياس المتكرر قد يكون محبطاً لأن التغييرات تحدث ببطء."
       }
-    ]
+    ],
+    "about": {
+      "title": "العنوان",
+      "desc": "Desc"
+    }
   },
   "macro": {
     "title": "حاسبة المغذيات الكبرى (Macros)",
@@ -1256,7 +1265,10 @@
         "question": "هل زيادة الوزن الموصى بها تنطبق على الجميع؟",
         "answer": "التوصيات تختلف حسب وزنك قبل الحمل. استشيري طبيبتك للحصول على توصيات مخصصة لحالتك."
       }
-    ]
+    ],
+    "error": {
+      "calculationError": "حدث خطأ أثناء الحساب"
+    }
   },
   "protein": {
     "title": "حاسبة البروتين",
@@ -1272,7 +1284,8 @@
       "athlete": "رياضي",
       "goal_lose": "خسارة الوزن",
       "goal_maintain": "المحافظة على الوزن",
-      "goal_gain": "زيادة الكتلة العضلية"
+      "goal_gain": "زيادة الكتلة العضلية",
+      "weight": "الوزن"
     },
     "tooltips": {
       "weight": "وزن الجسم الحالي بالكيلوجرام",
@@ -1375,7 +1388,12 @@
         "question": "هل أحتاج مكملات البروتين؟",
         "answer": "ليست ضرورية إذا كان نظامك الغذائي متوازناً. المكملات مفيدة للرياضيين المحترفين أو من يصعب عليهم تلبية احتياجاتهم من الطعام."
       }
-    ]
+    ],
+    "calorie": {
+      "results": {
+        "calories": "Calories"
+      }
+    }
   },
   "water": {
     "title": "حاسبة احتياج الماء",
@@ -1388,7 +1406,8 @@
       "climate_very_hot": "حار جداً"
     },
     "tooltips": {
-      "climate": "درجة الحرارة تؤثر بشكل كبير على فقدان السوائل"
+      "climate": "درجة الحرارة تؤثر بشكل كبير على فقدان السوائل",
+      "weight": "الوزن"
     },
     "results": {
       "daily_recommendation": "التوصية اليومية لشرب الماء",
@@ -1743,7 +1762,26 @@
         "question": "هل الوتيرة تختلف حسب أسلوب السباحة؟",
         "answer": "نعم، الفراشة والصدر أبطأ من الحرة والظهر. قارن وتيرتك بنفس الأسلوب دائماً."
       }
-    ]
+    ],
+    "distance": "المسافة",
+    "distance_tooltip": "المسافة تلميح",
+    "enter_distance": "أدخل المسافة",
+    "minutes": "Minutes",
+    "minutes_tooltip": "minutes تلميح",
+    "enter_minutes": "أدخل minutes",
+    "seconds": "Seconds",
+    "seconds_tooltip": "seconds تلميح",
+    "enter_seconds": "أدخل seconds",
+    "calculate_btn": "احسب btn",
+    "reset_btn": "Reset Btn",
+    "results_title": "النتائج العنوان",
+    "pace_100m": "Pace 100m",
+    "min_100m": "Min 100m",
+    "speed_mps": "السرعة mps",
+    "tips_title": "tips العنوان",
+    "tips_desc": "Tips Desc",
+    "empty_state": "Empty State",
+    "footer_note": "Footer Note"
   },
   "weight_gain": {
     "title": "حاسبة زيادة الوزن",
@@ -1870,5 +1908,203 @@
       "desc": "تقدر هذه الحاسبة قوة الدراجة بناءً على وزنك وسرعتك وميل الطريق. نسبة القوة إلى الوزن مقياس رئيسي لأداء الدراجات.",
       "note": "هذا تقدير تقريبي. القوة الفعلية قد تختلف بناءً على نوع الدراجة ووضعية الركوب والرياح وعوامل أخرى."
     }
+  },
+  "common:common": {
+    "units": {
+      "kg": "Kجرام",
+      "g": "G"
+    }
+  },
+  "common": {
+    "errors": {
+      "calculationError": "الحساب خطأ",
+      "invalid": "Invalid",
+      "positiveNumber": "Positive الرقم"
+    },
+    "placeholders": {
+      "enterValue": "أدخل القيمة"
+    },
+    "calculate": "احسب",
+    "reset": "إعادة تعيين",
+    "info": "معلومات",
+    "formula": "الشكلula",
+    "time": "الوقت",
+    "second": "الثانية",
+    "distance": "المسافة",
+    "minute": "الدقيقة",
+    "male": "Male",
+    "female": "Feمale"
+  },
+  "ohms_law": {
+    "watts": "Watts"
+  },
+  "common:units": {
+    "kg": "Kجرام"
+  },
+  "T": "T",
+  "calc/converters:speed": {
+    "units": {
+      "meters_per_second": "Meters Per الثانية"
+    }
+  },
+  "m": "M",
+  "calc/converters:length": {
+    "units": {
+      "meter": "Meter",
+      "yard": "Yard"
+    }
+  },
+  "calculators": {
+    "swimming_pace": "Swiممبوصةجرام Pace"
+  },
+  "race_time_predictor": {
+    "calculators": {
+      "invalid_input": "غير صالح الإدخال"
+    },
+    "race_predictor": {
+      "distances": {
+        "5k": "5k",
+        "10k": "10k",
+        "half": "Half",
+        "marathon": "Marathon"
+      },
+      "race_distance": "race المسافة",
+      "race_distance_tooltip": "race المسافة تلميح",
+      "enter_distance": "أدخل المسافة",
+      "race_time": "race الوقت",
+      "race_time_tooltip": "race الوقت تلميح",
+      "enter_time": "أدخل الوقت",
+      "target_distance": "target المسافة",
+      "target_distance_tooltip": "target المسافة تلميح",
+      "calculate_btn": "احسب btn",
+      "reset_btn": "Reset Btn",
+      "results_title": "النتائج العنوان",
+      "predicted_time": "predicted الوقت",
+      "pace": "Pace",
+      "per_km": "Per Km",
+      "all_predictions": "All Predictions",
+      "tips_title": "tips العنوان",
+      "tip_train": "Tip Train",
+      "empty_state": "Empty State",
+      "title": "العنوان",
+      "description": "الوصف",
+      "footer_note": "Footer Note"
+    }
+  },
+  "recovery_time": {
+    "rec_short": "Rec Short",
+    "rec_medium": "Rec Medium",
+    "rec_long": "Rec Long",
+    "muscles": {
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large"
+    },
+    "intensities": {
+      "light": "Light",
+      "moderate": "Moderate",
+      "intense": "Intense"
+    },
+    "experiences": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "muscle_group": "Muscle Group",
+    "muscle_group_tooltip": "muscle group تلميح",
+    "intensity": "Intensity",
+    "intensity_tooltip": "intensity تلميح",
+    "experience": "Experience",
+    "experience_tooltip": "experience تلميح",
+    "calculate_btn": "احسب btn",
+    "reset_btn": "Reset Btn",
+    "results_title": "النتائج العنوان",
+    "recovery_range": "recovery النطاق",
+    "status": "Status",
+    "factors_title": "factors العنوان",
+    "factors_desc": "Factors Desc",
+    "empty_state": "Empty State",
+    "title": "العنوان",
+    "description": "الوصف",
+    "footer_note": "Footer Note"
+  },
+  "rep_range": {
+    "rep_range_calculator": {
+      "rest_times": {
+        "strength": "Strength",
+        "power": "القدرة",
+        "hypertrophy": "Hypertrophy",
+        "endurance": "Endurance",
+        "label": "Label"
+      },
+      "goals": {
+        "strength": "Strength",
+        "power": "القدرة",
+        "hypertrophy": "Hypertrophy",
+        "endurance": "Endurance"
+      },
+      "goal": "Goal",
+      "goal_tooltip": "goal تلميح",
+      "one_rm": "One Rm",
+      "one_rm_tooltip": "one rm تلميح",
+      "enter_weight": "أدخل الوزن",
+      "calculate_btn": "احسب btn",
+      "reset_btn": "Reset Btn",
+      "results_title": "النتائج العنوان",
+      "reps": "Reps",
+      "sets": "Sets",
+      "weight": "الوزن",
+      "empty_state": "Empty State",
+      "title": "العنوان",
+      "description": "الوصف",
+      "footer_note": "Footer Note"
+    }
+  },
+  "tdee": {
+    "calorie": {
+      "inputs": {
+        "male": "Male",
+        "female": "Female",
+        "activity": {
+          "sedentary": "Sedentary",
+          "light": "Light",
+          "moderate": "Moderate",
+          "active": "Active",
+          "very_active": "Very Active"
+        },
+        "gender": "Gender",
+        "age": "Age",
+        "weight": "الوزن",
+        "height": "الارتفاع",
+        "activity_level": "Activity Level"
+      },
+      "tooltips": {
+        "gender": "Gender",
+        "age": "Age",
+        "weight": "الوزن",
+        "height": "الارتفاع",
+        "activity": "Activity"
+      },
+      "results": {
+        "bmr": "Bmr",
+        "calories": "Calories"
+      }
+    },
+    "tdee_value": "tdee القيمة",
+    "maintenance_calories": "Maintenance Calories",
+    "weight_loss_goals": "الوزن الخسارة goals",
+    "mild_loss": "mild الخسارة",
+    "normal_loss": "normal الخسارة",
+    "extreme_loss": "extreme الخسارة",
+    "weight_gain_goals": "الوزن gain goals",
+    "mild_gain": "Mild Gain",
+    "normal_gain": "Normal Gain",
+    "extreme_gain": "Extreme Gain",
+    "about_title": "about العنوان",
+    "about_desc": "About Desc",
+    "empty_state": "Empty State",
+    "title": "العنوان",
+    "description": "الوصف",
+    "footer_note": "Footer Note"
   }
 }

@@ -1,4 +1,8 @@
 {
+  "1": {
+    "0": "0"
+  },
+  "20": "20",
   "advanced_mortgage_calculator": {
     "title": "حاسبة القروض العقارية المتقدمة",
     "description": "احسب أقساط الرهن العقاري الشهرية وجدول الاستهلاك.",
@@ -177,7 +181,9 @@
         "question": "كيف أحسب صافي الدخل التشغيلي؟",
         "answer": "صافي الدخل = إجمالي الإيجار - مصاريف التشغيل (صيانة، ضرائب، تأمين، إدارة)."
       }
-    ]
+    ],
+    "invalid_input": "مدخلات غير صحيحة. الرجاء التحقق من القيم.",
+    "calculation_error": "حدث خطأ أثناء الحساب"
   },
   "capital_gains_tax_calculator": {
     "title": "حاسبة ضريبة أرباح رأس المال",
@@ -397,7 +403,9 @@
         "question": "كيف أقلل من تكاليف الإغلاق؟",
         "answer": "قارن العروض، تفاوض على الرسوم، واطلب من البائع المساهمة."
       }
-    ]
+    ],
+    "invalid_input": "مدخلات غير صحيحة. الرجاء التحقق من القيم.",
+    "calculation_error": "حدث خطأ أثناء الحساب"
   },
   "commercial_property_calculator": {
     "title": "حاسبة العقارات التجارية",
@@ -510,7 +518,8 @@
         "question": "أيهما أفضل للمقارنة: المتر أم القدم المربع؟",
         "answer": "استخدم الوحدة السائدة في منطقتك للمقارنة الأسهل."
       }
-    ]
+    ],
+    "enter_value_4": "أدخل القيمة"
   },
   "debt_to_income_ratio_calculator": {
     "title": "حاسبة نسبة الدين للدخل",
@@ -928,7 +937,13 @@
         "question": "هل تشمل النتيجة الضرائب والتأمين؟",
         "answer": "يعتمد على الحاسبة. تأكد من احتسابها عند الشراء الفعلي."
       }
-    ]
+    ],
+    "dti_ratio": "نسبة الدين إلى الدخل",
+    "tip_dti": "استهدف نسبة الدين إلى الدخل أقل من 43% لفرص أفضل في الموافقة على القرض",
+    "tip_down_payment": "دفعة مقدمة بنسبة 20% تساعد على تجنب تأمين الرهن العقاري الخاص (PMI)",
+    "tip_emergency": "احتفظ بصندوق طوارئ يغطي 3-6 أشهر من النفقات",
+    "tip_costs": "ضع ميزانية للضرائب العقارية والتأمين وتكاليف الصيانة",
+    "tip_pre_approval": "احصل على موافقة مسبقة للرهن العقاري قبل البحث عن منزل"
   },
   "home_equity_calculator": {
     "title": "حاسبة حقوق الملكية المنزلية",
@@ -1115,7 +1130,9 @@
         "question": "ماذا عن المنازل الجديدة؟",
         "answer": "تحتاج صيانة أقل في البداية، لكن وفر للمستقبل عندما تنتهي الضمانات."
       }
-    ]
+    ],
+    "enter_value_4": "أدخل القيمة",
+    "calc_726": "حاسبة تكلفة صيانة المنزل"
   },
   "home_value_estimator": {
     "title": "مقدر قيمة المنزل",
@@ -1568,7 +1585,8 @@
         "question": "كم مرة تُقيّم الضرائب؟",
         "answer": "يختلف حسب المنطقة، عادة سنوياً أو كل 2-3 سنوات."
       }
-    ]
+    ],
+    "details": "Details"
   },
   "real_estate_roi_calculator": {
     "title": "حاسبة العائد على الاستثمار العقاري",
@@ -1879,7 +1897,8 @@
         "question": "هل العائد المرتفع أفضل دائماً؟",
         "answer": "ليس بالضرورة. قد يعني مشاكل في العقار أو الموقع."
       }
-    ]
+    ],
+    "details": "Details"
   },
   "security_deposit_calculator": {
     "title": "حاسبة التأمين الإيجاري",
@@ -2400,5 +2419,165 @@
     "tip_80": "Tip 80",
     "tip_risk": "Tip Risk",
     "tip_equity": "Tip Equity"
+  },
+  "calculators": {
+    "invalid_input": "Invalid إدخال",
+    "calculation_error": "الحساب خطأ",
+    "enter_201": "أدخل 201",
+    "calc_726": "Calc 726",
+    "calc_a30e2b7a": "Calc A30e2b7a",
+    "calc_a2d73026": "Calc A2d73026",
+    "enter_value_4": "أدخل القيمة 4",
+    "calc_68c122c6": "Calc 68c122c6"
+  },
+  "common:common": {
+    "units": {
+      "ft": "Ft"
+    },
+    "currencySymbol": "Currency Syمbol"
+  },
+  "property_tax": {
+    "calculators": {
+      "invalid_input": "غير صالح الإدخال",
+      "calculation_error": "calculation خطأ"
+    },
+    "property_tax_calculator": {
+      "positive_values": "موجب values",
+      "title": "العنوان",
+      "assessed_value": "assessed القيمة",
+      "assessed_value_tooltip": "assessed القيمة تلميح",
+      "tax_rate": "الضريبة المعدل",
+      "tax_rate_tooltip": "الضريبة المعدل تلميح",
+      "years": "Years",
+      "years_tooltip": "years تلميح",
+      "calculate_btn": "احسب btn",
+      "reset_btn": "Reset Btn",
+      "info_title": "معلومات العنوان",
+      "info_description": "معلومات الوصف",
+      "use_cases_title": "use cases العنوان",
+      "use_case_1": "Use Case 1",
+      "use_case_2": "Use Case 2",
+      "use_case_3": "Use Case 3",
+      "annual_tax_label": "annual الضريبة label",
+      "per_year": "per سنة",
+      "details": "Details",
+      "monthly_escrow": "Monthly Escrow",
+      "effective_rate": "effective المعدل",
+      "total_over_years": "الإجمالي over years",
+      "formula_title": "الصيغة العنوان",
+      "formula_explanation": "الصيغة explanation",
+      "description": "الوصف"
+    }
+  },
+  "rent_vs_buy": {
+    "calculators": {
+      "invalid_input": "غير صالح الإدخال",
+      "calculation_error": "calculation خطأ"
+    },
+    "rent_vs_buy_calculator": {
+      "price_required": "السعر مطلوب",
+      "rent_required": "rent مطلوب",
+      "down_payment_range": "down الدفع النطاق",
+      "interest_rate_range": "الفائدة المعدل النطاق",
+      "loan_term_range": "loan term النطاق",
+      "recommend_rent": "Recommend Rent",
+      "recommend_buy_short": "Recommend Buy Short",
+      "recommend_buy_long": "Recommend Buy Long",
+      "title": "العنوان",
+      "buying_section": "Buying Section",
+      "home_price": "home السعر",
+      "price_tooltip": "السعر تلميح",
+      "down_payment": "down الدفع",
+      "down_payment_tooltip": "down الدفع تلميح",
+      "interest_rate": "الفائدة المعدل",
+      "interest_tooltip": "الفائدة تلميح",
+      "loan_term": "Loan Term",
+      "loan_term_tooltip": "loan term تلميح",
+      "property_tax_rate": "property الضريبة المعدل",
+      "property_tax_tooltip": "property الضريبة تلميح",
+      "home_insurance": "Home Insurance",
+      "home_insurance_tooltip": "home insurance تلميح",
+      "hoa_fees": "Hoa Fees",
+      "hoa_tooltip": "hoa تلميح",
+      "maintenance_rate": "maintenance المعدل",
+      "maintenance_tooltip": "maintenance تلميح",
+      "appreciation_rate": "appreciation المعدل",
+      "appreciation_tooltip": "appreciation تلميح",
+      "renting_section": "Renting Section",
+      "monthly_rent": "Monthly Rent",
+      "rent_tooltip": "rent تلميح",
+      "rent_increase_rate": "rent increase المعدل",
+      "rent_increase_tooltip": "rent increase تلميح",
+      "renters_insurance": "Renters Insurance",
+      "renters_insurance_tooltip": "renters insurance تلميح",
+      "investment_return": "الاستثمار return",
+      "investment_tooltip": "الاستثمار تلميح",
+      "calculate_btn": "احسب btn",
+      "reset_btn": "Reset Btn",
+      "info_title": "معلومات العنوان",
+      "info_description": "معلومات الوصف",
+      "use_cases_title": "use cases العنوان",
+      "use_case_1": "Use Case 1",
+      "use_case_2": "Use Case 2",
+      "use_case_3": "Use Case 3",
+      "monthly_comparison": "Monthly Comparison",
+      "buying": "Buying",
+      "renting": "Renting",
+      "breakeven_title": "breakeven العنوان",
+      "no_breakeven": "No Breakeven",
+      "recommendation_title": "recommendation العنوان",
+      "cost_over_time": "التكلفة over الوقت",
+      "after_5_years": "After 5 Years",
+      "buying_cost": "buying التكلفة",
+      "renting_cost": "renting التكلفة",
+      "net_difference": "Net Difference",
+      "after_10_years": "After 10 Years",
+      "after_15_years": "After 15 Years",
+      "monthly_breakdown": "Monthly Breakdown",
+      "mortgage_payment": "mortgage الدفع",
+      "property_tax": "property الضريبة",
+      "insurance": "Insurance",
+      "maintenance": "Maintenance",
+      "formula_title": "الصيغة العنوان",
+      "formula_explanation": "الصيغة explanation",
+      "description": "الوصف"
+    }
+  },
+  "rental_yield": {
+    "calculators": {
+      "invalid_input": "غير صالح الإدخال",
+      "calculation_error": "calculation خطأ"
+    },
+    "rental_yield_calculator": {
+      "price_required": "السعر مطلوب",
+      "rent_positive": "rent موجب",
+      "expenses_positive": "expenses موجب",
+      "title": "العنوان",
+      "property_price": "property السعر",
+      "property_price_tooltip": "property السعر تلميح",
+      "monthly_rent": "Monthly Rent",
+      "monthly_rent_tooltip": "monthly rent تلميح",
+      "annual_expenses": "Annual Expenses",
+      "annual_expenses_tooltip": "annual expenses تلميح",
+      "calculate_btn": "احسب btn",
+      "reset_btn": "Reset Btn",
+      "info_title": "معلومات العنوان",
+      "info_description": "معلومات الوصف",
+      "use_cases_title": "use cases العنوان",
+      "use_case_1": "Use Case 1",
+      "use_case_2": "Use Case 2",
+      "use_case_3": "Use Case 3",
+      "gross_yield_label": "Gross Yield Label",
+      "annual_income_label": "annual الدخل label",
+      "details": "Details",
+      "net_yield": "Net Yield",
+      "annual_rent": "Annual Rent",
+      "net_annual_income": "net annual الدخل",
+      "monthly_net_income": "monthly net الدخل",
+      "expense_ratio": "المصروف ratio",
+      "formula_title": "الصيغة العنوان",
+      "formula_explanation": "الصيغة explanation",
+      "description": "الوصف"
+    }
   }
 }

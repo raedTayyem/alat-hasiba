@@ -688,7 +688,8 @@
     "tips_title": "Weight Loss Tips",
     "tips_list": "Aim for 0.5-1 kg per week for sustainable weight loss, combine diet and exercise for best results, stay hydrated and get adequate sleep, consult a healthcare professional before starting any weight loss program",
     "empty_state": "Enter your weight details to calculate timeline",
-    "footer_note": "Results are estimates. Individual results may vary based on metabolism and lifestyle."
+    "footer_note": "Results are estimates. Individual results may vary based on metabolism and lifestyle.",
+    "enter_weight": "Enter Weight"
   },
   "one-rep-max-calculator": {
     "title": "One Rep Max (1RM) Calculator - Free Strength Tool",
@@ -1962,7 +1963,9 @@
     },
     "errors": {
       "all_fields": "Please fill in all required fields",
-      "age_range": "Age must be between 1 and 120 years"
+      "age_range": "Age must be between 1 and 120 years",
+      "weight_positive": "Weight Positive",
+      "height_positive": "Height Positive"
     },
     "results": {
       "bmr": "Basal Metabolic Rate (BMR)",
@@ -3478,7 +3481,9 @@
         "question": "Does stroke type affect pace?",
         "answer": "Yes. For most swimmers: freestyle is fastest, followed by backstroke, then breaststroke, with butterfly being demanding but fast for short distances."
       }
-    ]
+    ],
+    "tips_title": "Swimming Tips",
+    "tips_desc": "Maintain consistent pace, proper breathing, and efficient stroke technique for best results."
   },
   "waist_hip_ratio": {
     "title": "Waist-to-Hip Ratio Calculator",
@@ -3756,7 +3761,9 @@
         "question": "When should I reduce volume?",
         "answer": "When experiencing persistent fatigue, declining performance, or every 4-6 weeks as a planned deload."
       }
-    ]
+    ],
+    "empty_state": "Add exercises to calculate total workout volume",
+    "footer_note": "Track your volume over time to monitor progress and avoid overtraining."
   },
   "weight_loss_time": {
     "title": "Weight Loss Time Calculator",
@@ -4119,7 +4126,8 @@
         "question": "Can I mix rep ranges in one workout?",
         "answer": "Yes, starting with heavy compounds (low reps) and finishing with isolation exercises (higher reps) is an effective strategy."
       }
-    ]
+    ],
+    "footer_note": "Footer Note"
   },
   "training_age": {
     "title": "Training Age Calculator",
@@ -4200,7 +4208,19 @@
         "question": "Can a beginner use advanced programs?",
         "answer": "Not recommended. Beginners progress faster with simpler programs and would not benefit from the complexity."
       }
-    ]
+    ],
+    "consistency_levels": {
+      "moderate": "Moderate",
+      "high": "High",
+      "low": "Low"
+    },
+    "consistency": "Consistency",
+    "tips_title": "Tips Title",
+    "adjusted_age": "Adjusted Age",
+    "footer_note": "Footer Note",
+    "tip_plan": "Tip Plan",
+    "actual_time": "ACtual Time",
+    "consistency_tooltip": "Consistency Tooltip"
   },
   "water-intake-calculator": {
     "title": "Water Intake Calculator - Daily Hydration Needs",
@@ -4309,5 +4329,53 @@
       "title": "Hydration Tips",
       "desc": "Drink water consistently throughout the day, not all at once. Increase intake during hot weather, exercise, or illness. Urine color can indicate hydration level - aim for pale yellow."
     }
+  },
+  "common": {
+    "calculate": "Calculate",
+    "reset": "Reset",
+    "placeholders": {
+      "enterValue": "Enter Value"
+    },
+    "needs_improvement": "Needs Improvement",
+    "errors": {
+      "invalid": "Invalid",
+      "calculationError": "Calculation Error",
+      "positiveNumber": "Positive Number"
+    },
+    "results": "Results"
+  },
+  "common:common": {
+    "units": {
+      "kg": "Kg",
+      "percent": "Percent",
+      "W": "W",
+      "g": "G",
+      "s": "S",
+      "m": "M",
+      "months": "Months",
+      "years": "Years",
+      "cm": "Cm"
+    },
+    "days": "Days"
+  },
+  "0": "0",
+  "water_footprint": {
+    "enter_minutes": "Enter Minutes"
+  },
+  "protein": {
+    "inputs": {
+      "activity_level": "ACtivity Level",
+      "moderate": "Moderate",
+      "light": "Light",
+      "sedentary": "Sedentary",
+      "active": "ACtive",
+      "very_active": "Very ACtive"
+    },
+    "tooltips": {
+      "activity": "ACtivity"
+    }
+  },
+  "calculators": {
+    "invalid_input": "Invalid Input"
   }
 }

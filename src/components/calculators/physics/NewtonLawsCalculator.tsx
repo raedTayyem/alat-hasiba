@@ -60,14 +60,21 @@ export default function NewtonLawsCalculator() {
   };
 
   const getUnitLabel = (unit: string) => {
+    // Hardcode universal unit symbols that don't need translation
+    const universalUnits: { [key: string]: string } = {
+      'kg': 'kg',
+      'g': 'g',
+      'mg': 'mg',
+      'N': 'N',
+    };
+
+    if (universalUnits[unit]) return universalUnits[unit];
+
+    // Use translation for descriptive units
     const unitKeys: { [key: string]: string } = {
-      'kg': 'force.units.kg',
-      'g': 'force.units.g',
-      'mg': 'force.units.mg',
       'lb': 'force.units.lb',
       'oz': 'force.units.oz',
       'ton': 'force.units.ton',
-      'N': 'force.units.N',
       'kN': 'force.units.kN',
       'lbf': 'force.units.lbf',
       'dyne': 'force.units.dyne',

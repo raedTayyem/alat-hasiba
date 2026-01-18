@@ -445,7 +445,14 @@
     "errors": {
       "invalid": "Please enter a valid number",
       "positive": "Value must be greater than zero",
-      "calculation": "An error occurred during calculation"
+      "calculation": "An error occurred during calculation",
+      "initial_amount_positive": "Initial Amount Positive",
+      "elapsed_time_non_negative": "Elapsed Time Non Negative",
+      "enter_half_life": "Enter Half Life",
+      "calculation_error": "Calculation Error",
+      "enter_initial_amount": "Enter Initial Amount",
+      "enter_elapsed_time": "Enter Elapsed Time",
+      "half_life_positive": "Half Life Positive"
     },
     "results": {
       "label": "Results",
@@ -454,7 +461,9 @@
       "percentage_remaining": "Percentage Remaining",
       "percentage_decayed": "Percentage Decayed",
       "half_lives_elapsed": "Half-Lives Elapsed",
-      "decayed_amount": "Decayed Amount"
+      "decayed_amount": "Decayed Amount",
+      "decay_progress": "Decay Progress",
+      "remaining": "Remaining Amount"
     },
     "info": {
       "title": "About Half-Life",
@@ -521,7 +530,25 @@
     "tooltips": {
       "initial_amount": "The starting quantity of the substance before decay",
       "half_life_period": "The time required for half of the substance to decay",
-      "elapsed_time": "The total time that has passed since the start"
+      "elapsed_time": "The total time that has passed since the start",
+      "half_life": "Half Life"
+    },
+    "inputs": {
+      "elapsed_time": "Elapsed Time",
+      "half_life_unit": "Half Life Unit",
+      "half_life": "Half Life",
+      "elapsed_time_unit": "Elapsed Time Unit",
+      "initial_amount": "Initial Amount"
+    },
+    "units": {
+      "hours": "Hours",
+      "years": "Years",
+      "seconds": "Seconds",
+      "minutes": "Minutes",
+      "days": "Days"
+    },
+    "formulas": {
+      "main": "Main"
     }
   },
   "molar_mass": {
@@ -612,5 +639,51 @@
         "answer": "Atomic masses are weighted averages of all naturally occurring isotopes of each element. They're determined experimentally and listed on the periodic table."
       }
     ]
+  },
+  "common": {
+    "info": "Info"
+  },
+  "years": "Years",
+  "ph": {
+    "ph_calculator": {
+      "errors": {
+        "enter_value": "Enter Value",
+        "concentration_positive": "Concentration Positive",
+        "ph_range": "Ph Range",
+        "poh_range": "Poh Range",
+        "calculation_error": "Calculation Error"
+      },
+      "modes": {
+        "pH_from_H": "P H From  H",
+        "H_from_pH": "H From P H",
+        "pOH_from_OH": "P O H From  O H",
+        "OH_from_pOH": "O H From P O H"
+      },
+      "inputs": {
+        "h_concentration": "H Concentration",
+        "pH": "P H",
+        "oh_concentration": "Oh Concentration",
+        "pOH": "P O H"
+      },
+      "tooltips": {
+        "h_concentration": "H Concentration",
+        "pH": "P H",
+        "oh_concentration": "Oh Concentration",
+        "pOH": "P O H"
+      },
+      "title": "Title",
+      "formulas": {
+        "ph": "Ph",
+        "ph_desc": "Ph Desc"
+      },
+      "results": {
+        "solution_type": "Solution Type",
+        "pH": "P H",
+        "pOH": "P O H",
+        "h_concentration": "H Concentration",
+        "oh_concentration": "Oh Concentration"
+      },
+      "description": "Description"
+    }
   }
 }

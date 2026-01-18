@@ -225,7 +225,8 @@
         "question": "Is higher yield always better?",
         "answer": "Not necessarily. It may indicate problems with the property or location."
       }
-    ]
+    ],
+    "details": "Details"
   },
   "security_deposit_calculator": {
     "title": "Security Deposit Calculator",

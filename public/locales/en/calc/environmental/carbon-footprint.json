@@ -757,7 +757,8 @@
       "high": "High Usage",
       "sustainable": "Sustainable/Minimal",
       "conscious": "Conscious Consumer",
-      "excessive": "High Consumption"
+      "excessive": "High Consumption",
+      "meat_heavy": "Meat Heavy"
     },
     "ratings": {
       "excellent": "Excellent",

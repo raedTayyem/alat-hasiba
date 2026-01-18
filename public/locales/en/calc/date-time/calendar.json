@@ -952,7 +952,8 @@
     "error_year_range": "Year must be between 3761 and 12000",
     "error_month_range": "Month must be between 1 and {{maxMonth}}",
     "error_day_range": "Day must be between 1 and {{daysInMonth}}",
-    "error_conversion": "Error converting date. Please try again."
+    "error_conversion": "Error converting date. Please try again.",
+    "result_note": "Note: Hebrew calendar conversions may vary slightly depending on the calculation method"
   },
   "holy-week-traditions": {
     "title": "Holy Week Traditions",

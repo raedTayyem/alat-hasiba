@@ -107,7 +107,18 @@
         "question": "Should I use diesel or biodiesel?",
         "answer": "Modern tractors can typically use B20 (20% biodiesel blend) without modifications. Biodiesel may slightly reduce power but provides similar fuel economy and lower emissions."
       }
-    ]
+    ],
+    "error_positive_required": "Error Positive Required",
+    "result_label": "Result Label",
+    "info_description": "Info Description",
+    "error_price_negative": "Error Price Negative",
+    "efficiency_good": "Efficiency Good",
+    "efficiency_excellent": "Efficiency Excellent",
+    "info_title": "Info Title",
+    "efficiency_fair": "Efficiency Fair",
+    "units": {
+      "currencySymbol": "Currency Symbol"
+    }
   },
   "irrigation": {
     "title": "Irrigation Calculator",
@@ -555,7 +566,8 @@
         "question": "How do I prevent pesticide resistance?",
         "answer": "Rotate between different modes of action (chemical classes), use integrated pest management, apply at labeled rates, and avoid treating the same area repeatedly with the same product."
       }
-    ]
+    ],
+    "error_concentration_range": "Error Concentration Range"
   },
   "fertilizer": {
     "title": "Fertilizer Calculator",
@@ -643,7 +655,10 @@
         "question": "Do soybeans need nitrogen fertilizer?",
         "answer": "Generally no - soybeans fix their own nitrogen through root nodule bacteria. However, they do need adequate P and K. In some cases, a small starter N application (20-30 lbs) may help early growth."
       }
-    ]
+    ],
+    "error_soil_negative": "Soil values cannot be negative",
+    "note_title": "Important Note",
+    "note_description": "These are general recommendations. Consult with agricultural experts for specific soil conditions."
   },
   "seed_rate": {
     "title": "Seed Rate Calculator",
@@ -796,5 +811,9 @@
     "analysis_positive_roi": "Your ROI of {{roi}}% indicates a good return on your investment.",
     "info_title": "About Farm Profit Calculator",
     "info_description": "This calculator helps you analyze your farm's financial performance by calculating net profit, profit margins, and return on investment. Enter your revenue sources and operating costs to get a comprehensive profitability analysis."
-  }
+  },
+  "common:units": {
+    "currencySymbol": "Currency Symbol"
+  },
+  "acres": "ACres"
 }

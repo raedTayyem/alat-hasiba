@@ -63,21 +63,28 @@ export default function PowerElectricityCalculator() {
   };
 
   const getUnitLabel = (unit: string) => {
+    // Hardcode universal unit symbols that don't need translation
+    const universalUnits: { [key: string]: string } = {
+      's': 's',
+      'h': 'h',
+      'W': 'W',
+      'J': 'J',
+      'N': 'N',
+      'V': 'V',
+      'A': 'A',
+      'Ω': 'Ω',
+    };
+
+    if (universalUnits[unit]) return universalUnits[unit];
+
+    // Use translation for descriptive units
     const unitKeys: { [key: string]: string } = {
-      's': 'common.second',
       'min': 'common.minute',
-      'h': 'common.hour',
-      'W': 'power.units.W',
       'kW': 'power.units.kW',
       'MW': 'power.units.MW',
       'hp': 'power.units.hp',
       'BTU/h': 'power.units.BTU_h',
-      'J': 'power.units.J',
-      'N': 'power.units.N',
       'm/s': 'power.units.m_s',
-      'V': 'power.units.V',
-      'A': 'power.units.A',
-      'Ω': 'power.units.ohm',
     };
     return unitKeys[unit] ? t(unitKeys[unit]) : unit;
   };

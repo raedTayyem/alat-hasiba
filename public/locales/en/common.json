@@ -44,7 +44,9 @@
     "other": "Other",
     "loading": "Loading...",
     "loadingCalculator": "Loading calculator",
-    "error": "Error",
+    "error": {
+      "invalid_input": "Invalid input"
+    },
     "success": "Success",
     "warning": "Warning",
     "needs_improvement": "Needs Improvement",
@@ -162,7 +164,12 @@
       "MPa": "MPa",
       "ms": "ms",
       "mph": "mph",
-      "kmh": "km/h"
+      "kmh": "km/h",
+      "m3": "m³",
+      "m2": "m²",
+      "s": "s",
+      "h": "h",
+      "min": "min"
     },
     "calendar": {
       "days": {
@@ -184,7 +191,12 @@
     "actions": {
       "increase": "Increase",
       "decrease": "Decrease"
-    }
+    },
+    "errors": {
+      "calculationError": "An error occurred during calculation"
+    },
+    "formula": "Formula",
+    "currencySymbol": "$"
   },
   "breadcrumbs": {
     "home": "Home",
@@ -243,7 +255,8 @@
   },
   "calculators": {
     "invalid_input": "Invalid input. Please check your values.",
-    "calculation_error": "An error occurred during calculation"
+    "calculation_error": "An error occurred during calculation",
+    "calc_494": "Calculus Calculator"
   },
   "affiliate": {
     "learnMore": "Learn More",
@@ -564,7 +577,17 @@
     "mm_squared": "mm²",
     "MPa": "MPa",
     "mph": "mph",
-    "kmh": "km/h"
+    "kmh": "km/h",
+    "s": "s",
+    "h": "h",
+    "min": "min",
+    "m2": "m²",
+    "m3": "m³",
+    "sqft": "sq ft",
+    "fahrenheit": "°F",
+    "mixed": "mixed",
+    "tablespoon": "tbsp",
+    "metric": "metric"
   },
   "plus_sign": "+",
   "copy": "Copy",

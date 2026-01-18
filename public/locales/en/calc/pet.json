@@ -81,7 +81,9 @@
         "question": "Should I fill my tank completely?",
         "answer": "Leave 1-2 inches at the top for gas exchange and to prevent jumping fish from escaping. This also allows for equipment placement."
       }
-    ]
+    ],
+    "error_invalid_dimensions": "Please enter valid dimensions",
+    "footer_note": "These calculations are estimates. Actual requirements may vary based on fish species and setup."
   },
   "aquarium-calculator": {
     "title": "Aquarium Calculator",
@@ -240,7 +242,8 @@
         "question": "What perch diameter is best?",
         "answer": "Perches should vary in diameter so the bird's foot doesn't always grip the same way. This prevents foot problems and arthritis."
       }
-    ]
+    ],
+    "error_invalid_birds": "Error Invalid Birds"
   },
   "bird-cage-calculator": {
     "title": "Bird Cage Size Calculator",
@@ -408,13 +411,9 @@
   "bird-cage-size-calculator": {
     "title": "Bird Cage Size Calculator - Free Aviary Planning Tool",
     "description": "Calculate appropriate bird cage dimensions. Free online tool for parakeets, parrots, and all pet bird types.",
-    "tips": [
-      "Horizontal is better than vertical for small birds",
-      "Provide space for horizontal flight",
-      "Use perches of different diameters",
-      "Place cage in a quiet and safe spot",
-      "Clean cage weekly"
-    ],
+    "tips": {
+      "0": "0"
+    },
     "howItWorks": {
       "title": "How the Bird Cage Size Calculator Works",
       "formula": "Minimum cage size = Bird wingspan × 2.5 for width, wingspan × 3 for length",
@@ -580,7 +579,8 @@
         "question": "What changes should I expect in senior cats?",
         "answer": "Senior cats may experience reduced activity, changes in sleep patterns, weight fluctuations, and may need more frequent vet visits and dietary adjustments."
       }
-    ]
+    ],
+    "error_calculation": "Error Calculation"
   },
   "cat-age-calculator": {
     "title": "Cat Age Calculator",
@@ -767,7 +767,9 @@
         "question": "Do indoor cats need fewer calories?",
         "answer": "Generally yes. Indoor cats are typically less active and may need 10-20% fewer calories than outdoor cats to prevent weight gain."
       }
-    ]
+    ],
+    "error_invalid_weight": "Please enter a valid weight",
+    "results_title": "Daily Calorie Needs"
   },
   "cat-calorie-calculator": {
     "title": "Cat Calorie Calculator",
@@ -959,7 +961,12 @@
         "question": "Why is my cat always hungry?",
         "answer": "This could indicate the portions are too small, the food lacks nutrients, or there may be health issues. Consult your vet if hunger seems excessive."
       }
-    ]
+    ],
+    "error_invalid_weight": "Please enter a valid weight",
+    "unit_kg": "kg",
+    "results_title": "Daily Food Amount",
+    "footer_note": "These are general guidelines. Consult your veterinarian for specific recommendations.",
+    "unit_calories": "Unit Calories"
   },
   "cat-food-calculator": {
     "title": "Cat Food Calculator",
@@ -1139,7 +1146,9 @@
         "question": "When should I call the vet during labor?",
         "answer": "Call if labor lasts more than 24 hours, there's more than 2 hours between kittens, you see green discharge without a kitten, or the cat seems in distress."
       }
-    ]
+    ],
+    "error_no_date": "Error No Date",
+    "footer_note": "Footer Note"
   },
   "cat-pregnancy-calculator": {
     "title": "Cat Pregnancy Calculator",
@@ -1317,7 +1326,10 @@
         "question": "What changes in senior dogs?",
         "answer": "Expect reduced energy, possible weight changes, joint stiffness, dental issues, and potential cognitive changes. More frequent vet visits are recommended."
       }
-    ]
+    ],
+    "formula_explanation": "Formula Explanation",
+    "error_calculation": "Error Calculation",
+    "formula_title": "Formula Title"
   },
   "dog-age-calculator": {
     "title": "Dog Age Calculator",
@@ -1651,7 +1663,8 @@
         "question": "Do large breed puppies need different calories?",
         "answer": "Yes, large breed puppies should be fed for controlled growth to prevent joint problems. Don't overfeed to speed up growth."
       }
-    ]
+    ],
+    "error_invalid_weight": "Error Invalid Weight"
   },
   "dog_food_calculator": {
     "title": "Dog Food Calculator",
@@ -1746,7 +1759,9 @@
         "question": "Do puppies need different amounts?",
         "answer": "Yes, puppies need more food relative to their body weight due to rapid growth. Large breed puppies need controlled portions to prevent joint issues."
       }
-    ]
+    ],
+    "error_invalid_weight": "Error Invalid Weight",
+    "results_title": "Results Title"
   },
   "dog-food-calculator": {
     "title": "Dog Food Calculator",
@@ -1921,7 +1936,12 @@
         "question": "When should I call the vet during labor?",
         "answer": "Call if more than 2 hours pass between puppies, if strong contractions last over 30 minutes without a puppy, or if you see dark green discharge before the first puppy."
       }
-    ]
+    ],
+    "middle_stage": "Middle Stage",
+    "late_stage": "Late Stage",
+    "overdue": "Overdue",
+    "early_stage": "Early Stage",
+    "before_mating": "Before Mating"
   },
   "dog-pregnancy-calculator": {
     "title": "Dog Pregnancy Calculator - Due Date Tracker",
@@ -2001,7 +2021,8 @@
         "question": "When should I call the vet during labor?",
         "answer": "Call if more than 2 hours pass between puppies, if strong contractions last over 30 minutes without a puppy, or if you see dark green discharge before the first puppy."
       }
-    ]
+    ],
+    "error_no_date": "Error No Date"
   },
   "hamster_lifespan_calculator": {
     "title": "Hamster Lifespan Calculator",
@@ -2082,7 +2103,8 @@
         "question": "Can hamsters live together?",
         "answer": "Syrian hamsters must live alone. Some dwarf species can live in pairs or groups if introduced young, but fighting can occur."
       }
-    ]
+    ],
+    "error_invalid_age": "Error Invalid Age"
   },
   "hamster-lifespan-calculator": {
     "title": "Hamster Lifespan Calculator",
@@ -2110,12 +2132,9 @@
     "stage_elderly": "Elderly",
     "tips_title": "Hamster Care Tips",
     "empty_state": "Enter hamster details to calculate lifespan",
-    "tips": [
-      "Balanced hamster food",
-      "Safe wood shavings bedding",
-      "Fresh water daily",
-      "Quiet environment away from noise"
-    ],
+    "tips": {
+      "0": "0"
+    },
     "howItWorks": {
       "title": "How Hamster Lifespan Calculator Works",
       "formula": "Lifespan varies by species: Syrian 2-3 years, Dwarf 1.5-2 years, Roborovski 3-3.5 years",
@@ -2862,7 +2881,8 @@
         "question": "Does insurance cover routine vet visits?",
         "answer": "Basic plans typically don't cover wellness visits. Premium or comprehensive plans may include preventive care like vaccinations and annual checkups."
       }
-    ]
+    ],
+    "error_invalid_age": "Error Invalid Age"
   },
   "pet_medication_dosage_calculator": {
     "title": "Pet medication dosage calculator - Free Vet Dose Tool",
@@ -3066,7 +3086,11 @@
         "question": "Can I mix medication with food?",
         "answer": "It depends on the medication. Some must be given on an empty stomach. Check the accompanying instructions or ask your veterinarian."
       }
-    ]
+    ],
+    "error_invalid_weight": "Please enter a valid weight",
+    "error_invalid_dosage": "Please enter a valid dosage",
+    "error_invalid_frequency": "Please enter a valid frequency",
+    "administration_per_day": "times per day"
   },
   "pet_travel_calculator": {
     "title": "Pet Travel Calculator - Shipping and Transport Costs",
@@ -3228,7 +3252,8 @@
         "question": "How much does it cost to ship a pet internationally?",
         "answer": "Costs range from $200-2000 depending on weight and destination. Large dogs and travel to distant continents cost more. Check with specialized pet shipping companies."
       }
-    ]
+    ],
+    "error_invalid_weight": "Error Invalid Weight"
   },
   "puppy_growth_calculator": {
     "title": "Puppy Growth Calculator - Track Development",
@@ -3400,7 +3425,9 @@
         "question": "Do male and female puppies grow differently?",
         "answer": "Yes, males typically grow 10-20% larger than females of the same breed. Both follow similar growth curves but reach different endpoints."
       }
-    ]
+    ],
+    "error_invalid_weight": "Error Invalid Weight",
+    "error_invalid_age": "Error Invalid Age"
   },
   "rabbit_care_calculator": {
     "title": "Rabbit Care Calculator - Free Bunny Diet and Space Tool",
@@ -3572,7 +3599,8 @@
         "question": "Do rabbits need exercise outside their cage?",
         "answer": "Yes! Rabbits need 3-4 hours of exercise outside their enclosure daily. A rabbit-proofed room or secure pen works well."
       }
-    ]
+    ],
+    "error_invalid_weight": "Error Invalid Weight"
   },
   "reptile_tank_calculator": {
     "title": "Reptile Tank Calculator - Terrarium Size and Setup",
@@ -3677,6 +3705,18 @@
     "substrate_iguana": "تربة جوز الهند",
     "substrate_iguana_en": "Coconut fiber substrate",
     "substrate_tortoise": "تربة وطحلب",
-    "substrate_tortoise_en": "Soil and moss mixture"
-  }
+    "substrate_tortoise_en": "Soil and moss mixture",
+    "uvb_not_required": "Uvb Not Required",
+    "uvb_required": "Uvb Required",
+    "uvb_lighting": "Uvb Lighting"
+  },
+  "common:common": {
+    "units": {
+      "cm": "Cm"
+    }
+  },
+  "common:units": {
+    "kg": "Kg"
+  },
+  "T": "T"
 }

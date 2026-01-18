@@ -1,4 +1,5 @@
 {
+  "0": "0",
   "bmi-calculator": {
     "title": "BMI Calculator - Body Mass Index Calculator Online",
     "description": "Calculate your Body Mass Index (BMI) online to determine if your weight is healthy. Free BMI calculator with detailed charts and health recommendations. Essential tool for weight management and fitness tracking.",
@@ -597,7 +598,11 @@
     },
     "errors": {
       "all_fields": "Please enter height and weight",
-      "positive": "Please enter valid values greater than zero"
+      "positive": "Please enter valid values greater than zero",
+      "empty_state": {
+        "title": "Calculate Your BMI",
+        "subtitle": "Enter your weight and height to get started"
+      }
     },
     "empty_state": {
       "title": "Enter your details to start",
@@ -1036,7 +1041,11 @@
         "question": "How often should I measure body fat?",
         "answer": "Once every 4-6 weeks is sufficient. Frequent measuring can be frustrating because changes happen slowly."
       }
-    ]
+    ],
+    "about": {
+      "title": "Title",
+      "desc": "Desc"
+    }
   },
   "pregnancy": {
     "title": "Pregnancy Calculator",
@@ -1148,7 +1157,10 @@
         "question": "Does the recommended weight gain apply to everyone?",
         "answer": "Recommendations vary based on your pre-pregnancy weight. Consult your doctor for personalized recommendations for your situation."
       }
-    ]
+    ],
+    "error": {
+      "calculationError": "An error occurred during calculation"
+    }
   },
   "protein": {
     "title": "Protein Calculator",
@@ -1164,7 +1176,8 @@
       "athlete": "Athlete",
       "goal_lose": "Weight Loss",
       "goal_maintain": "Maintain Weight",
-      "goal_gain": "Gain Muscle Mass"
+      "goal_gain": "Gain Muscle Mass",
+      "weight": "Weight"
     },
     "tooltips": {
       "weight": "Current body weight in kilograms",
@@ -1267,7 +1280,12 @@
         "question": "Do I need protein supplements?",
         "answer": "Not necessary if your diet is balanced. Supplements are useful for professional athletes or those who struggle to meet their needs through food."
       }
-    ]
+    ],
+    "calorie": {
+      "results": {
+        "calories": "Calories"
+      }
+    }
   },
   "water": {
     "title": "Water Intake Calculator",
@@ -1280,7 +1298,8 @@
       "climate_very_hot": "Very Hot"
     },
     "tooltips": {
-      "climate": "Temperature greatly affects fluid loss"
+      "climate": "Temperature greatly affects fluid loss",
+      "weight": "Weight"
     },
     "results": {
       "daily_recommendation": "Daily Water Drinking Recommendation",
@@ -1743,7 +1762,26 @@
         "question": "Does pace differ by swimming style?",
         "answer": "Yes, butterfly and breaststroke are slower than freestyle and backstroke. Always compare your pace within the same style."
       }
-    ]
+    ],
+    "distance": "Distance",
+    "distance_tooltip": "Distance Tooltip",
+    "enter_distance": "Enter Distance",
+    "minutes": "Minutes",
+    "minutes_tooltip": "Minutes Tooltip",
+    "enter_minutes": "Enter Minutes",
+    "seconds": "Seconds",
+    "seconds_tooltip": "Seconds Tooltip",
+    "enter_seconds": "Enter Seconds",
+    "calculate_btn": "Calculate Btn",
+    "reset_btn": "Reset Btn",
+    "results_title": "Results Title",
+    "pace_100m": "Pace 100m",
+    "min_100m": "Min 100m",
+    "speed_mps": "Speed Mps",
+    "tips_title": "Tips Title",
+    "tips_desc": "Tips Desc",
+    "empty_state": "Empty State",
+    "footer_note": "Footer Note"
   },
   "weight_gain": {
     "title": "Weight Gain Calculator",
@@ -1870,5 +1908,203 @@
       "desc": "This calculator estimates your cycling power output based on your weight, speed, and road gradient. Power-to-weight ratio is a key metric in cycling performance.",
       "note": "This is an approximation. Actual power can vary based on bike type, riding position, wind, and other factors."
     }
+  },
+  "common:common": {
+    "units": {
+      "kg": "Kg",
+      "g": "G"
+    }
+  },
+  "common": {
+    "errors": {
+      "calculationError": "Calculation Error",
+      "invalid": "Invalid",
+      "positiveNumber": "Positive Number"
+    },
+    "placeholders": {
+      "enterValue": "Enter Value"
+    },
+    "calculate": "Calculate",
+    "reset": "Reset",
+    "info": "Info",
+    "formula": "Formula",
+    "time": "Time",
+    "second": "Second",
+    "distance": "Distance",
+    "minute": "Minute",
+    "male": "Male",
+    "female": "Female"
+  },
+  "ohms_law": {
+    "watts": "Watts"
+  },
+  "common:units": {
+    "kg": "Kg"
+  },
+  "T": "T",
+  "calc/converters:speed": {
+    "units": {
+      "meters_per_second": "Meters Per Second"
+    }
+  },
+  "m": "M",
+  "calc/converters:length": {
+    "units": {
+      "meter": "Meter",
+      "yard": "Yard"
+    }
+  },
+  "calculators": {
+    "swimming_pace": "Swimming Pace"
+  },
+  "race_time_predictor": {
+    "calculators": {
+      "invalid_input": "Invalid Input"
+    },
+    "race_predictor": {
+      "distances": {
+        "5k": "5k",
+        "10k": "10k",
+        "half": "Half",
+        "marathon": "Marathon"
+      },
+      "race_distance": "Race Distance",
+      "race_distance_tooltip": "Race Distance Tooltip",
+      "enter_distance": "Enter Distance",
+      "race_time": "Race Time",
+      "race_time_tooltip": "Race Time Tooltip",
+      "enter_time": "Enter Time",
+      "target_distance": "Target Distance",
+      "target_distance_tooltip": "Target Distance Tooltip",
+      "calculate_btn": "Calculate Btn",
+      "reset_btn": "Reset Btn",
+      "results_title": "Results Title",
+      "predicted_time": "Predicted Time",
+      "pace": "Pace",
+      "per_km": "Per Km",
+      "all_predictions": "All Predictions",
+      "tips_title": "Tips Title",
+      "tip_train": "Tip Train",
+      "empty_state": "Empty State",
+      "title": "Title",
+      "description": "Description",
+      "footer_note": "Footer Note"
+    }
+  },
+  "recovery_time": {
+    "rec_short": "Rec Short",
+    "rec_medium": "Rec Medium",
+    "rec_long": "Rec Long",
+    "muscles": {
+      "small": "Small",
+      "medium": "Medium",
+      "large": "Large"
+    },
+    "intensities": {
+      "light": "Light",
+      "moderate": "Moderate",
+      "intense": "Intense"
+    },
+    "experiences": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "muscle_group": "Muscle Group",
+    "muscle_group_tooltip": "Muscle Group Tooltip",
+    "intensity": "Intensity",
+    "intensity_tooltip": "Intensity Tooltip",
+    "experience": "Experience",
+    "experience_tooltip": "Experience Tooltip",
+    "calculate_btn": "Calculate Btn",
+    "reset_btn": "Reset Btn",
+    "results_title": "Results Title",
+    "recovery_range": "Recovery Range",
+    "status": "Status",
+    "factors_title": "Factors Title",
+    "factors_desc": "Factors Desc",
+    "empty_state": "Empty State",
+    "title": "Title",
+    "description": "Description",
+    "footer_note": "Footer Note"
+  },
+  "rep_range": {
+    "rep_range_calculator": {
+      "rest_times": {
+        "strength": "Strength",
+        "power": "Power",
+        "hypertrophy": "Hypertrophy",
+        "endurance": "Endurance",
+        "label": "Label"
+      },
+      "goals": {
+        "strength": "Strength",
+        "power": "Power",
+        "hypertrophy": "Hypertrophy",
+        "endurance": "Endurance"
+      },
+      "goal": "Goal",
+      "goal_tooltip": "Goal Tooltip",
+      "one_rm": "One Rm",
+      "one_rm_tooltip": "One Rm Tooltip",
+      "enter_weight": "Enter Weight",
+      "calculate_btn": "Calculate Btn",
+      "reset_btn": "Reset Btn",
+      "results_title": "Results Title",
+      "reps": "Reps",
+      "sets": "Sets",
+      "weight": "Weight",
+      "empty_state": "Empty State",
+      "title": "Title",
+      "description": "Description",
+      "footer_note": "Footer Note"
+    }
+  },
+  "tdee": {
+    "calorie": {
+      "inputs": {
+        "male": "Male",
+        "female": "Female",
+        "activity": {
+          "sedentary": "Sedentary",
+          "light": "Light",
+          "moderate": "Moderate",
+          "active": "Active",
+          "very_active": "Very Active"
+        },
+        "gender": "Gender",
+        "age": "Age",
+        "weight": "Weight",
+        "height": "Height",
+        "activity_level": "Activity Level"
+      },
+      "tooltips": {
+        "gender": "Gender",
+        "age": "Age",
+        "weight": "Weight",
+        "height": "Height",
+        "activity": "Activity"
+      },
+      "results": {
+        "bmr": "Bmr",
+        "calories": "Calories"
+      }
+    },
+    "tdee_value": "Tdee Value",
+    "maintenance_calories": "Maintenance Calories",
+    "weight_loss_goals": "Weight Loss Goals",
+    "mild_loss": "Mild Loss",
+    "normal_loss": "Normal Loss",
+    "extreme_loss": "Extreme Loss",
+    "weight_gain_goals": "Weight Gain Goals",
+    "mild_gain": "Mild Gain",
+    "normal_gain": "Normal Gain",
+    "extreme_gain": "Extreme Gain",
+    "about_title": "About Title",
+    "about_desc": "About Desc",
+    "empty_state": "Empty State",
+    "title": "Title",
+    "description": "Description",
+    "footer_note": "Footer Note"
   }
 }

@@ -1,539 +1,540 @@
 {
-    "roofing": {
-        "title": "Roofing Calculator",
-        "description": "Calculate roofing materials needed including shingles, underlayment, and ridge cap.",
-        "unit": "Measurement Unit",
-        "unit_tooltip": "Select feet or meters for roof dimensions",
-        "feet": "Feet",
-        "meters": "Meters",
-        "roof_length": "Roof Length",
-        "roof_length_tooltip": "Length of the roof area (ridge line)",
-        "roof_width": "Roof Width",
-        "roof_width_tooltip": "Width from ridge to eave (horizontal measurement)",
-        "pitch": "Roof Pitch",
-        "pitch_tooltip": "Roof slope expressed as rise:run (e.g., 4:12)",
-        "custom_pitch": "Custom Pitch",
-        "rise": "Rise",
-        "rise_tooltip": "Vertical rise of the roof",
-        "run": "Run",
-        "run_tooltip": "Horizontal run (typically 12 for standard pitch notation)",
-        "ridge_length": "Ridge Length (Optional)",
-        "ridge_length_tooltip": "Length of roof ridge for ridge cap calculation",
-        "waste_factor": "Waste Factor (%)",
-        "waste_factor_tooltip": "Extra material for waste, cuts, and overlaps (typically 10%)",
-        "result_area": "Total Roof Area",
-        "sqft": "Square Feet",
-        "sqm": "Square Meters",
-        "materials_needed": "Materials Needed",
-        "roofing_squares": "Roofing Squares",
-        "squares_note": "1 square = 100 sq ft",
-        "bundles_needed": "Shingle Bundles",
-        "bundles_note": "3 bundles per square",
-        "underlayment_rolls": "Underlayment",
-        "rolls": "rolls",
-        "ridge_cap": "Ridge Cap",
-        "bundles": "bundles",
-        "specifications": "Roof Specifications",
-        "base_area": "Base Footprint Area",
-        "sqft_short": "sq ft",
-        "pitch_factor": "Pitch Factor",
-        "pitch_angle": "Pitch Angle",
-        "formula_title": "Calculation Formula",
-        "formula": "Roof Area = Base Area × Pitch Factor. Pitch Factor = sqrt(1 + (Rise/Run)²).",
-        "info_title": "About Roofing Calculation",
-        "info_description": "Roofing materials are typically sold in 'squares' (100 sq ft). The pitch factor accounts for the additional area on sloped roofs compared to the footprint.",
-        "use_cases_title": "Common Uses",
-        "use_case_1": "Shingle roof installation",
-        "use_case_2": "Roof replacement projects",
-        "use_case_3": "Material cost estimation",
-        "errors": {
-            "invalid_dimensions": "Please enter valid roof dimensions",
-            "positive_values": "Dimensions must be greater than zero",
-            "invalid_pitch": "Please enter valid rise and run values",
-            "invalid_waste": "Waste factor must be between 0 and 50%"
-        },
-        "placeholders": {
-            "length": "40",
-            "width": "20",
-            "rise": "4",
-            "run": "12",
-            "ridge": "40",
-            "waste": "10"
-        },
-        "howItWorks": {
-            "title": "How the Roofing Calculator Works",
-            "formula": "Roof Area = Base Area × Pitch Factor",
-            "explanation": "This calculator determines actual roof area by applying a pitch factor to the base footprint. It then calculates shingle bundles, underlayment rolls, and ridge cap needed.",
-            "steps": [
-                "Enter roof length and width (footprint dimensions)",
-                "Select or enter roof pitch (rise:run ratio)",
-                "Add ridge length for ridge cap calculation",
-                "Set waste factor for cuts and overlaps",
-                "Review squares, bundles, and materials needed"
-            ]
-        },
-        "useCases": [
-            {
-                "title": "Shingle Replacement",
-                "description": "Calculate materials for complete asphalt shingle roof replacement."
-            },
-            {
-                "title": "New Construction",
-                "description": "Estimate roofing needs for new home and building projects."
-            },
-            {
-                "title": "Storm Damage Repair",
-                "description": "Determine materials for roof repair and partial replacement."
-            },
-            {
-                "title": "Material Cost Estimation",
-                "description": "Plan budgets with accurate material quantity calculations."
-            }
-        ],
-        "seoTips": [
-            "One roofing square equals 100 square feet of roof area",
-            "Standard shingles require 3 bundles per square",
-            "Add 10-15% waste factor for valleys, hips, and complex roofs",
-            "Higher pitch roofs require more material due to increased surface area",
-            "Always include starter strips, ridge caps, and drip edge in orders"
-        ],
-        "commonMistakes": [
-            {
-                "mistake": "Using footprint instead of roof area",
-                "solution": "Apply pitch factor to convert flat footprint to actual sloped area"
-            },
-            {
-                "mistake": "Forgetting accessories",
-                "solution": "Include starter strips, drip edge, ridge caps, and flashing"
-            },
-            {
-                "mistake": "Insufficient waste factor",
-                "solution": "Use 15% for complex roofs with valleys, dormers, and hips"
-            },
-            {
-                "mistake": "Ignoring underlayment",
-                "solution": "Always include felt or synthetic underlayment in calculations"
-            }
-        ],
-        "faqs": [
-            {
-                "question": "How many bundles of shingles per square?",
-                "answer": "Standard three-tab shingles require 3 bundles per square (100 sq ft). Architectural shingles vary - check manufacturer specifications."
-            },
-            {
-                "question": "What is a roofing square?",
-                "answer": "A roofing square equals 100 square feet of roof area. It is the standard unit for ordering roofing materials."
-            },
-            {
-                "question": "How do I calculate roof area from ground level?",
-                "answer": "Measure the footprint (length × width) and multiply by the pitch factor. For a 4:12 pitch, multiply by 1.054."
-            },
-            {
-                "question": "How much underlayment do I need?",
-                "answer": "Standard felt rolls cover 400 sq ft with proper overlap. Divide roof area by 400 for number of rolls needed."
-            },
-            {
-                "question": "What pitch factor should I use?",
-                "answer": "Common factors: 4:12 = 1.054, 6:12 = 1.118, 8:12 = 1.202, 10:12 = 1.302, 12:12 = 1.414."
-            }
-        ]
+  "roofing": {
+    "title": "Roofing Calculator",
+    "description": "Calculate roofing materials needed including shingles, underlayment, and ridge cap.",
+    "unit": "Measurement Unit",
+    "unit_tooltip": "Select feet or meters for roof dimensions",
+    "feet": "Feet",
+    "meters": "Meters",
+    "roof_length": "Roof Length",
+    "roof_length_tooltip": "Length of the roof area (ridge line)",
+    "roof_width": "Roof Width",
+    "roof_width_tooltip": "Width from ridge to eave (horizontal measurement)",
+    "pitch": "Roof Pitch",
+    "pitch_tooltip": "Roof slope expressed as rise:run (e.g., 4:12)",
+    "custom_pitch": "Custom Pitch",
+    "rise": "Rise",
+    "rise_tooltip": "Vertical rise of the roof",
+    "run": "Run",
+    "run_tooltip": "Horizontal run (typically 12 for standard pitch notation)",
+    "ridge_length": "Ridge Length (Optional)",
+    "ridge_length_tooltip": "Length of roof ridge for ridge cap calculation",
+    "waste_factor": "Waste Factor (%)",
+    "waste_factor_tooltip": "Extra material for waste, cuts, and overlaps (typically 10%)",
+    "result_area": "Total Roof Area",
+    "sqft": "Square Feet",
+    "sqm": "Square Meters",
+    "materials_needed": "Materials Needed",
+    "roofing_squares": "Roofing Squares",
+    "squares_note": "1 square = 100 sq ft",
+    "bundles_needed": "Shingle Bundles",
+    "bundles_note": "3 bundles per square",
+    "underlayment_rolls": "Underlayment",
+    "rolls": "rolls",
+    "ridge_cap": "Ridge Cap",
+    "bundles": "bundles",
+    "specifications": "Roof Specifications",
+    "base_area": "Base Footprint Area",
+    "sqft_short": "sq ft",
+    "pitch_factor": "Pitch Factor",
+    "pitch_angle": "Pitch Angle",
+    "formula_title": "Calculation Formula",
+    "formula": "Roof Area = Base Area × Pitch Factor. Pitch Factor = sqrt(1 + (Rise/Run)²).",
+    "info_title": "About Roofing Calculation",
+    "info_description": "Roofing materials are typically sold in 'squares' (100 sq ft). The pitch factor accounts for the additional area on sloped roofs compared to the footprint.",
+    "use_cases_title": "Common Uses",
+    "use_case_1": "Shingle roof installation",
+    "use_case_2": "Roof replacement projects",
+    "use_case_3": "Material cost estimation",
+    "errors": {
+      "invalid_dimensions": "Please enter valid roof dimensions",
+      "positive_values": "Dimensions must be greater than zero",
+      "invalid_pitch": "Please enter valid rise and run values",
+      "invalid_waste": "Waste factor must be between 0 and 50%"
     },
-    "roofPitch": {
-        "title": "Roof Pitch Calculator",
-        "description": "Calculate roof pitch, slope angle, and related measurements from rise and run.",
-        "unit": "Measurement Unit",
-        "unit_tooltip": "Select unit for rise and run measurements",
-        "inches": "Inches",
-        "feet": "Feet",
-        "meters": "Meters",
-        "centimeters": "Centimeters",
-        "rise": "Rise",
-        "rise_tooltip": "Vertical distance the roof rises",
-        "run": "Run",
-        "run_tooltip": "Horizontal distance (use 12 for standard X:12 pitch)",
-        "result_pitch": "Roof Pitch",
-        "measurements": "Pitch Measurements",
-        "angle": "Angle",
-        "slope_percent": "Slope Percentage",
-        "pitch_ratio": "Pitch Ratio",
-        "pitch_factor": "Pitch Factor",
-        "calculations": "Additional Calculations",
-        "rafter_length": "Rafter Length (per unit run)",
-        "angle_radians": "Angle (Radians)",
-        "roof_types": {
-            "flat": "Flat Roof",
-            "low_slope": "Low Slope",
-            "conventional": "Conventional Slope",
-            "steep": "Steep Slope",
-            "very_steep": "Very Steep"
-        },
-        "formula_title": "Calculation Formula",
-        "formula": "Pitch (X:12) = Rise / Run × 12. Angle = arctan(Rise / Run). Pitch Factor = sqrt(1 + (Rise/Run)²).",
-        "info_title": "About Roof Pitch",
-        "info_description": "Roof pitch indicates the steepness of a roof. It's expressed as the ratio of vertical rise to horizontal run, typically over 12 inches (e.g., 4:12 pitch).",
-        "use_cases_title": "Common Uses",
-        "use_case_1": "Determining suitable roofing materials",
-        "use_case_2": "Calculating rafter lengths",
-        "use_case_3": "Planning drainage and snow load capacity",
-        "errors": {
-            "invalid_values": "Please enter valid rise and run values",
-            "negative_rise": "Rise cannot be negative",
-            "positive_run": "Run must be greater than zero"
-        },
-        "placeholders": {
-            "rise": "4",
-            "run": "12"
-        },
-        "howItWorks": {
-            "title": "How the Roof Pitch Calculator Works",
-            "formula": "Pitch = Rise:Run; Angle = arctan(Rise/Run)",
-            "explanation": "This calculator converts rise and run measurements into pitch ratio, slope angle, and pitch factor. Understanding roof pitch is essential for material selection and drainage planning.",
-            "steps": [
-                "Enter the vertical rise measurement",
-                "Enter the horizontal run measurement",
-                "Review pitch ratio (rise:12 format)",
-                "Check slope angle in degrees",
-                "Use pitch factor for area calculations"
-            ]
-        },
-        "useCases": [
-            {
-                "title": "Material Selection",
-                "description": "Determine appropriate roofing materials based on pitch requirements."
-            },
-            {
-                "title": "Rafter Calculations",
-                "description": "Use pitch measurements for cutting rafter angles and lengths."
-            },
-            {
-                "title": "Drainage Planning",
-                "description": "Ensure adequate slope for water drainage and snow shedding."
-            },
-            {
-                "title": "Code Compliance",
-                "description": "Verify roof pitch meets building code requirements for materials."
-            }
-        ],
-        "seoTips": [
-            "Most shingles require minimum 2:12 pitch, some low-slope options allow 1:12",
-            "4:12 to 9:12 is considered conventional slope for most roofing materials",
-            "Steeper pitches shed water and snow better but require more material",
-            "Metal roofing works on lower slopes than asphalt shingles",
-            "Always verify material manufacturer minimum slope requirements"
-        ],
-        "commonMistakes": [
-            {
-                "mistake": "Measuring to wrong point",
-                "solution": "Measure run horizontally, not along the rafter slope"
-            },
-            {
-                "mistake": "Using total span instead of run",
-                "solution": "Run is half the span - from outside wall to ridge center"
-            },
-            {
-                "mistake": "Wrong material for pitch",
-                "solution": "Verify roofing material is rated for your actual pitch"
-            },
-            {
-                "mistake": "Ignoring building codes",
-                "solution": "Check local codes for minimum pitch requirements"
-            }
-        ],
-        "faqs": [
-            {
-                "question": "What does 4:12 pitch mean?",
-                "answer": "A 4:12 pitch means the roof rises 4 inches for every 12 inches of horizontal run. This equals approximately 18.4 degrees."
-            },
-            {
-                "question": "What is the minimum pitch for shingles?",
-                "answer": "Most asphalt shingles require minimum 2:12 pitch. Some manufacturers offer low-slope shingles rated for 2:12 to 4:12."
-            },
-            {
-                "question": "How do I measure roof pitch?",
-                "answer": "Place a level horizontally 12 inches from the roof surface, then measure vertical distance from level to roof. This is your rise per 12 inches."
-            },
-            {
-                "question": "What is considered a steep roof?",
-                "answer": "Roofs over 9:12 (about 37 degrees) are considered steep. They require special safety equipment and installation techniques."
-            },
-            {
-                "question": "Does roof pitch affect cost?",
-                "answer": "Yes, steeper pitches require more material due to greater surface area and may increase labor costs due to safety requirements."
-            }
-        ]
+    "placeholders": {
+      "length": "40",
+      "width": "20",
+      "rise": "4",
+      "run": "12",
+      "ridge": "40",
+      "waste": "10"
     },
-    "shingle": {
-        "title": "Shingle Calculator",
-        "description": "Calculate roof shingles needed for complete coverage including starter strips and ridge caps.",
-        "unit": "Measurement Unit",
-        "unit_tooltip": "Select feet or meters for roof dimensions",
-        "feet": "Feet",
-        "meters": "Meters",
-        "roof_area": "Roof Area",
-        "roof_area_tooltip": "Total roof surface area (after pitch factor)",
-        "sqft": "sq ft",
-        "sqm": "sq m",
-        "shingle_type": "Shingle Type",
-        "shingle_type_tooltip": "Different shingle types have different coverage",
-        "types": {
-            "3tab": "3-Tab Shingles (3 bundles/square)",
-            "architectural": "Architectural Shingles (3-4 bundles/square)",
-            "premium": "Premium/Designer (4-5 bundles/square)"
-        },
-        "ridge_length": "Ridge and Hip Length",
-        "ridge_length_tooltip": "Total length of ridges and hips for cap shingles",
-        "waste_factor": "Waste Factor (%)",
-        "waste_factor_tooltip": "Extra for waste, starter, and valleys (typically 10-15%)",
-        "result_bundles": "Shingle Bundles Needed",
-        "bundles": "bundles",
-        "additional_materials": "Additional Materials",
-        "starter_strip": "Starter Strip",
-        "ridge_cap": "Ridge Cap Bundles",
-        "underlayment": "Underlayment Rolls",
-        "drip_edge": "Drip Edge (ft)",
-        "formula_title": "Calculation Formula",
-        "formula": "Bundles = (Roof Squares × Bundles per Square) × (1 + Waste). 1 Square = 100 sq ft.",
-        "info_title": "About Shingle Calculation",
-        "info_description": "Roofing shingles are sold in bundles that cover roofing squares (100 sq ft). This calculator includes starter strips, ridge caps, and accessories.",
-        "use_cases_title": "Common Uses",
-        "use_case_1": "Complete roof replacement",
-        "use_case_2": "New construction roofing",
-        "use_case_3": "Storm damage repair",
-        "errors": {
-            "invalid_area": "Please enter valid roof area",
-            "positive_values": "Area must be greater than zero",
-            "invalid_waste": "Waste factor must be between 0 and 100"
-        },
-        "placeholders": {
-            "roof_area": "2000",
-            "ridge_length": "60",
-            "waste": "10"
-        },
-        "howItWorks": {
-            "title": "How the Shingle Calculator Works",
-            "formula": "Bundles = (Roof Area / 100) × Bundles per Square × (1 + Waste)",
-            "explanation": "This calculator converts roof area to roofing squares and calculates bundle quantities based on shingle type. It includes starter strips, ridge caps, underlayment, and drip edge.",
-            "steps": [
-                "Enter total roof area in square feet",
-                "Select shingle type for correct bundle coverage",
-                "Add ridge and hip length for cap shingles",
-                "Set waste factor (15% for complex roofs)",
-                "Review bundles and accessories needed"
-            ]
-        },
-        "useCases": [
-            {
-                "title": "Full Roof Replacement",
-                "description": "Calculate all materials for complete roof tear-off and replacement."
-            },
-            {
-                "title": "New Construction",
-                "description": "Estimate shingle quantities for new home roofing."
-            },
-            {
-                "title": "Insurance Claims",
-                "description": "Document material quantities for storm damage repair estimates."
-            },
-            {
-                "title": "Partial Repair",
-                "description": "Determine shingles needed for section repairs and patches."
-            }
-        ],
-        "seoTips": [
-            "One roofing square equals 100 square feet - order in complete squares",
-            "Three-tab shingles: 3 bundles per square; architectural: 3-4 bundles",
-            "Include 10% waste for simple roofs, 15% for roofs with valleys and dormers",
-            "Ridge cap shingles cover approximately 20-25 linear feet per bundle",
-            "Check warranty requirements - many require specific underlayment"
-        ],
-        "commonMistakes": [
-            {
-                "mistake": "Forgetting pitch factor",
-                "solution": "Calculate actual roof area using pitch factor, not just footprint"
-            },
-            {
-                "mistake": "Insufficient ridge cap",
-                "solution": "Measure all ridges and hips - one bundle covers 20-25 linear feet"
-            },
-            {
-                "mistake": "Skipping starter strip",
-                "solution": "Starter strip prevents wind uplift at eaves - essential for warranty"
-            },
-            {
-                "mistake": "Wrong underlayment",
-                "solution": "Use ice and water shield in valleys and at eaves in cold climates"
-            }
-        ],
-        "faqs": [
-            {
-                "question": "How many bundles of shingles per square?",
-                "answer": "Three-tab shingles require 3 bundles per square. Architectural shingles vary from 3-5 bundles depending on weight and manufacturer."
-            },
-            {
-                "question": "What is a roofing square?",
-                "answer": "A roofing square is 100 square feet of roof area. All roofing materials are measured and priced per square."
-            },
-            {
-                "question": "How long do shingles last?",
-                "answer": "Three-tab: 15-20 years, architectural: 25-30 years, premium: 40-50 years. Actual life varies by climate and ventilation."
-            },
-            {
-                "question": "Can I shingle over existing shingles?",
-                "answer": "Most codes allow one layer over existing shingles. However, tear-off is recommended for best results and to inspect decking."
-            },
-            {
-                "question": "What temperature is too cold for shingling?",
-                "answer": "Below 40°F (4°C), shingles become brittle and may crack. Self-sealing strips also require warmth to activate."
-            }
-        ]
+    "howItWorks": {
+      "title": "How the Roofing Calculator Works",
+      "formula": "Roof Area = Base Area × Pitch Factor",
+      "explanation": "This calculator determines actual roof area by applying a pitch factor to the base footprint. It then calculates shingle bundles, underlayment rolls, and ridge cap needed.",
+      "steps": [
+        "Enter roof length and width (footprint dimensions)",
+        "Select or enter roof pitch (rise:run ratio)",
+        "Add ridge length for ridge cap calculation",
+        "Set waste factor for cuts and overlaps",
+        "Review squares, bundles, and materials needed"
+      ]
     },
-    "insulation": {
-        "title": "Insulation Calculator",
-        "description": "Calculate insulation materials needed for thermal and sound control.",
-        "unit": "Measurement Unit",
-        "unit_tooltip": "Select meters or feet for measurements",
-        "meters": "Meters",
-        "feet": "Feet",
-        "insulation_type": "Insulation Type",
-        "insulation_type_tooltip": "Select the type of insulation material",
-        "types": {
-            "fiberglass": "Fiberglass",
-            "rockwool": "Rockwool",
-            "cellulose": "Cellulose",
-            "spray_foam_open": "Open Cell Spray Foam",
-            "spray_foam_closed": "Closed Cell Spray Foam"
-        },
-        "area": "Total Area",
-        "area_tooltip": "Total area to be insulated",
-        "batt_width": "Batt Width",
-        "batt_width_tooltip": "Width of insulation batts",
-        "batt_length": "Batt Length",
-        "batt_length_tooltip": "Length of insulation batts",
-        "thickness": "Insulation Thickness",
-        "thickness_tooltip": "Thickness of insulation in inches",
-        "waste_factor": "Waste Factor",
-        "waste_factor_tooltip": "Extra material for waste and cuts (typically 10%)",
-        "result_batts": "Batts Required",
-        "batts": "batts",
-        "without_waste": "without waste",
-        "details": "Calculation Details",
-        "total_area": "Total Area",
-        "r_value": "R-Value",
-        "r_value_prefix": "R-",
-        "rolls_needed": "Rolls Needed",
-        "coverage_per_batt": "Coverage per Batt",
-        "formula_title": "Calculation Formula",
-        "formula": "Batts = Total Area / Coverage per Batt. R-Value = R-Value per Inch x Thickness.",
-        "info_title": "About Insulation Calculation",
-        "info_description": "Insulation R-value indicates thermal resistance. Higher R-values provide better insulation. The amount needed depends on area, batt size, and desired R-value.",
-        "use_cases_title": "Common Uses",
-        "use_case_1": "Wall cavity insulation",
-        "use_case_2": "Attic and ceiling insulation",
-        "use_case_3": "Soundproofing projects",
-        "errors": {
-            "invalid_dimensions": "Please enter valid dimensions",
-            "positive_values": "Values must be greater than zero",
-            "invalid_waste": "Waste factor must be between 0 and 100"
-        },
-        "placeholders": {
-            "area": "100",
-            "batt_width": "0.406",
-            "batt_length": "1.22",
-            "thickness": "3.5",
-            "waste": "10"
-        },
-        "howItWorks": {
-            "title": "How the Insulation Calculator Works",
-            "formula": "Batts = Total Area / Coverage per Batt",
-            "explanation": "This calculator determines insulation quantity by dividing total area by individual batt coverage. It calculates R-value based on insulation type and thickness.",
-            "steps": [
-                "Enter total area to be insulated",
-                "Select insulation type",
-                "Specify batt dimensions and thickness",
-                "Add waste factor for cuts around obstacles",
-                "Review batts, rolls, and R-value achieved"
-            ]
-        },
-        "useCases": [
-            {
-                "title": "Wall Cavity Insulation",
-                "description": "Calculate batt insulation for standard wall framing."
-            },
-            {
-                "title": "Attic Insulation",
-                "description": "Estimate insulation needs for attic floors and roof cavities."
-            },
-            {
-                "title": "Basement Walls",
-                "description": "Plan insulation for basement finishing projects."
-            },
-            {
-                "title": "Soundproofing",
-                "description": "Determine insulation for acoustic control in walls and floors."
-            }
-        ],
-        "seoTips": [
-            "R-value requirements vary by climate zone - check local energy codes",
-            "Compress insulation reduces R-value - use correct thickness for cavity",
-            "Vapor barriers go on warm side of wall in cold climates",
-            "Faced insulation provides vapor barrier but unfaced allows drying",
-            "Air sealing is as important as insulation for energy efficiency"
-        ],
-        "commonMistakes": [
-            {
-                "mistake": "Compressing insulation",
-                "solution": "Use correct thickness for cavity - compression reduces R-value"
-            },
-            {
-                "mistake": "Gaps around obstacles",
-                "solution": "Cut and fit insulation tightly around wires, pipes, and boxes"
-            },
-            {
-                "mistake": "Wrong vapor barrier placement",
-                "solution": "Vapor barrier goes on warm side - interior in cold climates"
-            },
-            {
-                "mistake": "Insufficient attic insulation",
-                "solution": "Attics need R-38 to R-60 in most climate zones"
-            }
-        ],
-        "faqs": [
-            {
-                "question": "What R-value do I need for my walls?",
-                "answer": "Most climates require R-13 to R-21 for exterior walls. Check your local energy code for specific requirements based on climate zone."
-            },
-            {
-                "question": "How much insulation do I need per square foot?",
-                "answer": "One batt covers approximately 32-40 sq ft depending on size. Calculate total area and divide by batt coverage, adding 10% for waste."
-            },
-            {
-                "question": "What is the R-value per inch of fiberglass?",
-                "answer": "Standard fiberglass batts provide approximately R-3.2 per inch. High-density batts achieve R-4.3 per inch."
-            },
-            {
-                "question": "Should I use faced or unfaced insulation?",
-                "answer": "Use faced insulation with vapor barrier in new construction. Use unfaced for adding to existing insulation or in mild climates."
-            },
-            {
-                "question": "Can I install insulation myself?",
-                "answer": "Yes, batt insulation is DIY-friendly. Wear protective gear and ensure proper fit. Spray foam and blown-in typically require professionals."
-            }
-        ]
+    "useCases": [
+      {
+        "title": "Shingle Replacement",
+        "description": "Calculate materials for complete asphalt shingle roof replacement."
+      },
+      {
+        "title": "New Construction",
+        "description": "Estimate roofing needs for new home and building projects."
+      },
+      {
+        "title": "Storm Damage Repair",
+        "description": "Determine materials for roof repair and partial replacement."
+      },
+      {
+        "title": "Material Cost Estimation",
+        "description": "Plan budgets with accurate material quantity calculations."
+      }
+    ],
+    "seoTips": [
+      "One roofing square equals 100 square feet of roof area",
+      "Standard shingles require 3 bundles per square",
+      "Add 10-15% waste factor for valleys, hips, and complex roofs",
+      "Higher pitch roofs require more material due to increased surface area",
+      "Always include starter strips, ridge caps, and drip edge in orders"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Using footprint instead of roof area",
+        "solution": "Apply pitch factor to convert flat footprint to actual sloped area"
+      },
+      {
+        "mistake": "Forgetting accessories",
+        "solution": "Include starter strips, drip edge, ridge caps, and flashing"
+      },
+      {
+        "mistake": "Insufficient waste factor",
+        "solution": "Use 15% for complex roofs with valleys, dormers, and hips"
+      },
+      {
+        "mistake": "Ignoring underlayment",
+        "solution": "Always include felt or synthetic underlayment in calculations"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How many bundles of shingles per square?",
+        "answer": "Standard three-tab shingles require 3 bundles per square (100 sq ft). Architectural shingles vary - check manufacturer specifications."
+      },
+      {
+        "question": "What is a roofing square?",
+        "answer": "A roofing square equals 100 square feet of roof area. It is the standard unit for ordering roofing materials."
+      },
+      {
+        "question": "How do I calculate roof area from ground level?",
+        "answer": "Measure the footprint (length × width) and multiply by the pitch factor. For a 4:12 pitch, multiply by 1.054."
+      },
+      {
+        "question": "How much underlayment do I need?",
+        "answer": "Standard felt rolls cover 400 sq ft with proper overlap. Divide roof area by 400 for number of rolls needed."
+      },
+      {
+        "question": "What pitch factor should I use?",
+        "answer": "Common factors: 4:12 = 1.054, 6:12 = 1.118, 8:12 = 1.202, 10:12 = 1.302, 12:12 = 1.414."
+      }
+    ]
+  },
+  "roofPitch": {
+    "title": "Roof Pitch Calculator",
+    "description": "Calculate roof pitch, slope angle, and related measurements from rise and run.",
+    "unit": "Measurement Unit",
+    "unit_tooltip": "Select unit for rise and run measurements",
+    "inches": "Inches",
+    "feet": "Feet",
+    "meters": "Meters",
+    "centimeters": "Centimeters",
+    "rise": "Rise",
+    "rise_tooltip": "Vertical distance the roof rises",
+    "run": "Run",
+    "run_tooltip": "Horizontal distance (use 12 for standard X:12 pitch)",
+    "result_pitch": "Roof Pitch",
+    "measurements": "Pitch Measurements",
+    "angle": "Angle",
+    "slope_percent": "Slope Percentage",
+    "pitch_ratio": "Pitch Ratio",
+    "pitch_factor": "Pitch Factor",
+    "calculations": "Additional Calculations",
+    "rafter_length": "Rafter Length (per unit run)",
+    "angle_radians": "Angle (Radians)",
+    "roof_types": {
+      "flat": "Flat Roof",
+      "low_slope": "Low Slope",
+      "conventional": "Conventional Slope",
+      "steep": "Steep Slope",
+      "very_steep": "Very Steep"
     },
-    "roofing-calculator": {
-        "title": "Roofing Calculator - Shingles & Materials",
-        "description": "Calculate roofing materials needed for your project. Our free roofing calculator estimates shingles, underlayment, and insulation quantities. Perfect for contractors and DIYers planning roof installations or replacements."
+    "formula_title": "Calculation Formula",
+    "formula": "Pitch (X:12) = Rise / Run × 12. Angle = arctan(Rise / Run). Pitch Factor = sqrt(1 + (Rise/Run)²).",
+    "info_title": "About Roof Pitch",
+    "info_description": "Roof pitch indicates the steepness of a roof. It's expressed as the ratio of vertical rise to horizontal run, typically over 12 inches (e.g., 4:12 pitch).",
+    "use_cases_title": "Common Uses",
+    "use_case_1": "Determining suitable roofing materials",
+    "use_case_2": "Calculating rafter lengths",
+    "use_case_3": "Planning drainage and snow load capacity",
+    "errors": {
+      "invalid_values": "Please enter valid rise and run values",
+      "negative_rise": "Rise cannot be negative",
+      "positive_run": "Run must be greater than zero"
     },
-    "roof-pitch-calculator": {
-        "title": "Roof Pitch Calculator - Slope & Angle",
-        "description": "Calculate roof pitch, slope, and angle for construction projects. Our free roof pitch calculator helps determine proper roof inclination, estimate materials for angled roofs, and ensure proper water drainage."
+    "placeholders": {
+      "rise": "4",
+      "run": "12"
     },
-    "shingle-calculator": {
-        "title": "Shingle Calculator - Roof Coverage Estimator",
-        "description": "Calculate roof shingles needed for complete coverage. Our free shingle calculator helps estimate asphalt shingles, tiles, and roofing squares required. Includes waste factor for accurate material ordering."
+    "howItWorks": {
+      "title": "How the Roof Pitch Calculator Works",
+      "formula": "Pitch = Rise:Run; Angle = arctan(Rise/Run)",
+      "explanation": "This calculator converts rise and run measurements into pitch ratio, slope angle, and pitch factor. Understanding roof pitch is essential for material selection and drainage planning.",
+      "steps": [
+        "Enter the vertical rise measurement",
+        "Enter the horizontal run measurement",
+        "Review pitch ratio (rise:12 format)",
+        "Check slope angle in degrees",
+        "Use pitch factor for area calculations"
+      ]
     },
-    "insulation-calculator": {
-        "title": "Insulation Calculator - Thermal & Sound",
-        "description": "Calculate insulation materials needed for thermal and sound control. Our free insulation calculator estimates fiberglass, foam, and batts required. Perfect for energy efficiency and noise reduction projects."
-    }
+    "useCases": [
+      {
+        "title": "Material Selection",
+        "description": "Determine appropriate roofing materials based on pitch requirements."
+      },
+      {
+        "title": "Rafter Calculations",
+        "description": "Use pitch measurements for cutting rafter angles and lengths."
+      },
+      {
+        "title": "Drainage Planning",
+        "description": "Ensure adequate slope for water drainage and snow shedding."
+      },
+      {
+        "title": "Code Compliance",
+        "description": "Verify roof pitch meets building code requirements for materials."
+      }
+    ],
+    "seoTips": [
+      "Most shingles require minimum 2:12 pitch, some low-slope options allow 1:12",
+      "4:12 to 9:12 is considered conventional slope for most roofing materials",
+      "Steeper pitches shed water and snow better but require more material",
+      "Metal roofing works on lower slopes than asphalt shingles",
+      "Always verify material manufacturer minimum slope requirements"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Measuring to wrong point",
+        "solution": "Measure run horizontally, not along the rafter slope"
+      },
+      {
+        "mistake": "Using total span instead of run",
+        "solution": "Run is half the span - from outside wall to ridge center"
+      },
+      {
+        "mistake": "Wrong material for pitch",
+        "solution": "Verify roofing material is rated for your actual pitch"
+      },
+      {
+        "mistake": "Ignoring building codes",
+        "solution": "Check local codes for minimum pitch requirements"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What does 4:12 pitch mean?",
+        "answer": "A 4:12 pitch means the roof rises 4 inches for every 12 inches of horizontal run. This equals approximately 18.4 degrees."
+      },
+      {
+        "question": "What is the minimum pitch for shingles?",
+        "answer": "Most asphalt shingles require minimum 2:12 pitch. Some manufacturers offer low-slope shingles rated for 2:12 to 4:12."
+      },
+      {
+        "question": "How do I measure roof pitch?",
+        "answer": "Place a level horizontally 12 inches from the roof surface, then measure vertical distance from level to roof. This is your rise per 12 inches."
+      },
+      {
+        "question": "What is considered a steep roof?",
+        "answer": "Roofs over 9:12 (about 37 degrees) are considered steep. They require special safety equipment and installation techniques."
+      },
+      {
+        "question": "Does roof pitch affect cost?",
+        "answer": "Yes, steeper pitches require more material due to greater surface area and may increase labor costs due to safety requirements."
+      }
+    ]
+  },
+  "shingle": {
+    "title": "Shingle Calculator",
+    "description": "Calculate roof shingles needed for complete coverage including starter strips and ridge caps.",
+    "unit": "Measurement Unit",
+    "unit_tooltip": "Select feet or meters for roof dimensions",
+    "feet": "Feet",
+    "meters": "Meters",
+    "roof_area": "Roof Area",
+    "roof_area_tooltip": "Total roof surface area (after pitch factor)",
+    "sqft": "sq ft",
+    "sqm": "sq m",
+    "shingle_type": "Shingle Type",
+    "shingle_type_tooltip": "Different shingle types have different coverage",
+    "types": {
+      "3tab": "3-Tab Shingles (3 bundles/square)",
+      "architectural": "Architectural Shingles (3-4 bundles/square)",
+      "premium": "Premium/Designer (4-5 bundles/square)"
+    },
+    "ridge_length": "Ridge and Hip Length",
+    "ridge_length_tooltip": "Total length of ridges and hips for cap shingles",
+    "waste_factor": "Waste Factor (%)",
+    "waste_factor_tooltip": "Extra for waste, starter, and valleys (typically 10-15%)",
+    "result_bundles": "Shingle Bundles Needed",
+    "bundles": "bundles",
+    "additional_materials": "Additional Materials",
+    "starter_strip": "Starter Strip",
+    "ridge_cap": "Ridge Cap Bundles",
+    "underlayment": "Underlayment Rolls",
+    "drip_edge": "Drip Edge (ft)",
+    "formula_title": "Calculation Formula",
+    "formula": "Bundles = (Roof Squares × Bundles per Square) × (1 + Waste). 1 Square = 100 sq ft.",
+    "info_title": "About Shingle Calculation",
+    "info_description": "Roofing shingles are sold in bundles that cover roofing squares (100 sq ft). This calculator includes starter strips, ridge caps, and accessories.",
+    "use_cases_title": "Common Uses",
+    "use_case_1": "Complete roof replacement",
+    "use_case_2": "New construction roofing",
+    "use_case_3": "Storm damage repair",
+    "errors": {
+      "invalid_area": "Please enter valid roof area",
+      "positive_values": "Area must be greater than zero",
+      "invalid_waste": "Waste factor must be between 0 and 100"
+    },
+    "placeholders": {
+      "roof_area": "2000",
+      "ridge_length": "60",
+      "waste": "10"
+    },
+    "howItWorks": {
+      "title": "How the Shingle Calculator Works",
+      "formula": "Bundles = (Roof Area / 100) × Bundles per Square × (1 + Waste)",
+      "explanation": "This calculator converts roof area to roofing squares and calculates bundle quantities based on shingle type. It includes starter strips, ridge caps, underlayment, and drip edge.",
+      "steps": [
+        "Enter total roof area in square feet",
+        "Select shingle type for correct bundle coverage",
+        "Add ridge and hip length for cap shingles",
+        "Set waste factor (15% for complex roofs)",
+        "Review bundles and accessories needed"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Full Roof Replacement",
+        "description": "Calculate all materials for complete roof tear-off and replacement."
+      },
+      {
+        "title": "New Construction",
+        "description": "Estimate shingle quantities for new home roofing."
+      },
+      {
+        "title": "Insurance Claims",
+        "description": "Document material quantities for storm damage repair estimates."
+      },
+      {
+        "title": "Partial Repair",
+        "description": "Determine shingles needed for section repairs and patches."
+      }
+    ],
+    "seoTips": [
+      "One roofing square equals 100 square feet - order in complete squares",
+      "Three-tab shingles: 3 bundles per square; architectural: 3-4 bundles",
+      "Include 10% waste for simple roofs, 15% for roofs with valleys and dormers",
+      "Ridge cap shingles cover approximately 20-25 linear feet per bundle",
+      "Check warranty requirements - many require specific underlayment"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Forgetting pitch factor",
+        "solution": "Calculate actual roof area using pitch factor, not just footprint"
+      },
+      {
+        "mistake": "Insufficient ridge cap",
+        "solution": "Measure all ridges and hips - one bundle covers 20-25 linear feet"
+      },
+      {
+        "mistake": "Skipping starter strip",
+        "solution": "Starter strip prevents wind uplift at eaves - essential for warranty"
+      },
+      {
+        "mistake": "Wrong underlayment",
+        "solution": "Use ice and water shield in valleys and at eaves in cold climates"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How many bundles of shingles per square?",
+        "answer": "Three-tab shingles require 3 bundles per square. Architectural shingles vary from 3-5 bundles depending on weight and manufacturer."
+      },
+      {
+        "question": "What is a roofing square?",
+        "answer": "A roofing square is 100 square feet of roof area. All roofing materials are measured and priced per square."
+      },
+      {
+        "question": "How long do shingles last?",
+        "answer": "Three-tab: 15-20 years, architectural: 25-30 years, premium: 40-50 years. Actual life varies by climate and ventilation."
+      },
+      {
+        "question": "Can I shingle over existing shingles?",
+        "answer": "Most codes allow one layer over existing shingles. However, tear-off is recommended for best results and to inspect decking."
+      },
+      {
+        "question": "What temperature is too cold for shingling?",
+        "answer": "Below 40°F (4°C), shingles become brittle and may crack. Self-sealing strips also require warmth to activate."
+      }
+    ],
+    "rolls": "Rolls"
+  },
+  "insulation": {
+    "title": "Insulation Calculator",
+    "description": "Calculate insulation materials needed for thermal and sound control.",
+    "unit": "Measurement Unit",
+    "unit_tooltip": "Select meters or feet for measurements",
+    "meters": "Meters",
+    "feet": "Feet",
+    "insulation_type": "Insulation Type",
+    "insulation_type_tooltip": "Select the type of insulation material",
+    "types": {
+      "fiberglass": "Fiberglass",
+      "rockwool": "Rockwool",
+      "cellulose": "Cellulose",
+      "spray_foam_open": "Open Cell Spray Foam",
+      "spray_foam_closed": "Closed Cell Spray Foam"
+    },
+    "area": "Total Area",
+    "area_tooltip": "Total area to be insulated",
+    "batt_width": "Batt Width",
+    "batt_width_tooltip": "Width of insulation batts",
+    "batt_length": "Batt Length",
+    "batt_length_tooltip": "Length of insulation batts",
+    "thickness": "Insulation Thickness",
+    "thickness_tooltip": "Thickness of insulation in inches",
+    "waste_factor": "Waste Factor",
+    "waste_factor_tooltip": "Extra material for waste and cuts (typically 10%)",
+    "result_batts": "Batts Required",
+    "batts": "batts",
+    "without_waste": "without waste",
+    "details": "Calculation Details",
+    "total_area": "Total Area",
+    "r_value": "R-Value",
+    "r_value_prefix": "R-",
+    "rolls_needed": "Rolls Needed",
+    "coverage_per_batt": "Coverage per Batt",
+    "formula_title": "Calculation Formula",
+    "formula": "Batts = Total Area / Coverage per Batt. R-Value = R-Value per Inch x Thickness.",
+    "info_title": "About Insulation Calculation",
+    "info_description": "Insulation R-value indicates thermal resistance. Higher R-values provide better insulation. The amount needed depends on area, batt size, and desired R-value.",
+    "use_cases_title": "Common Uses",
+    "use_case_1": "Wall cavity insulation",
+    "use_case_2": "Attic and ceiling insulation",
+    "use_case_3": "Soundproofing projects",
+    "errors": {
+      "invalid_dimensions": "Please enter valid dimensions",
+      "positive_values": "Values must be greater than zero",
+      "invalid_waste": "Waste factor must be between 0 and 100"
+    },
+    "placeholders": {
+      "area": "100",
+      "batt_width": "0.406",
+      "batt_length": "1.22",
+      "thickness": "3.5",
+      "waste": "10"
+    },
+    "howItWorks": {
+      "title": "How the Insulation Calculator Works",
+      "formula": "Batts = Total Area / Coverage per Batt",
+      "explanation": "This calculator determines insulation quantity by dividing total area by individual batt coverage. It calculates R-value based on insulation type and thickness.",
+      "steps": [
+        "Enter total area to be insulated",
+        "Select insulation type",
+        "Specify batt dimensions and thickness",
+        "Add waste factor for cuts around obstacles",
+        "Review batts, rolls, and R-value achieved"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Wall Cavity Insulation",
+        "description": "Calculate batt insulation for standard wall framing."
+      },
+      {
+        "title": "Attic Insulation",
+        "description": "Estimate insulation needs for attic floors and roof cavities."
+      },
+      {
+        "title": "Basement Walls",
+        "description": "Plan insulation for basement finishing projects."
+      },
+      {
+        "title": "Soundproofing",
+        "description": "Determine insulation for acoustic control in walls and floors."
+      }
+    ],
+    "seoTips": [
+      "R-value requirements vary by climate zone - check local energy codes",
+      "Compress insulation reduces R-value - use correct thickness for cavity",
+      "Vapor barriers go on warm side of wall in cold climates",
+      "Faced insulation provides vapor barrier but unfaced allows drying",
+      "Air sealing is as important as insulation for energy efficiency"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Compressing insulation",
+        "solution": "Use correct thickness for cavity - compression reduces R-value"
+      },
+      {
+        "mistake": "Gaps around obstacles",
+        "solution": "Cut and fit insulation tightly around wires, pipes, and boxes"
+      },
+      {
+        "mistake": "Wrong vapor barrier placement",
+        "solution": "Vapor barrier goes on warm side - interior in cold climates"
+      },
+      {
+        "mistake": "Insufficient attic insulation",
+        "solution": "Attics need R-38 to R-60 in most climate zones"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What R-value do I need for my walls?",
+        "answer": "Most climates require R-13 to R-21 for exterior walls. Check your local energy code for specific requirements based on climate zone."
+      },
+      {
+        "question": "How much insulation do I need per square foot?",
+        "answer": "One batt covers approximately 32-40 sq ft depending on size. Calculate total area and divide by batt coverage, adding 10% for waste."
+      },
+      {
+        "question": "What is the R-value per inch of fiberglass?",
+        "answer": "Standard fiberglass batts provide approximately R-3.2 per inch. High-density batts achieve R-4.3 per inch."
+      },
+      {
+        "question": "Should I use faced or unfaced insulation?",
+        "answer": "Use faced insulation with vapor barrier in new construction. Use unfaced for adding to existing insulation or in mild climates."
+      },
+      {
+        "question": "Can I install insulation myself?",
+        "answer": "Yes, batt insulation is DIY-friendly. Wear protective gear and ensure proper fit. Spray foam and blown-in typically require professionals."
+      }
+    ]
+  },
+  "roofing-calculator": {
+    "title": "Roofing Calculator - Shingles & Materials",
+    "description": "Calculate roofing materials needed for your project. Our free roofing calculator estimates shingles, underlayment, and insulation quantities. Perfect for contractors and DIYers planning roof installations or replacements."
+  },
+  "roof-pitch-calculator": {
+    "title": "Roof Pitch Calculator - Slope & Angle",
+    "description": "Calculate roof pitch, slope, and angle for construction projects. Our free roof pitch calculator helps determine proper roof inclination, estimate materials for angled roofs, and ensure proper water drainage."
+  },
+  "shingle-calculator": {
+    "title": "Shingle Calculator - Roof Coverage Estimator",
+    "description": "Calculate roof shingles needed for complete coverage. Our free shingle calculator helps estimate asphalt shingles, tiles, and roofing squares required. Includes waste factor for accurate material ordering."
+  },
+  "insulation-calculator": {
+    "title": "Insulation Calculator - Thermal & Sound",
+    "description": "Calculate insulation materials needed for thermal and sound control. Our free insulation calculator estimates fiberglass, foam, and batts required. Perfect for energy efficiency and noise reduction projects."
+  }
 }

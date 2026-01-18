@@ -1,1249 +1,1317 @@
 {
-    "area": {
-        "title": "Area Converter",
-        "description": "Convert between different area units like square meters, hectares, acres, and more.",
-        "units": {
-            "square_meter": "Square Meter (m²)",
-            "square_kilometer": "Square Kilometer (km²)",
-            "square_centimeter": "Square Centimeter (cm²)",
-            "square_millimeter": "Square Millimeter (mm²)",
-            "hectare": "Hectare (ha)",
-            "acre": "Acre (ac)",
-            "square_mile": "Square Mile (mi²)",
-            "square_yard": "Square Yard (yd²)",
-            "square_foot": "Square Foot (ft²)",
-            "square_inch": "Square Inch (in²)"
-        },
-        "info_title": "About Area Converter",
-        "info_desc": "A useful tool for converting land, real estate, and geometric areas.",
-        "use_cases": {
-            "title": "Common Uses",
-            "case_1": "Land and farm measurement",
-            "case_2": "House and real estate planning",
-            "case_3": "Paint and flooring area calculation"
-        },
-        "howItWorks": {
-            "title": "How the Area Converter Works",
-            "description": "The area converter uses square meters as the base unit for all conversions. When you enter a value in any unit, it's first converted to square meters, then to your target unit.",
-            "steps": [
-                "Enter the numerical area value",
-                "Select the source unit (the unit you're converting from)",
-                "Select the target unit (the unit you're converting to)",
-                "Get your result instantly with high precision"
-            ]
-        },
-        "useCases": {
-            "title": "Use Cases",
-            "items": [
-                {
-                    "title": "Real Estate & Property",
-                    "description": "Convert land areas between hectares, acres, and square meters when buying or selling property"
-                },
-                {
-                    "title": "Construction & Renovation",
-                    "description": "Calculate tile, paint, and flooring quantities based on room dimensions"
-                },
-                {
-                    "title": "Agriculture & Farming",
-                    "description": "Convert farm and field areas to calculate seed and fertilizer requirements"
-                },
-                {
-                    "title": "Engineering & Design",
-                    "description": "Convert area units in architectural and engineering blueprints"
-                }
-            ]
-        },
-        "seoTips": {
-            "title": "Tips for Optimal Use",
-            "tips": [
-                "Use hectares for large agricultural areas and acres for land",
-                "Square meters are ideal for homes, apartments, and rooms",
-                "Square kilometers are used for cities and large geographic regions",
-                "Always verify your unit selection before converting to avoid errors"
-            ]
-        },
-        "commonMistakes": {
-            "title": "Common Mistakes to Avoid",
-            "mistakes": [
-                {
-                    "mistake": "Confusing meters with square meters",
-                    "correction": "Meters measure length while square meters measure area (length x width)"
-                },
-                {
-                    "mistake": "Using US acres instead of local units",
-                    "correction": "The US acre differs from other regional land units; verify which unit is used in your area"
-                },
-                {
-                    "mistake": "Forgetting to square the conversion factor",
-                    "correction": "When converting area units, you must square the linear conversion factor"
-                }
-            ]
-        },
-        "faqs": {
-            "title": "Frequently Asked Questions",
-            "items": [
-                {
-                    "question": "How many square meters are in a hectare?",
-                    "answer": "One hectare equals 10,000 square meters, which is equivalent to a square 100 meters on each side."
-                },
-                {
-                    "question": "What's the difference between an acre and a hectare?",
-                    "answer": "One hectare equals approximately 2.47 acres. Hectares are the metric standard internationally, while acres are common in the US and UK."
-                },
-                {
-                    "question": "How do I calculate room area in square meters?",
-                    "answer": "Multiply the room's length in meters by its width in meters. Example: a 4m x 5m room = 20 square meters."
-                },
-                {
-                    "question": "What's the best unit to measure apartment size?",
-                    "answer": "Square meters or square feet are most commonly used for apartments and houses, depending on your country's standards."
-                }
-            ]
-        }
+  "area": {
+    "title": "Area Converter",
+    "description": "Convert between different area units like square meters, hectares, acres, and more.",
+    "units": {
+      "square_meter": "Square Meter (m²)",
+      "square_kilometer": "Square Kilometer (km²)",
+      "square_centimeter": "Square Centimeter (cm²)",
+      "square_millimeter": "Square Millimeter (mm²)",
+      "hectare": "Hectare (ha)",
+      "acre": "Acre (ac)",
+      "square_mile": "Square Mile (mi²)",
+      "square_yard": "Square Yard (yd²)",
+      "square_foot": "Square Foot (ft²)",
+      "square_inch": "Square Inch (in²)"
     },
-    "temperature": {
-        "title": "Temperature Converter",
-        "description": "Convert between Celsius, Fahrenheit, and Kelvin temperature scales.",
-        "units": {
-            "celsius": "Celsius",
-            "fahrenheit": "Fahrenheit",
-            "kelvin": "Kelvin",
-            "symbol_celsius": "°C",
-            "symbol_fahrenheit": "°F"
-        },
-        "info_title": "About Temperature Converter",
-        "info_desc": "Easily convert temperatures for scientific, weather, and cooking purposes.",
-        "formula_c_to_f": "°F = (°C × 9/5) + 32",
-        "formula_f_to_c": "°C = (°F - 32) × 5/9",
-        "formula_c_to_k": "K = °C + 273.15",
-        "howItWorks": {
-            "title": "How the Temperature Converter Works",
-            "description": "The converter uses precise mathematical formulas to convert between temperature scales. Each scale has different zero points and degree sizes.",
-            "steps": [
-                "Enter the temperature value you want to convert",
-                "Select the current temperature scale (Celsius, Fahrenheit, or Kelvin)",
-                "Select the target scale you want to convert to",
-                "Get the result along with the formula used"
-            ]
-        },
-        "useCases": {
-            "title": "Use Cases",
-            "items": [
-                {
-                    "title": "Cooking & Baking",
-                    "description": "Convert oven temperatures between American recipes (Fahrenheit) and international ones (Celsius)"
-                },
-                {
-                    "title": "Weather & Climate",
-                    "description": "Understand temperature readings from international weather reports that may use different scales"
-                },
-                {
-                    "title": "Scientific Experiments",
-                    "description": "Convert to Kelvin for physics and chemistry calculations"
-                },
-                {
-                    "title": "Travel",
-                    "description": "Understand weather forecasts when traveling to countries using Fahrenheit"
-                }
-            ]
-        },
-        "seoTips": {
-            "title": "Tips for Optimal Use",
-            "tips": [
-                "Celsius is used in most countries worldwide",
-                "Fahrenheit is primarily used in the United States",
-                "Kelvin starts from absolute zero and cannot be negative",
-                "When cooking, always verify the oven temperature unit in your recipe"
-            ]
-        },
-        "commonMistakes": {
-            "title": "Common Mistakes to Avoid",
-            "mistakes": [
-                {
-                    "mistake": "Confusing Celsius and Fahrenheit in recipes",
-                    "correction": "Always check the temperature unit specified - 350°F equals approximately 175°C"
-                },
-                {
-                    "mistake": "Using negative values with Kelvin",
-                    "correction": "Kelvin cannot be negative as it starts from absolute zero"
-                },
-                {
-                    "mistake": "Assuming one degree change is equal across all scales",
-                    "correction": "One Celsius degree equals 1.8 Fahrenheit degrees"
-                }
-            ]
-        },
-        "faqs": {
-            "title": "Frequently Asked Questions",
-            "items": [
-                {
-                    "question": "What is normal body temperature in Fahrenheit?",
-                    "answer": "Normal body temperature of 37°C equals 98.6°F in Fahrenheit."
-                },
-                {
-                    "question": "At what temperature does water boil in Fahrenheit?",
-                    "answer": "Water boils at 100°C, which equals 212°F at sea level."
-                },
-                {
-                    "question": "What is absolute zero?",
-                    "answer": "Absolute zero is 0 Kelvin or -273.15°C, the theoretically lowest possible temperature."
-                },
-                {
-                    "question": "Why do scientists use the Kelvin scale?",
-                    "answer": "Because Kelvin starts from absolute zero, making it suitable for physics calculations and thermodynamic equations."
-                }
-            ]
-        }
+    "info_title": "About Area Converter",
+    "info_desc": "A useful tool for converting land, real estate, and geometric areas.",
+    "use_cases": {
+      "title": "Common Uses",
+      "case_1": "Land and farm measurement",
+      "case_2": "House and real estate planning",
+      "case_3": "Paint and flooring area calculation"
     },
-    "volume": {
-        "title": "Volume Converter",
-        "description": "Convert between different volume units like liters, gallons, and cubic meters.",
-        "units": {
-            "liter": "Liter (L)",
-            "milliliter": "Milliliter (mL)",
-            "cubic_meter": "Cubic Meter (m³)",
-            "cubic_centimeter": "Cubic Centimeter (cm³)",
-            "gallon_us": "US Gallon",
-            "quart_us": "US Quart",
-            "pint_us": "US Pint",
-            "cup_us": "US Cup",
-            "fluid_ounce_us": "US Fluid Ounce",
-            "tablespoon_us": "US Tablespoon",
-            "teaspoon_us": "US Teaspoon"
-        },
-        "info_title": "About Volume Converter",
-        "info_desc": "Essential tool for converting cooking measurements, liquids, and tank volumes.",
-        "from_tooltip": "Select volume unit to convert from",
-        "to_tooltip": "Select volume unit to convert to",
-        "enter_value": "Enter the volume value",
-        "formula_desc": "All conversions use Liter as the base unit for accuracy.",
-        "howItWorks": {
-            "title": "How the Volume Converter Works",
-            "description": "The converter uses liters as the base unit for all conversions. Your input value is first converted to liters, then to your target unit for accuracy.",
-            "steps": [
-                "Enter the volume value you want to convert",
-                "Select the current volume unit from the dropdown",
-                "Select the unit you want to convert to",
-                "Get the precise result instantly"
-            ]
-        },
-        "useCases": {
-            "title": "Use Cases",
-            "items": [
-                {
-                    "title": "Cooking & Recipes",
-                    "description": "Convert international recipe measurements from cups and ounces to milliliters and grams"
-                },
-                {
-                    "title": "Fuel Tanks",
-                    "description": "Calculate car tank capacity and convert between liters and gallons"
-                },
-                {
-                    "title": "Medicine & Dosages",
-                    "description": "Convert liquid medication doses between milliliters and tablespoons"
-                },
-                {
-                    "title": "Engineering Projects",
-                    "description": "Calculate tank, pool, and basin volumes in cubic meters"
-                }
-            ]
-        },
-        "seoTips": {
-            "title": "Tips for Optimal Use",
-            "tips": [
-                "Liters and milliliters are the most common volume units globally",
-                "US gallons differ from Imperial (UK) gallons",
-                "One tablespoon equals approximately 15 milliliters",
-                "One cubic meter equals 1,000 liters"
-            ]
-        },
-        "commonMistakes": {
-            "title": "Common Mistakes to Avoid",
-            "mistakes": [
-                {
-                    "mistake": "Confusing US and Imperial gallons",
-                    "correction": "US gallon = 3.785 liters, while Imperial gallon = 4.546 liters"
-                },
-                {
-                    "mistake": "Using regular cups instead of measuring cups",
-                    "correction": "A US measuring cup = 236 mL; always use standardized measuring tools"
-                },
-                {
-                    "mistake": "Confusing cubic centimeters and milliliters",
-                    "correction": "Cubic centimeters equal milliliters exactly (1 cm³ = 1 mL)"
-                }
-            ]
-        },
-        "faqs": {
-            "title": "Frequently Asked Questions",
-            "items": [
-                {
-                    "question": "How many liters are in a gallon?",
-                    "answer": "A US gallon equals approximately 3.785 liters, while an Imperial gallon equals 4.546 liters."
-                },
-                {
-                    "question": "How many milliliters are in a cup?",
-                    "answer": "A standard US cup equals approximately 236.6 milliliters."
-                },
-                {
-                    "question": "What's the difference between a liter and a cubic meter?",
-                    "answer": "One cubic meter equals 1,000 liters. Liters are typically used for liquids while cubic meters for larger volumes."
-                },
-                {
-                    "question": "How many tablespoons are in a cup?",
-                    "answer": "A US cup contains approximately 16 tablespoons."
-                }
-            ]
-        }
+    "howItWorks": {
+      "title": "How the Area Converter Works",
+      "description": "The area converter uses square meters as the base unit for all conversions. When you enter a value in any unit, it's first converted to square meters, then to your target unit.",
+      "steps": [
+        "Enter the numerical area value",
+        "Select the source unit (the unit you're converting from)",
+        "Select the target unit (the unit you're converting to)",
+        "Get your result instantly with high precision"
+      ]
     },
-    "speed": {
-        "title": "Speed Converter",
-        "description": "Convert between speed units like km/h, mph, and knots.",
-        "units": {
-            "meters_per_second": "Meters/Second (m/s)",
-            "kilometers_per_hour": "Kilometers/Hour (km/h)",
-            "miles_per_hour": "Miles/Hour (mph)",
-            "knot": "Knot",
-            "feet_per_second": "Feet/Second (ft/s)"
+    "useCases": {
+      "title": "Use Cases",
+      "items": [
+        {
+          "title": "Real Estate & Property",
+          "description": "Convert land areas between hectares, acres, and square meters when buying or selling property"
         },
-        "info_title": "About Speed Converter",
-        "info_desc": "Convert between different speed units for transportation, sports, and weather.",
-        "formula_desc": "All conversions use meters per second as the base unit for accuracy.",
-        "howItWorks": {
-            "title": "How the Speed Converter Works",
-            "description": "The converter uses meters per second as the base unit. Input speeds are converted to m/s first, then to your target unit.",
-            "steps": [
-                "Enter the speed value you want to convert",
-                "Select the current speed unit",
-                "Select the unit you want to convert to",
-                "Get the precise result instantly"
-            ]
+        {
+          "title": "Construction & Renovation",
+          "description": "Calculate tile, paint, and flooring quantities based on room dimensions"
         },
-        "useCases": {
-            "title": "Use Cases",
-            "items": [
-                {
-                    "title": "Driving & Automobiles",
-                    "description": "Convert car speeds between km/h and mph when renting a car abroad"
-                },
-                {
-                    "title": "Maritime Navigation",
-                    "description": "Convert ship speeds from knots to km/h to understand distances and travel times"
-                },
-                {
-                    "title": "Aviation",
-                    "description": "Understand aircraft speeds given in knots or Mach numbers"
-                },
-                {
-                    "title": "Sports & Running",
-                    "description": "Convert running and cycling speeds between different units"
-                }
-            ]
+        {
+          "title": "Agriculture & Farming",
+          "description": "Convert farm and field areas to calculate seed and fertilizer requirements"
         },
-        "seoTips": {
-            "title": "Tips for Optimal Use",
-            "tips": [
-                "km/h is used in most countries worldwide",
-                "mph is used in the US and UK",
-                "Knots are the standard unit in maritime and aviation navigation",
-                "Quick conversion: 1 mph ≈ 1.6 km/h"
-            ]
-        },
-        "commonMistakes": {
-            "title": "Common Mistakes to Avoid",
-            "mistakes": [
-                {
-                    "mistake": "Confusing statute miles with nautical miles",
-                    "correction": "Statute mile = 1.609 km, while nautical mile = 1.852 km"
-                },
-                {
-                    "mistake": "Assuming knots equal km/h",
-                    "correction": "One knot = 1.852 km/h, they are not equal"
-                },
-                {
-                    "mistake": "Ignoring wind effects on actual speed",
-                    "correction": "In aviation and navigation, ground speed differs from airspeed due to wind"
-                }
-            ]
-        },
-        "faqs": {
-            "title": "Frequently Asked Questions",
-            "items": [
-                {
-                    "question": "How many kilometers per hour is one mile per hour?",
-                    "answer": "1 mph equals approximately 1.609 km/h."
-                },
-                {
-                    "question": "What is a knot and why is it used at sea?",
-                    "answer": "A knot is one nautical mile per hour (1.852 km/h). It's used in navigation because it directly relates to longitude lines on charts."
-                },
-                {
-                    "question": "What is the speed of sound?",
-                    "answer": "The speed of sound at sea level is approximately 343 m/s or 1,235 km/h (Mach 1)."
-                },
-                {
-                    "question": "How do I convert from km/h to m/s?",
-                    "answer": "Divide by 3.6. Example: 90 km/h ÷ 3.6 = 25 m/s."
-                }
-            ]
+        {
+          "title": "Engineering & Design",
+          "description": "Convert area units in architectural and engineering blueprints"
         }
+      ]
     },
-    "time": {
-        "title": "Time Converter",
-        "description": "Convert between time units from seconds to years.",
-        "units": {
-            "millisecond": "Millisecond (ms)",
-            "second": "Second (s)",
-            "minute": "Minute (min)",
-            "hour": "Hour (h)",
-            "day": "Day (d)",
-            "week": "Week (wk)",
-            "month": "Month (mo)",
-            "year": "Year (yr)"
+    "seoTips": {
+      "title": "Tips for Optimal Use",
+      "tips": [
+        "Use hectares for large agricultural areas and acres for land",
+        "Square meters are ideal for homes, apartments, and rooms",
+        "Square kilometers are used for cities and large geographic regions",
+        "Always verify your unit selection before converting to avoid errors"
+      ]
+    },
+    "commonMistakes": {
+      "title": "Common Mistakes to Avoid",
+      "mistakes": [
+        {
+          "mistake": "Confusing meters with square meters",
+          "correction": "Meters measure length while square meters measure area (length x width)"
         },
-        "info_title": "About Time Converter",
-        "info_desc": "Convert between different time units for scheduling and time calculations.",
-        "from_tooltip": "Select the time unit to convert from",
-        "to_tooltip": "Select the time unit to convert to",
-        "enter_value": "Enter the time value",
-        "formula_desc": "All conversions use Second as the base unit for accuracy.",
-        "howItWorks": {
-            "title": "How the Time Converter Works",
-            "description": "The converter uses seconds as the base unit. Input time values are converted to seconds first, then to your target unit.",
-            "steps": [
-                "Enter the time value you want to convert",
-                "Select the current time unit (second, minute, hour, etc.)",
-                "Select the unit you want to convert to",
-                "Get the precise result directly"
-            ]
+        {
+          "mistake": "Using US acres instead of local units",
+          "correction": "The US acre differs from other regional land units; verify which unit is used in your area"
         },
-        "useCases": {
-            "title": "Use Cases",
-            "items": [
-                {
-                    "title": "Project Management",
-                    "description": "Convert work hours to days and weeks for project planning"
-                },
-                {
-                    "title": "Programming & Development",
-                    "description": "Convert milliseconds to seconds and minutes for application performance measurement"
-                },
-                {
-                    "title": "Travel & Trips",
-                    "description": "Calculate trip durations and convert hours to days"
-                },
-                {
-                    "title": "Financial Calculations",
-                    "description": "Convert loan and investment periods between months and years"
-                }
-            ]
-        },
-        "seoTips": {
-            "title": "Tips for Optimal Use",
-            "tips": [
-                "Month is calculated as an average of 30.44 days for accuracy",
-                "Year is calculated as 365.25 days to account for leap years",
-                "Use milliseconds to measure software and game performance",
-                "A week is always exactly 7 days"
-            ]
-        },
-        "commonMistakes": {
-            "title": "Common Mistakes to Avoid",
-            "mistakes": [
-                {
-                    "mistake": "Assuming every month has 30 days",
-                    "correction": "Months range from 28-31 days; the converter uses the average of 30.44 days"
-                },
-                {
-                    "mistake": "Forgetting leap years",
-                    "correction": "Leap years have 366 days and occur approximately every 4 years"
-                },
-                {
-                    "mistake": "Confusing business days with calendar days",
-                    "correction": "A work week is typically 5 days while a calendar week is 7 days"
-                }
-            ]
-        },
-        "faqs": {
-            "title": "Frequently Asked Questions",
-            "items": [
-                {
-                    "question": "How many seconds are in a year?",
-                    "answer": "A regular year contains 31,536,000 seconds (365 days × 24 hours × 60 minutes × 60 seconds)."
-                },
-                {
-                    "question": "How many hours are in a month?",
-                    "answer": "With an average of 30.44 days per month, there are approximately 730.5 hours in a month."
-                },
-                {
-                    "question": "What is a millisecond?",
-                    "answer": "A millisecond is one-thousandth of a second (0.001 seconds). It's used in computing and performance measurement."
-                },
-                {
-                    "question": "How many weeks are in a year?",
-                    "answer": "A year contains approximately 52.18 weeks (365 days ÷ 7 days)."
-                }
-            ]
+        {
+          "mistake": "Forgetting to square the conversion factor",
+          "correction": "When converting area units, you must square the linear conversion factor"
         }
+      ]
     },
-    "data_storage": {
-        "title": "Data Storage Converter",
-        "description": "Convert between bits, bytes, kilobytes, megabytes, etc.",
-        "units": {
-            "bit": "bit (b)",
-            "byte": "Byte (B)",
-            "kilobyte": "Kilobyte (KB)",
-            "megabyte": "Megabyte (MB)",
-            "gigabyte": "Gigabyte (GB)",
-            "terabyte": "Terabyte (TB)",
-            "petabyte": "Petabyte (PB)"
+    "faqs": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "How many square meters are in a hectare?",
+          "answer": "One hectare equals 10,000 square meters, which is equivalent to a square 100 meters on each side."
         },
-        "info_title": "About Data Storage Converter",
-        "info_desc": "Convert between different data storage units for file sizes, disk space, and memory.",
-        "from_tooltip": "Select data unit to convert from",
-        "to_tooltip": "Select data unit to convert to",
-        "enter_value": "Enter the data storage value",
-        "binary_mode": "Binary (1024)",
-        "decimal_mode": "Decimal (1000)",
-        "conversion_mode": "Conversion Mode",
-        "binary_1024": "Binary Mode (1024)",
-        "decimal_1000": "Decimal Mode (1000)",
-        "binary_desc": "Used by most operating systems (1 KB = 1024 bytes)",
-        "decimal_desc": "Used by hard drive manufacturers (1 KB = 1000 bytes)",
-        "formula_desc": "Conversion depends on whether binary (1024) or decimal (1000) mode is selected.",
-        "use_cases": {
-            "title": "Common Uses",
-            "case_1": "Calculating file sizes",
-            "case_2": "Estimating storage space",
-            "case_3": "Understanding bandwidth and download sizes"
+        {
+          "question": "What's the difference between an acre and a hectare?",
+          "answer": "One hectare equals approximately 2.47 acres. Hectares are the metric standard internationally, while acres are common in the US and UK."
         },
-        "howItWorks": {
-            "title": "How the Data Storage Converter Works",
-            "description": "The converter supports two modes: Binary (1024) used by operating systems, and Decimal (1000) used by drive manufacturers.",
-            "steps": [
-                "Enter the data value you want to convert",
-                "Select the current data unit",
-                "Select the unit you want to convert to",
-                "Choose the conversion mode (binary or decimal)",
-                "Get the precise result"
-            ]
+        {
+          "question": "How do I calculate room area in square meters?",
+          "answer": "Multiply the room's length in meters by its width in meters. Example: a 4m x 5m room = 20 square meters."
         },
-        "useCases_detailed": {
-            "title": "Use Cases",
-            "items": [
-                {
-                    "title": "File Management",
-                    "description": "Know file sizes in different units to organize storage"
-                },
-                {
-                    "title": "Buying Storage Devices",
-                    "description": "Understand actual hard drive capacity and compare options"
-                },
-                {
-                    "title": "Uploading & Downloading",
-                    "description": "Calculate download time based on internet speed and file size"
-                },
-                {
-                    "title": "Backup Planning",
-                    "description": "Estimate storage space needed for data backups"
-                }
-            ]
-        },
-        "seoTips": {
-            "title": "Tips for Optimal Use",
-            "tips": [
-                "Binary mode (1024) gives results matching what your operating system shows",
-                "Decimal mode (1000) gives results matching what drive manufacturers advertise",
-                "One byte equals 8 bits",
-                "1 GB (binary) = 1,073,741,824 bytes"
-            ]
-        },
-        "commonMistakes": {
-            "title": "Common Mistakes to Avoid",
-            "mistakes": [
-                {
-                    "mistake": "Confusing binary and decimal modes",
-                    "correction": "A 1 TB drive shows as 931 GB on your computer due to the difference between systems"
-                },
-                {
-                    "mistake": "Confusing bits and bytes",
-                    "correction": "Internet speed is measured in megabits (Mb) while file sizes use megabytes (MB)"
-                },
-                {
-                    "mistake": "Assuming KB always means 1024 bytes",
-                    "correction": "KB can mean 1000 or 1024 bytes depending on context"
-                }
-            ]
-        },
-        "faqs": {
-            "title": "Frequently Asked Questions",
-            "items": [
-                {
-                    "question": "Why does my hard drive show less capacity than advertised?",
-                    "answer": "Because manufacturers use decimal (1 GB = 1000 MB) while operating systems use binary (1 GB = 1024 MB)."
-                },
-                {
-                    "question": "What's the difference between Mb and MB?",
-                    "answer": "Mb (megabit) = million bits, MB (megabyte) = million bytes. Megabytes are 8 times larger."
-                },
-                {
-                    "question": "How many photos can I store in 1 GB?",
-                    "answer": "It depends on photo quality. Phone photos (3-5 MB) allow approximately 200-300 photos per gigabyte."
-                },
-                {
-                    "question": "What is a petabyte?",
-                    "answer": "Petabyte = 1000 terabytes (decimal) or 1024 terabytes (binary). It's used to measure massive data center storage."
-                }
-            ]
+        {
+          "question": "What's the best unit to measure apartment size?",
+          "answer": "Square meters or square feet are most commonly used for apartments and houses, depending on your country's standards."
         }
-    },
-    "pressure": {
-        "title": "Pressure Converter",
-        "description": "Convert between pressure units like Bar, Pascal, and PSI.",
-        "units": {
-            "pascal": "Pascal (Pa)",
-            "kilopascal": "Kilopascal (kPa)",
-            "bar": "Bar",
-            "psi": "PSI (psi)",
-            "atmosphere": "Atmosphere (atm)",
-            "torr": "Torr",
-            "mmhg": "mmHg"
-        },
-        "info_title": "About Pressure Converter",
-        "info_desc": "Convert between different pressure units for scientific, engineering, and weather applications.",
-        "from_tooltip": "Select pressure unit to convert from",
-        "to_tooltip": "Select pressure unit to convert to",
-        "enter_value": "Enter the pressure value",
-        "formula_desc": "All conversions use Pascal as the base unit for accuracy.",
-        "use_cases": {
-            "title": "Common Uses",
-            "case_1": "Weather and atmospheric pressure readings",
-            "case_2": "Tire pressure measurement",
-            "case_3": "Industrial and hydraulic systems"
-        },
-        "howItWorks": {
-            "title": "How the Pressure Converter Works",
-            "description": "The converter uses Pascal as the base unit for all conversions. Pascal is the SI unit for pressure measurement.",
-            "steps": [
-                "Enter the pressure value you want to convert",
-                "Select the current pressure unit",
-                "Select the unit you want to convert to",
-                "Get the high-precision result"
-            ]
-        },
-        "useCases_detailed": {
-            "title": "Use Cases",
-            "items": [
-                {
-                    "title": "Automotive Maintenance",
-                    "description": "Measure and convert car tire pressure between PSI and Bar"
-                },
-                {
-                    "title": "Weather & Meteorology",
-                    "description": "Convert atmospheric pressure readings between mmHg and hectopascals"
-                },
-                {
-                    "title": "Scuba Diving",
-                    "description": "Calculate water pressure at different depths in atmospheres and bars"
-                },
-                {
-                    "title": "Industrial Systems",
-                    "description": "Convert pressure units in hydraulic and pneumatic systems"
-                }
-            ]
-        },
-        "seoTips": {
-            "title": "Tips for Optimal Use",
-            "tips": [
-                "Bar is common in Europe and many countries for tire pressure",
-                "PSI is common in the US and UK",
-                "Standard atmospheric pressure = 1 atm = 101.325 kPa = 1.013 bar",
-                "mmHg is used in medicine for blood pressure measurement"
-            ]
-        },
-        "commonMistakes": {
-            "title": "Common Mistakes to Avoid",
-            "mistakes": [
-                {
-                    "mistake": "Confusing absolute and gauge pressure",
-                    "correction": "Gauge pressure is measured from atmospheric pressure, while absolute is from complete vacuum"
-                },
-                {
-                    "mistake": "Using PSI instead of Bar in certain regions",
-                    "correction": "Most tire pumps outside the US use Bar units"
-                },
-                {
-                    "mistake": "Confusing mmHg and mbar",
-                    "correction": "1 mbar = 0.75 mmHg approximately, they are not equal"
-                }
-            ]
-        },
-        "faqs": {
-            "title": "Frequently Asked Questions",
-            "items": [
-                {
-                    "question": "What is normal atmospheric pressure?",
-                    "answer": "Normal atmospheric pressure at sea level = 1 atm = 101.325 kPa = 1.013 bar = 760 mmHg."
-                },
-                {
-                    "question": "What PSI should car tires be?",
-                    "answer": "Typically 30-35 PSI (2.0-2.4 bar) for regular cars. Check your vehicle manual for exact values."
-                },
-                {
-                    "question": "What's the relationship between mmHg and Torr?",
-                    "answer": "They are approximately equal. 1 Torr = 1 mmHg under certain conditions."
-                },
-                {
-                    "question": "Why is mmHg used for blood pressure?",
-                    "answer": "For historical reasons, early blood pressure devices used mercury columns, and the unit persisted for standardization."
-                }
-            ]
-        }
-    },
-    "force": {
-        "title": "Force Converter",
-        "description": "Convert between force units like Newton and Pound-force.",
-        "units": {
-            "newton": "Newton (N)",
-            "kilonewton": "Kilonewton (kN)",
-            "pound_force": "Pound-force (lbf)",
-            "dyne": "Dyne (dyn)",
-            "kilogram_force": "Kilogram-force (kgf)"
-        },
-        "info_title": "About Force Converter",
-        "info_desc": "Convert between different force units for physics and engineering applications.",
-        "from_tooltip": "Select force unit to convert from",
-        "to_tooltip": "Select force unit to convert to",
-        "enter_value": "Enter the force value",
-        "formula_desc": "All conversions use Newton as the base unit for accuracy.",
-        "use_cases": {
-            "title": "Common Uses",
-            "case_1": "Physics and mechanics calculations",
-            "case_2": "Engineering and structural analysis",
-            "case_3": "Automotive and aerospace applications"
-        },
-        "howItWorks": {
-            "title": "How the Force Converter Works",
-            "description": "The converter uses Newton as the base unit for all conversions. Newton is the SI unit for force measurement.",
-            "steps": [
-                "Enter the force value you want to convert",
-                "Select the current force unit",
-                "Select the unit you want to convert to",
-                "Get the precise result instantly"
-            ]
-        },
-        "useCases_detailed": {
-            "title": "Use Cases",
-            "items": [
-                {
-                    "title": "Structural Engineering",
-                    "description": "Calculate loads and forces in building and bridge design"
-                },
-                {
-                    "title": "Physics & Mechanics",
-                    "description": "Apply Newton's laws and calculate forces in physics problems"
-                },
-                {
-                    "title": "Automotive Industry",
-                    "description": "Measure engine power and torque in various units"
-                },
-                {
-                    "title": "Materials Testing",
-                    "description": "Measure tensile and compressive forces in material tests"
-                }
-            ]
-        },
-        "seoTips": {
-            "title": "Tips for Optimal Use",
-            "tips": [
-                "Newton is the international standard SI unit for force",
-                "1 kilogram-force ≈ 9.81 Newtons (weight of 1 kg on Earth)",
-                "Pound-force is common in the United States",
-                "Dyne is a very small unit used in theoretical physics"
-            ]
-        },
-        "commonMistakes": {
-            "title": "Common Mistakes to Avoid",
-            "mistakes": [
-                {
-                    "mistake": "Confusing mass and weight",
-                    "correction": "Mass (kg) is constant, while weight (Newtons) depends on gravity"
-                },
-                {
-                    "mistake": "Using kilogram as a force unit",
-                    "correction": "Kilogram is a mass unit; use kilogram-force (kgf) or Newton for force"
-                },
-                {
-                    "mistake": "Forgetting that g varies by location",
-                    "correction": "Gravitational acceleration varies slightly by location (9.78-9.83 m/s²)"
-                }
-            ]
-        },
-        "faqs": {
-            "title": "Frequently Asked Questions",
-            "items": [
-                {
-                    "question": "What is a Newton?",
-                    "answer": "A Newton is the force required to accelerate a 1 kg mass at 1 m/s². Named after Isaac Newton."
-                },
-                {
-                    "question": "How many Newtons equal one kilogram-force?",
-                    "answer": "1 kilogram-force = 9.80665 Newtons (using standard g)."
-                },
-                {
-                    "question": "What's the difference between force and pressure?",
-                    "answer": "Force is a push or pull (in Newtons), while pressure is force divided by area (in Pascals)."
-                },
-                {
-                    "question": "When should I use kilonewtons?",
-                    "answer": "For large forces in structural engineering. 1 kilonewton = 1000 Newtons ≈ 102 kgf."
-                }
-            ]
-        }
-    },
-    "currency": {
-        "title": "Currency Converter",
-        "description": "Quick and easy conversion between major world and Arabic currencies.",
-        "info_title": "About Currency Converter",
-        "info_desc": "Convert between major global currencies like USD, EUR, and JPY, as well as Arabic currencies like SAR, AED, and EGP.",
-        "static_rates_notice": "Note: Using static exchange rates. For real-time rates, consider using official sources.",
-        "from": "From",
-        "to": "To",
-        "amount": "Amount",
-        "amount_placeholder": "Enter amount",
-        "select_currency": "Select Currency",
-        "from_tooltip": "Select currency to convert from",
-        "to_tooltip": "Select currency to convert to",
-        "swap": "Swap Currencies",
-        "result": "Result",
-        "exchange_rate": "Exchange Rate",
-        "current_rate": "Current Rate",
-        "details": "Conversion Details",
-        "you_send": "You Send",
-        "they_receive": "They Receive",
-        "notice": "Important Notice",
-        "disclaimer": "Exchange rates are for reference only and may not reflect real-time market rates.",
-        "usd": "US Dollar (USD)",
-        "eur": "Euro (EUR)",
-        "gbp": "British Pound (GBP)",
-        "jpy": "Japanese Yen (JPY)",
-        "sar": "Saudi Riyal (SAR)",
-        "aed": "UAE Dirham (AED)",
-        "egp": "Egyptian Pound (EGP)",
-        "use_cases": "Use Cases",
-        "use_case_1": "International travel and tourism",
-        "use_case_2": "Online shopping and e-commerce",
-        "use_case_3": "Business transactions and invoicing",
-        "howItWorks": {
-            "title": "How the Currency Converter Works",
-            "description": "The converter uses reference exchange rates to convert between currencies. The amount is multiplied by the exchange rate to get the equivalent value.",
-            "steps": [
-                "Enter the amount you want to convert",
-                "Select the source currency (the currency you have)",
-                "Select the target currency (the currency you want)",
-                "Get the result along with the exchange rate used"
-            ]
-        },
-        "useCases_detailed": {
-            "title": "Use Cases",
-            "items": [
-                {
-                    "title": "Travel Planning",
-                    "description": "Calculate trip costs in local currency before traveling"
-                },
-                {
-                    "title": "Online Shopping",
-                    "description": "Know the real price of products on international websites"
-                },
-                {
-                    "title": "Money Transfers",
-                    "description": "Estimate the amount the recipient will receive after transfer"
-                },
-                {
-                    "title": "Investment",
-                    "description": "Track the value of investments in foreign currencies"
-                }
-            ]
-        },
-        "seoTips": {
-            "title": "Tips for Optimal Use",
-            "tips": [
-                "Displayed rates are for reference only; check with your bank for actual rates",
-                "Banks add a profit margin on top of official exchange rates",
-                "Best conversion times are usually during market hours",
-                "Compare multiple sources to get the best rate"
-            ]
-        },
-        "commonMistakes": {
-            "title": "Common Mistakes to Avoid",
-            "mistakes": [
-                {
-                    "mistake": "Relying on a single exchange rate for planning",
-                    "correction": "Exchange rates fluctuate constantly; calculate with a 5-10% safety margin"
-                },
-                {
-                    "mistake": "Forgetting transfer fees",
-                    "correction": "Banks and transfer companies charge additional fees on top of the exchange rate"
-                },
-                {
-                    "mistake": "Converting at the airport",
-                    "correction": "Airport exchange offices typically offer the worst rates"
-                }
-            ]
-        },
-        "faqs": {
-            "title": "Frequently Asked Questions",
-            "items": [
-                {
-                    "question": "Are the exchange rates in the converter accurate?",
-                    "answer": "Rates are for reference only and may differ from live market rates. Check with a bank or exchange office for actual rates."
-                },
-                {
-                    "question": "Why is the buy rate different from the sell rate?",
-                    "answer": "Banks buy currency at a lower price and sell at a higher price. The difference is their profit margin."
-                },
-                {
-                    "question": "What's the best way to get foreign currency?",
-                    "answer": "Compare banks, exchange offices, and travel cards. Banks usually offer better rates than airports."
-                },
-                {
-                    "question": "Is the Saudi Riyal pegged to the US Dollar?",
-                    "answer": "Yes, the Saudi Riyal is pegged to the US Dollar at approximately 3.75 SAR per USD."
-                }
-            ]
-        }
-    },
-    "weight": {
-        "title": "Weight Converter",
-        "description": "Convert between different weight and mass units.",
-        "info_title": "About Weight Converter",
-        "info_desc": "Convert between kilograms, pounds, ounces, grams, and more.",
-        "units": {
-            "kilogram": "Kilogram (kg)",
-            "gram": "Gram (g)",
-            "milligram": "Milligram (mg)",
-            "microgram": "Microgram (μg)",
-            "metric_ton": "Metric Ton (t)",
-            "pound": "Pound (lb)",
-            "ounce": "Ounce (oz)",
-            "ton": "US Ton",
-            "stone": "Stone (st)",
-            "carat": "Carat (ct)"
-        },
-        "from_tooltip": "Select unit to convert from",
-        "to_tooltip": "Select unit to convert to",
-        "enter_value": "Enter weight value",
-        "formula_desc": "All conversions use Kilogram as the base unit for accuracy.",
-        "use_cases": {
-            "title": "Common Uses",
-            "case_1": "Cooking and ingredients",
-            "case_2": "Shipping and postal weights",
-            "case_3": "Health and weight tracking"
-        },
-        "howItWorks": {
-            "title": "How the Weight Converter Works",
-            "description": "The converter uses kilogram as the base unit for all conversions. Input weights are converted to kilograms first, then to your target unit.",
-            "steps": [
-                "Enter the weight value you want to convert",
-                "Select the current weight unit",
-                "Select the unit you want to convert to",
-                "Get the precise result instantly"
-            ]
-        },
-        "useCases_detailed": {
-            "title": "Use Cases",
-            "items": [
-                {
-                    "title": "Cooking & Recipes",
-                    "description": "Convert recipe measurements between grams, ounces, and pounds"
-                },
-                {
-                    "title": "Shipping & Postage",
-                    "description": "Calculate package weights for international shipping"
-                },
-                {
-                    "title": "Health & Fitness",
-                    "description": "Convert body weight between kilograms and pounds"
-                },
-                {
-                    "title": "Jewelry",
-                    "description": "Convert gemstone weights between carats and grams"
-                }
-            ]
-        },
-        "seoTips": {
-            "title": "Tips for Optimal Use",
-            "tips": [
-                "Kilogram is the standard unit in most countries",
-                "Pounds and ounces are common in the US and UK",
-                "Carats are used for weighing diamonds and gemstones",
-                "1 pound = 453.6 grams approximately"
-            ]
-        },
-        "commonMistakes": {
-            "title": "Common Mistakes to Avoid",
-            "mistakes": [
-                {
-                    "mistake": "Confusing metric and US tons",
-                    "correction": "Metric ton = 1000 kg, US ton = 907 kg"
-                },
-                {
-                    "mistake": "Using different ounce standards",
-                    "correction": "The US ounce = 28.35 grams; it differs from traditional regional ounces"
-                },
-                {
-                    "mistake": "Confusing weight and mass",
-                    "correction": "Mass is constant while weight changes with gravity"
-                }
-            ]
-        },
-        "faqs": {
-            "title": "Frequently Asked Questions",
-            "items": [
-                {
-                    "question": "How many grams are in a pound?",
-                    "answer": "One pound equals approximately 453.592 grams."
-                },
-                {
-                    "question": "What is a Stone?",
-                    "answer": "Stone is a British unit equal to 14 pounds or about 6.35 kilograms. It's used for body weight in the UK."
-                },
-                {
-                    "question": "How many carats are in a gram?",
-                    "answer": "One gram equals 5 carats. One carat = 0.2 grams and is used for gemstones."
-                },
-                {
-                    "question": "What's the difference between kg and kgf?",
-                    "answer": "kg (kilogram) is a mass unit, while kgf (kilogram-force) is a force unit. 1 kgf is the weight of 1 kg on Earth."
-                }
-            ]
-        }
-    },
-    "length": {
-        "title": "Length Converter",
-        "description": "Convert between different length units.",
-        "info_title": "About Length Converter",
-        "info_desc": "Convert between meters, feet, inches, kilometers, miles, and more.",
-        "units": {
-            "meter": "Meter (m)",
-            "kilometer": "Kilometer (km)",
-            "centimeter": "Centimeter (cm)",
-            "millimeter": "Millimeter (mm)",
-            "micrometer": "Micrometer (μm)",
-            "nanometer": "Nanometer (nm)",
-            "mile": "Mile (mi)",
-            "yard": "Yard (yd)",
-            "foot": "Foot (ft)",
-            "inch": "Inch (in)",
-            "nautical_mile": "Nautical Mile"
-        },
-        "from_tooltip": "Select unit to convert from",
-        "to_tooltip": "Select unit to convert to",
-        "enter_value": "Enter length value",
-        "formula_desc": "All conversions use Meter as the base unit for accuracy.",
-        "use_cases": {
-            "title": "Common Uses",
-            "case_1": "Construction and engineering measurements",
-            "case_2": "Travel distances",
-            "case_3": "Scientific and academic calculations"
-        },
-        "howItWorks": {
-            "title": "How the Length Converter Works",
-            "description": "The converter uses meter as the base unit for all conversions. Input lengths are converted to meters first, then to your target unit.",
-            "steps": [
-                "Enter the length value you want to convert",
-                "Select the current length unit",
-                "Select the unit you want to convert to",
-                "Get the precise result instantly"
-            ]
-        },
-        "useCases_detailed": {
-            "title": "Use Cases",
-            "items": [
-                {
-                    "title": "Construction & Building",
-                    "description": "Convert measurements in engineering blueprints between meters and feet"
-                },
-                {
-                    "title": "Travel & Navigation",
-                    "description": "Convert distances between kilometers and miles for trip planning"
-                },
-                {
-                    "title": "Electronics",
-                    "description": "Screen and device measurements in inches and centimeters"
-                },
-                {
-                    "title": "Sewing & Fabrics",
-                    "description": "Convert clothing measurements between different systems"
-                }
-            ]
-        },
-        "seoTips": {
-            "title": "Tips for Optimal Use",
-            "tips": [
-                "Meters and centimeters are common in most countries",
-                "Inches and feet are common in the US and used for screen sizes",
-                "Nautical miles are used in maritime and aviation navigation",
-                "1 inch = 2.54 cm exactly"
-            ]
-        },
-        "commonMistakes": {
-            "title": "Common Mistakes to Avoid",
-            "mistakes": [
-                {
-                    "mistake": "Confusing statute and nautical miles",
-                    "correction": "Statute mile = 1.609 km, nautical mile = 1.852 km"
-                },
-                {
-                    "mistake": "Using square feet instead of feet",
-                    "correction": "Feet is a length unit, square feet is an area unit"
-                },
-                {
-                    "mistake": "Rounding inches to 2.5 cm",
-                    "correction": "Inches = 2.54 cm exactly; rounding may cause cumulative errors"
-                }
-            ]
-        },
-        "faqs": {
-            "title": "Frequently Asked Questions",
-            "items": [
-                {
-                    "question": "How many centimeters are in an inch?",
-                    "answer": "One inch equals exactly 2.54 centimeters."
-                },
-                {
-                    "question": "How many kilometers are in a mile?",
-                    "answer": "One mile equals 1.609344 kilometers."
-                },
-                {
-                    "question": "What is a nautical mile?",
-                    "answer": "A nautical mile = 1.852 km. It's used in navigation because it equals one minute of latitude."
-                },
-                {
-                    "question": "How do I convert my height from cm to feet and inches?",
-                    "answer": "Divide by 2.54 to get inches, then divide by 12 for feet. Example: 175 cm = 68.9 inches = 5 feet 8.9 inches."
-                }
-            ]
-        }
-    },
-    "common": {
-        "from": "From",
-        "to": "To",
-        "value": "Value",
-        "result": "Result",
-        "unit": "Unit",
-        "swap": "Swap Units",
-        "conversion_table": "Conversion Table",
-        "selected_units": "Selected Units",
-        "source_unit": "Source Unit",
-        "target_unit": "Target Unit",
-        "conversion_formula": "Conversion Formula",
-        "recent_conversions": "Recent Conversions",
-        "equals": "equals"
-    },
-    "number_system": {
-        "title": "Number System Converter",
-        "description": "Convert between number systems (Binary, Octal, Decimal, Hexadecimal).",
-        "input_base": "Input Base",
-        "select_input_base": "Select the number system of the input value",
-        "number_value": "Number",
-        "enter_number_value": "Enter the number in the chosen system",
-        "enter_number": "Enter number",
-        "conversions": "Conversions",
-        "binary": "Binary (Base 2)",
-        "octal": "Octal (Base 8)",
-        "decimal": "Decimal (Base 10)",
-        "hexadecimal": "Hexadecimal (Base 16)",
-        "info_title": "About Number System Converter",
-        "info_desc": "Easily convert numbers between Binary, Octal, Decimal, and Hexadecimal systems.",
-        "use_cases": {
-            "title": "Common Uses",
-            "case_1": "Computer science and programming",
-            "case_2": "Digital electronics",
-            "case_3": "Network addressing and color coding"
-        },
-        "conversion_summary": "Conversion Summary",
-        "decimal_value": "Decimal Value",
-        "all_representations": "All Representations",
-        "formula_desc": "All conversions use Decimal (Base 10) as an intermediary for conversion.",
-        "base": "Base",
-        "howItWorks": {
-            "title": "How the Number System Converter Works",
-            "description": "The converter uses decimal as an intermediary for all conversions. Input numbers are first converted to decimal, then to your target base.",
-            "steps": [
-                "Enter the number you want to convert",
-                "Select the number system of your input",
-                "See instant conversions to all number systems",
-                "Copy the result you need"
-            ]
-        },
-        "useCases_detailed": {
-            "title": "Use Cases",
-            "items": [
-                {
-                    "title": "Programming",
-                    "description": "Convert binary and hexadecimal numbers in programming code"
-                },
-                {
-                    "title": "Networking",
-                    "description": "Convert IP addresses and subnet masks"
-                },
-                {
-                    "title": "Colors",
-                    "description": "Convert hexadecimal color codes (like #FF0000)"
-                },
-                {
-                    "title": "Electronics",
-                    "description": "Understand resistor values and digital data"
-                }
-            ]
-        },
-        "seoTips": {
-            "title": "Tips for Optimal Use",
-            "tips": [
-                "Binary uses only 0 and 1",
-                "Octal uses 0-7",
-                "Hexadecimal uses 0-9 and A-F",
-                "0x before a number indicates hexadecimal in programming"
-            ]
-        },
-        "commonMistakes": {
-            "title": "Common Mistakes to Avoid",
-            "mistakes": [
-                {
-                    "mistake": "Using invalid digits for a system",
-                    "correction": "Binary only accepts 0 and 1; octal accepts 0-7"
-                },
-                {
-                    "mistake": "Confusing uppercase and lowercase letters",
-                    "correction": "In hexadecimal, A-F and a-f are equivalent (A=a=10)"
-                },
-                {
-                    "mistake": "Forgetting prefixes in code",
-                    "correction": "In programming: 0b for binary, 0o for octal, 0x for hexadecimal"
-                }
-            ]
-        },
-        "faqs": {
-            "title": "Frequently Asked Questions",
-            "items": [
-                {
-                    "question": "Why do computers use binary?",
-                    "answer": "Because electronic circuits have only two states: on (1) and off (0), making binary the most suitable system."
-                },
-                {
-                    "question": "What's the relationship between hexadecimal and colors?",
-                    "answer": "Color codes like #FF0000 are three hexadecimal values (red, green, blue), each ranging from 00-FF."
-                },
-                {
-                    "question": "How do I manually convert binary to decimal?",
-                    "answer": "Multiply each digit by 2 raised to its position from right (starting at 0) and sum the results. Example: 1010 = 1×8 + 0×4 + 1×2 + 0×1 = 10"
-                },
-                {
-                    "question": "What's the importance of octal?",
-                    "answer": "It's used in Linux file permissions (like 755) and some legacy applications because it's easier to read than binary."
-                }
-            ]
-        }
+      ]
     }
+  },
+  "temperature": {
+    "title": "Temperature Converter",
+    "description": "Convert between Celsius, Fahrenheit, and Kelvin temperature scales.",
+    "units": {
+      "celsius": "Celsius",
+      "fahrenheit": "Fahrenheit",
+      "kelvin": "Kelvin",
+      "symbol_celsius": "°C",
+      "symbol_fahrenheit": "°F"
+    },
+    "info_title": "About Temperature Converter",
+    "info_desc": "Easily convert temperatures for scientific, weather, and cooking purposes.",
+    "formula_c_to_f": "°F = (°C × 9/5) + 32",
+    "formula_f_to_c": "°C = (°F - 32) × 5/9",
+    "formula_c_to_k": "K = °C + 273.15",
+    "howItWorks": {
+      "title": "How the Temperature Converter Works",
+      "description": "The converter uses precise mathematical formulas to convert between temperature scales. Each scale has different zero points and degree sizes.",
+      "steps": [
+        "Enter the temperature value you want to convert",
+        "Select the current temperature scale (Celsius, Fahrenheit, or Kelvin)",
+        "Select the target scale you want to convert to",
+        "Get the result along with the formula used"
+      ]
+    },
+    "useCases": {
+      "title": "Use Cases",
+      "items": [
+        {
+          "title": "Cooking & Baking",
+          "description": "Convert oven temperatures between American recipes (Fahrenheit) and international ones (Celsius)"
+        },
+        {
+          "title": "Weather & Climate",
+          "description": "Understand temperature readings from international weather reports that may use different scales"
+        },
+        {
+          "title": "Scientific Experiments",
+          "description": "Convert to Kelvin for physics and chemistry calculations"
+        },
+        {
+          "title": "Travel",
+          "description": "Understand weather forecasts when traveling to countries using Fahrenheit"
+        }
+      ]
+    },
+    "seoTips": {
+      "title": "Tips for Optimal Use",
+      "tips": [
+        "Celsius is used in most countries worldwide",
+        "Fahrenheit is primarily used in the United States",
+        "Kelvin starts from absolute zero and cannot be negative",
+        "When cooking, always verify the oven temperature unit in your recipe"
+      ]
+    },
+    "commonMistakes": {
+      "title": "Common Mistakes to Avoid",
+      "mistakes": [
+        {
+          "mistake": "Confusing Celsius and Fahrenheit in recipes",
+          "correction": "Always check the temperature unit specified - 350°F equals approximately 175°C"
+        },
+        {
+          "mistake": "Using negative values with Kelvin",
+          "correction": "Kelvin cannot be negative as it starts from absolute zero"
+        },
+        {
+          "mistake": "Assuming one degree change is equal across all scales",
+          "correction": "One Celsius degree equals 1.8 Fahrenheit degrees"
+        }
+      ]
+    },
+    "faqs": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is normal body temperature in Fahrenheit?",
+          "answer": "Normal body temperature of 37°C equals 98.6°F in Fahrenheit."
+        },
+        {
+          "question": "At what temperature does water boil in Fahrenheit?",
+          "answer": "Water boils at 100°C, which equals 212°F at sea level."
+        },
+        {
+          "question": "What is absolute zero?",
+          "answer": "Absolute zero is 0 Kelvin or -273.15°C, the theoretically lowest possible temperature."
+        },
+        {
+          "question": "Why do scientists use the Kelvin scale?",
+          "answer": "Because Kelvin starts from absolute zero, making it suitable for physics calculations and thermodynamic equations."
+        }
+      ]
+    }
+  },
+  "volume": {
+    "title": "Volume Converter",
+    "description": "Convert between different volume units like liters, gallons, and cubic meters.",
+    "units": {
+      "liter": "Liter (L)",
+      "milliliter": "Milliliter (mL)",
+      "cubic_meter": "Cubic Meter (m³)",
+      "cubic_centimeter": "Cubic Centimeter (cm³)",
+      "gallon_us": "US Gallon",
+      "quart_us": "US Quart",
+      "pint_us": "US Pint",
+      "cup_us": "US Cup",
+      "fluid_ounce_us": "US Fluid Ounce",
+      "tablespoon_us": "US Tablespoon",
+      "teaspoon_us": "US Teaspoon"
+    },
+    "info_title": "About Volume Converter",
+    "info_desc": "Essential tool for converting cooking measurements, liquids, and tank volumes.",
+    "from_tooltip": "Select volume unit to convert from",
+    "to_tooltip": "Select volume unit to convert to",
+    "enter_value": "Enter the volume value",
+    "formula_desc": "All conversions use Liter as the base unit for accuracy.",
+    "howItWorks": {
+      "title": "How the Volume Converter Works",
+      "description": "The converter uses liters as the base unit for all conversions. Your input value is first converted to liters, then to your target unit for accuracy.",
+      "steps": [
+        "Enter the volume value you want to convert",
+        "Select the current volume unit from the dropdown",
+        "Select the unit you want to convert to",
+        "Get the precise result instantly"
+      ]
+    },
+    "useCases": {
+      "title": "Use Cases",
+      "items": [
+        {
+          "title": "Cooking & Recipes",
+          "description": "Convert international recipe measurements from cups and ounces to milliliters and grams"
+        },
+        {
+          "title": "Fuel Tanks",
+          "description": "Calculate car tank capacity and convert between liters and gallons"
+        },
+        {
+          "title": "Medicine & Dosages",
+          "description": "Convert liquid medication doses between milliliters and tablespoons"
+        },
+        {
+          "title": "Engineering Projects",
+          "description": "Calculate tank, pool, and basin volumes in cubic meters"
+        }
+      ]
+    },
+    "seoTips": {
+      "title": "Tips for Optimal Use",
+      "tips": [
+        "Liters and milliliters are the most common volume units globally",
+        "US gallons differ from Imperial (UK) gallons",
+        "One tablespoon equals approximately 15 milliliters",
+        "One cubic meter equals 1,000 liters"
+      ]
+    },
+    "commonMistakes": {
+      "title": "Common Mistakes to Avoid",
+      "mistakes": [
+        {
+          "mistake": "Confusing US and Imperial gallons",
+          "correction": "US gallon = 3.785 liters, while Imperial gallon = 4.546 liters"
+        },
+        {
+          "mistake": "Using regular cups instead of measuring cups",
+          "correction": "A US measuring cup = 236 mL; always use standardized measuring tools"
+        },
+        {
+          "mistake": "Confusing cubic centimeters and milliliters",
+          "correction": "Cubic centimeters equal milliliters exactly (1 cm³ = 1 mL)"
+        }
+      ]
+    },
+    "faqs": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "How many liters are in a gallon?",
+          "answer": "A US gallon equals approximately 3.785 liters, while an Imperial gallon equals 4.546 liters."
+        },
+        {
+          "question": "How many milliliters are in a cup?",
+          "answer": "A standard US cup equals approximately 236.6 milliliters."
+        },
+        {
+          "question": "What's the difference between a liter and a cubic meter?",
+          "answer": "One cubic meter equals 1,000 liters. Liters are typically used for liquids while cubic meters for larger volumes."
+        },
+        {
+          "question": "How many tablespoons are in a cup?",
+          "answer": "A US cup contains approximately 16 tablespoons."
+        }
+      ]
+    }
+  },
+  "speed": {
+    "title": "Speed Converter",
+    "description": "Convert between speed units like km/h, mph, and knots.",
+    "units": {
+      "meters_per_second": "Meters/Second (m/s)",
+      "kilometers_per_hour": "Kilometers/Hour (km/h)",
+      "miles_per_hour": "Miles/Hour (mph)",
+      "knot": "Knot",
+      "feet_per_second": "Feet/Second (ft/s)"
+    },
+    "info_title": "About Speed Converter",
+    "info_desc": "Convert between different speed units for transportation, sports, and weather.",
+    "formula_desc": "All conversions use meters per second as the base unit for accuracy.",
+    "howItWorks": {
+      "title": "How the Speed Converter Works",
+      "description": "The converter uses meters per second as the base unit. Input speeds are converted to m/s first, then to your target unit.",
+      "steps": [
+        "Enter the speed value you want to convert",
+        "Select the current speed unit",
+        "Select the unit you want to convert to",
+        "Get the precise result instantly"
+      ]
+    },
+    "useCases": {
+      "title": "Use Cases",
+      "items": [
+        {
+          "title": "Driving & Automobiles",
+          "description": "Convert car speeds between km/h and mph when renting a car abroad"
+        },
+        {
+          "title": "Maritime Navigation",
+          "description": "Convert ship speeds from knots to km/h to understand distances and travel times"
+        },
+        {
+          "title": "Aviation",
+          "description": "Understand aircraft speeds given in knots or Mach numbers"
+        },
+        {
+          "title": "Sports & Running",
+          "description": "Convert running and cycling speeds between different units"
+        }
+      ]
+    },
+    "seoTips": {
+      "title": "Tips for Optimal Use",
+      "tips": [
+        "km/h is used in most countries worldwide",
+        "mph is used in the US and UK",
+        "Knots are the standard unit in maritime and aviation navigation",
+        "Quick conversion: 1 mph ≈ 1.6 km/h"
+      ]
+    },
+    "commonMistakes": {
+      "title": "Common Mistakes to Avoid",
+      "mistakes": [
+        {
+          "mistake": "Confusing statute miles with nautical miles",
+          "correction": "Statute mile = 1.609 km, while nautical mile = 1.852 km"
+        },
+        {
+          "mistake": "Assuming knots equal km/h",
+          "correction": "One knot = 1.852 km/h, they are not equal"
+        },
+        {
+          "mistake": "Ignoring wind effects on actual speed",
+          "correction": "In aviation and navigation, ground speed differs from airspeed due to wind"
+        }
+      ]
+    },
+    "faqs": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "How many kilometers per hour is one mile per hour?",
+          "answer": "1 mph equals approximately 1.609 km/h."
+        },
+        {
+          "question": "What is a knot and why is it used at sea?",
+          "answer": "A knot is one nautical mile per hour (1.852 km/h). It's used in navigation because it directly relates to longitude lines on charts."
+        },
+        {
+          "question": "What is the speed of sound?",
+          "answer": "The speed of sound at sea level is approximately 343 m/s or 1,235 km/h (Mach 1)."
+        },
+        {
+          "question": "How do I convert from km/h to m/s?",
+          "answer": "Divide by 3.6. Example: 90 km/h ÷ 3.6 = 25 m/s."
+        }
+      ]
+    }
+  },
+  "time": {
+    "title": "Time Converter",
+    "description": "Convert between time units from seconds to years.",
+    "units": {
+      "millisecond": "Millisecond (ms)",
+      "second": "Second (s)",
+      "minute": "Minute (min)",
+      "hour": "Hour (h)",
+      "day": "Day (d)",
+      "week": "Week (wk)",
+      "month": "Month (mo)",
+      "year": "Year (yr)"
+    },
+    "info_title": "About Time Converter",
+    "info_desc": "Convert between different time units for scheduling and time calculations.",
+    "from_tooltip": "Select the time unit to convert from",
+    "to_tooltip": "Select the time unit to convert to",
+    "enter_value": "Enter the time value",
+    "formula_desc": "All conversions use Second as the base unit for accuracy.",
+    "howItWorks": {
+      "title": "How the Time Converter Works",
+      "description": "The converter uses seconds as the base unit. Input time values are converted to seconds first, then to your target unit.",
+      "steps": [
+        "Enter the time value you want to convert",
+        "Select the current time unit (second, minute, hour, etc.)",
+        "Select the unit you want to convert to",
+        "Get the precise result directly"
+      ]
+    },
+    "useCases": {
+      "title": "Use Cases",
+      "items": [
+        {
+          "title": "Project Management",
+          "description": "Convert work hours to days and weeks for project planning"
+        },
+        {
+          "title": "Programming & Development",
+          "description": "Convert milliseconds to seconds and minutes for application performance measurement"
+        },
+        {
+          "title": "Travel & Trips",
+          "description": "Calculate trip durations and convert hours to days"
+        },
+        {
+          "title": "Financial Calculations",
+          "description": "Convert loan and investment periods between months and years"
+        }
+      ]
+    },
+    "seoTips": {
+      "title": "Tips for Optimal Use",
+      "tips": [
+        "Month is calculated as an average of 30.44 days for accuracy",
+        "Year is calculated as 365.25 days to account for leap years",
+        "Use milliseconds to measure software and game performance",
+        "A week is always exactly 7 days"
+      ]
+    },
+    "commonMistakes": {
+      "title": "Common Mistakes to Avoid",
+      "mistakes": [
+        {
+          "mistake": "Assuming every month has 30 days",
+          "correction": "Months range from 28-31 days; the converter uses the average of 30.44 days"
+        },
+        {
+          "mistake": "Forgetting leap years",
+          "correction": "Leap years have 366 days and occur approximately every 4 years"
+        },
+        {
+          "mistake": "Confusing business days with calendar days",
+          "correction": "A work week is typically 5 days while a calendar week is 7 days"
+        }
+      ]
+    },
+    "faqs": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "How many seconds are in a year?",
+          "answer": "A regular year contains 31,536,000 seconds (365 days × 24 hours × 60 minutes × 60 seconds)."
+        },
+        {
+          "question": "How many hours are in a month?",
+          "answer": "With an average of 30.44 days per month, there are approximately 730.5 hours in a month."
+        },
+        {
+          "question": "What is a millisecond?",
+          "answer": "A millisecond is one-thousandth of a second (0.001 seconds). It's used in computing and performance measurement."
+        },
+        {
+          "question": "How many weeks are in a year?",
+          "answer": "A year contains approximately 52.18 weeks (365 days ÷ 7 days)."
+        }
+      ]
+    }
+  },
+  "data_storage": {
+    "title": "Data Storage Converter",
+    "description": "Convert between bits, bytes, kilobytes, megabytes, etc.",
+    "units": {
+      "bit": "bit (b)",
+      "byte": "Byte (B)",
+      "kilobyte": "Kilobyte (KB)",
+      "megabyte": "Megabyte (MB)",
+      "gigabyte": "Gigabyte (GB)",
+      "terabyte": "Terabyte (TB)",
+      "petabyte": "Petabyte (PB)"
+    },
+    "info_title": "About Data Storage Converter",
+    "info_desc": "Convert between different data storage units for file sizes, disk space, and memory.",
+    "from_tooltip": "Select data unit to convert from",
+    "to_tooltip": "Select data unit to convert to",
+    "enter_value": "Enter the data storage value",
+    "binary_mode": "Binary (1024)",
+    "decimal_mode": "Decimal (1000)",
+    "conversion_mode": "Conversion Mode",
+    "binary_1024": "Binary Mode (1024)",
+    "decimal_1000": "Decimal Mode (1000)",
+    "binary_desc": "Used by most operating systems (1 KB = 1024 bytes)",
+    "decimal_desc": "Used by hard drive manufacturers (1 KB = 1000 bytes)",
+    "formula_desc": "Conversion depends on whether binary (1024) or decimal (1000) mode is selected.",
+    "use_cases": {
+      "title": "Common Uses",
+      "case_1": "Calculating file sizes",
+      "case_2": "Estimating storage space",
+      "case_3": "Understanding bandwidth and download sizes"
+    },
+    "howItWorks": {
+      "title": "How the Data Storage Converter Works",
+      "description": "The converter supports two modes: Binary (1024) used by operating systems, and Decimal (1000) used by drive manufacturers.",
+      "steps": [
+        "Enter the data value you want to convert",
+        "Select the current data unit",
+        "Select the unit you want to convert to",
+        "Choose the conversion mode (binary or decimal)",
+        "Get the precise result"
+      ]
+    },
+    "useCases_detailed": {
+      "title": "Use Cases",
+      "items": [
+        {
+          "title": "File Management",
+          "description": "Know file sizes in different units to organize storage"
+        },
+        {
+          "title": "Buying Storage Devices",
+          "description": "Understand actual hard drive capacity and compare options"
+        },
+        {
+          "title": "Uploading & Downloading",
+          "description": "Calculate download time based on internet speed and file size"
+        },
+        {
+          "title": "Backup Planning",
+          "description": "Estimate storage space needed for data backups"
+        }
+      ]
+    },
+    "seoTips": {
+      "title": "Tips for Optimal Use",
+      "tips": [
+        "Binary mode (1024) gives results matching what your operating system shows",
+        "Decimal mode (1000) gives results matching what drive manufacturers advertise",
+        "One byte equals 8 bits",
+        "1 GB (binary) = 1,073,741,824 bytes"
+      ]
+    },
+    "commonMistakes": {
+      "title": "Common Mistakes to Avoid",
+      "mistakes": [
+        {
+          "mistake": "Confusing binary and decimal modes",
+          "correction": "A 1 TB drive shows as 931 GB on your computer due to the difference between systems"
+        },
+        {
+          "mistake": "Confusing bits and bytes",
+          "correction": "Internet speed is measured in megabits (Mb) while file sizes use megabytes (MB)"
+        },
+        {
+          "mistake": "Assuming KB always means 1024 bytes",
+          "correction": "KB can mean 1000 or 1024 bytes depending on context"
+        }
+      ]
+    },
+    "faqs": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "Why does my hard drive show less capacity than advertised?",
+          "answer": "Because manufacturers use decimal (1 GB = 1000 MB) while operating systems use binary (1 GB = 1024 MB)."
+        },
+        {
+          "question": "What's the difference between Mb and MB?",
+          "answer": "Mb (megabit) = million bits, MB (megabyte) = million bytes. Megabytes are 8 times larger."
+        },
+        {
+          "question": "How many photos can I store in 1 GB?",
+          "answer": "It depends on photo quality. Phone photos (3-5 MB) allow approximately 200-300 photos per gigabyte."
+        },
+        {
+          "question": "What is a petabyte?",
+          "answer": "Petabyte = 1000 terabytes (decimal) or 1024 terabytes (binary). It's used to measure massive data center storage."
+        }
+      ]
+    }
+  },
+  "pressure": {
+    "title": "Pressure Converter",
+    "description": "Convert between pressure units like Bar, Pascal, and PSI.",
+    "units": {
+      "pascal": "Pascal (Pa)",
+      "kilopascal": "Kilopascal (kPa)",
+      "bar": "Bar",
+      "psi": "PSI (psi)",
+      "atmosphere": "Atmosphere (atm)",
+      "torr": "Torr",
+      "mmhg": "mmHg"
+    },
+    "info_title": "About Pressure Converter",
+    "info_desc": "Convert between different pressure units for scientific, engineering, and weather applications.",
+    "from_tooltip": "Select pressure unit to convert from",
+    "to_tooltip": "Select pressure unit to convert to",
+    "enter_value": "Enter the pressure value",
+    "formula_desc": "All conversions use Pascal as the base unit for accuracy.",
+    "use_cases": {
+      "title": "Common Uses",
+      "case_1": "Weather and atmospheric pressure readings",
+      "case_2": "Tire pressure measurement",
+      "case_3": "Industrial and hydraulic systems"
+    },
+    "howItWorks": {
+      "title": "How the Pressure Converter Works",
+      "description": "The converter uses Pascal as the base unit for all conversions. Pascal is the SI unit for pressure measurement.",
+      "steps": [
+        "Enter the pressure value you want to convert",
+        "Select the current pressure unit",
+        "Select the unit you want to convert to",
+        "Get the high-precision result"
+      ]
+    },
+    "useCases_detailed": {
+      "title": "Use Cases",
+      "items": [
+        {
+          "title": "Automotive Maintenance",
+          "description": "Measure and convert car tire pressure between PSI and Bar"
+        },
+        {
+          "title": "Weather & Meteorology",
+          "description": "Convert atmospheric pressure readings between mmHg and hectopascals"
+        },
+        {
+          "title": "Scuba Diving",
+          "description": "Calculate water pressure at different depths in atmospheres and bars"
+        },
+        {
+          "title": "Industrial Systems",
+          "description": "Convert pressure units in hydraulic and pneumatic systems"
+        }
+      ]
+    },
+    "seoTips": {
+      "title": "Tips for Optimal Use",
+      "tips": [
+        "Bar is common in Europe and many countries for tire pressure",
+        "PSI is common in the US and UK",
+        "Standard atmospheric pressure = 1 atm = 101.325 kPa = 1.013 bar",
+        "mmHg is used in medicine for blood pressure measurement"
+      ]
+    },
+    "commonMistakes": {
+      "title": "Common Mistakes to Avoid",
+      "mistakes": [
+        {
+          "mistake": "Confusing absolute and gauge pressure",
+          "correction": "Gauge pressure is measured from atmospheric pressure, while absolute is from complete vacuum"
+        },
+        {
+          "mistake": "Using PSI instead of Bar in certain regions",
+          "correction": "Most tire pumps outside the US use Bar units"
+        },
+        {
+          "mistake": "Confusing mmHg and mbar",
+          "correction": "1 mbar = 0.75 mmHg approximately, they are not equal"
+        }
+      ]
+    },
+    "faqs": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is normal atmospheric pressure?",
+          "answer": "Normal atmospheric pressure at sea level = 1 atm = 101.325 kPa = 1.013 bar = 760 mmHg."
+        },
+        {
+          "question": "What PSI should car tires be?",
+          "answer": "Typically 30-35 PSI (2.0-2.4 bar) for regular cars. Check your vehicle manual for exact values."
+        },
+        {
+          "question": "What's the relationship between mmHg and Torr?",
+          "answer": "They are approximately equal. 1 Torr = 1 mmHg under certain conditions."
+        },
+        {
+          "question": "Why is mmHg used for blood pressure?",
+          "answer": "For historical reasons, early blood pressure devices used mercury columns, and the unit persisted for standardization."
+        }
+      ]
+    }
+  },
+  "force": {
+    "title": "Force Converter",
+    "description": "Convert between force units like Newton and Pound-force.",
+    "units": {
+      "newton": "Newton (N)",
+      "kilonewton": "Kilonewton (kN)",
+      "pound_force": "Pound-force (lbf)",
+      "dyne": "Dyne (dyn)",
+      "kilogram_force": "Kilogram-force (kgf)"
+    },
+    "info_title": "About Force Converter",
+    "info_desc": "Convert between different force units for physics and engineering applications.",
+    "from_tooltip": "Select force unit to convert from",
+    "to_tooltip": "Select force unit to convert to",
+    "enter_value": "Enter the force value",
+    "formula_desc": "All conversions use Newton as the base unit for accuracy.",
+    "use_cases": {
+      "title": "Common Uses",
+      "case_1": "Physics and mechanics calculations",
+      "case_2": "Engineering and structural analysis",
+      "case_3": "Automotive and aerospace applications"
+    },
+    "howItWorks": {
+      "title": "How the Force Converter Works",
+      "description": "The converter uses Newton as the base unit for all conversions. Newton is the SI unit for force measurement.",
+      "steps": [
+        "Enter the force value you want to convert",
+        "Select the current force unit",
+        "Select the unit you want to convert to",
+        "Get the precise result instantly"
+      ]
+    },
+    "useCases_detailed": {
+      "title": "Use Cases",
+      "items": [
+        {
+          "title": "Structural Engineering",
+          "description": "Calculate loads and forces in building and bridge design"
+        },
+        {
+          "title": "Physics & Mechanics",
+          "description": "Apply Newton's laws and calculate forces in physics problems"
+        },
+        {
+          "title": "Automotive Industry",
+          "description": "Measure engine power and torque in various units"
+        },
+        {
+          "title": "Materials Testing",
+          "description": "Measure tensile and compressive forces in material tests"
+        }
+      ]
+    },
+    "seoTips": {
+      "title": "Tips for Optimal Use",
+      "tips": [
+        "Newton is the international standard SI unit for force",
+        "1 kilogram-force ≈ 9.81 Newtons (weight of 1 kg on Earth)",
+        "Pound-force is common in the United States",
+        "Dyne is a very small unit used in theoretical physics"
+      ]
+    },
+    "commonMistakes": {
+      "title": "Common Mistakes to Avoid",
+      "mistakes": [
+        {
+          "mistake": "Confusing mass and weight",
+          "correction": "Mass (kg) is constant, while weight (Newtons) depends on gravity"
+        },
+        {
+          "mistake": "Using kilogram as a force unit",
+          "correction": "Kilogram is a mass unit; use kilogram-force (kgf) or Newton for force"
+        },
+        {
+          "mistake": "Forgetting that g varies by location",
+          "correction": "Gravitational acceleration varies slightly by location (9.78-9.83 m/s²)"
+        }
+      ]
+    },
+    "faqs": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "What is a Newton?",
+          "answer": "A Newton is the force required to accelerate a 1 kg mass at 1 m/s². Named after Isaac Newton."
+        },
+        {
+          "question": "How many Newtons equal one kilogram-force?",
+          "answer": "1 kilogram-force = 9.80665 Newtons (using standard g)."
+        },
+        {
+          "question": "What's the difference between force and pressure?",
+          "answer": "Force is a push or pull (in Newtons), while pressure is force divided by area (in Pascals)."
+        },
+        {
+          "question": "When should I use kilonewtons?",
+          "answer": "For large forces in structural engineering. 1 kilonewton = 1000 Newtons ≈ 102 kgf."
+        }
+      ]
+    }
+  },
+  "currency": {
+    "title": "Currency Converter",
+    "description": "Quick and easy conversion between major world and Arabic currencies.",
+    "info_title": "About Currency Converter",
+    "info_desc": "Convert between major global currencies like USD, EUR, and JPY, as well as Arabic currencies like SAR, AED, and EGP.",
+    "static_rates_notice": "Note: Using static exchange rates. For real-time rates, consider using official sources.",
+    "from": "From",
+    "to": "To",
+    "amount": "Amount",
+    "amount_placeholder": "Enter amount",
+    "select_currency": "Select Currency",
+    "from_tooltip": "Select currency to convert from",
+    "to_tooltip": "Select currency to convert to",
+    "swap": "Swap Currencies",
+    "result": "Result",
+    "exchange_rate": "Exchange Rate",
+    "current_rate": "Current Rate",
+    "details": "Conversion Details",
+    "you_send": "You Send",
+    "they_receive": "They Receive",
+    "notice": "Important Notice",
+    "disclaimer": "Exchange rates are for reference only and may not reflect real-time market rates.",
+    "usd": "US Dollar (USD)",
+    "eur": "Euro (EUR)",
+    "gbp": "British Pound (GBP)",
+    "jpy": "Japanese Yen (JPY)",
+    "sar": "Saudi Riyal (SAR)",
+    "aed": "UAE Dirham (AED)",
+    "egp": "Egyptian Pound (EGP)",
+    "use_cases": "Use Cases",
+    "use_case_1": "International travel and tourism",
+    "use_case_2": "Online shopping and e-commerce",
+    "use_case_3": "Business transactions and invoicing",
+    "howItWorks": {
+      "title": "How the Currency Converter Works",
+      "description": "The converter uses reference exchange rates to convert between currencies. The amount is multiplied by the exchange rate to get the equivalent value.",
+      "steps": [
+        "Enter the amount you want to convert",
+        "Select the source currency (the currency you have)",
+        "Select the target currency (the currency you want)",
+        "Get the result along with the exchange rate used"
+      ]
+    },
+    "useCases_detailed": {
+      "title": "Use Cases",
+      "items": [
+        {
+          "title": "Travel Planning",
+          "description": "Calculate trip costs in local currency before traveling"
+        },
+        {
+          "title": "Online Shopping",
+          "description": "Know the real price of products on international websites"
+        },
+        {
+          "title": "Money Transfers",
+          "description": "Estimate the amount the recipient will receive after transfer"
+        },
+        {
+          "title": "Investment",
+          "description": "Track the value of investments in foreign currencies"
+        }
+      ]
+    },
+    "seoTips": {
+      "title": "Tips for Optimal Use",
+      "tips": [
+        "Displayed rates are for reference only; check with your bank for actual rates",
+        "Banks add a profit margin on top of official exchange rates",
+        "Best conversion times are usually during market hours",
+        "Compare multiple sources to get the best rate"
+      ]
+    },
+    "commonMistakes": {
+      "title": "Common Mistakes to Avoid",
+      "mistakes": [
+        {
+          "mistake": "Relying on a single exchange rate for planning",
+          "correction": "Exchange rates fluctuate constantly; calculate with a 5-10% safety margin"
+        },
+        {
+          "mistake": "Forgetting transfer fees",
+          "correction": "Banks and transfer companies charge additional fees on top of the exchange rate"
+        },
+        {
+          "mistake": "Converting at the airport",
+          "correction": "Airport exchange offices typically offer the worst rates"
+        }
+      ]
+    },
+    "faqs": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "Are the exchange rates in the converter accurate?",
+          "answer": "Rates are for reference only and may differ from live market rates. Check with a bank or exchange office for actual rates."
+        },
+        {
+          "question": "Why is the buy rate different from the sell rate?",
+          "answer": "Banks buy currency at a lower price and sell at a higher price. The difference is their profit margin."
+        },
+        {
+          "question": "What's the best way to get foreign currency?",
+          "answer": "Compare banks, exchange offices, and travel cards. Banks usually offer better rates than airports."
+        },
+        {
+          "question": "Is the Saudi Riyal pegged to the US Dollar?",
+          "answer": "Yes, the Saudi Riyal is pegged to the US Dollar at approximately 3.75 SAR per USD."
+        }
+      ]
+    }
+  },
+  "weight": {
+    "title": "Weight Converter",
+    "description": "Convert between different weight and mass units.",
+    "info_title": "About Weight Converter",
+    "info_desc": "Convert between kilograms, pounds, ounces, grams, and more.",
+    "units": {
+      "kilogram": "Kilogram (kg)",
+      "gram": "Gram (g)",
+      "milligram": "Milligram (mg)",
+      "microgram": "Microgram (μg)",
+      "metric_ton": "Metric Ton (t)",
+      "pound": "Pound (lb)",
+      "ounce": "Ounce (oz)",
+      "ton": "US Ton",
+      "stone": "Stone (st)",
+      "carat": "Carat (ct)"
+    },
+    "from_tooltip": "Select unit to convert from",
+    "to_tooltip": "Select unit to convert to",
+    "enter_value": "Enter weight value",
+    "formula_desc": "All conversions use Kilogram as the base unit for accuracy.",
+    "use_cases": {
+      "title": "Common Uses",
+      "case_1": "Cooking and ingredients",
+      "case_2": "Shipping and postal weights",
+      "case_3": "Health and weight tracking"
+    },
+    "howItWorks": {
+      "title": "How the Weight Converter Works",
+      "description": "The converter uses kilogram as the base unit for all conversions. Input weights are converted to kilograms first, then to your target unit.",
+      "steps": [
+        "Enter the weight value you want to convert",
+        "Select the current weight unit",
+        "Select the unit you want to convert to",
+        "Get the precise result instantly"
+      ]
+    },
+    "useCases_detailed": {
+      "title": "Use Cases",
+      "items": [
+        {
+          "title": "Cooking & Recipes",
+          "description": "Convert recipe measurements between grams, ounces, and pounds"
+        },
+        {
+          "title": "Shipping & Postage",
+          "description": "Calculate package weights for international shipping"
+        },
+        {
+          "title": "Health & Fitness",
+          "description": "Convert body weight between kilograms and pounds"
+        },
+        {
+          "title": "Jewelry",
+          "description": "Convert gemstone weights between carats and grams"
+        }
+      ]
+    },
+    "seoTips": {
+      "title": "Tips for Optimal Use",
+      "tips": [
+        "Kilogram is the standard unit in most countries",
+        "Pounds and ounces are common in the US and UK",
+        "Carats are used for weighing diamonds and gemstones",
+        "1 pound = 453.6 grams approximately"
+      ]
+    },
+    "commonMistakes": {
+      "title": "Common Mistakes to Avoid",
+      "mistakes": [
+        {
+          "mistake": "Confusing metric and US tons",
+          "correction": "Metric ton = 1000 kg, US ton = 907 kg"
+        },
+        {
+          "mistake": "Using different ounce standards",
+          "correction": "The US ounce = 28.35 grams; it differs from traditional regional ounces"
+        },
+        {
+          "mistake": "Confusing weight and mass",
+          "correction": "Mass is constant while weight changes with gravity"
+        }
+      ]
+    },
+    "faqs": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "How many grams are in a pound?",
+          "answer": "One pound equals approximately 453.592 grams."
+        },
+        {
+          "question": "What is a Stone?",
+          "answer": "Stone is a British unit equal to 14 pounds or about 6.35 kilograms. It's used for body weight in the UK."
+        },
+        {
+          "question": "How many carats are in a gram?",
+          "answer": "One gram equals 5 carats. One carat = 0.2 grams and is used for gemstones."
+        },
+        {
+          "question": "What's the difference between kg and kgf?",
+          "answer": "kg (kilogram) is a mass unit, while kgf (kilogram-force) is a force unit. 1 kgf is the weight of 1 kg on Earth."
+        }
+      ]
+    }
+  },
+  "length": {
+    "title": "Length Converter",
+    "description": "Convert between different length units.",
+    "info_title": "About Length Converter",
+    "info_desc": "Convert between meters, feet, inches, kilometers, miles, and more.",
+    "units": {
+      "meter": "Meter (m)",
+      "kilometer": "Kilometer (km)",
+      "centimeter": "Centimeter (cm)",
+      "millimeter": "Millimeter (mm)",
+      "micrometer": "Micrometer (μm)",
+      "nanometer": "Nanometer (nm)",
+      "mile": "Mile (mi)",
+      "yard": "Yard (yd)",
+      "foot": "Foot (ft)",
+      "inch": "Inch (in)",
+      "nautical_mile": "Nautical Mile"
+    },
+    "from_tooltip": "Select unit to convert from",
+    "to_tooltip": "Select unit to convert to",
+    "enter_value": "Enter length value",
+    "formula_desc": "All conversions use Meter as the base unit for accuracy.",
+    "use_cases": {
+      "title": "Common Uses",
+      "case_1": "Construction and engineering measurements",
+      "case_2": "Travel distances",
+      "case_3": "Scientific and academic calculations"
+    },
+    "howItWorks": {
+      "title": "How the Length Converter Works",
+      "description": "The converter uses meter as the base unit for all conversions. Input lengths are converted to meters first, then to your target unit.",
+      "steps": [
+        "Enter the length value you want to convert",
+        "Select the current length unit",
+        "Select the unit you want to convert to",
+        "Get the precise result instantly"
+      ]
+    },
+    "useCases_detailed": {
+      "title": "Use Cases",
+      "items": [
+        {
+          "title": "Construction & Building",
+          "description": "Convert measurements in engineering blueprints between meters and feet"
+        },
+        {
+          "title": "Travel & Navigation",
+          "description": "Convert distances between kilometers and miles for trip planning"
+        },
+        {
+          "title": "Electronics",
+          "description": "Screen and device measurements in inches and centimeters"
+        },
+        {
+          "title": "Sewing & Fabrics",
+          "description": "Convert clothing measurements between different systems"
+        }
+      ]
+    },
+    "seoTips": {
+      "title": "Tips for Optimal Use",
+      "tips": [
+        "Meters and centimeters are common in most countries",
+        "Inches and feet are common in the US and used for screen sizes",
+        "Nautical miles are used in maritime and aviation navigation",
+        "1 inch = 2.54 cm exactly"
+      ]
+    },
+    "commonMistakes": {
+      "title": "Common Mistakes to Avoid",
+      "mistakes": [
+        {
+          "mistake": "Confusing statute and nautical miles",
+          "correction": "Statute mile = 1.609 km, nautical mile = 1.852 km"
+        },
+        {
+          "mistake": "Using square feet instead of feet",
+          "correction": "Feet is a length unit, square feet is an area unit"
+        },
+        {
+          "mistake": "Rounding inches to 2.5 cm",
+          "correction": "Inches = 2.54 cm exactly; rounding may cause cumulative errors"
+        }
+      ]
+    },
+    "faqs": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "How many centimeters are in an inch?",
+          "answer": "One inch equals exactly 2.54 centimeters."
+        },
+        {
+          "question": "How many kilometers are in a mile?",
+          "answer": "One mile equals 1.609344 kilometers."
+        },
+        {
+          "question": "What is a nautical mile?",
+          "answer": "A nautical mile = 1.852 km. It's used in navigation because it equals one minute of latitude."
+        },
+        {
+          "question": "How do I convert my height from cm to feet and inches?",
+          "answer": "Divide by 2.54 to get inches, then divide by 12 for feet. Example: 175 cm = 68.9 inches = 5 feet 8.9 inches."
+        }
+      ]
+    }
+  },
+  "common": {
+    "from": "From",
+    "to": "To",
+    "value": "Value",
+    "result": "Result",
+    "unit": "Unit",
+    "swap": "Swap Units",
+    "conversion_table": "Conversion Table",
+    "selected_units": "Selected Units",
+    "source_unit": "Source Unit",
+    "target_unit": "Target Unit",
+    "conversion_formula": "Conversion Formula",
+    "recent_conversions": "Recent Conversions",
+    "equals": "equals",
+    "calculate": "Calculate",
+    "enter_value": "Enter Value",
+    "from_tooltip": "From Tooltip",
+    "to_tooltip": "To Tooltip",
+    "errors": {
+      "calculationError": "Calculation Error",
+      "invalid": "Invalid"
+    }
+  },
+  "number_system": {
+    "title": "Number System Converter",
+    "description": "Convert between number systems (Binary, Octal, Decimal, Hexadecimal).",
+    "input_base": "Input Base",
+    "select_input_base": "Select the number system of the input value",
+    "number_value": "Number",
+    "enter_number_value": "Enter the number in the chosen system",
+    "enter_number": "Enter number",
+    "conversions": "Conversions",
+    "binary": "Binary (Base 2)",
+    "octal": "Octal (Base 8)",
+    "decimal": "Decimal (Base 10)",
+    "hexadecimal": "Hexadecimal (Base 16)",
+    "info_title": "About Number System Converter",
+    "info_desc": "Easily convert numbers between Binary, Octal, Decimal, and Hexadecimal systems.",
+    "use_cases": {
+      "title": "Common Uses",
+      "case_1": "Computer science and programming",
+      "case_2": "Digital electronics",
+      "case_3": "Network addressing and color coding"
+    },
+    "conversion_summary": "Conversion Summary",
+    "decimal_value": "Decimal Value",
+    "all_representations": "All Representations",
+    "formula_desc": "All conversions use Decimal (Base 10) as an intermediary for conversion.",
+    "base": "Base",
+    "howItWorks": {
+      "title": "How the Number System Converter Works",
+      "description": "The converter uses decimal as an intermediary for all conversions. Input numbers are first converted to decimal, then to your target base.",
+      "steps": [
+        "Enter the number you want to convert",
+        "Select the number system of your input",
+        "See instant conversions to all number systems",
+        "Copy the result you need"
+      ]
+    },
+    "useCases_detailed": {
+      "title": "Use Cases",
+      "items": [
+        {
+          "title": "Programming",
+          "description": "Convert binary and hexadecimal numbers in programming code"
+        },
+        {
+          "title": "Networking",
+          "description": "Convert IP addresses and subnet masks"
+        },
+        {
+          "title": "Colors",
+          "description": "Convert hexadecimal color codes (like #FF0000)"
+        },
+        {
+          "title": "Electronics",
+          "description": "Understand resistor values and digital data"
+        }
+      ]
+    },
+    "seoTips": {
+      "title": "Tips for Optimal Use",
+      "tips": [
+        "Binary uses only 0 and 1",
+        "Octal uses 0-7",
+        "Hexadecimal uses 0-9 and A-F",
+        "0x before a number indicates hexadecimal in programming"
+      ]
+    },
+    "commonMistakes": {
+      "title": "Common Mistakes to Avoid",
+      "mistakes": [
+        {
+          "mistake": "Using invalid digits for a system",
+          "correction": "Binary only accepts 0 and 1; octal accepts 0-7"
+        },
+        {
+          "mistake": "Confusing uppercase and lowercase letters",
+          "correction": "In hexadecimal, A-F and a-f are equivalent (A=a=10)"
+        },
+        {
+          "mistake": "Forgetting prefixes in code",
+          "correction": "In programming: 0b for binary, 0o for octal, 0x for hexadecimal"
+        }
+      ]
+    },
+    "faqs": {
+      "title": "Frequently Asked Questions",
+      "items": [
+        {
+          "question": "Why do computers use binary?",
+          "answer": "Because electronic circuits have only two states: on (1) and off (0), making binary the most suitable system."
+        },
+        {
+          "question": "What's the relationship between hexadecimal and colors?",
+          "answer": "Color codes like #FF0000 are three hexadecimal values (red, green, blue), each ranging from 00-FF."
+        },
+        {
+          "question": "How do I manually convert binary to decimal?",
+          "answer": "Multiply each digit by 2 raised to its position from right (starting at 0) and sum the results. Example: 1010 = 1×8 + 0×4 + 1×2 + 0×1 = 10"
+        },
+        {
+          "question": "What's the importance of octal?",
+          "answer": "It's used in Linux file permissions (like 755) and some legacy applications because it's easier to read than binary."
+        }
+      ]
+    }
+  },
+  "pressure_converter": {
+    "pressure": {
+      "units": {
+        "pascal": "Pascal",
+        "bar": "Bar",
+        "psi": "Psi",
+        "atmosphere": "Atmosphere",
+        "mmhg": "Mmhg",
+        "torr": "Torr"
+      },
+      "title": "Title",
+      "from_tooltip": "From Tooltip",
+      "enter_value": "Enter Value",
+      "to_tooltip": "To Tooltip",
+      "info_title": "Info Title",
+      "info_desc": "Info Desc",
+      "use_cases": {
+        "title": "Title",
+        "case_1": "Case 1",
+        "case_2": "Case 2",
+        "case_3": "Case 3"
+      },
+      "formula_desc": "Formula Desc",
+      "description": "Description"
+    }
+  },
+  "speed_converter": {
+    "speed": {
+      "units": {
+        "meters_per_second": "Meters Per Second",
+        "kilometers_per_hour": "Kilometers Per Hour",
+        "miles_per_hour": "Miles Per Hour",
+        "knot": "Knot",
+        "feet_per_second": "Feet Per Second"
+      },
+      "title": "Title",
+      "info_title": "Info Title",
+      "info_desc": "Info Desc",
+      "formula_desc": "Formula Desc",
+      "description": "Description"
+    }
+  },
+  "temperature_converter": {
+    "temperature": {
+      "units": {
+        "celsius": "Celsius",
+        "fahrenheit": "Fahrenheit",
+        "kelvin": "Kelvin",
+        "symbol_celsius": "Symbol Celsius",
+        "symbol_fahrenheit": "Symbol Fahrenheit"
+      },
+      "title": "Title",
+      "info_title": "Info Title",
+      "info_desc": "Info Desc",
+      "formula_c_to_f": "Formula C To F",
+      "formula_f_to_c": "Formula F To C",
+      "formula_c_to_k": "Formula C To K",
+      "description": "Description"
+    }
+  }
 }

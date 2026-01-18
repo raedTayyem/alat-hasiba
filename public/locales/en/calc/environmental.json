@@ -714,7 +714,8 @@
         "question": "What is the best way to reduce plastic use?",
         "answer": "Start with reusable bottles, bags, and containers. These three changes can reduce personal plastic use by 30-50%."
       }
-    ]
+    ],
+    "note_space": " "
   },
   "flight_emissions": {
     "title": "Flight Emissions Calculator",
@@ -1357,7 +1358,16 @@
         "question": "Is rainwater harvesting cost-effective?",
         "answer": "ROI depends on local water costs and rainfall. In areas with expensive water or unreliable supply, systems often pay back in 5-10 years."
       }
-    ]
+    ],
+    "composting": {
+      "sq_m": "Sq M"
+    },
+    "units": {
+      "percent": "Percent"
+    },
+    "carbon_offset": {
+      "sar": "Sar"
+    }
   },
   "recycling_impact": {
     "title": "Recycling Impact Calculator",
@@ -1509,7 +1519,13 @@
         "question": "How much does the average person recycle?",
         "answer": "The global average is about 9% of plastic, 65% of paper, 30% of glass, and 35% of metal. These rates vary significantly by country."
       }
-    ]
+    ],
+    "units": {
+      "kg": "Kg"
+    },
+    "co2_emissions": {
+      "kg_co2": "Kg Co2"
+    }
   },
   "waste": {
     "title": "Waste Calculator",
@@ -1677,7 +1693,13 @@
         "question": "Does taking shorter showers really help?",
         "answer": "It helps, but direct water is only 5-10% of your footprint. A 5-minute shorter shower saves 50 liters, but eating 100g less beef saves 1,500 liters."
       }
-    ]
+    ],
+    "sustainable_lifestyle": {
+      "options": {
+        "meat_heavy": "Meat-heavy diet"
+      }
+    },
+    "note_space": " "
   },
   "vehicle_emissions": {
     "title": "Vehicle Emissions Calculator",
@@ -1805,7 +1827,8 @@
       "high": "High Usage",
       "sustainable": "Sustainable/Minimal",
       "conscious": "Conscious Consumer",
-      "excessive": "High Consumption"
+      "excessive": "High Consumption",
+      "meat_heavy": "Meat Heavy"
     },
     "ratings": {
       "excellent": "Excellent",
@@ -2088,5 +2111,155 @@
         "answer": "Trees produce oxygen, filter water and air pollutants, prevent soil erosion, reduce urban heat, provide wildlife habitat, and increase property values by 10-20%."
       }
     ]
+  },
+  "common": {
+    "error": {
+      "invalid_input": "Invalid Input"
+    }
+  },
+  "mixed": "Mixed",
+  " ": "",
+  "/": "/",
+  "car": "Car",
+  "common:units": {
+    "kWh": "K Wh",
+    "percent": "Percent",
+    "kg": "Kg",
+    "kW": "K W"
+  },
+  "(": "(",
+  "common:common": {
+    "units": {
+      "kWh": "K Wh"
+    }
+  },
+  "calculators": {
+    "environmental": {
+      "tree_planting": {
+        "type_fruit": "Type Fruit",
+        "type_label": "Type Label",
+        "age_tooltip": "Age Tooltip",
+        "oxygen_produced": "Oxygen Produced",
+        "info_title": "Info Title",
+        "use_case_3": "Use Case 3",
+        "species": "Species",
+        "age_label": "Age Label",
+        "result_unit": "Result Unit",
+        "error_required": "Error Required",
+        "description": "Description",
+        "use_case_2": "Use Case 2",
+        "formula_explanation": "Formula Explanation",
+        "water_filtered": "Water Filtered",
+        "years_unit": "Years Unit",
+        "type_tropical": "Type Tropical",
+        "use_case_1": "Use Case 1",
+        "use_cases_title": "Use Cases Title",
+        "lifetime_co2": "Lifetime Co2",
+        "formula_title": "Formula Title",
+        "type_conifer": "Type Conifer",
+        "wildlife_supported": "Wildlife Supported",
+        "age_placeholder": "Age Placeholder",
+        "trees_placeholder": "Trees Placeholder",
+        "title": "Title",
+        "info_description": "Info Description",
+        "trees_tooltip": "Trees Tooltip",
+        "error_age_max": "Error Age Max",
+        "trees_unit": "Trees Unit",
+        "result_label": "Result Label",
+        "type_tooltip": "Type Tooltip",
+        "type_deciduous": "Type Deciduous",
+        "error_positive": "Error Positive",
+        "trees_label": "Trees Label",
+        "error_calculation": "Error Calculation",
+        "details_title": "Details Title",
+        "monetary_value": "Monetary Value"
+      },
+      "water_usage": {
+        "use_case_2": "Use Case 2",
+        "toilet_placeholder": "Toilet Placeholder",
+        "dish_placeholder": "Dish Placeholder",
+        "info_description": "Info Description",
+        "description": "Description",
+        "use_case_3": "Use Case 3",
+        "toilet_label": "Toilet Label",
+        "comparison_high": "Comparison High",
+        "yearly_usage": "Yearly Usage",
+        "shower_placeholder": "Shower Placeholder",
+        "dish_tooltip": "Dish Tooltip",
+        "use_cases_title": "Use Cases Title",
+        "laundry_placeholder": "Laundry Placeholder",
+        "comparison_title": "Comparison Title",
+        "laundry_tooltip": "Laundry Tooltip",
+        "error_negative": "Error Negative",
+        "shower_label": "Shower Label",
+        "daily_cost": "Daily Cost",
+        "comparison_average": "Comparison Average",
+        "times_unit": "Times Unit",
+        "use_case_1": "Use Case 1",
+        "cost_placeholder": "Cost Placeholder",
+        "toilet_tooltip": "Toilet Tooltip",
+        "dish_label": "Dish Label",
+        "loads_unit": "Loads Unit",
+        "info_title": "Info Title",
+        "title": "Title",
+        "liters": "Liters",
+        "currency_unit": "Currency Unit",
+        "comparison_low": "Comparison Low",
+        "error_at_least_one": "Error At Least One",
+        "shower_tooltip": "Shower Tooltip",
+        "result_label": "Result Label",
+        "laundry_label": "Laundry Label",
+        "result_unit": "Result Unit",
+        "cost_label": "Cost Label",
+        "details_title": "Details Title",
+        "cost_tooltip": "Cost Tooltip",
+        "yearly_cost": "Yearly Cost",
+        "monthly_usage": "Monthly Usage",
+        "error_calculation": "Error Calculation",
+        "monthly_cost": "Monthly Cost",
+        "minutes_unit": "Minutes Unit"
+      }
+    }
+  },
+  "solar_panel_roi": {
+    "solar-panel-roi-calculator": {
+      "input_title": "Input Title",
+      "system_size": "System Size",
+      "system_size_tooltip": "System Size Tooltip",
+      "enter_size": "Enter Size",
+      "install_cost": "Install Cost",
+      "install_cost_tooltip": "Install Cost Tooltip",
+      "currency": "Currency",
+      "enter_cost": "Enter Cost",
+      "monthly_bill": "Monthly Bill",
+      "monthly_bill_tooltip": "Monthly Bill Tooltip",
+      "enter_bill": "Enter Bill",
+      "sun_hours": "Sun Hours",
+      "sun_hours_tooltip": "Sun Hours Tooltip",
+      "hours": "Hours",
+      "enter_hours": "Enter Hours",
+      "results_title": "Results Title",
+      "payback_period": "Payback Period",
+      "years": "Years",
+      "annual_production": "Annual Production",
+      "annual_savings": "Annual Savings",
+      "roi_25_years": "Roi 25 Years",
+      "co2_offset": "Co2 Offset",
+      "kg": "Kg",
+      "trees_equivalent": "Trees Equivalent",
+      "trees": "Trees",
+      "benefits_title": "Benefits Title",
+      "benefit_1": "Benefit 1",
+      "benefit_2": "Benefit 2",
+      "benefit_3": "Benefit 3",
+      "benefit_4": "Benefit 4",
+      "empty_state": "Empty State",
+      "title": "Title",
+      "description": "Description",
+      "footer_note": "Footer Note"
+    },
+    "units": {
+      "kW": "K W"
+    }
   }
 }

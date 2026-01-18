@@ -1,0 +1,47 @@
+{
+  "samaritan-festivals": {
+    "festivals": {
+      "sukkot": "Sukkot",
+      "passover": "Passover",
+      "shemini_atzeret": "Sheمبوصةi Atzeret",
+      "yom_kippur": "Yoم Kippur",
+      "rosh_hashanah": "Rosh Hashanah",
+      "shavuot": "Shavuot",
+      "unleavened_bread": "Unleavened Bread"
+    },
+    "input_title": "إدخال العنوان",
+    "error_year_range": "خطأ السنة النطاق",
+    "desc": {
+      "yom_kippur": "Yoم Kippur",
+      "unleavened_bread": "Unleavened Bread",
+      "shemini_atzeret": "Sheمبوصةi Atzeret",
+      "shavuot": "Shavuot",
+      "passover": "Passover",
+      "rosh_hashanah": "Rosh Hashanah",
+      "sukkot": "Sukkot"
+    },
+    "footer_note": "Footer لاte",
+    "enter_year": "أدخل السنة",
+    "regular_year": "Reجرامular السنة",
+    "calculate_btn": "احسب Btn",
+    "info_title": "معلومات العنوان",
+    "title": "العنوان",
+    "gregorian_year": "Greجرامorian السنة",
+    "empty_state": "Eمpty الولاية",
+    "festivals_for_year": "Festivals For السنة",
+    "leap_year": "لترeap السنة",
+    "description": "الوصف",
+    "tooltip_year": "Tooltip السنة",
+    "error_invalid_input": "خطأ Invalid إدخال",
+    "info_pilgrimage": "معلومات Pilجرامriمaجرامe",
+    "info_passover_sacrifice": "معلومات Passover Sacrifice",
+    "info_gerizim": "معلومات Geriziم"
+  },
+  "samaritan-calendar": {
+    "months": {
+      "1": "1",
+      "7": "7",
+      "3": "3"
+    }
+  }
+}

@@ -1,0 +1,52 @@
+{
+  "holy_week": {
+    "traditions": {
+      "holy_saturday": {
+        "desc_2": "Desc 2",
+        "title": "Title",
+        "desc_6": "Desc 6",
+        "desc_7": "Desc 7",
+        "desc_1": "Desc 1",
+        "desc_5": "Desc 5",
+        "desc_3": "Desc 3",
+        "desc_4": "Desc 4"
+      },
+      "symbols_intro": "Symbols Intro",
+      "easter_sunday": {
+        "desc_1": "Desc 1",
+        "title": "Title",
+        "desc_5": "Desc 5",
+        "desc_4": "Desc 4",
+        "desc_2": "Desc 2",
+        "desc_3": "Desc 3"
+      },
+      "good_friday": {
+        "desc_5": "Desc 5",
+        "desc_4": "Desc 4",
+        "title": "Title",
+        "desc_2": "Desc 2",
+        "desc_1": "Desc 1",
+        "desc_3": "Desc 3"
+      },
+      "palm_sunday": {
+        "desc": "Desc",
+        "title": "Title"
+      },
+      "symbol_2": "Symbol 2",
+      "maundy_thursday": {
+        "title": "Title",
+        "desc_3": "Desc 3",
+        "desc_2": "Desc 2",
+        "desc_1": "Desc 1"
+      },
+      "intro": "Intro",
+      "holy_monday_wednesday": {
+        "desc": "Desc",
+        "title": "Title"
+      },
+      "title": "Title",
+      "symbol_1": "Symbol 1",
+      "symbols_title": "Symbols Title"
+    }
+  }
+}

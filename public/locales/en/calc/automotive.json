@@ -1,4 +1,9 @@
 {
+  "50": "50",
+  "100": "100",
+  "200": "200",
+  "400": "400",
+  "600": "600",
   "fuel-economy-calculator": {
     "title": "Fuel Economy Calculator - Free MPG & Fuel Consumption Tool",
     "description": "Calculate your vehicle fuel consumption rate in MPG or km/L. Free online fuel economy calculator for accurate gas mileage tracking.",
@@ -2499,7 +2504,10 @@
         "question": "How does fuel consumption relate to CO2 emissions?",
         "answer": "Each liter of gasoline burned produces approximately 2.3 kg of CO2. So a vehicle consuming 8 L/100km emits about 184 grams of CO2 per kilometer driven."
       }
-    ]
+    ],
+    "price_label": "Fuel Price per Liter/Gallon",
+    "price_tooltip": "Current fuel price in your area",
+    "price_placeholder": "e.g., 1.50"
   },
   "fuel_economy": {
     "title": "Fuel Economy Calculator",
@@ -2592,7 +2600,13 @@
         "question": "How much can I save by improving fuel economy?",
         "answer": "Improving from 25 to 30 MPG on 12,000 annual miles at $3.50/gallon saves about $280/year. Small improvements add up significantly over the life of the vehicle."
       }
-    ]
+    ],
+    "use_case_1": "Use Case 1",
+    "use_case_2": "Use Case 2",
+    "use_case_3": "Use Case 3",
+    "use_cases_title": "Use Cases Title",
+    "about_title": "About Title",
+    "about_description": "About Description"
   },
   "car_loan": {
     "title": "Car Loan Calculator",
@@ -2738,7 +2752,8 @@
     "placeholders": {
       "width": "8.5",
       "offset": "35",
-      "backspacing": "5.5"
+      "backspacing": "5.5",
+      "wheel_width": "Enter wheel width"
     },
     "howItWorks": {
       "title": "How Wheel Offset Calculation Works",
@@ -2786,7 +2801,9 @@
         "question": "What offset do I need for a flush fitment?",
         "answer": "Flush fitment depends on your fender width and tire size. Generally, you want the tire edge to align with or sit slightly inside the fender. This typically requires lower offset (more negative) than stock for most vehicles."
       }
-    ]
+    ],
+    "mode_offset": "Calculate Offset",
+    "mode_backspacing": "Calculate Backspacing"
   },
   "battery_life": {
     "title": "Car Battery Life Calculator",
@@ -3835,7 +3852,11 @@
         "question": "How often should I check tire pressure?",
         "answer": "At least monthly and before long trips. Tires naturally lose 1-2 PSI per month. Also check when seasons change, as temperature swings significantly affect pressure."
       }
-    ]
+    ],
+    "units": {
+      "PSI": "P S I",
+      "bar": "Bar"
+    }
   },
   "top_speed": {
     "title": "Top Speed Calculator",
@@ -3919,7 +3940,16 @@
         "question": "How does altitude affect top speed?",
         "answer": "Lower air density at altitude reduces both aerodynamic drag (helpful) and engine power output (harmful for naturally aspirated engines). Turbocharged cars maintain power better at altitude, potentially achieving higher top speeds."
       }
-    ]
+    ],
+    "units": {
+      "HP": "H P",
+      "Cd": "Cd",
+      "square_meters": "Square Meters",
+      "kg": "Kg",
+      "mph": "Mph",
+      "kmh": "Kmh",
+      "N": "N"
+    }
   },
   "ev_range": {
     "title": "EV Range Calculator",
@@ -4777,7 +4807,11 @@
       "total": "Total"
     },
     "formula_title": "How It Works",
-    "formula_explanation": "Fee = Base Rate × Age Factor + Value Tax (0.5%) + Engine Tax (by CC bracket)"
+    "formula_explanation": "Fee = Base Rate × Age Factor + Value Tax (0.5%) + Engine Tax (by CC bracket)",
+    "currencySymbol": "Common:currency Symbol",
+    "units": {
+      "percent": "Percent"
+    }
   },
   "lease": {
     "title": "Lease Calculator",
@@ -5035,6 +5069,34 @@
     "errors": {
       "invalid": "Please enter valid values",
       "positiveNumber": "All values must be positive numbers"
+    },
+    "currencySymbol": "Currency Symbol",
+    "currency": "Currency"
+  },
+  "common:plus_sign": "Common:plus Sign",
+  "common:units": {
+    "kWh_per_mi": "K Wh Per Mi",
+    "kWh": "K Wh",
+    "percent": "Percent",
+    "bar": "Bar",
+    "PSI": "P S I",
+    "mph": "mph",
+    "N": "N",
+    "kmh": "km/h",
+    "HP": "H P",
+    "kg": "Kg",
+    "Cd": "Cd",
+    "square_meters": "Square Meters"
+  },
+  "common:currencySymbol": "Common:currency Symbol",
+  "T": "T",
+  "fahrenheit": "Fahrenheit",
+  "common:common": {
+    "units": {
+      "in": "In",
+      "mm": "Mm"
     }
-  }
+  },
+  ":": ":",
+  "metric": "Metric"
 }

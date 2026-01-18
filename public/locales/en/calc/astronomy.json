@@ -459,5 +459,96 @@
         "answer": "Gaia is a European Space Agency satellite launched in 2013 that has measured precise parallaxes for over 1.8 billion stars, revolutionizing our understanding of the Milky Way's structure."
       }
     ]
+  },
+  "common": {
+    "placeholders": {
+      "enterValue": "Enter Value"
+    },
+    "unit": "Unit",
+    "selectOption": "Select Option",
+    "value": "Value"
+  },
+  "star_distance": {
+    "star-distance": {
+      "errors": {
+        "enter_parallax": "Enter Parallax",
+        "positive_parallax": "Positive Parallax",
+        "max_parallax": "Max Parallax"
+      },
+      "title": "Title",
+      "inputs": {
+        "parallax_angle": "Parallax Angle"
+      },
+      "tooltips": {
+        "parallax_angle": "Parallax Angle"
+      },
+      "units": {
+        "arcseconds": "Arcseconds",
+        "parsecs": "Parsecs",
+        "light_years": "Light Years",
+        "au": "Au",
+        "km": "Km"
+      },
+      "info": {
+        "common_values": "Common Values",
+        "title": "Title",
+        "description": "Description",
+        "formula_title": "Formula Title",
+        "formula_desc": "Formula Desc"
+      },
+      "results": {
+        "parallax_input": "Parallax Input",
+        "distance": "Distance"
+      },
+      "description": "Description"
+    }
+  },
+  "telescope_magnification": {
+    "telescope-magnification": {
+      "errors": {
+        "enter_focal_lengths": "Enter Focal Lengths",
+        "positive_values": "Positive Values",
+        "eyepiece_smaller": "Eyepiece Smaller"
+      },
+      "title": "Title",
+      "inputs": {
+        "telescope_focal_length": "Telescope Focal Length",
+        "eyepiece_focal_length": "Eyepiece Focal Length",
+        "aperture": "Aperture",
+        "aperture_optional": "Aperture Optional",
+        "eyepiece_afov": "Eyepiece Afov",
+        "afov_optional": "Afov Optional"
+      },
+      "tooltips": {
+        "telescope_focal_length": "Telescope Focal Length",
+        "eyepiece_focal_length": "Eyepiece Focal Length",
+        "aperture": "Aperture",
+        "eyepiece_afov": "Eyepiece Afov"
+      },
+      "units": {
+        "mm": "Mm",
+        "degrees": "Degrees"
+      },
+      "info": {
+        "common_eyepieces": "Common Eyepieces",
+        "title": "Title",
+        "description": "Description",
+        "tips_title": "Tips Title",
+        "tip_1": "Tip 1",
+        "tip_2": "Tip 2",
+        "tip_3": "Tip 3"
+      },
+      "results": {
+        "magnification": "Magnification",
+        "details": "Details",
+        "exit_pupil": "Exit Pupil",
+        "good_exit_pupil": "Good Exit Pupil",
+        "bad_exit_pupil": "Bad Exit Pupil",
+        "true_fov": "True Fov",
+        "min_useful_mag": "Min Useful Mag",
+        "max_useful_mag": "Max Useful Mag"
+      },
+      "description": "Description"
+    }
   }
 }

@@ -1,0 +1,52 @@
+{
+  "holy_week": {
+    "traditions": {
+      "holy_saturday": {
+        "desc_2": "Desc 2",
+        "title": "العنوان",
+        "desc_6": "Desc 6",
+        "desc_7": "Desc 7",
+        "desc_1": "Desc 1",
+        "desc_5": "Desc 5",
+        "desc_3": "Desc 3",
+        "desc_4": "Desc 4"
+      },
+      "symbols_intro": "Symbols Intro",
+      "easter_sunday": {
+        "desc_1": "Desc 1",
+        "title": "العنوان",
+        "desc_5": "Desc 5",
+        "desc_4": "Desc 4",
+        "desc_2": "Desc 2",
+        "desc_3": "Desc 3"
+      },
+      "good_friday": {
+        "desc_5": "Desc 5",
+        "desc_4": "Desc 4",
+        "title": "العنوان",
+        "desc_2": "Desc 2",
+        "desc_1": "Desc 1",
+        "desc_3": "Desc 3"
+      },
+      "palm_sunday": {
+        "desc": "Desc",
+        "title": "العنوان"
+      },
+      "symbol_2": "Symbol 2",
+      "maundy_thursday": {
+        "title": "العنوان",
+        "desc_3": "Desc 3",
+        "desc_2": "Desc 2",
+        "desc_1": "Desc 1"
+      },
+      "intro": "Intro",
+      "holy_monday_wednesday": {
+        "desc": "Desc",
+        "title": "العنوان"
+      },
+      "title": "العنوان",
+      "symbol_1": "Symbol 1",
+      "symbols_title": "Symbols العنوان"
+    }
+  }
+}

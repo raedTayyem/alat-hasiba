@@ -23,8 +23,10 @@
       "mass_positive": "Mass must be greater than zero"
     },
     "formulas": {
+      "force": "Force equals mass multiplied by acceleration.",
+      "formula_short": "F = ma",
       "newton_2": "F = ma",
-      "newton_2_desc": "Newton's Second Law: Force equals mass times acceleration"
+      "newton_2_desc": "Force equals mass times acceleration"
     },
     "units": {
       "force": "Newtons",
@@ -57,10 +59,6 @@
       "mph": "Miles per hour (mph)",
       "ft_s": "Feet per second (ft/s)",
       "knot": "Knots"
-    },
-    "formulas": {
-      "force": "Force equals mass multiplied by acceleration.",
-      "formula_short": "F = ma"
     },
     "how_to_use": {
       "step1": "Enter the mass value.",
@@ -1186,5 +1184,18 @@
         "answer": "No, liquids are essentially incompressible. The law only applies to gases."
       }
     ]
+  },
+  "common": {
+    "placeholders": {
+      "enterValue": "Enter Value"
+    },
+    "info": "Info",
+    "errors": {
+      "invalid": "Invalid"
+    },
+    "second": "Second",
+    "minute": "Minute",
+    "hour": "Hour",
+    "value": "Value"
   }
 }

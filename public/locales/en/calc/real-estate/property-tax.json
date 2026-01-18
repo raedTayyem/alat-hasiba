@@ -216,7 +216,8 @@
         "question": "How often are taxes assessed?",
         "answer": "Varies by area, usually annually or every 2-3 years."
       }
-    ]
+    ],
+    "details": "Tax Calculation Details"
   },
   "hoa_fee_calculator": {
     "title": "HOA Fee Calculator",

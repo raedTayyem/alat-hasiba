@@ -1,4 +1,7 @@
 {
+  "6": "6",
+  "10": "10",
+  "50": "50",
   "vat": {
     "title": "حاسبة ضريبة القيمة المضافة (VAT)",
     "description": "إضافة أو إزالة الضريبة.",
@@ -348,7 +351,12 @@
         "question": "كيف أراعي أنواع المهام المختلفة؟",
         "answer": "ضع في اعتبارك ترجيح المهام حسب التعقيد أو الوقت المقدر. بدلاً من ذلك، تتبع الإنتاجية بشكل منفصل لفئات المهام المختلفة."
       }
-    ]
+    ],
+    "errors": {
+      "invalid_input": "غير صالح الإدخال",
+      "positive_values_required": "موجب values مطلوب",
+      "calculation_error": "calculation خطأ"
+    }
   },
   "quick_ratio": {
     "title": "حاسبة النسبة السريعة",
@@ -562,7 +570,8 @@
       "commission_amount": "مبلغ العمولة",
       "sales_total": "إجمالي المبيعات",
       "rate_label": "نسبة العمولة",
-      "commission_only": "العمولة فقط"
+      "commission_only": "العمولة فقط",
+      "breakdown": "Breakdown"
     },
     "info": {
       "title": "حول العمولة",
@@ -1057,12 +1066,26 @@
         "question": "هل يجب تضمين التضخم في حسابات العائد؟",
         "answer": "لتحليل دقيق، احسب العائد الحقيقي بطرح التضخم. عائد 10% مع تضخم 3% يعطي عائداً حقيقياً 7%."
       }
-    ]
+    ],
+    "errors": {
+      "invalid_input": "غير صالح الإدخال",
+      "positive_values_required": "موجب values مطلوب",
+      "calculation_error": "calculation خطأ"
+    },
+    "payback_period": {
+      "results": {
+        "years": "Years"
+      }
+    },
+    "calculators": {
+      "formula": "الصيغة"
+    }
   },
   "errors": {
     "invalid_input": "الرجاء إدخال قيم رقمية صحيحة",
     "positive_values_required": "يجب أن تكون القيم موجبة",
-    "calculation_error": "حدث خطأ أثناء الحساب"
+    "calculation_error": "حدث خطأ أثناء الحساب",
+    "price_greater_than_variable": "السعر Greater Than Variable"
   },
   "profit-margin-calculator": {
     "title": "حاسبة هامش الربح - إجمالي وصافي الربح",
@@ -1706,7 +1729,15 @@
         "question": "كيف أحسب ROAS المستهدف؟",
         "answer": "ROAS المستهدف = 1 / هامش الربح. إذا كان هامش ربحك 25%، تحتاج ROAS 4:1 على الأقل للتعادل، وأعلى للربح."
       }
-    ]
+    ],
+    "errors": {
+      "invalid_input": "غير صالح الإدخال",
+      "positive_values_required": "موجب values مطلوب",
+      "calculation_error": "calculation خطأ"
+    },
+    "calculators": {
+      "formula": "الصيغة"
+    }
   },
   "conversion_rate": {
     "title": "حاسبة معدل التحويل",
@@ -1932,7 +1963,15 @@
         "question": "ما أهمية معدل التفاعل للتسويق عبر المؤثرين؟",
         "answer": "حاسم. مؤثر بتفاعل عالٍ يحقق نتائج أفضل من مؤثر بمتابعين كثر وتفاعل منخفض. اطلب إحصائيات التفاعل قبل أي تعاون."
       }
-    ]
+    ],
+    "errors": {
+      "invalid_input": "غير صالح الإدخال",
+      "positive_values_required": "موجب values مطلوب",
+      "calculation_error": "calculation خطأ"
+    },
+    "calculators": {
+      "formula": "الصيغة"
+    }
   },
   "shipping_cost": {
     "title": "حاسبة تكاليف الشحن",
@@ -2049,7 +2088,16 @@
         "question": "ما تأثير المناطق على السعر؟",
         "answer": "الناقلون يقسمون المناطق حسب المسافة من مركز التوزيع. المناطق الأبعد أغلى. اعرف مناطق عملائك الرئيسية لتحسين استراتيجيتك."
       }
-    ]
+    ],
+    "errors": {
+      "invalid_input": "غير صالح الإدخال",
+      "positive_values_required": "موجب values مطلوب",
+      "calculation_error": "calculation خطأ"
+    },
+    "units": {
+      "currencySymbol": "Currency Symbol",
+      "kg": "Kg"
+    }
   },
   "fuel_cost": {
     "title": "حاسبة تكاليف الوقود",
@@ -2243,7 +2291,12 @@
         "question": "متى يجب تحديث تقديرات التكاليف؟",
         "answer": "كلما حصلت على معلومات جديدة. قبل الإطلاق: شهرياً. بعد الإطلاق: مع كل تغيير كبير في الأسعار أو الاستراتيجية."
       }
-    ]
+    ],
+    "errors": {
+      "invalid_input": "غير صالح الإدخال",
+      "positive_values_required": "موجب values مطلوب",
+      "calculation_error": "calculation خطأ"
+    }
   },
   "business_valuation": {
     "title": "حاسبة تقييم الأعمال",
@@ -2759,7 +2812,9 @@
       "tax_rate_placeholder": "مثال: 7"
     },
     "errors": {
-      "invalid_rate": "يجب أن تكون نسبة الضريبة بين 0 و 100"
+      "invalid_rate": "يجب أن تكون نسبة الضريبة بين 0 و 100",
+      "positive_values_required": "موجب values مطلوب",
+      "calculation_error": "calculation خطأ"
     },
     "results": {
       "total": "الإجمالي",
@@ -2852,7 +2907,10 @@
         "question": "هل الخدمات خاضعة لضريبة المبيعات؟",
         "answer": "يختلف كثيراً حسب الولاية ونوع الخدمة. بعض الولايات تفرض ضريبة على خدمات معينة (إصلاحات، تنظيف) وتعفي أخرى (طبية، تعليمية)."
       }
-    ]
+    ],
+    "calculators": {
+      "formula": "الصيغة"
+    }
   },
   "depreciation": {
     "title": "حاسبة الإهلاك",
@@ -3979,7 +4037,10 @@
         "question": "كم مرة يجب إعادة حساب نقطة التعادل؟",
         "answer": "أعد الحساب عند حدوث تغييرات كبيرة في التكاليف أو الأسعار أو مزيج المنتجات. على الأقل، راجعها ربع سنوياً لضمان دقة أهدافك."
       }
-    ]
+    ],
+    "errors": {
+      "price_greater_than_variable": "يجب أن يكون السعر أكبر من التكلفة المتغيرة"
+    }
   },
   "cash_flow": {
     "title": "حاسبة التدفق النقدي",
@@ -4251,7 +4312,10 @@
     },
     "errors": {
       "hours_too_high": "لا يمكن أن تتجاوز ساعات الأسبوع 168 ساعة",
-      "weeks_too_high": "لا يمكن أن تتجاوز أسابيع السنة 52 أسبوعاً"
+      "weeks_too_high": "لا يمكن أن تتجاوز أسابيع السنة 52 أسبوعاً",
+      "invalid_input": "غير صالح الإدخال",
+      "positive_values_required": "موجب values مطلوب",
+      "calculation_error": "calculation خطأ"
     },
     "results": {
       "annual_salary": "الراتب السنوي",
@@ -4738,7 +4802,12 @@
         "question": "هل أشتري بالجملة دائماً؟",
         "answer": "فقط إذا: ستستخدم الكمية قبل انتهاء الصلاحية، لديك مكان للتخزين، وتوفير سعر الوحدة يبرر ربط رأس المال."
       }
-    ]
+    ],
+    "errors": {
+      "invalid_input": "غير صالح الإدخال",
+      "positive_values_required": "موجب values مطلوب",
+      "calculation_error": "calculation خطأ"
+    }
   },
   "price_elasticity": {
     "title": "حاسبة مرونة السعر",
@@ -4758,7 +4827,10 @@
       "final_quantity_placeholder": "مثال: 850"
     },
     "errors": {
-      "price_must_change": "يجب أن يتغير السعر لحساب المرونة"
+      "price_must_change": "يجب أن يتغير السعر لحساب المرونة",
+      "invalid_input": "غير صالح الإدخال",
+      "positive_values_required": "موجب values مطلوب",
+      "calculation_error": "calculation خطأ"
     },
     "results": {
       "elasticity": "مرونة الطلب السعرية",
@@ -5582,6 +5654,11 @@
       "use_case_1": "حساب هوامش الربح الحقيقية للمنتجات",
       "use_case_2": "تحديد استراتيجية التسعير المثلى",
       "use_case_3": "تقييم ما إذا كان الترقية إلى خطة شوبيفاي أعلى توفر المال"
+    },
+    "errors": {
+      "invalid_input": "غير صالح الإدخال",
+      "positive_values_required": "موجب values مطلوب",
+      "calculation_error": "calculation خطأ"
     }
   },
   "income_tax": {
@@ -5605,7 +5682,9 @@
       "taxable_income": "الدخل الخاضع للضريبة",
       "after_tax_income": "الدخل بعد الضريبة",
       "bracket_breakdown": "تفصيل الشرائح الضريبية",
-      "on": "على"
+      "on": "على",
+      "formula_title": "الشكلula العنوان",
+      "formula_desc": "الشكلula Desc"
     },
     "info": {
       "title": "حول ضريبة الدخل",
@@ -5667,6 +5746,11 @@
       "use_case_1": "تخطيط مشاريع البناء أو التجديد",
       "use_case_2": "تقدير تكاليف تطوير البرمجيات أو مشاريع تكنولوجيا المعلومات",
       "use_case_3": "إنشاء ميزانيات للفعاليات أو الحملات التسويقية"
+    },
+    "errors": {
+      "invalid_input": "غير صالح الإدخال",
+      "positive_values_required": "موجب values مطلوب",
+      "calculation_error": "calculation خطأ"
     }
   },
   "time_tracking": {
@@ -5706,6 +5790,14 @@
       "use_case_1": "المستقلون الذين يفوترون العملاء بالساعة",
       "use_case_2": "المستشارون الذين يتتبعون وقت المشروع والنفقات",
       "use_case_3": "مقدمو الخدمات الذين ينشئون فواتير مفصلة"
+    },
+    "errors": {
+      "invalid_input": "غير صالح الإدخال",
+      "positive_values_required": "موجب values مطلوب",
+      "calculation_error": "calculation خطأ"
+    },
+    "units": {
+      "currencySymbol": "Currency Symbol"
     }
   },
   "unit_cost": {
@@ -5743,6 +5835,26 @@
       "use_case_1": "تحليل تكاليف التصنيع والتسعير",
       "use_case_2": "تسعير المنتجات وتحليل نقطة التعادل",
       "use_case_3": "تحسين التكلفة وتخطيط الكفاءة"
+    },
+    "errors": {
+      "positive_values_required": "موجب values مطلوب",
+      "invalid_input": "غير صالح الإدخال",
+      "calculation_error": "calculation خطأ"
     }
+  },
+  "common:units": {
+    "currencySymbol": "Currency Syمbol",
+    "kg": "Kجرام"
+  },
+  "common": {
+    "useCases": "Use Cases",
+    "formula": "الشكلula",
+    "errors": {
+      "invalid": "Invalid",
+      "calculationError": "الحساب خطأ"
+    }
+  },
+  "common:common": {
+    "currencySymbol": "Currency Syمbol"
   }
 }

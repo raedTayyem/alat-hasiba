@@ -459,5 +459,96 @@
         "answer": "جايا قمر صناعي لوكالة الفضاء الأوروبية أُطلق في 2013 قاس اختلافات دقيقة لأكثر من 1.8 مليار نجم، مما أحدث ثورة في فهمنا لبنية مجرة درب التبانة."
       }
     ]
+  },
+  "common": {
+    "placeholders": {
+      "enterValue": "أدخل القيمة"
+    },
+    "unit": "Unit",
+    "selectOption": "Select Option",
+    "value": "القيمة"
+  },
+  "star_distance": {
+    "star-distance": {
+      "errors": {
+        "enter_parallax": "أدخل parallax",
+        "positive_parallax": "موجب parallax",
+        "max_parallax": "Max Parallax"
+      },
+      "title": "العنوان",
+      "inputs": {
+        "parallax_angle": "Parallax Angle"
+      },
+      "tooltips": {
+        "parallax_angle": "Parallax Angle"
+      },
+      "units": {
+        "arcseconds": "Arcseconds",
+        "parsecs": "Parsecs",
+        "light_years": "Light Years",
+        "au": "Au",
+        "km": "Km"
+      },
+      "info": {
+        "common_values": "Common Values",
+        "title": "العنوان",
+        "description": "الوصف",
+        "formula_title": "الصيغة العنوان",
+        "formula_desc": "الصيغة desc"
+      },
+      "results": {
+        "parallax_input": "parallax الإدخال",
+        "distance": "المسافة"
+      },
+      "description": "الوصف"
+    }
+  },
+  "telescope_magnification": {
+    "telescope-magnification": {
+      "errors": {
+        "enter_focal_lengths": "أدخل focal lengths",
+        "positive_values": "موجب values",
+        "eyepiece_smaller": "Eyepiece Smaller"
+      },
+      "title": "العنوان",
+      "inputs": {
+        "telescope_focal_length": "telescope focal الطول",
+        "eyepiece_focal_length": "eyepiece focal الطول",
+        "aperture": "Aperture",
+        "aperture_optional": "Aperture Optional",
+        "eyepiece_afov": "Eyepiece Afov",
+        "afov_optional": "Afov Optional"
+      },
+      "tooltips": {
+        "telescope_focal_length": "telescope focal الطول",
+        "eyepiece_focal_length": "eyepiece focal الطول",
+        "aperture": "Aperture",
+        "eyepiece_afov": "Eyepiece Afov"
+      },
+      "units": {
+        "mm": "Mm",
+        "degrees": "Degrees"
+      },
+      "info": {
+        "common_eyepieces": "Common Eyepieces",
+        "title": "العنوان",
+        "description": "الوصف",
+        "tips_title": "tips العنوان",
+        "tip_1": "Tip 1",
+        "tip_2": "Tip 2",
+        "tip_3": "Tip 3"
+      },
+      "results": {
+        "magnification": "Magnification",
+        "details": "Details",
+        "exit_pupil": "Exit Pupil",
+        "good_exit_pupil": "Good Exit Pupil",
+        "bad_exit_pupil": "Bad Exit Pupil",
+        "true_fov": "True Fov",
+        "min_useful_mag": "Min Useful Mag",
+        "max_useful_mag": "Max Useful Mag"
+      },
+      "description": "الوصف"
+    }
   }
 }

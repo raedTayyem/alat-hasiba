@@ -445,7 +445,14 @@
     "errors": {
       "invalid": "الرجاء إدخال رقم صحيح",
       "positive": "القيمة يجب أن تكون أكبر من صفر",
-      "calculation": "حدث خطأ أثناء الحساب"
+      "calculation": "حدث خطأ أثناء الحساب",
+      "initial_amount_positive": "Initial المبلغ Positive",
+      "elapsed_time_non_negative": "Elapsed الوقت لاn Neجرامative",
+      "enter_half_life": "أدخل Half لترife",
+      "calculation_error": "الحساب خطأ",
+      "enter_initial_amount": "أدخل Initial المبلغ",
+      "enter_elapsed_time": "أدخل Elapsed الوقت",
+      "half_life_positive": "Half لترife Positive"
     },
     "results": {
       "label": "النتائج",
@@ -454,7 +461,9 @@
       "percentage_remaining": "النسبة المئوية المتبقية",
       "percentage_decayed": "النسبة المئوية المتحللة",
       "half_lives_elapsed": "عدد فترات نصف العمر المنقضية",
-      "decayed_amount": "الكمية المتحللة"
+      "decayed_amount": "الكمية المتحللة",
+      "decay_progress": "Decay Proجرامress",
+      "remaining": "الكمية المتبقية"
     },
     "info": {
       "title": "حول نصف العمر",
@@ -521,7 +530,25 @@
     "tooltips": {
       "initial_amount": "الكمية الأولية للمادة قبل التحلل",
       "half_life_period": "الوقت المطلوب لتحلل نصف المادة",
-      "elapsed_time": "الوقت الإجمالي الذي مر منذ البداية"
+      "elapsed_time": "الوقت الإجمالي الذي مر منذ البداية",
+      "half_life": "Half لترife"
+    },
+    "inputs": {
+      "elapsed_time": "Elapsed الوقت",
+      "half_life_unit": "Half لترife Unit",
+      "half_life": "Half لترife",
+      "elapsed_time_unit": "Elapsed الوقت Unit",
+      "initial_amount": "Initial المبلغ"
+    },
+    "units": {
+      "hours": "الساعةs",
+      "years": "السنةs",
+      "seconds": "الثانيةs",
+      "minutes": "الدقيقةs",
+      "days": "اليومs"
+    },
+    "formulas": {
+      "main": "Maبوصة"
     }
   },
   "molar_mass": {
@@ -612,5 +639,51 @@
         "answer": "الكتل الذرية هي متوسطات موزونة لجميع النظائر الطبيعية لكل عنصر. تُحدد تجريبياً وتُدرج في الجدول الدوري."
       }
     ]
+  },
+  "common": {
+    "info": "معلومات"
+  },
+  "years": "السنةs",
+  "ph": {
+    "ph_calculator": {
+      "errors": {
+        "enter_value": "أدخل القيمة",
+        "concentration_positive": "concentration موجب",
+        "ph_range": "ph النطاق",
+        "poh_range": "poh النطاق",
+        "calculation_error": "calculation خطأ"
+      },
+      "modes": {
+        "pH_from_H": "P H From  H",
+        "H_from_pH": "H From P H",
+        "pOH_from_OH": "P O H From  O H",
+        "OH_from_pOH": "O H From P O H"
+      },
+      "inputs": {
+        "h_concentration": "H Concentration",
+        "pH": "P H",
+        "oh_concentration": "Oh Concentration",
+        "pOH": "P O H"
+      },
+      "tooltips": {
+        "h_concentration": "H Concentration",
+        "pH": "P H",
+        "oh_concentration": "Oh Concentration",
+        "pOH": "P O H"
+      },
+      "title": "العنوان",
+      "formulas": {
+        "ph": "Ph",
+        "ph_desc": "Ph Desc"
+      },
+      "results": {
+        "solution_type": "solution النوع",
+        "pH": "P H",
+        "pOH": "P O H",
+        "h_concentration": "H Concentration",
+        "oh_concentration": "Oh Concentration"
+      },
+      "description": "الوصف"
+    }
   }
 }

@@ -1,4 +1,8 @@
 {
+  "1": {
+    "0": "0"
+  },
+  "20": "20",
   "mortgage-calculator-advanced": {
     "title": "Advanced Mortgage Calculator - Free Online Amortization Tool",
     "description": "Calculate monthly mortgage payments, interest, and payoff schedules accurately. Free advanced mortgage calculator with full amortization tables."
@@ -181,7 +185,9 @@
         "question": "How do I calculate Net Operating Income?",
         "answer": "NOI = Gross Rental Income - Operating Expenses (maintenance, taxes, insurance, management)."
       }
-    ]
+    ],
+    "invalid_input": "Invalid input. Please check your values.",
+    "calculation_error": "An error occurred during calculation"
   },
   "capital_gains_tax_calculator": {
     "title": "Capital Gains Tax Calculator",
@@ -401,7 +407,9 @@
         "question": "How can I reduce closing costs?",
         "answer": "Compare offers, negotiate fees, and ask the seller to contribute."
       }
-    ]
+    ],
+    "invalid_input": "Invalid input. Please check your values.",
+    "calculation_error": "An error occurred during calculation"
   },
   "commercial_property_calculator": {
     "title": "Commercial Property Calculator",
@@ -514,7 +522,8 @@
         "question": "Which is better for comparison: meter or foot?",
         "answer": "Use the unit prevalent in your area for easier comparison."
       }
-    ]
+    ],
+    "enter_value_4": "Enter value"
   },
   "lease_analysis_calculator": {
     "title": "Lease Analysis Calculator",
@@ -719,7 +728,9 @@
         "question": "What about newer homes?",
         "answer": "They need less maintenance initially, but save for when warranties expire."
       }
-    ]
+    ],
+    "enter_value_4": "Enter value",
+    "calc_726": "Home Maintenance Cost Calculator"
   },
   "home_value_estimator": {
     "title": "Home Value Estimator",
@@ -890,7 +901,13 @@
         "question": "Does the result include taxes and insurance?",
         "answer": "Depends on the calculator. Make sure to account for them when actually buying."
       }
-    ]
+    ],
+    "dti_ratio": "Debt-to-Income Ratio",
+    "tip_dti": "Aim for a DTI ratio below 43% for better loan approval chances",
+    "tip_down_payment": "A 20% down payment helps avoid private mortgage insurance (PMI)",
+    "tip_emergency": "Maintain an emergency fund covering 3-6 months of expenses",
+    "tip_costs": "Budget for property taxes, insurance, and maintenance costs",
+    "tip_pre_approval": "Get pre-approved for a mortgage before house hunting"
   },
   "heloc_calculator": {
     "title": "HELOC Calculator - Home Equity Line of Credit Tool",
@@ -1468,7 +1485,8 @@
         "question": "Is higher yield always better?",
         "answer": "Not necessarily. It may indicate problems with the property or location."
       }
-    ]
+    ],
+    "details": "Details"
   },
   "security_deposit_calculator": {
     "title": "Security Deposit Calculator",
@@ -1676,7 +1694,8 @@
         "question": "How often are taxes assessed?",
         "answer": "Varies by area, usually annually or every 2-3 years."
       }
-    ]
+    ],
+    "details": "Details"
   },
   "real_estate_roi_calculator": {
     "title": "Real Estate ROI Calculator",
@@ -2400,5 +2419,165 @@
     "tip_80": "Tip 80",
     "tip_risk": "Tip Risk",
     "tip_equity": "Tip Equity"
+  },
+  "calculators": {
+    "invalid_input": "Invalid Input",
+    "calculation_error": "Calculation Error",
+    "enter_201": "Enter 201",
+    "calc_726": "Calc 726",
+    "calc_a30e2b7a": "Calc A30e2b7a",
+    "calc_a2d73026": "Calc A2d73026",
+    "enter_value_4": "Enter Value 4",
+    "calc_68c122c6": "Calc 68c122c6"
+  },
+  "common:common": {
+    "units": {
+      "ft": "Ft"
+    },
+    "currencySymbol": "Currency Symbol"
+  },
+  "property_tax": {
+    "calculators": {
+      "invalid_input": "Invalid Input",
+      "calculation_error": "Calculation Error"
+    },
+    "property_tax_calculator": {
+      "positive_values": "Positive Values",
+      "title": "Title",
+      "assessed_value": "Assessed Value",
+      "assessed_value_tooltip": "Assessed Value Tooltip",
+      "tax_rate": "Tax Rate",
+      "tax_rate_tooltip": "Tax Rate Tooltip",
+      "years": "Years",
+      "years_tooltip": "Years Tooltip",
+      "calculate_btn": "Calculate Btn",
+      "reset_btn": "Reset Btn",
+      "info_title": "Info Title",
+      "info_description": "Info Description",
+      "use_cases_title": "Use Cases Title",
+      "use_case_1": "Use Case 1",
+      "use_case_2": "Use Case 2",
+      "use_case_3": "Use Case 3",
+      "annual_tax_label": "Annual Tax Label",
+      "per_year": "Per Year",
+      "details": "Details",
+      "monthly_escrow": "Monthly Escrow",
+      "effective_rate": "Effective Rate",
+      "total_over_years": "Total Over Years",
+      "formula_title": "Formula Title",
+      "formula_explanation": "Formula Explanation",
+      "description": "Description"
+    }
+  },
+  "rent_vs_buy": {
+    "calculators": {
+      "invalid_input": "Invalid Input",
+      "calculation_error": "Calculation Error"
+    },
+    "rent_vs_buy_calculator": {
+      "price_required": "Price Required",
+      "rent_required": "Rent Required",
+      "down_payment_range": "Down Payment Range",
+      "interest_rate_range": "Interest Rate Range",
+      "loan_term_range": "Loan Term Range",
+      "recommend_rent": "Recommend Rent",
+      "recommend_buy_short": "Recommend Buy Short",
+      "recommend_buy_long": "Recommend Buy Long",
+      "title": "Title",
+      "buying_section": "Buying Section",
+      "home_price": "Home Price",
+      "price_tooltip": "Price Tooltip",
+      "down_payment": "Down Payment",
+      "down_payment_tooltip": "Down Payment Tooltip",
+      "interest_rate": "Interest Rate",
+      "interest_tooltip": "Interest Tooltip",
+      "loan_term": "Loan Term",
+      "loan_term_tooltip": "Loan Term Tooltip",
+      "property_tax_rate": "Property Tax Rate",
+      "property_tax_tooltip": "Property Tax Tooltip",
+      "home_insurance": "Home Insurance",
+      "home_insurance_tooltip": "Home Insurance Tooltip",
+      "hoa_fees": "Hoa Fees",
+      "hoa_tooltip": "Hoa Tooltip",
+      "maintenance_rate": "Maintenance Rate",
+      "maintenance_tooltip": "Maintenance Tooltip",
+      "appreciation_rate": "Appreciation Rate",
+      "appreciation_tooltip": "Appreciation Tooltip",
+      "renting_section": "Renting Section",
+      "monthly_rent": "Monthly Rent",
+      "rent_tooltip": "Rent Tooltip",
+      "rent_increase_rate": "Rent Increase Rate",
+      "rent_increase_tooltip": "Rent Increase Tooltip",
+      "renters_insurance": "Renters Insurance",
+      "renters_insurance_tooltip": "Renters Insurance Tooltip",
+      "investment_return": "Investment Return",
+      "investment_tooltip": "Investment Tooltip",
+      "calculate_btn": "Calculate Btn",
+      "reset_btn": "Reset Btn",
+      "info_title": "Info Title",
+      "info_description": "Info Description",
+      "use_cases_title": "Use Cases Title",
+      "use_case_1": "Use Case 1",
+      "use_case_2": "Use Case 2",
+      "use_case_3": "Use Case 3",
+      "monthly_comparison": "Monthly Comparison",
+      "buying": "Buying",
+      "renting": "Renting",
+      "breakeven_title": "Breakeven Title",
+      "no_breakeven": "No Breakeven",
+      "recommendation_title": "Recommendation Title",
+      "cost_over_time": "Cost Over Time",
+      "after_5_years": "After 5 Years",
+      "buying_cost": "Buying Cost",
+      "renting_cost": "Renting Cost",
+      "net_difference": "Net Difference",
+      "after_10_years": "After 10 Years",
+      "after_15_years": "After 15 Years",
+      "monthly_breakdown": "Monthly Breakdown",
+      "mortgage_payment": "Mortgage Payment",
+      "property_tax": "Property Tax",
+      "insurance": "Insurance",
+      "maintenance": "Maintenance",
+      "formula_title": "Formula Title",
+      "formula_explanation": "Formula Explanation",
+      "description": "Description"
+    }
+  },
+  "rental_yield": {
+    "calculators": {
+      "invalid_input": "Invalid Input",
+      "calculation_error": "Calculation Error"
+    },
+    "rental_yield_calculator": {
+      "price_required": "Price Required",
+      "rent_positive": "Rent Positive",
+      "expenses_positive": "Expenses Positive",
+      "title": "Title",
+      "property_price": "Property Price",
+      "property_price_tooltip": "Property Price Tooltip",
+      "monthly_rent": "Monthly Rent",
+      "monthly_rent_tooltip": "Monthly Rent Tooltip",
+      "annual_expenses": "Annual Expenses",
+      "annual_expenses_tooltip": "Annual Expenses Tooltip",
+      "calculate_btn": "Calculate Btn",
+      "reset_btn": "Reset Btn",
+      "info_title": "Info Title",
+      "info_description": "Info Description",
+      "use_cases_title": "Use Cases Title",
+      "use_case_1": "Use Case 1",
+      "use_case_2": "Use Case 2",
+      "use_case_3": "Use Case 3",
+      "gross_yield_label": "Gross Yield Label",
+      "annual_income_label": "Annual Income Label",
+      "details": "Details",
+      "net_yield": "Net Yield",
+      "annual_rent": "Annual Rent",
+      "net_annual_income": "Net Annual Income",
+      "monthly_net_income": "Monthly Net Income",
+      "expense_ratio": "Expense Ratio",
+      "formula_title": "Formula Title",
+      "formula_explanation": "Formula Explanation",
+      "description": "Description"
+    }
   }
 }

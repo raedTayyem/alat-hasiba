@@ -364,7 +364,13 @@
         "question": "متى تفشل المادة؟",
         "answer": "المادة تفشل عندما يتجاوز الإجهاد حد الخضوع (تشوه دائم) أو حد الشد النهائي (كسر). معامل الأمان يُستخدم للحماية من الفشل."
       }
-    ]
+    ],
+    "units": {
+      "N": "N",
+      "mm_squared": "Mm Squared",
+      "mm": "Mm",
+      "MPa": "M Pa"
+    }
   },
   "hydraulic_cylinder": {
     "title": "حاسبة الأسطوانة الهيدروليكية",
@@ -466,5 +472,22 @@
     "pressure_positive": "Pressure موجب",
     "rod_smaller": "Rod Smaller",
     "cylinder_sizing": "Cylinder Sizing"
+  },
+  "common:common": {
+    "errors": {
+      "calculationError": "الحساب خطأ"
+    }
+  },
+  "common:units": {
+    "V": "V",
+    "ohm": "Ohم",
+    "A": "A",
+    "bar": "Bar",
+    "mm": "Mم",
+    "m_per_s": "M Per S",
+    "cm_squared": "Cم Squared",
+    "N": "N",
+    "MPa": "M Pa",
+    "mm_squared": "Mم Squared"
   }
 }

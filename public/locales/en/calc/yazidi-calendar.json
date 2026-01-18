@@ -1,0 +1,24 @@
+{
+  "yazidi-new-year": {
+    "input_title": "Input Title",
+    "enter_year": "Enter Year",
+    "gregorian_year": "Gregorian Year",
+    "tooltip_year": "Tooltip Year",
+    "yazidi_year": "Yazidi Year",
+    "passed": "Passed",
+    "sere_sal_date": "Sere Sal Date",
+    "info_title": "Info Title",
+    "error_year_range": "Error Year Range",
+    "description": "Description",
+    "info_traditions": "Info Traditions",
+    "error_invalid_input": "Error Invalid Input",
+    "footer_note": "Footer Note",
+    "title": "Title",
+    "calculate_btn": "Calculate Btn",
+    "days_until": "Days Until",
+    "upcoming_dates": "Upcoming Dates",
+    "info_date_calc": "Info Date Calc",
+    "info_meaning": "Info Meaning",
+    "empty_state": "Empty State"
+  }
+}

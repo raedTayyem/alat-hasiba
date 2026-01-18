@@ -688,7 +688,8 @@
     "tips_title": "نصائح فقدان الوزن",
     "tips_list": "استهدف 0.5-1 كغ أسبوعياً لفقدان وزن مستدام، اجمع بين النظام الغذائي والتمارين للحصول على أفضل النتائج، اشرب الماء واحصل على نوم كافٍ، استشر أخصائي صحي قبل بدء أي برنامج لفقدان الوزن",
     "empty_state": "أدخل تفاصيل وزنك لحساب الجدول الزمني",
-    "footer_note": "النتائج تقديرية. قد تختلف النتائج الفردية بناءً على التمثيل الغذائي ونمط الحياة."
+    "footer_note": "النتائج تقديرية. قد تختلف النتائج الفردية بناءً على التمثيل الغذائي ونمط الحياة.",
+    "enter_weight": "أدخل الوزن"
   },
   "water-intake-calculator": {
     "title": "حاسبة احتياج الماء - الترطيب اليومي المثالي",
@@ -2224,7 +2225,9 @@
     },
     "errors": {
       "all_fields": "يرجى ملء جميع الحقول المطلوبة",
-      "age_range": "يجب أن يكون العمر بين 1 و 120 سنة"
+      "age_range": "يجب أن يكون العمر بين 1 و 120 سنة",
+      "weight_positive": "الوزن Positive",
+      "height_positive": "الارتفاع Positive"
     },
     "results": {
       "bmr": "معدل الأيض الأساسي (BMR)",
@@ -3567,7 +3570,9 @@
     "min_100m": "دقيقة/100م",
     "mps": "متر/ثانية",
     "empty_state": "أدخل المسافة والوقت لحساب وتيرة السباحة",
-    "footer_note": "يتم حساب الوتيرة بناءً على الوقت الإجمالي والمسافة."
+    "footer_note": "يتم حساب الوتيرة بناءً على الوقت الإجمالي والمسافة.",
+    "tips_title": "نصائح للسباحة",
+    "tips_desc": "حافظ على وتيرة ثابتة، تنفس صحيح، وتقنية سباحة فعالة للحصول على أفضل النتائج."
   },
   "vertical_jump": {
     "title": "حاسبة القفز العمودي",
@@ -3739,7 +3744,9 @@
     "total_reps": "إجمالي التكرارات",
     "reps_week": "تكرار/أسبوع",
     "tips_title": "التدريب بالحجم",
-    "tip_progressive": "زد الحجم تدريجياً بمرور الوقت لضمان التحميل الزائد التدريجي"
+    "tip_progressive": "زد الحجم تدريجياً بمرور الوقت لضمان التحميل الزائد التدريجي",
+    "empty_state": "أضف تمارين لحساب حجم التمرين الإجمالي",
+    "footer_note": "تتبع حجم تدريبك مع مرور الوقت لمراقبة التقدم وتجنب الإفراط في التدريب."
   },
   "rep_range_calculator": {
     "title": "حاسبة نطاق التكرارات",
@@ -3829,7 +3836,8 @@
     "weight": "وزن التمرين",
     "info_title": "عن نطاقات التكرار",
     "info_description": "نطاقات التكرار المختلفة تستهدف تكيفات مختلفة.",
-    "empty_state": "أدخل الـ 1RM للحصول على التوصيات"
+    "empty_state": "أدخل الـ 1RM للحصول على التوصيات",
+    "footer_note": "Footer لاte"
   },
   "wilks_calculator": {
     "title": "حاسبة معامل ويلكس",
@@ -4263,7 +4271,19 @@
     },
     "info_title": "عن عمر التدريب",
     "info_description": "عمر التدريب يؤثر على قدرتك على التعافي واحتياجات برنامجك.",
-    "empty_state": "أدخل تاريخ بدء التدريب"
+    "empty_state": "أدخل تاريخ بدء التدريب",
+    "consistency_levels": {
+      "moderate": "Moderate",
+      "high": "Hiجرامh",
+      "low": "لترow"
+    },
+    "consistency": "السلبياتistency",
+    "tips_title": "نصائح العنوان",
+    "adjusted_age": "Adjusted Aجرامe",
+    "footer_note": "Footer لاte",
+    "tip_plan": "Tip Plan",
+    "actual_time": "التيار المتناوبtual الوقت",
+    "consistency_tooltip": "السلبياتistency Tooltip"
   },
   "water": {
     "title": "حاسبة استهلاك الماء",
@@ -4309,5 +4329,53 @@
       "title": "نصائح للترطيب",
       "desc": "اشرب الماء بانتظام طوال اليوم، وليس دفعة واحدة. زد من تناول الماء خلال الطقس الحار أو التمارين أو المرض. يمكن أن يشير لون البول إلى مستوى الترطيب - استهدف اللون الأصفر الباهت."
     }
+  },
+  "common": {
+    "calculate": "احسب",
+    "reset": "إعادة تعيين",
+    "placeholders": {
+      "enterValue": "أدخل القيمة"
+    },
+    "needs_improvement": "Needs Iمproveمent",
+    "errors": {
+      "invalid": "Invalid",
+      "calculationError": "الحساب خطأ",
+      "positiveNumber": "Positive Number"
+    },
+    "results": "النتيجةs"
+  },
+  "common:common": {
+    "units": {
+      "kg": "Kجرام",
+      "percent": "نسبة مئوية",
+      "W": "W",
+      "g": "G",
+      "s": "S",
+      "m": "M",
+      "months": "الشهرs",
+      "years": "السنةs",
+      "cm": "Cم"
+    },
+    "days": "اليومs"
+  },
+  "0": "0",
+  "water_footprint": {
+    "enter_minutes": "أدخل الدقيقةs"
+  },
+  "protein": {
+    "inputs": {
+      "activity_level": "التيار المتناوبtivity المستوى",
+      "moderate": "Moderate",
+      "light": "لترiجرامht",
+      "sedentary": "Sedentary",
+      "active": "التيار المتناوبtive",
+      "very_active": "Very التيار المتناوبtive"
+    },
+    "tooltips": {
+      "activity": "التيار المتناوبtivity"
+    }
+  },
+  "calculators": {
+    "invalid_input": "Invalid إدخال"
   }
 }

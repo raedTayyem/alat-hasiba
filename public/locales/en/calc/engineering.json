@@ -364,7 +364,13 @@
         "question": "When does a material fail?",
         "answer": "Material fails when stress exceeds yield strength (permanent deformation) or ultimate tensile strength (fracture). Safety factors protect against failure."
       }
-    ]
+    ],
+    "units": {
+      "N": "N",
+      "mm_squared": "Mm Squared",
+      "mm": "Mm",
+      "MPa": "M Pa"
+    }
   },
   "hydraulic_cylinder": {
     "title": "Hydraulic Cylinder Calculator",
@@ -466,5 +472,22 @@
     "pressure_positive": "Pressure Positive",
     "rod_smaller": "Rod Smaller",
     "cylinder_sizing": "Cylinder Sizing"
+  },
+  "common:common": {
+    "errors": {
+      "calculationError": "Calculation Error"
+    }
+  },
+  "common:units": {
+    "V": "V",
+    "ohm": "Ohm",
+    "A": "A",
+    "bar": "Bar",
+    "mm": "Mm",
+    "m_per_s": "M Per S",
+    "cm_squared": "Cm Squared",
+    "N": "N",
+    "MPa": "M Pa",
+    "mm_squared": "Mm Squared"
   }
 }

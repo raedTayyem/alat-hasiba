@@ -63,9 +63,20 @@ export default function MomentumCalculator() {
   };
 
   const getUnitLabel = (unit: string) => {
+    // Hardcode universal unit symbols that don't need translation
+    const universalUnits: { [key: string]: string } = {
+      'kg': 'kg',
+      'g': 'g',
+    };
+
+    if (universalUnits[unit]) return universalUnits[unit];
+
+    // Handle compound units with translation
+    if (unit === 'N⋅s') return t('momentum.units.Ns');
+    if (unit === 'kg⋅m/s') return t('momentum.units.kg_m_s');
+
+    // Use translation for descriptive units
     const unitKeys: { [key: string]: string } = {
-      'kg': 'momentum.units.kg',
-      'g': 'momentum.units.g',
       'lb': 'momentum.units.lb',
       'oz': 'momentum.units.oz',
       'm/s': 'force.units.m_s',
@@ -73,8 +84,6 @@ export default function MomentumCalculator() {
       'mph': 'force.units.mph',
       'ft/s': 'force.units.ft_s',
     };
-    if (unit === 'N⋅s') return t('momentum.units.Ns');
-    if (unit === 'kg⋅m/s') return t('momentum.units.kg_m_s');
     return unitKeys[unit] ? t(unitKeys[unit]) : unit;
   };
 

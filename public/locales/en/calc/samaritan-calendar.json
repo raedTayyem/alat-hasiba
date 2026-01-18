@@ -1,0 +1,47 @@
+{
+  "samaritan-festivals": {
+    "festivals": {
+      "sukkot": "Sukkot",
+      "passover": "Passover",
+      "shemini_atzeret": "Shemini Atzeret",
+      "yom_kippur": "Yom Kippur",
+      "rosh_hashanah": "Rosh Hashanah",
+      "shavuot": "Shavuot",
+      "unleavened_bread": "Unleavened Bread"
+    },
+    "input_title": "Input Title",
+    "error_year_range": "Error Year Range",
+    "desc": {
+      "yom_kippur": "Yom Kippur",
+      "unleavened_bread": "Unleavened Bread",
+      "shemini_atzeret": "Shemini Atzeret",
+      "shavuot": "Shavuot",
+      "passover": "Passover",
+      "rosh_hashanah": "Rosh Hashanah",
+      "sukkot": "Sukkot"
+    },
+    "footer_note": "Footer Note",
+    "enter_year": "Enter Year",
+    "regular_year": "Regular Year",
+    "calculate_btn": "Calculate Btn",
+    "info_title": "Info Title",
+    "title": "Title",
+    "gregorian_year": "Gregorian Year",
+    "empty_state": "Empty State",
+    "festivals_for_year": "Festivals For Year",
+    "leap_year": "Leap Year",
+    "description": "Description",
+    "tooltip_year": "Tooltip Year",
+    "error_invalid_input": "Error Invalid Input",
+    "info_pilgrimage": "Info Pilgrimage",
+    "info_passover_sacrifice": "Info Passover Sacrifice",
+    "info_gerizim": "Info Gerizim"
+  },
+  "samaritan-calendar": {
+    "months": {
+      "1": "1",
+      "7": "7",
+      "3": "3"
+    }
+  }
+}

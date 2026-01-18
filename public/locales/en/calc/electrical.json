@@ -1,4 +1,5 @@
 {
+  "20": "20",
   "lm317": {
     "title": "Calculator",
     "description": "Calculate output voltage or required resistors for LM317 voltage regulator.",
@@ -841,7 +842,12 @@
         "question": "Why is capacitive reactance negative in some formulas?",
         "answer": "The negative sign indicates the phase relationship - capacitive current leads voltage by 90°, while inductive current lags. This matters when calculating total impedance."
       }
-    ]
+    ],
+    "units": {
+      "mH": "M H",
+      "uF": "U F",
+      "Hz": "Hz"
+    }
   },
   "three_phase": {
     "title": "Three-Phase Power Calculator",
@@ -1623,7 +1629,21 @@
         "question": "Can I use a transformer with DC?",
         "answer": "No, transformers only work with AC. DC creates a constant magnetic field that induces no voltage. Use a DC-DC converter or first convert DC to AC."
       }
-    ]
+    ],
+    "ohms_law": {
+      "unit_voltage": "Unit Voltage",
+      "results_title": "Results Title",
+      "unit_current": "Unit Current",
+      "unit_power": "Unit Power"
+    },
+    "units": {
+      "W": "W",
+      "percent": "Percent"
+    },
+    "resistors_parallel": {
+      "empty_state": "Empty State",
+      "footer_note": "Footer Note"
+    }
   },
   "electrical_load": {
     "title": "Electrical Load Calculator",
@@ -1759,7 +1779,10 @@
         "answer": "Use Type C or D breakers for motor/transformer loads. Type B trips at 3-5x, Type C at 5-10x, and Type D at 10-20x rated current."
       }
     ],
-    "current": "Current"
+    "current": "Current",
+    "placeholders": {
+      "current": "Current"
+    }
   },
   "capacitor": {
     "title": "Capacitor Calculator",
@@ -2118,6 +2141,210 @@
         "question": "How do I convert HP to kW?",
         "answer": "Multiply HP by 0.746 to get kW. For example, 10 HP = 7.46 kW mechanical output. To find electrical input, divide by efficiency: 7.46 / 0.90 = 8.29 kW input."
       }
-    ]
+    ],
+    "output_power_hp": "Output Power HP",
+    "unit_hp": "Unit HP",
+    "output_power_kw": "Output Power kW",
+    "pf_tooltip": "Pf Tooltip",
+    "tips_title": "Tips Title",
+    "tips_list": "Tips List"
+  },
+  "common": {
+    "error": {
+      "invalid_input": "Invalid Input"
+    },
+    "errors": {
+      "invalid": "Invalid",
+      "positiveNumber": "Positive Number",
+      "calculationError": "Calculation Error"
+    },
+    "placeholders": {
+      "enterValue": "Enter Value"
+    },
+    "currency": "Currency",
+    "add": "Add",
+    "results": "Results"
+  },
+  "common:units": {
+    "MHz": "M Hz",
+    "mAh": "M Ah",
+    "mA": "M A",
+    "percent": "Percent",
+    "kW": "K W",
+    "V": "V",
+    "LED": "L E D",
+    "A": "A",
+    "celsius": "Celsius",
+    "mm": "Mm",
+    "uF": "U F",
+    "mH": "M H",
+    "Hz": "Hz",
+    "W": "W"
+  },
+  "common:common": {
+    "units": {
+      "mJ": "M J",
+      "Hz": "Hz",
+      "ohm": "Ohm",
+      "mA": "M A",
+      "J": "J",
+      "C": "C",
+      "mC": "M C",
+      "uF": "U F",
+      "V": "V",
+      "A": "A",
+      "ms": "Ms",
+      "s": "S",
+      "m": "M",
+      "W": "W",
+      "VA": "V A",
+      "VAR": "V A R",
+      "kW": "K W",
+      "mm": "Mm"
+    },
+    "errors": {
+      "invalid": "Invalid"
+    }
+  },
+  "calculators": {
+    "power_13": "Power 13",
+    "enter_243": "Enter 243",
+    "power_15": "Power 15"
+  },
+  "common:errors": {
+    "invalid": "Invalid"
+  },
+  "power_electricity": {
+    "power": {
+      "errors": {
+        "enter_force_velocity": "Enter Force Velocity",
+        "enter_velocity_power": "Enter Velocity Power",
+        "velocity_zero": "Velocity Zero",
+        "enter_force_power": "Enter Force Power",
+        "force_zero": "Force Zero",
+        "enter_work_time": "Enter Work Time",
+        "time_zero": "Time Zero",
+        "enter_time_power": "Enter Time Power",
+        "enter_work_power": "Enter Work Power",
+        "power_zero": "Power Zero",
+        "enter_two_electrical": "Enter Two Electrical",
+        "enter_current_resistance_power": "Enter Current Resistance Power",
+        "enter_voltage_resistance_power": "Enter Voltage Resistance Power",
+        "enter_voltage_current_power": "Enter Voltage Current Power",
+        "enter_input_output": "Enter Input Output",
+        "input_power_zero": "Input Power Zero"
+      },
+      "results": {
+        "efficiency": "Efficiency",
+        "power_loss": "Power Loss",
+        "mechanical": "Mechanical",
+        "force": "Force",
+        "velocity": "Velocity",
+        "power": "Power",
+        "work": "Work",
+        "time": "Time",
+        "electrical": "Electrical",
+        "voltage": "Voltage",
+        "current": "Current",
+        "resistance": "Resistance",
+        "efficiency_loss": "Efficiency Loss"
+      },
+      "modes": {
+        "mechanical": "Mechanical",
+        "workTime": "Work Time",
+        "electrical": "Electrical",
+        "efficiency": "Efficiency"
+      },
+      "solve_for": {
+        "power": "Power",
+        "force": "Force",
+        "velocity": "Velocity",
+        "work": "Work",
+        "time": "Time",
+        "voltage": "Voltage",
+        "current": "Current",
+        "resistance": "Resistance"
+      },
+      "units": {
+        "W": "W",
+        "kW": "K W",
+        "MW": "M W",
+        "hp": "Hp",
+        "BTU_h": "B T U H"
+      },
+      "title": "Title",
+      "inputs": {
+        "force": "Force",
+        "velocity": "Velocity",
+        "work": "Work",
+        "time": "Time",
+        "voltage": "Voltage",
+        "current": "Current",
+        "resistance": "Resistance",
+        "input_power": "Input Power",
+        "output_power": "Output Power",
+        "power_unit": "Power Unit"
+      },
+      "tooltips": {
+        "force": "Force",
+        "velocity": "Velocity",
+        "input_power": "Input Power",
+        "work": "Work",
+        "time": "Time",
+        "voltage": "Voltage",
+        "current": "Current",
+        "resistance": "Resistance",
+        "output_power": "Output Power"
+      },
+      "formulas": {
+        "mechanical": "Mechanical",
+        "mechanical_desc": "Mechanical Desc",
+        "workTime": "Work Time",
+        "workTime_desc": "Work Time Desc",
+        "electrical": "Electrical",
+        "efficiency": "Efficiency",
+        "efficiency_desc": "Efficiency Desc"
+      }
+    },
+    "momentum": {
+      "placeholders": {
+        "force": "Force",
+        "velocity": "Velocity",
+        "time": "Time"
+      }
+    }
+  },
+  "resistors_series_parallel": {
+    "resistors_parallel": {
+      "series": "Series",
+      "parallel": "Parallel",
+      "connection_type": "Connection Type",
+      "connection_type_tooltip": "Connection Type Tooltip",
+      "resistor_values": "Resistor Values",
+      "total_resistance": "Total Resistance",
+      "total_current": "Total Current",
+      "total_power": "Total Power",
+      "individual_results": "Individual Results",
+      "how_it_works": "How It Works",
+      "series_formula_1": "Series Formula 1",
+      "series_formula_2": "Series Formula 2",
+      "series_formula_3": "Series Formula 3",
+      "parallel_formula_1": "Parallel Formula 1",
+      "parallel_formula_2": "Parallel Formula 2",
+      "parallel_formula_3": "Parallel Formula 3",
+      "empty_state": "Empty State",
+      "title": "Title",
+      "description": "Description",
+      "footer_note": "Footer Note"
+    },
+    "ohms_law": {
+      "voltage": "Voltage",
+      "unit_voltage": "Unit Voltage",
+      "enter_voltage": "Enter Voltage",
+      "unit_resistance": "Unit Resistance",
+      "results_title": "Results Title",
+      "unit_current": "Unit Current",
+      "unit_power": "Unit Power"
+    }
   }
 }

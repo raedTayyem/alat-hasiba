@@ -150,5 +150,8 @@
         ]
       }
     }
+  },
+  "calculators": {
+    "enter_value_4": "Enter value"
   }
 }

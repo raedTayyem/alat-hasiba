@@ -1,0 +1,302 @@
+[
+  {
+    "slug": "ph-calculator",
+    "category": "science",
+    "namespace": "calc/science"
+  },
+  {
+    "slug": "pipe-calculator",
+    "category": "construction",
+    "namespace": "calc/construction"
+  },
+  {
+    "slug": "pizza-dough-calculator",
+    "category": "cooking",
+    "namespace": "calc/cooking"
+  },
+  {
+    "slug": "power-electricity-calculator",
+    "category": "electrical",
+    "namespace": "calc/electrical"
+  },
+  {
+    "slug": "pregnancy-calculator",
+    "category": "health",
+    "namespace": "calc/health"
+  },
+  {
+    "slug": "pressure-converter",
+    "category": "converters",
+    "namespace": "calc/converters"
+  },
+  {
+    "slug": "price-comparison-calculator",
+    "category": "business",
+    "namespace": "calc/business"
+  },
+  {
+    "slug": "price-elasticity-calculator",
+    "category": "business",
+    "namespace": "calc/business"
+  },
+  {
+    "slug": "productivity-calculator",
+    "category": "business",
+    "namespace": "calc/business"
+  },
+  {
+    "slug": "project-budget-calculator",
+    "category": "business",
+    "namespace": "calc/business"
+  },
+  {
+    "slug": "property-tax-calculator",
+    "category": "real-estate",
+    "namespace": "calc/real-estate"
+  },
+  {
+    "slug": "protein-calculator",
+    "category": "health",
+    "namespace": "calc/health"
+  },
+  {
+    "slug": "race-time-predictor",
+    "category": "health",
+    "namespace": "calc/health"
+  },
+  {
+    "slug": "rainwater-harvesting-calculator",
+    "category": "environmental",
+    "namespace": "calc/environmental"
+  },
+  {
+    "slug": "reactance-calculator",
+    "category": "electrical",
+    "namespace": "calc/electrical"
+  },
+  {
+    "slug": "recovery-time-calculator",
+    "category": "health",
+    "namespace": "calc/health"
+  },
+  {
+    "slug": "recycling-impact-calculator",
+    "category": "environmental",
+    "namespace": "calc/environmental"
+  },
+  {
+    "slug": "refinance-calculator",
+    "category": "finance",
+    "namespace": "calc/finance"
+  },
+  {
+    "slug": "registration-fee-calculator",
+    "category": "automotive",
+    "namespace": "calc/automotive"
+  },
+  {
+    "slug": "rent-vs-buy-calculator",
+    "category": "real-estate",
+    "namespace": "calc/real-estate"
+  },
+  {
+    "slug": "rental-yield-calculator",
+    "category": "real-estate",
+    "namespace": "calc/real-estate"
+  },
+  {
+    "slug": "rep-range-calculator",
+    "category": "health",
+    "namespace": "calc/health"
+  },
+  {
+    "slug": "resistors-series-parallel-calculator",
+    "category": "electrical",
+    "namespace": "calc/electrical"
+  },
+  {
+    "slug": "retirement-savings-calculator",
+    "category": "finance",
+    "namespace": "calc/finance"
+  },
+  {
+    "slug": "rice-cooking-calculator",
+    "category": "cooking",
+    "namespace": "calc/cooking"
+  },
+  {
+    "slug": "rice-water-ratio-calculator",
+    "category": "cooking",
+    "namespace": "calc/cooking"
+  },
+  {
+    "slug": "roas-calculator",
+    "category": "business",
+    "namespace": "calc/business"
+  },
+  {
+    "slug": "roi-calculator",
+    "category": "business",
+    "namespace": "calc/business"
+  },
+  {
+    "slug": "roofing-calculator",
+    "category": "construction",
+    "namespace": "calc/construction"
+  },
+  {
+    "slug": "salary-calculator",
+    "category": "business",
+    "namespace": "calc/business"
+  },
+  {
+    "slug": "sales-tax-calculator",
+    "category": "business",
+    "namespace": "calc/business"
+  },
+  {
+    "slug": "sample-size-calculator",
+    "category": "math",
+    "namespace": "calc/math"
+  },
+  {
+    "slug": "sand-calculator",
+    "category": "construction",
+    "namespace": "calc/construction"
+  },
+  {
+    "slug": "scientific-calculator",
+    "category": "math",
+    "namespace": "calc/math"
+  },
+  {
+    "slug": "shingle-calculator",
+    "category": "construction",
+    "namespace": "calc/construction"
+  },
+  {
+    "slug": "shipping-cost-calculator",
+    "category": "business",
+    "namespace": "calc/business"
+  },
+  {
+    "slug": "shopify-profit-calculator",
+    "category": "business",
+    "namespace": "calc/business"
+  },
+  {
+    "slug": "siding-calculator",
+    "category": "construction",
+    "namespace": "calc/construction"
+  },
+  {
+    "slug": "social-media-engagement-calculator",
+    "category": "business",
+    "namespace": "calc/business"
+  },
+  {
+    "slug": "solar-panel-roi-calculator",
+    "category": "environmental",
+    "namespace": "calc/environmental"
+  },
+  {
+    "slug": "speed-converter",
+    "category": "converters",
+    "namespace": "calc/converters"
+  },
+  {
+    "slug": "star-distance-calculator",
+    "category": "astronomy",
+    "namespace": "calc/astronomy"
+  },
+  {
+    "slug": "startup-cost-calculator",
+    "category": "business",
+    "namespace": "calc/business"
+  },
+  {
+    "slug": "stress-strain-calculator",
+    "category": "engineering",
+    "namespace": "calc/engineering"
+  },
+  {
+    "slug": "swimming-pace-calculator",
+    "category": "health",
+    "namespace": "calc/health"
+  },
+  {
+    "slug": "tdee-calculator",
+    "category": "health",
+    "namespace": "calc/health"
+  },
+  {
+    "slug": "telescope-magnification-calculator",
+    "category": "astronomy",
+    "namespace": "calc/astronomy"
+  },
+  {
+    "slug": "temperature-converter",
+    "category": "converters",
+    "namespace": "calc/converters"
+  },
+  {
+    "slug": "three-phase-calculator",
+    "category": "electrical",
+    "namespace": "calc/electrical"
+  },
+  {
+    "slug": "tile-calculator",
+    "category": "construction",
+    "namespace": "calc/construction"
+  },
+  {
+    "slug": "time-tracking-calculator",
+    "category": "business",
+    "namespace": "calc/business"
+  },
+  {
+    "slug": "tire-pressure-calculator",
+    "category": "automotive",
+    "namespace": "calc/automotive"
+  },
+  {
+    "slug": "tire-size-calculator",
+    "category": "automotive",
+    "namespace": "calc/automotive"
+  },
+  {
+    "slug": "top-speed-calculator",
+    "category": "automotive",
+    "namespace": "calc/automotive"
+  },
+  {
+    "slug": "tractor-fuel-calculator",
+    "category": "agriculture",
+    "namespace": "calc/agriculture"
+  },
+  {
+    "slug": "transformer-calculator",
+    "category": "electrical",
+    "namespace": "calc/electrical"
+  },
+  {
+    "slug": "travel-cost-calculator",
+    "category": "travel",
+    "namespace": "calc/travel"
+  },
+  {
+    "slug": "trip-cost-calculator",
+    "category": "travel",
+    "namespace": "calc/travel"
+  },
+  {
+    "slug": "turkey-cooking-calculator",
+    "category": "cooking",
+    "namespace": "calc/cooking"
+  },
+  {
+    "slug": "unit-cost-calculator",
+    "category": "business",
+    "namespace": "calc/business"
+  }
+]

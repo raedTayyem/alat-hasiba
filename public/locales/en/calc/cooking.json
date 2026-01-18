@@ -1,4 +1,5 @@
 {
+  "1": "1",
   "recipe-converter": {
     "title": "Recipe Converter Calculator - Free Online Scaling Tool",
     "description": "Convert recipe quantities based on servings. Scale ingredients up or down easily for any number of people with this free cooking tool.",
@@ -1611,7 +1612,8 @@
     "tooltips": {
       "pizzas": "How many pizzas do you want to make?",
       "hydration": "Water content percentage (higher = softer dough)"
-    }
+    },
+    "hydration_placeholder": "Hydration Placeholder"
   },
   "rice-cooking-calculator": {
     "title": "Rice Cooking Calculator - Water Ratio Timer Tool",
@@ -1696,7 +1698,8 @@
     "tooltips": {
       "servings": "Number of people you're serving",
       "rice_type": "Choose the type of rice you're cooking"
-    }
+    },
+    "rice_type_placeholder": "Rice Type Placeholder"
   },
   "coffee-ratio-calculator": {
     "title": "Coffee Ratio Calculator - Free Brewing Guide",
@@ -1779,7 +1782,8 @@
     "tooltips": {
       "cups": "Number of cups of coffee you want to make",
       "strength": "Choose your preferred coffee strength"
-    }
+    },
+    "coffeeTablespoons": "Coffee (Tablespoons)"
   },
   "rice-calculator": {
     "title": "Rice to Water Ratio Calculator",
@@ -2158,6 +2162,175 @@
         "question": "Why is my rice mushy or undercooked?",
         "answer": "Too much water makes rice mushy; too little leaves it undercooked. Use the correct ratio for your rice type and don't lift the lid during cooking."
       }
-    ]
-  }
+    ],
+    "error_invalid_input": "Error Invalid Input",
+    "error_calculation": "Error Calculation",
+    "error_positive_amount": "Error Positive Amount"
+  },
+  "common:common": {
+    "units": {
+      "g": "G",
+      "oz": "Oz",
+      "in": "In",
+      "C": "C",
+      "min": "Min",
+      "F": "F",
+      "h": "H",
+      "lb": "Lb"
+    }
+  },
+  "flour_all_purpose": "Flour All Purpose",
+  "cups": "Cups",
+  "calculators": {
+    "cooking": {
+      "coffee-ratio-calculator": {
+        "title": "Title",
+        "description": "Description"
+      }
+    }
+  },
+  "common": {
+    "tablespoon": "Tablespoon"
+  },
+  "oz": "Oz",
+  "common:units": {
+    "percent": "Percent"
+  },
+  "pizza_dough": {
+    "pizza-dough-calculator": {
+      "error_invalid_input": "Error Invalid Input",
+      "error_positive_values": "Error Positive Values",
+      "error_hydration_range": "Error Hydration Range",
+      "error_too_many_pizzas": "Error Too Many Pizzas",
+      "error_calculation": "Error Calculation",
+      "title": "Title",
+      "pizzas_label": "Pizzas Label",
+      "pizzas_tooltip": "Pizzas Tooltip",
+      "pizzas_placeholder": "Pizzas Placeholder",
+      "hydration_label": "Hydration Label",
+      "hydration_tooltip": "Hydration Tooltip",
+      "hydration_placeholder": "Hydration Placeholder",
+      "info_title": "Info Title",
+      "info_description": "Info Description",
+      "use_cases_title": "Use Cases Title",
+      "use_case_1": "Use Case 1",
+      "use_case_2": "Use Case 2",
+      "use_case_3": "Use Case 3",
+      "result_label": "Result Label",
+      "pizza_balls_unit": "Pizza Balls Unit",
+      "ingredients_title": "Ingredients Title",
+      "flour_label": "Flour Label",
+      "water_label": "Water Label",
+      "yeast_label": "Yeast Label",
+      "salt_label": "Salt Label",
+      "oil_label": "Oil Label",
+      "total_weight_label": "Total Weight Label",
+      "formula_title": "Formula Title",
+      "formula_explanation": "Formula Explanation",
+      "description": "Description"
+    },
+    "units": {
+      "percent": "Percent"
+    }
+  },
+  "rice_cooking": {
+    "rice-cooking-calculator": {
+      "error_invalid_input": "Error Invalid Input",
+      "error_positive_values": "Error Positive Values",
+      "error_too_many_servings": "Error Too Many Servings",
+      "error_calculation": "Error Calculation",
+      "type_white": "Type White",
+      "type_brown": "Type Brown",
+      "type_basmati": "Type Basmati",
+      "type_jasmine": "Type Jasmine",
+      "title": "Title",
+      "servings_label": "Servings Label",
+      "servings_tooltip": "Servings Tooltip",
+      "servings_placeholder": "Servings Placeholder",
+      "rice_type_label": "Rice Type Label",
+      "rice_type_tooltip": "Rice Type Tooltip",
+      "rice_type_placeholder": "Rice Type Placeholder",
+      "info_title": "Info Title",
+      "info_description": "Info Description",
+      "use_cases_title": "Use Cases Title",
+      "use_case_1": "Use Case 1",
+      "use_case_2": "Use Case 2",
+      "use_case_3": "Use Case 3",
+      "result_label": "Result Label",
+      "result_unit_cups_dry": "Result Unit Cups Dry",
+      "additional_info_title": "Additional Info Title",
+      "water_needed_label": "Water Needed Label",
+      "cups_unit": "Cups Unit",
+      "cooked_rice_label": "Cooked Rice Label",
+      "cooking_time_label": "Cooking Time Label",
+      "rice_type_result_label": "Rice Type Result Label",
+      "formula_title": "Formula Title",
+      "formula_explanation": "Formula Explanation",
+      "description": "Description"
+    }
+  },
+  "rice_water_ratio": {
+    "rice-water-ratio-calculator": {
+      "error_invalid_input": "Error Invalid Input",
+      "error_positive_amount": "Error Positive Amount",
+      "error_calculation": "Error Calculation",
+      "unit_cups": "Unit Cups",
+      "unit_grams": "Unit Grams",
+      "title": "Title",
+      "rice_type_label": "Rice Type Label",
+      "rice_type_tooltip": "Rice Type Tooltip",
+      "rice_type_placeholder": "Rice Type Placeholder",
+      "unit_label": "Unit Label",
+      "unit_tooltip": "Unit Tooltip",
+      "amount_label": "Amount Label",
+      "amount_tooltip": "Amount Tooltip",
+      "amount_placeholder": "Amount Placeholder",
+      "info_title": "Info Title",
+      "info_description": "Info Description",
+      "use_cases_title": "Use Cases Title",
+      "use_case_1": "Use Case 1",
+      "use_case_2": "Use Case 2",
+      "use_case_3": "Use Case 3",
+      "result_label": "Result Label",
+      "additional_info_title": "Additional Info Title",
+      "water_needed_label": "Water Needed Label",
+      "cooking_time_label": "Cooking Time Label",
+      "tips_title": "Tips Title",
+      "description": "Description"
+    }
+  },
+  "turkey_cooking": {
+    "turkey-cooking-calculator": {
+      "error_invalid_input": "Error Invalid Input",
+      "error_positive_values": "Error Positive Values",
+      "error_too_large": "Error Too Large",
+      "error_too_small": "Error Too Small",
+      "error_calculation": "Error Calculation",
+      "title": "Title",
+      "weight_label": "Weight Label",
+      "weight_tooltip": "Weight Tooltip",
+      "weight_placeholder": "Weight Placeholder",
+      "stuffed_label": "Stuffed Label",
+      "stuffed_tooltip": "Stuffed Tooltip",
+      "unstuffed": "Unstuffed",
+      "stuffed": "Stuffed",
+      "info_title": "Info Title",
+      "info_description": "Info Description",
+      "use_cases_title": "Use Cases Title",
+      "use_case_1": "Use Case 1",
+      "use_case_2": "Use Case 2",
+      "use_case_3": "Use Case 3",
+      "result_label": "Result Label",
+      "minutes_unit": "Minutes Unit",
+      "additional_info_title": "Additional Info Title",
+      "thawing_time_label": "Thawing Time Label",
+      "days_unit": "Days Unit",
+      "oven_temp_label": "Oven Temp Label",
+      "turkey_type_label": "Turkey Type Label",
+      "formula_title": "Formula Title",
+      "formula_explanation": "Formula Explanation",
+      "description": "Description"
+    }
+  },
+  "fahrenheit": "Fahrenheit"
 }

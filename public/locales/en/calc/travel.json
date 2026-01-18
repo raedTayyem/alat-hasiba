@@ -1,0 +1,88 @@
+{
+  "travel_cost": {
+    "errors": {
+      "invalid_input": "Invalid Input",
+      "positive_values_required": "Positive Values Required",
+      "calculation_error": "Calculation Error"
+    },
+    "inputs": {
+      "transport": "Transport",
+      "transport_tooltip": "Transport Tooltip",
+      "transport_placeholder": "Transport Placeholder",
+      "lodging": "Lodging",
+      "lodging_tooltip": "Lodging Tooltip",
+      "lodging_placeholder": "Lodging Placeholder",
+      "meals": "Meals",
+      "meals_tooltip": "Meals Tooltip",
+      "meals_placeholder": "Meals Placeholder",
+      "incidentals": "Incidentals",
+      "incidentals_tooltip": "Incidentals Tooltip",
+      "incidentals_placeholder": "Incidentals Placeholder",
+      "days": "Days",
+      "days_tooltip": "Days Tooltip",
+      "days_placeholder": "Days Placeholder"
+    },
+    "info": {
+      "title": "Title",
+      "use_cases": "Use Cases",
+      "use_case_1": "Use Case 1",
+      "use_case_2": "Use Case 2",
+      "use_case_3": "Use Case 3"
+    },
+    "description": "Description",
+    "results": {
+      "total_cost": "Total Cost",
+      "daily_rate": "Daily Rate",
+      "breakdown": "Breakdown",
+      "transport": "Transport",
+      "lodging": "Lodging",
+      "meals": "Meals",
+      "incidentals": "Incidentals",
+      "cost_per_day": "Cost Per Day",
+      "average": "Average",
+      "formula_title": "Formula Title",
+      "formula": "Formula"
+    },
+    "title": "Title"
+  },
+  "trip_cost": {
+    "error_missing_inputs": "Error Missing Inputs",
+    "error_positive_values": "Error Positive Values",
+    "error_calculation": "Error Calculation",
+    "imperial": "Imperial",
+    "metric": "Metric",
+    "title": "Title",
+    "unit_system": "Unit System",
+    "unit_system_tooltip": "Unit System Tooltip",
+    "distance_miles": "Distance Miles",
+    "distance_km": "Distance Km",
+    "distance_tooltip": "Distance Tooltip",
+    "placeholders": {
+      "distance_imperial": "Distance Imperial",
+      "distance_metric": "Distance Metric",
+      "economy_imperial": "Economy Imperial",
+      "economy_metric": "Economy Metric",
+      "price": "Price"
+    },
+    "fuel_economy_mpg": "Fuel Economy Mpg",
+    "fuel_economy_kml": "Fuel Economy Kml",
+    "fuel_economy_tooltip": "Fuel Economy Tooltip",
+    "fuel_price_gallon": "Fuel Price Gallon",
+    "fuel_price_liter": "Fuel Price Liter",
+    "fuel_price_tooltip": "Fuel Price Tooltip",
+    "about_title": "About Title",
+    "about_description": "About Description",
+    "result_title": "Result Title",
+    "total_trip_cost": "Total Trip Cost",
+    "fuel_needed": "Fuel Needed",
+    "gallons": "Gallons",
+    "liters": "Liters",
+    "cost_per_mile": "Cost Per Mile",
+    "mile": "Mile",
+    "cost_per_km": "Cost Per Km",
+    "km": "Km",
+    "formula_title": "Formula Title",
+    "formula_explanation": "Formula Explanation",
+    "description": "Description"
+  }
+}

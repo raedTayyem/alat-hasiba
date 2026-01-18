@@ -1,4 +1,5 @@
 {
+  "20": "20",
   "lm317": {
     "title": "حاسبة",
     "description": "حساب جهد الخرج أو المقاومات المطلوبة لمنظم الجهد LM317.",
@@ -841,7 +842,12 @@
         "question": "كيف أحسب المفاعلة الكلية لمكونات متعددة؟",
         "answer": "للتوالي: X_total = XL - XC. للتوازي: استخدم معادلة التوازي 1/X = 1/X1 + 1/X2."
       }
-    ]
+    ],
+    "units": {
+      "mH": "M H",
+      "uF": "U F",
+      "Hz": "Hz"
+    }
   },
   "three_phase": {
     "title": "حاسبة الطور الثلاثي",
@@ -1623,7 +1629,21 @@
         "question": "كيف أختار قدرة المحول المناسبة؟",
         "answer": "احسب مجموع VA للأحمال وأضف 20-30% هامش أمان. للأحمال الحثية (محركات) ضاعف القدرة بسبب تيار الإقلاع."
       }
-    ]
+    ],
+    "ohms_law": {
+      "unit_voltage": "الوحدة الجهد",
+      "results_title": "النتائج العنوان",
+      "unit_current": "الوحدة التيار",
+      "unit_power": "الوحدة القدرة"
+    },
+    "units": {
+      "W": "W",
+      "percent": "Percent"
+    },
+    "resistors_parallel": {
+      "empty_state": "Empty State",
+      "footer_note": "Footer Note"
+    }
   },
   "electrical_load": {
     "title": "حاسبة الحمل الكهربائي",
@@ -1759,7 +1779,10 @@
         "answer": "تيار إقلاع المكيف يسبب هبوط جهد مؤقت في الشبكة. إذا كان ملحوظاً، قد تحتاج كابل أسمك أو دائرة منفصلة للمكيف."
       }
     ],
-    "current": "Current"
+    "current": "Current",
+    "placeholders": {
+      "current": "التيار"
+    }
   },
   "capacitor": {
     "title": "حاسبة المكثف",
@@ -1904,7 +1927,13 @@
         "question": "كيف أختار كابل المحرك؟",
         "answer": "استخدم التيار المحسوب × 1.25 كحد أدنى. للمسافات الطويلة تحقق من هبوط الجهد. استخدم كابل نحاس للأفضلية."
       }
-    ]
+    ],
+    "output_power_hp": "الإخراج القدرة حصان",
+    "unit_hp": "Unit حصان",
+    "output_power_kw": "الإخراج القدرة كيلو واط",
+    "pf_tooltip": "Pf Tooltip",
+    "tips_title": "نصائح العنوان",
+    "tips_list": "نصائح القائمة"
   },
   "decibel-calculator": {
     "title": "حاسبة الديسيبل - محول ديسيبل",
@@ -2119,5 +2148,203 @@
         "answer": "عدم التطابق يسبب انعكاس الإشارة وفقدان الطاقة. في أنظمة RF، نريد Z مصدر = Z* حمل (المرافق المركب) لنقل أقصى طاقة."
       }
     ]
+  },
+  "common": {
+    "error": {
+      "invalid_input": "Invalid إدخال"
+    },
+    "errors": {
+      "invalid": "Invalid",
+      "positiveNumber": "Positive الرقم",
+      "calculationError": "الحساب خطأ"
+    },
+    "placeholders": {
+      "enterValue": "أدخل القيمة"
+    },
+    "currency": "Currency",
+    "add": "إضافة",
+    "results": "النتيجةs"
+  },
+  "common:units": {
+    "MHz": "M Hz",
+    "mAh": "M Ah",
+    "mA": "M A",
+    "percent": "نسبة مئوية",
+    "kW": "K W",
+    "V": "V",
+    "LED": "لتر E D",
+    "A": "A",
+    "celsius": "Celsius",
+    "mm": "Mم",
+    "uF": "U F",
+    "mH": "M H",
+    "Hz": "Hz",
+    "W": "W"
+  },
+  "common:common": {
+    "units": {
+      "mJ": "M J",
+      "Hz": "Hz",
+      "ohm": "Ohم",
+      "mA": "M A",
+      "J": "J",
+      "C": "C",
+      "mC": "M C",
+      "uF": "U F",
+      "V": "V",
+      "A": "A",
+      "ms": "Ms",
+      "s": "S",
+      "m": "M",
+      "W": "W",
+      "VA": "V A",
+      "VAR": "V A R",
+      "kW": "K W",
+      "mm": "Mم"
+    },
+    "errors": {
+      "invalid": "Invalid"
+    }
+  },
+  "calculators": {
+    "power_13": "القدرة 13",
+    "enter_243": "أدخل 243",
+    "power_15": "القدرة 15"
+  },
+  "common:errors": {
+    "invalid": "Invalid"
+  },
+  "power_electricity": {
+    "power": {
+      "errors": {
+        "enter_force_velocity": "أدخل force velocity",
+        "enter_velocity_power": "أدخل velocity القدرة",
+        "velocity_zero": "Velocity Zero",
+        "enter_force_power": "أدخل force القدرة",
+        "force_zero": "Force Zero",
+        "enter_work_time": "أدخل work الوقت",
+        "time_zero": "الوقت zero",
+        "enter_time_power": "أدخل الوقت القدرة",
+        "enter_work_power": "أدخل work القدرة",
+        "power_zero": "القدرة zero",
+        "enter_two_electrical": "أدخل two electrical",
+        "enter_current_resistance_power": "أدخل التيار المقاومة القدرة",
+        "enter_voltage_resistance_power": "أدخل الجهد المقاومة القدرة",
+        "enter_voltage_current_power": "أدخل الجهد التيار القدرة",
+        "enter_input_output": "أدخل الإدخال الإخراج",
+        "input_power_zero": "الإدخال القدرة zero"
+      },
+      "results": {
+        "efficiency": "Efficiency",
+        "power_loss": "القدرة الخسارة",
+        "mechanical": "Mechanical",
+        "force": "Force",
+        "velocity": "Velocity",
+        "power": "القدرة",
+        "work": "Work",
+        "time": "الوقت",
+        "electrical": "Electrical",
+        "voltage": "الجهد",
+        "current": "التيار",
+        "resistance": "المقاومة",
+        "efficiency_loss": "efficiency الخسارة"
+      },
+      "modes": {
+        "mechanical": "Mechanical",
+        "workTime": "work الوقت",
+        "electrical": "Electrical",
+        "efficiency": "Efficiency"
+      },
+      "solve_for": {
+        "power": "القدرة",
+        "force": "Force",
+        "velocity": "Velocity",
+        "work": "Work",
+        "time": "الوقت",
+        "voltage": "الجهد",
+        "current": "التيار",
+        "resistance": "المقاومة"
+      },
+      "units": {
+        "W": "W",
+        "kW": "K W",
+        "MW": "M W",
+        "hp": "Hp",
+        "BTU_h": "B T U H"
+      },
+      "title": "العنوان",
+      "inputs": {
+        "force": "Force",
+        "velocity": "Velocity",
+        "work": "Work",
+        "time": "الوقت",
+        "voltage": "الجهد",
+        "current": "التيار",
+        "resistance": "المقاومة",
+        "input_power": "الإدخال القدرة",
+        "output_power": "الإخراج القدرة",
+        "power_unit": "القدرة الوحدة"
+      },
+      "tooltips": {
+        "force": "Force",
+        "velocity": "Velocity",
+        "input_power": "الإدخال القدرة",
+        "work": "Work",
+        "time": "الوقت",
+        "voltage": "الجهد",
+        "current": "التيار",
+        "resistance": "المقاومة",
+        "output_power": "الإخراج القدرة"
+      },
+      "formulas": {
+        "mechanical": "Mechanical",
+        "mechanical_desc": "Mechanical Desc",
+        "workTime": "work الوقت",
+        "workTime_desc": "work الوقت desc",
+        "electrical": "Electrical",
+        "efficiency": "Efficiency",
+        "efficiency_desc": "Efficiency Desc"
+      }
+    },
+    "momentum": {
+      "placeholders": {
+        "force": "Force",
+        "velocity": "Velocity",
+        "time": "الوقت"
+      }
+    }
+  },
+  "resistors_series_parallel": {
+    "resistors_parallel": {
+      "series": "Series",
+      "parallel": "Parallel",
+      "connection_type": "connection النوع",
+      "connection_type_tooltip": "connection النوع تلميح",
+      "resistor_values": "Resistor Values",
+      "total_resistance": "الإجمالي المقاومة",
+      "total_current": "الإجمالي التيار",
+      "total_power": "الإجمالي القدرة",
+      "individual_results": "individual النتائج",
+      "how_it_works": "How It Works",
+      "series_formula_1": "series الصيغة 1",
+      "series_formula_2": "series الصيغة 2",
+      "series_formula_3": "series الصيغة 3",
+      "parallel_formula_1": "parallel الصيغة 1",
+      "parallel_formula_2": "parallel الصيغة 2",
+      "parallel_formula_3": "parallel الصيغة 3",
+      "empty_state": "Empty State",
+      "title": "العنوان",
+      "description": "الوصف",
+      "footer_note": "Footer Note"
+    },
+    "ohms_law": {
+      "voltage": "الجهد",
+      "unit_voltage": "الوحدة الجهد",
+      "enter_voltage": "أدخل الجهد",
+      "unit_resistance": "الوحدة المقاومة",
+      "results_title": "النتائج العنوان",
+      "unit_current": "الوحدة التيار",
+      "unit_power": "الوحدة القدرة"
+    }
   }
 }

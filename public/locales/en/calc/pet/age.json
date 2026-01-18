@@ -86,7 +86,8 @@
         "question": "What changes should I expect in senior cats?",
         "answer": "Senior cats may experience reduced activity, changes in sleep patterns, weight fluctuations, and may need more frequent vet visits and dietary adjustments."
       }
-    ]
+    ],
+    "error_calculation": "Error in age calculation"
   },
   "cat-age-calculator": {
     "title": "Cat Age Calculator",

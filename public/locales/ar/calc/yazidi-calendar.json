@@ -1,0 +1,24 @@
+{
+  "yazidi-new-year": {
+    "input_title": "إدخال العنوان",
+    "enter_year": "أدخل السنة",
+    "gregorian_year": "Greجرامorian السنة",
+    "tooltip_year": "Tooltip السنة",
+    "yazidi_year": "Yazidi السنة",
+    "passed": "Passed",
+    "sere_sal_date": "Sere Sal التاريخ",
+    "info_title": "معلومات العنوان",
+    "error_year_range": "خطأ السنة النطاق",
+    "description": "الوصف",
+    "info_traditions": "معلومات Traditions",
+    "error_invalid_input": "خطأ Invalid إدخال",
+    "footer_note": "Footer لاte",
+    "title": "العنوان",
+    "calculate_btn": "احسب Btn",
+    "days_until": "اليومs Until",
+    "upcoming_dates": "Upcoمبوصةجرام التاريخs",
+    "info_date_calc": "معلومات التاريخ Calc",
+    "info_meaning": "معلومات Meanبوصةجرام",
+    "empty_state": "Eمpty الولاية"
+  }
+}

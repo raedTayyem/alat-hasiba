@@ -71,18 +71,25 @@ export default function VelocityAccelerationCalculator() {
   };
 
   const getUnitLabel = (unit: string) => {
+    // Hardcode universal unit symbols that don't need translation
+    const universalUnits: { [key: string]: string } = {
+      'm': 'm',
+      's': 's',
+      'h': 'h',
+      'km': 'km',
+      'cm': 'cm',
+      'mm': 'mm',
+      'ms': 'ms',
+    };
+
+    if (universalUnits[unit]) return universalUnits[unit];
+
+    // Use translation for descriptive units
     const unitKeys: { [key: string]: string } = {
-      'm': 'velocity_acceleration.units.m',
-      'km': 'velocity_acceleration.units.km',
-      'cm': 'velocity_acceleration.units.cm',
-      'mm': 'velocity_acceleration.units.mm',
       'ft': 'velocity_acceleration.units.ft',
       'mi': 'velocity_acceleration.units.mi',
       'yd': 'velocity_acceleration.units.yd',
-      's': 'velocity_acceleration.units.s',
       'min': 'velocity_acceleration.units.min',
-      'h': 'velocity_acceleration.units.h',
-      'ms': 'velocity_acceleration.units.ms',
       'm/s': 'velocity_acceleration.units.m_s',
       'km/h': 'velocity_acceleration.units.km_h',
       'mph': 'velocity_acceleration.units.mph',
@@ -90,10 +97,7 @@ export default function VelocityAccelerationCalculator() {
       'knot': 'velocity_acceleration.units.knot',
       'm/s²': 'velocity_acceleration.units.m_s2',
     };
-    
-    if (unit === 's') return t('velocity_acceleration.units.s');
-    if (unit === 'm/s²') return t('velocity_acceleration.units.m_s2');
-    
+
     return unitKeys[unit] ? t(unitKeys[unit]) : unit;
   };
 

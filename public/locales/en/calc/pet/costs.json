@@ -349,7 +349,8 @@
         "question": "Does insurance cover routine vet visits?",
         "answer": "Basic plans typically don't cover wellness visits. Premium or comprehensive plans may include preventive care like vaccinations and annual checkups."
       }
-    ]
+    ],
+    "error_invalid_age": "Please enter a valid age"
   },
   "pet_travel_calculator": {
     "title": "Pet Travel Calculator - Shipping and Transport Costs",

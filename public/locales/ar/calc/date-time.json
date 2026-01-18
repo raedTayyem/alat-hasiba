@@ -1333,7 +1333,11 @@
     "error_year_range": "يجب أن تكون السنة بين 1 و 9999",
     "error_month_range": "يجب أن يكون الشهر بين 1 و 13",
     "error_day_range": "يجب أن يكون اليوم بين 1 و {{daysInMonth}}",
-    "error_conversion": "خطأ في تحويل التاريخ. الرجاء المحاولة مرة أخرى."
+    "error_conversion": "خطأ في تحويل التاريخ. الرجاء المحاولة مرة أخرى.",
+    "tooltip_year": "أدخل السنة القبطية",
+    "tooltip_day": "أدخل يوم الشهر",
+    "empty_state": "اختر تاريخاً لرؤية التحويل",
+    "footer_note": "التقويم القبطي يستخدم من قبل الكنيسة القبطية الأرثوذكسية ويتكون من 13 شهراً."
   },
   "hebrew-to-gregorian": {
     "title": "محول التاريخ العبري إلى الميلادي",
@@ -1387,7 +1391,20 @@
     "error_year_range": "يجب أن تكون السنة بين 3761 و 12000",
     "error_month_range": "يجب أن يكون الشهر بين 1 و {{maxMonth}}",
     "error_day_range": "يجب أن يكون اليوم بين 1 و {{daysInMonth}}",
-    "error_conversion": "خطأ في تحويل التاريخ. الرجاء المحاولة مرة أخرى."
+    "error_conversion": "خطأ في تحويل التاريخ. الرجاء المحاولة مرة أخرى.",
+    "regular_year": "Regular Year",
+    "leap_year_cycle": "Leap Year Cycle",
+    "hebrew_date_label": "Hebrew Date Label",
+    "lunar_months": "Lunar Months",
+    "year_type": "Year Type",
+    "creation_year": "Creation Year",
+    "month_tooltip": "Month Tooltip",
+    "leap_year": "Leap Year",
+    "result_note": "النتيجة Note",
+    "months_count": "Months Count",
+    "months_structure": "Months Structure",
+    "day_tooltip": "Day Tooltip",
+    "year_tooltip": "Year Tooltip"
   },
   "holy-week-traditions": {
     "title": "تقاليد الأسبوع المقدس",
@@ -1764,7 +1781,12 @@
     "info_description": "يحسب الوقت الدقيق بين التواريخ بما في ذلك أيام العمل.",
     "error_empty_dates": "الرجاء إدخال كلا التاريخين",
     "error_invalid_dates": "تواريخ غير صالحة",
-    "error_start_after_end": "يجب أن يكون تاريخ البداية قبل تاريخ النهاية"
+    "error_start_after_end": "يجب أن يكون تاريخ البداية قبل تاريخ النهاية",
+    "note_text": "لاte Text",
+    "note_title": "لاte العنوان",
+    "use_case_2": "Use Case 2",
+    "use_case_1": "Use Case 1",
+    "use_case_3": "Use Case 3"
   },
   "samaritan-calendar": {
     "title": "محول التقويم السامري",
@@ -1981,7 +2003,15 @@
     "use_cases_title": "الاستخدامات الشائعة",
     "use_case_1": "تحويل الطوابع الزمنية من واجهات برمجة التطبيقات إلى تواريخ مقروءة",
     "use_case_2": "تصحيح أخطاء الطوابع الزمنية في التطبيقات",
-    "use_case_3": "حساب الفروقات الزمنية في البرمجة"
+    "use_case_3": "حساب الفروقات الزمنية في البرمجة",
+    "timestamp": "Timestamp",
+    "error_empty_date": "Error Empty Date",
+    "date_to_timestamp": "Date To Timestamp",
+    "unix_timestamp_result": "Unix Timestamp النتيجة",
+    "mode": "Mode",
+    "time": "Time",
+    "date": "Date",
+    "timestamp_to_date": "Timestamp To Date"
   },
   "date_format_converter": {
     "title": "محول تنسيق التاريخ",
@@ -1996,7 +2026,17 @@
     "format_european": "التنسيق الأوروبي (DD/MM/YYYY)",
     "format_long": "التنسيق الطويل",
     "error_invalid_date": "الرجاء إدخال تاريخ صحيح",
-    "error_conversion": "خطأ في تحويل تنسيق التاريخ"
+    "error_conversion": "خطأ في تحويل تنسيق التاريخ",
+    "format_rfc_2822": "Format Rfc 2822",
+    "error_empty": "Error Empty",
+    "error_invalid": "Error Invalid",
+    "date": "Date",
+    "format_iso_short": "Format Iso Short",
+    "format_unix_timestamp": "Format Unix Timestamp",
+    "formats": "Formats",
+    "format_iso_8601": "Format Iso 8601",
+    "format_milliseconds": "Format Milliseconds",
+    "format_medium": "Format Medium"
   },
   "day_of_week_calculator": {
     "title": "حاسبة يوم الأسبوع",
@@ -2029,5 +2069,13 @@
     "error_invalid_date": "الرجاء إدخال تاريخ صحيح",
     "info_title": "حول يوم الأسبوع",
     "info_description": "تستخدم هذه الحاسبة التقويم الميلادي لتحديد يوم الأسبوع الذي يقع فيه تاريخ معين."
+  },
+  "T": "T",
+  "common": {
+    "useCases": "Use Cases",
+    "errors": {
+      "calculationError": "الحساب خطأ"
+    },
+    "reset": "إعادة تعيين"
   }
 }

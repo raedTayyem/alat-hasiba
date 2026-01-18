@@ -1,0 +1,88 @@
+{
+  "travel_cost": {
+    "errors": {
+      "invalid_input": "غير صالح الإدخال",
+      "positive_values_required": "موجب values مطلوب",
+      "calculation_error": "calculation خطأ"
+    },
+    "inputs": {
+      "transport": "Transport",
+      "transport_tooltip": "transport تلميح",
+      "transport_placeholder": "transport عنصر نائب",
+      "lodging": "Lodging",
+      "lodging_tooltip": "lodging تلميح",
+      "lodging_placeholder": "lodging عنصر نائب",
+      "meals": "Meals",
+      "meals_tooltip": "meals تلميح",
+      "meals_placeholder": "meals عنصر نائب",
+      "incidentals": "Incidentals",
+      "incidentals_tooltip": "incidentals تلميح",
+      "incidentals_placeholder": "incidentals عنصر نائب",
+      "days": "Days",
+      "days_tooltip": "days تلميح",
+      "days_placeholder": "days عنصر نائب"
+    },
+    "info": {
+      "title": "العنوان",
+      "use_cases": "Use Cases",
+      "use_case_1": "Use Case 1",
+      "use_case_2": "Use Case 2",
+      "use_case_3": "Use Case 3"
+    },
+    "description": "الوصف",
+    "results": {
+      "total_cost": "الإجمالي التكلفة",
+      "daily_rate": "daily المعدل",
+      "breakdown": "Breakdown",
+      "transport": "Transport",
+      "lodging": "Lodging",
+      "meals": "Meals",
+      "incidentals": "Incidentals",
+      "cost_per_day": "التكلفة per يوم",
+      "average": "المتوسط",
+      "formula_title": "الصيغة العنوان",
+      "formula": "الصيغة"
+    },
+    "title": "العنوان"
+  },
+  "trip_cost": {
+    "error_missing_inputs": "خطأ missing inputs",
+    "error_positive_values": "خطأ موجب values",
+    "error_calculation": "خطأ calculation",
+    "imperial": "Imperial",
+    "metric": "Metric",
+    "title": "العنوان",
+    "unit_system": "الوحدة system",
+    "unit_system_tooltip": "الوحدة system تلميح",
+    "distance_miles": "المسافة miles",
+    "distance_km": "المسافة km",
+    "distance_tooltip": "المسافة تلميح",
+    "placeholders": {
+      "distance_imperial": "المسافة imperial",
+      "distance_metric": "المسافة metric",
+      "economy_imperial": "Economy Imperial",
+      "economy_metric": "Economy Metric",
+      "price": "السعر"
+    },
+    "fuel_economy_mpg": "Fuel Economy Mpg",
+    "fuel_economy_kml": "Fuel Economy Kml",
+    "fuel_economy_tooltip": "fuel economy تلميح",
+    "fuel_price_gallon": "fuel السعر جالون",
+    "fuel_price_liter": "fuel السعر لتر",
+    "fuel_price_tooltip": "fuel السعر تلميح",
+    "about_title": "about العنوان",
+    "about_description": "about الوصف",
+    "result_title": "النتيجة العنوان",
+    "total_trip_cost": "الإجمالي trip التكلفة",
+    "fuel_needed": "Fuel Needed",
+    "gallons": "Gallons",
+    "liters": "لتر",
+    "cost_per_mile": "التكلفة per mile",
+    "mile": "Mile",
+    "cost_per_km": "التكلفة per km",
+    "km": "Km",
+    "formula_title": "الصيغة العنوان",
+    "formula_explanation": "الصيغة explanation",
+    "description": "الوصف"
+  }
+}

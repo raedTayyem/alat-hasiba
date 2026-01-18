@@ -1,4 +1,5 @@
 {
+  "1": "1",
   "coffee-ratio-calculator": {
     "title": "حاسبة نسبة القهوة",
     "description": "حساب كمية القهوة والماء المثالية بناءً على النسبة الذهبية وطريقة التحضير.",
@@ -80,7 +81,8 @@
     "tooltips": {
       "cups": "عدد أكواب القهوة التي تريد تحضيرها",
       "strength": "اختر قوة القهوة المفضلة"
-    }
+    },
+    "coffeeTablespoons": "القهوة (ملاعق كبيرة)"
   },
   "pizza-dough-calculator": {
     "title": "حاسبة عجينة البيتزا",
@@ -162,7 +164,8 @@
     "tooltips": {
       "pizzas": "كم عدد البيتزا التي تريد صنعها؟",
       "hydration": "نسبة محتوى الماء (أعلى = عجين أطرى)"
-    }
+    },
+    "hydration_placeholder": "Hydration Placeholder"
   },
   "recipe-converter": {
     "title": "حاسبة محول الوصفات - أداة قياس مجانية عبر الإنترنت",
@@ -1693,7 +1696,8 @@
     "tooltips": {
       "servings": "عدد الأشخاص الذين تقدم لهم",
       "rice_type": "اختر نوع الأرز الذي تطبخه"
-    }
+    },
+    "rice_type_placeholder": "Rice النوع Placeholder"
   },
   "cake-serving-calculator": {
     "title": "حاسبة حصص الكيك - أداة مجانية لتخطيط الحفلات",
@@ -2158,6 +2162,175 @@
         "question": "لماذا أرزي طري أو غير مطبوخ؟",
         "answer": "الماء الكثير يجعل الأرز طرياً؛ والقليل جداً يتركه غير مطبوخ. استخدم النسبة الصحيحة لنوع أرزك ولا ترفع الغطاء أثناء الطبخ."
       }
-    ]
-  }
+    ],
+    "error_invalid_input": "خطأ Invalid إدخال",
+    "error_calculation": "خطأ الحساب",
+    "error_positive_amount": "خطأ Positive المبلغ"
+  },
+  "common:common": {
+    "units": {
+      "g": "G",
+      "oz": "Oz",
+      "in": "In",
+      "C": "C",
+      "min": "Mبوصة",
+      "F": "F",
+      "h": "H",
+      "lb": "لترb"
+    }
+  },
+  "flour_all_purpose": "Flour All Purpose",
+  "cups": "Cups",
+  "calculators": {
+    "cooking": {
+      "coffee-ratio-calculator": {
+        "title": "العنوان",
+        "description": "الوصف"
+      }
+    }
+  },
+  "common": {
+    "tablespoon": "الجدولspoon"
+  },
+  "oz": "Oz",
+  "common:units": {
+    "percent": "نسبة مئوية"
+  },
+  "pizza_dough": {
+    "pizza-dough-calculator": {
+      "error_invalid_input": "خطأ غير صالح الإدخال",
+      "error_positive_values": "خطأ موجب values",
+      "error_hydration_range": "خطأ hydration النطاق",
+      "error_too_many_pizzas": "خطأ too many pizzas",
+      "error_calculation": "خطأ calculation",
+      "title": "العنوان",
+      "pizzas_label": "Pizzas Label",
+      "pizzas_tooltip": "pizzas تلميح",
+      "pizzas_placeholder": "pizzas عنصر نائب",
+      "hydration_label": "Hydration Label",
+      "hydration_tooltip": "hydration تلميح",
+      "hydration_placeholder": "hydration عنصر نائب",
+      "info_title": "معلومات العنوان",
+      "info_description": "معلومات الوصف",
+      "use_cases_title": "use cases العنوان",
+      "use_case_1": "Use Case 1",
+      "use_case_2": "Use Case 2",
+      "use_case_3": "Use Case 3",
+      "result_label": "النتيجة label",
+      "pizza_balls_unit": "pizza balls الوحدة",
+      "ingredients_title": "ingredients العنوان",
+      "flour_label": "Flour Label",
+      "water_label": "Water Label",
+      "yeast_label": "Yeast Label",
+      "salt_label": "Salt Label",
+      "oil_label": "Oil Label",
+      "total_weight_label": "الإجمالي الوزن label",
+      "formula_title": "الصيغة العنوان",
+      "formula_explanation": "الصيغة explanation",
+      "description": "الوصف"
+    },
+    "units": {
+      "percent": "Percent"
+    }
+  },
+  "rice_cooking": {
+    "rice-cooking-calculator": {
+      "error_invalid_input": "خطأ غير صالح الإدخال",
+      "error_positive_values": "خطأ موجب values",
+      "error_too_many_servings": "خطأ too many servings",
+      "error_calculation": "خطأ calculation",
+      "type_white": "النوع white",
+      "type_brown": "النوع brown",
+      "type_basmati": "النوع basmati",
+      "type_jasmine": "النوع jasmine",
+      "title": "العنوان",
+      "servings_label": "Servings Label",
+      "servings_tooltip": "servings تلميح",
+      "servings_placeholder": "servings عنصر نائب",
+      "rice_type_label": "rice النوع label",
+      "rice_type_tooltip": "rice النوع تلميح",
+      "rice_type_placeholder": "rice النوع عنصر نائب",
+      "info_title": "معلومات العنوان",
+      "info_description": "معلومات الوصف",
+      "use_cases_title": "use cases العنوان",
+      "use_case_1": "Use Case 1",
+      "use_case_2": "Use Case 2",
+      "use_case_3": "Use Case 3",
+      "result_label": "النتيجة label",
+      "result_unit_cups_dry": "النتيجة الوحدة cups dry",
+      "additional_info_title": "additional معلومات العنوان",
+      "water_needed_label": "Water Needed Label",
+      "cups_unit": "cups الوحدة",
+      "cooked_rice_label": "Cooked Rice Label",
+      "cooking_time_label": "cooking الوقت label",
+      "rice_type_result_label": "rice النوع النتيجة label",
+      "formula_title": "الصيغة العنوان",
+      "formula_explanation": "الصيغة explanation",
+      "description": "الوصف"
+    }
+  },
+  "rice_water_ratio": {
+    "rice-water-ratio-calculator": {
+      "error_invalid_input": "خطأ غير صالح الإدخال",
+      "error_positive_amount": "خطأ موجب المبلغ",
+      "error_calculation": "خطأ calculation",
+      "unit_cups": "الوحدة cups",
+      "unit_grams": "الوحدة grams",
+      "title": "العنوان",
+      "rice_type_label": "rice النوع label",
+      "rice_type_tooltip": "rice النوع تلميح",
+      "rice_type_placeholder": "rice النوع عنصر نائب",
+      "unit_label": "الوحدة label",
+      "unit_tooltip": "الوحدة تلميح",
+      "amount_label": "المبلغ label",
+      "amount_tooltip": "المبلغ تلميح",
+      "amount_placeholder": "المبلغ عنصر نائب",
+      "info_title": "معلومات العنوان",
+      "info_description": "معلومات الوصف",
+      "use_cases_title": "use cases العنوان",
+      "use_case_1": "Use Case 1",
+      "use_case_2": "Use Case 2",
+      "use_case_3": "Use Case 3",
+      "result_label": "النتيجة label",
+      "additional_info_title": "additional معلومات العنوان",
+      "water_needed_label": "Water Needed Label",
+      "cooking_time_label": "cooking الوقت label",
+      "tips_title": "tips العنوان",
+      "description": "الوصف"
+    }
+  },
+  "turkey_cooking": {
+    "turkey-cooking-calculator": {
+      "error_invalid_input": "خطأ غير صالح الإدخال",
+      "error_positive_values": "خطأ موجب values",
+      "error_too_large": "خطأ too large",
+      "error_too_small": "خطأ too small",
+      "error_calculation": "خطأ calculation",
+      "title": "العنوان",
+      "weight_label": "الوزن label",
+      "weight_tooltip": "الوزن تلميح",
+      "weight_placeholder": "الوزن عنصر نائب",
+      "stuffed_label": "Stuffed Label",
+      "stuffed_tooltip": "stuffed تلميح",
+      "unstuffed": "Unstuffed",
+      "stuffed": "Stuffed",
+      "info_title": "معلومات العنوان",
+      "info_description": "معلومات الوصف",
+      "use_cases_title": "use cases العنوان",
+      "use_case_1": "Use Case 1",
+      "use_case_2": "Use Case 2",
+      "use_case_3": "Use Case 3",
+      "result_label": "النتيجة label",
+      "minutes_unit": "minutes الوحدة",
+      "additional_info_title": "additional معلومات العنوان",
+      "thawing_time_label": "thawing الوقت label",
+      "days_unit": "days الوحدة",
+      "oven_temp_label": "Oven Temp Label",
+      "turkey_type_label": "turkey النوع label",
+      "formula_title": "الصيغة العنوان",
+      "formula_explanation": "الصيغة explanation",
+      "description": "الوصف"
+    }
+  },
+  "fahrenheit": "Fahrenheit"
 }

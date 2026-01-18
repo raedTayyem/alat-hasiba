@@ -1,8 +1,12 @@
 {
+  "6": "6",
+  "10": "10",
+  "50": "50",
   "errors": {
     "invalid_input": "Please enter valid numeric values",
     "positive_values_required": "Values must be positive",
-    "calculation_error": "An error occurred during calculation"
+    "calculation_error": "An error occurred during calculation",
+    "price_greater_than_variable": "Price Greater Than Variable"
   },
   "break_even": {
     "title": "Break-Even Calculator",
@@ -107,7 +111,10 @@
         "question": "How often should I recalculate break-even?",
         "answer": "Recalculate whenever significant changes occur to costs, prices, or product mix. At minimum, review quarterly to ensure your targets remain accurate."
       }
-    ]
+    ],
+    "errors": {
+      "price_greater_than_variable": "Price must be greater than variable cost"
+    }
   },
   "profit_margin": {
     "title": "Profit Margin Calculator",
@@ -343,7 +350,12 @@
         "question": "How do I account for different task types?",
         "answer": "Consider weighting tasks by complexity or estimated time. Alternatively, track productivity separately for different task categories."
       }
-    ]
+    ],
+    "errors": {
+      "invalid_input": "Invalid Input",
+      "positive_values_required": "Positive Values Required",
+      "calculation_error": "Calculation Error"
+    }
   },
   "quick_ratio": {
     "title": "Quick Ratio Calculator",
@@ -557,7 +569,8 @@
       "commission_amount": "Commission Amount",
       "sales_total": "Sales Total",
       "rate_label": "Commission Rate",
-      "commission_only": "Commission Only"
+      "commission_only": "Commission Only",
+      "breakdown": "Breakdown"
     },
     "info": {
       "title": "About Commission",
@@ -1052,7 +1065,20 @@
         "question": "Should I include inflation in ROI calculations?",
         "answer": "For accurate purchasing power analysis, calculate real ROI by subtracting inflation from nominal ROI. A 10% return with 3% inflation yields 7% real return."
       }
-    ]
+    ],
+    "errors": {
+      "invalid_input": "Invalid Input",
+      "positive_values_required": "Positive Values Required",
+      "calculation_error": "Calculation Error"
+    },
+    "payback_period": {
+      "results": {
+        "years": "Years"
+      }
+    },
+    "calculators": {
+      "formula": "Formula"
+    }
   },
   "vat": {
     "title": "VAT Calculator",
@@ -1811,7 +1837,15 @@
         "question": "Why does ROAS decrease as I scale?",
         "answer": "As you spend more, you exhaust high-intent audiences and reach less qualified prospects. Diminishing returns are normal - find the optimal spend level for your goals."
       }
-    ]
+    ],
+    "errors": {
+      "invalid_input": "Invalid Input",
+      "positive_values_required": "Positive Values Required",
+      "calculation_error": "Calculation Error"
+    },
+    "calculators": {
+      "formula": "Formula"
+    }
   },
   "conversion_rate": {
     "title": "Conversion Rate Calculator",
@@ -2037,7 +2071,15 @@
         "question": "How do I calculate engagement rate for influencer partnerships?",
         "answer": "Request their average engagement rate across recent posts (not their best posts). Verify by calculating it yourself from their public posts."
       }
-    ]
+    ],
+    "errors": {
+      "invalid_input": "Invalid Input",
+      "positive_values_required": "Positive Values Required",
+      "calculation_error": "Calculation Error"
+    },
+    "calculators": {
+      "formula": "Formula"
+    }
   },
   "shipping_cost": {
     "title": "Shipping Cost Calculator",
@@ -2154,7 +2196,16 @@
         "question": "How do shipping zones affect cost?",
         "answer": "Zones represent distance from origin. Higher zones mean longer distances and higher costs. Locating fulfillment centers strategically can reduce average zone and shipping costs."
       }
-    ]
+    ],
+    "errors": {
+      "invalid_input": "Invalid Input",
+      "positive_values_required": "Positive Values Required",
+      "calculation_error": "Calculation Error"
+    },
+    "units": {
+      "currencySymbol": "Currency Symbol",
+      "kg": "Kg"
+    }
   },
   "fuel_cost": {
     "title": "Fuel Cost Calculator",
@@ -2348,7 +2399,12 @@
         "question": "What costs can I reduce or eliminate?",
         "answer": "Start home-based, use used equipment, DIY marketing initially, start with minimum inventory, and consider virtual offices to reduce early costs."
       }
-    ]
+    ],
+    "errors": {
+      "invalid_input": "Invalid Input",
+      "positive_values_required": "Positive Values Required",
+      "calculation_error": "Calculation Error"
+    }
   },
   "business_valuation": {
     "title": "Business Valuation Calculator",
@@ -2864,7 +2920,9 @@
       "tax_rate_placeholder": "e.g. 7"
     },
     "errors": {
-      "invalid_rate": "Tax rate must be between 0 and 100"
+      "invalid_rate": "Tax rate must be between 0 and 100",
+      "positive_values_required": "Positive Values Required",
+      "calculation_error": "Calculation Error"
     },
     "results": {
       "total": "Total",
@@ -2957,7 +3015,10 @@
         "question": "Are there items exempt from sales tax?",
         "answer": "Varies by state. Common exemptions include groceries, prescription drugs, medical equipment, and sometimes clothing. Check your state's rules."
       }
-    ]
+    ],
+    "calculators": {
+      "formula": "Formula"
+    }
   },
   "depreciation": {
     "title": "Depreciation Calculator",
@@ -3593,7 +3654,10 @@
     },
     "errors": {
       "hours_too_high": "Hours per week cannot exceed 168",
-      "weeks_too_high": "Weeks per year cannot exceed 52"
+      "weeks_too_high": "Weeks per year cannot exceed 52",
+      "invalid_input": "Invalid Input",
+      "positive_values_required": "Positive Values Required",
+      "calculation_error": "Calculation Error"
     },
     "results": {
       "annual_salary": "Annual Salary",
@@ -4738,7 +4802,12 @@
         "question": "What about quality differences?",
         "answer": "Unit price compares value within similar quality. A premium product may be worth paying more per unit for better quality."
       }
-    ]
+    ],
+    "errors": {
+      "invalid_input": "Invalid Input",
+      "positive_values_required": "Positive Values Required",
+      "calculation_error": "Calculation Error"
+    }
   },
   "price_elasticity": {
     "title": "Price Elasticity Calculator",
@@ -4758,7 +4827,10 @@
       "final_quantity_placeholder": "e.g. 850"
     },
     "errors": {
-      "price_must_change": "Price must change to calculate elasticity"
+      "price_must_change": "Price must change to calculate elasticity",
+      "invalid_input": "Invalid Input",
+      "positive_values_required": "Positive Values Required",
+      "calculation_error": "Calculation Error"
     },
     "results": {
       "elasticity": "Price Elasticity of Demand",
@@ -5582,6 +5654,11 @@
       "use_case_1": "Calculate true profit margins on products",
       "use_case_2": "Determine optimal pricing strategy",
       "use_case_3": "Evaluate if upgrading to higher Shopify plan saves money"
+    },
+    "errors": {
+      "invalid_input": "Invalid Input",
+      "positive_values_required": "Positive Values Required",
+      "calculation_error": "Calculation Error"
     }
   },
   "income_tax": {
@@ -5605,7 +5682,9 @@
       "taxable_income": "Taxable Income",
       "after_tax_income": "After-Tax Income",
       "bracket_breakdown": "Tax Bracket Breakdown",
-      "on": "on"
+      "on": "on",
+      "formula_title": "Formula Title",
+      "formula_desc": "Formula Desc"
     },
     "info": {
       "title": "About Income Tax",
@@ -5667,6 +5746,11 @@
       "use_case_1": "Planning construction or renovation projects",
       "use_case_2": "Estimating software development or IT project costs",
       "use_case_3": "Creating budgets for events or marketing campaigns"
+    },
+    "errors": {
+      "invalid_input": "Invalid Input",
+      "positive_values_required": "Positive Values Required",
+      "calculation_error": "Calculation Error"
     }
   },
   "time_tracking": {
@@ -5706,6 +5790,14 @@
       "use_case_1": "Freelancers billing clients by the hour",
       "use_case_2": "Consultants tracking project time and expenses",
       "use_case_3": "Service providers creating detailed invoices"
+    },
+    "errors": {
+      "invalid_input": "Invalid Input",
+      "positive_values_required": "Positive Values Required",
+      "calculation_error": "Calculation Error"
+    },
+    "units": {
+      "currencySymbol": "Currency Symbol"
     }
   },
   "unit_cost": {
@@ -5743,6 +5835,26 @@
       "use_case_1": "Manufacturing cost analysis and pricing",
       "use_case_2": "Product pricing and break-even analysis",
       "use_case_3": "Cost optimization and efficiency planning"
+    },
+    "errors": {
+      "positive_values_required": "Positive Values Required",
+      "invalid_input": "Invalid Input",
+      "calculation_error": "Calculation Error"
     }
+  },
+  "common:units": {
+    "currencySymbol": "Currency Symbol",
+    "kg": "Kg"
+  },
+  "common": {
+    "useCases": "Use Cases",
+    "formula": "Formula",
+    "errors": {
+      "invalid": "Invalid",
+      "calculationError": "Calculation Error"
+    }
+  },
+  "common:common": {
+    "currencySymbol": "Currency Symbol"
   }
 }

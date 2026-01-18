@@ -2250,5 +2250,10 @@
       "use_case_2": "Analyze economies of scale",
       "use_case_3": "Compare production costs across volumes"
     }
+  },
+  "commission": {
+    "results": {
+      "breakdown": "Breakdown"
+    }
   }
 }

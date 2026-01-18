@@ -684,7 +684,9 @@
     "error_invalid": "Please enter valid numbers",
     "error_positive": "Damage and Speed must be positive",
     "error_crit_range": "Critical Chance must be between 0 and 100",
-    "error_calculation": "An error occurred during calculation"
+    "error_calculation": "An error occurred during calculation",
+    "info_description": "DPS (Damage Per Second) is a measure of damage dealt over time in video games",
+    "info_title": "About DPS"
   },
   "fps": {
     "title": "FPS Calculator",
@@ -773,7 +775,8 @@
     "use_case_3": "To optimize game settings for better visuals or performance",
     "error_invalid": "Please enter a valid number",
     "error_positive": "FPS must be greater than zero",
-    "error_calculation": "An error occurred during calculation"
+    "error_calculation": "An error occurred during calculation",
+    "additional_info_title": "Additional Information"
   },
   "loot_drop": {
     "title": "Loot Drop Calculator",
@@ -1101,7 +1104,10 @@
     "use_case_3": "Crafting efficiently without waste",
     "error_invalid": "Please enter a valid number",
     "error_positive": "Number of blocks must be positive",
-    "error_y_range": "Y-level must be between -64 and 320"
+    "error_y_range": "Y-level must be between -64 and 320",
+    "info_title": "Minecraft Resources",
+    "error_calculation": "Error in calculation",
+    "info_description": "Calculate materials and resources needed for Minecraft building projects"
   },
   "win_rate": {
     "title": "Win Rate Calculator",
@@ -1202,7 +1208,9 @@
     "error_invalid": "Please enter valid numbers",
     "error_negative": "Values cannot be negative",
     "error_no_games": "Total games must be greater than zero",
-    "error_calculation": "An error occurred during calculation"
+    "error_calculation": "An error occurred during calculation",
+    "info_description": "Track your gaming performance with win rate calculations",
+    "info_title": "Win Rate Statistics"
   },
   "xp": {
     "title": "XP Calculator",
@@ -1304,7 +1312,9 @@
     "error_invalid": "Please enter valid numbers",
     "error_positive": "Levels and XP must be positive",
     "error_target_higher": "Target level must be higher than current level",
-    "error_calculation": "An error occurred during calculation"
+    "error_calculation": "An error occurred during calculation",
+    "info_title": "Experience Points",
+    "info_description": "Calculate XP needed for leveling up in games"
   },
   "kd_ratio": {
     "title": "K/D Ratio Calculator",
@@ -1525,5 +1535,11 @@
     "sessions_unit": "Sessions Unit",
     "sessions_3hr_label": "Sessions 3Hr Label",
     "sessions_4hr_label": "Sessions 4Hr Label"
-  }
+  },
+  "common": {
+    "errors": {
+      "calculationError": "Calculation Error"
+    }
+  },
+  ":": ":"
 }

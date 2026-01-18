@@ -271,7 +271,9 @@
     "explanation": "يتم حساب المعدل بضرب نقاط كل مادة في عدد ساعاتها، ثم قسمة مجموع النقاط على إجمالي الساعات.",
     "errors": {
       "invalid_current_gpa": "المعدل الحالي لا يمكن أن يتجاوز النظام المختار",
-      "no_courses": "يرجى إضافة مادة واحدة على الأقل"
+      "no_courses": "يرجى إضافة مادة واحدة على الأقل",
+      "invalid_current_credits": "Invalid التيار Credits",
+      "invalid_credits": "Invalid Credits"
     },
     "howItWorks": {
       "title": "كيف تعمل حاسبة المعدل التراكمي",
@@ -319,7 +321,17 @@
         "question": "كيف أرفع معدلي التراكمي؟",
         "answer": "التركيز على المواد ذات الساعات الأكثر، الاستفادة من فرص إعادة المواد، والتخطيط المبكر للفصول القادمة."
       }
-    ]
+    ],
+    "prior_credits": "Prior Credits",
+    "grading_scale": "Gradبوصةجرام المقياس",
+    "course": "الدورة",
+    "cumulative_optional": "Cuمulative اختياري",
+    "breakdown": "Breakdown",
+    "equivalent_letter": "Equivalent لترetter",
+    "prior_gpa": "Prior المعدل التراكمي",
+    "result_placeholder": "النتيجة Placeholder",
+    "total_grade_points": "الإجمالي الدرجة النقطةs",
+    "courses": "الدورةs"
   },
   "final_grade": {
     "title": "حاسبة الدرجة النهائية",
@@ -575,7 +587,12 @@
         "question": "هل تحتسب الأسئلة المتروكة كخاطئة؟",
         "answer": "نعم، في معظم الاختبارات تحتسب الأسئلة غير المجاب عليها كإجابات خاطئة."
       }
-    ]
+    ],
+    "scale_d": "المقياس D",
+    "scale_b": "المقياس B",
+    "scale_c": "المقياس C",
+    "scale_f": "المقياس F",
+    "scale_a": "المقياس A"
   },
   "assignment_tracker": {
     "title": "متتبع الواجبات",
@@ -700,7 +717,11 @@
         "question": "كيف أتعامل مع التسويف؟",
         "answer": "ابدأ بمهمة صغيرة لمدة 5 دقائق، استخدم تقنية بومودورو، وأزل المشتتات من محيطك."
       }
-    ]
+    ],
+    "errors": {
+      "invalid_days": "Invalid اليومs",
+      "invalid_credits": "Invalid Credits"
+    }
   },
   "reading_speed": {
     "title": "حاسبة سرعة القراءة",
@@ -764,6 +785,30 @@
         "question": "هل السرعة العالية تؤثر على الفهم؟",
         "answer": "ليس بالضرورة. مع التدريب، يمكن زيادة السرعة مع الحفاظ على مستوى الفهم أو تحسينه."
       }
-    ]
-  }
+    ],
+    "errors": {
+      "invalid_time": "Invalid الوقت",
+      "invalid_words": "Invalid Words"
+    }
+  },
+  "common": {
+    "errors": {
+      "calculationError": "الحساب خطأ"
+    },
+    "results_ready": "النتيجةs Ready"
+  },
+  "common:units": {
+    "percent": "نسبة مئوية"
+  },
+  "20": "20",
+  "calculators": {
+    "grade_features": "الدرجة الميزةs",
+    "grade_feature_2": "الدرجة الميزة 2",
+    "grade_feature_4": "الدرجة الميزة 4",
+    "grade_what_is": "الدرجة What Is",
+    "grade_feature_3": "الدرجة الميزة 3",
+    "grade_feature_1": "الدرجة الميزة 1",
+    "grade_description": "الدرجة الوصف"
+  },
+  "T": "T"
 }

@@ -315,5 +315,8 @@
       "intermediate": "متوسط (1-3 سنوات)",
       "advanced": "متقدم (3+ سنوات)"
     }
+  },
+  "weight-loss-time-calculator": {
+    "enter_weight": "أدخل الوزن"
   }
 }

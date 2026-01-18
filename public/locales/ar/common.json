@@ -44,7 +44,9 @@
     "other": "آخر",
     "loading": "جاري التحميل...",
     "loadingCalculator": "جاري تحميل الآلة الحاسبة",
-    "error": "خطأ",
+    "error": {
+      "invalid_input": "مدخلات غير صالحة"
+    },
     "success": "نجاح",
     "warning": "تحذير",
     "needs_improvement": "يحتاج تحسين",
@@ -162,7 +164,17 @@
       "MPa": "ميغاباسكال",
       "ms": "مللي ثانية",
       "mph": "ميل/س",
-      "kmh": "كم/س"
+      "kmh": "كم/س",
+      "s": "ث",
+      "h": "س",
+      "min": "د",
+      "m2": "م²",
+      "m3": "م³",
+      "sqft": "قدم²",
+      "fahrenheit": "°ف",
+      "mixed": "مختلط",
+      "tablespoon": "ملعقة كبيرة",
+      "metric": "متري"
     },
     "calendar": {
       "days": {
@@ -184,7 +196,12 @@
     "actions": {
       "increase": "زيادة",
       "decrease": "نقصان"
-    }
+    },
+    "errors": {
+      "calculationError": "حدث خطأ أثناء الحساب"
+    },
+    "formula": "المعادلة",
+    "currencySymbol": "$"
   },
   "layout": {
     "inputs": "المدخلات",
@@ -360,7 +377,8 @@
   },
   "calculators": {
     "invalid_input": "مدخلات غير صحيحة. الرجاء التحقق من القيم.",
-    "calculation_error": "حدث خطأ أثناء الحساب"
+    "calculation_error": "حدث خطأ أثناء الحساب",
+    "calc_494": "حاسبة التفاضل والتكامل"
   },
   "nothingFound": "لم يتم العثور على شيء.",
   "calendar": {
