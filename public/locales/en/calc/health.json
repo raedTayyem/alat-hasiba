@@ -1216,5 +1216,36 @@
       { "question": "Can I gain muscle without fat?", "answer": "Very difficult. Even in best conditions, 60-70% of gain will be muscle and rest is fat. That's why athletes follow bulking then cutting cycles." },
       { "question": "How much muscle can I gain monthly?", "answer": "For beginners: 0.5-1 kg monthly is possible. Intermediate: 0.25-0.5 kg. Advanced: less than 0.25 kg. These are natural limits." }
     ]
+  },
+  "cycling_power": {
+    "title": "Cycling Power Calculator",
+    "description": "Calculate cycling power output and power-to-weight ratio based on speed, weight, and gradient.",
+    "inputs": {
+      "speed_kmh": "Speed (km/h)",
+      "gradient_percentage": "Gradient (%)"
+    },
+    "tooltips": {
+      "speed": "Your cycling speed in kilometers per hour",
+      "gradient": "Road gradient as percentage (0 for flat, positive for uphill, negative for downhill)"
+    },
+    "results": {
+      "power_watts": "Power Output",
+      "power_details": "Power Details",
+      "power_to_weight_ratio": "Power-to-Weight Ratio",
+      "performance_category": "Performance Category"
+    },
+    "categories": {
+      "world_class": "World Class",
+      "excellent": "Excellent",
+      "very_good": "Very Good",
+      "good": "Good",
+      "average": "Average",
+      "beginner": "Beginner"
+    },
+    "about": {
+      "title": "About Cycling Power",
+      "desc": "This calculator estimates your cycling power output based on your weight, speed, and road gradient. Power-to-weight ratio is a key metric in cycling performance.",
+      "note": "This is an approximation. Actual power can vary based on bike type, riding position, wind, and other factors."
+    }
   }
 }

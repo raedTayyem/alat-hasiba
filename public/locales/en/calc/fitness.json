@@ -7,15 +7,33 @@
       "formula": "U.S. Navy Method: Body Fat % (Men) = 86.010 × log10(waist - neck) - 70.041 × log10(height) + 36.76",
       "explanation": "This calculator uses the U.S. Navy Method to estimate body fat percentage based on body circumference measurements. This method is accurate and easy to use without specialized equipment, providing a reliable estimate of body composition.",
       "steps": [
-        { "name": "Enter Data", "text": "Input your gender, height, weight, and circumference measurements" },
-        { "name": "Calculate", "text": "The calculator applies the U.S. Navy formula to your measurements" },
-        { "name": "View Results", "text": "Get your body fat percentage and health category classification" }
+        {
+          "name": "Enter Data",
+          "text": "Input your gender, height, weight, and circumference measurements"
+        },
+        {
+          "name": "Calculate",
+          "text": "The calculator applies the U.S. Navy formula to your measurements"
+        },
+        {
+          "name": "View Results",
+          "text": "Get your body fat percentage and health category classification"
+        }
       ]
     },
     "useCases": [
-      { "title": "Weight Loss Tracking", "description": "Used by dieters to track fat loss, not just weight loss" },
-      { "title": "Bodybuilding", "description": "Monitor body fat during bulking and cutting phases" },
-      { "title": "General Health Assessment", "description": "Determine if your body fat is within a healthy range" }
+      {
+        "title": "Weight Loss Tracking",
+        "description": "Used by dieters to track fat loss, not just weight loss"
+      },
+      {
+        "title": "Bodybuilding",
+        "description": "Monitor body fat during bulking and cutting phases"
+      },
+      {
+        "title": "General Health Assessment",
+        "description": "Determine if your body fat is within a healthy range"
+      }
     ],
     "seoTips": [
       "Measure waist at navel level for accurate readings",
@@ -30,10 +48,22 @@
       "Comparing results between different measurement methods"
     ],
     "faqs": [
-      { "question": "What is a healthy body fat percentage?", "answer": "For men: 10-20% is healthy. For women: 18-28% is healthy. Athletes may have lower percentages." },
-      { "question": "How often should I measure body fat?", "answer": "Every 2-4 weeks is recommended to effectively track changes." },
-      { "question": "How accurate is this method?", "answer": "The U.S. Navy Method is accurate within ±3-4% compared to lab methods." },
-      { "question": "Why do men and women have different ranges?", "answer": "Women biologically need higher body fat for hormonal and reproductive functions." }
+      {
+        "question": "What is a healthy body fat percentage?",
+        "answer": "For men: 10-20% is healthy. For women: 18-28% is healthy. Athletes may have lower percentages."
+      },
+      {
+        "question": "How often should I measure body fat?",
+        "answer": "Every 2-4 weeks is recommended to effectively track changes."
+      },
+      {
+        "question": "How accurate is this method?",
+        "answer": "The U.S. Navy Method is accurate within ±3-4% compared to lab methods."
+      },
+      {
+        "question": "Why do men and women have different ranges?",
+        "answer": "Women biologically need higher body fat for hormonal and reproductive functions."
+      }
     ]
   },
   "lean-body-mass-calculator": {
@@ -80,15 +110,33 @@
       "formula": "Devine Formula: Men = 50 + 2.3 × (height in inches - 60), Women = 45.5 + 2.3 × (height in inches - 60)",
       "explanation": "This calculator uses multiple scientifically-validated formulas to calculate ideal weight based on your height and gender. It combines Devine, Robinson, and Miller formulas to give you a realistic healthy weight range.",
       "steps": [
-        { "name": "Enter Information", "text": "Input your height, gender, and age" },
-        { "name": "Apply Formulas", "text": "The tool calculates your ideal weight using multiple formulas" },
-        { "name": "View Results", "text": "Get your ideal weight range with health recommendations" }
+        {
+          "name": "Enter Information",
+          "text": "Input your height, gender, and age"
+        },
+        {
+          "name": "Apply Formulas",
+          "text": "The tool calculates your ideal weight using multiple formulas"
+        },
+        {
+          "name": "View Results",
+          "text": "Get your ideal weight range with health recommendations"
+        }
       ]
     },
     "useCases": [
-      { "title": "Setting Weight Loss Goals", "description": "Determine a realistic and healthy target weight" },
-      { "title": "Fitness Planning", "description": "For athletes who need to reach a specific weight for competitions" },
-      { "title": "General Health Assessment", "description": "Evaluate if your current weight is within a healthy range" }
+      {
+        "title": "Setting Weight Loss Goals",
+        "description": "Determine a realistic and healthy target weight"
+      },
+      {
+        "title": "Fitness Planning",
+        "description": "For athletes who need to reach a specific weight for competitions"
+      },
+      {
+        "title": "General Health Assessment",
+        "description": "Evaluate if your current weight is within a healthy range"
+      }
     ],
     "seoTips": [
       "Ideal weight varies based on body frame size (small, medium, large)",
@@ -103,9 +151,18 @@
       "Trying to reach ideal weight too quickly"
     ],
     "faqs": [
-      { "question": "Is ideal weight the same for everyone of the same height?", "answer": "No, it varies by gender, bone structure, and muscle mass." },
-      { "question": "Can I be healthy at a weight above the ideal?", "answer": "Yes, especially if you have high muscle mass or a large bone structure." },
-      { "question": "How do I reach my ideal weight healthily?", "answer": "Through gradual diet adjustments and exercise, at a rate of 0.5-1 kg per week." }
+      {
+        "question": "Is ideal weight the same for everyone of the same height?",
+        "answer": "No, it varies by gender, bone structure, and muscle mass."
+      },
+      {
+        "question": "Can I be healthy at a weight above the ideal?",
+        "answer": "Yes, especially if you have high muscle mass or a large bone structure."
+      },
+      {
+        "question": "How do I reach my ideal weight healthily?",
+        "answer": "Through gradual diet adjustments and exercise, at a rate of 0.5-1 kg per week."
+      }
     ]
   },
   "waist-to-hip-ratio-calculator": {
@@ -116,15 +173,33 @@
       "formula": "WHR = Waist Circumference (cm) ÷ Hip Circumference (cm)",
       "explanation": "This ratio measures body fat distribution and is an important indicator of health risks. Fat accumulated around the abdomen (apple shape) is more dangerous than fat around the hips (pear shape).",
       "steps": [
-        { "name": "Measure Waist", "text": "Measure your waist at the narrowest point above your navel" },
-        { "name": "Measure Hips", "text": "Measure your hips at the widest point" },
-        { "name": "Calculate Ratio", "text": "The calculator divides waist by hip and evaluates the result" }
+        {
+          "name": "Measure Waist",
+          "text": "Measure your waist at the narrowest point above your navel"
+        },
+        {
+          "name": "Measure Hips",
+          "text": "Measure your hips at the widest point"
+        },
+        {
+          "name": "Calculate Ratio",
+          "text": "The calculator divides waist by hip and evaluates the result"
+        }
       ]
     },
     "useCases": [
-      { "title": "Heart Disease Risk Assessment", "description": "High ratios correlate with increased cardiovascular disease risk" },
-      { "title": "Fat Distribution Tracking", "description": "Monitor changes in fat distribution during weight loss programs" },
-      { "title": "Preventive Health Screening", "description": "A preliminary screening tool for obesity-related health risks" }
+      {
+        "title": "Heart Disease Risk Assessment",
+        "description": "High ratios correlate with increased cardiovascular disease risk"
+      },
+      {
+        "title": "Fat Distribution Tracking",
+        "description": "Monitor changes in fat distribution during weight loss programs"
+      },
+      {
+        "title": "Preventive Health Screening",
+        "description": "A preliminary screening tool for obesity-related health risks"
+      }
     ],
     "seoTips": [
       "Measure at the same time of day for consistent readings",
@@ -139,9 +214,18 @@
       "Not keeping the tape level around the body"
     ],
     "faqs": [
-      { "question": "What is a healthy WHR for men and women?", "answer": "For men: less than 0.9 is healthy. For women: less than 0.85 is healthy." },
-      { "question": "Why is belly fat more dangerous?", "answer": "It's associated with visceral fat that surrounds organs and increases risk of diabetes and heart disease." },
-      { "question": "Can I improve this ratio?", "answer": "Yes, through aerobic exercise, calorie reduction, and core exercises." }
+      {
+        "question": "What is a healthy WHR for men and women?",
+        "answer": "For men: less than 0.9 is healthy. For women: less than 0.85 is healthy."
+      },
+      {
+        "question": "Why is belly fat more dangerous?",
+        "answer": "It's associated with visceral fat that surrounds organs and increases risk of diabetes and heart disease."
+      },
+      {
+        "question": "Can I improve this ratio?",
+        "answer": "Yes, through aerobic exercise, calorie reduction, and core exercises."
+      }
     ]
   },
   "body-frame-size-calculator": {
@@ -152,15 +236,33 @@
       "formula": "R-Value = Height (cm) ÷ Wrist Circumference (cm)",
       "explanation": "This calculator determines your bone structure size based on the ratio of your height to wrist circumference. Knowing your frame size is important for determining a realistic ideal weight range for you.",
       "steps": [
-        { "name": "Measure Height", "text": "Measure your height accurately in centimeters" },
-        { "name": "Measure Wrist", "text": "Measure your wrist circumference at the narrowest point below the wrist bone" },
-        { "name": "Determine Frame", "text": "The tool calculates the ratio and classifies your frame (small, medium, large)" }
+        {
+          "name": "Measure Height",
+          "text": "Measure your height accurately in centimeters"
+        },
+        {
+          "name": "Measure Wrist",
+          "text": "Measure your wrist circumference at the narrowest point below the wrist bone"
+        },
+        {
+          "name": "Determine Frame",
+          "text": "The tool calculates the ratio and classifies your frame (small, medium, large)"
+        }
       ]
     },
     "useCases": [
-      { "title": "Determining Ideal Weight", "description": "Adjust your ideal weight range based on your bone structure" },
-      { "title": "Fitness Planning", "description": "Set realistic goals for muscle mass and weight" },
-      { "title": "Better Body Understanding", "description": "Understand why your weight differs from others of the same height" }
+      {
+        "title": "Determining Ideal Weight",
+        "description": "Adjust your ideal weight range based on your bone structure"
+      },
+      {
+        "title": "Fitness Planning",
+        "description": "Set realistic goals for muscle mass and weight"
+      },
+      {
+        "title": "Better Body Understanding",
+        "description": "Understand why your weight differs from others of the same height"
+      }
     ],
     "seoTips": [
       "Measure wrist at the narrowest point for accuracy",
@@ -175,9 +277,18 @@
       "Confusing frame size with body fat percentage"
     ],
     "faqs": [
-      { "question": "Can body frame size be changed?", "answer": "No, frame size is genetic and cannot be changed through exercise or diet." },
-      { "question": "How does frame size affect ideal weight?", "answer": "Larger frames naturally support more weight, with differences up to 5-10 kg." },
-      { "question": "Why measure the wrist specifically?", "answer": "The wrist has minimal fat and muscle, so it accurately reflects bone size." }
+      {
+        "question": "Can body frame size be changed?",
+        "answer": "No, frame size is genetic and cannot be changed through exercise or diet."
+      },
+      {
+        "question": "How does frame size affect ideal weight?",
+        "answer": "Larger frames naturally support more weight, with differences up to 5-10 kg."
+      },
+      {
+        "question": "Why measure the wrist specifically?",
+        "answer": "The wrist has minimal fat and muscle, so it accurately reflects bone size."
+      }
     ]
   },
   "tdee-calculator": {
@@ -188,15 +299,33 @@
       "formula": "TDEE = BMR × Activity Multiplier (1.2 for sedentary to 1.9 for very active)",
       "explanation": "This tool calculates the total calories your body burns daily by multiplying your Basal Metabolic Rate (BMR) by your physical activity factor. This number is the foundation for any diet plan, whether for weight loss or gain.",
       "steps": [
-        { "name": "Calculate BMR", "text": "The tool calculates your basal metabolic rate from your weight, height, and age" },
-        { "name": "Determine Activity", "text": "Select your daily and weekly physical activity level" },
-        { "name": "Calculate TDEE", "text": "BMR is multiplied by the activity factor to get total daily burn" }
+        {
+          "name": "Calculate BMR",
+          "text": "The tool calculates your basal metabolic rate from your weight, height, and age"
+        },
+        {
+          "name": "Determine Activity",
+          "text": "Select your daily and weekly physical activity level"
+        },
+        {
+          "name": "Calculate TDEE",
+          "text": "BMR is multiplied by the activity factor to get total daily burn"
+        }
       ]
     },
     "useCases": [
-      { "title": "Weight Loss Diet Planning", "description": "Determine the calorie deficit needed for weight loss" },
-      { "title": "Muscle Building Programs", "description": "Know the calorie surplus needed for muscle building" },
-      { "title": "Weight Maintenance", "description": "Know the calories needed to maintain your current weight" }
+      {
+        "title": "Weight Loss Diet Planning",
+        "description": "Determine the calorie deficit needed for weight loss"
+      },
+      {
+        "title": "Muscle Building Programs",
+        "description": "Know the calorie surplus needed for muscle building"
+      },
+      {
+        "title": "Weight Maintenance",
+        "description": "Know the calories needed to maintain your current weight"
+      }
     ],
     "seoTips": [
       "Recalculate TDEE every 4-6 weeks as your weight changes",
@@ -211,9 +340,18 @@
       "Relying on one number without adjusting based on actual results"
     ],
     "faqs": [
-      { "question": "What's the difference between BMR and TDEE?", "answer": "BMR is calories burned at complete rest, while TDEE includes all daily activities." },
-      { "question": "How much should I reduce from TDEE to lose weight?", "answer": "A 500 calorie daily deficit leads to about 0.5 kg loss per week." },
-      { "question": "Is TDEE constant?", "answer": "No, it changes with weight, age, activity level, and muscle mass." }
+      {
+        "question": "What's the difference between BMR and TDEE?",
+        "answer": "BMR is calories burned at complete rest, while TDEE includes all daily activities."
+      },
+      {
+        "question": "How much should I reduce from TDEE to lose weight?",
+        "answer": "A 500 calorie daily deficit leads to about 0.5 kg loss per week."
+      },
+      {
+        "question": "Is TDEE constant?",
+        "answer": "No, it changes with weight, age, activity level, and muscle mass."
+      }
     ]
   },
   "bmr-calculator": {
@@ -224,15 +362,33 @@
       "formula": "Mifflin-St Jeor: Men = (10 × weight) + (6.25 × height) - (5 × age) + 5",
       "explanation": "Basal Metabolic Rate is the minimum calories your body needs to survive at complete rest. This includes breathing, heart rate, brain function, and vital organ functions.",
       "steps": [
-        { "name": "Enter Data", "text": "Input your weight, height, age, and gender" },
-        { "name": "Apply Formulas", "text": "The calculator uses Mifflin-St Jeor and Harris-Benedict formulas" },
-        { "name": "View Results", "text": "Get your basal metabolic rate in calories" }
+        {
+          "name": "Enter Data",
+          "text": "Input your weight, height, age, and gender"
+        },
+        {
+          "name": "Apply Formulas",
+          "text": "The calculator uses Mifflin-St Jeor and Harris-Benedict formulas"
+        },
+        {
+          "name": "View Results",
+          "text": "Get your basal metabolic rate in calories"
+        }
       ]
     },
     "useCases": [
-      { "title": "Nutrition Plan Foundation", "description": "Know the minimum calories you should never go below" },
-      { "title": "TDEE Calculation", "description": "BMR is the basis for calculating total daily burn" },
-      { "title": "Understanding Personal Metabolism", "description": "Learn how efficiently your body burns calories" }
+      {
+        "title": "Nutrition Plan Foundation",
+        "description": "Know the minimum calories you should never go below"
+      },
+      {
+        "title": "TDEE Calculation",
+        "description": "BMR is the basis for calculating total daily burn"
+      },
+      {
+        "title": "Understanding Personal Metabolism",
+        "description": "Learn how efficiently your body burns calories"
+      }
     ],
     "seoTips": [
       "Weigh yourself in the morning before eating for accuracy",
@@ -247,9 +403,18 @@
       "Using inaccurate weight and height measurements"
     ],
     "faqs": [
-      { "question": "Can I increase my BMR?", "answer": "Yes, by building muscle mass since muscles burn more calories than fat even at rest." },
-      { "question": "Why does BMR decrease with age?", "answer": "Due to muscle mass loss and slowing of biological processes with aging." },
-      { "question": "Does BMR differ between men and women?", "answer": "Yes, men typically have higher BMR due to greater muscle mass." }
+      {
+        "question": "Can I increase my BMR?",
+        "answer": "Yes, by building muscle mass since muscles burn more calories than fat even at rest."
+      },
+      {
+        "question": "Why does BMR decrease with age?",
+        "answer": "Due to muscle mass loss and slowing of biological processes with aging."
+      },
+      {
+        "question": "Does BMR differ between men and women?",
+        "answer": "Yes, men typically have higher BMR due to greater muscle mass."
+      }
     ]
   },
   "calorie-deficit-calculator": {
@@ -260,15 +425,33 @@
       "formula": "Daily Calorie Deficit = (Weight to Lose × 7700) ÷ (Weeks × 7)",
       "explanation": "This tool calculates the daily calorie deficit needed to reach your target weight in your specified timeframe. Each kilogram of fat contains approximately 7700 calories.",
       "steps": [
-        { "name": "Set Goal", "text": "Enter your current weight and target weight" },
-        { "name": "Set Timeline", "text": "Specify the number of weeks to reach your goal" },
-        { "name": "Calculate Deficit", "text": "The tool calculates the required daily deficit and target calories" }
+        {
+          "name": "Set Goal",
+          "text": "Enter your current weight and target weight"
+        },
+        {
+          "name": "Set Timeline",
+          "text": "Specify the number of weeks to reach your goal"
+        },
+        {
+          "name": "Calculate Deficit",
+          "text": "The tool calculates the required daily deficit and target calories"
+        }
       ]
     },
     "useCases": [
-      { "title": "Weight Loss Planning", "description": "Know how much to reduce calories to reach your goal" },
-      { "title": "Setting Realistic Timelines", "description": "Determine a healthy timeframe for weight loss" },
-      { "title": "Diet Adjustments", "description": "Calculate daily allowed calories" }
+      {
+        "title": "Weight Loss Planning",
+        "description": "Know how much to reduce calories to reach your goal"
+      },
+      {
+        "title": "Setting Realistic Timelines",
+        "description": "Determine a healthy timeframe for weight loss"
+      },
+      {
+        "title": "Diet Adjustments",
+        "description": "Calculate daily allowed calories"
+      }
     ],
     "seoTips": [
       "Do not exceed a 1000 calorie daily deficit without medical supervision",
@@ -283,9 +466,18 @@
       "Maintaining the same deficit despite weight changes"
     ],
     "faqs": [
-      { "question": "What is a safe calorie deficit?", "answer": "500-750 calories daily is considered safe and leads to 0.5-0.75 kg loss per week." },
-      { "question": "Can the deficit be too large?", "answer": "Yes, large deficits lead to muscle loss, slowed metabolism, and health problems." },
-      { "question": "How do I know if my deficit is appropriate?", "answer": "If you're losing 0.5-1 kg weekly with good energy, your deficit is appropriate." }
+      {
+        "question": "What is a safe calorie deficit?",
+        "answer": "500-750 calories daily is considered safe and leads to 0.5-0.75 kg loss per week."
+      },
+      {
+        "question": "Can the deficit be too large?",
+        "answer": "Yes, large deficits lead to muscle loss, slowed metabolism, and health problems."
+      },
+      {
+        "question": "How do I know if my deficit is appropriate?",
+        "answer": "If you're losing 0.5-1 kg weekly with good energy, your deficit is appropriate."
+      }
     ]
   },
   "macro-calculator": {
@@ -296,15 +488,33 @@
       "formula": "Protein: 1.6-2.2 g/kg, Fat: 20-35% of calories, Carbs: remainder",
       "explanation": "This tool calculates macronutrient distribution (protein, carbohydrates, and fat) based on your daily calories and fitness goal. Proper distribution ensures you get the energy and nutrients needed for your goals.",
       "steps": [
-        { "name": "Enter Calories", "text": "Input your total daily calories (TDEE)" },
-        { "name": "Set Goal", "text": "Choose your goal (build muscle, cut, maintain)" },
-        { "name": "Distribute Macros", "text": "The tool calculates grams of each macronutrient" }
+        {
+          "name": "Enter Calories",
+          "text": "Input your total daily calories (TDEE)"
+        },
+        {
+          "name": "Set Goal",
+          "text": "Choose your goal (build muscle, cut, maintain)"
+        },
+        {
+          "name": "Distribute Macros",
+          "text": "The tool calculates grams of each macronutrient"
+        }
       ]
     },
     "useCases": [
-      { "title": "Building Muscle Mass", "description": "Ensure muscles get adequate protein and energy" },
-      { "title": "Cutting and Fat Loss", "description": "Preserve muscle while losing fat" },
-      { "title": "Special Diets", "description": "Calculate macros for keto or low-carb diets" }
+      {
+        "title": "Building Muscle Mass",
+        "description": "Ensure muscles get adequate protein and energy"
+      },
+      {
+        "title": "Cutting and Fat Loss",
+        "description": "Preserve muscle while losing fat"
+      },
+      {
+        "title": "Special Diets",
+        "description": "Calculate macros for keto or low-carb diets"
+      }
     ],
     "seoTips": [
       "Protein is most important for preserving muscle in any goal",
@@ -319,9 +529,18 @@
       "Ignoring the quality of macro sources"
     ],
     "faqs": [
-      { "question": "What's the best macro split?", "answer": "Depends on your goal: for bulking, approximately 30% protein, 50% carbs, 20% fat." },
-      { "question": "Are carbs necessary?", "answer": "Yes for optimal athletic performance, but can be reduced in certain diets." },
-      { "question": "How much protein do I need daily?", "answer": "1.6-2.2 grams per kilogram of body weight for athletes." }
+      {
+        "question": "What's the best macro split?",
+        "answer": "Depends on your goal: for bulking, approximately 30% protein, 50% carbs, 20% fat."
+      },
+      {
+        "question": "Are carbs necessary?",
+        "answer": "Yes for optimal athletic performance, but can be reduced in certain diets."
+      },
+      {
+        "question": "How much protein do I need daily?",
+        "answer": "1.6-2.2 grams per kilogram of body weight for athletes."
+      }
     ]
   },
   "protein-intake-calculator": {
@@ -394,15 +613,33 @@
       "formula": "Daily Calories = TDEE + (Weekly Gain Target × 7700 calories ÷ 7 days)",
       "explanation": "This calculator determines the daily calorie surplus and macronutrient breakdown needed to gain weight at your desired rate. Gaining 1 kg requires approximately 7700 excess calories, so the calculator adds the appropriate surplus to your maintenance calories.",
       "steps": [
-        { "name": "Enter TDEE", "text": "Input your total daily energy expenditure (maintenance calories)" },
-        { "name": "Set Gain Target", "text": "Choose your desired weekly weight gain rate" },
-        { "name": "Get Bulking Plan", "text": "Receive your daily calorie and macro targets for muscle building" }
+        {
+          "name": "Enter TDEE",
+          "text": "Input your total daily energy expenditure (maintenance calories)"
+        },
+        {
+          "name": "Set Gain Target",
+          "text": "Choose your desired weekly weight gain rate"
+        },
+        {
+          "name": "Get Bulking Plan",
+          "text": "Receive your daily calorie and macro targets for muscle building"
+        }
       ]
     },
     "useCases": [
-      { "title": "Muscle Building", "description": "Calculate the optimal calorie surplus for lean muscle gains" },
-      { "title": "Underweight Recovery", "description": "Plan healthy weight gain for those needing to increase body mass" },
-      { "title": "Sports Performance", "description": "Calculate calorie needs for athletes needing to move up a weight class" }
+      {
+        "title": "Muscle Building",
+        "description": "Calculate the optimal calorie surplus for lean muscle gains"
+      },
+      {
+        "title": "Underweight Recovery",
+        "description": "Plan healthy weight gain for those needing to increase body mass"
+      },
+      {
+        "title": "Sports Performance",
+        "description": "Calculate calorie needs for athletes needing to move up a weight class"
+      }
     ],
     "seoTips": [
       "A 300-500 calorie surplus is optimal for lean muscle gain with minimal fat",
@@ -417,9 +654,18 @@
       "Gaining weight too quickly and accumulating unnecessary body fat"
     ],
     "faqs": [
-      { "question": "How much weight should I gain per week?", "answer": "0.25-0.5 kg weekly for lean gains. Faster rates typically mean more fat than muscle." },
-      { "question": "How many extra calories do I need?", "answer": "300-500 calories above TDEE is sufficient for most people to build muscle." },
-      { "question": "What if I am gaining fat?", "answer": "Reduce your surplus slightly and ensure you are training hard enough to stimulate muscle growth." }
+      {
+        "question": "How much weight should I gain per week?",
+        "answer": "0.25-0.5 kg weekly for lean gains. Faster rates typically mean more fat than muscle."
+      },
+      {
+        "question": "How many extra calories do I need?",
+        "answer": "300-500 calories above TDEE is sufficient for most people to build muscle."
+      },
+      {
+        "question": "What if I am gaining fat?",
+        "answer": "Reduce your surplus slightly and ensure you are training hard enough to stimulate muscle growth."
+      }
     ]
   },
   "weight-loss-time-calculator": {
@@ -452,15 +698,33 @@
       "formula": "Epley Formula: 1RM = Weight × (1 + Reps ÷ 30)",
       "explanation": "This calculator estimates the maximum weight you can lift for one repetition based on a weight you lifted for multiple reps. This helps you know your max strength without risking injury from an actual 1RM test.",
       "steps": [
-        { "name": "Enter Weight", "text": "Input the weight you lifted in your last set" },
-        { "name": "Enter Reps", "text": "Input the number of reps you completed with proper form" },
-        { "name": "Calculate 1RM", "text": "The tool applies multiple formulas and gives you the estimate" }
+        {
+          "name": "Enter Weight",
+          "text": "Input the weight you lifted in your last set"
+        },
+        {
+          "name": "Enter Reps",
+          "text": "Input the number of reps you completed with proper form"
+        },
+        {
+          "name": "Calculate 1RM",
+          "text": "The tool applies multiple formulas and gives you the estimate"
+        }
       ]
     },
     "useCases": [
-      { "title": "Programming Workouts", "description": "Determine training weights as percentages of 1RM" },
-      { "title": "Measuring Progress", "description": "Track strength increases over time" },
-      { "title": "Competition Prep", "description": "Estimate attempt weights for powerlifting competitions" }
+      {
+        "title": "Programming Workouts",
+        "description": "Determine training weights as percentages of 1RM"
+      },
+      {
+        "title": "Measuring Progress",
+        "description": "Track strength increases over time"
+      },
+      {
+        "title": "Competition Prep",
+        "description": "Estimate attempt weights for powerlifting competitions"
+      }
     ],
     "seoTips": [
       "Use 3-6 reps for more accurate estimates",
@@ -475,9 +739,18 @@
       "Relying on estimates without actually testing weights"
     ],
     "faqs": [
-      { "question": "How accurate are 1RM estimates?", "answer": "Very accurate with 3-6 reps (±5%), accuracy decreases with more reps." },
-      { "question": "Should I test my actual 1RM?", "answer": "Not necessary for beginners - estimates are sufficient. Advanced lifters may need it for competitions." },
-      { "question": "How do I use 1RM in training?", "answer": "Use percentages: 70-80% for hypertrophy, 80-90% for strength, 90%+ for max strength." }
+      {
+        "question": "How accurate are 1RM estimates?",
+        "answer": "Very accurate with 3-6 reps (±5%), accuracy decreases with more reps."
+      },
+      {
+        "question": "Should I test my actual 1RM?",
+        "answer": "Not necessary for beginners - estimates are sufficient. Advanced lifters may need it for competitions."
+      },
+      {
+        "question": "How do I use 1RM in training?",
+        "answer": "Use percentages: 70-80% for hypertrophy, 80-90% for strength, 90%+ for max strength."
+      }
     ]
   },
   "workout-volume-calculator": {
@@ -488,15 +761,33 @@
       "formula": "Training Volume = Sets × Reps × Weight",
       "explanation": "This tool calculates the total training volume you perform weekly. Training volume is the primary driver of muscle growth, and monitoring it helps you progress and avoid overtraining.",
       "steps": [
-        { "name": "Enter Sets", "text": "Input the number of sets for each exercise" },
-        { "name": "Enter Reps and Weight", "text": "Input the reps and weight used" },
-        { "name": "Calculate Volume", "text": "The tool calculates total weekly volume" }
+        {
+          "name": "Enter Sets",
+          "text": "Input the number of sets for each exercise"
+        },
+        {
+          "name": "Enter Reps and Weight",
+          "text": "Input the reps and weight used"
+        },
+        {
+          "name": "Calculate Volume",
+          "text": "The tool calculates total weekly volume"
+        }
       ]
     },
     "useCases": [
-      { "title": "Progressive Overload", "description": "Systematically increase volume to stimulate growth" },
-      { "title": "Avoiding Overtraining", "description": "Monitor volume to prevent fatigue and injuries" },
-      { "title": "Comparing Programs", "description": "Evaluate effectiveness of different training programs" }
+      {
+        "title": "Progressive Overload",
+        "description": "Systematically increase volume to stimulate growth"
+      },
+      {
+        "title": "Avoiding Overtraining",
+        "description": "Monitor volume to prevent fatigue and injuries"
+      },
+      {
+        "title": "Comparing Programs",
+        "description": "Evaluate effectiveness of different training programs"
+      }
     ],
     "seoTips": [
       "Increase volume by 5-10% weekly for continuous progress",
@@ -511,9 +802,18 @@
       "Comparing your volume to others at different levels"
     ],
     "faqs": [
-      { "question": "What's optimal volume for hypertrophy?", "answer": "10-20 sets per muscle group weekly for intermediate trainees." },
-      { "question": "Is volume more important than intensity?", "answer": "Both matter - volume drives hypertrophy, intensity drives strength." },
-      { "question": "When should I reduce volume?", "answer": "When feeling persistent fatigue, decreased performance, or every 4-6 weeks." }
+      {
+        "question": "What's optimal volume for hypertrophy?",
+        "answer": "10-20 sets per muscle group weekly for intermediate trainees."
+      },
+      {
+        "question": "Is volume more important than intensity?",
+        "answer": "Both matter - volume drives hypertrophy, intensity drives strength."
+      },
+      {
+        "question": "When should I reduce volume?",
+        "answer": "When feeling persistent fatigue, decreased performance, or every 4-6 weeks."
+      }
     ]
   },
   "wilks-coefficient-calculator": {
@@ -524,15 +824,33 @@
       "formula": "Wilks = Total Lifted × Coefficient (based on body weight and gender)",
       "explanation": "The Wilks coefficient is a mathematical formula that allows comparing strength between lifters of different weights and genders. It's used in powerlifting competitions to determine the relatively strongest lifter.",
       "steps": [
-        { "name": "Enter Data", "text": "Input your body weight and gender" },
-        { "name": "Enter Total", "text": "Input the sum of your best attempts in all three lifts" },
-        { "name": "Calculate Score", "text": "The tool calculates your Wilks score and performance level" }
+        {
+          "name": "Enter Data",
+          "text": "Input your body weight and gender"
+        },
+        {
+          "name": "Enter Total",
+          "text": "Input the sum of your best attempts in all three lifts"
+        },
+        {
+          "name": "Calculate Score",
+          "text": "The tool calculates your Wilks score and performance level"
+        }
       ]
     },
     "useCases": [
-      { "title": "Powerlifting Competitions", "description": "Determine the winner between lifters from different weight classes" },
-      { "title": "Progress Tracking", "description": "Know if your strength is improving relative to your weight" },
-      { "title": "Performance Comparison", "description": "Compare yourself against global standards" }
+      {
+        "title": "Powerlifting Competitions",
+        "description": "Determine the winner between lifters from different weight classes"
+      },
+      {
+        "title": "Progress Tracking",
+        "description": "Know if your strength is improving relative to your weight"
+      },
+      {
+        "title": "Performance Comparison",
+        "description": "Compare yourself against global standards"
+      }
     ],
     "seoTips": [
       "300+ is considered average, 400+ advanced, 500+ elite",
@@ -547,9 +865,18 @@
       "Expecting large score improvements quickly"
     ],
     "faqs": [
-      { "question": "What's a good Wilks score?", "answer": "300+ average, 400+ advanced, 450+ elite, 500+ world-class for men." },
-      { "question": "Is Wilks perfect for comparison?", "answer": "It's most widely used, but alternatives like DOTS and IPF Points exist." },
-      { "question": "How do I improve my Wilks score?", "answer": "By increasing strength faster than weight, or reducing weight while maintaining strength." }
+      {
+        "question": "What's a good Wilks score?",
+        "answer": "300+ average, 400+ advanced, 450+ elite, 500+ world-class for men."
+      },
+      {
+        "question": "Is Wilks perfect for comparison?",
+        "answer": "It's most widely used, but alternatives like DOTS and IPF Points exist."
+      },
+      {
+        "question": "How do I improve my Wilks score?",
+        "answer": "By increasing strength faster than weight, or reducing weight while maintaining strength."
+      }
     ]
   },
   "pace-calculator": {
@@ -560,15 +887,33 @@
       "formula": "Pace (min/km) = Total Time (minutes) ÷ Distance (km)",
       "explanation": "This tool calculates your running pace (time per kilometer or mile) based on distance and total time. Knowing your pace helps you plan for races and train more effectively.",
       "steps": [
-        { "name": "Enter Distance", "text": "Input the distance you covered in kilometers" },
-        { "name": "Enter Time", "text": "Input total time (hours, minutes, seconds)" },
-        { "name": "Calculate Pace", "text": "The tool calculates your pace per km/mile and speed" }
+        {
+          "name": "Enter Distance",
+          "text": "Input the distance you covered in kilometers"
+        },
+        {
+          "name": "Enter Time",
+          "text": "Input total time (hours, minutes, seconds)"
+        },
+        {
+          "name": "Calculate Pace",
+          "text": "The tool calculates your pace per km/mile and speed"
+        }
       ]
     },
     "useCases": [
-      { "title": "Race Planning", "description": "Determine starting pace and target pace for races" },
-      { "title": "Speed Training", "description": "Set pace for interval training" },
-      { "title": "Progress Tracking", "description": "Monitor speed improvements over time" }
+      {
+        "title": "Race Planning",
+        "description": "Determine starting pace and target pace for races"
+      },
+      {
+        "title": "Speed Training",
+        "description": "Set pace for interval training"
+      },
+      {
+        "title": "Progress Tracking",
+        "description": "Monitor speed improvements over time"
+      }
     ],
     "seoTips": [
       "5:00 min/km pace is good for recreational runners",
@@ -583,9 +928,18 @@
       "Comparing your pace to more experienced runners"
     ],
     "faqs": [
-      { "question": "What's a good pace for beginners?", "answer": "6:00-7:00 min/km is good for beginners - consistency matters most." },
-      { "question": "How do I improve my pace?", "answer": "Through regular training, interval workouts, and long slow runs." },
-      { "question": "Should I always run at the same pace?", "answer": "No, variety is important: 80% easy running and 20% speed training." }
+      {
+        "question": "What's a good pace for beginners?",
+        "answer": "6:00-7:00 min/km is good for beginners - consistency matters most."
+      },
+      {
+        "question": "How do I improve my pace?",
+        "answer": "Through regular training, interval workouts, and long slow runs."
+      },
+      {
+        "question": "Should I always run at the same pace?",
+        "answer": "No, variety is important: 80% easy running and 20% speed training."
+      }
     ]
   },
   "race-time-predictor": {
@@ -596,15 +950,33 @@
       "formula": "Riegel Formula: T2 = T1 × (D2 ÷ D1)^1.06",
       "explanation": "This tool uses the scientific Riegel formula to predict your time at a new distance based on your performance at another distance. The formula accounts for the fact that pace slows as distance increases.",
       "steps": [
-        { "name": "Enter Previous Race", "text": "Input the distance and time of a race you completed" },
-        { "name": "Set Target Distance", "text": "Select the distance you want to predict" },
-        { "name": "View Prediction", "text": "The tool calculates your predicted time and pace" }
+        {
+          "name": "Enter Previous Race",
+          "text": "Input the distance and time of a race you completed"
+        },
+        {
+          "name": "Set Target Distance",
+          "text": "Select the distance you want to predict"
+        },
+        {
+          "name": "View Prediction",
+          "text": "The tool calculates your predicted time and pace"
+        }
       ]
     },
     "useCases": [
-      { "title": "Marathon Planning", "description": "Predict marathon time from 10K or half marathon performance" },
-      { "title": "Goal Setting", "description": "Set realistic goals for upcoming races" },
-      { "title": "Race Selection", "description": "Know if you're ready for a certain distance" }
+      {
+        "title": "Marathon Planning",
+        "description": "Predict marathon time from 10K or half marathon performance"
+      },
+      {
+        "title": "Goal Setting",
+        "description": "Set realistic goals for upcoming races"
+      },
+      {
+        "title": "Race Selection",
+        "description": "Know if you're ready for a certain distance"
+      }
     ],
     "seoTips": [
       "Use a recent race result (within 2-3 months)",
@@ -619,9 +991,18 @@
       "Expecting major improvements without additional training"
     ],
     "faqs": [
-      { "question": "How accurate are predictions?", "answer": "Very accurate between similar distances, less accurate for marathon from 5K." },
-      { "question": "Which distance is best for prediction?", "answer": "Half marathon best predicts marathon, 10K best predicts half marathon." },
-      { "question": "Why is my actual performance different?", "answer": "Training, nutrition, weather, and race-day psychology all affect performance." }
+      {
+        "question": "How accurate are predictions?",
+        "answer": "Very accurate between similar distances, less accurate for marathon from 5K."
+      },
+      {
+        "question": "Which distance is best for prediction?",
+        "answer": "Half marathon best predicts marathon, 10K best predicts half marathon."
+      },
+      {
+        "question": "Why is my actual performance different?",
+        "answer": "Training, nutrition, weather, and race-day psychology all affect performance."
+      }
     ]
   },
   "vo2-max-calculator": {
@@ -632,15 +1013,33 @@
       "formula": "VO2 Max ≈ 15.3 × (Max Heart Rate ÷ Resting Heart Rate)",
       "explanation": "VO2 Max is the maximum amount of oxygen your body can use during intense exercise. Measured in milliliters per kilogram per minute, it's the best indicator of cardiorespiratory fitness.",
       "steps": [
-        { "name": "Measure Resting HR", "text": "Measure your pulse in the morning before getting out of bed" },
-        { "name": "Enter Data", "text": "Input your age, resting heart rate, and max heart rate" },
-        { "name": "Estimate VO2 Max", "text": "The tool calculates your VO2 Max estimate and level" }
+        {
+          "name": "Measure Resting HR",
+          "text": "Measure your pulse in the morning before getting out of bed"
+        },
+        {
+          "name": "Enter Data",
+          "text": "Input your age, resting heart rate, and max heart rate"
+        },
+        {
+          "name": "Estimate VO2 Max",
+          "text": "The tool calculates your VO2 Max estimate and level"
+        }
       ]
     },
     "useCases": [
-      { "title": "Fitness Assessment", "description": "Know your cardiorespiratory fitness level" },
-      { "title": "Progress Tracking", "description": "Monitor fitness improvements with training" },
-      { "title": "Sports Planning", "description": "Determine appropriate training zones" }
+      {
+        "title": "Fitness Assessment",
+        "description": "Know your cardiorespiratory fitness level"
+      },
+      {
+        "title": "Progress Tracking",
+        "description": "Monitor fitness improvements with training"
+      },
+      {
+        "title": "Sports Planning",
+        "description": "Determine appropriate training zones"
+      }
     ],
     "seoTips": [
       "Measure resting heart rate several days and take the average",
@@ -655,9 +1054,18 @@
       "Comparing your values to people of different ages"
     ],
     "faqs": [
-      { "question": "What's a good VO2 Max value?", "answer": "For men: 35-40 average, 45-55 good, 60+ excellent. Women about 10% lower." },
-      { "question": "How do I improve VO2 Max?", "answer": "Through regular aerobic training, especially HIIT and long runs." },
-      { "question": "Is the estimate accurate?", "answer": "A good estimate, but lab testing is much more accurate." }
+      {
+        "question": "What's a good VO2 Max value?",
+        "answer": "For men: 35-40 average, 45-55 good, 60+ excellent. Women about 10% lower."
+      },
+      {
+        "question": "How do I improve VO2 Max?",
+        "answer": "Through regular aerobic training, especially HIIT and long runs."
+      },
+      {
+        "question": "Is the estimate accurate?",
+        "answer": "A good estimate, but lab testing is much more accurate."
+      }
     ]
   },
   "heart-rate-zone-calculator": {
@@ -668,15 +1076,33 @@
       "formula": "Max Heart Rate = 220 - Age, then zones are calculated as percentages",
       "explanation": "This tool divides your heart rate range into 5 training zones, each targeting different physiological adaptations. Training in the right zone ensures you achieve your goals efficiently.",
       "steps": [
-        { "name": "Enter Age", "text": "Input your age to calculate max heart rate" },
-        { "name": "Enter Resting HR", "text": "Input your resting heart rate for accuracy" },
-        { "name": "View Zones", "text": "The tool calculates your five training zones" }
+        {
+          "name": "Enter Age",
+          "text": "Input your age to calculate max heart rate"
+        },
+        {
+          "name": "Enter Resting HR",
+          "text": "Input your resting heart rate for accuracy"
+        },
+        {
+          "name": "View Zones",
+          "text": "The tool calculates your five training zones"
+        }
       ]
     },
     "useCases": [
-      { "title": "Fat Burning", "description": "Train in the fat burning zone (60-70% of max HR)" },
-      { "title": "Endurance Improvement", "description": "Train in the aerobic zone to build endurance capacity" },
-      { "title": "HIIT Training", "description": "Set intensity for high-intensity interval workouts" }
+      {
+        "title": "Fat Burning",
+        "description": "Train in the fat burning zone (60-70% of max HR)"
+      },
+      {
+        "title": "Endurance Improvement",
+        "description": "Train in the aerobic zone to build endurance capacity"
+      },
+      {
+        "title": "HIIT Training",
+        "description": "Set intensity for high-intensity interval workouts"
+      }
     ],
     "seoTips": [
       "Use a fitness watch to monitor heart rate during exercise",
@@ -691,9 +1117,18 @@
       "Not using a device to measure heart rate"
     ],
     "faqs": [
-      { "question": "Which zone is best for fat burning?", "answer": "Zone 2-3, but high-intensity training burns more total calories." },
-      { "question": "Is the 220-age formula accurate?", "answer": "Estimated - actual max heart rate may vary by ±10-15 beats." },
-      { "question": "How often should I train in zone 5?", "answer": "Maximum 1-2 times weekly, with adequate rest afterward." }
+      {
+        "question": "Which zone is best for fat burning?",
+        "answer": "Zone 2-3, but high-intensity training burns more total calories."
+      },
+      {
+        "question": "Is the 220-age formula accurate?",
+        "answer": "Estimated - actual max heart rate may vary by ±10-15 beats."
+      },
+      {
+        "question": "How often should I train in zone 5?",
+        "answer": "Maximum 1-2 times weekly, with adequate rest afterward."
+      }
     ]
   },
   "swimming-pace-calculator": {
@@ -704,15 +1139,33 @@
       "formula": "Pace per 100m = (Total Time in seconds ÷ Distance in meters) × 100",
       "explanation": "This tool calculates your swimming pace per 100 meters, the standard unit in swimming. Knowing your pace helps you plan for races and improve your performance.",
       "steps": [
-        { "name": "Enter Distance", "text": "Input the distance you swam in meters" },
-        { "name": "Enter Time", "text": "Input total time (minutes and seconds)" },
-        { "name": "Calculate Pace", "text": "The tool calculates your pace per 100 meters" }
+        {
+          "name": "Enter Distance",
+          "text": "Input the distance you swam in meters"
+        },
+        {
+          "name": "Enter Time",
+          "text": "Input total time (minutes and seconds)"
+        },
+        {
+          "name": "Calculate Pace",
+          "text": "The tool calculates your pace per 100 meters"
+        }
       ]
     },
     "useCases": [
-      { "title": "Race Planning", "description": "Set target pace for swimming competitions" },
-      { "title": "Interval Training", "description": "Set pace for interval swimming workouts" },
-      { "title": "Comparing Strokes", "description": "Find which stroke is fastest for you" }
+      {
+        "title": "Race Planning",
+        "description": "Set target pace for swimming competitions"
+      },
+      {
+        "title": "Interval Training",
+        "description": "Set pace for interval swimming workouts"
+      },
+      {
+        "title": "Comparing Strokes",
+        "description": "Find which stroke is fastest for you"
+      }
     ],
     "seoTips": [
       "2:00/100m pace is good for recreational swimmers",
@@ -727,9 +1180,18 @@
       "Ignoring the importance of turns and starts"
     ],
     "faqs": [
-      { "question": "What's a good swimming pace?", "answer": "Recreational: 2:00-2:30/100m, Advanced: 1:30-2:00/100m, Elite: under 1:15/100m." },
-      { "question": "How do I improve my swim pace?", "answer": "By improving technique, breathing, stroke power, and interval training." },
-      { "question": "Does stroke type affect pace?", "answer": "Yes - butterfly is fastest, then freestyle, backstroke, then breaststroke." }
+      {
+        "question": "What's a good swimming pace?",
+        "answer": "Recreational: 2:00-2:30/100m, Advanced: 1:30-2:00/100m, Elite: under 1:15/100m."
+      },
+      {
+        "question": "How do I improve my swim pace?",
+        "answer": "By improving technique, breathing, stroke power, and interval training."
+      },
+      {
+        "question": "Does stroke type affect pace?",
+        "answer": "Yes - butterfly is fastest, then freestyle, backstroke, then breaststroke."
+      }
     ]
   },
   "cycling-power-calculator": {
@@ -740,15 +1202,33 @@
       "formula": "Power = Air Resistance + Rolling Resistance + Climbing Power",
       "explanation": "This tool calculates the power in watts needed to cycle at a specific speed. It considers rider and bike weight, wind speed, and road gradient.",
       "steps": [
-        { "name": "Enter Weights", "text": "Input your weight and bike/equipment weight" },
-        { "name": "Enter Speed", "text": "Input target speed and gradient" },
-        { "name": "Calculate Power", "text": "The tool calculates required power in watts" }
+        {
+          "name": "Enter Weights",
+          "text": "Input your weight and bike/equipment weight"
+        },
+        {
+          "name": "Enter Speed",
+          "text": "Input target speed and gradient"
+        },
+        {
+          "name": "Calculate Power",
+          "text": "The tool calculates required power in watts"
+        }
       ]
     },
     "useCases": [
-      { "title": "Race Planning", "description": "Know the power needed to maintain a certain speed" },
-      { "title": "Power Training", "description": "Set power goals for training" },
-      { "title": "Equipment Selection", "description": "Understand the impact of weight on performance" }
+      {
+        "title": "Race Planning",
+        "description": "Know the power needed to maintain a certain speed"
+      },
+      {
+        "title": "Power Training",
+        "description": "Set power goals for training"
+      },
+      {
+        "title": "Equipment Selection",
+        "description": "Understand the impact of weight on performance"
+      }
     ],
     "seoTips": [
       "Power-to-weight ratio (W/kg) is more important than absolute power",
@@ -763,9 +1243,18 @@
       "Comparing your power without considering test conditions"
     ],
     "faqs": [
-      { "question": "What's good power for a cyclist?", "answer": "Amateurs: 2.5-3.5 W/kg, Advanced: 3.5-4.5, Professionals: 5+ W/kg." },
-      { "question": "How do I improve my power?", "answer": "Through interval training, climbing training, and increasing training volume." },
-      { "question": "Does bike weight matter?", "answer": "Yes for climbing, but aerodynamics matter more on flat terrain." }
+      {
+        "question": "What's good power for a cyclist?",
+        "answer": "Amateurs: 2.5-3.5 W/kg, Advanced: 3.5-4.5, Professionals: 5+ W/kg."
+      },
+      {
+        "question": "How do I improve my power?",
+        "answer": "Through interval training, climbing training, and increasing training volume."
+      },
+      {
+        "question": "Does bike weight matter?",
+        "answer": "Yes for climbing, but aerodynamics matter more on flat terrain."
+      }
     ]
   },
   "body-recomposition-calculator": {
@@ -776,15 +1265,33 @@
       "formula": "Training Day Calories = TDEE + 10-20%, Rest Day Calories = TDEE - 10-20%",
       "explanation": "Body recomposition is building muscle and losing fat simultaneously. It works through calorie cycling: a slight surplus on training days to build muscle, and a slight deficit on rest days to burn fat.",
       "steps": [
-        { "name": "Calculate TDEE", "text": "Input your maintenance calories" },
-        { "name": "Set Training Days", "text": "Specify the number of weight training days weekly" },
-        { "name": "Calculate Calories", "text": "The tool calculates calories for training and rest days" }
+        {
+          "name": "Calculate TDEE",
+          "text": "Input your maintenance calories"
+        },
+        {
+          "name": "Set Training Days",
+          "text": "Specify the number of weight training days weekly"
+        },
+        {
+          "name": "Calculate Calories",
+          "text": "The tool calculates calories for training and rest days"
+        }
       ]
     },
     "useCases": [
-      { "title": "Beginners", "description": "Beginners can build muscle and burn fat more easily" },
-      { "title": "Returning to Training", "description": "Those who stopped training for a while benefit from recomposition" },
-      { "title": "Those Who Don't Want to Bulk", "description": "For those who want to improve body composition without weight gain" }
+      {
+        "title": "Beginners",
+        "description": "Beginners can build muscle and burn fat more easily"
+      },
+      {
+        "title": "Returning to Training",
+        "description": "Those who stopped training for a while benefit from recomposition"
+      },
+      {
+        "title": "Those Who Don't Want to Bulk",
+        "description": "For those who want to improve body composition without weight gain"
+      }
     ],
     "seoTips": [
       "Recomposition is slower than separate bulking or cutting",
@@ -799,9 +1306,18 @@
       "Impatience and switching between approaches"
     ],
     "faqs": [
-      { "question": "Is recomposition possible for everyone?", "answer": "Easier for beginners and those with excess fat, harder for advanced trainees." },
-      { "question": "How long until results?", "answer": "3-6 months to notice significant changes in body composition." },
-      { "question": "Does weight change?", "answer": "It may stay the same as muscle replaces fat." }
+      {
+        "question": "Is recomposition possible for everyone?",
+        "answer": "Easier for beginners and those with excess fat, harder for advanced trainees."
+      },
+      {
+        "question": "How long until results?",
+        "answer": "3-6 months to notice significant changes in body composition."
+      },
+      {
+        "question": "Does weight change?",
+        "answer": "It may stay the same as muscle replaces fat."
+      }
     ]
   },
   "recovery-time-calculator": {
@@ -812,15 +1328,33 @@
       "formula": "Recovery time depends on muscle size, workout intensity, and experience level",
       "explanation": "This tool estimates the time your muscles need to fully recover before training them again. Adequate recovery is essential for building muscle and preventing injuries and overtraining.",
       "steps": [
-        { "name": "Identify Muscle", "text": "Select the muscle group size (small, medium, large)" },
-        { "name": "Set Intensity", "text": "Select the intensity of your workout" },
-        { "name": "Set Experience", "text": "Select your training experience level" }
+        {
+          "name": "Identify Muscle",
+          "text": "Select the muscle group size (small, medium, large)"
+        },
+        {
+          "name": "Set Intensity",
+          "text": "Select the intensity of your workout"
+        },
+        {
+          "name": "Set Experience",
+          "text": "Select your training experience level"
+        }
       ]
     },
     "useCases": [
-      { "title": "Workout Scheduling", "description": "Determine when to train the same muscle again" },
-      { "title": "Avoiding Overtraining", "description": "Prevent training before full recovery" },
-      { "title": "Optimizing Growth", "description": "Full recovery ensures best muscle growth" }
+      {
+        "title": "Workout Scheduling",
+        "description": "Determine when to train the same muscle again"
+      },
+      {
+        "title": "Avoiding Overtraining",
+        "description": "Prevent training before full recovery"
+      },
+      {
+        "title": "Optimizing Growth",
+        "description": "Full recovery ensures best muscle growth"
+      }
     ],
     "seoTips": [
       "Large muscles (legs, back) need 72+ hours",
@@ -835,9 +1369,18 @@
       "Neglecting sleep and nutrition in recovery"
     ],
     "faqs": [
-      { "question": "How do I know if I've recovered?", "answer": "No muscle soreness, good energy, ability to lift the same or more weight." },
-      { "question": "Can I speed up recovery?", "answer": "Yes, through adequate sleep, protein, hydration, and light stretching." },
-      { "question": "What if I train before recovery?", "answer": "Weaker performance, higher injury risk, and less muscle growth." }
+      {
+        "question": "How do I know if I've recovered?",
+        "answer": "No muscle soreness, good energy, ability to lift the same or more weight."
+      },
+      {
+        "question": "Can I speed up recovery?",
+        "answer": "Yes, through adequate sleep, protein, hydration, and light stretching."
+      },
+      {
+        "question": "What if I train before recovery?",
+        "answer": "Weaker performance, higher injury risk, and less muscle growth."
+      }
     ]
   },
   "rep-range-calculator": {
@@ -848,15 +1391,33 @@
       "formula": "Strength: 1-5 reps (85-100% 1RM), Hypertrophy: 6-12 (65-85%), Endurance: 12-20 (50-65%)",
       "explanation": "Different rep ranges target different muscle adaptations. This calculator helps you choose the right range for your goal and calculates suggested weight based on your 1RM.",
       "steps": [
-        { "name": "Set Goal", "text": "Choose your goal (strength, hypertrophy, endurance)" },
-        { "name": "Enter 1RM", "text": "Input the maximum weight you can lift for one rep" },
-        { "name": "View Recommendations", "text": "The tool shows rep ranges and suggested weights" }
+        {
+          "name": "Set Goal",
+          "text": "Choose your goal (strength, hypertrophy, endurance)"
+        },
+        {
+          "name": "Enter 1RM",
+          "text": "Input the maximum weight you can lift for one rep"
+        },
+        {
+          "name": "View Recommendations",
+          "text": "The tool shows rep ranges and suggested weights"
+        }
       ]
     },
     "useCases": [
-      { "title": "Workout Programming", "description": "Determine reps and weights for each exercise" },
-      { "title": "Changing Goals", "description": "Transition from a strength program to hypertrophy or vice versa" },
-      { "title": "Variety", "description": "Change rep ranges periodically to avoid plateaus" }
+      {
+        "title": "Workout Programming",
+        "description": "Determine reps and weights for each exercise"
+      },
+      {
+        "title": "Changing Goals",
+        "description": "Transition from a strength program to hypertrophy or vice versa"
+      },
+      {
+        "title": "Variety",
+        "description": "Change rep ranges periodically to avoid plateaus"
+      }
     ],
     "seoTips": [
       "For max strength: 1-5 reps with heavy weights",
@@ -871,9 +1432,18 @@
       "Not reaching muscle failure on the last set"
     ],
     "faqs": [
-      { "question": "Which range is best for building muscle?", "answer": "6-12 reps is best for hypertrophy, but variety is beneficial." },
-      { "question": "Can I build muscle with high reps?", "answer": "Yes, if you reach muscle failure, but it's less efficient." },
-      { "question": "How much rest between sets?", "answer": "For strength: 3-5 minutes, for hypertrophy: 1-2 minutes, for endurance: 30-60 seconds." }
+      {
+        "question": "Which range is best for building muscle?",
+        "answer": "6-12 reps is best for hypertrophy, but variety is beneficial."
+      },
+      {
+        "question": "Can I build muscle with high reps?",
+        "answer": "Yes, if you reach muscle failure, but it's less efficient."
+      },
+      {
+        "question": "How much rest between sets?",
+        "answer": "For strength: 3-5 minutes, for hypertrophy: 1-2 minutes, for endurance: 30-60 seconds."
+      }
     ]
   },
   "deload-week-calculator": {
@@ -884,15 +1454,33 @@
       "formula": "Deload Need = Training Weeks × Training Intensity ÷ Experience Level",
       "explanation": "A deload week is when you reduce training volume and intensity to allow the nervous system and joints to recover. This tool helps you determine when you need a deload week.",
       "steps": [
-        { "name": "Enter Training Weeks", "text": "Input the number of consecutive intense training weeks" },
-        { "name": "Set Intensity", "text": "Select your current training intensity" },
-        { "name": "Set Experience", "text": "Select your training experience level" }
+        {
+          "name": "Enter Training Weeks",
+          "text": "Input the number of consecutive intense training weeks"
+        },
+        {
+          "name": "Set Intensity",
+          "text": "Select your current training intensity"
+        },
+        {
+          "name": "Set Experience",
+          "text": "Select your training experience level"
+        }
       ]
     },
     "useCases": [
-      { "title": "Preventing Overtraining", "description": "Avoid nervous system and physical fatigue" },
-      { "title": "Periodization Planning", "description": "Schedule deload periods in your program" },
-      { "title": "Performance Improvement", "description": "Regular deloading improves long-term performance" }
+      {
+        "title": "Preventing Overtraining",
+        "description": "Avoid nervous system and physical fatigue"
+      },
+      {
+        "title": "Periodization Planning",
+        "description": "Schedule deload periods in your program"
+      },
+      {
+        "title": "Performance Improvement",
+        "description": "Regular deloading improves long-term performance"
+      }
     ],
     "seoTips": [
       "Plan a deload week every 4-6 weeks of intense training",
@@ -907,9 +1495,18 @@
       "Not regularly scheduling deload weeks"
     ],
     "faqs": [
-      { "question": "When do I need a deload week?", "answer": "Every 4-6 weeks for advanced, every 6-8 weeks for beginners." },
-      { "question": "How do I deload?", "answer": "Reduce volume by 40-60% while maintaining or slightly reducing weights." },
-      { "question": "Does deloading weaken muscles?", "answer": "No, one week doesn't cause muscle loss - it allows for growth." }
+      {
+        "question": "When do I need a deload week?",
+        "answer": "Every 4-6 weeks for advanced, every 6-8 weeks for beginners."
+      },
+      {
+        "question": "How do I deload?",
+        "answer": "Reduce volume by 40-60% while maintaining or slightly reducing weights."
+      },
+      {
+        "question": "Does deloading weaken muscles?",
+        "answer": "No, one week doesn't cause muscle loss - it allows for growth."
+      }
     ]
   },
   "athletic-performance-calculator": {
@@ -920,15 +1517,33 @@
       "formula": "Total Score = Average of (Speed + Explosive Power + Upper Body Strength + Lower Body Strength)",
       "explanation": "This tool evaluates your overall athletic performance based on multiple physical tests. It compares your results to recognized athletic standards to determine your level and strengths and weaknesses.",
       "steps": [
-        { "name": "Enter Test Results", "text": "Input results from speed, jumping, and strength tests" },
-        { "name": "Compare to Standards", "text": "The tool compares your results to athletic standards" },
-        { "name": "View Assessment", "text": "Get overall and detailed scores for each area" }
+        {
+          "name": "Enter Test Results",
+          "text": "Input results from speed, jumping, and strength tests"
+        },
+        {
+          "name": "Compare to Standards",
+          "text": "The tool compares your results to athletic standards"
+        },
+        {
+          "name": "View Assessment",
+          "text": "Get overall and detailed scores for each area"
+        }
       ]
     },
     "useCases": [
-      { "title": "Overall Fitness Assessment", "description": "Know your general athletic level" },
-      { "title": "Identifying Weaknesses", "description": "Find areas that need development" },
-      { "title": "Sport Selection", "description": "Find sports that match your abilities" }
+      {
+        "title": "Overall Fitness Assessment",
+        "description": "Know your general athletic level"
+      },
+      {
+        "title": "Identifying Weaknesses",
+        "description": "Find areas that need development"
+      },
+      {
+        "title": "Sport Selection",
+        "description": "Find sports that match your abilities"
+      }
     ],
     "seoTips": [
       "Perform tests after a good warm-up",
@@ -943,9 +1558,18 @@
       "Ignoring the importance of endurance and flexibility"
     ],
     "faqs": [
-      { "question": "What's a good score?", "answer": "60-70% average, 70-80% good, 80%+ excellent for amateurs." },
-      { "question": "How do I improve my score?", "answer": "Through balanced training including strength, speed, and explosive power." },
-      { "question": "Are the tests accurate?", "answer": "Estimated, but they give a good picture of your general level." }
+      {
+        "question": "What's a good score?",
+        "answer": "60-70% average, 70-80% good, 80%+ excellent for amateurs."
+      },
+      {
+        "question": "How do I improve my score?",
+        "answer": "Through balanced training including strength, speed, and explosive power."
+      },
+      {
+        "question": "Are the tests accurate?",
+        "answer": "Estimated, but they give a good picture of your general level."
+      }
     ]
   },
   "training-age-calculator": {
@@ -956,15 +1580,33 @@
       "formula": "Training Age = Years of consistent training accounting for breaks",
       "explanation": "Training age differs from actual years of training. It considers training quality and consistency. This helps determine your true experience level and appropriate programming.",
       "steps": [
-        { "name": "Enter Start Date", "text": "Input when you started regular training" },
-        { "name": "Account for Breaks", "text": "The tool calculates break periods if any" },
-        { "name": "Determine Level", "text": "The tool determines your experience level (beginner, intermediate, advanced)" }
+        {
+          "name": "Enter Start Date",
+          "text": "Input when you started regular training"
+        },
+        {
+          "name": "Account for Breaks",
+          "text": "The tool calculates break periods if any"
+        },
+        {
+          "name": "Determine Level",
+          "text": "The tool determines your experience level (beginner, intermediate, advanced)"
+        }
       ]
     },
     "useCases": [
-      { "title": "Training Programming", "description": "Choose a program that fits your experience level" },
-      { "title": "Realistic Expectations", "description": "Understand what can be achieved at your level" },
-      { "title": "Progress Planning", "description": "Determine the next phase in your training journey" }
+      {
+        "title": "Training Programming",
+        "description": "Choose a program that fits your experience level"
+      },
+      {
+        "title": "Realistic Expectations",
+        "description": "Understand what can be achieved at your level"
+      },
+      {
+        "title": "Progress Planning",
+        "description": "Determine the next phase in your training journey"
+      }
     ],
     "seoTips": [
       "Beginners (0-1 year) progress quickly with any reasonable program",
@@ -979,9 +1621,18 @@
       "Undervaluing actual experience"
     ],
     "faqs": [
-      { "question": "What's the difference between training age and actual years?", "answer": "Training age only counts effective and consistent training." },
-      { "question": "Do I become a beginner again after a long break?", "answer": "Partially, but muscle memory helps you recover faster." },
-      { "question": "How does training age affect progress?", "answer": "As training age increases, progress slows and you need better programming." }
+      {
+        "question": "What's the difference between training age and actual years?",
+        "answer": "Training age only counts effective and consistent training."
+      },
+      {
+        "question": "Do I become a beginner again after a long break?",
+        "answer": "Partially, but muscle memory helps you recover faster."
+      },
+      {
+        "question": "How does training age affect progress?",
+        "answer": "As training age increases, progress slows and you need better programming."
+      }
     ]
   },
   "vertical-jump-calculator": {
@@ -992,15 +1643,33 @@
       "formula": "Jump Height = Reach at Jump - Standing Reach, Power (W) = √(4.9 × body weight × jump height) × 9.81",
       "explanation": "This tool calculates your vertical jump height and explosive power for lower body muscles. Vertical jump is an important indicator of explosive power needed in most sports.",
       "steps": [
-        { "name": "Measure Standing Reach", "text": "Measure the highest point you can reach while standing flat-footed" },
-        { "name": "Measure Jump Reach", "text": "Measure the highest point you reach at the top of your jump" },
-        { "name": "Calculate Height and Power", "text": "The tool calculates jump height and explosive power" }
+        {
+          "name": "Measure Standing Reach",
+          "text": "Measure the highest point you can reach while standing flat-footed"
+        },
+        {
+          "name": "Measure Jump Reach",
+          "text": "Measure the highest point you reach at the top of your jump"
+        },
+        {
+          "name": "Calculate Height and Power",
+          "text": "The tool calculates jump height and explosive power"
+        }
       ]
     },
     "useCases": [
-      { "title": "Athlete Assessment", "description": "Important in basketball, volleyball, and track and field" },
-      { "title": "Progress Tracking", "description": "Track explosive power improvements with training" },
-      { "title": "Fitness Testing", "description": "Part of fitness tests in most sports" }
+      {
+        "title": "Athlete Assessment",
+        "description": "Important in basketball, volleyball, and track and field"
+      },
+      {
+        "title": "Progress Tracking",
+        "description": "Track explosive power improvements with training"
+      },
+      {
+        "title": "Fitness Testing",
+        "description": "Part of fitness tests in most sports"
+      }
     ],
     "seoTips": [
       "Warm up well before testing",
@@ -1015,9 +1684,18 @@
       "Jumping from movement instead of standing"
     ],
     "faqs": [
-      { "question": "What's a good vertical jump?", "answer": "40-50 cm average, 50-60 cm good, 60+ cm excellent for adult males." },
-      { "question": "How do I improve my jump?", "answer": "Through plyometrics, squats, deadlifts, and improving technique." },
-      { "question": "Does weight affect jumping?", "answer": "Yes, reducing body fat and increasing strength improves jumping." }
+      {
+        "question": "What's a good vertical jump?",
+        "answer": "40-50 cm average, 50-60 cm good, 60+ cm excellent for adult males."
+      },
+      {
+        "question": "How do I improve my jump?",
+        "answer": "Through plyometrics, squats, deadlifts, and improving technique."
+      },
+      {
+        "question": "Does weight affect jumping?",
+        "answer": "Yes, reducing body fat and increasing strength improves jumping."
+      }
     ]
   },
   "flexibility-score-calculator": {
@@ -1028,15 +1706,33 @@
       "formula": "Total Score = Average of different flexibility test scores",
       "explanation": "This tool assesses your body flexibility through several simple tests targeting different areas. Flexibility is important for injury prevention and improving athletic performance and daily life.",
       "steps": [
-        { "name": "Sit and Reach Test", "text": "Measure the distance you can reach past your toes" },
-        { "name": "Shoulder Flexibility Test", "text": "Measure the distance between your hands behind your back" },
-        { "name": "Hip Flexion Test", "text": "Measure the maximum angle of hip flexion" }
+        {
+          "name": "Sit and Reach Test",
+          "text": "Measure the distance you can reach past your toes"
+        },
+        {
+          "name": "Shoulder Flexibility Test",
+          "text": "Measure the distance between your hands behind your back"
+        },
+        {
+          "name": "Hip Flexion Test",
+          "text": "Measure the maximum angle of hip flexion"
+        }
       ]
     },
     "useCases": [
-      { "title": "Flexibility Assessment", "description": "Know your current flexibility level" },
-      { "title": "Injury Prevention", "description": "Good flexibility reduces injury risk" },
-      { "title": "Performance Improvement", "description": "Flexibility improves range of motion and athletic performance" }
+      {
+        "title": "Flexibility Assessment",
+        "description": "Know your current flexibility level"
+      },
+      {
+        "title": "Injury Prevention",
+        "description": "Good flexibility reduces injury risk"
+      },
+      {
+        "title": "Performance Improvement",
+        "description": "Flexibility improves range of motion and athletic performance"
+      }
     ],
     "seoTips": [
       "Perform tests after a light warm-up",
@@ -1051,9 +1747,18 @@
       "Expecting rapid improvement in flexibility"
     ],
     "faqs": [
-      { "question": "How do I improve my flexibility?", "answer": "Through daily stretching for 10-15 minutes, and patience as improvement is slow." },
-      { "question": "Does flexibility improve with age?", "answer": "It naturally decreases, but regular stretching slows this and improves it." },
-      { "question": "When should I stretch?", "answer": "Dynamic stretching before exercise, static stretching after or at a separate time." }
+      {
+        "question": "How do I improve my flexibility?",
+        "answer": "Through daily stretching for 10-15 minutes, and patience as improvement is slow."
+      },
+      {
+        "question": "Does flexibility improve with age?",
+        "answer": "It naturally decreases, but regular stretching slows this and improves it."
+      },
+      {
+        "question": "When should I stretch?",
+        "answer": "Dynamic stretching before exercise, static stretching after or at a separate time."
+      }
     ]
   },
   "one_rep_max": {
@@ -1103,15 +1808,33 @@
       "formula": "Epley Formula: 1RM = Weight × (1 + Reps ÷ 30)",
       "explanation": "This calculator estimates the maximum weight you can lift for one repetition based on the weight and reps you performed. Multiple scientifically-validated formulas (Epley, Brzycki, Lander) are used to provide an accurate average estimate without risking injury from an actual max attempt.",
       "steps": [
-        { "name": "Enter Weight", "text": "Input the weight you lifted in your working set" },
-        { "name": "Enter Reps", "text": "Input the number of repetitions completed with proper form" },
-        { "name": "Calculate 1RM", "text": "The calculator applies multiple formulas and provides your estimated max" }
+        {
+          "name": "Enter Weight",
+          "text": "Input the weight you lifted in your working set"
+        },
+        {
+          "name": "Enter Reps",
+          "text": "Input the number of repetitions completed with proper form"
+        },
+        {
+          "name": "Calculate 1RM",
+          "text": "The calculator applies multiple formulas and provides your estimated max"
+        }
       ]
     },
     "useCases": [
-      { "title": "Training Programming", "description": "Determine training weights as percentages of your 1RM for different goals" },
-      { "title": "Strength Progress Tracking", "description": "Monitor strength gains over time without maxing out" },
-      { "title": "Competition Preparation", "description": "Estimate attempt weights for powerlifting meets" }
+      {
+        "title": "Training Programming",
+        "description": "Determine training weights as percentages of your 1RM for different goals"
+      },
+      {
+        "title": "Strength Progress Tracking",
+        "description": "Monitor strength gains over time without maxing out"
+      },
+      {
+        "title": "Competition Preparation",
+        "description": "Estimate attempt weights for powerlifting meets"
+      }
     ],
     "seoTips": [
       "Use 3-6 reps for the most accurate estimates",
@@ -1126,9 +1849,18 @@
       "Attempting actual 1RM tests too frequently"
     ],
     "faqs": [
-      { "question": "How accurate are 1RM estimates?", "answer": "Estimates are most accurate (within 5%) when using 3-6 reps. Accuracy decreases with higher rep counts." },
-      { "question": "Should I test my actual 1RM?", "answer": "Not necessary for most trainees. Estimates work well for programming. Only competitive powerlifters need to test actual maxes." },
-      { "question": "How do I use 1RM in my training?", "answer": "Use percentages: 70-80% for hypertrophy (8-12 reps), 80-90% for strength (3-6 reps), 90%+ for peaking." }
+      {
+        "question": "How accurate are 1RM estimates?",
+        "answer": "Estimates are most accurate (within 5%) when using 3-6 reps. Accuracy decreases with higher rep counts."
+      },
+      {
+        "question": "Should I test my actual 1RM?",
+        "answer": "Not necessary for most trainees. Estimates work well for programming. Only competitive powerlifters need to test actual maxes."
+      },
+      {
+        "question": "How do I use 1RM in my training?",
+        "answer": "Use percentages: 70-80% for hypertrophy (8-12 reps), 80-90% for strength (3-6 reps), 90%+ for peaking."
+      }
     ]
   },
   "bmr": {
@@ -1149,15 +1881,33 @@
       "formula": "Mifflin-St Jeor: Men = (10 × weight) + (6.25 × height) - (5 × age) + 5",
       "explanation": "Basal Metabolic Rate represents the minimum calories your body needs to maintain vital functions at complete rest, including breathing, circulation, brain function, and organ maintenance. This calculator uses multiple validated formulas to provide accurate estimates.",
       "steps": [
-        { "name": "Enter Personal Data", "text": "Input your weight, height, age, and gender" },
-        { "name": "Formula Application", "text": "The calculator applies Mifflin-St Jeor and Harris-Benedict formulas" },
-        { "name": "View Results", "text": "Get your basal metabolic rate in calories per day" }
+        {
+          "name": "Enter Personal Data",
+          "text": "Input your weight, height, age, and gender"
+        },
+        {
+          "name": "Formula Application",
+          "text": "The calculator applies Mifflin-St Jeor and Harris-Benedict formulas"
+        },
+        {
+          "name": "View Results",
+          "text": "Get your basal metabolic rate in calories per day"
+        }
       ]
     },
     "useCases": [
-      { "title": "Nutrition Planning Foundation", "description": "Establish the minimum calorie intake you should never go below" },
-      { "title": "TDEE Calculation Base", "description": "BMR is the foundation for calculating total daily energy expenditure" },
-      { "title": "Metabolism Assessment", "description": "Understand how efficiently your body burns calories at rest" }
+      {
+        "title": "Nutrition Planning Foundation",
+        "description": "Establish the minimum calorie intake you should never go below"
+      },
+      {
+        "title": "TDEE Calculation Base",
+        "description": "BMR is the foundation for calculating total daily energy expenditure"
+      },
+      {
+        "title": "Metabolism Assessment",
+        "description": "Understand how efficiently your body burns calories at rest"
+      }
     ],
     "seoTips": [
       "Weigh yourself in the morning before eating for the most accurate input",
@@ -1172,61 +1922,34 @@
       "Using inaccurate weight or height measurements"
     ],
     "faqs": [
-      { "question": "Can I increase my BMR?", "answer": "Yes, primarily by building muscle mass. Muscle tissue burns more calories than fat, even at rest." },
-      { "question": "Why does BMR decrease with age?", "answer": "Due to natural muscle mass loss (sarcopenia) and slower biological processes that occur with aging." },
-      { "question": "Is BMR different for men and women?", "answer": "Yes, men typically have higher BMR due to greater muscle mass and different hormonal profiles." }
+      {
+        "question": "Can I increase my BMR?",
+        "answer": "Yes, primarily by building muscle mass. Muscle tissue burns more calories than fat, even at rest."
+      },
+      {
+        "question": "Why does BMR decrease with age?",
+        "answer": "Due to natural muscle mass loss (sarcopenia) and slower biological processes that occur with aging."
+      },
+      {
+        "question": "Is BMR different for men and women?",
+        "answer": "Yes, men typically have higher BMR due to greater muscle mass and different hormonal profiles."
+      }
     ]
   },
   "tdee": {
-    "title": "Total Daily Energy Expenditure (TDEE) Calculator",
-    "description": "Calculate your Total Daily Energy Expenditure (TDEE) based on your activity level.",
-    "results_title": "TDEE Results",
-    "tdee_value": "Total Daily Energy Consumed",
+    "title": "TDEE Calculator",
+    "description": "Calculate your Total Daily Energy Expenditure based on activity level",
+    "about_title": "About TDEE",
+    "about_desc": "Total Daily Energy Expenditure (TDEE) is the total number of calories you burn in a day, including exercise and daily activities.",
+    "empty_state": "Enter your details above to calculate your TDEE",
     "maintenance_calories": "Maintenance Calories",
-    "weight_loss_goals": "Weight Loss Goals",
-    "weight_gain_goals": "Weight Gain Goals",
-    "mild_loss": "Mild Loss (0.25 kg/week)",
-    "normal_loss": "Normal Loss (0.5 kg/week)",
-    "extreme_loss": "Extreme Loss (1 kg/week)",
-    "mild_gain": "Mild Gain (0.25 kg/week)",
-    "normal_gain": "Normal Gain (0.5 kg/week)",
-    "extreme_gain": "Extreme Gain (1 kg/week)",
-    "about_title": "What is TDEE?",
-    "about_desc": "Total Daily Energy Expenditure is an estimate of how many calories you burn per day considering your physical activity.",
-    "empty_state": "Enter your data to calculate your total daily calories",
-    "footer_note": "For best results, recalculate whenever your weight or activity level changes.",
-    "howItWorks": {
-      "title": "How the TDEE Calculator Works",
-      "formula": "TDEE = BMR × Activity Multiplier (1.2 for sedentary to 1.9 for very active)",
-      "explanation": "Total Daily Energy Expenditure calculates the total calories your body burns daily by multiplying your Basal Metabolic Rate by an activity factor. This number is the foundation for any diet plan, whether for weight loss, maintenance, or muscle building.",
-      "steps": [
-        { "name": "Calculate BMR", "text": "The tool calculates your basal metabolic rate from weight, height, and age" },
-        { "name": "Determine Activity Level", "text": "Select your daily and weekly physical activity level" },
-        { "name": "Calculate TDEE", "text": "BMR is multiplied by the activity factor to get total daily calorie burn" }
-      ]
-    },
-    "useCases": [
-      { "title": "Weight Loss Planning", "description": "Determine the calorie deficit needed to lose weight at your desired rate" },
-      { "title": "Muscle Building Programs", "description": "Calculate the calorie surplus needed for optimal muscle growth" },
-      { "title": "Weight Maintenance", "description": "Know exactly how many calories to eat to maintain your current weight" }
-    ],
-    "seoTips": [
-      "Recalculate TDEE every 4-6 weeks as your weight changes",
-      "Be honest when assessing your activity level for accurate results",
-      "Most people overestimate their physical activity level",
-      "Start with a lower activity level and adjust based on actual weight changes"
-    ],
-    "commonMistakes": [
-      "Overestimating physical activity level leading to incorrect calorie targets",
-      "Not updating calculations after significant weight loss or gain",
-      "Ignoring non-exercise activity thermogenesis (NEAT) like walking and housework",
-      "Relying on one calculation without adjusting based on real-world results"
-    ],
-    "faqs": [
-      { "question": "What is the difference between BMR and TDEE?", "answer": "BMR is calories burned at complete rest, while TDEE includes all daily activities and exercise." },
-      { "question": "How much should I reduce from TDEE to lose weight?", "answer": "A 500-calorie daily deficit leads to approximately 0.5 kg (1 lb) weight loss per week." },
-      { "question": "Is TDEE constant?", "answer": "No, it changes with weight, age, activity level, muscle mass, and hormonal factors." }
-    ]
+    "mild_loss": "Mild Weight Loss",
+    "normal_loss": "Weight Loss",
+    "extreme_loss": "Extreme Weight Loss",
+    "mild_gain": "Mild Weight Gain",
+    "normal_gain": "Weight Gain",
+    "extreme_gain": "Extreme Weight Gain",
+    "footer_note": "These are estimates. Actual calorie needs may vary based on metabolism, genetics, and other factors."
   },
   "heart_rate_zones": {
     "title": "Heart Rate Zones Calculator",
@@ -1262,15 +1985,33 @@
       "formula": "Max Heart Rate = 220 - Age, then zones are calculated as percentages of heart rate reserve",
       "explanation": "This tool divides your heart rate range into 5 distinct training zones, each targeting different physiological adaptations. Using the Karvonen formula with your resting heart rate provides more personalized and accurate zones than age-based formulas alone.",
       "steps": [
-        { "name": "Enter Age", "text": "Input your age to calculate maximum heart rate" },
-        { "name": "Enter Resting HR", "text": "Input your resting heart rate for more accurate zones" },
-        { "name": "View Training Zones", "text": "Get your five personalized training zones with target heart rates" }
+        {
+          "name": "Enter Age",
+          "text": "Input your age to calculate maximum heart rate"
+        },
+        {
+          "name": "Enter Resting HR",
+          "text": "Input your resting heart rate for more accurate zones"
+        },
+        {
+          "name": "View Training Zones",
+          "text": "Get your five personalized training zones with target heart rates"
+        }
       ]
     },
     "useCases": [
-      { "title": "Fat Burning Optimization", "description": "Train in zones 2-3 (60-70% max HR) for optimal fat oxidation" },
-      { "title": "Endurance Building", "description": "Build aerobic capacity with sustained training in the aerobic zone" },
-      { "title": "HIIT Programming", "description": "Set accurate intensity targets for high-intensity interval training" }
+      {
+        "title": "Fat Burning Optimization",
+        "description": "Train in zones 2-3 (60-70% max HR) for optimal fat oxidation"
+      },
+      {
+        "title": "Endurance Building",
+        "description": "Build aerobic capacity with sustained training in the aerobic zone"
+      },
+      {
+        "title": "HIIT Programming",
+        "description": "Set accurate intensity targets for high-intensity interval training"
+      }
     ],
     "seoTips": [
       "Use a heart rate monitor or fitness watch during workouts for real-time tracking",
@@ -1285,9 +2026,18 @@
       "Not using a device to accurately monitor heart rate during training"
     ],
     "faqs": [
-      { "question": "Which zone is best for burning fat?", "answer": "Zone 2-3 maximizes fat oxidation, but higher intensity training burns more total calories and may be more effective for weight loss." },
-      { "question": "How accurate is the 220-age formula?", "answer": "It is an estimate with individual variation of plus or minus 10-15 beats. A max HR test provides more accuracy." },
-      { "question": "How often should I train in zone 5?", "answer": "Maximum 1-2 times weekly with adequate recovery. Excessive high-intensity training leads to overtraining." }
+      {
+        "question": "Which zone is best for burning fat?",
+        "answer": "Zone 2-3 maximizes fat oxidation, but higher intensity training burns more total calories and may be more effective for weight loss."
+      },
+      {
+        "question": "How accurate is the 220-age formula?",
+        "answer": "It is an estimate with individual variation of plus or minus 10-15 beats. A max HR test provides more accuracy."
+      },
+      {
+        "question": "How often should I train in zone 5?",
+        "answer": "Maximum 1-2 times weekly with adequate recovery. Excessive high-intensity training leads to overtraining."
+      }
     ]
   },
   "vo2max": {
@@ -1328,15 +2078,33 @@
       "formula": "VO2 Max (ml/kg/min) = 15.3 × (Max Heart Rate / Resting Heart Rate)",
       "explanation": "VO2 Max represents the maximum amount of oxygen your body can utilize during intense exercise, measured in milliliters per kilogram of body weight per minute. It is considered the gold standard for measuring cardiorespiratory fitness and endurance capacity.",
       "steps": [
-        { "name": "Measure Resting HR", "text": "Take your pulse first thing in the morning before getting out of bed" },
-        { "name": "Enter Data", "text": "Input your age, resting heart rate, and maximum heart rate if known" },
-        { "name": "Get Estimate", "text": "The calculator provides your estimated VO2 Max and fitness category" }
+        {
+          "name": "Measure Resting HR",
+          "text": "Take your pulse first thing in the morning before getting out of bed"
+        },
+        {
+          "name": "Enter Data",
+          "text": "Input your age, resting heart rate, and maximum heart rate if known"
+        },
+        {
+          "name": "Get Estimate",
+          "text": "The calculator provides your estimated VO2 Max and fitness category"
+        }
       ]
     },
     "useCases": [
-      { "title": "Fitness Level Assessment", "description": "Objectively measure your cardiorespiratory fitness compared to age and gender norms" },
-      { "title": "Training Progress Tracking", "description": "Monitor improvements in aerobic capacity over time with consistent training" },
-      { "title": "Training Zone Planning", "description": "Use VO2 Max to determine appropriate training intensities and zones" }
+      {
+        "title": "Fitness Level Assessment",
+        "description": "Objectively measure your cardiorespiratory fitness compared to age and gender norms"
+      },
+      {
+        "title": "Training Progress Tracking",
+        "description": "Monitor improvements in aerobic capacity over time with consistent training"
+      },
+      {
+        "title": "Training Zone Planning",
+        "description": "Use VO2 Max to determine appropriate training intensities and zones"
+      }
     ],
     "seoTips": [
       "Measure resting heart rate over several days and use the average for better accuracy",
@@ -1351,9 +2119,18 @@
       "Comparing your values to people of significantly different ages"
     ],
     "faqs": [
-      { "question": "What is a good VO2 Max value?", "answer": "For men: 35-40 is average, 45-55 is good, 60+ is excellent. Women are typically 10-15% lower in each category." },
-      { "question": "How can I improve my VO2 Max?", "answer": "Through consistent aerobic training, especially high-intensity interval training (HIIT) and long slow distance running." },
-      { "question": "How accurate is the estimate?", "answer": "This provides a reasonable estimate, but laboratory testing with gas analysis is much more accurate." }
+      {
+        "question": "What is a good VO2 Max value?",
+        "answer": "For men: 35-40 is average, 45-55 is good, 60+ is excellent. Women are typically 10-15% lower in each category."
+      },
+      {
+        "question": "How can I improve my VO2 Max?",
+        "answer": "Through consistent aerobic training, especially high-intensity interval training (HIIT) and long slow distance running."
+      },
+      {
+        "question": "How accurate is the estimate?",
+        "answer": "This provides a reasonable estimate, but laboratory testing with gas analysis is much more accurate."
+      }
     ]
   },
   "athletic_performance": {
@@ -1393,15 +2170,33 @@
       "formula": "Overall Score = Weighted Average of (Speed Score + Power Score + Upper Strength Score + Lower Strength Score)",
       "explanation": "This comprehensive tool evaluates your overall athletic performance by testing multiple physical attributes. Each test result is compared against established athletic standards to provide scores in speed, explosive power, and upper and lower body strength.",
       "steps": [
-        { "name": "Complete Tests", "text": "Perform the 40m sprint, vertical jump, bench press, and squat tests" },
-        { "name": "Enter Results", "text": "Input your test results along with your body weight" },
-        { "name": "View Assessment", "text": "Get your overall score and breakdown by athletic attribute" }
+        {
+          "name": "Complete Tests",
+          "text": "Perform the 40m sprint, vertical jump, bench press, and squat tests"
+        },
+        {
+          "name": "Enter Results",
+          "text": "Input your test results along with your body weight"
+        },
+        {
+          "name": "View Assessment",
+          "text": "Get your overall score and breakdown by athletic attribute"
+        }
       ]
     },
     "useCases": [
-      { "title": "Overall Fitness Assessment", "description": "Get an objective measure of your general athletic ability" },
-      { "title": "Weakness Identification", "description": "Discover which physical attributes need the most improvement" },
-      { "title": "Sport Selection", "description": "Identify sports that align with your natural athletic strengths" }
+      {
+        "title": "Overall Fitness Assessment",
+        "description": "Get an objective measure of your general athletic ability"
+      },
+      {
+        "title": "Weakness Identification",
+        "description": "Discover which physical attributes need the most improvement"
+      },
+      {
+        "title": "Sport Selection",
+        "description": "Identify sports that align with your natural athletic strengths"
+      }
     ],
     "seoTips": [
       "Perform all tests after a thorough warm-up for accurate and safe results",
@@ -1416,9 +2211,18 @@
       "Neglecting endurance and flexibility in overall athletic development"
     ],
     "faqs": [
-      { "question": "What is considered a good overall score?", "answer": "60-70% is average, 70-80% is good, 80%+ is excellent for recreational athletes." },
-      { "question": "How can I improve my athletic performance score?", "answer": "Through balanced training that includes strength, speed, power, and endurance work." },
-      { "question": "Are these tests accurate measures of athleticism?", "answer": "They provide a good general assessment, but sport-specific testing may be more relevant for athletes in particular sports." }
+      {
+        "question": "What is considered a good overall score?",
+        "answer": "60-70% is average, 70-80% is good, 80%+ is excellent for recreational athletes."
+      },
+      {
+        "question": "How can I improve my athletic performance score?",
+        "answer": "Through balanced training that includes strength, speed, power, and endurance work."
+      },
+      {
+        "question": "Are these tests accurate measures of athleticism?",
+        "answer": "They provide a good general assessment, but sport-specific testing may be more relevant for athletes in particular sports."
+      }
     ]
   },
   "body_fat": {
@@ -1473,15 +2277,33 @@
       "formula": "U.S. Navy Method: Body Fat % (Men) = 86.010 × log10(waist - neck) - 70.041 × log10(height) + 36.76",
       "explanation": "This calculator uses the U.S. Navy Method to estimate body fat percentage from circumference measurements. This method is accurate, easy to perform without specialized equipment, and provides reliable estimates of body composition.",
       "steps": [
-        { "name": "Enter Personal Data", "text": "Input your gender, height, weight, and age" },
-        { "name": "Measure Circumferences", "text": "Measure and enter neck, waist, and hip (women) circumferences" },
-        { "name": "View Results", "text": "Get your body fat percentage, fat mass, and lean mass with category classification" }
+        {
+          "name": "Enter Personal Data",
+          "text": "Input your gender, height, weight, and age"
+        },
+        {
+          "name": "Measure Circumferences",
+          "text": "Measure and enter neck, waist, and hip (women) circumferences"
+        },
+        {
+          "name": "View Results",
+          "text": "Get your body fat percentage, fat mass, and lean mass with category classification"
+        }
       ]
     },
     "useCases": [
-      { "title": "Weight Loss Tracking", "description": "Monitor actual fat loss rather than just scale weight during diet programs" },
-      { "title": "Bodybuilding Phases", "description": "Track body fat during bulking and cutting phases to optimize results" },
-      { "title": "Health Assessment", "description": "Determine if your body fat is within healthy ranges for your age and gender" }
+      {
+        "title": "Weight Loss Tracking",
+        "description": "Monitor actual fat loss rather than just scale weight during diet programs"
+      },
+      {
+        "title": "Bodybuilding Phases",
+        "description": "Track body fat during bulking and cutting phases to optimize results"
+      },
+      {
+        "title": "Health Assessment",
+        "description": "Determine if your body fat is within healthy ranges for your age and gender"
+      }
     ],
     "seoTips": [
       "Measure waist at navel level, keeping the tape horizontal for consistency",
@@ -1496,9 +2318,18 @@
       "Comparing results from different measurement methods (Navy, calipers, DEXA)"
     ],
     "faqs": [
-      { "question": "What is a healthy body fat percentage?", "answer": "For men: 10-20% is healthy. For women: 18-28% is healthy. Athletes may have lower percentages." },
-      { "question": "How often should I measure body fat?", "answer": "Every 2-4 weeks is recommended to effectively track changes without daily fluctuations." },
-      { "question": "How accurate is the Navy Method?", "answer": "The U.S. Navy Method is accurate within 3-4% compared to laboratory methods like DEXA." }
+      {
+        "question": "What is a healthy body fat percentage?",
+        "answer": "For men: 10-20% is healthy. For women: 18-28% is healthy. Athletes may have lower percentages."
+      },
+      {
+        "question": "How often should I measure body fat?",
+        "answer": "Every 2-4 weeks is recommended to effectively track changes without daily fluctuations."
+      },
+      {
+        "question": "How accurate is the Navy Method?",
+        "answer": "The U.S. Navy Method is accurate within 3-4% compared to laboratory methods like DEXA."
+      }
     ]
   },
   "lean_body_mass": {
@@ -1533,15 +2364,33 @@
       "formula": "Lean Body Mass = Total Weight - Fat Mass, where Fat Mass = Weight × Body Fat Percentage",
       "explanation": "Lean Body Mass (LBM) represents everything in your body except fat, including muscles, bones, organs, and water. This calculator first estimates your body fat percentage using the Navy Method, then calculates your lean mass by subtracting fat mass from total weight.",
       "steps": [
-        { "name": "Enter Measurements", "text": "Input your gender, height, weight, and circumference measurements" },
-        { "name": "Calculate Body Fat", "text": "The tool estimates body fat percentage using the U.S. Navy formula" },
-        { "name": "View Lean Mass", "text": "Get your lean body mass, fat mass, and percentage breakdown" }
+        {
+          "name": "Enter Measurements",
+          "text": "Input your gender, height, weight, and circumference measurements"
+        },
+        {
+          "name": "Calculate Body Fat",
+          "text": "The tool estimates body fat percentage using the U.S. Navy formula"
+        },
+        {
+          "name": "View Lean Mass",
+          "text": "Get your lean body mass, fat mass, and percentage breakdown"
+        }
       ]
     },
     "useCases": [
-      { "title": "Bodybuilding Progress", "description": "Track muscle retention during cutting phases and muscle gains during bulking" },
-      { "title": "Weight Loss Quality", "description": "Ensure weight loss comes from fat, not muscle mass" },
-      { "title": "Protein Requirements", "description": "Calculate protein needs based on lean mass rather than total weight" }
+      {
+        "title": "Bodybuilding Progress",
+        "description": "Track muscle retention during cutting phases and muscle gains during bulking"
+      },
+      {
+        "title": "Weight Loss Quality",
+        "description": "Ensure weight loss comes from fat, not muscle mass"
+      },
+      {
+        "title": "Protein Requirements",
+        "description": "Calculate protein needs based on lean mass rather than total weight"
+      }
     ],
     "seoTips": [
       "Preserving lean mass during weight loss requires adequate protein intake (1.6-2.2g per kg of lean mass)",
@@ -1556,9 +2405,18 @@
       "Expecting lean mass to increase significantly while in a calorie deficit"
     ],
     "faqs": [
-      { "question": "What is a good lean body mass percentage?", "answer": "For men: 75-85% lean mass is typical. For women: 68-78%. Athletes often have higher percentages." },
-      { "question": "Can I build lean mass while losing fat?", "answer": "Yes, especially if you are a beginner, returning after a break, or have higher body fat. This is called body recomposition." },
-      { "question": "How do I preserve lean mass during weight loss?", "answer": "Eat adequate protein, maintain strength training, avoid extreme calorie deficits, and lose weight gradually." }
+      {
+        "question": "What is a good lean body mass percentage?",
+        "answer": "For men: 75-85% lean mass is typical. For women: 68-78%. Athletes often have higher percentages."
+      },
+      {
+        "question": "Can I build lean mass while losing fat?",
+        "answer": "Yes, especially if you are a beginner, returning after a break, or have higher body fat. This is called body recomposition."
+      },
+      {
+        "question": "How do I preserve lean mass during weight loss?",
+        "answer": "Eat adequate protein, maintain strength training, avoid extreme calorie deficits, and lose weight gradually."
+      }
     ]
   },
   "deload_week": {
@@ -1599,15 +2457,33 @@
       "formula": "Deload Timing = Training Weeks × Intensity Factor / Experience Level",
       "explanation": "A deload week is a planned period of reduced training volume and intensity to allow the nervous system, muscles, and joints to recover fully. This tool analyzes your training history to determine when you need a deload based on accumulated fatigue.",
       "steps": [
-        { "name": "Enter Training Weeks", "text": "Input the number of consecutive weeks of intense training" },
-        { "name": "Set Intensity Level", "text": "Select your current training intensity level" },
-        { "name": "Set Experience", "text": "Select your training experience to factor recovery capacity" }
+        {
+          "name": "Enter Training Weeks",
+          "text": "Input the number of consecutive weeks of intense training"
+        },
+        {
+          "name": "Set Intensity Level",
+          "text": "Select your current training intensity level"
+        },
+        {
+          "name": "Set Experience",
+          "text": "Select your training experience to factor recovery capacity"
+        }
       ]
     },
     "useCases": [
-      { "title": "Overtraining Prevention", "description": "Avoid nervous system fatigue and physical breakdown from excessive training" },
-      { "title": "Training Periodization", "description": "Schedule strategic deload periods within your training program" },
-      { "title": "Long-term Progress", "description": "Optimize strength and muscle gains by allowing full recovery between training blocks" }
+      {
+        "title": "Overtraining Prevention",
+        "description": "Avoid nervous system fatigue and physical breakdown from excessive training"
+      },
+      {
+        "title": "Training Periodization",
+        "description": "Schedule strategic deload periods within your training program"
+      },
+      {
+        "title": "Long-term Progress",
+        "description": "Optimize strength and muscle gains by allowing full recovery between training blocks"
+      }
     ],
     "seoTips": [
       "Schedule a deload week every 4-6 weeks of intense training for advanced lifters",
@@ -1622,9 +2498,18 @@
       "Not scheduling regular deloads and only taking them when forced by injury"
     ],
     "faqs": [
-      { "question": "When do I need a deload week?", "answer": "Every 4-6 weeks for advanced lifters, every 6-8 weeks for intermediates, and when you notice persistent fatigue or declining performance." },
-      { "question": "How should I structure a deload?", "answer": "Reduce volume by 40-60% while maintaining weight or reducing by 10-20%. Keep the same exercises and frequency." },
-      { "question": "Will I lose strength during a deload?", "answer": "No, one week of reduced training does not cause strength loss. You often come back stronger after full recovery." }
+      {
+        "question": "When do I need a deload week?",
+        "answer": "Every 4-6 weeks for advanced lifters, every 6-8 weeks for intermediates, and when you notice persistent fatigue or declining performance."
+      },
+      {
+        "question": "How should I structure a deload?",
+        "answer": "Reduce volume by 40-60% while maintaining weight or reducing by 10-20%. Keep the same exercises and frequency."
+      },
+      {
+        "question": "Will I lose strength during a deload?",
+        "answer": "No, one week of reduced training does not cause strength loss. You often come back stronger after full recovery."
+      }
     ]
   },
   "cycling_power": {
@@ -1654,15 +2539,33 @@
       "formula": "Total Power = Air Resistance Power + Rolling Resistance Power + Climbing Power",
       "explanation": "This calculator determines the power in watts needed to cycle at a specific speed considering multiple factors including rider and bike weight, speed, and road gradient. Air resistance increases exponentially with speed, making it the dominant factor at higher speeds.",
       "steps": [
-        { "name": "Enter Weights", "text": "Input your body weight and bike/equipment weight" },
-        { "name": "Enter Speed", "text": "Input your target cycling speed and road gradient" },
-        { "name": "Calculate Power", "text": "Get the required power output and power-to-weight ratio" }
+        {
+          "name": "Enter Weights",
+          "text": "Input your body weight and bike/equipment weight"
+        },
+        {
+          "name": "Enter Speed",
+          "text": "Input your target cycling speed and road gradient"
+        },
+        {
+          "name": "Calculate Power",
+          "text": "Get the required power output and power-to-weight ratio"
+        }
       ]
     },
     "useCases": [
-      { "title": "Race Planning", "description": "Determine the power needed to maintain target speeds during competitions" },
-      { "title": "Training Targets", "description": "Set specific power goals for interval and threshold training" },
-      { "title": "Equipment Decisions", "description": "Understand how bike weight and aerodynamics affect performance requirements" }
+      {
+        "title": "Race Planning",
+        "description": "Determine the power needed to maintain target speeds during competitions"
+      },
+      {
+        "title": "Training Targets",
+        "description": "Set specific power goals for interval and threshold training"
+      },
+      {
+        "title": "Equipment Decisions",
+        "description": "Understand how bike weight and aerodynamics affect performance requirements"
+      }
     ],
     "seoTips": [
       "Power-to-weight ratio (W/kg) is more important than absolute power for climbing",
@@ -1677,9 +2580,18 @@
       "Comparing power numbers without considering test conditions and equipment"
     ],
     "faqs": [
-      { "question": "What is a good power-to-weight ratio?", "answer": "Recreational: 2.5-3.5 W/kg, Amateur racer: 3.5-4.5 W/kg, Professional: 5-6+ W/kg for sustained efforts." },
-      { "question": "How can I improve my cycling power?", "answer": "Through interval training, hill repeats, structured training programs, and improving cycling efficiency." },
-      { "question": "Does bike weight really matter?", "answer": "Most for climbing. On flat terrain, aerodynamics matter more. A 1kg lighter bike saves about 3-5 watts on a 5% climb at 15 km/h." }
+      {
+        "question": "What is a good power-to-weight ratio?",
+        "answer": "Recreational: 2.5-3.5 W/kg, Amateur racer: 3.5-4.5 W/kg, Professional: 5-6+ W/kg for sustained efforts."
+      },
+      {
+        "question": "How can I improve my cycling power?",
+        "answer": "Through interval training, hill repeats, structured training programs, and improving cycling efficiency."
+      },
+      {
+        "question": "Does bike weight really matter?",
+        "answer": "Most for climbing. On flat terrain, aerodynamics matter more. A 1kg lighter bike saves about 3-5 watts on a 5% climb at 15 km/h."
+      }
     ]
   },
   "body_frame": {
@@ -1725,15 +2637,33 @@
       "formula": "R-Value = Height (cm) / Wrist Circumference (cm)",
       "explanation": "This calculator determines your bone structure size by analyzing the ratio between your height and wrist circumference. The wrist is used because it has minimal fat and muscle, providing an accurate indicator of bone size. Knowing your frame size helps set realistic weight goals.",
       "steps": [
-        { "name": "Measure Height", "text": "Measure your height accurately in centimeters" },
-        { "name": "Measure Wrist", "text": "Measure wrist circumference at the narrowest point below the wrist bone" },
-        { "name": "Determine Frame", "text": "The calculator computes the ratio and classifies your frame as small, medium, or large" }
+        {
+          "name": "Measure Height",
+          "text": "Measure your height accurately in centimeters"
+        },
+        {
+          "name": "Measure Wrist",
+          "text": "Measure wrist circumference at the narrowest point below the wrist bone"
+        },
+        {
+          "name": "Determine Frame",
+          "text": "The calculator computes the ratio and classifies your frame as small, medium, or large"
+        }
       ]
     },
     "useCases": [
-      { "title": "Ideal Weight Adjustment", "description": "Adjust your target weight range based on bone structure for realistic goals" },
-      { "title": "Fitness Goal Setting", "description": "Set appropriate muscle mass and weight targets for your natural build" },
-      { "title": "Body Understanding", "description": "Understand why your weight may differ from others of the same height" }
+      {
+        "title": "Ideal Weight Adjustment",
+        "description": "Adjust your target weight range based on bone structure for realistic goals"
+      },
+      {
+        "title": "Fitness Goal Setting",
+        "description": "Set appropriate muscle mass and weight targets for your natural build"
+      },
+      {
+        "title": "Body Understanding",
+        "description": "Understand why your weight may differ from others of the same height"
+      }
     ],
     "seoTips": [
       "Measure wrist at the narrowest point below the prominent wrist bone for accuracy",
@@ -1748,9 +2678,18 @@
       "Confusing frame size with body fat percentage or muscle mass"
     ],
     "faqs": [
-      { "question": "Can body frame size be changed?", "answer": "No, frame size is determined by genetics and skeletal structure. It cannot be altered through exercise or diet." },
-      { "question": "How does frame size affect ideal weight?", "answer": "Larger frames naturally support more weight. The difference can be 5-10 kg between small and large frames of the same height." },
-      { "question": "Why measure the wrist specifically?", "answer": "The wrist has minimal fat and muscle tissue, making it an accurate indicator of actual bone size." }
+      {
+        "question": "Can body frame size be changed?",
+        "answer": "No, frame size is determined by genetics and skeletal structure. It cannot be altered through exercise or diet."
+      },
+      {
+        "question": "How does frame size affect ideal weight?",
+        "answer": "Larger frames naturally support more weight. The difference can be 5-10 kg between small and large frames of the same height."
+      },
+      {
+        "question": "Why measure the wrist specifically?",
+        "answer": "The wrist has minimal fat and muscle tissue, making it an accurate indicator of actual bone size."
+      }
     ]
   },
   "macro_calculator": {
@@ -1799,15 +2738,33 @@
       "formula": "Protein: 1.6-2.4 g/kg body weight, Fat: 20-35% of calories, Carbs: remaining calories",
       "explanation": "This calculator distributes your daily calories among the three macronutrients (protein, carbohydrates, and fats) based on your fitness goal. Proper macronutrient distribution ensures you get the nutrients needed for your specific objectives while meeting calorie targets.",
       "steps": [
-        { "name": "Enter Calories", "text": "Input your total daily calorie target (TDEE adjusted for goal)" },
-        { "name": "Set Goal", "text": "Choose your fitness goal (build muscle, cut, maintain, or recomp)" },
-        { "name": "Calculate Distribution", "text": "Get your macro targets in grams for protein, carbs, and fats" }
+        {
+          "name": "Enter Calories",
+          "text": "Input your total daily calorie target (TDEE adjusted for goal)"
+        },
+        {
+          "name": "Set Goal",
+          "text": "Choose your fitness goal (build muscle, cut, maintain, or recomp)"
+        },
+        {
+          "name": "Calculate Distribution",
+          "text": "Get your macro targets in grams for protein, carbs, and fats"
+        }
       ]
     },
     "useCases": [
-      { "title": "Muscle Building", "description": "Ensure adequate protein and energy for muscle protein synthesis" },
-      { "title": "Fat Loss (Cutting)", "description": "Maintain high protein to preserve muscle while in a calorie deficit" },
-      { "title": "Special Diets", "description": "Calculate macros for keto, low-carb, or other dietary approaches" }
+      {
+        "title": "Muscle Building",
+        "description": "Ensure adequate protein and energy for muscle protein synthesis"
+      },
+      {
+        "title": "Fat Loss (Cutting)",
+        "description": "Maintain high protein to preserve muscle while in a calorie deficit"
+      },
+      {
+        "title": "Special Diets",
+        "description": "Calculate macros for keto, low-carb, or other dietary approaches"
+      }
     ],
     "seoTips": [
       "Protein is the most important macro for preserving muscle during any weight change",
@@ -1822,9 +2779,18 @@
       "Ignoring the quality of macro sources (whole foods vs processed)"
     ],
     "faqs": [
-      { "question": "What is the best macro split?", "answer": "It depends on your goal. For bulking: approximately 30% protein, 45% carbs, 25% fat. For cutting: 35% protein, 35% carbs, 30% fat." },
-      { "question": "Are carbohydrates necessary?", "answer": "Yes for optimal athletic performance and recovery. They can be reduced in certain diets like keto, but most athletes benefit from adequate carbs." },
-      { "question": "How much protein do I need daily?", "answer": "For active individuals: 1.6-2.2 g per kg of body weight. Higher end for cutting, lower end for maintenance." }
+      {
+        "question": "What is the best macro split?",
+        "answer": "It depends on your goal. For bulking: approximately 30% protein, 45% carbs, 25% fat. For cutting: 35% protein, 35% carbs, 30% fat."
+      },
+      {
+        "question": "Are carbohydrates necessary?",
+        "answer": "Yes for optimal athletic performance and recovery. They can be reduced in certain diets like keto, but most athletes benefit from adequate carbs."
+      },
+      {
+        "question": "How much protein do I need daily?",
+        "answer": "For active individuals: 1.6-2.2 g per kg of body weight. Higher end for cutting, lower end for maintenance."
+      }
     ]
   },
   "calorie_deficit": {
@@ -1859,15 +2825,33 @@
       "formula": "Daily Deficit = (Weight to Lose in kg × 7700 calories) / (Weeks × 7 days)",
       "explanation": "This tool calculates the daily calorie deficit required to reach your target weight in your specified timeframe. Since 1 kg of body fat contains approximately 7700 calories, the calculator determines how much you need to reduce daily intake below your TDEE.",
       "steps": [
-        { "name": "Set Goal Weight", "text": "Enter your current weight and target weight" },
-        { "name": "Set Timeline", "text": "Specify how many weeks you want to take to reach your goal" },
-        { "name": "Calculate Deficit", "text": "Get your daily calorie deficit and target intake" }
+        {
+          "name": "Set Goal Weight",
+          "text": "Enter your current weight and target weight"
+        },
+        {
+          "name": "Set Timeline",
+          "text": "Specify how many weeks you want to take to reach your goal"
+        },
+        {
+          "name": "Calculate Deficit",
+          "text": "Get your daily calorie deficit and target intake"
+        }
       ]
     },
     "useCases": [
-      { "title": "Weight Loss Planning", "description": "Determine exactly how much to reduce calories to meet your goal" },
-      { "title": "Timeline Assessment", "description": "Evaluate if your weight loss timeline is realistic and healthy" },
-      { "title": "Diet Adjustment", "description": "Calculate your daily calorie allowance for meal planning" }
+      {
+        "title": "Weight Loss Planning",
+        "description": "Determine exactly how much to reduce calories to meet your goal"
+      },
+      {
+        "title": "Timeline Assessment",
+        "description": "Evaluate if your weight loss timeline is realistic and healthy"
+      },
+      {
+        "title": "Diet Adjustment",
+        "description": "Calculate your daily calorie allowance for meal planning"
+      }
     ],
     "seoTips": [
       "A deficit of 500-750 calories per day is sustainable for most people",
@@ -1882,9 +2866,18 @@
       "Maintaining the same deficit as weight decreases without recalculating"
     ],
     "faqs": [
-      { "question": "What is a safe calorie deficit?", "answer": "500-750 calories daily is considered safe and sustainable, leading to 0.5-0.75 kg loss per week." },
-      { "question": "Can the deficit be too large?", "answer": "Yes. Deficits over 1000 calories can cause muscle loss, metabolic slowdown, and nutritional deficiencies." },
-      { "question": "How do I know if my deficit is appropriate?", "answer": "If you are losing 0.5-1 kg per week with good energy and no excessive hunger, your deficit is likely appropriate." }
+      {
+        "question": "What is a safe calorie deficit?",
+        "answer": "500-750 calories daily is considered safe and sustainable, leading to 0.5-0.75 kg loss per week."
+      },
+      {
+        "question": "Can the deficit be too large?",
+        "answer": "Yes. Deficits over 1000 calories can cause muscle loss, metabolic slowdown, and nutritional deficiencies."
+      },
+      {
+        "question": "How do I know if my deficit is appropriate?",
+        "answer": "If you are losing 0.5-1 kg per week with good energy and no excessive hunger, your deficit is likely appropriate."
+      }
     ]
   },
   "body_recomposition": {
@@ -1919,15 +2912,33 @@
       "formula": "Training Days: TDEE + 10-20% surplus, Rest Days: TDEE - 10-20% deficit",
       "explanation": "Body recomposition involves building muscle while losing fat simultaneously. This is achieved through calorie cycling: eating a slight surplus on training days to fuel muscle growth, and a slight deficit on rest days to burn fat. Combined with high protein intake, this allows body composition changes without significant weight change.",
       "steps": [
-        { "name": "Calculate TDEE", "text": "Enter your maintenance calorie level" },
-        { "name": "Set Training Schedule", "text": "Specify how many days per week you weight train" },
-        { "name": "Get Cycling Plan", "text": "Receive calorie targets for training days and rest days" }
+        {
+          "name": "Calculate TDEE",
+          "text": "Enter your maintenance calorie level"
+        },
+        {
+          "name": "Set Training Schedule",
+          "text": "Specify how many days per week you weight train"
+        },
+        {
+          "name": "Get Cycling Plan",
+          "text": "Receive calorie targets for training days and rest days"
+        }
       ]
     },
     "useCases": [
-      { "title": "Beginners", "description": "New lifters can build muscle and lose fat simultaneously due to beginner gains" },
-      { "title": "Returning Athletes", "description": "Those returning after a break benefit from muscle memory and recomposition" },
-      { "title": "Avoiding Bulk/Cut Cycles", "description": "For those who want to improve body composition without significant weight changes" }
+      {
+        "title": "Beginners",
+        "description": "New lifters can build muscle and lose fat simultaneously due to beginner gains"
+      },
+      {
+        "title": "Returning Athletes",
+        "description": "Those returning after a break benefit from muscle memory and recomposition"
+      },
+      {
+        "title": "Avoiding Bulk/Cut Cycles",
+        "description": "For those who want to improve body composition without significant weight changes"
+      }
     ],
     "seoTips": [
       "Recomposition is slower than dedicated bulking or cutting phases",
@@ -1942,9 +2953,18 @@
       "Being impatient and constantly switching between different approaches"
     ],
     "faqs": [
-      { "question": "Can everyone do body recomposition?", "answer": "It is easiest for beginners and those with higher body fat. Advanced lean athletes may need traditional bulk/cut cycles." },
-      { "question": "How long until I see results?", "answer": "Expect 3-6 months to notice significant changes in body composition through recomposition." },
-      { "question": "Will my weight change?", "answer": "Weight may stay similar or change slightly since muscle replaces fat. Focus on measurements and appearance rather than scale weight." }
+      {
+        "question": "Can everyone do body recomposition?",
+        "answer": "It is easiest for beginners and those with higher body fat. Advanced lean athletes may need traditional bulk/cut cycles."
+      },
+      {
+        "question": "How long until I see results?",
+        "answer": "Expect 3-6 months to notice significant changes in body composition through recomposition."
+      },
+      {
+        "question": "Will my weight change?",
+        "answer": "Weight may stay similar or change slightly since muscle replaces fat. Focus on measurements and appearance rather than scale weight."
+      }
     ]
   },
   "protein_calculator": {
@@ -1979,15 +2999,33 @@
       "formula": "Daily Protein = Body Weight (kg) × Protein Multiplier (0.8-2.4 g/kg based on goal)",
       "explanation": "This calculator determines your daily protein requirements based on your body weight, fitness goal, and activity level. Protein is essential for muscle repair, growth, and maintenance. Requirements increase with activity level and especially during muscle-building or fat-loss phases.",
       "steps": [
-        { "name": "Enter Weight", "text": "Input your current body weight in kilograms" },
-        { "name": "Select Goal", "text": "Choose your primary fitness objective" },
-        { "name": "Set Activity Level", "text": "Select how active you are to fine-tune requirements" }
+        {
+          "name": "Enter Weight",
+          "text": "Input your current body weight in kilograms"
+        },
+        {
+          "name": "Select Goal",
+          "text": "Choose your primary fitness objective"
+        },
+        {
+          "name": "Set Activity Level",
+          "text": "Select how active you are to fine-tune requirements"
+        }
       ]
     },
     "useCases": [
-      { "title": "Muscle Building", "description": "Ensure adequate protein for muscle protein synthesis and growth" },
-      { "title": "Fat Loss", "description": "Maintain high protein to preserve muscle mass during calorie deficit" },
-      { "title": "General Health", "description": "Meet minimum protein needs for overall body function and maintenance" }
+      {
+        "title": "Muscle Building",
+        "description": "Ensure adequate protein for muscle protein synthesis and growth"
+      },
+      {
+        "title": "Fat Loss",
+        "description": "Maintain high protein to preserve muscle mass during calorie deficit"
+      },
+      {
+        "title": "General Health",
+        "description": "Meet minimum protein needs for overall body function and maintenance"
+      }
     ],
     "seoTips": [
       "Distribute protein intake across 4-5 meals for optimal absorption",
@@ -2002,9 +3040,18 @@
       "Ignoring protein quality and focusing only on total grams"
     ],
     "faqs": [
-      { "question": "How much protein do I need to build muscle?", "answer": "For muscle building: 1.6-2.2 g per kg of body weight daily, combined with resistance training." },
-      { "question": "Can I eat too much protein?", "answer": "Excess protein beyond needs is used for energy or stored. Very high intakes may stress kidneys in those with kidney issues." },
-      { "question": "When is the best time to eat protein?", "answer": "Spread evenly across meals. Post-workout protein (within 2 hours) is beneficial but total daily intake matters most." }
+      {
+        "question": "How much protein do I need to build muscle?",
+        "answer": "For muscle building: 1.6-2.2 g per kg of body weight daily, combined with resistance training."
+      },
+      {
+        "question": "Can I eat too much protein?",
+        "answer": "Excess protein beyond needs is used for energy or stored. Very high intakes may stress kidneys in those with kidney issues."
+      },
+      {
+        "question": "When is the best time to eat protein?",
+        "answer": "Spread evenly across meals. Post-workout protein (within 2 hours) is beneficial but total daily intake matters most."
+      }
     ],
     "goals": {
       "sedentary": "Sedentary (No Exercise)",
@@ -2066,15 +3113,33 @@
       "formula": "Riegel Formula: T2 = T1 × (D2 / D1)^1.06",
       "explanation": "This tool uses the scientifically-validated Riegel formula to predict your race time at a new distance based on a previous race performance. The formula accounts for the natural slowdown in pace that occurs as race distance increases.",
       "steps": [
-        { "name": "Enter Previous Race", "text": "Input the distance and finish time of a recent race" },
-        { "name": "Select Target Distance", "text": "Choose the distance you want to predict" },
-        { "name": "View Prediction", "text": "Get your predicted finish time and target pace" }
+        {
+          "name": "Enter Previous Race",
+          "text": "Input the distance and finish time of a recent race"
+        },
+        {
+          "name": "Select Target Distance",
+          "text": "Choose the distance you want to predict"
+        },
+        {
+          "name": "View Prediction",
+          "text": "Get your predicted finish time and target pace"
+        }
       ]
     },
     "useCases": [
-      { "title": "Marathon Planning", "description": "Predict marathon time based on half marathon or 10K performance" },
-      { "title": "Goal Setting", "description": "Set realistic and achievable goals for upcoming races" },
-      { "title": "Race Readiness", "description": "Determine if you are ready to attempt a longer distance" }
+      {
+        "title": "Marathon Planning",
+        "description": "Predict marathon time based on half marathon or 10K performance"
+      },
+      {
+        "title": "Goal Setting",
+        "description": "Set realistic and achievable goals for upcoming races"
+      },
+      {
+        "title": "Race Readiness",
+        "description": "Determine if you are ready to attempt a longer distance"
+      }
     ],
     "seoTips": [
       "Use a recent race result from the past 2-3 months for accuracy",
@@ -2089,9 +3154,18 @@
       "Expecting prediction accuracy without proper training volume"
     ],
     "faqs": [
-      { "question": "How accurate are the predictions?", "answer": "Very accurate between similar distances. Predictions from half marathon to marathon are more reliable than from 5K to marathon." },
-      { "question": "Which race distance is best for prediction?", "answer": "Half marathon best predicts full marathon. 10K best predicts half marathon times." },
-      { "question": "Why might my actual race be different?", "answer": "Training specificity, nutrition, weather, course difficulty, and race-day factors all affect actual performance." }
+      {
+        "question": "How accurate are the predictions?",
+        "answer": "Very accurate between similar distances. Predictions from half marathon to marathon are more reliable than from 5K to marathon."
+      },
+      {
+        "question": "Which race distance is best for prediction?",
+        "answer": "Half marathon best predicts full marathon. 10K best predicts half marathon times."
+      },
+      {
+        "question": "Why might my actual race be different?",
+        "answer": "Training specificity, nutrition, weather, course difficulty, and race-day factors all affect actual performance."
+      }
     ]
   },
   "recovery_time": {
@@ -2136,15 +3210,33 @@
       "formula": "Recovery Time = Base Time × Muscle Size Factor × Intensity Factor / Experience Factor",
       "explanation": "This tool estimates the time needed for your muscles to fully recover before training them again. Recovery time depends on the size of the muscle group trained, workout intensity, and your training experience. Adequate recovery is essential for muscle growth and injury prevention.",
       "steps": [
-        { "name": "Select Muscle Group", "text": "Choose the size of the muscle group you trained" },
-        { "name": "Set Intensity", "text": "Select how intense your workout was" },
-        { "name": "Set Experience", "text": "Choose your training experience level" }
+        {
+          "name": "Select Muscle Group",
+          "text": "Choose the size of the muscle group you trained"
+        },
+        {
+          "name": "Set Intensity",
+          "text": "Select how intense your workout was"
+        },
+        {
+          "name": "Set Experience",
+          "text": "Choose your training experience level"
+        }
       ]
     },
     "useCases": [
-      { "title": "Workout Scheduling", "description": "Determine when you can train the same muscle group again" },
-      { "title": "Overtraining Prevention", "description": "Avoid training muscles before they have fully recovered" },
-      { "title": "Optimal Growth", "description": "Ensure muscles have recovered fully to maximize training adaptations" }
+      {
+        "title": "Workout Scheduling",
+        "description": "Determine when you can train the same muscle group again"
+      },
+      {
+        "title": "Overtraining Prevention",
+        "description": "Avoid training muscles before they have fully recovered"
+      },
+      {
+        "title": "Optimal Growth",
+        "description": "Ensure muscles have recovered fully to maximize training adaptations"
+      }
     ],
     "seoTips": [
       "Large muscle groups (legs, back) typically need 72+ hours recovery",
@@ -2159,9 +3251,18 @@
       "Neglecting sleep, nutrition, and hydration in the recovery process"
     ],
     "faqs": [
-      { "question": "How do I know if I have recovered?", "answer": "Muscle soreness is gone, energy levels are normal, and you can lift equal or greater weight than the previous session." },
-      { "question": "Can I speed up recovery?", "answer": "Yes, through adequate sleep (7-9 hours), proper nutrition (especially protein), hydration, and light stretching or active recovery." },
-      { "question": "What happens if I train before recovery?", "answer": "You may experience weaker performance, increased injury risk, and potentially less muscle growth over time." }
+      {
+        "question": "How do I know if I have recovered?",
+        "answer": "Muscle soreness is gone, energy levels are normal, and you can lift equal or greater weight than the previous session."
+      },
+      {
+        "question": "Can I speed up recovery?",
+        "answer": "Yes, through adequate sleep (7-9 hours), proper nutrition (especially protein), hydration, and light stretching or active recovery."
+      },
+      {
+        "question": "What happens if I train before recovery?",
+        "answer": "You may experience weaker performance, increased injury risk, and potentially less muscle growth over time."
+      }
     ]
   },
   "running_pace": {
@@ -2199,15 +3300,33 @@
       "formula": "Pace (min/km) = Total Time (minutes) / Distance (km)",
       "explanation": "This tool calculates your running pace (time per kilometer or mile) based on distance covered and total time. Knowing your pace helps you plan training runs, set race goals, and track improvement over time.",
       "steps": [
-        { "name": "Enter Distance", "text": "Input the distance you ran in kilometers" },
-        { "name": "Enter Time", "text": "Input the total time (hours, minutes, seconds)" },
-        { "name": "Calculate Pace", "text": "Get your pace per km/mile and average speed" }
+        {
+          "name": "Enter Distance",
+          "text": "Input the distance you ran in kilometers"
+        },
+        {
+          "name": "Enter Time",
+          "text": "Input the total time (hours, minutes, seconds)"
+        },
+        {
+          "name": "Calculate Pace",
+          "text": "Get your pace per km/mile and average speed"
+        }
       ]
     },
     "useCases": [
-      { "title": "Race Planning", "description": "Determine starting pace and target pace for upcoming races" },
-      { "title": "Speed Training", "description": "Set specific pace targets for interval and tempo workouts" },
-      { "title": "Progress Tracking", "description": "Monitor pace improvements over time at consistent distances" }
+      {
+        "title": "Race Planning",
+        "description": "Determine starting pace and target pace for upcoming races"
+      },
+      {
+        "title": "Speed Training",
+        "description": "Set specific pace targets for interval and tempo workouts"
+      },
+      {
+        "title": "Progress Tracking",
+        "description": "Monitor pace improvements over time at consistent distances"
+      }
     ],
     "seoTips": [
       "A 5:00 min/km pace is considered good for recreational runners",
@@ -2222,9 +3341,18 @@
       "Comparing your pace to more experienced runners with different training backgrounds"
     ],
     "faqs": [
-      { "question": "What is a good pace for beginners?", "answer": "6:00-7:00 min/km is typical for beginners. Consistency matters more than speed when starting out." },
-      { "question": "How do I improve my pace?", "answer": "Through regular training, interval workouts, tempo runs, and long slow distance runs for aerobic base." },
-      { "question": "Should I always run at the same pace?", "answer": "No, variety is important. Follow the 80/20 rule: 80% easy running, 20% harder efforts." }
+      {
+        "question": "What is a good pace for beginners?",
+        "answer": "6:00-7:00 min/km is typical for beginners. Consistency matters more than speed when starting out."
+      },
+      {
+        "question": "How do I improve my pace?",
+        "answer": "Through regular training, interval workouts, tempo runs, and long slow distance runs for aerobic base."
+      },
+      {
+        "question": "Should I always run at the same pace?",
+        "answer": "No, variety is important. Follow the 80/20 rule: 80% easy running, 20% harder efforts."
+      }
     ]
   },
   "swimming_pace": {
@@ -2253,15 +3381,33 @@
       "formula": "Pace per 100m = (Total Time in seconds / Distance in meters) × 100",
       "explanation": "This tool calculates your swimming pace per 100 meters, the standard unit used in swimming. Knowing your pace helps plan race strategies, set training intervals, and track improvement across different strokes and distances.",
       "steps": [
-        { "name": "Enter Distance", "text": "Input the distance you swam in meters" },
-        { "name": "Enter Time", "text": "Input the total time (minutes and seconds)" },
-        { "name": "Calculate Pace", "text": "Get your pace per 100 meters and average speed" }
+        {
+          "name": "Enter Distance",
+          "text": "Input the distance you swam in meters"
+        },
+        {
+          "name": "Enter Time",
+          "text": "Input the total time (minutes and seconds)"
+        },
+        {
+          "name": "Calculate Pace",
+          "text": "Get your pace per 100 meters and average speed"
+        }
       ]
     },
     "useCases": [
-      { "title": "Race Planning", "description": "Set target pace for swimming competitions and events" },
-      { "title": "Interval Training", "description": "Set specific pace targets for swimming interval workouts" },
-      { "title": "Stroke Comparison", "description": "Determine which swimming stroke is fastest for you" }
+      {
+        "title": "Race Planning",
+        "description": "Set target pace for swimming competitions and events"
+      },
+      {
+        "title": "Interval Training",
+        "description": "Set specific pace targets for swimming interval workouts"
+      },
+      {
+        "title": "Stroke Comparison",
+        "description": "Determine which swimming stroke is fastest for you"
+      }
     ],
     "seoTips": [
       "A 2:00/100m pace is considered good for recreational swimmers",
@@ -2276,9 +3422,18 @@
       "Ignoring the importance of turns, push-offs, and starts in overall pace"
     ],
     "faqs": [
-      { "question": "What is a good swimming pace?", "answer": "Recreational: 2:00-2:30/100m, Intermediate: 1:30-2:00/100m, Competitive: under 1:20/100m for freestyle." },
-      { "question": "How do I improve my swimming pace?", "answer": "Through technique work, proper breathing, stroke efficiency, and structured interval training." },
-      { "question": "Does stroke type affect pace?", "answer": "Yes. For most swimmers: freestyle is fastest, followed by backstroke, then breaststroke, with butterfly being demanding but fast for short distances." }
+      {
+        "question": "What is a good swimming pace?",
+        "answer": "Recreational: 2:00-2:30/100m, Intermediate: 1:30-2:00/100m, Competitive: under 1:20/100m for freestyle."
+      },
+      {
+        "question": "How do I improve my swimming pace?",
+        "answer": "Through technique work, proper breathing, stroke efficiency, and structured interval training."
+      },
+      {
+        "question": "Does stroke type affect pace?",
+        "answer": "Yes. For most swimmers: freestyle is fastest, followed by backstroke, then breaststroke, with butterfly being demanding but fast for short distances."
+      }
     ]
   },
   "waist_hip_ratio": {
@@ -2332,15 +3487,33 @@
       "formula": "WHR = Waist Circumference (cm) / Hip Circumference (cm)",
       "explanation": "The waist-to-hip ratio measures how fat is distributed in your body and is an important indicator of health risks. Fat accumulated around the abdomen (apple shape) poses greater health risks than fat stored around the hips and thighs (pear shape).",
       "steps": [
-        { "name": "Measure Waist", "text": "Measure your waist at the narrowest point, typically above the navel" },
-        { "name": "Measure Hips", "text": "Measure your hips at the widest point around the buttocks" },
-        { "name": "Calculate Ratio", "text": "The calculator divides waist by hip measurement and assesses your risk level" }
+        {
+          "name": "Measure Waist",
+          "text": "Measure your waist at the narrowest point, typically above the navel"
+        },
+        {
+          "name": "Measure Hips",
+          "text": "Measure your hips at the widest point around the buttocks"
+        },
+        {
+          "name": "Calculate Ratio",
+          "text": "The calculator divides waist by hip measurement and assesses your risk level"
+        }
       ]
     },
     "useCases": [
-      { "title": "Cardiovascular Risk Assessment", "description": "Higher ratios correlate with increased risk of heart disease and stroke" },
-      { "title": "Fat Distribution Tracking", "description": "Monitor changes in body fat distribution during weight loss programs" },
-      { "title": "Health Screening", "description": "Simple preliminary screening tool for obesity-related health risks" }
+      {
+        "title": "Cardiovascular Risk Assessment",
+        "description": "Higher ratios correlate with increased risk of heart disease and stroke"
+      },
+      {
+        "title": "Fat Distribution Tracking",
+        "description": "Monitor changes in body fat distribution during weight loss programs"
+      },
+      {
+        "title": "Health Screening",
+        "description": "Simple preliminary screening tool for obesity-related health risks"
+      }
     ],
     "seoTips": [
       "Measure at the same time of day for consistent and comparable readings",
@@ -2355,9 +3528,18 @@
       "Not keeping the measuring tape horizontal and level around the body"
     ],
     "faqs": [
-      { "question": "What is a healthy WHR?", "answer": "For men: below 0.9 is healthy. For women: below 0.85 is healthy. Higher values indicate increased health risk." },
-      { "question": "Why is abdominal fat more dangerous?", "answer": "Visceral fat around organs is metabolically active and linked to increased risk of diabetes, heart disease, and certain cancers." },
-      { "question": "Can I improve my WHR?", "answer": "Yes, through regular aerobic exercise, calorie reduction, and core strengthening exercises to reduce waist circumference." }
+      {
+        "question": "What is a healthy WHR?",
+        "answer": "For men: below 0.9 is healthy. For women: below 0.85 is healthy. Higher values indicate increased health risk."
+      },
+      {
+        "question": "Why is abdominal fat more dangerous?",
+        "answer": "Visceral fat around organs is metabolically active and linked to increased risk of diabetes, heart disease, and certain cancers."
+      },
+      {
+        "question": "Can I improve my WHR?",
+        "answer": "Yes, through regular aerobic exercise, calorie reduction, and core strengthening exercises to reduce waist circumference."
+      }
     ]
   },
   "vertical_jump": {
@@ -2391,15 +3573,33 @@
       "formula": "Jump Height = Jump Reach - Standing Reach, Power (W) = sqrt(4.9 × body weight × jump height) × 9.81",
       "explanation": "This tool calculates your vertical jump height and explosive power output using the Lewis Formula. Vertical jump is a key indicator of lower-body explosive power, which is critical in many sports including basketball, volleyball, and track and field.",
       "steps": [
-        { "name": "Measure Standing Reach", "text": "Stand flat-footed and reach as high as possible, marking the highest point" },
-        { "name": "Measure Jump Reach", "text": "Jump and touch the highest point possible, recording that height" },
-        { "name": "Calculate Power", "text": "The calculator determines jump height and explosive power output" }
+        {
+          "name": "Measure Standing Reach",
+          "text": "Stand flat-footed and reach as high as possible, marking the highest point"
+        },
+        {
+          "name": "Measure Jump Reach",
+          "text": "Jump and touch the highest point possible, recording that height"
+        },
+        {
+          "name": "Calculate Power",
+          "text": "The calculator determines jump height and explosive power output"
+        }
       ]
     },
     "useCases": [
-      { "title": "Athletic Assessment", "description": "Evaluate explosive power for sports like basketball, volleyball, and football" },
-      { "title": "Training Progress", "description": "Track improvements in explosive power with plyometric and strength training" },
-      { "title": "Fitness Testing", "description": "Standard component of athletic fitness testing batteries" }
+      {
+        "title": "Athletic Assessment",
+        "description": "Evaluate explosive power for sports like basketball, volleyball, and football"
+      },
+      {
+        "title": "Training Progress",
+        "description": "Track improvements in explosive power with plyometric and strength training"
+      },
+      {
+        "title": "Fitness Testing",
+        "description": "Standard component of athletic fitness testing batteries"
+      }
     ],
     "seoTips": [
       "Warm up thoroughly before testing to prevent injury and maximize results",
@@ -2414,9 +3614,18 @@
       "Testing from a moving approach instead of a stationary standing position"
     ],
     "faqs": [
-      { "question": "What is a good vertical jump height?", "answer": "40-50 cm is average for adult males, 50-60 cm is good, 60+ cm is excellent. Female averages are typically 5-10 cm lower." },
-      { "question": "How can I improve my vertical jump?", "answer": "Through plyometric training (box jumps, depth jumps), strength training (squats, deadlifts), and improving jump technique." },
-      { "question": "Does body weight affect jumping?", "answer": "Yes. Reducing excess body fat while maintaining or increasing strength improves power-to-weight ratio and jump height." }
+      {
+        "question": "What is a good vertical jump height?",
+        "answer": "40-50 cm is average for adult males, 50-60 cm is good, 60+ cm is excellent. Female averages are typically 5-10 cm lower."
+      },
+      {
+        "question": "How can I improve my vertical jump?",
+        "answer": "Through plyometric training (box jumps, depth jumps), strength training (squats, deadlifts), and improving jump technique."
+      },
+      {
+        "question": "Does body weight affect jumping?",
+        "answer": "Yes. Reducing excess body fat while maintaining or increasing strength improves power-to-weight ratio and jump height."
+      }
     ]
   },
   "workout_volume": {
@@ -2450,15 +3659,33 @@
       "formula": "Training Volume = Sets × Reps × Weight (kg)",
       "explanation": "This tool calculates your total training volume, which is the primary driver of muscle hypertrophy. Monitoring training volume helps ensure progressive overload while avoiding overtraining and allows comparison between different training programs.",
       "steps": [
-        { "name": "Enter Sets", "text": "Input the number of sets performed for the exercise" },
-        { "name": "Enter Reps and Weight", "text": "Input the repetitions per set and weight used" },
-        { "name": "Calculate Volume", "text": "Get your total weekly volume and per-session breakdown" }
+        {
+          "name": "Enter Sets",
+          "text": "Input the number of sets performed for the exercise"
+        },
+        {
+          "name": "Enter Reps and Weight",
+          "text": "Input the repetitions per set and weight used"
+        },
+        {
+          "name": "Calculate Volume",
+          "text": "Get your total weekly volume and per-session breakdown"
+        }
       ]
     },
     "useCases": [
-      { "title": "Progressive Overload", "description": "Systematically increase volume over time to stimulate continued muscle growth" },
-      { "title": "Overtraining Prevention", "description": "Monitor total volume to prevent excessive fatigue and injuries" },
-      { "title": "Program Comparison", "description": "Compare the effectiveness and workload of different training programs" }
+      {
+        "title": "Progressive Overload",
+        "description": "Systematically increase volume over time to stimulate continued muscle growth"
+      },
+      {
+        "title": "Overtraining Prevention",
+        "description": "Monitor total volume to prevent excessive fatigue and injuries"
+      },
+      {
+        "title": "Program Comparison",
+        "description": "Compare the effectiveness and workload of different training programs"
+      }
     ],
     "seoTips": [
       "Aim to increase weekly volume by 5-10% for continued progress",
@@ -2473,9 +3700,18 @@
       "Comparing your volume to advanced lifters with different training ages"
     ],
     "faqs": [
-      { "question": "What is optimal volume for hypertrophy?", "answer": "Research suggests 10-20 sets per muscle group per week for intermediate trainees, with beginners needing less and advanced lifters potentially handling more." },
-      { "question": "Is volume more important than intensity?", "answer": "Both matter. Volume primarily drives hypertrophy, while intensity (weight) drives strength. A balance is needed for overall development." },
-      { "question": "When should I reduce volume?", "answer": "When experiencing persistent fatigue, declining performance, or every 4-6 weeks as a planned deload." }
+      {
+        "question": "What is optimal volume for hypertrophy?",
+        "answer": "Research suggests 10-20 sets per muscle group per week for intermediate trainees, with beginners needing less and advanced lifters potentially handling more."
+      },
+      {
+        "question": "Is volume more important than intensity?",
+        "answer": "Both matter. Volume primarily drives hypertrophy, while intensity (weight) drives strength. A balance is needed for overall development."
+      },
+      {
+        "question": "When should I reduce volume?",
+        "answer": "When experiencing persistent fatigue, declining performance, or every 4-6 weeks as a planned deload."
+      }
     ]
   },
   "weight_loss_time": {
@@ -2502,15 +3738,33 @@
       "formula": "Weeks to Goal = (Current Weight - Target Weight) / Weekly Loss Rate",
       "explanation": "This calculator estimates how long it will take to reach your target weight based on your chosen weekly loss rate. Understanding the timeline helps set realistic expectations and plan your weight loss journey effectively.",
       "steps": [
-        { "name": "Enter Current Weight", "text": "Input your current body weight" },
-        { "name": "Enter Target Weight", "text": "Input your goal weight" },
-        { "name": "Set Weekly Loss Rate", "text": "Choose how much you plan to lose per week (0.5-1 kg recommended)" }
+        {
+          "name": "Enter Current Weight",
+          "text": "Input your current body weight"
+        },
+        {
+          "name": "Enter Target Weight",
+          "text": "Input your goal weight"
+        },
+        {
+          "name": "Set Weekly Loss Rate",
+          "text": "Choose how much you plan to lose per week (0.5-1 kg recommended)"
+        }
       ]
     },
     "useCases": [
-      { "title": "Goal Planning", "description": "Set realistic timelines for weight loss goals and milestones" },
-      { "title": "Event Preparation", "description": "Plan weight loss for weddings, vacations, or other events" },
-      { "title": "Expectation Setting", "description": "Understand the time commitment required for your weight loss goals" }
+      {
+        "title": "Goal Planning",
+        "description": "Set realistic timelines for weight loss goals and milestones"
+      },
+      {
+        "title": "Event Preparation",
+        "description": "Plan weight loss for weddings, vacations, or other events"
+      },
+      {
+        "title": "Expectation Setting",
+        "description": "Understand the time commitment required for your weight loss goals"
+      }
     ],
     "seoTips": [
       "Aim for 0.5-1 kg per week for sustainable, healthy weight loss",
@@ -2525,9 +3779,18 @@
       "Starting too aggressively and burning out before reaching the goal"
     ],
     "faqs": [
-      { "question": "What is a safe rate of weight loss?", "answer": "0.5-1 kg per week is considered safe and sustainable for most people. Faster rates may lead to muscle loss." },
-      { "question": "Why does weight loss slow down over time?", "answer": "As you lose weight, your body requires fewer calories, and metabolic adaptation occurs. Recalculate your needs periodically." },
-      { "question": "Can I lose weight faster?", "answer": "While possible, faster loss often means losing muscle along with fat and is harder to maintain long-term." }
+      {
+        "question": "What is a safe rate of weight loss?",
+        "answer": "0.5-1 kg per week is considered safe and sustainable for most people. Faster rates may lead to muscle loss."
+      },
+      {
+        "question": "Why does weight loss slow down over time?",
+        "answer": "As you lose weight, your body requires fewer calories, and metabolic adaptation occurs. Recalculate your needs periodically."
+      },
+      {
+        "question": "Can I lose weight faster?",
+        "answer": "While possible, faster loss often means losing muscle along with fat and is harder to maintain long-term."
+      }
     ]
   },
   "wilks_calculator": {
@@ -2575,15 +3838,33 @@
       "formula": "Wilks Score = Total Lifted × Coefficient (based on body weight and gender)",
       "explanation": "The Wilks Coefficient is a mathematical formula used in powerlifting to compare relative strength between lifters of different body weights and genders. It normalizes your powerlifting total to allow fair comparison across weight classes.",
       "steps": [
-        { "name": "Enter Body Weight", "text": "Input your current body weight in kilograms" },
-        { "name": "Enter Powerlifting Total", "text": "Input your combined best attempts in squat, bench, and deadlift" },
-        { "name": "Calculate Score", "text": "Get your Wilks score and performance classification" }
+        {
+          "name": "Enter Body Weight",
+          "text": "Input your current body weight in kilograms"
+        },
+        {
+          "name": "Enter Powerlifting Total",
+          "text": "Input your combined best attempts in squat, bench, and deadlift"
+        },
+        {
+          "name": "Calculate Score",
+          "text": "Get your Wilks score and performance classification"
+        }
       ]
     },
     "useCases": [
-      { "title": "Competition Ranking", "description": "Determine the overall winner among powerlifters in different weight classes" },
-      { "title": "Progress Tracking", "description": "Monitor if your relative strength improves independent of weight changes" },
-      { "title": "Performance Benchmarking", "description": "Compare your strength against national and international standards" }
+      {
+        "title": "Competition Ranking",
+        "description": "Determine the overall winner among powerlifters in different weight classes"
+      },
+      {
+        "title": "Progress Tracking",
+        "description": "Monitor if your relative strength improves independent of weight changes"
+      },
+      {
+        "title": "Performance Benchmarking",
+        "description": "Compare your strength against national and international standards"
+      }
     ],
     "seoTips": [
       "A Wilks score of 300+ is considered average, 400+ advanced, 500+ elite for men",
@@ -2598,9 +3879,18 @@
       "Expecting large score improvements over short periods"
     ],
     "faqs": [
-      { "question": "What is a good Wilks score?", "answer": "For men: 300+ average, 400+ advanced, 450+ elite, 500+ world class. Women have slightly lower thresholds." },
-      { "question": "Is Wilks the best comparison formula?", "answer": "It is the most widely used, but alternatives like DOTS and IPF Points exist and may be more accurate at extreme body weights." },
-      { "question": "How can I improve my Wilks score?", "answer": "By increasing strength faster than body weight, or by reducing weight while maintaining or increasing strength." }
+      {
+        "question": "What is a good Wilks score?",
+        "answer": "For men: 300+ average, 400+ advanced, 450+ elite, 500+ world class. Women have slightly lower thresholds."
+      },
+      {
+        "question": "Is Wilks the best comparison formula?",
+        "answer": "It is the most widely used, but alternatives like DOTS and IPF Points exist and may be more accurate at extreme body weights."
+      },
+      {
+        "question": "How can I improve my Wilks score?",
+        "answer": "By increasing strength faster than body weight, or by reducing weight while maintaining or increasing strength."
+      }
     ]
   },
   "flexibility_score": {
@@ -2642,15 +3932,33 @@
       "formula": "Overall Score = Weighted Average of (Sit and Reach Score + Shoulder Mobility Score + Hip Flexion Score)",
       "explanation": "This tool assesses your overall flexibility using three standard tests that measure different body areas. Flexibility is critical for injury prevention, improved movement quality, and better athletic performance. The tests cover hamstrings, shoulders, and hip mobility.",
       "steps": [
-        { "name": "Complete Tests", "text": "Perform the sit-and-reach, shoulder reach, and hip flexion tests" },
-        { "name": "Enter Results", "text": "Input your measurements for each flexibility test" },
-        { "name": "View Assessment", "text": "Get your overall flexibility score with recommendations" }
+        {
+          "name": "Complete Tests",
+          "text": "Perform the sit-and-reach, shoulder reach, and hip flexion tests"
+        },
+        {
+          "name": "Enter Results",
+          "text": "Input your measurements for each flexibility test"
+        },
+        {
+          "name": "View Assessment",
+          "text": "Get your overall flexibility score with recommendations"
+        }
       ]
     },
     "useCases": [
-      { "title": "Injury Prevention", "description": "Identify tight areas that may lead to injury during activity" },
-      { "title": "Athletic Performance", "description": "Improve range of motion for better performance in sports" },
-      { "title": "Rehabilitation", "description": "Track flexibility improvements during physical therapy or recovery" }
+      {
+        "title": "Injury Prevention",
+        "description": "Identify tight areas that may lead to injury during activity"
+      },
+      {
+        "title": "Athletic Performance",
+        "description": "Improve range of motion for better performance in sports"
+      },
+      {
+        "title": "Rehabilitation",
+        "description": "Track flexibility improvements during physical therapy or recovery"
+      }
     ],
     "seoTips": [
       "Warm up with light activity before testing for accurate results",
@@ -2665,9 +3973,18 @@
       "Only stretching muscle groups that are already flexible"
     ],
     "faqs": [
-      { "question": "Can everyone become flexible?", "answer": "Yes, but the rate and extent depend on genetics, age, and consistency. Everyone can improve from their starting point." },
-      { "question": "How often should I stretch?", "answer": "For improvement, stretch at least 3-4 times per week. Daily stretching provides the best results." },
-      { "question": "Does flexibility decrease with age?", "answer": "Yes, naturally, but regular stretching significantly slows the decline and can even improve flexibility at any age." }
+      {
+        "question": "Can everyone become flexible?",
+        "answer": "Yes, but the rate and extent depend on genetics, age, and consistency. Everyone can improve from their starting point."
+      },
+      {
+        "question": "How often should I stretch?",
+        "answer": "For improvement, stretch at least 3-4 times per week. Daily stretching provides the best results."
+      },
+      {
+        "question": "Does flexibility decrease with age?",
+        "answer": "Yes, naturally, but regular stretching significantly slows the decline and can even improve flexibility at any age."
+      }
     ]
   },
   "rep_range_calculator": {
@@ -2705,15 +4022,33 @@
       "formula": "Working Weight = 1RM × Percentage (based on rep range: 85-95% for strength, 65-80% for hypertrophy)",
       "explanation": "This tool determines the optimal rep range, working weight, sets, and rest periods based on your training goal. Different rep ranges stimulate different physiological adaptations: lower reps for strength, moderate reps for muscle size, and higher reps for endurance.",
       "steps": [
-        { "name": "Select Goal", "text": "Choose your primary training objective (strength, hypertrophy, endurance)" },
-        { "name": "Enter 1RM", "text": "Input your one-rep max for the exercise" },
-        { "name": "Get Recommendations", "text": "Receive specific rep range, weight, sets, and rest time recommendations" }
+        {
+          "name": "Select Goal",
+          "text": "Choose your primary training objective (strength, hypertrophy, endurance)"
+        },
+        {
+          "name": "Enter 1RM",
+          "text": "Input your one-rep max for the exercise"
+        },
+        {
+          "name": "Get Recommendations",
+          "text": "Receive specific rep range, weight, sets, and rest time recommendations"
+        }
       ]
     },
     "useCases": [
-      { "title": "Goal-Specific Training", "description": "Train with the optimal parameters for your specific fitness goal" },
-      { "title": "Program Design", "description": "Structure your workout program with appropriate rep ranges for each phase" },
-      { "title": "Periodization", "description": "Vary rep ranges across training cycles for comprehensive development" }
+      {
+        "title": "Goal-Specific Training",
+        "description": "Train with the optimal parameters for your specific fitness goal"
+      },
+      {
+        "title": "Program Design",
+        "description": "Structure your workout program with appropriate rep ranges for each phase"
+      },
+      {
+        "title": "Periodization",
+        "description": "Vary rep ranges across training cycles for comprehensive development"
+      }
     ],
     "seoTips": [
       "1-5 reps at 85-95% 1RM builds maximal strength and neuromuscular efficiency",
@@ -2728,9 +4063,18 @@
       "Resting too long for hypertrophy work (reduces metabolic stress)"
     ],
     "faqs": [
-      { "question": "Which rep range is best for muscle growth?", "answer": "6-12 reps is optimal for hypertrophy, though muscle can be built across all rep ranges with sufficient effort." },
-      { "question": "How much should rest periods differ?", "answer": "Strength: 3-5 minutes, Hypertrophy: 60-90 seconds, Endurance: 30-60 seconds." },
-      { "question": "Can I mix rep ranges in one workout?", "answer": "Yes, starting with heavy compounds (low reps) and finishing with isolation exercises (higher reps) is an effective strategy." }
+      {
+        "question": "Which rep range is best for muscle growth?",
+        "answer": "6-12 reps is optimal for hypertrophy, though muscle can be built across all rep ranges with sufficient effort."
+      },
+      {
+        "question": "How much should rest periods differ?",
+        "answer": "Strength: 3-5 minutes, Hypertrophy: 60-90 seconds, Endurance: 30-60 seconds."
+      },
+      {
+        "question": "Can I mix rep ranges in one workout?",
+        "answer": "Yes, starting with heavy compounds (low reps) and finishing with isolation exercises (higher reps) is an effective strategy."
+      }
     ]
   },
   "training_age": {
@@ -2759,15 +4103,33 @@
       "formula": "Training Age = Current Date - Training Start Date (in years and months)",
       "explanation": "Training age refers to how long you have been consistently training, not your chronological age. It is a critical factor in determining appropriate training volume, intensity, and progression rates. More experienced lifters require different programming than beginners.",
       "steps": [
-        { "name": "Enter Start Date", "text": "Input when you started consistent, structured training" },
-        { "name": "Calculate Age", "text": "The tool calculates your total training time" },
-        { "name": "View Classification", "text": "Get your experience level classification for program design" }
+        {
+          "name": "Enter Start Date",
+          "text": "Input when you started consistent, structured training"
+        },
+        {
+          "name": "Calculate Age",
+          "text": "The tool calculates your total training time"
+        },
+        {
+          "name": "View Classification",
+          "text": "Get your experience level classification for program design"
+        }
       ]
     },
     "useCases": [
-      { "title": "Program Selection", "description": "Choose training programs appropriate for your experience level" },
-      { "title": "Progression Expectations", "description": "Set realistic strength and muscle gain expectations based on training experience" },
-      { "title": "Recovery Planning", "description": "Understand how your training age affects recovery capacity and volume tolerance" }
+      {
+        "title": "Program Selection",
+        "description": "Choose training programs appropriate for your experience level"
+      },
+      {
+        "title": "Progression Expectations",
+        "description": "Set realistic strength and muscle gain expectations based on training experience"
+      },
+      {
+        "title": "Recovery Planning",
+        "description": "Understand how your training age affects recovery capacity and volume tolerance"
+      }
     ],
     "seoTips": [
       "Beginners (under 1 year) can make rapid progress with simple programs and linear progression",
@@ -2782,9 +4144,18 @@
       "Ignoring training age when selecting programs from social media"
     ],
     "faqs": [
-      { "question": "Why does training age matter?", "answer": "It determines your adaptation potential, recovery capacity, and the complexity of programming you need." },
-      { "question": "Does a training break reset my training age?", "answer": "Partially. Muscle memory helps, but extended breaks (1+ years) may reduce effective training age." },
-      { "question": "Can a beginner use advanced programs?", "answer": "Not recommended. Beginners progress faster with simpler programs and would not benefit from the complexity." }
+      {
+        "question": "Why does training age matter?",
+        "answer": "It determines your adaptation potential, recovery capacity, and the complexity of programming you need."
+      },
+      {
+        "question": "Does a training break reset my training age?",
+        "answer": "Partially. Muscle memory helps, but extended breaks (1+ years) may reduce effective training age."
+      },
+      {
+        "question": "Can a beginner use advanced programs?",
+        "answer": "Not recommended. Beginners progress faster with simpler programs and would not benefit from the complexity."
+      }
     ]
   },
   "water-intake-calculator": {
@@ -2795,15 +4166,33 @@
       "formula": "Basic Intake = Weight (kg) × 30-35 ml, plus 500-1000 ml for physical activity",
       "explanation": "This tool calculates the water your body needs daily based on your weight, physical activity level, and climate. Adequate hydration is essential for physical and mental performance and overall health.",
       "steps": [
-        { "name": "Enter Weight", "text": "Input your body weight in kilograms" },
-        { "name": "Set Activity", "text": "Select your daily physical activity level" },
-        { "name": "Calculate Needs", "text": "The tool calculates recommended daily water intake" }
+        {
+          "name": "Enter Weight",
+          "text": "Input your body weight in kilograms"
+        },
+        {
+          "name": "Set Activity",
+          "text": "Select your daily physical activity level"
+        },
+        {
+          "name": "Calculate Needs",
+          "text": "The tool calculates recommended daily water intake"
+        }
       ]
     },
     "useCases": [
-      { "title": "Athletes", "description": "Replace fluids lost during exercise and competition" },
-      { "title": "Weight Loss", "description": "Drinking water helps reduce appetite and improve metabolism" },
-      { "title": "General Health", "description": "Maintain proper body function" }
+      {
+        "title": "Athletes",
+        "description": "Replace fluids lost during exercise and competition"
+      },
+      {
+        "title": "Weight Loss",
+        "description": "Drinking water helps reduce appetite and improve metabolism"
+      },
+      {
+        "title": "General Health",
+        "description": "Maintain proper body function"
+      }
     ],
     "seoTips": [
       "Distribute water intake throughout the day - don't drink it all at once",
@@ -2818,9 +4207,63 @@
       "Ignoring increased needs in hot weather"
     ],
     "faqs": [
-      { "question": "How many liters of water do I need daily?", "answer": "Average is 2-3 liters for adults, but varies by weight, activity, and climate." },
-      { "question": "Can I drink too much water?", "answer": "Yes, rare overhydration can cause sodium deficiency, but it's very uncommon." },
-      { "question": "Do tea and coffee count?", "answer": "Partially, but pure water is best since caffeine is a diuretic." }
+      {
+        "question": "How many liters of water do I need daily?",
+        "answer": "Average is 2-3 liters for adults, but varies by weight, activity, and climate."
+      },
+      {
+        "question": "Can I drink too much water?",
+        "answer": "Yes, rare overhydration can cause sodium deficiency, but it's very uncommon."
+      },
+      {
+        "question": "Do tea and coffee count?",
+        "answer": "Partially, but pure water is best since caffeine is a diuretic."
+      }
     ]
+  },
+  "water": {
+    "title": "Water Intake Calculator",
+    "description": "Calculate your daily water intake needs based on weight, activity level, and climate",
+    "inputs": {
+      "climate": "Climate",
+      "climate_cold": "Cold Climate",
+      "climate_moderate": "Moderate Climate",
+      "climate_hot": "Hot Climate",
+      "climate_very_hot": "Very Hot Climate"
+    },
+    "tooltips": {
+      "weight": "Your body weight in kilograms",
+      "climate": "The climate you live in affects your water needs"
+    },
+    "errors": {
+      "weight_range": "Weight must be between 20 and 300 kg"
+    },
+    "about": {
+      "title": "About Water Intake",
+      "desc": "Proper hydration is essential for overall health. This calculator estimates your daily water needs based on your body weight, activity level, and climate conditions.",
+      "benefits_title": "Benefits of Proper Hydration",
+      "benefit_1": "Maintains body temperature and joint lubrication",
+      "benefit_2": "Helps transport nutrients and oxygen to cells",
+      "benefit_3": "Aids in digestion and prevents constipation",
+      "benefit_4": "Improves skin health and mental clarity"
+    },
+    "results": {
+      "daily_recommendation": "Recommended Daily Water Intake",
+      "liters": "Liters",
+      "liters_short": "L",
+      "breakdown": "Water Intake Breakdown",
+      "base": "Base Water Needs",
+      "activity_addition": "Activity Addition",
+      "glasses": "Standard Glasses",
+      "glasses_unit": "glasses",
+      "glass_size": "(250ml each)",
+      "bottles": "Water Bottles",
+      "bottles_unit": "bottles",
+      "bottle_size": "(500ml each)"
+    },
+    "tips": {
+      "title": "Hydration Tips",
+      "desc": "Drink water consistently throughout the day, not all at once. Increase intake during hot weather, exercise, or illness. Urine color can indicate hydration level - aim for pale yellow."
+    }
   }
 }

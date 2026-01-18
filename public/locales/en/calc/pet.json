@@ -3639,71 +3639,40 @@
     ]
   },
   "reptile-tank-calculator": {
-    "title": "Reptile Tank Calculator - Terrarium Size and Setup",
-    "description": "Calculate terrarium size for reptiles and amphibians. Free online tank calculator for snakes, lizards, and turtles.",
-    "tips": [
-      "Maintain temperature gradient in the tank",
-      "Monitor temperature and humidity daily",
-      "Clean tank weekly",
-      "Always provide fresh water",
-      "Replace UVB bulbs every 6-12 months"
-    ],
-    "substrate_bearded_dragon_en": "Reptile sand or tile",
-    "substrate_gecko_en": "Paper or reptile carpet",
-    "substrate_snake_en": "Aspen shavings",
-    "substrate_tortoise_en": "Soil and grass",
-    "substrate_iguana_en": "Reptile carpet",
-    "howItWorks": {
-      "title": "How Reptile Tank Calculator Works",
-      "formula": "Tank size = Species requirements + Adult size considerations",
-      "explanation": "This calculator recommends terrarium dimensions, heating, and humidity requirements based on reptile species, ensuring proper husbandry for your pet.",
-      "steps": [
-        "Select your reptile species",
-        "Enter the reptile's size or age",
-        "View recommended tank dimensions",
-        "Check temperature, humidity, and lighting requirements"
-      ]
-    },
-    "useCases": [
-      "Selecting appropriate enclosure size for new reptiles",
-      "Planning habitat upgrades as reptiles grow",
-      "Ensuring proper temperature gradients",
-      "Setting up correct lighting and humidity"
-    ],
-    "seoTips": [
-      "Always size tanks for adult size, not current size",
-      "Temperature gradients are essential for thermoregulation",
-      "UVB lighting is crucial for most species",
-      "Humidity requirements vary greatly by species",
-      "Ventilation is as important as heat and humidity"
-    ],
-    "commonMistakes": [
-      "Buying tanks for juvenile size instead of adult",
-      "Not providing a temperature gradient",
-      "Using wrong substrate for the species",
-      "Forgetting to replace UVB bulbs regularly"
-    ],
-    "faqs": [
-      {
-        "question": "How big should my reptile tank be?",
-        "answer": "Generally, the enclosure should be at least 1.5-2x the reptile's adult length. Arboreal species need height; terrestrial species need floor space."
-      },
-      {
-        "question": "Why is a temperature gradient important?",
-        "answer": "Reptiles are cold-blooded and need a warm basking spot and cooler area to regulate body temperature. The gradient allows them to thermoregulate."
-      },
-      {
-        "question": "Do all reptiles need UVB lighting?",
-        "answer": "Most do, especially diurnal species. UVB is essential for vitamin D3 synthesis and calcium absorption. Some nocturnal species may not require it."
-      },
-      {
-        "question": "What humidity level do reptiles need?",
-        "answer": "It varies greatly. Desert species: 20-40%. Tropical species: 60-80%+. Research your specific species requirements carefully."
-      },
-      {
-        "question": "How often should I clean the tank?",
-        "answer": "Spot clean daily (remove waste and uneaten food). Deep clean monthly, disinfecting surfaces and replacing substrate as needed."
-      }
-    ]
+    "title": "Reptile Tank Calculator",
+    "description": "Calculate the appropriate tank size for your reptile based on its type and length",
+    "input_title": "Reptile Information",
+    "reptile_type": "Reptile Type",
+    "reptile_length": "Reptile Length",
+    "cm": "cm",
+    "enter_length": "Enter reptile length",
+    "error_invalid_length": "Please enter a valid reptile length (5-300 cm)",
+    "calculate_btn": "Calculate Tank Size",
+    "reset_btn": "Reset",
+    "empty_state": "Enter your reptile details to calculate the recommended tank size",
+    "results_title": "Recommended Tank Dimensions",
+    "tank_length": "Tank Length",
+    "tank_width": "Tank Width",
+    "tank_height": "Tank Height",
+    "substrate_title": "Substrate Recommendations",
+    "lighting_title": "Lighting Requirements",
+    "temperature_title": "Temperature Range",
+    "tips_title": "Care Tips",
+    "footer_note": "These are general recommendations. Always research specific care requirements for your reptile species.",
+    "reptile_bearded_dragon": "Bearded Dragon",
+    "reptile_gecko": "Leopard Gecko",
+    "reptile_snake": "Snake",
+    "reptile_iguana": "Iguana",
+    "reptile_tortoise": "Tortoise",
+    "substrate_bearded_dragon": "رمل الصحراء أو بلاط السيراميك",
+    "substrate_bearded_dragon_en": "Desert sand or ceramic tiles",
+    "substrate_gecko": "ورق الجرائد أو بساط الزواحف",
+    "substrate_gecko_en": "Newspaper or reptile carpet",
+    "substrate_snake": "نشارة الحور أو ورق",
+    "substrate_snake_en": "Aspen bedding or paper",
+    "substrate_iguana": "تربة جوز الهند",
+    "substrate_iguana_en": "Coconut fiber substrate",
+    "substrate_tortoise": "تربة وطحلب",
+    "substrate_tortoise_en": "Soil and moss mixture"
   }
 }

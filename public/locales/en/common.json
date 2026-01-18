@@ -425,51 +425,51 @@
   "holy_week": {
     "traditions": {
       "title": "Holy Week Traditions",
-      "intro": "Common traditions and symbols observed during Holy Week in different Christian communities.",
+      "intro": "Holy Week is the most sacred week in the Christian calendar, commemorating the passion, death, and resurrection of Jesus Christ.",
       "palm_sunday": {
         "title": "Palm Sunday",
-        "desc": "Commemorates Jesus' entry into Jerusalem, often marked by palm branches and processions."
+        "desc": "Commemorates Jesus's triumphant entry into Jerusalem, when crowds laid palm branches before him."
       },
       "holy_monday_wednesday": {
-        "title": "Holy Monday to Wednesday",
-        "desc": "Days of preparation, prayer, and reflection leading up to the events of the Passion."
+        "title": "Holy Monday - Wednesday",
+        "desc": "These days recall Jesus's teachings in the Temple and his growing conflict with religious authorities."
       },
       "maundy_thursday": {
         "title": "Maundy Thursday",
-        "desc_1": "Remembers the Last Supper and the institution of the Eucharist.",
-        "desc_2": "Hot cross buns",
-        "desc_3": "In some traditions, a foot-washing service symbolizes humility and service."
+        "desc_1": "Commemorates the Last Supper, where Jesus instituted the Eucharist.",
+        "desc_2": "Jesus washes the disciples' feet, demonstrating humble service.",
+        "desc_3": "After supper, Jesus prays in the Garden of Gethsemane and is betrayed by Judas."
       },
       "good_friday": {
         "title": "Good Friday",
-        "desc_1": "Day of remembrance of the Crucifixion.",
-        "desc_2": "Stations of the Cross",
-        "desc_3": "Services often include readings, prayers, and veneration.",
-        "desc_4": "The Burial Shroud",
-        "desc_5": "A solemn atmosphere is typical in many churches."
+        "desc_1": "Commemorates Jesus's crucifixion and death.",
+        "desc_2": "Churches hold solemn services focusing on the Passion narrative.",
+        "desc_3": "Many observe fasting and abstinence.",
+        "desc_4": "The Stations of the Cross are a popular devotion.",
+        "desc_5": "Altars are stripped bare in remembrance."
       },
       "holy_saturday": {
         "title": "Holy Saturday",
-        "desc_1": "A day of quiet waiting and contemplation.",
-        "desc_2": "Holy Fire",
-        "desc_3": "Many communities celebrate the Easter Vigil at night.",
-        "desc_4": "Christ is Risen!",
-        "desc_5": "The faithful respond with a greeting.",
-        "desc_6": "Truly He is Risen!",
-        "desc_7": "Celebrations begin as Easter approaches."
+        "desc_1": "A day of reflection and waiting between Jesus's death and resurrection.",
+        "desc_2": "Churches remain quiet and somber.",
+        "desc_3": "Preparation for the Easter Vigil begins.",
+        "desc_4": "New fire is blessed and the Paschal candle lit.",
+        "desc_5": "Catechumens are baptized.",
+        "desc_6": "The Exsultet is sung in proclamation of the resurrection.",
+        "desc_7": "First celebration of Easter Mass occurs."
       },
       "easter_sunday": {
         "title": "Easter Sunday",
-        "desc_1": "Celebrates the Resurrection of Jesus Christ.",
-        "desc_2": "Scoppio del Carro",
-        "desc_3": "Festive liturgies and family gatherings are common.",
-        "desc_4": "Christ is Risen! / Truly He is Risen!",
-        "desc_5": "Many cultures have unique foods and customs to celebrate."
+        "desc_1": "Celebrates the resurrection of Jesus Christ from the dead.",
+        "desc_2": "The most joyful day in the Christian calendar.",
+        "desc_3": "Churches are decorated with flowers and bright colors.",
+        "desc_4": "Special Easter meals and traditions vary by culture.",
+        "desc_5": "Begins the 50-day Easter season."
       },
-      "symbols_title": "Symbols and Traditions",
-      "symbols_intro": "Some symbols are widely used during Holy Week:",
-      "symbol_1": "Cross and processions",
-      "symbol_2": "Lamb of God"
+      "symbols_title": "Holy Week Symbols",
+      "symbols_intro": "Various symbols are associated with Holy Week:",
+      "symbol_1": "Palm branches - triumph and victory",
+      "symbol_2": "Cross - sacrifice and redemption"
     }
   },
   "close": "Close",

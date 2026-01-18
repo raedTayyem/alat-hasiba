@@ -5423,5 +5423,153 @@
       "use_case_2": "Determine optimal pricing strategy",
       "use_case_3": "Evaluate if upgrading to higher Shopify plan saves money"
     }
+  },
+  "income_tax": {
+    "title": "Income Tax Calculator",
+    "description": "Calculate income tax based on progressive tax brackets and deductions.",
+    "gross_income": "Gross Income",
+    "gross_income_tooltip": "Your total income before deductions",
+    "gross_income_placeholder": "Enter gross income",
+    "deductions": "Deductions",
+    "deductions_tooltip": "Total tax deductions (standard or itemized)",
+    "deductions_placeholder": "Enter deductions",
+    "filing_status": "Filing Status",
+    "filing_status_tooltip": "Your tax filing status",
+    "status_single": "Single",
+    "status_married": "Married Filing Jointly",
+    "status_head_of_household": "Head of Household",
+    "results": {
+      "total_tax": "Total Tax",
+      "effective_rate": "Effective Tax Rate",
+      "summary": "Tax Summary",
+      "taxable_income": "Taxable Income",
+      "after_tax_income": "After-Tax Income",
+      "bracket_breakdown": "Tax Bracket Breakdown",
+      "on": "on"
+    },
+    "info": {
+      "title": "About Income Tax",
+      "use_cases_title": "Common Uses",
+      "use_case_1": "Estimate annual tax liability",
+      "use_case_2": "Plan tax withholding and payments",
+      "use_case_3": "Compare filing status options"
+    }
+  },
+  "project_budget": {
+    "title": "Project Budget Calculator",
+    "description": "Calculate total project budget with labor, materials, overhead, and contingency",
+    "inputs": {
+      "labor_cost": "Labor Cost",
+      "labor_cost_tooltip": "Total cost of labor/workforce for the project",
+      "labor_cost_placeholder": "Enter labor cost",
+      "materials_cost": "Materials Cost",
+      "materials_cost_tooltip": "Total cost of materials and supplies",
+      "materials_cost_placeholder": "Enter materials cost",
+      "overhead_cost": "Overhead Cost",
+      "overhead_cost_tooltip": "Indirect costs like rent, utilities, insurance",
+      "overhead_cost_placeholder": "Enter overhead cost",
+      "contingency": "Contingency (%)",
+      "contingency_tooltip": "Buffer percentage for unexpected costs (typically 5-15%)",
+      "contingency_placeholder": "Enter contingency %"
+    },
+    "results": {
+      "total_budget": "Total Project Budget",
+      "before_contingency": "Before Contingency",
+      "including_contingency": "Including Contingency",
+      "subtotal": "Subtotal",
+      "contingency": "Contingency",
+      "buffer": "Buffer",
+      "breakdown": "Cost Breakdown",
+      "labor": "Labor",
+      "materials": "Materials",
+      "overhead": "Overhead",
+      "of_total": "of total",
+      "formula_title": "Budget Formula",
+      "formula_desc": "Total Budget = (Labor + Materials + Overhead) × (1 + Contingency%)"
+    },
+    "info": {
+      "title": "About Project Budgeting",
+      "description": "This calculator helps you create a comprehensive project budget by accounting for all major costs and adding a contingency buffer for unexpected expenses.",
+      "use_cases": "Common Uses",
+      "use_case_1": "Planning construction or renovation projects",
+      "use_case_2": "Estimating software development or IT project costs",
+      "use_case_3": "Creating budgets for events or marketing campaigns"
+    }
+  },
+  "time_tracking": {
+    "title": "Time Tracking Calculator",
+    "description": "Calculate billable hours, expenses, and total invoice amount",
+    "inputs": {
+      "hours_worked": "Hours Worked",
+      "hours_worked_tooltip": "Total billable hours for the project or period",
+      "hours_worked_placeholder": "Enter hours worked",
+      "hourly_rate": "Hourly Rate",
+      "hourly_rate_tooltip": "Your billing rate per hour",
+      "hourly_rate_placeholder": "Enter hourly rate",
+      "expenses": "Expenses",
+      "expenses_tooltip": "Additional reimbursable expenses (travel, materials, etc.)",
+      "expenses_placeholder": "Enter expenses"
+    },
+    "results": {
+      "invoice_total": "Total Invoice Amount",
+      "breakdown": "Invoice Breakdown",
+      "billable_hours": "Billable Hours",
+      "hours": "hours",
+      "rate": "Rate",
+      "per_hour": "per hour",
+      "hours_x_rate": "Hours × Rate",
+      "labor_total": "Labor Total",
+      "expenses": "Expenses",
+      "reimbursable": "Reimbursable",
+      "effective_rate": "Effective Hourly Rate",
+      "effective_rate_desc": "Including expenses",
+      "formula_title": "Calculation Formula",
+      "formula_desc": "Total Invoice = (Hours × Hourly Rate) + Expenses"
+    },
+    "info": {
+      "title": "About Time Tracking",
+      "description": "Track your billable hours and calculate accurate invoices for clients. Include hourly rates and reimbursable expenses for complete billing.",
+      "use_cases": "Common Uses",
+      "use_case_1": "Freelancers billing clients by the hour",
+      "use_case_2": "Consultants tracking project time and expenses",
+      "use_case_3": "Service providers creating detailed invoices"
+    }
+  },
+  "unit_cost": {
+    "title": "Unit Cost Calculator",
+    "description": "Calculate cost per unit based on fixed and variable costs",
+    "inputs": {
+      "fixed_costs": "Fixed Costs",
+      "fixed_costs_tooltip": "One-time or periodic costs that don't change with production volume",
+      "fixed_costs_placeholder": "Enter fixed costs",
+      "variable_costs": "Variable Costs",
+      "variable_costs_tooltip": "Costs that change with production volume (per unit)",
+      "variable_costs_placeholder": "Enter variable costs per unit",
+      "units_produced": "Units Produced",
+      "units_produced_tooltip": "Total number of units produced",
+      "units_produced_placeholder": "Enter units produced"
+    },
+    "results": {
+      "cost_per_unit": "Cost Per Unit",
+      "per_unit": "per unit",
+      "breakdown": "Cost Breakdown",
+      "total_costs": "Total Costs",
+      "all_costs": "All Costs",
+      "fixed_costs": "Fixed Costs",
+      "variable_costs": "Variable Costs",
+      "fixed_per_unit": "Fixed Cost Per Unit",
+      "variable_per_unit": "Variable Cost Per Unit",
+      "of_total": "of total",
+      "formula_title": "Unit Cost Formula",
+      "formula_desc": "Unit Cost = (Fixed Costs ÷ Units) + Variable Cost Per Unit"
+    },
+    "info": {
+      "title": "About Unit Cost",
+      "description": "Calculate the cost to produce each unit by dividing fixed costs across units and adding variable costs. Essential for pricing and profitability analysis.",
+      "use_cases": "Common Uses",
+      "use_case_1": "Manufacturing cost analysis and pricing",
+      "use_case_2": "Product pricing and break-even analysis",
+      "use_case_3": "Cost optimization and efficiency planning"
+    }
   }
 }

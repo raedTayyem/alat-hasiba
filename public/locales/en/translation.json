@@ -1,474 +1,604 @@
 {
-    "navigation": {
-        "home": "Home",
-        "categories": "Categories",
-        "mostUsed": "Most Popular",
-        "about": "About",
-        "aboutUs": "About Us",
-        "contact": "Contact",
-        "support": "Support",
-        "supportOnBuyMeACoffee": "Support us on Buy Me A Coffee",
-        "closeMenu": "Close Menu",
-        "openMenu": "Open Menu",
-        "mobileMenu": "Mobile Menu",
-        "privacyPolicy": "Privacy Policy",
-        "termsOfService": "Terms of Service",
-        "mainMenu": "Main Menu",
-        "facebook": "Facebook",
-        "twitter": "Twitter",
-        "instagram": "Instagram"
-    },
-    "footer": {
-        "description": "Comprehensive calculator site providing accurate tools for everyone.",
-        "quickLinks": "Quick Links",
-        "popularCategories": "Popular Categories",
-        "contact": "Contact Us",
-        "email": "Email",
-        "website": "Website",
-        "copyright": "© {{year}} Alathasiba. All Rights Reserved.",
-        "madeWithLove": "Made with <0/> for users"
-    },
-    "language": {
-        "ar": "Arabic",
-        "en": "English",
-        "arLabel": "العربية",
-        "enLabel": "English"
-    },
-    "hero": {
-        "title": "Wide Range of Free Online Calculators",
-        "description": "We offer more than {{count}} free calculators and unit converters to help you in various fields: Math, Finance, Health, and Science.",
-        "browseCategories": "Browse Categories",
-        "learnAboutUs": "Learn About Us",
-        "newFeatures": "Over {{count}}+ Professional Tools"
-    },
-    "categories": {
-        "title": "Categories",
-        "featuredTitle": "Featured Categories",
-        "featuredDescription": "Discover a variety of categorized tools for easy access to what you need.",
-        "calculatorCount": "{{count}} Calculators",
-        "allCategories": "All Categories"
-    },
-    "calculators": {
-        "popularTitle": "Most Popular Calculators",
-        "popularDescription": "The most requested and used tools by our visitors daily.",
-        "categoryLabel": "Category",
-        "allPopular": "All Popular Calculators",
-        "invalid_input": "Invalid input. Please check your values.",
-        "calculation_error": "An error occurred during calculation",
-        "environmental": {
-            "water_usage": {
-                "title": "Water Usage Calculator",
-                "description": "Estimate your daily water consumption at home and receive conservation tips.",
-                "shower_label": "Daily Shower Duration (minutes)",
-                "shower_tooltip": "Average time spent in the shower",
-                "shower_placeholder": "e.g., 10",
-                "toilet_label": "Daily Toilet Flushes",
-                "toilet_tooltip": "How many times you flush the toilet per day",
-                "toilet_placeholder": "e.g., 5",
-                "dish_label": "Dishwashing (times per day)",
-                "dish_tooltip": "Times dishes are washed manually or by machine",
-                "dish_placeholder": "e.g., 2",
-                "laundry_label": "Laundry (loads per week)",
-                "laundry_tooltip": "Number of laundry loads per week",
-                "laundry_placeholder": "e.g., 3",
-                "cost_label": "Cost per Liter (optional)",
-                "cost_tooltip": "Water price per liter based on local tariff",
-                "cost_placeholder": "e.g., 0.005",
-                "minutes_unit": "minutes",
-                "times_unit": "times",
-                "loads_unit": "loads",
-                "currency_unit": "SAR",
-                "result_label": "Total Daily Consumption",
-                "result_unit": "Liters / Day",
-                "details_title": "Consumption Details",
-                "monthly_usage": "Monthly Usage",
-                "yearly_usage": "Yearly Usage",
-                "liters": "Liters",
-                "daily_cost": "Daily Cost",
-                "monthly_cost": "Monthly Cost",
-                "yearly_cost": "Yearly Cost",
-                "comparison_title": "Your Usage Assessment",
-                "comparison_low": "Your water usage is low and ideal.",
-                "comparison_average": "Your usage is within the normal average per individual.",
-                "comparison_high": "Your usage is high. Try using water-saving devices.",
-                "info_title": "Why Conserve Water?",
-                "info_description": "Water is a precious and limited resource. Conserving usage protects the environment and reduces your monthly bills.",
-                "use_cases_title": "Simple Ways to Conserve",
-                "use_case_1": "Take shorter showers and install water-saving showerheads.",
-                "use_case_2": "Fix leaks promptly and use water-efficient appliances.",
-                "use_case_3": "Water plants early morning or late evening to reduce evaporation.",
-                "error_at_least_one": "Please enter at least one value",
-                "error_negative": "Negative values are not allowed",
-                "error_calculation": "An error occurred during calculation"
-            },
-            "tree_planting": {
-                "title": "Tree Planting Impact Calculator",
-                "description": "Calculate the environmental impact of planting trees including CO₂ offset, oxygen production, and ecosystem benefits.",
-                "trees_label": "Number of Trees",
-                "trees_tooltip": "How many trees you plan to plant or have planted",
-                "trees_placeholder": "e.g., 10",
-                "trees_unit": "trees",
-                "age_label": "Tree Age (years)",
-                "age_tooltip": "How old the trees are or will be",
-                "age_placeholder": "e.g., 10",
-                "years_unit": "years",
-                "type_label": "Tree Type",
-                "type_tooltip": "Different tree types have different CO₂ absorption rates",
-                "type_deciduous": "Deciduous (Oak, Maple)",
-                "type_conifer": "Conifer (Pine, Spruce)",
-                "type_tropical": "Tropical (Mahogany, Teak)",
-                "type_fruit": "Fruit Trees (Apple, Orange)",
-                "result_label": "Total CO₂ Offset",
-                "result_unit": "kg CO₂",
-                "details_title": "Environmental Impact",
-                "oxygen_produced": "Oxygen Produced",
-                "water_filtered": "Water Filtered",
-                "wildlife_supported": "Wildlife Supported",
-                "species": "species",
-                "lifetime_co2": "Lifetime CO₂ Offset (50 years)",
-                "monetary_value": "Ecosystem Services Value",
-                "formula_title": "How Trees Help",
-                "formula_explanation": "Trees absorb CO₂ through photosynthesis, produce oxygen, filter water, prevent erosion, and provide habitat for wildlife. A single mature tree can absorb 21 kg of CO₂ per year.",
-                "info_title": "Why Plant Trees?",
-                "info_description": "Trees are nature's carbon capture technology. They absorb CO₂, produce oxygen, cool the environment, filter water, and support biodiversity.",
-                "use_cases_title": "Benefits of Tree Planting",
-                "use_case_1": "Combat climate change by removing CO₂ from the atmosphere",
-                "use_case_2": "Improve air quality and reduce urban heat islands",
-                "use_case_3": "Provide habitat for wildlife and preserve biodiversity",
-                "error_required": "Please enter the number of trees and their age",
-                "error_positive": "Values must be positive numbers",
-                "error_age_max": "Tree age cannot exceed 100 years",
-                "error_calculation": "An error occurred during calculation"
-            }
-        }
-    },
-    "benefits": {
-        "title": "Why Use Alathasiba?",
-        "description": "We strive to provide the best possible experience for our users through accurate and easy tools.",
-        "easyToUse": {
-            "title": "Easy to Use",
-            "description": "Simple and carefully designed interfaces to enable you to reach your result quickly."
-        },
-        "accurate": {
-            "title": "Accurate & Reliable",
-            "description": "Carefully tested calculation algorithms to ensure the highest levels of accuracy."
-        },
-        "free": {
-            "title": "Completely Free",
-            "description": "All our services are available to everyone for free without the need for registration."
-        }
-    },
-    "support": {
-        "title": "Support Project Continuity",
-        "description": "Our site is completely free, you can support us to help us stay online and develop new tools.",
-        "supportButton": "Buy me a coffee"
-    },
-    "cta": {
-        "title": "Ready to Start?",
-        "description": "Use our {{count}}+ free calculators now.",
-        "browseCalculators": "Start Browsing"
-    },
-    "errors": {
-        "goHome": "Go Home",
-        "errorLoadingPage": "Error loading page. Please refresh."
-    },
-    "common": {
-        "search": "Search",
-        "searchPlaceholder": "Search for a calculator (e.g., Percentage, BMI...)",
-        "siteName": "Alathasiba",
-        "convert": "Convert"
-    },
-    "categoryNames": {
-        "math": "Math Calculators",
-        "finance": "Finance & Money",
-        "health": "Health & Body",
-        "converter": "Unit Converters",
-        "physics": "Physics Tools",
-        "engineering": "Engineering Tools",
-        "education": "Education & Study",
-        "date-time": "Date & Time",
-        "misc": "Miscellaneous",
-        "geometry": "Geometry Tools",
-        "business": "Business & Econ",
-        "construction": "Construction Tools",
-        "automotive": "Car & Auto",
-        "cooking": "Cooking & Kitchen",
-        "gaming": "Gaming Tools",
-        "agriculture": "Agri & Farm",
-        "science": "Science Tools",
-        "electrical": "Electrical Tools",
-        "astronomy": "Space & Stars",
-        "statistics": "Statistics Tools",
-        "real-estate": "Real Estate",
-        "fitness": "Fitness & Sports",
-        "environmental": "Eco & Environment",
-        "pet": "Pet Care"
-    },
-    "categoryDescriptions": {
-        "math": "Solve complex mathematical problems easily, from algebra to calculus.",
-        "finance": "Tools for financial planning, loan calculations, taxes, and investments.",
-        "health": "Track your health through BMI calculators, calories, and nutritional needs.",
-        "converter": "Convert between various standard units quickly and accurately.",
-        "physics": "Accurate physics calculations for mechanics, electricity, and energy.",
-        "engineering": "Specialized tools for engineers and designers.",
-        "education": "Educational tools to help students in their studies.",
-        "date-time": "Calculate time differences and convert between different calendars.",
-        "misc": "A variety of useful tools for different daily needs.",
-        "geometry": "Calculate areas, volumes, and various geometric shapes.",
-        "business": "Tools for business management, profit calculation, and productivity.",
-        "construction": "Calculators for construction projects, material estimation, and costs.",
-        "automotive": "Everything you need for your car from fuel consumption to trip costs.",
-        "cooking": "Convert cooking ingredients and adjust recipe quantities.",
-        "gaming": "Tools and calculators dedicated to gaming and entertainment.",
-        "agriculture": "Farm calculations, irrigation, and crop planning.",
-        "science": "Advanced scientific tools for various research fields.",
-        "electrical": "Calculations for electrical circuits, power, and voltage.",
-        "astronomy": "Explore space with distance and celestial body calculators.",
-        "statistics": "Tools for data analysis and mathematical statistics.",
-        "real-estate": "Mortgage calculations, ROI, and property values.",
-        "fitness": "Tools to improve your physical fitness and track your workouts.",
-        "environmental": "Calculate your environmental footprint and contribute to sustainability.",
-        "pet": "Everything you need to care for your pets."
-    },
-    "zakat": {
-        "title": "Islamic Zakat Calculator",
-        "description": "Calculate your Zakat obligations on wealth, gold, and silver according to Islamic principles.",
-        "page_title": "Zakat Calculator",
-        "page_description": "Accurately calculate your annual Zakat based on current gold prices and your personal wealth.",
-        "wealth_label": "Wealth / Cash",
-        "gold_label": "Gold Weight (Grams)",
-        "silver_label": "Silver Weight (Grams)",
-        "gold_price_label": "Gold Price per Gram (24K)",
-        "nisab_label": "Nisab Value (Current)",
-        "not_eligible_nisab": "Wealth has not reached the Nisab threshold.",
-        "calculate_button": "Calculate Zakat",
-        "result_title": "Your Zakat Obligation",
-        "zakat_amount": "Zakat Amount",
-        "wealth_zakat": "Zakat on Cash",
-        "gold_zakat": "Zakat on Gold/Silver",
-        "total_zakat": "Total Zakat to Pay",
-        "inputs": {
-            "wealth_label": "Total Wealth",
-            "gold_label": "Gold Weight",
-            "silver_label": "Silver Weight"
-        },
-        "results": {
-            "total_zakat": "Total Zakat"
-        }
-    },
-    "seo": {
-        "siteName": "Alathasiba Calculators",
-        "defaultTitle": "Alathasiba Calculators | Free Online Calculators & Converters",
-        "defaultDescription": "Alathasiba provides a comprehensive set of mathematical, financial, health, and engineering calculators for free.",
-        "keywords": "calculators, scientific calculator, financial calculator, bmi calculator, unit converter",
-        "categoryTitle": "{{category}} - Alathasiba Calculators"
-    },
-    "pages": {
-        "categories": {
-            "title": "Calculator Categories | Calculators",
-            "description": "Browse all calculator categories available on our website",
-            "keywords": "calculator categories, calculators, scientific calculators, converters",
-            "subtitle": "Browse calculators by category. Choose the category that fits your needs.",
-            "someCalculators": "Featured Tools"
-        },
-        "category": {
-            "notFoundTitle": "Category Not Found | Alathasiba",
-            "notFound": "Category not found",
-            "notFoundDescription": "Sorry, we couldn't find the category you are looking for.",
-            "browseAllCategories": "Browse All Categories",
-            "defaultName": "Category",
-            "defaultDescription": "Browse our collection of calculators in this category.",
-            "defaultMetaDescription": "Comprehensive list of online calculators and tools.",
-            "metaKeywords": "online calculators, {{category}}, free tools",
-            "defaultCategoryDescription": "Use our {{category}} calculators to get accurate results for your needs.",
-            "aboutCategory": "About {{category}}",
-            "aboutParagraph1": "Our {{category}} calculators are designed to help you solve complex problems and get accurate results quickly.",
-            "aboutParagraph2": "Whether you are a student, professional, or just curious, these tools provide essential calculations for {{category}}.",
-            "topCalculators": "Top {{category}} Calculators",
-            "noCalculators": "No calculators found in this category yet."
-        },
-        "mostUsed": {
-            "title": "Most Used Calculators",
-            "description": "Discover our most popular tools used by thousands of users monthly.",
-            "heading": "Most Popular Calculators",
-            "subtitle": "Discover our most popular and highly requested tools.",
-            "useNow": "Use Now",
-            "noCalculatorsFound": "No Calculators Found",
-            "noCalculatorsDescription": "We couldn't find any popular calculators at the moment.",
-            "backToHome": "Back to Home"
-        }
-    },
-    "search": {
-        "search": "Search Calculators",
-        "searchDescription": "Search through our collection of free online calculators and tools",
-        "resultsFor": "Search results for:",
-        "showingResultsFor": "Showing results for",
-        "foundResults": "Found {{count}} dynamic results",
-        "noResults": "No results found",
-        "noResultsFor": "No results found for",
-        "tryDifferent": "Try a different search term.",
-        "placeholder": "Search for a calculator...",
-        "viewAllResults": "View all results",
-        "searching": "Searching..."
-    },
-    "calculator": {
-        "relatedCalculators": "Related Calculators",
-        "loadError": "Error Loading Calculator",
-        "loadErrorDescription": "Sorry, there was an error loading the calculator component. Please try again later.",
-        "notFound": "Calculator Not Found",
-        "notFoundDescription": "Sorry, we couldn't find the calculator you are looking for.",
-        "supportUs": "Support Our Project"
-    },
-    "velocity_acceleration": {
-        "title": "Velocity & Acceleration Calculator",
-        "description": "Calculate velocity and acceleration from distance and time measurements.",
-        "inputs": {
-            "velocity": "Velocity",
-            "time": "Time",
-            "acceleration": "Acceleration",
-            "distance": "Distance",
-            "initial_velocity": "Initial Velocity",
-            "final_velocity": "Final Velocity"
-        },
-        "results": {
-            "velocity": "Velocity",
-            "acceleration": "Acceleration",
-            "time": "Time",
-            "distance": "Distance"
-        },
-        "calculate_btn": "Calculate",
-        "reset_btn": "Reset"
-    },
-    "vertical_jump": {
-        "title": "Vertical Jump Calculator",
-        "description": "Measure your vertical jump height and assess your lower body power.",
-        "weight": "Weight",
-        "jump_height": "Jump Height",
-        "standing_reach": "Standing Reach",
-        "jump_reach": "Jump Reach",
-        "calculate_btn": "Calculate",
-        "reset_btn": "Reset"
-    },
-    "vo2max": {
-        "title": "VO2 Max Calculator",
-        "description": "Estimate your maximum oxygen uptake and cardiovascular fitness level.",
-        "inputs": {
-            "max_hr": "Max Heart Rate"
-        },
-        "results": {
-            "vo2max_value": "VO2 Max Value"
-        }
-    },
-    "voltage_divider": {
-        "title": "Voltage Divider Calculator",
-        "description": "Calculate voltage division in resistor circuits and determine output voltage.",
-        "input_voltage": "Input Voltage",
-        "resistor_1": "Resistor 1",
-        "resistor_2": "Resistor 2",
-        "output_voltage": "Output Voltage"
-    },
-    "volume": {
-        "title": "Volume Calculator",
-        "description": "Calculate the volume of various geometric shapes and containers.",
-        "enter_value": "Enter Value"
-    },
-    "waste": {
-        "title": "Waste Calculator",
-        "description": "Calculate waste management metrics and estimate household waste production.",
-        "household_size": "Household Size",
-        "calculate_btn": "Calculate"
-    },
-    "water": {
-        "title": "Water Calculator",
-        "description": "Calculate your daily water intake needs based on various factors.",
-        "inputs": {
-            "climate": "Climate"
-        },
-        "results": {
-            "daily_recommendation": "Daily Recommendation"
-        }
-    },
-    "water_footprint": {
-        "title": "Water Footprint Calculator",
-        "description": "Calculate your water footprint and understand your water consumption impact."
-    },
-    "weight": {
-        "title": "Weight Converter",
-        "description": "Convert between different weight and mass units easily."
-    },
-    "weight_gain": {
-        "title": "Weight Gain Calculator",
-        "description": "Plan healthy weight gain with calorie and timeline estimates.",
-        "inputs": {
-            "target_weight_kg": "Target Weight (kg)"
-        },
-        "results": {
-            "time_to_goal": "Time to Goal"
-        }
-    },
-    "wheel_offset": {
-        "title": "Wheel Offset Calculator",
-        "description": "Calculate wheel offset and backspacing for proper fitment.",
-        "wheel_width": "Wheel Width",
-        "offset": "Offset",
-        "backspacing": "Backspacing"
-    },
-    "whr": {
-        "title": "Waist-to-Hip Ratio Calculator",
-        "description": "Calculate your waist-to-hip ratio to assess health risks.",
-        "inputs": {
-            "waist": "Waist Circumference",
-            "hip": "Hip Circumference"
-        },
-        "results": {
-            "ratio": "WHR Ratio"
-        }
-    },
-    "wilks_calculator": {
-        "title": "Wilks Score Calculator",
-        "description": "Calculate your Wilks score for powerlifting performance comparison.",
-        "bodyweight": "Bodyweight",
-        "total_lifted": "Total Lifted",
-        "gender": "Gender",
-        "score": "Wilks Score"
-    },
-    "win_rate": {
-        "title": "Win Rate Calculator",
-        "description": "Calculate your win percentage from games, matches, or competitions.",
-        "wins_label": "Number of Wins",
-        "losses_label": "Number of Losses",
-        "draws_label": "Number of Draws",
-        "result_label": "Win Rate"
-    },
-    "wire_gauge": {
-        "title": "Wire Gauge Calculator",
-        "description": "Calculate the appropriate wire gauge for electrical installations.",
-        "voltage": "Voltage",
-        "current": "Current",
-        "distance": "Distance"
-    },
-    "working_capital": {
-        "title": "Working Capital Calculator",
-        "description": "Calculate working capital to assess short-term financial health.",
-        "inputs": {
-            "current_assets": "Current Assets",
-            "current_liabilities": "Current Liabilities"
-        },
-        "results": {
-            "working_capital": "Working Capital"
-        }
-    },
-    "workout_volume": {
-        "title": "Workout Volume Calculator",
-        "description": "Track your workout volume to optimize training progress.",
-        "sets": "Sets",
-        "reps": "Reps",
-        "weight": "Weight"
-    },
-    "xp": {
-        "title": "XP Calculator",
-        "description": "Calculate experience points needed for leveling up in games.",
-        "current_level_label": "Current Level",
-        "target_level_label": "Target Level"
+  "navigation": {
+    "home": "Home",
+    "categories": "Categories",
+    "mostUsed": "Most Popular",
+    "about": "About",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "support": "Support",
+    "supportOnBuyMeACoffee": "Support us on Buy Me A Coffee",
+    "closeMenu": "Close Menu",
+    "openMenu": "Open Menu",
+    "mobileMenu": "Mobile Menu",
+    "privacyPolicy": "Privacy Policy",
+    "termsOfService": "Terms of Service",
+    "mainMenu": "Main Menu",
+    "facebook": "Facebook",
+    "twitter": "Twitter",
+    "instagram": "Instagram"
+  },
+  "footer": {
+    "description": "Comprehensive calculator site providing accurate tools for everyone.",
+    "quickLinks": "Quick Links",
+    "popularCategories": "Popular Categories",
+    "contact": "Contact Us",
+    "email": "Email",
+    "website": "Website",
+    "copyright": "© {{year}} Alathasiba. All Rights Reserved.",
+    "madeWithLove": "Made with <0/> for users"
+  },
+  "language": {
+    "ar": "Arabic",
+    "en": "English",
+    "arLabel": "العربية",
+    "enLabel": "English"
+  },
+  "hero": {
+    "title": "Wide Range of Free Online Calculators",
+    "description": "We offer more than {{count}} free calculators and unit converters to help you in various fields: Math, Finance, Health, and Science.",
+    "browseCategories": "Browse Categories",
+    "learnAboutUs": "Learn About Us",
+    "newFeatures": "Over {{count}}+ Professional Tools"
+  },
+  "categories": {
+    "title": "Categories",
+    "featuredTitle": "Featured Categories",
+    "featuredDescription": "Discover a variety of categorized tools for easy access to what you need.",
+    "calculatorCount": "{{count}} Calculators",
+    "allCategories": "All Categories"
+  },
+  "calculators": {
+    "popularTitle": "Most Popular Calculators",
+    "popularDescription": "The most requested and used tools by our visitors daily.",
+    "categoryLabel": "Category",
+    "allPopular": "All Popular Calculators",
+    "invalid_input": "Invalid input. Please check your values.",
+    "calculation_error": "An error occurred during calculation",
+    "environmental": {
+      "water_usage": {
+        "title": "Water Usage Calculator",
+        "description": "Estimate your daily water consumption at home and receive conservation tips.",
+        "shower_label": "Daily Shower Duration (minutes)",
+        "shower_tooltip": "Average time spent in the shower",
+        "shower_placeholder": "e.g., 10",
+        "toilet_label": "Daily Toilet Flushes",
+        "toilet_tooltip": "How many times you flush the toilet per day",
+        "toilet_placeholder": "e.g., 5",
+        "dish_label": "Dishwashing (times per day)",
+        "dish_tooltip": "Times dishes are washed manually or by machine",
+        "dish_placeholder": "e.g., 2",
+        "laundry_label": "Laundry (loads per week)",
+        "laundry_tooltip": "Number of laundry loads per week",
+        "laundry_placeholder": "e.g., 3",
+        "cost_label": "Cost per Liter (optional)",
+        "cost_tooltip": "Water price per liter based on local tariff",
+        "cost_placeholder": "e.g., 0.005",
+        "minutes_unit": "minutes",
+        "times_unit": "times",
+        "loads_unit": "loads",
+        "currency_unit": "SAR",
+        "result_label": "Total Daily Consumption",
+        "result_unit": "Liters / Day",
+        "details_title": "Consumption Details",
+        "monthly_usage": "Monthly Usage",
+        "yearly_usage": "Yearly Usage",
+        "liters": "Liters",
+        "daily_cost": "Daily Cost",
+        "monthly_cost": "Monthly Cost",
+        "yearly_cost": "Yearly Cost",
+        "comparison_title": "Your Usage Assessment",
+        "comparison_low": "Your water usage is low and ideal.",
+        "comparison_average": "Your usage is within the normal average per individual.",
+        "comparison_high": "Your usage is high. Try using water-saving devices.",
+        "info_title": "Why Conserve Water?",
+        "info_description": "Water is a precious and limited resource. Conserving usage protects the environment and reduces your monthly bills.",
+        "use_cases_title": "Simple Ways to Conserve",
+        "use_case_1": "Take shorter showers and install water-saving showerheads.",
+        "use_case_2": "Fix leaks promptly and use water-efficient appliances.",
+        "use_case_3": "Water plants early morning or late evening to reduce evaporation.",
+        "error_at_least_one": "Please enter at least one value",
+        "error_negative": "Negative values are not allowed",
+        "error_calculation": "An error occurred during calculation"
+      },
+      "tree_planting": {
+        "title": "Tree Planting Impact Calculator",
+        "description": "Calculate the environmental impact of planting trees including CO₂ offset, oxygen production, and ecosystem benefits.",
+        "trees_label": "Number of Trees",
+        "trees_tooltip": "How many trees you plan to plant or have planted",
+        "trees_placeholder": "e.g., 10",
+        "trees_unit": "trees",
+        "age_label": "Tree Age (years)",
+        "age_tooltip": "How old the trees are or will be",
+        "age_placeholder": "e.g., 10",
+        "years_unit": "years",
+        "type_label": "Tree Type",
+        "type_tooltip": "Different tree types have different CO₂ absorption rates",
+        "type_deciduous": "Deciduous (Oak, Maple)",
+        "type_conifer": "Conifer (Pine, Spruce)",
+        "type_tropical": "Tropical (Mahogany, Teak)",
+        "type_fruit": "Fruit Trees (Apple, Orange)",
+        "result_label": "Total CO₂ Offset",
+        "result_unit": "kg CO₂",
+        "details_title": "Environmental Impact",
+        "oxygen_produced": "Oxygen Produced",
+        "water_filtered": "Water Filtered",
+        "wildlife_supported": "Wildlife Supported",
+        "species": "species",
+        "lifetime_co2": "Lifetime CO₂ Offset (50 years)",
+        "monetary_value": "Ecosystem Services Value",
+        "formula_title": "How Trees Help",
+        "formula_explanation": "Trees absorb CO₂ through photosynthesis, produce oxygen, filter water, prevent erosion, and provide habitat for wildlife. A single mature tree can absorb 21 kg of CO₂ per year.",
+        "info_title": "Why Plant Trees?",
+        "info_description": "Trees are nature's carbon capture technology. They absorb CO₂, produce oxygen, cool the environment, filter water, and support biodiversity.",
+        "use_cases_title": "Benefits of Tree Planting",
+        "use_case_1": "Combat climate change by removing CO₂ from the atmosphere",
+        "use_case_2": "Improve air quality and reduce urban heat islands",
+        "use_case_3": "Provide habitat for wildlife and preserve biodiversity",
+        "error_required": "Please enter the number of trees and their age",
+        "error_positive": "Values must be positive numbers",
+        "error_age_max": "Tree age cannot exceed 100 years",
+        "error_calculation": "An error occurred during calculation"
+      }
     }
+  },
+  "benefits": {
+    "title": "Why Use Alathasiba?",
+    "description": "We strive to provide the best possible experience for our users through accurate and easy tools.",
+    "easyToUse": {
+      "title": "Easy to Use",
+      "description": "Simple and carefully designed interfaces to enable you to reach your result quickly."
+    },
+    "accurate": {
+      "title": "Accurate & Reliable",
+      "description": "Carefully tested calculation algorithms to ensure the highest levels of accuracy."
+    },
+    "free": {
+      "title": "Completely Free",
+      "description": "All our services are available to everyone for free without the need for registration."
+    }
+  },
+  "support": {
+    "title": "Support Project Continuity",
+    "description": "Our site is completely free, you can support us to help us stay online and develop new tools.",
+    "supportButton": "Buy me a coffee"
+  },
+  "cta": {
+    "title": "Ready to Start?",
+    "description": "Use our {{count}}+ free calculators now.",
+    "browseCalculators": "Start Browsing"
+  },
+  "errors": {
+    "goHome": "Go Home",
+    "errorLoadingPage": "Error loading page. Please refresh."
+  },
+  "common": {
+    "search": "Search",
+    "searchPlaceholder": "Search for a calculator (e.g., Percentage, BMI...)",
+    "siteName": "Alathasiba",
+    "convert": "Convert"
+  },
+  "categoryNames": {
+    "math": "Math Calculators",
+    "finance": "Finance & Money",
+    "health": "Health & Body",
+    "converter": "Unit Converters",
+    "physics": "Physics Tools",
+    "engineering": "Engineering Tools",
+    "education": "Education & Study",
+    "date-time": "Date & Time",
+    "misc": "Miscellaneous",
+    "geometry": "Geometry Tools",
+    "business": "Business & Econ",
+    "construction": "Construction Tools",
+    "automotive": "Car & Auto",
+    "cooking": "Cooking & Kitchen",
+    "gaming": "Gaming Tools",
+    "agriculture": "Agri & Farm",
+    "science": "Science Tools",
+    "electrical": "Electrical Tools",
+    "astronomy": "Space & Stars",
+    "statistics": "Statistics Tools",
+    "real-estate": "Real Estate",
+    "fitness": "Fitness & Sports",
+    "environmental": "Eco & Environment",
+    "pet": "Pet Care"
+  },
+  "categoryDescriptions": {
+    "math": "Solve complex mathematical problems easily, from algebra to calculus.",
+    "finance": "Tools for financial planning, loan calculations, taxes, and investments.",
+    "health": "Track your health through BMI calculators, calories, and nutritional needs.",
+    "converter": "Convert between various standard units quickly and accurately.",
+    "physics": "Accurate physics calculations for mechanics, electricity, and energy.",
+    "engineering": "Specialized tools for engineers and designers.",
+    "education": "Educational tools to help students in their studies.",
+    "date-time": "Calculate time differences and convert between different calendars.",
+    "misc": "A variety of useful tools for different daily needs.",
+    "geometry": "Calculate areas, volumes, and various geometric shapes.",
+    "business": "Tools for business management, profit calculation, and productivity.",
+    "construction": "Calculators for construction projects, material estimation, and costs.",
+    "automotive": "Everything you need for your car from fuel consumption to trip costs.",
+    "cooking": "Convert cooking ingredients and adjust recipe quantities.",
+    "gaming": "Tools and calculators dedicated to gaming and entertainment.",
+    "agriculture": "Farm calculations, irrigation, and crop planning.",
+    "science": "Advanced scientific tools for various research fields.",
+    "electrical": "Calculations for electrical circuits, power, and voltage.",
+    "astronomy": "Explore space with distance and celestial body calculators.",
+    "statistics": "Tools for data analysis and mathematical statistics.",
+    "real-estate": "Mortgage calculations, ROI, and property values.",
+    "fitness": "Tools to improve your physical fitness and track your workouts.",
+    "environmental": "Calculate your environmental footprint and contribute to sustainability.",
+    "pet": "Everything you need to care for your pets."
+  },
+  "zakat": {
+    "title": "Islamic Zakat Calculator",
+    "description": "Calculate your Zakat obligations on wealth, gold, and silver according to Islamic principles.",
+    "page_title": "Zakat Calculator",
+    "page_description": "Accurately calculate your annual Zakat based on current gold prices and your personal wealth.",
+    "wealth_label": "Wealth / Cash",
+    "gold_label": "Gold Weight (Grams)",
+    "silver_label": "Silver Weight (Grams)",
+    "gold_price_label": "Gold Price per Gram (24K)",
+    "nisab_label": "Nisab Value (Current)",
+    "not_eligible_nisab": "Wealth has not reached the Nisab threshold.",
+    "calculate_button": "Calculate Zakat",
+    "result_title": "Your Zakat Obligation",
+    "zakat_amount": "Zakat Amount",
+    "wealth_zakat": "Zakat on Cash",
+    "gold_zakat": "Zakat on Gold/Silver",
+    "total_zakat": "Total Zakat to Pay",
+    "inputs": {
+      "wealth_label": "Total Wealth",
+      "gold_label": "Gold Weight",
+      "silver_label": "Silver Weight"
+    },
+    "results": {
+      "total_zakat": "Total Zakat"
+    }
+  },
+  "seo": {
+    "siteName": "Alathasiba Calculators",
+    "defaultTitle": "Alathasiba Calculators | Free Online Calculators & Converters",
+    "defaultDescription": "Alathasiba provides a comprehensive set of mathematical, financial, health, and engineering calculators for free.",
+    "keywords": "calculators, scientific calculator, financial calculator, bmi calculator, unit converter",
+    "categoryTitle": "{{category}} - Alathasiba Calculators"
+  },
+  "pages": {
+    "categories": {
+      "title": "Calculator Categories | Calculators",
+      "description": "Browse all calculator categories available on our website",
+      "keywords": "calculator categories, calculators, scientific calculators, converters",
+      "subtitle": "Browse calculators by category. Choose the category that fits your needs.",
+      "someCalculators": "Featured Tools"
+    },
+    "category": {
+      "notFoundTitle": "Category Not Found | Alathasiba",
+      "notFound": "Category not found",
+      "notFoundDescription": "Sorry, we couldn't find the category you are looking for.",
+      "browseAllCategories": "Browse All Categories",
+      "defaultName": "Category",
+      "defaultDescription": "Browse our collection of calculators in this category.",
+      "defaultMetaDescription": "Comprehensive list of online calculators and tools.",
+      "metaKeywords": "online calculators, {{category}}, free tools",
+      "defaultCategoryDescription": "Use our {{category}} calculators to get accurate results for your needs.",
+      "aboutCategory": "About {{category}}",
+      "aboutParagraph1": "Our {{category}} calculators are designed to help you solve complex problems and get accurate results quickly.",
+      "aboutParagraph2": "Whether you are a student, professional, or just curious, these tools provide essential calculations for {{category}}.",
+      "topCalculators": "Top {{category}} Calculators",
+      "noCalculators": "No calculators found in this category yet."
+    },
+    "mostUsed": {
+      "title": "Most Used Calculators",
+      "description": "Discover our most popular tools used by thousands of users monthly.",
+      "heading": "Most Popular Calculators",
+      "subtitle": "Discover our most popular and highly requested tools.",
+      "useNow": "Use Now",
+      "noCalculatorsFound": "No Calculators Found",
+      "noCalculatorsDescription": "We couldn't find any popular calculators at the moment.",
+      "backToHome": "Back to Home"
+    }
+  },
+  "search": {
+    "search": "Search Calculators",
+    "searchDescription": "Search through our collection of free online calculators and tools",
+    "resultsFor": "Search results for:",
+    "showingResultsFor": "Showing results for",
+    "foundResults": "Found {{count}} dynamic results",
+    "noResults": "No results found",
+    "noResultsFor": "No results found for",
+    "tryDifferent": "Try a different search term.",
+    "placeholder": "Search for a calculator...",
+    "viewAllResults": "View all results",
+    "searching": "Searching..."
+  },
+  "calculator": {
+    "relatedCalculators": "Related Calculators",
+    "loadError": "Error Loading Calculator",
+    "loadErrorDescription": "Sorry, there was an error loading the calculator component. Please try again later.",
+    "notFound": "Calculator Not Found",
+    "notFoundDescription": "Sorry, we couldn't find the calculator you are looking for.",
+    "supportUs": "Support Our Project"
+  },
+  "velocity_acceleration": {
+    "title": "Velocity & Acceleration Calculator",
+    "description": "Calculate velocity and acceleration from distance and time measurements.",
+    "inputs": {
+      "velocity": "Velocity",
+      "time": "Time",
+      "acceleration": "Acceleration",
+      "distance": "Distance",
+      "initial_velocity": "Initial Velocity",
+      "final_velocity": "Final Velocity"
+    },
+    "results": {
+      "velocity": "Velocity",
+      "acceleration": "Acceleration",
+      "time": "Time",
+      "distance": "Distance"
+    },
+    "calculate_btn": "Calculate",
+    "reset_btn": "Reset"
+  },
+  "vertical_jump": {
+    "title": "Vertical Jump Calculator",
+    "description": "Measure your vertical jump height and assess your lower body power.",
+    "weight": "Weight",
+    "jump_height": "Jump Height",
+    "standing_reach": "Standing Reach",
+    "jump_reach": "Jump Reach",
+    "calculate_btn": "Calculate",
+    "reset_btn": "Reset"
+  },
+  "vo2max": {
+    "title": "VO2 Max Calculator",
+    "description": "Estimate your maximum oxygen uptake and cardiovascular fitness level.",
+    "inputs": {
+      "max_hr": "Max Heart Rate"
+    },
+    "results": {
+      "vo2max_value": "VO2 Max Value"
+    }
+  },
+  "voltage_divider": {
+    "title": "Voltage Divider Calculator",
+    "description": "Calculate voltage division in resistor circuits and determine output voltage.",
+    "input_voltage": "Input Voltage",
+    "resistor_1": "Resistor 1",
+    "resistor_2": "Resistor 2",
+    "output_voltage": "Output Voltage"
+  },
+  "volume": {
+    "title": "Volume Calculator",
+    "description": "Calculate the volume of various geometric shapes and containers.",
+    "enter_value": "Enter Value"
+  },
+  "waste": {
+    "title": "Waste Calculator",
+    "description": "Calculate waste management metrics and estimate household waste production.",
+    "household_size": "Household Size",
+    "calculate_btn": "Calculate"
+  },
+  "water": {
+    "title": "Water Calculator",
+    "description": "Calculate your daily water intake needs based on various factors.",
+    "inputs": {
+      "climate": "Climate"
+    },
+    "results": {
+      "daily_recommendation": "Daily Recommendation"
+    }
+  },
+  "water_footprint": {
+    "title": "Water Footprint Calculator",
+    "description": "Calculate your water footprint and understand your water consumption impact."
+  },
+  "weight": {
+    "title": "Weight Converter",
+    "description": "Convert between different weight and mass units easily."
+  },
+  "weight_gain": {
+    "title": "Weight Gain Calculator",
+    "description": "Plan healthy weight gain with calorie and timeline estimates.",
+    "inputs": {
+      "target_weight_kg": "Target Weight (kg)"
+    },
+    "results": {
+      "time_to_goal": "Time to Goal"
+    }
+  },
+  "wheel_offset": {
+    "title": "Wheel Offset Calculator",
+    "description": "Calculate wheel offset and backspacing for proper fitment.",
+    "wheel_width": "Wheel Width",
+    "offset": "Offset",
+    "backspacing": "Backspacing"
+  },
+  "whr": {
+    "title": "Waist-to-Hip Ratio Calculator",
+    "description": "Calculate your waist-to-hip ratio to assess health risks.",
+    "inputs": {
+      "waist": "Waist Circumference",
+      "hip": "Hip Circumference"
+    },
+    "results": {
+      "ratio": "WHR Ratio"
+    }
+  },
+  "wilks_calculator": {
+    "title": "Wilks Score Calculator",
+    "description": "Calculate your Wilks score for powerlifting performance comparison.",
+    "bodyweight": "Bodyweight",
+    "total_lifted": "Total Lifted",
+    "gender": "Gender",
+    "score": "Wilks Score"
+  },
+  "win_rate": {
+    "title": "Win Rate Calculator",
+    "description": "Calculate your win percentage from games, matches, or competitions.",
+    "wins_label": "Number of Wins",
+    "losses_label": "Number of Losses",
+    "draws_label": "Number of Draws",
+    "result_label": "Win Rate"
+  },
+  "wire_gauge": {
+    "title": "Wire Gauge Calculator",
+    "description": "Calculate the appropriate wire gauge for electrical installations.",
+    "voltage": "Voltage",
+    "current": "Current",
+    "distance": "Distance"
+  },
+  "working_capital": {
+    "title": "Working Capital Calculator",
+    "description": "Calculate working capital to assess short-term financial health.",
+    "inputs": {
+      "current_assets": "Current Assets",
+      "current_liabilities": "Current Liabilities"
+    },
+    "results": {
+      "working_capital": "Working Capital"
+    }
+  },
+  "workout_volume": {
+    "title": "Workout Volume Calculator",
+    "description": "Track your workout volume to optimize training progress.",
+    "sets": "Sets",
+    "reps": "Reps",
+    "weight": "Weight"
+  },
+  "xp": {
+    "title": "XP Calculator",
+    "description": "Calculate experience points needed for leveling up in games.",
+    "current_level_label": "Current Level",
+    "target_level_label": "Target Level"
+  },
+  "calc/misc": {
+    "clothing_size_converter": {
+      "title": "Clothing Size Converter",
+      "description": "Convert clothing sizes between US, UK, EU, and International sizing systems",
+      "gender": "Gender",
+      "gender_tooltip": "Select gender for accurate size conversion",
+      "men": "Men",
+      "women": "Women",
+      "clothing_type": "Clothing Type",
+      "clothing_type_tooltip": "Type of garment to convert",
+      "shirts": "Shirts/Tops",
+      "pants": "Pants/Trousers",
+      "dresses": "Dresses",
+      "size_input": "Your Size",
+      "size_tooltip": "Enter your current size (e.g., M, L, 8, 10)",
+      "size_placeholder": "Enter size (e.g., M, 10, EU44)",
+      "from_system": "From System",
+      "from_system_tooltip": "The sizing system you are converting from",
+      "us": "US",
+      "uk": "UK",
+      "eu": "EU",
+      "intl": "International",
+      "empty_error": "Please enter a size to convert",
+      "calculation_error": "Error converting size. Please check your input.",
+      "converted_sizes": "Converted Sizes",
+      "size_chart": "Size Chart",
+      "measurements": "Body Measurements",
+      "chest": "Chest",
+      "waist": "Waist",
+      "info_title": "About This Converter",
+      "use_cases_title": "When to Use",
+      "use_case_1": "Shopping from international online stores",
+      "use_case_2": "Traveling and buying clothes abroad",
+      "use_case_3": "Understanding size differences between regions",
+      "note_title": "Important Note",
+      "note": "Sizes can vary between brands. Always check specific size charts when available."
+    },
+    "shoe_size_converter": {
+      "title": "Shoe Size Converter",
+      "description": "Convert shoe sizes between US, UK, EU, and CM measurements",
+      "gender": "Gender",
+      "gender_tooltip": "Select gender for accurate shoe size conversion",
+      "men": "Men",
+      "women": "Women",
+      "size_input": "Your Shoe Size",
+      "size_tooltip": "Enter your current shoe size",
+      "size_placeholder": "Enter size (e.g., 9, 42, 26.5)",
+      "from_system": "From System",
+      "from_system_tooltip": "The sizing system you are converting from",
+      "us": "US Size",
+      "uk": "UK Size",
+      "eu": "EU Size",
+      "cm": "CM (Centimeters)",
+      "shoe_invalid_size": "Please enter a valid shoe size",
+      "shoe_us_range_error": "US shoe size must be between 1 and 20",
+      "shoe_uk_range_error": "UK shoe size must be between 1 and 18",
+      "shoe_eu_range_error": "EU shoe size must be between 25 and 55",
+      "shoe_cm_range_error": "Foot length must be between 15 and 35 cm",
+      "converted_sizes": "Converted Shoe Sizes",
+      "size_chart": "Size Conversions",
+      "shoe_info_title": "About Shoe Size Conversion",
+      "shoe_description": "Convert shoe sizes between different international sizing systems",
+      "use_cases_title": "Common Uses",
+      "shoe_use_case_1": "Buying shoes from international online retailers",
+      "shoe_use_case_2": "Traveling and shopping for footwear abroad",
+      "shoe_use_case_3": "Understanding your size in different measurement systems",
+      "shoe_note_title": "Sizing Note",
+      "shoe_note": "Shoe sizes can vary between manufacturers. These conversions are approximate."
+    },
+    "biorhythm": {
+      "title": "Biorhythm Calculator",
+      "desc": "Calculate your physical, emotional, and intellectual biorhythm cycles",
+      "birth_date": "Birth Date",
+      "birth_date_tooltip": "Your date of birth",
+      "target_date": "Target Date",
+      "target_date_tooltip": "Date to calculate biorhythms for",
+      "enter_birth_date": "Enter your birth date",
+      "invalid_date": "Please enter a valid date",
+      "future_birth": "Birth date cannot be in the future",
+      "calc_error": "Error calculating biorhythms",
+      "current_values": "Current Biorhythm Values",
+      "days_since": "Days Since Birth",
+      "days": "days",
+      "physical": "Physical",
+      "emotional": "Emotional",
+      "intellectual": "Intellectual",
+      "intuitive": "Intuitive",
+      "high": "High",
+      "low": "Low",
+      "intro_title": "About Biorhythms",
+      "intro_desc": "Biorhythms are biological cycles affecting physical, emotional, and intellectual states.",
+      "use_cases_title": "Common Uses",
+      "use_case_1": "Planning activities on high-energy days",
+      "use_case_2": "Understanding mood fluctuations",
+      "use_case_3": "Optimizing performance",
+      "note_title": "Note",
+      "note": "Biorhythms are pseudoscientific. Use for entertainment only."
+    },
+    "random_number_generator": {
+      "title": "Random Number Generator",
+      "description": "Generate random numbers within a specified range",
+      "min": "Minimum Value",
+      "min_tooltip": "Smallest number that can be generated",
+      "min_placeholder": "Enter minimum",
+      "max": "Maximum Value",
+      "max_tooltip": "Largest number that can be generated",
+      "max_placeholder": "Enter maximum",
+      "count": "Count",
+      "count_tooltip": "How many random numbers to generate",
+      "count_placeholder": "Enter count (1-1000)",
+      "allow_duplicates": "Allow Duplicates",
+      "allow_duplicates_tooltip": "Allow the same number multiple times",
+      "allow_duplicates_label": "Allow duplicate numbers",
+      "min_max_error": "Minimum must be less than maximum",
+      "count_error": "Count must be between 1 and 1000",
+      "no_duplicates_error": "Cannot generate more unique numbers than range allows",
+      "result_single": "Generated Number",
+      "result_multiple": "Generated Numbers",
+      "count_generated": "Numbers Generated",
+      "range": "Range",
+      "details": "Generation Details",
+      "info_title": "About Random Number Generation",
+      "use_cases_title": "Common Uses",
+      "use_case_1": "Lottery and raffle number selection",
+      "use_case_2": "Random sampling and simulations",
+      "use_case_3": "Games and passwords",
+      "note_title": "Note",
+      "note": "Uses cryptographically secure random generation."
+    }
+  }
 }
