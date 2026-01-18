@@ -38,43 +38,8 @@ export default defineConfig({
     rollupOptions: {
       output: {
         manualChunks(id) {
-          // Vendor chunk splitting - extract shared dependencies
-          if (id.includes('node_modules')) {
-            // React core + React-dependent UI libraries - must load together
-            if (id.includes('react/') || id.includes('react-dom/') || id.includes('@headlessui')) {
-              return 'vendor-react';
-            }
-
-            // React Router - used by navigation
-            if (id.includes('react-router-dom')) {
-              return 'vendor-router';
-            }
-
-            // i18n ecosystem - used by all calculators
-            if (id.includes('i18next') || id.includes('react-i18next')) {
-              return 'vendor-i18n';
-            }
-
-            // Icons - used by all calculators
-            if (id.includes('lucide-react')) {
-              return 'vendor-icons';
-            }
-
-            // Date utilities - used by date/time calculators
-            if (id.includes('date-fns')) {
-              return 'vendor-date';
-            }
-
-            // Helmet for SEO - used by all pages
-            if (id.includes('react-helmet')) {
-              return 'vendor-helmet';
-            }
-
-            // All other node_modules
-            return 'vendor';
-          }
-
-          // Calculator chunks by category
+          // Calculator chunks by category only
+          // Keep vendor bundling simple to avoid chunk ordering issues
           if (id.includes('/calculators/')) {
             const match = id.match(/calculators\/([^/]+)\//);
             if (match) {
