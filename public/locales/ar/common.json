@@ -174,7 +174,9 @@
         "fr": "جمعة",
         "sa": "سبت"
       },
-      "selectCurrentDay": "اختر اليوم الحالي"
+      "selectCurrentDay": "اختر اليوم الحالي",
+      "previousMonth": "الشهر السابق",
+      "nextMonth": "الشهر التالي"
     },
     "plus_sign": "+",
     "copy": "نسخ",
@@ -347,7 +349,9 @@
       "fr": "جمعة",
       "sa": "سبت"
     },
-    "selectCurrentDay": "اختر اليوم الحالي"
+    "selectCurrentDay": "اختر اليوم الحالي",
+    "previousMonth": "الشهر السابق",
+    "nextMonth": "الشهر التالي"
   },
   "affiliate": {
     "learnMore": "اعرف المزيد",

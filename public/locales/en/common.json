@@ -174,7 +174,9 @@
         "fr": "Fri",
         "sa": "Sat"
       },
-      "selectCurrentDay": "Select current day"
+      "selectCurrentDay": "Select current day",
+      "previousMonth": "Previous month",
+      "nextMonth": "Next month"
     },
     "plus_sign": "+",
     "copy": "Copy",
@@ -555,6 +557,8 @@
       "fr": "Fri",
       "sa": "Sat"
     },
-    "selectCurrentDay": "Select current day"
+    "selectCurrentDay": "Select current day",
+    "previousMonth": "Previous month",
+    "nextMonth": "Next month"
   }
 }
