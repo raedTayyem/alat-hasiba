@@ -40,8 +40,8 @@ export default defineConfig({
         manualChunks(id) {
           // Vendor chunk splitting - extract shared dependencies
           if (id.includes('node_modules')) {
-            // React core - used by all components
-            if (id.includes('react/') || id.includes('react-dom/')) {
+            // React core + React-dependent UI libraries - must load together
+            if (id.includes('react/') || id.includes('react-dom/') || id.includes('@headlessui')) {
               return 'vendor-react';
             }
 
@@ -68,11 +68,6 @@ export default defineConfig({
             // Helmet for SEO - used by all pages
             if (id.includes('react-helmet')) {
               return 'vendor-helmet';
-            }
-
-            // Headless UI - used by UI components
-            if (id.includes('@headlessui')) {
-              return 'vendor-ui';
             }
 
             // All other node_modules
