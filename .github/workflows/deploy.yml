@@ -79,7 +79,7 @@ jobs:
       - name: Deploy to Netlify
         id: deployment_netlify
         if: vars.DEPLOY_TARGET == 'netlify'
-        uses: nwtgck/actions-netlify@v2
+        uses: nwtgck/actions-netlify@v3
         with:
           publish-dir: './dist'
           production-branch: main
