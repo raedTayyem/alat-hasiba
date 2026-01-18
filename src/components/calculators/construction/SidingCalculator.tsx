@@ -16,7 +16,7 @@
 // =============================================================================
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Layers, Info, Home, Ruler } from 'lucide-react';
+import { Layers, Info, Home, Ruler } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';

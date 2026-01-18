@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function HamsterLifespanCalculator() {
   const { t, i18n } = useTranslation('calc/pet');
@@ -78,18 +79,25 @@ export default function HamsterLifespanCalculator() {
     setError('');
   };
 
+  const hamsterTypeOptions: ComboboxOption[] = [
+    { value: 'syrian', label: t("hamster_lifespan_calculator.type_syrian") },
+    { value: 'dwarf', label: t("hamster_lifespan_calculator.type_dwarf") },
+    { value: 'roborovski', label: t("hamster_lifespan_calculator.type_roborovski") },
+    { value: 'chinese', label: t("hamster_lifespan_calculator.type_chinese") }
+  ];
+
   const inputSection = (
     <>
       <div className="calculator-section-title">{t("hamster_lifespan_calculator.title")}</div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("hamster_lifespan_calculator.label_type")}>
-          <select value={hamsterType} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setHamsterType(e.target.value)} className="calculator-input w-full">
-            <option value="syrian">{t("hamster_lifespan_calculator.type_syrian")}</option>
-            <option value="dwarf">{t("hamster_lifespan_calculator.type_dwarf")}</option>
-            <option value="roborovski">{t("hamster_lifespan_calculator.type_roborovski")}</option>
-            <option value="chinese">{t("hamster_lifespan_calculator.type_chinese")}</option>
-          </select>
+          <Combobox
+            options={hamsterTypeOptions}
+            value={hamsterType}
+            onChange={setHamsterType}
+            placeholder={t("hamster_lifespan_calculator.label_type")}
+          />
         </InputContainer>
 
         <InputContainer label={t("hamster_lifespan_calculator.label_age")}>

@@ -16,7 +16,7 @@
 // =============================================================================
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Square, Box, Layers, Info } from 'lucide-react';
+import { Square, Box, Layers, Info } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';

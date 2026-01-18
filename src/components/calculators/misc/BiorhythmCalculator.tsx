@@ -2,13 +2,13 @@
 
 import { useState, useEffect, useMemo } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Calendar, Activity, Heart, Brain, Zap, Info } from 'lucide-react';
+import { Calendar, Activity, Heart, Brain, Zap, Info } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { Input } from '@/components/ui/input';
-import { differenceInDays, format, isValid, addDays, subDays } from 'date-fns';
+import { differenceInDays, format, isValid, addDays, subDays } from '@/utils/date';
 import { initDateInputRTL } from '../../../utils/dateInputRTL';
 
 // Biorhythm Cycles (in days)

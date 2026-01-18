@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function ReptileTankCalculator() {
   const { t, i18n } = useTranslation('calc/pet');
@@ -120,19 +121,26 @@ export default function ReptileTankCalculator() {
     setError('');
   };
 
+  const reptileTypeOptions: ComboboxOption[] = [
+    { value: 'bearded_dragon', label: t("reptile-tank-calculator.reptile_bearded_dragon") },
+    { value: 'gecko', label: t("reptile-tank-calculator.reptile_gecko") },
+    { value: 'snake', label: t("reptile-tank-calculator.reptile_snake") },
+    { value: 'tortoise', label: t("reptile-tank-calculator.reptile_tortoise") },
+    { value: 'iguana', label: t("reptile-tank-calculator.reptile_iguana") }
+  ];
+
   const inputSection = (
     <>
       <div className="calculator-section-title">{t("reptile-tank-calculator.input_title")}</div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("reptile-tank-calculator.reptile_type")}>
-          <select value={reptileType} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setReptileType(e.target.value)} className="calculator-input w-full">
-            <option value="bearded_dragon">{t("reptile-tank-calculator.reptile_bearded_dragon")}</option>
-            <option value="gecko">{t("reptile-tank-calculator.reptile_gecko")}</option>
-            <option value="snake">{t("reptile-tank-calculator.reptile_snake")}</option>
-            <option value="tortoise">{t("reptile-tank-calculator.reptile_tortoise")}</option>
-            <option value="iguana">{t("reptile-tank-calculator.reptile_iguana")}</option>
-          </select>
+          <Combobox
+            options={reptileTypeOptions}
+            value={reptileType}
+            onChange={setReptileType}
+            placeholder={t("reptile-tank-calculator.reptile_type")}
+          />
         </InputContainer>
 
         <InputContainer label={t("reptile-tank-calculator.reptile_length")}>

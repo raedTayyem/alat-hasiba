@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function PetTravelCalculator() {
   const { t } = useTranslation('calc/pet');
@@ -63,16 +64,33 @@ export default function PetTravelCalculator() {
     setError('');
   };
 
+  const petTypeOptions: ComboboxOption[] = [
+    { value: 'dog', label: t("pet-travel-calculator.pet_dog") },
+    { value: 'cat', label: t("pet-travel-calculator.pet_cat") }
+  ];
+
+  const travelTypeOptions: ComboboxOption[] = [
+    { value: 'domestic', label: t("pet-travel-calculator.travel_domestic") },
+    { value: 'international', label: t("pet-travel-calculator.travel_international") }
+  ];
+
+  const transportModeOptions: ComboboxOption[] = [
+    { value: 'air', label: t("pet-travel-calculator.transport_air") },
+    { value: 'ground', label: t("pet-travel-calculator.transport_ground") }
+  ];
+
   const inputSection = (
     <>
       <div className="calculator-section-title">{t("pet-travel-calculator.input_title")}</div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("pet-travel-calculator.pet_type")}>
-          <select value={petType} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setPetType(e.target.value)} className="calculator-input w-full">
-            <option value="dog">{t("pet-travel-calculator.pet_dog")}</option>
-            <option value="cat">{t("pet-travel-calculator.pet_cat")}</option>
-          </select>
+          <Combobox
+            options={petTypeOptions}
+            value={petType}
+            onChange={setPetType}
+            placeholder={t("pet-travel-calculator.pet_type")}
+          />
         </InputContainer>
 
         <InputContainer label={t("pet-travel-calculator.pet_weight")}>
@@ -80,17 +98,21 @@ export default function PetTravelCalculator() {
         </InputContainer>
 
         <InputContainer label={t("pet-travel-calculator.travel_type")}>
-          <select value={travelType} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setTravelType(e.target.value)} className="calculator-input w-full">
-            <option value="domestic">{t("pet-travel-calculator.travel_domestic")}</option>
-            <option value="international">{t("pet-travel-calculator.travel_international")}</option>
-          </select>
+          <Combobox
+            options={travelTypeOptions}
+            value={travelType}
+            onChange={setTravelType}
+            placeholder={t("pet-travel-calculator.travel_type")}
+          />
         </InputContainer>
 
         <InputContainer label={t("pet-travel-calculator.transport_mode")}>
-          <select value={transportMode} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setTransportMode(e.target.value)} className="calculator-input w-full">
-            <option value="air">{t("pet-travel-calculator.transport_air")}</option>
-            <option value="ground">{t("pet-travel-calculator.transport_ground")}</option>
-          </select>
+          <Combobox
+            options={transportModeOptions}
+            value={transportMode}
+            onChange={setTransportMode}
+            placeholder={t("pet-travel-calculator.transport_mode")}
+          />
         </InputContainer>
       </div>
 

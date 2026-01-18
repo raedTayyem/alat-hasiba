@@ -24,7 +24,7 @@
 // =============================================================================
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { DoorOpen, Info, Maximize, Frame } from 'lucide-react';
+import { DoorOpen, Info, Maximize, Frame } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';

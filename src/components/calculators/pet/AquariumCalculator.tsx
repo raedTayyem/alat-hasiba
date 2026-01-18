@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function AquariumCalculator() {
   const { t } = useTranslation('calc/pet');
@@ -70,6 +71,12 @@ export default function AquariumCalculator() {
     setError('');
   };
 
+  const fishSizeOptions: ComboboxOption[] = [
+    { value: 'small', label: t("aquarium_calculator.fish_small") },
+    { value: 'medium', label: t("aquarium_calculator.fish_medium") },
+    { value: 'large', label: t("aquarium_calculator.fish_large") }
+  ];
+
   const inputSection = (
     <>
       <div className="calculator-section-title">{t("aquarium_calculator.title")}</div>
@@ -89,11 +96,12 @@ export default function AquariumCalculator() {
       </div>
 
       <InputContainer label={t("aquarium_calculator.fish_size")}>
-        <select value={fishSize} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setFishSize(e.target.value)} className="calculator-input w-full">
-          <option value="small">{t("aquarium_calculator.fish_small")}</option>
-          <option value="medium">{t("aquarium_calculator.fish_medium")}</option>
-          <option value="large">{t("aquarium_calculator.fish_large")}</option>
-        </select>
+        <Combobox
+          options={fishSizeOptions}
+          value={fishSize}
+          onChange={setFishSize}
+          placeholder={t("aquarium_calculator.fish_size")}
+        />
       </InputContainer>
 
       <CalculatorButtons

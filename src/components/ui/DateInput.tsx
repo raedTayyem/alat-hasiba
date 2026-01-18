@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { cn } from '@/lib/utils';
-import { format, parse, isValid } from 'date-fns';
+import { format, parse, isValid } from '@/utils/date';
 import { ar } from 'date-fns/locale';
 import { convertToArabicDigits } from '@/utils/dateFormatters';
 

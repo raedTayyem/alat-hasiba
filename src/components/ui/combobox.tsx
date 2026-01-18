@@ -1,6 +1,6 @@
 import { Fragment, useState, useRef } from 'react'
 import { Combobox as HeadlessCombobox, Transition } from '@headlessui/react'
-import { Check, ChevronsUpDown } from 'lucide-react'
+import { Check, ChevronsUpDown } from '@/utils/icons'
 import { cn } from '@/lib/utils'
 import { useTranslation } from 'react-i18next'
 

@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { Download, Lock, Sparkles, Check } from 'lucide-react';
+import { Download, Lock, Sparkles, Check } from '@/utils/icons';
 import { useTranslation } from 'react-i18next';
 import { getProductByDisplayType, trackProductImpression, trackProductClick } from '@/data/products';
 import { useToast } from '@/hooks/useToast';

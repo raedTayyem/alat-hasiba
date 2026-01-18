@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import { ShoppingBag, Sparkles } from 'lucide-react';
+import { ShoppingBag, Sparkles } from '@/utils/icons';
 import { useTranslation } from 'react-i18next';
 import { getRecommendedProducts, trackProductImpression, trackProductClick, type DigitalProduct } from '@/data/products';
 import { useToast } from '@/hooks/useToast';

@@ -9,7 +9,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { DollarSign, TrendingUp, Calendar, Percent, Clock } from 'lucide-react';
+import { DollarSign, TrendingUp, Calendar, Percent, Clock } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';

@@ -7,7 +7,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Award, Target, Zap, Clock, Calendar, Gamepad2, TrendingUp } from 'lucide-react';
+import { Award, Target, Zap, Clock, Calendar, Gamepad2, TrendingUp } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';

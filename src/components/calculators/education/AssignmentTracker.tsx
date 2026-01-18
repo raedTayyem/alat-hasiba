@@ -10,7 +10,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Plus, Trash2, CheckCircle2, Circle, Calendar, ClipboardList, Info } from 'lucide-react';
+import { Plus, Trash2, CheckCircle2, Circle, Calendar, ClipboardList, Info } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { Input } from '@/components/ui/input';

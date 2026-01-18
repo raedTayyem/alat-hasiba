@@ -7,7 +7,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Truck, Fuel, DollarSign, Activity, Clock } from 'lucide-react';
+import { Truck, Fuel, DollarSign, Activity, Clock } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';

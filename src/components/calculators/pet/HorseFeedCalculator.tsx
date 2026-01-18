@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function HorseFeedCalculator() {
   const { t } = useTranslation('calc/pet');
@@ -83,6 +84,20 @@ export default function HorseFeedCalculator() {
     setError('');
   };
 
+  const workLevelOptions: ComboboxOption[] = [
+    { value: 'maintenance', label: t("horse_feed_calculator.work_maintenance") },
+    { value: 'light', label: t("horse_feed_calculator.work_light") },
+    { value: 'moderate', label: t("horse_feed_calculator.work_moderate") },
+    { value: 'heavy', label: t("horse_feed_calculator.work_heavy") },
+    { value: 'very_heavy', label: t("horse_feed_calculator.work_very_heavy") }
+  ];
+
+  const feedTypeOptions: ComboboxOption[] = [
+    { value: 'hay_only', label: t("horse_feed_calculator.feed_hay_only") },
+    { value: 'mixed', label: t("horse_feed_calculator.feed_mixed") },
+    { value: 'performance', label: t("horse_feed_calculator.feed_performance") }
+  ];
+
   const inputSection = (
     <>
       <div className="calculator-section-title">{t("horse_feed_calculator.title")}</div>
@@ -93,21 +108,21 @@ export default function HorseFeedCalculator() {
         </InputContainer>
 
         <InputContainer label={t("horse_feed_calculator.label_work_level")}>
-          <select value={workLevel} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setWorkLevel(e.target.value)} className="calculator-input w-full">
-            <option value="maintenance">{t("horse_feed_calculator.work_maintenance")}</option>
-            <option value="light">{t("horse_feed_calculator.work_light")}</option>
-            <option value="moderate">{t("horse_feed_calculator.work_moderate")}</option>
-            <option value="heavy">{t("horse_feed_calculator.work_heavy")}</option>
-            <option value="very_heavy">{t("horse_feed_calculator.work_very_heavy")}</option>
-          </select>
+          <Combobox
+            options={workLevelOptions}
+            value={workLevel}
+            onChange={setWorkLevel}
+            placeholder={t("horse_feed_calculator.label_work_level")}
+          />
         </InputContainer>
 
         <InputContainer label={t("horse_feed_calculator.label_feed_type")}>
-          <select value={feedType} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setFeedType(e.target.value)} className="calculator-input w-full">
-            <option value="hay_only">{t("horse_feed_calculator.feed_hay_only")}</option>
-            <option value="mixed">{t("horse_feed_calculator.feed_mixed")}</option>
-            <option value="performance">{t("horse_feed_calculator.feed_performance")}</option>
-          </select>
+          <Combobox
+            options={feedTypeOptions}
+            value={feedType}
+            onChange={setFeedType}
+            placeholder={t("horse_feed_calculator.label_feed_type")}
+          />
         </InputContainer>
       </div>
 

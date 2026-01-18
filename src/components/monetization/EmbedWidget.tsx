@@ -1,7 +1,7 @@
 'use client';
 
 import { useState } from 'react';
-import { Code, Copy, CheckCircle } from 'lucide-react';
+import { Code, Copy, CheckCircle } from '@/utils/icons';
 import { useTranslation } from 'react-i18next';
 
 interface EmbedWidgetProps {

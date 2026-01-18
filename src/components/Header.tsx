@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { Menu, X, Coffee, ChevronDown } from 'lucide-react';
+import { Menu, X, Coffee, ChevronDown } from '@/utils/icons';
 import { LogoIcon } from './icons/LogoIcon';
 import SearchAutocomplete from './ui/SearchAutocomplete';
 

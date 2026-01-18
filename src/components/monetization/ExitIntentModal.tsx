@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect, useRef, useCallback } from 'react';
-import { X, Sparkles, Download, Check } from 'lucide-react';
+import { X, Sparkles, Download, Check } from '@/utils/icons';
 import { useTranslation } from 'react-i18next';
 import { getProductByDisplayType, trackProductImpression, trackProductClick } from '@/data/products';
 import { useToast } from '@/hooks/useToast';

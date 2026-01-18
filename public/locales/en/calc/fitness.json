@@ -1936,19 +1936,52 @@
       }
     ]
   },
+  "calorie": {
+    "inputs": {
+      "gender": "Gender",
+      "male": "Male",
+      "female": "Female",
+      "age": "Age (years)",
+      "weight": "Weight (kg)",
+      "height": "Height (cm)",
+      "activity_level": "Activity Level",
+      "activity": {
+        "sedentary": "Sedentary (little or no exercise)",
+        "light": "Light (exercise 1-3 times/week)",
+        "moderate": "Moderate (exercise 4-5 times/week)",
+        "active": "Active (intense exercise 6-7 times/week)",
+        "very_active": "Very Active (physical job or training twice per day)"
+      }
+    },
+    "tooltips": {
+      "gender": "Select your biological gender",
+      "age": "Enter your age in years",
+      "weight": "Enter your current weight in kilograms",
+      "height": "Enter your height in centimeters",
+      "activity": "Select your typical weekly activity level"
+    },
+    "results": {
+      "bmr": "Basal Metabolic Rate (BMR)",
+      "calories": "calories",
+      "tdee_value": "TDEE Value"
+    }
+  },
   "tdee": {
     "title": "TDEE Calculator",
     "description": "Calculate your Total Daily Energy Expenditure based on activity level",
+    "tdee_value": "TDEE (Total Daily Energy Expenditure)",
     "about_title": "About TDEE",
     "about_desc": "Total Daily Energy Expenditure (TDEE) is the total number of calories you burn in a day, including exercise and daily activities.",
     "empty_state": "Enter your details above to calculate your TDEE",
     "maintenance_calories": "Maintenance Calories",
-    "mild_loss": "Mild Weight Loss",
-    "normal_loss": "Weight Loss",
-    "extreme_loss": "Extreme Weight Loss",
-    "mild_gain": "Mild Weight Gain",
-    "normal_gain": "Weight Gain",
-    "extreme_gain": "Extreme Weight Gain",
+    "weight_loss_goals": "Weight Loss Goals",
+    "weight_gain_goals": "Weight Gain Goals",
+    "mild_loss": "Mild Weight Loss (-0.25 kg/week)",
+    "normal_loss": "Weight Loss (-0.5 kg/week)",
+    "extreme_loss": "Extreme Weight Loss (-1 kg/week)",
+    "mild_gain": "Mild Weight Gain (+0.25 kg/week)",
+    "normal_gain": "Weight Gain (+0.5 kg/week)",
+    "extreme_gain": "Extreme Weight Gain (+1 kg/week)",
     "footer_note": "These are estimates. Actual calorie needs may vary based on metabolism, genetics, and other factors."
   },
   "heart_rate_zones": {

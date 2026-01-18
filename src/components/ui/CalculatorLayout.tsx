@@ -9,7 +9,7 @@ import ExitIntentModal from '../monetization/ExitIntentModal';
 import ProductShowcase from '../monetization/ProductShowcase';
 import EmbedWidget from '../monetization/EmbedWidget';
 import ProductBanner from '../monetization/ProductBanner';
-import { Info, HelpCircle } from 'lucide-react';
+import { Info, HelpCircle } from '@/utils/icons';
 
 // Interface for HowTo structured data from translations
 interface HowToData {

@@ -7,7 +7,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Zap, Flame, Car, Plane, Utensils, Info, Trees } from 'lucide-react';
+import { Zap, Flame, Car, Plane, Utensils, Info, Trees } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';

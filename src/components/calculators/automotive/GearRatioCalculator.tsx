@@ -12,7 +12,7 @@
 // =============================================================================
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Settings, RotateCcw, Gauge, Zap, Info, Calculator, Activity, Hash, Percent } from 'lucide-react';
+import { Settings, RotateCcw, Gauge, Zap, Info, Calculator, Activity, Hash, Percent } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';

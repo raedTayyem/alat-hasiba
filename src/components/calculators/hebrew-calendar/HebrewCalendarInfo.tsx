@@ -2,7 +2,7 @@
 
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import { Calendar, Info, BookOpen } from 'lucide-react';
+import { Calendar, Info, BookOpen } from '@/utils/icons';
 
 // Hebrew month data for the table
 const hebrewMonths = [

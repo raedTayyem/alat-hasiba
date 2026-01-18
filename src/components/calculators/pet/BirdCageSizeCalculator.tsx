@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function BirdCageSizeCalculator() {
   const { t } = useTranslation('calc/pet');
@@ -63,20 +64,27 @@ export default function BirdCageSizeCalculator() {
     setError('');
   };
 
+  const birdTypeOptions: ComboboxOption[] = [
+    { value: 'budgie', label: t("bird_cage_calculator.budgie") },
+    { value: 'cockatiel', label: t("bird_cage_calculator.cockatiel") },
+    { value: 'lovebird', label: t("bird_cage_calculator.lovebird") },
+    { value: 'conure', label: t("bird_cage_calculator.conure") },
+    { value: 'parrot', label: t("bird_cage_calculator.parrot") },
+    { value: 'macaw', label: t("bird_cage_calculator.macaw") }
+  ];
+
   const inputSection = (
     <>
       <div className="calculator-section-title">{t("bird_cage_calculator.title")}</div>
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
         <InputContainer label={t("bird_cage_calculator.bird_type")}>
-          <select value={birdType} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setBirdType(e.target.value)} className="calculator-input w-full">
-            <option value="budgie">{t("bird_cage_calculator.budgie")}</option>
-            <option value="cockatiel">{t("bird_cage_calculator.cockatiel")}</option>
-            <option value="lovebird">{t("bird_cage_calculator.lovebird")}</option>
-            <option value="conure">{t("bird_cage_calculator.conure")}</option>
-            <option value="parrot">{t("bird_cage_calculator.parrot")}</option>
-            <option value="macaw">{t("bird_cage_calculator.macaw")}</option>
-          </select>
+          <Combobox
+            options={birdTypeOptions}
+            value={birdType}
+            onChange={setBirdType}
+            placeholder={t("bird_cage_calculator.bird_type")}
+          />
         </InputContainer>
 
         <InputContainer label={t("bird_cage_calculator.number_of_birds")}>

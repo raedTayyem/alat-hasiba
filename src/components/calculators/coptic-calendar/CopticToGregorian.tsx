@@ -8,7 +8,7 @@ import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
 import { toArabicDigits } from '@/utils/dateFormatters';
-import { Calendar, Info } from 'lucide-react';
+import { Calendar, Info } from '@/utils/icons';
 
 interface CopticToGregorianProps {
   year: number;

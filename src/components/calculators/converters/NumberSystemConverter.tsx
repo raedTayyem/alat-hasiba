@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Hash, Info, Binary, Cpu } from 'lucide-react';
+import { Hash, Info, Binary, Cpu } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { Combobox } from '@/components/ui/combobox';

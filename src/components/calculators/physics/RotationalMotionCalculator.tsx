@@ -3,7 +3,7 @@
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { RotateCw, Circle, Scale, Compass, Clock, MoveRight, Zap } from 'lucide-react';
+import { RotateCw, Circle, Scale, Compass, Clock, MoveRight, Zap } from '@/utils/icons';
 import { Card, CardContent, CardHeader, CardTitle } from "@/components/ui/card";
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';

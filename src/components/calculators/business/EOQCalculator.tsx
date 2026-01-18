@@ -9,7 +9,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Package, DollarSign, TrendingUp, Calculator, Warehouse, RefreshCw } from 'lucide-react';
+import { Package, DollarSign, TrendingUp, Calculator, Warehouse, RefreshCw } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';

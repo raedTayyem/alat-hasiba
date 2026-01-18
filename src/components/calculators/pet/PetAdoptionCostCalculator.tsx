@@ -5,6 +5,7 @@ import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function PetAdoptionCostCalculator() {
   const { t } = useTranslation('calc/pet');
@@ -63,6 +64,23 @@ export default function PetAdoptionCostCalculator() {
     setResult(null);
   };
 
+  const petTypeOptions: ComboboxOption[] = [
+    { value: 'dog', label: t("pet-adoption-cost-calculator.pet_dog") },
+    { value: 'cat', label: t("pet-adoption-cost-calculator.pet_cat") }
+  ];
+
+  const petSizeOptions: ComboboxOption[] = [
+    { value: 'small', label: t("pet-adoption-cost-calculator.size_small") },
+    { value: 'medium', label: t("pet-adoption-cost-calculator.size_medium") },
+    { value: 'large', label: t("pet-adoption-cost-calculator.size_large") }
+  ];
+
+  const foodQualityOptions: ComboboxOption[] = [
+    { value: 'budget', label: t("pet-adoption-cost-calculator.quality_budget") },
+    { value: 'standard', label: t("pet-adoption-cost-calculator.quality_standard") },
+    { value: 'premium', label: t("pet-adoption-cost-calculator.quality_premium") }
+  ];
+
   const inputSection = (
     <>
       <div className="calculator-section-title">
@@ -71,26 +89,30 @@ export default function PetAdoptionCostCalculator() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <InputContainer label={t("pet-adoption-cost-calculator.pet_type")}>
-          <select value={petType} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setPetType(e.target.value)} className="calculator-input w-full">
-            <option value="dog">{t("pet-adoption-cost-calculator.pet_dog")}</option>
-            <option value="cat">{t("pet-adoption-cost-calculator.pet_cat")}</option>
-          </select>
+          <Combobox
+            options={petTypeOptions}
+            value={petType}
+            onChange={setPetType}
+            placeholder={t("pet-adoption-cost-calculator.pet_type")}
+          />
         </InputContainer>
 
         <InputContainer label={t("pet-adoption-cost-calculator.pet_size")}>
-          <select value={petSize} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setPetSize(e.target.value)} className="calculator-input w-full">
-            <option value="small">{t("pet-adoption-cost-calculator.size_small")}</option>
-            <option value="medium">{t("pet-adoption-cost-calculator.size_medium")}</option>
-            <option value="large">{t("pet-adoption-cost-calculator.size_large")}</option>
-          </select>
+          <Combobox
+            options={petSizeOptions}
+            value={petSize}
+            onChange={setPetSize}
+            placeholder={t("pet-adoption-cost-calculator.pet_size")}
+          />
         </InputContainer>
 
         <InputContainer label={t("pet-adoption-cost-calculator.food_quality")}>
-          <select value={foodQuality} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setFoodQuality(e.target.value)} className="calculator-input w-full">
-            <option value="budget">{t("pet-adoption-cost-calculator.quality_budget")}</option>
-            <option value="standard">{t("pet-adoption-cost-calculator.quality_standard")}</option>
-            <option value="premium">{t("pet-adoption-cost-calculator.quality_premium")}</option>
-          </select>
+          <Combobox
+            options={foodQualityOptions}
+            value={foodQuality}
+            onChange={setFoodQuality}
+            placeholder={t("pet-adoption-cost-calculator.food_quality")}
+          />
         </InputContainer>
       </div>
 

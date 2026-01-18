@@ -2,7 +2,7 @@
 
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { useTranslation } from 'react-i18next';
-import { Info, Calendar } from 'lucide-react';
+import { Info, Calendar } from '@/utils/icons';
 
 export default function CopticCalendarInfo() {
   const { t } = useTranslation('calc/date-time');

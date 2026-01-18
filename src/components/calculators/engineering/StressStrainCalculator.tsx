@@ -17,7 +17,7 @@
 // =============================================================================
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { ArrowDown, Ruler, LayoutGrid, Info, Activity } from 'lucide-react';
+import { ArrowDown, Ruler, LayoutGrid, Info, Activity } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';

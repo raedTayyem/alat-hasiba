@@ -2,7 +2,7 @@
 
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
-import { Info, Calendar } from 'lucide-react';
+import { Info, Calendar } from '@/utils/icons';
 
 export default function HolyWeekInfo() {
   const { t } = useTranslation('calc/date-time');

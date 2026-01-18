@@ -6,6 +6,7 @@ import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import InputContainer, { NumericInput } from '@/components/ui/InputContainer';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';
 import { ErrorDisplay } from '@/components/ui/ErrorDisplay';
+import { Combobox, ComboboxOption } from '@/components/ui/combobox';
 
 export default function RabbitCareCalculator() {
   const { t } = useTranslation('calc/pet');
@@ -60,6 +61,12 @@ export default function RabbitCareCalculator() {
     setError('');
   };
 
+  const rabbitSizeOptions: ComboboxOption[] = [
+    { value: 'small', label: t("rabbit-care-calculator.size_small") },
+    { value: 'medium', label: t("rabbit-care-calculator.size_medium") },
+    { value: 'large', label: t("rabbit-care-calculator.size_large") }
+  ];
+
   const inputSection = (
     <>
       <div className="calculator-section-title">{t("rabbit-care-calculator.input_title")}</div>
@@ -70,11 +77,12 @@ export default function RabbitCareCalculator() {
         </InputContainer>
 
         <InputContainer label={t("rabbit-care-calculator.rabbit_size")}>
-          <select value={rabbitSize} onChange={(e: React.ChangeEvent<HTMLSelectElement>) => setRabbitSize(e.target.value)} className="calculator-input w-full">
-            <option value="small">{t("rabbit-care-calculator.size_small")}</option>
-            <option value="medium">{t("rabbit-care-calculator.size_medium")}</option>
-            <option value="large">{t("rabbit-care-calculator.size_large")}</option>
-          </select>
+          <Combobox
+            options={rabbitSizeOptions}
+            value={rabbitSize}
+            onChange={setRabbitSize}
+            placeholder={t("rabbit-care-calculator.rabbit_size")}
+          />
         </InputContainer>
       </div>
 

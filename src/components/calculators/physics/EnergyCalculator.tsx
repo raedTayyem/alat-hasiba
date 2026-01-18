@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Scale, Activity, Ruler, MoveRight, Zap, Info, RotateCcw } from 'lucide-react';
+import { Scale, Activity, Ruler, MoveRight, Zap, Info, RotateCcw } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';

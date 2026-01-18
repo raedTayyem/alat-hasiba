@@ -9,7 +9,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Fuel, MapPin, Leaf, Info, TreePine, Cloud, AlertTriangle, TrendingDown } from 'lucide-react';
+import { Fuel, MapPin, Leaf, Info, TreePine, Cloud, AlertTriangle, TrendingDown } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';

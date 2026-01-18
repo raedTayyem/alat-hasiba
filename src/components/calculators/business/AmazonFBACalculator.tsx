@@ -8,7 +8,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { DollarSign, Package, Box, Percent, Calculator, TrendingUp, Warehouse } from 'lucide-react';
+import { DollarSign, Package, Box, Percent, Calculator, TrendingUp, Warehouse } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';

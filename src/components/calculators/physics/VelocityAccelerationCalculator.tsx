@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Gauge, Clock, MoveHorizontal, Info, Activity, Zap, PlayCircle, StopCircle } from 'lucide-react';
+import { Gauge, Clock, MoveHorizontal, Info, Activity, Zap, PlayCircle, StopCircle } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';

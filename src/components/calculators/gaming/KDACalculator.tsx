@@ -7,7 +7,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Sword, Skull, Plus, Gamepad2, Users, Target, Crosshair } from 'lucide-react';
+import { Sword, Skull, Plus, Gamepad2, Users, Target, Crosshair } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';

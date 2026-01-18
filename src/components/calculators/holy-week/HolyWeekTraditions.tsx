@@ -3,7 +3,7 @@
 import { useTranslation } from 'react-i18next';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from '@/components/ui/accordion';
-import { Info, Heart } from 'lucide-react';
+import { Info, Heart } from '@/utils/icons';
 
 export default function HolyWeekTraditions() {
   const { t } = useTranslation('common');

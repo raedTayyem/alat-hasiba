@@ -3,7 +3,7 @@
 import React from 'react';
 import { useTranslation } from 'react-i18next';
 import { Helmet } from 'react-helmet-async';
-import { DollarSign, Calendar, Percent, Info, Activity } from 'lucide-react';
+import { DollarSign, Calendar, Percent, Info, Activity } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { Button } from '@/components/ui/button';
 import { FormField } from '@/components/ui/form-field';

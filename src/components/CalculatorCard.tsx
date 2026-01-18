@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
-import { ChevronRight } from 'lucide-react';
+import { ChevronRight } from '@/utils/icons';
 import type { Calculator } from '../data/calculators';
 import { getCategoryBySlug } from '../data/calculators';
 import { getCalculatorName, getCalculatorDescription } from '../utils/calculatorTranslation';

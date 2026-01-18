@@ -2,7 +2,7 @@
 
 import { useState } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Calculator, RotateCcw, Calendar, Activity, Info, Trophy, Clock } from 'lucide-react';
+import { Calculator, RotateCcw, Calendar, Activity, Info, Trophy, Clock } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { FormField } from '@/components/ui/form-field';
 import { Combobox } from '@/components/ui/combobox';

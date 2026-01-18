@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { useTranslation, Trans } from 'react-i18next';
-import { ChevronRight, Coffee, Heart } from 'lucide-react';
+import { ChevronRight, Coffee, Heart } from '@/utils/icons';
 import { LogoIcon } from './icons/LogoIcon';
 
 const Footer = () => {

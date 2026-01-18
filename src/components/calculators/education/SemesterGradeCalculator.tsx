@@ -9,7 +9,7 @@
 
 import { useState, useEffect } from 'react';
 import { useTranslation } from 'react-i18next';
-import { Plus, Trash2, GraduationCap, CheckCircle, Info, BookOpen } from 'lucide-react';
+import { Plus, Trash2, GraduationCap, CheckCircle, Info, BookOpen } from '@/utils/icons';
 import CalculatorLayout from '@/components/ui/CalculatorLayout';
 import { NumberInput } from '@/components/ui/number-input';
 import { CalculatorButtons } from '@/components/ui/CalculatorButtons';

@@ -2,7 +2,7 @@ import React, { useId } from 'react';
 import { Label } from '@/components/ui/label';
 import Tooltip from '@/components/ui/Tooltip';
 import { cn } from '@/lib/utils';
-import { Info } from 'lucide-react';
+import { Info } from '@/utils/icons';
 
 export interface FormFieldProps {
   label?: string;

@@ -34,7 +34,8 @@ const NumberInput = React.forwardRef<HTMLInputElement, NumberInputProps>(
     },
     ref
   ) => {
-    const { t } = useTranslation();
+    const { t, i18n } = useTranslation();
+    const isRtl = i18n.dir() === 'rtl';
 
     const handleIncrement = (e: React.MouseEvent) => {
       e.preventDefault();
@@ -71,18 +72,44 @@ const NumberInput = React.forwardRef<HTMLInputElement, NumberInputProps>(
       : endIcon;
 
     const numericValue = typeof value === "string" ? (parseFloat(value) || 0) : value;
+    const isMinDisabled = disabled || (min !== undefined && numericValue <= min);
+    const isMaxDisabled = disabled || (max !== undefined && numericValue >= max);
+
+    // RTL-aware button components
+    const decrementButton = (
+      <button
+        type="button"
+        className={cn(
+          "flex h-full w-14 items-center justify-center text-muted-foreground hover:bg-muted hover:text-foreground disabled:opacity-50 disabled:cursor-not-allowed transition-colors z-10",
+          isRtl ? "rounded-e-2xl" : "rounded-s-2xl"
+        )}
+        onClick={handleDecrement}
+        disabled={isMinDisabled}
+        aria-label={t("common.actions.decrease")}
+      >
+        <Minus className="h-5 w-5" aria-hidden="true" />
+      </button>
+    );
+
+    const incrementButton = (
+      <button
+        type="button"
+        className={cn(
+          "flex h-full w-14 items-center justify-center text-muted-foreground hover:bg-muted hover:text-foreground disabled:opacity-50 disabled:cursor-not-allowed transition-colors z-10",
+          isRtl ? "rounded-s-2xl" : "rounded-e-2xl"
+        )}
+        onClick={handleIncrement}
+        disabled={isMaxDisabled}
+        aria-label={t("common.actions.increase")}
+      >
+        <Plus className="h-5 w-5" aria-hidden="true" />
+      </button>
+    );
 
     return (
       <div className={cn("relative flex items-center h-14 w-full rounded-2xl border-2 border-border bg-background transition-all duration-200 focus-within:border-primary focus-within:ring-4 focus-within:ring-primary/10", className)}>
-        <button
-          type="button"
-          className="flex h-full w-14 items-center justify-center rounded-s-2xl text-muted-foreground hover:bg-muted hover:text-foreground disabled:opacity-50 transition-colors z-10"
-          onClick={handleDecrement}
-          disabled={disabled}
-          aria-label={t("common.actions.decrease")}
-        >
-          <Minus className="h-5 w-5" aria-hidden="true" />
-        </button>
+        {/* RTL: [+] [Input] [-] | LTR: [-] [Input] [+] */}
+        {isRtl ? incrementButton : decrementButton}
 
         <div className="flex-1 relative h-full">
            <input
@@ -111,15 +138,7 @@ const NumberInput = React.forwardRef<HTMLInputElement, NumberInputProps>(
           )}
         </div>
 
-        <button
-          type="button"
-          className="flex h-full w-14 items-center justify-center rounded-e-2xl text-muted-foreground hover:bg-muted hover:text-foreground disabled:opacity-50 transition-colors z-10"
-          onClick={handleIncrement}
-          disabled={disabled}
-          aria-label={t("common.actions.increase")}
-        >
-          <Plus className="h-5 w-5" aria-hidden="true" />
-        </button>
+        {isRtl ? decrementButton : incrementButton}
       </div>
     );
   }
