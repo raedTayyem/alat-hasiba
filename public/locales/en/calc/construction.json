@@ -913,146 +913,69 @@
     ]
   },
   "labor_cost": {
-    "title": "Labor Cost Calculator",
-    "description": "Calculate construction labor costs including wages, overtime, and overhead expenses.",
-    "currency": "Currency",
-    "currency_tooltip": "Select your local currency",
+    "breakdown": "Breakdown",
+    "cost_per_hour": "Cost per hour",
+    "cost_per_worker": "Cost per worker",
     "currencies": {
-      "usd": "US Dollar (USD)",
-      "eur": "Euro (EUR)",
-      "gbp": "British Pound (GBP)",
-      "sar": "Saudi Riyal (SAR)",
-      "aed": "UAE Dirham (AED)",
-      "jod": "Jordanian Dinar (JOD)"
+      "aed": "Aed",
+      "eur": "EUR",
+      "gbp": "GBP",
+      "jod": "Jod",
+      "sar": "Sar",
+      "usd": "USD"
     },
-    "regular_hours": "Regular Hours",
-    "regular_hours_tooltip": "Total regular working hours per worker",
-    "overtime_hours": "Overtime Hours",
-    "overtime_hours_tooltip": "Additional hours beyond regular schedule",
-    "hourly_rate": "Hourly Rate",
-    "hourly_rate_tooltip": "Base pay rate per hour per worker",
-    "workers_count": "Number of Workers",
-    "workers_count_tooltip": "Total number of workers on the project",
-    "overtime_multiplier": "Overtime Multiplier",
-    "overtime_multiplier_tooltip": "Overtime pay rate (e.g., 1.5 for time-and-a-half)",
-    "overhead_rate": "Overhead Rate (%)",
-    "overhead_rate_tooltip": "Additional costs like insurance, benefits, and equipment",
-    "result_total": "Total Labor Cost",
-    "workers_summary": "{{count}} workers",
-    "breakdown": "Cost Breakdown",
-    "regular_labor": "Regular Hours",
-    "overtime_labor": "Overtime",
-    "total_labor": "Total Labor",
-    "overhead": "Overhead",
-    "per_unit": "Per-Unit Costs",
-    "cost_per_hour": "Cost per Hour",
-    "cost_per_worker": "Cost per Worker",
-    "hours_unit": "hrs",
-    "per_hour": "/hr",
-    "workers_unit": "workers",
-    "hours_label": "hours",
-    "workers_label": "workers",
-    "formula_title": "Calculation Formula",
-    "formula": "Total = (Hours × Rate × Workers) + (OT Hours × Rate × OT Multiplier × Workers) + Overhead",
-    "info_title": "About Labor Cost Calculation",
-    "info_description": "Accurate labor cost estimation is essential for project bidding and budget planning. Include overhead for insurance, benefits, and equipment costs.",
-    "use_cases_title": "Common Uses",
-    "use_case_1": "Project bidding and estimates",
-    "use_case_2": "Payroll planning",
-    "use_case_3": "Budget tracking and cost control",
+    "currency": "Currency",
+    "currency_tooltip": "Currency Tooltip",
+    "description": "Description",
     "errors": {
-      "invalid_inputs": "Please enter valid hours and hourly rate",
-      "positive_values": "Hours and rate must be greater than zero",
-      "invalid_workers": "Number of workers must be at least 1",
-      "invalid_overhead": "Overhead rate must be between 0 and 100",
-      "invalid_overtime": "Overtime hours cannot be negative",
-      "invalid_multiplier": "Overtime multiplier must be at least 1"
+      "invalid_inputs": "Invalid inputs",
+      "invalid_multiplier": "Invalid multiplier",
+      "invalid_overhead": "Invalid overhead",
+      "invalid_overtime": "Invalid overtime",
+      "invalid_workers": "Invalid workers",
+      "positive_values": "Positive values"
     },
+    "formula": "Formula",
+    "formula_title": "Formula title",
+    "hourly_rate": "Hourly rate",
+    "hourly_rate_tooltip": "Hourly rate Tooltip",
+    "hours_label": "Hours label",
+    "hours_unit": "Hours unit",
+    "info_description": "Info description",
+    "info_title": "Info title",
+    "overhead": "Overhead",
+    "overhead_rate": "Overhead rate",
+    "overhead_rate_tooltip": "Overhead rate Tooltip",
+    "overtime_hours": "Overtime hours",
+    "overtime_hours_tooltip": "Overtime hours Tooltip",
+    "overtime_labor": "Overtime labor",
+    "overtime_multiplier": "Overtime multiplier",
+    "overtime_multiplier_tooltip": "Overtime multiplier Tooltip",
+    "per_hour": "Per hour",
+    "per_unit": "Per unit",
     "placeholders": {
-      "hours": "40",
-      "overtime": "0",
-      "rate": "25",
-      "workers": "1",
-      "multiplier": "1.5",
-      "overhead": "15"
+      "hours": "Hours",
+      "multiplier": "Multiplier",
+      "overhead": "Overhead",
+      "overtime": "Overtime",
+      "rate": "Rate",
+      "workers": "Workers"
     },
-    "howItWorks": {
-      "title": "How the Labor Cost Calculator Works",
-      "formula": "Total = (Regular Hours × Rate × Workers) + (OT Hours × Rate × Multiplier × Workers) + Overhead",
-      "explanation": "This calculator computes total labor costs by combining regular wages, overtime pay with multipliers, and overhead expenses like insurance and benefits.",
-      "steps": [
-        "Enter regular working hours per worker",
-        "Add overtime hours if applicable",
-        "Set the base hourly rate",
-        "Specify the number of workers",
-        "Adjust overtime multiplier and overhead rate"
-      ]
-    },
-    "useCases": [
-      {
-        "title": "Project Bidding",
-        "description": "Calculate accurate labor costs for competitive construction bids and proposals."
-      },
-      {
-        "title": "Payroll Planning",
-        "description": "Estimate weekly or monthly labor expenses for workforce management."
-      },
-      {
-        "title": "Cost Analysis",
-        "description": "Compare labor costs across different crew sizes and work schedules."
-      },
-      {
-        "title": "Budget Forecasting",
-        "description": "Project total labor expenses for multi-week construction projects."
-      }
-    ],
-    "seoTips": [
-      "Include 15-30% overhead for insurance, benefits, taxes, and equipment",
-      "Factor in productivity rates - workers don't produce 100% of paid hours",
-      "Account for learning curves on complex or new types of work",
-      "Consider travel time and mobilization costs for remote job sites",
-      "Track actual hours vs estimated to improve future bidding accuracy"
-    ],
-    "commonMistakes": [
-      {
-        "mistake": "Forgetting overhead costs",
-        "solution": "Always add 15-30% for insurance, taxes, benefits, and equipment"
-      },
-      {
-        "mistake": "Underestimating overtime",
-        "solution": "Plan for realistic schedules - construction often requires overtime"
-      },
-      {
-        "mistake": "Ignoring productivity factors",
-        "solution": "Account for breaks, weather delays, and non-productive time"
-      },
-      {
-        "mistake": "Not including supervision",
-        "solution": "Add foreman/supervisor costs at higher rates for proper oversight"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "What is a typical overhead rate for construction labor?",
-        "answer": "Construction overhead typically ranges from 15-30% and includes worker's compensation insurance, liability insurance, payroll taxes, benefits, and equipment costs."
-      },
-      {
-        "question": "How do I calculate labor cost per square foot?",
-        "answer": "Divide total labor cost by project square footage. This helps compare costs across projects and improve future estimates."
-      },
-      {
-        "question": "What is the standard overtime multiplier?",
-        "answer": "Most jurisdictions require 1.5x (time-and-a-half) for hours over 40 per week. Some union contracts or holiday work may require 2x (double time)."
-      },
-      {
-        "question": "How many labor hours per square foot for construction?",
-        "answer": "This varies widely: residential framing averages 0.5-1 hour/sq ft, finish work 1-2 hours/sq ft, and complete home construction 10-15 hours/sq ft."
-      },
-      {
-        "question": "Should I include benefits in the hourly rate?",
-        "answer": "You can either include benefits in the hourly rate or add them to overhead. Be consistent with your method to ensure accurate total costs."
-      }
-    ]
+    "regular_hours": "Regular hours",
+    "regular_hours_tooltip": "Regular hours Tooltip",
+    "regular_labor": "Regular labor",
+    "result_total": "Result total",
+    "title": "Title",
+    "total_labor": "Total labor",
+    "use_case_1": "Use case 1",
+    "use_case_2": "Use case 2",
+    "use_case_3": "Use case 3",
+    "use_cases_title": "Use cases title",
+    "workers_count": "Workers count",
+    "workers_count_tooltip": "Workers count Tooltip",
+    "workers_label": "Workers label",
+    "workers_summary": "Workers summary",
+    "workers_unit": "Workers unit"
   },
   "fence": {
     "title": "Fence Calculator",
@@ -1435,142 +1358,65 @@
     ]
   },
   "excavation": {
-    "title": "Excavation Calculator",
-    "description": "Calculate dirt volume for excavation projects with swell factor for accurate hauling estimates.",
-    "unit": "Measurement Unit",
-    "unit_tooltip": "Select meters or feet for measurements",
-    "meters": "Meters",
-    "feet": "Feet",
-    "length": "Length",
-    "length_tooltip": "Length of the excavation area",
-    "width": "Width",
-    "width_tooltip": "Width of the excavation area",
+    "bank_volume": "Bank volume",
+    "cubic_meters": "Cubic meters",
+    "cubic_yards": "Cubic yards",
+    "custom_swell_factor": "Custom swell factor",
+    "custom_swell_factor_tooltip": "Custom swell factor Tooltip",
     "depth": "Depth",
-    "depth_tooltip": "Depth of excavation",
-    "soil_type": "Soil Type",
-    "soil_type_tooltip": "Different soils have different swell factors when excavated",
-    "soil_types": {
-      "sand": "Sand (12% swell)",
-      "gravel": "Gravel (12% swell)",
-      "loam": "Loam (25% swell)",
-      "clay": "Clay (30% swell)",
-      "rock": "Rock (50% swell)",
-      "topsoil": "Topsoil (20% swell)",
-      "custom": "Custom Swell Factor"
-    },
-    "custom_swell_factor": "Custom Swell Factor",
-    "custom_swell_factor_tooltip": "Enter swell factor between 1.0 and 2.0 (e.g., 1.25 for 25% swell)",
-    "result_volume": "Loose Volume (Hauling)",
-    "cubic_meters": "Cubic Meters",
-    "cubic_yards": "Cubic Yards",
-    "volume_breakdown": "Volume Breakdown",
-    "bank_volume": "Bank Volume (In-Place)",
-    "loose_volume": "Loose Volume (Expanded)",
-    "excavation_area": "Excavation Area",
-    "sq_meters": "sq m",
-    "estimated_weight": "Estimated Weight",
-    "metric_tons": "metric tons",
-    "truck_loads": "Truck Loads Needed",
-    "truck_10_yard": "10-Yard Dump Truck",
-    "truck_15_yard": "15-Yard Dump Truck",
-    "truck_20_yard": "20-Yard Dump Truck",
-    "loads": "loads",
-    "formula_title": "Calculation Formula",
-    "formula": "Bank Volume = L × W × D. Loose Volume = Bank Volume × Swell Factor. Swell factor accounts for soil expansion when excavated.",
-    "info_title": "About Excavation Calculation",
-    "info_description": "When soil is excavated, it expands (swells). The loose volume is what needs to be hauled away, which is larger than the in-place bank volume.",
-    "use_cases_title": "Common Uses",
-    "use_case_1": "Foundation excavation",
-    "use_case_2": "Pool and pond digging",
-    "use_case_3": "Trenching for utilities",
+    "depth_tooltip": "Depth Tooltip",
+    "description": "Description",
     "errors": {
-      "invalid_dimensions": "Please enter valid dimensions",
-      "positive_values": "Dimensions must be greater than zero",
-      "invalid_swell_factor": "Swell factor must be between 1.0 and 2.0"
+      "invalid_dimensions": "Invalid dimensions",
+      "invalid_swell_factor": "Invalid swell factor",
+      "positive_values": "Positive values"
     },
+    "estimated_weight": "Estimated weight",
+    "excavation_area": "Excavation area",
+    "feet": "Feet",
+    "formula": "Formula",
+    "formula_title": "Formula title",
+    "info_description": "Info description",
+    "info_title": "Info title",
+    "length": "Length",
+    "length_tooltip": "Length Tooltip",
+    "loads": "Loads",
+    "loose_volume": "Loose volume",
+    "meters": "Meters",
+    "metric_tons": "Metric tons",
     "placeholders": {
-      "length": "10",
-      "width": "5",
-      "depth": "2",
-      "swell_factor": "1.25"
+      "depth": "Depth",
+      "length": "Length",
+      "swell_factor": "Swell factor",
+      "width": "Width"
     },
-    "howItWorks": {
-      "title": "How the Excavation Calculator Works",
-      "formula": "Loose Volume = Bank Volume × Swell Factor",
-      "explanation": "This calculator determines both in-place (bank) volume and expanded (loose) volume after excavation. The swell factor accounts for soil expansion, which is critical for accurate hauling estimates.",
-      "steps": [
-        "Enter excavation length, width, and depth",
-        "Select soil type or enter custom swell factor",
-        "Review bank volume (in-place) and loose volume",
-        "Check truck loads needed for hauling",
-        "Use loose volume for disposal planning"
-      ]
+    "result_volume": "Result volume",
+    "soil_type": "Soil type",
+    "soil_type_tooltip": "Soil type Tooltip",
+    "soil_types": {
+      "clay": "Clay",
+      "custom": "Custom",
+      "gravel": "Gravel",
+      "loam": "Loam",
+      "rock": "Rock",
+      "sand": "Sand",
+      "topsoil": "Topsoil"
     },
-    "useCases": [
-      {
-        "title": "Foundation Digging",
-        "description": "Calculate soil removal for residential and commercial foundation excavations."
-      },
-      {
-        "title": "Pool Construction",
-        "description": "Estimate dirt hauling requirements for swimming pool installations."
-      },
-      {
-        "title": "Utility Trenching",
-        "description": "Determine spoil volumes for water, sewer, and utility trenches."
-      },
-      {
-        "title": "Site Grading",
-        "description": "Plan cut volumes for site preparation and land leveling projects."
-      }
-    ],
-    "seoTips": [
-      "Swell factors vary significantly by soil type - clay swells 30%, sand only 12%",
-      "Always use loose volume for hauling and disposal calculations",
-      "Consider soil reuse on-site to reduce hauling costs",
-      "Account for equipment access when planning excavation sequences",
-      "Check for underground utilities before digging - call 811"
-    ],
-    "commonMistakes": [
-      {
-        "mistake": "Using bank volume for hauling",
-        "solution": "Always calculate loose volume - soil expands 12-50% when excavated"
-      },
-      {
-        "mistake": "Wrong swell factor",
-        "solution": "Test soil type or use conservative estimates - clay swells much more than sand"
-      },
-      {
-        "mistake": "Forgetting slope requirements",
-        "solution": "OSHA requires trenches over 5 feet deep to be sloped or shored"
-      },
-      {
-        "mistake": "Not checking utilities",
-        "solution": "Always call 811 or local utility locator before excavation"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "What is soil swell factor?",
-        "answer": "Swell factor is the percentage soil expands when excavated. Loosened soil takes up more space than compacted in-place soil. Clay swells 30%, sand 12%."
-      },
-      {
-        "question": "How many cubic yards fit in a dump truck?",
-        "answer": "Standard dump trucks hold 10-14 cubic yards, tandems hold 14-18 yards, and tri-axles hold 16-20 cubic yards of loose material."
-      },
-      {
-        "question": "What is the difference between bank and loose cubic yards?",
-        "answer": "Bank cubic yards measure soil in place before excavation. Loose cubic yards measure the expanded volume after digging - this is what you haul."
-      },
-      {
-        "question": "How much does excavated soil weigh?",
-        "answer": "Soil weighs approximately 2,000-2,700 lbs per bank cubic yard depending on type and moisture. Loose soil weighs less per yard due to air space."
-      },
-      {
-        "question": "Can I reuse excavated soil?",
-        "answer": "Yes, clean fill can be reused for backfill, grading, or landscaping. Contaminated soil requires special disposal. Test soil if origin is unknown."
-      }
-    ]
+    "sq_meters": "Sq meters",
+    "title": "Title",
+    "truck_10_yard": "Truck 10 yard",
+    "truck_15_yard": "Truck 15 yard",
+    "truck_20_yard": "Truck 20 yard",
+    "truck_loads": "Truck loads",
+    "unit": "Unit",
+    "unit_tooltip": "Unit Tooltip",
+    "use_case_1": "Use case 1",
+    "use_case_2": "Use case 2",
+    "use_case_3": "Use case 3",
+    "use_cases_title": "Use cases title",
+    "volume_breakdown": "Volume breakdown",
+    "width": "Width",
+    "width_tooltip": "Width Tooltip"
   },
   "fill_dirt": {
     "title": "Fill Dirt Calculator",
@@ -1708,149 +1554,69 @@
     ]
   },
   "pipe": {
-    "title": "Pipe Calculator",
-    "description": "Calculate plumbing pipe length requirements with fittings allowance for plumbing projects.",
-    "unit": "Measurement Unit",
-    "unit_tooltip": "Select meters or feet for distance measurements",
-    "meters": "Meters",
-    "feet": "Feet",
-    "m": "m",
-    "pipe_diameter": "Pipe Diameter",
-    "pipe_diameter_tooltip": "Select the pipe diameter size",
+    "additional_info": "Additional info",
+    "avg_distance": "Avg distance",
+    "avg_distance_tooltip": "Avg distance Tooltip",
+    "base_length": "Base length",
+    "description": "Description",
     "diameters": {
-      "15mm": "15mm (1/2 inch)",
-      "20mm": "20mm (3/4 inch)",
-      "25mm": "25mm (1 inch)",
-      "32mm": "32mm (1-1/4 inch)",
-      "40mm": "40mm (1-1/2 inch)",
-      "50mm": "50mm (2 inch)",
-      "65mm": "65mm (2-1/2 inch)",
-      "80mm": "80mm (3 inch)",
-      "100mm": "100mm (4 inch)",
-      "150mm": "150mm (6 inch)"
+      "100mm": "100mm",
+      "150mm": "150mm",
+      "15mm": "15mm",
+      "20mm": "20mm",
+      "25mm": "25mm",
+      "32mm": "32mm",
+      "40mm": "40mm",
+      "50mm": "50mm",
+      "65mm": "65mm",
+      "80mm": "80mm"
     },
-    "fixture_count": "Number of Fixtures",
-    "fixture_count_tooltip": "Total number of plumbing fixtures to connect",
-    "avg_distance": "Average Distance",
-    "avg_distance_tooltip": "Average pipe run distance between fixtures",
-    "fittings": "Fittings",
-    "elbows_90": "90° Elbows",
-    "elbows_45": "45° Elbows",
-    "tees": "Tees",
-    "valves": "Valves",
-    "waste_factor": "Waste Factor (%)",
-    "waste_factor_tooltip": "Extra material for cutting and waste (typically 10%)",
-    "result_total_length": "Total Pipe Length Needed",
-    "standard_pipes": "standard 6m pipes",
-    "length_breakdown": "Length Breakdown",
-    "base_length": "Base Length",
-    "fittings_allowance": "Fittings Allowance",
-    "pipe_volume": "Pipe Volume",
-    "liters": "liters",
-    "pipe_weight": "Pipe Weight",
-    "kg": "kg",
-    "additional_info": "Additional Information",
-    "length_without_waste": "Length (without waste)",
-    "number_of_pipes": "Standard Pipes Needed",
-    "each": "each",
-    "formula_title": "Calculation Formula",
-    "formula": "Total = (Fixtures × Distance) + Fittings Equivalent + Waste. Fittings add equivalent pipe length based on diameter.",
-    "info_title": "About Pipe Calculation",
-    "info_description": "Fittings like elbows and tees create flow resistance equivalent to additional straight pipe. This calculator accounts for fittings when estimating total pipe needs.",
-    "use_cases_title": "Common Uses",
-    "use_case_1": "Residential plumbing",
-    "use_case_2": "Irrigation systems",
-    "use_case_3": "Industrial pipe routing",
+    "each": "Each",
+    "elbows_45": "Elbows 45",
+    "elbows_90": "Elbows 90",
     "errors": {
-      "invalid_fixtures": "Please enter a valid number of fixtures",
-      "invalid_distance": "Please enter a valid distance",
-      "invalid_waste": "Waste factor must be between 0 and 100"
+      "invalid_distance": "Invalid distance",
+      "invalid_fixtures": "Invalid fixtures",
+      "invalid_waste": "Invalid waste"
     },
+    "feet": "Feet",
+    "fittings": "Fittings",
+    "fittings_allowance": "Fittings allowance",
+    "fixture_count": "Fixture count",
+    "fixture_count_tooltip": "Fixture count Tooltip",
+    "formula": "Formula",
+    "formula_title": "Formula title",
+    "info_description": "Info description",
+    "info_title": "Info title",
+    "kg": "Kg",
+    "length_breakdown": "Length breakdown",
+    "length_without_waste": "Length without waste",
+    "liters": "Liters",
+    "m": "M",
+    "meters": "Meters",
+    "number_of_pipes": "Number of pipes",
+    "pipe_diameter": "Pipe diameter",
+    "pipe_diameter_tooltip": "Pipe diameter Tooltip",
+    "pipe_volume": "Pipe volume",
+    "pipe_weight": "Pipe weight",
     "placeholders": {
-      "fixtures": "5",
-      "distance": "3",
-      "waste": "10"
+      "distance": "Distance",
+      "fixtures": "Fixtures",
+      "waste": "Waste"
     },
-    "howItWorks": {
-      "title": "How the Pipe Calculator Works",
-      "formula": "Total Length = (Fixtures × Distance) + Fittings Equivalent + Waste",
-      "explanation": "This calculator estimates total pipe needed by counting fixtures, multiplying by average run distance, and adding equivalent lengths for fittings. Fittings create flow resistance equal to additional straight pipe.",
-      "steps": [
-        "Select pipe diameter for your system",
-        "Enter number of fixtures to connect",
-        "Specify average pipe run distance",
-        "Add fittings count (elbows, tees, valves)",
-        "Review total length and number of standard pipes needed"
-      ]
-    },
-    "useCases": [
-      {
-        "title": "Residential Plumbing",
-        "description": "Calculate supply and drain pipe for new home construction or remodeling."
-      },
-      {
-        "title": "Irrigation Systems",
-        "description": "Estimate pipe requirements for garden and landscape irrigation."
-      },
-      {
-        "title": "Commercial Projects",
-        "description": "Plan pipe quantities for larger commercial plumbing installations."
-      },
-      {
-        "title": "Hydronic Heating",
-        "description": "Determine tubing needs for radiant floor heating systems."
-      }
-    ],
-    "seoTips": [
-      "Size pipes based on fixture units and flow requirements, not just distance",
-      "Add 10-15% waste factor for cutting and fitting allowances",
-      "Consider thermal expansion for hot water lines - use expansion loops",
-      "Follow local plumbing codes for minimum pipe sizes by fixture type",
-      "Plan for accessibility - leave access panels for cleanouts and valves"
-    ],
-    "commonMistakes": [
-      {
-        "mistake": "Undersizing supply pipes",
-        "solution": "Calculate fixture units and use proper sizing tables for adequate flow"
-      },
-      {
-        "mistake": "Forgetting fittings",
-        "solution": "Count all elbows, tees, and transitions - they add equivalent length"
-      },
-      {
-        "mistake": "No waste allowance",
-        "solution": "Add 10% minimum for cutting waste and mistakes"
-      },
-      {
-        "mistake": "Ignoring pressure drop",
-        "solution": "Account for elevation changes and friction losses in long runs"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "What size pipe do I need for a bathroom?",
-        "answer": "Bathrooms typically need 1/2-inch supply lines to individual fixtures, 3/4-inch main supply, 1-1/2 inch drain for sinks, and 3-4 inch main drain line."
-      },
-      {
-        "question": "How do fittings affect pipe length calculations?",
-        "answer": "Each fitting creates friction equivalent to additional straight pipe. A 90° elbow equals 2-3 feet of pipe, a tee equals 3-5 feet, depending on diameter."
-      },
-      {
-        "question": "What is the standard pipe length?",
-        "answer": "Copper pipes come in 10 and 20-foot lengths, PVC in 10 and 20-foot lengths, and PEX in coils up to 1000 feet or sticks of 10-20 feet."
-      },
-      {
-        "question": "How do I calculate pipe for irrigation?",
-        "answer": "Sum the flow rates of sprinklers in each zone, then size pipe for velocity under 5 feet per second. Add 10% for waste."
-      },
-      {
-        "question": "Should I use PEX or copper pipe?",
-        "answer": "PEX is easier to install, freeze-resistant, and less expensive. Copper lasts longer, handles UV exposure, and is required by some codes for certain applications."
-      }
-    ],
-    "units": {
-      "percent": "Percent"
-    }
+    "result_total_length": "Result total length",
+    "standard_pipes": "Standard pipes",
+    "tees": "Tees",
+    "title": "Title",
+    "unit": "Unit",
+    "unit_tooltip": "Unit Tooltip",
+    "use_case_1": "Use case 1",
+    "use_case_2": "Use case 2",
+    "use_case_3": "Use case 3",
+    "use_cases_title": "Use cases title",
+    "valves": "Valves",
+    "waste_factor": "Waste factor",
+    "waste_factor_tooltip": "Waste factor Tooltip"
   },
   "door": {
     "title": "Door Calculator",
@@ -2558,146 +2324,69 @@
     ]
   },
   "paint": {
-    "title": "Paint Calculator",
-    "description": "Calculate paint quantity needed for walls and ceilings based on area and coverage.",
-    "unit": "Area Unit",
-    "unit_tooltip": "Select measurement unit for area",
-    "sqft": "Square Feet",
-    "sqm": "Square Meters",
-    "sqft_unit": "sq ft",
-    "sqm_unit": "m²",
-    "wall_area": "Total Wall Area",
-    "wall_area_tooltip": "Total surface area to be painted",
-    "window_area": "Window Area (Deduction)",
-    "window_area_tooltip": "Area of windows to subtract from total",
-    "door_area": "Door Area (Deduction)",
-    "door_area_tooltip": "Area of doors to subtract from total",
-    "paint_type": "Paint Type",
-    "paint_type_tooltip": "Type of paint affects coverage rate",
-    "number_of_coats": "Number of Coats",
-    "number_of_coats_tooltip": "How many coats of paint to apply",
-    "coats_unit": "coats",
-    "types": {
-      "standard": "Standard Interior Latex",
-      "primer": "Primer/Sealer",
-      "exterior": "Exterior Latex",
-      "textured": "Textured Surface",
-      "high_gloss": "High Gloss Enamel",
-      "semi_gloss": "Semi-Gloss",
-      "flat_matte": "Flat/Matte Finish",
-      "ceiling": "Ceiling Paint"
-    },
-    "result_paint_needed": "Paint Needed",
-    "gallons": "Gallons",
-    "liters": "Liters",
-    "details": "Calculation Details",
-    "net_area": "Net Paintable Area",
-    "cans_needed": "Cans Needed",
-    "gallon_cans": "1-gallon cans",
-    "coverage_rate": "Coverage Rate",
-    "sqft_per_gallon": "sq ft/gallon",
-    "coats_applied": "Coats",
-    "area_summary": "Area Summary",
-    "total_wall_area": "Total Wall Area",
-    "deductions": "Deductions (Windows + Doors)",
-    "total_coverage_area": "Total Coverage Area",
-    "formula_title": "Calculation Formula",
-    "formula": "Gallons = (Net Area × Number of Coats) / Coverage Per Gallon",
-    "info_title": "About Paint Calculation",
-    "info_description": "Calculate paint quantities based on surface area, paint type, and number of coats. Deduct windows and doors for accurate estimates.",
-    "use_cases_title": "Common Uses",
-    "use_case_1": "Interior room painting",
-    "use_case_2": "Exterior house painting",
-    "use_case_3": "Commercial painting projects",
+    "area_summary": "Area summary",
+    "cans_needed": "Cans needed",
+    "coats_applied": "Coats applied",
+    "coats_unit": "Coats unit",
+    "coverage_rate": "Coverage rate",
+    "deductions": "Deductions",
+    "description": "Description",
+    "details": "Details",
+    "door_area": "Door area",
+    "door_area_tooltip": "Door area Tooltip",
     "errors": {
-      "invalid_area": "Please enter a valid wall area",
-      "negative_deductions": "Deduction areas cannot be negative",
-      "deductions_exceed_area": "Deductions cannot exceed total wall area",
-      "invalid_coats": "Number of coats must be between 1 and 5"
+      "deductions_exceed_area": "Deductions exceed area",
+      "invalid_area": "Invalid area",
+      "invalid_coats": "Invalid coats",
+      "negative_deductions": "Negative deductions"
     },
+    "formula": "Formula",
+    "formula_title": "Formula title",
+    "gallon_cans": "Gallon cans",
+    "gallons": "Gallons",
+    "info_description": "Info description",
+    "info_title": "Info title",
+    "liters": "Liters",
+    "net_area": "Net area",
+    "number_of_coats": "Number of coats",
+    "number_of_coats_tooltip": "Number of coats Tooltip",
+    "paint_type": "Paint type",
+    "paint_type_tooltip": "Paint type Tooltip",
     "placeholders": {
-      "wall_area": "400",
-      "window_area": "30",
-      "door_area": "20",
-      "coats": "2"
+      "coats": "Coats",
+      "door_area": "Door area",
+      "wall_area": "Wall area",
+      "window_area": "Window area"
     },
-    "howItWorks": {
-      "title": "How the Paint Calculator Works",
-      "formula": "Gallons = (Net Area × Coats) / Coverage Per Gallon",
-      "explanation": "This calculator estimates paint needed based on surface area, number of coats, and paint type coverage rates. It deducts windows and doors from total wall area for accuracy.",
-      "steps": [
-        "Enter total wall area to be painted",
-        "Deduct window and door areas",
-        "Select paint type for correct coverage rate",
-        "Choose number of coats (2 is standard)",
-        "Review gallons and cans needed"
-      ]
+    "result_paint_needed": "Result paint needed",
+    "sqft": "Sq ft",
+    "sqft_per_gallon": "Sq ft per gallon",
+    "sqft_unit": "Sq ft unit",
+    "sqm": "Sq m",
+    "sqm_unit": "Sq m unit",
+    "title": "Title",
+    "total_coverage_area": "Total coverage area",
+    "total_wall_area": "Total wall area",
+    "types": {
+      "ceiling": "Ceiling",
+      "exterior": "Exterior",
+      "flat_matte": "Flat matte",
+      "high_gloss": "High gloss",
+      "primer": "Primer",
+      "semi_gloss": "Semi gloss",
+      "standard": "Standard",
+      "textured": "Textured"
     },
-    "useCases": [
-      {
-        "title": "Interior Room Painting",
-        "description": "Calculate paint for bedrooms, living rooms, and other interior spaces."
-      },
-      {
-        "title": "Exterior House Painting",
-        "description": "Estimate paint quantities for home exterior walls and trim."
-      },
-      {
-        "title": "Commercial Projects",
-        "description": "Plan paint orders for offices, retail spaces, and commercial buildings."
-      },
-      {
-        "title": "Ceiling Painting",
-        "description": "Determine ceiling paint needs with appropriate coverage rates."
-      }
-    ],
-    "seoTips": [
-      "One gallon covers approximately 350-400 sq ft for smooth surfaces",
-      "Textured surfaces require 20-30% more paint than smooth walls",
-      "Always apply primer when changing colors dramatically or on new drywall",
-      "Two coats provide better coverage and durability than one thick coat",
-      "Buy all paint at once to ensure color consistency between cans"
-    ],
-    "commonMistakes": [
-      {
-        "mistake": "Skipping primer",
-        "solution": "Prime new surfaces and when changing from dark to light colors"
-      },
-      {
-        "mistake": "Buying exact amount",
-        "solution": "Add 10% extra for touch-ups and coverage variations"
-      },
-      {
-        "mistake": "Wrong paint type",
-        "solution": "Use bathroom/kitchen paint in moisture areas, exterior paint outside"
-      },
-      {
-        "mistake": "Ignoring surface texture",
-        "solution": "Textured walls need 20-30% more paint than smooth surfaces"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "How much paint do I need for a 12x12 room?",
-        "answer": "A 12x12 room with 8-foot ceilings has about 384 sq ft of wall area. After deducting doors and windows, 2 gallons covers 2 coats."
-      },
-      {
-        "question": "How many square feet does a gallon of paint cover?",
-        "answer": "One gallon covers 350-400 sq ft on smooth surfaces for one coat. Textured surfaces may only get 250-300 sq ft per gallon."
-      },
-      {
-        "question": "Do I need primer before painting?",
-        "answer": "Primer is recommended for new drywall, dramatic color changes, stain blocking, and adhesion on glossy surfaces. Many paints now include primer."
-      },
-      {
-        "question": "How many coats of paint do I need?",
-        "answer": "Two coats is standard for most applications. One coat may suffice when repainting the same color; three coats for dramatic color changes."
-      },
-      {
-        "question": "What is the difference between interior and exterior paint?",
-        "answer": "Exterior paint contains additives for UV resistance, mildew prevention, and temperature flexibility. Interior paint focuses on washability and low odor."
-      }
-    ]
+    "unit": "Unit",
+    "unit_tooltip": "Unit Tooltip",
+    "use_case_1": "Use case 1",
+    "use_case_2": "Use case 2",
+    "use_case_3": "Use case 3",
+    "use_cases_title": "Use cases title",
+    "wall_area": "Wall area",
+    "wall_area_tooltip": "Wall area Tooltip",
+    "window_area": "Window area",
+    "window_area_tooltip": "Window area Tooltip"
   },
   "gravel": {
     "title": "Gravel Calculator",
@@ -3101,146 +2790,66 @@
     ]
   },
   "tile": {
-    "title": "Tile Calculator",
-    "description": "Calculate tiles needed for floors and walls with waste allowance.",
-    "unit": "Area Unit",
-    "unit_tooltip": "Select measurement unit for the area",
-    "feet": "Feet",
-    "meters": "Meters",
-    "area_length": "Area Length",
-    "area_length_tooltip": "Length of the area to tile",
-    "area_width": "Area Width",
-    "area_width_tooltip": "Width of the area to tile",
-    "tile_size": "Tile Size",
-    "tile_size_tooltip": "Select a standard tile size or enter custom dimensions",
-    "custom_size": "Custom Size",
-    "tile_width": "Tile Width",
-    "tile_width_tooltip": "Width of a single tile in inches",
-    "tile_height": "Tile Height",
-    "tile_height_tooltip": "Height of a single tile in inches",
-    "grout_width": "Grout Line Width",
-    "grout_width_tooltip": "Width of grout lines between tiles (typically 1/8 to 1/4 inch)",
-    "tiles_per_box": "Tiles per Box",
-    "tiles_per_box_tooltip": "Number of tiles in each box for ordering",
-    "waste_factor": "Waste Factor (%)",
-    "waste_factor_tooltip": "Extra tiles for cuts, breakage, and waste (typically 10%)",
-    "inches": "in",
-    "result_tiles": "Tiles Required",
-    "tiles": "tiles",
-    "without_waste": "without waste",
-    "details": "Project Details",
-    "total_area": "Total Area",
-    "sqft_short": "sq ft",
-    "sqm_short": "sq m",
-    "boxes_needed": "Boxes Needed",
-    "tile_area": "Tile Area",
-    "sqin": "sq in",
-    "grout_linear": "Grout Linear Length",
-    "ft": "ft",
-    "formula_title": "Calculation Formula",
-    "formula": "Tiles = Area / Tile Area × (1 + Waste Factor). Grout lines are accounted for in effective tile coverage.",
-    "info_title": "About Tile Calculation",
-    "info_description": "Accurate tile estimation prevents shortages and excess waste. Include extra tiles for cuts around edges, corners, and potential breakage.",
-    "use_cases_title": "Common Uses",
-    "use_case_1": "Floor tiling projects",
-    "use_case_2": "Bathroom and kitchen walls",
-    "use_case_3": "Backsplash installations",
+    "area_length": "Area length",
+    "area_length_tooltip": "Area length Tooltip",
+    "area_width": "Area width",
+    "area_width_tooltip": "Area width Tooltip",
+    "boxes_needed": "Boxes needed",
+    "custom_size": "Custom size",
+    "description": "Description",
+    "details": "Details",
     "errors": {
-      "invalid_dimensions": "Please enter valid area dimensions",
-      "positive_values": "Dimensions must be greater than zero",
-      "invalid_tile_size": "Please enter valid tile dimensions",
-      "invalid_grout": "Grout width cannot be negative",
-      "invalid_waste": "Waste factor must be between 0 and 100%"
+      "invalid_dimensions": "Invalid dimensions",
+      "invalid_grout": "Invalid grout",
+      "invalid_tile_size": "Invalid tile size",
+      "invalid_waste": "Invalid waste",
+      "positive_values": "Positive values"
     },
+    "feet": "Feet",
+    "formula": "Formula",
+    "formula_title": "Formula title",
+    "ft": "Ft",
+    "grout_linear": "Grout linear",
+    "grout_width": "Grout width",
+    "grout_width_tooltip": "Grout width Tooltip",
+    "inches": "Inches",
+    "info_description": "Info description",
+    "info_title": "Info title",
+    "meters": "Meters",
     "placeholders": {
-      "length": "12",
-      "width": "10",
-      "tile_width": "12",
-      "tile_height": "12",
-      "grout": "0.125",
-      "tiles_per_box": "10",
-      "waste": "10"
+      "grout": "Grout",
+      "length": "Length",
+      "tile_height": "Tile height",
+      "tile_width": "Tile width",
+      "tiles_per_box": "Tiles per box",
+      "waste": "Waste",
+      "width": "Width"
     },
-    "howItWorks": {
-      "title": "How the Tile Calculator Works",
-      "formula": "Tiles = (Area / Tile Size) × (1 + Waste Factor)",
-      "explanation": "This calculator determines tile quantity by dividing the total area by individual tile coverage, accounting for grout lines. It adds a waste factor for cutting and breakage.",
-      "steps": [
-        "Enter area dimensions or total square footage",
-        "Select or enter tile size dimensions",
-        "Specify grout line width",
-        "Set waste factor (10% minimum recommended)",
-        "Review tiles and boxes needed"
-      ]
-    },
-    "useCases": [
-      {
-        "title": "Floor Tiling",
-        "description": "Calculate tiles for bathroom, kitchen, and living area floors."
-      },
-      {
-        "title": "Backsplash Installation",
-        "description": "Estimate tiles for kitchen and bathroom backsplashes."
-      },
-      {
-        "title": "Shower Walls",
-        "description": "Plan tile quantities for shower enclosures and wet areas."
-      },
-      {
-        "title": "Feature Walls",
-        "description": "Determine tiles for decorative accent walls and features."
-      }
-    ],
-    "seoTips": [
-      "Add 10% waste for straight layouts, 15% for diagonal patterns",
-      "Larger tiles have less waste but require flatter substrates",
-      "Plan tile layout to center pattern and minimize small cuts at edges",
-      "Order all tiles at once to ensure consistent color and lot matching",
-      "Consider tile size relative to room size - large tiles in small rooms can look odd"
-    ],
-    "commonMistakes": [
-      {
-        "mistake": "Insufficient waste factor",
-        "solution": "Use 10% minimum, 15% for diagonal or complex patterns"
-      },
-      {
-        "mistake": "Not planning layout",
-        "solution": "Dry-lay tiles first to minimize small cuts at edges"
-      },
-      {
-        "mistake": "Wrong grout spacing",
-        "solution": "Use spacers consistently - 1/8 inch for most, 1/16 for rectified tiles"
-      },
-      {
-        "mistake": "Mixing tile lots",
-        "solution": "Order from same lot number for consistent color"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "How many tiles do I need per square foot?",
-        "answer": "For 12x12 inch tiles: 1 tile per sq ft. For 6x6 inch tiles: 4 per sq ft. For 18x18 inch tiles: 0.44 per sq ft. Add 10% for waste."
-      },
-      {
-        "question": "How much extra tile should I order?",
-        "answer": "Order 10% extra for standard layouts, 15% for diagonal or herringbone patterns, and 20% for complex patterns or rooms with many cuts."
-      },
-      {
-        "question": "What size grout lines should I use?",
-        "answer": "Standard is 1/8 inch (3mm). Use 1/16 inch for rectified tiles, 1/4 inch or more for rustic or hand-made tiles."
-      },
-      {
-        "question": "Can I use floor tiles on walls?",
-        "answer": "Yes, but wall tiles cannot go on floors. Floor tiles are denser and harder. Check tile ratings for appropriate applications."
-      },
-      {
-        "question": "How many tiles come in a box?",
-        "answer": "This varies by size: 12x12 inch tiles typically 10-12 per box, 6x6 inch tiles 40+ per box. Check manufacturer specifications."
-      }
-    ],
-    "units": {
-      "percent": "Percent"
-    }
+    "result_tiles": "Result tiles",
+    "sqft_short": "Sq ft short",
+    "sqin": "Sqin",
+    "sqm_short": "Sq m short",
+    "tile_area": "Tile area",
+    "tile_height": "Tile height",
+    "tile_height_tooltip": "Tile height Tooltip",
+    "tile_size": "Tile size",
+    "tile_size_tooltip": "Tile size Tooltip",
+    "tile_width": "Tile width",
+    "tile_width_tooltip": "Tile width Tooltip",
+    "tiles": "Tiles",
+    "tiles_per_box": "Tiles per box",
+    "tiles_per_box_tooltip": "Tiles per box Tooltip",
+    "title": "Title",
+    "total_area": "Total area",
+    "unit": "Unit",
+    "unit_tooltip": "Unit Tooltip",
+    "use_case_1": "Use case 1",
+    "use_case_2": "Use case 2",
+    "use_case_3": "Use case 3",
+    "use_cases_title": "Use cases title",
+    "waste_factor": "Waste factor",
+    "waste_factor_tooltip": "Waste factor Tooltip",
+    "without_waste": "Without waste"
   },
   "grout": {
     "title": "Grout Calculator",
@@ -3374,146 +2983,66 @@
     ]
   },
   "roofing": {
-    "title": "Roofing Calculator",
-    "description": "Calculate roofing materials needed including shingles, underlayment, and ridge cap.",
-    "unit": "Measurement Unit",
-    "unit_tooltip": "Select feet or meters for roof dimensions",
-    "feet": "Feet",
-    "meters": "Meters",
-    "roof_length": "Roof Length",
-    "roof_length_tooltip": "Length of the roof area (ridge line)",
-    "roof_width": "Roof Width",
-    "roof_width_tooltip": "Width from ridge to eave (horizontal measurement)",
-    "pitch": "Roof Pitch",
-    "pitch_tooltip": "Roof slope expressed as rise:run (e.g., 4:12)",
-    "custom_pitch": "Custom Pitch",
-    "rise": "Rise",
-    "rise_tooltip": "Vertical rise of the roof",
-    "run": "Run",
-    "run_tooltip": "Horizontal run (typically 12 for standard pitch notation)",
-    "ridge_length": "Ridge Length (Optional)",
-    "ridge_length_tooltip": "Length of roof ridge for ridge cap calculation",
-    "waste_factor": "Waste Factor (%)",
-    "waste_factor_tooltip": "Extra material for waste, cuts, and overlaps (typically 10%)",
-    "result_area": "Total Roof Area",
-    "sqft": "Square Feet",
-    "sqm": "Square Meters",
-    "materials_needed": "Materials Needed",
-    "roofing_squares": "Roofing Squares",
-    "squares_note": "1 square = 100 sq ft",
-    "bundles_needed": "Shingle Bundles",
-    "bundles_note": "3 bundles per square",
-    "underlayment_rolls": "Underlayment",
-    "rolls": "rolls",
-    "ridge_cap": "Ridge Cap",
-    "bundles": "bundles",
-    "specifications": "Roof Specifications",
-    "base_area": "Base Footprint Area",
-    "sqft_short": "sq ft",
-    "pitch_factor": "Pitch Factor",
-    "pitch_angle": "Pitch Angle",
-    "formula_title": "Calculation Formula",
-    "formula": "Roof Area = Base Area × Pitch Factor. Pitch Factor = sqrt(1 + (Rise/Run)²).",
-    "info_title": "About Roofing Calculation",
-    "info_description": "Roofing materials are typically sold in 'squares' (100 sq ft). The pitch factor accounts for the additional area on sloped roofs compared to the footprint.",
-    "use_cases_title": "Common Uses",
-    "use_case_1": "Shingle roof installation",
-    "use_case_2": "Roof replacement projects",
-    "use_case_3": "Material cost estimation",
+    "base_area": "Base area",
+    "bundles": "Bundles",
+    "bundles_needed": "Bundles needed",
+    "bundles_note": "Bundles note",
+    "custom_pitch": "Custom pitch",
+    "description": "Description",
     "errors": {
-      "invalid_dimensions": "Please enter valid roof dimensions",
-      "positive_values": "Dimensions must be greater than zero",
-      "invalid_pitch": "Please enter valid rise and run values",
-      "invalid_waste": "Waste factor must be between 0 and 50%"
+      "invalid_dimensions": "Invalid dimensions",
+      "invalid_pitch": "Invalid pitch",
+      "invalid_waste": "Invalid waste",
+      "positive_values": "Positive values"
     },
+    "feet": "Feet",
+    "formula": "Formula",
+    "formula_title": "Formula title",
+    "info_description": "Info description",
+    "info_title": "Info title",
+    "materials_needed": "Materials needed",
+    "meters": "Meters",
+    "pitch": "Pitch",
+    "pitch_angle": "Pitch angle",
+    "pitch_factor": "Pitch factor",
+    "pitch_tooltip": "Pitch Tooltip",
     "placeholders": {
-      "length": "40",
-      "width": "20",
-      "rise": "4",
-      "run": "12",
-      "ridge": "40",
-      "waste": "10"
+      "length": "Length",
+      "ridge": "Ridge",
+      "rise": "Rise",
+      "run": "Run",
+      "waste": "Waste",
+      "width": "Width"
     },
-    "howItWorks": {
-      "title": "How the Roofing Calculator Works",
-      "formula": "Roof Area = Base Area × Pitch Factor",
-      "explanation": "This calculator determines actual roof area by applying a pitch factor to the base footprint. It then calculates shingle bundles, underlayment rolls, and ridge cap needed.",
-      "steps": [
-        "Enter roof length and width (footprint dimensions)",
-        "Select or enter roof pitch (rise:run ratio)",
-        "Add ridge length for ridge cap calculation",
-        "Set waste factor for cuts and overlaps",
-        "Review squares, bundles, and materials needed"
-      ]
-    },
-    "useCases": [
-      {
-        "title": "Shingle Replacement",
-        "description": "Calculate materials for complete asphalt shingle roof replacement."
-      },
-      {
-        "title": "New Construction",
-        "description": "Estimate roofing needs for new home and building projects."
-      },
-      {
-        "title": "Storm Damage Repair",
-        "description": "Determine materials for roof repair and partial replacement."
-      },
-      {
-        "title": "Material Cost Estimation",
-        "description": "Plan budgets with accurate material quantity calculations."
-      }
-    ],
-    "seoTips": [
-      "One roofing square equals 100 square feet of roof area",
-      "Standard shingles require 3 bundles per square",
-      "Add 10-15% waste factor for valleys, hips, and complex roofs",
-      "Higher pitch roofs require more material due to increased surface area",
-      "Always include starter strips, ridge caps, and drip edge in orders"
-    ],
-    "commonMistakes": [
-      {
-        "mistake": "Using footprint instead of roof area",
-        "solution": "Apply pitch factor to convert flat footprint to actual sloped area"
-      },
-      {
-        "mistake": "Forgetting accessories",
-        "solution": "Include starter strips, drip edge, ridge caps, and flashing"
-      },
-      {
-        "mistake": "Insufficient waste factor",
-        "solution": "Use 15% for complex roofs with valleys, dormers, and hips"
-      },
-      {
-        "mistake": "Ignoring underlayment",
-        "solution": "Always include felt or synthetic underlayment in calculations"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "How many bundles of shingles per square?",
-        "answer": "Standard three-tab shingles require 3 bundles per square (100 sq ft). Architectural shingles vary - check manufacturer specifications."
-      },
-      {
-        "question": "What is a roofing square?",
-        "answer": "A roofing square equals 100 square feet of roof area. It is the standard unit for ordering roofing materials."
-      },
-      {
-        "question": "How do I calculate roof area from ground level?",
-        "answer": "Measure the footprint (length × width) and multiply by the pitch factor. For a 4:12 pitch, multiply by 1.054."
-      },
-      {
-        "question": "How much underlayment do I need?",
-        "answer": "Standard felt rolls cover 400 sq ft with proper overlap. Divide roof area by 400 for number of rolls needed."
-      },
-      {
-        "question": "What pitch factor should I use?",
-        "answer": "Common factors: 4:12 = 1.054, 6:12 = 1.118, 8:12 = 1.202, 10:12 = 1.302, 12:12 = 1.414."
-      }
-    ],
-    "units": {
-      "percent": "Percent"
-    }
+    "result_area": "Result area",
+    "ridge_cap": "Ridge cap",
+    "ridge_length": "Ridge length",
+    "ridge_length_tooltip": "Ridge length Tooltip",
+    "rise": "Rise",
+    "rise_tooltip": "Rise Tooltip",
+    "rolls": "Rolls",
+    "roof_length": "Roof length",
+    "roof_length_tooltip": "Roof length Tooltip",
+    "roof_width": "Roof width",
+    "roof_width_tooltip": "Roof width Tooltip",
+    "roofing_squares": "Roofing squares",
+    "run": "Run",
+    "run_tooltip": "Run Tooltip",
+    "specifications": "Specifications",
+    "sqft": "Sq ft",
+    "sqft_short": "Sq ft short",
+    "sqm": "Sq m",
+    "squares_note": "Squares note",
+    "title": "Title",
+    "underlayment_rolls": "Underlayment rolls",
+    "unit": "Unit",
+    "unit_tooltip": "Unit Tooltip",
+    "use_case_1": "Use case 1",
+    "use_case_2": "Use case 2",
+    "use_case_3": "Use case 3",
+    "use_cases_title": "Use cases title",
+    "waste_factor": "Waste factor",
+    "waste_factor_tooltip": "Waste factor Tooltip"
   },
   "roofPitch": {
     "title": "Roof Pitch Calculator",
@@ -3912,146 +3441,65 @@
     ]
   },
   "ceiling": {
-    "title": "Ceiling Calculator",
-    "description": "Calculate suspended ceiling materials including tiles, grid system, and hardware.",
-    "unit": "Measurement Unit",
-    "unit_tooltip": "Select meters or feet for room dimensions",
-    "meters": "Meters",
-    "feet": "Feet",
-    "room_length": "Room Length",
-    "room_length_tooltip": "Total length of the room",
-    "room_width": "Room Width",
-    "room_width_tooltip": "Total width of the room",
-    "tile_size": "Tile Size",
-    "tile_size_tooltip": "Standard ceiling tile dimensions",
-    "sizes": {
-      "2x2": "2×2 feet (600×600mm)",
-      "2x4": "2×4 feet (600×1200mm)",
-      "custom": "Custom",
-      "600x1200": "600x1200",
-      "600x600": "600x600"
-    },
-    "waste_factor": "Waste Factor (%)",
-    "waste_factor_tooltip": "Extra tiles for cuts and waste (typically 10%)",
-    "result_tiles": "Ceiling Tiles Needed",
-    "tiles": "tiles",
-    "grid_materials": "Grid System Materials",
-    "main_runners": "Main Runners (12 ft)",
-    "cross_tees": "Cross Tees",
-    "wall_angle": "Wall Angle (ft)",
-    "hanger_wire": "Hanger Wire (ft)",
-    "formula_title": "Calculation Formula",
-    "formula": "Tiles = Ceiling Area / Tile Area × (1 + Waste). Grid components calculated based on standard 4 ft runner spacing.",
-    "info_title": "About Ceiling Calculation",
-    "info_description": "Suspended ceilings require tiles, grid system, and hanging hardware. This calculator estimates all components for drop ceiling installation.",
-    "use_cases_title": "Common Uses",
-    "use_case_1": "Office and commercial spaces",
-    "use_case_2": "Basement finishing",
-    "use_case_3": "Retail and restaurant ceilings",
+    "attachment_points": "Attachment points",
+    "cross_tees_2ft": "Cross tees 2ft",
+    "cross_tees_4ft": "Cross tees 4ft",
+    "description": "Description",
     "errors": {
-      "invalid_dimensions": "Please enter valid room dimensions",
-      "positive_values": "Dimensions must be greater than zero",
-      "invalid_waste": "Waste factor must be between 0 and 100",
-      "invalid_tile_size": "Invalid Tile Size"
+      "invalid_dimensions": "Invalid dimensions",
+      "invalid_tile_size": "Invalid tile size",
+      "invalid_waste": "Invalid waste",
+      "positive_values": "Positive values"
     },
-    "placeholders": {
-      "room_length": "6",
-      "room_width": "4",
-      "waste": "10",
-      "tile_width": "Tile Width",
-      "width": "Width",
-      "tile_length": "Tile Length",
-      "length": "Length"
-    },
-    "howItWorks": {
-      "title": "How the Ceiling Calculator Works",
-      "formula": "Tiles = (Room Area / Tile Area) × (1 + Waste Factor)",
-      "explanation": "This calculator determines ceiling tile quantity and all grid system components needed for suspended ceiling installation. It calculates main runners, cross tees, wall angles, and hanger wire based on standard grid spacing.",
-      "steps": [
-        "Enter room length and width dimensions",
-        "Select tile size (2×2 or 2×4 feet)",
-        "Set waste factor for edge cuts",
-        "Review tile count and grid components",
-        "Plan layout to center the grid pattern"
-      ]
-    },
-    "useCases": [
-      {
-        "title": "Office Ceiling Installation",
-        "description": "Calculate materials for commercial office suspended ceiling systems."
-      },
-      {
-        "title": "Basement Finishing",
-        "description": "Plan drop ceiling materials for residential basement conversions."
-      },
-      {
-        "title": "Retail Spaces",
-        "description": "Estimate ceiling systems for stores and commercial retail areas."
-      },
-      {
-        "title": "Classroom and Institutional",
-        "description": "Determine materials for schools, hospitals, and public buildings."
-      }
-    ],
-    "seoTips": [
-      "Plan grid layout to avoid narrow edge tiles - center the pattern",
-      "Maintain minimum 3-inch clearance above grid for tile installation",
-      "Use 4 ft hanger wire spacing for standard installations",
-      "Acoustic tiles provide NRC ratings of 0.50-0.90 for sound absorption",
-      "Fire-rated tiles are required in commercial and multi-family applications"
-    ],
-    "commonMistakes": [
-      {
-        "mistake": "Grid not level",
-        "solution": "Use laser level and adjust hanger wires to ensure perfectly level grid"
-      },
-      {
-        "mistake": "Insufficient clearance",
-        "solution": "Maintain 3-4 inches minimum above grid for tile installation and access"
-      },
-      {
-        "mistake": "Poor edge planning",
-        "solution": "Center grid pattern to avoid narrow tiles at walls (minimum half-tile)"
-      },
-      {
-        "mistake": "Hanger spacing too wide",
-        "solution": "Install hangers every 4 feet maximum and within 2 feet of walls"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "How many ceiling tiles per square foot?",
-        "answer": "2×2 ft tiles cover 4 sq ft each (0.25 tiles per sq ft). 2×4 ft tiles cover 8 sq ft each (0.125 tiles per sq ft)."
-      },
-      {
-        "question": "What is the standard drop ceiling height?",
-        "answer": "Minimum 7.5 ft finished ceiling height is typical for residential, 8-9 ft for commercial. Allow 3-6 inches for grid and clearance."
-      },
-      {
-        "question": "How far apart are main runners?",
-        "answer": "Main runners are spaced 4 feet apart for standard installations. Cross tees connect at 2-foot intervals."
-      },
-      {
-        "question": "Can I install recessed lights in drop ceilings?",
-        "answer": "Yes, use ceiling-rated recessed fixtures designed for suspended ceilings. Ensure adequate clearance above the grid."
-      },
-      {
-        "question": "What type of ceiling tile is best for bathrooms?",
-        "answer": "Use moisture-resistant tiles rated for high humidity areas. Look for tiles with vinyl or mylar facing for wet locations."
-      }
-    ],
-    "room_area": "Room Area",
-    "tile_length": "Tile Length",
-    "tile_length_tooltip": "Tile Length Tooltip",
-    "hanging_wire": "Hanging Wire",
-    "tile_width_tooltip": "Tile Width Tooltip",
+    "feet": "Feet",
+    "formula": "Formula",
+    "formula_title": "Formula title",
+    "grid_materials": "Grid materials",
+    "hanging_wire": "Hanging wire",
+    "info_description": "Info description",
+    "info_title": "Info title",
+    "main_runners": "Main runners",
+    "meters": "Meters",
     "pieces": "Pieces",
-    "attachment_points": "Attachment Points",
-    "tile_area": "Tile Area",
-    "tile_width": "Tile Width",
-    "cross_tees_2ft": "Cross Tees 2ft",
-    "without_waste": "Without Waste",
-    "cross_tees_4ft": "Cross Tees 4ft"
+    "placeholders": {
+      "length": "Length",
+      "tile_length": "Tile length",
+      "tile_width": "Tile width",
+      "waste": "Waste",
+      "width": "Width"
+    },
+    "result_tiles": "Result tiles",
+    "room_area": "Room area",
+    "room_length": "Room length",
+    "room_length_tooltip": "Room length Tooltip",
+    "room_width": "Room width",
+    "room_width_tooltip": "Room width Tooltip",
+    "sizes": {
+      "2x2": "2x2",
+      "2x4": "2x4",
+      "600x1200": "600x1200",
+      "600x600": "600x600",
+      "custom": "Custom"
+    },
+    "tile_area": "Tile area",
+    "tile_length": "Tile length",
+    "tile_length_tooltip": "Tile length Tooltip",
+    "tile_size": "Tile size",
+    "tile_size_tooltip": "Tile size Tooltip",
+    "tile_width": "Tile width",
+    "tile_width_tooltip": "Tile width Tooltip",
+    "tiles": "Tiles",
+    "title": "Title",
+    "unit": "Unit",
+    "unit_tooltip": "Unit Tooltip",
+    "use_case_1": "Use case 1",
+    "use_case_2": "Use case 2",
+    "use_case_3": "Use case 3",
+    "use_cases_title": "Use cases title",
+    "wall_angle": "Wall angle",
+    "waste_factor": "Waste factor",
+    "waste_factor_tooltip": "Waste factor Tooltip",
+    "without_waste": "Without waste"
   },
   "drywall": {
     "title": "Drywall Calculator",
@@ -4510,167 +3958,76 @@
     "width": "Width"
   },
   "deck": {
-    "title": "Deck Calculator",
-    "description": "Calculate decking boards, joists, posts, and fasteners for outdoor deck construction.",
-    "unit": "Measurement Unit",
-    "unit_tooltip": "Select meters or feet for deck dimensions",
-    "meters": "Meters",
-    "feet": "feet",
-    "deck_length": "Deck Length",
-    "deck_length_tooltip": "Total length of the deck",
-    "deck_width": "Deck Width",
-    "deck_width_tooltip": "Total width of the deck",
-    "board_width": "Decking Board Width",
-    "board_width_tooltip": "Width of each decking board (typically 5.5 inches)",
-    "joist_spacing": "Joist Spacing",
-    "joist_spacing_tooltip": "Center-to-center spacing between joists",
-    "spacings": {
-      "12": "12 inches (heavy duty)",
-      "16": "16 inches (standard)",
-      "24": "24 inches (light duty)"
-    },
-    "waste_factor": "Waste Factor (%)",
-    "waste_factor_tooltip": "Extra material for cuts and waste (typically 10-15%)",
-    "result_boards": "Decking Boards Needed",
-    "boards": "boards",
-    "framing_materials": "Framing Materials",
-    "joists": "Joists",
-    "posts": "Support Posts",
     "beams": "Beams",
-    "fasteners": "Deck Screws",
-    "formula_title": "Calculation Formula",
-    "formula": "Boards = (Deck Area / Board Coverage) × (1 + Waste). Joists = (Length / Spacing) + 1.",
-    "info_title": "About Deck Calculation",
-    "info_description": "Deck construction requires decking boards, structural framing, posts, and fasteners. This calculator estimates all major components.",
-    "use_cases_title": "Common Uses",
-    "use_case_1": "Backyard deck construction",
-    "use_case_2": "Porch and patio decking",
-    "use_case_3": "Pool surrounds and outdoor living spaces",
-    "errors": {
-      "invalid_dimensions": "Please enter valid deck dimensions",
-      "positive_values": "All values must be positive numbers",
-      "invalid_waste": "Waste percentage must be between 0 and 50%",
-      "invalid_board_length": "Please select a valid board length"
-    },
-    "placeholders": {
-      "deck_length": "16",
-      "deck_width": "12",
-      "board_width": "5.5",
-      "waste": "10",
-      "length": "Length",
-      "width": "Width"
-    },
-    "howItWorks": {
-      "title": "How the Deck Calculator Works",
-      "formula": "Decking Boards = (Deck Area / Board Coverage) × (1 + Waste)",
-      "explanation": "This calculator determines decking boards based on surface area and board width. It also calculates joists, beams, posts, and fasteners needed for complete deck construction.",
-      "steps": [
-        "Enter deck length and width dimensions",
-        "Select decking board width",
-        "Choose joist spacing (16 inches is standard)",
-        "Set waste factor for cuts and scrap",
-        "Review all materials: boards, framing, fasteners"
-      ]
-    },
-    "useCases": [
-      {
-        "title": "Ground-Level Deck",
-        "description": "Calculate materials for freestanding ground-level decks."
-      },
-      {
-        "title": "Elevated Deck",
-        "description": "Plan materials for raised decks with post and beam framing."
-      },
-      {
-        "title": "Multi-Level Deck",
-        "description": "Estimate materials for complex multi-tier deck designs."
-      },
-      {
-        "title": "Deck Replacement",
-        "description": "Determine decking board quantities for surface replacement."
-      }
-    ],
-    "seoTips": [
-      "Use 16-inch joist spacing for most decking materials",
-      "Composite and PVC decking may require 12-inch spacing - check manufacturer specs",
-      "Posts should be set in concrete at least 42 inches deep in cold climates",
-      "Leave 1/8-inch gap between boards for drainage and expansion",
-      "Use stainless steel or coated screws with pressure-treated and composite decking"
-    ],
-    "commonMistakes": [
-      {
-        "mistake": "Joist spacing too wide",
-        "solution": "Follow decking manufacturer recommendations - typically 16 inches maximum"
-      },
-      {
-        "mistake": "Inadequate post depth",
-        "solution": "Set posts below frost line (42+ inches) to prevent heaving"
-      },
-      {
-        "mistake": "Wrong fasteners",
-        "solution": "Use approved screws for your decking type - ACQ-compatible for treated lumber"
-      },
-      {
-        "mistake": "No drainage slope",
-        "solution": "Install deck with slight slope (1/8 inch per foot) away from house"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "How many deck boards do I need?",
-        "answer": "Divide deck square footage by board coverage (5.5-inch board covers 0.46 sq ft per linear foot). Add 10-15% for waste."
-      },
-      {
-        "question": "What size joists for a deck?",
-        "answer": "2×8 joists span up to 12 feet, 2×10 up to 15 feet, 2×12 up to 18 feet at 16-inch spacing. Check local codes for specific requirements."
-      },
-      {
-        "question": "How many screws per deck board?",
-        "answer": "Use 2 screws per joist crossing. A 12-foot board across 9 joists needs 18 screws. Plan for approximately 350 screws per 100 sq ft of decking."
-      },
-      {
-        "question": "Should I use treated lumber or composite?",
-        "answer": "Treated lumber costs less initially but requires maintenance. Composite costs more but is low-maintenance and lasts longer."
-      },
-      {
-        "question": "Do I need a permit for a deck?",
-        "answer": "Most areas require permits for decks over 200 sq ft or more than 30 inches above grade. Check local building codes."
-      }
-    ],
-    "board_length": "Board Length",
-    "board_length_tooltip": "Standard length of decking boards",
+    "board_feet": "Board feet",
+    "board_length": "Board length",
+    "board_length_tooltip": "Board length Tooltip",
     "board_lengths": {
-      "8ft": "8 feet",
-      "10ft": "10 feet",
-      "12ft": "12 feet",
-      "14ft": "14 feet",
-      "16ft": "16 feet"
+      "10ft": "10ft",
+      "12ft": "12ft",
+      "14ft": "14ft",
+      "16ft": "16ft",
+      "8ft": "8ft"
     },
-    "board_size": "Board Size",
-    "board_size_tooltip": "Decking board dimensions",
+    "board_size": "Board size",
+    "board_size_tooltip": "Board size Tooltip",
     "board_sizes": {
-      "2x4": "2×4 inches",
-      "2x6": "2×6 inches",
-      "5_4x6": "5/4×6 inches",
+      "2x4": "2x4",
+      "2x6": "2x6",
+      "5_4x6": "5 4x6",
       "composite": "Composite"
     },
-    "joist_options": {
-      "12": "12 inches",
-      "16": "16 inches",
-      "24": "24 inches"
+    "boxes": "Boxes",
+    "deck_length": "Deck length",
+    "deck_length_tooltip": "Deck length Tooltip",
+    "deck_width": "Deck width",
+    "deck_width_tooltip": "Deck width Tooltip",
+    "decking_boards": "Decking boards",
+    "decking_materials": "Decking materials",
+    "description": "Description",
+    "doubled": "Doubled",
+    "errors": {
+      "invalid_board_length": "Invalid board length",
+      "invalid_dimensions": "Invalid dimensions",
+      "invalid_waste": "Invalid waste",
+      "positive_values": "Positive values"
     },
+    "feet": "Feet",
     "footings": "Footings",
-    "decking_boards": "Decking Boards",
-    "decking_materials": "Decking Materials",
-    "doubled": "doubled",
-    "board_feet": "board feet",
-    "boxes": "boxes",
+    "formula": "Formula",
+    "formula_title": "Formula title",
     "hardware": "Hardware",
-    "sqft": "sq ft",
-    "screws_total": "Screws Total",
+    "info_description": "Info description",
+    "info_title": "Info title",
+    "joist_options": {
+      "12": "12",
+      "16": "16",
+      "24": "24"
+    },
+    "joist_spacing": "Joist spacing",
+    "joist_spacing_tooltip": "Joist spacing Tooltip",
+    "joists": "Joists",
+    "meters": "Meters",
+    "placeholders": {
+      "length": "Length",
+      "waste": "Waste",
+      "width": "Width"
+    },
+    "posts": "Posts",
+    "posts_label": "Posts label",
+    "result_area": "Result area",
     "screws": "Screws",
-    "result_area": "Result Area",
-    "posts_label": "Posts Label"
+    "screws_total": "Screws total",
+    "sqft": "Sq ft",
+    "title": "Title",
+    "unit": "Unit",
+    "unit_tooltip": "Unit Tooltip",
+    "use_case_1": "Use case 1",
+    "use_case_2": "Use case 2",
+    "use_case_3": "Use case 3",
+    "use_cases_title": "Use cases title",
+    "waste_factor": "Waste factor",
+    "waste_factor_tooltip": "Waste factor Tooltip"
   },
   "shingle": {
     "title": "Shingle Calculator",
@@ -4817,158 +4174,73 @@
     }
   },
   "wallpaper": {
-    "title": "Wallpaper Calculator",
-    "description": "Calculate wallpaper rolls needed for room coverage with pattern repeat allowance.",
-    "unit": "Measurement Unit",
-    "unit_tooltip": "Select feet or meters for room dimensions",
-    "feet": "feet",
-    "meters": "meters",
-    "room_perimeter": "Room Perimeter",
-    "room_perimeter_tooltip": "Total length of all walls (or sum of wall lengths)",
-    "wall_height": "Wall Height",
-    "wall_height_tooltip": "Height from floor to ceiling",
-    "roll_width": "Roll Width",
-    "roll_width_tooltip": "Width of wallpaper roll",
-    "roll_length": "Roll Length",
-    "roll_length_tooltip": "Length of one wallpaper roll",
-    "pattern_repeat": "Pattern Repeat",
-    "pattern_repeat_tooltip": "Distance between pattern repeats (0 for no pattern)",
-    "doors_windows": "Doors/Windows Deduction",
-    "doors_windows_tooltip": "Total area of doors and windows to subtract",
-    "result_rolls": "Rolls Required",
-    "rolls": "rolls",
-    "details": "Calculation Details",
-    "gross_area": "Gross Wall Area",
-    "net_area": "Net Coverage Area",
-    "usable_per_roll": "Usable Coverage per Roll",
-    "formula_title": "Calculation Formula",
-    "formula": "Rolls = Net Wall Area / Usable Coverage per Roll. Pattern repeat reduces usable coverage.",
-    "info_title": "About Wallpaper Calculation",
-    "info_description": "Wallpaper calculation must account for pattern repeats which increase waste. This calculator determines rolls needed including proper allowances.",
-    "use_cases_title": "Common Uses",
-    "use_case_1": "Residential room decoration",
-    "use_case_2": "Accent wall coverage",
-    "use_case_3": "Commercial interior design",
-    "roll_size": "Roll Size",
-    "roll_size_tooltip": "Dimensions of wallpaper roll",
-    "pattern_type": "Pattern Type",
-    "pattern_type_tooltip": "Type of wallpaper pattern affects waste",
-    "openings_area": "Openings Area",
-    "openings_area_tooltip": "Total area of doors and windows",
-    "waste_factor": "Waste Factor (%)",
-    "waste_factor_tooltip": "Additional material for cutting waste and errors",
-    "total_wall_area": "Total Wall Area",
-    "net_wall_area": "Net Wall Area",
-    "roll_coverage": "Roll Coverage",
-    "total_coverage": "Total Coverage",
-    "without_waste": "without waste",
-    "sizes": {
-      "standard_us": "Standard US (27\" × 33')",
-      "standard_euro": "Standard Euro (21\" × 33')",
-      "wide_euro": "Wide Euro (27.5\" × 33')",
-      "metric": "Metric (53cm × 10m)",
-      "custom": "Custom Size"
-    },
-    "patterns": {
-      "none": "No Pattern",
-      "straight": "Straight Match",
-      "drop": "Drop Match",
-      "random": "Random Match",
-      "large": "Large Pattern"
-    },
+    "description": "Description",
+    "details": "Details",
     "errors": {
-      "invalid_dimensions": "Please enter valid room dimensions",
-      "positive_values": "Dimensions must be greater than zero",
-      "invalid_repeat": "Pattern repeat cannot be negative",
-      "invalid_roll_size": "Please enter valid roll dimensions",
-      "invalid_openings": "Openings area cannot exceed wall area",
-      "invalid_waste": "Waste percentage must be between 0 and 50%"
+      "invalid_dimensions": "Invalid dimensions",
+      "invalid_openings": "Invalid openings",
+      "invalid_roll_size": "Invalid roll size",
+      "invalid_waste": "Invalid waste",
+      "positive_values": "Positive values"
+    },
+    "feet": "Feet",
+    "formula": "Formula",
+    "formula_title": "Formula title",
+    "info_description": "Info description",
+    "info_title": "Info title",
+    "meters": "Meters",
+    "net_wall_area": "Net wall area",
+    "openings_area": "Openings area",
+    "openings_area_tooltip": "Openings area Tooltip",
+    "pattern_type": "Pattern type",
+    "pattern_type_tooltip": "Pattern type Tooltip",
+    "patterns": {
+      "drop": "Drop",
+      "large": "Large",
+      "none": "None",
+      "random": "Random",
+      "straight": "Straight"
     },
     "placeholders": {
-      "height": "Enter wall height",
-      "perimeter": "Enter perimeter",
-      "openings": "Enter openings area",
-      "roll_length": "Enter roll length",
-      "roll_width": "Enter roll width",
-      "waste": "Enter waste %"
+      "height": "Height",
+      "openings": "Openings",
+      "perimeter": "Perimeter",
+      "roll_length": "Roll length",
+      "roll_width": "Roll width",
+      "waste": "Waste"
     },
-    "howItWorks": {
-      "title": "How the Wallpaper Calculator Works",
-      "formula": "Rolls = Net Wall Area / (Roll Coverage - Pattern Waste)",
-      "explanation": "This calculator determines wallpaper roll quantity by computing wall area, subtracting openings, and accounting for pattern repeat waste. Pattern repeats significantly increase material needs.",
-      "steps": [
-        "Calculate room perimeter (sum of wall lengths)",
-        "Enter wall height and roll dimensions",
-        "Add pattern repeat distance (0 for solid patterns)",
-        "Subtract door and window areas",
-        "Review rolls needed with waste allowance"
-      ]
+    "result_rolls": "Result rolls",
+    "roll_coverage": "Roll coverage",
+    "roll_length": "Roll length",
+    "roll_length_tooltip": "Roll length Tooltip",
+    "roll_size": "Roll size",
+    "roll_size_tooltip": "Roll size Tooltip",
+    "roll_width": "Roll width",
+    "roll_width_tooltip": "Roll width Tooltip",
+    "rolls": "Rolls",
+    "room_perimeter": "Room perimeter",
+    "room_perimeter_tooltip": "Room perimeter Tooltip",
+    "sizes": {
+      "custom": "Custom",
+      "metric": "Metric",
+      "standard_euro": "Standard EURo",
+      "standard_us": "Standard us",
+      "wide_euro": "Wide EURo"
     },
-    "useCases": [
-      {
-        "title": "Full Room Wallpapering",
-        "description": "Calculate wallpaper for complete room coverage."
-      },
-      {
-        "title": "Accent Wall",
-        "description": "Estimate rolls for single feature wall installation."
-      },
-      {
-        "title": "Bathroom and Kitchen",
-        "description": "Plan wallpaper for smaller spaces with many openings."
-      },
-      {
-        "title": "Commercial Spaces",
-        "description": "Calculate large-scale wallpaper installations for offices and retail."
-      }
-    ],
-    "seoTips": [
-      "Pattern repeats can increase waste by 20-30% - factor this in",
-      "Standard American rolls are 20.5 inches × 33 feet (27 sq ft coverage)",
-      "European rolls are typically 21 inches × 33 feet or metric equivalents",
-      "Order all rolls from the same dye lot to ensure color consistency",
-      "Add one extra roll for future repairs and pattern matching at corners"
-    ],
-    "commonMistakes": [
-      {
-        "mistake": "Ignoring pattern repeat",
-        "solution": "Large pattern repeats can waste 30% - measure and include in calculations"
-      },
-      {
-        "mistake": "Different dye lots",
-        "solution": "Order all rolls at once from same lot - colors vary between production runs"
-      },
-      {
-        "mistake": "Not ordering extra",
-        "solution": "Add at least one roll for errors, repairs, and matching at corners"
-      },
-      {
-        "mistake": "Measuring width incorrectly",
-        "solution": "Measure wall height plus 4 inches for trimming at top and bottom"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "How many rolls of wallpaper for a 12×12 room?",
-        "answer": "A 12×12 room with 8-foot ceilings has approximately 384 sq ft of wall area. After deducting openings, expect 5-7 double rolls depending on pattern repeat."
-      },
-      {
-        "question": "What is pattern repeat and why does it matter?",
-        "answer": "Pattern repeat is the distance before the design repeats. Larger repeats create more waste as strips must be aligned, potentially requiring 20-30% more material."
-      },
-      {
-        "question": "What is the difference between single and double rolls?",
-        "answer": "Single rolls are 27 sq ft, double rolls are 54 sq ft. Most wallpaper is now sold only in double rolls but priced per single roll."
-      },
-      {
-        "question": "How long does wallpaper last?",
-        "answer": "Quality wallpaper lasts 10-15 years or more. Vinyl and washable types are most durable for high-traffic and humid areas."
-      },
-      {
-        "question": "Can I hang wallpaper over existing wallpaper?",
-        "answer": "Not recommended. Remove old wallpaper, repair walls, and apply primer for best adhesion and smooth finish."
-      }
-    ]
+    "title": "Title",
+    "total_coverage": "Total coverage",
+    "total_wall_area": "Total wall area",
+    "unit": "Unit",
+    "unit_tooltip": "Unit Tooltip",
+    "use_case_1": "Use case 1",
+    "use_case_2": "Use case 2",
+    "use_case_3": "Use case 3",
+    "use_cases_title": "Use cases title",
+    "wall_height": "Wall height",
+    "wall_height_tooltip": "Wall height Tooltip",
+    "waste_factor": "Waste factor",
+    "waste_factor_tooltip": "Waste factor Tooltip",
+    "without_waste": "Without waste"
   },
   "waterproofing": {
     "title": "Waterproofing Calculator",

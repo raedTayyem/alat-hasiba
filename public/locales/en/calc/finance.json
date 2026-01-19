@@ -730,206 +730,108 @@
     ]
   },
   "inheritance-calculator": {
-    "title": "Calculator",
-    "description": "Calculate inheritance distribution according to Islamic law (Sharia).",
-    "tabs": {
-      "heirs": "Select Heirs",
-      "assets": "Assets & Debts",
-      "results": "Calculate Shares"
-    },
-    "heirs_selection_title": "Heirs Selection",
+    "title": "Islamic Inheritance Calculator",
+    "description": "Calculate inheritance shares according to Islamic law",
+    "heirs_selection_title": "Select Heirs",
     "estate_details": "Estate Details",
-    "results_title": "Calculation Results",
+    "results_title": "Distribution Results",
+    "tabs": {
+      "heirs": "Heirs",
+      "assets": "Assets & Debts",
+      "results": "Results"
+    },
     "heirs": {
       "husband": "Husband",
       "wife": "Wife",
       "son": "Son",
       "daughter": "Daughter",
-      "grandson": "Grandson (through son)",
-      "granddaughter": "Granddaughter (through son)",
+      "grandson": "Grandson (from son)",
+      "granddaughter": "Granddaughter (from son)",
       "father": "Father",
       "mother": "Mother",
       "grandfather": "Grandfather (paternal)",
-      "grandmother_paternal": "Grandmother (father's side)",
-      "grandmother_maternal": "Grandmother (mother's side)",
-      "brother": "Full Brother",
-      "sister": "Full Sister",
-      "brother_paternal": "Paternal Brother",
-      "sister_paternal": "Paternal Sister",
-      "brother_maternal": "Maternal Brother",
-      "sister_maternal": "Maternal Sister"
+      "grandmother_paternal": "Grandmother (paternal)",
+      "grandmother_maternal": "Grandmother (maternal)",
+      "brother": "Brother (full)",
+      "sister": "Sister (full)",
+      "brother_paternal": "Brother (paternal)",
+      "sister_paternal": "Sister (paternal)",
+      "brother_maternal": "Brother (maternal)",
+      "sister_maternal": "Sister (maternal)"
     },
-    "shares": {
-      "half": "Half (1/2)",
-      "quarter": "Quarter (1/4)",
-      "eighth": "Eighth (1/8)",
-      "two_thirds": "Two-thirds (2/3)",
-      "third": "Third (1/3)",
-      "sixth": "Sixth (1/6)",
-      "residue": "Residue (Asaba)",
-      "sixth_with_residue": "Sixth (1/6) with Residue",
-      "residue_with_son": "Residue with Son (male gets double female share)",
-      "residue_with_grandson": "Residue with Grandson (male gets double female share)",
-      "residue_with_brother": "Residue with Brother (male gets double female share)",
-      "shared_third": "Shares in Third (1/3)",
-      "shared_third_female": "Shares in Third (1/3)"
-    },
-    "format_results": "Inheritance Distribution (Total Value: {{value}})",
     "categories": {
       "spouse": "Spouse",
       "children": "Children & Grandchildren",
       "parents": "Parents & Grandparents",
-      "siblings": "Siblings",
-      "other": "Other Relatives"
+      "siblings": "Siblings"
+    },
+    "currencies": {
+      "USD": "US Dollar (USD)",
+      "EUR": "Euro (EUR)",
+      "SAR": "Saudi Riyal (SAR)",
+      "AED": "UAE Dirham (AED)",
+      "EGP": "Egyptian Pound (EGP)",
+      "KWD": "Kuwaiti Dinar (KWD)",
+      "QAR": "Qatari Riyal (QAR)",
+      "BHD": "Bahraini Dinar (BHD)",
+      "OMR": "Omani Riyal (OMR)",
+      "JOD": "Jordanian Dinar (JOD)",
+      "LBP": "Lebanese Pound (LBP)",
+      "IQD": "Iraqi Dinar (IQD)"
+    },
+    "currency_symbols": {
+      "SAR": "ر.س",
+      "AED": "د.إ",
+      "EGP": "ج.م",
+      "KWD": "د.ك",
+      "QAR": "ر.ق",
+      "BHD": "د.ب",
+      "OMR": "ر.ع",
+      "JOD": "د.أ",
+      "LBP": "ل.ل",
+      "IQD": "د.ع"
     },
     "inputs": {
       "estate_value": "Total Estate Value",
-      "debts": "Debts & Expenses",
-      "wasiyyah": "Bequest (Wasiyyah)"
+      "debts": "Outstanding Debts",
+      "wasiyyah": "Wasiyyah (Will) Amount"
     },
     "placeholders": {
-      "estate_value": "Enter estate amount",
-      "debts": "Enter debts",
-      "wasiyyah": "Enter bequest",
-      "currency": "Currency"
+      "estate_value": "Enter total estate value",
+      "debts": "Enter outstanding debts",
+      "wasiyyah": "Enter will amount (max 1/3 after debts)",
+      "currency": "Select currency"
     },
     "results": {
+      "distribution_title": "Inheritance Distribution",
+      "net_estate": "Net Estate (after debts & wasiyyah)",
       "total_estate": "Total Estate Value",
-      "total_debts": "Total Debts & Expenses",
-      "wasiyyah_amount": "Bequest Amount (Wasiyyah)",
-      "net_distributable": "Net Distributable Amount",
-      "net_estate": "Net Estate",
-      "distribution_title": "Inheritance Distribution"
+      "total_debts": "Outstanding Debts",
+      "wasiyyah_amount": "Wasiyyah Amount",
+      "net_distributable": "Net Distributable Amount"
     },
     "table": {
       "heir": "Heir",
       "count": "Count",
       "share": "Share",
-      "value": "Value",
-      "amount": "Amount"
-    },
-    "currencies": {
-      "USD": "US Dollar",
-      "EUR": "Euro",
-      "SAR": "Saudi Riyal",
-      "AED": "UAE Dirham",
-      "EGP": "Egyptian Pound",
-      "KWD": "Kuwaiti Dinar",
-      "QAR": "Qatari Riyal",
-      "BHD": "Bahraini Dinar",
-      "OMR": "Omani Rial",
-      "JOD": "Jordanian Dinar",
-      "LBP": "Lebanese Pound",
-      "IQD": "Iraqi Dinar"
-    },
-    "currency_symbols": {
-      "SAR": "SAR",
-      "AED": "AED",
-      "EGP": "EGP",
-      "KWD": "KWD",
-      "QAR": "QAR",
-      "BHD": "BHD",
-      "OMR": "OMR",
-      "JOD": "JOD",
-      "LBP": "LBP",
-      "IQD": "IQD"
+      "value": "Amount"
     },
     "help": {
-      "step1": "Select all living eligible heirs.",
-      "step2": "Enter the total value of assets and any debts or bequests."
-    },
-    "empty_state": {
-      "title": "No Calculation Yet",
-      "desc": "Select heirs and enter estate details to see the distribution."
+      "step1": "1. Select the heirs who are entitled to inherit",
+      "step2": "2. Enter the count for multiple heirs (e.g., number of wives, sons, daughters)"
     },
     "info": {
-      "title": "Important Information",
-      "point1": "Inheritance distribution is based on Quran and Sunnah.",
-      "point2": "Debts and Wasiyyah (max 1/3) are deducted first.",
-      "point3": "Male usually receives twice the share of female in specific cases.",
-      "point4": "Shares are fixed (1/2, 1/4, 1/8, 2/3, 1/3, 1/6).",
-      "point5": "This calculator provides an estimate. Consult a scholar for complex cases."
+      "title": "Important Notes",
+      "point1": "This calculator follows Sunni Islamic inheritance rules",
+      "point2": "Debts and funeral expenses are paid first",
+      "point3": "Wasiyyah (will) cannot exceed 1/3 of the estate after debts",
+      "point4": "Consult a qualified Islamic scholar for complex cases",
+      "point5": "This is a general calculation tool and may not cover all edge cases"
     },
-    "howItWorks": {
-      "title": "How the Inheritance Calculator Works",
-      "formula": "Inheritance = (Estate - Debts - Bequest) x Heir's Share",
-      "explanation": "The inheritance calculator follows Sharia rules derived from the Quran and Sunnah for distributing the estate among eligible heirs after settling debts and executing the bequest.",
-      "steps": [
-        "Enter total estate value",
-        "Deduct debts and funeral expenses",
-        "Execute bequest (maximum one-third)",
-        "Identify heirs and their legal shares",
-        "Distribute net estate according to fixed shares and residuary rules"
-      ]
-    },
-    "useCases": [
-      {
-        "title": "Distributing Deceased's Estate",
-        "description": "Calculate legal heirs' shares from the deceased's estate accurately"
-      },
-      {
-        "title": "Future Planning",
-        "description": "Understand how assets will be distributed among heirs in the future"
-      },
-      {
-        "title": "Resolving Disputes",
-        "description": "Provide reliable Sharia calculation to resolve family conflicts"
-      }
-    ],
-    "seoTips": [
-      "Ensure all living eligible heirs are entered",
-      "Deduct all debts before distributing the estate",
-      "Bequest cannot exceed one-third of estate",
-      "Consult a scholar for complex cases"
-    ],
-    "commonMistakes": [
-      {
-        "title": "Forgetting to Deduct Debts",
-        "description": "Not settling the deceased's debts first before distributing inheritance"
-      },
-      {
-        "title": "Bequest Exceeding One-Third",
-        "description": "Writing a bequest exceeding one-third of estate which is the maximum allowed"
-      },
-      {
-        "title": "Omitting Some Heirs",
-        "description": "Not mentioning all eligible heirs which affects distribution accuracy"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "What is the wife's share in inheritance?",
-        "answer": "The wife receives one-quarter if deceased has no descendants, and one-eighth if there are descendants."
-      },
-      {
-        "question": "How is inheritance distributed among children?",
-        "answer": "Children inherit as residuary heirs, with males receiving twice the share of females."
-      },
-      {
-        "question": "What are the fixed shares in inheritance?",
-        "answer": "Fixed shares are specific fractions in the Quran: half, quarter, eighth, two-thirds, third, and sixth."
-      }
-    ],
-    "spouse": "Spouse",
-    "children": "Children",
-    "parents": "Parents",
-    "siblings": "Siblings",
-    "estate_value": "Estate Value",
-    "currency": "Currency",
-    "total_estate": "Total Estate",
-    "total_debts": "Total Debts",
-    "wasiyyah_amount": "Wasiyyah Amount",
-    "net_distributable": "Net Distributable",
-    "heir": "Heir",
-    "count": "Count",
-    "share": "Share",
-    "value": "Value",
-    "desc": "Desc",
-    "point1": "Point1",
-    "point2": "Point2",
-    "point3": "Point3",
-    "point4": "Point4",
-    "point5": "Point5"
+    "empty_state": {
+      "title": "No Distribution Calculated",
+      "desc": "Select heirs and enter estate details to calculate distribution"
+    }
   },
   "zakat": {
     "title": "Zakat Calculator",
@@ -1450,5 +1352,15 @@
   "common:errors": {
     "positive_number": "Positive Number",
     "no_heirs_selected": "No Heirs Selected"
+  },
+  "title": "Title",
+  "description": "Description",
+  "calculate": "Calculate",
+  "reset": "Reset",
+  "errors": {
+    "invalid_input": "Please enter valid values",
+    "positive_values": "Values must be positive",
+    "invalid_dimensions": "Please enter valid dimensions",
+    "missing_inputs": "Please fill in all required fields"
   }
 }

@@ -527,16 +527,18 @@ const CalculatorPage = () => {
                   const currentIndex = Array.from(faqButtons).findIndex(btn => btn === e.currentTarget);
 
                   switch (e.key) {
-                    case 'ArrowDown':
+                    case 'ArrowDown': {
                       e.preventDefault();
                       const nextIndex = (currentIndex + 1) % faqButtons.length;
                       (faqButtons[nextIndex] as HTMLElement)?.focus();
                       break;
-                    case 'ArrowUp':
+                    }
+                    case 'ArrowUp': {
                       e.preventDefault();
                       const prevIndex = (currentIndex - 1 + faqButtons.length) % faqButtons.length;
                       (faqButtons[prevIndex] as HTMLElement)?.focus();
                       break;
+                    }
                     case 'Home':
                       e.preventDefault();
                       (faqButtons[0] as HTMLElement)?.focus();

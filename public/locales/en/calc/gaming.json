@@ -989,125 +989,58 @@
     "info_description": "Info Description"
   },
   "minecraft_calculator": {
-    "title": "Minecraft Calculator",
-    "description": "Resource calculations, ore distribution, and crafting recipes.",
-    "howItWorks": {
-      "title": "How the Minecraft Calculator Works",
-      "formula": "Stacks = Total Blocks / 64; Optimal Y-Level based on 1.18+ ore distribution",
-      "explanation": "This comprehensive Minecraft tool helps you calculate building material requirements, plan efficient crafting, and find optimal mining heights based on the current ore distribution system introduced in version 1.18.",
-      "steps": [
-        {
-          "name": "Choose Calculation Type",
-          "text": "Select building resources, crafting recipes, or ore distribution"
-        },
-        {
-          "name": "Enter Requirements",
-          "text": "Input block counts, recipe types, or current Y-level"
-        },
-        {
-          "name": "Review Results",
-          "text": "See stacks needed, crafting ratios, or ore spawn chances"
-        },
-        {
-          "name": "Plan Efficiently",
-          "text": "Use the data to optimize your gameplay strategy"
-        }
-      ]
-    },
-    "useCases": [
-      {
-        "title": "Large Build Planning",
-        "description": "Calculate exact material requirements for survival mega-builds before gathering"
-      },
-      {
-        "title": "Optimal Mining",
-        "description": "Find the best Y-level for each ore type in Minecraft 1.18+ world generation"
-      },
-      {
-        "title": "Efficient Crafting",
-        "description": "Determine material efficiency for slabs, stairs, and other shaped recipes"
-      },
-      {
-        "title": "Resource Management",
-        "description": "Track inventory in stacks and plan storage requirements"
-      }
-    ],
-    "seoTips": [
-      "Diamonds spawn most frequently at Y-level -59 in Minecraft 1.18+",
-      "Slabs give 6 output from 3 blocks - twice as efficient as full blocks for flooring",
-      "Iron ore has two spawn peaks: around Y=16 and Y=232",
-      "Fortune III can more than triple your diamond yield - always use it for ores"
-    ],
-    "commonMistakes": [
-      "Using outdated Y-level information from before the 1.18 cave update",
-      "Not accounting for Silk Touch vs Fortune when planning ore mining",
-      "Forgetting that some blocks like netherrack mine faster than calculated",
-      "Underestimating material needs for detailed builds with multiple block types"
-    ],
-    "faqs": [
-      {
-        "question": "What changed about ore distribution in 1.18?",
-        "answer": "Ores now use triangular distribution patterns with specific Y-level peaks instead of uniform spawning. The world also extends down to Y=-64, creating new optimal mining heights."
-      },
-      {
-        "question": "Are stairs or slabs more material efficient?",
-        "answer": "Slabs are more efficient (3 blocks make 6 slabs). Stairs use 6 blocks for 4 stairs. For pure efficiency, use slabs; stairs are for aesthetics."
-      },
-      {
-        "question": "How do I calculate materials for a circular build?",
-        "answer": "Use the building calculator for the bounding rectangle, then estimate about 78.5% of that for a circle (pi/4). Add extra for the actual pixelated shape."
-      }
-    ],
-    "calculation_type_label": "Calculation Type",
-    "calculation_type_tooltip": "Choose what you want to calculate",
-    "type_building": "Building Resources",
-    "type_crafting": "Crafting",
-    "type_ore": "Ore Distribution",
-    "blocks_label": "Number of Blocks",
-    "blocks_tooltip": "Total blocks needed",
-    "blocks_placeholder": "e.g., 640",
-    "recipe_label": "Recipe Type",
-    "recipe_tooltip": "What are you crafting?",
-    "recipe_blocks": "Blocks (1:1)",
-    "recipe_slabs": "Slabs (3:6)",
-    "recipe_stairs": "Stairs (6:4)",
-    "recipe_walls": "Walls (6:6)",
-    "recipe_fence": "Fence (4:3)",
-    "ore_type_label": "Ore Type",
-    "ore_type_tooltip": "Select ore to find",
-    "ore_coal": "Coal",
-    "ore_iron": "Iron",
-    "ore_gold": "Gold",
-    "ore_diamond": "Diamond",
-    "ore_redstone": "Redstone",
-    "ore_lapis": "Lapis Lazuli",
-    "ore_emerald": "Emerald",
-    "y_level_label": "Y-Level (Height)",
-    "y_level_tooltip": "Your current height coordinate",
-    "result_label": "Calculation Result",
-    "ore_chance": "Chance per block exposed",
-    "blocks_unit": "Blocks",
-    "additional_info_title": "Details",
-    "stacks_label": "Stacks (64)",
-    "stacks_unit": "stacks",
-    "remainder_label": "Remainder",
-    "time_label": "Estimated Build Time",
-    "time_unit": "seconds",
-    "blocks_per_ore_label": "Avg Blocks Mined per Ore",
-    "blocks_per_ore_unit": "blocks",
-    "no_ore": "None at this level",
-    "formula_title": "How it Works",
-    "formula_explanation": "Calculates resources based on stack size (64). Ore chances are based on 1.18+ distribution.",
-    "use_cases_title": "Useful For",
-    "use_case_1": "Planning large builds in Survival",
-    "use_case_2": "Optimizing mining strategies",
-    "use_case_3": "Crafting efficiently without waste",
-    "error_invalid": "Please enter a valid number",
-    "error_positive": "Number of blocks must be positive",
-    "error_y_range": "Y-level must be between -64 and 320",
-    "info_title": "Minecraft Resources",
-    "error_calculation": "Error in calculation",
-    "info_description": "Calculate materials and resources needed for Minecraft building projects"
+    "additional_info_title": "Additional info title",
+    "blocks_label": "Blocks label",
+    "blocks_per_ore_label": "Blocks per ore label",
+    "blocks_per_ore_unit": "Blocks per ore unit",
+    "blocks_placeholder": "Blocks Placeholder",
+    "blocks_tooltip": "Blocks Tooltip",
+    "blocks_unit": "Blocks unit",
+    "calculation_type_label": "Calculation type label",
+    "calculation_type_tooltip": "Calculation type Tooltip",
+    "description": "Description",
+    "error_calculation": "Error calculation",
+    "error_invalid": "Error invalid",
+    "error_positive": "Error positive",
+    "error_y_range": "Error y range",
+    "formula_explanation": "Formula explanation",
+    "formula_title": "Formula title",
+    "info_description": "Info description",
+    "info_title": "Info title",
+    "no_ore": "No ore",
+    "ore_chance": "Ore chance",
+    "ore_coal": "Ore coal",
+    "ore_diamond": "Ore diamond",
+    "ore_emerald": "Ore emerald",
+    "ore_gold": "Ore gold",
+    "ore_iron": "Ore iron",
+    "ore_lapis": "Ore lapis",
+    "ore_redstone": "Ore redstone",
+    "ore_type_label": "Ore type label",
+    "ore_type_tooltip": "Ore type Tooltip",
+    "recipe_blocks": "Recipe blocks",
+    "recipe_fence": "Recipe fence",
+    "recipe_label": "Recipe label",
+    "recipe_slabs": "Recipe slabs",
+    "recipe_stairs": "Recipe stairs",
+    "recipe_tooltip": "Recipe Tooltip",
+    "recipe_walls": "Recipe walls",
+    "remainder_label": "Remainder label",
+    "result_label": "Result label",
+    "stacks_label": "Stacks label",
+    "stacks_unit": "Stacks unit",
+    "time_label": "Time label",
+    "time_unit": "Time unit",
+    "title": "Title",
+    "type_building": "Type building",
+    "type_crafting": "Type crafting",
+    "type_ore": "Type ore",
+    "use_case_1": "Use case 1",
+    "use_case_2": "Use case 2",
+    "use_case_3": "Use case 3",
+    "use_cases_title": "Use cases title",
+    "y_level_label": "Y level label",
+    "y_level_tooltip": "Y level Tooltip"
   },
   "win_rate": {
     "title": "Win Rate Calculator",

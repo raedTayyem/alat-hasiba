@@ -889,125 +889,58 @@
     "info_description": "Info Description"
   },
   "minecraft_calculator": {
-    "title": "حاسبة ماينكرافت",
-    "description": "حساب الموارد، توزيع الخامات، ووصفات التصنيع.",
-    "howItWorks": {
-      "title": "كيف تعمل حاسبة ماينكرافت",
-      "formula": "المجموعات = إجمالي البلوكات / 64؛ مستوى Y الأمثل بناءً على توزيع خامات 1.18+",
-      "explanation": "تساعدك هذه الأداة الشاملة لماينكرافت في حساب متطلبات مواد البناء والتخطيط للصنع الفعال وإيجاد ارتفاعات التعدين المثلى بناءً على نظام توزيع الخامات الحالي المقدم في الإصدار 1.18.",
-      "steps": [
-        {
-          "name": "اختر نوع الحساب",
-          "text": "حدد موارد البناء أو وصفات الصنع أو توزيع الخامات"
-        },
-        {
-          "name": "أدخل المتطلبات",
-          "text": "أدخل عدد البلوكات أو أنواع الوصفات أو مستوى Y الحالي"
-        },
-        {
-          "name": "راجع النتائج",
-          "text": "شاهد المجموعات المطلوبة ونسب الصنع أو فرص ظهور الخام"
-        },
-        {
-          "name": "خطط بكفاءة",
-          "text": "استخدم البيانات لتحسين استراتيجية لعبك"
-        }
-      ]
-    },
-    "useCases": [
-      {
-        "title": "تخطيط البناء الكبير",
-        "description": "احسب متطلبات المواد الدقيقة لمباني البقاء الضخمة قبل الجمع"
-      },
-      {
-        "title": "التعدين الأمثل",
-        "description": "اعثر على أفضل مستوى Y لكل نوع خام في توليد عالم ماينكرافت 1.18+"
-      },
-      {
-        "title": "الصنع الفعال",
-        "description": "حدد كفاءة المواد للألواح والسلالم والوصفات المشكلة الأخرى"
-      },
-      {
-        "title": "إدارة الموارد",
-        "description": "تتبع المخزون بالمجموعات وخطط لمتطلبات التخزين"
-      }
-    ],
-    "seoTips": [
-      "الألماس يظهر بشكل أكثر تكراراً في مستوى Y-59 في ماينكرافت 1.18+",
-      "الألواح تعطي 6 ناتج من 3 بلوكات - ضعف كفاءة البلوكات الكاملة للأرضيات",
-      "خام الحديد له ذروتي ظهور: حوالي Y=16 و Y=232",
-      "Fortune III يمكن أن يضاعف حصيلة الألماس أكثر من ثلاث مرات - استخدمه دائماً للخامات"
-    ],
-    "commonMistakes": [
-      "استخدام معلومات مستوى Y القديمة من قبل تحديث الكهوف 1.18",
-      "عدم احتساب Silk Touch مقابل Fortune عند التخطيط لتعدين الخام",
-      "نسيان أن بعض البلوكات مثل netherrack تُعدن أسرع من المحسوب",
-      "التقليل من احتياجات المواد للمباني المفصلة مع أنواع بلوكات متعددة"
-    ],
-    "faqs": [
-      {
-        "question": "ما الذي تغير في توزيع الخامات في 1.18؟",
-        "answer": "الخامات الآن تستخدم أنماط توزيع مثلثية مع ذروات مستوى Y محددة بدلاً من الظهور المنتظم. العالم أيضاً يمتد إلى Y=-64، مما يخلق ارتفاعات تعدين مثلى جديدة."
-      },
-      {
-        "question": "أيهما أكثر كفاءة في المواد السلالم أم الألواح؟",
-        "answer": "الألواح أكثر كفاءة (3 بلوكات تصنع 6 ألواح). السلالم تستخدم 6 بلوكات لـ 4 سلالم. للكفاءة الخالصة، استخدم الألواح؛ السلالم للجماليات."
-      },
-      {
-        "question": "كيف أحسب المواد لبناء دائري؟",
-        "answer": "استخدم حاسبة البناء للمستطيل المحيط، ثم قدر حوالي 78.5% من ذلك للدائرة (π/4). أضف إضافياً للشكل المبكسل الفعلي."
-      }
-    ],
-    "calculation_type_label": "نوع الحساب",
-    "calculation_type_tooltip": "اختر ماذا تريد أن تحسب",
-    "type_building": "موارد البناء",
-    "type_crafting": "التصنيع",
-    "type_ore": "توزيع الخامات",
-    "blocks_label": "عدد البلوكات",
-    "blocks_tooltip": "إجمالي البلوكات المطلوبة",
-    "blocks_placeholder": "مثال: 640",
-    "recipe_label": "نوع الوصفة",
-    "recipe_tooltip": "ماذا تصنع؟",
-    "recipe_blocks": "بلوكات (1:1)",
-    "recipe_slabs": "ألواح (3:6)",
-    "recipe_stairs": "سلالم (6:4)",
-    "recipe_walls": "جدران (6:6)",
-    "recipe_fence": "سياج (4:3)",
-    "ore_type_label": "نوع الخام",
-    "ore_type_tooltip": "اختر الخام للبحث عنه",
-    "ore_coal": "فحم",
-    "ore_iron": "حديد",
-    "ore_gold": "ذهب",
-    "ore_diamond": "ألماس",
-    "ore_redstone": "ريدستون",
-    "ore_lapis": "لازورد",
-    "ore_emerald": "زمرد",
-    "y_level_label": "مستوى الارتفاع (Y)",
-    "y_level_tooltip": "إحداثي الارتفاع الحالي",
-    "result_label": "نتيجة الحساب",
-    "ore_chance": "الفرصة لكل بلوك مكشوف",
-    "blocks_unit": "بلوك",
-    "additional_info_title": "التفاصيل",
-    "stacks_label": "مجموعات (64)",
-    "stacks_unit": "مجموعة",
-    "remainder_label": "المتبقي",
-    "time_label": "وقت البناء المتوقع",
-    "time_unit": "ثانية",
-    "blocks_per_ore_label": "متوسط البلوكات للتعدين لكل خام",
-    "blocks_per_ore_unit": "بلوك",
-    "no_ore": "لا يوجد في هذا المستوى",
-    "formula_title": "كيف يعمل",
-    "formula_explanation": "يحسب الموارد بناءً على حجم المجموعة (64). فرص الخامات تعتمد على توزيع الإصدار 1.18+.",
-    "use_cases_title": "مفيد لـ",
-    "use_case_1": "تخطيط المباني الكبيرة في وضع البقاء",
-    "use_case_2": "تحسين استراتيجيات التعدين",
-    "use_case_3": "التصنيع بكفاءة دون هدر",
-    "error_invalid": "الرجاء إدخال رقم صحيح",
-    "error_positive": "عدد البلوكات يجب أن يكون موجباً",
-    "error_y_range": "مستوى Y يجب أن يكون بين -64 و 320",
-    "info_title": "موارد ماين كرافت",
-    "error_calculation": "خطأ في الحساب",
-    "info_description": "احسب المواد والموارد اللازمة لمشاريع البناء في ماين كرافت"
+    "additional_info_title": "additional_info_title",
+    "blocks_label": "blocks_label",
+    "blocks_per_ore_label": "blocks_per_ore_label",
+    "blocks_per_ore_unit": "blocks_per_ore_unit",
+    "blocks_placeholder": "blocks_placeholder",
+    "blocks_tooltip": "blocks_tooltip",
+    "blocks_unit": "blocks_unit",
+    "calculation_type_label": "calculation_type_label",
+    "calculation_type_tooltip": "calculation_type_tooltip",
+    "description": "الوصف",
+    "error_calculation": "error_calculation",
+    "error_invalid": "error_invalid",
+    "error_positive": "error_positive",
+    "error_y_range": "error_y_range",
+    "formula_explanation": "formula_explanation",
+    "formula_title": "formula_title",
+    "info_description": "info_description",
+    "info_title": "info_title",
+    "no_ore": "no_ore",
+    "ore_chance": "ore_chance",
+    "ore_coal": "ore_coal",
+    "ore_diamond": "ore_diamond",
+    "ore_emerald": "ore_emerald",
+    "ore_gold": "ore_gold",
+    "ore_iron": "ore_iron",
+    "ore_lapis": "ore_lapis",
+    "ore_redstone": "ore_redstone",
+    "ore_type_label": "ore_type_label",
+    "ore_type_tooltip": "ore_type_tooltip",
+    "recipe_blocks": "recipe_blocks",
+    "recipe_fence": "recipe_fence",
+    "recipe_label": "recipe_label",
+    "recipe_slabs": "recipe_slabs",
+    "recipe_stairs": "recipe_stairs",
+    "recipe_tooltip": "recipe_tooltip",
+    "recipe_walls": "recipe_walls",
+    "remainder_label": "remainder_label",
+    "result_label": "result_label",
+    "stacks_label": "stacks_label",
+    "stacks_unit": "stacks_unit",
+    "time_label": "time_label",
+    "time_unit": "time_unit",
+    "title": "العنوان",
+    "type_building": "type_building",
+    "type_crafting": "type_crafting",
+    "type_ore": "type_ore",
+    "use_case_1": "use_case_1",
+    "use_case_2": "use_case_2",
+    "use_case_3": "use_case_3",
+    "use_cases_title": "use_cases_title",
+    "y_level_label": "y_level_label",
+    "y_level_tooltip": "y_level_tooltip"
   },
   "win_rate": {
     "title": "حاسبة نسبة الفوز",

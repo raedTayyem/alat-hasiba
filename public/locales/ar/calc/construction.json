@@ -913,146 +913,69 @@
     ]
   },
   "labor_cost": {
-    "title": "حاسبة تكاليف العمالة",
-    "description": "احسب تكاليف العمالة الإنشائية بما في ذلك الأجور والعمل الإضافي والنفقات العامة.",
-    "currency": "العملة",
-    "currency_tooltip": "اختر عملتك المحلية",
+    "breakdown": "breakdown",
+    "cost_per_hour": "cost_per_hour",
+    "cost_per_worker": "cost_per_worker",
     "currencies": {
-      "usd": "دولار أمريكي (USD)",
-      "eur": "يورو (EUR)",
-      "gbp": "جنيه إسترليني (GBP)",
-      "sar": "ريال سعودي (SAR)",
-      "aed": "درهم إماراتي (AED)",
-      "jod": "دينار أردني (JOD)"
+      "aed": "aed",
+      "eur": "eur",
+      "gbp": "gbp",
+      "jod": "jod",
+      "sar": "sar",
+      "usd": "usd"
     },
-    "regular_hours": "الساعات العادية",
-    "regular_hours_tooltip": "إجمالي ساعات العمل العادية لكل عامل",
-    "overtime_hours": "ساعات العمل الإضافي",
-    "overtime_hours_tooltip": "الساعات الإضافية بعد الجدول العادي",
-    "hourly_rate": "الأجر بالساعة",
-    "hourly_rate_tooltip": "معدل الأجر الأساسي للساعة لكل عامل",
-    "workers_count": "عدد العمال",
-    "workers_count_tooltip": "إجمالي عدد العمال في المشروع",
-    "overtime_multiplier": "مضاعف العمل الإضافي",
-    "overtime_multiplier_tooltip": "معدل أجر العمل الإضافي (مثلاً 1.5 لوقت ونصف)",
-    "overhead_rate": "نسبة النفقات العامة (%)",
-    "overhead_rate_tooltip": "تكاليف إضافية مثل التأمين والمزايا والمعدات",
-    "result_total": "إجمالي تكلفة العمالة",
-    "workers_summary": "{{count}} عامل",
-    "breakdown": "تفصيل التكاليف",
-    "regular_labor": "الساعات العادية",
-    "overtime_labor": "العمل الإضافي",
-    "total_labor": "إجمالي العمالة",
-    "overhead": "النفقات العامة",
-    "per_unit": "تكاليف الوحدة",
-    "cost_per_hour": "التكلفة للساعة",
-    "cost_per_worker": "التكلفة للعامل",
-    "hours_unit": "ساعة",
-    "per_hour": "/ساعة",
-    "workers_unit": "عامل",
-    "hours_label": "ساعة",
-    "workers_label": "عامل",
-    "formula_title": "صيغة الحساب",
-    "formula": "الإجمالي = (الساعات × المعدل × العمال) + (ساعات إضافية × المعدل × المضاعف × العمال) + النفقات العامة",
-    "info_title": "عن حساب تكاليف العمالة",
-    "info_description": "تقدير تكاليف العمالة الدقيق ضروري لتقديم العروض وتخطيط الميزانية. قم بتضمين النفقات العامة للتأمين والمزايا وتكاليف المعدات.",
-    "use_cases_title": "الاستخدامات الشائعة",
-    "use_case_1": "تقديم عروض وتقديرات المشاريع",
-    "use_case_2": "تخطيط الرواتب",
-    "use_case_3": "تتبع الميزانية والتحكم في التكاليف",
+    "currency": "currency",
+    "currency_tooltip": "currency_tooltip",
+    "description": "الوصف",
     "errors": {
-      "invalid_inputs": "الرجاء إدخال ساعات وأجر بالساعة صحيحين",
-      "positive_values": "يجب أن تكون الساعات والأجر أكبر من صفر",
-      "invalid_workers": "يجب أن يكون عدد العمال 1 على الأقل",
-      "invalid_overhead": "يجب أن تكون نسبة النفقات العامة بين 0 و 100",
-      "invalid_overtime": "لا يمكن أن تكون ساعات العمل الإضافي سالبة",
-      "invalid_multiplier": "يجب أن يكون مضاعف العمل الإضافي 1 على الأقل"
+      "invalid_inputs": "invalid_inputs",
+      "invalid_multiplier": "invalid_multiplier",
+      "invalid_overhead": "invalid_overhead",
+      "invalid_overtime": "invalid_overtime",
+      "invalid_workers": "invalid_workers",
+      "positive_values": "positive_values"
     },
+    "formula": "formula",
+    "formula_title": "formula_title",
+    "hourly_rate": "hourly_rate",
+    "hourly_rate_tooltip": "hourly_rate_tooltip",
+    "hours_label": "hours_label",
+    "hours_unit": "hours_unit",
+    "info_description": "info_description",
+    "info_title": "info_title",
+    "overhead": "overhead",
+    "overhead_rate": "overhead_rate",
+    "overhead_rate_tooltip": "overhead_rate_tooltip",
+    "overtime_hours": "overtime_hours",
+    "overtime_hours_tooltip": "overtime_hours_tooltip",
+    "overtime_labor": "overtime_labor",
+    "overtime_multiplier": "overtime_multiplier",
+    "overtime_multiplier_tooltip": "overtime_multiplier_tooltip",
+    "per_hour": "per_hour",
+    "per_unit": "per_unit",
     "placeholders": {
-      "hours": "40",
-      "overtime": "0",
-      "rate": "25",
-      "workers": "1",
-      "multiplier": "1.5",
-      "overhead": "15"
+      "hours": "hours",
+      "multiplier": "multiplier",
+      "overhead": "overhead",
+      "overtime": "overtime",
+      "rate": "rate",
+      "workers": "workers"
     },
-    "howItWorks": {
-      "title": "كيف تعمل حاسبة تكاليف العمالة",
-      "formula": "الإجمالي = (الساعات العادية × الأجر × العمال) + (ساعات إضافية × الأجر × المضاعف × العمال) + النفقات العامة",
-      "explanation": "تحسب هذه الحاسبة إجمالي تكاليف العمالة بجمع الأجور العادية وأجور العمل الإضافي مع المضاعفات والنفقات العامة كالتأمين والمزايا.",
-      "steps": [
-        "أدخل ساعات العمل العادية لكل عامل",
-        "أضف ساعات العمل الإضافي إن وُجدت",
-        "حدد الأجر الأساسي بالساعة",
-        "حدد عدد العمال",
-        "عدّل مضاعف العمل الإضافي ونسبة النفقات العامة"
-      ]
-    },
-    "useCases": [
-      {
-        "title": "المناقصات",
-        "description": "حساب تكاليف العمالة الدقيقة للعروض التنافسية في مشاريع البناء."
-      },
-      {
-        "title": "تخطيط الرواتب",
-        "description": "تقدير نفقات العمالة الأسبوعية أو الشهرية لإدارة القوى العاملة."
-      },
-      {
-        "title": "تحليل التكاليف",
-        "description": "مقارنة تكاليف العمالة عبر أحجام فرق وجداول عمل مختلفة."
-      },
-      {
-        "title": "التنبؤ بالميزانية",
-        "description": "توقع إجمالي نفقات العمالة لمشاريع البناء متعددة الأسابيع."
-      }
-    ],
-    "seoTips": [
-      "ضمّن 15-30% نفقات عامة للتأمين والمزايا والضرائب والمعدات",
-      "راعِ معدلات الإنتاجية - العمال لا ينتجون 100% من الساعات المدفوعة",
-      "احسب منحنيات التعلم في الأعمال المعقدة أو الجديدة",
-      "راعِ وقت السفر وتكاليف التجهيز لمواقع العمل البعيدة",
-      "تتبع الساعات الفعلية مقابل التقديرية لتحسين دقة المناقصات المستقبلية"
-    ],
-    "commonMistakes": [
-      {
-        "mistake": "نسيان النفقات العامة",
-        "solution": "أضف دائماً 15-30% للتأمين والضرائب والمزايا والمعدات"
-      },
-      {
-        "mistake": "التقليل من العمل الإضافي",
-        "solution": "خطط لجداول واقعية - البناء غالباً يتطلب عملاً إضافياً"
-      },
-      {
-        "mistake": "تجاهل عوامل الإنتاجية",
-        "solution": "احسب فترات الراحة وتأخيرات الطقس والوقت غير المنتج"
-      },
-      {
-        "mistake": "عدم تضمين الإشراف",
-        "solution": "أضف تكاليف المشرف/الفورمان بأجور أعلى للرقابة المناسبة"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "ما هي نسبة النفقات العامة النموذجية للعمالة الإنشائية؟",
-        "answer": "تتراوح النفقات العامة للبناء عادة بين 15-30% وتشمل تأمين إصابات العمل وتأمين المسؤولية وضرائب الرواتب والمزايا وتكاليف المعدات."
-      },
-      {
-        "question": "كيف أحسب تكلفة العمالة للمتر المربع؟",
-        "answer": "اقسم إجمالي تكلفة العمالة على مساحة المشروع بالأمتار المربعة. هذا يساعد على مقارنة التكاليف عبر المشاريع وتحسين التقديرات المستقبلية."
-      },
-      {
-        "question": "ما هو مضاعف العمل الإضافي القياسي؟",
-        "answer": "تشترط معظم الأنظمة 1.5 ضعف (وقت ونصف) للساعات فوق 40 أسبوعياً. بعض العقود النقابية أو عمل العطلات قد تتطلب 2 ضعف (وقت مضاعف)."
-      },
-      {
-        "question": "كم ساعة عمل للمتر المربع في البناء؟",
-        "answer": "يختلف كثيراً: تأسيس الهيكل السكني يبلغ متوسطه 0.5-1 ساعة/م²، أعمال التشطيب 1-2 ساعة/م²، وبناء المنزل الكامل 10-15 ساعة/م²."
-      },
-      {
-        "question": "هل يجب تضمين المزايا في الأجر بالساعة؟",
-        "answer": "يمكنك إما تضمين المزايا في الأجر بالساعة أو إضافتها للنفقات العامة. كن متسقاً في طريقتك لضمان إجمالي تكاليف دقيق."
-      }
-    ]
+    "regular_hours": "regular_hours",
+    "regular_hours_tooltip": "regular_hours_tooltip",
+    "regular_labor": "regular_labor",
+    "result_total": "result_total",
+    "title": "العنوان",
+    "total_labor": "total_labor",
+    "use_case_1": "use_case_1",
+    "use_case_2": "use_case_2",
+    "use_case_3": "use_case_3",
+    "use_cases_title": "use_cases_title",
+    "workers_count": "workers_count",
+    "workers_count_tooltip": "workers_count_tooltip",
+    "workers_label": "workers_label",
+    "workers_summary": "workers_summary",
+    "workers_unit": "workers_unit"
   },
   "fence": {
     "title": "حاسبة السياج",
@@ -1435,142 +1358,65 @@
     ]
   },
   "excavation": {
-    "title": "حاسبة الحفر",
-    "description": "احسب حجم التربة لمشاريع الحفر مع معامل الانتفاخ لتقدير النقل الدقيق.",
-    "unit": "وحدة القياس",
-    "unit_tooltip": "اختر المتر أو القدم للقياسات",
-    "meters": "متر",
-    "feet": "قدم",
-    "length": "الطول",
-    "length_tooltip": "طول منطقة الحفر",
-    "width": "العرض",
-    "width_tooltip": "عرض منطقة الحفر",
+    "bank_volume": "bank_volume",
+    "cubic_meters": "cubic_meters",
+    "cubic_yards": "cubic_yards",
+    "custom_swell_factor": "custom_swell_factor",
+    "custom_swell_factor_tooltip": "custom_swell_factor_tooltip",
     "depth": "العمق",
-    "depth_tooltip": "عمق الحفر",
-    "soil_type": "نوع التربة",
-    "soil_type_tooltip": "أنواع التربة المختلفة لها معاملات انتفاخ مختلفة عند الحفر",
-    "soil_types": {
-      "sand": "رمل (12% انتفاخ)",
-      "gravel": "حصى (12% انتفاخ)",
-      "loam": "طمي (25% انتفاخ)",
-      "clay": "طين (30% انتفاخ)",
-      "rock": "صخر (50% انتفاخ)",
-      "topsoil": "تربة سطحية (20% انتفاخ)",
-      "custom": "معامل انتفاخ مخصص"
-    },
-    "custom_swell_factor": "معامل الانتفاخ المخصص",
-    "custom_swell_factor_tooltip": "أدخل معامل الانتفاخ بين 1.0 و 2.0 (مثلاً 1.25 لـ 25% انتفاخ)",
-    "result_volume": "الحجم المنفوش (للنقل)",
-    "cubic_meters": "متر مكعب",
-    "cubic_yards": "ياردة مكعبة",
-    "volume_breakdown": "تفصيل الحجم",
-    "bank_volume": "الحجم الأصلي (في مكانه)",
-    "loose_volume": "الحجم المنفوش (المتمدد)",
-    "excavation_area": "مساحة الحفر",
-    "sq_meters": "م²",
-    "estimated_weight": "الوزن التقديري",
-    "metric_tons": "طن متري",
-    "truck_loads": "أحمال الشاحنات المطلوبة",
-    "truck_10_yard": "شاحنة قلاب 10 ياردات",
-    "truck_15_yard": "شاحنة قلاب 15 ياردة",
-    "truck_20_yard": "شاحنة قلاب 20 ياردة",
-    "loads": "حمولة",
-    "formula_title": "صيغة الحساب",
-    "formula": "الحجم الأصلي = الطول × العرض × العمق. الحجم المنفوش = الحجم الأصلي × معامل الانتفاخ. معامل الانتفاخ يحسب تمدد التربة عند الحفر.",
-    "info_title": "عن حساب الحفر",
-    "info_description": "عند حفر التربة، تتمدد (تنتفخ). الحجم المنفوش هو ما يجب نقله، وهو أكبر من الحجم الأصلي في مكانه.",
-    "use_cases_title": "الاستخدامات الشائعة",
-    "use_case_1": "حفر الأساسات",
-    "use_case_2": "حفر المسابح والبرك",
-    "use_case_3": "خنادق المرافق",
+    "depth_tooltip": "depth_tooltip",
+    "description": "الوصف",
     "errors": {
-      "invalid_dimensions": "الرجاء إدخال أبعاد صحيحة",
-      "positive_values": "يجب أن تكون الأبعاد أكبر من صفر",
-      "invalid_swell_factor": "يجب أن يكون معامل الانتفاخ بين 1.0 و 2.0"
+      "invalid_dimensions": "invalid_dimensions",
+      "invalid_swell_factor": "invalid_swell_factor",
+      "positive_values": "positive_values"
     },
+    "estimated_weight": "estimated_weight",
+    "excavation_area": "excavation_area",
+    "feet": "feet",
+    "formula": "formula",
+    "formula_title": "formula_title",
+    "info_description": "info_description",
+    "info_title": "info_title",
+    "length": "الطول",
+    "length_tooltip": "length_tooltip",
+    "loads": "loads",
+    "loose_volume": "loose_volume",
+    "meters": "meters",
+    "metric_tons": "metric_tons",
     "placeholders": {
-      "length": "10",
-      "width": "5",
-      "depth": "2",
-      "swell_factor": "1.25"
+      "depth": "العمق",
+      "length": "الطول",
+      "swell_factor": "swell_factor",
+      "width": "العرض"
     },
-    "howItWorks": {
-      "title": "كيف تعمل حاسبة الحفر",
-      "formula": "الحجم المنفوش = الطول × العرض × العمق × معامل الانتفاخ",
-      "explanation": "تحسب هذه الأداة حجم التربة المحفورة مع مراعاة تمدد التربة (الانتفاخ) الذي يحدث عند إخراجها من مكانها. معامل الانتفاخ يختلف حسب نوع التربة ويؤثر على كمية النقل المطلوبة.",
-      "steps": [
-        "أدخل أبعاد منطقة الحفر (الطول والعرض والعمق)",
-        "اختر نوع التربة أو أدخل معامل انتفاخ مخصص",
-        "احصل على الحجم الأصلي والحجم المنفوش للنقل",
-        "راجع عدد أحمال الشاحنات المطلوبة",
-        "استخدم الحجم الرخو لتخطيط التخلص من التربة"
-      ]
+    "result_volume": "result_volume",
+    "soil_type": "soil_type",
+    "soil_type_tooltip": "soil_type_tooltip",
+    "soil_types": {
+      "clay": "clay",
+      "custom": "custom",
+      "gravel": "gravel",
+      "loam": "loam",
+      "rock": "rock",
+      "sand": "sand",
+      "topsoil": "topsoil"
     },
-    "useCases": [
-      {
-        "title": "حفر أساسات المباني",
-        "description": "حساب حجم التربة لحفريات الأساسات الشريطية والقواعد المنفصلة واللبشة."
-      },
-      {
-        "title": "حفر المسابح والخزانات",
-        "description": "تحديد كمية التربة المراد إزالتها لبناء المسابح أو خزانات المياه الأرضية."
-      },
-      {
-        "title": "خنادق المرافق والصرف",
-        "description": "حساب حجم الحفر لتمديدات الكهرباء والمياه والصرف الصحي."
-      },
-      {
-        "title": "تسوية وتحضير المواقع",
-        "description": "تقدير أعمال الحفر لتسوية الأراضي قبل البناء."
-      }
-    ],
-    "seoTips": [
-      "احسب 10-15% إضافي للتعامل مع الحفر الزائد والتسويات",
-      "معامل انتفاخ الطين أعلى من الرمل - خطط لشاحنات إضافية",
-      "احصل على تقرير فحص التربة لتحديد نوعها بدقة قبل الحفر",
-      "راعِ الميول والدعامات في حفريات عميقة للسلامة",
-      "تحقق من وجود خدمات تحت الأرض قبل البدء بالحفر"
-    ],
-    "commonMistakes": [
-      {
-        "mistake": "تجاهل معامل الانتفاخ",
-        "solution": "التربة تتمدد 10-50% عند حفرها. احسب الحجم المنفوش للنقل وليس الحجم الأصلي."
-      },
-      {
-        "mistake": "عدم مراعاة الميول",
-        "solution": "الحفريات العميقة تحتاج ميول للسلامة. أضف حجم التربة الإضافية للميول."
-      },
-      {
-        "mistake": "تقدير عدد الشاحنات بالحجم الأصلي",
-        "solution": "استخدم الحجم المنفوش لحساب عدد رحلات الشاحنات بدقة."
-      },
-      {
-        "mistake": "إهمال فحص التربة",
-        "solution": "أنواع التربة المختلفة لها معاملات انتفاخ مختلفة. الصخر قد ينتفخ 50%."
-      }
-    ],
-    "faqs": [
-      {
-        "question": "ما هو معامل الانتفاخ؟",
-        "answer": "هو نسبة تمدد التربة عند حفرها. التربة في مكانها مضغوطة، وعند إخراجها تشغل حجماً أكبر. مثلاً معامل 1.25 يعني زيادة 25% في الحجم."
-      },
-      {
-        "question": "كيف أختار معامل الانتفاخ الصحيح؟",
-        "answer": "الرمل والحصى: 1.12 (12%)، الطمي: 1.25 (25%)، الطين: 1.30 (30%)، الصخر: 1.50 (50%). للدقة، احصل على فحص تربة."
-      },
-      {
-        "question": "ما حجم شاحنة القلاب؟",
-        "answer": "الشاحنات الصغيرة 10 ياردات مكعبة (7.6 م³)، المتوسطة 15 ياردة (11.5 م³)، الكبيرة 20 ياردة (15.3 م³). اختر حسب حجم الموقع وسهولة الوصول."
-      },
-      {
-        "question": "هل أحتاج تصريح للحفر؟",
-        "answer": "نعم، معظم البلديات تتطلب تصاريح للحفريات الكبيرة. تحقق من وجود خدمات تحت الأرض واحصل على الموافقات اللازمة."
-      },
-      {
-        "question": "كيف أحسب تكلفة الحفر؟",
-        "answer": "التكلفة تشمل: إيجار المعدات، أجور العمال، نقل التربة (بالحجم المنفوش)، ورسوم التخلص. احصل على عروض من مقاولين."
-      }
-    ]
+    "sq_meters": "sq_meters",
+    "title": "العنوان",
+    "truck_10_yard": "truck_10_yard",
+    "truck_15_yard": "truck_15_yard",
+    "truck_20_yard": "truck_20_yard",
+    "truck_loads": "truck_loads",
+    "unit": "unit",
+    "unit_tooltip": "unit_tooltip",
+    "use_case_1": "use_case_1",
+    "use_case_2": "use_case_2",
+    "use_case_3": "use_case_3",
+    "use_cases_title": "use_cases_title",
+    "volume_breakdown": "volume_breakdown",
+    "width": "العرض",
+    "width_tooltip": "width_tooltip"
   },
   "fill_dirt": {
     "title": "حاسبة الردم",
@@ -1708,146 +1554,69 @@
     ]
   },
   "paint": {
-    "title": "حاسبة الطلاء",
-    "description": "احسب كمية الطلاء المطلوبة للجدران والأسقف بناءً على المساحة والتغطية.",
-    "unit": "وحدة المساحة",
-    "unit_tooltip": "اختر وحدة القياس للمساحة",
-    "sqft": "قدم مربع",
-    "sqm": "متر مربع",
-    "sqft_unit": "قدم²",
-    "sqm_unit": "م²",
-    "wall_area": "إجمالي مساحة الجدار",
-    "wall_area_tooltip": "إجمالي المساحة المراد طلاؤها",
-    "window_area": "مساحة النوافذ (خصم)",
-    "window_area_tooltip": "مساحة النوافذ لطرحها من الإجمالي",
-    "door_area": "مساحة الأبواب (خصم)",
-    "door_area_tooltip": "مساحة الأبواب لطرحها من الإجمالي",
-    "paint_type": "نوع الطلاء",
-    "paint_type_tooltip": "نوع الطلاء يؤثر على معدل التغطية",
-    "number_of_coats": "عدد الطبقات",
-    "number_of_coats_tooltip": "كم طبقة طلاء ستُطبق",
-    "coats_unit": "طبقة",
-    "types": {
-      "standard": "طلاء داخلي قياسي",
-      "primer": "برايمر/أساس",
-      "exterior": "طلاء خارجي",
-      "textured": "سطح محبب",
-      "high_gloss": "لامع عالي",
-      "semi_gloss": "نصف لامع",
-      "flat_matte": "مطفي/مات",
-      "ceiling": "طلاء أسقف"
-    },
-    "result_paint_needed": "الطلاء المطلوب",
-    "gallons": "جالون",
-    "liters": "لتر",
-    "details": "تفاصيل الحساب",
-    "net_area": "المساحة الصافية للطلاء",
-    "cans_needed": "العبوات المطلوبة",
-    "gallon_cans": "عبوة 1 جالون",
-    "coverage_rate": "معدل التغطية",
-    "sqft_per_gallon": "قدم²/جالون",
-    "coats_applied": "الطبقات",
-    "area_summary": "ملخص المساحات",
-    "total_wall_area": "إجمالي مساحة الجدار",
-    "deductions": "الخصومات (نوافذ + أبواب)",
-    "total_coverage_area": "إجمالي مساحة التغطية",
-    "formula_title": "صيغة الحساب",
-    "formula": "الجالونات = (المساحة الصافية × عدد الطبقات) / التغطية لكل جالون",
-    "info_title": "عن حساب الطلاء",
-    "info_description": "احسب كميات الطلاء بناءً على مساحة السطح ونوع الطلاء وعدد الطبقات. اطرح النوافذ والأبواب للحصول على تقديرات دقيقة.",
-    "use_cases_title": "الاستخدامات الشائعة",
-    "use_case_1": "طلاء الغرف الداخلية",
-    "use_case_2": "طلاء المنزل الخارجي",
-    "use_case_3": "مشاريع الطلاء التجارية",
+    "area_summary": "area_summary",
+    "cans_needed": "cans_needed",
+    "coats_applied": "coats_applied",
+    "coats_unit": "coats_unit",
+    "coverage_rate": "coverage_rate",
+    "deductions": "deductions",
+    "description": "الوصف",
+    "details": "details",
+    "door_area": "door_area",
+    "door_area_tooltip": "door_area_tooltip",
     "errors": {
-      "invalid_area": "الرجاء إدخال مساحة جدار صحيحة",
-      "negative_deductions": "لا يمكن أن تكون مساحات الخصم سالبة",
-      "deductions_exceed_area": "لا يمكن أن تتجاوز الخصومات إجمالي مساحة الجدار",
-      "invalid_coats": "يجب أن يكون عدد الطبقات بين 1 و 5"
+      "deductions_exceed_area": "deductions_exceed_area",
+      "invalid_area": "invalid_area",
+      "invalid_coats": "invalid_coats",
+      "negative_deductions": "negative_deductions"
     },
+    "formula": "formula",
+    "formula_title": "formula_title",
+    "gallon_cans": "gallon_cans",
+    "gallons": "gallons",
+    "info_description": "info_description",
+    "info_title": "info_title",
+    "liters": "liters",
+    "net_area": "net_area",
+    "number_of_coats": "number_of_coats",
+    "number_of_coats_tooltip": "number_of_coats_tooltip",
+    "paint_type": "paint_type",
+    "paint_type_tooltip": "paint_type_tooltip",
     "placeholders": {
-      "wall_area": "400",
-      "window_area": "30",
-      "door_area": "20",
-      "coats": "2"
+      "coats": "coats",
+      "door_area": "door_area",
+      "wall_area": "wall_area",
+      "window_area": "window_area"
     },
-    "howItWorks": {
-      "title": "كيف تعمل حاسبة الطلاء",
-      "formula": "الجالونات = (المساحة الصافية × عدد الطبقات) / معدل التغطية",
-      "explanation": "تحسب هذه الأداة كمية الطلاء المطلوبة بناءً على مساحة السطح ونوع الطلاء وعدد الطبقات، مع خصم مساحات النوافذ والأبواب للحصول على تقدير دقيق.",
-      "steps": [
-        "أدخل إجمالي مساحة الجدران المراد طلاؤها",
-        "أدخل مساحات النوافذ والأبواب للخصم",
-        "اختر نوع الطلاء وعدد الطبقات",
-        "احصل على كمية الطلاء المطلوبة بالجالون أو اللتر",
-        "راجع الجالونات والعبوات المطلوبة"
-      ]
+    "result_paint_needed": "result_paint_needed",
+    "sqft": "sqft",
+    "sqft_per_gallon": "sqft_per_gallon",
+    "sqft_unit": "sqft_unit",
+    "sqm": "sqm",
+    "sqm_unit": "sqm_unit",
+    "title": "العنوان",
+    "total_coverage_area": "total_coverage_area",
+    "total_wall_area": "total_wall_area",
+    "types": {
+      "ceiling": "ceiling",
+      "exterior": "exterior",
+      "flat_matte": "flat_matte",
+      "high_gloss": "high_gloss",
+      "primer": "primer",
+      "semi_gloss": "semi_gloss",
+      "standard": "standard",
+      "textured": "textured"
     },
-    "useCases": [
-      {
-        "title": "طلاء الغرف السكنية",
-        "description": "حساب كمية الطلاء لغرف النوم والصالات والمطابخ والحمامات."
-      },
-      {
-        "title": "طلاء المباني الخارجية",
-        "description": "تقدير الطلاء الخارجي للواجهات والأسوار مع مراعاة الظروف الجوية."
-      },
-      {
-        "title": "مشاريع الطلاء التجارية",
-        "description": "حساب كميات كبيرة للمكاتب والمحلات والمستودعات."
-      },
-      {
-        "title": "تجديد وإعادة طلاء",
-        "description": "تقدير الطلاء لمشاريع التجديد والصيانة الدورية."
-      }
-    ],
-    "seoTips": [
-      "اشترِ 10% إضافي للتصحيحات واللمسات النهائية",
-      "الطلاء الداخلي يغطي 35-40 م² لكل جالون، والخارجي أقل",
-      "استخدم البرايمر على الأسطح الجديدة لتوفير الطلاء",
-      "طبقتان أفضل من طبقة سميكة واحدة للنتيجة المثلى",
-      "الألوان الداكنة تحتاج طبقات أكثر من الفاتحة"
-    ],
-    "commonMistakes": [
-      {
-        "mistake": "عدم خصم النوافذ والأبواب",
-        "solution": "اطرح مساحات النوافذ والأبواب للحصول على المساحة الصافية الفعلية."
-      },
-      {
-        "mistake": "تجاهل نوع السطح",
-        "solution": "الأسطح المسامية والخشنة تستهلك طلاء أكثر. زد الكمية 20% للأسطح الصعبة."
-      },
-      {
-        "mistake": "طلاء طبقة واحدة سميكة",
-        "solution": "طبقتان رقيقتان أفضل من طبقة سميكة. تجف أسرع وتغطي أفضل."
-      },
-      {
-        "mistake": "إهمال البرايمر",
-        "solution": "البرايمر على الأسطح الجديدة يوفر الطلاء ويحسن الالتصاق واللون."
-      }
-    ],
-    "faqs": [
-      {
-        "question": "كم يغطي جالون الطلاء؟",
-        "answer": "الطلاء الداخلي القياسي يغطي 35-40 م² (350-400 قدم²) لكل جالون على سطح أملس. الأسطح الخشنة تقلل التغطية."
-      },
-      {
-        "question": "كم طبقة أحتاج؟",
-        "answer": "طبقتان هي القاعدة للتغطية الجيدة. الألوان الداكنة أو التغيير الكبير في اللون قد يحتاج 3 طبقات."
-      },
-      {
-        "question": "ما الفرق بين اللامع والمطفي؟",
-        "answer": "اللامع أسهل في التنظيف ومقاوم للرطوبة (للمطابخ والحمامات). المطفي يخفي العيوب (لغرف النوم والصالات)."
-      },
-      {
-        "question": "متى أحتاج برايمر؟",
-        "answer": "استخدم البرايمر على الأسطح الجديدة، البقع الصعبة، التغيير من لون داكن لفاتح، أو على الخشب والمعدن."
-      },
-      {
-        "question": "كم يجب أن أترك بين الطبقات؟",
-        "answer": "عادة 2-4 ساعات للطلاء المائي و24 ساعة للزيتي. اتبع تعليمات الشركة المصنعة."
-      }
-    ]
+    "unit": "unit",
+    "unit_tooltip": "unit_tooltip",
+    "use_case_1": "use_case_1",
+    "use_case_2": "use_case_2",
+    "use_case_3": "use_case_3",
+    "use_cases_title": "use_cases_title",
+    "wall_area": "wall_area",
+    "wall_area_tooltip": "wall_area_tooltip",
+    "window_area": "window_area",
+    "window_area_tooltip": "window_area_tooltip"
   },
   "gravel": {
     "title": "حاسبة الحصى والبحص",
@@ -2310,149 +2079,69 @@
     ]
   },
   "pipe": {
-    "title": "حاسبة الأنابيب",
-    "description": "احسب أطوال أنابيب السباكة المطلوبة مع احتساب التوصيلات لمشاريع السباكة.",
-    "unit": "وحدة القياس",
-    "unit_tooltip": "اختر المتر أو القدم لقياسات المسافة",
-    "meters": "متر",
-    "feet": "قدم",
-    "m": "م",
-    "pipe_diameter": "قطر الأنبوب",
-    "pipe_diameter_tooltip": "اختر حجم قطر الأنبوب",
+    "additional_info": "additional_info",
+    "avg_distance": "avg_distance",
+    "avg_distance_tooltip": "avg_distance_tooltip",
+    "base_length": "base_length",
+    "description": "الوصف",
     "diameters": {
-      "15mm": "15مم (1/2 بوصة)",
-      "20mm": "20مم (3/4 بوصة)",
-      "25mm": "25مم (1 بوصة)",
-      "32mm": "32مم (1-1/4 بوصة)",
-      "40mm": "40مم (1-1/2 بوصة)",
-      "50mm": "50مم (2 بوصة)",
-      "65mm": "65مم (2-1/2 بوصة)",
-      "80mm": "80مم (3 بوصة)",
-      "100mm": "100مم (4 بوصة)",
-      "150mm": "150مم (6 بوصة)"
+      "100mm": "100mm",
+      "150mm": "150mm",
+      "15mm": "15mm",
+      "20mm": "20mm",
+      "25mm": "25mm",
+      "32mm": "32mm",
+      "40mm": "40mm",
+      "50mm": "50mm",
+      "65mm": "65mm",
+      "80mm": "80mm"
     },
-    "fixture_count": "عدد التركيبات",
-    "fixture_count_tooltip": "إجمالي عدد تركيبات السباكة المراد توصيلها",
-    "avg_distance": "متوسط المسافة",
-    "avg_distance_tooltip": "متوسط مسافة الأنبوب بين التركيبات",
-    "fittings": "التوصيلات",
-    "elbows_90": "كوع 90 درجة",
-    "elbows_45": "كوع 45 درجة",
-    "tees": "وصلات T",
-    "valves": "صمامات",
-    "waste_factor": "نسبة الهدر (%)",
-    "waste_factor_tooltip": "مواد إضافية للقص والهدر (عادة 10%)",
-    "result_total_length": "إجمالي طول الأنابيب المطلوب",
-    "standard_pipes": "أنابيب قياسية 6م",
-    "length_breakdown": "تفصيل الأطوال",
-    "base_length": "الطول الأساسي",
-    "fittings_allowance": "احتياطي التوصيلات",
-    "pipe_volume": "حجم الأنبوب",
-    "liters": "لتر",
-    "pipe_weight": "وزن الأنبوب",
-    "kg": "كجم",
-    "additional_info": "معلومات إضافية",
-    "length_without_waste": "الطول (بدون هدر)",
-    "number_of_pipes": "الأنابيب القياسية المطلوبة",
-    "each": "قطعة",
-    "formula_title": "صيغة الحساب",
-    "formula": "الإجمالي = (التركيبات × المسافة) + معادل التوصيلات + الهدر. التوصيلات تضيف طول أنبوب معادل بناءً على القطر.",
-    "info_title": "عن حساب الأنابيب",
-    "info_description": "التوصيلات مثل الأكواع والوصلات T تُحدث مقاومة للتدفق تعادل طول أنبوب إضافي. تحتسب هذه الحاسبة التوصيلات عند تقدير إجمالي الأنابيب المطلوبة.",
-    "use_cases_title": "الاستخدامات الشائعة",
-    "use_case_1": "سباكة المنازل",
-    "use_case_2": "أنظمة الري",
-    "use_case_3": "توجيه الأنابيب الصناعية",
+    "each": "each",
+    "elbows_45": "elbows_45",
+    "elbows_90": "elbows_90",
     "errors": {
-      "invalid_fixtures": "الرجاء إدخال عدد تركيبات صحيح",
-      "invalid_distance": "الرجاء إدخال مسافة صحيحة",
-      "invalid_waste": "يجب أن تكون نسبة الهدر بين 0 و 100"
+      "invalid_distance": "invalid_distance",
+      "invalid_fixtures": "invalid_fixtures",
+      "invalid_waste": "invalid_waste"
     },
+    "feet": "feet",
+    "fittings": "fittings",
+    "fittings_allowance": "fittings_allowance",
+    "fixture_count": "fixture_count",
+    "fixture_count_tooltip": "fixture_count_tooltip",
+    "formula": "formula",
+    "formula_title": "formula_title",
+    "info_description": "info_description",
+    "info_title": "info_title",
+    "kg": "kg",
+    "length_breakdown": "length_breakdown",
+    "length_without_waste": "length_without_waste",
+    "liters": "liters",
+    "m": "m",
+    "meters": "meters",
+    "number_of_pipes": "number_of_pipes",
+    "pipe_diameter": "pipe_diameter",
+    "pipe_diameter_tooltip": "pipe_diameter_tooltip",
+    "pipe_volume": "pipe_volume",
+    "pipe_weight": "pipe_weight",
     "placeholders": {
-      "fixtures": "5",
-      "distance": "3",
-      "waste": "10"
+      "distance": "distance",
+      "fixtures": "fixtures",
+      "waste": "waste"
     },
-    "howItWorks": {
-      "title": "كيف تعمل حاسبة الأنابيب",
-      "formula": "الطول الإجمالي = (التركيبات × المسافة) + معادل التوصيلات + نسبة الهدر",
-      "explanation": "تحسب هذه الأداة إجمالي طول الأنابيب المطلوبة لمشاريع السباكة مع احتساب التوصيلات (الأكواع والوصلات T) التي تضيف مقاومة تعادل طول أنبوب إضافي.",
-      "steps": [
-        "اختر قطر الأنبوب المطلوب",
-        "أدخل عدد التركيبات ومتوسط المسافة بينها",
-        "حدد عدد التوصيلات (أكواع، وصلات T، صمامات)",
-        "احصل على إجمالي الطول وعدد الأنابيب القياسية",
-        "راجع الطول الإجمالي وعدد الأنابيب القياسية المطلوبة"
-      ]
-    },
-    "useCases": [
-      {
-        "title": "سباكة المنازل والشقق",
-        "description": "حساب أنابيب المياه الباردة والساخنة والصرف للمشاريع السكنية."
-      },
-      {
-        "title": "أنظمة الري",
-        "description": "تقدير أنابيب الري للحدائق والمزارع والملاعب."
-      },
-      {
-        "title": "التمديدات الصناعية",
-        "description": "حساب أنابيب المصانع وخطوط الإنتاج والمعالجة."
-      },
-      {
-        "title": "شبكات إطفاء الحريق",
-        "description": "تقدير أنابيب أنظمة الرش والإطفاء."
-      }
-    ],
-    "seoTips": [
-      "أضف 10-15% للهدر والقص والتعديلات",
-      "الأكواع والوصلات تضيف مقاومة - احسب المعادل",
-      "استخدم القطر المناسب لضغط الماء ومعدل التدفق",
-      "خطط للمسار لتقليل عدد التوصيلات",
-      "احسب عدد الأنابيب القياسية (6 متر) للطلب"
-    ],
-    "commonMistakes": [
-      {
-        "mistake": "تجاهل معادل التوصيلات",
-        "solution": "كل كوع وصلة T تضيف مقاومة تعادل طول أنبوب. احسبها في التقدير."
-      },
-      {
-        "mistake": "قطر أنبوب صغير",
-        "solution": "قطر صغير = ضغط منخفض ومشاكل تدفق. راجع معايير السباكة للقطر المناسب."
-      },
-      {
-        "mistake": "إهمال الميول",
-        "solution": "أنابيب الصرف تحتاج ميل 1-2%. خطط للارتفاعات مسبقاً."
-      },
-      {
-        "mistake": "عدم حساب التمدد",
-        "solution": "الأنابيب تتمدد بالحرارة. اترك فراغات للتمدد في المسارات الطويلة."
-      }
-    ],
-    "faqs": [
-      {
-        "question": "ما القطر المناسب للمياه في المنزل؟",
-        "answer": "الخط الرئيسي 25-32 مم، التوزيع الداخلي 20 مم، نقاط النهاية 15 مم. يعتمد على ضغط الماء وعدد التركيبات."
-      },
-      {
-        "question": "كم طول الأنبوب القياسي؟",
-        "answer": "عادة 6 متر للأنابيب البلاستيكية PVC وPPR. خطط لعدد القطع والوصلات اللازمة."
-      },
-      {
-        "question": "ما الفرق بين PPR و PVC؟",
-        "answer": "PPR للمياه الساخنة والباردة داخل المبنى. PVC للصرف والمياه الباردة. لا تستخدم PVC للماء الساخن."
-      },
-      {
-        "question": "كيف أحسب ميل الصرف؟",
-        "answer": "الميل القياسي 1-2% (1-2 سم لكل متر). مثلاً: أنبوب 10 متر يحتاج فرق ارتفاع 10-20 سم."
-      },
-      {
-        "question": "متى أحتاج فتحات تهوية؟",
-        "answer": "كل خط صرف يحتاج تهوية لمنع انسحاب الماء من السيفونات. ضعها في نهاية كل فرع رئيسي."
-      }
-    ],
-    "units": {
-      "percent": "Percent"
-    }
+    "result_total_length": "result_total_length",
+    "standard_pipes": "standard_pipes",
+    "tees": "tees",
+    "title": "العنوان",
+    "unit": "unit",
+    "unit_tooltip": "unit_tooltip",
+    "use_case_1": "use_case_1",
+    "use_case_2": "use_case_2",
+    "use_case_3": "use_case_3",
+    "use_cases_title": "use_cases_title",
+    "valves": "valves",
+    "waste_factor": "waste_factor",
+    "waste_factor_tooltip": "waste_factor_tooltip"
   },
   "door": {
     "title": "حاسبة الأبواب",
@@ -3101,146 +2790,66 @@
     ]
   },
   "tile": {
-    "title": "حاسبة البلاط",
-    "description": "احسب البلاط المطلوب للأرضيات والجدران مع احتساب نسبة الهدر.",
-    "unit": "وحدة المساحة",
-    "unit_tooltip": "اختر وحدة القياس للمساحة",
-    "feet": "قدم",
-    "meters": "متر",
-    "area_length": "طول المساحة",
-    "area_length_tooltip": "طول المنطقة المراد تبليطها",
-    "area_width": "عرض المساحة",
-    "area_width_tooltip": "عرض المنطقة المراد تبليطها",
-    "tile_size": "مقاس البلاط",
-    "tile_size_tooltip": "اختر مقاس بلاط قياسي أو أدخل أبعاداً مخصصة",
-    "custom_size": "مقاس مخصص",
-    "tile_width": "عرض البلاطة",
-    "tile_width_tooltip": "عرض البلاطة الواحدة بالبوصة",
-    "tile_height": "ارتفاع البلاطة",
-    "tile_height_tooltip": "ارتفاع البلاطة الواحدة بالبوصة",
-    "grout_width": "عرض خط الترويبة",
-    "grout_width_tooltip": "عرض خطوط الترويبة بين البلاط (عادة 1/8 إلى 1/4 بوصة)",
-    "tiles_per_box": "بلاط لكل صندوق",
-    "tiles_per_box_tooltip": "عدد البلاطات في كل صندوق للطلب",
-    "waste_factor": "نسبة الهدر (%)",
-    "waste_factor_tooltip": "بلاط إضافي للقص والكسر والهدر (عادة 10%)",
-    "inches": "بوصة",
-    "result_tiles": "البلاط المطلوب",
-    "tiles": "بلاطة",
-    "without_waste": "بدون هدر",
-    "details": "تفاصيل المشروع",
-    "total_area": "المساحة الإجمالية",
-    "sqft_short": "قدم²",
-    "sqm_short": "م²",
-    "boxes_needed": "الصناديق المطلوبة",
-    "tile_area": "مساحة البلاطة",
-    "sqin": "بوصة²",
-    "grout_linear": "الطول الخطي للترويبة",
-    "ft": "قدم",
-    "formula_title": "صيغة الحساب",
-    "formula": "البلاط = المساحة / مساحة البلاطة × (1 + نسبة الهدر). خطوط الترويبة تُحتسب في التغطية الفعلية للبلاط.",
-    "info_title": "عن حساب البلاط",
-    "info_description": "التقدير الدقيق للبلاط يمنع النقص والهدر الزائد. أضف بلاطاً إضافياً للقص حول الحواف والزوايا واحتمال الكسر.",
-    "use_cases_title": "الاستخدامات الشائعة",
-    "use_case_1": "مشاريع تبليط الأرضيات",
-    "use_case_2": "جدران الحمامات والمطابخ",
-    "use_case_3": "تركيب الخلفيات الزخرفية",
+    "area_length": "area_length",
+    "area_length_tooltip": "area_length_tooltip",
+    "area_width": "area_width",
+    "area_width_tooltip": "area_width_tooltip",
+    "boxes_needed": "boxes_needed",
+    "custom_size": "custom_size",
+    "description": "الوصف",
+    "details": "details",
     "errors": {
-      "invalid_dimensions": "الرجاء إدخال أبعاد مساحة صحيحة",
-      "positive_values": "يجب أن تكون الأبعاد أكبر من صفر",
-      "invalid_tile_size": "الرجاء إدخال أبعاد بلاط صحيحة",
-      "invalid_grout": "لا يمكن أن يكون عرض الترويبة سالباً",
-      "invalid_waste": "يجب أن تكون نسبة الهدر بين 0 و 100%"
+      "invalid_dimensions": "invalid_dimensions",
+      "invalid_grout": "invalid_grout",
+      "invalid_tile_size": "invalid_tile_size",
+      "invalid_waste": "invalid_waste",
+      "positive_values": "positive_values"
     },
+    "feet": "feet",
+    "formula": "formula",
+    "formula_title": "formula_title",
+    "ft": "ft",
+    "grout_linear": "grout_linear",
+    "grout_width": "grout_width",
+    "grout_width_tooltip": "grout_width_tooltip",
+    "inches": "inches",
+    "info_description": "info_description",
+    "info_title": "info_title",
+    "meters": "meters",
     "placeholders": {
-      "length": "12",
-      "width": "10",
-      "tile_width": "12",
-      "tile_height": "12",
-      "grout": "0.125",
-      "tiles_per_box": "10",
-      "waste": "10"
+      "grout": "grout",
+      "length": "الطول",
+      "tile_height": "tile_height",
+      "tile_width": "tile_width",
+      "tiles_per_box": "tiles_per_box",
+      "waste": "waste",
+      "width": "العرض"
     },
-    "howItWorks": {
-      "title": "كيف تعمل حاسبة البلاط",
-      "formula": "عدد البلاط = (المساحة / مساحة البلاطة) × (1 + نسبة الهدر)",
-      "explanation": "تحسب هذه الأداة عدد البلاط المطلوب للأرضيات أو الجدران بناءً على أبعاد المساحة ومقاس البلاط، مع إضافة نسبة هدر للقص والكسر.",
-      "steps": [
-        "أدخل أبعاد المساحة (الطول والعرض)",
-        "حدد مقاس البلاط أو أدخل أبعاد مخصصة",
-        "أدخل عرض الترويبة ونسبة الهدر",
-        "احصل على عدد البلاط والصناديق المطلوبة",
-        "راجع عدد البلاطات والصناديق المطلوبة"
-      ]
-    },
-    "useCases": [
-      {
-        "title": "تبليط الأرضيات",
-        "description": "حساب البلاط للصالات والغرف والممرات."
-      },
-      {
-        "title": "جدران الحمامات والمطابخ",
-        "description": "تقدير بلاط الجدران مع مراعاة الفتحات والقصات."
-      },
-      {
-        "title": "الخلفيات الزخرفية",
-        "description": "حساب البلاط للخلفيات وراء المواقد والمطابخ."
-      },
-      {
-        "title": "الأرضيات الخارجية",
-        "description": "تقدير بلاط الشرفات والتراسات والمداخل."
-      }
-    ],
-    "seoTips": [
-      "أضف 10% للقص العادي، 15% للأنماط القطرية",
-      "اشترِ صندوق إضافي للإصلاحات المستقبلية",
-      "البلاط الكبير يقلل عدد الفواصل لكن يزيد الهدر",
-      "تأكد من شراء نفس الدفعة (LOT) لتطابق اللون",
-      "احسب البلاط الحدودي والزخرفي بشكل منفصل"
-    ],
-    "commonMistakes": [
-      {
-        "mistake": "نسبة هدر قليلة",
-        "solution": "10% للمستقيم، 15% للقطري، 20% للأنماط المعقدة. القص والكسر يستهلك أكثر مما تتوقع."
-      },
-      {
-        "mistake": "إهمال خطوط الترويبة",
-        "solution": "الترويبة تأخذ مساحة. بلاط 30×30 مع ترويبة 3 مم يغطي فعلياً أقل."
-      },
-      {
-        "mistake": "شراء من دفعات مختلفة",
-        "solution": "تأكد من نفس رقم الدفعة (LOT). الألوان تختلف قليلاً بين الدفعات."
-      },
-      {
-        "mistake": "نسيان البلاط الاحتياطي",
-        "solution": "احتفظ بـ 5-10 بلاطات للإصلاحات. قد لا تجد نفس البلاط لاحقاً."
-      }
-    ],
-    "faqs": [
-      {
-        "question": "كم بلاطة أحتاج لمتر مربع؟",
-        "answer": "يعتمد على المقاس: 30×30 سم = 11 بلاطة/م²، 60×60 سم = 3 بلاطات/م²، 40×40 سم = 6 بلاطات/م². أضف 10% للهدر."
-      },
-      {
-        "question": "ما مقاس البلاط الأفضل للمساحات الصغيرة؟",
-        "answer": "البلاط المتوسط (40-45 سم) يناسب معظم المساحات. الكبير يجعل الغرف الصغيرة تبدو أوسع لكن يزيد الهدر."
-      },
-      {
-        "question": "كيف أحسب البلاط للجدران؟",
-        "answer": "قس ارتفاع وطول كل جدار، اطرح فتحات النوافذ والأبواب، ثم احسب كالأرضية مع زيادة الهدر 15%."
-      },
-      {
-        "question": "ما عرض الترويبة المناسب؟",
-        "answer": "2-3 مم للبلاط المصقول، 3-5 مم للعادي، 5-10 مم للبلاط الريفي والطوب. تحقق من توصية الشركة."
-      },
-      {
-        "question": "كم بلاطة في الصندوق؟",
-        "answer": "يختلف حسب المقاس: 30×30 عادة 10-12 بلاطة، 60×60 عادة 4-6 بلاطات. تحقق من المساحة على الصندوق."
-      }
-    ],
-    "units": {
-      "percent": "Percent"
-    }
+    "result_tiles": "result_tiles",
+    "sqft_short": "sqft_short",
+    "sqin": "sqin",
+    "sqm_short": "sqm_short",
+    "tile_area": "tile_area",
+    "tile_height": "tile_height",
+    "tile_height_tooltip": "tile_height_tooltip",
+    "tile_size": "tile_size",
+    "tile_size_tooltip": "tile_size_tooltip",
+    "tile_width": "tile_width",
+    "tile_width_tooltip": "tile_width_tooltip",
+    "tiles": "tiles",
+    "tiles_per_box": "tiles_per_box",
+    "tiles_per_box_tooltip": "tiles_per_box_tooltip",
+    "title": "العنوان",
+    "total_area": "total_area",
+    "unit": "unit",
+    "unit_tooltip": "unit_tooltip",
+    "use_case_1": "use_case_1",
+    "use_case_2": "use_case_2",
+    "use_case_3": "use_case_3",
+    "use_cases_title": "use_cases_title",
+    "waste_factor": "waste_factor",
+    "waste_factor_tooltip": "waste_factor_tooltip",
+    "without_waste": "without_waste"
   },
   "grout": {
     "title": "حاسبة الترويبة",
@@ -3374,146 +2983,66 @@
     ]
   },
   "roofing": {
-    "title": "حاسبة الأسقف",
-    "description": "احسب مواد التسقيف المطلوبة بما في ذلك القرميد والعازل وغطاء الحافة.",
-    "unit": "وحدة القياس",
-    "unit_tooltip": "اختر القدم أو المتر لأبعاد السقف",
-    "feet": "قدم",
-    "meters": "متر",
-    "roof_length": "طول السقف",
-    "roof_length_tooltip": "طول منطقة السقف (خط الحافة العلوية)",
-    "roof_width": "عرض السقف",
-    "roof_width_tooltip": "العرض من الحافة العلوية إلى الإفريز (قياس أفقي)",
-    "pitch": "ميل السقف",
-    "pitch_tooltip": "ميلان السقف معبراً عنه بالارتفاع:المدى (مثلاً 4:12)",
-    "custom_pitch": "ميل مخصص",
-    "rise": "الارتفاع",
-    "rise_tooltip": "الارتفاع العمودي للسقف",
-    "run": "المدى",
-    "run_tooltip": "المدى الأفقي (عادة 12 للتدوين القياسي للميل)",
-    "ridge_length": "طول الحافة (اختياري)",
-    "ridge_length_tooltip": "طول حافة السقف العلوية لحساب غطاء الحافة",
-    "waste_factor": "نسبة الهدر (%)",
-    "waste_factor_tooltip": "مواد إضافية للهدر والقص والتراكب (عادة 10%)",
-    "result_area": "إجمالي مساحة السقف",
-    "sqft": "قدم مربع",
-    "sqm": "متر مربع",
-    "materials_needed": "المواد المطلوبة",
-    "roofing_squares": "مربعات التسقيف",
-    "squares_note": "1 مربع = 100 قدم²",
-    "bundles_needed": "حزم القرميد",
-    "bundles_note": "3 حزم لكل مربع",
-    "underlayment_rolls": "لفات العازل",
-    "rolls": "لفة",
-    "ridge_cap": "غطاء الحافة",
-    "bundles": "حزمة",
-    "specifications": "مواصفات السقف",
-    "base_area": "مساحة القاعدة",
-    "sqft_short": "قدم²",
-    "pitch_factor": "معامل الميل",
-    "pitch_angle": "زاوية الميل",
-    "formula_title": "صيغة الحساب",
-    "formula": "مساحة السقف = مساحة القاعدة × معامل الميل. معامل الميل = √(1 + (الارتفاع/المدى)²).",
-    "info_title": "عن حساب الأسقف",
-    "info_description": "تُباع مواد التسقيف عادة بـ 'المربعات' (100 قدم²). معامل الميل يحتسب المساحة الإضافية للأسقف المائلة مقارنة بالمساحة الأرضية.",
-    "use_cases_title": "الاستخدامات الشائعة",
-    "use_case_1": "تركيب سقف القرميد",
-    "use_case_2": "مشاريع استبدال الأسقف",
-    "use_case_3": "تقدير تكاليف المواد",
+    "base_area": "base_area",
+    "bundles": "bundles",
+    "bundles_needed": "bundles_needed",
+    "bundles_note": "bundles_note",
+    "custom_pitch": "custom_pitch",
+    "description": "الوصف",
     "errors": {
-      "invalid_dimensions": "الرجاء إدخال أبعاد سقف صحيحة",
-      "positive_values": "يجب أن تكون الأبعاد أكبر من صفر",
-      "invalid_pitch": "الرجاء إدخال قيم ارتفاع ومدى صحيحة",
-      "invalid_waste": "يجب أن تكون نسبة الهدر بين 0 و 50%"
+      "invalid_dimensions": "invalid_dimensions",
+      "invalid_pitch": "invalid_pitch",
+      "invalid_waste": "invalid_waste",
+      "positive_values": "positive_values"
     },
+    "feet": "feet",
+    "formula": "formula",
+    "formula_title": "formula_title",
+    "info_description": "info_description",
+    "info_title": "info_title",
+    "materials_needed": "materials_needed",
+    "meters": "meters",
+    "pitch": "pitch",
+    "pitch_angle": "pitch_angle",
+    "pitch_factor": "pitch_factor",
+    "pitch_tooltip": "pitch_tooltip",
     "placeholders": {
-      "length": "40",
-      "width": "20",
-      "rise": "4",
-      "run": "12",
-      "ridge": "40",
-      "waste": "10"
+      "length": "الطول",
+      "ridge": "ridge",
+      "rise": "rise",
+      "run": "run",
+      "waste": "waste",
+      "width": "العرض"
     },
-    "howItWorks": {
-      "title": "كيف تعمل حاسبة الأسقف",
-      "formula": "مساحة السقف = مساحة القاعدة × معامل الميل × (1 + نسبة الهدر)",
-      "explanation": "تحسب هذه الأداة مساحة السقف الفعلية مع مراعاة الميل، وتقدر كميات مواد التسقيف المطلوبة من القرميد والعازل وغطاء الحافة.",
-      "steps": [
-        "أدخل أبعاد السقف (الطول والعرض)",
-        "حدد ميل السقف (الارتفاع:المدى)",
-        "أدخل طول الحافة العلوية ونسبة الهدر",
-        "احصل على مساحة السقف وكميات المواد",
-        "راجع المربعات والحزم والمواد المطلوبة"
-      ]
-    },
-    "useCases": [
-      {
-        "title": "تركيب سقف جديد",
-        "description": "حساب مواد التسقيف الكاملة للمباني الجديدة."
-      },
-      {
-        "title": "استبدال السقف القديم",
-        "description": "تقدير مواد إعادة التسقيف مع إزالة القديم."
-      },
-      {
-        "title": "إصلاح وترميم",
-        "description": "حساب المواد لإصلاح أجزاء متضررة من السقف."
-      },
-      {
-        "title": "تقدير التكاليف",
-        "description": "معرفة كميات المواد لحساب ميزانية المشروع."
-      }
-    ],
-    "seoTips": [
-      "أضف 10-15% للهدر والقص حول الحواف والفتحات",
-      "القرميد يُباع بالمربع (100 قدم²) أو بالحزمة",
-      "احسب كل جانب من السقف على حدة للأسقف المعقدة",
-      "لا تنسَ غطاء الحافة - عادة حزمة لكل 10 متر خطي",
-      "العازل (underlayment) ضروري - احسبه مع السقف"
-    ],
-    "commonMistakes": [
-      {
-        "mistake": "إهمال معامل الميل",
-        "solution": "السقف المائل مساحته أكبر من القاعدة. استخدم معامل الميل لحساب المساحة الفعلية."
-      },
-      {
-        "mistake": "نسيان الفتحات",
-        "solution": "فتحات المداخن والتهوية تحتاج تفليش خاص. احسبها ضمن المواد."
-      },
-      {
-        "mistake": "تقدير قليل للهدر",
-        "solution": "الأسقف المعقدة (كثيرة الوديان والحواف) تحتاج 15-20% هدر."
-      },
-      {
-        "mistake": "إهمال العازل",
-        "solution": "العازل تحت القرميد ضروري. احسب لفاته مع مراعاة التراكب."
-      }
-    ],
-    "faqs": [
-      {
-        "question": "ما هو مربع التسقيف؟",
-        "answer": "مربع = 100 قدم مربع (9.3 م²). هذه الوحدة القياسية لشراء مواد التسقيف. كل مربع يحتاج 3 حزم قرميد."
-      },
-      {
-        "question": "كيف أحسب ميل السقف؟",
-        "answer": "الميل = الارتفاع : المدى. مثلاً 4:12 يعني ارتفاع 4 بوصات لكل 12 بوصة أفقية. استخدم ميزان أو تطبيق قياس."
-      },
-      {
-        "question": "كم تدوم مواد التسقيف؟",
-        "answer": "القرميد الإسفلتي: 20-30 سنة. المعدني: 40-70 سنة. الفخاري: 50-100 سنة. يعتمد على المناخ والصيانة."
-      },
-      {
-        "question": "هل أحتاج تصريح للتسقيف؟",
-        "answer": "نعم عادةً للاستبدال الكامل. تحقق من البلدية. قد يتطلب فحص للهيكل قبل العمل."
-      },
-      {
-        "question": "متى أفضل وقت لتركيب السقف؟",
-        "answer": "الربيع والخريف مثاليان. تجنب الحرارة الشديدة (القرميد يلين) والبرد (مشاكل اللصق)."
-      }
-    ],
-    "units": {
-      "percent": "Percent"
-    }
+    "result_area": "result_area",
+    "ridge_cap": "ridge_cap",
+    "ridge_length": "ridge_length",
+    "ridge_length_tooltip": "ridge_length_tooltip",
+    "rise": "rise",
+    "rise_tooltip": "rise_tooltip",
+    "rolls": "rolls",
+    "roof_length": "roof_length",
+    "roof_length_tooltip": "roof_length_tooltip",
+    "roof_width": "roof_width",
+    "roof_width_tooltip": "roof_width_tooltip",
+    "roofing_squares": "roofing_squares",
+    "run": "run",
+    "run_tooltip": "run_tooltip",
+    "specifications": "specifications",
+    "sqft": "sqft",
+    "sqft_short": "sqft_short",
+    "sqm": "sqm",
+    "squares_note": "squares_note",
+    "title": "العنوان",
+    "underlayment_rolls": "underlayment_rolls",
+    "unit": "unit",
+    "unit_tooltip": "unit_tooltip",
+    "use_case_1": "use_case_1",
+    "use_case_2": "use_case_2",
+    "use_case_3": "use_case_3",
+    "use_cases_title": "use_cases_title",
+    "waste_factor": "waste_factor",
+    "waste_factor_tooltip": "waste_factor_tooltip"
   },
   "roofPitch": {
     "title": "حاسبة ميل السقف",
@@ -3912,146 +3441,65 @@
     ]
   },
   "ceiling": {
-    "title": "حاسبة الأسقف المعلقة",
-    "description": "حساب مواد الأسقف المعلقة بما في ذلك البلاطات ونظام الشبكة والأجزاء المعدنية.",
-    "unit": "وحدة القياس",
-    "unit_tooltip": "اختر المتر أو القدم لأبعاد الغرفة",
-    "meters": "متر",
-    "feet": "قدم",
-    "room_length": "طول الغرفة",
-    "room_length_tooltip": "الطول الإجمالي للغرفة",
-    "room_width": "عرض الغرفة",
-    "room_width_tooltip": "العرض الإجمالي للغرفة",
-    "tile_size": "حجم البلاطة",
-    "tile_size_tooltip": "أبعاد بلاطات السقف القياسية",
-    "sizes": {
-      "2x2": "60×60 سم",
-      "2x4": "60×120 سم",
-      "custom": "Custoم",
-      "600x1200": "600x1200",
-      "600x600": "600x600"
-    },
-    "waste_factor": "نسبة الهدر (%)",
-    "waste_factor_tooltip": "بلاطات إضافية للقص والهدر (عادة 10%)",
-    "result_tiles": "بلاطات السقف المطلوبة",
-    "tiles": "بلاطة",
-    "grid_materials": "مواد نظام الشبكة",
-    "main_runners": "القضبان الرئيسية (3.6 م)",
-    "cross_tees": "العوارض المتقاطعة",
-    "wall_angle": "زوايا الجدار (م)",
-    "hanger_wire": "سلك التعليق (م)",
-    "formula_title": "صيغة الحساب",
-    "formula": "البلاطات = مساحة السقف / مساحة البلاطة × (1 + الهدر). مكونات الشبكة محسوبة على تباعد 120 سم للقضبان.",
-    "info_title": "عن حساب الأسقف",
-    "info_description": "الأسقف المعلقة تتطلب بلاطات ونظام شبكة وأجزاء تعليق. تقدر هذه الحاسبة جميع المكونات لتركيب السقف المستعار.",
-    "use_cases_title": "الاستخدامات الشائعة",
-    "use_case_1": "المكاتب والمساحات التجارية",
-    "use_case_2": "تشطيب القبو",
-    "use_case_3": "أسقف المحلات والمطاعم",
+    "attachment_points": "attachment_points",
+    "cross_tees_2ft": "cross_tees_2ft",
+    "cross_tees_4ft": "cross_tees_4ft",
+    "description": "الوصف",
     "errors": {
-      "invalid_dimensions": "الرجاء إدخال أبعاد غرفة صحيحة",
-      "positive_values": "يجب أن تكون الأبعاد أكبر من صفر",
-      "invalid_waste": "يجب أن تكون نسبة الهدر بين 0 و 100",
-      "invalid_tile_size": "Invalid Tile الحجم"
+      "invalid_dimensions": "invalid_dimensions",
+      "invalid_tile_size": "invalid_tile_size",
+      "invalid_waste": "invalid_waste",
+      "positive_values": "positive_values"
     },
+    "feet": "feet",
+    "formula": "formula",
+    "formula_title": "formula_title",
+    "grid_materials": "grid_materials",
+    "hanging_wire": "hanging_wire",
+    "info_description": "info_description",
+    "info_title": "info_title",
+    "main_runners": "main_runners",
+    "meters": "meters",
+    "pieces": "pieces",
     "placeholders": {
-      "room_length": "6",
-      "room_width": "4",
-      "waste": "10",
-      "tile_width": "Tile العرض",
-      "width": "العرض",
-      "tile_length": "Tile الطول",
-      "length": "الطول"
+      "length": "الطول",
+      "tile_length": "tile_length",
+      "tile_width": "tile_width",
+      "waste": "waste",
+      "width": "العرض"
     },
-    "howItWorks": {
-      "title": "كيف تعمل حاسبة الأسقف",
-      "formula": "البلاطات = (مساحة الغرفة / مساحة البلاطة) × (1 + نسبة الهدر)",
-      "explanation": "تحدد هذه الحاسبة كمية بلاطات السقف وجميع مكونات نظام الشبكة اللازمة لتركيب السقف المعلق. تحسب القضبان الرئيسية والعوارض وزوايا الجدار وسلك التعليق.",
-      "steps": [
-        "أدخل أبعاد طول وعرض الغرفة",
-        "اختر حجم البلاطة (60×60 أو 60×120 سم)",
-        "حدد نسبة الهدر لقصات الحواف",
-        "راجع عدد البلاطات ومكونات الشبكة",
-        "خطط التخطيط لتوسيط نمط الشبكة"
-      ]
+    "result_tiles": "result_tiles",
+    "room_area": "room_area",
+    "room_length": "room_length",
+    "room_length_tooltip": "room_length_tooltip",
+    "room_width": "room_width",
+    "room_width_tooltip": "room_width_tooltip",
+    "sizes": {
+      "2x2": "2x2",
+      "2x4": "2x4",
+      "600x1200": "600x1200",
+      "600x600": "600x600",
+      "custom": "custom"
     },
-    "useCases": [
-      {
-        "title": "تركيب أسقف المكاتب",
-        "description": "حساب المواد لأنظمة الأسقف المعلقة في المكاتب التجارية."
-      },
-      {
-        "title": "تشطيب القبو",
-        "description": "تخطيط مواد السقف المستعار لتحويل القبو السكني."
-      },
-      {
-        "title": "المساحات التجارية",
-        "description": "تقدير أنظمة الأسقف للمحلات ومناطق التجزئة."
-      },
-      {
-        "title": "الفصول والمؤسسات",
-        "description": "تحديد المواد للمدارس والمستشفيات والمباني العامة."
-      }
-    ],
-    "seoTips": [
-      "خطط تخطيط الشبكة لتجنب البلاطات الضيقة عند الحواف - وسّط النمط",
-      "حافظ على خلوص 7-10 سم كحد أدنى فوق الشبكة لتركيب البلاطات",
-      "استخدم تباعد 120 سم لسلك التعليق للتركيبات القياسية",
-      "البلاطات الصوتية توفر تصنيفات NRC من 0.50-0.90 لامتصاص الصوت",
-      "البلاطات المقاومة للحريق مطلوبة في التطبيقات التجارية ومتعددة العائلات"
-    ],
-    "commonMistakes": [
-      {
-        "mistake": "الشبكة غير مستوية",
-        "solution": "استخدم ميزان ليزر واضبط أسلاك التعليق لضمان شبكة مستوية تماماً"
-      },
-      {
-        "mistake": "خلوص غير كافٍ",
-        "solution": "حافظ على 7-10 سم كحد أدنى فوق الشبكة لتركيب البلاطات والوصول"
-      },
-      {
-        "mistake": "تخطيط حواف سيء",
-        "solution": "وسّط نمط الشبكة لتجنب البلاطات الضيقة عند الجدران (نصف بلاطة كحد أدنى)"
-      },
-      {
-        "mistake": "تباعد التعليق واسع جداً",
-        "solution": "ركّب المعلقات كل 120 سم كحد أقصى وعلى بعد 60 سم من الجدران"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "كم بلاطة سقف لكل متر مربع؟",
-        "answer": "بلاطات 60×60 سم تغطي 0.36 م² لكل بلاطة (2.78 بلاطة/م²). بلاطات 60×120 سم تغطي 0.72 م² (1.39 بلاطة/م²)."
-      },
-      {
-        "question": "ما ارتفاع السقف المعلق القياسي؟",
-        "answer": "الحد الأدنى 2.4 م لارتفاع السقف النهائي للسكني، 2.7-3 م للتجاري. اسمح بـ 10-15 سم للشبكة والخلوص."
-      },
-      {
-        "question": "ما تباعد القضبان الرئيسية؟",
-        "answer": "القضبان الرئيسية متباعدة 120 سم للتركيبات القياسية. العوارض المتقاطعة تتصل على فترات 60 سم."
-      },
-      {
-        "question": "هل يمكن تركيب إضاءة غاطسة في الأسقف المعلقة؟",
-        "answer": "نعم، استخدم تركيبات غاطسة مصنفة للأسقف المعلقة. تأكد من الخلوص الكافي فوق الشبكة."
-      },
-      {
-        "question": "ما أفضل نوع بلاطة سقف للحمامات؟",
-        "answer": "استخدم بلاطات مقاومة للرطوبة مصنفة للمناطق عالية الرطوبة. ابحث عن بلاطات بواجهة فينيل أو مايلر للأماكن الرطبة."
-      }
-    ],
-    "room_area": "Rooم المساحة",
-    "tile_length": "Tile الطول",
-    "tile_length_tooltip": "Tile الطول Tooltip",
-    "hanging_wire": "Hanجرامبوصةجرام Wire",
-    "tile_width_tooltip": "Tile العرض Tooltip",
-    "pieces": "Pieces",
-    "attachment_points": "Attachمent النقطةs",
-    "tile_area": "Tile المساحة",
-    "tile_width": "Tile العرض",
-    "cross_tees_2ft": "Cross Tees 2قدم",
-    "without_waste": "Without Waste",
-    "cross_tees_4ft": "Cross Tees 4قدم"
+    "tile_area": "tile_area",
+    "tile_length": "tile_length",
+    "tile_length_tooltip": "tile_length_tooltip",
+    "tile_size": "tile_size",
+    "tile_size_tooltip": "tile_size_tooltip",
+    "tile_width": "tile_width",
+    "tile_width_tooltip": "tile_width_tooltip",
+    "tiles": "tiles",
+    "title": "العنوان",
+    "unit": "unit",
+    "unit_tooltip": "unit_tooltip",
+    "use_case_1": "use_case_1",
+    "use_case_2": "use_case_2",
+    "use_case_3": "use_case_3",
+    "use_cases_title": "use_cases_title",
+    "wall_angle": "wall_angle",
+    "waste_factor": "waste_factor",
+    "waste_factor_tooltip": "waste_factor_tooltip",
+    "without_waste": "without_waste"
   },
   "drywall": {
     "title": "حاسبة الجبس بورد",
@@ -4510,167 +3958,76 @@
     "width": "Width"
   },
   "deck": {
-    "title": "حاسبة الشرفات الخشبية",
-    "description": "حساب ألواح التزيين والروافد والأعمدة والمثبتات لبناء الشرفات الخارجية.",
-    "unit": "وحدة القياس",
-    "unit_tooltip": "اختر المتر أو القدم لأبعاد الشرفة",
-    "meters": "متر",
-    "feet": "أقدام",
-    "deck_length": "طول الشرفة",
-    "deck_length_tooltip": "الطول الإجمالي للشرفة",
-    "deck_width": "عرض الشرفة",
-    "deck_width_tooltip": "العرض الإجمالي للشرفة",
-    "board_width": "عرض لوح التزيين",
-    "board_width_tooltip": "عرض كل لوح تزيين (عادة 14 سم)",
-    "joist_spacing": "تباعد الروافد",
-    "joist_spacing_tooltip": "التباعد من مركز لمركز بين الروافد",
-    "spacings": {
-      "12": "30 سم (للأحمال الثقيلة)",
-      "16": "40 سم (قياسي)",
-      "24": "60 سم (للأحمال الخفيفة)"
+    "beams": "beams",
+    "board_feet": "board_feet",
+    "board_length": "board_length",
+    "board_length_tooltip": "board_length_tooltip",
+    "board_lengths": {
+      "10ft": "10ft",
+      "12ft": "12ft",
+      "14ft": "14ft",
+      "16ft": "16ft",
+      "8ft": "8ft"
     },
-    "waste_factor": "نسبة الهدر (%)",
-    "waste_factor_tooltip": "مواد إضافية للقص والهدر (عادة 10-15%)",
-    "result_boards": "ألواح التزيين المطلوبة",
-    "boards": "لوح",
-    "framing_materials": "مواد الهيكلة",
-    "joists": "الروافد",
-    "posts": "أعمدة الدعم",
-    "beams": "العوارض",
-    "fasteners": "مسامير الشرفة",
-    "formula_title": "صيغة الحساب",
-    "formula": "الألواح = (مساحة الشرفة / تغطية اللوح) × (1 + الهدر). الروافد = (الطول / التباعد) + 1.",
-    "info_title": "عن حساب الشرفات",
-    "info_description": "بناء الشرفة يتطلب ألواح تزيين وهيكلة إنشائية وأعمدة ومثبتات. تقدر هذه الحاسبة جميع المكونات الرئيسية.",
-    "use_cases_title": "الاستخدامات الشائعة",
-    "use_case_1": "بناء شرفات الحديقة الخلفية",
-    "use_case_2": "تزيين الشرفات والفناء",
-    "use_case_3": "محيط المسابح ومساحات المعيشة الخارجية",
+    "board_size": "board_size",
+    "board_size_tooltip": "board_size_tooltip",
+    "board_sizes": {
+      "2x4": "2x4",
+      "2x6": "2x6",
+      "5_4x6": "5_4x6",
+      "composite": "composite"
+    },
+    "boxes": "boxes",
+    "deck_length": "deck_length",
+    "deck_length_tooltip": "deck_length_tooltip",
+    "deck_width": "deck_width",
+    "deck_width_tooltip": "deck_width_tooltip",
+    "decking_boards": "decking_boards",
+    "decking_materials": "decking_materials",
+    "description": "الوصف",
+    "doubled": "doubled",
     "errors": {
-      "invalid_dimensions": "يرجى إدخال أبعاد السطح الصحيحة",
-      "positive_values": "يجب أن تكون جميع القيم أرقام موجبة",
-      "invalid_waste": "يجب أن تكون نسبة الهدر بين 0 و 50٪",
-      "invalid_board_length": "يرجى اختيار طول لوح صالح"
+      "invalid_board_length": "invalid_board_length",
+      "invalid_dimensions": "invalid_dimensions",
+      "invalid_waste": "invalid_waste",
+      "positive_values": "positive_values"
     },
+    "feet": "feet",
+    "footings": "footings",
+    "formula": "formula",
+    "formula_title": "formula_title",
+    "hardware": "hardware",
+    "info_description": "info_description",
+    "info_title": "info_title",
+    "joist_options": {
+      "12": "12",
+      "16": "16",
+      "24": "24"
+    },
+    "joist_spacing": "joist_spacing",
+    "joist_spacing_tooltip": "joist_spacing_tooltip",
+    "joists": "joists",
+    "meters": "meters",
     "placeholders": {
-      "deck_length": "5",
-      "deck_width": "4",
-      "board_width": "14",
-      "waste": "10",
       "length": "الطول",
+      "waste": "waste",
       "width": "العرض"
     },
-    "howItWorks": {
-      "title": "كيف تعمل حاسبة الشرفات",
-      "formula": "ألواح التزيين = (مساحة الشرفة / تغطية اللوح) × (1 + الهدر)",
-      "explanation": "تحدد هذه الحاسبة ألواح التزيين بناءً على مساحة السطح وعرض اللوح. كما تحسب الروافد والكمرات والأعمدة والمثبتات اللازمة لبناء الشرفة بالكامل.",
-      "steps": [
-        "أدخل أبعاد طول وعرض الشرفة",
-        "اختر عرض لوح التزيين",
-        "اختر تباعد الروافد (40 سم قياسي)",
-        "حدد نسبة الهدر للقص والفاقد",
-        "راجع جميع المواد: الألواح، الهيكلة، المثبتات"
-      ]
-    },
-    "useCases": [
-      {
-        "title": "شرفة مستوى الأرض",
-        "description": "حساب المواد للشرفات القائمة بذاتها على مستوى الأرض."
-      },
-      {
-        "title": "شرفة مرتفعة",
-        "description": "تخطيط المواد للشرفات المرتفعة بهيكلة أعمدة وكمرات."
-      },
-      {
-        "title": "شرفة متعددة المستويات",
-        "description": "تقدير المواد لتصاميم الشرفات المعقدة متعددة الطبقات."
-      },
-      {
-        "title": "استبدال الشرفة",
-        "description": "تحديد كميات ألواح التزيين لاستبدال السطح."
-      }
-    ],
-    "seoTips": [
-      "استخدم تباعد 40 سم للروافد لمعظم مواد التزيين",
-      "التزيين المركب وPVC قد يتطلب تباعد 30 سم - تحقق من مواصفات الشركة المصنعة",
-      "يجب تثبيت الأعمدة في الخرسانة بعمق 100 سم على الأقل في المناطق الباردة",
-      "اترك فجوة 3 مم بين الألواح للصرف والتمدد",
-      "استخدم مسامير ستانلس ستيل أو مطلية مع الخشب المعالج والمركب"
-    ],
-    "commonMistakes": [
-      {
-        "mistake": "تباعد الروافد واسع جداً",
-        "solution": "اتبع توصيات الشركة المصنعة للتزيين - عادة 40 سم كحد أقصى"
-      },
-      {
-        "mistake": "عمق أعمدة غير كافٍ",
-        "solution": "ثبت الأعمدة تحت خط الصقيع (100+ سم) لمنع الرفع"
-      },
-      {
-        "mistake": "مثبتات خاطئة",
-        "solution": "استخدم مسامير معتمدة لنوع التزيين - متوافقة مع ACQ للخشب المعالج"
-      },
-      {
-        "mistake": "لا ميل للصرف",
-        "solution": "ركّب الشرفة بميل طفيف (0.5 سم لكل 30 سم) بعيداً عن المنزل"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "كم لوح شرفة أحتاج؟",
-        "answer": "اقسم المساحة المربعة للشرفة على تغطية اللوح (لوح 14 سم يغطي 0.14 م² لكل متر طولي). أضف 10-15% للهدر."
-      },
-      {
-        "question": "ما حجم الروافد للشرفة؟",
-        "answer": "روافد 5×20 سم تمتد حتى 3.6 م، 5×25 سم حتى 4.5 م، 5×30 سم حتى 5.5 م بتباعد 40 سم. راجع الكود المحلي للمتطلبات المحددة."
-      },
-      {
-        "question": "كم مسمار لكل لوح شرفة؟",
-        "answer": "استخدم 2 مسمار لكل تقاطع رافدة. لوح 3.6 م عبر 9 روافد يحتاج 18 مسماراً. خطط لتقريباً 350 مسماراً لكل 10 م² من التزيين."
-      },
-      {
-        "question": "هل أستخدم الخشب المعالج أم المركب؟",
-        "answer": "الخشب المعالج أقل تكلفة مبدئياً لكن يتطلب صيانة. المركب أغلى لكن قليل الصيانة ويدوم أطول."
-      },
-      {
-        "question": "هل أحتاج تصريح للشرفة؟",
-        "answer": "معظم المناطق تتطلب تصاريح للشرفات فوق 20 م² أو أكثر من 75 سم فوق الأرض. راجع كود البناء المحلي."
-      }
-    ],
-    "board_length": "طول اللوح",
-    "board_length_tooltip": "الطول القياسي لألواح السطح",
-    "board_lengths": {
-      "8ft": "8 أقدام",
-      "10ft": "10 أقدام",
-      "12ft": "12 قدم",
-      "14ft": "14 قدم",
-      "16ft": "16 قدم"
-    },
-    "board_size": "حجم اللوح",
-    "board_size_tooltip": "أبعاد لوح السطح",
-    "board_sizes": {
-      "2x4": "2×4 بوصة",
-      "2x6": "2×6 بوصة",
-      "5_4x6": "5/4×6 بوصة",
-      "composite": "مركب"
-    },
-    "joist_options": {
-      "12": "12 بوصة",
-      "16": "16 بوصة",
-      "24": "24 بوصة"
-    },
-    "footings": "الأساسات",
-    "decking_boards": "ألواح السطح",
-    "decking_materials": "مواد السطح",
-    "doubled": "مضاعف",
-    "board_feet": "قدم لوح",
-    "boxes": "صناديق",
-    "hardware": "المعدات",
-    "sqft": "قدم مربع",
-    "screws_total": "Screws الإجمالي",
-    "screws": "Screws",
-    "result_area": "النتيجة المساحة",
-    "posts_label": "Posts التسمية"
+    "posts": "posts",
+    "posts_label": "posts_label",
+    "result_area": "result_area",
+    "screws": "screws",
+    "screws_total": "screws_total",
+    "sqft": "sqft",
+    "title": "العنوان",
+    "unit": "unit",
+    "unit_tooltip": "unit_tooltip",
+    "use_case_1": "use_case_1",
+    "use_case_2": "use_case_2",
+    "use_case_3": "use_case_3",
+    "use_cases_title": "use_cases_title",
+    "waste_factor": "waste_factor",
+    "waste_factor_tooltip": "waste_factor_tooltip"
   },
   "shingle": {
     "title": "حاسبة القرميد",
@@ -4817,158 +4174,73 @@
     }
   },
   "wallpaper": {
-    "title": "حاسبة ورق الجدران",
-    "description": "حساب لفات ورق الجدران المطلوبة لتغطية الغرفة مع بدل تكرار النمط.",
-    "unit": "وحدة القياس",
-    "unit_tooltip": "اختر القدم أو المتر لأبعاد الغرفة",
-    "feet": "أقدام",
-    "meters": "أمتار",
-    "room_perimeter": "محيط الغرفة",
-    "room_perimeter_tooltip": "إجمالي طول جميع الجدران (أو مجموع أطوال الجدران)",
-    "wall_height": "ارتفاع الجدار",
-    "wall_height_tooltip": "الارتفاع من الأرضية للسقف",
-    "roll_width": "عرض اللفة",
-    "roll_width_tooltip": "عرض لفة ورق الجدران",
-    "roll_length": "طول اللفة",
-    "roll_length_tooltip": "طول لفة ورق الجدران الواحدة",
-    "pattern_repeat": "تكرار النمط",
-    "pattern_repeat_tooltip": "المسافة بين تكرارات النمط (0 لعدم وجود نمط)",
-    "doors_windows": "خصم الأبواب/النوافذ",
-    "doors_windows_tooltip": "إجمالي مساحة الأبواب والنوافذ للخصم",
-    "result_rolls": "اللفات المطلوبة",
-    "rolls": "لفة",
-    "details": "تفاصيل الحساب",
-    "gross_area": "إجمالي مساحة الجدار",
-    "net_area": "صافي مساحة التغطية",
-    "usable_per_roll": "التغطية القابلة للاستخدام لكل لفة",
-    "formula_title": "صيغة الحساب",
-    "formula": "اللفات = صافي مساحة الجدار / التغطية القابلة للاستخدام لكل لفة. تكرار النمط يقلل التغطية القابلة للاستخدام.",
-    "info_title": "عن حساب ورق الجدران",
-    "info_description": "حساب ورق الجدران يجب أن يأخذ في الاعتبار تكرارات النمط التي تزيد الهدر. تحدد هذه الحاسبة اللفات المطلوبة بما في ذلك البدلات المناسبة.",
-    "use_cases_title": "الاستخدامات الشائعة",
-    "use_case_1": "ديكور الغرف السكنية",
-    "use_case_2": "تغطية جدار مميز",
-    "use_case_3": "التصميم الداخلي التجاري",
-    "roll_size": "حجم اللفة",
-    "roll_size_tooltip": "أبعاد لفة ورق الجدران",
-    "pattern_type": "نوع النمط",
-    "pattern_type_tooltip": "نوع نمط ورق الجدران يؤثر على الهدر",
-    "openings_area": "مساحة الفتحات",
-    "openings_area_tooltip": "المساحة الإجمالية للأبواب والنوافذ",
-    "waste_factor": "عامل الهدر (%)",
-    "waste_factor_tooltip": "مواد إضافية للقص والأخطاء",
-    "total_wall_area": "إجمالي مساحة الجدار",
-    "net_wall_area": "مساحة الجدار الصافية",
-    "roll_coverage": "تغطية اللفة",
-    "total_coverage": "التغطية الإجمالية",
-    "without_waste": "بدون هدر",
-    "sizes": {
-      "standard_us": "قياسي أمريكي (27 بوصة × 33 قدم)",
-      "standard_euro": "قياسي أوروبي (21 بوصة × 33 قدم)",
-      "wide_euro": "أوروبي عريض (27.5 بوصة × 33 قدم)",
-      "metric": "متري (53 سم × 10 م)",
-      "custom": "حجم مخصص"
-    },
-    "patterns": {
-      "none": "بدون نمط",
-      "straight": "مطابقة مستقيمة",
-      "drop": "مطابقة منسدلة",
-      "random": "مطابقة عشوائية",
-      "large": "نمط كبير"
-    },
+    "description": "الوصف",
+    "details": "details",
     "errors": {
-      "invalid_dimensions": "الرجاء إدخال أبعاد غرفة صحيحة",
-      "positive_values": "يجب أن تكون الأبعاد أكبر من صفر",
-      "invalid_repeat": "تكرار النمط لا يمكن أن يكون سالباً",
-      "invalid_roll_size": "يرجى إدخال أبعاد لفة صالحة",
-      "invalid_openings": "لا يمكن أن تتجاوز مساحة الفتحات مساحة الجدار",
-      "invalid_waste": "يجب أن تكون نسبة الهدر بين 0 و 50٪"
+      "invalid_dimensions": "invalid_dimensions",
+      "invalid_openings": "invalid_openings",
+      "invalid_roll_size": "invalid_roll_size",
+      "invalid_waste": "invalid_waste",
+      "positive_values": "positive_values"
+    },
+    "feet": "feet",
+    "formula": "formula",
+    "formula_title": "formula_title",
+    "info_description": "info_description",
+    "info_title": "info_title",
+    "meters": "meters",
+    "net_wall_area": "net_wall_area",
+    "openings_area": "openings_area",
+    "openings_area_tooltip": "openings_area_tooltip",
+    "pattern_type": "pattern_type",
+    "pattern_type_tooltip": "pattern_type_tooltip",
+    "patterns": {
+      "drop": "drop",
+      "large": "large",
+      "none": "none",
+      "random": "random",
+      "straight": "straight"
     },
     "placeholders": {
-      "height": "أدخل ارتفاع الجدار",
-      "perimeter": "أدخل المحيط",
-      "openings": "أدخل مساحة الفتحات",
-      "roll_length": "أدخل طول اللفة",
-      "roll_width": "أدخل عرض اللفة",
-      "waste": "أدخل نسبة الهدر"
+      "height": "الارتفاع",
+      "openings": "openings",
+      "perimeter": "perimeter",
+      "roll_length": "roll_length",
+      "roll_width": "roll_width",
+      "waste": "waste"
     },
-    "howItWorks": {
-      "title": "كيف تعمل حاسبة ورق الجدران",
-      "formula": "اللفات = صافي مساحة الجدار / (تغطية اللفة - هدر النمط)",
-      "explanation": "تحدد هذه الحاسبة كمية لفات ورق الجدران بحساب مساحة الجدار، وخصم الفتحات، وحساب هدر تكرار النمط. تكرارات النمط تزيد احتياجات المواد بشكل كبير.",
-      "steps": [
-        "احسب محيط الغرفة (مجموع أطوال الجدران)",
-        "أدخل ارتفاع الجدار وأبعاد اللفة",
-        "أضف مسافة تكرار النمط (0 للأنماط الصلبة)",
-        "اخصم مساحات الأبواب والنوافذ",
-        "راجع اللفات المطلوبة مع بدل الهدر"
-      ]
+    "result_rolls": "result_rolls",
+    "roll_coverage": "roll_coverage",
+    "roll_length": "roll_length",
+    "roll_length_tooltip": "roll_length_tooltip",
+    "roll_size": "roll_size",
+    "roll_size_tooltip": "roll_size_tooltip",
+    "roll_width": "roll_width",
+    "roll_width_tooltip": "roll_width_tooltip",
+    "rolls": "rolls",
+    "room_perimeter": "room_perimeter",
+    "room_perimeter_tooltip": "room_perimeter_tooltip",
+    "sizes": {
+      "custom": "custom",
+      "metric": "metric",
+      "standard_euro": "standard_euro",
+      "standard_us": "standard_us",
+      "wide_euro": "wide_euro"
     },
-    "useCases": [
-      {
-        "title": "تغطية الغرفة بالكامل",
-        "description": "حساب ورق الجدران لتغطية الغرفة بالكامل."
-      },
-      {
-        "title": "جدار مميز",
-        "description": "تقدير اللفات لتركيب جدار مميز واحد."
-      },
-      {
-        "title": "الحمام والمطبخ",
-        "description": "تخطيط ورق الجدران للمساحات الأصغر ذات الفتحات الكثيرة."
-      },
-      {
-        "title": "المساحات التجارية",
-        "description": "حساب تركيبات ورق الجدران واسعة النطاق للمكاتب والتجزئة."
-      }
-    ],
-    "seoTips": [
-      "تكرارات النمط يمكن أن تزيد الهدر بنسبة 20-30% - احسب هذا",
-      "اللفات القياسية عادة 53 سم × 10 م (5.3 م² تغطية)",
-      "اطلب جميع اللفات من نفس دفعة الصبغ لضمان تناسق اللون",
-      "أضف لفة إضافية واحدة للإصلاحات المستقبلية ومطابقة النمط عند الزوايا",
-      "احتفظ بلفة إضافية للإصلاحات المستقبلية ومطابقة الأنماط عند الزوايا"
-    ],
-    "commonMistakes": [
-      {
-        "mistake": "تجاهل تكرار النمط",
-        "solution": "تكرارات النمط الكبيرة يمكن أن تهدر 30% - قس وضمّن في الحسابات"
-      },
-      {
-        "mistake": "دفعات صبغ مختلفة",
-        "solution": "اطلب جميع اللفات دفعة واحدة من نفس الدفعة - الألوان تختلف بين دفعات الإنتاج"
-      },
-      {
-        "mistake": "عدم طلب إضافي",
-        "solution": "أضف لفة واحدة على الأقل للأخطاء والإصلاحات والمطابقة عند الزوايا"
-      },
-      {
-        "mistake": "قياس العرض بشكل خاطئ",
-        "solution": "قس ارتفاع الجدار زائد 10 سم للتقليم في الأعلى والأسفل"
-      }
-    ],
-    "faqs": [
-      {
-        "question": "كم لفة ورق جدران لغرفة 4×4 متر؟",
-        "answer": "غرفة 4×4 م بارتفاع 2.7 م بها حوالي 43 م² من مساحة الجدار. بعد خصم الفتحات، توقع 5-7 لفات مزدوجة حسب تكرار النمط."
-      },
-      {
-        "question": "ما هو تكرار النمط ولماذا يهم؟",
-        "answer": "تكرار النمط هو المسافة قبل تكرار التصميم. التكرارات الأكبر تنشئ هدراً أكثر لأن الشرائط يجب محاذاتها، مما قد يتطلب 20-30% مواد إضافية."
-      },
-      {
-        "question": "ما الفرق بين اللفات المفردة والمزدوجة؟",
-        "answer": "اللفات المفردة 5 م²، المزدوجة 10 م². معظم ورق الجدران الآن يُباع فقط بلفات مزدوجة لكن يُسعر باللفة المفردة."
-      },
-      {
-        "question": "كم يدوم ورق الجدران؟",
-        "answer": "ورق الجدران عالي الجودة يدوم 10-15 سنة أو أكثر. الأنواع الفينيل والقابلة للغسل هي الأكثر متانة للمناطق ذات الحركة العالية والرطوبة."
-      },
-      {
-        "question": "هل يمكن تعليق ورق جدران فوق ورق جدران موجود؟",
-        "answer": "غير موصى به. أزل ورق الجدران القديم، أصلح الجدران، وطبق البرايمر لأفضل التصاق وتشطيب ناعم."
-      }
-    ]
+    "title": "العنوان",
+    "total_coverage": "total_coverage",
+    "total_wall_area": "total_wall_area",
+    "unit": "unit",
+    "unit_tooltip": "unit_tooltip",
+    "use_case_1": "use_case_1",
+    "use_case_2": "use_case_2",
+    "use_case_3": "use_case_3",
+    "use_cases_title": "use_cases_title",
+    "wall_height": "wall_height",
+    "wall_height_tooltip": "wall_height_tooltip",
+    "waste_factor": "waste_factor",
+    "waste_factor_tooltip": "waste_factor_tooltip",
+    "without_waste": "without_waste"
   },
   "waterproofing": {
     "title": "حاسبة العزل المائي",
