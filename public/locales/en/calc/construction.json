@@ -5099,5 +5099,9 @@
   "mm": "Mm",
   "cm": "Cm",
   "sqft": "sq ft",
-  "inches": "Inches"
+  "inches": "Inches",
+  "placeholders": {
+    "length": "10",
+    "height": "3"
+  }
 }

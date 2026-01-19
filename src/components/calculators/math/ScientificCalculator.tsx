@@ -206,7 +206,7 @@ export default function ScientificCalculator() {
           <NumberInput
             value={display === '0' ? '' : display}
             onValueChange={(val) => setDisplay(val.toString() || '0')}
-            placeholder="0"
+            placeholder={t("placeholders.0")}
             startIcon={<Hash className="h-4 w-4" />}
             className="font-mono"
           />

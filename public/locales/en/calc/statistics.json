@@ -602,5 +602,10 @@
   },
   "common": {
     "info": "Info"
+  },
+  "placeholders": {
+    "confidenceLevel": "95",
+    "proportion": "0.5",
+    "successfulOutcomes": "6"
   }
 }

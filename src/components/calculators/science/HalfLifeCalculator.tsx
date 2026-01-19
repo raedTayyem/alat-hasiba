@@ -185,7 +185,7 @@ export default function HalfLifeCalculator() {
             value={initialAmount}
             onValueChange={(val) => setInitialAmount(val.toString())}
             onKeyPress={handleKeyPress}
-            placeholder="100"
+            placeholder={t("placeholders.initialAmount")}
             min={0}
             step={1}
             startIcon={<Atom className="h-4 w-4" />}
@@ -201,7 +201,7 @@ export default function HalfLifeCalculator() {
               value={halfLife}
               onValueChange={(val) => setHalfLife(val.toString())}
               onKeyPress={handleKeyPress}
-              placeholder="5730"
+              placeholder={t("placeholders.halfLife")}
               min={0}
               step={1}
               startIcon={<Timer className="h-4 w-4" />}
@@ -227,7 +227,7 @@ export default function HalfLifeCalculator() {
               value={elapsedTime}
               onValueChange={(val) => setElapsedTime(val.toString())}
               onKeyPress={handleKeyPress}
-              placeholder="10000"
+              placeholder={t("placeholders.elapsedTime")}
               min={0}
               step={1}
               startIcon={<Timer className="h-4 w-4" />}

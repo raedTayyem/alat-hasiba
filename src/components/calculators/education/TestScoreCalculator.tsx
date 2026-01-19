@@ -126,7 +126,7 @@ export default function TestScoreCalculator() {
           <NumberInput
             value={totalQuestions}
             onValueChange={(val) => setTotalQuestions(val.toString())}
-            placeholder="50"
+            placeholder={t("placeholders.totalQuestions")}
             min={1}
             step={1}
             startIcon={<FileText className="w-4 h-4" />}
@@ -136,7 +136,7 @@ export default function TestScoreCalculator() {
           <NumberInput
             value={wrongAnswers}
             onValueChange={(val) => setWrongAnswers(val.toString())}
-            placeholder="5"
+            placeholder={t("placeholders.wrongAnswers")}
             min={0}
             step={1}
             startIcon={<XCircle className="w-4 h-4 text-error" />}

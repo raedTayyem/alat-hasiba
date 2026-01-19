@@ -103,7 +103,7 @@ export default function MotorCalculator() {
             value={voltage}
             onValueChange={(val) => setVoltage(String(val))}
             unit={t("ohms_law.unit_voltage")}
-            placeholder="220, 380, 400"
+            placeholder={t("placeholders.voltage")}
             min={0}
             step={1}
           />
@@ -114,7 +114,7 @@ export default function MotorCalculator() {
             value={efficiency}
             onValueChange={(val) => setEfficiency(String(val))}
             unit={t("common:units.percent")}
-            placeholder="80-95"
+            placeholder={t("placeholders.efficiency")}
             min={0}
             max={100}
             step={1}

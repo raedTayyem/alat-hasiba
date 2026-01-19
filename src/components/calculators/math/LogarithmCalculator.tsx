@@ -122,7 +122,7 @@ export default function LogarithmCalculator() {
             value={value}
             onValueChange={(val) => setValue(val.toString())}
             onKeyPress={handleKeyPress}
-            placeholder="100"
+            placeholder={t("placeholders.value")}
             startIcon={<Hash className="h-4 w-4" />}
           />
         </FormField>
@@ -133,7 +133,7 @@ export default function LogarithmCalculator() {
               value={base}
               onValueChange={(val) => setBase(val.toString())}
               onKeyPress={handleKeyPress}
-              placeholder="10"
+              placeholder={t("placeholders.base")}
               startIcon={<Hash className="h-4 w-4" />}
             />
           </FormField>

@@ -99,7 +99,7 @@ export default function WaistToHipRatioCalculator() {
             value={waist}
             onValueChange={(val) => setWaist(String(val))}
             onKeyPress={(e) => e.key === 'Enter' && calculateWHR()}
-            placeholder="80"
+            placeholder={t("placeholders.waist")}
             step={0.1}
           />
         </InputContainer>
@@ -109,7 +109,7 @@ export default function WaistToHipRatioCalculator() {
             value={hip}
             onValueChange={(val) => setHip(String(val))}
             onKeyPress={(e) => e.key === 'Enter' && calculateWHR()}
-            placeholder="100"
+            placeholder={t("placeholders.hip")}
             step={0.1}
           />
         </InputContainer>

@@ -75,7 +75,7 @@ export default function WeightGainCalculator() {
           <NumberInput
             value={targetGain}
             onValueChange={(val) => setTargetGain(val.toString())}
-            placeholder="0.5"
+            placeholder={t("placeholders.targetGain")}
             min={0.1}
             max={1}
             step={0.1}

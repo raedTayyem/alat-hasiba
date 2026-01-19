@@ -14,7 +14,8 @@ const physicsCalculators: Calculator[] = [
     category: 'physics',
     icon: '⚙️',
     popularity: 5,
-    componentName: 'RotationalMotionCalculator'
+    componentName: 'RotationalMotionCalculator',
+    keywords: ['rotational', 'دوراني', 'motion', 'حركة', 'angular', 'زاوي', 'velocity', 'سرعة', 'torque', 'عزم']
   },
   {
     id: 907,
@@ -28,7 +29,8 @@ const physicsCalculators: Calculator[] = [
     category: 'physics',
     icon: '🍎',
     popularity: 6,
-    componentName: 'NewtonLawsCalculator'
+    componentName: 'NewtonLawsCalculator',
+    keywords: ['newton', 'نيوتن', 'force', 'قوة', 'mass', 'كتلة', 'acceleration', 'تسارع', 'physics', 'فيزياء']
   },
   {
     id: 141,
@@ -42,7 +44,8 @@ const physicsCalculators: Calculator[] = [
     category: 'physics',
     icon: '🚀',
     popularity: 7,
-    componentName: 'VelocityAccelerationCalculator'
+    componentName: 'VelocityAccelerationCalculator',
+    keywords: ['velocity', 'سرعة', 'acceleration', 'تسارع', 'motion', 'حركة', 'kinematics', 'حركيات', 'physics', 'فيزياء']
   },
 
   {
@@ -57,7 +60,8 @@ const physicsCalculators: Calculator[] = [
     category: 'physics',
     icon: '🏎️',
     popularity: 6,
-    componentName: 'AccelerationCalculator'
+    componentName: 'AccelerationCalculator',
+    keywords: ['acceleration', 'تسارع', 'velocity', 'سرعة', 'time', 'زمن', 'motion', 'حركة', 'physics', 'فيزياء']
   },
   {
     id: 146,
@@ -71,7 +75,8 @@ const physicsCalculators: Calculator[] = [
     category: 'physics',
     icon: '💪',
     popularity: 7,
-    componentName: 'ForceCalculator'
+    componentName: 'ForceCalculator',
+    keywords: ['force', 'قوة', 'mass', 'كتلة', 'acceleration', 'تسارع', 'newton', 'نيوتن', 'physics', 'فيزياء']
   },
   {
     id: 147,
@@ -85,7 +90,8 @@ const physicsCalculators: Calculator[] = [
     category: 'physics',
     icon: '🎾',
     popularity: 5,
-    componentName: 'MomentumCalculator'
+    componentName: 'MomentumCalculator',
+    keywords: ['momentum', 'زخم', 'mass', 'كتلة', 'velocity', 'سرعة', 'impulse', 'دفع', 'physics', 'فيزياء']
   },
 
   {
@@ -100,7 +106,8 @@ const physicsCalculators: Calculator[] = [
     category: 'physics',
     icon: '⚡',
     popularity: 6,
-    componentName: 'EnergyCalculator'
+    componentName: 'EnergyCalculator',
+    keywords: ['energy', 'طاقة', 'kinetic', 'حركية', 'potential', 'كامنة', 'work', 'شغل', 'physics', 'فيزياء']
   },
   {
     id: 144,
@@ -114,7 +121,8 @@ const physicsCalculators: Calculator[] = [
     category: 'physics',
     icon: '💡',
     popularity: 6,
-    componentName: 'PowerElectricityCalculator'
+    componentName: 'PowerElectricityCalculator',
+    keywords: ['power', 'قدرة', 'electricity', 'كهرباء', 'voltage', 'جهد', 'current', 'تيار', 'watt', 'واط']
   },
 
   // Electrical resistance calculator moved to engineering

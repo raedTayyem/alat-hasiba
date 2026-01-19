@@ -133,7 +133,7 @@ export default function CapRateCalculator() {
             value={propertyValue}
             onValueChange={(val) => setPropertyValue(val.toString())}
             onKeyPress={handleKeyPress}
-            placeholder="500000"
+            placeholder={t("placeholders.propertyValue")}
             min={0}
             startIcon={<Building className="h-4 w-4" />}
           />
@@ -147,7 +147,7 @@ export default function CapRateCalculator() {
             value={annualIncome}
             onValueChange={(val) => setAnnualIncome(val.toString())}
             onKeyPress={handleKeyPress}
-            placeholder="50000"
+            placeholder={t("placeholders.annualIncome")}
             min={0}
             startIcon={<DollarSign className="h-4 w-4" />}
           />
@@ -161,7 +161,7 @@ export default function CapRateCalculator() {
             value={operatingExpenses}
             onValueChange={(val) => setOperatingExpenses(val.toString())}
             onKeyPress={handleKeyPress}
-            placeholder="15000"
+            placeholder={t("placeholders.operatingExpenses")}
             min={0}
             startIcon={<DollarSign className="h-4 w-4" />}
           />

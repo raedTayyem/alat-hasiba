@@ -197,7 +197,7 @@ export default function RefinanceCalculator() {
             value={currentBalance}
             onValueChange={(val) => { setCurrentBalance(val.toString()); if (error) setError(''); }}
             onKeyPress={handleKeyPress}
-            placeholder="200000"
+            placeholder={t("placeholders.currentBalance")}
             startIcon={<DollarSign className="h-4 w-4" />}
             min={0}
           />
@@ -211,7 +211,7 @@ export default function RefinanceCalculator() {
             value={currentRate}
             onValueChange={(val) => { setCurrentRate(val.toString()); if (error) setError(''); }}
             onKeyPress={handleKeyPress}
-            placeholder="6.5"
+            placeholder={t("placeholders.currentRate")}
             startIcon={<Percent className="h-4 w-4" />}
             step={0.1}
             min={0}
@@ -227,7 +227,7 @@ export default function RefinanceCalculator() {
             value={currentPayment}
             onValueChange={(val) => { setCurrentPayment(val.toString()); if (error) setError(''); }}
             onKeyPress={handleKeyPress}
-            placeholder="1264"
+            placeholder={t("placeholders.currentPayment")}
             startIcon={<DollarSign className="h-4 w-4" />}
             min={0}
           />
@@ -241,7 +241,7 @@ export default function RefinanceCalculator() {
             value={newRate}
             onValueChange={(val) => { setNewRate(val.toString()); if (error) setError(''); }}
             onKeyPress={handleKeyPress}
-            placeholder="5.0"
+            placeholder={t("placeholders.newRate")}
             startIcon={<Percent className="h-4 w-4" />}
             step={0.1}
             min={0}
@@ -257,7 +257,7 @@ export default function RefinanceCalculator() {
             value={closingCosts}
             onValueChange={(val) => { setClosingCosts(val.toString()); if (error) setError(''); }}
             onKeyPress={handleKeyPress}
-            placeholder="3000"
+            placeholder={t("placeholders.closingCosts")}
             startIcon={<DollarSign className="h-4 w-4" />}
             min={0}
           />
@@ -271,7 +271,7 @@ export default function RefinanceCalculator() {
             value={remainingYears}
             onValueChange={(val) => { setRemainingYears(val.toString()); if (error) setError(''); }}
             onKeyPress={handleKeyPress}
-            placeholder="25"
+            placeholder={t("placeholders.remainingYears")}
             startIcon={<Calendar className="h-4 w-4" />}
             min={0}
             max={40}

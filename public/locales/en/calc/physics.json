@@ -979,92 +979,6 @@
       }
     ]
   },
-  "rotational_motion_calculator": {
-    "title": "Rotational Motion Calculator",
-    "description": "Calculate angular velocity, radius, torque, and rotational kinetic energy.",
-    "inputs": {
-      "angular_velocity": "Angular Velocity (ω) in rad/s",
-      "radius": "Radius (r) in meters",
-      "mass": "Mass (m) in kg",
-      "angle": "Angle (θ) in degrees",
-      "time": "Time (t) in seconds",
-      "linear_velocity_optional": "Linear Velocity (v) in m/s (optional)"
-    },
-    "placeholders": {
-      "angular_velocity": "Enter angular velocity",
-      "radius": "Enter radius",
-      "mass": "Enter mass",
-      "angle": "Enter angle",
-      "time": "Enter time",
-      "linear_velocity": "Enter linear velocity"
-    },
-    "results": {
-      "title": "Results",
-      "linear_velocity": "Linear Velocity",
-      "centripetal_acceleration": "Centripetal Acceleration",
-      "centripetal_force": "Centripetal Force",
-      "kinetic_energy": "Rotational Kinetic Energy",
-      "angular_momentum": "Angular Momentum",
-      "distance_traveled": "Distance Traveled",
-      "period_of_rotation": "Period of Rotation"
-    },
-    "units": {
-      "m_s": "m/s",
-      "m_s2": "m/s²",
-      "N": "N",
-      "J": "J",
-      "m": "m",
-      "s": "s",
-      "kg_m2_s": "kg·m²/s"
-    },
-    "howItWorks": {
-      "title": "How Does the Rotational Motion Calculator Work?",
-      "formula": "v = ωr | ac = ω²r | T = 2π/ω",
-      "explanation": "This calculator computes all rotational motion variables including linear velocity, centripetal acceleration, angular momentum, and rotational kinetic energy.",
-      "steps": [
-        "Enter the angular velocity in radians per second",
-        "Enter the radius in meters",
-        "Enter the mass if you want force and energy calculations",
-        "Click Calculate to get all results"
-      ]
-    },
-    "useCases": [
-      "Analyze wheel and gear motion",
-      "Calculate satellite orbital speeds",
-      "Design rotating machinery",
-      "Study planetary and stellar motion"
-    ],
-    "seoTips": [
-      "Linear velocity = Angular velocity × Radius",
-      "Centripetal acceleration always points toward the center",
-      "Period of rotation = 2π ÷ Angular velocity",
-      "Frequency = Number of revolutions per second = 1/T"
-    ],
-    "commonMistakes": [
-      "Confusing degrees and radians for angular velocity",
-      "Forgetting that centripetal acceleration is perpendicular to velocity",
-      "Using mass instead of moment of inertia in some calculations",
-      "Ignoring the direction of angular velocity (right-hand rule)"
-    ],
-    "faqs": [
-      {
-        "question": "What is a radian?",
-        "answer": "A radian is the angle subtended by an arc whose length equals the radius. One full revolution = 2π radians = 360°"
-      },
-      {
-        "question": "What is the relationship between RPM and rad/s?",
-        "answer": "ω (rad/s) = RPM × 2π/60. Example: 60 RPM = 2π rad/s ≈ 6.28 rad/s"
-      },
-      {
-        "question": "Why is centripetal acceleration called that?",
-        "answer": "Because it always points toward the center of the circle, responsible for changing the direction of velocity without changing its magnitude."
-      },
-      {
-        "question": "What is centrifugal force?",
-        "answer": "It is a fictitious force that appears in a rotating reference frame, not a real force. The real force is centripetal."
-      }
-    ]
-  },
   "density": {
     "title": "Density Calculator",
     "description": "Calculate density, mass, or volume using the density formula.",
@@ -1292,5 +1206,9 @@
     "minute": "Minute",
     "hour": "Hour",
     "value": "Value"
+  },
+  "placeholders": {
+    "mass": "10",
+    "velocity": "5"
   }
 }

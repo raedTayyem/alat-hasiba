@@ -4377,5 +4377,13 @@
   },
   "calculators": {
     "invalid_input": "Invalid Input"
+  },
+  "placeholders": {
+    "currentWeight": "90",
+    "targetWeight": "80",
+    "distance1": "5",
+    "hours": "0",
+    "minutes": "30",
+    "seconds": "0"
   }
 }

@@ -102,7 +102,7 @@ export default function CyclingPowerCalculator() {
           <NumberInput
             value={gradient}
             onValueChange={(val) => setGradient(val.toString())}
-            placeholder="0"
+            placeholder={t("placeholders.gradient")}
             min={-20}
             max={20}
             step={0.1}

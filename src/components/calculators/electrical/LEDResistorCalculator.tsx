@@ -126,7 +126,7 @@ export default function LEDResistorCalculator() {
             value={numLEDs}
             onValueChange={(val) => setNumLEDs(String(val))}
             unit={t("common:units.LED")}
-            placeholder="1"
+            placeholder={t("placeholders.numLEDs")}
             min={1}
             step={1}
           />

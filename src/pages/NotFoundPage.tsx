@@ -10,7 +10,11 @@ const NotFoundPage = () => {
       <Helmet>
         <title>{t('notFound.title')} | {t('common:siteName')}</title>
         <meta name="description" content={t('notFound.metaDescription')} />
+        <meta name="keywords" content="404, page not found, error, alathasiba" />
         <meta name="robots" content="noindex, nofollow" />
+
+        {/* Canonical with noindex */}
+        <link rel="canonical" href={`https://alathasiba.com${window.location.pathname}`} />
 
         {/* Open Graph tags */}
         <meta property="og:title" content={t('notFound.title')} />
@@ -21,6 +25,12 @@ const NotFoundPage = () => {
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content="Page Not Found - Alathasiba" />
+
+        {/* Twitter Card tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={t('notFound.title')} />
+        <meta name="twitter:description" content={t('notFound.metaDescription')} />
+        <meta name="twitter:image" content="https://alathasiba.com/og-image.png" />
 
         {/* HTTP status hint for crawlers */}
         <meta name="prerender-status-code" content="404" />

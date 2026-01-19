@@ -152,7 +152,7 @@ export default function RentalYieldCalculator() {
               if (error) setError('');
             }}
             onKeyPress={handleKeyPress}
-            placeholder="300000"
+            placeholder={t("placeholders.propertyPrice")}
             min={0}
             startIcon={<Building className="h-4 w-4" />}
           />
@@ -169,7 +169,7 @@ export default function RentalYieldCalculator() {
               if (error) setError('');
             }}
             onKeyPress={handleKeyPress}
-            placeholder="2000"
+            placeholder={t("placeholders.monthlyRent")}
             min={0}
             startIcon={<DollarSign className="h-4 w-4" />}
           />
@@ -186,7 +186,7 @@ export default function RentalYieldCalculator() {
               if (error) setError('');
             }}
             onKeyPress={handleKeyPress}
-            placeholder="3000"
+            placeholder={t("placeholders.annualExpenses")}
             min={0}
             startIcon={<DollarSign className="h-4 w-4" />}
           />

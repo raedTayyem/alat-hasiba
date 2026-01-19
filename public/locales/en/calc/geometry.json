@@ -1238,5 +1238,8 @@
     "undefined": "Undefined (Vertical Line)",
     "formula_explanation_title": "Understanding the Calculations",
     "formula_explanation": "The distance formula is derived from the Pythagorean theorem. The midpoint is the average of the coordinates. Slope represents the rate of change and is undefined for vertical lines."
+  },
+  "placeholders": {
+    "numPoints": "4"
   }
 }

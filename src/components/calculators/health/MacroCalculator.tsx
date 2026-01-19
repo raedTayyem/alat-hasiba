@@ -136,7 +136,7 @@ export default function MacroCalculator() {
             value={weight}
             onValueChange={(val) => setWeight(String(val))}
             onKeyPress={(e) => e.key === 'Enter' && calculateMacros()}
-            placeholder="70"
+            placeholder={t("placeholders.weight")}
           />
         </InputContainer>
 
@@ -145,7 +145,7 @@ export default function MacroCalculator() {
             value={height}
             onValueChange={(val) => setHeight(String(val))}
             onKeyPress={(e) => e.key === 'Enter' && calculateMacros()}
-            placeholder="170"
+            placeholder={t("placeholders.height")}
           />
         </InputContainer>
 
@@ -154,7 +154,7 @@ export default function MacroCalculator() {
             value={age}
             onValueChange={(val) => setAge(String(val))}
             onKeyPress={(e) => e.key === 'Enter' && calculateMacros()}
-            placeholder="30"
+            placeholder={t("placeholders.age")}
           />
         </InputContainer>
 

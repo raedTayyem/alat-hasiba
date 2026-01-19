@@ -211,7 +211,7 @@ export default function ProbabilityCalculator() {
                 setR(val.toString());
                 if (error) setError('');
               }}
-              placeholder="3"
+              placeholder={t("placeholders.r")}
               min={0}
               step={1}
             />

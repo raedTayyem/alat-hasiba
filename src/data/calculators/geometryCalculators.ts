@@ -14,7 +14,8 @@ const geometryCalculators: Calculator[] = [
     category: 'geometry',
     icon: '📐',
     popularity: 7,
-    componentName: 'TriangleCalculator'
+    componentName: 'TriangleCalculator',
+    keywords: ['triangle', 'مثلث', 'area', 'مساحة', 'perimeter', 'محيط', 'angles', 'زوايا', 'geometry', 'هندسة']
   },
   {
     id: 13,
@@ -28,7 +29,8 @@ const geometryCalculators: Calculator[] = [
     category: 'geometry',
     icon: '⭕',
     popularity: 7,
-    componentName: 'CircleCalculator'
+    componentName: 'CircleCalculator',
+    keywords: ['circle', 'دائرة', 'circumference', 'محيط', 'area', 'مساحة', 'radius', 'نصف قطر', 'diameter', 'قطر']
   },
   {
     id: 14,
@@ -42,7 +44,8 @@ const geometryCalculators: Calculator[] = [
     category: 'geometry',
     icon: '⬜',
     popularity: 6,
-    componentName: 'RectangleCalculator'
+    componentName: 'RectangleCalculator',
+    keywords: ['rectangle', 'مستطيل', 'area', 'مساحة', 'perimeter', 'محيط', 'diagonal', 'قطر', 'geometry', 'هندسة']
   },
   {
     id: 15,
@@ -56,7 +59,8 @@ const geometryCalculators: Calculator[] = [
     category: 'geometry',
     icon: '◇',
     popularity: 5,
-    componentName: 'ParallelogramCalculator'
+    componentName: 'ParallelogramCalculator',
+    keywords: ['parallelogram', 'متوازي أضلاع', 'area', 'مساحة', 'perimeter', 'محيط', 'height', 'ارتفاع', 'geometry', 'هندسة']
   },
   {
     id: 16,
@@ -70,7 +74,8 @@ const geometryCalculators: Calculator[] = [
     category: 'geometry',
     icon: '📏',
     popularity: 5,
-    componentName: 'AnalyticGeometryCalculator'
+    componentName: 'AnalyticGeometryCalculator',
+    keywords: ['analytic geometry', 'هندسة تحليلية', 'coordinates', 'إحداثيات', 'distance', 'مسافة', 'slope', 'ميل', 'midpoint', 'نقطة منتصف']
   },
   {
     id: 121,
@@ -84,7 +89,8 @@ const geometryCalculators: Calculator[] = [
     category: 'geometry',
     icon: '📈',
     popularity: 4,
-    componentName: 'BezierCurveCalculator'
+    componentName: 'BezierCurveCalculator',
+    keywords: ['bezier', 'بيزير', 'curve', 'منحنى', 'graphics', 'رسومات', 'design', 'تصميم', 'animation', 'حركة']
   },
   {
     id: 122,
@@ -98,7 +104,8 @@ const geometryCalculators: Calculator[] = [
     category: 'geometry',
     icon: '🧭',
     popularity: 5,
-    componentName: 'CoordinatesCalculator'
+    componentName: 'CoordinatesCalculator',
+    keywords: ['coordinates', 'إحداثيات', 'cartesian', 'ديكارتية', 'polar', 'قطبية', 'conversion', 'تحويل', 'navigation', 'ملاحة']
   },
 ];
 

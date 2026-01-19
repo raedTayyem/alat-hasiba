@@ -128,7 +128,7 @@ export default function ThreePhaseCalculator() {
             value={powerFactor}
             onValueChange={(val) => setPowerFactor(String(val))}
             unit=""
-            placeholder="0.85"
+            placeholder={t("placeholders.powerFactor")}
             min={0}
             max={1}
             step={0.01}

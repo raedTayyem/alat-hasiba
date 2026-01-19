@@ -236,7 +236,7 @@ export default function FourOhOneKCalculator() {
                 if (error) setError('');
               }}
               onKeyPress={handleKeyPress}
-              placeholder="50"
+              placeholder={t("placeholders.employerMatchPercent")}
               startIcon={<Building2 className="h-4 w-4" />}
               min={0}
               max={100}
@@ -254,7 +254,7 @@ export default function FourOhOneKCalculator() {
                 if (error) setError('');
               }}
               onKeyPress={handleKeyPress}
-              placeholder="6"
+              placeholder={t("placeholders.employerMatchLimit")}
               startIcon={<Percent className="h-4 w-4" />}
               min={0}
               max={100}
@@ -309,7 +309,7 @@ export default function FourOhOneKCalculator() {
                 if (error) setError('');
               }}
               onKeyPress={handleKeyPress}
-              placeholder="7"
+              placeholder={t("placeholders.annualReturnRate")}
               startIcon={<Percent className="h-4 w-4" />}
               min={0}
               max={30}

@@ -339,7 +339,7 @@ export default function RentVsBuyCalculator() {
                 value={homePrice}
                 onValueChange={(val) => { setHomePrice(val.toString()); if (error) setError(''); }}
                 onKeyPress={handleKeyPress}
-                placeholder="300000"
+                placeholder={t("placeholders.homePrice")}
                 min={0}
                 startIcon={<DollarSign className="h-4 w-4" />}
               />
@@ -353,7 +353,7 @@ export default function RentVsBuyCalculator() {
                 value={downPaymentPercent}
                 onValueChange={(val) => { setDownPaymentPercent(val.toString()); if (error) setError(''); }}
                 onKeyPress={handleKeyPress}
-                placeholder="20"
+                placeholder={t("placeholders.downPaymentPercent")}
                 min={0}
                 max={100}
                 startIcon={<Percent className="h-4 w-4" />}
@@ -368,7 +368,7 @@ export default function RentVsBuyCalculator() {
                 value={interestRate}
                 onValueChange={(val) => { setInterestRate(val.toString()); if (error) setError(''); }}
                 onKeyPress={handleKeyPress}
-                placeholder="6.5"
+                placeholder={t("placeholders.interestRate")}
                 min={0}
                 step={0.1}
                 startIcon={<Percent className="h-4 w-4" />}
@@ -383,7 +383,7 @@ export default function RentVsBuyCalculator() {
                 value={loanTermYears}
                 onValueChange={(val) => { setLoanTermYears(val.toString()); if (error) setError(''); }}
                 onKeyPress={handleKeyPress}
-                placeholder="30"
+                placeholder={t("placeholders.loanTermYears")}
                 min={1}
                 max={40}
                 startIcon={<Calendar className="h-4 w-4" />}
@@ -398,7 +398,7 @@ export default function RentVsBuyCalculator() {
                 value={propertyTaxRate}
                 onValueChange={(val) => { setPropertyTaxRate(val.toString()); if (error) setError(''); }}
                 onKeyPress={handleKeyPress}
-                placeholder="1.2"
+                placeholder={t("placeholders.propertyTaxRate")}
                 min={0}
                 step={0.1}
                 startIcon={<Percent className="h-4 w-4" />}
@@ -413,7 +413,7 @@ export default function RentVsBuyCalculator() {
                 value={homeInsurance}
                 onValueChange={(val) => { setHomeInsurance(val.toString()); if (error) setError(''); }}
                 onKeyPress={handleKeyPress}
-                placeholder="1200"
+                placeholder={t("placeholders.homeInsurance")}
                 min={0}
                 startIcon={<Shield className="h-4 w-4" />}
               />
@@ -427,7 +427,7 @@ export default function RentVsBuyCalculator() {
                 value={hoaFees}
                 onValueChange={(val) => { setHoaFees(val.toString()); if (error) setError(''); }}
                 onKeyPress={handleKeyPress}
-                placeholder="0"
+                placeholder={t("placeholders.hoaFees")}
                 min={0}
                 startIcon={<Building className="h-4 w-4" />}
               />
@@ -441,7 +441,7 @@ export default function RentVsBuyCalculator() {
                 value={maintenanceRate}
                 onValueChange={(val) => { setMaintenanceRate(val.toString()); if (error) setError(''); }}
                 onKeyPress={handleKeyPress}
-                placeholder="1"
+                placeholder={t("placeholders.maintenanceRate")}
                 min={0}
                 step={0.1}
                 startIcon={<Wrench className="h-4 w-4" />}
@@ -456,7 +456,7 @@ export default function RentVsBuyCalculator() {
                 value={homeAppreciationRate}
                 onValueChange={(val) => { setHomeAppreciationRate(val.toString()); if (error) setError(''); }}
                 onKeyPress={handleKeyPress}
-                placeholder="3"
+                placeholder={t("placeholders.homeAppreciationRate")}
                 min={0}
                 step={0.1}
                 startIcon={<TrendingUp className="h-4 w-4" />}
@@ -478,7 +478,7 @@ export default function RentVsBuyCalculator() {
                 value={monthlyRent}
                 onValueChange={(val) => { setMonthlyRent(val.toString()); if (error) setError(''); }}
                 onKeyPress={handleKeyPress}
-                placeholder="1500"
+                placeholder={t("placeholders.monthlyRent")}
                 min={0}
                 startIcon={<DollarSign className="h-4 w-4" />}
               />
@@ -492,7 +492,7 @@ export default function RentVsBuyCalculator() {
                 value={rentIncreaseRate}
                 onValueChange={(val) => { setRentIncreaseRate(val.toString()); if (error) setError(''); }}
                 onKeyPress={handleKeyPress}
-                placeholder="3"
+                placeholder={t("placeholders.rentIncreaseRate")}
                 min={0}
                 step={0.1}
                 startIcon={<TrendingUp className="h-4 w-4" />}
@@ -507,7 +507,7 @@ export default function RentVsBuyCalculator() {
                 value={rentersInsurance}
                 onValueChange={(val) => { setRentersInsurance(val.toString()); if (error) setError(''); }}
                 onKeyPress={handleKeyPress}
-                placeholder="180"
+                placeholder={t("placeholders.rentersInsurance")}
                 min={0}
                 startIcon={<Shield className="h-4 w-4" />}
               />
@@ -521,7 +521,7 @@ export default function RentVsBuyCalculator() {
                 value={investmentReturnRate}
                 onValueChange={(val) => { setInvestmentReturnRate(val.toString()); if (error) setError(''); }}
                 onKeyPress={handleKeyPress}
-                placeholder="7"
+                placeholder={t("placeholders.investmentReturnRate")}
                 min={0}
                 step={0.1}
                 startIcon={<TrendingUp className="h-4 w-4" />}

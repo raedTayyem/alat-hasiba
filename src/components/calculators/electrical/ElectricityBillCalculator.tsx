@@ -110,7 +110,7 @@ export default function ElectricityBillCalculator() {
           <NumberInput
             value={taxRate}
             onValueChange={(val) => setTaxRate(val.toString())}
-            placeholder="15"
+            placeholder={t("placeholders.taxRate")}
             min={0}
             max={100}
             step={1}

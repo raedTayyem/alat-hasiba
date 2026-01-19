@@ -106,7 +106,7 @@ export default function ElectricalLoadCalculator() {
             <NumberInput
               value={voltage}
               onValueChange={(val) => setVoltage(val.toString())}
-              placeholder="220"
+              placeholder={t("placeholders.voltage")}
               min={0}
               step={1}
               unit={t("ohms_law.unit_voltage")}
@@ -118,7 +118,7 @@ export default function ElectricalLoadCalculator() {
             <NumberInput
               value={powerFactor}
               onValueChange={(val) => setPowerFactor(val.toString())}
-              placeholder="0.9"
+              placeholder={t("placeholders.powerFactor")}
               min={0}
               max={1}
               step={0.01}
@@ -146,7 +146,7 @@ export default function ElectricalLoadCalculator() {
                 <NumberInput
                   value={load.power}
                   onValueChange={(val) => updateLoad(index, 'power', val.toString())}
-                  placeholder="0"
+                  placeholder={t("placeholders.power")}
                   min={0}
                   className="h-10"
                 />
@@ -156,7 +156,7 @@ export default function ElectricalLoadCalculator() {
                 <NumberInput
                   value={load.quantity}
                   onValueChange={(val) => updateLoad(index, 'quantity', val.toString())}
-                  placeholder="1"
+                  placeholder={t("placeholders.quantity")}
                   min={1}
                   step={1}
                   className="h-10"

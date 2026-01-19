@@ -324,7 +324,7 @@ export default function GPACalculator() {
             <NumberInput
               value={currentCredits}
               onValueChange={(val) => setCurrentCredits(val.toString())}
-              placeholder="0"
+              placeholder={t("placeholders.currentCredits")}
               min={0}
             />
           </FormField>

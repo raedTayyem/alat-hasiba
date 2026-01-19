@@ -88,7 +88,7 @@ export default function ZakatCalculator() {
                     value={cash}
                     onValueChange={(val) => setCash(val.toString())}
                     onKeyPress={handleKeyPress}
-                    placeholder="0"
+                    placeholder={t("placeholders.cash")}
                     min={0}
                     startIcon={<Coins className="h-4 w-4" />}
                 />
@@ -102,7 +102,7 @@ export default function ZakatCalculator() {
                     value={goldWeight}
                     onValueChange={(val) => setGoldWeight(val.toString())}
                     onKeyPress={handleKeyPress}
-                    placeholder="0"
+                    placeholder={t("placeholders.goldWeight")}
                     min={0}
                     startIcon={<Scale className="h-4 w-4" />}
                 />
@@ -116,7 +116,7 @@ export default function ZakatCalculator() {
                     value={goldPrice}
                     onValueChange={(val) => setGoldPrice(val.toString())}
                     onKeyPress={handleKeyPress}
-                    placeholder="75"
+                    placeholder={t("placeholders.goldPrice")}
                     min={0}
                     startIcon={<DollarSign className="h-4 w-4" />}
                 />

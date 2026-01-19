@@ -119,7 +119,7 @@ export default function CyclingPowerCalculator() {
             value={gradient}
             onValueChange={(val) => setGradient(String(val))}
             onKeyPress={(e) => e.key === 'Enter' && calculatePower()}
-            placeholder="0"
+            placeholder={t("placeholders.gradient")}
             step={0.1}
           />
         </InputContainer>

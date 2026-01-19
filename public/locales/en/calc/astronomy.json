@@ -550,5 +550,8 @@
       },
       "description": "Description"
     }
+  },
+  "placeholders": {
+    "focalLength": "1000"
   }
 }

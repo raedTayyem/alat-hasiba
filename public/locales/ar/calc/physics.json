@@ -1206,5 +1206,9 @@
     "minute": "الدقيقة",
     "hour": "الساعة",
     "value": "القيمة"
+  },
+  "placeholders": {
+    "mass": "10",
+    "velocity": "5"
   }
 }

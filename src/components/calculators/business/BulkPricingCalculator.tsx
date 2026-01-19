@@ -283,7 +283,7 @@ export default function BulkPricingCalculator() {
                     value={tier.minQuantity}
                     onValueChange={(val) => updateTier(tier.id, 'minQuantity', val.toString())}
                     onKeyPress={handleKeyPress}
-                    placeholder="1"
+                    placeholder={t("placeholders.minQuantity")}
                     startIcon={<Package className="h-4 w-4" />}
                     min={0}
                   />
@@ -309,7 +309,7 @@ export default function BulkPricingCalculator() {
                     value={tier.discount}
                     onValueChange={(val) => updateTier(tier.id, 'discount', val.toString())}
                     onKeyPress={handleKeyPress}
-                    placeholder="0"
+                    placeholder={t("placeholders.discount")}
                     startIcon={<Percent className="h-4 w-4" />}
                     min={0}
                     max={100}

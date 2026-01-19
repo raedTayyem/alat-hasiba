@@ -145,7 +145,7 @@ export default function TrigonometryCalculator() {
             value={angle}
             onValueChange={(val) => setAngle(val.toString())}
             onKeyPress={handleKeyPress}
-            placeholder="45"
+            placeholder={t("placeholders.angle")}
             startIcon={<Compass className="h-4 w-4" />}
           />
         </FormField>

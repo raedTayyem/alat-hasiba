@@ -14,7 +14,8 @@ const dateTimeCalculators: Calculator[] = [
     category: 'date-time',
     icon: '🎂',
     popularity: 8,
-    componentName: 'AgeCalculator'
+    componentName: 'AgeCalculator',
+    keywords: ['age', 'عمر', 'birthday', 'عيد ميلاد', 'years', 'سنوات', 'months', 'أشهر', 'days', 'أيام']
   },
   {
     id: 173,
@@ -28,7 +29,8 @@ const dateTimeCalculators: Calculator[] = [
     category: 'date-time',
     icon: '📆',
     popularity: 7,
-    componentName: 'DateDifferenceCalculator'
+    componentName: 'DateDifferenceCalculator',
+    keywords: ['date', 'تاريخ', 'difference', 'فرق', 'duration', 'مدة', 'days between', 'أيام بين', 'time span', 'فترة زمنية']
   },
   {
     id: 174,
@@ -42,7 +44,8 @@ const dateTimeCalculators: Calculator[] = [
     category: 'date-time',
     icon: '🌐',
     popularity: 6,
-    componentName: 'TimeZoneConverter'
+    componentName: 'TimeZoneConverter',
+    keywords: ['timezone', 'منطقة زمنية', 'time zone', 'توقيت', 'world time', 'وقت عالمي', 'GMT', 'UTC', 'converter', 'محول']
   },
   {
     id: 175,
@@ -56,7 +59,8 @@ const dateTimeCalculators: Calculator[] = [
     category: 'date-time',
     icon: '📅',
     popularity: 5,
-    componentName: 'DateFormatConverter'
+    componentName: 'DateFormatConverter',
+    keywords: ['date format', 'تنسيق التاريخ', 'format', 'تنسيق', 'date converter', 'محول تاريخ', 'ISO', 'calendar', 'تقويم']
   },
   {
     id: 176,
@@ -70,7 +74,8 @@ const dateTimeCalculators: Calculator[] = [
     category: 'date-time',
     icon: '⌚',
     popularity: 6,
-    componentName: 'UnixTimestampConverter'
+    componentName: 'UnixTimestampConverter',
+    keywords: ['unix', 'يونكس', 'timestamp', 'طابع زمني', 'epoch', 'إيبوك', 'converter', 'محول', 'time', 'وقت']
   },
   {
     id: 902,
@@ -84,7 +89,8 @@ const dateTimeCalculators: Calculator[] = [
     category: 'date-time',
     icon: '📆',
     popularity: 7,
-    componentName: 'DayOfWeekCalculator'
+    componentName: 'DayOfWeekCalculator',
+    keywords: ['day of week', 'يوم الأسبوع', 'weekday', 'يوم', 'calendar', 'تقويم', 'date', 'تاريخ', 'monday', 'الاثنين']
   },
   {
     id: 182,
@@ -98,7 +104,8 @@ const dateTimeCalculators: Calculator[] = [
     category: 'date-time',
     icon: '📚',
     popularity: 4,
-    componentName: 'BarBatMitzvahCalculator'
+    componentName: 'BarBatMitzvahCalculator',
+    keywords: ['bar mitzvah', 'بار ميتسفا', 'bat mitzvah', 'بات ميتسفا', 'jewish', 'يهودي', 'hebrew', 'عبري', 'ceremony', 'احتفال']
   },
   {
     id: 183,
@@ -112,7 +119,8 @@ const dateTimeCalculators: Calculator[] = [
     category: 'date-time',
     icon: '☦️',
     popularity: 5,
-    componentName: 'CopticCalendarInfo'
+    componentName: 'CopticCalendarInfo',
+    keywords: ['coptic', 'قبطي', 'calendar', 'تقويم', 'orthodox', 'أرثوذكسي', 'egyptian', 'مصري', 'months', 'أشهر']
   },
   {
     id: 184,
@@ -126,7 +134,8 @@ const dateTimeCalculators: Calculator[] = [
     category: 'date-time',
     icon: '📅',
     popularity: 5,
-    componentName: 'CopticToGregorian'
+    componentName: 'CopticToGregorian',
+    keywords: ['coptic', 'قبطي', 'gregorian', 'ميلادي', 'converter', 'محول', 'calendar', 'تقويم', 'date', 'تاريخ']
   },
   {
     id: 185,
@@ -140,7 +149,8 @@ const dateTimeCalculators: Calculator[] = [
     category: 'date-time',
     icon: '🕎',
     popularity: 5,
-    componentName: 'HebrewCalendarInfo'
+    componentName: 'HebrewCalendarInfo',
+    keywords: ['hebrew', 'عبري', 'calendar', 'تقويم', 'jewish', 'يهودي', 'lunisolar', 'قمري شمسي', 'months', 'أشهر']
   },
   {
     id: 186,
@@ -154,7 +164,8 @@ const dateTimeCalculators: Calculator[] = [
     category: 'date-time',
     icon: '📆',
     popularity: 5,
-    componentName: 'HebrewToGregorian'
+    componentName: 'HebrewToGregorian',
+    keywords: ['hebrew', 'عبري', 'gregorian', 'ميلادي', 'converter', 'محول', 'jewish', 'يهودي', 'calendar', 'تقويم']
   },
   {
     id: 187,
@@ -168,7 +179,8 @@ const dateTimeCalculators: Calculator[] = [
     category: 'date-time',
     icon: '✝️',
     popularity: 5,
-    componentName: 'HolyWeekInfo'
+    componentName: 'HolyWeekInfo',
+    keywords: ['holy week', 'أسبوع مقدس', 'easter', 'عيد الفصح', 'orthodox', 'أرثوذكسي', 'christian', 'مسيحي', 'traditions', 'تقاليد']
   },
   {
     id: 188,
@@ -182,7 +194,8 @@ const dateTimeCalculators: Calculator[] = [
     category: 'date-time',
     icon: '🕊️',
     popularity: 5,
-    componentName: 'HolyWeekTraditions'
+    componentName: 'HolyWeekTraditions',
+    keywords: ['holy week', 'أسبوع مقدس', 'traditions', 'تقاليد', 'easter', 'عيد الفصح', 'customs', 'عادات', 'christian', 'مسيحي']
   },
   {
     id: 189,
@@ -196,7 +209,8 @@ const dateTimeCalculators: Calculator[] = [
     category: 'date-time',
     icon: '🌙',
     popularity: 7,
-    componentName: 'LunarAgeCalculator'
+    componentName: 'LunarAgeCalculator',
+    keywords: ['lunar', 'قمري', 'hijri', 'هجري', 'islamic', 'إسلامي', 'age', 'عمر', 'calendar', 'تقويم']
   },
 ];
 

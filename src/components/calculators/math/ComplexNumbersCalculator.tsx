@@ -219,7 +219,7 @@ export default function ComplexNumbersCalculator() {
                 value={real1}
                 onValueChange={(val) => setReal1(val.toString())}
                 onKeyPress={handleKeyPress}
-                placeholder="0"
+                placeholder={t("placeholders.real1")}
                 startIcon={<Hash className="h-4 w-4" />}
               />
             </FormField>
@@ -229,7 +229,7 @@ export default function ComplexNumbersCalculator() {
                 value={imag1}
                 onValueChange={(val) => setImag1(val.toString())}
                 onKeyPress={handleKeyPress}
-                placeholder="0"
+                placeholder={t("placeholders.imag1")}
                 startIcon={<Activity className="h-4 w-4" />}
               />
             </FormField>
@@ -245,7 +245,7 @@ export default function ComplexNumbersCalculator() {
                   value={real2}
                   onValueChange={(val) => setReal2(val.toString())}
                   onKeyPress={handleKeyPress}
-                  placeholder="0"
+                  placeholder={t("placeholders.real2")}
                   startIcon={<Hash className="h-4 w-4" />}
                 />
               </FormField>
@@ -255,7 +255,7 @@ export default function ComplexNumbersCalculator() {
                   value={imag2}
                   onValueChange={(val) => setImag2(val.toString())}
                   onKeyPress={handleKeyPress}
-                  placeholder="0"
+                  placeholder={t("placeholders.imag2")}
                   startIcon={<Activity className="h-4 w-4" />}
                 />
               </FormField>

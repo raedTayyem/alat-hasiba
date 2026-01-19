@@ -17,7 +17,8 @@ const statisticsCalculators: Calculator[] = [
         category: 'statistics',
         icon: '🎲',
         popularity: 6,
-        componentName: 'ProbabilityCalculator'
+        componentName: 'ProbabilityCalculator',
+        keywords: ['probability', 'احتمال', 'distribution', 'توزيع', 'statistics', 'إحصاء', 'binomial', 'ثنائي', 'normal', 'طبيعي']
     },
     {
         id: 112,
@@ -31,7 +32,8 @@ const statisticsCalculators: Calculator[] = [
         category: 'statistics',
         icon: '📊',
         popularity: 6,
-        componentName: 'StatisticsCalculator'
+        componentName: 'StatisticsCalculator',
+        keywords: ['statistics', 'إحصاء', 'mean', 'متوسط', 'median', 'وسيط', 'deviation', 'انحراف', 'variance', 'تباين']
     },
     {
         id: 113,
@@ -45,7 +47,8 @@ const statisticsCalculators: Calculator[] = [
         category: 'statistics',
         icon: '📊',
         popularity: 5,
-        componentName: 'DescriptiveStatisticsCalculator'
+        componentName: 'DescriptiveStatisticsCalculator',
+        keywords: ['descriptive', 'وصفي', 'statistics', 'إحصاء', 'mean', 'متوسط', 'median', 'وسيط', 'mode', 'منوال']
     },
     {
         id: 12003,
@@ -59,7 +62,8 @@ const statisticsCalculators: Calculator[] = [
         category: 'statistics',
         icon: '📊',
         popularity: 5,
-        componentName: 'ConfidenceIntervalCalculator'
+        componentName: 'ConfidenceIntervalCalculator',
+        keywords: ['confidence', 'ثقة', 'interval', 'فترة', 'statistics', 'إحصاء', 'mean', 'متوسط', 'proportion', 'نسبة']
     },
     {
         id: 12004,
@@ -73,7 +77,8 @@ const statisticsCalculators: Calculator[] = [
         category: 'statistics',
         icon: '👥',
         popularity: 6,
-        componentName: 'SampleSizeCalculator'
+        componentName: 'SampleSizeCalculator',
+        keywords: ['sample', 'عينة', 'size', 'حجم', 'survey', 'استبيان', 'experiment', 'تجربة', 'statistics', 'إحصاء']
     }
 ];
 

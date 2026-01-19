@@ -105,7 +105,7 @@ export default function PowerFactorCalculator() {
             value={targetPF}
             onValueChange={(val) => setTargetPF(String(val))}
             unit=""
-            placeholder="0.95"
+            placeholder={t("placeholders.targetPF")}
             min={0}
             max={1}
             step={0.01}
@@ -117,7 +117,7 @@ export default function PowerFactorCalculator() {
             value={voltage}
             onValueChange={(val) => setVoltage(String(val))}
             unit={t("ohms_law.unit_voltage")}
-            placeholder="380"
+            placeholder={t("placeholders.voltage")}
             min={0}
             step={1}
           />
@@ -128,7 +128,7 @@ export default function PowerFactorCalculator() {
             value={frequency}
             onValueChange={(val) => setFrequency(String(val))}
             unit={t("ohms_law.unit_hertz")}
-            placeholder="50"
+            placeholder={t("placeholders.frequency")}
             min={0}
             step={1}
           />

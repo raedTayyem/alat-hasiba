@@ -108,7 +108,7 @@ export default function PropertyTaxCalculator() {
             value={assessedValue}
             onValueChange={(val) => { setAssessedValue(val.toString()); if (error) setError(''); }}
             onKeyPress={handleKeyPress}
-            placeholder="300000"
+            placeholder={t("placeholders.assessedValue")}
             startIcon={<DollarSign className="h-4 w-4" />}
             min={0}
           />
@@ -119,7 +119,7 @@ export default function PropertyTaxCalculator() {
             value={taxRate}
             onValueChange={(val) => { setTaxRate(val.toString()); if (error) setError(''); }}
             onKeyPress={handleKeyPress}
-            placeholder="1.25"
+            placeholder={t("placeholders.taxRate")}
             step={0.01}
             min={0}
             startIcon={<Percent className="h-4 w-4" />}
@@ -131,7 +131,7 @@ export default function PropertyTaxCalculator() {
             value={years}
             onValueChange={(val) => { setYears(val.toString()); if (error) setError(''); }}
             onKeyPress={handleKeyPress}
-            placeholder="30"
+            placeholder={t("placeholders.years")}
             min={1}
             startIcon={<Calendar className="h-4 w-4" />}
           />

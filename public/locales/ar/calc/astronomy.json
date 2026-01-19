@@ -550,5 +550,8 @@
       },
       "description": "الوصف"
     }
+  },
+  "placeholders": {
+    "focalLength": "1000"
   }
 }

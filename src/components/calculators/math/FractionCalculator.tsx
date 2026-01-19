@@ -175,7 +175,7 @@ export default function FractionCalculator() {
               value={num1}
               onValueChange={(val) => { setNum1(val.toString()); if (error) setError(''); }}
               onKeyPress={handleKeyPress}
-              placeholder="0"
+              placeholder={t("placeholders.num1")}
               startIcon={<Hash className="h-4 w-4" />}
             />
           </FormField>
@@ -185,7 +185,7 @@ export default function FractionCalculator() {
               value={denom1}
               onValueChange={(val) => { setDenom1(val.toString()); if (error) setError(''); }}
               onKeyPress={handleKeyPress}
-              placeholder="1"
+              placeholder={t("placeholders.denom1")}
               startIcon={<Divide className="h-4 w-4" />}
             />
           </FormField>
@@ -197,7 +197,7 @@ export default function FractionCalculator() {
               value={num2}
               onValueChange={(val) => { setNum2(val.toString()); if (error) setError(''); }}
               onKeyPress={handleKeyPress}
-              placeholder="0"
+              placeholder={t("placeholders.num2")}
               startIcon={<Hash className="h-4 w-4" />}
             />
           </FormField>
@@ -207,7 +207,7 @@ export default function FractionCalculator() {
               value={denom2}
               onValueChange={(val) => { setDenom2(val.toString()); if (error) setError(''); }}
               onKeyPress={handleKeyPress}
-              placeholder="1"
+              placeholder={t("placeholders.denom2")}
               startIcon={<Divide className="h-4 w-4" />}
             />
           </FormField>

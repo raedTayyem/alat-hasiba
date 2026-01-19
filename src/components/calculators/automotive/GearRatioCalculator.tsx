@@ -429,7 +429,7 @@ export default function GearRatioCalculator() {
             value={efficiency}
             onValueChange={(val) => setEfficiency(val.toString())}
             onKeyPress={handleKeyPress}
-            placeholder="95"
+            placeholder={t("placeholders.efficiency")}
             min={0}
             max={100}
             step={1}

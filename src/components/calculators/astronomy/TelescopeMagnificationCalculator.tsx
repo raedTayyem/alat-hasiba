@@ -176,7 +176,7 @@ export default function TelescopeMagnificationCalculator() {
             value={eyepieceAFOV}
             onValueChange={(val) => setEyepieceAFOV(val.toString())}
             onKeyPress={handleKeyPress}
-            placeholder="52"
+            placeholder={t("placeholders.eyepieceAFOV")}
             min={30}
             max={120}
             step={1}

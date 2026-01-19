@@ -2,7 +2,18 @@
   "timezone-converter": {
     "title": "Time Zone Converter",
     "description": "Easily convert time between different time zones around the world.",
-    "howItWorks": "The converter transforms time from one timezone to another using UTC (Coordinated Universal Time) offsets. It accounts for daylight saving time when applicable in certain regions.",
+    "howItWorks": {
+      "title": "How Time Zone Converter Works",
+      "formula": "Target Time = Source Time + (Target UTC Offset - Source UTC Offset)",
+      "explanation": "This converter transforms time from one timezone to another using UTC (Coordinated Universal Time) offsets. It automatically accounts for daylight saving time when applicable in certain regions, ensuring accurate conversions year-round.",
+      "steps": [
+        "Select the source timezone from the dropdown",
+        "Enter the time you want to convert",
+        "Select the target timezone",
+        "View the converted time instantly",
+        "Check for any date changes that may occur"
+      ]
+    },
     "useCases": [
       "Schedule work meetings with teams in different countries",
       "Find the right time to call family and friends abroad",
@@ -13,12 +24,16 @@
     "seoTips": [
       "Select source and target timezones accurately",
       "Watch for daylight saving time which changes the time difference",
-      "Save frequent conversions for quick reference"
+      "Save frequent conversions for quick reference",
+      "Consider date line changes for Pacific conversions",
+      "Account for half-hour and quarter-hour timezone offsets"
     ],
     "commonMistakes": [
       "Forgetting daylight saving time which adds or subtracts an hour",
       "Confusing AM and PM in 12-hour format",
-      "Not accounting for date changes during conversion"
+      "Not accounting for date changes during conversion",
+      "Assuming all timezones have whole-hour offsets",
+      "Forgetting that not all countries observe daylight saving time"
     ],
     "faqs": [
       {
@@ -32,6 +47,14 @@
       {
         "question": "Does the time difference change throughout the year?",
         "answer": "Yes, some countries observe daylight saving time which changes the time difference with other countries by one hour."
+      },
+      {
+        "question": "Why do some timezones have 30-minute or 45-minute offsets?",
+        "answer": "Some countries and regions have chosen non-standard timezone offsets for political, geographical, or historical reasons. Examples include India (UTC+5:30) and Nepal (UTC+5:45)."
+      },
+      {
+        "question": "What happens when converting across the International Date Line?",
+        "answer": "When converting time across the International Date Line (roughly 180° longitude), the date changes by one day. Moving west adds a day, moving east subtracts a day."
       }
     ],
     "date": "Date",

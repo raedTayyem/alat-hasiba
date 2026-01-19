@@ -810,5 +810,14 @@
     "grade_feature_1": "الدرجة الميزة 1",
     "grade_description": "الدرجة الوصف"
   },
-  "T": "T"
+  "T": "T",
+  "placeholders": {
+    "totalClasses": "30",
+    "totalPoints": "100",
+    "earnedPoints": "85",
+    "currentGrade": "88",
+    "currentWeight": "70",
+    "finalWeight": "30",
+    "desiredGrade": "90"
+  }
 }

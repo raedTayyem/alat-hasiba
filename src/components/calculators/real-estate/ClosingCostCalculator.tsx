@@ -189,7 +189,7 @@ export default function ClosingCostCalculator() {
             value={purchasePrice}
             onValueChange={(val) => setPurchasePrice(val.toString())}
             onKeyPress={handleKeyPress}
-            placeholder="300000"
+            placeholder={t("placeholders.purchasePrice")}
             min={0}
             startIcon={<DollarSign className="h-4 w-4" />}
           />
@@ -203,7 +203,7 @@ export default function ClosingCostCalculator() {
             value={loanAmount}
             onValueChange={(val) => setLoanAmount(val.toString())}
             onKeyPress={handleKeyPress}
-            placeholder="240000"
+            placeholder={t("placeholders.loanAmount")}
             min={0}
             startIcon={<DollarSign className="h-4 w-4" />}
           />
@@ -217,7 +217,7 @@ export default function ClosingCostCalculator() {
             value={titleFee}
             onValueChange={(val) => setTitleFee(val.toString())}
             onKeyPress={handleKeyPress}
-            placeholder="1000"
+            placeholder={t("placeholders.titleFee")}
             min={0}
             startIcon={<FileText className="h-4 w-4" />}
           />
@@ -231,7 +231,7 @@ export default function ClosingCostCalculator() {
             value={appraisalFee}
             onValueChange={(val) => setAppraisalFee(val.toString())}
             onKeyPress={handleKeyPress}
-            placeholder="400"
+            placeholder={t("placeholders.appraisalFee")}
             min={0}
             startIcon={<Stamp className="h-4 w-4" />}
           />
@@ -245,7 +245,7 @@ export default function ClosingCostCalculator() {
             value={attorneyFee}
             onValueChange={(val) => setAttorneyFee(val.toString())}
             onKeyPress={handleKeyPress}
-            placeholder="1000"
+            placeholder={t("placeholders.attorneyFee")}
             min={0}
             startIcon={<Briefcase className="h-4 w-4" />}
           />
@@ -259,7 +259,7 @@ export default function ClosingCostCalculator() {
             value={recordingFee}
             onValueChange={(val) => setRecordingFee(val.toString())}
             onKeyPress={handleKeyPress}
-            placeholder="200"
+            placeholder={t("placeholders.recordingFee")}
             min={0}
             startIcon={<FileCheck className="h-4 w-4" />}
           />
@@ -273,7 +273,7 @@ export default function ClosingCostCalculator() {
             value={transferTaxRate}
             onValueChange={(val) => setTransferTaxRate(val.toString())}
             onKeyPress={handleKeyPress}
-            placeholder="1.0"
+            placeholder={t("placeholders.transferTaxRate")}
             min={0}
             step={0.1}
             startIcon={<Percent className="h-4 w-4" />}
@@ -288,7 +288,7 @@ export default function ClosingCostCalculator() {
             value={lenderFeePercent}
             onValueChange={(val) => setLenderFeePercent(val.toString())}
             onKeyPress={handleKeyPress}
-            placeholder="1.0"
+            placeholder={t("placeholders.lenderFeePercent")}
             min={0}
             step={0.1}
             startIcon={<Percent className="h-4 w-4" />}

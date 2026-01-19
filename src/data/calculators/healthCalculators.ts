@@ -12,7 +12,8 @@ const healthCalculators: Calculator[] = [
     category: 'health',
     icon: '⚖️',
     popularity: 10,
-    componentName: 'BMICalculator'
+    componentName: 'BMICalculator',
+    keywords: ['BMI', 'مؤشر كتلة الجسم', 'weight', 'وزن', 'health', 'صحة', 'fitness', 'لياقة', 'body', 'جسم']
   },
   {
     id: 23,
@@ -24,7 +25,8 @@ const healthCalculators: Calculator[] = [
     category: 'health',
     icon: '🍎',
     popularity: 9,
-    componentName: 'CalorieCalculator'
+    componentName: 'CalorieCalculator',
+    keywords: ['calories', 'سعرات حرارية', 'nutrition', 'تغذية', 'diet', 'حمية', 'weight loss', 'فقدان وزن', 'food', 'طعام']
   },
   {
     id: 161,
@@ -36,7 +38,8 @@ const healthCalculators: Calculator[] = [
     category: 'health',
     icon: '🏋️',
     popularity: 8,
-    componentName: 'IdealWeightCalculator'
+    componentName: 'IdealWeightCalculator',
+    keywords: ['ideal weight', 'وزن مثالي', 'healthy weight', 'وزن صحي', 'height', 'طول', 'fitness', 'لياقة', 'goal', 'هدف']
   },
   {
     id: 162,
@@ -48,7 +51,8 @@ const healthCalculators: Calculator[] = [
     category: 'health',
     icon: '📏',
     popularity: 7,
-    componentName: 'BodyFatCalculator'
+    componentName: 'BodyFatCalculator',
+    keywords: ['body fat', 'دهون الجسم', 'percentage', 'نسبة', 'composition', 'تركيب', 'fitness', 'لياقة', 'health', 'صحة']
   },
   {
     id: 165,
@@ -60,7 +64,8 @@ const healthCalculators: Calculator[] = [
     category: 'health',
     icon: '👶',
     popularity: 8,
-    componentName: 'PregnancyCalculator'
+    componentName: 'PregnancyCalculator',
+    keywords: ['pregnancy', 'حمل', 'due date', 'موعد ولادة', 'baby', 'طفل', 'trimester', 'ثلث', 'maternity', 'أمومة']
   },
   {
     id: 166,
@@ -72,7 +77,8 @@ const healthCalculators: Calculator[] = [
     category: 'health',
     icon: '🥩',
     popularity: 9,
-    componentName: 'ProteinCalculator'
+    componentName: 'ProteinCalculator',
+    keywords: ['protein', 'بروتين', 'nutrition', 'تغذية', 'muscle', 'عضلات', 'fitness', 'لياقة', 'diet', 'حمية']
   },
   {
     id: 167,
@@ -84,7 +90,8 @@ const healthCalculators: Calculator[] = [
     category: 'health',
     icon: '💧',
     popularity: 8,
-    componentName: 'WaterIntakeCalculator'
+    componentName: 'WaterIntakeCalculator',
+    keywords: ['water', 'ماء', 'hydration', 'ترطيب', 'intake', 'استهلاك', 'health', 'صحة', 'daily', 'يومي']
   },
 ];
 

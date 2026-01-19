@@ -748,5 +748,10 @@
       },
       "description": "الوصف"
     }
+  },
+  "placeholders": {
+    "initialAmount": "100",
+    "halfLife": "5730",
+    "elapsedTime": "10000"
   }
 }

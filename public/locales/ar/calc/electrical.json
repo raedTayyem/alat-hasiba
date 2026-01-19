@@ -2346,5 +2346,15 @@
       "unit_current": "الوحدة التيار",
       "unit_power": "الوحدة القدرة"
     }
+  },
+  "placeholders": {
+    "efficiency": "90",
+    "voltage": "380",
+    "targetPF": "0.95",
+    "frequency": "50",
+    "powerFactor": "0.9",
+    "loadPower": "0",
+    "loadCount": "1",
+    "efficiency1": "1"
   }
 }

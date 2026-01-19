@@ -81,7 +81,7 @@ export default function BatteryLifeCalculator() {
             value={efficiency}
             onValueChange={(val) => setEfficiency(String(val))}
             unit={t("common:units.percent")}
-            placeholder="90"
+            placeholder={t("placeholders.efficiency")}
             min={0}
             max={100}
             step={1}

@@ -152,7 +152,7 @@ export default function AttendanceCalculator() {
           <NumberInput
             value={totalClasses}
             onValueChange={(val) => setTotalClasses(val.toString())}
-            placeholder="40"
+            placeholder={t("placeholders.totalClasses")}
             min={1}
             step={1}
             startIcon={<Calendar className="w-4 h-4" />}
@@ -162,7 +162,7 @@ export default function AttendanceCalculator() {
           <NumberInput
             value={attendedClasses}
             onValueChange={(val) => setAttendedClasses(val.toString())}
-            placeholder="30"
+            placeholder={t("placeholders.attendedClasses")}
             min={0}
             step={1}
             startIcon={<UserCheck className="w-4 h-4" />}
@@ -174,7 +174,7 @@ export default function AttendanceCalculator() {
         <NumberInput
           value={targetPercentage}
           onValueChange={(val) => setTargetPercentage(val.toString())}
-          placeholder="75"
+          placeholder={t("placeholders.targetPercentage")}
           min={1}
           max={100}
           step={1}

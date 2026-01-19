@@ -331,7 +331,7 @@ export default function WallAreaCalculator() {
                 <NumberInput
                   value={window.quantity}
                   onValueChange={(val) => updateWindow(window.id, 'quantity', val.toString())}
-                  placeholder="1"
+                  placeholder={t("placeholders.quantity")}
                   min={0}
                   step={1}
                 />
@@ -395,7 +395,7 @@ export default function WallAreaCalculator() {
                 <NumberInput
                   value={door.quantity}
                   onValueChange={(val) => updateDoor(door.id, 'quantity', val.toString())}
-                  placeholder="1"
+                  placeholder={t("placeholders.quantity")}
                   min={0}
                   step={1}
                 />

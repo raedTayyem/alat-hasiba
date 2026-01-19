@@ -14,7 +14,8 @@ const engineeringCalculators: Calculator[] = [
     category: 'engineering',
     icon: '⚡',
     popularity: 7,
-    componentName: 'ElectricalResistanceCalculator'
+    componentName: 'ElectricalResistanceCalculator',
+    keywords: ['resistance', 'مقاومة', 'ohm', 'أوم', 'voltage', 'جهد', 'current', 'تيار', 'electrical', 'كهربائي']
   },
   {
     id: 909,
@@ -28,7 +29,8 @@ const engineeringCalculators: Calculator[] = [
     category: 'engineering',
     icon: '🧱',
     popularity: 5,
-    componentName: 'MaterialConversionCalculator'
+    componentName: 'MaterialConversionCalculator',
+    keywords: ['material', 'مواد', 'conversion', 'تحويل', 'engineering', 'هندسة', 'construction', 'بناء', 'units', 'وحدات']
   },
   {
     id: 403,
@@ -40,7 +42,8 @@ const engineeringCalculators: Calculator[] = [
     category: 'engineering',
     icon: '🏗️',
     popularity: 7,
-    componentName: 'ConcreteCalculator'
+    componentName: 'ConcreteCalculator',
+    keywords: ['concrete', 'خرسانة', 'cement', 'أسمنت', 'construction', 'بناء', 'mix', 'خلطة', 'builder', 'بناء']
   },
   {
     id: 11003,
@@ -54,7 +57,8 @@ const engineeringCalculators: Calculator[] = [
     category: 'engineering',
     icon: '🏗️',
     popularity: 5,
-    componentName: 'StressStrainCalculator'
+    componentName: 'StressStrainCalculator',
+    keywords: ['stress', 'إجهاد', 'strain', 'انفعال', 'modulus', 'معامل', 'materials', 'مواد', 'mechanics', 'ميكانيكا']
   },
   {
     id: 11004,
@@ -68,7 +72,8 @@ const engineeringCalculators: Calculator[] = [
     category: 'engineering',
     icon: '🔧',
     popularity: 4,
-    componentName: 'HydraulicCylinderCalculator'
+    componentName: 'HydraulicCylinderCalculator',
+    keywords: ['hydraulic', 'هيدروليكي', 'cylinder', 'أسطوانة', 'pressure', 'ضغط', 'force', 'قوة', 'fluid', 'سوائل']
   }
 ];
 

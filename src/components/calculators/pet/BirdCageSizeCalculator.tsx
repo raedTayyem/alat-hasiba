@@ -89,7 +89,7 @@ export default function BirdCageSizeCalculator() {
         </InputContainer>
 
         <InputContainer label={t("bird_cage_calculator.number_of_birds")}>
-          <NumberInput value={numberOfBirds} onValueChange={(val) => setNumberOfBirds(String(val))} unit={t("aquarium_calculator.fish")} placeholder="1" min={1} max={10} step={1} />
+          <NumberInput value={numberOfBirds} onValueChange={(val) => setNumberOfBirds(String(val))} unit={t("aquarium_calculator.fish")} placeholder={t("placeholders.birdType")} min={1} max={10} step={1} />
         </InputContainer>
       </div>
 

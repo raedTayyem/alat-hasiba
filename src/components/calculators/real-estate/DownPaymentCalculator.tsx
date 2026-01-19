@@ -81,7 +81,7 @@ export default function DownPaymentCalculator() {
               if (error) setError('');
             }}
             onKeyPress={handleKeyPress}
-            placeholder="300000"
+            placeholder={t("placeholders.homePrice")}
             min={0}
             startIcon={<DollarSign className="h-4 w-4" />}
           />
@@ -98,7 +98,7 @@ export default function DownPaymentCalculator() {
               if (error) setError('');
             }}
             onKeyPress={handleKeyPress}
-            placeholder="20"
+            placeholder={t("placeholders.downPaymentPercent")}
             min={0}
             max={100}
             startIcon={<Percent className="h-4 w-4" />}

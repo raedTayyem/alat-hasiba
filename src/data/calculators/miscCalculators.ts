@@ -14,7 +14,8 @@ const miscCalculators: Calculator[] = [
     category: 'misc',
     icon: '🔤',
     popularity: 5,
-    componentName: 'AbjadCalculator'
+    componentName: 'AbjadCalculator',
+    keywords: ['abjad', 'أبجد', 'arabic', 'عربي', 'letters', 'حروف', 'numbers', 'أرقام', 'gematria', 'جيماتريا']
   },
   {
     id: 198,
@@ -28,7 +29,8 @@ const miscCalculators: Calculator[] = [
     category: 'misc',
     icon: '〰️',
     popularity: 5,
-    componentName: 'BiorhythmCalculator'
+    componentName: 'BiorhythmCalculator',
+    keywords: ['biorhythm', 'إيقاع حيوي', 'cycles', 'دورات', 'physical', 'بدني', 'emotional', 'عاطفي', 'mental', 'ذهني']
   },
   {
     id: 199,
@@ -42,7 +44,8 @@ const miscCalculators: Calculator[] = [
     category: 'misc',
     icon: '🎲',
     popularity: 6,
-    componentName: 'RandomNumberGenerator'
+    componentName: 'RandomNumberGenerator',
+    keywords: ['random', 'عشوائي', 'number', 'رقم', 'generator', 'مولد', 'range', 'نطاق', 'lottery', 'قرعة']
   },
   {
     id: 200,
@@ -56,7 +59,8 @@ const miscCalculators: Calculator[] = [
     category: 'misc',
     icon: '👟',
     popularity: 4,
-    componentName: 'ShoeSizeConverter'
+    componentName: 'ShoeSizeConverter',
+    keywords: ['shoe', 'حذاء', 'size', 'مقاس', 'converter', 'محول', 'footwear', 'أحذية', 'international', 'دولي']
   },
   {
     id: 201,
@@ -70,7 +74,8 @@ const miscCalculators: Calculator[] = [
     category: 'misc',
     icon: '👕',
     popularity: 4,
-    componentName: 'ClothingSizeConverter'
+    componentName: 'ClothingSizeConverter',
+    keywords: ['clothing', 'ملابس', 'size', 'مقاس', 'converter', 'محول', 'fashion', 'أزياء', 'international', 'دولي']
   },
 ];
 

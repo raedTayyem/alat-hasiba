@@ -72,7 +72,7 @@ export default function HomeEquityCalculator() {
               if (error) setError('');
             }}
             onKeyPress={handleKeyPress}
-            placeholder="400000"
+            placeholder={t("placeholders.currentValue")}
             min={0}
             startIcon={<DollarSign className="h-4 w-4" />}
           />
@@ -88,7 +88,7 @@ export default function HomeEquityCalculator() {
               if (error) setError('');
             }}
             onKeyPress={handleKeyPress}
-            placeholder="250000"
+            placeholder={t("placeholders.remainingMortgage")}
             min={0}
             startIcon={<DollarSign className="h-4 w-4" />}
           />

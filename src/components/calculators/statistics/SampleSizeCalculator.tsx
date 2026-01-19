@@ -152,7 +152,7 @@ export default function SampleSizeCalculator() {
             value={proportion}
             onValueChange={(val) => setProportion(val.toString())}
             onKeyPress={handleKeyPress}
-            placeholder="50"
+            placeholder={t("placeholders.proportion")}
             startIcon={<Percent className="h-4 w-4" />}
           />
         </FormField>

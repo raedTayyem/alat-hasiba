@@ -142,7 +142,7 @@ export default function FinalGradeCalculator() {
           <NumberInput
             value={currentGrade}
             onValueChange={(val) => setCurrentGrade(val.toString())}
-            placeholder="85"
+            placeholder={t("placeholders.currentGrade")}
             min={0}
             max={200}
             step={0.1}
@@ -153,7 +153,7 @@ export default function FinalGradeCalculator() {
           <NumberInput
             value={desiredGrade}
             onValueChange={(val) => setDesiredGrade(val.toString())}
-            placeholder="90"
+            placeholder={t("placeholders.desiredGrade")}
             min={0}
             max={200}
             step={0.1}
@@ -166,7 +166,7 @@ export default function FinalGradeCalculator() {
         <NumberInput
           value={finalWeight}
           onValueChange={(val) => setFinalWeight(val.toString())}
-          placeholder="20"
+          placeholder={t("placeholders.finalWeight")}
           min={0.1}
           max={99.9}
           step={0.1}

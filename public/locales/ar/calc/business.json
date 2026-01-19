@@ -5855,5 +5855,12 @@
   },
   "common:common": {
     "currencySymbol": "Currency Syمbol"
+  },
+  "placeholders": {
+    "unitPrice": "25",
+    "quantity": "100",
+    "currentSalary": "50000",
+    "contribution": "6",
+    "employerMatch": "3"
   }
 }

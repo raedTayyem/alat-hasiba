@@ -2074,5 +2074,16 @@
       "finite_population_note": "Finite Population Note"
     },
     "description": "Description"
+  },
+  "placeholders": {
+    "rows": "2",
+    "cols": "2",
+    "real": "0",
+    "imaginary": "0",
+    "numerator": "1",
+    "denominator": "2",
+    "base": "10",
+    "value": "100",
+    "angle": "45"
   }
 }

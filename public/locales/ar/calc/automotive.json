@@ -4479,7 +4479,17 @@
     "oil_service": "oil_service",
     "per_year": "per_year",
     "placeholders": {
-      "annual_mileage": "annual_mileage"
+      "annual_mileage": "annual_mileage",
+      "oil_interval": "5000",
+      "oil_cost": "50",
+      "tire_interval": "50000",
+      "tire_cost": "600",
+      "brake_interval": "40000",
+      "brake_cost": "400",
+      "filter_interval": "15000",
+      "filter_cost": "100",
+      "fluid_interval": "30000",
+      "fluid_cost": "200"
     },
     "tip_1": "tip_1",
     "tip_2": "tip_2",
@@ -5007,5 +5017,8 @@
     }
   },
   ":": ":",
-  "metric": "Metric"
+  "metric": "Metric",
+  "placeholders": {
+    "ratio": "3.73"
+  }
 }

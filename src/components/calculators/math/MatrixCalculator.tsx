@@ -238,7 +238,7 @@ export default function MatrixCalculator() {
               onValueChange={(val) => setRows(val.toString())}
               min={1}
               max={5}
-              placeholder="2"
+              placeholder={t("placeholders.rows")}
               startIcon={<Grid className="h-4 w-4" />}
             />
           </FormField>
@@ -249,7 +249,7 @@ export default function MatrixCalculator() {
               onValueChange={(val) => setCols(val.toString())}
               min={1}
               max={5}
-              placeholder="2"
+              placeholder={t("placeholders.cols")}
               startIcon={<Grid className="h-4 w-4" />}
             />
           </FormField>
@@ -260,7 +260,7 @@ export default function MatrixCalculator() {
             <NumberInput
               value={scalar}
               onValueChange={(val) => setScalar(val.toString())}
-              placeholder="1"
+              placeholder={t("placeholders.scalar")}
               startIcon={<X className="h-4 w-4" />}
             />
           </FormField>

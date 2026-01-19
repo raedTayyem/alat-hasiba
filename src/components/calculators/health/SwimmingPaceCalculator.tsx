@@ -104,7 +104,7 @@ export default function SwimmingPaceCalculator() {
               onValueChange={(val) => setDistance(String(val))}
               onKeyPress={(e) => e.key === 'Enter' && calculatePace()}
               className="flex-1"
-              placeholder="100"
+              placeholder={t("placeholders.distance")}
             />
             <Combobox
               options={[
@@ -125,7 +125,7 @@ export default function SwimmingPaceCalculator() {
               <NumberInput
                 value={minutes}
                 onValueChange={(val) => setMinutes(String(val))}
-                placeholder="1"
+                placeholder={t("placeholders.minutes")}
                 min={0}
               />
             </div>
@@ -134,7 +134,7 @@ export default function SwimmingPaceCalculator() {
               <NumberInput
                 value={seconds}
                 onValueChange={(val) => setSeconds(String(val))}
-                placeholder="30"
+                placeholder={t("placeholders.seconds")}
                 min={0}
               />
             </div>

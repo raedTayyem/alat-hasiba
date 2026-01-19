@@ -420,7 +420,7 @@ export default function EnergyCalculator() {
               <NumberInput
                 value={gravity}
                 onValueChange={(val) => setGravity(val.toString())}
-                placeholder="9.81"
+                placeholder={t("placeholders.gravity")}
                 startIcon={<Zap className="h-4 w-4" />}
                 onKeyPress={handleKeyPress}
               />
@@ -506,7 +506,7 @@ export default function EnergyCalculator() {
               <NumberInput
                 value={gravity}
                 onValueChange={(val) => setGravity(val.toString())}
-                placeholder="9.81"
+                placeholder={t("placeholders.gravity")}
                 startIcon={<Zap className="h-4 w-4" />}
                 onKeyPress={handleKeyPress}
               />

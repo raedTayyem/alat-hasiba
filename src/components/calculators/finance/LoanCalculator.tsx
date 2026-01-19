@@ -242,7 +242,7 @@ const LoanCalculator: React.FC = () => {
                     value={inputs.principal}
                     onValueChange={(val) => handleInputChange('principal', Number(val))}
                     onKeyPress={handleKeyPress}
-                    placeholder="10000"
+                    placeholder={t('loan.placeholders.principal')}
                     min={0}
                     step={100}
                     startIcon={<DollarSign className="h-4 w-4" />}
@@ -258,7 +258,7 @@ const LoanCalculator: React.FC = () => {
                     value={inputs.annualRate}
                     onValueChange={(val) => handleInputChange('annualRate', Number(val))}
                     onKeyPress={handleKeyPress}
-                    placeholder="5"
+                    placeholder={t('loan.placeholders.annualRate')}
                     min={0}
                     step={0.1}
                     startIcon={<Percent className="h-4 w-4" />}
@@ -274,7 +274,7 @@ const LoanCalculator: React.FC = () => {
                     value={inputs.years}
                     onValueChange={(val) => handleInputChange('years', Number(val))}
                     onKeyPress={handleKeyPress}
-                    placeholder="5"
+                    placeholder={t('loan.placeholders.years')}
                     min={1}
                     step={1}
                     startIcon={<Calendar className="h-4 w-4" />}

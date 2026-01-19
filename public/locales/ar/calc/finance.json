@@ -931,6 +931,11 @@
       "annualRate": "معدل الفائدة السنوي للقرض",
       "years": "عدد السنوات لسداد القرض"
     },
+    "placeholders": {
+      "principal": "10000",
+      "annualRate": "5",
+      "years": "5"
+    },
     "results": {
       "monthlyPayment": "الدفعة الشهرية",
       "totalPayment": "إجمالي المدفوعات",
@@ -1356,5 +1361,10 @@
   "title": "العنوان",
   "description": "الوصف",
   "calculate": "احسب",
-  "reset": "إعادة تعيين"
+  "reset": "إعادة تعيين",
+  "placeholders": {
+    "cashAmount": "100000",
+    "goldWeight": "100",
+    "goldPrice": "60"
+  }
 }

@@ -119,7 +119,7 @@ export default function BezierCurveCalculator() {
             value={tParam}
             onValueChange={(value) => { setTParam(String(value)); if (error) setError(''); }}
             className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-            placeholder="0.5"
+            placeholder={t("placeholders.curveType")}
             step={0.01}
             min={0}
             max={1}

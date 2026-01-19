@@ -84,15 +84,15 @@ export default function AquariumCalculator() {
 
       <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
         <InputContainer label={t("aquarium_calculator.length")}>
-          <NumberInput value={length} onValueChange={(val) => setLength(String(val))} unit={t("common:common.units.cm")} placeholder="0" min={0} step={1} />
+          <NumberInput value={length} onValueChange={(val) => setLength(String(val))} unit={t("common:common.units.cm")} placeholder={t("placeholders.length")} min={0} step={1} />
         </InputContainer>
 
         <InputContainer label={t("aquarium_calculator.width")}>
-          <NumberInput value={width} onValueChange={(val) => setWidth(String(val))} unit={t("common:common.units.cm")} placeholder="0" min={0} step={1} />
+          <NumberInput value={width} onValueChange={(val) => setWidth(String(val))} unit={t("common:common.units.cm")} placeholder={t("placeholders.length")} min={0} step={1} />
         </InputContainer>
 
         <InputContainer label={t("aquarium_calculator.height")}>
-          <NumberInput value={height} onValueChange={(val) => setHeight(String(val))} unit={t("common:common.units.cm")} placeholder="0" min={0} step={1} />
+          <NumberInput value={height} onValueChange={(val) => setHeight(String(val))} unit={t("common:common.units.cm")} placeholder={t("placeholders.length")} min={0} step={1} />
         </InputContainer>
       </div>
 

@@ -14,7 +14,8 @@ const financeCalculators: Calculator[] = [
     category: 'finance',
     icon: '📈',
     popularity: 8,
-    componentName: 'InvestmentCalculator'
+    componentName: 'InvestmentCalculator',
+    keywords: ['compound interest', 'فائدة مركبة', 'investment', 'استثمار', 'savings', 'مدخرات', 'growth', 'نمو', 'finance', 'مالية']
   },
   {
     id: 19,
@@ -28,7 +29,8 @@ const financeCalculators: Calculator[] = [
     category: 'finance',
     icon: '☪️',
     popularity: 9,
-    componentName: 'ZakatCalculator'
+    componentName: 'ZakatCalculator',
+    keywords: ['zakat', 'زكاة', 'islamic', 'إسلامي', 'charity', 'صدقة', 'wealth', 'مال', 'gold', 'ذهب']
   },
   {
     id: 20,
@@ -42,7 +44,8 @@ const financeCalculators: Calculator[] = [
     category: 'finance',
     icon: '💳',
     popularity: 8,
-    componentName: 'LoanCalculator'
+    componentName: 'LoanCalculator',
+    keywords: ['loan', 'قرض', 'payment', 'دفعة', 'interest', 'فائدة', 'mortgage', 'رهن عقاري', 'debt', 'دين']
   },
   /*
     {
@@ -72,7 +75,8 @@ const financeCalculators: Calculator[] = [
     category: 'finance',
     icon: '💰',
     popularity: 7,
-    componentName: 'InvestmentCalculator'
+    componentName: 'InvestmentCalculator',
+    keywords: ['investment', 'استثمار', 'returns', 'عوائد', 'profit', 'ربح', 'portfolio', 'محفظة', 'stocks', 'أسهم']
   },
   {
     id: 910,
@@ -86,7 +90,8 @@ const financeCalculators: Calculator[] = [
     category: 'finance',
     icon: '⛽',
     popularity: 8,
-    componentName: 'FuelConsumptionCalculator'
+    componentName: 'FuelConsumptionCalculator',
+    keywords: ['fuel', 'وقود', 'consumption', 'استهلاك', 'gas', 'بنزين', 'mileage', 'استهلاك', 'car', 'سيارة']
   },
   /*
     {
@@ -132,8 +137,9 @@ const financeCalculators: Calculator[] = [
     category: 'finance',
     icon: '📜',
     popularity: 7,
-    componentName: 'InheritanceCalculator'
+    componentName: 'InheritanceCalculator',
+    keywords: ['inheritance', 'ميراث', 'estate', 'تركة', 'distribution', 'توزيع', 'heirs', 'ورثة', 'islamic law', 'شريعة إسلامية']
   },
 ];
 
-export default financeCalculators; 
+export default financeCalculators;

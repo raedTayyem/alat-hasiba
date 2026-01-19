@@ -117,7 +117,7 @@ export default function InrushCurrentCalculator() {
             value={voltage}
             onValueChange={(val) => setVoltage(String(val))}
             unit={t("ohms_law.unit_voltage")}
-            placeholder="380"
+            placeholder={t("placeholders.voltage")}
             min={0}
             step={1}
           />

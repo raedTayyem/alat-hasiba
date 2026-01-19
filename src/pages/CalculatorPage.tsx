@@ -318,6 +318,7 @@ const CalculatorPage = () => {
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={pageTitle} />
         <meta name="twitter:description" content={calculatorData.description} />
+        <meta name="twitter:image" content="https://alathasiba.com/og-image.png" />
 
         {/* Breadcrumb Structured Data for SEO */}
         <script type="application/ld+json">

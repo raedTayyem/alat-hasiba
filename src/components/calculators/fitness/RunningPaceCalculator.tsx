@@ -81,7 +81,7 @@ export default function RunningPaceCalculator() {
           <NumberInput
             value={hours}
             onValueChange={(val) => setHours(val.toString())}
-            placeholder="0"
+            placeholder={t("placeholders.hours")}
             min={0}
             startIcon={<Clock className="h-4 w-4" />}
           />
@@ -108,7 +108,7 @@ export default function RunningPaceCalculator() {
           <NumberInput
             value={seconds}
             onValueChange={(val) => setSeconds(val.toString())}
-            placeholder="0"
+            placeholder={t("placeholders.seconds")}
             min={0}
             max={59}
             startIcon={<Clock className="h-4 w-4" />}

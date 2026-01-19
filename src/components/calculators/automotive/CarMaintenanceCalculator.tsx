@@ -232,7 +232,7 @@ export default function CarMaintenanceCalculator() {
               value={oilChangeInterval}
               onValueChange={(val) => setOilChangeInterval(val.toString())}
               onKeyPress={handleKeyPress}
-              placeholder="5000"
+              placeholder={t("car_maintenance.placeholders.oil_interval")}
               min={1000}
               step={1000}
               startIcon={<Droplets className="h-4 w-4" />}
@@ -246,7 +246,7 @@ export default function CarMaintenanceCalculator() {
               value={oilChangeCost}
               onValueChange={(val) => setOilChangeCost(val.toString())}
               onKeyPress={handleKeyPress}
-              placeholder="50"
+              placeholder={t("car_maintenance.placeholders.oil_cost")}
               min={0}
               step={10}
               startIcon={<DollarSign className="h-4 w-4" />}
@@ -267,7 +267,7 @@ export default function CarMaintenanceCalculator() {
               value={tireInterval}
               onValueChange={(val) => setTireInterval(val.toString())}
               onKeyPress={handleKeyPress}
-              placeholder="50000"
+              placeholder={t("car_maintenance.placeholders.tire_interval")}
               min={10000}
               step={5000}
               startIcon={<Circle className="h-4 w-4" />}
@@ -281,7 +281,7 @@ export default function CarMaintenanceCalculator() {
               value={tireCost}
               onValueChange={(val) => setTireCost(val.toString())}
               onKeyPress={handleKeyPress}
-              placeholder="600"
+              placeholder={t("car_maintenance.placeholders.tire_cost")}
               min={0}
               step={50}
               startIcon={<DollarSign className="h-4 w-4" />}
@@ -302,7 +302,7 @@ export default function CarMaintenanceCalculator() {
               value={brakeInterval}
               onValueChange={(val) => setBrakeInterval(val.toString())}
               onKeyPress={handleKeyPress}
-              placeholder="40000"
+              placeholder={t("car_maintenance.placeholders.brake_interval")}
               min={10000}
               step={5000}
               startIcon={<Settings className="h-4 w-4" />}
@@ -316,7 +316,7 @@ export default function CarMaintenanceCalculator() {
               value={brakesCost}
               onValueChange={(val) => setBrakesCost(val.toString())}
               onKeyPress={handleKeyPress}
-              placeholder="400"
+              placeholder={t("car_maintenance.placeholders.brake_cost")}
               min={0}
               step={50}
               startIcon={<DollarSign className="h-4 w-4" />}
@@ -337,7 +337,7 @@ export default function CarMaintenanceCalculator() {
               value={filterInterval}
               onValueChange={(val) => setFilterInterval(val.toString())}
               onKeyPress={handleKeyPress}
-              placeholder="15000"
+              placeholder={t("car_maintenance.placeholders.filter_interval")}
               min={5000}
               step={5000}
               startIcon={<Wind className="h-4 w-4" />}
@@ -351,7 +351,7 @@ export default function CarMaintenanceCalculator() {
               value={filtersCost}
               onValueChange={(val) => setFiltersCost(val.toString())}
               onKeyPress={handleKeyPress}
-              placeholder="100"
+              placeholder={t("car_maintenance.placeholders.filter_cost")}
               min={0}
               step={10}
               startIcon={<DollarSign className="h-4 w-4" />}
@@ -372,7 +372,7 @@ export default function CarMaintenanceCalculator() {
               value={fluidInterval}
               onValueChange={(val) => setFluidInterval(val.toString())}
               onKeyPress={handleKeyPress}
-              placeholder="30000"
+              placeholder={t("car_maintenance.placeholders.fluid_interval")}
               min={10000}
               step={5000}
               startIcon={<Droplets className="h-4 w-4" />}
@@ -386,7 +386,7 @@ export default function CarMaintenanceCalculator() {
               value={fluidsCost}
               onValueChange={(val) => setFluidsCost(val.toString())}
               onKeyPress={handleKeyPress}
-              placeholder="200"
+              placeholder={t("car_maintenance.placeholders.fluid_cost")}
               min={0}
               step={25}
               startIcon={<DollarSign className="h-4 w-4" />}

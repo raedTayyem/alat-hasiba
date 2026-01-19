@@ -49,6 +49,15 @@ const SearchPage = () => {
         <meta property="og:image:height" content="630" />
         <meta property="og:image:alt" content={t('siteName') + ' - ' + t('seo.siteDescription')} />
 
+        {/* Twitter Card tags */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:title" content={query ? `${t('search.resultsFor')} "${query}"` : t('search.search')} />
+        <meta name="twitter:description" content={query
+          ? `${t('search.foundResults', { count: searchResults.length })} ${t('search.resultsFor')} "${query}"`
+          : t('search.searchDescription')
+        } />
+        <meta name="twitter:image" content="https://alathasiba.com/og-image.png" />
+
         {/* Canonical URL - points to base search page without query params */}
         <link rel="canonical" href={`${window.location.origin}/search`} />
       </Helmet>

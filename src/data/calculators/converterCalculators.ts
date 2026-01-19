@@ -14,7 +14,8 @@ const converterCalculators: Calculator[] = [
         category: 'converter',
         icon: '📏',
         popularity: 9,
-        componentName: 'LengthConverter'
+        componentName: 'LengthConverter',
+        keywords: ['length', 'طول', 'meter', 'متر', 'feet', 'قدم', 'inch', 'بوصة', 'kilometer', 'كيلومتر']
     },
     {
         id: 301,
@@ -28,7 +29,8 @@ const converterCalculators: Calculator[] = [
         category: 'converter',
         icon: '⚖️',
         popularity: 8,
-        componentName: 'WeightConverter'
+        componentName: 'WeightConverter',
+        keywords: ['weight', 'وزن', 'mass', 'كتلة', 'kilogram', 'كيلوجرام', 'pound', 'رطل', 'gram', 'جرام']
     },
     {
         id: 302,
@@ -42,7 +44,8 @@ const converterCalculators: Calculator[] = [
         category: 'converter',
         icon: '🌡️',
         popularity: 9,
-        componentName: 'TemperatureConverter'
+        componentName: 'TemperatureConverter',
+        keywords: ['temperature', 'حرارة', 'celsius', 'سيلزيوس', 'fahrenheit', 'فهرنهايت', 'kelvin', 'كلفن', 'weather', 'طقس']
     },
     {
         id: 303,
@@ -56,7 +59,8 @@ const converterCalculators: Calculator[] = [
         category: 'converter',
         icon: '📐',
         popularity: 7,
-        componentName: 'AreaConverter'
+        componentName: 'AreaConverter',
+        keywords: ['area', 'مساحة', 'square meter', 'متر مربع', 'acre', 'فدان', 'hectare', 'هكتار', 'land', 'أرض']
     },
     {
         id: 304,
@@ -70,7 +74,8 @@ const converterCalculators: Calculator[] = [
         category: 'converter',
         icon: '🧊',
         popularity: 7,
-        componentName: 'VolumeConverter'
+        componentName: 'VolumeConverter',
+        keywords: ['volume', 'حجم', 'liter', 'لتر', 'gallon', 'جالون', 'cubic meter', 'متر مكعب', 'capacity', 'سعة']
     },
     {
         id: 305,
@@ -84,7 +89,8 @@ const converterCalculators: Calculator[] = [
         category: 'converter',
         icon: '🚀',
         popularity: 6,
-        componentName: 'SpeedConverter'
+        componentName: 'SpeedConverter',
+        keywords: ['speed', 'سرعة', 'velocity', 'عجلة', 'kmh', 'كم/ساعة', 'mph', 'ميل/ساعة', 'meter per second', 'متر/ثانية']
     },
     {
         id: 306,
@@ -98,7 +104,8 @@ const converterCalculators: Calculator[] = [
         category: 'converter',
         icon: '⏱️',
         popularity: 6,
-        componentName: 'TimeUnitConverter'
+        componentName: 'TimeUnitConverter',
+        keywords: ['time', 'وقت', 'second', 'ثانية', 'minute', 'دقيقة', 'hour', 'ساعة', 'day', 'يوم']
     },
     {
         id: 307,
@@ -112,7 +119,8 @@ const converterCalculators: Calculator[] = [
         category: 'converter',
         icon: '🎈',
         popularity: 5,
-        componentName: 'PressureConverter'
+        componentName: 'PressureConverter',
+        keywords: ['pressure', 'ضغط', 'pascal', 'باسكال', 'bar', 'بار', 'psi', 'رطل/بوصة', 'atmosphere', 'ضغط جوي']
     },
     {
         id: 308,
@@ -126,7 +134,8 @@ const converterCalculators: Calculator[] = [
         category: 'converter',
         icon: '💥',
         popularity: 4,
-        componentName: 'ForceConverter'
+        componentName: 'ForceConverter',
+        keywords: ['force', 'قوة', 'newton', 'نيوتن', 'pound', 'رطل', 'dyne', 'داين', 'physics', 'فيزياء']
     },
     {
         id: 309,
@@ -140,7 +149,8 @@ const converterCalculators: Calculator[] = [
         category: 'converter',
         icon: '💱',
         popularity: 9,
-        componentName: 'CurrencyConverter'
+        componentName: 'CurrencyConverter',
+        keywords: ['currency', 'عملة', 'money', 'مال', 'exchange', 'صرف', 'dollar', 'دولار', 'euro', 'يورو']
     },
 
     {
@@ -155,7 +165,8 @@ const converterCalculators: Calculator[] = [
         category: 'converter',
         icon: '🔢',
         popularity: 8,
-        componentName: 'NumberSystemConverter'
+        componentName: 'NumberSystemConverter',
+        keywords: ['number system', 'نظام عددي', 'binary', 'ثنائي', 'decimal', 'عشري', 'hexadecimal', 'ست عشري', 'octal', 'ثماني']
     },
     {
         id: 311,
@@ -169,7 +180,8 @@ const converterCalculators: Calculator[] = [
         category: 'converter',
         icon: '💾',
         popularity: 7,
-        componentName: 'DataStorageConverter'
+        componentName: 'DataStorageConverter',
+        keywords: ['data', 'بيانات', 'storage', 'تخزين', 'byte', 'بايت', 'kilobyte', 'كيلوبايت', 'megabyte', 'ميجابايت', 'gigabyte', 'جيجابايت']
     }
 
 ];

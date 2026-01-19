@@ -2106,5 +2106,15 @@
     "title": "Title",
     "description": "Description",
     "footer_note": "Footer Note"
+  },
+  "placeholders": {
+    "distance": "1000",
+    "time": "15",
+    "strokeRate": "30",
+    "weight": "70",
+    "age": "30",
+    "protein": "150",
+    "waist": "85",
+    "hip": "95"
   }
 }

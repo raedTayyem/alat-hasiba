@@ -14,7 +14,8 @@ const mathCalculators: Calculator[] = [
     category: 'math',
     icon: '%',
     popularity: 9,
-    componentName: 'PercentageCalculator'
+    componentName: 'PercentageCalculator',
+    keywords: ['percentage', 'نسبة مئوية', 'percent', 'بالمئة', 'fraction', 'كسر', 'calculation', 'حساب', 'math', 'رياضيات']
   },
   {
     id: 3,
@@ -28,7 +29,8 @@ const mathCalculators: Calculator[] = [
     category: 'math',
     icon: '🧮',
     popularity: 10,
-    componentName: 'ScientificCalculator'
+    componentName: 'ScientificCalculator',
+    keywords: ['scientific', 'علمية', 'calculator', 'آلة حاسبة', 'math', 'رياضيات', 'trigonometry', 'مثلثات', 'functions', 'دوال']
   },
   {
     id: 4,
@@ -42,7 +44,8 @@ const mathCalculators: Calculator[] = [
     category: 'math',
     icon: '➗',
     popularity: 6,
-    componentName: 'FractionCalculator'
+    componentName: 'FractionCalculator',
+    keywords: ['fraction', 'كسر', 'numerator', 'بسط', 'denominator', 'مقام', 'simplify', 'تبسيط', 'math', 'رياضيات']
   },
   {
     id: 5,
@@ -56,7 +59,8 @@ const mathCalculators: Calculator[] = [
     category: 'math',
     icon: '🔢',
     popularity: 5,
-    componentName: 'MatrixCalculator'
+    componentName: 'MatrixCalculator',
+    keywords: ['matrix', 'مصفوفة', 'determinant', 'محدد', 'inverse', 'معكوس', 'linear algebra', 'جبر خطي', 'math', 'رياضيات']
   },
   {
     id: 6,
@@ -70,7 +74,8 @@ const mathCalculators: Calculator[] = [
     category: 'math',
     icon: '📈',
     popularity: 4,
-    componentName: 'SequencesCalculator'
+    componentName: 'SequencesCalculator',
+    keywords: ['sequence', 'متوالية', 'arithmetic', 'حسابية', 'geometric', 'هندسية', 'series', 'متسلسلة', 'pattern', 'نمط']
   },
   {
     id: 7,
@@ -84,7 +89,8 @@ const mathCalculators: Calculator[] = [
     category: 'math',
     icon: '🔣',
     popularity: 5,
-    componentName: 'GcdLcmCalculator'
+    componentName: 'GcdLcmCalculator',
+    keywords: ['GCD', 'قاسم مشترك أكبر', 'LCM', 'مضاعف مشترك أصغر', 'divisor', 'قاسم', 'multiple', 'مضاعف', 'number theory', 'نظرية الأعداد']
   },
   {
     id: 8,
@@ -98,7 +104,8 @@ const mathCalculators: Calculator[] = [
     category: 'math',
     icon: '🔎',
     popularity: 6,
-    componentName: 'PrimeFactorizationCalculator'
+    componentName: 'PrimeFactorizationCalculator',
+    keywords: ['prime', 'أولي', 'factorization', 'تحليل', 'factor', 'عامل', 'number', 'عدد', 'decomposition', 'تفكيك']
   },
   {
     id: 9,
@@ -112,7 +119,8 @@ const mathCalculators: Calculator[] = [
     category: 'math',
     icon: '✖️',
     popularity: 4,
-    componentName: 'ComplexNumbersCalculator'
+    componentName: 'ComplexNumbersCalculator',
+    keywords: ['complex', 'مركب', 'imaginary', 'تخيلي', 'real', 'حقيقي', 'magnitude', 'مقدار', 'phase', 'طور']
   },
   {
     id: 10,
@@ -126,7 +134,8 @@ const mathCalculators: Calculator[] = [
     category: 'math',
     icon: '📉',
     popularity: 5,
-    componentName: 'LogarithmCalculator'
+    componentName: 'LogarithmCalculator',
+    keywords: ['logarithm', 'لوغاريتم', 'log', 'لوغ', 'natural', 'طبيعي', 'base', 'أساس', 'exponent', 'أس']
   },
   {
     id: 11,
@@ -140,7 +149,8 @@ const mathCalculators: Calculator[] = [
     category: 'math',
     icon: '∫',
     popularity: 6,
-    componentName: 'CalculusCalculator'
+    componentName: 'CalculusCalculator',
+    keywords: ['calculus', 'تفاضل وتكامل', 'derivative', 'مشتقة', 'integral', 'تكامل', 'differentiation', 'اشتقاق', 'integration', 'تكامل']
   },
   {
     id: 17,
@@ -154,8 +164,9 @@ const mathCalculators: Calculator[] = [
     category: 'math',
     icon: '📐',
     popularity: 7,
-    componentName: 'TrigonometryCalculator'
+    componentName: 'TrigonometryCalculator',
+    keywords: ['trigonometry', 'حساب مثلثات', 'sine', 'جيب', 'cosine', 'جيب تمام', 'tangent', 'ظل', 'angle', 'زاوية']
   },
 ];
 
-export default mathCalculators; 
+export default mathCalculators;

@@ -75,7 +75,7 @@ export default function WeightGainCalculator() {
             value={currentWeight}
             onValueChange={(val) => setCurrentWeight(String(val))}
             onKeyPress={(e) => e.key === 'Enter' && calculateWeightGain()}
-            placeholder="60"
+            placeholder={t("placeholders.currentWeight")}
             step={0.1}
           />
         </InputContainer>
@@ -85,7 +85,7 @@ export default function WeightGainCalculator() {
             value={targetWeight}
             onValueChange={(val) => setTargetWeight(String(val))}
             onKeyPress={(e) => e.key === 'Enter' && calculateWeightGain()}
-            placeholder="70"
+            placeholder={t("placeholders.targetWeight")}
             step={0.1}
           />
         </InputContainer>

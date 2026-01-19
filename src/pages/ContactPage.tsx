@@ -39,9 +39,10 @@ const ContactPage = () => {
         <meta property="og:image:alt" content="Contact Alathasiba - آلات حاسبة" />
 
         {/* Twitter Card tags */}
-        <meta name="twitter:card" content="summary" />
+        <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content={t('contact.title')} />
         <meta name="twitter:description" content={t('contact.metaDescription')} />
+        <meta name="twitter:image" content="https://alathasiba.com/og-image.png" />
 
         <script type="application/ld+json">
           {JSON.stringify(structuredData)}

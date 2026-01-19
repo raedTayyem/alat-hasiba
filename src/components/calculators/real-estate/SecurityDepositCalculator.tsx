@@ -77,7 +77,7 @@ export default function SecurityDepositCalculator() {
           <NumberInput
             value={creditScore}
             onValueChange={(val) => setCreditScore(val.toString())}
-            placeholder="700"
+            placeholder={t("placeholders.creditScore")}
             min={300}
             max={850}
             startIcon={<CreditCard className="h-4 w-4" />}

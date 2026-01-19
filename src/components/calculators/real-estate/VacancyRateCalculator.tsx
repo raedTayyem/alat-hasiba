@@ -137,7 +137,7 @@ export default function VacancyRateCalculator() {
               if (error) setError('');
             }}
             onKeyPress={handleKeyPress}
-            placeholder="2000"
+            placeholder={t("placeholders.monthlyRent")}
             min={0}
             startIcon={<DollarSign className="h-4 w-4" />}
           />
@@ -154,7 +154,7 @@ export default function VacancyRateCalculator() {
               if (error) setError('');
             }}
             onKeyPress={handleKeyPress}
-            placeholder="30"
+            placeholder={t("placeholders.vacantDays")}
             min={0}
             max={365}
             startIcon={<Calendar className="h-4 w-4" />}

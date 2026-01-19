@@ -85,7 +85,7 @@ export default function WeightLossTimeCalculator() {
           <NumberInput
             value={weeklyLoss}
             onValueChange={(val) => setWeeklyLoss(val.toString())}
-            placeholder="0.5"
+            placeholder={t("placeholders.weeklyLoss")}
             min={0.1}
             max={2}
             step={0.1}
