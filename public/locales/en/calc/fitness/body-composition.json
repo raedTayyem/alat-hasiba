@@ -69,6 +69,65 @@
   "lean-body-mass-calculator": {
     "title": "Lean Body Mass Calculator - Calculate Muscle Mass",
     "description": "Calculate your lean muscle mass accurately. Free online lean body mass calculator for fitness and bodybuilding tracking.",
+    "howItWorks": {
+      "title": "How the Lean Body Mass Calculator Works",
+      "formula": "LBM = Total Weight - Fat Mass = Weight × (100 - Body Fat %) / 100",
+      "explanation": "Lean Body Mass (LBM) includes everything that isn't fat: muscles, bones, organs, and water. Knowing your LBM is crucial for assessing true body composition and tracking muscle building or fat loss accurately.",
+      "steps": [
+        {
+          "name": "Enter Basic Data",
+          "text": "Input your gender, age, weight, and height"
+        },
+        {
+          "name": "Enter Measurements",
+          "text": "Input neck, waist, and hip circumference (females)"
+        },
+        {
+          "name": "Get Results",
+          "text": "The tool calculates LBM, fat mass, and percentages"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Tracking Muscle Building",
+        "description": "Monitor muscle mass gains accurately, not just total weight"
+      },
+      {
+        "title": "Assessing Cutting Programs",
+        "description": "Ensure you're losing fat while preserving muscle"
+      },
+      {
+        "title": "Calculating Protein Needs",
+        "description": "Some methods calculate protein based on LBM rather than total weight"
+      }
+    ],
+    "seoTips": [
+      "Track LBM more than total weight for true progress assessment",
+      "LBM increasing with stable weight means muscle gain and fat loss",
+      "Use the same measurement method each time for accurate comparison",
+      "Measure under same conditions (morning, before eating) for consistency"
+    ],
+    "commonMistakes": [
+      "Confusing muscle mass with LBM (LBM includes bones and organs too)",
+      "Expecting large rapid LBM increases (max 0.25-0.5 kg monthly for intermediates)",
+      "Ignoring hydration effects on measurements",
+      "Comparing measurements from different methods"
+    ],
+    "faqs": [
+      {
+        "question": "What's the difference between LBM and muscle mass?",
+        "answer": "LBM includes everything except fat (muscles + bones + organs + water), while muscle mass is only the muscles. LBM is always higher than pure muscle mass."
+      },
+      {
+        "question": "How much LBM can I gain monthly?",
+        "answer": "Beginners: 0.5-1 kg, intermediates: 0.25-0.5 kg, advanced: less than 0.25 kg monthly. These are realistic natural limits."
+      },
+      {
+        "question": "Can LBM decrease?",
+        "answer": "Yes, through muscle loss from lack of training, severe calorie deficit, or insufficient protein intake."
+      }
+    ],
     "gender": "Gender",
     "gender_tooltip": "Select your biological gender",
     "male": "Male",

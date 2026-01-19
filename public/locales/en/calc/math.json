@@ -2084,6 +2084,8 @@
     "denominator": "2",
     "base": "10",
     "value": "100",
-    "angle": "45"
+    "angle": "45",
+    "scalar": "1",
+    "matrixValue": "0"
   }
 }

@@ -2077,5 +2077,10 @@
       "calculationError": "الحساب خطأ"
     },
     "reset": "إعادة تعيين"
+  },
+  "placeholders": {
+    "unixTimestamp": "١٢٣٤٥٦٧٨٩٠",
+    "monthRange": "١-١٢",
+    "monthRange13": "١-١٣"
   }
 }

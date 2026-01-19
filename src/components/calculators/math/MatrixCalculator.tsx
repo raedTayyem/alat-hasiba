@@ -194,7 +194,7 @@ export default function MatrixCalculator() {
                   value={val.toString()}
                   onValueChange={(value) => matrixNum && handleMatrixChange(matrixNum, i, j, value)}
                   className="text-center"
-                  placeholder="0"
+                  placeholder={t("placeholders.matrixValue")}
                   readOnly={!matrixNum}
                 />
               </div>

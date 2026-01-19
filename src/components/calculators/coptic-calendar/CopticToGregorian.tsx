@@ -188,7 +188,7 @@ export default function CopticToGregorian({ year, onYearChange }: CopticToGregor
             value={copticMonth}
             onValueChange={(val) => setCopticMonth(val.toString())}
             onKeyDown={handleKeyDown}
-            placeholder="1-13"
+            placeholder={t("placeholders.monthRange13")}
             min={1}
             max={13}
           />

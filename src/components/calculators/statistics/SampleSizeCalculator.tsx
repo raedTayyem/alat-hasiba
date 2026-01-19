@@ -132,7 +132,7 @@ export default function SampleSizeCalculator() {
             options={confidenceLevelOptions}
             value={confidenceLevel}
             onChange={(val) => setConfidenceLevel(val)}
-            placeholder="95%"
+            placeholder={t('placeholders.confidenceLevelPercent')}
           />
         </FormField>
 

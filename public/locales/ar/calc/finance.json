@@ -1365,6 +1365,7 @@
   "placeholders": {
     "cashAmount": "100000",
     "goldWeight": "100",
-    "goldPrice": "60"
+    "goldPrice": "60",
+    "heirCount": "١"
   }
 }

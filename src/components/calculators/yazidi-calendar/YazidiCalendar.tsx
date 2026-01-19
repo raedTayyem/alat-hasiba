@@ -288,7 +288,7 @@ export default function YazidiCalendar({ year, onYearChange }: YazidiCalendarPro
               value={gregorianMonth}
               onValueChange={(val) => setGregorianMonth(val.toString())}
               onKeyDown={handleKeyDown}
-              placeholder="1-12"
+              placeholder={t("placeholders.monthRange")}
               min={1}
               max={12}
             />
@@ -333,7 +333,7 @@ export default function YazidiCalendar({ year, onYearChange }: YazidiCalendarPro
               value={yazidiMonth}
               onValueChange={(val) => setYazidiMonth(val.toString())}
               onKeyDown={handleKeyDown}
-              placeholder="1-13"
+              placeholder={t("placeholders.monthRange13")}
               min={1}
               max={13}
             />

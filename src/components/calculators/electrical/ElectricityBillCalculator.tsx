@@ -88,7 +88,7 @@ export default function ElectricityBillCalculator() {
           <NumberInput
             value={pricePerKWh}
             onValueChange={(val) => setPricePerKWh(val.toString())}
-            placeholder="0.18-0.30"
+            placeholder={t("placeholders.pricePerKWhRange")}
             min={0}
             step={0.01}
             startIcon={<DollarSign className="h-4 w-4" />}

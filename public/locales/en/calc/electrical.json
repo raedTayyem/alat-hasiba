@@ -2353,6 +2353,8 @@
     "targetPF": "0.95",
     "frequency": "50",
     "powerFactor": "0.9",
+    "powerFactorRange": "0.8-0.9",
+    "pricePerKWhRange": "0.18-0.30",
     "loadPower": "0",
     "loadCount": "1",
     "efficiency1": "1"

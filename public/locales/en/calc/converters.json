@@ -517,6 +517,13 @@
       "case_2": "Estimating storage space",
       "case_3": "Understanding bandwidth and download sizes"
     },
+    "useCases": [
+      "Understanding file sizes when downloading or uploading files",
+      "Comparing storage device capacities (hard drives, SSDs, USB drives)",
+      "Calculating bandwidth requirements for streaming and downloads",
+      "Planning cloud storage subscriptions based on actual needs",
+      "Converting between operating system and manufacturer storage values"
+    ],
     "howItWorks": {
       "title": "How the Data Storage Converter Works",
       "description": "The converter supports two modes: Binary (1024) used by operating systems, and Decimal (1000) used by drive manufacturers.",
@@ -621,6 +628,13 @@
       "case_2": "Tire pressure measurement",
       "case_3": "Industrial and hydraulic systems"
     },
+    "useCases": [
+      "Checking and adjusting car tire pressure between PSI and Bar",
+      "Understanding weather forecasts with different pressure units",
+      "Converting pressure measurements in scientific experiments",
+      "Scuba diving depth pressure calculations",
+      "Industrial hydraulic and pneumatic system specifications"
+    ],
     "howItWorks": {
       "title": "How the Pressure Converter Works",
       "description": "The converter uses Pascal as the base unit for all conversions. Pascal is the SI unit for pressure measurement.",
@@ -722,6 +736,13 @@
       "case_2": "Engineering and structural analysis",
       "case_3": "Automotive and aerospace applications"
     },
+    "useCases": [
+      "Solving physics problems involving Newton's laws of motion",
+      "Structural engineering load calculations for buildings and bridges",
+      "Automotive engine power and torque specifications",
+      "Material testing for tensile and compressive strength",
+      "Aerospace engineering thrust and lift force calculations"
+    ],
     "howItWorks": {
       "title": "How the Force Converter Works",
       "description": "The converter uses Newton as the base unit for all conversions. Newton is the SI unit for force measurement.",
@@ -834,6 +855,13 @@
     "use_case_1": "International travel and tourism",
     "use_case_2": "Online shopping and e-commerce",
     "use_case_3": "Business transactions and invoicing",
+    "useCases": [
+      "Planning travel budgets and understanding costs abroad",
+      "Shopping from international websites and marketplaces",
+      "Sending money transfers to family or friends overseas",
+      "Tracking foreign investment and stock portfolio values",
+      "Creating international business invoices and quotes"
+    ],
     "howItWorks": {
       "title": "How the Currency Converter Works",
       "description": "The converter uses reference exchange rates to convert between currencies. The amount is multiplied by the exchange rate to get the equivalent value.",
@@ -940,6 +968,13 @@
       "case_2": "Shipping and postal weights",
       "case_3": "Health and weight tracking"
     },
+    "useCases": [
+      "Converting recipe measurements between metric and imperial units",
+      "Calculating shipping costs based on package weight",
+      "Tracking body weight and fitness progress",
+      "Weighing precious metals and gemstones in carats",
+      "International trade and cargo weight specifications"
+    ],
     "howItWorks": {
       "title": "How the Weight Converter Works",
       "description": "The converter uses kilogram as the base unit for all conversions. Input weights are converted to kilograms first, then to your target unit.",
@@ -1047,6 +1082,13 @@
       "case_2": "Travel distances",
       "case_3": "Scientific and academic calculations"
     },
+    "useCases": [
+      "Converting construction blueprints between metric and imperial",
+      "Planning road trips with distances in kilometers vs miles",
+      "Understanding TV and monitor screen sizes in inches and cm",
+      "Sewing and fabric measurements for international patterns",
+      "Maritime and aviation navigation using nautical miles"
+    ],
     "howItWorks": {
       "title": "How the Length Converter Works",
       "description": "The converter uses meter as the base unit for all conversions. Input lengths are converted to meters first, then to your target unit.",
@@ -1170,6 +1212,13 @@
       "case_2": "Digital electronics",
       "case_3": "Network addressing and color coding"
     },
+    "useCases": [
+      "Programming and debugging code with different number representations",
+      "Converting IP addresses and subnet masks in networking",
+      "Understanding hexadecimal color codes in web design (#FF0000)",
+      "Digital electronics and microcontroller programming",
+      "Unix/Linux file permissions in octal notation (755, 644)"
+    ],
     "conversion_summary": "Conversion Summary",
     "decimal_value": "Decimal Value",
     "all_representations": "All Representations",

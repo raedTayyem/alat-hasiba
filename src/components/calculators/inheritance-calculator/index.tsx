@@ -168,7 +168,7 @@ export default function InheritanceCalculator() {
                           min={1}
                           max={20}
                           step={1}
-                          placeholder="1"
+                          placeholder={t("placeholders.heirCount")}
                         />
                       </div>
                     </div>

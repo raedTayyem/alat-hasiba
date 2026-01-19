@@ -2077,5 +2077,10 @@
       "calculationError": "Calculation Error"
     },
     "reset": "Reset"
+  },
+  "placeholders": {
+    "unixTimestamp": "1234567890",
+    "monthRange": "1-12",
+    "monthRange13": "1-13"
   }
 }

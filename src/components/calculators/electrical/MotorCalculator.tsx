@@ -126,7 +126,7 @@ export default function MotorCalculator() {
             value={powerFactor}
             onValueChange={(val) => setPowerFactor(String(val))}
             unit=""
-            placeholder="0.8-0.9"
+            placeholder={t("placeholders.powerFactorRange")}
             min={0}
             max={1}
             step={0.01}

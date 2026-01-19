@@ -328,7 +328,7 @@ export default function SamaritanCalendarConverter({ year, onYearChange }: Samar
               value={gregorianMonth}
               onValueChange={(val) => setGregorianMonth(val.toString())}
               onKeyDown={handleKeyDown}
-              placeholder="1-12"
+              placeholder={t("placeholders.monthRange")}
               min={1}
               max={12}
             />
@@ -373,7 +373,7 @@ export default function SamaritanCalendarConverter({ year, onYearChange }: Samar
               value={samaritanMonth}
               onValueChange={(val) => setSamaritanMonth(val.toString())}
               onKeyDown={handleKeyDown}
-              placeholder="1-13"
+              placeholder={t("placeholders.monthRange13")}
               min={1}
               max={13}
             />

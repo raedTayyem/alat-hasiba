@@ -605,6 +605,7 @@
   },
   "placeholders": {
     "confidenceLevel": "95",
+    "confidenceLevelPercent": "٩٥٪",
     "proportion": "0.5",
     "successfulOutcomes": "6"
   }

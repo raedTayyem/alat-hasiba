@@ -254,6 +254,65 @@
   "protein-intake-calculator": {
     "title": "Protein Intake Calculator - Daily Protein Needs Tool",
     "description": "Calculate how much protein you need per day for muscle growth or maintenance. Free daily protein requirements tool.",
+    "howItWorks": {
+      "title": "How the Protein Intake Calculator Works",
+      "formula": "Daily Protein = Body Weight (kg) × Goal Factor (1.2-2.4 g/kg)",
+      "explanation": "This calculator determines your ideal daily protein intake based on your body weight, fitness goal, and activity level. Protein is essential for muscle building, repair, and maintenance, especially during weight loss.",
+      "steps": [
+        {
+          "name": "Enter Weight",
+          "text": "Input your current body weight in kilograms"
+        },
+        {
+          "name": "Select Goal",
+          "text": "Choose your goal (muscle building, cutting, maintenance, or sedentary)"
+        },
+        {
+          "name": "Select Activity Level",
+          "text": "Choose your weekly training intensity"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Muscle Building",
+        "description": "Ensure muscles get enough protein for growth and recovery"
+      },
+      {
+        "title": "Cutting/Fat Loss",
+        "description": "Preserve muscle mass during calorie deficits"
+      },
+      {
+        "title": "Injury Recovery",
+        "description": "Support muscle tissue repair after injuries"
+      }
+    ],
+    "seoTips": [
+      "Distribute protein across 4-5 meals daily for better absorption",
+      "Consume 20-40g protein within 2 hours post-workout for optimal recovery",
+      "High-quality protein sources: chicken, fish, eggs, whey, dairy",
+      "Drink adequate water with high protein intake to support kidneys"
+    ],
+    "commonMistakes": [
+      "Consuming all protein in one or two meals, reducing absorption",
+      "Relying only on supplements instead of real food",
+      "Neglecting protein on rest days despite its importance for recovery",
+      "Not adjusting amount after weight or goal changes"
+    ],
+    "faqs": [
+      {
+        "question": "How much protein do I need daily?",
+        "answer": "1.6-2.2 g/kg for athletes, 1.2-1.6 for moderate activity, 0.8-1.0 for sedentary individuals."
+      },
+      {
+        "question": "Can excess protein harm kidneys?",
+        "answer": "No for healthy individuals. Those with kidney issues should consult a doctor."
+      },
+      {
+        "question": "Does protein timing matter?",
+        "answer": "Distribution throughout the day matters more than exact timing, but post-workout protein aids recovery."
+      }
+    ],
     "input_title": "Protein Intake Calculator",
     "weight": "Weight (kg)",
     "weight_tooltip": "Enter your body weight in kilograms",
@@ -379,6 +438,65 @@
   "weight-loss-time-calculator": {
     "title": "Weight Loss Time Calculator - Goal Timeline",
     "description": "Calculate how long it will take to reach your weight loss goal. Free online tool for healthy weight loss planning.",
+    "howItWorks": {
+      "title": "How the Weight Loss Time Calculator Works",
+      "formula": "Weeks Required = (Current Weight - Target Weight) ÷ Weekly Loss Rate",
+      "explanation": "This calculator determines how long it will take to reach your target weight based on your chosen weekly weight loss rate. This helps you set realistic expectations and plan better.",
+      "steps": [
+        {
+          "name": "Enter Current Weight",
+          "text": "Input your current body weight in kilograms"
+        },
+        {
+          "name": "Enter Target Weight",
+          "text": "Input the weight you want to achieve"
+        },
+        {
+          "name": "Set Loss Rate",
+          "text": "Choose your desired weekly weight loss rate"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Goal Planning",
+        "description": "Know realistically when you'll reach your target weight"
+      },
+      {
+        "title": "Event Planning",
+        "description": "Plan for a specific event like a wedding or trip"
+      },
+      {
+        "title": "Reality Check",
+        "description": "Determine if your goal is achievable in the given timeframe"
+      }
+    ],
+    "seoTips": [
+      "0.5-1 kg weekly loss is the healthiest and most sustainable rate",
+      "Slower weight loss preserves muscle better",
+      "Plan for plateaus that naturally slow progress",
+      "Closer goals are easier to stay motivated for than distant ones"
+    ],
+    "commonMistakes": [
+      "Expecting unsustainably rapid loss (more than 1 kg weekly) long-term",
+      "Not accounting for plateaus that extend the actual timeline",
+      "Setting rigid deadlines that cause psychological stress",
+      "Comparing your loss rate with others"
+    ],
+    "faqs": [
+      {
+        "question": "What is a healthy weight loss rate?",
+        "answer": "0.5-1 kg weekly for most people. Extreme obesity may allow higher rates initially."
+      },
+      {
+        "question": "Why does weight loss stop sometimes?",
+        "answer": "Due to body adaptation. Requires adjusting calories, increasing activity, or taking a short maintenance break."
+      },
+      {
+        "question": "Can I speed up weight loss?",
+        "answer": "Yes through increased activity, but increasing calorie deficit beyond 1000 is unhealthy."
+      }
+    ],
     "current_weight": "Current Weight",
     "current_weight_tooltip": "Enter your current body weight",
     "weight_unit": "kg",

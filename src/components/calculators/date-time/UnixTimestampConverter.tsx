@@ -107,7 +107,7 @@ export default function UnixTimestampConverter() {
                 setTimestamp(String(value));
                 if (error) setError('');
               }}
-              placeholder="1234567890"
+              placeholder={t('placeholders.unixTimestamp')}
               min={0}
               startIcon={<Hash className="h-4 w-4" />}
             />
