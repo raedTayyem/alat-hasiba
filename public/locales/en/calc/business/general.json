@@ -503,7 +503,84 @@
       "use_case_1": "Business trip expense planning",
       "use_case_2": "Fleet fuel budget management",
       "use_case_3": "Vehicle operating cost comparison"
-    }
+    },
+    "howItWorks": {
+      "title": "How Fuel Cost Calculation Works",
+      "formula": "Fuel Cost = (Distance / Fuel Efficiency) × Fuel Price × Number of Trips",
+      "explanation": "Fuel cost calculation determines the total expense for fuel based on distance traveled, vehicle fuel efficiency, current fuel prices, and the number of trips. This helps businesses and individuals budget for travel expenses accurately and make cost-effective decisions.",
+      "steps": [
+        "Enter the total distance to be traveled in kilometers",
+        "Input your vehicle's fuel efficiency (km per liter)",
+        "Specify the current fuel price per liter",
+        "Add the number of trips if making multiple journeys",
+        "Calculator computes total fuel needed and associated cost"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Business Trip Budgeting",
+        "description": "Calculate fuel expenses for employee business trips to ensure accurate expense reimbursement and budget planning."
+      },
+      {
+        "title": "Fleet Cost Management",
+        "description": "Monitor and forecast fuel costs for company vehicle fleets to optimize operations and control expenses."
+      },
+      {
+        "title": "Delivery Route Optimization",
+        "description": "Compare fuel costs across different delivery routes to select the most cost-effective option."
+      },
+      {
+        "title": "Vehicle Selection",
+        "description": "Compare fuel efficiency of different vehicles to make informed purchasing decisions based on operating costs."
+      }
+    ],
+    "seoTips": [
+      "Track fuel prices over time to identify optimal refueling times and budget more accurately",
+      "Factor in city vs highway driving - fuel efficiency varies significantly by driving conditions",
+      "Consider total cost of ownership including maintenance, not just fuel, when comparing vehicles",
+      "Use fuel tracking apps to monitor actual vs estimated fuel consumption",
+      "Account for seasonal variations - cold weather reduces fuel efficiency by 10-15%"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Using Advertised MPG",
+        "description": "Manufacturer fuel efficiency ratings are often optimistic. Track actual consumption for more accurate cost projections."
+      },
+      {
+        "title": "Ignoring Driving Conditions",
+        "description": "Highway driving is more efficient than city driving. Factor in route characteristics for realistic estimates."
+      },
+      {
+        "title": "Not Accounting for Vehicle Load",
+        "description": "Loaded vehicles and cargo reduce fuel efficiency. Adjust estimates based on expected load weight."
+      },
+      {
+        "title": "Forgetting Indirect Costs",
+        "description": "Total trip cost includes tolls, parking, vehicle wear, and driver time, not just fuel."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How do I improve my vehicle's fuel efficiency?",
+        "answer": "Maintain proper tire pressure, reduce excess weight, avoid aggressive driving, use cruise control on highways, and keep up with regular maintenance like air filter and oil changes."
+      },
+      {
+        "question": "What is a good fuel efficiency for business vehicles?",
+        "answer": "Depends on vehicle type. Compact cars: 12-15 km/L. Midsize sedans: 10-12 km/L. SUVs: 8-10 km/L. Vans and trucks: 6-8 km/L. Hybrids can achieve 15-20 km/L."
+      },
+      {
+        "question": "How do fuel prices vary by region?",
+        "answer": "Fuel prices vary significantly by location due to taxes, distribution costs, and local competition. Urban areas often have lower prices than rural areas due to competition."
+      },
+      {
+        "question": "Should I include fuel cost in employee mileage reimbursement?",
+        "answer": "Standard mileage rates (like IRS rates) typically include fuel, maintenance, insurance, and depreciation. Check your local business reimbursement standards."
+      },
+      {
+        "question": "How can I reduce business fuel costs?",
+        "answer": "Optimize routes, combine trips, encourage fuel-efficient driving habits, maintain vehicles properly, consider fuel-efficient vehicles, and implement telecommuting where possible."
+      }
+    ]
   },
   "travel_cost": {
     "title": "Business Travel Cost Calculator",
@@ -544,7 +621,84 @@
       "use_case_1": "Budget approval for business trips",
       "use_case_2": "Expense report planning",
       "use_case_3": "Compare travel cost scenarios"
-    }
+    },
+    "howItWorks": {
+      "title": "How Business Travel Cost Calculation Works",
+      "formula": "Total Cost = Transportation + ((Lodging + Meals + Incidentals) × Number of Days)",
+      "explanation": "Business travel cost calculation aggregates all trip expenses including one-time transportation costs and daily expenses for lodging, meals, and incidentals. This provides a complete picture of trip costs for budgeting and expense management.",
+      "steps": [
+        "Enter transportation costs (flights, trains, rental cars)",
+        "Input per-night lodging costs for accommodations",
+        "Specify daily meal budget or allowance",
+        "Add daily incidental expenses (tips, local transport, parking)",
+        "Enter trip duration in days to calculate total expense"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Trip Budget Approval",
+        "description": "Calculate total travel costs before the trip for budget approval and advance planning."
+      },
+      {
+        "title": "Expense Report Verification",
+        "description": "Verify employee expense reports match estimated trip costs and company travel policies."
+      },
+      {
+        "title": "Travel Policy Development",
+        "description": "Analyze typical travel costs to set appropriate per diem rates and travel budgets."
+      },
+      {
+        "title": "Cost Comparison",
+        "description": "Compare costs between different cities, hotels, or travel arrangements to optimize spending."
+      }
+    ],
+    "seoTips": [
+      "Book flights and hotels in advance - prices typically increase 2-3x closer to travel dates",
+      "Use per diem rates from GSA or industry standards for consistent meal budgeting",
+      "Factor in time zones - cross-country travel may add meal costs due to extended travel days",
+      "Consider total trip time including travel - a cheaper flight with connections may not be cost-effective",
+      "Account for currency exchange rates and foreign transaction fees for international travel"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting Hidden Costs",
+        "description": "Baggage fees, airport parking, ground transportation, Wi-Fi charges, and tips add up quickly. Include all anticipated expenses."
+      },
+      {
+        "title": "Underestimating Meal Costs",
+        "description": "Restaurant prices in business districts and hotels often exceed expectations. Research typical meal costs for the destination."
+      },
+      {
+        "title": "Not Including Travel Time",
+        "description": "Travel days may require meals and incidentals beyond the number of nights stayed. Account for partial days."
+      },
+      {
+        "title": "Ignoring Cancellation Policies",
+        "description": "Non-refundable bookings may require payment even if the trip is cancelled. Consider flexibility vs. price."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What are typical business travel costs per day?",
+        "answer": "Varies by location. US average: $150-300/night lodging, $50-100/day meals, $20-40/day incidentals. Major cities like NYC or SF can be 50-100% higher."
+      },
+      {
+        "question": "What should be included in incidentals?",
+        "answer": "Tips (hotel, restaurant, taxi), local transportation, parking, laundry, phone calls, internet access, and other miscellaneous expenses."
+      },
+      {
+        "question": "How do per diem rates work?",
+        "answer": "Per diem provides a fixed daily allowance for meals and incidentals instead of tracking actual expenses. US GSA publishes rates by city."
+      },
+      {
+        "question": "Should I include conference registration fees in travel costs?",
+        "answer": "Registration fees are typically separate line items, not part of travel costs. Travel costs cover transportation, lodging, meals, and incidentals."
+      },
+      {
+        "question": "How can I reduce business travel costs?",
+        "answer": "Book in advance, use corporate rates, consider alternative accommodations (Airbnb), combine trips, use rewards programs, and evaluate if virtual meetings can substitute."
+      }
+    ]
   },
   "productivity": {
     "title": "Productivity Calculator",
@@ -1091,7 +1245,85 @@
       "use_case_1": "Plan mortgage payments",
       "use_case_2": "Compare loan options",
       "use_case_3": "Understand principal vs interest over time"
-    }
+    },
+    "howItWorks": {
+      "title": "How Loan Amortization Works",
+      "formula": "Monthly Payment = P × [r(1+r)^n] / [(1+r)^n - 1]",
+      "explanation": "Loan amortization is the process of paying off debt through regular monthly payments that cover both principal and interest. Each payment is the same amount, but early payments are mostly interest while later payments are mostly principal. The amortization schedule shows this breakdown for every payment over the life of the loan.",
+      "steps": [
+        "Enter the total loan principal (amount borrowed)",
+        "Input the annual interest rate as a percentage",
+        "Specify the loan term in months (e.g., 360 months = 30 years)",
+        "Calculator uses amortization formula to compute fixed monthly payment",
+        "Schedule generated showing principal, interest, and remaining balance for each month",
+        "Review total interest paid over life of loan to understand true borrowing cost"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Mortgage Planning",
+        "description": "Calculate monthly mortgage payments and total interest for home purchases. Compare 15-year vs 30-year terms to optimize for either lower payments or less total interest."
+      },
+      {
+        "title": "Auto Loan Comparison",
+        "description": "Evaluate different car loan offers by comparing monthly payments, total interest, and payoff schedules. Understand how interest rates and terms affect total cost."
+      },
+      {
+        "title": "Student Loan Repayment",
+        "description": "Plan student loan repayment strategy by viewing the amortization schedule. See how extra payments reduce total interest and shorten payoff timeline."
+      },
+      {
+        "title": "Business Loan Analysis",
+        "description": "Assess affordability of business loans for equipment, expansion, or working capital. Ensure monthly payments fit within cash flow projections."
+      }
+    ],
+    "seoTips": [
+      "Compare total interest paid across different loan terms - longer terms mean lower payments but much higher total interest",
+      "Use amortization schedule to plan when to refinance or make extra principal payments",
+      "Early in loan, most of payment is interest; later, most is principal - understand this for tax deductions",
+      "Calculate break-even point for refinancing by comparing closing costs to interest savings",
+      "Review schedule annually to track equity buildup and remaining principal balance"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Focusing Only on Monthly Payment",
+        "description": "Choosing longer loan terms for lower payments without considering total interest paid. A 30-year mortgage can cost 2× the interest of a 15-year for the same principal."
+      },
+      {
+        "title": "Not Accounting for Additional Costs",
+        "description": "Amortization shows only principal and interest. Mortgages also have property taxes, insurance, HOA fees, and PMI that significantly increase total monthly housing costs."
+      },
+      {
+        "title": "Ignoring Early Payoff Benefits",
+        "description": "Not understanding that extra principal payments in early years save massive interest over loan life. Even small additional payments can shorten term by years."
+      },
+      {
+        "title": "Confusing APR with Interest Rate",
+        "description": "Using advertised APR instead of actual interest rate in calculations. APR includes fees and gives higher number; use stated interest rate for amortization."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between principal and interest?",
+        "answer": "Principal is the original amount borrowed that must be repaid. Interest is the cost of borrowing, calculated as a percentage of remaining principal. Together they make your monthly payment."
+      },
+      {
+        "question": "Why does interest decrease over time?",
+        "answer": "Interest is calculated on the remaining balance. As you pay down principal, the balance decreases, so interest charges decrease. Your fixed payment then goes more toward principal."
+      },
+      {
+        "question": "Should I get a 15-year or 30-year mortgage?",
+        "answer": "15-year: higher payments (~50% more) but half the total interest and builds equity faster. 30-year: lower payments, more cash flow flexibility, but 2-3× total interest paid. Choose based on budget and goals."
+      },
+      {
+        "question": "How do extra payments affect amortization?",
+        "answer": "Extra principal payments reduce remaining balance, saving interest on that amount for all future months. Can shorten loan by years. Early extra payments have biggest impact."
+      },
+      {
+        "question": "What is negative amortization?",
+        "answer": "When monthly payment doesn't cover interest charged, unpaid interest adds to principal balance. Balance grows instead of shrinking. Common with ARMs or graduated payment mortgages. Avoid if possible."
+      }
+    ]
   },
   "lease": {
     "title": "Lease Calculator",
@@ -1128,7 +1360,85 @@
       "use_case_1": "Compare lease vs buy options",
       "use_case_2": "Budget for vehicle or equipment leases",
       "use_case_3": "Negotiate better lease terms"
-    }
+    },
+    "howItWorks": {
+      "title": "How Lease Calculation Works",
+      "formula": "Monthly Payment = (Asset Price - Residual Value) / Term + (Asset Price + Residual Value) × Interest Rate / 24",
+      "explanation": "A lease payment consists of two components: depreciation (the asset's value loss over the lease term) and interest (the cost of financing). The depreciation portion is calculated by dividing the difference between the asset price and residual value by the lease term. The interest portion is calculated using the money factor (interest rate divided by 24) applied to the sum of the asset price and residual value.",
+      "steps": [
+        "Enter the total asset price (MSRP or negotiated price)",
+        "Input the residual value (estimated end-of-lease value, typically 50-60% for 3-year vehicle leases)",
+        "Specify the lease term in months (common terms: 24, 36, or 48 months)",
+        "Enter the annual interest rate (also called money factor when expressed as rate/2400)",
+        "Calculator computes depreciation and interest components",
+        "Result shows your total monthly lease payment and cost breakdown"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Vehicle Leasing",
+        "description": "Calculate monthly payments for car or truck leases, compare different lease offers, and understand the impact of down payments on monthly costs."
+      },
+      {
+        "title": "Equipment Leasing",
+        "description": "Determine lease costs for business equipment like copiers, computers, or machinery to manage cash flow and keep technology current."
+      },
+      {
+        "title": "Lease Negotiation",
+        "description": "Use the calculator to verify dealer quotes, negotiate better terms, or understand how changing the money factor affects your payment."
+      },
+      {
+        "title": "Budget Planning",
+        "description": "Plan monthly expenses by comparing different lease terms and understanding total lease costs versus purchase options."
+      }
+    ],
+    "seoTips": [
+      "Lower residual value means higher monthly payments - negotiate a higher residual to reduce payments",
+      "Money factor is interest rate divided by 2400. A 5% APR = 0.00208 money factor",
+      "Typical vehicle residual values: 50-60% for 3 years, 40-50% for 4 years",
+      "Consider capitalized cost reduction (down payment) to lower monthly payments",
+      "End-of-lease options: buy at residual value, return the vehicle, or extend the lease"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Ignoring Residual Value",
+        "description": "Residual value significantly impacts monthly payments. A higher residual means lower depreciation and smaller payments, but may result in negative equity if the actual value is lower."
+      },
+      {
+        "title": "Not Considering Total Cost",
+        "description": "Monthly payment is just one factor. Consider down payment, acquisition fees, disposition fees, and potential excess mileage or wear charges."
+      },
+      {
+        "title": "Confusing Money Factor with APR",
+        "description": "Money factor looks like a small number (0.0025) but multiply by 2400 to get APR (6%). Always convert to compare lease rates properly."
+      },
+      {
+        "title": "Overlooking Mileage Limits",
+        "description": "Standard leases include 10,000-15,000 miles per year. Excess mileage charges ($0.15-0.30/mile) can add significant costs at lease end."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is residual value in a lease?",
+        "answer": "Residual value is the estimated worth of the asset at the end of the lease term. For vehicles, it's typically 50-60% of MSRP for a 3-year lease. Higher residual values result in lower monthly payments because you're paying for less depreciation."
+      },
+      {
+        "question": "How is the money factor calculated?",
+        "answer": "Money factor is the interest rate expressed as a decimal divided by 2400. For example, a 6% APR becomes a money factor of 0.0025 (6% / 2400). To convert money factor to APR, multiply by 2400."
+      },
+      {
+        "question": "Should I make a down payment on a lease?",
+        "answer": "Down payments (capitalized cost reduction) lower monthly payments but increase upfront costs. Consider the trade-off: if the vehicle is totaled, you lose your down payment. Some prefer minimal down payment for maximum flexibility."
+      },
+      {
+        "question": "What happens at the end of a lease?",
+        "answer": "You typically have three options: (1) Return the vehicle and walk away, (2) Purchase it for the residual value plus any fees, or (3) Lease or buy a new vehicle. Inspect for excess wear and mileage charges before returning."
+      },
+      {
+        "question": "Is leasing better than buying?",
+        "answer": "Leasing offers lower monthly payments, warranty coverage, and the ability to drive new vehicles every few years. Buying builds equity and has no mileage restrictions. The best choice depends on your driving habits, budget, and preferences."
+      }
+    ]
   },
   "lease_vs_buy": {
     "title": "Lease vs Buy Calculator",
@@ -1173,7 +1483,86 @@
       "use_case_1": "Compare vehicle financing options",
       "use_case_2": "Equipment acquisition decisions",
       "use_case_3": "Long-term financial planning"
-    }
+    },
+    "howItWorks": {
+      "title": "How Lease vs Buy Comparison Works",
+      "formula": "Net Cost = Total Payments + Maintenance - End Value",
+      "explanation": "This calculator compares the total cost of ownership between leasing and buying an asset over a specific period. For the buy option, it calculates the purchase price plus maintenance costs, minus the asset's residual value at the end of the term. For the lease option, it totals all lease payments, down payment, and maintenance costs. The option with the lower net cost is typically more financially advantageous, though other factors like flexibility, tax benefits, and cash flow should also be considered.",
+      "steps": [
+        "Enter the full purchase price of the asset",
+        "Input monthly lease payment and any down payment required",
+        "Specify the comparison term in months (typically 24-60 months)",
+        "Estimate the asset's value at the end of the term if purchased",
+        "Include monthly maintenance costs for both scenarios",
+        "Calculator compares total net costs and shows potential savings",
+        "Review recommendation while considering non-financial factors"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Vehicle Financing Decisions",
+        "description": "Compare the true cost of leasing vs buying a car or truck, accounting for maintenance, depreciation, and residual value to make the most economical choice."
+      },
+      {
+        "title": "Business Equipment Acquisition",
+        "description": "Determine whether to lease or purchase office equipment, computers, or machinery based on total cost of ownership and cash flow impact."
+      },
+      {
+        "title": "Real Estate Decisions",
+        "description": "Compare leasing commercial space versus purchasing property by analyzing long-term costs, equity building, and maintenance responsibilities."
+      },
+      {
+        "title": "Technology Investment Planning",
+        "description": "Evaluate leasing vs buying technology assets that depreciate quickly, considering upgrade cycles and total ownership costs."
+      }
+    ],
+    "seoTips": [
+      "Buying typically makes sense if you plan to keep the asset beyond the lease term",
+      "Leasing offers lower upfront costs and predictable monthly expenses",
+      "Consider tax implications: businesses may deduct lease payments as operating expenses",
+      "Factor in opportunity cost: money used to purchase could be invested elsewhere",
+      "Maintenance costs often favor leasing for high-maintenance assets under warranty"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Ignoring Opportunity Cost",
+        "description": "Money used for purchasing could be invested or used for business growth. Calculate the potential return on investment if funds were deployed elsewhere."
+      },
+      {
+        "title": "Not Factoring Tax Benefits",
+        "description": "Tax treatment differs between leasing and buying. Businesses can often deduct lease payments fully, while purchases require depreciation schedules. Consult a tax professional."
+      },
+      {
+        "title": "Overlooking Flexibility Needs",
+        "description": "Leasing provides flexibility to upgrade or return assets. If your needs change frequently or technology evolves quickly, this flexibility has value beyond pure cost."
+      },
+      {
+        "title": "Misjudging Residual Value",
+        "description": "Overestimating end-of-term value makes buying look better than it is. Use conservative estimates based on actual market data for accurate comparisons."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "When is buying better than leasing?",
+        "answer": "Buying is typically better when: (1) You plan to keep the asset long-term, (2) You have available capital or low-interest financing, (3) The asset holds its value well, (4) You want to build equity, or (5) You exceed typical lease mileage limits for vehicles."
+      },
+      {
+        "question": "When is leasing more advantageous?",
+        "answer": "Leasing works well when: (1) You want lower monthly payments, (2) You prefer driving new vehicles every few years, (3) The asset depreciates quickly, (4) You need to preserve cash flow, or (5) Maintenance is included or covered by warranty."
+      },
+      {
+        "question": "How do tax implications affect the decision?",
+        "answer": "Businesses can often deduct full lease payments as operating expenses, providing immediate tax benefits. With purchases, depreciation deductions are spread over several years. Personal use vehicles have limited tax benefits. Consult a tax professional for your specific situation."
+      },
+      {
+        "question": "What about insurance costs?",
+        "answer": "Leased vehicles typically require higher insurance coverage (gap insurance, higher liability limits), which increases costs. Purchased vehicles allow more flexibility in coverage levels. Factor these differences into your comparison."
+      },
+      {
+        "question": "Should I consider opportunity cost?",
+        "answer": "Absolutely. Money used for purchasing could earn returns if invested elsewhere. If you can earn 8% annually by investing the purchase difference, this opportunity cost should be factored into the buy option's total cost."
+      }
+    ]
   },
   "cpm": {
     "title": "CPM Calculator",
@@ -1830,99 +2219,2043 @@
     "warning_less_title": "Incomplete Distribution",
     "warning_less_message": "The total shares are less than 100%. Some estate may remain undistributed.",
     "warning_more_title": "Excess Distribution",
-    "warning_more_message": "There is an excess of {{percentage}}% in the distribution. In this case, heirs' shares are reduced proportionally."
+    "warning_more_message": "There is an excess of {{percentage}}% in the distribution. In this case, heirs' shares are reduced proportionally.",
+    "howItWorks": {
+      "steps": [
+        {
+          "title": "Enter Estate Details",
+          "description": "Input total estate value and assets to be distributed among heirs."
+        },
+        {
+          "title": "Define Beneficiaries",
+          "description": "List all heirs and their relationship to the deceased."
+        },
+        {
+          "title": "Apply Legal Framework",
+          "description": "System applies inheritance laws based on jurisdiction and Islamic Shariah if applicable."
+        },
+        {
+          "title": "Review Distribution",
+          "description": "See detailed breakdown of how estate is divided among beneficiaries."
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Estate Planning",
+        "description": "Plan how your assets will be distributed to ensure fair allocation according to law and wishes."
+      },
+      {
+        "title": "Legal Compliance",
+        "description": "Ensure inheritance distribution complies with local laws and Islamic inheritance rules."
+      },
+      {
+        "title": "Family Mediation",
+        "description": "Provide clear, objective calculations to prevent family disputes over inheritance."
+      },
+      {
+        "title": "Financial Planning",
+        "description": "Help heirs understand their expected inheritance for financial planning purposes."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How does Islamic inheritance law work?",
+        "answer": "Islamic inheritance follows specific ratios from Shariah law. Male heirs typically receive twice the share of female heirs in the same category. Spouses, parents, and children have fixed shares that vary based on family composition."
+      },
+      {
+        "question": "What happens if there is no will?",
+        "answer": "Without a will, estate distribution follows intestacy laws of your jurisdiction. In Islamic countries, Shariah inheritance rules apply automatically. In other regions, local statutory succession laws determine distribution."
+      },
+      {
+        "question": "Can inheritance shares be customized?",
+        "answer": "In Islamic law, up to 1/3 of the estate can be willed freely. The remaining 2/3 must be distributed according to Shariah. Non-Islamic jurisdictions typically allow full testamentary freedom with a will."
+      },
+      {
+        "question": "Are debts deducted before distribution?",
+        "answer": "Yes, all outstanding debts, funeral expenses, and estate settlement costs must be paid before any distribution to heirs. Only the net estate value is distributed."
+      }
+    ],
+    "seoTips": [
+      "Consult with legal experts for complex estates",
+      "Update calculations when family composition changes",
+      "Consider tax implications of inheritance",
+      "Document all assets and liabilities clearly",
+      "Review periodically to ensure accuracy"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Not accounting for debts first",
+        "solution": "Always deduct all debts, expenses, and obligations before calculating heir shares."
+      },
+      {
+        "mistake": "Ignoring jurisdiction differences",
+        "solution": "Inheritance laws vary significantly - ensure you apply the correct legal framework for your location."
+      },
+      {
+        "mistake": "Forgetting distant relatives",
+        "solution": "In some jurisdictions, distant relatives may have inheritance rights if there are no immediate heirs."
+      },
+      {
+        "mistake": "Not updating after life changes",
+        "solution": "Recalculate inheritance distribution after births, deaths, marriages, or divorces in the family."
+      }
+    ]
   },
   "break-even-calculator": {
     "title": "Free Break-Even Point Calculator Online",
-    "description": "Calculate your business break-even point with our free online calculator. Determine the number of units you need to sell to cover all costs. Essential tool for business planning, cost analysis, and profitability assessment for entrepreneurs and startups."
+    "description": "Calculate your business break-even point with our free online calculator. Determine the number of units you need to sell to cover all costs. Essential tool for business planning, cost analysis, and profitability assessment for entrepreneurs and startups.",
+    "howItWorks": {
+      "steps": [
+        {
+          "title": "Enter Fixed Costs",
+          "description": "Input all fixed monthly costs: rent, salaries, insurance, utilities."
+        },
+        {
+          "title": "Define Variable Costs",
+          "description": "Enter cost per unit for materials, labor, and other variable expenses."
+        },
+        {
+          "title": "Set Selling Price",
+          "description": "Input the price at which you sell each unit of product or service."
+        },
+        {
+          "title": "Calculate Break-Even Point",
+          "description": "See how many units you need to sell to cover all costs and start making profit."
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Startup Planning",
+        "description": "Determine sales volume needed to reach profitability for new business ventures."
+      },
+      {
+        "title": "Pricing Strategy",
+        "description": "Understand how different price points affect break-even volume and profitability."
+      },
+      {
+        "title": "Product Launches",
+        "description": "Assess viability of new products by calculating required sales for profitability."
+      },
+      {
+        "title": "Business Expansion",
+        "description": "Evaluate if expansion costs can be recovered through projected sales increases."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is break-even analysis?",
+        "answer": "Break-even analysis calculates the sales volume at which total revenue equals total costs, meaning the business neither makes profit nor loss. It helps determine minimum sales needed for viability."
+      },
+      {
+        "question": "What are fixed costs?",
+        "answer": "Fixed costs remain constant regardless of production volume, including rent, insurance, salaries, depreciation, and licenses. These must be paid even if you sell nothing."
+      },
+      {
+        "question": "How do I reduce my break-even point?",
+        "answer": "Lower fixed costs, reduce variable costs per unit, increase selling price, or a combination of these. Each approach reduces the number of units needed to break even."
+      },
+      {
+        "question": "Is break-even analysis enough for decisions?",
+        "answer": "Break-even is a starting point, but also consider cash flow, market demand, competition, and desired profit margins. Just breaking even is rarely a sustainable business goal."
+      }
+    ],
+    "seoTips": [
+      "Separate fixed and variable costs clearly",
+      "Include all overhead in fixed costs",
+      "Update regularly as costs change",
+      "Consider different price scenarios",
+      "Factor in seasonal sales variations"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Miscategorizing semi-variable costs",
+        "solution": "Some costs have both fixed and variable components - split them appropriately for accuracy."
+      },
+      {
+        "mistake": "Forgetting all fixed costs",
+        "solution": "Include ALL fixed costs: insurance, licenses, subscriptions, depreciation, not just obvious ones like rent."
+      },
+      {
+        "mistake": "Using unrealistic prices",
+        "solution": "Base selling price on market research, not just what you need to charge to break even."
+      },
+      {
+        "mistake": "Ignoring cash flow timing",
+        "solution": "Breaking even on paper doesn't mean you have cash - factor in payment timing and working capital needs."
+      }
+    ]
   },
   "franchise-calculator": {
     "title": "Franchise Cost Calculator - ROI Estimator",
-    "description": "Calculate franchise costs and expected return on investment. Our free franchise calculator helps entrepreneurs evaluate franchise opportunities, estimate startup costs, and project profitability. Essential for franchise business decisions."
+    "description": "Calculate franchise costs and expected return on investment. Our free franchise calculator helps entrepreneurs evaluate franchise opportunities, estimate startup costs, and project profitability. Essential for franchise business decisions.",
+    "howItWorks": {
+      "steps": [
+        {
+          "title": "Enter Franchise Fees",
+          "description": "Input initial franchise fee, training costs, and setup expenses."
+        },
+        {
+          "title": "Add Ongoing Costs",
+          "description": "Include royalty fees, marketing fees, and operational expenses."
+        },
+        {
+          "title": "Estimate Revenue",
+          "description": "Project sales based on franchisor data and market analysis."
+        },
+        {
+          "title": "Calculate ROI",
+          "description": "Analyze profitability, break-even timeline, and return on investment."
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Franchise Evaluation",
+        "description": "Compare different franchise opportunities to identify the most profitable option."
+      },
+      {
+        "title": "Investment Planning",
+        "description": "Determine total capital needed and expected timeline to profitability."
+      },
+      {
+        "title": "Location Analysis",
+        "description": "Assess if specific locations can generate sufficient revenue for franchise success."
+      },
+      {
+        "title": "Financial Projections",
+        "description": "Create realistic financial forecasts for lender presentations and planning."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What fees do franchises charge?",
+        "answer": "Franchises typically charge an initial franchise fee ($20k-$50k+), ongoing royalties (4-8% of gross sales), marketing/advertising fees (1-3%), and sometimes technology or support fees."
+      },
+      {
+        "question": "How long to break even on a franchise?",
+        "answer": "Most franchises take 2-3 years to break even, though this varies widely. Fast-food and retail franchises may break even faster, while service franchises might take longer."
+      },
+      {
+        "question": "Are franchise fees negotiable?",
+        "answer": "Initial franchise fees are rarely negotiable, but some franchisors offer discounts for veterans, multi-unit purchases, or in development territories. Royalty rates are typically non-negotiable."
+      },
+      {
+        "question": "What is a Franchise Disclosure Document?",
+        "answer": "The FDD is required by law and provides detailed financial performance data, fees, obligations, and franchisor history. Always review the FDD carefully before investing."
+      }
+    ],
+    "seoTips": [
+      "Get financial data from FDD Item 19",
+      "Include all hidden costs and fees",
+      "Research actual franchisee performance",
+      "Factor in local market conditions",
+      "Consult with existing franchisees"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Underestimating startup costs",
+        "solution": "Beyond franchise fees, include buildout, equipment, inventory, working capital, and 3-6 months of operating expenses."
+      },
+      {
+        "mistake": "Using optimistic revenue projections",
+        "solution": "Use conservative estimates from FDD data, preferably from underperforming locations, not top performers."
+      },
+      {
+        "mistake": "Forgetting ongoing fees",
+        "solution": "Royalties and marketing fees continue forever - calculate their long-term impact on profitability."
+      },
+      {
+        "mistake": "Not budgeting for grand opening",
+        "solution": "Grand opening marketing can cost $10k-$50k+ but is crucial for strong launch momentum."
+      }
+    ]
   },
   "startup-cost-calculator": {
     "title": "Startup Cost Calculator - Business Launch Budget",
-    "description": "Calculate startup costs for launching your business. Our free startup calculator helps entrepreneurs estimate initial investment, plan budgets, and secure funding. Essential for business plans and investor presentations."
+    "description": "Calculate startup costs for launching your business. Our free startup calculator helps entrepreneurs estimate initial investment, plan budgets, and secure funding. Essential for business plans and investor presentations.",
+    "howItWorks": {
+      "steps": [
+        {
+          "title": "List One-Time Costs",
+          "description": "Enter all initial expenses: equipment, licenses, deposits, legal fees."
+        },
+        {
+          "title": "Estimate Operating Capital",
+          "description": "Calculate 3-6 months of operating expenses to cover initial period."
+        },
+        {
+          "title": "Add Marketing Budget",
+          "description": "Include launch marketing, website, branding, and advertising costs."
+        },
+        {
+          "title": "Calculate Total Startup Need",
+          "description": "Get comprehensive startup capital requirement for funding planning."
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Business Plan Creation",
+        "description": "Develop accurate startup cost estimates for business plan and investor presentations."
+      },
+      {
+        "title": "Funding Requirements",
+        "description": "Determine how much capital to raise through loans, investors, or personal funds."
+      },
+      {
+        "title": "Cost Control",
+        "description": "Identify areas where startup costs can be reduced without compromising viability."
+      },
+      {
+        "title": "Timeline Planning",
+        "description": "Understand financial runway and how long funding will sustain operations."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What are typical startup costs?",
+        "answer": "Startup costs vary widely: home-based service business might need $5k-$10k, retail store $50k-$250k, restaurant $250k-$500k+. Include equipment, inventory, licenses, marketing, and 3-6 months operating capital."
+      },
+      {
+        "question": "How much working capital do I need?",
+        "answer": "Plan for 3-6 months of operating expenses to cover the period before revenue becomes consistent. This includes rent, payroll, utilities, and inventory replenishment."
+      },
+      {
+        "question": "Should I lease or buy equipment?",
+        "answer": "Leasing preserves capital and provides flexibility but costs more long-term. Buying requires more upfront capital but builds equity. Consider lease-to-own for best of both."
+      },
+      {
+        "question": "What startup costs are tax deductible?",
+        "answer": "Most startup costs up to $5,000 can be deducted in year one, with remainder amortized over 15 years. Track everything meticulously for tax purposes."
+      }
+    ],
+    "seoTips": [
+      "Include absolutely everything - no surprises",
+      "Add 20% contingency for unexpected costs",
+      "Research industry-specific requirements",
+      "Get quotes for major expenses",
+      "Plan for pre-revenue period expenses"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Underestimating working capital",
+        "solution": "Many startups fail due to running out of cash before profitability - budget for 6+ months of operating expenses."
+      },
+      {
+        "mistake": "Forgetting licenses and permits",
+        "solution": "Research all required licenses, permits, certifications - costs vary but can be significant and legally required."
+      },
+      {
+        "mistake": "No contingency budget",
+        "solution": "Always add 20% contingency - unexpected costs always arise during startup phase."
+      },
+      {
+        "mistake": "Overlooking professional fees",
+        "solution": "Budget for lawyer (entity formation, contracts), accountant (tax setup, bookkeeping), and insurance broker fees."
+      }
+    ]
   },
   "shipping-cost-calculator": {
     "title": "Shipping Cost Calculator - Delivery Price",
-    "description": "Calculate shipping costs based on weight, distance, and shipping type. Our free shipping calculator helps e-commerce sellers and buyers estimate delivery prices. Compare carriers and choose the most cost-effective shipping options."
+    "description": "Calculate shipping costs based on weight, distance, and shipping type. Our free shipping calculator helps e-commerce sellers and buyers estimate delivery prices. Compare carriers and choose the most cost-effective shipping options.",
+    "howItWorks": {
+      "steps": [
+        {
+          "title": "Enter Package Dimensions",
+          "description": "Input length, width, height, and weight of package."
+        },
+        {
+          "title": "Set Origin and Destination",
+          "description": "Specify shipping from and to locations, including zip codes."
+        },
+        {
+          "title": "Choose Shipping Options",
+          "description": "Select carrier, service level, and any additional services."
+        },
+        {
+          "title": "Compare Rates",
+          "description": "Review costs across different carriers and delivery speeds."
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "E-commerce Pricing",
+        "description": "Calculate accurate shipping costs to include in product pricing or checkout."
+      },
+      {
+        "title": "Carrier Comparison",
+        "description": "Compare rates from USPS, UPS, FedEx, DHL to find best value."
+      },
+      {
+        "title": "Profitability Analysis",
+        "description": "Determine if offering free shipping is viable or if costs should be passed to customers."
+      },
+      {
+        "title": "International Shipping",
+        "description": "Estimate costs for international shipments including customs and duties."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How is shipping cost calculated?",
+        "answer": "Shipping cost is based on package weight, dimensions (dimensional weight = L×W×H÷166), distance, service speed, and additional services like insurance or signature confirmation."
+      },
+      {
+        "question": "What is dimensional weight?",
+        "answer": "Dimensional (DIM) weight is calculated from package size. If DIM weight exceeds actual weight, you're charged for DIM weight. This prevents shipping large, lightweight packages cheaply."
+      },
+      {
+        "question": "Should I offer free shipping?",
+        "answer": "Free shipping increases conversion rates but must be factored into pricing. Consider free shipping thresholds (e.g., orders over $50) to increase average order value while controlling costs."
+      },
+      {
+        "question": "How can I reduce shipping costs?",
+        "answer": "Negotiate carrier discounts, use regional carriers for short distances, optimize packaging to reduce size/weight, use flat-rate boxes when beneficial, and consider dropshipping."
+      }
+    ],
+    "seoTips": [
+      "Use actual package dimensions and weight",
+      "Factor in packaging materials weight",
+      "Consider dimensional weight pricing",
+      "Compare multiple carriers for each shipment",
+      "Negotiate volume discounts with carriers"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Forgetting dimensional weight",
+        "solution": "Large, light packages are charged by dimensional weight - optimize packaging to minimize size."
+      },
+      {
+        "mistake": "Not weighing packages accurately",
+        "solution": "Overcharging or undercharging shipping damages customer trust - weigh packages precisely."
+      },
+      {
+        "mistake": "Ignoring regional carriers",
+        "solution": "Regional carriers often beat national carriers on price for local/regional shipments."
+      },
+      {
+        "mistake": "Missing volume discounts",
+        "solution": "If shipping regularly, negotiate carrier discounts - even small businesses can get 10-30% off retail rates."
+      }
+    ]
   },
   "productivity-calculator": {
     "title": "Productivity Calculator - Efficiency Metrics",
-    "description": "Calculate employee or production productivity. Our free productivity calculator helps businesses measure output efficiency, track performance metrics, and identify improvement opportunities. Essential for workforce management and operational excellence."
+    "description": "Calculate employee or production productivity. Our free productivity calculator helps businesses measure output efficiency, track performance metrics, and identify improvement opportunities. Essential for workforce management and operational excellence.",
+    "howItWorks": {
+      "steps": [
+        {
+          "title": "Define Output Metrics",
+          "description": "Enter total units produced, tasks completed, or revenue generated."
+        },
+        {
+          "title": "Input Resources Used",
+          "description": "Specify labor hours, employees, or costs involved in production."
+        },
+        {
+          "title": "Set Time Period",
+          "description": "Define the measurement period: hourly, daily, weekly, or monthly."
+        },
+        {
+          "title": "Analyze Efficiency",
+          "description": "Review productivity rate, compare to benchmarks, identify improvement areas."
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Employee Performance",
+        "description": "Measure individual or team productivity to identify top performers and training needs."
+      },
+      {
+        "title": "Process Improvement",
+        "description": "Track productivity before and after process changes to measure impact."
+      },
+      {
+        "title": "Resource Allocation",
+        "description": "Determine optimal staffing levels by analyzing output per employee."
+      },
+      {
+        "title": "Cost Management",
+        "description": "Calculate output per dollar spent to optimize budget allocation."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is productivity?",
+        "answer": "Productivity is the ratio of output to input. Common measures: units per hour, revenue per employee, tasks per day. It measures efficiency and effectiveness of resource use."
+      },
+      {
+        "question": "How do I improve productivity?",
+        "answer": "Eliminate bottlenecks, automate repetitive tasks, improve training, upgrade equipment/technology, optimize workflows, and set clear performance targets with accountability."
+      },
+      {
+        "question": "What is a good productivity benchmark?",
+        "answer": "Benchmarks vary by industry. Manufacturing targets 85-90% OEE, knowledge workers 60-70% productive time (rest is meetings/admin). Compare to industry standards and your historical data."
+      },
+      {
+        "question": "Should I focus on individual or team productivity?",
+        "answer": "Both matter. Individual metrics identify top performers and training needs. Team metrics reveal collaboration effectiveness and process efficiency. Balance both for comprehensive insight."
+      }
+    ],
+    "seoTips": [
+      "Set clear, measurable output metrics",
+      "Track consistently over time",
+      "Compare to industry benchmarks",
+      "Identify both high and low performers",
+      "Focus on improvements, not punishment"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Measuring activity instead of output",
+        "solution": "Hours worked doesn't equal productivity - measure actual results and outcomes, not just time spent."
+      },
+      {
+        "mistake": "Ignoring quality for quantity",
+        "solution": "High output with low quality creates rework costs - balance productivity with quality metrics."
+      },
+      {
+        "mistake": "Not accounting for complexity",
+        "solution": "Not all tasks are equal - weight complex tasks higher than simple ones in productivity calculations."
+      },
+      {
+        "mistake": "Punishing low productivity without investigation",
+        "solution": "Low productivity often indicates process problems, inadequate tools, or training gaps - investigate root causes."
+      }
+    ]
   },
   "quick-ratio-calculator": {
     "title": "Quick Ratio Calculator - Acid Test Ratio",
-    "description": "Calculate quick ratio (acid-test ratio) to assess immediate liquidity. Our free calculator helps businesses evaluate ability to meet short-term obligations without selling inventory. Critical for financial analysis and creditworthiness assessment."
+    "description": "Calculate quick ratio (acid-test ratio) to assess immediate liquidity. Our free calculator helps businesses evaluate ability to meet short-term obligations without selling inventory. Critical for financial analysis and creditworthiness assessment.",
+    "howItWorks": {
+      "steps": [
+        {
+          "title": "Enter Current Assets",
+          "description": "Input cash, cash equivalents, marketable securities, and accounts receivable."
+        },
+        {
+          "title": "Enter Current Liabilities",
+          "description": "Input all short-term obligations due within one year."
+        },
+        {
+          "title": "Exclude Inventory",
+          "description": "Quick ratio excludes inventory as it's less liquid than other current assets."
+        },
+        {
+          "title": "Calculate Quick Ratio",
+          "description": "Review ratio to assess immediate liquidity and ability to meet short-term obligations."
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Liquidity Assessment",
+        "description": "Determine if company can meet immediate financial obligations without selling inventory."
+      },
+      {
+        "title": "Credit Analysis",
+        "description": "Lenders use quick ratio to evaluate creditworthiness and loan approval."
+      },
+      {
+        "title": "Investment Decisions",
+        "description": "Investors assess financial health and risk before investing in a company."
+      },
+      {
+        "title": "Financial Planning",
+        "description": "Monitor liquidity trends to ensure sufficient cash reserves for operations."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a good quick ratio?",
+        "answer": "Quick ratio of 1.0 or higher is generally healthy, meaning company has enough liquid assets to cover current liabilities. Ratios vary by industry - retail typically lower, professional services higher."
+      },
+      {
+        "question": "What's the difference between quick ratio and current ratio?",
+        "answer": "Quick ratio is more conservative than current ratio because it excludes inventory, which can be hard to liquidate quickly. Quick ratio focuses only on most liquid assets."
+      },
+      {
+        "question": "Why is inventory excluded?",
+        "answer": "Inventory takes time to sell and convert to cash, and may need to be discounted for quick sale. Quick ratio tests immediate liquidity without relying on inventory conversion."
+      },
+      {
+        "question": "Can quick ratio be too high?",
+        "answer": "Very high quick ratios (over 3.0) might indicate excess cash that should be invested in growth opportunities rather than sitting idle. Balance safety with growth."
+      }
+    ],
+    "seoTips": [
+      "Use most recent financial statements",
+      "Compare to industry benchmarks",
+      "Track trends over multiple periods",
+      "Consider seasonal business variations",
+      "Supplement with cash flow analysis"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Including inventory in calculation",
+        "solution": "Quick ratio specifically excludes inventory - use current ratio if you want to include inventory."
+      },
+      {
+        "mistake": "Not adjusting for uncollectible receivables",
+        "solution": "Subtract estimated bad debt from accounts receivable for more accurate liquidity picture."
+      },
+      {
+        "mistake": "Comparing across different industries",
+        "solution": "Quick ratio norms vary by industry - compare to similar businesses, not unrelated sectors."
+      },
+      {
+        "mistake": "Using old financial data",
+        "solution": "Liquidity can change quickly - use current financial statements for accurate assessment."
+      }
+    ]
   },
   "working-capital-calculator": {
     "title": "Working Capital Calculator - Net Working Capital",
-    "description": "Calculate working capital available for daily operations. Our free calculator helps businesses determine net working capital, manage cash flow, and ensure sufficient liquidity for operational needs. Essential for financial planning."
+    "description": "Calculate working capital available for daily operations. Our free calculator helps businesses determine net working capital, manage cash flow, and ensure sufficient liquidity for operational needs. Essential for financial planning.",
+    "howItWorks": {
+      "steps": [
+        {
+          "title": "Enter Current Assets",
+          "description": "Input cash, accounts receivable, inventory, and other short-term assets."
+        },
+        {
+          "title": "Enter Current Liabilities",
+          "description": "Input accounts payable, short-term debt, and other obligations due within a year."
+        },
+        {
+          "title": "Calculate Working Capital",
+          "description": "System computes current assets minus current liabilities."
+        },
+        {
+          "title": "Analyze Results",
+          "description": "Review working capital amount and ratio to assess operational liquidity."
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Operational Health Check",
+        "description": "Assess if business has enough short-term assets to cover short-term liabilities."
+      },
+      {
+        "title": "Growth Planning",
+        "description": "Determine if additional working capital is needed before expanding operations."
+      },
+      {
+        "title": "Seasonal Planning",
+        "description": "Ensure adequate working capital for seasonal inventory and receivables fluctuations."
+      },
+      {
+        "title": "Lender Requirements",
+        "description": "Meet bank covenant requirements for minimum working capital levels."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is working capital?",
+        "answer": "Working capital is current assets minus current liabilities. It represents the liquid assets available to run day-to-day operations. Positive working capital means you can pay short-term bills."
+      },
+      {
+        "question": "How much working capital do I need?",
+        "answer": "Varies by industry and business model. Retail needs high working capital for inventory, service businesses need less. Target working capital ratio of 1.5-2.0 is typical for healthy operations."
+      },
+      {
+        "question": "What causes working capital problems?",
+        "answer": "Slow-paying customers increase receivables, excess inventory ties up cash, rapid growth strains cash flow, and poor credit terms with suppliers create payment pressure."
+      },
+      {
+        "question": "How can I improve working capital?",
+        "answer": "Accelerate receivables collection, reduce inventory levels, negotiate better payment terms with suppliers, consider invoice factoring, or secure a working capital line of credit."
+      }
+    ],
+    "seoTips": [
+      "Monitor working capital trends monthly",
+      "Forecast working capital needs for growth",
+      "Maintain adequate reserves for seasonality",
+      "Optimize inventory turnover",
+      "Improve accounts receivable collection"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Confusing working capital with cash",
+        "solution": "Working capital includes receivables and inventory which aren't cash - track actual cash separately."
+      },
+      {
+        "mistake": "Ignoring working capital cycle",
+        "solution": "Understand cash conversion cycle - how long capital is tied up before converting back to cash."
+      },
+      {
+        "mistake": "Growing too fast without capital",
+        "solution": "Rapid growth consumes working capital for inventory and receivables - plan funding accordingly."
+      },
+      {
+        "mistake": "Not forecasting working capital needs",
+        "solution": "Project future working capital requirements based on sales growth and business plans."
+      }
+    ]
   },
   "current-ratio-calculator": {
     "title": "Current Ratio Calculator - Liquidity Analysis",
-    "description": "Calculate current ratio to evaluate short-term liquidity. Our free calculator helps businesses assess ability to pay short-term obligations, measure financial health, and make informed decisions about working capital management."
+    "description": "Calculate current ratio to evaluate short-term liquidity. Our free calculator helps businesses assess ability to pay short-term obligations, measure financial health, and make informed decisions about working capital management.",
+    "howItWorks": {
+      "steps": [
+        {
+          "title": "Enter Current Assets",
+          "description": "Input all assets convertible to cash within one year: cash, receivables, inventory, prepaid expenses."
+        },
+        {
+          "title": "Enter Current Liabilities",
+          "description": "Input all obligations due within one year: payables, short-term debt, accrued expenses."
+        },
+        {
+          "title": "Calculate Current Ratio",
+          "description": "System divides current assets by current liabilities."
+        },
+        {
+          "title": "Interpret Results",
+          "description": "Review ratio to assess short-term financial health and liquidity position."
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Financial Health Assessment",
+        "description": "Evaluate if company has sufficient assets to cover short-term obligations."
+      },
+      {
+        "title": "Credit Applications",
+        "description": "Lenders review current ratio when evaluating loan applications and creditworthiness."
+      },
+      {
+        "title": "Investor Analysis",
+        "description": "Investors use current ratio to assess financial stability and risk."
+      },
+      {
+        "title": "Trend Monitoring",
+        "description": "Track current ratio over time to identify improving or deteriorating liquidity."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a good current ratio?",
+        "answer": "Current ratio of 1.5 to 2.0 is generally healthy. Below 1.0 indicates potential liquidity problems. Above 3.0 might suggest inefficient use of assets. Ideal ratio varies by industry."
+      },
+      {
+        "question": "What's the difference between current and quick ratio?",
+        "answer": "Current ratio includes all current assets including inventory. Quick ratio excludes inventory for a more conservative liquidity measure. Both are useful for different insights."
+      },
+      {
+        "question": "Can current ratio be too high?",
+        "answer": "Yes, very high current ratios might indicate excess inventory, uncollected receivables, or idle cash that should be invested in growth. Balance safety with efficiency."
+      },
+      {
+        "question": "How often should I calculate current ratio?",
+        "answer": "Calculate monthly or quarterly to track trends. More frequent calculation is prudent during rapid growth, seasonal fluctuations, or financial stress."
+      }
+    ],
+    "seoTips": [
+      "Use current balance sheet data",
+      "Compare to industry standards",
+      "Track trends over multiple periods",
+      "Adjust for seasonal variations",
+      "Consider alongside quick ratio"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Including non-current assets",
+        "solution": "Only include assets convertible to cash within 12 months - exclude long-term assets from calculation."
+      },
+      {
+        "mistake": "Not adjusting for obsolete inventory",
+        "solution": "Write down obsolete or slow-moving inventory to get accurate current asset values."
+      },
+      {
+        "mistake": "Comparing different industries",
+        "solution": "Retail has different current ratio norms than manufacturing or services - use industry-appropriate benchmarks."
+      },
+      {
+        "mistake": "Ignoring the composition of current assets",
+        "solution": "A ratio of 2.0 with mostly inventory is weaker than 2.0 with mostly cash and receivables."
+      }
+    ]
   },
   "debt-to-equity-calculator": {
     "title": "Debt to Equity Ratio Calculator Online",
-    "description": "Calculate debt-to-equity ratio to assess financial leverage. Our free calculator helps businesses and investors evaluate capital structure, measure financial risk, and analyze company solvency. Essential for financial analysis and investment decisions."
+    "description": "Calculate debt-to-equity ratio to assess financial leverage. Our free calculator helps businesses and investors evaluate capital structure, measure financial risk, and analyze company solvency. Essential for financial analysis and investment decisions.",
+    "howItWorks": {
+      "steps": [
+        {
+          "title": "Calculate Total Debt",
+          "description": "Sum all short-term and long-term liabilities including loans, bonds, and credit lines."
+        },
+        {
+          "title": "Calculate Total Equity",
+          "description": "Sum shareholder equity including paid-in capital and retained earnings."
+        },
+        {
+          "title": "Compute D/E Ratio",
+          "description": "Divide total debt by total equity to get debt-to-equity ratio."
+        },
+        {
+          "title": "Analyze Leverage",
+          "description": "Review ratio to assess financial leverage and risk profile of the business."
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Financial Risk Assessment",
+        "description": "Evaluate how much of the business is financed by debt versus equity."
+      },
+      {
+        "title": "Lending Decisions",
+        "description": "Banks use D/E ratio to assess credit risk and determine loan terms."
+      },
+      {
+        "title": "Investment Analysis",
+        "description": "Investors evaluate D/E ratio to understand financial risk before investing."
+      },
+      {
+        "title": "Capital Structure Planning",
+        "description": "Determine optimal mix of debt and equity financing for business needs."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a good debt-to-equity ratio?",
+        "answer": "Generally, D/E ratio below 1.0 is conservative, 1.0-2.0 is moderate, above 2.0 is aggressive. Ideal ratio varies by industry - capital-intensive businesses typically have higher ratios."
+      },
+      {
+        "question": "What does a high D/E ratio mean?",
+        "answer": "High D/E ratio means company is heavily financed by debt, which increases financial risk but can also increase returns if business performs well. More vulnerable to economic downturns."
+      },
+      {
+        "question": "Is debt always bad?",
+        "answer": "No, debt can be beneficial for growth if ROI exceeds interest cost. It provides leverage and tax advantages. The key is maintaining manageable debt levels relative to equity and cash flow."
+      },
+      {
+        "question": "How can I improve my D/E ratio?",
+        "answer": "Pay down debt with profits, inject equity capital, retain earnings rather than distributing dividends, or improve profitability to build retained earnings."
+      }
+    ],
+    "seoTips": [
+      "Include all debt types in calculation",
+      "Use book value or market value consistently",
+      "Compare to industry peer averages",
+      "Track ratio trends over time",
+      "Consider debt service coverage alongside"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Forgetting operating leases",
+        "solution": "Include capitalized operating leases in debt calculations per accounting standards."
+      },
+      {
+        "mistake": "Using inconsistent equity values",
+        "solution": "Use either book value or market value for equity, but be consistent across comparisons."
+      },
+      {
+        "mistake": "Not considering debt quality",
+        "solution": "Not all debt is equal - low-interest long-term debt is less risky than high-interest short-term debt."
+      },
+      {
+        "mistake": "Comparing across different industries",
+        "solution": "Capital-intensive industries naturally have higher D/E - compare only to similar businesses."
+      }
+    ]
   },
   "cpm-calculator": {
     "title": "CPM Calculator - Cost Per Thousand Impressions",
-    "description": "Calculate CPM (Cost Per Mille) for advertising campaigns. Our free CPM calculator helps marketers determine cost per thousand impressions, compare ad platforms, and optimize advertising budgets. Essential for digital marketing and media buying."
+    "description": "Calculate CPM (Cost Per Mille) for advertising campaigns. Our free CPM calculator helps marketers determine cost per thousand impressions, compare ad platforms, and optimize advertising budgets. Essential for digital marketing and media buying.",
+    "howItWorks": {
+      "steps": [
+        {
+          "title": "Enter Total Ad Cost",
+          "description": "Input the total amount spent on the advertising campaign."
+        },
+        {
+          "title": "Enter Total Impressions",
+          "description": "Input the number of times the ad was displayed to users."
+        },
+        {
+          "title": "Calculate CPM",
+          "description": "System calculates cost per thousand impressions (CPM = Cost / Impressions × 1000)."
+        },
+        {
+          "title": "Compare Performance",
+          "description": "Benchmark against industry standards to assess campaign efficiency."
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Display Advertising",
+        "description": "Evaluate cost-effectiveness of banner ads, video ads, and other display campaigns."
+      },
+      {
+        "title": "Platform Comparison",
+        "description": "Compare CPM across Facebook, Google Display, Instagram, and other ad platforms."
+      },
+      {
+        "title": "Campaign Optimization",
+        "description": "Identify high-CPM campaigns to optimize or pause for better budget allocation."
+      },
+      {
+        "title": "Budget Planning",
+        "description": "Estimate impressions achievable with a given budget based on target CPM."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a good CPM?",
+        "answer": "CPM varies widely by industry and platform. Facebook/Instagram: $5-$15, Google Display: $2-$10, LinkedIn: $30-$80. B2B typically has higher CPMs than B2C. Lower CPM doesn't always mean better ROI - focus on conversions."
+      },
+      {
+        "question": "How is CPM different from CPC?",
+        "answer": "CPM (cost per thousand impressions) charges for views regardless of clicks. CPC (cost per click) only charges when someone clicks. Use CPM for brand awareness, CPC for direct response."
+      },
+      {
+        "question": "Why is my CPM increasing?",
+        "answer": "Rising CPM indicates increased competition for your target audience, poor ad quality/relevance scores, or targeting highly competitive demographics. Improve ad quality and broaden targeting to reduce CPM."
+      },
+      {
+        "question": "Should I optimize for CPM?",
+        "answer": "Only if your goal is brand awareness and impressions. For most businesses, optimize for CPA (cost per acquisition) or ROAS which better reflect actual business results."
+      }
+    ],
+    "seoTips": [
+      "Track CPM trends over time",
+      "Segment CPM by audience and creative",
+      "Compare CPM across platforms",
+      "Test different ad formats",
+      "Balance CPM with conversion metrics"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Optimizing only for low CPM",
+        "solution": "Low CPM with poor targeting wastes budget on wrong audience - focus on CPM to your target market, not lowest overall CPM."
+      },
+      {
+        "mistake": "Ignoring ad quality score",
+        "solution": "Poor quality scores dramatically increase CPM - improve ad relevance, landing pages, and engagement to lower costs."
+      },
+      {
+        "mistake": "Not accounting for viewability",
+        "solution": "Some impressions aren't actually viewed - track viewable CPM (vCPM) for more accurate assessment."
+      },
+      {
+        "mistake": "Comparing CPMs across different objectives",
+        "solution": "Brand awareness campaigns naturally have different CPMs than conversion campaigns - compare like to like."
+      }
+    ]
   },
   "cpc-calculator": {
     "title": "CPC Calculator - Cost Per Click Online",
-    "description": "Calculate CPC (Cost Per Click) for advertising campaigns. Our free CPC calculator helps digital marketers measure ad performance, optimize Google Ads budgets, and improve ROI. Track click costs and maximize advertising effectiveness."
+    "description": "Calculate CPC (Cost Per Click) for advertising campaigns. Our free CPC calculator helps digital marketers measure ad performance, optimize Google Ads budgets, and improve ROI. Track click costs and maximize advertising effectiveness.",
+    "howItWorks": {
+      "steps": [
+        {
+          "title": "Enter Total Ad Spend",
+          "description": "Input the total cost of your advertising campaign."
+        },
+        {
+          "title": "Enter Total Clicks",
+          "description": "Input the number of clicks your ads received."
+        },
+        {
+          "title": "Calculate CPC",
+          "description": "System calculates cost per click (CPC = Total Cost / Total Clicks)."
+        },
+        {
+          "title": "Analyze Performance",
+          "description": "Compare CPC to industry benchmarks and historical performance."
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "PPC Campaign Management",
+        "description": "Monitor Google Ads, Bing Ads cost per click for budget optimization."
+      },
+      {
+        "title": "Keyword Analysis",
+        "description": "Identify which keywords have highest/lowest CPC to optimize bidding strategy."
+      },
+      {
+        "title": "Social Media Advertising",
+        "description": "Track CPC on Facebook, Instagram, LinkedIn ads for cross-platform comparison."
+      },
+      {
+        "title": "ROI Calculation",
+        "description": "Combine CPC with conversion rate to calculate cost per acquisition."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a good CPC?",
+        "answer": "CPC varies by industry: E-commerce $0.50-$2, Legal $5-$20, Insurance $10-$50+. Focus on CPC relative to your customer lifetime value and conversion rates, not absolute CPC numbers."
+      },
+      {
+        "question": "How can I lower my CPC?",
+        "answer": "Improve Quality Score through better ad relevance and landing pages, use long-tail keywords, adjust targeting, test ad copy, and optimize bid strategy. Higher Quality Score significantly reduces CPC."
+      },
+      {
+        "question": "CPC vs CPM: which is better?",
+        "answer": "CPC is better for direct response and lead generation - you only pay for interested users. CPM is better for brand awareness campaigns where impressions matter more than clicks."
+      },
+      {
+        "question": "Why does CPC vary so much?",
+        "answer": "CPC depends on competition (auction-based), keyword intent (commercial vs informational), ad quality score, targeting specificity, time of day, and seasonality."
+      }
+    ],
+    "seoTips": [
+      "Track CPC by keyword and ad group",
+      "Monitor Quality Score impact on CPC",
+      "Test different bidding strategies",
+      "Analyze CPC trends by time/day",
+      "Combine CPC with conversion data"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Focusing only on low CPC",
+        "solution": "Low CPC keywords might not convert - focus on profitable keywords even if CPC is higher."
+      },
+      {
+        "mistake": "Ignoring Quality Score",
+        "solution": "Poor Quality Score can double or triple your CPC - invest in improving ad relevance and landing pages."
+      },
+      {
+        "mistake": "Not segmenting CPC analysis",
+        "solution": "Average CPC hides performance - analyze by device, location, time, and audience segment."
+      },
+      {
+        "mistake": "Setting same bid for all keywords",
+        "solution": "Different keywords have different values - bid higher on high-converting keywords, lower on exploratory ones."
+      }
+    ]
   },
   "cpa-calculator": {
     "title": "CPA Calculator - Customer Acquisition Cost",
-    "description": "Calculate CPA (Cost Per Acquisition) to determine customer acquisition costs. Our free CPA calculator helps businesses measure marketing efficiency, optimize campaigns, and improve customer acquisition strategies. Essential for growth marketing."
+    "description": "Calculate CPA (Cost Per Acquisition) to determine customer acquisition costs. Our free CPA calculator helps businesses measure marketing efficiency, optimize campaigns, and improve customer acquisition strategies. Essential for growth marketing.",
+    "howItWorks": {
+      "steps": [
+        {
+          "title": "Enter Total Ad Spend",
+          "description": "Input total advertising costs for the campaign or period."
+        },
+        {
+          "title": "Enter Total Conversions",
+          "description": "Input number of desired actions: sales, leads, signups, etc."
+        },
+        {
+          "title": "Calculate CPA",
+          "description": "System calculates cost per acquisition (CPA = Total Cost / Conversions)."
+        },
+        {
+          "title": "Evaluate Profitability",
+          "description": "Compare CPA to customer lifetime value to assess campaign viability."
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Campaign Profitability",
+        "description": "Determine if advertising campaigns are generating positive ROI."
+      },
+      {
+        "title": "Channel Comparison",
+        "description": "Compare CPA across Google, Facebook, email, and other marketing channels."
+      },
+      {
+        "title": "Budget Allocation",
+        "description": "Allocate more budget to low-CPA channels and optimize or pause high-CPA ones."
+      },
+      {
+        "title": "Scaling Decisions",
+        "description": "Determine if campaigns can be profitably scaled based on CPA vs LTV."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a good CPA?",
+        "answer": "Good CPA is one significantly lower than customer lifetime value. Aim for CPA at 1/3 or less of LTV for sustainable profitability. This varies by business model and profit margins."
+      },
+      {
+        "question": "How do I reduce CPA?",
+        "answer": "Improve conversion rate through better landing pages, optimize ad targeting, enhance ad creative, improve Quality Score, test different offers, and remove underperforming keywords/audiences."
+      },
+      {
+        "question": "CPA vs CAC: what's the difference?",
+        "answer": "CPA (Cost Per Acquisition) is typically just advertising cost per conversion. CAC (Customer Acquisition Cost) includes all sales and marketing costs: ads, salaries, software, content, etc. CAC is more comprehensive."
+      },
+      {
+        "question": "Should I focus on CPA or ROAS?",
+        "answer": "Both matter. CPA is great for lead generation and consistent-value products. ROAS (Return on Ad Spend) is better for e-commerce with varying order values. Ideally track both."
+      }
+    ],
+    "seoTips": [
+      "Set target CPA based on customer LTV",
+      "Track CPA by campaign and channel",
+      "Monitor CPA trends over time",
+      "Segment CPA by customer type",
+      "Test different conversion optimization tactics"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Setting arbitrary CPA targets",
+        "solution": "Base CPA targets on actual customer lifetime value and desired profit margins, not guesses."
+      },
+      {
+        "mistake": "Only counting first purchase value",
+        "solution": "Factor in repeat purchases and customer lifetime value when evaluating CPA - initial CPA might exceed first purchase value but still be profitable."
+      },
+      {
+        "mistake": "Not tracking full funnel",
+        "solution": "Track CPA at each stage: lead, qualified lead, customer - identifies where to optimize."
+      },
+      {
+        "mistake": "Stopping profitable campaigns too early",
+        "solution": "CPA might be high initially but improve as you optimize - give campaigns time to optimize before cutting."
+      }
+    ]
   },
   "roas-calculator": {
     "title": "ROAS Calculator - Return on Ad Spend",
-    "description": "Calculate ROAS (Return on Ad Spend) to measure advertising effectiveness. Our free ROAS calculator helps marketers determine revenue generated per dollar spent on ads. Optimize campaigns and maximize return on advertising investment."
+    "description": "Calculate ROAS (Return on Ad Spend) to measure advertising effectiveness. Our free ROAS calculator helps marketers determine revenue generated per dollar spent on ads. Optimize campaigns and maximize return on advertising investment.",
+    "howItWorks": {
+      "steps": [
+        {
+          "title": "Enter Total Revenue",
+          "description": "Input total revenue generated from the advertising campaign."
+        },
+        {
+          "title": "Enter Total Ad Spend",
+          "description": "Input total amount spent on advertising for the campaign."
+        },
+        {
+          "title": "Calculate ROAS",
+          "description": "System calculates return on ad spend (ROAS = Revenue / Ad Spend)."
+        },
+        {
+          "title": "Interpret Results",
+          "description": "ROAS of 4:1 means $4 revenue for every $1 spent on ads."
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "E-commerce Performance",
+        "description": "Measure return on ad spend for online stores to optimize marketing budget."
+      },
+      {
+        "title": "Campaign Comparison",
+        "description": "Compare ROAS across campaigns to identify best performers for scaling."
+      },
+      {
+        "title": "Budget Optimization",
+        "description": "Allocate budget to high-ROAS campaigns and optimize or pause low-ROAS ones."
+      },
+      {
+        "title": "Profitability Analysis",
+        "description": "Combine ROAS with profit margins to ensure profitable advertising spend."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a good ROAS?",
+        "answer": "Good ROAS depends on profit margins. With 50% margins, need minimum 2:1 ROAS to break even. Target 4:1 or higher for healthy profitability. High-margin businesses can succeed with lower ROAS."
+      },
+      {
+        "question": "How do I improve ROAS?",
+        "answer": "Improve targeting to reach high-intent customers, optimize ad creative, improve landing pages to increase conversion, increase average order value, and reduce wasted ad spend on poor performers."
+      },
+      {
+        "question": "ROAS vs ROI: what's the difference?",
+        "answer": "ROAS measures revenue return from ad spend. ROI measures profit return including all costs (COGS, overhead). ROAS is simpler to track, ROI gives true profitability picture."
+      },
+      {
+        "question": "Should I maximize ROAS?",
+        "answer": "Not always - maximizing ROAS often means reducing spend to only absolute best performers, which limits growth. Balance ROAS optimization with volume goals for sustainable scaling."
+      }
+    ],
+    "seoTips": [
+      "Set ROAS targets based on profit margins",
+      "Track ROAS by campaign and product",
+      "Monitor ROAS trends as you scale",
+      "Segment ROAS by customer type",
+      "Account for attribution windows"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Ignoring profit margins",
+        "solution": "High ROAS means nothing if margins are thin - ensure ROAS covers COGS, fulfillment, and overhead, not just ad costs."
+      },
+      {
+        "mistake": "Using only last-click attribution",
+        "solution": "Last-click undercounts value of awareness channels - use multi-touch attribution for accurate ROAS."
+      },
+      {
+        "mistake": "Not accounting for return period",
+        "solution": "Some customers return products - factor in return rates when calculating true ROAS."
+      },
+      {
+        "mistake": "Comparing ROAS across different business models",
+        "solution": "High-margin businesses can succeed with lower ROAS than low-margin ones - context matters."
+      }
+    ]
   },
   "conversion-rate-calculator": {
     "title": "Conversion Rate Calculator - Sales Conversion",
-    "description": "Calculate conversion rate from visitors to customers. Our free conversion calculator helps e-commerce stores and websites measure sales effectiveness, optimize marketing campaigns, and improve customer acquisition strategies."
+    "description": "Calculate conversion rate from visitors to customers. Our free conversion calculator helps e-commerce stores and websites measure sales effectiveness, optimize marketing campaigns, and improve customer acquisition strategies.",
+    "howItWorks": {
+      "steps": [
+        {
+          "title": "Enter Total Visitors",
+          "description": "Input total number of visitors, clicks, or leads at the top of funnel."
+        },
+        {
+          "title": "Enter Total Conversions",
+          "description": "Input number who completed desired action: purchase, signup, download."
+        },
+        {
+          "title": "Calculate Conversion Rate",
+          "description": "System calculates percentage (Conversion Rate = Conversions / Visitors × 100)."
+        },
+        {
+          "title": "Benchmark Performance",
+          "description": "Compare to industry standards and historical performance to identify opportunities."
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Website Optimization",
+        "description": "Track landing page and checkout conversion rates to identify optimization opportunities."
+      },
+      {
+        "title": "Marketing Campaign Analysis",
+        "description": "Measure conversion rate of each marketing campaign to optimize budget allocation."
+      },
+      {
+        "title": "A/B Testing",
+        "description": "Compare conversion rates of different variations to identify winning designs and copy."
+      },
+      {
+        "title": "Funnel Analysis",
+        "description": "Calculate conversion rates at each funnel stage to identify and fix bottlenecks."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a good conversion rate?",
+        "answer": "Varies by industry: E-commerce 1-3%, SaaS free trial 2-5%, Lead gen landing pages 5-15%, Email campaigns 1-5%. Focus on improving your own rate rather than hitting arbitrary benchmarks."
+      },
+      {
+        "question": "How can I improve conversion rate?",
+        "answer": "Improve page load speed, simplify forms, enhance trust signals, improve copy and value proposition, add social proof, optimize CTAs, use urgency/scarcity, and reduce friction in checkout."
+      },
+      {
+        "question": "What's micro vs macro conversion?",
+        "answer": "Macro conversions are primary goals (purchase, signup). Micro conversions are steps toward macro goals (add to cart, video watch, email signup). Track both for comprehensive optimization."
+      },
+      {
+        "question": "How does traffic quality affect conversion rate?",
+        "answer": "Targeted traffic converts better than general traffic. High conversion rate with low traffic might mean overly narrow targeting. Balance quality and volume for optimal results."
+      }
+    ],
+    "seoTips": [
+      "Track conversion rates by traffic source",
+      "Segment by device type and location",
+      "Monitor conversion funnel drop-off points",
+      "A/B test regularly to improve rates",
+      "Set realistic improvement goals"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Only tracking final conversion",
+        "solution": "Track micro-conversions throughout funnel to identify exactly where users drop off."
+      },
+      {
+        "mistake": "Not segmenting conversion data",
+        "solution": "Average conversion rate hides insights - segment by source, device, location, new vs returning."
+      },
+      {
+        "mistake": "Comparing incomparable conversions",
+        "solution": "Email subscriber conversion is different from purchase conversion - context matters for benchmarking."
+      },
+      {
+        "mistake": "Making too many changes at once",
+        "solution": "Change one element at a time to understand what actually improves conversion rates."
+      }
+    ]
   },
   "social-media-engagement-calculator": {
     "title": "Social Media Engagement Calculator Online",
-    "description": "Calculate social media engagement rate for your posts. Our free engagement calculator helps influencers and brands measure likes, comments, shares, and reach. Track performance on Instagram, Facebook, Twitter, and other platforms."
+    "description": "Calculate social media engagement rate for your posts. Our free engagement calculator helps influencers and brands measure likes, comments, shares, and reach. Track performance on Instagram, Facebook, Twitter, and other platforms.",
+    "howItWorks": {
+      "steps": [
+        {
+          "title": "Enter Total Followers",
+          "description": "Input your total follower count on the social media platform."
+        },
+        {
+          "title": "Enter Total Engagements",
+          "description": "Input sum of likes, comments, shares, saves, and other interactions."
+        },
+        {
+          "title": "Set Time Period",
+          "description": "Specify if engagement is per post, daily, weekly, or monthly."
+        },
+        {
+          "title": "Calculate Engagement Rate",
+          "description": "System calculates percentage (Engagement / Followers × 100)."
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Content Performance",
+        "description": "Measure which types of content generate highest engagement to guide content strategy."
+      },
+      {
+        "title": "Influencer Evaluation",
+        "description": "Assess influencer quality by engagement rate, not just follower count."
+      },
+      {
+        "title": "Platform Comparison",
+        "description": "Compare engagement rates across Instagram, Facebook, LinkedIn, TikTok, Twitter."
+      },
+      {
+        "title": "Algorithm Optimization",
+        "description": "High engagement signals algorithm to show content to more people, increasing organic reach."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a good engagement rate?",
+        "answer": "Instagram: 1-5% good, 5%+ excellent. Facebook: 0.5-1% good. LinkedIn: 2-5% good. TikTok: 5-10%+ common. Smaller accounts typically have higher engagement rates than large accounts."
+      },
+      {
+        "question": "How do I increase engagement?",
+        "answer": "Post consistently, ask questions, use interactive features (polls, quizzes), respond to comments, post when audience is active, create shareable content, use relevant hashtags, and collaborate with others."
+      },
+      {
+        "question": "Why is engagement more important than followers?",
+        "answer": "Engagement indicates real audience interest and drives algorithm visibility. 10K engaged followers are more valuable than 100K unengaged ones. Brands and platforms reward engagement, not vanity metrics."
+      },
+      {
+        "question": "What counts as engagement?",
+        "answer": "Platform-dependent: likes, comments, shares, saves, video views (varies by % watched), clicks, reactions. Each platform weights different engagement types differently in their algorithm."
+      }
+    ],
+    "seoTips": [
+      "Track engagement by content type",
+      "Monitor engagement trends over time",
+      "Analyze best posting times",
+      "Identify top-performing content themes",
+      "Benchmark against competitors"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Buying followers or engagement",
+        "solution": "Fake engagement destroys credibility, tanks algorithm performance, and provides zero business value - grow organically."
+      },
+      {
+        "mistake": "Only caring about follower count",
+        "solution": "Engagement rate matters more than follower count - 1K engaged followers beats 10K ghost followers."
+      },
+      {
+        "mistake": "Not responding to engagement",
+        "solution": "Responding to comments boosts engagement and signals algorithm that your content is valuable."
+      },
+      {
+        "mistake": "Posting without strategy",
+        "solution": "Analyze what content types, topics, and formats drive engagement, then create more of what works."
+      }
+    ]
   },
   "amazon-fba-calculator": {
     "title": "Amazon FBA Calculator - Profit & Fees",
-    "description": "Calculate Amazon FBA fees and profits for your products. Our free FBA calculator helps sellers estimate costs, determine profitability, and optimize pricing. Essential tool for Amazon sellers to maximize earnings and make informed decisions."
+    "description": "Calculate Amazon FBA fees and profits for your products. Our free FBA calculator helps sellers estimate costs, determine profitability, and optimize pricing. Essential tool for Amazon sellers to maximize earnings and make informed decisions.",
+    "howItWorks": {
+      "steps": [
+        {
+          "title": "Enter Product Details",
+          "description": "Input your product selling price, cost, dimensions, and weight."
+        },
+        {
+          "title": "Select Category",
+          "description": "Choose your product category to calculate accurate referral fees."
+        },
+        {
+          "title": "Review Fee Breakdown",
+          "description": "See detailed breakdown of referral fees, fulfillment fees, and storage costs."
+        },
+        {
+          "title": "Analyze Profit Margins",
+          "description": "Review your net profit, ROI, and profit margin after all FBA fees."
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Product Sourcing Decisions",
+        "description": "Determine if a product will be profitable before purchasing inventory."
+      },
+      {
+        "title": "Pricing Strategy",
+        "description": "Set competitive prices while maintaining healthy profit margins."
+      },
+      {
+        "title": "Fee Optimization",
+        "description": "Understand how product dimensions and weight affect FBA fees."
+      },
+      {
+        "title": "Product Comparison",
+        "description": "Compare profitability of different products to prioritize your catalog."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What fees does Amazon FBA charge?",
+        "answer": "Amazon FBA charges referral fees (8-15% depending on category), fulfillment fees (based on size and weight), storage fees (monthly), and additional fees for special handling or long-term storage."
+      },
+      {
+        "question": "How do I reduce my FBA fees?",
+        "answer": "Optimize product packaging to reduce dimensional weight, avoid long-term storage fees by managing inventory turnover, and consider removing slow-moving inventory."
+      },
+      {
+        "question": "What is a good profit margin for FBA?",
+        "answer": "Most successful FBA sellers aim for 25-40% profit margin after all fees and costs. Margins below 20% may be too risky considering advertising and other variable costs."
+      },
+      {
+        "question": "Are storage fees included in the calculator?",
+        "answer": "Yes, the calculator includes monthly storage fees based on product dimensions and time of year (standard vs. peak season rates)."
+      }
+    ],
+    "seoTips": [
+      "Calculate fees before sourcing products",
+      "Compare different product sizes to optimize packaging",
+      "Factor in all costs including shipping to Amazon",
+      "Consider seasonal storage fee variations",
+      "Account for potential return fees"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Ignoring dimensional weight",
+        "solution": "Always check how packaging affects fulfillment fees - sometimes smaller packaging significantly reduces costs."
+      },
+      {
+        "mistake": "Not accounting for returns",
+        "solution": "Factor in return rates (typically 5-10%) when calculating expected profitability."
+      },
+      {
+        "mistake": "Forgetting advertising costs",
+        "solution": "FBA fees are just part of the cost - budget for PPC advertising to drive sales."
+      },
+      {
+        "mistake": "Overlooking long-term storage",
+        "solution": "Products stored over 365 days incur high fees - plan inventory turnover carefully."
+      }
+    ]
   },
   "ebay-fees-calculator": {
     "title": "eBay Fees Calculator - Selling Fees & Profit",
-    "description": "Calculate eBay selling fees and net profits instantly. Our free eBay calculator helps sellers determine final sale prices, insertion fees, and PayPal charges. Optimize listings and maximize profits on eBay marketplace."
+    "description": "Calculate eBay selling fees and net profits instantly. Our free eBay calculator helps sellers determine final sale prices, insertion fees, and PayPal charges. Optimize listings and maximize profits on eBay marketplace.",
+    "howItWorks": {
+      "steps": [
+        {
+          "title": "Enter Listing Details",
+          "description": "Input your item selling price and shipping charges."
+        },
+        {
+          "title": "Select Category",
+          "description": "Choose your product category for accurate final value fees."
+        },
+        {
+          "title": "Review Fee Breakdown",
+          "description": "See insertion fees, final value fees, and PayPal/payment processing fees."
+        },
+        {
+          "title": "Calculate Net Profit",
+          "description": "View your profit after all eBay and payment processing fees."
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Pricing Strategy",
+        "description": "Determine the right listing price to achieve your desired profit margin."
+      },
+      {
+        "title": "Fee Comparison",
+        "description": "Compare costs across different eBay listing formats (auction vs. fixed price)."
+      },
+      {
+        "title": "Profit Analysis",
+        "description": "Calculate if selling on eBay makes financial sense for your products."
+      },
+      {
+        "title": "Shipping Decisions",
+        "description": "Determine optimal shipping charges to remain competitive while covering costs."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What are eBay final value fees?",
+        "answer": "Final value fees are 12.9% (plus $0.30) of the total sale amount including shipping. Some categories have different rates ranging from 2% to 15%."
+      },
+      {
+        "question": "How can I reduce eBay fees?",
+        "answer": "Subscribe to an eBay Store to get reduced final value fees, use promoted listings strategically, and take advantage of free insertion fee allowances."
+      },
+      {
+        "question": "What are insertion fees?",
+        "answer": "eBay gives 250+ free listings per month for most sellers. Beyond that, insertion fees are $0.35 per listing, though Store subscribers get more free listings."
+      },
+      {
+        "question": "Are PayPal fees included?",
+        "answer": "Yes, the calculator includes payment processing fees which are typically 2.9% + $0.30 per transaction for PayPal or eBay Managed Payments."
+      }
+    ],
+    "seoTips": [
+      "Calculate total fees including payment processing",
+      "Factor in shipping costs when pricing",
+      "Consider eBay Store subscription for high volume",
+      "Account for promoted listing fees if applicable",
+      "Include cost of packing materials"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Forgetting payment processing fees",
+        "solution": "Always include PayPal/managed payments fees (about 3%) in your calculations."
+      },
+      {
+        "mistake": "Not factoring shipping costs",
+        "solution": "Include actual shipping costs, not just what you charge buyers - the difference affects profit."
+      },
+      {
+        "mistake": "Ignoring category differences",
+        "solution": "Final value fees vary by category - use the correct category for accurate calculations."
+      },
+      {
+        "mistake": "Overlooking free listings",
+        "solution": "Use your monthly free listing allowance strategically to minimize insertion fees."
+      }
+    ]
   },
   "shopify-profit-calculator": {
     "title": "Shopify Profit Calculator - Store Revenue",
-    "description": "Calculate net profits from your Shopify store. Our free Shopify calculator helps online store owners determine revenue after fees, costs, and expenses. Optimize your e-commerce business and track profitability effectively."
+    "description": "Calculate net profits from your Shopify store. Our free Shopify calculator helps online store owners determine revenue after fees, costs, and expenses. Optimize your e-commerce business and track profitability effectively.",
+    "howItWorks": {
+      "steps": [
+        {
+          "title": "Enter Revenue Data",
+          "description": "Input your total sales revenue for the calculation period."
+        },
+        {
+          "title": "Add All Costs",
+          "description": "Include product costs, Shopify fees, payment processing fees, and shipping."
+        },
+        {
+          "title": "Include Operating Expenses",
+          "description": "Add marketing, apps, themes, and other business expenses."
+        },
+        {
+          "title": "Review Profit Analysis",
+          "description": "See your net profit, profit margin percentage, and ROI."
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Monthly Performance Tracking",
+        "description": "Monitor your store profitability month-over-month to identify trends."
+      },
+      {
+        "title": "Pricing Optimization",
+        "description": "Adjust product prices to achieve target profit margins."
+      },
+      {
+        "title": "Expense Management",
+        "description": "Identify which costs are eating into profits and where to optimize."
+      },
+      {
+        "title": "Business Decisions",
+        "description": "Make data-driven decisions about scaling, marketing spend, or product mix."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What Shopify fees should I include?",
+        "answer": "Include monthly subscription ($39-$399), payment processing fees (2.4-2.9% + 30¢), transaction fees if not using Shopify Payments, and any app subscriptions."
+      },
+      {
+        "question": "What is a good profit margin for Shopify?",
+        "answer": "Successful Shopify stores typically aim for 20-40% net profit margin after all costs. New stores might have lower margins initially while scaling."
+      },
+      {
+        "question": "How do I calculate COGS correctly?",
+        "answer": "Cost of Goods Sold includes product cost from supplier, shipping to you, customs/duties if applicable, and packaging materials used for fulfillment."
+      },
+      {
+        "question": "Should I include my own salary?",
+        "answer": "For accurate business profitability, include a reasonable salary for yourself in operating expenses to see true business profit."
+      }
+    ],
+    "seoTips": [
+      "Track all costs including hidden fees",
+      "Monitor profit margins by product category",
+      "Factor in returns and refunds",
+      "Include marketing and advertising costs",
+      "Account for seasonal variations"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Forgetting app subscription costs",
+        "solution": "Include all Shopify app fees - they can add up to hundreds per month."
+      },
+      {
+        "mistake": "Not tracking marketing costs",
+        "solution": "Include all advertising spend (Facebook, Google, influencers) to calculate true profit."
+      },
+      {
+        "mistake": "Ignoring payment processing fees",
+        "solution": "Credit card fees are typically 2.6-3% - a significant cost at scale."
+      },
+      {
+        "mistake": "Overlooking shipping losses",
+        "solution": "If you offer free shipping, factor in the full cost even if customers don't pay."
+      }
+    ]
   },
   "unit-cost-calculator": {
     "title": "Unit Cost Calculator - Per Unit Price",
-    "description": "Calculate cost per unit for your products. Our free unit cost calculator helps manufacturers and retailers determine individual product costs, optimize pricing, and improve profit margins. Essential for production planning and pricing strategies."
+    "description": "Calculate cost per unit for your products. Our free unit cost calculator helps manufacturers and retailers determine individual product costs, optimize pricing, and improve profit margins. Essential for production planning and pricing strategies.",
+    "howItWorks": {
+      "steps": [
+        {
+          "title": "Enter Total Costs",
+          "description": "Input your total production or purchase costs for a batch."
+        },
+        {
+          "title": "Specify Quantity",
+          "description": "Enter the number of units produced or purchased."
+        },
+        {
+          "title": "Add Overhead Costs",
+          "description": "Include indirect costs like utilities, rent, and equipment depreciation."
+        },
+        {
+          "title": "Calculate Unit Cost",
+          "description": "Get precise per-unit cost to inform pricing and profitability decisions."
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Product Pricing",
+        "description": "Determine minimum selling price needed to cover costs and achieve target margins."
+      },
+      {
+        "title": "Supplier Comparison",
+        "description": "Compare unit costs from different suppliers or production methods."
+      },
+      {
+        "title": "Break-Even Analysis",
+        "description": "Calculate how many units must be sold to cover fixed and variable costs."
+      },
+      {
+        "title": "Inventory Valuation",
+        "description": "Accurately value inventory for accounting and financial reporting purposes."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What costs should be included in unit cost?",
+        "answer": "Include direct materials, direct labor, manufacturing overhead, shipping from supplier, duties/tariffs, and quality control costs. For accurate fully-loaded cost, also allocate fixed overhead."
+      },
+      {
+        "question": "How do I allocate overhead costs?",
+        "answer": "Divide total overhead costs (rent, utilities, equipment) by total units produced. This gives you overhead cost per unit to add to direct costs."
+      },
+      {
+        "question": "Should unit cost include packaging?",
+        "answer": "Yes, include all packaging materials that go with each unit - boxes, inserts, labels, tape, and any protective materials."
+      },
+      {
+        "question": "How often should I recalculate unit costs?",
+        "answer": "Recalculate quarterly or whenever there are significant changes in material costs, production volume, or overhead expenses."
+      }
+    ],
+    "seoTips": [
+      "Include all direct and indirect costs",
+      "Update costs regularly for accuracy",
+      "Consider economies of scale",
+      "Factor in waste and defect rates",
+      "Account for volume discounts"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Forgetting overhead allocation",
+        "solution": "Don't just calculate material + labor - allocate a portion of rent, utilities, and equipment costs to each unit."
+      },
+      {
+        "mistake": "Ignoring shipping costs",
+        "solution": "Include freight charges from suppliers - this can be 5-15% of product cost for imported goods."
+      },
+      {
+        "mistake": "Not accounting for waste",
+        "solution": "Factor in defect rates and material waste - if 5% are defective, this increases unit cost."
+      },
+      {
+        "mistake": "Using outdated costs",
+        "solution": "Material prices fluctuate - update your calculations regularly to maintain accuracy."
+      }
+    ]
   },
   "time-tracking-calculator": {
     "title": "Time Tracking Calculator - Work Hours Tracker",
-    "description": "Track work hours and calculate productivity. Our free time tracking calculator helps freelancers and teams monitor billable hours, measure efficiency, and improve time management. Convert hours to income and optimize scheduling."
+    "description": "Track work hours and calculate productivity. Our free time tracking calculator helps freelancers and teams monitor billable hours, measure efficiency, and improve time management. Convert hours to income and optimize scheduling.",
+    "howItWorks": {
+      "steps": [
+        {
+          "title": "Enter Work Hours",
+          "description": "Input start time, end time, and break durations for accurate tracking."
+        },
+        {
+          "title": "Set Hourly Rate",
+          "description": "Enter your billing rate or salary to calculate earnings."
+        },
+        {
+          "title": "Track Multiple Projects",
+          "description": "Allocate hours across different clients or projects for detailed tracking."
+        },
+        {
+          "title": "Analyze Productivity",
+          "description": "Review total hours, billable time, and earnings for the period."
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Freelance Billing",
+        "description": "Track billable hours accurately for client invoicing and project quotes."
+      },
+      {
+        "title": "Productivity Analysis",
+        "description": "Identify time sinks and optimize your daily work schedule."
+      },
+      {
+        "title": "Project Budgeting",
+        "description": "Compare estimated vs. actual hours to improve future project estimates."
+      },
+      {
+        "title": "Team Management",
+        "description": "Monitor team hours to ensure projects stay within budget and deadlines."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How do I track billable vs. non-billable time?",
+        "answer": "Separate your work into client work (billable) and administrative tasks like emails, meetings, or training (non-billable). This helps calculate true earning rate."
+      },
+      {
+        "question": "What should I set as my hourly rate?",
+        "answer": "Calculate your target annual income, add 30% for taxes and overhead, divide by 1,500 billable hours per year (assuming 50% utilization). This ensures you meet income goals."
+      },
+      {
+        "question": "How do I handle breaks in time tracking?",
+        "answer": "Deduct lunch and regular breaks from total hours. Most professionals deduct 30-60 minutes per day for breaks."
+      },
+      {
+        "question": "Should I round time entries?",
+        "answer": "Common practice is rounding to 15-minute or 6-minute increments. Be consistent and communicate your rounding policy to clients."
+      }
+    ],
+    "seoTips": [
+      "Track time in real-time for accuracy",
+      "Categorize hours by project or client",
+      "Include all billable activities",
+      "Account for non-billable overhead time",
+      "Review weekly to improve estimates"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Not tracking small tasks",
+        "solution": "Quick emails and calls add up - track all work even if it's just 15 minutes to ensure accurate billing."
+      },
+      {
+        "mistake": "Forgetting to log breaks",
+        "solution": "Deduct breaks from total hours - overreporting can damage client relationships."
+      },
+      {
+        "mistake": "Inconsistent tracking",
+        "solution": "Track time daily in real-time rather than trying to remember at week's end - accuracy improves significantly."
+      },
+      {
+        "mistake": "Not categorizing time",
+        "solution": "Break time into categories (meetings, actual work, admin) to identify productivity patterns."
+      }
+    ]
   },
   "project-budget-calculator": {
     "title": "Project Budget Calculator - Cost Planning Tool",
-    "description": "Plan and track your business project budget. Our free project budget calculator helps managers allocate resources, monitor expenses, and ensure projects stay within budget. Essential for successful project delivery and cost control."
+    "description": "Plan and track your business project budget. Our free project budget calculator helps managers allocate resources, monitor expenses, and ensure projects stay within budget. Essential for successful project delivery and cost control.",
+    "howItWorks": {
+      "steps": [
+        {
+          "title": "Define Project Scope",
+          "description": "Enter project name, timeline, and overall budget allocation."
+        },
+        {
+          "title": "Allocate Resources",
+          "description": "Break down budget by categories: labor, materials, equipment, overhead."
+        },
+        {
+          "title": "Track Expenses",
+          "description": "Input actual costs as the project progresses to monitor budget adherence."
+        },
+        {
+          "title": "Analyze Variance",
+          "description": "Compare planned vs. actual spending to identify budget overruns early."
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Construction Projects",
+        "description": "Track costs for materials, labor, permits, and equipment across project phases."
+      },
+      {
+        "title": "IT Implementations",
+        "description": "Budget for software licenses, hardware, consultant fees, and training."
+      },
+      {
+        "title": "Marketing Campaigns",
+        "description": "Allocate budget across channels: social media, PPC, content, design, and analytics."
+      },
+      {
+        "title": "Event Planning",
+        "description": "Track venue, catering, entertainment, marketing, and staffing costs for events."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What percentage should I allocate for contingency?",
+        "answer": "Industry best practice is 10-20% contingency for unexpected costs. Complex or long-duration projects warrant higher contingencies."
+      },
+      {
+        "question": "How detailed should my budget categories be?",
+        "answer": "Break down into categories specific enough to track and control (10-20 categories typical), but not so granular that tracking becomes burdensome."
+      },
+      {
+        "question": "How do I handle scope changes?",
+        "answer": "Document all scope changes, recalculate budget impact, get stakeholder approval, and update baseline budget to maintain accurate tracking."
+      },
+      {
+        "question": "What is budget variance analysis?",
+        "answer": "Variance analysis compares planned vs. actual costs. Variances over 10% typically require investigation and corrective action."
+      }
+    ],
+    "seoTips": [
+      "Include 10-20% contingency buffer",
+      "Track actual vs. planned spending weekly",
+      "Break budget into phases or milestones",
+      "Document all assumptions",
+      "Get stakeholder approval before starting"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "No contingency budget",
+        "solution": "Always include 10-20% contingency - unexpected costs are guaranteed in any project."
+      },
+      {
+        "mistake": "Forgetting indirect costs",
+        "solution": "Include overhead, management time, utilities, and administrative costs, not just direct project expenses."
+      },
+      {
+        "mistake": "Not tracking small expenses",
+        "solution": "Small costs accumulate - track everything or you'll have mysterious budget leakage."
+      },
+      {
+        "mistake": "Set-and-forget budgeting",
+        "solution": "Review budget vs. actuals weekly to catch overruns early when corrective action is still possible."
+      }
+    ]
   },
   "income-tax-calculator": {
     "title": "Sales Tax Calculator - Final Price Calculator",
-    "description": "Calculate sales tax and final product prices effortlessly. Our free calculator helps determine total costs including taxes. Perfect for shoppers, retailers, and businesses to compute accurate pricing with sales tax included."
+    "description": "Calculate sales tax and final product prices effortlessly. Our free calculator helps determine total costs including taxes. Perfect for shoppers, retailers, and businesses to compute accurate pricing with sales tax included.",
+    "howItWorks": {
+      "steps": [
+        {
+          "title": "Enter Purchase Amount",
+          "description": "Input the pre-tax price of goods or services."
+        },
+        {
+          "title": "Set Tax Rate",
+          "description": "Enter your local sales tax percentage (state, county, and city combined)."
+        },
+        {
+          "title": "Calculate Total",
+          "description": "View tax amount and total price including tax instantly."
+        },
+        {
+          "title": "Reverse Calculate",
+          "description": "Can also work backwards from total price to find pre-tax amount."
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Retail Pricing",
+        "description": "Calculate final prices to display to customers including sales tax."
+      },
+      {
+        "title": "Budget Planning",
+        "description": "Determine true cost of purchases when budgeting with tax-inclusive amounts."
+      },
+      {
+        "title": "Business Accounting",
+        "description": "Separate sales tax collected from revenue for proper tax remittance."
+      },
+      {
+        "title": "Price Comparison",
+        "description": "Compare prices from different regions with varying tax rates."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How do I find my local sales tax rate?",
+        "answer": "Sales tax combines state, county, and sometimes city taxes. Check your state's department of revenue website or use online tax rate lookup tools. Rates typically range from 0% to 10%."
+      },
+      {
+        "question": "Do all states charge sales tax?",
+        "answer": "No, five states have no sales tax: Alaska, Delaware, Montana, New Hampshire, and Oregon. However, some localities in these states may charge local sales taxes."
+      },
+      {
+        "question": "What items are exempt from sales tax?",
+        "answer": "Exemptions vary by state but commonly include groceries, prescription medications, and sometimes clothing. Business-to-business transactions may also be exempt with proper documentation."
+      },
+      {
+        "question": "How do online sellers handle sales tax?",
+        "answer": "Online sellers must charge sales tax based on the buyer's location if they have economic nexus in that state (typically $100k+ in sales or 200+ transactions annually)."
+      }
+    ],
+    "seoTips": [
+      "Use exact local tax rates including city taxes",
+      "Update rates annually as they change",
+      "Keep records of tax collected",
+      "Understand what products are exempt",
+      "Consider tax in pricing strategy"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Using wrong tax rate",
+        "solution": "Don't forget to include county and city taxes - state rate alone is usually not the total."
+      },
+      {
+        "mistake": "Applying tax to exempt items",
+        "solution": "Learn which items are tax-exempt in your state - overcharging tax is illegal in most jurisdictions."
+      },
+      {
+        "mistake": "Not updating rates",
+        "solution": "Sales tax rates change periodically - verify rates annually and after any local tax votes."
+      },
+      {
+        "mistake": "Forgetting use tax",
+        "solution": "If you purchase items without paying sales tax, you may owe use tax when filing your return."
+      }
+    ]
   },
   "labor-cost-calculator": {
     "title": "Labor Cost Calculator - Total Employment Cost",
-    "description": "Calculate total labor costs including wages, benefits, and overhead. Our free labor cost calculator helps businesses budget for employees, determine true employment costs, and optimize workforce expenses for profitability."
+    "description": "Calculate total labor costs including wages, benefits, and overhead. Our free labor cost calculator helps businesses budget for employees, determine true employment costs, and optimize workforce expenses for profitability.",
+    "howItWorks": {
+      "steps": [
+        {
+          "title": "Enter Base Wages",
+          "description": "Input hourly wages or annual salaries for all employees."
+        },
+        {
+          "title": "Add Payroll Taxes",
+          "description": "Include employer FICA, unemployment, and other mandatory payroll taxes."
+        },
+        {
+          "title": "Include Benefits",
+          "description": "Add health insurance, retirement contributions, PTO, and other benefits."
+        },
+        {
+          "title": "Calculate Total Cost",
+          "description": "See true fully-loaded cost per employee including all overhead."
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Hiring Decisions",
+        "description": "Understand true cost of adding headcount to make informed hiring decisions."
+      },
+      {
+        "title": "Project Bidding",
+        "description": "Accurately calculate labor costs when quoting projects to ensure profitability."
+      },
+      {
+        "title": "Budget Planning",
+        "description": "Forecast annual labor costs including raises, bonuses, and benefit increases."
+      },
+      {
+        "title": "Pricing Strategy",
+        "description": "Ensure product/service pricing covers labor costs and desired profit margins."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is included in fully-loaded labor cost?",
+        "answer": "Fully-loaded cost includes base wages, employer payroll taxes (7.65% FICA + unemployment), health insurance, retirement match, PTO, workers comp, training, and other benefits. Total typically 1.25-1.4x base wages."
+      },
+      {
+        "question": "How much do payroll taxes add to labor costs?",
+        "answer": "Employers pay 7.65% for FICA (Social Security and Medicare), plus 0.6-6% for unemployment insurance, plus workers compensation (varies by industry, 1-10%). Total payroll taxes typically add 10-15%."
+      },
+      {
+        "question": "Should I include PTO in labor costs?",
+        "answer": "Yes, paid time off is a real cost. If employees get 15 days PTO per year, that's about 6% of their time paid but not working, which increases effective hourly cost."
+      },
+      {
+        "question": "What is a good labor cost percentage?",
+        "answer": "Target labor costs vary by industry: restaurants 25-35%, retail 15-30%, professional services 50-70%. Higher skill industries typically have higher labor cost percentages."
+      }
+    ],
+    "seoTips": [
+      "Include all payroll taxes and benefits",
+      "Factor in PTO and holiday pay",
+      "Add workers compensation insurance",
+      "Account for overtime premiums",
+      "Include training and onboarding costs"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Only calculating base wages",
+        "solution": "Total employment cost is typically 125-140% of base wages when including taxes, benefits, and overhead."
+      },
+      {
+        "mistake": "Forgetting workers compensation",
+        "solution": "Workers comp can add 1-10% to labor costs depending on industry risk level - include this in calculations."
+      },
+      {
+        "mistake": "Not including PTO cost",
+        "solution": "Employees are paid for vacation and sick days - factor this into hourly cost calculations."
+      },
+      {
+        "mistake": "Ignoring overtime premiums",
+        "solution": "If employees regularly work overtime, factor in time-and-a-half premiums in labor cost projections."
+      }
+    ]
   },
   "amazon_fba": {
     "title": "Amazon FBA Calculator",
@@ -1988,7 +4321,85 @@
       "use_case_1": "Evaluate product profitability before sourcing",
       "use_case_2": "Set competitive prices that maintain margins",
       "use_case_3": "Compare FBA costs to FBM (Fulfilled by Merchant)"
-    }
+    },
+    "howItWorks": {
+      "title": "How Amazon FBA Fee Calculation Works",
+      "formula": "Net Profit = Product Price - Product Cost - Referral Fee - Fulfillment Fee - Storage Fee",
+      "explanation": "Amazon FBA (Fulfillment by Amazon) fees consist of three main components: referral fees (8-15% based on category), fulfillment fees (based on size and weight tier), and monthly storage fees. Understanding these costs is critical for maintaining healthy profit margins on the Amazon marketplace.",
+      "steps": [
+        "Enter your product selling price on Amazon",
+        "Input your product cost (COGS - Cost of Goods Sold)",
+        "Select the appropriate product category for accurate referral fee calculation",
+        "Enter package dimensions (length, width, height) and weight",
+        "Calculator determines size tier and calculates all applicable FBA fees",
+        "Review net profit, profit margin, and detailed fee breakdown"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Product Sourcing Decisions",
+        "description": "Evaluate profitability of potential products before ordering inventory. Compare supplier quotes against Amazon fees to ensure adequate margins and avoid unprofitable items."
+      },
+      {
+        "title": "Competitive Pricing Strategy",
+        "description": "Determine optimal pricing that balances competitiveness with profitability. Calculate minimum selling price needed to achieve target profit margins after all FBA fees."
+      },
+      {
+        "title": "FBA vs FBM Comparison",
+        "description": "Compare Fulfillment by Amazon costs against Fulfillment by Merchant to decide the most cost-effective fulfillment method for your business model."
+      },
+      {
+        "title": "Product Packaging Optimization",
+        "description": "Analyze how package dimensions and weight affect fulfillment fees. Optimize packaging to reduce size tier and lower per-unit FBA costs."
+      }
+    ],
+    "seoTips": [
+      "Check Amazon's current fee schedule regularly as rates change annually in January and August",
+      "Understand size tiers: Small Standard, Large Standard, Small Oversize, Medium Oversize, Large Oversize, Special Oversize",
+      "Factor in long-term storage fees for inventory aged 365+ days at $6.90 per cubic foot",
+      "Consider Inventory Performance Index (IPI) requirements to avoid storage limits and overage fees",
+      "Include additional costs like inbound shipping, prep services, labeling, and product photography in total COGS"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Ignoring Dimensional Weight",
+        "description": "FBA fees are based on size tier, not just product weight. Oversized packaging can bump your product to a higher fee tier, significantly reducing profit margins."
+      },
+      {
+        "title": "Forgetting Return Processing Costs",
+        "description": "Amazon charges return processing fees equal to fulfillment fees for returned items. High return rates in categories like apparel can erode profitability."
+      },
+      {
+        "title": "Underestimating Storage Fees",
+        "description": "Monthly storage fees vary by season (higher Oct-Dec). Slow-moving inventory incurs substantial storage costs and long-term storage fees after 365 days."
+      },
+      {
+        "title": "Not Accounting for Category-Specific Fees",
+        "description": "Referral fees vary significantly by category: 8% for computers, 15% for most categories, and up to 45% for Amazon Device Accessories. Always verify your category rate."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What are Amazon FBA referral fees?",
+        "answer": "Referral fees are Amazon's commission for each sale, ranging from 8-15% depending on product category. Most categories charge 15%, while computers (8%), automotive (12%), and some others have different rates."
+      },
+      {
+        "question": "How are FBA fulfillment fees calculated?",
+        "answer": "Fulfillment fees are based on size tier and weight. Amazon measures dimensional weight (L × W × H / 139) and actual weight, then charges based on whichever is greater. Small standard items start at $3.22, while large items can exceed $10 in fulfillment fees."
+      },
+      {
+        "question": "What is the difference between standard-size and oversize?",
+        "answer": "Standard-size items are under 20 lbs with dimensions under 18\" × 14\" × 8\". Oversize items exceed these limits and incur significantly higher fulfillment fees. Dimensional weight becomes critical for oversize items."
+      },
+      {
+        "question": "How much are Amazon storage fees?",
+        "answer": "Storage fees vary by season: $0.87 per cubic foot (Jan-Sep) and $2.40 per cubic foot (Oct-Dec). Long-term storage fees of $6.90 per cubic foot apply to inventory stored 365+ days."
+      },
+      {
+        "question": "How can I reduce my Amazon FBA fees?",
+        "answer": "Optimize packaging to minimize dimensional weight, maintain healthy inventory turnover to avoid long-term storage fees, consider FBM for low-margin or slow-moving items, and use Amazon's fee discounts for small and light items under $10 and 3 oz."
+      }
+    ]
   },
   "ebay_fees": {
     "title": "eBay Fees Calculator",
@@ -2048,7 +4459,85 @@
       "use_case_1": "Determine minimum selling price for profitability",
       "use_case_2": "Compare eBay fees across different categories",
       "use_case_3": "Calculate total profit after all fees and shipping"
-    }
+    },
+    "howItWorks": {
+      "title": "How eBay Fee Calculation Works",
+      "formula": "Net Profit = Sale Price + Shipping Charged - Product Cost - Shipping Cost - Insertion Fee - Final Value Fee - Payment Processing Fee",
+      "explanation": "eBay fees include insertion fees (listing fees), final value fees (percentage of total sale including shipping), and payment processing fees through eBay's Managed Payments system. Understanding the total fee structure is essential for pricing items competitively while maintaining profitability.",
+      "steps": [
+        "Enter the final sale price of your item on eBay",
+        "Input your product cost or acquisition cost",
+        "Select the appropriate eBay product category for accurate final value fee calculation",
+        "Enter shipping amount charged to buyer and your actual shipping cost",
+        "Input any insertion fees (eBay provides 250 free listings monthly for most sellers)",
+        "Calculator computes final value fee, payment processing fee, and net profit after all costs"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Pricing Strategy Optimization",
+        "description": "Calculate the minimum listing price needed to achieve target profit margins after all eBay fees, shipping costs, and product costs are deducted."
+      },
+      {
+        "title": "Multi-Channel Selling Comparison",
+        "description": "Compare eBay's fee structure against Amazon, Etsy, or your own e-commerce store to determine the most profitable sales channel for specific products."
+      },
+      {
+        "title": "Auction vs Fixed Price Analysis",
+        "description": "Evaluate whether auction-style or Buy It Now fixed price listings provide better profitability considering different fee structures and final sale prices."
+      },
+      {
+        "title": "Shipping Strategy Planning",
+        "description": "Determine optimal shipping pricing strategies (free shipping built into price vs separate shipping charge) and their impact on final value fees and profitability."
+      }
+    ],
+    "seoTips": [
+      "eBay provides 250 free fixed-price listings per month for most sellers; utilize these to minimize insertion fees",
+      "Final value fees are charged on total sale amount including shipping, so consider free shipping strategies carefully",
+      "eBay's Promoted Listings charge an additional 5-20% ad fee on top of standard fees when items sell through ads",
+      "Top Rated Sellers receive 10% discount on final value fees; maintain excellent metrics to qualify",
+      "Payment processing fees are 2.35% + $0.30 per transaction for most categories through eBay Managed Payments"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting Shipping Costs in Final Value Fee",
+        "description": "eBay charges final value fees on total amount including shipping. A $50 item with $10 shipping incurs fees on $60, not just $50. This catches many sellers off guard."
+      },
+      {
+        "title": "Not Accounting for Payment Processing Fees",
+        "description": "eBay Managed Payments charges 2.35% + $0.30 per order. Sellers transitioning from PayPal sometimes forget this fee is now part of eBay's fee structure."
+      },
+      {
+        "title": "Ignoring Category-Specific Fee Rates",
+        "description": "Final value fees vary by category: most are 12.9%, but watches are 15%, jewelry is 13.25%, and some categories have fee caps. Always verify your category's rate."
+      },
+      {
+        "title": "Underestimating Promoted Listings Costs",
+        "description": "Promoted Listings can significantly increase visibility but add 5-20% fees on sold items. Factor these into profitability calculations when using eBay advertising."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What are eBay's final value fees?",
+        "answer": "Final value fees range from 10-15% depending on category, calculated on total sale amount including shipping. Most categories charge 12.9%. eBay also charges payment processing fees of 2.35% + $0.30 per transaction."
+      },
+      {
+        "question": "How many free listings does eBay provide?",
+        "answer": "Most sellers receive 250 free fixed-price listings per month. Additional listings incur a $0.35 insertion fee. Auction-style listings may have different insertion fee structures."
+      },
+      {
+        "question": "How do eBay fees compare to Amazon fees?",
+        "answer": "eBay typically has lower fees than Amazon FBA for most categories (12.9% vs 15% referral fees), but lacks fulfillment services. eBay suits sellers handling their own shipping; Amazon FBA works better for hands-off fulfillment."
+      },
+      {
+        "question": "What is the Top Rated Seller discount?",
+        "answer": "Top Rated Sellers receive a 10% discount on final value fees when offering 1-day handling and 30-day returns. This can significantly improve margins for high-volume sellers with excellent service metrics."
+      },
+      {
+        "question": "Are eBay fees tax deductible?",
+        "answer": "Yes, all eBay fees (insertion, final value, payment processing, promoted listings) are deductible business expenses. Track these fees carefully for accurate tax reporting and profitability analysis."
+      }
+    ]
   },
   "income_tax": {
     "title": "Income Tax Calculator",
@@ -2081,7 +4570,85 @@
       "use_case_1": "Estimate annual tax liability",
       "use_case_2": "Plan tax withholding and payments",
       "use_case_3": "Compare different filing statuses"
-    }
+    },
+    "howItWorks": {
+      "title": "How Income Tax Calculation Works",
+      "formula": "Taxable Income = Gross Income - Deductions; Tax = Sum of (Income in Each Bracket × Bracket Rate)",
+      "explanation": "Federal income tax uses a progressive bracket system where different portions of income are taxed at different rates. After subtracting standard or itemized deductions from gross income, the resulting taxable income is calculated through tax brackets. Understanding marginal vs effective tax rates is essential for accurate tax planning.",
+      "steps": [
+        "Enter your total gross annual income from all sources",
+        "Select your filing status (Single, Married Filing Jointly, Head of Household)",
+        "Input standard deduction or itemized deductions total",
+        "Calculator determines taxable income by subtracting deductions from gross income",
+        "Tax is calculated progressively through federal tax brackets for your filing status",
+        "Review total tax liability, effective tax rate, taxable income, and after-tax income"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Annual Tax Planning",
+        "description": "Estimate total federal income tax liability to plan quarterly estimated tax payments, adjust W-4 withholding, or make tax-advantaged retirement contributions to reduce tax burden."
+      },
+      {
+        "title": "Withholding Adjustment",
+        "description": "Calculate expected annual tax to determine if current W-4 withholding is adequate, avoiding underpayment penalties or excessive overwithholding that reduces monthly cash flow."
+      },
+      {
+        "title": "Filing Status Comparison",
+        "description": "Compare tax liability across different filing statuses (married filing jointly vs separately) to determine the most tax-efficient approach for your household situation."
+      },
+      {
+        "title": "Income Scenario Analysis",
+        "description": "Evaluate tax impact of raises, bonuses, side income, or retirement withdrawals to make informed decisions about additional income opportunities and timing."
+      }
+    ],
+    "seoTips": [
+      "2024 tax brackets: 10%, 12%, 22%, 24%, 32%, 35%, 37% - rates apply to different income ranges based on filing status",
+      "Standard deduction 2024: $14,600 (Single), $29,200 (Married Filing Jointly), $21,900 (Head of Household) - increases annually for inflation",
+      "Marginal tax rate (highest bracket) differs from effective tax rate (average rate paid on all income)",
+      "Maximize tax-advantaged accounts: Traditional IRA/401(k) contributions reduce current taxable income, while Roth contributions don't but grow tax-free",
+      "Consider above-the-line deductions (HSA, student loan interest, educator expenses) that reduce adjusted gross income without itemizing"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Confusing Marginal and Effective Tax Rates",
+        "description": "Your marginal rate (highest bracket) doesn't apply to all income. A 24% marginal rate doesn't mean 24% of total income goes to taxes - your effective rate is typically much lower due to progressive brackets."
+      },
+      {
+        "title": "Forgetting State Income Tax",
+        "description": "This calculator shows federal tax only. Most states add 3-13% state income tax on top of federal. Total tax burden requires combining federal and state calculations."
+      },
+      {
+        "title": "Not Maximizing Deductions",
+        "description": "Many taxpayers take standard deduction by default without calculating if itemizing (mortgage interest, charitable donations, state taxes, medical expenses) would reduce tax liability more."
+      },
+      {
+        "title": "Ignoring Tax Credits vs Deductions",
+        "description": "Tax credits (EITC, Child Tax Credit, education credits) directly reduce tax dollar-for-dollar and aren't captured in simple income/deduction calculators. Credits are often more valuable than deductions."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between marginal and effective tax rate?",
+        "answer": "Marginal rate is the tax percentage on your last dollar earned (highest bracket). Effective rate is total tax divided by total income - your actual average tax rate. Someone in the 24% bracket typically has an effective rate of 12-15%."
+      },
+      {
+        "question": "How do tax brackets work?",
+        "answer": "Tax brackets are progressive - only income within each range is taxed at that rate. For example, if single filer earns $60,000, they pay 10% on first $11,600, 12% on income from $11,601-$47,150, and 22% on remaining income above $47,150."
+      },
+      {
+        "question": "Should I take the standard deduction or itemize?",
+        "answer": "Itemize if your deductible expenses (mortgage interest, state/local taxes up to $10,000, charitable donations, medical expenses >7.5% AGI) exceed standard deduction. Most taxpayers now take standard deduction after 2018 tax law changes."
+      },
+      {
+        "question": "How can I reduce my taxable income?",
+        "answer": "Contribute to traditional IRA/401(k), max out HSA contributions, claim above-the-line deductions (student loan interest, educator expenses, self-employment expenses), and consider tax-loss harvesting in investment accounts."
+      },
+      {
+        "question": "Do I need to pay quarterly estimated taxes?",
+        "answer": "Yes, if you expect to owe $1,000+ in taxes and your withholding/credits won't cover 90% of current year tax or 100% of prior year tax. Self-employed individuals, contractors, and investors typically need quarterly payments."
+      }
+    ]
   },
   "project_budget": {
     "title": "Project Budget Calculator",
@@ -2122,7 +4689,85 @@
       "use_case_1": "Plan construction or renovation budgets",
       "use_case_2": "Estimate software development project costs",
       "use_case_3": "Create event planning budgets"
-    }
+    },
+    "howItWorks": {
+      "title": "How Project Budget Calculation Works",
+      "formula": "Total Budget = (Materials + Labor + Overhead) × (1 + Contingency%)",
+      "explanation": "Project budgeting combines all direct costs (materials and labor), indirect costs (overhead), and adds a contingency buffer to account for unforeseen expenses. The contingency percentage typically ranges from 5-20% depending on project complexity and risk factors.",
+      "steps": [
+        "Calculate total materials cost including all supplies, equipment, and raw materials needed",
+        "Sum up labor costs including wages, contractor fees, and personnel expenses",
+        "Add overhead costs such as permits, insurance, utilities, and administrative expenses",
+        "Determine appropriate contingency percentage based on project risk and complexity",
+        "Calculator adds all costs and applies contingency multiplier for final budget",
+        "Review breakdown to identify largest cost drivers and optimization opportunities"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Construction & Renovation Projects",
+        "description": "Plan accurate budgets for building projects including materials, contractors, permits, and unexpected structural issues or code compliance requirements."
+      },
+      {
+        "title": "Software Development Budgeting",
+        "description": "Estimate development costs including developer salaries, software licenses, cloud infrastructure, and buffer for scope changes or technical challenges."
+      },
+      {
+        "title": "Event Planning",
+        "description": "Budget for corporate events, weddings, or conferences including venue, catering, entertainment, staffing, and contingency for last-minute changes."
+      },
+      {
+        "title": "Marketing Campaign Budgets",
+        "description": "Calculate total campaign costs including creative development, media spend, agency fees, and buffer for performance optimization adjustments."
+      }
+    ],
+    "seoTips": [
+      "Always include a contingency buffer of 10-20% for complex projects to avoid budget overruns",
+      "Track actual vs. budgeted costs throughout the project to improve future estimates",
+      "Break down materials into categories (raw materials, equipment, supplies) for better visibility",
+      "Include all hidden overhead costs like permits, insurance, and administrative time",
+      "Review and adjust contingency percentage based on project risk assessment and historical data"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Underestimating Overhead Costs",
+        "description": "Many projects fail to account for permits, insurance, utilities, supervision, and administrative costs. These indirect expenses can add 15-25% to direct costs."
+      },
+      {
+        "title": "No Contingency Buffer",
+        "description": "Failing to include contingency funds leads to budget crises when inevitable changes or issues arise. Most successful projects budget 10-20% contingency."
+      },
+      {
+        "title": "Incomplete Materials List",
+        "description": "Missing small items (fasteners, consumables, tools) that seem trivial individually but add up significantly. Create comprehensive materials checklists."
+      },
+      {
+        "title": "Not Updating Estimates",
+        "description": "Using outdated pricing for materials and labor leads to significant budget shortfalls. Update cost estimates regularly, especially for long-term projects."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a reasonable contingency percentage?",
+        "answer": "Standard projects: 5-10%, complex projects: 10-15%, high-risk or innovative projects: 15-20%. Government and construction projects often require 10-15% minimum."
+      },
+      {
+        "question": "Should contingency be a separate line item?",
+        "answer": "Yes, always show contingency separately. This transparency helps stakeholders understand risk management and prevents the buffer from being viewed as padding."
+      },
+      {
+        "question": "What costs go into overhead vs. materials?",
+        "answer": "Materials are direct costs you can touch (lumber, software licenses). Overhead is indirect (permits, insurance, supervision, office rent, utilities, administration)."
+      },
+      {
+        "question": "How do I estimate labor costs accurately?",
+        "answer": "Use hourly rates × estimated hours, plus benefits (typically 25-35% of wages). Include all personnel: workers, supervisors, specialists, and administrative support."
+      },
+      {
+        "question": "What if my actual costs exceed the budget?",
+        "answer": "First use contingency funds. If exceeded, evaluate scope reduction, timeline extension, or additional funding. Document all changes and update future estimates."
+      }
+    ]
   },
   "shopify_profit": {
     "title": "Shopify Profit Calculator",
@@ -2171,7 +4816,85 @@
       "use_case_1": "Set profitable product prices",
       "use_case_2": "Compare different Shopify plans",
       "use_case_3": "Calculate margins for product sourcing decisions"
-    }
+    },
+    "howItWorks": {
+      "title": "How Shopify Profit Calculation Works",
+      "formula": "Net Profit = (Selling Price + Shipping Charged) - Product Cost - Shipping Cost - Payment Processing Fee - Transaction Fee",
+      "explanation": "Shopify profit calculation accounts for payment processing fees and transaction fees that vary by plan. Basic Shopify charges 2.9% + 30¢ for online credit cards plus 2% transaction fee if not using Shopify Payments. Understanding these fees is crucial for accurate profit margin analysis.",
+      "steps": [
+        "Enter your product selling price",
+        "Input product cost of goods sold (COGS)",
+        "Add shipping amount charged to customer and your actual shipping cost",
+        "Select your Shopify plan (Basic, Shopify, Advanced, or Plus)",
+        "Calculator applies appropriate payment processing rate based on plan selection",
+        "Review net profit, profit margin, and comprehensive fee breakdown"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Product Pricing Strategy",
+        "description": "Determine optimal product pricing that covers all costs and fees while remaining competitive. Calculate target prices to achieve desired profit margins across different Shopify plans."
+      },
+      {
+        "title": "Shopify Plan Comparison",
+        "description": "Evaluate whether upgrading to a higher Shopify plan (lower payment processing fees) justifies the increased monthly cost based on your sales volume and current profit margins."
+      },
+      {
+        "title": "Dropshipping Profitability Analysis",
+        "description": "Calculate true profit margins for dropshipping products by factoring in supplier costs, Shopify fees, and payment processing costs to ensure viable business model."
+      },
+      {
+        "title": "Shipping Strategy Optimization",
+        "description": "Analyze whether to offer free shipping (built into product price) or charge separately, considering how each approach affects payment processing fees and customer perception."
+      }
+    ],
+    "seoTips": [
+      "Basic Shopify: 2.9% + 30¢ online, 2.7% + 0¢ in-person | Shopify: 2.7% + 30¢ online, 2.5% + 0¢ in-person | Advanced: 2.4% + 30¢ online, 2.4% + 0¢ in-person",
+      "Transaction fees apply only if NOT using Shopify Payments: 2% (Basic), 1% (Shopify), 0.5% (Advanced), 0.15% (Plus)",
+      "Consider third-party apps costs (email marketing, inventory management, customer reviews) when calculating total profitability",
+      "Shopify Plus (enterprise plan) starts at $2,000/month but offers lowest processing fees and eliminates transaction fees",
+      "Factor in chargeback fees ($15 per dispute), abandoned cart recovery services, and international payment processing fees for complete cost analysis"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting Transaction Fees",
+        "description": "Not using Shopify Payments incurs additional transaction fees (up to 2%). This double-dipping significantly reduces margins, especially on lower-priced items."
+      },
+      {
+        "title": "Ignoring Per-Transaction Fixed Fees",
+        "description": "The 30¢ fixed fee per transaction dramatically impacts profitability on low-cost items. Selling a $10 item loses 3% just to fixed fees, on top of percentage-based fees."
+      },
+      {
+        "title": "Not Accounting for App Subscription Costs",
+        "description": "Third-party app costs ($10-$100+/month) are overlooked in profit calculations. These recurring expenses reduce per-unit margins when spread across sales volume."
+      },
+      {
+        "title": "Underestimating Total Fulfillment Costs",
+        "description": "Beyond shipping costs, packaging materials, labor for picking/packing, and handling time reduce actual profit. Include all fulfillment expenses for accurate margin analysis."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What are Shopify's payment processing fees?",
+        "answer": "Shopify Payments rates: Basic (2.9% + 30¢), Shopify (2.7% + 30¢), Advanced (2.4% + 30¢), Plus (2.15% + 30¢). Third-party payment processors incur additional transaction fees: 2% (Basic), 1% (Shopify), 0.5% (Advanced), 0.15% (Plus)."
+      },
+      {
+        "question": "Should I use Shopify Payments or PayPal?",
+        "answer": "Shopify Payments eliminates transaction fees and offers competitive rates. PayPal charges similar processing fees but triggers Shopify's transaction fee. Using Shopify Payments typically provides 1-2% better net margins."
+      },
+      {
+        "question": "When should I upgrade my Shopify plan?",
+        "answer": "Upgrade when monthly sales exceed $10,000-15,000. Higher plans have better payment processing rates that offset increased subscription costs at sufficient sales volume. Calculate your break-even point based on transaction volume."
+      },
+      {
+        "question": "What is a good profit margin for Shopify stores?",
+        "answer": "Target 30-50% gross margin (before marketing) for sustainable Shopify businesses. After Shopify fees, payment processing, and shipping, net margins typically range 15-30% depending on product category and business model."
+      },
+      {
+        "question": "How do Shopify fees compare to other e-commerce platforms?",
+        "answer": "Shopify's all-in fees (2.9% + 30¢ on Basic) are competitive with BigCommerce and Wix, lower than Etsy (6.5% + 3% + 20¢), but higher than WooCommerce (payment processor fees only, but requires hosting and maintenance)."
+      }
+    ]
   },
   "time_tracking": {
     "title": "Time Tracking Calculator",
@@ -2211,7 +4934,85 @@
       "use_case_1": "Generate client invoices for billable hours",
       "use_case_2": "Track project profitability",
       "use_case_3": "Calculate effective hourly rates"
-    }
+    },
+    "howItWorks": {
+      "title": "How Time Tracking & Invoicing Works",
+      "formula": "Total Invoice = (Hours Worked × Hourly Rate) + Reimbursable Expenses",
+      "explanation": "Time-based invoicing calculates billable labor by multiplying hours worked by your hourly rate, then adds any reimbursable expenses incurred on behalf of the client. This method is common for consultants, freelancers, contractors, and professional services.",
+      "steps": [
+        "Track all billable hours spent on client work using time tracking tools or manual logs",
+        "Set your hourly rate based on market rates, expertise level, and desired income",
+        "Record reimbursable expenses like travel, software, materials, or subcontractors",
+        "Calculator multiplies hours by rate to get labor cost",
+        "Add expense reimbursements for total invoice amount",
+        "Review effective rate (total ÷ hours) to ensure profitability after expenses"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Freelance & Consulting Invoices",
+        "description": "Generate accurate client invoices for consulting, design, development, or creative services based on billable hours and project expenses."
+      },
+      {
+        "title": "Legal & Professional Services",
+        "description": "Calculate fees for attorneys, accountants, architects, and other professionals who bill by the hour plus disbursements and filing fees."
+      },
+      {
+        "title": "Contractor & Trade Services",
+        "description": "Invoice for construction, electrical, plumbing, or maintenance work including labor hours and materials purchased for the job."
+      },
+      {
+        "title": "Project Profitability Analysis",
+        "description": "Track actual hours vs. estimated to analyze project profitability and improve future estimates. Calculate true effective hourly rate after expenses."
+      }
+    ],
+    "seoTips": [
+      "Track time daily or in real-time to ensure accuracy and avoid underbilling",
+      "Set rates 25-50% higher than salaried equivalent to account for non-billable time and benefits",
+      "Only bill expenses that are reimbursable per contract - not overhead costs",
+      "Calculate effective hourly rate regularly to ensure expenses don't erode profitability",
+      "Round time appropriately per industry norms (15-minute, 6-minute, or hourly increments)"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Not Tracking Non-Billable Time",
+        "description": "Forgetting to account for administrative tasks, sales, and learning time when setting rates. Only 60-75% of work hours are typically billable."
+      },
+      {
+        "title": "Undervaluing Hourly Rate",
+        "description": "Setting rates too low by not factoring in taxes (25-35%), benefits, equipment, software, insurance, and vacation time. Hourly rate should be 2-3× desired hourly wage."
+      },
+      {
+        "title": "Including Non-Reimbursable Expenses",
+        "description": "Trying to bill normal business overhead (office rent, your computer, subscriptions) as client expenses. Only bill costs specifically incurred for that client's work."
+      },
+      {
+        "title": "Inconsistent Time Tracking",
+        "description": "Estimating or reconstructing time sheets from memory leads to significant revenue loss. Use time tracking software or log hours immediately after each session."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What should my hourly rate be?",
+        "answer": "Start with desired annual salary, add 35% for benefits/taxes, divide by 1,000-1,500 billable hours per year. Entry-level: $50-75, mid-level: $75-150, senior: $150-300+."
+      },
+      {
+        "question": "Should I round my hours?",
+        "answer": "Depends on industry. Legal often uses 6-minute increments (0.1 hour), consulting uses 15-minute (0.25), some round to nearest hour. Be consistent and transparent."
+      },
+      {
+        "question": "What expenses are reimbursable?",
+        "answer": "Client-specific costs: travel, accommodation, materials, subcontractors, filing fees, specialized software. NOT overhead: your office, equipment, general software, or utilities."
+      },
+      {
+        "question": "How do I justify my hourly rate to clients?",
+        "answer": "Focus on value delivered, not hours worked. Highlight expertise, efficiency, results, and ROI. Provide detailed breakdowns showing work performed. Compare to market rates."
+      },
+      {
+        "question": "Should I charge for project management time?",
+        "answer": "Yes, absolutely. Meetings, emails, status updates, and coordination are billable activities. Either bill them at your hourly rate or build them into your rate structure."
+      }
+    ]
   },
   "unit_cost": {
     "title": "Unit Cost Calculator",
@@ -2249,7 +5050,85 @@
       "use_case_1": "Set minimum viable product prices",
       "use_case_2": "Analyze economies of scale",
       "use_case_3": "Compare production costs across volumes"
-    }
+    },
+    "howItWorks": {
+      "title": "How Unit Cost Calculation Works",
+      "formula": "Unit Cost = (Fixed Costs + Variable Costs) / Units Produced",
+      "explanation": "Unit cost represents the total cost to produce one item, calculated by adding all fixed costs (expenses that don't change with volume) and variable costs (expenses that scale with production), then dividing by total units produced. This reveals your cost per unit and helps determine profitable pricing.",
+      "steps": [
+        "Identify all fixed costs - rent, salaries, equipment, insurance, utilities that stay constant regardless of production volume",
+        "Calculate total variable costs - raw materials, packaging, direct labor, shipping costs that increase with each unit produced",
+        "Count total units produced or planned production volume for the period",
+        "Add fixed and variable costs together for total production costs",
+        "Divide total costs by number of units to get cost per unit",
+        "Compare unit cost to selling price to determine profit margin and pricing strategy"
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Product Pricing Strategy",
+        "description": "Determine minimum selling price needed to cover all costs and achieve target profit margins. Ensure prices remain competitive while maintaining profitability."
+      },
+      {
+        "title": "Economies of Scale Analysis",
+        "description": "Understand how unit costs decrease as production volume increases. Fixed costs spread across more units, reducing per-unit cost at higher volumes."
+      },
+      {
+        "title": "Manufacturing Cost Control",
+        "description": "Track unit costs over time to identify cost creep, measure efficiency improvements, and evaluate impact of process changes or material substitutions."
+      },
+      {
+        "title": "Make vs. Buy Decisions",
+        "description": "Compare your internal unit production cost to supplier quotes. Determine whether manufacturing in-house or outsourcing is more cost-effective."
+      }
+    ],
+    "seoTips": [
+      "Calculate unit costs at multiple production volumes to understand economies of scale",
+      "Include ALL costs - don't forget overhead, quality control, waste, and shrinkage",
+      "Update unit costs quarterly as material prices and overhead expenses change",
+      "Use unit cost to set minimum viable pricing that covers costs plus desired margin",
+      "Track actual vs. estimated unit costs to improve future production planning"
+    ],
+    "commonMistakes": [
+      {
+        "title": "Forgetting Fixed Cost Allocation",
+        "description": "Only counting variable costs and ignoring fixed overhead leads to underpricing. Fixed costs like rent, salaries, and equipment must be allocated across units produced."
+      },
+      {
+        "title": "Using Inaccurate Production Volume",
+        "description": "Dividing by planned capacity instead of realistic production volume inflates unit costs. Use actual or conservative production estimates, not theoretical maximum."
+      },
+      {
+        "title": "Ignoring Waste and Defects",
+        "description": "Not accounting for scrap, defects, and rework in variable costs. Include waste percentage and quality control costs to get true unit cost."
+      },
+      {
+        "title": "Mixing Time Periods",
+        "description": "Comparing monthly fixed costs to annual production volume creates misleading unit costs. Keep all figures in the same time period (monthly, quarterly, or annual)."
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the difference between fixed and variable costs?",
+        "answer": "Fixed costs stay constant regardless of production (rent, salaries, insurance). Variable costs change with volume (materials, packaging, direct labor). At zero production, you still pay fixed costs."
+      },
+      {
+        "question": "How does production volume affect unit cost?",
+        "answer": "Higher volume decreases unit cost because fixed costs spread across more units. This is economies of scale. Variable cost per unit stays roughly constant, but fixed cost per unit drops."
+      },
+      {
+        "question": "Should I include overhead in unit cost?",
+        "answer": "Absolutely yes. Overhead (facility costs, supervision, quality control, equipment) is real cost that must be covered. Allocate it proportionally based on production volume or labor hours."
+      },
+      {
+        "question": "What profit margin should I add to unit cost?",
+        "answer": "Depends on industry and strategy. Standard retail: 30-50%, manufacturing: 20-35%, software: 60-80%. Consider market rates, competition, and desired ROI when setting margins."
+      },
+      {
+        "question": "How often should I recalculate unit costs?",
+        "answer": "Quarterly at minimum, or whenever significant changes occur: material price changes, production volume shifts, new equipment, or process improvements. Stay current to maintain profitability."
+      }
+    ]
   },
   "commission": {
     "results": {
