@@ -2,6 +2,65 @@
   "density": {
     "title": "Density Calculator",
     "description": "Calculate density, mass, or volume given the other two variables.",
+    "keywords": "density, mass, volume, physics, chemistry",
+    "solve_for": {
+      "density": "Calculate Density",
+      "mass": "Calculate Mass",
+      "volume": "Calculate Volume"
+    },
+    "inputs": {
+      "mass": "Mass (m)",
+      "volume": "Volume (V)",
+      "density": "Density (ρ)",
+      "result_unit": "Result Unit"
+    },
+    "tooltips": {
+      "mass": "Mass of the object",
+      "volume": "Volume occupied by the object",
+      "density": "Density of the material",
+      "result_unit": "Unit for the result"
+    },
+    "placeholders": {
+      "mass": "Enter mass",
+      "volume": "Enter volume",
+      "density": "Enter density"
+    },
+    "results": {
+      "density": "Density (ρ)",
+      "mass": "Mass (m)",
+      "volume": "Volume (V)"
+    },
+    "units": {
+      "kg": "Kilogram (kg)",
+      "g": "Gram (g)",
+      "mg": "Milligram (mg)",
+      "lb": "Pound (lb)",
+      "oz": "Ounce (oz)",
+      "m3": "Cubic meter (m³)",
+      "L": "Liter (L)",
+      "mL": "Milliliter (mL)",
+      "cm3": "Cubic centimeter (cm³)",
+      "ft3": "Cubic foot (ft³)",
+      "gal": "Gallon (gal)",
+      "kg_m3": "kg/m³",
+      "g_cm3": "g/cm³",
+      "g_mL": "g/mL",
+      "kg_L": "kg/L",
+      "lb_ft3": "lb/ft³"
+    },
+    "formulas": {
+      "density": "ρ = m / V",
+      "density_desc": "Density equals mass divided by volume. It measures how much mass is packed into a given volume."
+    },
+    "errors": {
+      "enter_mass_volume": "Please enter mass and volume",
+      "enter_density_volume": "Please enter density and volume",
+      "enter_mass_density": "Please enter mass and density",
+      "mass_positive": "Mass must be greater than zero",
+      "volume_positive": "Volume must be greater than zero",
+      "density_positive": "Density must be greater than zero",
+      "calculation_error": "An error occurred during calculation"
+    },
     "howItWorks": {
       "title": "How the Density Calculator Works",
       "formula": "Density = Mass / Volume (or Mass = Density x Volume, or Volume = Mass / Density)",
@@ -54,6 +113,7 @@
   "molar-mass": {
     "title": "Molar Mass Calculator",
     "description": "Calculate the molar mass of chemical compounds based on their formula.",
+    "keywords": "molar mass, chemistry, molecules, compounds, avogadro",
     "howItWorks": {
       "title": "How the Molar Mass Calculator Works",
       "formula": "Molar Mass = Sum of (Atomic Mass x Number of Atoms) for all elements",
@@ -130,6 +190,7 @@
   "ph-calculator": {
     "title": "pH Calculator",
     "description": "Calculate pH, pOH, and hydrogen ion concentration.",
+    "keywords": "ph, poh, acidity, chemistry, acid, base, hydrogen ion",
     "howItWorks": {
       "title": "How the pH Calculator Works",
       "formula": "pH = -log10[H+]; pOH = -log10[OH-]; pH + pOH = 14 (at 25C)",
@@ -206,6 +267,7 @@
   "half-life": {
     "title": "Half-Life Calculator",
     "description": "Calculate radioactive decay, remaining amounts, and half-life periods of substances.",
+    "keywords": "half life, radioactive decay, nuclear physics, carbon dating",
     "howItWorks": {
       "title": "How the Half-Life Calculator Works",
       "formula": "N(t) = N0 x (1/2)^(t/t1/2), where N(t) is remaining amount, N0 is initial amount, t is elapsed time, t1/2 is half-life",
@@ -282,6 +344,7 @@
   "boyles-law": {
     "title": "Boyle's Law Calculator",
     "description": "Calculate the relationship between pressure and volume of a gas at constant temperature.",
+    "keywords": "boyle's law, gas law, pressure, volume, ideal gas",
     "howItWorks": {
       "title": "How the Boyle's Law Calculator Works",
       "formula": "P1 x V1 = P2 x V2 (at constant temperature)",

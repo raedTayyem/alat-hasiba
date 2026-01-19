@@ -4219,7 +4219,7 @@
     "adjusted_age": "Adjusted Age",
     "footer_note": "Footer Note",
     "tip_plan": "Tip Plan",
-    "actual_time": "ACtual Time",
+    "actual_time": "Actual Time",
     "consistency_tooltip": "Consistency Tooltip"
   },
   "water-intake-calculator": {
@@ -4364,15 +4364,15 @@
   },
   "protein": {
     "inputs": {
-      "activity_level": "ACtivity Level",
+      "activity_level": "Activity Level",
       "moderate": "Moderate",
       "light": "Light",
       "sedentary": "Sedentary",
-      "active": "ACtive",
-      "very_active": "Very ACtive"
+      "active": "Active",
+      "very_active": "Very Active"
     },
     "tooltips": {
-      "activity": "ACtivity"
+      "activity": "Activity"
     }
   },
   "calculators": {

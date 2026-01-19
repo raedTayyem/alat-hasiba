@@ -4273,17 +4273,17 @@
     "info_description": "عمر التدريب يؤثر على قدرتك على التعافي واحتياجات برنامجك.",
     "empty_state": "أدخل تاريخ بدء التدريب",
     "consistency_levels": {
-      "moderate": "Moderate",
-      "high": "Hiجرامh",
-      "low": "لترow"
+      "moderate": "متوسط",
+      "high": "عالي",
+      "low": "منخفض"
     },
-    "consistency": "السلبياتistency",
-    "tips_title": "نصائح العنوان",
-    "adjusted_age": "Adjusted Aجرامe",
-    "footer_note": "Footer لاte",
-    "tip_plan": "Tip Plan",
-    "actual_time": "التيار المتناوبtual الوقت",
-    "consistency_tooltip": "السلبياتistency Tooltip"
+    "consistency": "الانتظام",
+    "tips_title": "نصائح",
+    "adjusted_age": "العمر المعدل",
+    "footer_note": "ملاحظة",
+    "tip_plan": "خطة التدريب",
+    "actual_time": "الوقت الفعلي",
+    "consistency_tooltip": "مدى انتظامك في التدريب"
   },
   "water": {
     "title": "حاسبة استهلاك الماء",
@@ -4336,46 +4336,46 @@
     "placeholders": {
       "enterValue": "أدخل القيمة"
     },
-    "needs_improvement": "Needs Iمproveمent",
+    "needs_improvement": "يحتاج تحسين",
     "errors": {
-      "invalid": "Invalid",
-      "calculationError": "الحساب خطأ",
-      "positiveNumber": "Positive Number"
+      "invalid": "غير صالح",
+      "calculationError": "خطأ في الحساب",
+      "positiveNumber": "رقم موجب"
     },
-    "results": "النتيجةs"
+    "results": "النتائج"
   },
   "common:common": {
     "units": {
-      "kg": "Kجرام",
+      "kg": "كجم",
       "percent": "نسبة مئوية",
-      "W": "W",
-      "g": "G",
-      "s": "S",
-      "m": "M",
-      "months": "الشهرs",
-      "years": "السنةs",
-      "cm": "Cم"
+      "W": "واط",
+      "g": "جرام",
+      "s": "ثانية",
+      "m": "متر",
+      "months": "أشهر",
+      "years": "سنوات",
+      "cm": "سم"
     },
-    "days": "اليومs"
+    "days": "أيام"
   },
   "0": "0",
   "water_footprint": {
-    "enter_minutes": "أدخل الدقيقةs"
+    "enter_minutes": "أدخل الدقائق"
   },
   "protein": {
     "inputs": {
-      "activity_level": "التيار المتناوبtivity المستوى",
-      "moderate": "Moderate",
-      "light": "لترiجرامht",
-      "sedentary": "Sedentary",
-      "active": "التيار المتناوبtive",
-      "very_active": "Very التيار المتناوبtive"
+      "activity_level": "مستوى النشاط",
+      "moderate": "متوسط",
+      "light": "خفيف",
+      "sedentary": "خامل",
+      "active": "نشط",
+      "very_active": "نشط جداً"
     },
     "tooltips": {
-      "activity": "التيار المتناوبtivity"
+      "activity": "مستوى نشاطك البدني"
     }
   },
   "calculators": {
-    "invalid_input": "Invalid إدخال"
+    "invalid_input": "إدخال غير صالح"
   }
 }

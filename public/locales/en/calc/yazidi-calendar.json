@@ -1,24 +1,24 @@
 {
   "yazidi-new-year": {
-    "input_title": "Input Title",
-    "enter_year": "Enter Year",
+    "input_title": "Enter Year",
+    "enter_year": "Enter year",
     "gregorian_year": "Gregorian Year",
-    "tooltip_year": "Tooltip Year",
+    "tooltip_year": "Enter the Gregorian year to calculate Yazidi New Year (Sere Sal)",
     "yazidi_year": "Yazidi Year",
     "passed": "Passed",
     "sere_sal_date": "Sere Sal Date",
-    "info_title": "Info Title",
-    "error_year_range": "Error Year Range",
-    "description": "Description",
-    "info_traditions": "Info Traditions",
-    "error_invalid_input": "Error Invalid Input",
-    "footer_note": "Footer Note",
-    "title": "Title",
-    "calculate_btn": "Calculate Btn",
+    "info_title": "About Yazidi New Year",
+    "error_year_range": "Year must be between 1900 and 2100",
+    "description": "Calculate the date of Yazidi New Year (Sere Sal / Red Wednesday) for any year. Sere Sal falls on the first Wednesday after April 13 according to the Julian calendar.",
+    "info_traditions": "Sere Sal is celebrated with traditional foods like colored eggs, visits to holy sites, and community gatherings",
+    "error_invalid_input": "Please enter a valid year",
+    "footer_note": "The Yazidi calendar epoch is approximately 4750 BCE. Sere Sal date is calculated based on the Julian calendar.",
+    "title": "Yazidi New Year Calculator",
+    "calculate_btn": "Calculate",
     "days_until": "Days Until",
     "upcoming_dates": "Upcoming Dates",
-    "info_date_calc": "Info Date Calc",
-    "info_meaning": "Info Meaning",
-    "empty_state": "Empty State"
+    "info_date_calc": "Sere Sal (Red Wednesday) is calculated as the first Wednesday on or after April 26 in the Gregorian calendar (Julian April 13)",
+    "info_meaning": "Sere Sal marks the beginning of spring and the Yazidi New Year, symbolizing renewal and the victory of light over darkness",
+    "empty_state": "Enter a year to calculate the Yazidi New Year date"
   }
 }

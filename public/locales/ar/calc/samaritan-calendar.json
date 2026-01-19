@@ -1,47 +1,47 @@
 {
   "samaritan-festivals": {
     "festivals": {
-      "sukkot": "Sukkot",
-      "passover": "Passover",
-      "shemini_atzeret": "Sheمبوصةi Atzeret",
-      "yom_kippur": "Yoم Kippur",
-      "rosh_hashanah": "Rosh Hashanah",
-      "shavuot": "Shavuot",
-      "unleavened_bread": "Unleavened Bread"
+      "sukkot": "عيد المظال (سوكوت)",
+      "passover": "الفصح",
+      "shemini_atzeret": "شميني عصيرت",
+      "yom_kippur": "يوم الغفران (يوم كيبور)",
+      "rosh_hashanah": "رأس السنة (روش هشانا)",
+      "shavuot": "عيد الأسابيع (شفوعوت)",
+      "unleavened_bread": "عيد الفطير"
     },
-    "input_title": "إدخال العنوان",
-    "error_year_range": "خطأ السنة النطاق",
+    "input_title": "أدخل السنة",
+    "error_year_range": "يجب أن تكون السنة بين 1900 و 2100",
     "desc": {
-      "yom_kippur": "Yoم Kippur",
-      "unleavened_bread": "Unleavened Bread",
-      "shemini_atzeret": "Sheمبوصةi Atzeret",
-      "shavuot": "Shavuot",
-      "passover": "Passover",
-      "rosh_hashanah": "Rosh Hashanah",
-      "sukkot": "Sukkot"
+      "yom_kippur": "أقدس يوم في التقويم السامري، يوم للصوم والتكفير يحتفل به في العاشر من تشري",
+      "unleavened_bread": "مهرجان لمدة سبعة أيام يتبع الفصح، يحتفل بالخروج من مصر مع خبز الفطير",
+      "shemini_atzeret": "يوم الاجتماع الثامن الذي يتبع سوكوت، يوم عيد رسمي",
+      "shavuot": "يحتفل بحصاد القمح ويحيي ذكرى إعطاء التوراة على جبل جرزيم، يحتفل به بعد 50 يوماً من الفصح",
+      "passover": "يحيي ذكرى الخروج من مصر، يحتفل به مع ذبيحة الفصح على جبل جرزيم",
+      "rosh_hashanah": "رأس السنة السامرية، يبدأ في الأول من نيسان في الربيع",
+      "sukkot": "مهرجان لمدة سبعة أيام من المظال، يحتفل بالحصاد ويذكر رحلة البرية"
     },
-    "footer_note": "Footer لاte",
+    "footer_note": "تواريخ التقويم السامري هي تحويلات تقريبية إلى التقويم الميلادي. التقويم السامري يتبع نظاماً قمرياً شمسياً.",
     "enter_year": "أدخل السنة",
-    "regular_year": "Reجرامular السنة",
-    "calculate_btn": "احسب Btn",
-    "info_title": "معلومات العنوان",
-    "title": "العنوان",
-    "gregorian_year": "Greجرامorian السنة",
-    "empty_state": "Eمpty الولاية",
-    "festivals_for_year": "Festivals For السنة",
-    "leap_year": "لترeap السنة",
-    "description": "الوصف",
-    "tooltip_year": "Tooltip السنة",
-    "error_invalid_input": "خطأ Invalid إدخال",
-    "info_pilgrimage": "معلومات Pilجرامriمaجرامe",
-    "info_passover_sacrifice": "معلومات Passover Sacrifice",
-    "info_gerizim": "معلومات Geriziم"
+    "regular_year": "سنة عادية",
+    "calculate_btn": "احسب",
+    "info_title": "عن الأعياد السامرية",
+    "title": "حاسبة الأعياد السامرية",
+    "gregorian_year": "السنة الميلادية",
+    "empty_state": "أدخل سنة لعرض الأعياد السامرية لتلك السنة",
+    "festivals_for_year": "الأعياد السامرية للسنة",
+    "leap_year": "سنة كبيسة",
+    "description": "احسب تواريخ الأعياد الدينية السامرية الرئيسية بناءً على التقويم السامري، بما في ذلك أعياد الحج الثلاثة.",
+    "tooltip_year": "أدخل السنة الميلادية لحساب تواريخ الأعياد السامرية",
+    "error_invalid_input": "الرجاء إدخال سنة صحيحة",
+    "info_pilgrimage": "أعياد الحج الثلاثة (الفصح وشفوعوت وسوكوت) يحتفل بها بالحج إلى جبل جرزيم",
+    "info_passover_sacrifice": "تقام ذبيحة الفصح سنوياً على جبل جرزيم، استمراراً لتقليد قديم",
+    "info_gerizim": "جبل جرزيم بالقرب من نابلس هو أقدس موقع في السامرية، حيث تحتفل الأعياد الكبرى"
   },
   "samaritan-calendar": {
     "months": {
-      "1": "1",
-      "7": "7",
-      "3": "3"
+      "1": "نيسان",
+      "7": "تشري",
+      "3": "سيوان"
     }
   }
 }

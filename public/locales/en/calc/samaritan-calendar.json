@@ -1,47 +1,47 @@
 {
   "samaritan-festivals": {
     "festivals": {
-      "sukkot": "Sukkot",
+      "sukkot": "Sukkot (Feast of Tabernacles)",
       "passover": "Passover",
       "shemini_atzeret": "Shemini Atzeret",
-      "yom_kippur": "Yom Kippur",
-      "rosh_hashanah": "Rosh Hashanah",
-      "shavuot": "Shavuot",
-      "unleavened_bread": "Unleavened Bread"
+      "yom_kippur": "Yom Kippur (Day of Atonement)",
+      "rosh_hashanah": "Rosh Hashanah (New Year)",
+      "shavuot": "Shavuot (Feast of Weeks)",
+      "unleavened_bread": "Feast of Unleavened Bread"
     },
-    "input_title": "Input Title",
-    "error_year_range": "Error Year Range",
+    "input_title": "Enter Year",
+    "error_year_range": "Year must be between 1900 and 2100",
     "desc": {
-      "yom_kippur": "Yom Kippur",
-      "unleavened_bread": "Unleavened Bread",
-      "shemini_atzeret": "Shemini Atzeret",
-      "shavuot": "Shavuot",
-      "passover": "Passover",
-      "rosh_hashanah": "Rosh Hashanah",
-      "sukkot": "Sukkot"
+      "yom_kippur": "The holiest day in the Samaritan calendar, a day of fasting and atonement observed on the 10th of Tishrei",
+      "unleavened_bread": "Seven-day festival following Passover, celebrating the Exodus from Egypt with unleavened bread",
+      "shemini_atzeret": "The eighth day assembly following Sukkot, a solemn festival day",
+      "shavuot": "Celebrates the wheat harvest and commemorates the giving of the Torah at Mount Gerizim, observed 50 days after Passover",
+      "passover": "Commemorates the Exodus from Egypt, celebrated with the Passover sacrifice on Mount Gerizim",
+      "rosh_hashanah": "The Samaritan New Year, beginning on the first of Nisan in spring",
+      "sukkot": "Seven-day festival of booths or tabernacles, celebrating the harvest and remembering the wilderness journey"
     },
-    "footer_note": "Footer Note",
-    "enter_year": "Enter Year",
+    "footer_note": "Samaritan calendar dates are approximate conversions to the Gregorian calendar. The Samaritan calendar follows a lunisolar system.",
+    "enter_year": "Enter year",
     "regular_year": "Regular Year",
-    "calculate_btn": "Calculate Btn",
-    "info_title": "Info Title",
-    "title": "Title",
+    "calculate_btn": "Calculate",
+    "info_title": "About Samaritan Festivals",
+    "title": "Samaritan Festivals Calculator",
     "gregorian_year": "Gregorian Year",
-    "empty_state": "Empty State",
-    "festivals_for_year": "Festivals For Year",
+    "empty_state": "Enter a year to view Samaritan festivals for that year",
+    "festivals_for_year": "Samaritan Festivals for Year",
     "leap_year": "Leap Year",
-    "description": "Description",
-    "tooltip_year": "Tooltip Year",
-    "error_invalid_input": "Error Invalid Input",
-    "info_pilgrimage": "Info Pilgrimage",
-    "info_passover_sacrifice": "Info Passover Sacrifice",
-    "info_gerizim": "Info Gerizim"
+    "description": "Calculate dates for major Samaritan religious festivals based on the Samaritan calendar, including the three pilgrimage festivals.",
+    "tooltip_year": "Enter the Gregorian year to calculate Samaritan festival dates",
+    "error_invalid_input": "Please enter a valid year",
+    "info_pilgrimage": "The three pilgrimage festivals (Passover, Shavuot, and Sukkot) are celebrated with pilgrimages to Mount Gerizim",
+    "info_passover_sacrifice": "The Passover sacrifice is performed annually on Mount Gerizim, continuing an ancient tradition",
+    "info_gerizim": "Mount Gerizim near Nablus is the holiest site in Samaritanism, where major festivals are celebrated"
   },
   "samaritan-calendar": {
     "months": {
-      "1": "1",
-      "7": "7",
-      "3": "3"
+      "1": "Nisan",
+      "7": "Tishrei",
+      "3": "Sivan"
     }
   }
 }
