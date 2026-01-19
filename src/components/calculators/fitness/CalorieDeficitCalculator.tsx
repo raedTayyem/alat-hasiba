@@ -135,14 +135,14 @@ export default function CalorieDeficitCalculator() {
           <div className="text-sm text-foreground-70 mb-1">
             {t("calorie_deficit.weight_to_lose")}
           </div>
-          <div className="text-3xl font-bold text-primary">{result.weightToLose} kg</div>
+          <div className="text-3xl font-bold text-primary">{result.weightToLose} {t('common:units.kg')}</div>
         </div>
 
         <div className="bg-blue-50 dark:bg-blue-950/20 border border-blue-100 dark:border-blue-900/20 p-4 rounded-lg">
           <div className="text-sm text-foreground-70 mb-1">
             {t("calorie_deficit.weekly_loss")}
           </div>
-          <div className="text-xl font-bold text-blue-600">{result.weeklyWeightLoss} kg</div>
+          <div className="text-xl font-bold text-blue-600">{result.weeklyWeightLoss} {t('common:units.kg')}</div>
         </div>
 
         <div className="bg-green-50 dark:bg-green-950/20 border border-green-100 dark:border-green-900/20 p-4 rounded-lg">

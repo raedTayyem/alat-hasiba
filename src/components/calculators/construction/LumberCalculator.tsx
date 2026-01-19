@@ -430,10 +430,10 @@ export default function LumberCalculator() {
               <div className="font-medium">{t("lumber.estimated_weight")}</div>
             </div>
             <div className="text-2xl font-bold text-primary">
-              {result.estimatedWeight.toFixed(1)} lbs
+              {result.estimatedWeight.toFixed(1)} {t('common:units.lbs')}
             </div>
             <div className="text-xs text-foreground-70">
-              ({(result.estimatedWeight * 0.453592).toFixed(1)} kg) - {t("lumber.softwood_estimate")}
+              ({(result.estimatedWeight * 0.453592).toFixed(1)} {t('common:units.kg')}) - {t("lumber.softwood_estimate")}
             </div>
           </div>
         </div>

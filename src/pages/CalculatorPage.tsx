@@ -311,7 +311,7 @@ const CalculatorPage = () => {
         <meta property="og:image" content="https://alathasiba.com/og-image.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content={`${calculatorData.title} - ${t('seo.siteName')}`} />
+        <meta property="og:image:alt" content={t('pages.calculator.ogImageAlt', { calculator: calculatorData.title })} />
         <meta property="og:locale" content={ogLocale} />
 
         {/* Twitter Card tags */}
@@ -441,7 +441,7 @@ const CalculatorPage = () => {
               <div className="bg-emerald-500/10 p-2.5 rounded-xl">
                 <Target className="w-6 h-6 text-emerald-600 dark:text-emerald-400" />
               </div>
-              <h2 className="text-xl md:text-2xl font-bold">{t('calculator.useCases', 'Use Cases')}</h2>
+              <h2 className="text-xl md:text-2xl font-bold">{t('calculator.useCases')}</h2>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
@@ -466,7 +466,7 @@ const CalculatorPage = () => {
               <div className="bg-amber-500/10 p-2.5 rounded-xl">
                 <Lightbulb className="w-6 h-6 text-amber-600 dark:text-amber-400" />
               </div>
-              <h2 className="text-xl md:text-2xl font-bold">{t('calculator.tips', 'Tips & Best Practices')}</h2>
+              <h2 className="text-xl md:text-2xl font-bold">{t('calculator.tips')}</h2>
             </div>
 
             <ul className="space-y-3">
@@ -489,7 +489,7 @@ const CalculatorPage = () => {
               <div className="bg-red-500/10 p-2.5 rounded-xl">
                 <AlertTriangle className="w-6 h-6 text-red-600 dark:text-red-400" />
               </div>
-              <h2 className="text-xl md:text-2xl font-bold">{t('calculator.commonMistakes', 'Common Mistakes to Avoid')}</h2>
+              <h2 className="text-xl md:text-2xl font-bold">{t('calculator.commonMistakes')}</h2>
             </div>
 
             <ul className="space-y-3">
@@ -514,10 +514,10 @@ const CalculatorPage = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M8.228 9c.549-1.165 2.03-2 3.772-2 2.21 0 4 1.343 4 3 0 1.4-1.278 2.575-3.006 2.907-.542.104-.994.54-.994 1.093m0 3h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
               </div>
-              <h2 className="text-xl md:text-2xl font-bold">{t('calculator.faq', 'Frequently Asked Questions')}</h2>
+              <h2 className="text-xl md:text-2xl font-bold">{t('calculator.faq')}</h2>
             </div>
 
-            <div className="space-y-3" role="region" aria-label={t('calculator.faq', 'Frequently Asked Questions')}>
+            <div className="space-y-3" role="region" aria-label={t('calculator.faq')}>
               {faqs.map((faq, index) => {
                 const isExpanded = openFaqIndex === index;
                 const panelId = `faq-panel-${index}`;

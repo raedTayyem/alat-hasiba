@@ -28,7 +28,7 @@ export default function EmbedWidget({
   style="border: 1px solid #e5e7eb; border-radius: 12px;"
 ></iframe>
 <p style="text-align: center; margin-top: 8px; font-size: 12px; color: #6b7280;">
-  ${t('embed.poweredBy', 'Powered by')} <a href="https://alathasiba.com" target="_blank" rel="noopener" style="color: #2563eb; text-decoration: none;">alathasiba.com</a>
+  ${t('embed.poweredBy')} <a href="https://alathasiba.com" target="_blank" rel="noopener" style="color: #2563eb; text-decoration: none;">alathasiba.com</a>
 </p>`;
 
   const handleCopy = async () => {

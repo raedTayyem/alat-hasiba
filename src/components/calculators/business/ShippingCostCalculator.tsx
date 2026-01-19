@@ -276,7 +276,7 @@ export default function ShippingCostCalculator() {
           {t("common:units.currencySymbol")}{formatNumber(result.shippingCost)}
         </div>
         <div className="text-lg text-foreground-70">
-          {t("shipping_cost.results.billable_weight")}: {formatNumber(result.billableWeight)} kg
+          {t("shipping_cost.results.billable_weight")}: {formatNumber(result.billableWeight)} {t('common:units.kg')}
         </div>
       </div>
 

@@ -289,7 +289,7 @@ export default function CarbonFootprintCalculator() {
               <Zap className="w-5 h-5 text-primary ml-2" />
               <div className="font-medium">{t("carbon_footprint.electricity_emissions")}</div>
             </div>
-            <div className="text-sm text-foreground-70">{(result.electricityCO2).toFixed(2)} kg CO₂</div>
+            <div className="text-sm text-foreground-70">{(result.electricityCO2).toFixed(2)} {t('common:units.kgCO2')}</div>
           </div>
 
           <div className="bg-card p-4 rounded-lg border border-border">
@@ -297,7 +297,7 @@ export default function CarbonFootprintCalculator() {
               <Flame className="w-5 h-5 text-primary ml-2" />
               <div className="font-medium">{t("carbon_footprint.gas_emissions")}</div>
             </div>
-            <div className="text-sm text-foreground-70">{(result.gasCO2).toFixed(2)} kg CO₂</div>
+            <div className="text-sm text-foreground-70">{(result.gasCO2).toFixed(2)} {t('common:units.kgCO2')}</div>
           </div>
 
           <div className="bg-card p-4 rounded-lg border border-border">
@@ -305,7 +305,7 @@ export default function CarbonFootprintCalculator() {
               <Car className="w-5 h-5 text-primary ml-2" />
               <div className="font-medium">{t("carbon_footprint.transport_emissions")}</div>
             </div>
-            <div className="text-sm text-foreground-70">{(result.transportCO2).toFixed(2)} kg CO₂</div>
+            <div className="text-sm text-foreground-70">{(result.transportCO2).toFixed(2)} {t('common:units.kgCO2')}</div>
           </div>
 
           <div className="bg-card p-4 rounded-lg border border-border">
@@ -313,7 +313,7 @@ export default function CarbonFootprintCalculator() {
               <Plane className="w-5 h-5 text-primary ml-2" />
               <div className="font-medium">{t("carbon_footprint.flights_emissions")}</div>
             </div>
-            <div className="text-sm text-foreground-70">{(result.flightsCO2).toFixed(2)} kg CO₂</div>
+            <div className="text-sm text-foreground-70">{(result.flightsCO2).toFixed(2)} {t('common:units.kgCO2')}</div>
           </div>
 
           <div className="bg-card p-4 rounded-lg border border-border">
@@ -321,7 +321,7 @@ export default function CarbonFootprintCalculator() {
               <Utensils className="w-5 h-5 text-primary ml-2" />
               <div className="font-medium">{t("carbon_footprint.diet_emissions")}</div>
             </div>
-            <div className="text-sm text-foreground-70">{(result.dietCO2).toFixed(2)} kg CO₂</div>
+            <div className="text-sm text-foreground-70">{(result.dietCO2).toFixed(2)} {t('common:units.kgCO2')}</div>
           </div>
 
           <div className="bg-card p-4 rounded-lg border border-border">

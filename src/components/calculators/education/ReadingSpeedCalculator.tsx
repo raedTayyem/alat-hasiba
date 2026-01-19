@@ -213,7 +213,7 @@ export default function ReadingSpeedCalculator() {
               </div>
               <div className="flex justify-between items-center">
                 <span className="text-xs text-muted-foreground">{t('reading_speed.long_book')} (50k words)</span>
-                <span className="text-sm font-bold">{(50000 / (wpm || 1) / 60).toFixed(1)} hours</span>
+                <span className="text-sm font-bold">{(50000 / (wpm || 1) / 60).toFixed(1)} {t('common:hours')}</span>
               </div>
             </div>
           </div>

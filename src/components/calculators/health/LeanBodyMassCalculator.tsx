@@ -149,7 +149,7 @@ export default function LeanBodyMassCalculator() {
               </svg>
               <div className="font-medium">{t("lbm.results.lean_mass")}</div>
             </div>
-            <div className="text-2xl font-bold text-primary">{result.lbm.toFixed(1)} kg</div>
+            <div className="text-2xl font-bold text-primary">{result.lbm.toFixed(1)} {t('common:units.kg')}</div>
             <div className="text-sm text-foreground-70">{result.lbmPercentage.toFixed(1)}% {t("lbm.results.of_body_weight")}</div>
           </div>
 
@@ -160,7 +160,7 @@ export default function LeanBodyMassCalculator() {
               </svg>
               <div className="font-medium">{t("body_fat.results.fat_mass")}</div>
             </div>
-            <div className="text-2xl font-bold text-warning">{result.fatMass.toFixed(1)} kg</div>
+            <div className="text-2xl font-bold text-warning">{result.fatMass.toFixed(1)} {t('common:units.kg')}</div>
             <div className="text-sm text-foreground-70">{result.fatPercentage.toFixed(1)}% {t("lbm.results.of_body_weight")}</div>
           </div>
         </div>

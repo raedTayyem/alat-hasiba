@@ -92,7 +92,7 @@ export default function TreePlantingImpactCalculator() {
         const co2PerYear = co2Rates[treeType] || 21;
         const totalCO2Offset = trees * co2PerYear * age;
 
-        // A mature tree produces ~120 kg of oxygen per year
+        // A mature tree produces ~120 {t('common:units.kg')} of oxygen per year
         const oxygenProduced = trees * 120 * age;
 
         // Trees filter ~40000 liters of water per year
@@ -245,7 +245,7 @@ export default function TreePlantingImpactCalculator() {
               </svg>
               <div className="font-medium">{t("calculators.environmental.tree_planting.oxygen_produced")}</div>
             </div>
-            <div className="text-sm text-foreground-70">{(result.oxygenProduced).toFixed(2)} kg</div>
+            <div className="text-sm text-foreground-70">{(result.oxygenProduced).toFixed(2)} {t('common:units.kg')}</div>
           </div>
 
           <div className="bg-card p-4 rounded-lg border border-border">
@@ -275,7 +275,7 @@ export default function TreePlantingImpactCalculator() {
               </svg>
               <div className="font-medium">{t("calculators.environmental.tree_planting.lifetime_co2")}</div>
             </div>
-            <div className="text-sm text-foreground-70">{(result.lifetimeCO2).toFixed(2)} kg CO₂</div>
+            <div className="text-sm text-foreground-70">{(result.lifetimeCO2).toFixed(2)} {t('common:units.kgCO2')}</div>
           </div>
 
           <div className="bg-card p-4 rounded-lg border border-border">

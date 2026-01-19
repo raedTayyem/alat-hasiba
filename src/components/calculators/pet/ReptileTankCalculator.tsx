@@ -185,12 +185,12 @@ export default function ReptileTankCalculator() {
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="bg-orange-50 dark:bg-orange-950/20 border border-orange-100 p-4 rounded-lg">
             <div className="text-sm text-foreground-70 mb-1">{t("reptile-tank-calculator.temperature_title")}</div>
-            <div className="text-2xl font-bold text-orange-600">{result.baskingTemp}°C</div>
+            <div className="text-2xl font-bold text-orange-600">{result.baskingTemp}{t('common:units.celsius')}</div>
           </div>
 
           <div className="bg-blue-50 dark:bg-blue-950/20 border border-blue-100 p-4 rounded-lg">
             <div className="text-sm text-foreground-70 mb-1">{t("reptile-tank-calculator.lighting_title")}</div>
-            <div className="text-2xl font-bold text-blue-600">{result.coolTemp}°C</div>
+            <div className="text-2xl font-bold text-blue-600">{result.coolTemp}{t('common:units.celsius')}</div>
           </div>
         </div>
 

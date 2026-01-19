@@ -33,7 +33,7 @@ const CategoriesPage = () => {
         <meta property="og:image" content="https://alathasiba.com/og-image.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content={t('pages.categories.title') + ' - Alathasiba'} />
+        <meta property="og:image:alt" content={t('pages.categories.ogImageAlt')} />
         <meta property="og:locale" content={i18n.language === 'ar' ? 'ar_SA' : 'en_US'} />
 
         {/* Twitter Card tags */}
@@ -47,8 +47,8 @@ const CategoriesPage = () => {
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "CollectionPage",
-            "name": t('pages.categories.title', 'Calculator Categories'),
-            "description": t('pages.categories.description', 'Browse all calculator categories available on our website'),
+            "name": t('pages.categories.title'),
+            "description": t('pages.categories.description'),
             "url": "https://alathasiba.com/categories",
             "numberOfItems": categories.length,
             "hasPart": categories.map(cat => ({
@@ -66,13 +66,13 @@ const CategoriesPage = () => {
           <div className="relative z-10 max-w-3xl">
             <div className="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary text-xs font-bold mb-6 tracking-wide uppercase">
               <Layers className="w-4 h-4" />
-              {t('categories.allCategories', 'All Categories')}
+              {t('categories.allCategories')}
             </div>
             <h1 className="text-4xl md:text-5xl font-extrabold tracking-tight mb-6">
               {t('categories.title')}
             </h1>
             <p className="text-xl text-muted-foreground leading-relaxed">
-              {t('pages.categories.subtitle', 'Browse calculators by category. Choose the category that fits your needs.')}
+              {t('pages.categories.subtitle')}
             </p>
           </div>
           {/* Decorative element */}
@@ -114,7 +114,7 @@ const CategoriesPage = () => {
                 <div className="mt-auto space-y-4">
                   <div className="pt-4 border-t border-border">
                     <span className="text-[10px] uppercase tracking-wider font-bold text-muted-foreground/60 mb-3 block">
-                      {t('pages.categories.someCalculators', 'Featured Tools')}
+                      {t('pages.categories.someCalculators')}
                     </span>
                     <div className="space-y-2">
                       {categoryCalculators.slice(0, 3).map(calc => (
@@ -129,7 +129,7 @@ const CategoriesPage = () => {
                   </div>
                   
                   <div className="flex items-center text-primary font-bold text-sm pt-2">
-                    <span className="mr-1">{t('pages.category.browseAllCategories', 'Explore category')}</span>
+                    <span className="mr-1">{t('pages.category.browseAllCategories')}</span>
                     <ChevronRight className={`w-4 h-4 ${i18n.dir() === 'rtl' ? 'rotate-180' : ''}`} />
                   </div>
                 </div>

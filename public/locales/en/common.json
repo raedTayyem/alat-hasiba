@@ -95,7 +95,10 @@
       "ar": "Arabic",
       "en": "English",
       "arLabel": "العربية",
+      "arShort": "ع",
       "enLabel": "English"
+,
+      "enShort": "EN"
     },
     "units": {
       "cm": "cm",
@@ -107,6 +110,8 @@
       "in": "in",
       "oz": "oz",
       "lb": "lb",
+      "lbs": "lbs",
+      "pounds": "pounds",
       "uF": "µF",
       "Hz": "Hz",
       "kHz": "kHz",
@@ -140,6 +145,8 @@
       "L": "L",
       "mL": "mL",
       "gal": "gal",
+      "gallons": "gallons",
+      "liters": "liters",
       "meters": "m",
       "square_meters": "m²",
       "cubic_meters": "m³",
@@ -149,6 +156,7 @@
       "mAh": "mAh",
       "LED": "LED",
       "celsius": "°C",
+      "fahrenheit": "°F",
       "mH": "mH",
       "times": "×",
       "PSI": "PSI",
@@ -169,7 +177,12 @@
       "m2": "m²",
       "s": "s",
       "h": "h",
-      "min": "min"
+      "min": "min",
+      "kgCO2": "kg CO₂",
+      "kgPerM3": "kg/m³",
+      "kgPerM": "kg/m",
+      "weeks": "weeks",
+      "months": "months"
     },
     "calendar": {
       "days": {
@@ -251,7 +264,14 @@
     "selectOption": "Select an option",
     "search": "Search...",
     "coordinateX": "X",
-    "coordinateY": "Y"
+    "coordinateY": "Y",
+    "xCoordinate": "X",
+    "yCoordinate": "Y"
+  },
+  "variables": {
+    "x": "x",
+    "y": "y",
+    "t": "t"
   },
   "calculators": {
     "invalid_input": "Invalid input. Please check your values.",
@@ -508,7 +528,10 @@
     "ar": "Arabic",
     "en": "English",
     "arLabel": "العربية",
+      "arShort": "ع",
     "enLabel": "English"
+,
+      "enShort": "EN"
   },
   "units": {
     "cm": "cm",
@@ -520,6 +543,8 @@
     "in": "in",
     "oz": "oz",
     "lb": "lb",
+    "lbs": "lbs",
+    "pounds": "pounds",
     "uF": "µF",
     "Hz": "Hz",
     "kHz": "kHz",
@@ -552,6 +577,8 @@
     "L": "L",
     "mL": "mL",
     "gal": "gal",
+    "gallons": "gallons",
+    "liters": "liters",
     "currencySymbol": "$",
     "calories": "cal",
     "kcal": "kcal",
@@ -586,6 +613,11 @@
     "sqft": "sq ft",
     "fahrenheit": "°F",
     "mixed": "mixed",
+    "kgCO2": "kg CO₂",
+    "kgPerM3": "kg/m³",
+    "kgPerM": "kg/m",
+    "weeks": "weeks",
+    "months": "months",
     "tablespoon": "tbsp",
     "metric": "metric"
   },

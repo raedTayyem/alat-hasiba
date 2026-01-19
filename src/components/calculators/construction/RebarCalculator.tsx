@@ -291,7 +291,7 @@ export default function RebarCalculator() {
           <Combobox
             options={Object.entries(REBAR_SIZES).map(([key, data]) => ({
               value: key,
-              label: `${data.name} - ${data.weightPerMeter} kg/m`
+              label: `${data.name} - ${data.weightPerMeter} ${t('common:units.kgPerM')}`
             }))}
             value={barSize}
             onChange={setBarSize}

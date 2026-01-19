@@ -162,7 +162,7 @@ export default function WeightGainCalculator() {
 
           <div className="bg-card p-4 rounded-lg border border-border">
             <div className="font-medium mb-2">{t("weight_gain.results.weekly_weight_gain")}</div>
-            <div className="text-2xl font-bold text-info">{((parseFloat(dailySurplus) * 7) / 7700).toFixed(2)} kg</div>
+            <div className="text-2xl font-bold text-info">{((parseFloat(dailySurplus) * 7) / 7700).toFixed(2)} {t('common:units.kg')}</div>
           </div>
 
           <div className="bg-card p-4 rounded-lg border border-border">

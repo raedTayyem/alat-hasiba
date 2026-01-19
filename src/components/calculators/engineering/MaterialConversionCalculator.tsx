@@ -334,7 +334,7 @@ export default function MaterialConversionCalculator() {
             <Combobox
               options={Object.entries(MATERIALS).map(([key, mat]) => ({
                 value: key,
-                label: `${t(`material-conversion.materials.${mat.name}`)} (${mat.density} kg/m³)`
+                label: `${t(`material-conversion.materials.${mat.name}`)} (${mat.density} ${t('common:units.kgPerM3')})`
               }))}
               value={material}
               onChange={setMaterial}
@@ -446,7 +446,7 @@ export default function MaterialConversionCalculator() {
                   <Scale className="w-5 h-5 text-primary ml-2" />
                   <div className="font-medium">{t("material-conversion.density")}</div>
                 </div>
-                <div className="text-xl font-bold">{result.materialDensity} kg/m³</div>
+                <div className="text-xl font-bold">{result.materialDensity} {t('common:units.kgPerM3')}</div>
               </div>
             </>
           )}

@@ -25,7 +25,7 @@ export default function CalculusCalculator() {
     // Reset previous results
     setResult(null);
     setSteps([]);
-    setError(null);
+    setError('');
 
     if (!input.trim()) {
       setError(t("calculus.errors.empty_input"));
@@ -137,7 +137,7 @@ export default function CalculusCalculator() {
     setVariable('x');
     setResult(null);
     setSteps([]);
-    setError(null);
+    setError('');
   };
 
   const handleKeyPress = (e: React.KeyboardEvent) => {
@@ -152,9 +152,9 @@ export default function CalculusCalculator() {
   ];
 
   const variableOptions = [
-    { value: 'x', label: 'x' },
-    { value: 'y', label: 'y' },
-    { value: 't', label: 't' },
+    { value: 'x', label: t('common:variables.x') },
+    { value: 'y', label: t('common:variables.y') },
+    { value: 't', label: t('common:variables.t') },
   ];
 
   const inputSection = (
@@ -198,7 +198,7 @@ export default function CalculusCalculator() {
                 options={variableOptions}
                 value={variable}
                 onChange={(val) => setVariable(val)}
-                placeholder="x"
+                placeholder={t('common:variables.x')}
               />
             </div>
           </div>

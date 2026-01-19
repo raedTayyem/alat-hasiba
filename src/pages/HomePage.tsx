@@ -58,7 +58,7 @@ const HomePage = () => {
         <meta property="og:image" content="https://alathasiba.com/og-image.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content={t('seo.siteName') + ' - ' + t('seo.defaultDescription')} />
+        <meta property="og:image:alt" content={t('pages.home.ogImageAlt')} />
         <meta property="og:locale" content={i18n.language === 'ar' ? 'ar_SA' : 'en_US'} />
 
         {/* Twitter Card tags */}
@@ -165,7 +165,7 @@ const HomePage = () => {
                   </p>
                   
                   <div className="flex items-center text-primary font-bold text-sm">
-                    <span>{t('pages.category.browseAllCategories', 'Explore tools')}</span>
+                    <span>{t('pages.category.browseAllCategories')}</span>
                     <ChevronRight className={`w-4 h-4 ${i18n.dir() === 'rtl' ? 'rotate-180' : ''}`} />
                   </div>
                 </div>

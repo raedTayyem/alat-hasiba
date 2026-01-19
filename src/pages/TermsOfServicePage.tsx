@@ -21,7 +21,7 @@ const TermsOfServicePage = () => {
         <meta property="og:image" content="https://alathasiba.com/og-image.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content="Terms of Service - Alathasiba" />
+        <meta property="og:image:alt" content={t('terms.ogImageAlt')} />
 
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary" />

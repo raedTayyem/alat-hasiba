@@ -41,7 +41,7 @@ export const Calendar = React.forwardRef<HTMLDivElement, CalendarProps>(
               }
             }}
             className="p-1 rounded hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
-            aria-label={t('calendar.previousMonth', 'Previous month')}
+            aria-label={t('calendar.previousMonth')}
           >
             {i18n.language === 'ar' ? '>' : '<'}
           </button>
@@ -57,7 +57,7 @@ export const Calendar = React.forwardRef<HTMLDivElement, CalendarProps>(
               }
             }}
             className="p-1 rounded hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-blue-500"
-            aria-label={t('calendar.nextMonth', 'Next month')}
+            aria-label={t('calendar.nextMonth')}
           >
             {i18n.language === 'ar' ? '<' : '>'}
           </button>

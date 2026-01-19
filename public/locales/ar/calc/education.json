@@ -10,6 +10,7 @@
     "weight": "الوزن",
     "score": "الدرجة",
     "total_weight": "إجمالي الوزن",
+    "is_final_exam": "تحديد كامتحان نهائي",
     "desired": "الدرجة المستهدفة (Desired Grade)",
     "desired_tooltip": "الدرجة النهائية التي تطمح للحصول عليها في المادة",
     "desired_placeholder": "مثلاً: 90",

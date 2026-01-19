@@ -39,19 +39,12 @@ const LUNAR_MONTH_DAYS = 29.530588853;
 // Average length of a lunar year in days (12 lunar months)
 const LUNAR_YEAR_DAYS = LUNAR_MONTH_DAYS * 12; // ≈ 354.37 days
 
-// Hijri month names in Arabic and English
-const HIJRI_MONTHS = {
-  ar: [
-    'محرم', 'صفر', 'ربيع الأول', 'ربيع الثاني',
-    'جمادى الأولى', 'جمادى الآخرة', 'رجب', 'شعبان',
-    'رمضان', 'شوال', 'ذو القعدة', 'ذو الحجة'
-  ],
-  en: [
-    'Muharram', 'Safar', 'Rabi al-Awwal', 'Rabi al-Thani',
-    'Jumada al-Awwal', 'Jumada al-Thani', 'Rajab', 'Shaban',
-    'Ramadan', 'Shawwal', 'Dhul Qadah', 'Dhul Hijjah'
-  ]
-};
+// Hijri month names - now using translation keys
+const HIJRI_MONTH_KEYS = [
+  'muharram', 'safar', 'rabi_al_awwal', 'rabi_al_thani',
+  'jumada_al_awwal', 'jumada_al_thani', 'rajab', 'shaban',
+  'ramadan', 'shawwal', 'dhul_qadah', 'dhul_hijjah'
+];
 
 /**
  * Convert Gregorian date to Hijri date (approximation)
@@ -86,7 +79,6 @@ function gregorianToHijri(date: Date): { year: number; month: number; day: numbe
 export default function LunarAgeCalculator() {
   const { t, i18n } = useTranslation(['calc/date-time', 'common']);
   const isRTL = i18n.language === 'ar';
-  const isArabic = i18n.language === 'ar';
 
   const [birthDate, setBirthDate] = useState<string>('');
   const [result, setResult] = useState<LunarAgeResult | null>(null);
@@ -152,12 +144,15 @@ export default function LunarAgeCalculator() {
 
       // Get current Hijri date
       const hijriToday = gregorianToHijri(today);
-      const monthNames = isArabic ? HIJRI_MONTHS.ar : HIJRI_MONTHS.en;
-      const hijriDate = `${hijriToday.day} ${monthNames[hijriToday.month - 1]} ${hijriToday.year}`;
+      const monthKey = HIJRI_MONTH_KEYS[hijriToday.month - 1];
+      const monthName = t(`lunar-age.hijri_months.${monthKey}`);
+      const hijriDate = `${hijriToday.day} ${monthName} ${hijriToday.year}`;
 
       // Calculate Hijri birthdate
       const hijriBirth = gregorianToHijri(birth);
-      const lunarBirthday = `${hijriBirth.day} ${monthNames[hijriBirth.month - 1]}`;
+      const birthMonthKey = HIJRI_MONTH_KEYS[hijriBirth.month - 1];
+      const birthMonthName = t(`lunar-age.hijri_months.${birthMonthKey}`);
+      const lunarBirthday = `${hijriBirth.day} ${birthMonthName}`;
 
       setResult({
         lunarYears,

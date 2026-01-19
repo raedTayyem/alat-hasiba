@@ -234,7 +234,7 @@ const CompactLanguageToggle = () => {
         aria-label={t('language.ar')}
         aria-pressed={i18n.language === 'ar'}
       >
-        <span className="sm:hidden">ع</span>
+        <span className="sm:hidden">{t('language.arShort')}</span>
         <span className="hidden sm:inline">{t('language.arLabel')}</span>
       </button>
       <button
@@ -247,7 +247,7 @@ const CompactLanguageToggle = () => {
         aria-label={t('language.en')}
         aria-pressed={i18n.language === 'en'}
       >
-        <span className="sm:hidden">EN</span>
+        <span className="sm:hidden">{t('language.enShort')}</span>
         <span className="hidden sm:inline">{t('language.enLabel')}</span>
       </button>
     </div>

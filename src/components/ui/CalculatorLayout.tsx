@@ -117,7 +117,7 @@ const CalculatorLayout: React.FC<CalculatorLayoutProps> = ({
             <div className="p-4 sm:p-6 md:p-8 bg-card/50">
               <div className="flex items-center gap-2 mb-4 sm:mb-6">
                 <div className="w-1 sm:w-1.5 h-5 sm:h-6 bg-primary rounded-full"></div>
-                <h2 className="text-lg sm:text-xl font-bold">{t('layout.inputs', 'Inputs')}</h2>
+                <h2 className="text-lg sm:text-xl font-bold">{t('layout.inputs')}</h2>
               </div>
               <div className="space-y-4 sm:space-y-6">
                 {inputSection}
@@ -128,7 +128,7 @@ const CalculatorLayout: React.FC<CalculatorLayoutProps> = ({
             <div className="p-4 sm:p-6 md:p-8 border-t border-border bg-primary/5 dark:bg-primary/10">
               <div className="flex items-center gap-2 mb-4 sm:mb-6">
                 <div className="w-1 sm:w-1.5 h-5 sm:h-6 bg-primary rounded-full"></div>
-                <h2 className="text-lg sm:text-xl font-bold">{t('layout.results', 'Results')}</h2>
+                <h2 className="text-lg sm:text-xl font-bold">{t('layout.results')}</h2>
               </div>
               <div className="bg-card border border-border rounded-lg sm:rounded-xl shadow-inner p-4 sm:p-6">
                 {children || resultSection}

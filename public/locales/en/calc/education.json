@@ -10,6 +10,7 @@
     "weight": "Weight",
     "score": "Score",
     "total_weight": "Total Weight",
+    "is_final_exam": "Mark as Final Exam",
     "desired": "Target Grade",
     "desired_tooltip": "The final grade you aim to achieve in this course",
     "desired_placeholder": "e.g., 90",

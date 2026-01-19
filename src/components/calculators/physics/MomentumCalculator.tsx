@@ -166,7 +166,7 @@ export default function MomentumCalculator() {
         const p0Val = p0 ? p0 : 0;
         const finalMomentum = p0Val + impulse;
 
-        setResult(`${t('momentum.results.impulse')}: ${formatResult(impulse)} N⋅s\n${t('momentum.results.final_momentum')}: ${formatResult(finalMomentum)} kg⋅m/s`);
+        setResult(`${t('momentum.results.impulse')}: ${formatResult(impulse)} N⋅s\n${t('momentum.results.final_momentum')}: ${formatResult(finalMomentum)} ${t('common:units.kg')}⋅m/s`);
       } else if (mode === 'conservation') {
         const m1 = parseFloat(mass1);
         const v1 = parseFloat(velocity1);

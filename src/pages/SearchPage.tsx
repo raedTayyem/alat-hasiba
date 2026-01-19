@@ -47,7 +47,7 @@ const SearchPage = () => {
         <meta property="og:image" content="https://alathasiba.com/og-image.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content={t('siteName') + ' - ' + t('seo.siteDescription')} />
+        <meta property="og:image:alt" content={t('pages.search.ogImageAlt')} />
 
         {/* Twitter Card tags */}
         <meta name="twitter:card" content="summary_large_image" />

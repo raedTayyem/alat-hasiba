@@ -3,6 +3,7 @@
     "title": "About Us | Alathasiba",
     "metaDescription": "Learn about Alathasiba, our story, and our mission to provide the best online calculators and converters.",
     "metaKeywords": "about alathasiba, our story, team, services",
+    "ogImageAlt": "About Alathasiba",
     "mainHeading": "About Alathasiba",
     "subHeading": "We strive to provide the most accurate and easy-to-use digital tools to help you accomplish your daily tasks.",
     "story": {
@@ -72,6 +73,7 @@
     "title": "Terms of Use | Alathasiba",
     "metaDescription": "Terms of use and regulations governing the Alathasiba website.",
     "metaKeywords": "terms of use, regulations, agreement",
+    "ogImageAlt": "Terms of Service - Alathasiba",
     "heading": "Terms of Use",
     "sections": {
       "intro": {
@@ -150,6 +152,7 @@
     "title": "Privacy Policy | Alathasiba",
     "metaDescription": "Privacy policy and data protection at Alathasiba.",
     "metaKeywords": "privacy, data protection, cookies",
+    "ogImageAlt": "Privacy Policy - Alathasiba",
     "heading": "Privacy Policy",
     "sections": {
       "intro": {
@@ -268,6 +271,7 @@
     "title": "Contact Us | Alathasiba",
     "metaDescription": "Contact us at Alathasiba for inquiries and suggestions.",
     "metaKeywords": "contact us, technical support, suggestions",
+    "ogImageAlt": "Contact Alathasiba",
     "heading": "Contact Us",
     "subHeading": "We are here to help. If you have any questions, suggestions, or encountered a problem using the site, feel free to contact us.",
     "intro": "We are here to help. If you have any questions, suggestions, or encountered a problem using the site, feel free to contact us.",
@@ -320,12 +324,14 @@
   "notFound": {
     "title": "Page Not Found",
     "metaDescription": "The page you are looking for could not be found. It may have been moved, deleted, or never existed. Return to our homepage to find what you need.",
+    "ogImageAlt": "Page Not Found - Alathasiba",
     "heading": "Sorry, page not found",
     "description": "It seems the page you are looking for has been moved, deleted, or never existed.",
     "goHome": "Go Home",
     "browseCategories": "Browse Categories"
   },
   "home": {
+    "ogImageAlt": "Alathasiba - Free Online Calculators",
     "hero": {
       "title": "A Wide Range of Free Calculators",
       "description": "We offer {{count}}+ free calculators and unit converters to help you in various fields: math, finance, health, and science.",
@@ -375,6 +381,7 @@
     "title": "Calculator Categories | Alathasiba Calculators",
     "description": "Browse all calculator categories available on our site.",
     "keywords": "calculator categories, calculators, scientific calculators, converters",
+    "ogImageAlt": "Calculator Categories - Alathasiba",
     "subtitle": "Browse calculators by category. Choose the category that fits your needs.",
     "featuredTools": "Featured Tools",
     "calculatorCount": "{{count}} calculators",
@@ -389,6 +396,7 @@
     "defaultDescription": "Browse the collection of calculators available in this category.",
     "defaultMetaDescription": "A comprehensive list of online calculators and tools.",
     "metaKeywords": "calculators, {{category}}, free tools",
+    "ogImageAlt": "{{category}} - Alathasiba",
     "defaultCategoryDescription": "Use our {{category}} calculators for accurate results for your needs.",
     "aboutCategory": "About {{category}}",
     "aboutParagraph1": "Our {{category}} calculators are designed to help you solve complex problems and get accurate results quickly.",
@@ -400,6 +408,7 @@
     "title": "Most Used Calculators",
     "description": "Discover our most popular tools used by thousands of users monthly.",
     "keywords": "popular calculators, most used calculators, free calculators, online tools",
+    "ogImageAlt": "Most Used Calculators - Alathasiba",
     "heading": "Most Used Calculators",
     "subtitle": "Discover our most popular tools and most requested calculators.",
     "trendingNow": "Trending Now",
@@ -417,7 +426,8 @@
     "tryDifferent": "Try searching with a different term.",
     "placeholder": "Search for a calculator...",
     "viewAllResults": "View all results",
-    "searching": "Searching..."
+    "searching": "Searching...",
+    "ogImageAlt": "Search - Alathasiba"
   },
   "calculator": {
     "relatedCalculators": "Related Calculators",
@@ -425,6 +435,7 @@
     "loadErrorDescription": "Sorry, an error occurred while loading the calculator component. Please try again later.",
     "notFound": "Calculator not found",
     "notFoundDescription": "Sorry, we could not find the calculator you are looking for.",
-    "supportUs": "Support our project"
+    "supportUs": "Support our project",
+    "ogImageAlt": "{{calculator}} - Alathasiba"
   }
 }

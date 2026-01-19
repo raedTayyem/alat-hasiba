@@ -28,6 +28,7 @@ interface GradeCategory {
   name: string;
   weight: number;
   score: number;
+  isFinalExam?: boolean; // Flag to mark a category as final exam
 }
 
 interface GradeResult {
@@ -69,9 +70,9 @@ export default function GradeCalculator() {
   // STATE MANAGEMENT
   // ---------------------------------------------------------------------------
   const [categories, setCategories] = useState<GradeCategory[]>([
-    { id: '1', name: '', weight: 20, score: 0 },
-    { id: '2', name: '', weight: 50, score: 0 },
-    { id: '3', name: '', weight: 30, score: 0 }
+    { id: '1', name: '', weight: 20, score: 0, isFinalExam: false },
+    { id: '2', name: '', weight: 50, score: 0, isFinalExam: false },
+    { id: '3', name: '', weight: 30, score: 0, isFinalExam: true }
   ]);
   const [desiredGrade, setDesiredGrade] = useState<string>('90');
   const [result, setResult] = useState<GradeResult | null>(null);
@@ -143,7 +144,7 @@ export default function GradeCalculator() {
         const letterGrade = getLetterGrade(currentGrade);
 
         // Calculate required final exam score for desired grade
-        const finalExamCategory = categories.find(c => c.name.toLowerCase().includes('final') || c.name.includes('نهائي'));
+        const finalExamCategory = categories.find(c => c.isFinalExam === true);
         let requiredFinalExamScore: number | null = null;
 
         if (finalExamCategory) {
@@ -162,7 +163,7 @@ export default function GradeCalculator() {
         // Calculate grade if perfect on final
         let finalGradeIfPerfect = 0;
         categories.forEach(cat => {
-          if (cat.name.toLowerCase().includes('final') || cat.name.includes('نهائي')) {
+          if (cat.isFinalExam) {
             finalGradeIfPerfect += (100 * cat.weight) / 100;
           } else {
             finalGradeIfPerfect += (cat.score * cat.weight) / 100;
@@ -172,7 +173,7 @@ export default function GradeCalculator() {
         // Calculate grade if zero on final
         let finalGradeIfZero = 0;
         categories.forEach(cat => {
-          if (!(cat.name.toLowerCase().includes('final') || cat.name.includes('نهائي'))) {
+          if (!cat.isFinalExam) {
             finalGradeIfZero += (cat.score * cat.weight) / 100;
           }
         });
@@ -196,9 +197,9 @@ export default function GradeCalculator() {
     setShowResult(false);
     setTimeout(() => {
       setCategories([
-        { id: '1', name: '', weight: 20, score: 0 },
-        { id: '2', name: '', weight: 50, score: 0 },
-        { id: '3', name: '', weight: 30, score: 0 }
+        { id: '1', name: '', weight: 20, score: 0, isFinalExam: false },
+        { id: '2', name: '', weight: 50, score: 0, isFinalExam: false },
+        { id: '3', name: '', weight: 30, score: 0, isFinalExam: true }
       ]);
       setDesiredGrade('90');
       setResult(null);
@@ -214,7 +215,8 @@ export default function GradeCalculator() {
       id: Date.now().toString(),
       name: '',
       weight: 0,
-      score: 0
+      score: 0,
+      isFinalExam: false
     };
     setCategories([...categories, newCategory]);
   };
@@ -225,7 +227,7 @@ export default function GradeCalculator() {
     }
   };
 
-  const updateCategory = (id: string, field: keyof GradeCategory, value: string | number) => {
+  const updateCategory = (id: string, field: keyof GradeCategory, value: string | number | boolean) => {
     setCategories(categories.map(c =>
       c.id === id ? { ...c, [field]: value } : c
     ));
@@ -339,6 +341,20 @@ export default function GradeCalculator() {
                     startIcon={<CheckCircle className="h-4 w-4" />}
                   />
                 </div>
+              </div>
+
+              {/* Final Exam Checkbox */}
+              <div className="flex items-center gap-2 mt-2">
+                <input
+                  type="checkbox"
+                  id={`final-exam-${category.id}`}
+                  checked={category.isFinalExam || false}
+                  onChange={(e) => updateCategory(category.id, 'isFinalExam', e.target.checked)}
+                  className="w-4 h-4 rounded border-input"
+                />
+                <label htmlFor={`final-exam-${category.id}`} className="text-sm text-foreground-70 cursor-pointer">
+                  {t('grade.is_final_exam', 'Mark as Final Exam')}
+                </label>
               </div>
             </div>
           ))}

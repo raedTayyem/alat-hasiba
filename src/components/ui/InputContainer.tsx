@@ -105,7 +105,7 @@ export const NumericInput: React.FC<NumericInputProps> = ({
         <button
           type="button"
           className="px-2 hover:bg-card-bg-hover text-foreground-70 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-1"
-          aria-label={t('common.actions.decrease', 'Decrease')}
+          aria-label={t('common.actions.decrease')}
           onClick={(e) => {
             e.preventDefault();
             const newValue = +value - (step || 1);
@@ -131,7 +131,7 @@ export const NumericInput: React.FC<NumericInputProps> = ({
         <button
           type="button"
           className="px-2 hover:bg-card-bg-hover text-foreground-70 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-1"
-          aria-label={t('common.actions.increase', 'Increase')}
+          aria-label={t('common.actions.increase')}
           onClick={(e) => {
             e.preventDefault();
             const newValue = +value + (step || 1);

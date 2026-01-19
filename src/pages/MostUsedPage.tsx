@@ -45,7 +45,7 @@ const MostUsedPage = () => {
         <meta property="og:image" content="https://alathasiba.com/og-image.png" />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
-        <meta property="og:image:alt" content={`${t('pages.mostUsed.title')} - ${t('siteName')}`} />
+        <meta property="og:image:alt" content={t('pages.mostUsed.ogImageAlt')} />
         <meta property="og:locale" content={currentLocale} />
 
         {/* Twitter Card tags */}
@@ -74,7 +74,7 @@ const MostUsedPage = () => {
                 <TrendingUp className="w-6 h-6" />
               </div>
               <span className="text-sm font-bold text-muted-foreground uppercase tracking-wider">
-                {t('hero.newFeatures', 'Trending Now')}
+                {t('hero.newFeatures')}
               </span>
             </div>
 

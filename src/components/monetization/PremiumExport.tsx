@@ -84,7 +84,7 @@ export default function PremiumExport({
           </div>
           <div className="flex flex-col items-end">
             <span className="text-[10px] uppercase font-bold tracking-widest text-amber-600 dark:text-amber-400 mb-1">
-              {t('monetization.premium.title', 'Premium')}
+              {t('monetization.premium.title')}
             </span>
             <div className="text-2xl font-black text-foreground">${displayPrice}</div>
           </div>
@@ -122,7 +122,7 @@ export default function PremiumExport({
           ) : (
             <>
               <Download className="w-4 h-4 sm:w-5 sm:h-5" />
-              <span>{t('monetization.premium.button', 'Get Instant Access')}</span>
+              <span>{t('monetization.premium.button')}</span>
             </>
           )}
         </button>
@@ -130,7 +130,7 @@ export default function PremiumExport({
         {/* Security badge */}
         <div className="mt-4 sm:mt-6 flex items-center justify-center gap-2 text-[10px] text-muted-foreground font-medium uppercase tracking-wider">
           <Lock className="w-3 h-3" />
-          <span>{t('monetization.premium.secure', 'Secure Payment via Gumroad')}</span>
+          <span>{t('monetization.premium.secure')}</span>
         </div>
       </div>
     </div>

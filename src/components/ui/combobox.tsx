@@ -31,7 +31,7 @@ export function Combobox({
   const { t } = useTranslation('common')
   const [query, setQuery] = useState('')
   const buttonRef = useRef<HTMLButtonElement>(null)
-  const placeholderText = placeholder || t('common.selectOption', 'Select option...')
+  const placeholderText = placeholder || t('common.selectOption')
 
   const filteredOptions =
     query === ''
@@ -89,7 +89,7 @@ export function Combobox({
               <HeadlessCombobox.Options className="absolute z-[9999] mt-1 max-h-60 w-full overflow-auto rounded-md bg-white dark:bg-gray-950 py-1 text-base shadow-lg ring-1 ring-black/5 focus:outline-none sm:text-sm border border-border">
                 {filteredOptions.length === 0 && query !== '' ? (
                   <div className="relative cursor-default select-none px-4 py-2 text-muted-foreground">
-                    {t('common.nothingFound', 'Nothing found.')}
+                    {t('common.nothingFound')}
                   </div>
                 ) : (
                   filteredOptions.map((option) => (

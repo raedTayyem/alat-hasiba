@@ -95,7 +95,10 @@
       "ar": "العربية",
       "en": "الإنجليزية",
       "arLabel": "العربية",
+      "arShort": "ع",
       "enLabel": "English"
+,
+      "enShort": "EN"
     },
     "units": {
       "cm": "سم",
@@ -107,6 +110,8 @@
       "in": "بوصة",
       "oz": "أونصة",
       "lb": "رطل",
+      "lbs": "رطل",
+      "pounds": "رطل",
       "uF": "ميكروفاراد",
       "Hz": "هرتز",
       "kHz": "كيلوهرتز",
@@ -140,6 +145,8 @@
       "L": "لتر",
       "mL": "مللي لتر",
       "gal": "جالون",
+      "gallons": "جالون",
+      "liters": "لتر",
       "meters": "م",
       "square_meters": "م²",
       "cubic_meters": "م³",
@@ -149,6 +156,7 @@
       "mAh": "مللي أمبير ساعة",
       "LED": "LED",
       "celsius": "°م",
+      "fahrenheit": "°ف",
       "mH": "مللي هنري",
       "times": "×",
       "PSI": "رطل/بوصة²",
@@ -174,7 +182,12 @@
       "fahrenheit": "°ف",
       "mixed": "مختلط",
       "tablespoon": "ملعقة كبيرة",
-      "metric": "متري"
+      "metric": "متري",
+      "kgCO2": "كجم CO₂",
+      "kgPerM3": "كجم/م³",
+      "kgPerM": "كجم/م",
+      "weeks": "أسابيع",
+      "months": "أشهر"
     },
     "calendar": {
       "days": {
@@ -242,7 +255,10 @@
     "ar": "العربية",
     "en": "الإنجليزية",
     "arLabel": "العربية",
+      "arShort": "ع",
     "enLabel": "English"
+,
+      "enShort": "EN"
   },
   "units": {
     "cm": "سم",
@@ -254,6 +270,8 @@
     "in": "بوصة",
     "oz": "أونصة",
     "lb": "رطل",
+    "lbs": "رطل",
+    "pounds": "رطل",
     "uF": "ميكروفاراد",
     "Hz": "هرتز",
     "kHz": "كيلوهرتز",
@@ -286,6 +304,8 @@
     "L": "لتر",
     "mL": "مللي لتر",
     "gal": "جالون",
+    "gallons": "جالون",
+    "liters": "لتر",
     "currencySymbol": "$",
     "calories": "سعرة",
     "kcal": "كيلو سعرة",
@@ -311,7 +331,12 @@
     "mm_squared": "مم²",
     "MPa": "ميغاباسكال",
     "mph": "ميل/س",
-    "kmh": "كم/س"
+    "kmh": "كم/س",
+    "kgCO2": "كجم CO₂",
+    "kgPerM3": "كجم/م³",
+    "kgPerM": "كجم/م",
+    "weeks": "أسابيع",
+    "months": "أشهر"
   },
   "plus_sign": "+",
   "copy": "نسخ",
@@ -373,7 +398,14 @@
     "enterAmount": "أدخل المبلغ",
     "enterName": "أدخل الاسم",
     "coordinateX": "س",
-    "coordinateY": "ص"
+    "coordinateY": "ص",
+    "xCoordinate": "س",
+    "yCoordinate": "ص"
+  },
+  "variables": {
+    "x": "س",
+    "y": "ص",
+    "t": "ت"
   },
   "calculators": {
     "invalid_input": "مدخلات غير صحيحة. الرجاء التحقق من القيم.",

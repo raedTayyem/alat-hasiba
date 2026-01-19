@@ -25,7 +25,7 @@ interface BezierResult {
 }
 
 export default function BezierCurveCalculator() {
-  const { t } = useTranslation('calc/geometry');
+  const { t } = useTranslation(['calc/geometry', 'common']);
   const [curveType, setCurveType] = useState<'quadratic' | 'cubic'>('quadratic');
   const [tParam, setTParam] = useState<string>('0.5');
   const [p0x, setP0x] = useState<string>('0');
@@ -131,14 +131,14 @@ export default function BezierCurveCalculator() {
                 value={p0x}
                 onValueChange={(val) => setP0x(String(val))}
                 className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-                placeholder="X"
+                placeholder={t("common:placeholders.xCoordinate")}
                 step={0.01}
               />
               <NumberInput
                 value={p0y}
                 onValueChange={(val) => setP0y(String(val))}
                 className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-                placeholder="Y"
+                placeholder={t("common:placeholders.yCoordinate")}
                 step={0.01}
               />
             </div>
@@ -149,14 +149,14 @@ export default function BezierCurveCalculator() {
                 value={p1x}
                 onValueChange={(val) => setP1x(String(val))}
                 className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-                placeholder="X"
+                placeholder={t("common:placeholders.xCoordinate")}
                 step={0.01}
               />
               <NumberInput
                 value={p1y}
                 onValueChange={(val) => setP1y(String(val))}
                 className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-                placeholder="Y"
+                placeholder={t("common:placeholders.yCoordinate")}
                 step={0.01}
               />
             </div>
@@ -167,14 +167,14 @@ export default function BezierCurveCalculator() {
                 value={p2x}
                 onValueChange={(val) => setP2x(String(val))}
                 className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-                placeholder="X"
+                placeholder={t("common:placeholders.xCoordinate")}
                 step={0.01}
               />
               <NumberInput
                 value={p2y}
                 onValueChange={(val) => setP2y(String(val))}
                 className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-                placeholder="Y"
+                placeholder={t("common:placeholders.yCoordinate")}
                 step={0.01}
               />
             </div>
@@ -186,14 +186,14 @@ export default function BezierCurveCalculator() {
                   value={p3x}
                   onValueChange={(val) => setP3x(String(val))}
                     className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-                  placeholder="X"
+                  placeholder={t("common:placeholders.xCoordinate")}
                   step={0.01}
                 />
                 <NumberInput
                   value={p3y}
                   onValueChange={(val) => setP3y(String(val))}
                     className="w-full rounded-md border border-input bg-background px-3 py-3 text-base"
-                  placeholder="Y"
+                  placeholder={t("common:placeholders.yCoordinate")}
                   step={0.01}
                 />
               </div>

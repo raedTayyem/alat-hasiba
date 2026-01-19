@@ -56,7 +56,7 @@ export default function SmartRecommendations({
       <div className="flex items-center gap-2 mb-4">
         <ShoppingBag className="w-5 h-5 text-primary" />
         <h3 className="text-lg font-semibold text-foreground">
-          {t('monetization.recommendations.title', 'Recommended Resources')}
+          {t('monetization.recommendations.title')}
         </h3>
       </div>
 
@@ -109,7 +109,7 @@ export default function SmartRecommendations({
                     onClick={() => handleProductClick(product)}
                     className="inline-flex items-center gap-2 px-4 py-2 bg-primary text-white rounded-lg hover:bg-primary/90 transition-colors text-sm font-medium"
                   >
-                    <span>{t('monetization.recommendations.getAccess', 'Get Access')}</span>
+                    <span>{t('monetization.recommendations.getAccess')}</span>
                     <ShoppingBag className="w-4 h-4" />
                   </button>
                 </div>
