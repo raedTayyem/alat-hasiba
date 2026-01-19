@@ -41,11 +41,26 @@
       "formula": "VAT Amount = Price × (VAT Rate / 100)",
       "explanation": "VAT (Value Added Tax) is calculated as a percentage of the net price. To add VAT, multiply the price by (1 + rate/100). To extract VAT from a gross price, divide by (1 + rate/100) to find the net price.",
       "steps": [
-        "Select whether to add VAT or extract VAT from total",
-        "Enter the price (net price for adding, gross price for extracting)",
-        "Input your country's VAT rate percentage",
-        "Calculator shows the VAT amount and final price",
-        "View the breakdown of net price, VAT, and total"
+        {
+          "name": "Step 1",
+          "text": "Select whether to add VAT or extract VAT from total"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the price (net price for adding, gross price for extracting)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Input your country's VAT rate percentage"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator shows the VAT amount and final price"
+        },
+        {
+          "name": "Step 5",
+          "text": "View the breakdown of net price, VAT, and total"
+        }
       ]
     },
     "useCases": [
@@ -155,11 +170,26 @@
       "formula": "Total = Subtotal × (1 + Tax Rate / 100)",
       "explanation": "Sales tax is a percentage added to the subtotal at the point of sale. Unlike VAT, sales tax is only collected once at the final consumer sale. Rates vary by state, county, and city in the US, and by region in other countries.",
       "steps": [
-        "Enter the subtotal (price before tax) or total (price including tax)",
-        "Input your local sales tax rate",
-        "Calculator computes the tax amount",
-        "Result shows subtotal, tax, and total",
-        "Extract mode reverses the calculation from tax-inclusive prices"
+        {
+          "name": "Step 1",
+          "text": "Enter the subtotal (price before tax) or total (price including tax)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input your local sales tax rate"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator computes the tax amount"
+        },
+        {
+          "name": "Step 4",
+          "text": "Result shows subtotal, tax, and total"
+        },
+        {
+          "name": "Step 5",
+          "text": "Extract mode reverses the calculation from tax-inclusive prices"
+        }
       ]
     },
     "useCases": [

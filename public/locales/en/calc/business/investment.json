@@ -35,11 +35,26 @@
       "formula": "ROI = ((Final Value - Initial Investment) / Initial Investment) × 100",
       "explanation": "ROI measures the percentage return on an investment by comparing the gain or loss to the initial cost. Annualized ROI adjusts for the investment period to enable fair comparisons between investments of different durations.",
       "steps": [
-        "Enter the initial investment amount",
-        "Input the final or current value of the investment",
-        "Specify the investment period in years",
-        "Calculator computes total and annualized ROI",
-        "Review the net profit and payback analysis"
+        {
+          "name": "Step 1",
+          "text": "Enter the initial investment amount"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the final or current value of the investment"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify the investment period in years"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator computes total and annualized ROI"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review the net profit and payback analysis"
+        }
       ]
     },
     "useCases": [
@@ -154,11 +169,26 @@
       "formula": "NPV = Σ(Cash Flow / (1 + r)^t) - Initial Investment",
       "explanation": "NPV calculates the present value of all future cash flows, discounted at a required rate of return, minus the initial investment. A positive NPV indicates the investment should generate value; negative NPV suggests the investment will destroy value.",
       "steps": [
-        "Enter the initial investment amount",
-        "Set your discount rate (cost of capital or required return)",
-        "Input expected cash flows for each future year",
-        "Calculator discounts each cash flow to present value",
-        "NPV = sum of discounted cash flows minus initial investment"
+        {
+          "name": "Step 1",
+          "text": "Enter the initial investment amount"
+        },
+        {
+          "name": "Step 2",
+          "text": "Set your discount rate (cost of capital or required return)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Input expected cash flows for each future year"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator discounts each cash flow to present value"
+        },
+        {
+          "name": "Step 5",
+          "text": "NPV = sum of discounted cash flows minus initial investment"
+        }
       ]
     },
     "useCases": [
@@ -271,11 +301,26 @@
       "formula": "IRR = Discount rate where NPV equals zero",
       "explanation": "IRR (Internal Rate of Return) is the discount rate that makes the net present value of all cash flows equal to zero. It represents the annualized rate of return on an investment, allowing comparison between projects of different sizes and durations.",
       "steps": [
-        "Enter the initial investment amount (as a negative cash flow)",
-        "Input expected cash flows for each future year",
-        "Calculator iteratively finds the rate where NPV = 0",
-        "Result shows the IRR as an annual percentage",
-        "Compare IRR to your required return or cost of capital"
+        {
+          "name": "Step 1",
+          "text": "Enter the initial investment amount (as a negative cash flow)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input expected cash flows for each future year"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator iteratively finds the rate where NPV = 0"
+        },
+        {
+          "name": "Step 4",
+          "text": "Result shows the IRR as an annual percentage"
+        },
+        {
+          "name": "Step 5",
+          "text": "Compare IRR to your required return or cost of capital"
+        }
       ]
     },
     "useCases": [
@@ -378,11 +423,26 @@
       "formula": "Net Cash Flow = Total Cash Inflows - Total Cash Outflows",
       "explanation": "Cash flow analysis tracks actual money movement in and out of a business. Unlike profit (which includes non-cash items), cash flow shows real liquidity. Positive cash flow means more money coming in than going out; negative cash flow indicates a cash drain.",
       "steps": [
-        "Enter cash inflows for each period (sales receipts, investments, loans)",
-        "Input cash outflows for each period (expenses, purchases, debt payments)",
-        "Add multiple periods to track trends over time",
-        "Calculator shows net cash flow for each period",
-        "View total and average cash flow across all periods"
+        {
+          "name": "Step 1",
+          "text": "Enter cash inflows for each period (sales receipts, investments, loans)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input cash outflows for each period (expenses, purchases, debt payments)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Add multiple periods to track trends over time"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator shows net cash flow for each period"
+        },
+        {
+          "name": "Step 5",
+          "text": "View total and average cash flow across all periods"
+        }
       ]
     },
     "useCases": [
@@ -493,11 +553,26 @@
       "formula": "Future Value = Present Value × (1 + Inflation Rate)^Years",
       "explanation": "Inflation erodes purchasing power over time. The calculator shows how much more you'll need in the future to buy what a certain amount buys today. Conversely, it shows how much less your current savings will be worth in real terms.",
       "steps": [
-        "Enter the current value or amount of money",
-        "Input the expected annual inflation rate",
-        "Specify the time period in years",
-        "Calculator compounds inflation over the period",
-        "Result shows future equivalent value and purchasing power loss"
+        {
+          "name": "Step 1",
+          "text": "Enter the current value or amount of money"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the expected annual inflation rate"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify the time period in years"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator compounds inflation over the period"
+        },
+        {
+          "name": "Step 5",
+          "text": "Result shows future equivalent value and purchasing power loss"
+        }
       ]
     },
     "useCases": [
@@ -610,11 +685,26 @@
       "formula": "Business Value = Annual Profit × Industry Multiplier",
       "explanation": "The earnings multiplier method values a business based on its profit-generating capacity. The multiplier reflects industry risk, growth potential, and market conditions. This simplified approach provides a starting point for negotiations, though professional valuations consider many additional factors.",
       "steps": [
-        "Enter the business's annual revenue",
-        "Input the profit margin percentage",
-        "Select or enter an appropriate industry multiplier",
-        "Calculator computes annual profit and applies multiplier",
-        "Result shows estimated business value"
+        {
+          "name": "Step 1",
+          "text": "Enter the business's annual revenue"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the profit margin percentage"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select or enter an appropriate industry multiplier"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator computes annual profit and applies multiplier"
+        },
+        {
+          "name": "Step 5",
+          "text": "Result shows estimated business value"
+        }
       ]
     },
     "useCases": [
@@ -734,11 +824,26 @@
       "formula": "FV = PV(1+r)^n + PMT × ((1+r)^n - 1) / r",
       "explanation": "Retirement savings grow through both contributions and compound interest. The calculator projects how current savings plus regular contributions grow over time at an expected rate of return. Compound interest means your earnings generate more earnings.",
       "steps": [
-        "Enter your current retirement savings balance",
-        "Specify planned monthly contribution amount",
-        "Input years until retirement",
-        "Set expected annual rate of return",
-        "Calculator shows projected retirement balance and growth breakdown"
+        {
+          "name": "Step 1",
+          "text": "Enter your current retirement savings balance"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify planned monthly contribution amount"
+        },
+        {
+          "name": "Step 3",
+          "text": "Input years until retirement"
+        },
+        {
+          "name": "Step 4",
+          "text": "Set expected annual rate of return"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator shows projected retirement balance and growth breakdown"
+        }
       ]
     },
     "useCases": [
@@ -863,11 +968,26 @@
       "formula": "Total Contribution = Your Contribution + Employer Match",
       "explanation": "A 401(k) grows through your pre-tax contributions, employer matching contributions (free money), and investment growth. The calculator projects growth over time, showing how maximizing employer match dramatically increases retirement savings.",
       "steps": [
-        "Enter your annual salary",
-        "Specify your contribution percentage",
-        "Input employer match percentage and match limit",
-        "Add current 401(k) balance and years to retirement",
-        "Set expected annual return rate for projections"
+        {
+          "name": "Step 1",
+          "text": "Enter your annual salary"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify your contribution percentage"
+        },
+        {
+          "name": "Step 3",
+          "text": "Input employer match percentage and match limit"
+        },
+        {
+          "name": "Step 4",
+          "text": "Add current 401(k) balance and years to retirement"
+        },
+        {
+          "name": "Step 5",
+          "text": "Set expected annual return rate for projections"
+        }
       ]
     },
     "useCases": [
@@ -995,11 +1115,26 @@
       "formula": "LTV = (Loan Amount / Property Value) × 100%",
       "explanation": "Loan-to-Value ratio compares your loan amount to the property's appraised value. Lower LTV means more equity and less risk for lenders, resulting in better rates and no PMI requirement. Higher LTV means less down payment but higher costs and stricter qualification.",
       "steps": [
-        "Enter the loan amount you need to borrow",
-        "Input the property's appraised or purchase value",
-        "Calculator divides loan by property value",
-        "View LTV percentage and risk assessment",
-        "See down payment amount and equity position"
+        {
+          "name": "Step 1",
+          "text": "Enter the loan amount you need to borrow"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the property's appraised or purchase value"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator divides loan by property value"
+        },
+        {
+          "name": "Step 4",
+          "text": "View LTV percentage and risk assessment"
+        },
+        {
+          "name": "Step 5",
+          "text": "See down payment amount and equity position"
+        }
       ]
     },
     "useCases": [
@@ -1105,11 +1240,26 @@
       "formula": "Payback Period = Initial Investment / Annual Cash Flow",
       "explanation": "The payback period measures how long it takes to recover the initial investment from cash flows generated by the project. Shorter payback periods indicate lower risk as the investment is recovered sooner, but this metric ignores the time value of money and cash flows beyond the payback point.",
       "steps": [
-        "Enter the initial investment amount",
-        "Input the expected annual cash flow from the investment",
-        "Optionally add salvage value for equipment investments",
-        "Calculator divides net investment by annual cash flow",
-        "Result shows years and months to recover the investment"
+        {
+          "name": "Step 1",
+          "text": "Enter the initial investment amount"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the expected annual cash flow from the investment"
+        },
+        {
+          "name": "Step 3",
+          "text": "Optionally add salvage value for equipment investments"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator divides net investment by annual cash flow"
+        },
+        {
+          "name": "Step 5",
+          "text": "Result shows years and months to recover the investment"
+        }
       ]
     },
     "useCases": [

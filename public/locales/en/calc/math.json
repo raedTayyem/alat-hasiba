@@ -189,10 +189,22 @@
       "formula": "The scientific calculator uses various mathematical formulas depending on the required operation",
       "explanation": "The scientific calculator performs advanced mathematical operations using precise algorithms. These operations include trigonometric functions (sin, cos, tan), logarithmic functions (log, ln), exponents and roots, and statistical operations.",
       "steps": [
-        "Enter the number or mathematical expression in the input field",
-        "Select the unit of measurement (degrees or radians) for trigonometric functions",
-        "Press the button for the desired operation (sin, cos, log, etc.)",
-        "The result will appear instantly and can be used for subsequent calculations"
+        {
+          "name": "Step 1",
+          "text": "Enter the number or mathematical expression in the input field"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the unit of measurement (degrees or radians) for trigonometric functions"
+        },
+        {
+          "name": "Step 3",
+          "text": "Press the button for the desired operation (sin, cos, log, etc.)"
+        },
+        {
+          "name": "Step 4",
+          "text": "The result will appear instantly and can be used for subsequent calculations"
+        }
       ]
     },
     "useCases": [
@@ -686,10 +698,22 @@
       "formula": "Complex number: z = a + bi where i^2 = -1",
       "explanation": "Complex numbers consist of a real part (a) and an imaginary part (bi). The imaginary unit i is the square root of -1. These numbers are used in electrical engineering, signal processing, and quantum physics.",
       "steps": [
-        "Enter the real and imaginary parts of the first number (a + bi)",
-        "Enter the real and imaginary parts of the second number (c + di) if needed",
-        "Select the desired operation (add, subtract, multiply, divide, etc.)",
-        "The result will appear as a complex number with magnitude and phase"
+        {
+          "name": "Step 1",
+          "text": "Enter the real and imaginary parts of the first number (a + bi)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the real and imaginary parts of the second number (c + di) if needed"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the desired operation (add, subtract, multiply, divide, etc.)"
+        },
+        {
+          "name": "Step 4",
+          "text": "The result will appear as a complex number with magnitude and phase"
+        }
       ]
     },
     "useCases": [
@@ -1016,10 +1040,22 @@
       "formula": "Addition: a/b + c/d = (ad + bc) / bd | Multiplication: a/b x c/d = ac / bd",
       "explanation": "A fraction consists of a numerator (top number) and denominator (bottom number). The fraction represents a part of a whole, where the denominator defines the number of equal parts and the numerator defines how many parts are taken.",
       "steps": [
-        "Enter the numerator and denominator for the first fraction",
-        "Enter the numerator and denominator for the second fraction",
-        "Select the desired operation (add, subtract, multiply, divide)",
-        "The result will appear in simplified form and as a decimal"
+        {
+          "name": "Step 1",
+          "text": "Enter the numerator and denominator for the first fraction"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the numerator and denominator for the second fraction"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the desired operation (add, subtract, multiply, divide)"
+        },
+        {
+          "name": "Step 4",
+          "text": "The result will appear in simplified form and as a decimal"
+        }
       ]
     },
     "useCases": [
@@ -1108,10 +1144,22 @@
       "formula": "LCM(a,b) = |a x b| / GCD(a,b) | Euclidean algorithm: GCD(a,b) = GCD(b, a mod b)",
       "explanation": "The Greatest Common Divisor (GCD) is the largest number that divides both numbers without a remainder. The Least Common Multiple (LCM) is the smallest positive number divisible by both numbers. These concepts are fundamental in fractions and number theory.",
       "steps": [
-        "Enter the first integer",
-        "Enter the second integer",
-        "The calculator uses the Euclidean algorithm to compute GCD",
-        "LCM is calculated using the relationship: LCM = |a x b| / GCD"
+        {
+          "name": "Step 1",
+          "text": "Enter the first integer"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the second integer"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator uses the Euclidean algorithm to compute GCD"
+        },
+        {
+          "name": "Step 4: LCM is calculated using the relationship",
+          "text": "LCM = |a x b| / GCD"
+        }
       ]
     },
     "useCases": [
@@ -1199,10 +1247,22 @@
       "formula": "log_b(x) = y means b^y = x | Change of base: log_b(x) = ln(x) / ln(b)",
       "explanation": "Logarithm is the inverse operation of exponentiation. If b^y = x, then log_b(x) = y. The common logarithm (log) has base 10, and the natural logarithm (ln) has base e (approximately 2.718).",
       "steps": [
-        "Select the logarithm type (base 10, natural, base 2, or custom)",
-        "Enter the positive value to calculate its logarithm",
-        "If you selected custom base, enter the base value (positive and not equal to 1)",
-        "The result will appear with the calculation method explained"
+        {
+          "name": "Step 1",
+          "text": "Select the logarithm type (base 10, natural, base 2, or custom)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the positive value to calculate its logarithm"
+        },
+        {
+          "name": "Step 3",
+          "text": "If you selected custom base, enter the base value (positive and not equal to 1)"
+        },
+        {
+          "name": "Step 4",
+          "text": "The result will appear with the calculation method explained"
+        }
       ]
     },
     "useCases": [
@@ -1314,11 +1374,26 @@
       "formula": "Arithmetic sequence: an = a1 + (n-1)d | Geometric sequence: an = a1 x r^(n-1)",
       "explanation": "A sequence is an ordered list of numbers following a specific pattern. Arithmetic sequences add a constant value (common difference), geometric sequences multiply by a constant value (common ratio), and Fibonacci sequences have each term as the sum of the two preceding terms.",
       "steps": [
-        "Select the sequence type (arithmetic, geometric, or Fibonacci)",
-        "Enter the first term of the sequence",
-        "Enter the common difference (for arithmetic) or common ratio (for geometric)",
-        "Specify the position of the term and number of terms to display",
-        "The nth term value, sum of terms, and sequence will be shown"
+        {
+          "name": "Step 1",
+          "text": "Select the sequence type (arithmetic, geometric, or Fibonacci)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the first term of the sequence"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the common difference (for arithmetic) or common ratio (for geometric)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Specify the position of the term and number of terms to display"
+        },
+        {
+          "name": "Step 5",
+          "text": "The nth term value, sum of terms, and sequence will be shown"
+        }
       ]
     },
     "useCases": [
@@ -1413,10 +1488,22 @@
       "formula": "sin theta = opposite/hypotenuse | cos theta = adjacent/hypotenuse | tan theta = opposite/adjacent",
       "explanation": "Trigonometry studies the relationships between angles and sides of triangles. The basic trigonometric functions (sin, cos, tan) define side ratios in right triangles. These functions are fundamental in physics, engineering, and navigation.",
       "steps": [
-        "Select the desired trigonometric function",
-        "Choose the unit of measurement (degrees or radians)",
-        "Enter the angle value",
-        "The result will appear along with other trigonometric function values"
+        {
+          "name": "Step 1",
+          "text": "Select the desired trigonometric function"
+        },
+        {
+          "name": "Step 2",
+          "text": "Choose the unit of measurement (degrees or radians)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the angle value"
+        },
+        {
+          "name": "Step 4",
+          "text": "The result will appear along with other trigonometric function values"
+        }
       ]
     },
     "useCases": [
@@ -1544,10 +1631,22 @@
       "formula": "Differentiation: f'(x) = lim(h->0) [f(x+h) - f(x)] / h | Integration: integral of f(x)dx = F(x) + C",
       "explanation": "Differentiation finds the instantaneous rate of change of a function (the slope), and integration finds the area under the curve (the reverse operation of differentiation). These concepts are fundamental in physics, engineering, and economics.",
       "steps": [
-        "Select the operation type (derivative or integral)",
-        "Enter the mathematical function (like x^2, sin(x), e^x)",
-        "The calculator applies the appropriate differentiation or integration rules",
-        "The result will appear with detailed solution steps"
+        {
+          "name": "Step 1",
+          "text": "Select the operation type (derivative or integral)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the mathematical function (like x^2, sin(x), e^x)"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator applies the appropriate differentiation or integration rules"
+        },
+        {
+          "name": "Step 4",
+          "text": "The result will appear with detailed solution steps"
+        }
       ]
     },
     "useCases": [
@@ -1651,11 +1750,26 @@
       "formula": "Matrix multiplication: C[i,j] = Sum of A[i,k] x B[k,j]",
       "explanation": "A matrix is a rectangular arrangement of numbers in rows and columns. Matrix operations follow specific rules that differ from regular arithmetic, especially in multiplication where order matters (AB is not equal to BA in most cases).",
       "steps": [
-        "Specify the matrix dimensions (number of rows x number of columns)",
-        "Enter the matrix element values in the appropriate cells",
-        "Select the desired operation from the menu",
-        "For binary operations, enter the second matrix",
-        "Press the calculate button to display the result"
+        {
+          "name": "Step 1",
+          "text": "Specify the matrix dimensions (number of rows x number of columns)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the matrix element values in the appropriate cells"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the desired operation from the menu"
+        },
+        {
+          "name": "Step 4",
+          "text": "For binary operations, enter the second matrix"
+        },
+        {
+          "name": "Step 5",
+          "text": "Press the calculate button to display the result"
+        }
       ]
     },
     "useCases": [
@@ -1891,10 +2005,22 @@
       "formula": "Percentage = (Part / Whole) x 100 | X% of Y = (X x Y) / 100",
       "explanation": "Percentage is a way of expressing a number as a part of 100. The symbol % means 'per hundred'. Percentages are used in everyday life to calculate discounts, taxes, interest, and statistics.",
       "steps": [
-        "Select the calculation type appropriate for your question",
-        "Enter the known values in the appropriate fields",
-        "The calculator will automatically compute the unknown value",
-        "Review the formula used in the details section"
+        {
+          "name": "Step 1",
+          "text": "Select the calculation type appropriate for your question"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the known values in the appropriate fields"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator will automatically compute the unknown value"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review the formula used in the details section"
+        }
       ]
     },
     "useCases": [
@@ -1962,10 +2088,22 @@
       "formula": "n = p1^a1 x p2^a2 x ... x pk^ak (where p are prime numbers)",
       "explanation": "Prime factorization means writing a number as a product of prime numbers. Every integer greater than 1 can be factored in a unique way (Fundamental Theorem of Arithmetic). Prime numbers are numbers divisible only by 1 and themselves.",
       "steps": [
-        "Enter the positive integer to be factorized",
-        "The calculator starts dividing by the smallest prime (2)",
-        "It continues dividing until the remainder is 1",
-        "The prime factors and complete factorization will be displayed"
+        {
+          "name": "Step 1",
+          "text": "Enter the positive integer to be factorized"
+        },
+        {
+          "name": "Step 2",
+          "text": "The calculator starts dividing by the smallest prime (2)"
+        },
+        {
+          "name": "Step 3",
+          "text": "It continues dividing until the remainder is 1"
+        },
+        {
+          "name": "Step 4",
+          "text": "The prime factors and complete factorization will be displayed"
+        }
       ]
     },
     "useCases": [

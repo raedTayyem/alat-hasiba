@@ -58,10 +58,22 @@
       "formula": "V = I × R, P = V × I",
       "explanation": "Ohm's Law is the foundation of electrical engineering, describing the relationship between voltage, current, and resistance. Voltage equals current times resistance, and power equals voltage times current.",
       "steps": [
-        "Select the parameter to calculate (Voltage, Current, Resistance, or Power)",
-        "Enter the two known values",
-        "The calculator automatically computes the unknown value",
-        "Review results including power consumption"
+        {
+          "name": "Step 1",
+          "text": "Select the parameter to calculate (Voltage, Current, Resistance, or Power)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the two known values"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator automatically computes the unknown value"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review results including power consumption"
+        }
       ]
     },
     "useCases": [
@@ -125,10 +137,22 @@
       "formula": "Vout = Vin × R2 / (R1 + R2)",
       "explanation": "A voltage divider splits input voltage proportionally based on resistor values. The voltage across R2 equals the ratio of R2 to total resistance multiplied by input voltage.",
       "steps": [
-        "Enter the input voltage (Vin)",
-        "Enter the first resistor value (R1)",
-        "Enter the second resistor value (R2)",
-        "Get output voltage, current, and power dissipation"
+        {
+          "name": "Step 1",
+          "text": "Enter the input voltage (Vin)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the first resistor value (R1)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the second resistor value (R2)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get output voltage, current, and power dissipation"
+        }
       ]
     },
     "useCases": [
@@ -195,10 +219,22 @@
       "formula": "R = (Vs - Vf) / If",
       "explanation": "Calculates the resistor needed to limit current through an LED. Resistance equals the voltage difference (supply minus LED forward voltage) divided by desired current.",
       "steps": [
-        "Enter the supply voltage (battery or power supply)",
-        "Enter LED forward voltage (varies by color)",
-        "Enter desired current (typically 20mA)",
-        "Specify number of LEDs in series"
+        {
+          "name": "Step 1",
+          "text": "Enter the supply voltage (battery or power supply)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter LED forward voltage (varies by color)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter desired current (typically 20mA)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Specify number of LEDs in series"
+        }
       ]
     },
     "useCases": [
@@ -272,10 +308,22 @@
       "formula": "Value = (Band1 × 10 + Band2) × Multiplier ± Tolerance%",
       "explanation": "Resistors use colored bands to indicate their resistance value. Each color represents a digit (0-9), a multiplier (power of 10), or a tolerance percentage. Reading bands left to right gives the resistance value.",
       "steps": [
-        "Select the number of bands (4 or 5)",
-        "Choose colors for each band from the dropdown",
-        "The calculator displays the resistance value",
-        "View the tolerance range for the resistor"
+        {
+          "name": "Step 1",
+          "text": "Select the number of bands (4 or 5)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Choose colors for each band from the dropdown"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator displays the resistance value"
+        },
+        {
+          "name": "Step 4",
+          "text": "View the tolerance range for the resistor"
+        }
       ]
     },
     "useCases": [
@@ -338,10 +386,22 @@
       "formula": "Series: R = R1+R2+... | Parallel: 1/R = 1/R1+1/R2+...",
       "explanation": "Calculates total resistance for resistors in series (add values) or parallel (add reciprocals). Also shows current and power distribution across each resistor.",
       "steps": [
-        "Select connection type (series or parallel)",
-        "Enter the supply voltage",
-        "Add resistor values one by one",
-        "View total resistance and individual results"
+        {
+          "name": "Step 1",
+          "text": "Select connection type (series or parallel)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the supply voltage"
+        },
+        {
+          "name": "Step 3",
+          "text": "Add resistor values one by one"
+        },
+        {
+          "name": "Step 4",
+          "text": "View total resistance and individual results"
+        }
       ]
     },
     "useCases": [

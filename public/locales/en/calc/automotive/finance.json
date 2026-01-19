@@ -51,11 +51,26 @@
       "formula": "M = P × [r(1+r)^n] / [(1+r)^n - 1]",
       "explanation": "This calculator uses the standard amortization formula where M is monthly payment, P is principal (loan amount), r is monthly interest rate, and n is number of payments. It accounts for down payment, trade-in value, taxes, and fees.",
       "steps": [
-        "Enter the total vehicle purchase price",
-        "Add down payment and trade-in value if applicable",
-        "Enter the annual interest rate (APR) offered by lender",
-        "Select your desired loan term in months",
-        "Add sales tax percentage and any additional fees"
+        {
+          "name": "Step 1",
+          "text": "Enter the total vehicle purchase price"
+        },
+        {
+          "name": "Step 2",
+          "text": "Add down payment and trade-in value if applicable"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the annual interest rate (APR) offered by lender"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select your desired loan term in months"
+        },
+        {
+          "name": "Step 5",
+          "text": "Add sales tax percentage and any additional fees"
+        }
       ]
     },
     "useCases": [
@@ -572,10 +587,22 @@
       "formula": "Current Value = Purchase Price × (1 - Depreciation Rate)^Years",
       "explanation": "This calculator uses the declining balance method to estimate your car's current value. Vehicles depreciate fastest in the first few years, with new cars losing 20-30% in year one, then about 15-20% annually after that.",
       "steps": [
-        "Enter the original purchase price of the vehicle",
-        "Enter the current age of the vehicle in years",
-        "Adjust the depreciation rate if needed (default is typical 15%)",
-        "View the estimated current value and total depreciation"
+        {
+          "name": "Step 1",
+          "text": "Enter the original purchase price of the vehicle"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the current age of the vehicle in years"
+        },
+        {
+          "name": "Step 3",
+          "text": "Adjust the depreciation rate if needed (default is typical 15%)"
+        },
+        {
+          "name": "Step 4",
+          "text": "View the estimated current value and total depreciation"
+        }
       ]
     },
     "useCases": [
@@ -738,11 +765,26 @@
       "formula": "Trade-In Value = Depreciated Value × Condition Adjustment × Mileage Adjustment",
       "explanation": "This calculator estimates trade-in value by applying depreciation curves (steeper in early years), then adjusting for condition and mileage compared to average. Trade-in values are typically lower than private sale values.",
       "steps": [
-        "Enter the original purchase price of your vehicle",
-        "Enter the current age of the vehicle in years",
-        "Enter the current odometer mileage",
-        "Select the overall condition of the vehicle",
-        "View estimated trade-in value and adjustment breakdown"
+        {
+          "name": "Step 1",
+          "text": "Enter the original purchase price of your vehicle"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the current age of the vehicle in years"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the current odometer mileage"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select the overall condition of the vehicle"
+        },
+        {
+          "name": "Step 5",
+          "text": "View estimated trade-in value and adjustment breakdown"
+        }
       ]
     },
     "useCases": [
@@ -909,11 +951,26 @@
       "formula": "Premium = Base Rate × Vehicle Factor × Age Factor × Coverage Factor - Deductible Discount",
       "explanation": "Insurance premiums are calculated based on vehicle value, driver risk profile, coverage level, and deductible choices. Higher risk factors increase premiums; higher deductibles lower them.",
       "steps": [
-        "Enter your vehicle's current market value",
-        "Select your age group",
-        "Choose your desired coverage type",
-        "Select your deductible level",
-        "View estimated annual premium and breakdown"
+        {
+          "name": "Step 1",
+          "text": "Enter your vehicle's current market value"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select your age group"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose your desired coverage type"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select your deductible level"
+        },
+        {
+          "name": "Step 5",
+          "text": "View estimated annual premium and breakdown"
+        }
       ]
     },
     "useCases": [
@@ -1203,11 +1260,26 @@
       "formula": "PMT = P × r(1+r)^n / ((1+r)^n - 1)",
       "explanation": "The standard amortization formula calculates monthly payments that pay both principal and interest over the loan term. Early payments are mostly interest; later payments are mostly principal.",
       "steps": [
-        "Enter the total vehicle purchase price",
-        "Enter your down payment amount (optional)",
-        "Enter the annual interest rate (APR)",
-        "Enter the loan term in months",
-        "View monthly payment, total cost, and payoff date"
+        {
+          "name": "Step 1",
+          "text": "Enter the total vehicle purchase price"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your down payment amount (optional)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the annual interest rate (APR)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter the loan term in months"
+        },
+        {
+          "name": "Step 5",
+          "text": "View monthly payment, total cost, and payoff date"
+        }
       ]
     },
     "useCases": [
@@ -1364,10 +1436,22 @@
       "formula": "5-Year Cost = Purchase Price + (5 × Annual Fuel Cost) + (5 × Annual Maintenance) + Depreciation",
       "explanation": "This calculator compares the total cost of ownership for two vehicles over 5 years, including purchase price, fuel costs, maintenance, and estimated depreciation to help you make an informed buying decision.",
       "steps": [
-        "Enter purchase price, fuel economy, and maintenance cost for Vehicle 1",
-        "Enter the same information for Vehicle 2",
-        "Enter your annual mileage and current fuel price",
-        "View side-by-side comparison of 5-year ownership costs"
+        {
+          "name": "Step 1",
+          "text": "Enter purchase price, fuel economy, and maintenance cost for Vehicle 1"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the same information for Vehicle 2"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter your annual mileage and current fuel price"
+        },
+        {
+          "name": "Step 4",
+          "text": "View side-by-side comparison of 5-year ownership costs"
+        }
       ]
     },
     "useCases": [

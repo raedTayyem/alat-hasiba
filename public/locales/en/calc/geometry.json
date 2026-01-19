@@ -9,11 +9,26 @@
       "formula": "Area = (base × height) / 2 or using Heron's formula for SSS",
       "explanation": "Calculate triangle properties using various methods depending on known values: base and height, three sides (SSS), or two sides and included angle (SAS).",
       "steps": [
-        "Enter the lengths of all three sides (a, b, c)",
-        "The calculator verifies the triangle is valid (sum of any two sides greater than the third)",
-        "The semi-perimeter (s) = (a+b+c)/2 is calculated",
-        "Heron's formula is applied to calculate the area",
-        "Angles are calculated using the law of cosines"
+        {
+          "name": "Step 1",
+          "text": "Enter the lengths of all three sides (a, b, c)"
+        },
+        {
+          "name": "Step 2",
+          "text": "The calculator verifies the triangle is valid (sum of any two sides greater than the third)"
+        },
+        {
+          "name": "Step 3",
+          "text": "The semi-perimeter (s) = (a+b+c)/2 is calculated"
+        },
+        {
+          "name": "Step 4",
+          "text": "Heron's formula is applied to calculate the area"
+        },
+        {
+          "name": "Step 5",
+          "text": "Angles are calculated using the law of cosines"
+        }
       ]
     },
     "useCases": [
@@ -66,10 +81,22 @@
       "formula": "Area = pi × r², Circumference = 2 × pi × r",
       "explanation": "Calculate all circle properties from any single known value - radius, diameter, circumference, or area. All values are mathematically related through pi.",
       "steps": [
-        "Select which value you know",
-        "Enter the known measurement",
-        "Click Calculate to see all circle properties",
-        "View radius, diameter, circumference, and area"
+        {
+          "name": "Step 1",
+          "text": "Select which value you know"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the known measurement"
+        },
+        {
+          "name": "Step 3",
+          "text": "Click Calculate to see all circle properties"
+        },
+        {
+          "name": "Step 4",
+          "text": "View radius, diameter, circumference, and area"
+        }
       ]
     },
     "useCases": [
@@ -122,11 +149,26 @@
       "formula": "Area = length × width, Perimeter = 2(length + width)",
       "explanation": "Calculate rectangle properties from length and width measurements, including area, perimeter, and diagonal length using the Pythagorean theorem.",
       "steps": [
-        "Enter the length of the rectangle (the longer side)",
-        "Enter the width of the rectangle (the shorter side)",
-        "The calculator computes the area by multiplying length by width",
-        "The perimeter is calculated by summing all four sides",
-        "The diagonal is calculated using the Pythagorean theorem"
+        {
+          "name": "Step 1",
+          "text": "Enter the length of the rectangle (the longer side)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the width of the rectangle (the shorter side)"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator computes the area by multiplying length by width"
+        },
+        {
+          "name": "Step 4",
+          "text": "The perimeter is calculated by summing all four sides"
+        },
+        {
+          "name": "Step 5",
+          "text": "The diagonal is calculated using the Pythagorean theorem"
+        }
       ]
     },
     "useCases": [
@@ -179,11 +221,26 @@
       "formula": "Area = base × height, Perimeter = 2(base + side)",
       "explanation": "Calculate parallelogram properties using base, side, and height measurements. The height must be perpendicular to the base.",
       "steps": [
-        "Enter the base length",
-        "Enter the side length (for calculating perimeter)",
-        "Enter the perpendicular height (for calculating area)",
-        "The calculator computes the area by multiplying base by height",
-        "The perimeter is calculated by summing the lengths of all four sides"
+        {
+          "name": "Step 1",
+          "text": "Enter the base length"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the side length (for calculating perimeter)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the perpendicular height (for calculating area)"
+        },
+        {
+          "name": "Step 4",
+          "text": "The calculator computes the area by multiplying base by height"
+        },
+        {
+          "name": "Step 5",
+          "text": "The perimeter is calculated by summing the lengths of all four sides"
+        }
       ]
     },
     "useCases": [
@@ -236,11 +293,26 @@
       "formula": "Distance = sqrt((x2-x1)² + (y2-y1)²), Slope = (y2-y1)/(x2-x1)",
       "explanation": "Calculate relationships between points on a coordinate plane including distance, midpoint, and slope using fundamental coordinate geometry formulas.",
       "steps": [
-        "Enter the coordinates of the first point (x1, y1)",
-        "Enter the coordinates of the second point (x2, y2)",
-        "The calculator computes the distance using the distance formula",
-        "The midpoint is calculated by averaging the coordinates",
-        "The slope is calculated by dividing the difference in y by the difference in x"
+        {
+          "name": "Step 1",
+          "text": "Enter the coordinates of the first point (x1, y1)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the coordinates of the second point (x2, y2)"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator computes the distance using the distance formula"
+        },
+        {
+          "name": "Step 4",
+          "text": "The midpoint is calculated by averaging the coordinates"
+        },
+        {
+          "name": "Step 5",
+          "text": "The slope is calculated by dividing the difference in y by the difference in x"
+        }
       ]
     },
     "useCases": [
@@ -293,10 +365,22 @@
       "formula": "B(t) = (1-t)²P0 + 2(1-t)tP1 + t²P2 (Quadratic)",
       "explanation": "Calculate points along Bezier curves using control points. The parameter t ranges from 0 (start) to 1 (end) and determines position along the curve.",
       "steps": [
-        "Select curve type (Quadratic or Cubic)",
-        "Enter control point coordinates",
-        "Set the parameter t value (0 to 1)",
-        "View the calculated point on the curve"
+        {
+          "name": "Step 1",
+          "text": "Select curve type (Quadratic or Cubic)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter control point coordinates"
+        },
+        {
+          "name": "Step 3",
+          "text": "Set the parameter t value (0 to 1)"
+        },
+        {
+          "name": "Step 4",
+          "text": "View the calculated point on the curve"
+        }
       ]
     },
     "useCases": [
@@ -349,10 +433,22 @@
       "formula": "r = sqrt(x² + y²), theta = atan2(y, x) for Cartesian to Polar",
       "explanation": "Convert points between Cartesian (x, y) and Polar (r, theta) coordinate systems using trigonometric relationships.",
       "steps": [
-        "Select conversion direction",
-        "Enter coordinates in the source system",
-        "Choose angle unit (degrees or radians)",
-        "View converted coordinates"
+        {
+          "name": "Step 1",
+          "text": "Select conversion direction"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter coordinates in the source system"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose angle unit (degrees or radians)"
+        },
+        {
+          "name": "Step 4",
+          "text": "View converted coordinates"
+        }
       ]
     },
     "useCases": [

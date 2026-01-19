@@ -61,11 +61,26 @@
       "formula": "Monthly Payment = [r × P × (1+r)^n] / [(1+r)^n - 1]",
       "explanation": "This calculator uses the standard amortization formula to calculate your monthly payments. Where (r) is the monthly interest rate, (P) is the loan amount, and (n) is the number of payments.",
       "steps": [
-        "Enter the total loan amount you need",
-        "Specify the expected annual interest rate",
-        "Choose the loan term in years",
-        "Add the down payment if applicable",
-        "Enter taxes and insurance for a complete picture"
+        {
+          "name": "Step 1",
+          "text": "Enter the total loan amount you need"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify the expected annual interest rate"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose the loan term in years"
+        },
+        {
+          "name": "Step 4",
+          "text": "Add the down payment if applicable"
+        },
+        {
+          "name": "Step 5",
+          "text": "Enter taxes and insurance for a complete picture"
+        }
       ]
     },
     "useCases": [
@@ -143,10 +158,22 @@
       "formula": "Cap Rate = (Net Operating Income / Property Value) × 100",
       "explanation": "The capitalization rate measures the expected annual return from an investment property by dividing net operating income by property value.",
       "steps": [
-        "Enter the property's market value or purchase price",
-        "Specify the gross annual rental income",
-        "Enter annual operating expenses",
-        "The calculator computes NOI and cap rate"
+        {
+          "name": "Step 1",
+          "text": "Enter the property's market value or purchase price"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify the gross annual rental income"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter annual operating expenses"
+        },
+        {
+          "name": "Step 4",
+          "text": "The calculator computes NOI and cap rate"
+        }
       ]
     },
     "useCases": [
@@ -209,9 +236,18 @@
       "formula": "Capital Gain = Sale Price - Purchase Price - Improvement Costs",
       "explanation": "This tool calculates the profit from selling a property and the tax due based on the difference between sale and purchase prices.",
       "steps": [
-        "Enter the original purchase price of the property",
-        "Enter the actual or expected sale price",
-        "The calculator determines the capital gain and estimated tax"
+        {
+          "name": "Step 1",
+          "text": "Enter the original purchase price of the property"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the actual or expected sale price"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator determines the capital gain and estimated tax"
+        }
       ]
     },
     "useCases": [
@@ -269,9 +305,18 @@
       "formula": "Cash-on-Cash Return = (Annual Cash Flow / Total Cash Invested) × 100",
       "explanation": "This calculator measures the actual annual return on the cash you've invested in the property, helping you evaluate investment efficiency.",
       "steps": [
-        "Calculate total cash invested (down payment + closing + repairs)",
-        "Determine annual cash flow after expenses",
-        "The calculator gives you the return percentage on your cash investment"
+        {
+          "name": "Step 1",
+          "text": "Calculate total cash invested (down payment + closing + repairs)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Determine annual cash flow after expenses"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator gives you the return percentage on your cash investment"
+        }
       ]
     },
     "useCases": [
@@ -365,10 +410,22 @@
       "formula": "Closing Costs = Title Fees + Appraisal + Attorney + Recording + Transfer Tax + Lender Fees",
       "explanation": "This calculator aggregates all fees associated with completing a property purchase to give you a clear picture of cash needed.",
       "steps": [
-        "Enter purchase price and loan amount",
-        "Specify various fees (title, appraisal, attorney)",
-        "Enter tax and fee rates",
-        "Get total closing costs estimate"
+        {
+          "name": "Step 1",
+          "text": "Enter purchase price and loan amount"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify various fees (title, appraisal, attorney)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter tax and fee rates"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get total closing costs estimate"
+        }
       ]
     },
     "useCases": [
@@ -430,9 +487,18 @@
       "formula": "Property Value = Net Operating Income / Cap Rate",
       "explanation": "This calculator uses the income approach to value commercial properties by dividing net operating income by the prevailing market cap rate.",
       "steps": [
-        "Calculate annual net operating income",
-        "Determine the appropriate market cap rate",
-        "The calculator gives you the estimated property value"
+        {
+          "name": "Step 1",
+          "text": "Calculate annual net operating income"
+        },
+        {
+          "name": "Step 2",
+          "text": "Determine the appropriate market cap rate"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator gives you the estimated property value"
+        }
       ]
     },
     "useCases": [
@@ -486,9 +552,18 @@
       "formula": "Cost per Unit = Total Price / Total Area",
       "explanation": "This calculator divides the property price by its area to give you the cost per square meter or square foot.",
       "steps": [
-        "Enter the total property price",
-        "Enter the total area",
-        "Get the cost per area unit"
+        {
+          "name": "Step 1",
+          "text": "Enter the total property price"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the total area"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get the cost per area unit"
+        }
       ]
     },
     "useCases": [
@@ -550,9 +625,18 @@
       "formula": "Total Lease Value = Monthly Rent × Lease Term",
       "explanation": "This tool calculates your total financial commitment over the lease term to help with comparison and planning.",
       "steps": [
-        "Enter the monthly rent amount",
-        "Specify lease term in months",
-        "Get total lease value and annual cost"
+        {
+          "name": "Step 1",
+          "text": "Enter the monthly rent amount"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify lease term in months"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get total lease value and annual cost"
+        }
       ]
     },
     "useCases": [
@@ -616,9 +700,18 @@
       "formula": "DTI = (Total Monthly Debt Payments / Gross Monthly Income) × 100",
       "explanation": "This ratio measures how much of your monthly income goes to debt payments, a key metric used by lenders.",
       "steps": [
-        "Enter your gross monthly income before taxes",
-        "Enter total monthly debt payments",
-        "The calculator gives you your DTI ratio and qualification assessment"
+        {
+          "name": "Step 1",
+          "text": "Enter your gross monthly income before taxes"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter total monthly debt payments"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator gives you your DTI ratio and qualification assessment"
+        }
       ]
     },
     "useCases": [
@@ -687,9 +780,18 @@
       "formula": "Annual Maintenance Cost = Home Value × 1-4%",
       "explanation": "This calculator uses common rules of thumb to estimate what you should save annually for maintenance and repairs.",
       "steps": [
-        "Enter the current market value of the home",
-        "Enter the age of the home in years",
-        "Get estimated annual and monthly maintenance costs"
+        {
+          "name": "Step 1",
+          "text": "Enter the current market value of the home"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the age of the home in years"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get estimated annual and monthly maintenance costs"
+        }
       ]
     },
     "useCases": [
@@ -777,10 +879,22 @@
       "formula": "Value = (Area × Price per Unit) × Adjustment Factors",
       "explanation": "This estimator calculates an approximate value based on area and market price, with adjustments for condition, location, and age.",
       "steps": [
-        "Enter property area and price per unit in the area",
-        "Specify property age and condition",
-        "Choose location quality",
-        "Get estimated market value"
+        {
+          "name": "Step 1",
+          "text": "Enter property area and price per unit in the area"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify property age and condition"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose location quality"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get estimated market value"
+        }
       ]
     },
     "useCases": [
@@ -859,10 +973,22 @@
       "formula": "Maximum Payment = Monthly Income × 28-36%",
       "explanation": "This calculator uses standard lender rules to determine the maximum home price you can afford based on your income and debts.",
       "steps": [
-        "Enter your gross annual income",
-        "Enter your current monthly debts",
-        "Specify down payment and interest rate",
-        "Get maximum home price that fits your budget"
+        {
+          "name": "Step 1",
+          "text": "Enter your gross annual income"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your current monthly debts"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify down payment and interest rate"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get maximum home price that fits your budget"
+        }
       ]
     },
     "useCases": [
@@ -928,9 +1054,18 @@
       "formula": "Available HELOC = (Home Value × 80-90%) - Mortgage Balance",
       "explanation": "This tool calculates how much home equity you can borrow against through a HELOC line of credit.",
       "steps": [
-        "Enter the current market value of your home",
-        "Enter remaining mortgage balance",
-        "Get the maximum HELOC amount available"
+        {
+          "name": "Step 1",
+          "text": "Enter the current market value of your home"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter remaining mortgage balance"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get the maximum HELOC amount available"
+        }
       ]
     },
     "useCases": [
@@ -1132,9 +1267,18 @@
       "formula": "Annual PMI = Loan Amount × PMI Rate",
       "explanation": "This tool calculates the cost of private mortgage insurance required when your down payment is less than 20%.",
       "steps": [
-        "Enter home price and down payment",
-        "Specify PMI rate (typically 0.3-1.5%)",
-        "Get monthly and annual PMI costs"
+        {
+          "name": "Step 1",
+          "text": "Enter home price and down payment"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify PMI rate (typically 0.3-1.5%)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get monthly and annual PMI costs"
+        }
       ]
     },
     "useCases": [
@@ -1209,11 +1353,26 @@
       "formula": "Profit = Selling Price - (Purchase Price + Renovation + Holding Costs)",
       "explanation": "This tool calculates potential profit from buying, renovating, and reselling a property at a higher price.",
       "steps": [
-        "Enter expected purchase price",
-        "Estimate renovation and repair costs",
-        "Specify expected selling price (ARV)",
-        "Add holding costs (taxes, insurance, utilities)",
-        "Get estimated profit and ROI"
+        {
+          "name": "Step 1",
+          "text": "Enter expected purchase price"
+        },
+        {
+          "name": "Step 2",
+          "text": "Estimate renovation and repair costs"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify expected selling price (ARV)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Add holding costs (taxes, insurance, utilities)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Get estimated profit and ROI"
+        }
       ]
     },
     "useCases": [
@@ -1303,10 +1462,22 @@
       "formula": "Break-Even = Closing Costs / Monthly Savings",
       "explanation": "This tool compares your current loan to a potential new loan to determine if refinancing makes financial sense.",
       "steps": [
-        "Enter current loan details (balance, rate, payment)",
-        "Specify expected new interest rate",
-        "Enter refinancing closing costs",
-        "Get monthly savings and break-even point"
+        {
+          "name": "Step 1",
+          "text": "Enter current loan details (balance, rate, payment)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify expected new interest rate"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter refinancing closing costs"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get monthly savings and break-even point"
+        }
       ]
     },
     "useCases": [
@@ -1373,9 +1544,18 @@
       "formula": "Net Income = Gross Rental Income - Operating Expenses",
       "explanation": "This tool calculates your net rental income after deducting all operating expenses.",
       "steps": [
-        "Enter expected monthly rent",
-        "Add any additional income (parking, laundry, etc.)",
-        "Get total annual and monthly income"
+        {
+          "name": "Step 1",
+          "text": "Enter expected monthly rent"
+        },
+        {
+          "name": "Step 2",
+          "text": "Add any additional income (parking, laundry, etc.)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get total annual and monthly income"
+        }
       ]
     },
     "useCases": [
@@ -1447,10 +1627,22 @@
       "formula": "Gross Yield = (Annual Rent / Property Price) × 100",
       "explanation": "This tool calculates the annual return from rent as a percentage of property value, both gross and net.",
       "steps": [
-        "Enter purchase price or market value",
-        "Specify expected monthly rent",
-        "Enter annual expenses for net yield",
-        "Get gross and net yield percentages"
+        {
+          "name": "Step 1",
+          "text": "Enter purchase price or market value"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify expected monthly rent"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter annual expenses for net yield"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get gross and net yield percentages"
+        }
       ]
     },
     "useCases": [
@@ -1513,9 +1705,18 @@
       "formula": "Recommended Deposit = Monthly Rent × 1-2",
       "explanation": "This tool estimates an appropriate security deposit based on monthly rent and other factors.",
       "steps": [
-        "Enter monthly rent amount",
-        "Add credit score if available",
-        "Get recommended deposit amount"
+        {
+          "name": "Step 1",
+          "text": "Enter monthly rent amount"
+        },
+        {
+          "name": "Step 2",
+          "text": "Add credit score if available"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get recommended deposit amount"
+        }
       ]
     },
     "useCases": [
@@ -1583,9 +1784,18 @@
       "formula": "Vacancy Rate = (Vacant Days / 365) × 100",
       "explanation": "This tool calculates the percentage of time your property is unoccupied and its impact on income.",
       "steps": [
-        "Enter monthly rent for the property",
-        "Specify expected vacant days per year",
-        "Get vacancy rate and lost income"
+        {
+          "name": "Step 1",
+          "text": "Enter monthly rent for the property"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify expected vacant days per year"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get vacancy rate and lost income"
+        }
       ]
     },
     "useCases": [
@@ -1653,9 +1863,18 @@
       "formula": "Annual Tax = Assessed Value × Tax Rate",
       "explanation": "This tool calculates annual property tax based on the assessed value and local tax rate.",
       "steps": [
-        "Enter the assessed value for tax purposes",
-        "Specify the property tax rate in your area",
-        "Get annual tax and monthly escrow amounts"
+        {
+          "name": "Step 1",
+          "text": "Enter the assessed value for tax purposes"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify the property tax rate in your area"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get annual tax and monthly escrow amounts"
+        }
       ]
     },
     "useCases": [
@@ -1730,11 +1949,26 @@
       "formula": "ROI = [(Selling Price - Purchase Price + Rental Income) / Total Investment] × 100",
       "explanation": "This tool calculates total return on your real estate investment, including appreciation and rental income.",
       "steps": [
-        "Enter original purchase price",
-        "Enter selling price (actual or expected)",
-        "Specify total cash invested",
-        "Add accumulated net rental income",
-        "Get total ROI"
+        {
+          "name": "Step 1",
+          "text": "Enter original purchase price"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter selling price (actual or expected)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify total cash invested"
+        },
+        {
+          "name": "Step 4",
+          "text": "Add accumulated net rental income"
+        },
+        {
+          "name": "Step 5",
+          "text": "Get total ROI"
+        }
       ]
     },
     "useCases": [
@@ -1849,10 +2083,22 @@
       "formula": "Buying Cost = (Mortgage + Taxes + Insurance + Maintenance) - (Appreciation + Tax Benefits)",
       "explanation": "This tool compares total costs of renting versus buying over years to help you make the decision.",
       "steps": [
-        "Enter buying scenario details",
-        "Enter renting scenario details",
-        "Specify expected increase rates",
-        "Compare costs over 5-15 years"
+        {
+          "name": "Step 1",
+          "text": "Enter buying scenario details"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter renting scenario details"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify expected increase rates"
+        },
+        {
+          "name": "Step 4",
+          "text": "Compare costs over 5-15 years"
+        }
       ]
     },
     "useCases": [
@@ -1934,9 +2180,18 @@
       "formula": "Down Payment = Home Price × Down Payment Percentage",
       "explanation": "This tool calculates the required down payment amount and shows its impact on loan amount and PMI.",
       "steps": [
-        "Enter the desired home price",
-        "Specify desired down payment percentage",
-        "Get down payment amount, loan amount, and LTV ratio"
+        {
+          "name": "Step 1",
+          "text": "Enter the desired home price"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify desired down payment percentage"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get down payment amount, loan amount, and LTV ratio"
+        }
       ]
     },
     "useCases": [
@@ -2014,10 +2269,22 @@
       "formula": "NOI = Effective Gross Income - Operating Expenses",
       "explanation": "This tool calculates net operating income for a property, a fundamental metric for real estate performance.",
       "steps": [
-        "Enter gross annual rental income",
-        "Specify expected vacancy rate",
-        "Enter annual operating expenses",
-        "Get net operating income"
+        {
+          "name": "Step 1",
+          "text": "Enter gross annual rental income"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify expected vacancy rate"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter annual operating expenses"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get net operating income"
+        }
       ]
     },
     "useCases": [
@@ -2088,9 +2355,18 @@
       "formula": "GRM = Property Price / Annual Gross Rent",
       "explanation": "The Gross Rent Multiplier measures how many years of rent it takes to recover the property price, without accounting for expenses.",
       "steps": [
-        "Enter purchase price or market value",
-        "Enter expected annual gross rent",
-        "Get GRM for comparison"
+        {
+          "name": "Step 1",
+          "text": "Enter purchase price or market value"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter expected annual gross rent"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get GRM for comparison"
+        }
       ]
     },
     "useCases": [
@@ -2147,8 +2423,14 @@
       "formula": "Annual Cost = Monthly Fee × 12",
       "explanation": "This tool calculates total HOA fees monthly and annually to help you budget for housing costs.",
       "steps": [
-        "Enter monthly fee paid to association",
-        "Get total annual cost"
+        {
+          "name": "Step 1",
+          "text": "Enter monthly fee paid to association"
+        },
+        {
+          "name": "Step 2",
+          "text": "Get total annual cost"
+        }
       ]
     },
     "useCases": [
@@ -2213,11 +2495,26 @@
       "formula": "Home Equity = Current Market Value - Remaining Mortgage Balance",
       "explanation": "This calculator determines how much of your home you actually own by subtracting your outstanding mortgage balance from your property's current market value. It also calculates your loan-to-value ratio (LTV) and potential HELOC availability.",
       "steps": [
-        "Enter your home's current market value based on recent appraisals or comparable sales",
-        "Input your remaining mortgage balance from your latest statement",
-        "The calculator subtracts the mortgage from the value to find your equity",
-        "LTV ratio is calculated to show what percentage of your home is still mortgaged",
-        "Potential HELOC amount is estimated based on 85% LTV lending limits"
+        {
+          "name": "Step 1",
+          "text": "Enter your home's current market value based on recent appraisals or comparable sales"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input your remaining mortgage balance from your latest statement"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator subtracts the mortgage from the value to find your equity"
+        },
+        {
+          "name": "Step 4",
+          "text": "LTV ratio is calculated to show what percentage of your home is still mortgaged"
+        },
+        {
+          "name": "Step 5",
+          "text": "Potential HELOC amount is estimated based on 85% LTV lending limits"
+        }
       ]
     },
     "useCases": [

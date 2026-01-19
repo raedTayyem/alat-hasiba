@@ -38,10 +38,22 @@
       "formula": "CO₂ = Amount × Emission Factor (varies by fuel type)",
       "explanation": "This calculator converts your energy consumption or fuel usage into equivalent CO₂ emissions using standardized emission factors for each fuel type.",
       "steps": [
-        "Select the activity or fuel type from the dropdown",
-        "Enter the amount consumed in the specified unit",
-        "Click Calculate to see your CO₂ emissions",
-        "View the equivalent number of trees needed to offset emissions"
+        {
+          "name": "Step 1",
+          "text": "Select the activity or fuel type from the dropdown"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the amount consumed in the specified unit"
+        },
+        {
+          "name": "Step 3",
+          "text": "Click Calculate to see your CO₂ emissions"
+        },
+        {
+          "name": "Step 4",
+          "text": "View the equivalent number of trees needed to offset emissions"
+        }
       ]
     },
     "useCases": [
@@ -119,11 +131,26 @@
       "formula": "CO₂ = Distance (km) × Emission factor × Class multiplier × Passengers",
       "explanation": "This calculator estimates CO₂ emissions from flights based on distance, travel class, and radiative forcing factor that accounts for emissions released at high altitude.",
       "steps": [
-        "Select your travel class (economy to first)",
-        "Enter the flight distance in kilometers",
-        "Enter the number of passengers",
-        "Click Calculate to see total emissions",
-        "View offset cost and comparison data"
+        {
+          "name": "Step 1",
+          "text": "Select your travel class (economy to first)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the flight distance in kilometers"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the number of passengers"
+        },
+        {
+          "name": "Step 4",
+          "text": "Click Calculate to see total emissions"
+        },
+        {
+          "name": "Step 5",
+          "text": "View offset cost and comparison data"
+        }
       ]
     },
     "useCases": [
@@ -212,11 +239,26 @@
       "formula": "Annual CO₂ Savings = (Current mode emissions - Alternative mode emissions) × Distance × 2 × Days × 52",
       "explanation": "This calculator compares the environmental impact and costs of your current commute method against a greener alternative, calculating annual savings in CO₂, money, and health benefits.",
       "steps": [
-        "Enter your one-way commute distance in kilometers",
-        "Select your current transportation mode",
-        "Select an alternative green mode to compare",
-        "Enter the number of commute days per week",
-        "Click Calculate to see annual savings"
+        {
+          "name": "Step 1",
+          "text": "Enter your one-way commute distance in kilometers"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select your current transportation mode"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select an alternative green mode to compare"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter the number of commute days per week"
+        },
+        {
+          "name": "Step 5",
+          "text": "Click Calculate to see annual savings"
+        }
       ]
     },
     "useCases": [
@@ -301,11 +343,26 @@
       "formula": "Total CO₂ = Distance × Base factor × Class multiplier × Radiative forcing (1.9)",
       "explanation": "This calculator estimates flight emissions using ICAO methodology, factoring in distance, travel class space allocation, and the enhanced climate impact of high-altitude emissions.",
       "steps": [
-        "Select your travel class from the dropdown",
-        "Enter the total flight distance in kilometers",
-        "Enter the number of passengers traveling",
-        "Click Calculate to see total and per-passenger emissions",
-        "View offset requirements and costs"
+        {
+          "name": "Step 1",
+          "text": "Select your travel class from the dropdown"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the total flight distance in kilometers"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the number of passengers traveling"
+        },
+        {
+          "name": "Step 4",
+          "text": "Click Calculate to see total and per-passenger emissions"
+        },
+        {
+          "name": "Step 5",
+          "text": "View offset requirements and costs"
+        }
       ]
     },
     "useCases": [
@@ -384,11 +441,26 @@
       "formula": "CO₂ = Distance (km) × Fuel consumption (L/100km) × Emission factor × 0.01",
       "explanation": "This calculator estimates your vehicle's CO₂ emissions based on the fuel type, fuel consumption rate, and distance traveled using standard emission factors for each fuel type.",
       "steps": [
-        "Select your vehicle's fuel type",
-        "Enter your fuel consumption in liters per 100 km",
-        "Enter the distance you want to calculate emissions for",
-        "Click Calculate to see CO₂ emissions",
-        "View fuel cost and tree offset requirements"
+        {
+          "name": "Step 1",
+          "text": "Select your vehicle's fuel type"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your fuel consumption in liters per 100 km"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the distance you want to calculate emissions for"
+        },
+        {
+          "name": "Step 4",
+          "text": "Click Calculate to see CO₂ emissions"
+        },
+        {
+          "name": "Step 5",
+          "text": "View fuel cost and tree offset requirements"
+        }
       ]
     },
     "useCases": [

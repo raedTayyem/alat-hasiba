@@ -65,11 +65,26 @@
       "formula": "Roof Area = Base Area × Pitch Factor",
       "explanation": "This calculator determines actual roof area by applying a pitch factor to the base footprint. It then calculates shingle bundles, underlayment rolls, and ridge cap needed.",
       "steps": [
-        "Enter roof length and width (footprint dimensions)",
-        "Select or enter roof pitch (rise:run ratio)",
-        "Add ridge length for ridge cap calculation",
-        "Set waste factor for cuts and overlaps",
-        "Review squares, bundles, and materials needed"
+        {
+          "name": "Step 1",
+          "text": "Enter roof length and width (footprint dimensions)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select or enter roof pitch (rise:run ratio)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Add ridge length for ridge cap calculation"
+        },
+        {
+          "name": "Step 4",
+          "text": "Set waste factor for cuts and overlaps"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review squares, bundles, and materials needed"
+        }
       ]
     },
     "useCases": [
@@ -189,11 +204,26 @@
       "formula": "Pitch = Rise:Run; Angle = arctan(Rise/Run)",
       "explanation": "This calculator converts rise and run measurements into pitch ratio, slope angle, and pitch factor. Understanding roof pitch is essential for material selection and drainage planning.",
       "steps": [
-        "Enter the vertical rise measurement",
-        "Enter the horizontal run measurement",
-        "Review pitch ratio (rise:12 format)",
-        "Check slope angle in degrees",
-        "Use pitch factor for area calculations"
+        {
+          "name": "Step 1",
+          "text": "Enter the vertical rise measurement"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the horizontal run measurement"
+        },
+        {
+          "name": "Step 3",
+          "text": "Review pitch ratio (rise:12 format)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Check slope angle in degrees"
+        },
+        {
+          "name": "Step 5",
+          "text": "Use pitch factor for area calculations"
+        }
       ]
     },
     "useCases": [
@@ -314,11 +344,26 @@
       "formula": "Bundles = (Roof Area / 100) × Bundles per Square × (1 + Waste)",
       "explanation": "This calculator converts roof area to roofing squares and calculates bundle quantities based on shingle type. It includes starter strips, ridge caps, underlayment, and drip edge.",
       "steps": [
-        "Enter total roof area in square feet",
-        "Select shingle type for correct bundle coverage",
-        "Add ridge and hip length for cap shingles",
-        "Set waste factor (15% for complex roofs)",
-        "Review bundles and accessories needed"
+        {
+          "name": "Step 1",
+          "text": "Enter total roof area in square feet"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select shingle type for correct bundle coverage"
+        },
+        {
+          "name": "Step 3",
+          "text": "Add ridge and hip length for cap shingles"
+        },
+        {
+          "name": "Step 4",
+          "text": "Set waste factor (15% for complex roofs)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review bundles and accessories needed"
+        }
       ]
     },
     "useCases": [
@@ -448,11 +493,26 @@
       "formula": "Batts = Total Area / Coverage per Batt",
       "explanation": "This calculator determines insulation quantity by dividing total area by individual batt coverage. It calculates R-value based on insulation type and thickness.",
       "steps": [
-        "Enter total area to be insulated",
-        "Select insulation type",
-        "Specify batt dimensions and thickness",
-        "Add waste factor for cuts around obstacles",
-        "Review batts, rolls, and R-value achieved"
+        {
+          "name": "Step 1",
+          "text": "Enter total area to be insulated"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select insulation type"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify batt dimensions and thickness"
+        },
+        {
+          "name": "Step 4",
+          "text": "Add waste factor for cuts around obstacles"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review batts, rolls, and R-value achieved"
+        }
       ]
     },
     "useCases": [

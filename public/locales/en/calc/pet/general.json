@@ -35,10 +35,22 @@
       "formula": "Volume (L) = Length × Width × Height / 1000",
       "explanation": "This calculator determines your aquarium's water volume and recommends the appropriate number of fish based on the one-inch-per-gallon rule, adjusted for fish size.",
       "steps": [
-        "Enter your tank's length, width, and height in centimeters",
-        "Select the average size of fish you plan to keep",
-        "Click Calculate to see volume in liters and gallons",
-        "Review recommended fish capacity and equipment sizing"
+        {
+          "name": "Step 1",
+          "text": "Enter your tank's length, width, and height in centimeters"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the average size of fish you plan to keep"
+        },
+        {
+          "name": "Step 3",
+          "text": "Click Calculate to see volume in liters and gallons"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review recommended fish capacity and equipment sizing"
+        }
       ]
     },
     "useCases": [
@@ -119,10 +131,22 @@
       "formula": "Volume (L) = Length × Width × Height / 1000",
       "explanation": "This calculator determines your aquarium's water volume and recommends the appropriate number of fish based on the one-inch-per-gallon rule, adjusted for fish size.",
       "steps": [
-        "Enter your tank's length, width, and height in centimeters",
-        "Select the average size of fish you plan to keep",
-        "Click Calculate to see volume in liters and gallons",
-        "Review recommended fish capacity and equipment sizing"
+        {
+          "name": "Step 1",
+          "text": "Enter your tank's length, width, and height in centimeters"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the average size of fish you plan to keep"
+        },
+        {
+          "name": "Step 3",
+          "text": "Click Calculate to see volume in liters and gallons"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review recommended fish capacity and equipment sizing"
+        }
       ]
     },
     "useCases": [
@@ -194,10 +218,22 @@
       "formula": "Minimum cage size based on bird wingspan × 2-3 times",
       "explanation": "This calculator recommends minimum cage dimensions based on bird species and quantity, ensuring adequate space for flight, exercise, and mental stimulation.",
       "steps": [
-        "Select your bird species from the dropdown menu",
-        "Enter the number of birds you plan to house together",
-        "Click Calculate to see minimum cage dimensions",
-        "Review bar spacing and perch diameter recommendations"
+        {
+          "name": "Step 1",
+          "text": "Select your bird species from the dropdown menu"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the number of birds you plan to house together"
+        },
+        {
+          "name": "Step 3",
+          "text": "Click Calculate to see minimum cage dimensions"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review bar spacing and perch diameter recommendations"
+        }
       ]
     },
     "useCases": [
@@ -270,10 +306,22 @@
       "formula": "Minimum cage size based on bird wingspan × 2-3 times",
       "explanation": "This calculator recommends minimum cage dimensions based on bird species and quantity, ensuring adequate space for flight, exercise, and mental stimulation.",
       "steps": [
-        "Select your bird species from the dropdown menu",
-        "Enter the number of birds you plan to house together",
-        "Click Calculate to see minimum cage dimensions",
-        "Review bar spacing and perch diameter recommendations"
+        {
+          "name": "Step 1",
+          "text": "Select your bird species from the dropdown menu"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the number of birds you plan to house together"
+        },
+        {
+          "name": "Step 3",
+          "text": "Click Calculate to see minimum cage dimensions"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review bar spacing and perch diameter recommendations"
+        }
       ]
     },
     "useCases": [
@@ -532,10 +580,22 @@
       "formula": "Daily needs based on body weight and size category",
       "explanation": "This calculator determines optimal diet portions and housing requirements for rabbits based on their size, ensuring proper nutrition and living space.",
       "steps": [
-        "Enter your rabbit's weight",
-        "Select their size category",
-        "View daily hay, pellet, and vegetable amounts",
-        "Check minimum hutch dimensions"
+        {
+          "name": "Step 1",
+          "text": "Enter your rabbit's weight"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select their size category"
+        },
+        {
+          "name": "Step 3",
+          "text": "View daily hay, pellet, and vegetable amounts"
+        },
+        {
+          "name": "Step 4",
+          "text": "Check minimum hutch dimensions"
+        }
       ]
     },
     "useCases": [
@@ -618,10 +678,22 @@
       "formula": "Daily needs based on body weight and size category",
       "explanation": "This calculator determines optimal diet portions and housing requirements for rabbits based on their size, ensuring proper nutrition and living space.",
       "steps": [
-        "Enter your rabbit's weight",
-        "Select their size category",
-        "View daily hay, pellet, and vegetable amounts",
-        "Check minimum hutch dimensions"
+        {
+          "name": "Step 1",
+          "text": "Enter your rabbit's weight"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select their size category"
+        },
+        {
+          "name": "Step 3",
+          "text": "View daily hay, pellet, and vegetable amounts"
+        },
+        {
+          "name": "Step 4",
+          "text": "Check minimum hutch dimensions"
+        }
       ]
     },
     "useCases": [
@@ -687,10 +759,22 @@
       "formula": "Tank size = Species requirements + Adult size considerations",
       "explanation": "This calculator recommends terrarium dimensions, heating, and humidity requirements based on reptile species, ensuring proper husbandry for your pet.",
       "steps": [
-        "Select your reptile species",
-        "Enter the reptile's size or age",
-        "View recommended tank dimensions",
-        "Check temperature, humidity, and lighting requirements"
+        {
+          "name": "Step 1",
+          "text": "Select your reptile species"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the reptile's size or age"
+        },
+        {
+          "name": "Step 3",
+          "text": "View recommended tank dimensions"
+        },
+        {
+          "name": "Step 4",
+          "text": "Check temperature, humidity, and lighting requirements"
+        }
       ]
     },
     "useCases": [
@@ -755,10 +839,22 @@
       "formula": "Tank size = Species requirements + Adult size considerations",
       "explanation": "This calculator recommends terrarium dimensions, heating, and humidity requirements based on reptile species, ensuring proper husbandry for your pet.",
       "steps": [
-        "Select your reptile species",
-        "Enter the reptile's size or age",
-        "View recommended tank dimensions",
-        "Check temperature, humidity, and lighting requirements"
+        {
+          "name": "Step 1",
+          "text": "Select your reptile species"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the reptile's size or age"
+        },
+        {
+          "name": "Step 3",
+          "text": "View recommended tank dimensions"
+        },
+        {
+          "name": "Step 4",
+          "text": "Check temperature, humidity, and lighting requirements"
+        }
       ]
     },
     "useCases": [

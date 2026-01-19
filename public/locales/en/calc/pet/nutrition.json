@@ -48,11 +48,26 @@
       "formula": "RER = 70 × (body weight in kg)^0.75, then multiply by activity factor",
       "explanation": "This calculator determines your cat's daily energy needs based on weight, activity level, body condition, and neuter status using the Resting Energy Requirement formula.",
       "steps": [
-        "Enter your cat's weight in kilograms",
-        "Select the activity level that best describes your cat",
-        "Choose the body condition score",
-        "Indicate if your cat is neutered or spayed",
-        "View daily calorie and macronutrient recommendations"
+        {
+          "name": "Step 1",
+          "text": "Enter your cat's weight in kilograms"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the activity level that best describes your cat"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose the body condition score"
+        },
+        {
+          "name": "Step 4",
+          "text": "Indicate if your cat is neutered or spayed"
+        },
+        {
+          "name": "Step 5",
+          "text": "View daily calorie and macronutrient recommendations"
+        }
       ]
     },
     "useCases": [
@@ -146,11 +161,26 @@
       "formula": "RER = 70 × (body weight in kg)^0.75, then multiply by activity factor",
       "explanation": "This calculator determines your cat's daily energy needs based on weight, activity level, body condition, and neuter status using the Resting Energy Requirement formula.",
       "steps": [
-        "Enter your cat's weight in kilograms",
-        "Select the activity level that best describes your cat",
-        "Choose the body condition score",
-        "Indicate if your cat is neutered or spayed",
-        "View daily calorie and macronutrient recommendations"
+        {
+          "name": "Step 1",
+          "text": "Enter your cat's weight in kilograms"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the activity level that best describes your cat"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose the body condition score"
+        },
+        {
+          "name": "Step 4",
+          "text": "Indicate if your cat is neutered or spayed"
+        },
+        {
+          "name": "Step 5",
+          "text": "View daily calorie and macronutrient recommendations"
+        }
       ]
     },
     "useCases": [
@@ -240,11 +270,26 @@
       "formula": "Daily food amount based on weight, activity, age, and food type caloric density",
       "explanation": "This calculator determines the optimal daily food portion for your cat based on their specific needs and the type of food you're feeding.",
       "steps": [
-        "Enter your cat's current weight",
-        "Select their activity level",
-        "Choose their life stage (kitten, adult, senior)",
-        "Select the type of food (dry, wet, or raw)",
-        "View daily, weekly, and monthly feeding amounts"
+        {
+          "name": "Step 1",
+          "text": "Enter your cat's current weight"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select their activity level"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose their life stage (kitten, adult, senior)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select the type of food (dry, wet, or raw)"
+        },
+        {
+          "name": "Step 5",
+          "text": "View daily, weekly, and monthly feeding amounts"
+        }
       ]
     },
     "useCases": [
@@ -337,11 +382,26 @@
       "formula": "Daily food amount based on weight, activity, age, and food type caloric density",
       "explanation": "This calculator determines the optimal daily food portion for your cat based on their specific needs and the type of food you're feeding.",
       "steps": [
-        "Enter your cat's current weight",
-        "Select their activity level",
-        "Choose their life stage (kitten, adult, senior)",
-        "Select the type of food (dry, wet, or raw)",
-        "View daily, weekly, and monthly feeding amounts"
+        {
+          "name": "Step 1",
+          "text": "Enter your cat's current weight"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select their activity level"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose their life stage (kitten, adult, senior)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select the type of food (dry, wet, or raw)"
+        },
+        {
+          "name": "Step 5",
+          "text": "View daily, weekly, and monthly feeding amounts"
+        }
       ]
     },
     "useCases": [
@@ -459,11 +519,26 @@
       "formula": "RER = 70 × (body weight in kg)^0.75, then multiply by activity and condition factors",
       "explanation": "This calculator determines daily caloric needs using the Resting Energy Requirement formula, adjusted for activity level, body condition, and neuter status.",
       "steps": [
-        "Enter your dog's weight in kilograms",
-        "Select the activity level that matches your dog",
-        "Choose the current body condition",
-        "Indicate if your dog is neutered or spayed",
-        "View daily calorie and macronutrient recommendations"
+        {
+          "name": "Step 1",
+          "text": "Enter your dog's weight in kilograms"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the activity level that matches your dog"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose the current body condition"
+        },
+        {
+          "name": "Step 4",
+          "text": "Indicate if your dog is neutered or spayed"
+        },
+        {
+          "name": "Step 5",
+          "text": "View daily calorie and macronutrient recommendations"
+        }
       ]
     },
     "useCases": [
@@ -579,11 +654,26 @@
       "formula": "RER = 70 × (body weight in kg)^0.75, then multiply by activity and condition factors",
       "explanation": "This calculator determines daily caloric needs using the Resting Energy Requirement formula, adjusted for activity level, body condition, and neuter status.",
       "steps": [
-        "Enter your dog's weight in kilograms",
-        "Select the activity level that matches your dog",
-        "Choose the current body condition",
-        "Indicate if your dog is neutered or spayed",
-        "View daily calorie and macronutrient recommendations"
+        {
+          "name": "Step 1",
+          "text": "Enter your dog's weight in kilograms"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the activity level that matches your dog"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose the current body condition"
+        },
+        {
+          "name": "Step 4",
+          "text": "Indicate if your dog is neutered or spayed"
+        },
+        {
+          "name": "Step 5",
+          "text": "View daily calorie and macronutrient recommendations"
+        }
       ]
     },
     "useCases": [
@@ -675,11 +765,26 @@
       "formula": "Daily food = (Caloric needs / Food caloric density) adjusted for food type",
       "explanation": "This calculator determines optimal daily food portions based on your dog's weight, activity level, life stage, and the type of food you're feeding.",
       "steps": [
-        "Enter your dog's current weight",
-        "Select their activity level",
-        "Choose their life stage (puppy, adult, senior)",
-        "Select the type of food (dry, wet, or raw)",
-        "View daily, weekly, and monthly feeding amounts"
+        {
+          "name": "Step 1",
+          "text": "Enter your dog's current weight"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select their activity level"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose their life stage (puppy, adult, senior)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select the type of food (dry, wet, or raw)"
+        },
+        {
+          "name": "Step 5",
+          "text": "View daily, weekly, and monthly feeding amounts"
+        }
       ]
     },
     "useCases": [
@@ -772,11 +877,26 @@
       "formula": "Daily food = (Caloric needs / Food caloric density) adjusted for food type",
       "explanation": "This calculator determines optimal daily food portions based on your dog's weight, activity level, life stage, and the type of food you're feeding.",
       "steps": [
-        "Enter your dog's current weight",
-        "Select their activity level",
-        "Choose their life stage (puppy, adult, senior)",
-        "Select the type of food (dry, wet, or raw)",
-        "View daily, weekly, and monthly feeding amounts"
+        {
+          "name": "Step 1",
+          "text": "Enter your dog's current weight"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select their activity level"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose their life stage (puppy, adult, senior)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select the type of food (dry, wet, or raw)"
+        },
+        {
+          "name": "Step 5",
+          "text": "View daily, weekly, and monthly feeding amounts"
+        }
       ]
     },
     "useCases": [
@@ -864,10 +984,22 @@
       "formula": "Daily feed = 1.5-3% of body weight depending on work level",
       "explanation": "This calculator determines optimal daily feed amounts based on horse weight and work level, balancing hay, grain, and supplements for nutritional needs.",
       "steps": [
-        "Enter your horse's weight in kilograms",
-        "Select the work level (maintenance to heavy work)",
-        "Choose the feed type (hay only, mixed, or performance)",
-        "View daily hay, grain, and water recommendations"
+        {
+          "name": "Step 1",
+          "text": "Enter your horse's weight in kilograms"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the work level (maintenance to heavy work)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose the feed type (hay only, mixed, or performance)"
+        },
+        {
+          "name": "Step 4",
+          "text": "View daily hay, grain, and water recommendations"
+        }
       ]
     },
     "useCases": [
@@ -955,10 +1087,22 @@
       "formula": "Daily feed = 1.5-3% of body weight depending on work level",
       "explanation": "This calculator determines optimal daily feed amounts based on horse weight and work level, balancing hay, grain, and supplements for nutritional needs.",
       "steps": [
-        "Enter your horse's weight in kilograms",
-        "Select the work level (maintenance to heavy work)",
-        "Choose the feed type (hay only, mixed, or performance)",
-        "View daily hay, grain, and water recommendations"
+        {
+          "name": "Step 1",
+          "text": "Enter your horse's weight in kilograms"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the work level (maintenance to heavy work)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose the feed type (hay only, mixed, or performance)"
+        },
+        {
+          "name": "Step 4",
+          "text": "View daily hay, grain, and water recommendations"
+        }
       ]
     },
     "useCases": [

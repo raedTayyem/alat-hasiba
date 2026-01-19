@@ -26,10 +26,22 @@
       "title": "How the Area Converter Works",
       "description": "The area converter uses square meters as the base unit for all conversions. When you enter a value in any unit, it's first converted to square meters, then to your target unit.",
       "steps": [
-        "Enter the numerical area value",
-        "Select the source unit (the unit you're converting from)",
-        "Select the target unit (the unit you're converting to)",
-        "Get your result instantly with high precision"
+        {
+          "name": "Step 1",
+          "text": "Enter the numerical area value"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the source unit (the unit you're converting from)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the target unit (the unit you're converting to)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get your result instantly with high precision"
+        }
       ]
     },
     "useCases": {
@@ -120,10 +132,22 @@
       "title": "How the Temperature Converter Works",
       "description": "The converter uses precise mathematical formulas to convert between temperature scales. Each scale has different zero points and degree sizes.",
       "steps": [
-        "Enter the temperature value you want to convert",
-        "Select the current temperature scale (Celsius, Fahrenheit, or Kelvin)",
-        "Select the target scale you want to convert to",
-        "Get the result along with the formula used"
+        {
+          "name": "Step 1",
+          "text": "Enter the temperature value you want to convert"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the current temperature scale (Celsius, Fahrenheit, or Kelvin)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the target scale you want to convert to"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get the result along with the formula used"
+        }
       ]
     },
     "useCases": {
@@ -221,10 +245,22 @@
       "title": "How the Volume Converter Works",
       "description": "The converter uses liters as the base unit for all conversions. Your input value is first converted to liters, then to your target unit for accuracy.",
       "steps": [
-        "Enter the volume value you want to convert",
-        "Select the current volume unit from the dropdown",
-        "Select the unit you want to convert to",
-        "Get the precise result instantly"
+        {
+          "name": "Step 1",
+          "text": "Enter the volume value you want to convert"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the current volume unit from the dropdown"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the unit you want to convert to"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get the precise result instantly"
+        }
       ]
     },
     "useCases": {
@@ -313,10 +349,22 @@
       "title": "How the Speed Converter Works",
       "description": "The converter uses meters per second as the base unit. Input speeds are converted to m/s first, then to your target unit.",
       "steps": [
-        "Enter the speed value you want to convert",
-        "Select the current speed unit",
-        "Select the unit you want to convert to",
-        "Get the precise result instantly"
+        {
+          "name": "Step 1",
+          "text": "Enter the speed value you want to convert"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the current speed unit"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the unit you want to convert to"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get the precise result instantly"
+        }
       ]
     },
     "useCases": {
@@ -411,10 +459,22 @@
       "title": "How the Time Converter Works",
       "description": "The converter uses seconds as the base unit. Input time values are converted to seconds first, then to your target unit.",
       "steps": [
-        "Enter the time value you want to convert",
-        "Select the current time unit (second, minute, hour, etc.)",
-        "Select the unit you want to convert to",
-        "Get the precise result directly"
+        {
+          "name": "Step 1",
+          "text": "Enter the time value you want to convert"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the current time unit (second, minute, hour, etc.)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the unit you want to convert to"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get the precise result directly"
+        }
       ]
     },
     "useCases": {
@@ -528,11 +588,26 @@
       "title": "How the Data Storage Converter Works",
       "description": "The converter supports two modes: Binary (1024) used by operating systems, and Decimal (1000) used by drive manufacturers.",
       "steps": [
-        "Enter the data value you want to convert",
-        "Select the current data unit",
-        "Select the unit you want to convert to",
-        "Choose the conversion mode (binary or decimal)",
-        "Get the precise result"
+        {
+          "name": "Step 1",
+          "text": "Enter the data value you want to convert"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the current data unit"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the unit you want to convert to"
+        },
+        {
+          "name": "Step 4",
+          "text": "Choose the conversion mode (binary or decimal)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Get the precise result"
+        }
       ]
     },
     "useCases_detailed": {
@@ -639,10 +714,22 @@
       "title": "How the Pressure Converter Works",
       "description": "The converter uses Pascal as the base unit for all conversions. Pascal is the SI unit for pressure measurement.",
       "steps": [
-        "Enter the pressure value you want to convert",
-        "Select the current pressure unit",
-        "Select the unit you want to convert to",
-        "Get the high-precision result"
+        {
+          "name": "Step 1",
+          "text": "Enter the pressure value you want to convert"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the current pressure unit"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the unit you want to convert to"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get the high-precision result"
+        }
       ]
     },
     "useCases_detailed": {
@@ -747,10 +834,22 @@
       "title": "How the Force Converter Works",
       "description": "The converter uses Newton as the base unit for all conversions. Newton is the SI unit for force measurement.",
       "steps": [
-        "Enter the force value you want to convert",
-        "Select the current force unit",
-        "Select the unit you want to convert to",
-        "Get the precise result instantly"
+        {
+          "name": "Step 1",
+          "text": "Enter the force value you want to convert"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the current force unit"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the unit you want to convert to"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get the precise result instantly"
+        }
       ]
     },
     "useCases_detailed": {
@@ -866,10 +965,22 @@
       "title": "How the Currency Converter Works",
       "description": "The converter uses reference exchange rates to convert between currencies. The amount is multiplied by the exchange rate to get the equivalent value.",
       "steps": [
-        "Enter the amount you want to convert",
-        "Select the source currency (the currency you have)",
-        "Select the target currency (the currency you want)",
-        "Get the result along with the exchange rate used"
+        {
+          "name": "Step 1",
+          "text": "Enter the amount you want to convert"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the source currency (the currency you have)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the target currency (the currency you want)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get the result along with the exchange rate used"
+        }
       ]
     },
     "useCases_detailed": {
@@ -979,10 +1090,22 @@
       "title": "How the Weight Converter Works",
       "description": "The converter uses kilogram as the base unit for all conversions. Input weights are converted to kilograms first, then to your target unit.",
       "steps": [
-        "Enter the weight value you want to convert",
-        "Select the current weight unit",
-        "Select the unit you want to convert to",
-        "Get the precise result instantly"
+        {
+          "name": "Step 1",
+          "text": "Enter the weight value you want to convert"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the current weight unit"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the unit you want to convert to"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get the precise result instantly"
+        }
       ]
     },
     "useCases_detailed": {
@@ -1093,10 +1216,22 @@
       "title": "How the Length Converter Works",
       "description": "The converter uses meter as the base unit for all conversions. Input lengths are converted to meters first, then to your target unit.",
       "steps": [
-        "Enter the length value you want to convert",
-        "Select the current length unit",
-        "Select the unit you want to convert to",
-        "Get the precise result instantly"
+        {
+          "name": "Step 1",
+          "text": "Enter the length value you want to convert"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the current length unit"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the unit you want to convert to"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get the precise result instantly"
+        }
       ]
     },
     "useCases_detailed": {
@@ -1228,10 +1363,22 @@
       "title": "How the Number System Converter Works",
       "description": "The converter uses decimal as an intermediary for all conversions. Input numbers are first converted to decimal, then to your target base.",
       "steps": [
-        "Enter the number you want to convert",
-        "Select the number system of your input",
-        "See instant conversions to all number systems",
-        "Copy the result you need"
+        {
+          "name": "Step 1",
+          "text": "Enter the number you want to convert"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the number system of your input"
+        },
+        {
+          "name": "Step 3",
+          "text": "See instant conversions to all number systems"
+        },
+        {
+          "name": "Step 4",
+          "text": "Copy the result you need"
+        }
       ]
     },
     "useCases_detailed": {

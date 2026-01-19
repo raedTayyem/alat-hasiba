@@ -56,10 +56,22 @@
       "formula": "Gear Ratio = Driven Teeth / Driving Teeth",
       "explanation": "This calculator computes gear ratio, speed transmission, and torque multiplication between gear sets. The gear ratio is the ratio of driven gear teeth to driving gear teeth.",
       "steps": [
-        "Select gear set type (simple or compound)",
-        "Enter the number of teeth for driving and driven gears",
-        "Enter input speed and torque",
-        "Review results including output speed and torque"
+        {
+          "name": "Step 1",
+          "text": "Select gear set type (simple or compound)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the number of teeth for driving and driven gears"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter input speed and torque"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review results including output speed and torque"
+        }
       ]
     },
     "useCases": [
@@ -138,10 +150,22 @@
       "formula": "R = V / I, V = I × R, I = V / R",
       "explanation": "This calculator uses Ohm's Law to calculate the relationship between voltage, current, and resistance. Ohm's Law is the foundation for understanding electrical circuits.",
       "steps": [
-        "Select what you want to calculate (resistance, voltage, or current)",
-        "Enter the two known values",
-        "The calculator automatically computes the unknown value",
-        "Review results including power consumption"
+        {
+          "name": "Step 1",
+          "text": "Select what you want to calculate (resistance, voltage, or current)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the two known values"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator automatically computes the unknown value"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review results including power consumption"
+        }
       ]
     },
     "useCases": [
@@ -230,10 +254,22 @@
       "formula": "Converted Value = Original Value × Conversion Factor",
       "explanation": "This calculator converts between different units of measurement for weight, length, area, and volume, accounting for material densities when needed.",
       "steps": [
-        "Select conversion type (weight, length, area, or volume)",
-        "Enter the value to convert",
-        "Choose source and target units",
-        "Review the conversion result"
+        {
+          "name": "Step 1",
+          "text": "Select conversion type (weight, length, area, or volume)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the value to convert"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose source and target units"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review the conversion result"
+        }
       ]
     },
     "useCases": [
@@ -327,10 +363,22 @@
       "formula": "Stress (sigma) = F/A, Strain (epsilon) = delta L/L0, E = sigma/epsilon",
       "explanation": "This calculator computes stress (force per area), strain (deformation ratio), and Young's modulus which relates them. These concepts are fundamental to materials mechanics.",
       "steps": [
-        "Select what to calculate (stress, strain, or Young's modulus)",
-        "Enter applied force and cross-sectional area",
-        "Enter original length and change in length",
-        "Review results and material properties"
+        {
+          "name": "Step 1",
+          "text": "Select what to calculate (stress, strain, or Young's modulus)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter applied force and cross-sectional area"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter original length and change in length"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review results and material properties"
+        }
       ]
     },
     "useCases": [
@@ -428,10 +476,22 @@
       "formula": "F = P × A, P = F / A, A = F / P",
       "explanation": "This calculator computes force, pressure, and piston area for hydraulic cylinders using Pascal's Law. Applied pressure transmits equally throughout the confined fluid.",
       "steps": [
-        "Select what to calculate (force, pressure, or area)",
-        "Enter piston diameter (and rod diameter for double-acting cylinders)",
-        "Enter known pressure or force",
-        "Review results including extension and retraction forces"
+        {
+          "name": "Step 1",
+          "text": "Select what to calculate (force, pressure, or area)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter piston diameter (and rod diameter for double-acting cylinders)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter known pressure or force"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review results including extension and retraction forces"
+        }
       ]
     },
     "useCases": [

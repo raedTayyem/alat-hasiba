@@ -36,10 +36,22 @@
       "formula": "Vout = 1.25V × (1 + R2/R1)",
       "explanation": "The LM317 is an adjustable linear voltage regulator that uses two external resistors to set the output voltage. It maintains a constant 1.25V reference between the output and adjust pins.",
       "steps": [
-        "Enter your desired output voltage (1.25V to 37V)",
-        "Set R1 value (typically 240Ω for optimal stability)",
-        "The calculator computes the required R2 value",
-        "Select the nearest standard resistor value"
+        {
+          "name": "Step 1",
+          "text": "Enter your desired output voltage (1.25V to 37V)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Set R1 value (typically 240Ω for optimal stability)"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator computes the required R2 value"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select the nearest standard resistor value"
+        }
       ]
     },
     "useCases": [
@@ -141,10 +153,22 @@
       "formula": "V = I × R, P = V × I",
       "explanation": "Ohm's Law is the foundation of electrical engineering, describing the relationship between voltage, current, and resistance. Voltage equals current times resistance, and power equals voltage times current.",
       "steps": [
-        "Select the parameter to calculate (Voltage, Current, Resistance, or Power)",
-        "Enter the two known values",
-        "The calculator automatically computes the unknown value",
-        "Review results including power consumption"
+        {
+          "name": "Step 1",
+          "text": "Select the parameter to calculate (Voltage, Current, Resistance, or Power)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the two known values"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator automatically computes the unknown value"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review results including power consumption"
+        }
       ]
     },
     "useCases": [
@@ -208,10 +232,22 @@
       "formula": "Vout = Vin × R2 / (R1 + R2)",
       "explanation": "A voltage divider splits input voltage proportionally based on resistor values. The voltage across R2 equals the ratio of R2 to total resistance multiplied by input voltage.",
       "steps": [
-        "Enter the input voltage (Vin)",
-        "Enter the first resistor value (R1)",
-        "Enter the second resistor value (R2)",
-        "Get output voltage, current, and power dissipation"
+        {
+          "name": "Step 1",
+          "text": "Enter the input voltage (Vin)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the first resistor value (R1)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the second resistor value (R2)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get output voltage, current, and power dissipation"
+        }
       ]
     },
     "useCases": [
@@ -278,10 +314,22 @@
       "formula": "R = (Vs - Vf) / If",
       "explanation": "Calculates the resistor needed to limit current through an LED. Resistance equals the voltage difference (supply minus LED forward voltage) divided by desired current.",
       "steps": [
-        "Enter the supply voltage (battery or power supply)",
-        "Enter LED forward voltage (varies by color)",
-        "Enter desired current (typically 20mA)",
-        "Specify number of LEDs in series"
+        {
+          "name": "Step 1",
+          "text": "Enter the supply voltage (battery or power supply)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter LED forward voltage (varies by color)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter desired current (typically 20mA)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Specify number of LEDs in series"
+        }
       ]
     },
     "useCases": [
@@ -355,10 +403,22 @@
       "formula": "Value = (Band1 × 10 + Band2) × Multiplier ± Tolerance%",
       "explanation": "Resistors use colored bands to indicate their resistance value. Each color represents a digit (0-9), a multiplier (power of 10), or a tolerance percentage. Reading bands left to right gives the resistance value.",
       "steps": [
-        "Select the number of bands (4 or 5)",
-        "Choose colors for each band from the dropdown",
-        "The calculator displays the resistance value",
-        "View the tolerance range for the resistor"
+        {
+          "name": "Step 1",
+          "text": "Select the number of bands (4 or 5)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Choose colors for each band from the dropdown"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator displays the resistance value"
+        },
+        {
+          "name": "Step 4",
+          "text": "View the tolerance range for the resistor"
+        }
       ]
     },
     "useCases": [
@@ -419,10 +479,22 @@
       "formula": "Total = (kWh × Price) + Fixed Charge + Tax",
       "explanation": "Calculates your electricity bill by multiplying energy consumption in kilowatt-hours by the unit rate, then adding fixed charges and applicable taxes.",
       "steps": [
-        "Enter your total energy consumption in kWh",
-        "Enter the price per kWh from your tariff",
-        "Add any fixed monthly charges",
-        "Specify the tax rate percentage"
+        {
+          "name": "Step 1",
+          "text": "Enter your total energy consumption in kWh"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the price per kWh from your tariff"
+        },
+        {
+          "name": "Step 3",
+          "text": "Add any fixed monthly charges"
+        },
+        {
+          "name": "Step 4",
+          "text": "Specify the tax rate percentage"
+        }
       ]
     },
     "useCases": [
@@ -482,10 +554,22 @@
       "formula": "AWG based on I = A × (CM / 1000) / k",
       "explanation": "Calculates the appropriate wire gauge (AWG) based on current capacity and voltage drop requirements. Uses conductor material resistivity and ampacity tables to recommend safe wire sizes.",
       "steps": [
-        "Enter the current load in amperes",
-        "Enter the cable run distance (one way)",
-        "Select the system voltage",
-        "Choose conductor material (copper or aluminum)"
+        {
+          "name": "Step 1",
+          "text": "Enter the current load in amperes"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the cable run distance (one way)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the system voltage"
+        },
+        {
+          "name": "Step 4",
+          "text": "Choose conductor material (copper or aluminum)"
+        }
       ]
     },
     "useCases": [
@@ -541,10 +625,22 @@
       "formula": "λ = c / f, where c = 299,792,458 m/s",
       "explanation": "Calculates antenna element lengths based on the relationship between frequency and wavelength. Antennas must be proportional to the wavelength of the signal they transmit or receive.",
       "steps": [
-        "Enter the operating frequency",
-        "Select the antenna type (dipole, monopole, or loop)",
-        "View calculated wavelength fractions",
-        "Apply velocity factor for wire antenna construction"
+        {
+          "name": "Step 1",
+          "text": "Enter the operating frequency"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the antenna type (dipole, monopole, or loop)"
+        },
+        {
+          "name": "Step 3",
+          "text": "View calculated wavelength fractions"
+        },
+        {
+          "name": "Step 4",
+          "text": "Apply velocity factor for wire antenna construction"
+        }
       ]
     },
     "useCases": [
@@ -606,10 +702,22 @@
       "formula": "f₀ = 1 / (2π√LC)",
       "explanation": "Calculates the resonant frequency where inductive and capacitive reactances are equal and cancel out. At resonance, the circuit exhibits minimum impedance (series) or maximum impedance (parallel).",
       "steps": [
-        "Enter the inductance value (L)",
-        "Enter the capacitance value (C)",
-        "Enter resistance for Q factor calculation",
-        "View resonant frequency, Q factor, and bandwidth"
+        {
+          "name": "Step 1",
+          "text": "Enter the inductance value (L)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the capacitance value (C)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter resistance for Q factor calculation"
+        },
+        {
+          "name": "Step 4",
+          "text": "View resonant frequency, Q factor, and bandwidth"
+        }
       ]
     },
     "useCases": [
@@ -668,10 +776,22 @@
       "formula": "Runtime = (Capacity × Efficiency) / Load Current",
       "explanation": "Estimates how long a battery will power a device by dividing the battery capacity (in mAh or Ah) by the device's current draw, adjusted for efficiency losses.",
       "steps": [
-        "Enter the battery capacity (mAh or Ah)",
-        "Enter the device's current consumption",
-        "Adjust efficiency percentage (accounts for losses)",
-        "View estimated runtime in hours, days, or weeks"
+        {
+          "name": "Step 1",
+          "text": "Enter the battery capacity (mAh or Ah)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the device's current consumption"
+        },
+        {
+          "name": "Step 3",
+          "text": "Adjust efficiency percentage (accounts for losses)"
+        },
+        {
+          "name": "Step 4",
+          "text": "View estimated runtime in hours, days, or weeks"
+        }
       ]
     },
     "useCases": [
@@ -730,10 +850,22 @@
       "formula": "E = ½LI², XL = 2πfL",
       "explanation": "Calculates energy stored in an inductor's magnetic field and its reactance at a given frequency. Inductors store energy proportional to current squared and oppose changes in current.",
       "steps": [
-        "Enter the inductance value (L)",
-        "Enter the current through the inductor",
-        "Optionally enter frequency for reactance calculation",
-        "View stored energy and inductive reactance"
+        {
+          "name": "Step 1",
+          "text": "Enter the inductance value (L)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the current through the inductor"
+        },
+        {
+          "name": "Step 3",
+          "text": "Optionally enter frequency for reactance calculation"
+        },
+        {
+          "name": "Step 4",
+          "text": "View stored energy and inductive reactance"
+        }
       ]
     },
     "useCases": [
@@ -805,10 +937,22 @@
       "formula": "XL = 2πfL, XC = 1/(2πfC)",
       "explanation": "Calculates the opposition to AC current flow from inductors and capacitors. Inductive reactance increases with frequency, while capacitive reactance decreases with frequency.",
       "steps": [
-        "Select reactance type (inductive or capacitive)",
-        "Enter the component value (L or C)",
-        "Enter the AC frequency",
-        "View the calculated reactance in ohms"
+        {
+          "name": "Step 1",
+          "text": "Select reactance type (inductive or capacitive)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the component value (L or C)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the AC frequency"
+        },
+        {
+          "name": "Step 4",
+          "text": "View the calculated reactance in ohms"
+        }
       ]
     },
     "useCases": [
@@ -885,10 +1029,22 @@
       "formula": "P = √3 × VL × IL × cos(φ)",
       "explanation": "Calculates power relationships in three-phase systems, which are more efficient than single-phase for high-power applications. Supports both star (Y) and delta (Δ) configurations.",
       "steps": [
-        "Select the connection type (Star or Delta)",
-        "Enter line voltage and line current",
-        "Enter the power factor",
-        "View active, reactive, and apparent power"
+        {
+          "name": "Step 1",
+          "text": "Select the connection type (Star or Delta)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter line voltage and line current"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the power factor"
+        },
+        {
+          "name": "Step 4",
+          "text": "View active, reactive, and apparent power"
+        }
       ]
     },
     "useCases": [
@@ -951,10 +1107,22 @@
       "formula": "Series: R = R1+R2+... | Parallel: 1/R = 1/R1+1/R2+...",
       "explanation": "Calculates total resistance for resistors in series (add values) or parallel (add reciprocals). Also shows current and power distribution across each resistor.",
       "steps": [
-        "Select connection type (series or parallel)",
-        "Enter the supply voltage",
-        "Add resistor values one by one",
-        "View total resistance and individual results"
+        {
+          "name": "Step 1",
+          "text": "Select connection type (series or parallel)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the supply voltage"
+        },
+        {
+          "name": "Step 3",
+          "text": "Add resistor values one by one"
+        },
+        {
+          "name": "Step 4",
+          "text": "View total resistance and individual results"
+        }
       ]
     },
     "useCases": [
@@ -1038,10 +1206,22 @@
       "formula": "Vdrop = 2 × I × R × L (single-phase), Vdrop = √3 × I × R × L (three-phase)",
       "explanation": "Calculates voltage loss in electrical cables due to wire resistance. Excessive voltage drop causes equipment malfunction, reduced efficiency, and energy waste.",
       "steps": [
-        "Enter the system voltage and load current",
-        "Enter the cable run distance (one way)",
-        "Select wire size and material",
-        "Choose single-phase or three-phase"
+        {
+          "name": "Step 1",
+          "text": "Enter the system voltage and load current"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the cable run distance (one way)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select wire size and material"
+        },
+        {
+          "name": "Step 4",
+          "text": "Choose single-phase or three-phase"
+        }
       ]
     },
     "useCases": [
@@ -1115,10 +1295,22 @@
       "formula": "W = Area / (Thickness × 1.378) based on IPC-2221",
       "explanation": "Calculates minimum PCB trace width to safely carry current based on IPC-2221 standards. The calculation considers copper thickness, temperature rise, and whether the trace is internal or external.",
       "steps": [
-        "Enter the maximum current through the trace",
-        "Specify allowable temperature rise (typically 10-20°C)",
-        "Select copper thickness (1oz, 2oz, etc.)",
-        "Optionally enter trace length for resistance calculation"
+        {
+          "name": "Step 1",
+          "text": "Enter the maximum current through the trace"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify allowable temperature rise (typically 10-20°C)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select copper thickness (1oz, 2oz, etc.)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Optionally enter trace length for resistance calculation"
+        }
       ]
     },
     "useCases": [
@@ -1190,10 +1382,22 @@
       "formula": "Panels = Daily Consumption / (Panel Wattage × Sun Hours × Efficiency)",
       "explanation": "Calculates the number of solar panels needed based on daily energy consumption, peak sun hours, and system efficiency. Also sizes battery capacity for autonomy.",
       "steps": [
-        "Enter your daily energy consumption (Wh)",
-        "Specify average peak sun hours for your location",
-        "Select system voltage (12V, 24V, 48V)",
-        "Enter the wattage of your chosen panels"
+        {
+          "name": "Step 1",
+          "text": "Enter your daily energy consumption (Wh)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify average peak sun hours for your location"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select system voltage (12V, 24V, 48V)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter the wattage of your chosen panels"
+        }
       ]
     },
     "useCases": [
@@ -1262,10 +1466,22 @@
       "formula": "Inverting: Av = -R2/R1 | Non-inverting: Av = 1 + R2/R1",
       "explanation": "Calculates voltage gain and output for operational amplifier circuits. Inverting configuration inverts the signal, while non-inverting maintains polarity.",
       "steps": [
-        "Select configuration (inverting or non-inverting)",
-        "Enter input voltage (Vin)",
-        "Enter resistor values R1 and R2",
-        "View calculated gain and output voltage"
+        {
+          "name": "Step 1",
+          "text": "Select configuration (inverting or non-inverting)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter input voltage (Vin)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter resistor values R1 and R2"
+        },
+        {
+          "name": "Step 4",
+          "text": "View calculated gain and output voltage"
+        }
       ]
     },
     "useCases": [
@@ -1334,10 +1550,22 @@
       "formula": "f = 1.44 / ((R1 + 2R2) × C)",
       "explanation": "Calculates timing parameters for the versatile 555 timer IC. In astable mode, it generates a continuous square wave. In monostable mode, it produces a single pulse when triggered.",
       "steps": [
-        "Select operation mode (Astable or Monostable)",
-        "Enter resistor R1 value",
-        "Enter resistor R2 value (astable mode)",
-        "Enter capacitor C value"
+        {
+          "name": "Step 1",
+          "text": "Select operation mode (Astable or Monostable)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter resistor R1 value"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter resistor R2 value (astable mode)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter capacitor C value"
+        }
       ]
     },
     "useCases": [
@@ -1391,10 +1619,22 @@
       "formula": "Z = √(R² + (XL - XC)²)",
       "explanation": "Calculates impedance, phase angle, and power for AC circuits containing resistance, inductance, and capacitance. AC circuits behave differently from DC due to reactive components.",
       "steps": [
-        "Enter resistance (R), inductance (L), and capacitance (C)",
-        "Enter the AC voltage and frequency",
-        "View impedance, phase angle, and power factor",
-        "Calculate active, reactive, and apparent power"
+        {
+          "name": "Step 1",
+          "text": "Enter resistance (R), inductance (L), and capacitance (C)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the AC voltage and frequency"
+        },
+        {
+          "name": "Step 3",
+          "text": "View impedance, phase angle, and power factor"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculate active, reactive, and apparent power"
+        }
       ]
     },
     "useCases": [
@@ -1458,10 +1698,22 @@
       "formula": "P = V × I × PF (single-phase), P = √3 × V × I × PF (three-phase)",
       "explanation": "Calculates active, reactive, and apparent power for electrical systems. Active power does useful work, reactive power oscillates in inductive/capacitive loads, and apparent power is the total supplied.",
       "steps": [
-        "Select phase system (single or three-phase)",
-        "Enter voltage and current values",
-        "Enter the power factor (0-1)",
-        "View all power components and energy consumption"
+        {
+          "name": "Step 1",
+          "text": "Select phase system (single or three-phase)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter voltage and current values"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the power factor (0-1)"
+        },
+        {
+          "name": "Step 4",
+          "text": "View all power components and energy consumption"
+        }
       ]
     },
     "useCases": [
@@ -1524,10 +1776,22 @@
       "formula": "PF = P/S = cos(φ), C = Qc/(2πfV²)",
       "explanation": "Calculates current power factor and determines the capacitor size needed to improve it to a target value. Power factor correction reduces energy waste and utility penalties.",
       "steps": [
-        "Enter active power (kW) and reactive power (kVAR)",
-        "Enter target power factor (typically 0.95)",
-        "Enter system voltage and frequency",
-        "View required capacitor rating and size"
+        {
+          "name": "Step 1",
+          "text": "Enter active power (kW) and reactive power (kVAR)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter target power factor (typically 0.95)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter system voltage and frequency"
+        },
+        {
+          "name": "Step 4",
+          "text": "View required capacitor rating and size"
+        }
       ]
     },
     "useCases": [
@@ -1592,10 +1856,22 @@
       "formula": "Vp/Vs = Np/Ns, Ip/Is = Ns/Np",
       "explanation": "Calculates transformer parameters based on the relationship between primary and secondary windings. Voltage ratio equals turns ratio, while current ratio is inverse.",
       "steps": [
-        "Enter primary and secondary voltages",
-        "Or enter primary and secondary turns",
-        "Enter power rating and efficiency",
-        "View currents, losses, and ratios"
+        {
+          "name": "Step 1",
+          "text": "Enter primary and secondary voltages"
+        },
+        {
+          "name": "Step 2",
+          "text": "Or enter primary and secondary turns"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter power rating and efficiency"
+        },
+        {
+          "name": "Step 4",
+          "text": "View currents, losses, and ratios"
+        }
       ]
     },
     "useCases": [
@@ -1673,10 +1949,22 @@
       "formula": "Total Current = Total Power / (Voltage × Power Factor)",
       "explanation": "Sums all electrical loads to determine total power demand, then calculates the current draw to recommend appropriate panel and cable sizes for safe installation.",
       "steps": [
-        "Enter system voltage and power factor",
-        "Add each electrical load with its power and quantity",
-        "View total power and current demand",
-        "Get recommended panel and cable sizes"
+        {
+          "name": "Step 1",
+          "text": "Enter system voltage and power factor"
+        },
+        {
+          "name": "Step 2",
+          "text": "Add each electrical load with its power and quantity"
+        },
+        {
+          "name": "Step 3",
+          "text": "View total power and current demand"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get recommended panel and cable sizes"
+        }
       ]
     },
     "useCases": [
@@ -1741,10 +2029,22 @@
       "formula": "Inrush = Steady State × Multiplier (varies by load type)",
       "explanation": "Estimates the initial surge current when equipment starts. Different load types have different inrush characteristics based on their electrical behavior during startup.",
       "steps": [
-        "Select the load type (motor, transformer, capacitor, etc.)",
-        "Enter the rated power and voltage",
-        "View the inrush current peak value",
-        "See inrush duration and multiplier"
+        {
+          "name": "Step 1",
+          "text": "Select the load type (motor, transformer, capacitor, etc.)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the rated power and voltage"
+        },
+        {
+          "name": "Step 3",
+          "text": "View the inrush current peak value"
+        },
+        {
+          "name": "Step 4",
+          "text": "See inrush duration and multiplier"
+        }
       ]
     },
     "useCases": [
@@ -1810,10 +2110,22 @@
       "formula": "Q = CV, E = ½CV², XC = 1/(2πfC)",
       "explanation": "Calculates the charge stored, energy stored, and reactance of a capacitor. Capacitors store energy in an electric field and oppose voltage changes in AC circuits.",
       "steps": [
-        "Enter capacitance value in µF",
-        "Enter applied voltage",
-        "Optionally enter frequency for reactance calculation",
-        "View charge, energy, reactance, and AC current"
+        {
+          "name": "Step 1",
+          "text": "Enter capacitance value in µF"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter applied voltage"
+        },
+        {
+          "name": "Step 3",
+          "text": "Optionally enter frequency for reactance calculation"
+        },
+        {
+          "name": "Step 4",
+          "text": "View charge, energy, reactance, and AC current"
+        }
       ]
     },
     "useCases": [
@@ -1880,10 +2192,22 @@
       "formula": "dB = 10 × log₁₀(P1/P2) or dB = 20 × log₁₀(V1/V2)",
       "explanation": "Converts ratios to decibels using logarithmic scales. Power ratios use factor of 10, while voltage/current ratios use factor of 20 due to the square relationship between power and voltage.",
       "steps": [
-        "Select calculation type (power or voltage/current ratio)",
-        "Enter the two values to compare",
-        "View the result in decibels",
-        "Or enter dB to find the ratio"
+        {
+          "name": "Step 1",
+          "text": "Select calculation type (power or voltage/current ratio)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the two values to compare"
+        },
+        {
+          "name": "Step 3",
+          "text": "View the result in decibels"
+        },
+        {
+          "name": "Step 4",
+          "text": "Or enter dB to find the ratio"
+        }
       ]
     },
     "useCases": [
@@ -1956,10 +2280,22 @@
       "formula": "f = 1/T, λ = c/f, ω = 2πf",
       "explanation": "Calculates the relationships between frequency, period, wavelength, and angular frequency. These are fundamental properties of all wave phenomena.",
       "steps": [
-        "Select what you want to calculate",
-        "Enter the known value (frequency, period, or wavelength)",
-        "View all related wave properties",
-        "Use angular frequency for circuit analysis"
+        {
+          "name": "Step 1",
+          "text": "Select what you want to calculate"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the known value (frequency, period, or wavelength)"
+        },
+        {
+          "name": "Step 3",
+          "text": "View all related wave properties"
+        },
+        {
+          "name": "Step 4",
+          "text": "Use angular frequency for circuit analysis"
+        }
       ]
     },
     "useCases": [
@@ -2024,10 +2360,22 @@
       "formula": "Z = √(R² + X²), φ = arctan(X/R)",
       "explanation": "Calculates total impedance from resistance and reactance components. Impedance is the AC equivalent of resistance, including the phase angle between voltage and current.",
       "steps": [
-        "Enter the resistance value (R) in ohms",
-        "Enter the reactance value (X) in ohms",
-        "Positive X = inductive, negative X = capacitive",
-        "View impedance magnitude and phase angle"
+        {
+          "name": "Step 1",
+          "text": "Enter the resistance value (R) in ohms"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the reactance value (X) in ohms"
+        },
+        {
+          "name": "Step 3",
+          "text": "Positive X = inductive, negative X = capacitive"
+        },
+        {
+          "name": "Step 4",
+          "text": "View impedance magnitude and phase angle"
+        }
       ]
     },
     "useCases": [
@@ -2104,10 +2452,22 @@
       "formula": "I = P / (√3 × V × PF × η) for 3-phase",
       "explanation": "Calculates motor electrical parameters from mechanical power output. Accounts for efficiency losses and power factor to determine actual current draw from the supply.",
       "steps": [
-        "Select phase type (single or three-phase)",
-        "Enter motor power in kW or HP",
-        "Enter supply voltage and efficiency",
-        "Enter motor power factor"
+        {
+          "name": "Step 1",
+          "text": "Select phase type (single or three-phase)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter motor power in kW or HP"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter supply voltage and efficiency"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter motor power factor"
+        }
       ]
     },
     "useCases": [

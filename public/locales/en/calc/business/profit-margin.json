@@ -39,11 +39,26 @@
       "formula": "Profit Margin = (Net Profit / Revenue) × 100",
       "explanation": "Profit margin measures how much of each dollar in revenue translates to profit. There are three key margins: Gross margin (after COGS), Operating margin (after operating expenses), and Net margin (after all expenses including taxes and interest).",
       "steps": [
-        "Enter your total revenue from sales",
-        "Input cost of goods sold (direct production costs)",
-        "Add operating expenses (rent, salaries, utilities)",
-        "Include other expenses (taxes, interest, depreciation)",
-        "Calculator shows gross, operating, and net profit margins"
+        {
+          "name": "Step 1",
+          "text": "Enter your total revenue from sales"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input cost of goods sold (direct production costs)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Add operating expenses (rent, salaries, utilities)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Include other expenses (taxes, interest, depreciation)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator shows gross, operating, and net profit margins"
+        }
       ]
     },
     "useCases": [
@@ -155,11 +170,26 @@
       "formula": "Selling Price = Cost × (1 + Markup%/100)",
       "explanation": "Markup is the percentage added to the cost price to determine the selling price. It's calculated based on cost, not selling price. This differs from profit margin, which is calculated based on revenue.",
       "steps": [
-        "Enter your product cost (what you paid or spent to produce it)",
-        "Input your desired markup percentage",
-        "Calculator adds the markup to your cost",
-        "View the selling price and profit amount",
-        "See the equivalent profit margin percentage"
+        {
+          "name": "Step 1",
+          "text": "Enter your product cost (what you paid or spent to produce it)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input your desired markup percentage"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator adds the markup to your cost"
+        },
+        {
+          "name": "Step 4",
+          "text": "View the selling price and profit amount"
+        },
+        {
+          "name": "Step 5",
+          "text": "See the equivalent profit margin percentage"
+        }
       ]
     },
     "useCases": [
@@ -271,11 +301,26 @@
       "formula": "Discount Amount = Original Price × (Discount % / 100)",
       "explanation": "Discounts reduce the original price by a percentage. The final price equals the original price minus the discount amount. You can also reverse-calculate to find what discount percentage was applied given the original and final prices.",
       "steps": [
-        "Enter the original price before any discount",
-        "Input the discount percentage (or the final sale price)",
-        "Calculator computes the discount amount",
-        "See the final price you'll pay",
-        "View your total savings"
+        {
+          "name": "Step 1",
+          "text": "Enter the original price before any discount"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the discount percentage (or the final sale price)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator computes the discount amount"
+        },
+        {
+          "name": "Step 4",
+          "text": "See the final price you'll pay"
+        },
+        {
+          "name": "Step 5",
+          "text": "View your total savings"
+        }
       ]
     },
     "useCases": [
@@ -381,11 +426,26 @@
       "formula": "Unit Price = Total Price / Quantity or Size",
       "explanation": "Price comparison calculates the cost per unit (ounce, gram, count) for different products or package sizes. The lowest unit price represents the best value, though you should also consider freshness, storage, and whether you'll use the larger quantity.",
       "steps": [
-        "Enter product name or description for each option",
-        "Input the total price for each product",
-        "Specify the quantity or size (same units for all)",
-        "Add more products as needed for comparison",
-        "Calculator shows unit price and identifies best value"
+        {
+          "name": "Step 1",
+          "text": "Enter product name or description for each option"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the total price for each product"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify the quantity or size (same units for all)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Add more products as needed for comparison"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator shows unit price and identifies best value"
+        }
       ]
     },
     "useCases": [
@@ -514,11 +574,26 @@
       "formula": "Price Elasticity = (% Change in Quantity) / (% Change in Price)",
       "explanation": "Price elasticity measures how sensitive demand is to price changes. Elastic demand (>1) means quantity changes more than price - a 10% price increase causes more than 10% drop in sales. Inelastic demand (<1) means quantity changes less than price changes.",
       "steps": [
-        "Enter the initial price before the change",
-        "Input the new price after the change",
-        "Specify quantity demanded at the initial price",
-        "Enter quantity demanded at the new price",
-        "Calculator determines elasticity coefficient and demand type"
+        {
+          "name": "Step 1",
+          "text": "Enter the initial price before the change"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the new price after the change"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify quantity demanded at the initial price"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter quantity demanded at the new price"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator determines elasticity coefficient and demand type"
+        }
       ]
     },
     "useCases": [
@@ -637,11 +712,26 @@
       "formula": "Discounted Price = Base Price × (1 - Discount Percentage / 100)",
       "explanation": "Bulk pricing offers lower per-unit prices for larger quantities. Each tier defines quantity ranges and corresponding discounts. The calculator helps determine which tier offers the best value and whether ordering more to reach the next tier makes economic sense.",
       "steps": [
-        "Enter the base unit price without any discount",
-        "Define pricing tiers with quantity ranges and discounts",
-        "Specify the quantity you want to purchase",
-        "Calculator determines your tier and discount",
-        "Compare total costs at different tier thresholds"
+        {
+          "name": "Step 1",
+          "text": "Enter the base unit price without any discount"
+        },
+        {
+          "name": "Step 2",
+          "text": "Define pricing tiers with quantity ranges and discounts"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify the quantity you want to purchase"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator determines your tier and discount"
+        },
+        {
+          "name": "Step 5",
+          "text": "Compare total costs at different tier thresholds"
+        }
       ]
     },
     "useCases": [

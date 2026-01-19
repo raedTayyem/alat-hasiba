@@ -2458,10 +2458,22 @@
       "formula": "Fuel Consumption (L/100km) = (Fuel Used / Distance) × 100",
       "explanation": "This calculator measures how efficiently your vehicle uses fuel by comparing the amount of fuel consumed to the distance traveled. Lower values indicate better fuel efficiency.",
       "steps": [
-        "Enter the distance traveled in kilometers or miles",
-        "Enter the amount of fuel consumed in liters or gallons",
-        "Optionally enter fuel price and annual distance for cost estimates",
-        "View your consumption rate, annual costs, and CO2 emissions"
+        {
+          "name": "Step 1",
+          "text": "Enter the distance traveled in kilometers or miles"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the amount of fuel consumed in liters or gallons"
+        },
+        {
+          "name": "Step 3",
+          "text": "Optionally enter fuel price and annual distance for cost estimates"
+        },
+        {
+          "name": "Step 4",
+          "text": "View your consumption rate, annual costs, and CO2 emissions"
+        }
       ]
     },
     "useCases": [
@@ -2559,10 +2571,22 @@
       "formula": "MPG = Distance (miles) / Fuel Used (gallons) | km/L = Distance (km) / Fuel Used (liters)",
       "explanation": "Fuel economy measures how far your vehicle can travel on a given amount of fuel. Higher MPG or km/L values indicate better fuel efficiency, meaning you spend less on fuel for the same distance.",
       "steps": [
-        "Select your preferred unit system (Imperial or Metric)",
-        "Enter the amount of fuel used during your trip",
-        "Enter the distance traveled with that fuel",
-        "Optionally add fuel price and annual mileage for cost projections"
+        {
+          "name": "Step 1",
+          "text": "Select your preferred unit system (Imperial or Metric)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the amount of fuel used during your trip"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the distance traveled with that fuel"
+        },
+        {
+          "name": "Step 4",
+          "text": "Optionally add fuel price and annual mileage for cost projections"
+        }
       ]
     },
     "useCases": [
@@ -2660,11 +2684,26 @@
       "formula": "M = P × [r(1+r)^n] / [(1+r)^n - 1]",
       "explanation": "This calculator uses the standard amortization formula where M is monthly payment, P is principal (loan amount), r is monthly interest rate, and n is number of payments. It accounts for down payment, trade-in value, taxes, and fees.",
       "steps": [
-        "Enter the total vehicle purchase price",
-        "Add down payment and trade-in value if applicable",
-        "Enter the annual interest rate (APR) offered by lender",
-        "Select your desired loan term in months",
-        "Add sales tax percentage and any additional fees"
+        {
+          "name": "Step 1",
+          "text": "Enter the total vehicle purchase price"
+        },
+        {
+          "name": "Step 2",
+          "text": "Add down payment and trade-in value if applicable"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the annual interest rate (APR) offered by lender"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select your desired loan term in months"
+        },
+        {
+          "name": "Step 5",
+          "text": "Add sales tax percentage and any additional fees"
+        }
       ]
     },
     "useCases": [
@@ -2760,10 +2799,22 @@
       "formula": "Backspacing = (Wheel Width / 2) + (Offset / 25.4)",
       "explanation": "Wheel offset is the distance in millimeters from the wheel's centerline to its mounting surface. Positive offset means the mounting surface is toward the front (street side), while negative offset pushes the wheel outward for a wider stance.",
       "steps": [
-        "Choose your calculation mode (from offset or backspacing)",
-        "Enter the wheel width in inches",
-        "Enter the offset in mm or backspacing in inches",
-        "View calculated measurements and fitment information"
+        {
+          "name": "Step 1",
+          "text": "Choose your calculation mode (from offset or backspacing)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the wheel width in inches"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the offset in mm or backspacing in inches"
+        },
+        {
+          "name": "Step 4",
+          "text": "View calculated measurements and fitment information"
+        }
       ]
     },
     "useCases": [
@@ -2848,11 +2899,26 @@
       "formula": "Estimated Life = Base Life (3-5 years) × Climate Factor × Usage Factor",
       "explanation": "This calculator estimates battery condition based on installation date, engine size requirements, climate conditions, and optionally measured CCA (Cold Cranking Amps). Batteries degrade over time and faster in extreme temperatures.",
       "steps": [
-        "Enter the battery installation date",
-        "Enter your engine size for CCA recommendations",
-        "Optionally enter current CCA if you have tested the battery",
-        "Select your typical climate conditions",
-        "View estimated remaining life and recommendations"
+        {
+          "name": "Step 1",
+          "text": "Enter the battery installation date"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your engine size for CCA recommendations"
+        },
+        {
+          "name": "Step 3",
+          "text": "Optionally enter current CCA if you have tested the battery"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select your typical climate conditions"
+        },
+        {
+          "name": "Step 5",
+          "text": "View estimated remaining life and recommendations"
+        }
       ]
     },
     "useCases": [
@@ -2930,10 +2996,22 @@
       "formula": "Current Value = Purchase Price × (1 - Depreciation Rate)^Years",
       "explanation": "This calculator uses the declining balance method to estimate your car's current value. Vehicles depreciate fastest in the first few years, with new cars losing 20-30% in year one, then about 15-20% annually after that.",
       "steps": [
-        "Enter the original purchase price of the vehicle",
-        "Enter the current age of the vehicle in years",
-        "Adjust the depreciation rate if needed (default is typical 15%)",
-        "View the estimated current value and total depreciation"
+        {
+          "name": "Step 1",
+          "text": "Enter the original purchase price of the vehicle"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the current age of the vehicle in years"
+        },
+        {
+          "name": "Step 3",
+          "text": "Adjust the depreciation rate if needed (default is typical 15%)"
+        },
+        {
+          "name": "Step 4",
+          "text": "View the estimated current value and total depreciation"
+        }
       ]
     },
     "useCases": [
@@ -3016,10 +3094,22 @@
       "formula": "MPG = Miles Driven / Gallons Used | km/L = Kilometers Driven / Liters Used",
       "explanation": "Gas mileage measures how efficiently your vehicle converts fuel into distance traveled. By tracking the distance since your last fill-up and the amount of fuel added, you can calculate your real-world fuel efficiency.",
       "steps": [
-        "Fill your tank completely and reset your trip odometer",
-        "Drive normally until you need to refuel",
-        "Fill the tank completely again and note the gallons/liters added",
-        "Enter the distance driven and fuel added to calculate MPG or km/L"
+        {
+          "name": "Step 1",
+          "text": "Fill your tank completely and reset your trip odometer"
+        },
+        {
+          "name": "Step 2",
+          "text": "Drive normally until you need to refuel"
+        },
+        {
+          "name": "Step 3",
+          "text": "Fill the tank completely again and note the gallons/liters added"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter the distance driven and fuel added to calculate MPG or km/L"
+        }
       ]
     },
     "useCases": [
@@ -3097,10 +3187,22 @@
       "formula": "HP = (Torque × RPM) / 5252",
       "explanation": "Horsepower measures the rate at which work is done - specifically, the power output of an engine. It's calculated from torque (rotational force) and engine speed (RPM). The constant 5252 comes from the mathematical relationship between these units.",
       "steps": [
-        "Select your torque unit (lb-ft or Nm)",
-        "Enter the torque value from your engine specs or dyno test",
-        "Enter the RPM at which that torque is produced",
-        "View the calculated horsepower and conversions to kW and PS"
+        {
+          "name": "Step 1",
+          "text": "Select your torque unit (lb-ft or Nm)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the torque value from your engine specs or dyno test"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the RPM at which that torque is produced"
+        },
+        {
+          "name": "Step 4",
+          "text": "View the calculated horsepower and conversions to kW and PS"
+        }
       ]
     },
     "useCases": [
@@ -3180,10 +3282,22 @@
       "formula": "Next Change = Current Mileage + Change Interval | Annual Changes = Annual Mileage / Interval",
       "explanation": "This calculator helps you track oil change schedules based on your mileage and manufacturer recommendations. It estimates when your next change is due, annual maintenance costs, and oil capacity based on engine size.",
       "steps": [
-        "Enter your current odometer reading",
-        "Enter your oil change interval (typically 3,000-10,000 miles)",
-        "Enter your engine size for oil capacity estimation",
-        "Add oil price and annual mileage for cost projections"
+        {
+          "name": "Step 1",
+          "text": "Enter your current odometer reading"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your oil change interval (typically 3,000-10,000 miles)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter your engine size for oil capacity estimation"
+        },
+        {
+          "name": "Step 4",
+          "text": "Add oil price and annual mileage for cost projections"
+        }
       ]
     },
     "useCases": [
@@ -3277,10 +3391,22 @@
       "formula": "Sidewall Height = Width × (Aspect Ratio / 100) | Tire Diameter = (2 × Sidewall Height) + Rim Diameter",
       "explanation": "Tire sizes follow a standard format: Width/Aspect Ratio + R + Rim Diameter. This calculator decodes that information and calculates the actual physical dimensions including diameter, circumference, and revolutions per mile.",
       "steps": [
-        "Enter your tire size string (e.g., P225/65R17) or individual dimensions",
-        "The calculator parses the width, aspect ratio, and rim size",
-        "View calculated sidewall height, overall diameter, and circumference",
-        "See revolutions per mile/km for speedometer calculations"
+        {
+          "name": "Step 1",
+          "text": "Enter your tire size string (e.g., P225/65R17) or individual dimensions"
+        },
+        {
+          "name": "Step 2",
+          "text": "The calculator parses the width, aspect ratio, and rim size"
+        },
+        {
+          "name": "Step 3",
+          "text": "View calculated sidewall height, overall diameter, and circumference"
+        },
+        {
+          "name": "Step 4",
+          "text": "See revolutions per mile/km for speedometer calculations"
+        }
       ]
     },
     "useCases": [
@@ -3357,10 +3483,22 @@
       "formula": "Torque (lb-ft) = (HP × 5252) / RPM",
       "explanation": "Torque is the rotational force produced by an engine. This calculator determines torque when you know the horsepower and RPM. Torque is what you feel pushing you back in your seat during acceleration.",
       "steps": [
-        "Enter the horsepower rating of the engine",
-        "Enter the RPM at which that horsepower is measured",
-        "View the calculated torque in lb-ft and Nm",
-        "Use the conversion to compare international specifications"
+        {
+          "name": "Step 1",
+          "text": "Enter the horsepower rating of the engine"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the RPM at which that horsepower is measured"
+        },
+        {
+          "name": "Step 3",
+          "text": "View the calculated torque in lb-ft and Nm"
+        },
+        {
+          "name": "Step 4",
+          "text": "Use the conversion to compare international specifications"
+        }
       ]
     },
     "useCases": [
@@ -3450,11 +3588,26 @@
       "formula": "Trip Cost = (Distance / Fuel Economy) × Fuel Price",
       "explanation": "This calculator estimates your total fuel expense for a road trip by dividing the distance by your vehicle's fuel economy to determine gallons needed, then multiplying by the fuel price.",
       "steps": [
-        "Select your unit system (Imperial or Metric)",
-        "Enter the total trip distance",
-        "Enter your vehicle's fuel economy (MPG or km/L)",
-        "Enter the current fuel price per gallon or liter",
-        "View total cost, fuel needed, and cost per mile/km"
+        {
+          "name": "Step 1",
+          "text": "Select your unit system (Imperial or Metric)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the total trip distance"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter your vehicle's fuel economy (MPG or km/L)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter the current fuel price per gallon or liter"
+        },
+        {
+          "name": "Step 5",
+          "text": "View total cost, fuel needed, and cost per mile/km"
+        }
       ]
     },
     "useCases": [
@@ -3545,11 +3698,26 @@
       "formula": "Charging Time = (Battery Capacity × (Target% - Current%)) / (Charger Power × 100)",
       "explanation": "This calculator determines how long it takes to charge your electric vehicle and the electricity cost. Charging time depends on battery size, current charge level, target level, and charger power output.",
       "steps": [
-        "Enter your EV's total battery capacity in kWh",
-        "Enter current battery charge percentage",
-        "Enter your target charge percentage",
-        "Optionally specify charger power and electricity rate",
-        "View charging time for different charger levels and total cost"
+        {
+          "name": "Step 1",
+          "text": "Enter your EV's total battery capacity in kWh"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter current battery charge percentage"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter your target charge percentage"
+        },
+        {
+          "name": "Step 4",
+          "text": "Optionally specify charger power and electricity rate"
+        },
+        {
+          "name": "Step 5",
+          "text": "View charging time for different charger levels and total cost"
+        }
       ]
     },
     "useCases": [
@@ -3634,10 +3802,22 @@
       "formula": "5-Year Cost = Purchase Price + (5 × Annual Fuel Cost) + (5 × Annual Maintenance) + Depreciation",
       "explanation": "This calculator compares the total cost of ownership for two vehicles over 5 years, including purchase price, fuel costs, maintenance, and estimated depreciation to help you make an informed buying decision.",
       "steps": [
-        "Enter purchase price, fuel economy, and maintenance cost for Vehicle 1",
-        "Enter the same information for Vehicle 2",
-        "Enter your annual mileage and current fuel price",
-        "View side-by-side comparison of 5-year ownership costs"
+        {
+          "name": "Step 1",
+          "text": "Enter purchase price, fuel economy, and maintenance cost for Vehicle 1"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the same information for Vehicle 2"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter your annual mileage and current fuel price"
+        },
+        {
+          "name": "Step 4",
+          "text": "View side-by-side comparison of 5-year ownership costs"
+        }
       ]
     },
     "useCases": [
@@ -3719,11 +3899,26 @@
       "formula": "Trade-In Value = Depreciated Value × Condition Adjustment × Mileage Adjustment",
       "explanation": "This calculator estimates trade-in value by applying depreciation curves (steeper in early years), then adjusting for condition and mileage compared to average. Trade-in values are typically lower than private sale values.",
       "steps": [
-        "Enter the original purchase price of your vehicle",
-        "Enter the current age of the vehicle in years",
-        "Enter the current odometer mileage",
-        "Select the overall condition of the vehicle",
-        "View estimated trade-in value and adjustment breakdown"
+        {
+          "name": "Step 1",
+          "text": "Enter the original purchase price of your vehicle"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the current age of the vehicle in years"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the current odometer mileage"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select the overall condition of the vehicle"
+        },
+        {
+          "name": "Step 5",
+          "text": "View estimated trade-in value and adjustment breakdown"
+        }
       ]
     },
     "useCases": [
@@ -3806,11 +4001,26 @@
       "formula": "Adjusted PSI = Base PSI + (Temperature Change / 10°F × 1 PSI) + Load Adjustment",
       "explanation": "Tire pressure changes approximately 1 PSI for every 10°F temperature change. This calculator adjusts your manufacturer-recommended pressure for current conditions and vehicle load.",
       "steps": [
-        "Enter your vehicle's recommended tire pressure (found on door jamb)",
-        "Select temperature unit and enter reference temperature",
-        "Enter current ambient temperature",
-        "Select your current load condition",
-        "View adjusted recommended pressure"
+        {
+          "name": "Step 1",
+          "text": "Enter your vehicle's recommended tire pressure (found on door jamb)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select temperature unit and enter reference temperature"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter current ambient temperature"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select your current load condition"
+        },
+        {
+          "name": "Step 5",
+          "text": "View adjusted recommended pressure"
+        }
       ]
     },
     "useCases": [
@@ -3898,11 +4108,26 @@
       "formula": "v = ∛(2P / (ρ × Cd × A))",
       "explanation": "Top speed is limited by aerodynamic drag, which increases with the cube of velocity. At top speed, all engine power is used to overcome air resistance. This calculator uses physics to estimate theoretical maximum velocity.",
       "steps": [
-        "Enter your engine's maximum horsepower output",
-        "Enter the aerodynamic drag coefficient (Cd)",
-        "Enter the vehicle's frontal area in square meters",
-        "Optionally enter weight for power-to-weight calculations",
-        "View theoretical top speed and related metrics"
+        {
+          "name": "Step 1",
+          "text": "Enter your engine's maximum horsepower output"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the aerodynamic drag coefficient (Cd)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the vehicle's frontal area in square meters"
+        },
+        {
+          "name": "Step 4",
+          "text": "Optionally enter weight for power-to-weight calculations"
+        },
+        {
+          "name": "Step 5",
+          "text": "View theoretical top speed and related metrics"
+        }
       ]
     },
     "useCases": [
@@ -4002,11 +4227,26 @@
       "formula": "Range = (Battery Capacity × Battery Health%) / Adjusted Efficiency",
       "explanation": "EV range depends on usable battery capacity divided by energy consumption per mile. The calculator adjusts for factors like temperature, terrain, and driving style that significantly impact real-world range.",
       "steps": [
-        "Enter your EV's battery capacity in kWh",
-        "Enter energy consumption rate (kWh per mile)",
-        "Adjust battery health percentage if not 100%",
-        "Enter outside temperature and select terrain/driving conditions",
-        "View estimated range with factor adjustments"
+        {
+          "name": "Step 1",
+          "text": "Enter your EV's battery capacity in kWh"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter energy consumption rate (kWh per mile)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Adjust battery health percentage if not 100%"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter outside temperature and select terrain/driving conditions"
+        },
+        {
+          "name": "Step 5",
+          "text": "View estimated range with factor adjustments"
+        }
       ]
     },
     "useCases": [
@@ -4102,11 +4342,26 @@
       "formula": "Total Distance = Reaction Distance + Braking Distance = (Speed × Reaction Time) + (Speed² / (2 × g × friction))",
       "explanation": "Stopping distance includes two parts: reaction distance (traveled while you process and begin braking) and braking distance (from brake application to stop). Both increase significantly with speed.",
       "steps": [
-        "Select your unit system (Metric or Imperial)",
-        "Enter your current or typical driving speed",
-        "Select the road surface condition",
-        "Enter your expected reaction time (average is 1.5 seconds)",
-        "View total stopping distance and breakdown"
+        {
+          "name": "Step 1",
+          "text": "Select your unit system (Metric or Imperial)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your current or typical driving speed"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the road surface condition"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter your expected reaction time (average is 1.5 seconds)"
+        },
+        {
+          "name": "Step 5",
+          "text": "View total stopping distance and breakdown"
+        }
       ]
     },
     "useCases": [
@@ -4206,12 +4461,30 @@
       "formula": "Distance = v² / (2g(μ ± grade))",
       "explanation": "Hill grade affects stopping by adding or subtracting from effective friction. Going uphill, gravity helps slow you (shorter distance). Going downhill, gravity works against brakes (longer distance).",
       "steps": [
-        "Select your unit system",
-        "Enter your vehicle speed",
-        "Select the road surface type",
-        "Choose slope direction (uphill, downhill, or flat)",
-        "Enter the grade percentage",
-        "View stopping distance with grade adjustment"
+        {
+          "name": "Step 1",
+          "text": "Select your unit system"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your vehicle speed"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the road surface type"
+        },
+        {
+          "name": "Step 4",
+          "text": "Choose slope direction (uphill, downhill, or flat)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Enter the grade percentage"
+        },
+        {
+          "name": "Step 6",
+          "text": "View stopping distance with grade adjustment"
+        }
       ]
     },
     "useCases": [
@@ -4294,11 +4567,26 @@
       "formula": "PMT = P × r(1+r)^n / ((1+r)^n - 1)",
       "explanation": "The standard amortization formula calculates monthly payments that pay both principal and interest over the loan term. Early payments are mostly interest; later payments are mostly principal.",
       "steps": [
-        "Enter the total vehicle purchase price",
-        "Enter your down payment amount (optional)",
-        "Enter the annual interest rate (APR)",
-        "Enter the loan term in months",
-        "View monthly payment, total cost, and payoff date"
+        {
+          "name": "Step 1",
+          "text": "Enter the total vehicle purchase price"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your down payment amount (optional)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the annual interest rate (APR)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter the loan term in months"
+        },
+        {
+          "name": "Step 5",
+          "text": "View monthly payment, total cost, and payoff date"
+        }
       ]
     },
     "useCases": [
@@ -4389,11 +4677,26 @@
       "formula": "Premium = Base Rate × Vehicle Factor × Age Factor × Coverage Factor - Deductible Discount",
       "explanation": "Insurance premiums are calculated based on vehicle value, driver risk profile, coverage level, and deductible choices. Higher risk factors increase premiums; higher deductibles lower them.",
       "steps": [
-        "Enter your vehicle's current market value",
-        "Select your age group",
-        "Choose your desired coverage type",
-        "Select your deductible level",
-        "View estimated annual premium and breakdown"
+        {
+          "name": "Step 1",
+          "text": "Enter your vehicle's current market value"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select your age group"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose your desired coverage type"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select your deductible level"
+        },
+        {
+          "name": "Step 5",
+          "text": "View estimated annual premium and breakdown"
+        }
       ]
     },
     "useCases": [

@@ -1,413 +1,458 @@
 {
-    "labor_cost": {
-        "title": "Labor Cost Calculator",
-        "description": "Calculate construction labor costs including wages, overtime, and overhead expenses.",
-        "currency": "Currency",
-        "currency_tooltip": "Select your local currency",
-        "currencies": {
-            "usd": "US Dollar (USD)",
-            "eur": "Euro (EUR)",
-            "gbp": "British Pound (GBP)",
-            "sar": "Saudi Riyal (SAR)",
-            "aed": "UAE Dirham (AED)",
-            "jod": "Jordanian Dinar (JOD)"
-        },
-        "regular_hours": "Regular Hours",
-        "regular_hours_tooltip": "Total regular working hours per worker",
-        "overtime_hours": "Overtime Hours",
-        "overtime_hours_tooltip": "Additional hours beyond regular schedule",
-        "hourly_rate": "Hourly Rate",
-        "hourly_rate_tooltip": "Base pay rate per hour per worker",
-        "workers_count": "Number of Workers",
-        "workers_count_tooltip": "Total number of workers on the project",
-        "overtime_multiplier": "Overtime Multiplier",
-        "overtime_multiplier_tooltip": "Overtime pay rate (e.g., 1.5 for time-and-a-half)",
-        "overhead_rate": "Overhead Rate (%)",
-        "overhead_rate_tooltip": "Additional costs like insurance, benefits, and equipment",
-        "result_total": "Total Labor Cost",
-        "workers_summary": "{{count}} workers",
-        "breakdown": "Cost Breakdown",
-        "regular_labor": "Regular Hours",
-        "overtime_labor": "Overtime",
-        "total_labor": "Total Labor",
-        "overhead": "Overhead",
-        "per_unit": "Per-Unit Costs",
-        "cost_per_hour": "Cost per Hour",
-        "cost_per_worker": "Cost per Worker",
-        "hours_unit": "hrs",
-        "per_hour": "/hr",
-        "workers_unit": "workers",
-        "hours_label": "hours",
-        "workers_label": "workers",
-        "formula_title": "Calculation Formula",
-        "formula": "Total = (Hours × Rate × Workers) + (OT Hours × Rate × OT Multiplier × Workers) + Overhead",
-        "info_title": "About Labor Cost Calculation",
-        "info_description": "Accurate labor cost estimation is essential for project bidding and budget planning. Include overhead for insurance, benefits, and equipment costs.",
-        "use_cases_title": "Common Uses",
-        "use_case_1": "Project bidding and estimates",
-        "use_case_2": "Payroll planning",
-        "use_case_3": "Budget tracking and cost control",
-        "errors": {
-            "invalid_inputs": "Please enter valid hours and hourly rate",
-            "positive_values": "Hours and rate must be greater than zero",
-            "invalid_workers": "Number of workers must be at least 1",
-            "invalid_overhead": "Overhead rate must be between 0 and 100",
-            "invalid_overtime": "Overtime hours cannot be negative",
-            "invalid_multiplier": "Overtime multiplier must be at least 1"
-        },
-        "placeholders": {
-            "hours": "40",
-            "overtime": "0",
-            "rate": "25",
-            "workers": "1",
-            "multiplier": "1.5",
-            "overhead": "15"
-        },
-        "howItWorks": {
-            "title": "How the Labor Cost Calculator Works",
-            "formula": "Total = (Regular Hours × Rate × Workers) + (OT Hours × Rate × Multiplier × Workers) + Overhead",
-            "explanation": "This calculator computes total labor costs by combining regular wages, overtime pay with multipliers, and overhead expenses like insurance and benefits.",
-            "steps": [
-                "Enter regular working hours per worker",
-                "Add overtime hours if applicable",
-                "Set the base hourly rate",
-                "Specify the number of workers",
-                "Adjust overtime multiplier and overhead rate"
-            ]
-        },
-        "useCases": [
-            {
-                "title": "Project Bidding",
-                "description": "Calculate accurate labor costs for competitive construction bids and proposals."
-            },
-            {
-                "title": "Payroll Planning",
-                "description": "Estimate weekly or monthly labor expenses for workforce management."
-            },
-            {
-                "title": "Cost Analysis",
-                "description": "Compare labor costs across different crew sizes and work schedules."
-            },
-            {
-                "title": "Budget Forecasting",
-                "description": "Project total labor expenses for multi-week construction projects."
-            }
-        ],
-        "seoTips": [
-            "Include 15-30% overhead for insurance, benefits, taxes, and equipment",
-            "Factor in productivity rates - workers don't produce 100% of paid hours",
-            "Account for learning curves on complex or new types of work",
-            "Consider travel time and mobilization costs for remote job sites",
-            "Track actual hours vs estimated to improve future bidding accuracy"
-        ],
-        "commonMistakes": [
-            {
-                "mistake": "Forgetting overhead costs",
-                "solution": "Always add 15-30% for insurance, taxes, benefits, and equipment"
-            },
-            {
-                "mistake": "Underestimating overtime",
-                "solution": "Plan for realistic schedules - construction often requires overtime"
-            },
-            {
-                "mistake": "Ignoring productivity factors",
-                "solution": "Account for breaks, weather delays, and non-productive time"
-            },
-            {
-                "mistake": "Not including supervision",
-                "solution": "Add foreman/supervisor costs at higher rates for proper oversight"
-            }
-        ],
-        "faqs": [
-            {
-                "question": "What is a typical overhead rate for construction labor?",
-                "answer": "Construction overhead typically ranges from 15-30% and includes worker's compensation insurance, liability insurance, payroll taxes, benefits, and equipment costs."
-            },
-            {
-                "question": "How do I calculate labor cost per square foot?",
-                "answer": "Divide total labor cost by project square footage. This helps compare costs across projects and improve future estimates."
-            },
-            {
-                "question": "What is the standard overtime multiplier?",
-                "answer": "Most jurisdictions require 1.5x (time-and-a-half) for hours over 40 per week. Some union contracts or holiday work may require 2x (double time)."
-            },
-            {
-                "question": "How many labor hours per square foot for construction?",
-                "answer": "This varies widely: residential framing averages 0.5-1 hour/sq ft, finish work 1-2 hours/sq ft, and complete home construction 10-15 hours/sq ft."
-            },
-            {
-                "question": "Should I include benefits in the hourly rate?",
-                "answer": "You can either include benefits in the hourly rate or add them to overhead. Be consistent with your method to ensure accurate total costs."
-            }
-        ]
+  "labor_cost": {
+    "title": "Labor Cost Calculator",
+    "description": "Calculate construction labor costs including wages, overtime, and overhead expenses.",
+    "currency": "Currency",
+    "currency_tooltip": "Select your local currency",
+    "currencies": {
+      "usd": "US Dollar (USD)",
+      "eur": "Euro (EUR)",
+      "gbp": "British Pound (GBP)",
+      "sar": "Saudi Riyal (SAR)",
+      "aed": "UAE Dirham (AED)",
+      "jod": "Jordanian Dinar (JOD)"
     },
-    "material_cost": {
-        "title": "Material Cost Calculator",
-        "description": "Calculate total building material costs with tax for construction projects.",
-        "currency": "Currency",
-        "currency_tooltip": "Select your local currency",
-        "currencies": {
-            "usd": "US Dollar (USD)",
-            "eur": "Euro (EUR)",
-            "gbp": "British Pound (GBP)",
-            "sar": "Saudi Riyal (SAR)",
-            "aed": "UAE Dirham (AED)",
-            "jod": "Jordanian Dinar (JOD)"
-        },
-        "materials": "Materials List",
-        "add_material": "Add Material",
-        "item": "Item",
-        "tax_rate": "Tax Rate (%)",
-        "tax_rate_tooltip": "Sales tax or VAT percentage to apply",
-        "result_total": "Total Cost",
-        "items_count": "{{count}} items",
-        "breakdown": "Cost Breakdown",
-        "unnamed_item": "Unnamed Item",
-        "subtotal": "Subtotal",
-        "tax": "Tax",
-        "grand_total": "Grand Total",
-        "formula_title": "Calculation Formula",
-        "formula": "Total = Σ(Quantity × Unit Price) + Tax. Tax is calculated on the subtotal of all items.",
-        "info_title": "About Material Cost Calculation",
-        "info_description": "Track and estimate material costs for accurate project budgeting. Add multiple items with quantities and unit prices to calculate total expenses.",
-        "use_cases_title": "Common Uses",
-        "use_case_1": "Project budgeting and estimates",
-        "use_case_2": "Material purchasing decisions",
-        "use_case_3": "Cost comparison between suppliers",
-        "errors": {
-            "no_materials": "Please add at least one material with quantity and price",
-            "invalid_tax": "Tax rate must be between 0 and 100"
-        },
-        "placeholders": {
-            "name": "Material name",
-            "quantity": "Qty",
-            "unit_price": "Price",
-            "tax": "0"
-        },
-        "howItWorks": {
-            "title": "How the Material Cost Calculator Works",
-            "formula": "Total = Sum(Quantity × Unit Price) + Tax",
-            "explanation": "This calculator helps you track all material expenses by adding individual items with quantities and unit prices. It automatically calculates subtotals, applies tax rates, and provides a comprehensive cost breakdown.",
-            "steps": [
-                "Select your local currency for accurate pricing",
-                "Add each material item with name, quantity, and unit price",
-                "Continue adding items until all materials are listed",
-                "Set the applicable tax rate (VAT/sales tax)",
-                "Review the total cost breakdown for budgeting"
-            ]
-        },
-        "useCases": [
-            {
-                "title": "Project Cost Estimation",
-                "description": "Create detailed material lists for accurate construction project bidding."
-            },
-            {
-                "title": "Supplier Price Comparison",
-                "description": "Compare total costs from different suppliers using the same material list."
-            },
-            {
-                "title": "Budget Tracking",
-                "description": "Monitor material expenses throughout the project against initial estimates."
-            },
-            {
-                "title": "Client Quotations",
-                "description": "Generate itemized material costs for transparent client proposals."
-            }
-        ],
-        "seoTips": [
-            "Always get quotes from multiple suppliers before finalizing material costs",
-            "Include delivery charges in your unit prices for accurate totals",
-            "Factor in price fluctuations for materials like lumber and steel",
-            "Keep records of actual costs vs estimates to improve future bidding accuracy",
-            "Consider bulk discounts when ordering large quantities"
-        ],
-        "commonMistakes": [
-            {
-                "mistake": "Forgetting delivery costs",
-                "solution": "Include delivery charges in unit prices or add as a separate line item"
-            },
-            {
-                "mistake": "Not accounting for price changes",
-                "solution": "Lock in prices with suppliers or add 5-10% contingency for volatile materials"
-            },
-            {
-                "mistake": "Missing small items",
-                "solution": "Create comprehensive checklists including fasteners, adhesives, and consumables"
-            },
-            {
-                "mistake": "Incorrect tax calculations",
-                "solution": "Verify current tax rates and which items are taxable in your jurisdiction"
-            }
-        ],
-        "faqs": [
-            {
-                "question": "How do I estimate material costs for a construction project?",
-                "answer": "Start with accurate quantity takeoffs from plans, get current prices from suppliers, add waste factors, and include tax and delivery. This calculator helps organize all these costs."
-            },
-            {
-                "question": "What percentage should I add for material waste?",
-                "answer": "Typically add 5-10% for waste on most materials. Complex installations with many cuts may require 15%. This should be added to quantities before calculating costs."
-            },
-            {
-                "question": "Should I include labor in material cost estimates?",
-                "answer": "Material costs should be separate from labor. Use our Labor Cost Calculator for workforce expenses and combine both for total project cost."
-            },
-            {
-                "question": "How do I handle material price increases mid-project?",
-                "answer": "Include escalation clauses in contracts, lock in prices with purchase orders, or add contingency funds (5-10%) to your estimates."
-            },
-            {
-                "question": "What materials typically have the most price volatility?",
-                "answer": "Lumber, steel, copper, and fuel-dependent products like asphalt experience significant price swings. Get firm quotes and act quickly for these materials."
-            }
-        ]
+    "regular_hours": "Regular Hours",
+    "regular_hours_tooltip": "Total regular working hours per worker",
+    "overtime_hours": "Overtime Hours",
+    "overtime_hours_tooltip": "Additional hours beyond regular schedule",
+    "hourly_rate": "Hourly Rate",
+    "hourly_rate_tooltip": "Base pay rate per hour per worker",
+    "workers_count": "Number of Workers",
+    "workers_count_tooltip": "Total number of workers on the project",
+    "overtime_multiplier": "Overtime Multiplier",
+    "overtime_multiplier_tooltip": "Overtime pay rate (e.g., 1.5 for time-and-a-half)",
+    "overhead_rate": "Overhead Rate (%)",
+    "overhead_rate_tooltip": "Additional costs like insurance, benefits, and equipment",
+    "result_total": "Total Labor Cost",
+    "workers_summary": "{{count}} workers",
+    "breakdown": "Cost Breakdown",
+    "regular_labor": "Regular Hours",
+    "overtime_labor": "Overtime",
+    "total_labor": "Total Labor",
+    "overhead": "Overhead",
+    "per_unit": "Per-Unit Costs",
+    "cost_per_hour": "Cost per Hour",
+    "cost_per_worker": "Cost per Worker",
+    "hours_unit": "hrs",
+    "per_hour": "/hr",
+    "workers_unit": "workers",
+    "hours_label": "hours",
+    "workers_label": "workers",
+    "formula_title": "Calculation Formula",
+    "formula": "Total = (Hours × Rate × Workers) + (OT Hours × Rate × OT Multiplier × Workers) + Overhead",
+    "info_title": "About Labor Cost Calculation",
+    "info_description": "Accurate labor cost estimation is essential for project bidding and budget planning. Include overhead for insurance, benefits, and equipment costs.",
+    "use_cases_title": "Common Uses",
+    "use_case_1": "Project bidding and estimates",
+    "use_case_2": "Payroll planning",
+    "use_case_3": "Budget tracking and cost control",
+    "errors": {
+      "invalid_inputs": "Please enter valid hours and hourly rate",
+      "positive_values": "Hours and rate must be greater than zero",
+      "invalid_workers": "Number of workers must be at least 1",
+      "invalid_overhead": "Overhead rate must be between 0 and 100",
+      "invalid_overtime": "Overtime hours cannot be negative",
+      "invalid_multiplier": "Overtime multiplier must be at least 1"
     },
-    "constructionCost": {
-        "title": "Construction Cost Calculator",
-        "description": "Calculate total construction costs including materials, labor, permits, and contingency.",
-        "currency": "Currency",
-        "currency_tooltip": "Select your local currency",
-        "currencies": {
-            "usd": "US Dollar (USD)",
-            "eur": "Euro (EUR)",
-            "gbp": "British Pound (GBP)",
-            "sar": "Saudi Riyal (SAR)",
-            "aed": "UAE Dirham (AED)",
-            "jod": "Jordanian Dinar (JOD)"
-        },
-        "project_area": "Project Area",
-        "project_area_tooltip": "Total floor area of construction",
-        "unit": "Area Unit",
-        "unit_tooltip": "Select square feet or square meters",
-        "sqft": "Square Feet",
-        "sqm": "Square Meters",
-        "construction_type": "Construction Type",
-        "construction_type_tooltip": "Type of construction affects cost per square foot",
-        "types": {
-            "basic": "Basic Residential",
-            "standard": "Standard Residential",
-            "premium": "Premium Residential",
-            "commercial": "Commercial Building",
-            "industrial": "Industrial/Warehouse"
-        },
-        "include_items": "Include in Estimate",
-        "materials": "Materials",
-        "labor": "Labor",
-        "permits": "Permits & Fees",
-        "contingency": "Contingency (%)",
-        "contingency_tooltip": "Buffer for unexpected costs (typically 10-20%)",
-        "result_total": "Total Estimated Cost",
-        "breakdown": "Cost Breakdown",
-        "materials_cost": "Materials",
-        "labor_cost": "Labor",
-        "permits_cost": "Permits & Fees",
-        "contingency_cost": "Contingency",
-        "cost_per_sqft": "Cost per Square Foot",
-        "formula_title": "Calculation Formula",
-        "formula": "Total = (Area × Cost per Sqft) + Permits + Contingency",
-        "info_title": "About Construction Cost Calculation",
-        "info_description": "Construction costs vary significantly by location, materials, and specifications. This calculator provides estimates based on typical cost ranges.",
-        "use_cases_title": "Common Uses",
-        "use_case_1": "New home construction budgeting",
-        "use_case_2": "Commercial project estimation",
-        "use_case_3": "Renovation cost planning",
-        "errors": {
-            "invalid_area": "Please enter valid project area",
-            "positive_values": "Area must be greater than zero",
-            "invalid_contingency": "Contingency must be between 0 and 50"
-        },
-        "placeholders": {
-            "area": "2000",
-            "contingency": "15"
-        },
-        "howItWorks": {
-            "title": "How the Construction Cost Calculator Works",
-            "formula": "Total Cost = (Area × Cost per SF) × (1 + Contingency)",
-            "explanation": "This calculator estimates total construction costs based on project area and construction type. It breaks down costs into materials, labor, permits, and includes contingency for unexpected expenses.",
-            "steps": [
-                "Enter total project floor area",
-                "Select construction type and quality level",
-                "Choose items to include in estimate",
-                "Set contingency percentage",
-                "Review total cost and breakdown"
-            ]
-        },
-        "useCases": [
-            {
-                "title": "New Home Construction",
-                "description": "Estimate total costs for building a new residential home."
-            },
-            {
-                "title": "Commercial Development",
-                "description": "Budget for office buildings, retail spaces, and commercial projects."
-            },
-            {
-                "title": "Home Renovation",
-                "description": "Plan costs for major home remodeling and additions."
-            },
-            {
-                "title": "Investment Analysis",
-                "description": "Calculate construction costs for real estate investment decisions."
-            }
-        ],
-        "seoTips": [
-            "Always include 10-20% contingency for unexpected costs",
-            "Material costs are typically 40-50% of total construction cost",
-            "Labor costs vary significantly by region - get local quotes",
-            "Permits and fees can add 1-5% to total project cost",
-            "Get multiple contractor bids to ensure competitive pricing"
-        ],
-        "commonMistakes": [
-            {
-                "mistake": "No contingency budget",
-                "solution": "Always include 15-20% contingency for unforeseen issues"
-            },
-            {
-                "mistake": "Underestimating permit costs",
-                "solution": "Research local permit fees - can be substantial in some areas"
-            },
-            {
-                "mistake": "Ignoring site preparation",
-                "solution": "Include costs for clearing, grading, and utility connections"
-            },
-            {
-                "mistake": "Forgetting finish selections",
-                "solution": "Allowances for fixtures, finishes, and appliances vary greatly"
-            }
-        ],
-        "faqs": [
-            {
-                "question": "What is the average cost per square foot to build a house?",
-                "answer": "Basic construction: $100-150/sqft, standard: $150-250/sqft, premium: $250-400+/sqft. Costs vary significantly by location and specifications."
-            },
-            {
-                "question": "What percentage of construction cost is labor?",
-                "answer": "Labor typically accounts for 35-45% of total construction costs. This varies by project complexity and local labor rates."
-            },
-            {
-                "question": "How much should I budget for contingency?",
-                "answer": "Budget 10-15% contingency for new construction, 15-20% for renovations where hidden issues may emerge."
-            },
-            {
-                "question": "What is not included in cost per square foot?",
-                "answer": "Often excludes land, permits, architectural fees, landscaping, driveways, and some finishes. Clarify inclusions with contractors."
-            },
-            {
-                "question": "How do I reduce construction costs?",
-                "answer": "Simple designs, standard materials, competitive bidding, value engineering, and acting as your own general contractor can reduce costs."
-            }
-        ]
+    "placeholders": {
+      "hours": "40",
+      "overtime": "0",
+      "rate": "25",
+      "workers": "1",
+      "multiplier": "1.5",
+      "overhead": "15"
     },
-    "labor-cost-construction-calculator": {
-        "title": "Labor Cost Calculator - Construction Wages",
-        "description": "Calculate labor costs for construction projects. Our free labor cost calculator estimates worker wages, hours, and total workforce expenses. Essential for accurate project bidding and budget planning."
+    "howItWorks": {
+      "title": "How the Labor Cost Calculator Works",
+      "formula": "Total = (Regular Hours × Rate × Workers) + (OT Hours × Rate × Multiplier × Workers) + Overhead",
+      "explanation": "This calculator computes total labor costs by combining regular wages, overtime pay with multipliers, and overhead expenses like insurance and benefits.",
+      "steps": [
+        {
+          "name": "Step 1",
+          "text": "Enter regular working hours per worker"
+        },
+        {
+          "name": "Step 2",
+          "text": "Add overtime hours if applicable"
+        },
+        {
+          "name": "Step 3",
+          "text": "Set the base hourly rate"
+        },
+        {
+          "name": "Step 4",
+          "text": "Specify the number of workers"
+        },
+        {
+          "name": "Step 5",
+          "text": "Adjust overtime multiplier and overhead rate"
+        }
+      ]
     },
-    "material-cost-calculator": {
-        "title": "Material Cost Calculator - Building Materials",
-        "description": "Calculate building material costs for construction projects. Our free material cost calculator estimates expenses for lumber, concrete, steel, and supplies. Perfect for accurate project budgeting and cost control."
+    "useCases": [
+      {
+        "title": "Project Bidding",
+        "description": "Calculate accurate labor costs for competitive construction bids and proposals."
+      },
+      {
+        "title": "Payroll Planning",
+        "description": "Estimate weekly or monthly labor expenses for workforce management."
+      },
+      {
+        "title": "Cost Analysis",
+        "description": "Compare labor costs across different crew sizes and work schedules."
+      },
+      {
+        "title": "Budget Forecasting",
+        "description": "Project total labor expenses for multi-week construction projects."
+      }
+    ],
+    "seoTips": [
+      "Include 15-30% overhead for insurance, benefits, taxes, and equipment",
+      "Factor in productivity rates - workers don't produce 100% of paid hours",
+      "Account for learning curves on complex or new types of work",
+      "Consider travel time and mobilization costs for remote job sites",
+      "Track actual hours vs estimated to improve future bidding accuracy"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Forgetting overhead costs",
+        "solution": "Always add 15-30% for insurance, taxes, benefits, and equipment"
+      },
+      {
+        "mistake": "Underestimating overtime",
+        "solution": "Plan for realistic schedules - construction often requires overtime"
+      },
+      {
+        "mistake": "Ignoring productivity factors",
+        "solution": "Account for breaks, weather delays, and non-productive time"
+      },
+      {
+        "mistake": "Not including supervision",
+        "solution": "Add foreman/supervisor costs at higher rates for proper oversight"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a typical overhead rate for construction labor?",
+        "answer": "Construction overhead typically ranges from 15-30% and includes worker's compensation insurance, liability insurance, payroll taxes, benefits, and equipment costs."
+      },
+      {
+        "question": "How do I calculate labor cost per square foot?",
+        "answer": "Divide total labor cost by project square footage. This helps compare costs across projects and improve future estimates."
+      },
+      {
+        "question": "What is the standard overtime multiplier?",
+        "answer": "Most jurisdictions require 1.5x (time-and-a-half) for hours over 40 per week. Some union contracts or holiday work may require 2x (double time)."
+      },
+      {
+        "question": "How many labor hours per square foot for construction?",
+        "answer": "This varies widely: residential framing averages 0.5-1 hour/sq ft, finish work 1-2 hours/sq ft, and complete home construction 10-15 hours/sq ft."
+      },
+      {
+        "question": "Should I include benefits in the hourly rate?",
+        "answer": "You can either include benefits in the hourly rate or add them to overhead. Be consistent with your method to ensure accurate total costs."
+      }
+    ]
+  },
+  "material_cost": {
+    "title": "Material Cost Calculator",
+    "description": "Calculate total building material costs with tax for construction projects.",
+    "currency": "Currency",
+    "currency_tooltip": "Select your local currency",
+    "currencies": {
+      "usd": "US Dollar (USD)",
+      "eur": "Euro (EUR)",
+      "gbp": "British Pound (GBP)",
+      "sar": "Saudi Riyal (SAR)",
+      "aed": "UAE Dirham (AED)",
+      "jod": "Jordanian Dinar (JOD)"
     },
-    "construction-cost-calculator": {
-        "title": "Construction Cost Calculator - Building Budget",
-        "description": "Calculate total construction costs for building projects. Our free construction cost calculator estimates materials, labor, and overhead expenses. Perfect for budgeting home builds, renovations, and commercial projects."
-    }
+    "materials": "Materials List",
+    "add_material": "Add Material",
+    "item": "Item",
+    "tax_rate": "Tax Rate (%)",
+    "tax_rate_tooltip": "Sales tax or VAT percentage to apply",
+    "result_total": "Total Cost",
+    "items_count": "{{count}} items",
+    "breakdown": "Cost Breakdown",
+    "unnamed_item": "Unnamed Item",
+    "subtotal": "Subtotal",
+    "tax": "Tax",
+    "grand_total": "Grand Total",
+    "formula_title": "Calculation Formula",
+    "formula": "Total = Σ(Quantity × Unit Price) + Tax. Tax is calculated on the subtotal of all items.",
+    "info_title": "About Material Cost Calculation",
+    "info_description": "Track and estimate material costs for accurate project budgeting. Add multiple items with quantities and unit prices to calculate total expenses.",
+    "use_cases_title": "Common Uses",
+    "use_case_1": "Project budgeting and estimates",
+    "use_case_2": "Material purchasing decisions",
+    "use_case_3": "Cost comparison between suppliers",
+    "errors": {
+      "no_materials": "Please add at least one material with quantity and price",
+      "invalid_tax": "Tax rate must be between 0 and 100"
+    },
+    "placeholders": {
+      "name": "Material name",
+      "quantity": "Qty",
+      "unit_price": "Price",
+      "tax": "0"
+    },
+    "howItWorks": {
+      "title": "How the Material Cost Calculator Works",
+      "formula": "Total = Sum(Quantity × Unit Price) + Tax",
+      "explanation": "This calculator helps you track all material expenses by adding individual items with quantities and unit prices. It automatically calculates subtotals, applies tax rates, and provides a comprehensive cost breakdown.",
+      "steps": [
+        {
+          "name": "Step 1",
+          "text": "Select your local currency for accurate pricing"
+        },
+        {
+          "name": "Step 2",
+          "text": "Add each material item with name, quantity, and unit price"
+        },
+        {
+          "name": "Step 3",
+          "text": "Continue adding items until all materials are listed"
+        },
+        {
+          "name": "Step 4",
+          "text": "Set the applicable tax rate (VAT/sales tax)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review the total cost breakdown for budgeting"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Project Cost Estimation",
+        "description": "Create detailed material lists for accurate construction project bidding."
+      },
+      {
+        "title": "Supplier Price Comparison",
+        "description": "Compare total costs from different suppliers using the same material list."
+      },
+      {
+        "title": "Budget Tracking",
+        "description": "Monitor material expenses throughout the project against initial estimates."
+      },
+      {
+        "title": "Client Quotations",
+        "description": "Generate itemized material costs for transparent client proposals."
+      }
+    ],
+    "seoTips": [
+      "Always get quotes from multiple suppliers before finalizing material costs",
+      "Include delivery charges in your unit prices for accurate totals",
+      "Factor in price fluctuations for materials like lumber and steel",
+      "Keep records of actual costs vs estimates to improve future bidding accuracy",
+      "Consider bulk discounts when ordering large quantities"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Forgetting delivery costs",
+        "solution": "Include delivery charges in unit prices or add as a separate line item"
+      },
+      {
+        "mistake": "Not accounting for price changes",
+        "solution": "Lock in prices with suppliers or add 5-10% contingency for volatile materials"
+      },
+      {
+        "mistake": "Missing small items",
+        "solution": "Create comprehensive checklists including fasteners, adhesives, and consumables"
+      },
+      {
+        "mistake": "Incorrect tax calculations",
+        "solution": "Verify current tax rates and which items are taxable in your jurisdiction"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How do I estimate material costs for a construction project?",
+        "answer": "Start with accurate quantity takeoffs from plans, get current prices from suppliers, add waste factors, and include tax and delivery. This calculator helps organize all these costs."
+      },
+      {
+        "question": "What percentage should I add for material waste?",
+        "answer": "Typically add 5-10% for waste on most materials. Complex installations with many cuts may require 15%. This should be added to quantities before calculating costs."
+      },
+      {
+        "question": "Should I include labor in material cost estimates?",
+        "answer": "Material costs should be separate from labor. Use our Labor Cost Calculator for workforce expenses and combine both for total project cost."
+      },
+      {
+        "question": "How do I handle material price increases mid-project?",
+        "answer": "Include escalation clauses in contracts, lock in prices with purchase orders, or add contingency funds (5-10%) to your estimates."
+      },
+      {
+        "question": "What materials typically have the most price volatility?",
+        "answer": "Lumber, steel, copper, and fuel-dependent products like asphalt experience significant price swings. Get firm quotes and act quickly for these materials."
+      }
+    ]
+  },
+  "constructionCost": {
+    "title": "Construction Cost Calculator",
+    "description": "Calculate total construction costs including materials, labor, permits, and contingency.",
+    "currency": "Currency",
+    "currency_tooltip": "Select your local currency",
+    "currencies": {
+      "usd": "US Dollar (USD)",
+      "eur": "Euro (EUR)",
+      "gbp": "British Pound (GBP)",
+      "sar": "Saudi Riyal (SAR)",
+      "aed": "UAE Dirham (AED)",
+      "jod": "Jordanian Dinar (JOD)"
+    },
+    "project_area": "Project Area",
+    "project_area_tooltip": "Total floor area of construction",
+    "unit": "Area Unit",
+    "unit_tooltip": "Select square feet or square meters",
+    "sqft": "Square Feet",
+    "sqm": "Square Meters",
+    "construction_type": "Construction Type",
+    "construction_type_tooltip": "Type of construction affects cost per square foot",
+    "types": {
+      "basic": "Basic Residential",
+      "standard": "Standard Residential",
+      "premium": "Premium Residential",
+      "commercial": "Commercial Building",
+      "industrial": "Industrial/Warehouse"
+    },
+    "include_items": "Include in Estimate",
+    "materials": "Materials",
+    "labor": "Labor",
+    "permits": "Permits & Fees",
+    "contingency": "Contingency (%)",
+    "contingency_tooltip": "Buffer for unexpected costs (typically 10-20%)",
+    "result_total": "Total Estimated Cost",
+    "breakdown": "Cost Breakdown",
+    "materials_cost": "Materials",
+    "labor_cost": "Labor",
+    "permits_cost": "Permits & Fees",
+    "contingency_cost": "Contingency",
+    "cost_per_sqft": "Cost per Square Foot",
+    "formula_title": "Calculation Formula",
+    "formula": "Total = (Area × Cost per Sqft) + Permits + Contingency",
+    "info_title": "About Construction Cost Calculation",
+    "info_description": "Construction costs vary significantly by location, materials, and specifications. This calculator provides estimates based on typical cost ranges.",
+    "use_cases_title": "Common Uses",
+    "use_case_1": "New home construction budgeting",
+    "use_case_2": "Commercial project estimation",
+    "use_case_3": "Renovation cost planning",
+    "errors": {
+      "invalid_area": "Please enter valid project area",
+      "positive_values": "Area must be greater than zero",
+      "invalid_contingency": "Contingency must be between 0 and 50"
+    },
+    "placeholders": {
+      "area": "2000",
+      "contingency": "15"
+    },
+    "howItWorks": {
+      "title": "How the Construction Cost Calculator Works",
+      "formula": "Total Cost = (Area × Cost per SF) × (1 + Contingency)",
+      "explanation": "This calculator estimates total construction costs based on project area and construction type. It breaks down costs into materials, labor, permits, and includes contingency for unexpected expenses.",
+      "steps": [
+        {
+          "name": "Step 1",
+          "text": "Enter total project floor area"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select construction type and quality level"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose items to include in estimate"
+        },
+        {
+          "name": "Step 4",
+          "text": "Set contingency percentage"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review total cost and breakdown"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "New Home Construction",
+        "description": "Estimate total costs for building a new residential home."
+      },
+      {
+        "title": "Commercial Development",
+        "description": "Budget for office buildings, retail spaces, and commercial projects."
+      },
+      {
+        "title": "Home Renovation",
+        "description": "Plan costs for major home remodeling and additions."
+      },
+      {
+        "title": "Investment Analysis",
+        "description": "Calculate construction costs for real estate investment decisions."
+      }
+    ],
+    "seoTips": [
+      "Always include 10-20% contingency for unexpected costs",
+      "Material costs are typically 40-50% of total construction cost",
+      "Labor costs vary significantly by region - get local quotes",
+      "Permits and fees can add 1-5% to total project cost",
+      "Get multiple contractor bids to ensure competitive pricing"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "No contingency budget",
+        "solution": "Always include 15-20% contingency for unforeseen issues"
+      },
+      {
+        "mistake": "Underestimating permit costs",
+        "solution": "Research local permit fees - can be substantial in some areas"
+      },
+      {
+        "mistake": "Ignoring site preparation",
+        "solution": "Include costs for clearing, grading, and utility connections"
+      },
+      {
+        "mistake": "Forgetting finish selections",
+        "solution": "Allowances for fixtures, finishes, and appliances vary greatly"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the average cost per square foot to build a house?",
+        "answer": "Basic construction: $100-150/sqft, standard: $150-250/sqft, premium: $250-400+/sqft. Costs vary significantly by location and specifications."
+      },
+      {
+        "question": "What percentage of construction cost is labor?",
+        "answer": "Labor typically accounts for 35-45% of total construction costs. This varies by project complexity and local labor rates."
+      },
+      {
+        "question": "How much should I budget for contingency?",
+        "answer": "Budget 10-15% contingency for new construction, 15-20% for renovations where hidden issues may emerge."
+      },
+      {
+        "question": "What is not included in cost per square foot?",
+        "answer": "Often excludes land, permits, architectural fees, landscaping, driveways, and some finishes. Clarify inclusions with contractors."
+      },
+      {
+        "question": "How do I reduce construction costs?",
+        "answer": "Simple designs, standard materials, competitive bidding, value engineering, and acting as your own general contractor can reduce costs."
+      }
+    ]
+  },
+  "labor-cost-construction-calculator": {
+    "title": "Labor Cost Calculator - Construction Wages",
+    "description": "Calculate labor costs for construction projects. Our free labor cost calculator estimates worker wages, hours, and total workforce expenses. Essential for accurate project bidding and budget planning."
+  },
+  "material-cost-calculator": {
+    "title": "Material Cost Calculator - Building Materials",
+    "description": "Calculate building material costs for construction projects. Our free material cost calculator estimates expenses for lumber, concrete, steel, and supplies. Perfect for accurate project budgeting and cost control."
+  },
+  "construction-cost-calculator": {
+    "title": "Construction Cost Calculator - Building Budget",
+    "description": "Calculate total construction costs for building projects. Our free construction cost calculator estimates materials, labor, and overhead expenses. Perfect for budgeting home builds, renovations, and commercial projects."
+  }
 }

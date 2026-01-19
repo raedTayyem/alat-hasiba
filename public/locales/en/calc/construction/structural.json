@@ -1,793 +1,883 @@
 {
-    "brick": {
-        "title": "Brick Calculator",
-        "description": "Calculate the number of bricks and mortar required for a wall.",
-        "brick_size": "Brick Size",
-        "brick_size_tooltip": "Select standard brick dimensions",
-        "modular": "Modular (194 × 92 × 57 mm)",
-        "standard": "Standard (203 × 92 × 57 mm)",
-        "jumbo": "Jumbo (305 × 92 × 70 mm)",
-        "wall_length": "Wall Length",
-        "wall_length_tooltip": "Total length of the wall",
-        "wall_height": "Wall Height",
-        "wall_height_tooltip": "Total height of the wall",
-        "result_bricks": "Total Bricks Needed",
-        "bricks": "Bricks",
-        "without_waste": "without waste",
-        "details": "Project Details",
-        "wall_area": "Total Wall Area",
-        "mortar_volume": "Mortar Volume",
-        "mortar_bags": "Mortar Bags (25kg)",
-        "extra_bricks": "Extra Bricks (Waste)",
-        "formula": "Bricks = (Wall Area / Brick Face Area) × (1 + Waste). Mortar volume assumes 10mm joint thickness.",
-        "about_title": "About Brick Calculation",
-        "about_description": "Estimating bricks involves wall area, brick size, and mortar joint thickness. Include a waste factor for cutting and breakage.",
-        "errors": {
-            "invalid_dimensions": "Please enter valid dimensions",
-            "positive_values": "Dimensions must be greater than zero",
-            "invalid_waste": "Waste factor must be between 0 and 100"
-        },
-        "placeholders": {
-            "wall_length": "10",
-            "wall_height": "3",
-            "waste": "5"
-        },
-        "howItWorks": {
-            "title": "How the Brick Calculator Works",
-            "formula": "Bricks = (Wall Area / Brick Face Area) × (1 + Waste Factor)",
-            "explanation": "This calculator determines brick quantity by dividing the total wall area by individual brick coverage area, including mortar joints. It also estimates mortar volume based on standard 10mm joint thickness.",
-            "steps": [
-                "Enter the wall length and height in your preferred unit",
-                "Select the brick size (modular, standard, or jumbo)",
-                "Set the waste factor percentage for cutting and breakage",
-                "Review the total brick count and mortar requirements",
-                "Order materials with the calculated waste factor included"
-            ]
-        },
-        "useCases": [
-            {
-                "title": "Garden Walls and Boundaries",
-                "description": "Calculate bricks for decorative garden walls and property boundary walls."
-            },
-            {
-                "title": "House Extensions",
-                "description": "Estimate brick requirements for building extensions and additions to existing structures."
-            },
-            {
-                "title": "Retaining Walls",
-                "description": "Determine materials for load-bearing retaining walls with proper drainage considerations."
-            },
-            {
-                "title": "Decorative Features",
-                "description": "Plan brick quantities for columns, pillars, archways, and other architectural features."
-            }
-        ],
-        "seoTips": [
-            "Order 5-10% extra bricks to account for cutting, breakage, and future repairs",
-            "Consider brick bonds (stretcher, Flemish, English) as they affect the total count",
-            "Store bricks properly on site - keep them dry and covered to prevent efflorescence",
-            "Mix bricks from multiple pallets during laying to ensure consistent color distribution",
-            "Check local building codes for wall thickness and reinforcement requirements"
-        ],
-        "commonMistakes": [
-            {
-                "mistake": "Not accounting for mortar joints",
-                "solution": "Include 10mm joints in calculations - this significantly affects brick count"
-            },
-            {
-                "mistake": "Forgetting openings",
-                "solution": "Subtract window and door areas from total wall area before calculating"
-            },
-            {
-                "mistake": "Ignoring brick bond patterns",
-                "solution": "Different bond patterns require different quantities - Flemish bond uses more bricks than stretcher"
-            },
-            {
-                "mistake": "Insufficient waste allowance",
-                "solution": "Use 5% waste for simple walls, 10% for walls with many cuts and openings"
-            }
-        ],
-        "faqs": [
-            {
-                "question": "How many bricks are needed per square meter?",
-                "answer": "For standard bricks with 10mm mortar joints, approximately 50-60 bricks per square meter are needed for single-skin walls, depending on brick size and bond pattern."
-            },
-            {
-                "question": "How much mortar do I need per 1000 bricks?",
-                "answer": "Approximately 0.5 cubic meters of mortar is needed per 1000 bricks for standard brickwork with 10mm joints."
-            },
-            {
-                "question": "What is the best mortar mix ratio for bricklaying?",
-                "answer": "A 1:4 cement-to-sand ratio is standard for general brickwork. Use 1:3 for load-bearing walls or 1:6 for non-structural work."
-            },
-            {
-                "question": "Should I soak bricks before laying?",
-                "answer": "Yes, soaking bricks briefly prevents them from absorbing moisture from the mortar too quickly, ensuring proper bond strength."
-            },
-            {
-                "question": "What is the standard brick size?",
-                "answer": "Standard modular bricks are 194 × 92 × 57 mm. With 10mm mortar joints, this gives a modular dimension of 200 × 100 × 67 mm."
-            }
-        ]
+  "brick": {
+    "title": "Brick Calculator",
+    "description": "Calculate the number of bricks and mortar required for a wall.",
+    "brick_size": "Brick Size",
+    "brick_size_tooltip": "Select standard brick dimensions",
+    "modular": "Modular (194 × 92 × 57 mm)",
+    "standard": "Standard (203 × 92 × 57 mm)",
+    "jumbo": "Jumbo (305 × 92 × 70 mm)",
+    "wall_length": "Wall Length",
+    "wall_length_tooltip": "Total length of the wall",
+    "wall_height": "Wall Height",
+    "wall_height_tooltip": "Total height of the wall",
+    "result_bricks": "Total Bricks Needed",
+    "bricks": "Bricks",
+    "without_waste": "without waste",
+    "details": "Project Details",
+    "wall_area": "Total Wall Area",
+    "mortar_volume": "Mortar Volume",
+    "mortar_bags": "Mortar Bags (25kg)",
+    "extra_bricks": "Extra Bricks (Waste)",
+    "formula": "Bricks = (Wall Area / Brick Face Area) × (1 + Waste). Mortar volume assumes 10mm joint thickness.",
+    "about_title": "About Brick Calculation",
+    "about_description": "Estimating bricks involves wall area, brick size, and mortar joint thickness. Include a waste factor for cutting and breakage.",
+    "errors": {
+      "invalid_dimensions": "Please enter valid dimensions",
+      "positive_values": "Dimensions must be greater than zero",
+      "invalid_waste": "Waste factor must be between 0 and 100"
     },
-    "block": {
-        "title": "Block Calculator",
-        "description": "Calculate concrete blocks (CMU) needed for wall construction with mortar estimates.",
-        "unit": "Measurement Unit",
-        "unit_tooltip": "Select meters or feet for measurements",
-        "meters": "Meters",
-        "feet": "Feet",
-        "wall_length": "Wall Length",
-        "wall_length_tooltip": "Total length of the wall",
-        "wall_height": "Wall Height",
-        "wall_height_tooltip": "Total height of the wall",
-        "block_size": "Block Size",
-        "block_size_tooltip": "Select standard concrete block dimensions",
-        "sizes": {
-            "standard": "Standard (8×8×16 inches / 200×200×400mm)",
-            "half": "Half Block (8×8×8 inches / 200×200×200mm)",
-            "large": "Large (8×12×16 inches / 200×300×400mm)"
-        },
-        "waste_factor": "Waste Factor (%)",
-        "waste_factor_tooltip": "Extra material for cutting and breakage (typically 5-10%)",
-        "result_blocks": "Total Blocks Needed",
-        "blocks": "blocks",
-        "details": "Project Details",
-        "wall_area": "Wall Area",
-        "mortar_bags": "Mortar Bags (80 lb)",
-        "rebar_needed": "Vertical Rebar",
-        "formula_title": "Calculation Formula",
-        "formula": "Blocks = Wall Area / Block Face Area × (1 + Waste Factor)",
-        "info_title": "About Block Calculation",
-        "info_description": "Concrete masonry units (CMU) are efficient for load-bearing walls. This calculator estimates blocks, mortar, and reinforcement needs.",
-        "use_cases_title": "Common Uses",
-        "use_case_1": "Foundation walls",
-        "use_case_2": "Retaining walls",
-        "use_case_3": "Commercial construction",
-        "errors": {
-            "invalid_dimensions": "Please enter valid wall dimensions",
-            "positive_values": "Dimensions must be greater than zero",
-            "invalid_waste": "Waste factor must be between 0 and 100"
-        },
-        "placeholders": {
-            "wall_length": "10",
-            "wall_height": "2.4",
-            "waste": "5"
-        },
-        "howItWorks": {
-            "title": "How the Block Calculator Works",
-            "formula": "Blocks = (Wall Area / Block Face Area) × (1 + Waste Factor)",
-            "explanation": "This calculator determines concrete block quantity by dividing wall area by the face area of each block. It accounts for mortar joints and includes estimates for mortar bags and vertical reinforcement.",
-            "steps": [
-                "Enter wall length and height measurements",
-                "Select block size (standard 8×8×16 is most common)",
-                "Set waste factor for cutting and breakage",
-                "Review total block count and mortar requirements",
-                "Plan for vertical rebar placement as needed"
-            ]
-        },
-        "useCases": [
-            {
-                "title": "Foundation Walls",
-                "description": "Calculate CMU blocks for basement and crawl space foundation walls."
-            },
-            {
-                "title": "Retaining Walls",
-                "description": "Estimate materials for landscape retaining walls with proper reinforcement."
-            },
-            {
-                "title": "Garage and Outbuilding Walls",
-                "description": "Plan block quantities for detached structures and utility buildings."
-            },
-            {
-                "title": "Commercial Construction",
-                "description": "Determine CMU needs for commercial and industrial building walls."
-            }
-        ],
-        "seoTips": [
-            "Standard CMU blocks are 8×8×16 inches nominal (actual 7-5/8×7-5/8×15-5/8)",
-            "Fill cells with concrete and rebar every 4 feet for structural walls",
-            "Use type S mortar for below-grade and load-bearing applications",
-            "Stack bond pattern uses fewer blocks but requires more reinforcement",
-            "Apply waterproofing to below-grade block walls to prevent moisture penetration"
-        ],
-        "commonMistakes": [
-            {
-                "mistake": "Forgetting bond beam blocks",
-                "solution": "Include lintel and bond beam blocks at tops of walls and above openings"
-            },
-            {
-                "mistake": "Insufficient reinforcement",
-                "solution": "Install vertical rebar every 4 feet and horizontal reinforcement every 2-3 courses"
-            },
-            {
-                "mistake": "Using wrong mortar type",
-                "solution": "Use type S mortar for structural walls, type N for non-load-bearing above grade"
-            },
-            {
-                "mistake": "Not planning for openings",
-                "solution": "Calculate blocks around doors and windows, include lintels for support"
-            }
-        ],
-        "faqs": [
-            {
-                "question": "How many concrete blocks per square foot?",
-                "answer": "Standard 8×16 inch blocks cover 0.89 sq ft each (including mortar joints), so you need approximately 1.125 blocks per square foot of wall area."
-            },
-            {
-                "question": "How much mortar for 100 blocks?",
-                "answer": "Approximately 3 bags of 80 lb mortar mix are needed for 100 standard concrete blocks, assuming 3/8 inch joints."
-            },
-            {
-                "question": "Do concrete block walls need insulation?",
-                "answer": "Yes, for energy efficiency. Options include foam inserts in cells, rigid foam on exterior, or insulated concrete blocks."
-            },
-            {
-                "question": "What is the weight of a standard concrete block?",
-                "answer": "Standard 8×8×16 concrete blocks weigh 35-40 lbs each. Lightweight blocks weigh 25-28 lbs."
-            },
-            {
-                "question": "Should concrete block cells be filled?",
-                "answer": "Fill cells with concrete where rebar is placed, at corners, and at regular intervals for structural integrity. Non-structural walls may have partially filled cells."
-            }
-        ]
+    "placeholders": {
+      "wall_length": "10",
+      "wall_height": "3",
+      "waste": "5"
     },
-    "rebar": {
-        "title": "Rebar Calculator",
-        "description": "Calculate reinforcement steel quantities for concrete slabs and foundations.",
-        "unit": "Measurement Unit",
-        "unit_tooltip": "Select meters or feet for slab dimensions",
-        "meters": "Meters",
-        "feet": "Feet",
-        "m": "m",
-        "ft": "ft",
-        "mm": "mm",
-        "m2": "m²",
-        "slab_length": "Slab Length",
-        "slab_length_tooltip": "Length of the concrete slab",
-        "slab_width": "Slab Width",
-        "slab_width_tooltip": "Width of the concrete slab",
-        "bar_spacing": "Bar Spacing",
-        "bar_spacing_tooltip": "Center-to-center spacing between rebars (typically 150-300mm)",
-        "bar_size": "Bar Size",
-        "bar_size_tooltip": "Diameter of the reinforcement bars",
-        "sizes": {
-            "8mm": "#2.5 (8mm) - 0.395 kg/m",
-            "10mm": "#3 (10mm) - 0.617 kg/m",
-            "12mm": "#4 (12mm) - 0.888 kg/m",
-            "14mm": "#4.5 (14mm) - 1.208 kg/m",
-            "16mm": "#5 (16mm) - 1.578 kg/m",
-            "20mm": "#6 (20mm) - 2.466 kg/m",
-            "22mm": "#7 (22mm) - 2.984 kg/m",
-            "25mm": "#8 (25mm) - 3.853 kg/m",
-            "28mm": "#9 (28mm) - 4.834 kg/m",
-            "32mm": "#10 (32mm) - 6.313 kg/m"
+    "howItWorks": {
+      "title": "How the Brick Calculator Works",
+      "formula": "Bricks = (Wall Area / Brick Face Area) × (1 + Waste Factor)",
+      "explanation": "This calculator determines brick quantity by dividing the total wall area by individual brick coverage area, including mortar joints. It also estimates mortar volume based on standard 10mm joint thickness.",
+      "steps": [
+        {
+          "name": "Step 1",
+          "text": "Enter the wall length and height in your preferred unit"
         },
-        "result_weight": "Total Rebar Weight",
-        "kg": "kg",
-        "lbs": "lbs",
-        "tons": "tons",
-        "details": "Rebar Details",
-        "bars_length_dir": "Bars (Length Direction)",
-        "bars_width_dir": "Bars (Width Direction)",
-        "bars": "bars",
-        "total_length": "Total Length",
-        "slab_area": "Slab Area",
-        "summary": "Summary",
-        "total_bars": "Total Bars",
-        "weight_per_meter": "Weight per Meter",
-        "kg_m": "kg/m",
-        "formula_title": "Calculation Formula",
-        "formula": "Bars = (Dimension / Spacing) + 1. Total Length = Bars × Cross Dimension. Weight = Length × kg/m.",
-        "info_title": "About Rebar Calculation",
-        "info_description": "Proper rebar placement strengthens concrete against tension and cracking. Spacing and bar size depend on structural requirements.",
-        "use_cases_title": "Common Uses",
-        "use_case_1": "Concrete slab reinforcement",
-        "use_case_2": "Foundation footings",
-        "use_case_3": "Retaining walls and columns",
-        "errors": {
-            "invalid_dimensions": "Please enter valid slab dimensions",
-            "positive_values": "Dimensions must be greater than zero",
-            "invalid_spacing": "Please enter a valid bar spacing",
-            "max_spacing": "Bar spacing cannot exceed 500mm"
+        {
+          "name": "Step 2",
+          "text": "Select the brick size (modular, standard, or jumbo)"
         },
-        "placeholders": {
-            "slab_length": "10",
-            "slab_width": "8",
-            "bar_spacing": "200"
+        {
+          "name": "Step 3",
+          "text": "Set the waste factor percentage for cutting and breakage"
         },
-        "howItWorks": {
-            "title": "How the Rebar Calculator Works",
-            "formula": "Bars = (Dimension / Spacing) + 1; Weight = Total Length × kg/m",
-            "explanation": "This calculator determines rebar quantities for a grid pattern. It calculates bars needed in both directions, total linear length, and weight based on bar diameter.",
-            "steps": [
-                "Enter slab length and width dimensions",
-                "Specify center-to-center bar spacing",
-                "Select rebar size (diameter)",
-                "Review bar count for each direction",
-                "Check total weight for material ordering"
-            ]
+        {
+          "name": "Step 4",
+          "text": "Review the total brick count and mortar requirements"
         },
-        "useCases": [
-            {
-                "title": "Floor Slab Reinforcement",
-                "description": "Calculate rebar grid for residential and commercial floor slabs."
-            },
-            {
-                "title": "Foundation Mats",
-                "description": "Estimate steel quantities for mat foundations and footings."
-            },
-            {
-                "title": "Retaining Walls",
-                "description": "Plan vertical and horizontal reinforcement for retaining structures."
-            },
-            {
-                "title": "Driveway Slabs",
-                "description": "Determine rebar needs for reinforced concrete driveways."
-            }
-        ],
-        "seoTips": [
-            "Standard spacing for slabs is 150-300mm (6-12 inches) center-to-center",
-            "Maintain minimum 50mm (2 inch) concrete cover over rebar for protection",
-            "Use chairs or spacers to hold rebar at correct height during pour",
-            "Lap splices should be 40-50 bar diameters for proper load transfer",
-            "Tie wire or rebar clips secure intersections in the grid"
-        ],
-        "commonMistakes": [
-            {
-                "mistake": "Insufficient concrete cover",
-                "solution": "Maintain 50mm minimum cover - use proper chairs and spacers"
-            },
-            {
-                "mistake": "Improper lap splices",
-                "solution": "Overlap bars by 40-50 diameters and stagger splice locations"
-            },
-            {
-                "mistake": "Rebar touching ground",
-                "solution": "Use concrete blocks or plastic chairs to elevate rebar grid"
-            },
-            {
-                "mistake": "Missing edge reinforcement",
-                "solution": "Add extra bars at slab edges and around openings"
-            }
-        ],
-        "faqs": [
-            {
-                "question": "What size rebar for a concrete slab?",
-                "answer": "#4 (12mm) rebar is standard for residential slabs. Use #5 (16mm) for driveways with heavy loads. Spacing typically 12-18 inches center-to-center."
-            },
-            {
-                "question": "How much does rebar cost per foot?",
-                "answer": "Rebar typically costs $0.50-$1.00 per linear foot for common sizes. #4 rebar (12mm) costs approximately $0.45-0.70/ft depending on market conditions."
-            },
-            {
-                "question": "Do I need rebar in a 4-inch slab?",
-                "answer": "While not always code-required, rebar significantly reduces cracking in 4-inch slabs. Consider welded wire mesh or #3 rebar at 18-inch spacing for best results."
-            },
-            {
-                "question": "How many bars per ton of rebar?",
-                "answer": "This varies by size: approximately 270 pieces of 12mm × 6m bars per ton, or 168 pieces of 16mm × 6m bars per ton."
-            },
-            {
-                "question": "What is the weight of rebar per meter?",
-                "answer": "Weight increases with diameter: 10mm = 0.62 kg/m, 12mm = 0.89 kg/m, 16mm = 1.58 kg/m, 20mm = 2.47 kg/m."
-            }
-        ]
+        {
+          "name": "Step 5",
+          "text": "Order materials with the calculated waste factor included"
+        }
+      ]
     },
-    "footing": {
-        "title": "Footing Calculator",
-        "description": "Calculate footing size based on structural load and soil bearing capacity.",
-        "column_load": "Column Load",
-        "column_load_tooltip": "Total load from the column or structure (kN)",
-        "soil_type": "Soil Type",
-        "soil_type_tooltip": "Select soil type for default bearing capacity",
-        "soil_types": {
-            "custom": "Custom (Enter manually)",
-            "soft_clay": "Soft Clay (75 kN/m²)",
-            "medium_clay": "Medium Clay (150 kN/m²)",
-            "stiff_clay": "Stiff Clay (300 kN/m²)",
-            "loose_sand": "Loose Sand (100 kN/m²)",
-            "medium_sand": "Medium Sand (200 kN/m²)",
-            "dense_sand": "Dense Sand (350 kN/m²)",
-            "gravel": "Gravel (400 kN/m²)",
-            "rock": "Rock (1000 kN/m²)"
-        },
-        "soil_capacity": "Soil Bearing Capacity",
-        "soil_capacity_tooltip": "Allowable soil bearing capacity in kN/m²",
-        "safety_factor": "Safety Factor",
-        "safety_factor_tooltip": "Load safety factor (typically 2.5 for structures)",
-        "footing_depth": "Footing Depth",
-        "footing_depth_tooltip": "Thickness/depth of the footing in meters",
-        "result_area": "Required Footing Area",
-        "square_meters": "m²",
-        "square_footing": "square footing",
-        "details": "Footing Dimensions",
-        "square_side": "Square Footing Side",
-        "concrete_volume": "Concrete Volume",
-        "design_load": "Factored Design Load",
-        "soil_pressure": "Actual Soil Pressure",
-        "formula_title": "Calculation Formula",
-        "formula": "Footing Area = (Column Load × Safety Factor) / Soil Bearing Capacity. Square Side = √Area.",
-        "info_title": "About Footing Calculation",
-        "info_description": "This calculator determines footing dimensions based on structural loads and soil bearing capacity, ensuring safe load transfer to the foundation soil.",
-        "use_cases_title": "Common Uses",
-        "use_case_1": "Column footing design for buildings",
-        "use_case_2": "Foundation planning for structures",
-        "use_case_3": "Structural load analysis",
-        "errors": {
-            "invalid_load": "Please enter a valid column load",
-            "invalid_capacity": "Please enter a valid soil bearing capacity",
-            "invalid_safety_factor": "Safety factor must be between 1 and 5",
-            "invalid_depth": "Please enter a valid footing depth"
-        },
-        "placeholders": {
-            "column_load": "500",
-            "soil_capacity": "200",
-            "safety_factor": "2.5",
-            "footing_depth": "0.45"
-        },
-        "howItWorks": {
-            "title": "How the Footing Calculator Works",
-            "formula": "Volume = Length × Width × Depth × Number of Footings",
-            "explanation": "This calculator determines concrete volume for footings based on dimensions and quantity. It accounts for waste and provides rebar estimates for reinforcement.",
-            "steps": [
-                "Select footing type (continuous, spread, or combined)",
-                "Enter footing dimensions",
-                "Specify number of identical footings",
-                "Set waste factor for concrete",
-                "Review total volume and rebar needs"
-            ]
-        },
-        "useCases": [
-            {
-                "title": "Wall Footings",
-                "description": "Calculate continuous footings for foundation and retaining walls."
-            },
-            {
-                "title": "Column Footings",
-                "description": "Determine pad footing volumes for columns and posts."
-            },
-            {
-                "title": "Pier Footings",
-                "description": "Estimate concrete for deck pier and beam support footings."
-            },
-            {
-                "title": "Garage Footings",
-                "description": "Plan footings for detached garage and outbuilding foundations."
-            }
-        ],
-        "seoTips": [
-            "Footing width should be twice the wall thickness for residential construction",
-            "Footing depth below frost line prevents heaving in cold climates",
-            "Minimum footing depth is typically 12 inches for residential",
-            "Rebar placement should be 3 inches from bottom and edges",
-            "Check local codes for specific footing requirements"
-        ],
-        "commonMistakes": [
-            {
-                "mistake": "Footings too small",
-                "solution": "Size footings based on load and soil bearing capacity - consult engineer"
-            },
-            {
-                "mistake": "Not below frost line",
-                "solution": "Place footing bottom below local frost depth to prevent heaving"
-            },
-            {
-                "mistake": "Improper rebar placement",
-                "solution": "Position rebar in lower third of footing with proper cover"
-            },
-            {
-                "mistake": "Pouring on disturbed soil",
-                "solution": "Pour on undisturbed soil or properly compacted fill"
-            }
-        ],
-        "faqs": [
-            {
-                "question": "How deep should footings be?",
-                "answer": "Minimum 12 inches for most residential, but must be below frost line which varies from 12-72 inches depending on climate zone."
-            },
-            {
-                "question": "How wide should footings be?",
-                "answer": "Typically twice the wall width for residential. An 8-inch wall requires 16-inch wide footing. Check local codes."
-            },
-            {
-                "question": "Do footings need rebar?",
-                "answer": "Most codes require minimum #4 rebar continuously in strip footings. Pad footings require grid pattern reinforcement."
-            },
-            {
-                "question": "What concrete strength for footings?",
-                "answer": "Minimum 2500 PSI for residential, 3000-4000 PSI for commercial. Use higher strength in corrosive soils."
-            },
-            {
-                "question": "Can I pour footings in cold weather?",
-                "answer": "Yes, with precautions. Use heated water, accelerators, and insulating blankets. Avoid pouring below 20°F."
-            }
-        ]
+    "useCases": [
+      {
+        "title": "Garden Walls and Boundaries",
+        "description": "Calculate bricks for decorative garden walls and property boundary walls."
+      },
+      {
+        "title": "House Extensions",
+        "description": "Estimate brick requirements for building extensions and additions to existing structures."
+      },
+      {
+        "title": "Retaining Walls",
+        "description": "Determine materials for load-bearing retaining walls with proper drainage considerations."
+      },
+      {
+        "title": "Decorative Features",
+        "description": "Plan brick quantities for columns, pillars, archways, and other architectural features."
+      }
+    ],
+    "seoTips": [
+      "Order 5-10% extra bricks to account for cutting, breakage, and future repairs",
+      "Consider brick bonds (stretcher, Flemish, English) as they affect the total count",
+      "Store bricks properly on site - keep them dry and covered to prevent efflorescence",
+      "Mix bricks from multiple pallets during laying to ensure consistent color distribution",
+      "Check local building codes for wall thickness and reinforcement requirements"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Not accounting for mortar joints",
+        "solution": "Include 10mm joints in calculations - this significantly affects brick count"
+      },
+      {
+        "mistake": "Forgetting openings",
+        "solution": "Subtract window and door areas from total wall area before calculating"
+      },
+      {
+        "mistake": "Ignoring brick bond patterns",
+        "solution": "Different bond patterns require different quantities - Flemish bond uses more bricks than stretcher"
+      },
+      {
+        "mistake": "Insufficient waste allowance",
+        "solution": "Use 5% waste for simple walls, 10% for walls with many cuts and openings"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How many bricks are needed per square meter?",
+        "answer": "For standard bricks with 10mm mortar joints, approximately 50-60 bricks per square meter are needed for single-skin walls, depending on brick size and bond pattern."
+      },
+      {
+        "question": "How much mortar do I need per 1000 bricks?",
+        "answer": "Approximately 0.5 cubic meters of mortar is needed per 1000 bricks for standard brickwork with 10mm joints."
+      },
+      {
+        "question": "What is the best mortar mix ratio for bricklaying?",
+        "answer": "A 1:4 cement-to-sand ratio is standard for general brickwork. Use 1:3 for load-bearing walls or 1:6 for non-structural work."
+      },
+      {
+        "question": "Should I soak bricks before laying?",
+        "answer": "Yes, soaking bricks briefly prevents them from absorbing moisture from the mortar too quickly, ensuring proper bond strength."
+      },
+      {
+        "question": "What is the standard brick size?",
+        "answer": "Standard modular bricks are 194 × 92 × 57 mm. With 10mm mortar joints, this gives a modular dimension of 200 × 100 × 67 mm."
+      }
+    ]
+  },
+  "block": {
+    "title": "Block Calculator",
+    "description": "Calculate concrete blocks (CMU) needed for wall construction with mortar estimates.",
+    "unit": "Measurement Unit",
+    "unit_tooltip": "Select meters or feet for measurements",
+    "meters": "Meters",
+    "feet": "Feet",
+    "wall_length": "Wall Length",
+    "wall_length_tooltip": "Total length of the wall",
+    "wall_height": "Wall Height",
+    "wall_height_tooltip": "Total height of the wall",
+    "block_size": "Block Size",
+    "block_size_tooltip": "Select standard concrete block dimensions",
+    "sizes": {
+      "standard": "Standard (8×8×16 inches / 200×200×400mm)",
+      "half": "Half Block (8×8×8 inches / 200×200×200mm)",
+      "large": "Large (8×12×16 inches / 200×300×400mm)"
     },
-    "foundation": {
-        "title": "Foundation Calculator",
-        "description": "Calculate foundation wall concrete and materials for basement and crawl space foundations.",
-        "unit": "Measurement Unit",
-        "unit_tooltip": "Select meters or feet for dimensions",
-        "meters": "Meters",
-        "feet": "Feet",
-        "foundation_type": "Foundation Type",
-        "foundation_type_tooltip": "Select the type of foundation",
-        "types": {
-            "poured": "Poured Concrete Wall",
-            "block": "Concrete Block (CMU)",
-            "icf": "Insulated Concrete Form (ICF)"
-        },
-        "perimeter": "Foundation Perimeter",
-        "perimeter_tooltip": "Total linear feet of foundation walls",
-        "wall_height": "Wall Height",
-        "wall_height_tooltip": "Height of foundation walls",
-        "wall_thickness": "Wall Thickness",
-        "wall_thickness_tooltip": "Thickness of foundation walls",
-        "include_footing": "Include Footing",
-        "include_footing_tooltip": "Add footing concrete to calculation",
-        "footing_width": "Footing Width",
-        "footing_depth": "Footing Depth",
-        "waste_factor": "Waste Factor (%)",
-        "waste_factor_tooltip": "Extra concrete for waste (typically 5%)",
-        "result_volume": "Total Concrete Needed",
-        "cubic_meters": "Cubic Meters",
-        "cubic_yards": "Cubic Yards",
-        "breakdown": "Volume Breakdown",
-        "wall_volume": "Wall Concrete",
-        "footing_volume": "Footing Concrete",
-        "total_volume": "Total with Waste",
-        "rebar_estimate": "Rebar Estimate (linear ft)",
-        "formula_title": "Calculation Formula",
-        "formula": "Wall Volume = Perimeter × Height × Thickness. Footing = Perimeter × Width × Depth.",
-        "info_title": "About Foundation Calculation",
-        "info_description": "Foundation walls support the structure and resist soil pressure. This calculator estimates concrete for poured walls, block walls, and ICF systems.",
-        "use_cases_title": "Common Uses",
-        "use_case_1": "Full basement foundations",
-        "use_case_2": "Crawl space foundations",
-        "use_case_3": "Garage and outbuilding foundations",
-        "errors": {
-            "invalid_dimensions": "Please enter valid foundation dimensions",
-            "positive_values": "Dimensions must be greater than zero",
-            "invalid_waste": "Waste factor must be between 0 and 100"
-        },
-        "placeholders": {
-            "perimeter": "150",
-            "wall_height": "8",
-            "wall_thickness": "0.67",
-            "footing_width": "1.33",
-            "footing_depth": "0.67",
-            "waste": "5"
-        },
-        "howItWorks": {
-            "title": "How the Foundation Calculator Works",
-            "formula": "Total = (Perimeter × Height × Thickness) + (Perimeter × Footing Width × Footing Depth)",
-            "explanation": "This calculator determines concrete volume for foundation walls and footings. It supports poured concrete, block, and ICF foundation systems with rebar estimates.",
-            "steps": [
-                "Select foundation type",
-                "Enter foundation perimeter (total wall length)",
-                "Specify wall height and thickness",
-                "Add footing dimensions if included",
-                "Review total volume and rebar estimate"
-            ]
-        },
-        "useCases": [
-            {
-                "title": "Full Basement",
-                "description": "Calculate concrete for complete basement foundation with 8+ foot walls."
-            },
-            {
-                "title": "Crawl Space",
-                "description": "Estimate foundation materials for crawl space with shorter walls."
-            },
-            {
-                "title": "Daylight Basement",
-                "description": "Plan foundation for walk-out or daylight basement configurations."
-            },
-            {
-                "title": "Garage Foundation",
-                "description": "Determine foundation needs for attached or detached garages."
-            }
-        ],
-        "seoTips": [
-            "Standard residential foundation walls are 8-10 inches thick",
-            "Full basement walls typically 8-9 feet tall, crawl space 2-4 feet",
-            "Footings should be at least twice wall thickness in width",
-            "Place horizontal and vertical rebar per structural engineer specifications",
-            "Waterproof exterior of below-grade foundation walls"
-        ],
-        "commonMistakes": [
-            {
-                "mistake": "Walls too thin",
-                "solution": "8-inch minimum for basement walls, 10-12 inches for tall walls"
-            },
-            {
-                "mistake": "No waterproofing",
-                "solution": "Apply waterproofing membrane and drain tile system"
-            },
-            {
-                "mistake": "Insufficient rebar",
-                "solution": "Follow engineer specifications for horizontal and vertical reinforcement"
-            },
-            {
-                "mistake": "Poor form alignment",
-                "solution": "Ensure forms are level, plumb, and properly braced"
-            }
-        ],
-        "faqs": [
-            {
-                "question": "How thick should foundation walls be?",
-                "answer": "Minimum 8 inches for most residential basement walls. Use 10-12 inches for walls over 8 feet or with significant soil pressure."
-            },
-            {
-                "question": "How much concrete for a basement foundation?",
-                "answer": "A typical 1500 sq ft house basement requires 50-70 cubic yards including walls and footings."
-            },
-            {
-                "question": "Do I need a footer under foundation walls?",
-                "answer": "Yes, footings spread the load over a larger area. Footing width should be at least twice the wall thickness."
-            },
-            {
-                "question": "What is the difference between poured and block foundations?",
-                "answer": "Poured concrete is stronger and more water-resistant. Block is more labor-intensive but can be built without forms."
-            },
-            {
-                "question": "How long before I can backfill foundation?",
-                "answer": "Wait minimum 7 days for concrete to cure. Ideally, install first floor for bracing before backfilling."
-            }
-        ]
+    "waste_factor": "Waste Factor (%)",
+    "waste_factor_tooltip": "Extra material for cutting and breakage (typically 5-10%)",
+    "result_blocks": "Total Blocks Needed",
+    "blocks": "blocks",
+    "details": "Project Details",
+    "wall_area": "Wall Area",
+    "mortar_bags": "Mortar Bags (80 lb)",
+    "rebar_needed": "Vertical Rebar",
+    "formula_title": "Calculation Formula",
+    "formula": "Blocks = Wall Area / Block Face Area × (1 + Waste Factor)",
+    "info_title": "About Block Calculation",
+    "info_description": "Concrete masonry units (CMU) are efficient for load-bearing walls. This calculator estimates blocks, mortar, and reinforcement needs.",
+    "use_cases_title": "Common Uses",
+    "use_case_1": "Foundation walls",
+    "use_case_2": "Retaining walls",
+    "use_case_3": "Commercial construction",
+    "errors": {
+      "invalid_dimensions": "Please enter valid wall dimensions",
+      "positive_values": "Dimensions must be greater than zero",
+      "invalid_waste": "Waste factor must be between 0 and 100"
     },
-    "mortar": {
-        "title": "Mortar Calculator",
-        "description": "Calculate mortar quantity needed for masonry work including cement, sand, and water.",
-        "wall_area": "Wall Area",
-        "wall_area_tooltip": "Total area of wall to be mortared (in square meters)",
-        "masonry_type": "Masonry Type",
-        "masonry_type_tooltip": "Select the type of masonry for accurate mortar estimation",
-        "types": {
-            "brick": "Brick Masonry",
-            "block": "Block/CMU Masonry",
-            "stone": "Stone Masonry"
+    "placeholders": {
+      "wall_length": "10",
+      "wall_height": "2.4",
+      "waste": "5"
+    },
+    "howItWorks": {
+      "title": "How the Block Calculator Works",
+      "formula": "Blocks = (Wall Area / Block Face Area) × (1 + Waste Factor)",
+      "explanation": "This calculator determines concrete block quantity by dividing wall area by the face area of each block. It accounts for mortar joints and includes estimates for mortar bags and vertical reinforcement.",
+      "steps": [
+        {
+          "name": "Step 1",
+          "text": "Enter wall length and height measurements"
         },
-        "joint_thickness": "Joint Thickness",
-        "joint_thickness_tooltip": "Thickness of mortar joints between bricks/blocks",
-        "mix_ratio": "Mix Ratio (Cement:Sand)",
-        "mix_ratio_tooltip": "Cement to sand ratio by volume",
-        "ratios": {
-            "1_3": "1:3 - Strong (Load Bearing)",
-            "1_4": "1:4 - Standard (General Purpose)",
-            "1_5": "1:5 - Economy (Non-Load Bearing)",
-            "1_6": "1:6 - Lean (Plastering)"
+        {
+          "name": "Step 2",
+          "text": "Select block size (standard 8×8×16 is most common)"
         },
-        "waste_factor": "Waste Factor (%)",
-        "waste_factor_tooltip": "Extra material for spillage and waste (typically 10%)",
-        "result_volume": "Mortar Volume Required",
-        "cubic_meters": "Cubic Meters",
-        "materials_needed": "Materials Needed",
-        "cement_bags": "Cement Bags",
-        "bags_50kg": "50kg bags",
-        "sand_volume": "Sand Volume",
-        "water_needed": "Water Needed",
-        "liters": "liters",
-        "coverage_per_bag": "Coverage per Bag",
-        "total_weight": "Total Mortar Weight",
-        "formula_title": "Calculation Formula",
-        "formula": "Mortar Volume = Wall Area × Coverage Factor × (1 + Waste). Materials calculated based on mix ratio and standard densities.",
-        "info_title": "About Mortar Calculation",
-        "info_description": "Accurate mortar estimation ensures you have enough material for bricklaying and blockwork. The amount varies by masonry type, joint thickness, and mix ratio.",
-        "use_cases_title": "Common Uses",
-        "use_case_1": "Brick and block wall construction",
-        "use_case_2": "Stone masonry projects",
-        "use_case_3": "Repair and repointing work",
-        "errors": {
-            "invalid_area": "Please enter a valid wall area",
-            "invalid_thickness": "Joint thickness must be between 1 and 25mm",
-            "invalid_waste": "Waste factor must be between 0 and 50%"
+        {
+          "name": "Step 3",
+          "text": "Set waste factor for cutting and breakage"
         },
-        "placeholders": {
-            "wall_area": "50",
-            "waste": "10"
+        {
+          "name": "Step 4",
+          "text": "Review total block count and mortar requirements"
         },
-        "howItWorks": {
-            "title": "How the Mortar Calculator Works",
-            "formula": "Mortar Volume = Wall Area × Coverage Factor × (1 + Waste)",
-            "explanation": "This calculator estimates mortar quantity based on wall area, masonry type, joint thickness, and mix ratio. It calculates cement bags, sand, and water needed.",
-            "steps": [
-                "Enter total wall area in square meters",
-                "Select masonry type (brick, block, or stone)",
-                "Choose joint thickness and mix ratio",
-                "Add waste factor for spillage",
-                "Review materials: cement bags, sand, water"
-            ]
+        {
+          "name": "Step 5",
+          "text": "Plan for vertical rebar placement as needed"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Foundation Walls",
+        "description": "Calculate CMU blocks for basement and crawl space foundation walls."
+      },
+      {
+        "title": "Retaining Walls",
+        "description": "Estimate materials for landscape retaining walls with proper reinforcement."
+      },
+      {
+        "title": "Garage and Outbuilding Walls",
+        "description": "Plan block quantities for detached structures and utility buildings."
+      },
+      {
+        "title": "Commercial Construction",
+        "description": "Determine CMU needs for commercial and industrial building walls."
+      }
+    ],
+    "seoTips": [
+      "Standard CMU blocks are 8×8×16 inches nominal (actual 7-5/8×7-5/8×15-5/8)",
+      "Fill cells with concrete and rebar every 4 feet for structural walls",
+      "Use type S mortar for below-grade and load-bearing applications",
+      "Stack bond pattern uses fewer blocks but requires more reinforcement",
+      "Apply waterproofing to below-grade block walls to prevent moisture penetration"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Forgetting bond beam blocks",
+        "solution": "Include lintel and bond beam blocks at tops of walls and above openings"
+      },
+      {
+        "mistake": "Insufficient reinforcement",
+        "solution": "Install vertical rebar every 4 feet and horizontal reinforcement every 2-3 courses"
+      },
+      {
+        "mistake": "Using wrong mortar type",
+        "solution": "Use type S mortar for structural walls, type N for non-load-bearing above grade"
+      },
+      {
+        "mistake": "Not planning for openings",
+        "solution": "Calculate blocks around doors and windows, include lintels for support"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How many concrete blocks per square foot?",
+        "answer": "Standard 8×16 inch blocks cover 0.89 sq ft each (including mortar joints), so you need approximately 1.125 blocks per square foot of wall area."
+      },
+      {
+        "question": "How much mortar for 100 blocks?",
+        "answer": "Approximately 3 bags of 80 lb mortar mix are needed for 100 standard concrete blocks, assuming 3/8 inch joints."
+      },
+      {
+        "question": "Do concrete block walls need insulation?",
+        "answer": "Yes, for energy efficiency. Options include foam inserts in cells, rigid foam on exterior, or insulated concrete blocks."
+      },
+      {
+        "question": "What is the weight of a standard concrete block?",
+        "answer": "Standard 8×8×16 concrete blocks weigh 35-40 lbs each. Lightweight blocks weigh 25-28 lbs."
+      },
+      {
+        "question": "Should concrete block cells be filled?",
+        "answer": "Fill cells with concrete where rebar is placed, at corners, and at regular intervals for structural integrity. Non-structural walls may have partially filled cells."
+      }
+    ]
+  },
+  "rebar": {
+    "title": "Rebar Calculator",
+    "description": "Calculate reinforcement steel quantities for concrete slabs and foundations.",
+    "unit": "Measurement Unit",
+    "unit_tooltip": "Select meters or feet for slab dimensions",
+    "meters": "Meters",
+    "feet": "Feet",
+    "m": "m",
+    "ft": "ft",
+    "mm": "mm",
+    "m2": "m²",
+    "slab_length": "Slab Length",
+    "slab_length_tooltip": "Length of the concrete slab",
+    "slab_width": "Slab Width",
+    "slab_width_tooltip": "Width of the concrete slab",
+    "bar_spacing": "Bar Spacing",
+    "bar_spacing_tooltip": "Center-to-center spacing between rebars (typically 150-300mm)",
+    "bar_size": "Bar Size",
+    "bar_size_tooltip": "Diameter of the reinforcement bars",
+    "sizes": {
+      "8mm": "#2.5 (8mm) - 0.395 kg/m",
+      "10mm": "#3 (10mm) - 0.617 kg/m",
+      "12mm": "#4 (12mm) - 0.888 kg/m",
+      "14mm": "#4.5 (14mm) - 1.208 kg/m",
+      "16mm": "#5 (16mm) - 1.578 kg/m",
+      "20mm": "#6 (20mm) - 2.466 kg/m",
+      "22mm": "#7 (22mm) - 2.984 kg/m",
+      "25mm": "#8 (25mm) - 3.853 kg/m",
+      "28mm": "#9 (28mm) - 4.834 kg/m",
+      "32mm": "#10 (32mm) - 6.313 kg/m"
+    },
+    "result_weight": "Total Rebar Weight",
+    "kg": "kg",
+    "lbs": "lbs",
+    "tons": "tons",
+    "details": "Rebar Details",
+    "bars_length_dir": "Bars (Length Direction)",
+    "bars_width_dir": "Bars (Width Direction)",
+    "bars": "bars",
+    "total_length": "Total Length",
+    "slab_area": "Slab Area",
+    "summary": "Summary",
+    "total_bars": "Total Bars",
+    "weight_per_meter": "Weight per Meter",
+    "kg_m": "kg/m",
+    "formula_title": "Calculation Formula",
+    "formula": "Bars = (Dimension / Spacing) + 1. Total Length = Bars × Cross Dimension. Weight = Length × kg/m.",
+    "info_title": "About Rebar Calculation",
+    "info_description": "Proper rebar placement strengthens concrete against tension and cracking. Spacing and bar size depend on structural requirements.",
+    "use_cases_title": "Common Uses",
+    "use_case_1": "Concrete slab reinforcement",
+    "use_case_2": "Foundation footings",
+    "use_case_3": "Retaining walls and columns",
+    "errors": {
+      "invalid_dimensions": "Please enter valid slab dimensions",
+      "positive_values": "Dimensions must be greater than zero",
+      "invalid_spacing": "Please enter a valid bar spacing",
+      "max_spacing": "Bar spacing cannot exceed 500mm"
+    },
+    "placeholders": {
+      "slab_length": "10",
+      "slab_width": "8",
+      "bar_spacing": "200"
+    },
+    "howItWorks": {
+      "title": "How the Rebar Calculator Works",
+      "formula": "Bars = (Dimension / Spacing) + 1; Weight = Total Length × kg/m",
+      "explanation": "This calculator determines rebar quantities for a grid pattern. It calculates bars needed in both directions, total linear length, and weight based on bar diameter.",
+      "steps": [
+        {
+          "name": "Step 1",
+          "text": "Enter slab length and width dimensions"
         },
-        "useCases": [
-            {
-                "title": "Brick Wall Construction",
-                "description": "Calculate mortar for new brick walls and facades."
-            },
-            {
-                "title": "Block Wall Building",
-                "description": "Estimate mortar needs for CMU and concrete block construction."
-            },
-            {
-                "title": "Stone Masonry",
-                "description": "Plan mortar quantities for natural and cultured stone work."
-            },
-            {
-                "title": "Repointing Work",
-                "description": "Determine mortar for joint repair and restoration projects."
-            }
-        ],
-        "seoTips": [
-            "Use 1:3 mix ratio for load-bearing walls, 1:4 for general purpose",
-            "Add plasticizer to improve workability and reduce cracking",
-            "Mix only what can be used within 90 minutes to prevent hardening",
-            "Mortar should be butter-like consistency - not too wet or dry",
-            "Cure mortar by keeping moist for 3-7 days in hot weather"
-        ],
-        "commonMistakes": [
-            {
-                "mistake": "Wrong mix ratio",
-                "solution": "Use 1:3 for structural, 1:4 for general, 1:6 for non-load bearing"
-            },
-            {
-                "mistake": "Too much water",
-                "solution": "Add water gradually - mortar should hold its shape"
-            },
-            {
-                "mistake": "Mixing too much",
-                "solution": "Only mix what you can use in 90 minutes"
-            },
-            {
-                "mistake": "Improper curing",
-                "solution": "Keep mortar damp for 3-7 days, especially in hot weather"
-            }
-        ],
-        "faqs": [
-            {
-                "question": "What is the best mortar mix ratio?",
-                "answer": "1:4 (cement:sand) is standard for general masonry. Use 1:3 for load-bearing walls and 1:6 for non-structural work like plastering."
-            },
-            {
-                "question": "How much mortar per 1000 bricks?",
-                "answer": "Approximately 0.5 cubic meters of mortar is needed per 1000 standard bricks, assuming 10mm joints."
-            },
-            {
-                "question": "How long does mortar take to cure?",
-                "answer": "Mortar sets in 24-48 hours but takes 28 days to reach full strength. Keep moist during curing for best results."
-            },
-            {
-                "question": "Can I add lime to mortar?",
-                "answer": "Yes, lime improves workability and flexibility. A 1:1:6 (cement:lime:sand) mix is common for brickwork."
-            },
-            {
-                "question": "What is the coverage of a bag of mortar?",
-                "answer": "A 50kg bag of cement makes approximately 0.08 cubic meters of mortar at 1:4 ratio, covering about 4-6 square meters of brickwork."
-            }
-        ]
+        {
+          "name": "Step 2",
+          "text": "Specify center-to-center bar spacing"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select rebar size (diameter)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review bar count for each direction"
+        },
+        {
+          "name": "Step 5",
+          "text": "Check total weight for material ordering"
+        }
+      ]
     },
-    "brick-calculator": {
-        "title": "Brick Calculator - Wall Material Estimator",
-        "description": "Calculate number of bricks needed for wall construction. Our free brick calculator helps contractors and builders estimate brick quantities, mortar needs, and project costs. Perfect for residential and commercial masonry projects."
+    "useCases": [
+      {
+        "title": "Floor Slab Reinforcement",
+        "description": "Calculate rebar grid for residential and commercial floor slabs."
+      },
+      {
+        "title": "Foundation Mats",
+        "description": "Estimate steel quantities for mat foundations and footings."
+      },
+      {
+        "title": "Retaining Walls",
+        "description": "Plan vertical and horizontal reinforcement for retaining structures."
+      },
+      {
+        "title": "Driveway Slabs",
+        "description": "Determine rebar needs for reinforced concrete driveways."
+      }
+    ],
+    "seoTips": [
+      "Standard spacing for slabs is 150-300mm (6-12 inches) center-to-center",
+      "Maintain minimum 50mm (2 inch) concrete cover over rebar for protection",
+      "Use chairs or spacers to hold rebar at correct height during pour",
+      "Lap splices should be 40-50 bar diameters for proper load transfer",
+      "Tie wire or rebar clips secure intersections in the grid"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Insufficient concrete cover",
+        "solution": "Maintain 50mm minimum cover - use proper chairs and spacers"
+      },
+      {
+        "mistake": "Improper lap splices",
+        "solution": "Overlap bars by 40-50 diameters and stagger splice locations"
+      },
+      {
+        "mistake": "Rebar touching ground",
+        "solution": "Use concrete blocks or plastic chairs to elevate rebar grid"
+      },
+      {
+        "mistake": "Missing edge reinforcement",
+        "solution": "Add extra bars at slab edges and around openings"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What size rebar for a concrete slab?",
+        "answer": "#4 (12mm) rebar is standard for residential slabs. Use #5 (16mm) for driveways with heavy loads. Spacing typically 12-18 inches center-to-center."
+      },
+      {
+        "question": "How much does rebar cost per foot?",
+        "answer": "Rebar typically costs $0.50-$1.00 per linear foot for common sizes. #4 rebar (12mm) costs approximately $0.45-0.70/ft depending on market conditions."
+      },
+      {
+        "question": "Do I need rebar in a 4-inch slab?",
+        "answer": "While not always code-required, rebar significantly reduces cracking in 4-inch slabs. Consider welded wire mesh or #3 rebar at 18-inch spacing for best results."
+      },
+      {
+        "question": "How many bars per ton of rebar?",
+        "answer": "This varies by size: approximately 270 pieces of 12mm × 6m bars per ton, or 168 pieces of 16mm × 6m bars per ton."
+      },
+      {
+        "question": "What is the weight of rebar per meter?",
+        "answer": "Weight increases with diameter: 10mm = 0.62 kg/m, 12mm = 0.89 kg/m, 16mm = 1.58 kg/m, 20mm = 2.47 kg/m."
+      }
+    ]
+  },
+  "footing": {
+    "title": "Footing Calculator",
+    "description": "Calculate footing size based on structural load and soil bearing capacity.",
+    "column_load": "Column Load",
+    "column_load_tooltip": "Total load from the column or structure (kN)",
+    "soil_type": "Soil Type",
+    "soil_type_tooltip": "Select soil type for default bearing capacity",
+    "soil_types": {
+      "custom": "Custom (Enter manually)",
+      "soft_clay": "Soft Clay (75 kN/m²)",
+      "medium_clay": "Medium Clay (150 kN/m²)",
+      "stiff_clay": "Stiff Clay (300 kN/m²)",
+      "loose_sand": "Loose Sand (100 kN/m²)",
+      "medium_sand": "Medium Sand (200 kN/m²)",
+      "dense_sand": "Dense Sand (350 kN/m²)",
+      "gravel": "Gravel (400 kN/m²)",
+      "rock": "Rock (1000 kN/m²)"
     },
-    "block-calculator": {
-        "title": "Block Calculator - CMU & Cinder Blocks",
-        "description": "Calculate concrete blocks (CMU) needed for construction. Our free block calculator helps determine quantity of cinder blocks, concrete blocks, and mortar required. Essential for wall and foundation building projects."
+    "soil_capacity": "Soil Bearing Capacity",
+    "soil_capacity_tooltip": "Allowable soil bearing capacity in kN/m²",
+    "safety_factor": "Safety Factor",
+    "safety_factor_tooltip": "Load safety factor (typically 2.5 for structures)",
+    "footing_depth": "Footing Depth",
+    "footing_depth_tooltip": "Thickness/depth of the footing in meters",
+    "result_area": "Required Footing Area",
+    "square_meters": "m²",
+    "square_footing": "square footing",
+    "details": "Footing Dimensions",
+    "square_side": "Square Footing Side",
+    "concrete_volume": "Concrete Volume",
+    "design_load": "Factored Design Load",
+    "soil_pressure": "Actual Soil Pressure",
+    "formula_title": "Calculation Formula",
+    "formula": "Footing Area = (Column Load × Safety Factor) / Soil Bearing Capacity. Square Side = √Area.",
+    "info_title": "About Footing Calculation",
+    "info_description": "This calculator determines footing dimensions based on structural loads and soil bearing capacity, ensuring safe load transfer to the foundation soil.",
+    "use_cases_title": "Common Uses",
+    "use_case_1": "Column footing design for buildings",
+    "use_case_2": "Foundation planning for structures",
+    "use_case_3": "Structural load analysis",
+    "errors": {
+      "invalid_load": "Please enter a valid column load",
+      "invalid_capacity": "Please enter a valid soil bearing capacity",
+      "invalid_safety_factor": "Safety factor must be between 1 and 5",
+      "invalid_depth": "Please enter a valid footing depth"
     },
-    "footing-calculator": {
-        "title": "Concrete Footing Calculator - Load Bearing",
-        "description": "Calculate footing size required based on structural load. Our free footing calculator helps engineers determine proper footing dimensions for columns and walls. Essential for structural design and load-bearing capacity assessment."
+    "placeholders": {
+      "column_load": "500",
+      "soil_capacity": "200",
+      "safety_factor": "2.5",
+      "footing_depth": "0.45"
     },
-    "foundation-calculator": {
-        "title": "Foundation Calculator - Footing Dimensions",
-        "description": "Calculate foundation dimensions and material quantities for building projects. Our free foundation calculator helps engineers and contractors design proper footings, determine concrete volume, and estimate rebar needs for strong foundations."
+    "howItWorks": {
+      "title": "How the Footing Calculator Works",
+      "formula": "Volume = Length × Width × Depth × Number of Footings",
+      "explanation": "This calculator determines concrete volume for footings based on dimensions and quantity. It accounts for waste and provides rebar estimates for reinforcement.",
+      "steps": [
+        {
+          "name": "Step 1",
+          "text": "Select footing type (continuous, spread, or combined)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter footing dimensions"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify number of identical footings"
+        },
+        {
+          "name": "Step 4",
+          "text": "Set waste factor for concrete"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review total volume and rebar needs"
+        }
+      ]
     },
-    "rebar-calculator": {
-        "title": "Rebar Calculator - Reinforcement Steel",
-        "description": "Calculate rebar quantities for reinforced concrete. Our free rebar calculator estimates steel reinforcement needed for slabs, foundations, and columns. Get accurate weight and length for structural projects."
+    "useCases": [
+      {
+        "title": "Wall Footings",
+        "description": "Calculate continuous footings for foundation and retaining walls."
+      },
+      {
+        "title": "Column Footings",
+        "description": "Determine pad footing volumes for columns and posts."
+      },
+      {
+        "title": "Pier Footings",
+        "description": "Estimate concrete for deck pier and beam support footings."
+      },
+      {
+        "title": "Garage Footings",
+        "description": "Plan footings for detached garage and outbuilding foundations."
+      }
+    ],
+    "seoTips": [
+      "Footing width should be twice the wall thickness for residential construction",
+      "Footing depth below frost line prevents heaving in cold climates",
+      "Minimum footing depth is typically 12 inches for residential",
+      "Rebar placement should be 3 inches from bottom and edges",
+      "Check local codes for specific footing requirements"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Footings too small",
+        "solution": "Size footings based on load and soil bearing capacity - consult engineer"
+      },
+      {
+        "mistake": "Not below frost line",
+        "solution": "Place footing bottom below local frost depth to prevent heaving"
+      },
+      {
+        "mistake": "Improper rebar placement",
+        "solution": "Position rebar in lower third of footing with proper cover"
+      },
+      {
+        "mistake": "Pouring on disturbed soil",
+        "solution": "Pour on undisturbed soil or properly compacted fill"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How deep should footings be?",
+        "answer": "Minimum 12 inches for most residential, but must be below frost line which varies from 12-72 inches depending on climate zone."
+      },
+      {
+        "question": "How wide should footings be?",
+        "answer": "Typically twice the wall width for residential. An 8-inch wall requires 16-inch wide footing. Check local codes."
+      },
+      {
+        "question": "Do footings need rebar?",
+        "answer": "Most codes require minimum #4 rebar continuously in strip footings. Pad footings require grid pattern reinforcement."
+      },
+      {
+        "question": "What concrete strength for footings?",
+        "answer": "Minimum 2500 PSI for residential, 3000-4000 PSI for commercial. Use higher strength in corrosive soils."
+      },
+      {
+        "question": "Can I pour footings in cold weather?",
+        "answer": "Yes, with precautions. Use heated water, accelerators, and insulating blankets. Avoid pouring below 20°F."
+      }
+    ]
+  },
+  "foundation": {
+    "title": "Foundation Calculator",
+    "description": "Calculate foundation wall concrete and materials for basement and crawl space foundations.",
+    "unit": "Measurement Unit",
+    "unit_tooltip": "Select meters or feet for dimensions",
+    "meters": "Meters",
+    "feet": "Feet",
+    "foundation_type": "Foundation Type",
+    "foundation_type_tooltip": "Select the type of foundation",
+    "types": {
+      "poured": "Poured Concrete Wall",
+      "block": "Concrete Block (CMU)",
+      "icf": "Insulated Concrete Form (ICF)"
     },
-    "mortar-calculator": {
-        "title": "Mortar Calculator - Cement Mix Estimator",
-        "description": "Calculate mortar quantity needed for masonry work. Our free mortar calculator helps estimate cement, sand, and water ratios for bricklaying and blockwork. Get accurate mortar mix proportions for construction projects."
-    }
+    "perimeter": "Foundation Perimeter",
+    "perimeter_tooltip": "Total linear feet of foundation walls",
+    "wall_height": "Wall Height",
+    "wall_height_tooltip": "Height of foundation walls",
+    "wall_thickness": "Wall Thickness",
+    "wall_thickness_tooltip": "Thickness of foundation walls",
+    "include_footing": "Include Footing",
+    "include_footing_tooltip": "Add footing concrete to calculation",
+    "footing_width": "Footing Width",
+    "footing_depth": "Footing Depth",
+    "waste_factor": "Waste Factor (%)",
+    "waste_factor_tooltip": "Extra concrete for waste (typically 5%)",
+    "result_volume": "Total Concrete Needed",
+    "cubic_meters": "Cubic Meters",
+    "cubic_yards": "Cubic Yards",
+    "breakdown": "Volume Breakdown",
+    "wall_volume": "Wall Concrete",
+    "footing_volume": "Footing Concrete",
+    "total_volume": "Total with Waste",
+    "rebar_estimate": "Rebar Estimate (linear ft)",
+    "formula_title": "Calculation Formula",
+    "formula": "Wall Volume = Perimeter × Height × Thickness. Footing = Perimeter × Width × Depth.",
+    "info_title": "About Foundation Calculation",
+    "info_description": "Foundation walls support the structure and resist soil pressure. This calculator estimates concrete for poured walls, block walls, and ICF systems.",
+    "use_cases_title": "Common Uses",
+    "use_case_1": "Full basement foundations",
+    "use_case_2": "Crawl space foundations",
+    "use_case_3": "Garage and outbuilding foundations",
+    "errors": {
+      "invalid_dimensions": "Please enter valid foundation dimensions",
+      "positive_values": "Dimensions must be greater than zero",
+      "invalid_waste": "Waste factor must be between 0 and 100"
+    },
+    "placeholders": {
+      "perimeter": "150",
+      "wall_height": "8",
+      "wall_thickness": "0.67",
+      "footing_width": "1.33",
+      "footing_depth": "0.67",
+      "waste": "5"
+    },
+    "howItWorks": {
+      "title": "How the Foundation Calculator Works",
+      "formula": "Total = (Perimeter × Height × Thickness) + (Perimeter × Footing Width × Footing Depth)",
+      "explanation": "This calculator determines concrete volume for foundation walls and footings. It supports poured concrete, block, and ICF foundation systems with rebar estimates.",
+      "steps": [
+        {
+          "name": "Step 1",
+          "text": "Select foundation type"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter foundation perimeter (total wall length)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify wall height and thickness"
+        },
+        {
+          "name": "Step 4",
+          "text": "Add footing dimensions if included"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review total volume and rebar estimate"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Full Basement",
+        "description": "Calculate concrete for complete basement foundation with 8+ foot walls."
+      },
+      {
+        "title": "Crawl Space",
+        "description": "Estimate foundation materials for crawl space with shorter walls."
+      },
+      {
+        "title": "Daylight Basement",
+        "description": "Plan foundation for walk-out or daylight basement configurations."
+      },
+      {
+        "title": "Garage Foundation",
+        "description": "Determine foundation needs for attached or detached garages."
+      }
+    ],
+    "seoTips": [
+      "Standard residential foundation walls are 8-10 inches thick",
+      "Full basement walls typically 8-9 feet tall, crawl space 2-4 feet",
+      "Footings should be at least twice wall thickness in width",
+      "Place horizontal and vertical rebar per structural engineer specifications",
+      "Waterproof exterior of below-grade foundation walls"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Walls too thin",
+        "solution": "8-inch minimum for basement walls, 10-12 inches for tall walls"
+      },
+      {
+        "mistake": "No waterproofing",
+        "solution": "Apply waterproofing membrane and drain tile system"
+      },
+      {
+        "mistake": "Insufficient rebar",
+        "solution": "Follow engineer specifications for horizontal and vertical reinforcement"
+      },
+      {
+        "mistake": "Poor form alignment",
+        "solution": "Ensure forms are level, plumb, and properly braced"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How thick should foundation walls be?",
+        "answer": "Minimum 8 inches for most residential basement walls. Use 10-12 inches for walls over 8 feet or with significant soil pressure."
+      },
+      {
+        "question": "How much concrete for a basement foundation?",
+        "answer": "A typical 1500 sq ft house basement requires 50-70 cubic yards including walls and footings."
+      },
+      {
+        "question": "Do I need a footer under foundation walls?",
+        "answer": "Yes, footings spread the load over a larger area. Footing width should be at least twice the wall thickness."
+      },
+      {
+        "question": "What is the difference between poured and block foundations?",
+        "answer": "Poured concrete is stronger and more water-resistant. Block is more labor-intensive but can be built without forms."
+      },
+      {
+        "question": "How long before I can backfill foundation?",
+        "answer": "Wait minimum 7 days for concrete to cure. Ideally, install first floor for bracing before backfilling."
+      }
+    ]
+  },
+  "mortar": {
+    "title": "Mortar Calculator",
+    "description": "Calculate mortar quantity needed for masonry work including cement, sand, and water.",
+    "wall_area": "Wall Area",
+    "wall_area_tooltip": "Total area of wall to be mortared (in square meters)",
+    "masonry_type": "Masonry Type",
+    "masonry_type_tooltip": "Select the type of masonry for accurate mortar estimation",
+    "types": {
+      "brick": "Brick Masonry",
+      "block": "Block/CMU Masonry",
+      "stone": "Stone Masonry"
+    },
+    "joint_thickness": "Joint Thickness",
+    "joint_thickness_tooltip": "Thickness of mortar joints between bricks/blocks",
+    "mix_ratio": "Mix Ratio (Cement:Sand)",
+    "mix_ratio_tooltip": "Cement to sand ratio by volume",
+    "ratios": {
+      "1_3": "1:3 - Strong (Load Bearing)",
+      "1_4": "1:4 - Standard (General Purpose)",
+      "1_5": "1:5 - Economy (Non-Load Bearing)",
+      "1_6": "1:6 - Lean (Plastering)"
+    },
+    "waste_factor": "Waste Factor (%)",
+    "waste_factor_tooltip": "Extra material for spillage and waste (typically 10%)",
+    "result_volume": "Mortar Volume Required",
+    "cubic_meters": "Cubic Meters",
+    "materials_needed": "Materials Needed",
+    "cement_bags": "Cement Bags",
+    "bags_50kg": "50kg bags",
+    "sand_volume": "Sand Volume",
+    "water_needed": "Water Needed",
+    "liters": "liters",
+    "coverage_per_bag": "Coverage per Bag",
+    "total_weight": "Total Mortar Weight",
+    "formula_title": "Calculation Formula",
+    "formula": "Mortar Volume = Wall Area × Coverage Factor × (1 + Waste). Materials calculated based on mix ratio and standard densities.",
+    "info_title": "About Mortar Calculation",
+    "info_description": "Accurate mortar estimation ensures you have enough material for bricklaying and blockwork. The amount varies by masonry type, joint thickness, and mix ratio.",
+    "use_cases_title": "Common Uses",
+    "use_case_1": "Brick and block wall construction",
+    "use_case_2": "Stone masonry projects",
+    "use_case_3": "Repair and repointing work",
+    "errors": {
+      "invalid_area": "Please enter a valid wall area",
+      "invalid_thickness": "Joint thickness must be between 1 and 25mm",
+      "invalid_waste": "Waste factor must be between 0 and 50%"
+    },
+    "placeholders": {
+      "wall_area": "50",
+      "waste": "10"
+    },
+    "howItWorks": {
+      "title": "How the Mortar Calculator Works",
+      "formula": "Mortar Volume = Wall Area × Coverage Factor × (1 + Waste)",
+      "explanation": "This calculator estimates mortar quantity based on wall area, masonry type, joint thickness, and mix ratio. It calculates cement bags, sand, and water needed.",
+      "steps": [
+        {
+          "name": "Step 1",
+          "text": "Enter total wall area in square meters"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select masonry type (brick, block, or stone)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose joint thickness and mix ratio"
+        },
+        {
+          "name": "Step 4",
+          "text": "Add waste factor for spillage"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review materials: cement bags, sand, water"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Brick Wall Construction",
+        "description": "Calculate mortar for new brick walls and facades."
+      },
+      {
+        "title": "Block Wall Building",
+        "description": "Estimate mortar needs for CMU and concrete block construction."
+      },
+      {
+        "title": "Stone Masonry",
+        "description": "Plan mortar quantities for natural and cultured stone work."
+      },
+      {
+        "title": "Repointing Work",
+        "description": "Determine mortar for joint repair and restoration projects."
+      }
+    ],
+    "seoTips": [
+      "Use 1:3 mix ratio for load-bearing walls, 1:4 for general purpose",
+      "Add plasticizer to improve workability and reduce cracking",
+      "Mix only what can be used within 90 minutes to prevent hardening",
+      "Mortar should be butter-like consistency - not too wet or dry",
+      "Cure mortar by keeping moist for 3-7 days in hot weather"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Wrong mix ratio",
+        "solution": "Use 1:3 for structural, 1:4 for general, 1:6 for non-load bearing"
+      },
+      {
+        "mistake": "Too much water",
+        "solution": "Add water gradually - mortar should hold its shape"
+      },
+      {
+        "mistake": "Mixing too much",
+        "solution": "Only mix what you can use in 90 minutes"
+      },
+      {
+        "mistake": "Improper curing",
+        "solution": "Keep mortar damp for 3-7 days, especially in hot weather"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the best mortar mix ratio?",
+        "answer": "1:4 (cement:sand) is standard for general masonry. Use 1:3 for load-bearing walls and 1:6 for non-structural work like plastering."
+      },
+      {
+        "question": "How much mortar per 1000 bricks?",
+        "answer": "Approximately 0.5 cubic meters of mortar is needed per 1000 standard bricks, assuming 10mm joints."
+      },
+      {
+        "question": "How long does mortar take to cure?",
+        "answer": "Mortar sets in 24-48 hours but takes 28 days to reach full strength. Keep moist during curing for best results."
+      },
+      {
+        "question": "Can I add lime to mortar?",
+        "answer": "Yes, lime improves workability and flexibility. A 1:1:6 (cement:lime:sand) mix is common for brickwork."
+      },
+      {
+        "question": "What is the coverage of a bag of mortar?",
+        "answer": "A 50kg bag of cement makes approximately 0.08 cubic meters of mortar at 1:4 ratio, covering about 4-6 square meters of brickwork."
+      }
+    ]
+  },
+  "brick-calculator": {
+    "title": "Brick Calculator - Wall Material Estimator",
+    "description": "Calculate number of bricks needed for wall construction. Our free brick calculator helps contractors and builders estimate brick quantities, mortar needs, and project costs. Perfect for residential and commercial masonry projects."
+  },
+  "block-calculator": {
+    "title": "Block Calculator - CMU & Cinder Blocks",
+    "description": "Calculate concrete blocks (CMU) needed for construction. Our free block calculator helps determine quantity of cinder blocks, concrete blocks, and mortar required. Essential for wall and foundation building projects."
+  },
+  "footing-calculator": {
+    "title": "Concrete Footing Calculator - Load Bearing",
+    "description": "Calculate footing size required based on structural load. Our free footing calculator helps engineers determine proper footing dimensions for columns and walls. Essential for structural design and load-bearing capacity assessment."
+  },
+  "foundation-calculator": {
+    "title": "Foundation Calculator - Footing Dimensions",
+    "description": "Calculate foundation dimensions and material quantities for building projects. Our free foundation calculator helps engineers and contractors design proper footings, determine concrete volume, and estimate rebar needs for strong foundations."
+  },
+  "rebar-calculator": {
+    "title": "Rebar Calculator - Reinforcement Steel",
+    "description": "Calculate rebar quantities for reinforced concrete. Our free rebar calculator estimates steel reinforcement needed for slabs, foundations, and columns. Get accurate weight and length for structural projects."
+  },
+  "mortar-calculator": {
+    "title": "Mortar Calculator - Cement Mix Estimator",
+    "description": "Calculate mortar quantity needed for masonry work. Our free mortar calculator helps estimate cement, sand, and water ratios for bricklaying and blockwork. Get accurate mortar mix proportions for construction projects."
+  }
 }

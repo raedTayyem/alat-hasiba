@@ -8,10 +8,22 @@
       "formula": "New Amount = Original Amount x (New Servings / Original Servings)",
       "explanation": "The converter adjusts all recipe quantities automatically based on the conversion factor calculated from the serving ratio.",
       "steps": [
-        "Enter the original number of servings",
-        "Enter your desired number of servings",
-        "Input the original ingredient quantities",
-        "Get adjusted quantities automatically"
+        {
+          "name": "Step 1",
+          "text": "Enter the original number of servings"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your desired number of servings"
+        },
+        {
+          "name": "Step 3",
+          "text": "Input the original ingredient quantities"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get adjusted quantities automatically"
+        }
       ]
     },
     "useCases": [
@@ -55,9 +67,18 @@
       "formula": "Serving Size = Total Quantity / Number of Servings",
       "explanation": "The calculator helps determine the appropriate amount per person based on food type and established nutritional guidelines.",
       "steps": [
-        "Select the food type or meal",
-        "Enter the number of people",
-        "Get the recommended serving size per person"
+        {
+          "name": "Step 1",
+          "text": "Select the food type or meal"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the number of people"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get the recommended serving size per person"
+        }
       ]
     },
     "useCases": [
@@ -101,10 +122,22 @@
       "formula": "Substitute Amount = Original Amount x Conversion Factor",
       "explanation": "The calculator provides suitable substitutes for each ingredient with correct conversion ratios to maintain recipe results.",
       "steps": [
-        "Select the ingredient you want to replace",
-        "Enter the quantity needed in the recipe",
-        "Choose the appropriate substitute from the list",
-        "Get the correct amount of the substitute"
+        {
+          "name": "Step 1",
+          "text": "Select the ingredient you want to replace"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the quantity needed in the recipe"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose the appropriate substitute from the list"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get the correct amount of the substitute"
+        }
       ]
     },
     "useCases": [
@@ -148,10 +181,22 @@
       "formula": "New Value = Original Value x Conversion Factor",
       "explanation": "Converts between different measurement units using precise conversion factors for each ingredient type.",
       "steps": [
-        "Select the source unit (e.g., cups)",
-        "Select the target unit (e.g., grams)",
-        "Enter the quantity",
-        "Get the result instantly"
+        {
+          "name": "Step 1",
+          "text": "Select the source unit (e.g., cups)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the target unit (e.g., grams)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the quantity"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get the result instantly"
+        }
       ]
     },
     "useCases": [
@@ -195,9 +240,18 @@
       "formula": "Weight = Volume x Ingredient Density",
       "explanation": "Each ingredient has a different density, so a cup of flour doesn't weigh the same as a cup of sugar. The calculator uses each ingredient's density for accurate conversion.",
       "steps": [
-        "Select the ingredient from the list",
-        "Enter the volume (cups or tablespoons)",
-        "Get the weight in grams or ounces"
+        {
+          "name": "Step 1",
+          "text": "Select the ingredient from the list"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the volume (cups or tablespoons)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get the weight in grams or ounces"
+        }
       ]
     },
     "useCases": [
@@ -276,9 +330,18 @@
       "formula": "°C = (°F - 32) × 5/9 | °F = (°C × 9/5) + 32",
       "explanation": "The converter uses standard temperature conversion formulas and maps temperatures to gas mark equivalents for older ovens.",
       "steps": [
-        "Enter the temperature value",
-        "Select the source unit (Fahrenheit or Celsius)",
-        "View the converted temperature and gas mark equivalent"
+        {
+          "name": "Step 1",
+          "text": "Enter the temperature value"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the source unit (Fahrenheit or Celsius)"
+        },
+        {
+          "name": "Step 3",
+          "text": "View the converted temperature and gas mark equivalent"
+        }
       ]
     },
     "useCases": [
@@ -373,10 +436,22 @@
       "formula": "Weight (g) = Volume (cups) × Ingredient Density (g/cup)",
       "explanation": "Each baking ingredient has a unique density. The calculator uses precise density values to convert between volume and weight measurements.",
       "steps": [
-        "Select the ingredient you want to convert",
-        "Enter the amount in cups, grams, or ounces",
-        "Choose the source unit",
-        "Get accurate conversions for your recipe"
+        {
+          "name": "Step 1",
+          "text": "Select the ingredient you want to convert"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the amount in cups, grams, or ounces"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose the source unit"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get accurate conversions for your recipe"
+        }
       ]
     },
     "useCases": [
@@ -461,10 +536,22 @@
       "formula": "Cooking Time = Weight (lbs) × Minutes per Pound",
       "explanation": "The calculator uses established cooking guidelines based on meat type, weight, and cooking method to estimate total cooking time.",
       "steps": [
-        "Enter the weight of your meat in pounds",
-        "Select the type of meat",
-        "Choose your cooking method",
-        "Get estimated cooking time and temperature"
+        {
+          "name": "Step 1",
+          "text": "Enter the weight of your meat in pounds"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the type of meat"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose your cooking method"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get estimated cooking time and temperature"
+        }
       ]
     },
     "useCases": [
@@ -545,9 +632,18 @@
       "formula": "Unstuffed: 13 min/lb | Stuffed: 15 min/lb at 325°F (163°C)",
       "explanation": "The calculator determines roasting time based on weight and whether the turkey is stuffed, then calculates thawing time needed.",
       "steps": [
-        "Enter the turkey weight in pounds",
-        "Select whether it's stuffed or unstuffed",
-        "Get roasting time, temperature, and thawing schedule"
+        {
+          "name": "Step 1",
+          "text": "Enter the turkey weight in pounds"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select whether it's stuffed or unstuffed"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get roasting time, temperature, and thawing schedule"
+        }
       ]
     },
     "useCases": [
@@ -603,10 +699,22 @@
       "formula": "Cooking Time = Base Time + (Minutes per Pound × Weight)",
       "explanation": "The calculator uses meat type, weight, and desired doneness to determine optimal roasting time and temperature.",
       "steps": [
-        "Select the type of roast (beef, lamb, pork)",
-        "Enter the weight in pounds or kilograms",
-        "Choose your preferred doneness level",
-        "Get precise cooking time and temperature"
+        {
+          "name": "Step 1",
+          "text": "Select the type of roast (beef, lamb, pork)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the weight in pounds or kilograms"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose your preferred doneness level"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get precise cooking time and temperature"
+        }
       ]
     },
     "useCases": [
@@ -681,10 +789,22 @@
       "formula": "Dry Pasta = 2 oz (56g) × Number of Servings",
       "explanation": "The calculator determines the right amount of dry pasta based on standard serving sizes, accounting for pasta expansion during cooking.",
       "steps": [
-        "Enter the number of people you're serving",
-        "Select your preferred measurement unit",
-        "Get the amount of dry pasta needed",
-        "View the approximate cooked weight"
+        {
+          "name": "Step 1",
+          "text": "Enter the number of people you're serving"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select your preferred measurement unit"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get the amount of dry pasta needed"
+        },
+        {
+          "name": "Step 4",
+          "text": "View the approximate cooked weight"
+        }
       ]
     },
     "useCases": [
@@ -772,9 +892,18 @@
       "formula": "Servings = (Cake Area × Height) / Standard Slice Volume",
       "explanation": "The calculator uses cake dimensions and standard slice sizes to determine how many guests a cake will serve.",
       "steps": [
-        "Select the cake shape (round, square, or sheet)",
-        "Choose the cake size",
-        "Get the number of servings and slice guide"
+        {
+          "name": "Step 1",
+          "text": "Select the cake shape (round, square, or sheet)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Choose the cake size"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get the number of servings and slice guide"
+        }
       ]
     },
     "useCases": [
@@ -826,10 +955,22 @@
       "formula": "Hydration % = (Water Weight / Flour Weight) × 100",
       "explanation": "Baker's percentage expresses all ingredient weights relative to flour weight (flour = 100%). Hydration affects dough texture and bread structure.",
       "steps": [
-        "Enter your flour weight in grams",
-        "Enter your water weight in grams",
-        "Get the hydration percentage",
-        "Adjust water to reach desired hydration"
+        {
+          "name": "Step 1",
+          "text": "Enter your flour weight in grams"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your water weight in grams"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get the hydration percentage"
+        },
+        {
+          "name": "Step 4",
+          "text": "Adjust water to reach desired hydration"
+        }
       ]
     },
     "useCases": [
@@ -877,10 +1018,22 @@
       "formula": "Instant = Active Dry × 0.75 | Fresh = Active Dry × 2.5",
       "explanation": "Different yeast types have different strengths. The calculator converts between types so your bread rises perfectly.",
       "steps": [
-        "Select your source yeast type",
-        "Enter the amount called for in your recipe",
-        "Select the yeast type you have on hand",
-        "Get the equivalent amount to use"
+        {
+          "name": "Step 1",
+          "text": "Select your source yeast type"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the amount called for in your recipe"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the yeast type you have on hand"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get the equivalent amount to use"
+        }
       ]
     },
     "useCases": [
@@ -928,10 +1081,22 @@
       "formula": "Total Macros = Sum of (Ingredient Weight × Macros per 100g)",
       "explanation": "The calculator adds up protein, carbs, and fats from each ingredient to give you total and per-serving macronutrient counts.",
       "steps": [
-        "Enter each ingredient and its weight",
-        "Add all ingredients in your recipe",
-        "Specify the number of servings",
-        "Get per-serving and total macros"
+        {
+          "name": "Step 1",
+          "text": "Enter each ingredient and its weight"
+        },
+        {
+          "name": "Step 2",
+          "text": "Add all ingredients in your recipe"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify the number of servings"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get per-serving and total macros"
+        }
       ]
     },
     "useCases": [
@@ -979,10 +1144,22 @@
       "formula": "Calories per Serving = Total Recipe Calories / Number of Servings",
       "explanation": "The calculator divides total recipe calories by your chosen number of portions for accurate per-serving nutrition.",
       "steps": [
-        "Enter the total calories in your recipe",
-        "Specify how many servings you'll divide it into",
-        "Get calories per serving",
-        "Adjust portions to meet your calorie goals"
+        {
+          "name": "Step 1",
+          "text": "Enter the total calories in your recipe"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify how many servings you'll divide it into"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get calories per serving"
+        },
+        {
+          "name": "Step 4",
+          "text": "Adjust portions to meet your calorie goals"
+        }
       ]
     },
     "useCases": [
@@ -1030,10 +1207,22 @@
       "formula": "Standard Keto: 70-75% Fat, 20-25% Protein, 5-10% Carbs",
       "explanation": "The calculator determines your daily macro targets based on calorie needs, keeping carbs low enough to maintain ketosis.",
       "steps": [
-        "Enter your daily calorie goal",
-        "Select your keto ratio preference",
-        "Get grams of fat, protein, and carbs",
-        "Track to stay in ketosis"
+        {
+          "name": "Step 1",
+          "text": "Enter your daily calorie goal"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select your keto ratio preference"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get grams of fat, protein, and carbs"
+        },
+        {
+          "name": "Step 4",
+          "text": "Track to stay in ketosis"
+        }
       ]
     },
     "useCases": [
@@ -1081,10 +1270,22 @@
       "formula": "Daily Carbs = Sum of carbs from all foods consumed",
       "explanation": "The calculator tracks your carbohydrate intake to help you stay within your daily low-carb goals.",
       "steps": [
-        "Set your daily carb limit",
-        "Enter foods and their carb content",
-        "Track remaining carb allowance",
-        "Stay within your goals"
+        {
+          "name": "Step 1",
+          "text": "Set your daily carb limit"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter foods and their carb content"
+        },
+        {
+          "name": "Step 3",
+          "text": "Track remaining carb allowance"
+        },
+        {
+          "name": "Step 4",
+          "text": "Stay within your goals"
+        }
       ]
     },
     "useCases": [
@@ -1132,10 +1333,22 @@
       "formula": "GF Flour Blend = Rice Flour + Starch + Binding Agent",
       "explanation": "The calculator helps convert wheat flour recipes to gluten-free alternatives using proper flour blends and binding agents.",
       "steps": [
-        "Enter the wheat flour amount in your recipe",
-        "Select your preferred gluten-free flour type",
-        "Get the conversion amount",
-        "View recommended binders (xanthan gum, etc.)"
+        {
+          "name": "Step 1",
+          "text": "Enter the wheat flour amount in your recipe"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select your preferred gluten-free flour type"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get the conversion amount"
+        },
+        {
+          "name": "Step 4",
+          "text": "View recommended binders (xanthan gum, etc.)"
+        }
       ]
     },
     "useCases": [
@@ -1183,10 +1396,22 @@
       "formula": "Perfect Tea = Right Temperature + Proper Steep Time + Correct Amount",
       "explanation": "Different teas require specific temperatures and steeping times. The calculator provides optimal parameters for each tea type.",
       "steps": [
-        "Select your tea type",
-        "Enter the amount of water",
-        "Get water temperature recommendation",
-        "View optimal steeping time"
+        {
+          "name": "Step 1",
+          "text": "Select your tea type"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the amount of water"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get water temperature recommendation"
+        },
+        {
+          "name": "Step 4",
+          "text": "View optimal steeping time"
+        }
       ]
     },
     "useCases": [
@@ -1234,10 +1459,22 @@
       "formula": "Cocktail Balance = Spirit + Sour + Sweet (in proper ratios)",
       "explanation": "The calculator uses classic cocktail ratios and scales ingredients for any number of drinks.",
       "steps": [
-        "Select the cocktail type or enter a custom ratio",
-        "Choose the number of drinks to make",
-        "Get scaled ingredient amounts",
-        "View mixing instructions"
+        {
+          "name": "Step 1",
+          "text": "Select the cocktail type or enter a custom ratio"
+        },
+        {
+          "name": "Step 2",
+          "text": "Choose the number of drinks to make"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get scaled ingredient amounts"
+        },
+        {
+          "name": "Step 4",
+          "text": "View mixing instructions"
+        }
       ]
     },
     "useCases": [
@@ -1285,10 +1522,22 @@
       "formula": "Per Person: 1 lb total food = 4-6 oz protein + 4 oz starch + 4 oz vegetables",
       "explanation": "The calculator estimates food quantities based on guest count, event duration, and variety of dishes offered.",
       "steps": [
-        "Enter the number of guests",
-        "Select event type and duration",
-        "Choose the number of dish options",
-        "Get recommended quantities per item"
+        {
+          "name": "Step 1",
+          "text": "Enter the number of guests"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select event type and duration"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose the number of dish options"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get recommended quantities per item"
+        }
       ]
     },
     "useCases": [
@@ -1336,10 +1585,22 @@
       "formula": "Expiry Date = Storage Date + Safe Storage Duration",
       "explanation": "The calculator provides safe storage times for various foods based on storage method (pantry, fridge, freezer).",
       "steps": [
-        "Select the food category",
-        "Choose the storage method",
-        "Enter the storage or purchase date",
-        "Get recommended use-by date"
+        {
+          "name": "Step 1",
+          "text": "Select the food category"
+        },
+        {
+          "name": "Step 2",
+          "text": "Choose the storage method"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the storage or purchase date"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get recommended use-by date"
+        }
       ]
     },
     "useCases": [
@@ -1387,10 +1648,22 @@
       "formula": "Fridge: 24 hours per 5 lbs | Cold Water: 30 min per lb",
       "explanation": "The calculator estimates safe thawing time based on meat type, weight, and thawing method to prevent bacterial growth.",
       "steps": [
-        "Select the meat type",
-        "Enter the weight",
-        "Choose thawing method",
-        "Get estimated thawing time"
+        {
+          "name": "Step 1",
+          "text": "Select the meat type"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the weight"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose thawing method"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get estimated thawing time"
+        }
       ]
     },
     "useCases": [
@@ -1438,10 +1711,22 @@
       "formula": "Cost per Serving = Total Ingredient Cost / Number of Servings",
       "explanation": "The calculator totals ingredient costs and divides by servings to determine the cost per portion.",
       "steps": [
-        "Enter each ingredient and its cost",
-        "Add amounts used in the recipe",
-        "Specify number of servings",
-        "Get cost per serving and total cost"
+        {
+          "name": "Step 1",
+          "text": "Enter each ingredient and its cost"
+        },
+        {
+          "name": "Step 2",
+          "text": "Add amounts used in the recipe"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify number of servings"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get cost per serving and total cost"
+        }
       ]
     },
     "useCases": [
@@ -1489,10 +1774,22 @@
       "formula": "Grill Temp + Time + Thickness = Perfect Doneness",
       "explanation": "The calculator recommends grill temperatures and cook times based on meat type, thickness, and desired doneness.",
       "steps": [
-        "Select the food item",
-        "Enter thickness (for meats)",
-        "Choose desired doneness",
-        "Get grill temperature and time"
+        {
+          "name": "Step 1",
+          "text": "Select the food item"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter thickness (for meats)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose desired doneness"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get grill temperature and time"
+        }
       ]
     },
     "useCases": [
@@ -1567,10 +1864,22 @@
       "formula": "Baker's Percentage: All ingredients as % of flour weight",
       "explanation": "The calculator uses baker's percentages to scale recipes precisely. Flour is always 100%, and other ingredients are calculated as a percentage of flour weight.",
       "steps": [
-        "Enter the number of pizza dough balls needed",
-        "Set your desired hydration percentage",
-        "Optionally adjust dough ball weight",
-        "Get precise ingredient amounts"
+        {
+          "name": "Step 1",
+          "text": "Enter the number of pizza dough balls needed"
+        },
+        {
+          "name": "Step 2",
+          "text": "Set your desired hydration percentage"
+        },
+        {
+          "name": "Step 3",
+          "text": "Optionally adjust dough ball weight"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get precise ingredient amounts"
+        }
       ]
     },
     "useCases": [
@@ -1653,10 +1962,22 @@
       "formula": "Water = Rice Amount × Water Ratio (varies by rice type)",
       "explanation": "Different rice types absorb different amounts of water. The calculator uses the optimal ratio for each variety.",
       "steps": [
-        "Select your rice type",
-        "Enter the number of servings",
-        "Get rice amount and water ratio",
-        "View cooking time for your rice type"
+        {
+          "name": "Step 1",
+          "text": "Select your rice type"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the number of servings"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get rice amount and water ratio"
+        },
+        {
+          "name": "Step 4",
+          "text": "View cooking time for your rice type"
+        }
       ]
     },
     "useCases": [
@@ -1737,10 +2058,22 @@
       "formula": "Golden Ratio: 1g coffee per 16ml water (1:16)",
       "explanation": "The calculator uses standard coffee-to-water ratios, adjustable for strength preference and brewing method.",
       "steps": [
-        "Enter the number of cups desired",
-        "Select your preferred strength",
-        "Get coffee amount in grams and tablespoons",
-        "View water amount needed"
+        {
+          "name": "Step 1",
+          "text": "Enter the number of cups desired"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select your preferred strength"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get coffee amount in grams and tablespoons"
+        },
+        {
+          "name": "Step 4",
+          "text": "View water amount needed"
+        }
       ]
     },
     "useCases": [
@@ -1822,10 +2155,22 @@
       "formula": "Water = Rice × Ratio (varies by type)",
       "explanation": "Each rice variety has a specific water-to-rice ratio for optimal cooking. The calculator provides the exact measurements.",
       "steps": [
-        "Select the type of rice",
-        "Enter the amount in cups or grams",
-        "Get the water ratio and cooking time",
-        "Follow type-specific cooking instructions"
+        {
+          "name": "Step 1",
+          "text": "Select the type of rice"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the amount in cups or grams"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get the water ratio and cooking time"
+        },
+        {
+          "name": "Step 4",
+          "text": "Follow type-specific cooking instructions"
+        }
       ]
     },
     "useCases": [
@@ -1873,11 +2218,26 @@
       "formula": "Smoothie = 50% Liquid + 25% Fruit + 25% Add-ins",
       "explanation": "The calculator balances liquid base, fruits/vegetables, protein, and extras for a perfectly blended smoothie.",
       "steps": [
-        "Enter the desired smoothie size",
-        "Select your liquid base",
-        "Choose fruits and vegetables",
-        "Add protein and extras",
-        "Get balanced ingredient amounts"
+        {
+          "name": "Step 1",
+          "text": "Enter the desired smoothie size"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select your liquid base"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose fruits and vegetables"
+        },
+        {
+          "name": "Step 4",
+          "text": "Add protein and extras"
+        },
+        {
+          "name": "Step 5",
+          "text": "Get balanced ingredient amounts"
+        }
       ]
     },
     "useCases": [
@@ -1925,10 +2285,22 @@
       "formula": "Food per Guest = Event Type × Duration × Guest Count",
       "explanation": "The calculator estimates food quantities based on party type, duration, time of day, and number of guests.",
       "steps": [
-        "Enter the number of guests",
-        "Select party type and duration",
-        "Choose meal style (sit-down, buffet, appetizers)",
-        "Get recommended food quantities"
+        {
+          "name": "Step 1",
+          "text": "Enter the number of guests"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select party type and duration"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose meal style (sit-down, buffet, appetizers)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get recommended food quantities"
+        }
       ]
     },
     "useCases": [
@@ -1976,10 +2348,22 @@
       "formula": "Meat per Person = 0.5-0.75 lbs bone-in OR 0.33-0.5 lbs boneless",
       "explanation": "The calculator estimates meat quantities based on guest count, meat types, and whether other food is served.",
       "steps": [
-        "Enter the number of guests",
-        "Select meat types you're serving",
-        "Indicate if sides are included",
-        "Get recommended quantities per item"
+        {
+          "name": "Step 1",
+          "text": "Enter the number of guests"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select meat types you're serving"
+        },
+        {
+          "name": "Step 3",
+          "text": "Indicate if sides are included"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get recommended quantities per item"
+        }
       ]
     },
     "useCases": [
@@ -2027,10 +2411,22 @@
       "formula": "Safe Storage = Food Type × Freezer Temperature (0°F/-18°C)",
       "explanation": "The calculator provides maximum freezer storage times while maintaining food quality and safety.",
       "steps": [
-        "Select the food category",
-        "Choose the specific food item",
-        "Enter the freeze date",
-        "Get the recommended use-by date"
+        {
+          "name": "Step 1",
+          "text": "Select the food category"
+        },
+        {
+          "name": "Step 2",
+          "text": "Choose the specific food item"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the freeze date"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get the recommended use-by date"
+        }
       ]
     },
     "useCases": [
@@ -2121,10 +2517,22 @@
       "formula": "Water Amount = Rice Amount × Water Ratio (varies by rice type)",
       "explanation": "Different rice varieties absorb water differently. This calculator uses the optimal water-to-rice ratios for each type to ensure perfect results.",
       "steps": [
-        "Select your rice type (white, brown, basmati, etc.)",
-        "Choose your measurement unit (cups or grams)",
-        "Enter the amount of rice",
-        "Get the exact water amount and cooking time"
+        {
+          "name": "Step 1",
+          "text": "Select your rice type (white, brown, basmati, etc.)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Choose your measurement unit (cups or grams)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the amount of rice"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get the exact water amount and cooking time"
+        }
       ]
     },
     "useCases": [

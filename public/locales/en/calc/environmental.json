@@ -48,12 +48,30 @@
       "formula": "Total CO₂ = (Electricity × 0.5) + (Gas × 2.0) + (Car km × 0.21) + (Flight hours × 90) + Diet emissions",
       "explanation": "This tool calculates your total annual carbon dioxide emissions based on energy consumption, transportation, and diet. Each activity is multiplied by a specific emission factor to convert it to CO₂ equivalent.",
       "steps": [
-        "Enter your monthly electricity consumption in kWh",
-        "Enter your monthly natural gas consumption in cubic meters",
-        "Enter the monthly distance traveled by car in kilometers",
-        "Enter your annual flight hours",
-        "Select your diet type",
-        "Click Calculate to see your annual carbon footprint"
+        {
+          "name": "Step 1",
+          "text": "Enter your monthly electricity consumption in kWh"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your monthly natural gas consumption in cubic meters"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the monthly distance traveled by car in kilometers"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter your annual flight hours"
+        },
+        {
+          "name": "Step 5",
+          "text": "Select your diet type"
+        },
+        {
+          "name": "Step 6",
+          "text": "Click Calculate to see your annual carbon footprint"
+        }
       ]
     },
     "useCases": [
@@ -143,12 +161,30 @@
       "formula": "Daily Usage = (Shower minutes × 10L) + (Toilet flushes × 6L) + (Dishwashing × 15L) + (Laundry loads × 50L/7)",
       "explanation": "This calculator estimates your daily water consumption by analyzing common household activities. Each activity uses a standard water flow rate to calculate total consumption.",
       "steps": [
-        "Enter your average daily shower duration in minutes",
-        "Enter the number of toilet flushes per day",
-        "Enter how many times you wash dishes daily",
-        "Enter your weekly laundry loads",
-        "Optionally enter your local water cost per liter",
-        "Click Calculate to see your daily, monthly, and yearly water usage"
+        {
+          "name": "Step 1",
+          "text": "Enter your average daily shower duration in minutes"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the number of toilet flushes per day"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter how many times you wash dishes daily"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter your weekly laundry loads"
+        },
+        {
+          "name": "Step 5",
+          "text": "Optionally enter your local water cost per liter"
+        },
+        {
+          "name": "Step 6",
+          "text": "Click Calculate to see your daily, monthly, and yearly water usage"
+        }
       ]
     },
     "useCases": [
@@ -232,10 +268,22 @@
       "formula": "CO₂ = Amount × Emission Factor (varies by fuel type)",
       "explanation": "This calculator converts your energy consumption or fuel usage into equivalent CO₂ emissions using standardized emission factors for each fuel type.",
       "steps": [
-        "Select the activity or fuel type from the dropdown",
-        "Enter the amount consumed in the specified unit",
-        "Click Calculate to see your CO₂ emissions",
-        "View the equivalent number of trees needed to offset emissions"
+        {
+          "name": "Step 1",
+          "text": "Select the activity or fuel type from the dropdown"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the amount consumed in the specified unit"
+        },
+        {
+          "name": "Step 3",
+          "text": "Click Calculate to see your CO₂ emissions"
+        },
+        {
+          "name": "Step 4",
+          "text": "View the equivalent number of trees needed to offset emissions"
+        }
       ]
     },
     "useCases": [
@@ -315,10 +363,22 @@
       "formula": "Trees needed = CO₂ (kg) ÷ 21 kg/tree/year | Solar panels = CO₂ ÷ 400 kg/panel/year",
       "explanation": "This calculator determines how many trees, solar panels, or wind turbines are needed to offset a given amount of CO₂ emissions based on their average annual carbon absorption or displacement rates.",
       "steps": [
-        "Enter the amount of CO₂ you want to offset in kilograms",
-        "Select your preferred offset method",
-        "Click Calculate to see offset requirements",
-        "View estimated costs and land area needed"
+        {
+          "name": "Step 1",
+          "text": "Enter the amount of CO₂ you want to offset in kilograms"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select your preferred offset method"
+        },
+        {
+          "name": "Step 3",
+          "text": "Click Calculate to see offset requirements"
+        },
+        {
+          "name": "Step 4",
+          "text": "View estimated costs and land area needed"
+        }
       ]
     },
     "useCases": [
@@ -402,11 +462,26 @@
       "formula": "Annual Compost = (Food waste + Yard waste) × 52 weeks × Conversion rate (30-50%)",
       "explanation": "This calculator estimates how much finished compost you can produce from organic waste, along with the environmental benefits of diverting waste from landfills.",
       "steps": [
-        "Enter your weekly food waste in kilograms",
-        "Enter your weekly yard waste (leaves, grass, branches)",
-        "Select your composting method",
-        "Click Calculate to see annual compost production",
-        "View methane prevented and garden area benefited"
+        {
+          "name": "Step 1",
+          "text": "Enter your weekly food waste in kilograms"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your weekly yard waste (leaves, grass, branches)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select your composting method"
+        },
+        {
+          "name": "Step 4",
+          "text": "Click Calculate to see annual compost production"
+        },
+        {
+          "name": "Step 5",
+          "text": "View methane prevented and garden area benefited"
+        }
       ]
     },
     "useCases": [
@@ -491,11 +566,26 @@
       "formula": "Annual CO₂ = Σ (Food type × kg/week × Emission factor × 52)",
       "explanation": "This calculator estimates your annual carbon emissions from food consumption by multiplying each food type's emission factor by your weekly consumption.",
       "steps": [
-        "Enter your weekly beef consumption in kilograms",
-        "Enter weekly consumption for chicken, fish, and dairy",
-        "Enter vegetable and grain consumption",
-        "Click Calculate to see your diet's carbon footprint",
-        "View comparison with different diet categories"
+        {
+          "name": "Step 1",
+          "text": "Enter your weekly beef consumption in kilograms"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter weekly consumption for chicken, fish, and dairy"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter vegetable and grain consumption"
+        },
+        {
+          "name": "Step 4",
+          "text": "Click Calculate to see your diet's carbon footprint"
+        },
+        {
+          "name": "Step 5",
+          "text": "View comparison with different diet categories"
+        }
       ]
     },
     "useCases": [
@@ -579,11 +669,26 @@
       "formula": "Annual Savings = Current Usage × Efficiency Gain × 365 × Electricity Rate",
       "explanation": "This calculator estimates potential energy and cost savings from various home efficiency improvements by comparing current consumption with projected consumption after upgrades.",
       "steps": [
-        "Select the type of energy improvement",
-        "Enter your current daily energy usage in kWh",
-        "Enter the quantity or number of units",
-        "Click Calculate to see annual savings",
-        "View payback period and CO₂ reduction"
+        {
+          "name": "Step 1",
+          "text": "Select the type of energy improvement"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your current daily energy usage in kWh"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the quantity or number of units"
+        },
+        {
+          "name": "Step 4",
+          "text": "Click Calculate to see annual savings"
+        },
+        {
+          "name": "Step 5",
+          "text": "View payback period and CO₂ reduction"
+        }
       ]
     },
     "useCases": [
@@ -667,11 +772,26 @@
       "formula": "Annual Plastic = Σ (Items/week × Weight per item × 52 weeks)",
       "explanation": "This calculator estimates your annual plastic consumption by multiplying weekly usage of common plastic items by their average weights, then projects CO₂ emissions from plastic production.",
       "steps": [
-        "Enter weekly number of plastic bottles used",
-        "Enter weekly plastic bags consumed",
-        "Enter weekly plastic packaging weight in grams",
-        "Add straws and food containers used",
-        "Click Calculate to see annual plastic footprint"
+        {
+          "name": "Step 1",
+          "text": "Enter weekly number of plastic bottles used"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter weekly plastic bags consumed"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter weekly plastic packaging weight in grams"
+        },
+        {
+          "name": "Step 4",
+          "text": "Add straws and food containers used"
+        },
+        {
+          "name": "Step 5",
+          "text": "Click Calculate to see annual plastic footprint"
+        }
       ]
     },
     "useCases": [
@@ -754,11 +874,26 @@
       "formula": "CO₂ = Distance (km) × Emission factor × Class multiplier × Passengers",
       "explanation": "This calculator estimates CO₂ emissions from flights based on distance, travel class, and radiative forcing factor that accounts for emissions released at high altitude.",
       "steps": [
-        "Select your travel class (economy to first)",
-        "Enter the flight distance in kilometers",
-        "Enter the number of passengers",
-        "Click Calculate to see total emissions",
-        "View offset cost and comparison data"
+        {
+          "name": "Step 1",
+          "text": "Select your travel class (economy to first)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the flight distance in kilometers"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the number of passengers"
+        },
+        {
+          "name": "Step 4",
+          "text": "Click Calculate to see total emissions"
+        },
+        {
+          "name": "Step 5",
+          "text": "View offset cost and comparison data"
+        }
       ]
     },
     "useCases": [
@@ -873,12 +1008,30 @@
       "formula": "Eco Score = Σ (Category score × Weight) / Maximum possible score × 100",
       "explanation": "This calculator evaluates your environmental friendliness by scoring your choices across five key lifestyle categories: transportation, diet, energy, recycling, and shopping habits.",
       "steps": [
-        "Select your main transportation method",
-        "Choose your diet type",
-        "Select your home energy source",
-        "Indicate your recycling frequency",
-        "Choose your shopping habits",
-        "Click Calculate to see your eco score"
+        {
+          "name": "Step 1",
+          "text": "Select your main transportation method"
+        },
+        {
+          "name": "Step 2",
+          "text": "Choose your diet type"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select your home energy source"
+        },
+        {
+          "name": "Step 4",
+          "text": "Indicate your recycling frequency"
+        },
+        {
+          "name": "Step 5",
+          "text": "Choose your shopping habits"
+        },
+        {
+          "name": "Step 6",
+          "text": "Click Calculate to see your eco score"
+        }
       ]
     },
     "useCases": [
@@ -963,11 +1116,26 @@
       "formula": "Annual CO₂ Savings = (Current mode emissions - Alternative mode emissions) × Distance × 2 × Days × 52",
       "explanation": "This calculator compares the environmental impact and costs of your current commute method against a greener alternative, calculating annual savings in CO₂, money, and health benefits.",
       "steps": [
-        "Enter your one-way commute distance in kilometers",
-        "Select your current transportation mode",
-        "Select an alternative green mode to compare",
-        "Enter the number of commute days per week",
-        "Click Calculate to see annual savings"
+        {
+          "name": "Step 1",
+          "text": "Enter your one-way commute distance in kilometers"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select your current transportation mode"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select an alternative green mode to compare"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter the number of commute days per week"
+        },
+        {
+          "name": "Step 5",
+          "text": "Click Calculate to see annual savings"
+        }
       ]
     },
     "useCases": [
@@ -1047,12 +1215,30 @@
       "formula": "Total Cost = Σ (Category kWh × Monthly × 12 × Electricity rate)",
       "explanation": "This calculator analyzes your home energy consumption by category, calculating monthly costs, annual expenses, CO₂ emissions, and identifying potential savings opportunities.",
       "steps": [
-        "Enter monthly lighting and general electricity usage in kWh",
-        "Enter heating consumption",
-        "Enter air conditioning consumption",
-        "Enter water heater consumption",
-        "Enter home appliances consumption",
-        "Click Calculate to see detailed audit results"
+        {
+          "name": "Step 1",
+          "text": "Enter monthly lighting and general electricity usage in kWh"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter heating consumption"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter air conditioning consumption"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter water heater consumption"
+        },
+        {
+          "name": "Step 5",
+          "text": "Enter home appliances consumption"
+        },
+        {
+          "name": "Step 6",
+          "text": "Click Calculate to see detailed audit results"
+        }
       ]
     },
     "useCases": [
@@ -1136,11 +1322,26 @@
       "formula": "Annual Production = System size (kW) × Sun hours × 365 × 0.8 (efficiency factor)",
       "explanation": "This calculator estimates your return on investment for solar panels by calculating annual energy production, savings, and the time needed to recover your investment.",
       "steps": [
-        "Enter your solar system size in kilowatts",
-        "Enter the total installation cost",
-        "Enter your average monthly electricity bill",
-        "Enter average daily peak sun hours in your area",
-        "Click Calculate to see payback period and ROI"
+        {
+          "name": "Step 1",
+          "text": "Enter your solar system size in kilowatts"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the total installation cost"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter your average monthly electricity bill"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter average daily peak sun hours in your area"
+        },
+        {
+          "name": "Step 5",
+          "text": "Click Calculate to see payback period and ROI"
+        }
       ]
     },
     "useCases": [
@@ -1225,11 +1426,26 @@
       "formula": "Total CO₂ = Distance × Base factor × Class multiplier × Radiative forcing (1.9)",
       "explanation": "This calculator estimates flight emissions using ICAO methodology, factoring in distance, travel class space allocation, and the enhanced climate impact of high-altitude emissions.",
       "steps": [
-        "Select your travel class from the dropdown",
-        "Enter the total flight distance in kilometers",
-        "Enter the number of passengers traveling",
-        "Click Calculate to see total and per-passenger emissions",
-        "View offset requirements and costs"
+        {
+          "name": "Step 1",
+          "text": "Select your travel class from the dropdown"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the total flight distance in kilometers"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the number of passengers traveling"
+        },
+        {
+          "name": "Step 4",
+          "text": "Click Calculate to see total and per-passenger emissions"
+        },
+        {
+          "name": "Step 5",
+          "text": "View offset requirements and costs"
+        }
       ]
     },
     "useCases": [
@@ -1311,11 +1527,26 @@
       "formula": "Annual Collection = Roof area (m²) × Annual rainfall (mm) × Efficiency (0.8-0.9) × 0.001",
       "explanation": "This calculator estimates how much rainwater you can collect from your roof annually, accounting for collection system efficiency and recommending appropriate storage tank sizes.",
       "steps": [
-        "Enter your roof collection area in square meters",
-        "Enter your area's annual rainfall in millimeters",
-        "Enter your collection system efficiency (typically 80-90%)",
-        "Click Calculate to see annual collection potential",
-        "View recommended tank size and cost savings"
+        {
+          "name": "Step 1",
+          "text": "Enter your roof collection area in square meters"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your area's annual rainfall in millimeters"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter your collection system efficiency (typically 80-90%)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Click Calculate to see annual collection potential"
+        },
+        {
+          "name": "Step 5",
+          "text": "View recommended tank size and cost savings"
+        }
       ]
     },
     "useCases": [
@@ -1472,11 +1703,26 @@
       "formula": "CO₂ Saved = Σ (Material weight × Emission factor per kg)",
       "explanation": "This calculator estimates the CO₂ savings from recycling various materials by comparing the emissions from recycled material production versus virgin material production.",
       "steps": [
-        "Enter the weight of paper recycled in kilograms",
-        "Enter the weight of plastic recycled",
-        "Enter the weight of glass recycled",
-        "Enter the weight of metal recycled",
-        "Click Calculate to see total CO₂ savings"
+        {
+          "name": "Step 1",
+          "text": "Enter the weight of paper recycled in kilograms"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the weight of plastic recycled"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the weight of glass recycled"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter the weight of metal recycled"
+        },
+        {
+          "name": "Step 5",
+          "text": "Click Calculate to see total CO₂ savings"
+        }
       ]
     },
     "useCases": [
@@ -1564,12 +1810,30 @@
       "formula": "Annual Waste = Daily waste × 365 | Landfill Emissions = Organic waste × Methane factor",
       "explanation": "This calculator estimates your household waste production and its environmental impact, including landfill emissions from organic waste decomposition.",
       "steps": [
-        "Enter daily food waste in kilograms",
-        "Enter daily plastic waste",
-        "Enter daily paper waste",
-        "Enter daily other waste",
-        "Enter household size for per-capita calculations",
-        "Click Calculate to see total waste and emissions"
+        {
+          "name": "Step 1",
+          "text": "Enter daily food waste in kilograms"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter daily plastic waste"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter daily paper waste"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter daily other waste"
+        },
+        {
+          "name": "Step 5",
+          "text": "Enter household size for per-capita calculations"
+        },
+        {
+          "name": "Step 6",
+          "text": "Click Calculate to see total waste and emissions"
+        }
       ]
     },
     "useCases": [
@@ -1646,11 +1910,26 @@
       "formula": "Total Water Footprint = Direct water use + Virtual water (food production + goods)",
       "explanation": "This calculator estimates your total water footprint by combining direct water use (showers, laundry) with virtual water embedded in the food you eat and products you use.",
       "steps": [
-        "Select your diet type from the dropdown",
-        "Enter average daily shower duration in minutes",
-        "Enter weekly laundry loads",
-        "Enter monthly car washes",
-        "Click Calculate to see total water footprint"
+        {
+          "name": "Step 1",
+          "text": "Select your diet type from the dropdown"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter average daily shower duration in minutes"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter weekly laundry loads"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter monthly car washes"
+        },
+        {
+          "name": "Step 5",
+          "text": "Click Calculate to see total water footprint"
+        }
       ]
     },
     "useCases": [
@@ -1739,11 +2018,26 @@
       "formula": "CO₂ = Distance (km) × Fuel consumption (L/100km) × Emission factor × 0.01",
       "explanation": "This calculator estimates your vehicle's CO₂ emissions based on the fuel type, fuel consumption rate, and distance traveled using standard emission factors for each fuel type.",
       "steps": [
-        "Select your vehicle's fuel type",
-        "Enter your fuel consumption in liters per 100 km",
-        "Enter the distance you want to calculate emissions for",
-        "Click Calculate to see CO₂ emissions",
-        "View fuel cost and tree offset requirements"
+        {
+          "name": "Step 1",
+          "text": "Select your vehicle's fuel type"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your fuel consumption in liters per 100 km"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the distance you want to calculate emissions for"
+        },
+        {
+          "name": "Step 4",
+          "text": "Click Calculate to see CO₂ emissions"
+        },
+        {
+          "name": "Step 5",
+          "text": "View fuel cost and tree offset requirements"
+        }
       ]
     },
     "useCases": [
@@ -1870,13 +2164,34 @@
       "formula": "Sustainability Score = Σ (Category score × Impact weight) / Max score × 100",
       "explanation": "This calculator evaluates your lifestyle choices across six key environmental impact areas: energy, transportation, diet, waste management, water usage, and shopping habits. Each category is weighted by its relative environmental impact.",
       "steps": [
-        "Select your primary energy source",
-        "Choose your main transportation method",
-        "Select your diet type",
-        "Indicate your waste management practices",
-        "Select your water usage level",
-        "Choose your shopping habits",
-        "Click Calculate to see your sustainability score"
+        {
+          "name": "Step 1",
+          "text": "Select your primary energy source"
+        },
+        {
+          "name": "Step 2",
+          "text": "Choose your main transportation method"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select your diet type"
+        },
+        {
+          "name": "Step 4",
+          "text": "Indicate your waste management practices"
+        },
+        {
+          "name": "Step 5",
+          "text": "Select your water usage level"
+        },
+        {
+          "name": "Step 6",
+          "text": "Choose your shopping habits"
+        },
+        {
+          "name": "Step 7",
+          "text": "Click Calculate to see your sustainability score"
+        }
       ]
     },
     "useCases": [
@@ -1967,11 +2282,26 @@
       "formula": "ROI = ((Annual savings × 25 years) - Installation cost) / Installation cost × 100%",
       "explanation": "This calculator projects your solar investment return by estimating annual energy production based on system size and local sun hours, then calculating savings over the typical 25-year panel lifespan.",
       "steps": [
-        "Enter your proposed solar system size in kilowatts",
-        "Enter the total installation cost including panels and labor",
-        "Enter your current average monthly electricity bill",
-        "Enter average peak sun hours in your area",
-        "Click Calculate to see payback period and ROI"
+        {
+          "name": "Step 1",
+          "text": "Enter your proposed solar system size in kilowatts"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the total installation cost including panels and labor"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter your current average monthly electricity bill"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter average peak sun hours in your area"
+        },
+        {
+          "name": "Step 5",
+          "text": "Click Calculate to see payback period and ROI"
+        }
       ]
     },
     "useCases": [
@@ -2063,11 +2393,26 @@
       "formula": "CO₂ Offset = Number of trees × Annual absorption rate × Age | Oxygen = Trees × 120 kg/year × Age",
       "explanation": "This calculator estimates the cumulative environmental benefits of tree planting. Different tree species have varying CO₂ absorption rates, with tropical trees being most efficient at approximately 28 kg CO₂ per year.",
       "steps": [
-        "Enter the number of trees you plan to plant or have planted",
-        "Enter the age of the trees (or projected age)",
-        "Select the tree type based on species category",
-        "View total CO₂ offset, oxygen production, and other benefits",
-        "See the monetary value of ecosystem services provided"
+        {
+          "name": "Step 1",
+          "text": "Enter the number of trees you plan to plant or have planted"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the age of the trees (or projected age)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the tree type based on species category"
+        },
+        {
+          "name": "Step 4",
+          "text": "View total CO₂ offset, oxygen production, and other benefits"
+        },
+        {
+          "name": "Step 5",
+          "text": "See the monetary value of ecosystem services provided"
+        }
       ]
     },
     "useCases": [

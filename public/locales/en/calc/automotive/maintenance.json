@@ -135,10 +135,22 @@
       "formula": "Annual Cost = Sum of (Annual Mileage / Service Interval × Service Cost)",
       "explanation": "This calculator estimates annual maintenance by calculating how often each service is needed based on your driving, then multiplying by service costs. It includes oil changes, tires, brakes, filters, and fluid services.",
       "steps": [
-        "Enter your annual mileage",
-        "Review and adjust service intervals for your vehicle",
-        "Enter costs for each maintenance item",
-        "View total annual maintenance cost and per-service breakdown"
+        {
+          "name": "Step 1",
+          "text": "Enter your annual mileage"
+        },
+        {
+          "name": "Step 2",
+          "text": "Review and adjust service intervals for your vehicle"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter costs for each maintenance item"
+        },
+        {
+          "name": "Step 4",
+          "text": "View total annual maintenance cost and per-service breakdown"
+        }
       ]
     },
     "useCases": [
@@ -296,10 +308,22 @@
       "formula": "Next Change = Current Mileage + Change Interval | Annual Changes = Annual Mileage / Interval",
       "explanation": "This calculator helps you track oil change schedules based on your mileage and manufacturer recommendations. It estimates when your next change is due, annual maintenance costs, and oil capacity based on engine size.",
       "steps": [
-        "Enter your current odometer reading",
-        "Enter your oil change interval (typically 3,000-10,000 miles)",
-        "Enter your engine size for oil capacity estimation",
-        "Add oil price and annual mileage for cost projections"
+        {
+          "name": "Step 1",
+          "text": "Enter your current odometer reading"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your oil change interval (typically 3,000-10,000 miles)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter your engine size for oil capacity estimation"
+        },
+        {
+          "name": "Step 4",
+          "text": "Add oil price and annual mileage for cost projections"
+        }
       ]
     },
     "useCases": [
@@ -386,11 +410,26 @@
       "formula": "Estimated Life = Base Life (3-5 years) × Climate Factor × Usage Factor",
       "explanation": "This calculator estimates battery condition based on installation date, engine size requirements, climate conditions, and optionally measured CCA (Cold Cranking Amps). Batteries degrade over time and faster in extreme temperatures.",
       "steps": [
-        "Enter the battery installation date",
-        "Enter your engine size for CCA recommendations",
-        "Optionally enter current CCA if you have tested the battery",
-        "Select your typical climate conditions",
-        "View estimated remaining life and recommendations"
+        {
+          "name": "Step 1",
+          "text": "Enter the battery installation date"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your engine size for CCA recommendations"
+        },
+        {
+          "name": "Step 3",
+          "text": "Optionally enter current CCA if you have tested the battery"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select your typical climate conditions"
+        },
+        {
+          "name": "Step 5",
+          "text": "View estimated remaining life and recommendations"
+        }
       ]
     },
     "useCases": [

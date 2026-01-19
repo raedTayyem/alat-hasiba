@@ -216,11 +216,26 @@
       "formula": "Volume = Length × Width × Depth",
       "explanation": "This calculator determines the exact volume of concrete needed by multiplying your project dimensions. It then calculates cement bags, sand, and aggregate quantities based on a standard 1:2:4 mix ratio and concrete density of 2400 kg/m³.",
       "steps": [
-        "Enter the length, width, and depth of your concrete project",
-        "Select your preferred measurement unit (meters or feet)",
-        "Add a waste factor percentage (5-10% recommended)",
-        "Review the calculated volume and material quantities",
-        "Use the cement bag count for ordering materials"
+        {
+          "name": "Step 1",
+          "text": "Enter the length, width, and depth of your concrete project"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select your preferred measurement unit (meters or feet)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Add a waste factor percentage (5-10% recommended)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review the calculated volume and material quantities"
+        },
+        {
+          "name": "Step 5",
+          "text": "Use the cement bag count for ordering materials"
+        }
       ]
     },
     "useCases": [
@@ -327,11 +342,26 @@
       "formula": "Bricks = (Wall Area / Brick Face Area) × (1 + Waste Factor)",
       "explanation": "This calculator determines brick quantity by dividing the total wall area by individual brick coverage area, including mortar joints. It also estimates mortar volume based on standard 10mm joint thickness.",
       "steps": [
-        "Enter the wall length and height in your preferred unit",
-        "Select the brick size (modular, standard, or jumbo)",
-        "Set the waste factor percentage for cutting and breakage",
-        "Review the total brick count and mortar requirements",
-        "Order materials with the calculated waste factor included"
+        {
+          "name": "Step 1",
+          "text": "Enter the wall length and height in your preferred unit"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the brick size (modular, standard, or jumbo)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Set the waste factor percentage for cutting and breakage"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review the total brick count and mortar requirements"
+        },
+        {
+          "name": "Step 5",
+          "text": "Order materials with the calculated waste factor included"
+        }
       ]
     },
     "useCases": [
@@ -460,11 +490,26 @@
       "formula": "Tons = Area × Thickness × Density / 2000",
       "explanation": "This calculator converts your paving area and desired thickness into tons of asphalt needed. It uses standard hot mix asphalt density (145 lbs/cu ft) to provide accurate weight estimates for ordering.",
       "steps": [
-        "Enter the total area to be paved in square feet or meters",
-        "Specify the desired asphalt thickness (2-4 inches for driveways)",
-        "Adjust the density if using a different asphalt mix type",
-        "Review the total tonnage required for your project",
-        "Add 5-10% extra when ordering to account for variations"
+        {
+          "name": "Step 1",
+          "text": "Enter the total area to be paved in square feet or meters"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify the desired asphalt thickness (2-4 inches for driveways)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Adjust the density if using a different asphalt mix type"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review the total tonnage required for your project"
+        },
+        {
+          "name": "Step 5",
+          "text": "Add 5-10% extra when ordering to account for variations"
+        }
       ]
     },
     "useCases": [
@@ -585,11 +630,26 @@
       "formula": "Cubic Yards = Area (sq ft) × Depth (inches) / 324",
       "explanation": "This calculator determines material quantities for mulch, soil, and sod by converting area and depth measurements into cubic yards or cubic meters. Each material is calculated independently with waste factor applied.",
       "steps": [
-        "Enter the project area in square feet or meters",
-        "Specify mulch depth (2-4 inches recommended for weed control)",
-        "Add soil/topsoil depth if needed for bed preparation",
-        "Enter sod area if installing new lawn",
-        "Set waste factor and review material quantities"
+        {
+          "name": "Step 1",
+          "text": "Enter the project area in square feet or meters"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify mulch depth (2-4 inches recommended for weed control)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Add soil/topsoil depth if needed for bed preparation"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter sod area if installing new lawn"
+        },
+        {
+          "name": "Step 5",
+          "text": "Set waste factor and review material quantities"
+        }
       ]
     },
     "useCases": [
@@ -715,11 +775,26 @@
       "formula": "Pieces = Wall Area / Coverage per Piece × (1 + Waste Factor)",
       "explanation": "This calculator estimates siding material quantities by dividing your total wall area by the coverage area of each siding piece, then adding a waste factor for cutting and fitting.",
       "steps": [
-        "Measure total exterior wall area to be covered",
-        "Subtract window and door openings from the total",
-        "Select your siding type (vinyl, fiber cement, wood, etc.)",
-        "Set waste factor (10-15% for standard installation)",
-        "Review the piece count and order accordingly"
+        {
+          "name": "Step 1",
+          "text": "Measure total exterior wall area to be covered"
+        },
+        {
+          "name": "Step 2",
+          "text": "Subtract window and door openings from the total"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select your siding type (vinyl, fiber cement, wood, etc.)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Set waste factor (10-15% for standard installation)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review the piece count and order accordingly"
+        }
       ]
     },
     "useCases": [
@@ -839,11 +914,26 @@
       "formula": "Total = Sum(Quantity × Unit Price) + Tax",
       "explanation": "This calculator helps you track all material expenses by adding individual items with quantities and unit prices. It automatically calculates subtotals, applies tax rates, and provides a comprehensive cost breakdown.",
       "steps": [
-        "Select your local currency for accurate pricing",
-        "Add each material item with name, quantity, and unit price",
-        "Continue adding items until all materials are listed",
-        "Set the applicable tax rate (VAT/sales tax)",
-        "Review the total cost breakdown for budgeting"
+        {
+          "name": "Step 1",
+          "text": "Select your local currency for accurate pricing"
+        },
+        {
+          "name": "Step 2",
+          "text": "Add each material item with name, quantity, and unit price"
+        },
+        {
+          "name": "Step 3",
+          "text": "Continue adding items until all materials are listed"
+        },
+        {
+          "name": "Step 4",
+          "text": "Set the applicable tax rate (VAT/sales tax)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review the total cost breakdown for budgeting"
+        }
       ]
     },
     "useCases": [
@@ -1032,11 +1122,26 @@
       "formula": "Posts = (Length / Spacing) + 1; Panels = Length / Panel Width",
       "explanation": "This calculator determines the number of posts, panels, and rails needed based on fence length and standard spacing intervals. It also estimates concrete requirements for post installation.",
       "steps": [
-        "Measure the total fence line length",
-        "Enter fence height (above ground)",
-        "Specify post spacing (typically 6-8 feet)",
-        "Set panel width based on your fence type",
-        "Review posts, panels, rails, and concrete needed"
+        {
+          "name": "Step 1",
+          "text": "Measure the total fence line length"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter fence height (above ground)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify post spacing (typically 6-8 feet)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Set panel width based on your fence type"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review posts, panels, rails, and concrete needed"
+        }
       ]
     },
     "useCases": [
@@ -1159,11 +1264,26 @@
       "formula": "Steps = Total Rise / Riser Height; Tread Depth = 63.5cm - (2 × Riser Height)",
       "explanation": "This calculator determines the optimal number of steps and dimensions using the comfort rule (2R + T = 63.5cm). It ensures stairs meet building codes for safe, comfortable climbing.",
       "steps": [
-        "Measure total rise (floor-to-floor height)",
-        "Enter desired riser height (17-19cm ideal)",
-        "Review calculated step count and dimensions",
-        "Check building code compliance warnings",
-        "Adjust riser height if needed for whole steps"
+        {
+          "name": "Step 1",
+          "text": "Measure total rise (floor-to-floor height)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter desired riser height (17-19cm ideal)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Review calculated step count and dimensions"
+        },
+        {
+          "name": "Step 4",
+          "text": "Check building code compliance warnings"
+        },
+        {
+          "name": "Step 5",
+          "text": "Adjust riser height if needed for whole steps"
+        }
       ]
     },
     "useCases": [
@@ -1284,11 +1404,26 @@
       "formula": "Stringer Length = √(Rise² + Run²)",
       "explanation": "This calculator uses the Pythagorean theorem to determine stair stringer length. It also calculates the cutting angle, throat width, and recommends appropriate lumber sizes for structural integrity.",
       "steps": [
-        "Enter total rise (vertical height)",
-        "Enter total run (horizontal distance)",
-        "Specify number of steps",
-        "Set stringer board width (2x12 typical)",
-        "Review stringer length and cutting dimensions"
+        {
+          "name": "Step 1",
+          "text": "Enter total rise (vertical height)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter total run (horizontal distance)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify number of steps"
+        },
+        {
+          "name": "Step 4",
+          "text": "Set stringer board width (2x12 typical)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review stringer length and cutting dimensions"
+        }
       ]
     },
     "useCases": [
@@ -1480,11 +1615,26 @@
       "formula": "Loose Volume = Compacted Volume / Compaction Factor",
       "explanation": "This calculator determines how much loose fill material you need to order to achieve your desired compacted depth. It accounts for soil compaction, which reduces volume during placement.",
       "steps": [
-        "Enter area dimensions and desired fill depth",
-        "Select compaction level based on intended use",
-        "Review compacted volume and loose volume needed",
-        "Check delivery estimates for truck loads",
-        "Order loose volume amount from supplier"
+        {
+          "name": "Step 1",
+          "text": "Enter area dimensions and desired fill depth"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select compaction level based on intended use"
+        },
+        {
+          "name": "Step 3",
+          "text": "Review compacted volume and loose volume needed"
+        },
+        {
+          "name": "Step 4",
+          "text": "Check delivery estimates for truck loads"
+        },
+        {
+          "name": "Step 5",
+          "text": "Order loose volume amount from supplier"
+        }
       ]
     },
     "useCases": [
@@ -1676,11 +1826,26 @@
       "formula": "Door Size = Rough Opening - Frame Allowance",
       "explanation": "This calculator determines the correct door size based on your rough opening dimensions and door type. Different door types require different allowances for frames, hinges, and thresholds.",
       "steps": [
-        "Measure rough opening width and height",
-        "Select the door type you plan to install",
-        "Review calculated door size and standard sizes",
-        "Check frame allowances for installation clearance",
-        "Order appropriate door size for your opening"
+        {
+          "name": "Step 1",
+          "text": "Measure rough opening width and height"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the door type you plan to install"
+        },
+        {
+          "name": "Step 3",
+          "text": "Review calculated door size and standard sizes"
+        },
+        {
+          "name": "Step 4",
+          "text": "Check frame allowances for installation clearance"
+        },
+        {
+          "name": "Step 5",
+          "text": "Order appropriate door size for your opening"
+        }
       ]
     },
     "useCases": [
@@ -1808,11 +1973,26 @@
       "formula": "Volume = Length × Width × Depth; Weight = Volume × Density",
       "explanation": "This calculator determines both volume and weight of sand needed based on area dimensions and sand type. Different sand types have varying densities, affecting weight calculations.",
       "steps": [
-        "Enter length, width, and depth of area to fill",
-        "Select sand type based on your application",
-        "Add waste factor for spillage and settling",
-        "Review volume in cubic meters/yards",
-        "Check weight for delivery and handling planning"
+        {
+          "name": "Step 1",
+          "text": "Enter length, width, and depth of area to fill"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select sand type based on your application"
+        },
+        {
+          "name": "Step 3",
+          "text": "Add waste factor for spillage and settling"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review volume in cubic meters/yards"
+        },
+        {
+          "name": "Step 5",
+          "text": "Check weight for delivery and handling planning"
+        }
       ]
     },
     "useCases": [
@@ -1939,11 +2119,26 @@
       "formula": "Glass Size = Rough Opening - Frame Allowance",
       "explanation": "This calculator determines the actual glass size needed based on rough opening dimensions and frame type. Different frame materials require different installation allowances.",
       "steps": [
-        "Measure rough opening width and height",
-        "Select frame type (vinyl, aluminum, wood, etc.)",
-        "Review calculated glass dimensions",
-        "Check glass area for ordering",
-        "Order window to fit calculated size"
+        {
+          "name": "Step 1",
+          "text": "Measure rough opening width and height"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select frame type (vinyl, aluminum, wood, etc.)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Review calculated glass dimensions"
+        },
+        {
+          "name": "Step 4",
+          "text": "Check glass area for ordering"
+        },
+        {
+          "name": "Step 5",
+          "text": "Order window to fit calculated size"
+        }
       ]
     },
     "useCases": [
@@ -2108,11 +2303,26 @@
       "formula": "Fill % = (Total Wire Area / Conduit Area) × 100",
       "explanation": "This calculator determines the minimum conduit size needed based on wire gauge, count, and NEC fill requirements. NEC limits fill percentage to prevent heat buildup and wire damage.",
       "steps": [
-        "Select conduit type (EMT, PVC, rigid, etc.)",
-        "Choose wire gauge (AWG) for your circuit",
-        "Enter the number of wires to run",
-        "Specify the run length for material ordering",
-        "Review recommended conduit size and fill percentage"
+        {
+          "name": "Step 1",
+          "text": "Select conduit type (EMT, PVC, rigid, etc.)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Choose wire gauge (AWG) for your circuit"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the number of wires to run"
+        },
+        {
+          "name": "Step 4",
+          "text": "Specify the run length for material ordering"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review recommended conduit size and fill percentage"
+        }
       ]
     },
     "useCases": [
@@ -2250,11 +2460,26 @@
       "formula": "Bars = (Dimension / Spacing) + 1; Weight = Total Length × kg/m",
       "explanation": "This calculator determines rebar quantities for a grid pattern. It calculates bars needed in both directions, total linear length, and weight based on bar diameter.",
       "steps": [
-        "Enter slab length and width dimensions",
-        "Specify center-to-center bar spacing",
-        "Select rebar size (diameter)",
-        "Review bar count for each direction",
-        "Check total weight for material ordering"
+        {
+          "name": "Step 1",
+          "text": "Enter slab length and width dimensions"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify center-to-center bar spacing"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select rebar size (diameter)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review bar count for each direction"
+        },
+        {
+          "name": "Step 5",
+          "text": "Check total weight for material ordering"
+        }
       ]
     },
     "useCases": [
@@ -2464,11 +2689,26 @@
       "formula": "Volume = Area × Depth; Weight = Volume × Density",
       "explanation": "This calculator determines both volume and weight of gravel needed based on coverage area, depth, and material type. Different gravel types have different densities.",
       "steps": [
-        "Enter length and width of area to cover",
-        "Specify desired gravel depth",
-        "Select gravel or aggregate type",
-        "Review volume in cubic yards/meters",
-        "Check weight in tons for ordering"
+        {
+          "name": "Step 1",
+          "text": "Enter length and width of area to cover"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify desired gravel depth"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select gravel or aggregate type"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review volume in cubic yards/meters"
+        },
+        {
+          "name": "Step 5",
+          "text": "Check weight in tons for ordering"
+        }
       ]
     },
     "useCases": [
@@ -2593,11 +2833,26 @@
       "formula": "Mortar Volume = Wall Area × Coverage Factor × (1 + Waste)",
       "explanation": "This calculator estimates mortar quantity based on wall area, masonry type, joint thickness, and mix ratio. It calculates cement bags, sand, and water needed.",
       "steps": [
-        "Enter total wall area in square meters",
-        "Select masonry type (brick, block, or stone)",
-        "Choose joint thickness and mix ratio",
-        "Add waste factor for spillage",
-        "Review materials: cement bags, sand, water"
+        {
+          "name": "Step 1",
+          "text": "Enter total wall area in square meters"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select masonry type (brick, block, or stone)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose joint thickness and mix ratio"
+        },
+        {
+          "name": "Step 4",
+          "text": "Add waste factor for spillage"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review materials: cement bags, sand, water"
+        }
       ]
     },
     "useCases": [
@@ -2716,11 +2971,26 @@
       "formula": "Net Area = (Length × Height) - Windows - Doors",
       "explanation": "This calculator determines net wall area by subtracting window and door openings from the gross wall area. Essential for accurate paint, wallpaper, and material estimates.",
       "steps": [
-        "Enter wall length and height",
-        "Add windows with their dimensions and quantities",
-        "Add doors with their dimensions and quantities",
-        "Review gross area and deductions",
-        "Use net area for material calculations"
+        {
+          "name": "Step 1",
+          "text": "Enter wall length and height"
+        },
+        {
+          "name": "Step 2",
+          "text": "Add windows with their dimensions and quantities"
+        },
+        {
+          "name": "Step 3",
+          "text": "Add doors with their dimensions and quantities"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review gross area and deductions"
+        },
+        {
+          "name": "Step 5",
+          "text": "Use net area for material calculations"
+        }
       ]
     },
     "useCases": [
@@ -2909,11 +3179,26 @@
       "formula": "Grout Volume = Joint Length × Joint Width × Joint Depth",
       "explanation": "This calculator determines grout quantity by calculating total joint length based on tile size and area, then computing volume using joint width and depth.",
       "steps": [
-        "Enter total tiled area",
-        "Specify tile dimensions (width and height)",
-        "Set grout joint width and depth",
-        "Review total grout volume and weight",
-        "Calculate bags needed for ordering"
+        {
+          "name": "Step 1",
+          "text": "Enter total tiled area"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify tile dimensions (width and height)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Set grout joint width and depth"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review total grout volume and weight"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculate bags needed for ordering"
+        }
       ]
     },
     "useCases": [
@@ -3095,11 +3380,26 @@
       "formula": "Pitch = Rise:Run; Angle = arctan(Rise/Run)",
       "explanation": "This calculator converts rise and run measurements into pitch ratio, slope angle, and pitch factor. Understanding roof pitch is essential for material selection and drainage planning.",
       "steps": [
-        "Enter the vertical rise measurement",
-        "Enter the horizontal run measurement",
-        "Review pitch ratio (rise:12 format)",
-        "Check slope angle in degrees",
-        "Use pitch factor for area calculations"
+        {
+          "name": "Step 1",
+          "text": "Enter the vertical rise measurement"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the horizontal run measurement"
+        },
+        {
+          "name": "Step 3",
+          "text": "Review pitch ratio (rise:12 format)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Check slope angle in degrees"
+        },
+        {
+          "name": "Step 5",
+          "text": "Use pitch factor for area calculations"
+        }
       ]
     },
     "useCases": [
@@ -3228,11 +3528,26 @@
       "formula": "Batts = Total Area / Coverage per Batt",
       "explanation": "This calculator determines insulation quantity by dividing total area by individual batt coverage. It calculates R-value based on insulation type and thickness.",
       "steps": [
-        "Enter total area to be insulated",
-        "Select insulation type",
-        "Specify batt dimensions and thickness",
-        "Add waste factor for cuts around obstacles",
-        "Review batts, rolls, and R-value achieved"
+        {
+          "name": "Step 1",
+          "text": "Enter total area to be insulated"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select insulation type"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify batt dimensions and thickness"
+        },
+        {
+          "name": "Step 4",
+          "text": "Add waste factor for cuts around obstacles"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review batts, rolls, and R-value achieved"
+        }
       ]
     },
     "useCases": [
@@ -3367,11 +3682,26 @@
       "formula": "Blocks = (Wall Area / Block Face Area) × (1 + Waste Factor)",
       "explanation": "This calculator determines concrete block quantity by dividing wall area by the face area of each block. It accounts for mortar joints and includes estimates for mortar bags and vertical reinforcement.",
       "steps": [
-        "Enter wall length and height measurements",
-        "Select block size (standard 8×8×16 is most common)",
-        "Set waste factor for cutting and breakage",
-        "Review total block count and mortar requirements",
-        "Plan for vertical rebar placement as needed"
+        {
+          "name": "Step 1",
+          "text": "Enter wall length and height measurements"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select block size (standard 8×8×16 is most common)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Set waste factor for cutting and breakage"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review total block count and mortar requirements"
+        },
+        {
+          "name": "Step 5",
+          "text": "Plan for vertical rebar placement as needed"
+        }
       ]
     },
     "useCases": [
@@ -3552,11 +3882,26 @@
       "formula": "Sheets = (Wall Area + Ceiling Area) / Sheet Area × (1 + Waste)",
       "explanation": "This calculator determines drywall sheet quantity based on total coverage area and sheet size. It also estimates screws, joint compound, and tape needed for complete installation and finishing.",
       "steps": [
-        "Enter total wall area to be covered",
-        "Add ceiling area if applicable",
-        "Select drywall sheet size",
-        "Set waste factor for cuts and odd shapes",
-        "Review sheets and accessories needed"
+        {
+          "name": "Step 1",
+          "text": "Enter total wall area to be covered"
+        },
+        {
+          "name": "Step 2",
+          "text": "Add ceiling area if applicable"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select drywall sheet size"
+        },
+        {
+          "name": "Step 4",
+          "text": "Set waste factor for cuts and odd shapes"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review sheets and accessories needed"
+        }
       ]
     },
     "useCases": [
@@ -3713,11 +4058,26 @@
       "formula": "Gallons = Drywall Area / Coverage Rate",
       "explanation": "This calculator estimates joint compound quantity based on drywall area and application type. It accounts for different coverage rates for taping, filling, and finish coats.",
       "steps": [
-        "Enter total drywall area to be finished",
-        "Select application type (single coat or full system)",
-        "Review gallons or liters needed",
-        "Calculate 5-gallon buckets for ordering",
-        "Allow for extra for touch-ups and repairs"
+        {
+          "name": "Step 1",
+          "text": "Enter total drywall area to be finished"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select application type (single coat or full system)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Review gallons or liters needed"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculate 5-gallon buckets for ordering"
+        },
+        {
+          "name": "Step 5",
+          "text": "Allow for extra for touch-ups and repairs"
+        }
       ]
     },
     "useCases": [
@@ -3867,11 +4227,26 @@
       "formula": "Board Feet = (Thickness × Width × Length in inches) / 144",
       "explanation": "This calculator converts lumber dimensions to board feet, the standard volume measurement for lumber. It helps estimate material quantities and costs for construction projects.",
       "steps": [
-        "Select lumber dimension or enter custom size",
-        "Enter number of pieces needed",
-        "Specify length of each piece",
-        "Review total board feet and linear feet",
-        "Use board feet for cost estimation"
+        {
+          "name": "Step 1",
+          "text": "Select lumber dimension or enter custom size"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter number of pieces needed"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify length of each piece"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review total board feet and linear feet"
+        },
+        {
+          "name": "Step 5",
+          "text": "Use board feet for cost estimation"
+        }
       ]
     },
     "useCases": [
@@ -4085,11 +4460,26 @@
       "formula": "Bundles = (Roof Area / 100) × Bundles per Square × (1 + Waste)",
       "explanation": "This calculator converts roof area to roofing squares and calculates bundle quantities based on shingle type. It includes starter strips, ridge caps, underlayment, and drip edge.",
       "steps": [
-        "Enter total roof area in square feet",
-        "Select shingle type for correct bundle coverage",
-        "Add ridge and hip length for cap shingles",
-        "Set waste factor (15% for complex roofs)",
-        "Review bundles and accessories needed"
+        {
+          "name": "Step 1",
+          "text": "Enter total roof area in square feet"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select shingle type for correct bundle coverage"
+        },
+        {
+          "name": "Step 3",
+          "text": "Add ridge and hip length for cap shingles"
+        },
+        {
+          "name": "Step 4",
+          "text": "Set waste factor (15% for complex roofs)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review bundles and accessories needed"
+        }
       ]
     },
     "useCases": [
@@ -4319,11 +4709,26 @@
       "formula": "Material = Area × Coats / Coverage Rate × (1 + Waste)",
       "explanation": "This calculator estimates waterproofing material quantities based on surface area, application type, and number of coats. It includes fabric tape and primer for complete installation.",
       "steps": [
-        "Enter total surface area to be waterproofed",
-        "Select waterproofing application type",
-        "Specify number of coats (typically 2)",
-        "Set waste factor for overlaps",
-        "Review material and accessory quantities"
+        {
+          "name": "Step 1",
+          "text": "Enter total surface area to be waterproofed"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select waterproofing application type"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify number of coats (typically 2)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Set waste factor for overlaps"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review material and accessory quantities"
+        }
       ]
     },
     "useCases": [
@@ -4455,11 +4860,26 @@
       "formula": "Total Cost = (Area × Cost per SF) × (1 + Contingency)",
       "explanation": "This calculator estimates total construction costs based on project area and construction type. It breaks down costs into materials, labor, permits, and includes contingency for unexpected expenses.",
       "steps": [
-        "Enter total project floor area",
-        "Select construction type and quality level",
-        "Choose items to include in estimate",
-        "Set contingency percentage",
-        "Review total cost and breakdown"
+        {
+          "name": "Step 1",
+          "text": "Enter total project floor area"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select construction type and quality level"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose items to include in estimate"
+        },
+        {
+          "name": "Step 4",
+          "text": "Set contingency percentage"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review total cost and breakdown"
+        }
       ]
     },
     "useCases": [
@@ -4588,11 +5008,26 @@
       "formula": "Volume = Length × Width × Depth × Number of Footings",
       "explanation": "This calculator determines concrete volume for footings based on dimensions and quantity. It accounts for waste and provides rebar estimates for reinforcement.",
       "steps": [
-        "Select footing type (continuous, spread, or combined)",
-        "Enter footing dimensions",
-        "Specify number of identical footings",
-        "Set waste factor for concrete",
-        "Review total volume and rebar needs"
+        {
+          "name": "Step 1",
+          "text": "Select footing type (continuous, spread, or combined)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter footing dimensions"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify number of identical footings"
+        },
+        {
+          "name": "Step 4",
+          "text": "Set waste factor for concrete"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review total volume and rebar needs"
+        }
       ]
     },
     "useCases": [
@@ -4787,11 +5222,26 @@
       "formula": "Total = (Perimeter × Height × Thickness) + (Perimeter × Footing Width × Footing Depth)",
       "explanation": "This calculator determines concrete volume for foundation walls and footings. It supports poured concrete, block, and ICF foundation systems with rebar estimates.",
       "steps": [
-        "Select foundation type",
-        "Enter foundation perimeter (total wall length)",
-        "Specify wall height and thickness",
-        "Add footing dimensions if included",
-        "Review total volume and rebar estimate"
+        {
+          "name": "Step 1",
+          "text": "Select foundation type"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter foundation perimeter (total wall length)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify wall height and thickness"
+        },
+        {
+          "name": "Step 4",
+          "text": "Add footing dimensions if included"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review total volume and rebar estimate"
+        }
       ]
     },
     "useCases": [
@@ -4924,11 +5374,26 @@
       "formula": "Square Footage = Length × Width × (1 + Waste Factor)",
       "explanation": "This calculator determines flooring material quantity based on room dimensions and flooring type. It accounts for waste from cutting and includes underlayment and accessories.",
       "steps": [
-        "Enter room length and width",
-        "Select flooring type for proper waste factor",
-        "Specify plank or tile dimensions if needed",
-        "Set waste factor (10% minimum, 15% for diagonal)",
-        "Review total area and materials needed"
+        {
+          "name": "Step 1",
+          "text": "Enter room length and width"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select flooring type for proper waste factor"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify plank or tile dimensions if needed"
+        },
+        {
+          "name": "Step 4",
+          "text": "Set waste factor (10% minimum, 15% for diagonal)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review total area and materials needed"
+        }
       ]
     },
     "useCases": [

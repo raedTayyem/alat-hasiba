@@ -8,11 +8,26 @@
       "formula": "Inheritance = (Estate - Debts - Bequest) x Heir's Legal Share",
       "explanation": "The Islamic Inheritance Calculator follows Sharia law derived from the Quran and Sunnah. The estate is distributed after settling debts and executing the bequest (maximum one-third) among heirs according to their prescribed shares.",
       "steps": [
-        "Determine the total estate value (assets and properties)",
-        "Deduct debts and funeral expenses",
-        "Execute the bequest if any (maximum one-third of estate)",
-        "Identify eligible heirs and their legal shares",
-        "Distribute the net estate according to fixed shares and residuary rules"
+        {
+          "name": "Step 1",
+          "text": "Determine the total estate value (assets and properties)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Deduct debts and funeral expenses"
+        },
+        {
+          "name": "Step 3",
+          "text": "Execute the bequest if any (maximum one-third of estate)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Identify eligible heirs and their legal shares"
+        },
+        {
+          "name": "Step 5",
+          "text": "Distribute the net estate according to fixed shares and residuary rules"
+        }
       ]
     },
     "useCases": [
@@ -89,11 +104,26 @@
       "formula": "A = P(1 + r/n)^(nt)",
       "explanation": "Compound interest is calculated on both the principal amount and the accumulated interest from previous periods. This means your money grows faster over time because interest is added to the balance and begins earning interest itself.",
       "steps": [
-        "Enter the principal amount (P) you want to invest",
-        "Specify the annual interest rate (r) as a percentage",
-        "Choose the compounding frequency per year (n)",
-        "Set the investment duration in years (t)",
-        "Calculate the final value using the formula"
+        {
+          "name": "Step 1",
+          "text": "Enter the principal amount (P) you want to invest"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify the annual interest rate (r) as a percentage"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose the compounding frequency per year (n)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Set the investment duration in years (t)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculate the final value using the formula"
+        }
       ]
     },
     "useCases": [
@@ -170,11 +200,26 @@
       "formula": "Zakat = Zakatable Wealth x 2.5%",
       "explanation": "Zakat is one of the five pillars of Islam, obligatory for every Muslim who owns wealth above the Nisab threshold for a full lunar year (Hawl). The Zakat rate is 2.5% of total zakatable wealth.",
       "steps": [
-        "Identify all zakatable assets (cash, gold, silver, trade goods)",
-        "Verify the Nisab threshold is met (85 grams of gold or equivalent)",
-        "Confirm a full lunar year has passed (Hawl)",
-        "Deduct any outstanding debts",
-        "Calculate 2.5% of net zakatable wealth"
+        {
+          "name": "Step 1",
+          "text": "Identify all zakatable assets (cash, gold, silver, trade goods)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Verify the Nisab threshold is met (85 grams of gold or equivalent)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Confirm a full lunar year has passed (Hawl)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Deduct any outstanding debts"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculate 2.5% of net zakatable wealth"
+        }
       ]
     },
     "useCases": [
@@ -251,11 +296,26 @@
       "formula": "Monthly Payment = P x [r(1+r)^n] / [(1+r)^n - 1]",
       "explanation": "The loan calculator uses the fixed payment amortization formula to calculate monthly payments. This formula ensures equal payments throughout the loan term, with each payment's distribution between interest and principal changing over time.",
       "steps": [
-        "Enter the original loan amount (P)",
-        "Specify the annual interest rate and divide by 12 for monthly rate (r)",
-        "Set the loan term and convert to months (n)",
-        "Apply the formula to calculate monthly payment",
-        "Calculate total interest = (Payment x Number of months) - Principal"
+        {
+          "name": "Step 1",
+          "text": "Enter the original loan amount (P)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify the annual interest rate and divide by 12 for monthly rate (r)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Set the loan term and convert to months (n)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Apply the formula to calculate monthly payment"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculate total interest = (Payment x Number of months) - Principal"
+        }
       ]
     },
     "useCases": [
@@ -332,11 +392,26 @@
       "formula": "Monthly Interest = Remaining Balance x (Annual Interest Rate / 12)",
       "explanation": "The amortization schedule details each monthly payment, showing how much goes to interest and how much reduces the principal. At the start of the loan, most of the payment goes to interest, then gradually shifts toward principal over time.",
       "steps": [
-        "Specify loan amount, interest rate, and term",
-        "Calculate the fixed monthly payment",
-        "For each month: calculate interest on remaining balance",
-        "Subtract interest from payment to get principal portion",
-        "Subtract principal paid from balance to get new balance"
+        {
+          "name": "Step 1",
+          "text": "Specify loan amount, interest rate, and term"
+        },
+        {
+          "name": "Step 2",
+          "text": "Calculate the fixed monthly payment"
+        },
+        {
+          "name": "Step 3: For each month",
+          "text": "calculate interest on remaining balance"
+        },
+        {
+          "name": "Step 4",
+          "text": "Subtract interest from payment to get principal portion"
+        },
+        {
+          "name": "Step 5",
+          "text": "Subtract principal paid from balance to get new balance"
+        }
       ]
     },
     "useCases": [
@@ -413,11 +488,26 @@
       "formula": "Future Value = P(1+r)^t + C x [((1+r)^t - 1) / r]",
       "explanation": "This tool calculates your investment growth using compound interest, with the option to add periodic contributions. The formula combines the growth of initial capital with the growth of accumulated contributions.",
       "steps": [
-        "Enter the initial investment amount (P)",
-        "Specify the periodic contribution (C) and its frequency",
-        "Enter the expected annual return rate (r)",
-        "Set the investment duration in years (t)",
-        "Calculate the future value and total return"
+        {
+          "name": "Step 1",
+          "text": "Enter the initial investment amount (P)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify the periodic contribution (C) and its frequency"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the expected annual return rate (r)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Set the investment duration in years (t)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculate the future value and total return"
+        }
       ]
     },
     "useCases": [
@@ -494,11 +584,26 @@
       "formula": "Consumption Rate = (Fuel Amount / Distance) x 100",
       "explanation": "This tool calculates your vehicle's fuel consumption rate in liters per 100 kilometers or kilometers per liter. This helps you understand your car's efficiency and plan your fuel budget.",
       "steps": [
-        "Fill the tank completely and record the odometer reading",
-        "Drive normally until you need to refuel",
-        "Fill the tank again and record the fuel amount added",
-        "Record the new odometer reading",
-        "Calculate distance traveled and divide fuel amount by it"
+        {
+          "name": "Step 1",
+          "text": "Fill the tank completely and record the odometer reading"
+        },
+        {
+          "name": "Step 2",
+          "text": "Drive normally until you need to refuel"
+        },
+        {
+          "name": "Step 3",
+          "text": "Fill the tank again and record the fuel amount added"
+        },
+        {
+          "name": "Step 4",
+          "text": "Record the new odometer reading"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculate distance traveled and divide fuel amount by it"
+        }
       ]
     },
     "useCases": [
@@ -575,11 +680,26 @@
       "formula": "Total Cost = Transportation + Accommodation + Food + Activities + Other Expenses",
       "explanation": "This calculator helps you estimate the complete cost of your trip by adding all expected expenses. You can adjust each item based on comfort level and trip duration.",
       "steps": [
-        "Determine travel destination and trip duration",
-        "Calculate ticket costs or fuel for driving",
-        "Estimate accommodation costs (hotels, apartments, etc.)",
-        "Calculate daily food budget",
-        "Add activity costs and miscellaneous expenses"
+        {
+          "name": "Step 1",
+          "text": "Determine travel destination and trip duration"
+        },
+        {
+          "name": "Step 2",
+          "text": "Calculate ticket costs or fuel for driving"
+        },
+        {
+          "name": "Step 3",
+          "text": "Estimate accommodation costs (hotels, apartments, etc.)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculate daily food budget"
+        },
+        {
+          "name": "Step 5",
+          "text": "Add activity costs and miscellaneous expenses"
+        }
       ]
     },
     "useCases": [
@@ -656,11 +776,26 @@
       "formula": "Tithe = Income x 10%",
       "explanation": "Tithing is giving 10% of income to the church or charitable works as mentioned in the Bible. It can be calculated from gross income (before taxes) or net income (after taxes) based on personal conviction.",
       "steps": [
-        "Identify your income sources (salary, investments, etc.)",
-        "Choose to calculate from gross or net income",
-        "Calculate 10% of the chosen income",
-        "Distribute the tithe to church and charitable works",
-        "Record your donations for tracking"
+        {
+          "name": "Step 1",
+          "text": "Identify your income sources (salary, investments, etc.)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Choose to calculate from gross or net income"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculate 10% of the chosen income"
+        },
+        {
+          "name": "Step 4",
+          "text": "Distribute the tithe to church and charitable works"
+        },
+        {
+          "name": "Step 5",
+          "text": "Record your donations for tracking"
+        }
       ]
     },
     "useCases": [
@@ -857,10 +992,22 @@
       "formula": "Zakat = Wealth x 2.5%",
       "explanation": "Zakat is a pillar of Islam obligatory for those who own Nisab for a complete lunar year. Nisab equals 85 grams of gold.",
       "steps": [
-        "Gather zakatable assets (cash, gold, silver)",
-        "Verify Nisab threshold is met (85 grams gold)",
-        "Confirm a lunar year has passed",
-        "Calculate 2.5% of total wealth"
+        {
+          "name": "Step 1",
+          "text": "Gather zakatable assets (cash, gold, silver)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Verify Nisab threshold is met (85 grams gold)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Confirm a lunar year has passed"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculate 2.5% of total wealth"
+        }
       ]
     },
     "useCases": [
@@ -994,10 +1141,22 @@
       "formula": "M = P × [r(1+r)^n] / [(1+r)^n - 1]",
       "explanation": "The loan calculator uses the fixed payment formula to calculate monthly payments, where each payment's distribution between interest and principal changes over time.",
       "steps": [
-        "Enter the original loan amount",
-        "Specify the annual interest rate",
-        "Set the loan term in years",
-        "Calculate monthly payment and total interest"
+        {
+          "name": "Step 1",
+          "text": "Enter the original loan amount"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify the annual interest rate"
+        },
+        {
+          "name": "Step 3",
+          "text": "Set the loan term in years"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculate monthly payment and total interest"
+        }
       ]
     },
     "useCases": [
@@ -1095,11 +1254,26 @@
       "formula": "FV = P(1+r)^t + C × [((1+r)^t - 1) / r]",
       "explanation": "This tool calculates investment growth using compound interest, with options for periodic contributions to maximize returns.",
       "steps": [
-        "Enter initial investment amount",
-        "Specify periodic contribution and frequency",
-        "Enter expected annual return rate",
-        "Set investment duration in years",
-        "Calculate future value and total return"
+        {
+          "name": "Step 1",
+          "text": "Enter initial investment amount"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify periodic contribution and frequency"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter expected annual return rate"
+        },
+        {
+          "name": "Step 4",
+          "text": "Set investment duration in years"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculate future value and total return"
+        }
       ]
     },
     "useCases": [

@@ -24,9 +24,18 @@
       "formula": "Total Lease Value = Monthly Rent × Lease Term",
       "explanation": "This tool calculates your total financial commitment over the lease term to help with comparison and planning.",
       "steps": [
-        "Enter the monthly rent amount",
-        "Specify lease term in months",
-        "Get total lease value and annual cost"
+        {
+          "name": "Step 1",
+          "text": "Enter the monthly rent amount"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify lease term in months"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get total lease value and annual cost"
+        }
       ]
     },
     "useCases": [
@@ -113,9 +122,18 @@
       "formula": "Net Income = Gross Rental Income - Operating Expenses",
       "explanation": "This tool calculates your net rental income after deducting all operating expenses.",
       "steps": [
-        "Enter expected monthly rent",
-        "Add any additional income (parking, laundry, etc.)",
-        "Get total annual and monthly income"
+        {
+          "name": "Step 1",
+          "text": "Enter expected monthly rent"
+        },
+        {
+          "name": "Step 2",
+          "text": "Add any additional income (parking, laundry, etc.)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get total annual and monthly income"
+        }
       ]
     },
     "useCases": [
@@ -187,10 +205,22 @@
       "formula": "Gross Yield = (Annual Rent / Property Price) × 100",
       "explanation": "This tool calculates the annual return from rent as a percentage of property value, both gross and net.",
       "steps": [
-        "Enter purchase price or market value",
-        "Specify expected monthly rent",
-        "Enter annual expenses for net yield",
-        "Get gross and net yield percentages"
+        {
+          "name": "Step 1",
+          "text": "Enter purchase price or market value"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify expected monthly rent"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter annual expenses for net yield"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get gross and net yield percentages"
+        }
       ]
     },
     "useCases": [
@@ -253,9 +283,18 @@
       "formula": "Recommended Deposit = Monthly Rent × 1-2",
       "explanation": "This tool estimates an appropriate security deposit based on monthly rent and other factors.",
       "steps": [
-        "Enter monthly rent amount",
-        "Add credit score if available",
-        "Get recommended deposit amount"
+        {
+          "name": "Step 1",
+          "text": "Enter monthly rent amount"
+        },
+        {
+          "name": "Step 2",
+          "text": "Add credit score if available"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get recommended deposit amount"
+        }
       ]
     },
     "useCases": [
@@ -323,9 +362,18 @@
       "formula": "Vacancy Rate = (Vacant Days / 365) × 100",
       "explanation": "This tool calculates the percentage of time your property is unoccupied and its impact on income.",
       "steps": [
-        "Enter monthly rent for the property",
-        "Specify expected vacant days per year",
-        "Get vacancy rate and lost income"
+        {
+          "name": "Step 1",
+          "text": "Enter monthly rent for the property"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify expected vacant days per year"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get vacancy rate and lost income"
+        }
       ]
     },
     "useCases": [
@@ -425,10 +473,22 @@
       "formula": "Buying Cost = (Mortgage + Taxes + Insurance + Maintenance) - (Appreciation + Tax Benefits)",
       "explanation": "This tool compares total costs of renting versus buying over years to help you make the decision.",
       "steps": [
-        "Enter buying scenario details",
-        "Enter renting scenario details",
-        "Specify expected increase rates",
-        "Compare costs over 5-15 years"
+        {
+          "name": "Step 1",
+          "text": "Enter buying scenario details"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter renting scenario details"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify expected increase rates"
+        },
+        {
+          "name": "Step 4",
+          "text": "Compare costs over 5-15 years"
+        }
       ]
     },
     "useCases": [
@@ -491,9 +551,18 @@
       "formula": "GRM = Property Price / Annual Gross Rent",
       "explanation": "The Gross Rent Multiplier measures how many years of rent it takes to recover the property price, without accounting for expenses.",
       "steps": [
-        "Enter purchase price or market value",
-        "Enter expected annual gross rent",
-        "Get GRM for comparison"
+        {
+          "name": "Step 1",
+          "text": "Enter purchase price or market value"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter expected annual gross rent"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get GRM for comparison"
+        }
       ]
     },
     "useCases": [

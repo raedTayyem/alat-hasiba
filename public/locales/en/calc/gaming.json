@@ -9,10 +9,22 @@
       "formula": "K/D Ratio = Total Kills / Total Deaths",
       "explanation": "The Kill/Death ratio measures your combat effectiveness in FPS games. A ratio above 1.0 means you get more kills than deaths on average.",
       "steps": [
-        "Enter your total number of kills",
-        "Enter your total number of deaths",
-        "Optionally enter games played for per-game stats",
-        "View your K/D ratio and performance metrics"
+        {
+          "name": "Step 1",
+          "text": "Enter your total number of kills"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your total number of deaths"
+        },
+        {
+          "name": "Step 3",
+          "text": "Optionally enter games played for per-game stats"
+        },
+        {
+          "name": "Step 4",
+          "text": "View your K/D ratio and performance metrics"
+        }
       ]
     },
     "useCases": [
@@ -57,10 +69,22 @@
       "formula": "Win Rate = (Wins / Total Games) × 100%",
       "explanation": "Win rate measures your success percentage across all games played. It's the primary metric for ranked progression in most competitive games.",
       "steps": [
-        "Enter your total number of wins",
-        "Enter your total number of losses",
-        "Optionally add draws if applicable",
-        "View your win rate and games needed for target rates"
+        {
+          "name": "Step 1",
+          "text": "Enter your total number of wins"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your total number of losses"
+        },
+        {
+          "name": "Step 3",
+          "text": "Optionally add draws if applicable"
+        },
+        {
+          "name": "Step 4",
+          "text": "View your win rate and games needed for target rates"
+        }
       ]
     },
     "useCases": [
@@ -104,10 +128,22 @@
       "formula": "KDA = (Kills + Assists) / Deaths",
       "explanation": "KDA measures your overall contribution in team fights, valuing both kills and assists while penalizing deaths.",
       "steps": [
-        "Enter your total kills",
-        "Enter your total deaths",
-        "Enter your total assists",
-        "View KDA ratio and kill participation"
+        {
+          "name": "Step 1",
+          "text": "Enter your total kills"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your total deaths"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter your total assists"
+        },
+        {
+          "name": "Step 4",
+          "text": "View KDA ratio and kill participation"
+        }
       ]
     },
     "useCases": [
@@ -151,11 +187,26 @@
       "formula": "XP Needed = Target Level XP - Current XP",
       "explanation": "This calculator helps you plan your leveling journey by showing how much experience you need and estimating time to reach your goal.",
       "steps": [
-        "Enter your current level",
-        "Enter current XP in the level",
-        "Set your target level",
-        "Enter XP per level (if known)",
-        "View total XP needed and progress"
+        {
+          "name": "Step 1",
+          "text": "Enter your current level"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter current XP in the level"
+        },
+        {
+          "name": "Step 3",
+          "text": "Set your target level"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter XP per level (if known)"
+        },
+        {
+          "name": "Step 5",
+          "text": "View total XP needed and progress"
+        }
       ]
     },
     "useCases": [
@@ -199,12 +250,30 @@
       "formula": "Time = Total XP Needed / XP Per Hour",
       "explanation": "Estimate how long it will take to reach your target level based on your XP earning rate and the game's leveling curve.",
       "steps": [
-        "Enter your current level",
-        "Set your target level",
-        "Enter your average XP per hour",
-        "Input base XP per level",
-        "Set scaling factor if applicable",
-        "View estimated time to level"
+        {
+          "name": "Step 1",
+          "text": "Enter your current level"
+        },
+        {
+          "name": "Step 2",
+          "text": "Set your target level"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter your average XP per hour"
+        },
+        {
+          "name": "Step 4",
+          "text": "Input base XP per level"
+        },
+        {
+          "name": "Step 5",
+          "text": "Set scaling factor if applicable"
+        },
+        {
+          "name": "Step 6",
+          "text": "View estimated time to level"
+        }
       ]
     },
     "useCases": [
@@ -248,11 +317,26 @@
       "formula": "DPS = (Base Damage × (1 + Crit Chance × (Crit Multiplier - 1))) × Attack Speed",
       "explanation": "DPS calculates your average damage output per second, factoring in base damage, attack speed, and critical hit statistics.",
       "steps": [
-        "Enter damage per hit",
-        "Enter attacks per second",
-        "Add critical chance percentage",
-        "Set critical multiplier",
-        "View DPS and damage breakdowns"
+        {
+          "name": "Step 1",
+          "text": "Enter damage per hit"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter attacks per second"
+        },
+        {
+          "name": "Step 3",
+          "text": "Add critical chance percentage"
+        },
+        {
+          "name": "Step 4",
+          "text": "Set critical multiplier"
+        },
+        {
+          "name": "Step 5",
+          "text": "View DPS and damage breakdowns"
+        }
       ]
     },
     "useCases": [
@@ -296,10 +380,22 @@
       "formula": "Success Chance = 1 - (1 - Drop Rate)^Attempts",
       "explanation": "Calculate the probability of getting at least one drop after multiple attempts, accounting for the nature of independent probability events.",
       "steps": [
-        "Enter the drop rate percentage",
-        "Enter number of attempts",
-        "View success probability",
-        "See attempts needed for desired certainty"
+        {
+          "name": "Step 1",
+          "text": "Enter the drop rate percentage"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter number of attempts"
+        },
+        {
+          "name": "Step 3",
+          "text": "View success probability"
+        },
+        {
+          "name": "Step 4",
+          "text": "See attempts needed for desired certainty"
+        }
       ]
     },
     "useCases": [
@@ -343,10 +439,22 @@
       "formula": "Frame Time (ms) = 1000 / FPS",
       "explanation": "Convert between FPS and frame time to understand performance characteristics and smoothness of gameplay.",
       "steps": [
-        "Enter your current FPS",
-        "View corresponding frame time",
-        "See frames per minute and hour",
-        "Understand the smoothness level"
+        {
+          "name": "Step 1",
+          "text": "Enter your current FPS"
+        },
+        {
+          "name": "Step 2",
+          "text": "View corresponding frame time"
+        },
+        {
+          "name": "Step 3",
+          "text": "See frames per minute and hour"
+        },
+        {
+          "name": "Step 4",
+          "text": "Understand the smoothness level"
+        }
       ]
     },
     "useCases": [
@@ -390,10 +498,22 @@
       "formula": "Conversions between horizontal, vertical, and aspect-ratio-based FOV",
       "explanation": "Convert field of view values between different measurement types used by different games, accounting for your monitor's aspect ratio.",
       "steps": [
-        "Enter your current FOV value",
-        "Select the FOV type (horizontal or vertical)",
-        "Choose your aspect ratio",
-        "View converted FOV values for different systems"
+        {
+          "name": "Step 1",
+          "text": "Enter your current FOV value"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the FOV type (horizontal or vertical)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose your aspect ratio"
+        },
+        {
+          "name": "Step 4",
+          "text": "View converted FOV values for different systems"
+        }
       ]
     },
     "useCases": [
@@ -437,10 +557,22 @@
       "formula": "Resource calculations based on stack sizes and crafting recipes",
       "explanation": "Calculate building materials, crafting requirements, and optimal mining levels based on Minecraft's game mechanics.",
       "steps": [
-        "Select calculation type (building, crafting, or ore)",
-        "Enter required blocks or select recipe",
-        "For ores, enter your Y-level",
-        "View materials needed and optimal strategies"
+        {
+          "name": "Step 1",
+          "text": "Select calculation type (building, crafting, or ore)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter required blocks or select recipe"
+        },
+        {
+          "name": "Step 3",
+          "text": "For ores, enter your Y-level"
+        },
+        {
+          "name": "Step 4",
+          "text": "View materials needed and optimal strategies"
+        }
       ]
     },
     "useCases": [

@@ -9,11 +9,26 @@
       "formula": "Seeds per Acre = (43,560 sq ft / (Row Spacing × Plant Spacing)) / (Germination Rate / 100)",
       "explanation": "This calculator determines how many seeds you need based on desired plant population, row and plant spacing, and expected germination rate. It accounts for germination losses to ensure you achieve your target stand.",
       "steps": [
-        "Select your crop type or choose custom settings",
-        "Enter the total field area in acres or hectares",
-        "Specify row spacing and plant spacing in inches",
-        "Input the expected germination rate percentage",
-        "Review seeds needed and weight requirements"
+        {
+          "name": "Step 1",
+          "text": "Select your crop type or choose custom settings"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the total field area in acres or hectares"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify row spacing and plant spacing in inches"
+        },
+        {
+          "name": "Step 4",
+          "text": "Input the expected germination rate percentage"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review seeds needed and weight requirements"
+        }
       ]
     },
     "useCases": [
@@ -62,11 +77,26 @@
       "formula": "Fertilizer Needed = (Crop Requirement × Target Yield) - Existing Soil Nutrients",
       "explanation": "This calculator determines NPK (nitrogen, phosphorus, potassium) requirements based on crop type, yield goals, and existing soil nutrient levels from soil tests. It calculates the deficit that needs to be supplied through fertilization.",
       "steps": [
-        "Select your crop type from the dropdown",
-        "Enter the field area in acres",
-        "Set your target yield in bushels per acre",
-        "Input soil test results for N, P, and K",
-        "Review the calculated fertilizer requirements"
+        {
+          "name": "Step 1",
+          "text": "Select your crop type from the dropdown"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the field area in acres"
+        },
+        {
+          "name": "Step 3",
+          "text": "Set your target yield in bushels per acre"
+        },
+        {
+          "name": "Step 4",
+          "text": "Input soil test results for N, P, and K"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review the calculated fertilizer requirements"
+        }
       ]
     },
     "useCases": [
@@ -115,11 +145,26 @@
       "formula": "Water Needed = Base ET × Crop Coefficient × Growth Stage Factor × Climate Adjustment × Area",
       "explanation": "This calculator uses evapotranspiration (ET) data combined with crop-specific coefficients to determine water requirements. Different crops, growth stages, and climate conditions all affect how much water your fields need.",
       "steps": [
-        "Enter the total field area in acres",
-        "Select your crop type from the dropdown",
-        "Choose the current climate conditions",
-        "Select the crop's current growth stage",
-        "Review water requirements in gallons, liters, and acre-feet"
+        {
+          "name": "Step 1",
+          "text": "Enter the total field area in acres"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select your crop type from the dropdown"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose the current climate conditions"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select the crop's current growth stage"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review water requirements in gallons, liters, and acre-feet"
+        }
       ]
     },
     "useCases": [
@@ -168,11 +213,26 @@
       "formula": "Daily Production = Number of Cows × Gallons per Cow per Day",
       "explanation": "This calculator projects milk production and revenue based on herd size and individual cow productivity. It accounts for daily, monthly, and annual production to help with business planning.",
       "steps": [
-        "Enter the number of milking cows in your herd",
-        "Input the average daily milk yield per cow in gallons",
-        "Enter the current or expected milk price per gallon",
-        "Review daily, monthly, and annual production projections",
-        "See estimated annual revenue based on current prices"
+        {
+          "name": "Step 1",
+          "text": "Enter the number of milking cows in your herd"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the average daily milk yield per cow in gallons"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the current or expected milk price per gallon"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review daily, monthly, and annual production projections"
+        },
+        {
+          "name": "Step 5",
+          "text": "See estimated annual revenue based on current prices"
+        }
       ]
     },
     "useCases": [
@@ -221,11 +281,26 @@
       "formula": "Daily Eggs = Number of Hens × (Lay Rate / 100)",
       "explanation": "This calculator estimates egg production based on flock size and laying rate. Commercial hens typically lay at 80-95% rate during peak production, declining over time.",
       "steps": [
-        "Enter the total number of laying hens",
-        "Input the current or expected laying rate percentage",
-        "Enter your selling price per dozen eggs",
-        "Review daily, monthly, and annual egg production",
-        "See estimated annual revenue projections"
+        {
+          "name": "Step 1",
+          "text": "Enter the total number of laying hens"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the current or expected laying rate percentage"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter your selling price per dozen eggs"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review daily, monthly, and annual egg production"
+        },
+        {
+          "name": "Step 5",
+          "text": "See estimated annual revenue projections"
+        }
       ]
     },
     "useCases": [
@@ -274,11 +349,26 @@
       "formula": "Product Needed = (Target Rate × Area) / (Concentration / 100)",
       "explanation": "This calculator determines the amount of pesticide product needed to achieve the desired active ingredient application rate. It accounts for product concentration and total area to be treated.",
       "steps": [
-        "Select the type of pesticide (herbicide, insecticide, or fungicide)",
-        "Enter the total area to be treated in acres",
-        "Input the product's active ingredient concentration",
-        "Specify the target application rate in pounds per acre",
-        "Review the total product and water needed for application"
+        {
+          "name": "Step 1",
+          "text": "Select the type of pesticide (herbicide, insecticide, or fungicide)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the total area to be treated in acres"
+        },
+        {
+          "name": "Step 3",
+          "text": "Input the product's active ingredient concentration"
+        },
+        {
+          "name": "Step 4",
+          "text": "Specify the target application rate in pounds per acre"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review the total product and water needed for application"
+        }
       ]
     },
     "useCases": [
@@ -327,10 +417,22 @@
       "formula": "C:N Ratio = (Carbon in Browns + Carbon in Greens) / (Nitrogen in Browns + Nitrogen in Greens)",
       "explanation": "Successful composting requires balancing carbon-rich 'brown' materials with nitrogen-rich 'green' materials. The ideal ratio is approximately 30:1 (carbon to nitrogen). This calculator helps you determine the right mix of materials.",
       "steps": [
-        "Enter your desired total compost volume",
-        "Specify your target C:N ratio (30:1 is recommended)",
-        "The calculator determines the proportion of greens and browns needed",
-        "Review the volumes of each material type required"
+        {
+          "name": "Step 1",
+          "text": "Enter your desired total compost volume"
+        },
+        {
+          "name": "Step 2: Specify your target C",
+          "text": "N ratio (30:1 is recommended)"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator determines the proportion of greens and browns needed"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review the volumes of each material type required"
+        }
       ]
     },
     "useCases": [
@@ -379,11 +481,26 @@
       "formula": "Floor Area = Length × Width; Volume = Length × Width × Average Height",
       "explanation": "This calculator helps plan greenhouse specifications by computing floor area, internal volume, and estimated plant capacity. Climate conditions affect heating/cooling requirements and ventilation needs.",
       "steps": [
-        "Enter the planned length of your greenhouse",
-        "Enter the width of the structure",
-        "Input the average height (accounting for roof slope)",
-        "Select your local climate conditions",
-        "Review calculated floor area, volume, and plant capacity"
+        {
+          "name": "Step 1",
+          "text": "Enter the planned length of your greenhouse"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the width of the structure"
+        },
+        {
+          "name": "Step 3",
+          "text": "Input the average height (accounting for roof slope)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select your local climate conditions"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review calculated floor area, volume, and plant capacity"
+        }
       ]
     },
     "useCases": [
@@ -432,11 +549,26 @@
       "formula": "Fuel Consumption = (HP × Load Factor × Hours) / Fuel Efficiency",
       "explanation": "This calculator estimates diesel fuel consumption based on tractor horsepower, the type of field operation, and acreage. Different operations require different amounts of power - plowing is the most fuel-intensive, while spraying uses the least.",
       "steps": [
-        "Select the type of field operation (plowing, tillage, planting, etc.)",
-        "Enter the total acreage to be worked",
-        "Input your tractor's horsepower rating",
-        "Enter the current fuel price per gallon",
-        "Review the calculated fuel needs and estimated costs"
+        {
+          "name": "Step 1",
+          "text": "Select the type of field operation (plowing, tillage, planting, etc.)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the total acreage to be worked"
+        },
+        {
+          "name": "Step 3",
+          "text": "Input your tractor's horsepower rating"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter the current fuel price per gallon"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review the calculated fuel needs and estimated costs"
+        }
       ]
     },
     "useCases": [
@@ -504,11 +636,26 @@
       "formula": "Fuel Consumption = (HP × Load Factor × Hours) / Fuel Efficiency",
       "explanation": "This calculator estimates diesel fuel consumption based on tractor horsepower, the type of field operation, and acreage. Different operations require different amounts of power - plowing is the most fuel-intensive, while spraying uses the least.",
       "steps": [
-        "Select the type of field operation (plowing, tillage, planting, etc.)",
-        "Enter the total acreage to be worked",
-        "Input your tractor's horsepower rating",
-        "Enter the current fuel price per gallon",
-        "Review the calculated fuel needs and estimated costs"
+        {
+          "name": "Step 1",
+          "text": "Select the type of field operation (plowing, tillage, planting, etc.)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the total acreage to be worked"
+        },
+        {
+          "name": "Step 3",
+          "text": "Input your tractor's horsepower rating"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter the current fuel price per gallon"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review the calculated fuel needs and estimated costs"
+        }
       ]
     },
     "useCases": [
@@ -597,11 +744,26 @@
       "formula": "Water Needed = Base ET × Crop Coefficient × Growth Stage Factor × Climate Adjustment × Area",
       "explanation": "This calculator uses evapotranspiration (ET) data combined with crop-specific coefficients to determine water requirements. Different crops, growth stages, and climate conditions all affect how much water your fields need.",
       "steps": [
-        "Enter the total field area in acres",
-        "Select your crop type from the dropdown",
-        "Choose the current climate conditions",
-        "Select the crop's current growth stage",
-        "Review water requirements in gallons, liters, and acre-feet"
+        {
+          "name": "Step 1",
+          "text": "Enter the total field area in acres"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select your crop type from the dropdown"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose the current climate conditions"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select the crop's current growth stage"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review water requirements in gallons, liters, and acre-feet"
+        }
       ]
     },
     "useCases": [
@@ -665,10 +827,22 @@
       "formula": "C:N Ratio = (Carbon in Browns + Carbon in Greens) / (Nitrogen in Browns + Nitrogen in Greens)",
       "explanation": "Successful composting requires balancing carbon-rich 'brown' materials with nitrogen-rich 'green' materials. The ideal ratio is approximately 30:1 (carbon to nitrogen). This calculator helps you determine the right mix of materials.",
       "steps": [
-        "Enter your desired total compost volume",
-        "Specify your target C:N ratio (30:1 is recommended)",
-        "The calculator determines the proportion of greens and browns needed",
-        "Review the volumes of each material type required"
+        {
+          "name": "Step 1",
+          "text": "Enter your desired total compost volume"
+        },
+        {
+          "name": "Step 2: Specify your target C",
+          "text": "N ratio (30:1 is recommended)"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator determines the proportion of greens and browns needed"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review the volumes of each material type required"
+        }
       ]
     },
     "useCases": [
@@ -740,11 +914,26 @@
       "formula": "Floor Area = Length × Width; Volume = Length × Width × Average Height",
       "explanation": "This calculator helps plan greenhouse specifications by computing floor area, internal volume, and estimated plant capacity. Climate conditions affect heating/cooling requirements and ventilation needs.",
       "steps": [
-        "Enter the planned length of your greenhouse",
-        "Enter the width of the structure",
-        "Input the average height (accounting for roof slope)",
-        "Select your local climate conditions",
-        "Review calculated floor area, volume, and plant capacity"
+        {
+          "name": "Step 1",
+          "text": "Enter the planned length of your greenhouse"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the width of the structure"
+        },
+        {
+          "name": "Step 3",
+          "text": "Input the average height (accounting for roof slope)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select your local climate conditions"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review calculated floor area, volume, and plant capacity"
+        }
       ]
     },
     "useCases": [
@@ -811,11 +1000,26 @@
       "formula": "Daily Production = Number of Cows × Gallons per Cow per Day",
       "explanation": "This calculator projects milk production and revenue based on herd size and individual cow productivity. It accounts for daily, monthly, and annual production to help with business planning.",
       "steps": [
-        "Enter the number of milking cows in your herd",
-        "Input the average daily milk yield per cow in gallons",
-        "Enter the current or expected milk price per gallon",
-        "Review daily, monthly, and annual production projections",
-        "See estimated annual revenue based on current prices"
+        {
+          "name": "Step 1",
+          "text": "Enter the number of milking cows in your herd"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the average daily milk yield per cow in gallons"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the current or expected milk price per gallon"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review daily, monthly, and annual production projections"
+        },
+        {
+          "name": "Step 5",
+          "text": "See estimated annual revenue based on current prices"
+        }
       ]
     },
     "useCases": [
@@ -883,11 +1087,26 @@
       "formula": "Daily Eggs = Number of Hens × (Lay Rate / 100)",
       "explanation": "This calculator estimates egg production based on flock size and laying rate. Commercial hens typically lay at 80-95% rate during peak production, declining over time.",
       "steps": [
-        "Enter the total number of laying hens",
-        "Input the current or expected laying rate percentage",
-        "Enter your selling price per dozen eggs",
-        "Review daily, monthly, and annual egg production",
-        "See estimated annual revenue projections"
+        {
+          "name": "Step 1",
+          "text": "Enter the total number of laying hens"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the current or expected laying rate percentage"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter your selling price per dozen eggs"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review daily, monthly, and annual egg production"
+        },
+        {
+          "name": "Step 5",
+          "text": "See estimated annual revenue projections"
+        }
       ]
     },
     "useCases": [
@@ -963,11 +1182,26 @@
       "formula": "Product Needed = (Target Rate × Area) / (Concentration / 100)",
       "explanation": "This calculator determines the amount of pesticide product needed to achieve the desired active ingredient application rate. It accounts for product concentration and total area to be treated.",
       "steps": [
-        "Select the type of pesticide (herbicide, insecticide, or fungicide)",
-        "Enter the total area to be treated in acres",
-        "Input the product's active ingredient concentration",
-        "Specify the target application rate in pounds per acre",
-        "Review the total product and water needed for application"
+        {
+          "name": "Step 1",
+          "text": "Select the type of pesticide (herbicide, insecticide, or fungicide)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the total area to be treated in acres"
+        },
+        {
+          "name": "Step 3",
+          "text": "Input the product's active ingredient concentration"
+        },
+        {
+          "name": "Step 4",
+          "text": "Specify the target application rate in pounds per acre"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review the total product and water needed for application"
+        }
       ]
     },
     "useCases": [
@@ -1052,11 +1286,26 @@
       "formula": "Fertilizer Needed = (Crop Requirement × Target Yield) - Existing Soil Nutrients",
       "explanation": "This calculator determines NPK (nitrogen, phosphorus, potassium) requirements based on crop type, yield goals, and existing soil nutrient levels from soil tests. It calculates the deficit that needs to be supplied through fertilization.",
       "steps": [
-        "Select your crop type from the dropdown",
-        "Enter the field area in acres",
-        "Set your target yield in bushels per acre",
-        "Input soil test results for N, P, and K",
-        "Review the calculated fertilizer requirements"
+        {
+          "name": "Step 1",
+          "text": "Select your crop type from the dropdown"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the field area in acres"
+        },
+        {
+          "name": "Step 3",
+          "text": "Set your target yield in bushels per acre"
+        },
+        {
+          "name": "Step 4",
+          "text": "Input soil test results for N, P, and K"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review the calculated fertilizer requirements"
+        }
       ]
     },
     "useCases": [
@@ -1153,11 +1402,26 @@
       "formula": "Seeds per Acre = (43,560 sq ft / (Row Spacing × Plant Spacing)) / (Germination Rate / 100)",
       "explanation": "This calculator determines how many seeds you need based on desired plant population, row and plant spacing, and expected germination rate. It accounts for germination losses to ensure you achieve your target stand.",
       "steps": [
-        "Select your crop type or choose custom settings",
-        "Enter the total field area in acres or hectares",
-        "Specify row spacing and plant spacing in inches",
-        "Input the expected germination rate percentage",
-        "Review seeds needed and weight requirements"
+        {
+          "name": "Step 1",
+          "text": "Select your crop type or choose custom settings"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the total field area in acres or hectares"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify row spacing and plant spacing in inches"
+        },
+        {
+          "name": "Step 4",
+          "text": "Input the expected germination rate percentage"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review seeds needed and weight requirements"
+        }
       ]
     },
     "useCases": [

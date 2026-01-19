@@ -35,10 +35,22 @@
       "formula": "Volume (L) = Length × Width × Height / 1000",
       "explanation": "This calculator determines your aquarium's water volume and recommends the appropriate number of fish based on the one-inch-per-gallon rule, adjusted for fish size.",
       "steps": [
-        "Enter your tank's length, width, and height in centimeters",
-        "Select the average size of fish you plan to keep",
-        "Click Calculate to see volume in liters and gallons",
-        "Review recommended fish capacity and equipment sizing"
+        {
+          "name": "Step 1",
+          "text": "Enter your tank's length, width, and height in centimeters"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the average size of fish you plan to keep"
+        },
+        {
+          "name": "Step 3",
+          "text": "Click Calculate to see volume in liters and gallons"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review recommended fish capacity and equipment sizing"
+        }
       ]
     },
     "useCases": [
@@ -121,10 +133,22 @@
       "formula": "Volume (L) = Length × Width × Height / 1000",
       "explanation": "This calculator determines your aquarium's water volume and recommends the appropriate number of fish based on the one-inch-per-gallon rule, adjusted for fish size.",
       "steps": [
-        "Enter your tank's length, width, and height in centimeters",
-        "Select the average size of fish you plan to keep",
-        "Click Calculate to see volume in liters and gallons",
-        "Review recommended fish capacity and equipment sizing"
+        {
+          "name": "Step 1",
+          "text": "Enter your tank's length, width, and height in centimeters"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the average size of fish you plan to keep"
+        },
+        {
+          "name": "Step 3",
+          "text": "Click Calculate to see volume in liters and gallons"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review recommended fish capacity and equipment sizing"
+        }
       ]
     },
     "useCases": [
@@ -196,10 +220,22 @@
       "formula": "Minimum cage size based on bird wingspan × 2-3 times",
       "explanation": "This calculator recommends minimum cage dimensions based on bird species and quantity, ensuring adequate space for flight, exercise, and mental stimulation.",
       "steps": [
-        "Select your bird species from the dropdown menu",
-        "Enter the number of birds you plan to house together",
-        "Click Calculate to see minimum cage dimensions",
-        "Review bar spacing and perch diameter recommendations"
+        {
+          "name": "Step 1",
+          "text": "Select your bird species from the dropdown menu"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the number of birds you plan to house together"
+        },
+        {
+          "name": "Step 3",
+          "text": "Click Calculate to see minimum cage dimensions"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review bar spacing and perch diameter recommendations"
+        }
       ]
     },
     "useCases": [
@@ -272,10 +308,22 @@
       "formula": "Minimum cage size based on bird wingspan × 2-3 times",
       "explanation": "This calculator recommends minimum cage dimensions based on bird species and quantity, ensuring adequate space for flight, exercise, and mental stimulation.",
       "steps": [
-        "Select your bird species from the dropdown menu",
-        "Enter the number of birds you plan to house together",
-        "Click Calculate to see minimum cage dimensions",
-        "Review bar spacing and perch diameter recommendations"
+        {
+          "name": "Step 1",
+          "text": "Select your bird species from the dropdown menu"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the number of birds you plan to house together"
+        },
+        {
+          "name": "Step 3",
+          "text": "Click Calculate to see minimum cage dimensions"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review bar spacing and perch diameter recommendations"
+        }
       ]
     },
     "useCases": [
@@ -533,10 +581,22 @@
       "formula": "Year 1 = 15 human years, Year 2 = +9 years, Each year after = +4 years",
       "explanation": "Cats mature rapidly in their first two years, then age approximately 4 human years for each cat year after that. This calculator provides accurate human age equivalents.",
       "steps": [
-        "Enter your cat's age in years",
-        "Click Calculate to convert to human years",
-        "View the life stage classification",
-        "Review age-appropriate health tips"
+        {
+          "name": "Step 1",
+          "text": "Enter your cat's age in years"
+        },
+        {
+          "name": "Step 2",
+          "text": "Click Calculate to convert to human years"
+        },
+        {
+          "name": "Step 3",
+          "text": "View the life stage classification"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review age-appropriate health tips"
+        }
       ]
     },
     "useCases": [
@@ -623,10 +683,22 @@
       "formula": "Year 1 = 15 human years, Year 2 = +9 years, Each year after = +4 years",
       "explanation": "Cats mature rapidly in their first two years, then age approximately 4 human years for each cat year after that. This calculator provides accurate human age equivalents.",
       "steps": [
-        "Enter your cat's age in years",
-        "Click Calculate to convert to human years",
-        "View the life stage classification",
-        "Review age-appropriate health tips"
+        {
+          "name": "Step 1",
+          "text": "Enter your cat's age in years"
+        },
+        {
+          "name": "Step 2",
+          "text": "Click Calculate to convert to human years"
+        },
+        {
+          "name": "Step 3",
+          "text": "View the life stage classification"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review age-appropriate health tips"
+        }
       ]
     },
     "useCases": [
@@ -720,11 +792,26 @@
       "formula": "RER = 70 × (body weight in kg)^0.75, then multiply by activity factor",
       "explanation": "This calculator determines your cat's daily energy needs based on weight, activity level, body condition, and neuter status using the Resting Energy Requirement formula.",
       "steps": [
-        "Enter your cat's weight in kilograms",
-        "Select the activity level that best describes your cat",
-        "Choose the body condition score",
-        "Indicate if your cat is neutered or spayed",
-        "View daily calorie and macronutrient recommendations"
+        {
+          "name": "Step 1",
+          "text": "Enter your cat's weight in kilograms"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the activity level that best describes your cat"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose the body condition score"
+        },
+        {
+          "name": "Step 4",
+          "text": "Indicate if your cat is neutered or spayed"
+        },
+        {
+          "name": "Step 5",
+          "text": "View daily calorie and macronutrient recommendations"
+        }
       ]
     },
     "useCases": [
@@ -820,11 +907,26 @@
       "formula": "RER = 70 × (body weight in kg)^0.75, then multiply by activity factor",
       "explanation": "This calculator determines your cat's daily energy needs based on weight, activity level, body condition, and neuter status using the Resting Energy Requirement formula.",
       "steps": [
-        "Enter your cat's weight in kilograms",
-        "Select the activity level that best describes your cat",
-        "Choose the body condition score",
-        "Indicate if your cat is neutered or spayed",
-        "View daily calorie and macronutrient recommendations"
+        {
+          "name": "Step 1",
+          "text": "Enter your cat's weight in kilograms"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the activity level that best describes your cat"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose the body condition score"
+        },
+        {
+          "name": "Step 4",
+          "text": "Indicate if your cat is neutered or spayed"
+        },
+        {
+          "name": "Step 5",
+          "text": "View daily calorie and macronutrient recommendations"
+        }
       ]
     },
     "useCases": [
@@ -914,11 +1016,26 @@
       "formula": "Daily food amount based on weight, activity, age, and food type caloric density",
       "explanation": "This calculator determines the optimal daily food portion for your cat based on their specific needs and the type of food you're feeding.",
       "steps": [
-        "Enter your cat's current weight",
-        "Select their activity level",
-        "Choose their life stage (kitten, adult, senior)",
-        "Select the type of food (dry, wet, or raw)",
-        "View daily, weekly, and monthly feeding amounts"
+        {
+          "name": "Step 1",
+          "text": "Enter your cat's current weight"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select their activity level"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose their life stage (kitten, adult, senior)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select the type of food (dry, wet, or raw)"
+        },
+        {
+          "name": "Step 5",
+          "text": "View daily, weekly, and monthly feeding amounts"
+        }
       ]
     },
     "useCases": [
@@ -1013,11 +1130,26 @@
       "formula": "Daily food amount based on weight, activity, age, and food type caloric density",
       "explanation": "This calculator determines the optimal daily food portion for your cat based on their specific needs and the type of food you're feeding.",
       "steps": [
-        "Enter your cat's current weight",
-        "Select their activity level",
-        "Choose their life stage (kitten, adult, senior)",
-        "Select the type of food (dry, wet, or raw)",
-        "View daily, weekly, and monthly feeding amounts"
+        {
+          "name": "Step 1",
+          "text": "Enter your cat's current weight"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select their activity level"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose their life stage (kitten, adult, senior)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select the type of food (dry, wet, or raw)"
+        },
+        {
+          "name": "Step 5",
+          "text": "View daily, weekly, and monthly feeding amounts"
+        }
       ]
     },
     "useCases": [
@@ -1100,10 +1232,22 @@
       "formula": "Due Date = Mating Date + 63-65 days (average gestation period)",
       "explanation": "This calculator estimates your cat's due date based on the mating date. Cat pregnancy typically lasts 63-65 days, with the calculator showing pregnancy stage and care recommendations.",
       "steps": [
-        "Enter the date of mating or suspected conception",
-        "Click Calculate to see the estimated due date",
-        "View the current pregnancy week and stage",
-        "Review stage-appropriate care tips"
+        {
+          "name": "Step 1",
+          "text": "Enter the date of mating or suspected conception"
+        },
+        {
+          "name": "Step 2",
+          "text": "Click Calculate to see the estimated due date"
+        },
+        {
+          "name": "Step 3",
+          "text": "View the current pregnancy week and stage"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review stage-appropriate care tips"
+        }
       ]
     },
     "useCases": [
@@ -1186,10 +1330,22 @@
       "formula": "Due Date = Mating Date + 63-65 days (average gestation period)",
       "explanation": "This calculator estimates your cat's due date based on the mating date. Cat pregnancy typically lasts 63-65 days, with the calculator showing pregnancy stage and care recommendations.",
       "steps": [
-        "Enter the date of mating or suspected conception",
-        "Click Calculate to see the estimated due date",
-        "View the current pregnancy week and stage",
-        "Review stage-appropriate care tips"
+        {
+          "name": "Step 1",
+          "text": "Enter the date of mating or suspected conception"
+        },
+        {
+          "name": "Step 2",
+          "text": "Click Calculate to see the estimated due date"
+        },
+        {
+          "name": "Step 3",
+          "text": "View the current pregnancy week and stage"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review stage-appropriate care tips"
+        }
       ]
     },
     "useCases": [
@@ -1280,10 +1436,22 @@
       "formula": "Age varies by size: Small dogs age slower after maturity, giant breeds age faster",
       "explanation": "This calculator converts dog years to human years accounting for breed size. Dogs age rapidly in their first two years, then aging slows but varies significantly by size category.",
       "steps": [
-        "Enter your dog's age in years",
-        "Select your dog's size category",
-        "Click Calculate to see the equivalent human age",
-        "Review the life stage and appropriate health tips"
+        {
+          "name": "Step 1",
+          "text": "Enter your dog's age in years"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select your dog's size category"
+        },
+        {
+          "name": "Step 3",
+          "text": "Click Calculate to see the equivalent human age"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review the life stage and appropriate health tips"
+        }
       ]
     },
     "useCases": [
@@ -1377,10 +1545,22 @@
       "formula": "Age varies by size: Small dogs age slower after maturity, giant breeds age faster",
       "explanation": "This calculator converts dog years to human years accounting for breed size. Dogs age rapidly in their first two years, then aging slows but varies significantly by size category.",
       "steps": [
-        "Enter your dog's age in years",
-        "Select your dog's size category",
-        "Click Calculate to see the equivalent human age",
-        "Review the life stage and appropriate health tips"
+        {
+          "name": "Step 1",
+          "text": "Enter your dog's age in years"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select your dog's size category"
+        },
+        {
+          "name": "Step 3",
+          "text": "Click Calculate to see the equivalent human age"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review the life stage and appropriate health tips"
+        }
       ]
     },
     "useCases": [
@@ -1496,11 +1676,26 @@
       "formula": "RER = 70 × (body weight in kg)^0.75, then multiply by activity and condition factors",
       "explanation": "This calculator determines daily caloric needs using the Resting Energy Requirement formula, adjusted for activity level, body condition, and neuter status.",
       "steps": [
-        "Enter your dog's weight in kilograms",
-        "Select the activity level that matches your dog",
-        "Choose the current body condition",
-        "Indicate if your dog is neutered or spayed",
-        "View daily calorie and macronutrient recommendations"
+        {
+          "name": "Step 1",
+          "text": "Enter your dog's weight in kilograms"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the activity level that matches your dog"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose the current body condition"
+        },
+        {
+          "name": "Step 4",
+          "text": "Indicate if your dog is neutered or spayed"
+        },
+        {
+          "name": "Step 5",
+          "text": "View daily calorie and macronutrient recommendations"
+        }
       ]
     },
     "useCases": [
@@ -1616,11 +1811,26 @@
       "formula": "RER = 70 × (body weight in kg)^0.75, then multiply by activity and condition factors",
       "explanation": "This calculator determines daily caloric needs using the Resting Energy Requirement formula, adjusted for activity level, body condition, and neuter status.",
       "steps": [
-        "Enter your dog's weight in kilograms",
-        "Select the activity level that matches your dog",
-        "Choose the current body condition",
-        "Indicate if your dog is neutered or spayed",
-        "View daily calorie and macronutrient recommendations"
+        {
+          "name": "Step 1",
+          "text": "Enter your dog's weight in kilograms"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the activity level that matches your dog"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose the current body condition"
+        },
+        {
+          "name": "Step 4",
+          "text": "Indicate if your dog is neutered or spayed"
+        },
+        {
+          "name": "Step 5",
+          "text": "View daily calorie and macronutrient recommendations"
+        }
       ]
     },
     "useCases": [
@@ -1712,11 +1922,26 @@
       "formula": "Daily food = (Caloric needs / Food caloric density) adjusted for food type",
       "explanation": "This calculator determines optimal daily food portions based on your dog's weight, activity level, life stage, and the type of food you're feeding.",
       "steps": [
-        "Enter your dog's current weight",
-        "Select their activity level",
-        "Choose their life stage (puppy, adult, senior)",
-        "Select the type of food (dry, wet, or raw)",
-        "View daily, weekly, and monthly feeding amounts"
+        {
+          "name": "Step 1",
+          "text": "Enter your dog's current weight"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select their activity level"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose their life stage (puppy, adult, senior)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select the type of food (dry, wet, or raw)"
+        },
+        {
+          "name": "Step 5",
+          "text": "View daily, weekly, and monthly feeding amounts"
+        }
       ]
     },
     "useCases": [
@@ -1809,11 +2034,26 @@
       "formula": "Daily food = (Caloric needs / Food caloric density) adjusted for food type",
       "explanation": "This calculator determines optimal daily food portions based on your dog's weight, activity level, life stage, and the type of food you're feeding.",
       "steps": [
-        "Enter your dog's current weight",
-        "Select their activity level",
-        "Choose their life stage (puppy, adult, senior)",
-        "Select the type of food (dry, wet, or raw)",
-        "View daily, weekly, and monthly feeding amounts"
+        {
+          "name": "Step 1",
+          "text": "Enter your dog's current weight"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select their activity level"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose their life stage (puppy, adult, senior)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select the type of food (dry, wet, or raw)"
+        },
+        {
+          "name": "Step 5",
+          "text": "View daily, weekly, and monthly feeding amounts"
+        }
       ]
     },
     "useCases": [
@@ -1890,10 +2130,22 @@
       "formula": "Due Date = Mating Date + 63 days (average gestation period)",
       "explanation": "This calculator estimates your dog's due date and tracks pregnancy stages. Dog pregnancy lasts approximately 63 days, though it can range from 58-68 days depending on breed.",
       "steps": [
-        "Enter the date of mating or confirmed breeding",
-        "Click Calculate to see the estimated due date",
-        "View current pregnancy week and stage",
-        "Review stage-specific care recommendations"
+        {
+          "name": "Step 1",
+          "text": "Enter the date of mating or confirmed breeding"
+        },
+        {
+          "name": "Step 2",
+          "text": "Click Calculate to see the estimated due date"
+        },
+        {
+          "name": "Step 3",
+          "text": "View current pregnancy week and stage"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review stage-specific care recommendations"
+        }
       ]
     },
     "useCases": [
@@ -1975,10 +2227,22 @@
       "formula": "Due Date = Mating Date + 63 days (average gestation period)",
       "explanation": "This calculator estimates your dog's due date and tracks pregnancy stages. Dog pregnancy lasts approximately 63 days, though it can range from 58-68 days depending on breed.",
       "steps": [
-        "Enter the date of mating or confirmed breeding",
-        "Click Calculate to see the estimated due date",
-        "View current pregnancy week and stage",
-        "Review stage-specific care recommendations"
+        {
+          "name": "Step 1",
+          "text": "Enter the date of mating or confirmed breeding"
+        },
+        {
+          "name": "Step 2",
+          "text": "Click Calculate to see the estimated due date"
+        },
+        {
+          "name": "Step 3",
+          "text": "View current pregnancy week and stage"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review stage-specific care recommendations"
+        }
       ]
     },
     "useCases": [
@@ -2061,10 +2325,22 @@
       "formula": "Lifespan varies by species: Syrian 2-3 years, Dwarf 1.5-2 years, Roborovski 3-3.5 years",
       "explanation": "This calculator estimates your hamster's age in human terms and predicts remaining lifespan based on species-specific life expectancy data.",
       "steps": [
-        "Select your hamster's species",
-        "Enter their current age in months",
-        "View estimated human age equivalent",
-        "See life stage and remaining time estimate"
+        {
+          "name": "Step 1",
+          "text": "Select your hamster's species"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter their current age in months"
+        },
+        {
+          "name": "Step 3",
+          "text": "View estimated human age equivalent"
+        },
+        {
+          "name": "Step 4",
+          "text": "See life stage and remaining time estimate"
+        }
       ]
     },
     "useCases": [
@@ -2140,10 +2416,22 @@
       "formula": "Lifespan varies by species: Syrian 2-3 years, Dwarf 1.5-2 years, Roborovski 3-3.5 years",
       "explanation": "This calculator estimates your hamster's age in human terms and predicts remaining lifespan based on species-specific life expectancy data.",
       "steps": [
-        "Select your hamster's species",
-        "Enter their current age in months",
-        "View estimated human age equivalent",
-        "See life stage and remaining time estimate"
+        {
+          "name": "Step 1",
+          "text": "Select your hamster's species"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter their current age in months"
+        },
+        {
+          "name": "Step 3",
+          "text": "View estimated human age equivalent"
+        },
+        {
+          "name": "Step 4",
+          "text": "See life stage and remaining time estimate"
+        }
       ]
     },
     "useCases": [
@@ -2231,10 +2519,22 @@
       "formula": "Daily feed = 1.5-3% of body weight depending on work level",
       "explanation": "This calculator determines optimal daily feed amounts based on horse weight and work level, balancing hay, grain, and supplements for nutritional needs.",
       "steps": [
-        "Enter your horse's weight in kilograms",
-        "Select the work level (maintenance to heavy work)",
-        "Choose the feed type (hay only, mixed, or performance)",
-        "View daily hay, grain, and water recommendations"
+        {
+          "name": "Step 1",
+          "text": "Enter your horse's weight in kilograms"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the work level (maintenance to heavy work)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose the feed type (hay only, mixed, or performance)"
+        },
+        {
+          "name": "Step 4",
+          "text": "View daily hay, grain, and water recommendations"
+        }
       ]
     },
     "useCases": [
@@ -2323,10 +2623,22 @@
       "formula": "Daily feed = 1.5-3% of body weight depending on work level",
       "explanation": "This calculator determines optimal daily feed amounts based on horse weight and work level, balancing hay, grain, and supplements for nutritional needs.",
       "steps": [
-        "Enter your horse's weight in kilograms",
-        "Select the work level (maintenance to heavy work)",
-        "Choose the feed type (hay only, mixed, or performance)",
-        "View daily hay, grain, and water recommendations"
+        {
+          "name": "Step 1",
+          "text": "Enter your horse's weight in kilograms"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the work level (maintenance to heavy work)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose the feed type (hay only, mixed, or performance)"
+        },
+        {
+          "name": "Step 4",
+          "text": "View daily hay, grain, and water recommendations"
+        }
       ]
     },
     "useCases": [
@@ -2406,10 +2718,22 @@
       "formula": "Adult weight estimate based on current weight and age growth curve",
       "explanation": "This calculator tracks your kitten's growth progress and predicts adult weight based on standard feline growth patterns.",
       "steps": [
-        "Enter your kitten's current weight",
-        "Enter their age in weeks",
-        "View projected adult weight",
-        "Check if growth is on track"
+        {
+          "name": "Step 1",
+          "text": "Enter your kitten's current weight"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter their age in weeks"
+        },
+        {
+          "name": "Step 3",
+          "text": "View projected adult weight"
+        },
+        {
+          "name": "Step 4",
+          "text": "Check if growth is on track"
+        }
       ]
     },
     "useCases": [
@@ -2488,10 +2812,22 @@
       "formula": "Adult weight projection based on current weight at age, using growth curve data",
       "explanation": "This calculator tracks your kitten's development against standard growth curves, projecting adult size and identifying potential weight concerns.",
       "steps": [
-        "Enter your kitten's current weight",
-        "Input their age in weeks",
-        "View projected adult weight",
-        "Check growth status against healthy ranges"
+        {
+          "name": "Step 1",
+          "text": "Enter your kitten's current weight"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input their age in weeks"
+        },
+        {
+          "name": "Step 3",
+          "text": "View projected adult weight"
+        },
+        {
+          "name": "Step 4",
+          "text": "Check growth status against healthy ranges"
+        }
       ]
     },
     "useCases": [
@@ -2569,10 +2905,22 @@
       "formula": "Total cost = Initial adoption fee + Monthly expenses × 12",
       "explanation": "This calculator estimates the true cost of pet ownership, including initial adoption costs and ongoing monthly expenses for food, vet care, and supplies.",
       "steps": [
-        "Select the type of pet (dog or cat)",
-        "Choose the pet size",
-        "Select food quality level",
-        "View initial and ongoing cost breakdown"
+        {
+          "name": "Step 1",
+          "text": "Select the type of pet (dog or cat)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Choose the pet size"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select food quality level"
+        },
+        {
+          "name": "Step 4",
+          "text": "View initial and ongoing cost breakdown"
+        }
       ]
     },
     "useCases": [
@@ -2646,11 +2994,26 @@
       "formula": "Total Cost = Initial Costs + (Monthly Food + Vet + Supplies) × 12",
       "explanation": "This calculator provides a comprehensive breakdown of pet ownership costs including one-time adoption expenses and recurring monthly costs for food, veterinary care, and supplies.",
       "steps": [
-        "Select the type of pet (dog or cat)",
-        "Choose the pet's size category",
-        "Select your preferred food quality level",
-        "View initial and ongoing cost breakdown",
-        "See monthly and annual totals"
+        {
+          "name": "Step 1",
+          "text": "Select the type of pet (dog or cat)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Choose the pet's size category"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select your preferred food quality level"
+        },
+        {
+          "name": "Step 4",
+          "text": "View initial and ongoing cost breakdown"
+        },
+        {
+          "name": "Step 5",
+          "text": "See monthly and annual totals"
+        }
       ]
     },
     "useCases": [
@@ -2740,11 +3103,26 @@
       "formula": "Premium based on pet type, age, coverage level, and deductible",
       "explanation": "This calculator estimates pet insurance costs based on key factors that insurers use to determine premiums, helping you budget for coverage.",
       "steps": [
-        "Select your pet type (dog or cat)",
-        "Enter your pet's age",
-        "Choose desired coverage level",
-        "Select your preferred deductible",
-        "View estimated monthly and annual premiums"
+        {
+          "name": "Step 1",
+          "text": "Select your pet type (dog or cat)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your pet's age"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose desired coverage level"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select your preferred deductible"
+        },
+        {
+          "name": "Step 5",
+          "text": "View estimated monthly and annual premiums"
+        }
       ]
     },
     "useCases": [
@@ -2834,11 +3212,26 @@
       "formula": "Premium based on pet type, age, coverage level, and deductible",
       "explanation": "This calculator estimates pet insurance costs based on key factors that insurers use to determine premiums, helping you budget for coverage.",
       "steps": [
-        "Select your pet type (dog or cat)",
-        "Enter your pet's age",
-        "Choose desired coverage level",
-        "Select your preferred deductible",
-        "View estimated monthly and annual premiums"
+        {
+          "name": "Step 1",
+          "text": "Select your pet type (dog or cat)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your pet's age"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose desired coverage level"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select your preferred deductible"
+        },
+        {
+          "name": "Step 5",
+          "text": "View estimated monthly and annual premiums"
+        }
       ]
     },
     "useCases": [
@@ -2936,12 +3329,30 @@
       "formula": "Dose = Pet weight (kg) × Prescribed dose per kg",
       "explanation": "This calculator helps determine medication doses based on your pet's weight and the veterinarian-prescribed dosage rate. Always verify with your vet.",
       "steps": [
-        "Enter your pet's weight",
-        "Enter the prescribed dosage per kilogram",
-        "Select administration frequency",
-        "Choose medication form (liquid or tablet)",
-        "For liquids, enter concentration",
-        "View calculated dose amounts"
+        {
+          "name": "Step 1",
+          "text": "Enter your pet's weight"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the prescribed dosage per kilogram"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select administration frequency"
+        },
+        {
+          "name": "Step 4",
+          "text": "Choose medication form (liquid or tablet)"
+        },
+        {
+          "name": "Step 5",
+          "text": "For liquids, enter concentration"
+        },
+        {
+          "name": "Step 6",
+          "text": "View calculated dose amounts"
+        }
       ]
     },
     "useCases": [
@@ -3038,12 +3449,30 @@
       "formula": "Dose = Pet Weight (kg) × Dosage Rate (mg/kg)",
       "explanation": "This calculator helps determine medication amounts based on your pet's weight and the prescribed dosage rate. It converts between liquid and tablet forms for accurate administration.",
       "steps": [
-        "Enter your pet's weight in kilograms",
-        "Input the prescribed dosage per kilogram",
-        "Select how often the medication should be given",
-        "Choose medication form (liquid or tablet)",
-        "For liquids, enter the concentration",
-        "View the calculated dose per administration"
+        {
+          "name": "Step 1",
+          "text": "Enter your pet's weight in kilograms"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the prescribed dosage per kilogram"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select how often the medication should be given"
+        },
+        {
+          "name": "Step 4",
+          "text": "Choose medication form (liquid or tablet)"
+        },
+        {
+          "name": "Step 5",
+          "text": "For liquids, enter the concentration"
+        },
+        {
+          "name": "Step 6",
+          "text": "View the calculated dose per administration"
+        }
       ]
     },
     "useCases": [
@@ -3124,11 +3553,26 @@
       "formula": "Total cost = Carrier + Health certificate + Transport fees",
       "explanation": "This calculator estimates the cost of traveling with your pet, including required documentation, appropriate carriers, and transport fees for domestic or international travel.",
       "steps": [
-        "Select your pet type",
-        "Enter your pet's weight",
-        "Choose domestic or international travel",
-        "Select transport mode (air or ground)",
-        "View itemized cost breakdown"
+        {
+          "name": "Step 1",
+          "text": "Select your pet type"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your pet's weight"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose domestic or international travel"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select transport mode (air or ground)"
+        },
+        {
+          "name": "Step 5",
+          "text": "View itemized cost breakdown"
+        }
       ]
     },
     "useCases": [
@@ -3205,11 +3649,26 @@
       "formula": "Total Cost = Transport Fee + Carrier Cost + Health Certificates + Documentation",
       "explanation": "This calculator estimates the total cost of traveling with your pet, including transportation, required documentation, carriers, and health certificates.",
       "steps": [
-        "Select your pet type and weight",
-        "Choose domestic or international travel",
-        "Select transport mode (air or ground)",
-        "View itemized cost breakdown",
-        "Review required documentation"
+        {
+          "name": "Step 1",
+          "text": "Select your pet type and weight"
+        },
+        {
+          "name": "Step 2",
+          "text": "Choose domestic or international travel"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select transport mode (air or ground)"
+        },
+        {
+          "name": "Step 4",
+          "text": "View itemized cost breakdown"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review required documentation"
+        }
       ]
     },
     "useCases": [
@@ -3293,10 +3752,22 @@
       "formula": "Adult weight prediction based on current weight, age, and breed size",
       "explanation": "This calculator predicts your puppy's adult weight using growth curves specific to different breed sizes. Small breeds mature faster than giant breeds.",
       "steps": [
-        "Enter your puppy's current weight",
-        "Enter their age in months",
-        "Select their breed size category",
-        "View predicted adult weight and maturity timeline"
+        {
+          "name": "Step 1",
+          "text": "Enter your puppy's current weight"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter their age in months"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select their breed size category"
+        },
+        {
+          "name": "Step 4",
+          "text": "View predicted adult weight and maturity timeline"
+        }
       ]
     },
     "useCases": [
@@ -3379,10 +3850,22 @@
       "formula": "Adult weight prediction based on current weight, age, and breed size",
       "explanation": "This calculator predicts your puppy's adult weight using growth curves specific to different breed sizes. Small breeds mature faster than giant breeds.",
       "steps": [
-        "Enter your puppy's current weight",
-        "Enter their age in months",
-        "Select their breed size category",
-        "View predicted adult weight and maturity timeline"
+        {
+          "name": "Step 1",
+          "text": "Enter your puppy's current weight"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter their age in months"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select their breed size category"
+        },
+        {
+          "name": "Step 4",
+          "text": "View predicted adult weight and maturity timeline"
+        }
       ]
     },
     "useCases": [
@@ -3467,10 +3950,22 @@
       "formula": "Daily needs based on body weight and size category",
       "explanation": "This calculator determines optimal diet portions and housing requirements for rabbits based on their size, ensuring proper nutrition and living space.",
       "steps": [
-        "Enter your rabbit's weight",
-        "Select their size category",
-        "View daily hay, pellet, and vegetable amounts",
-        "Check minimum hutch dimensions"
+        {
+          "name": "Step 1",
+          "text": "Enter your rabbit's weight"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select their size category"
+        },
+        {
+          "name": "Step 3",
+          "text": "View daily hay, pellet, and vegetable amounts"
+        },
+        {
+          "name": "Step 4",
+          "text": "Check minimum hutch dimensions"
+        }
       ]
     },
     "useCases": [
@@ -3553,10 +4048,22 @@
       "formula": "Daily needs based on body weight and size category",
       "explanation": "This calculator determines optimal diet portions and housing requirements for rabbits based on their size, ensuring proper nutrition and living space.",
       "steps": [
-        "Enter your rabbit's weight",
-        "Select their size category",
-        "View daily hay, pellet, and vegetable amounts",
-        "Check minimum hutch dimensions"
+        {
+          "name": "Step 1",
+          "text": "Enter your rabbit's weight"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select their size category"
+        },
+        {
+          "name": "Step 3",
+          "text": "View daily hay, pellet, and vegetable amounts"
+        },
+        {
+          "name": "Step 4",
+          "text": "Check minimum hutch dimensions"
+        }
       ]
     },
     "useCases": [
@@ -3622,10 +4129,22 @@
       "formula": "Tank size = Species requirements + Adult size considerations",
       "explanation": "This calculator recommends terrarium dimensions, heating, and humidity requirements based on reptile species, ensuring proper husbandry for your pet.",
       "steps": [
-        "Select your reptile species",
-        "Enter the reptile's size or age",
-        "View recommended tank dimensions",
-        "Check temperature, humidity, and lighting requirements"
+        {
+          "name": "Step 1",
+          "text": "Select your reptile species"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the reptile's size or age"
+        },
+        {
+          "name": "Step 3",
+          "text": "View recommended tank dimensions"
+        },
+        {
+          "name": "Step 4",
+          "text": "Check temperature, humidity, and lighting requirements"
+        }
       ]
     },
     "useCases": [

@@ -44,12 +44,30 @@
       "formula": "Daily Usage = (Shower minutes × 10L) + (Toilet flushes × 6L) + (Dishwashing × 15L) + (Laundry loads × 50L/7)",
       "explanation": "This calculator estimates your daily water consumption by analyzing common household activities. Each activity uses a standard water flow rate to calculate total consumption.",
       "steps": [
-        "Enter your average daily shower duration in minutes",
-        "Enter the number of toilet flushes per day",
-        "Enter how many times you wash dishes daily",
-        "Enter your weekly laundry loads",
-        "Optionally enter your local water cost per liter",
-        "Click Calculate to see your daily, monthly, and yearly water usage"
+        {
+          "name": "Step 1",
+          "text": "Enter your average daily shower duration in minutes"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the number of toilet flushes per day"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter how many times you wash dishes daily"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter your weekly laundry loads"
+        },
+        {
+          "name": "Step 5",
+          "text": "Optionally enter your local water cost per liter"
+        },
+        {
+          "name": "Step 6",
+          "text": "Click Calculate to see your daily, monthly, and yearly water usage"
+        }
       ]
     },
     "useCases": [
@@ -135,11 +153,26 @@
       "formula": "Annual Collection = Roof area (m²) × Annual rainfall (mm) × Efficiency (0.8-0.9) × 0.001",
       "explanation": "This calculator estimates how much rainwater you can collect from your roof annually, accounting for collection system efficiency and recommending appropriate storage tank sizes.",
       "steps": [
-        "Enter your roof collection area in square meters",
-        "Enter your area's annual rainfall in millimeters",
-        "Enter your collection system efficiency (typically 80-90%)",
-        "Click Calculate to see annual collection potential",
-        "View recommended tank size and cost savings"
+        {
+          "name": "Step 1",
+          "text": "Enter your roof collection area in square meters"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your area's annual rainfall in millimeters"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter your collection system efficiency (typically 80-90%)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Click Calculate to see annual collection potential"
+        },
+        {
+          "name": "Step 5",
+          "text": "View recommended tank size and cost savings"
+        }
       ]
     },
     "useCases": [
@@ -222,11 +255,26 @@
       "formula": "Total Water Footprint = Direct water use + Virtual water (food production + goods)",
       "explanation": "This calculator estimates your total water footprint by combining direct water use (showers, laundry) with virtual water embedded in the food you eat and products you use.",
       "steps": [
-        "Select your diet type from the dropdown",
-        "Enter average daily shower duration in minutes",
-        "Enter weekly laundry loads",
-        "Enter monthly car washes",
-        "Click Calculate to see total water footprint"
+        {
+          "name": "Step 1",
+          "text": "Select your diet type from the dropdown"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter average daily shower duration in minutes"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter weekly laundry loads"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter monthly car washes"
+        },
+        {
+          "name": "Step 5",
+          "text": "Click Calculate to see total water footprint"
+        }
       ]
     },
     "useCases": [

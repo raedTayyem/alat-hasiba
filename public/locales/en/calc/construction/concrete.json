@@ -1,131 +1,146 @@
 {
-    "concrete": {
-        "title": "Concrete Calculator",
-        "description": "Calculate concrete volume, cement bags, and material quantities for your project.",
-        "unit": "Unit",
-        "unit_tooltip": "Select measurement unit (Meters or Feet)",
-        "meters": "Meters",
-        "feet": "Feet",
-        "length": "Length",
-        "length_tooltip": "Length of the area to be filled",
-        "width": "Width",
-        "width_tooltip": "Width of the area to be filled",
-        "depth": "Depth / Thickness",
-        "depth_tooltip": "Depth or thickness of the concrete slab",
-        "waste_factor": "Waste Factor (%)",
-        "waste_factor_tooltip": "Percentage of extra material for spills and uneven ground (usually 5-10%)",
-        "result_volume": "Required Concrete Volume",
-        "cubic_meters": "Cubic Meters",
-        "cubic_yards": "Cubic Yards",
-        "cement_bags": "Cement Bags Needed",
-        "bags_25kg": "25kg Bags",
-        "bags_50kg": "50kg Bags",
-        "with_waste": "Volume with Waste",
-        "total_weight": "Total Concrete Weight",
-        "kg": "kg",
-        "materials": "Material Breakdown (1:2:4 Mix)",
-        "cement": "Cement",
-        "sand": "Sand",
-        "aggregate": "Aggregate (Gravel)",
-        "formula_title": "Calculation Formula",
-        "formula": "Volume = Length × Width × Depth. Materials are calculated based on standard density (2400 kg/m³) and mix ratio.",
-        "info_title": "About Concrete Calculation",
-        "info_description": "Accurately estimating concrete prevents ordering too much or running out mid-pour. This calculator uses standard density and mix ratios for general construction.",
-        "use_cases_title": "Common Uses",
-        "use_case_1": "Driveways and patios",
-        "use_case_2": "Foundations and footings",
-        "use_case_3": "Floor slabs and walkways",
-        "errors": {
-            "invalid_dimensions": "Please enter valid dimensions",
-            "positive_values": "Dimensions must be greater than zero",
-            "invalid_waste": "Waste factor must be between 0 and 100"
-        },
-        "placeholders": {
-            "length": "10",
-            "width": "5",
-            "depth": "0.15",
-            "waste": "5"
-        },
-        "howItWorks": {
-            "title": "How the Concrete Calculator Works",
-            "formula": "Volume = Length × Width × Depth",
-            "explanation": "This calculator determines the exact volume of concrete needed by multiplying your project dimensions. It then calculates cement bags, sand, and aggregate quantities based on a standard 1:2:4 mix ratio and concrete density of 2400 kg/m³.",
-            "steps": [
-                "Enter the length, width, and depth of your concrete project",
-                "Select your preferred measurement unit (meters or feet)",
-                "Add a waste factor percentage (5-10% recommended)",
-                "Review the calculated volume and material quantities",
-                "Use the cement bag count for ordering materials"
-            ]
-        },
-        "useCases": [
-            {
-                "title": "Residential Driveways",
-                "description": "Calculate concrete for standard driveways with typical depths of 10-15cm for vehicle traffic."
-            },
-            {
-                "title": "Foundation Slabs",
-                "description": "Estimate concrete volume for house foundations requiring proper thickness for structural support."
-            },
-            {
-                "title": "Patio and Walkway Projects",
-                "description": "Determine material needs for outdoor living spaces with appropriate 7-10cm thickness."
-            },
-            {
-                "title": "Commercial Floor Slabs",
-                "description": "Calculate large-scale concrete pours for warehouses, workshops, and industrial facilities."
-            }
-        ],
-        "seoTips": [
-            "Always order 5-10% extra concrete to account for spillage, uneven ground, and formwork variations",
-            "For structural applications, consult an engineer to determine the correct concrete mix ratio and reinforcement needs",
-            "Concrete should be poured and finished within 90 minutes of mixing to ensure proper strength",
-            "Consider weather conditions - avoid pouring in extreme heat or freezing temperatures",
-            "Use proper curing methods for at least 7 days to achieve optimal concrete strength"
-        ],
-        "commonMistakes": [
-            {
-                "mistake": "Underestimating volume needed",
-                "solution": "Always include a 5-10% waste factor and round up when ordering"
-            },
-            {
-                "mistake": "Incorrect depth measurement",
-                "solution": "Measure depth at multiple points as ground is often uneven"
-            },
-            {
-                "mistake": "Forgetting reinforcement",
-                "solution": "Include rebar or wire mesh for slabs over 10cm thick or in high-traffic areas"
-            },
-            {
-                "mistake": "Poor site preparation",
-                "solution": "Compact and level the sub-base before pouring to prevent settling and cracking"
-            }
-        ],
-        "faqs": [
-            {
-                "question": "How many bags of cement do I need per cubic meter of concrete?",
-                "answer": "For a standard 1:2:4 mix ratio, you need approximately 6-7 bags of 50kg cement per cubic meter of concrete. This calculator automatically determines the exact quantity based on your project dimensions."
-            },
-            {
-                "question": "What is the standard concrete mix ratio?",
-                "answer": "The most common mix ratio is 1:2:4 (cement:sand:aggregate by volume). This produces concrete suitable for most residential and light commercial applications with adequate strength."
-            },
-            {
-                "question": "How thick should a concrete slab be?",
-                "answer": "Residential patios and walkways require 7-10cm thickness. Driveways need 10-15cm for car traffic. Heavy vehicle areas require 15-20cm with proper reinforcement."
-            },
-            {
-                "question": "How much does concrete weigh per cubic meter?",
-                "answer": "Standard concrete weighs approximately 2400 kg per cubic meter (150 lbs per cubic foot). Lightweight concrete weighs around 1800 kg/m³."
-            },
-            {
-                "question": "Can I mix concrete by hand for small projects?",
-                "answer": "Yes, for projects under 0.5 cubic meters, hand mixing is feasible. For larger projects, consider renting a concrete mixer or ordering ready-mix concrete delivery."
-            }
-        ]
+  "concrete": {
+    "title": "Concrete Calculator",
+    "description": "Calculate concrete volume, cement bags, and material quantities for your project.",
+    "unit": "Unit",
+    "unit_tooltip": "Select measurement unit (Meters or Feet)",
+    "meters": "Meters",
+    "feet": "Feet",
+    "length": "Length",
+    "length_tooltip": "Length of the area to be filled",
+    "width": "Width",
+    "width_tooltip": "Width of the area to be filled",
+    "depth": "Depth / Thickness",
+    "depth_tooltip": "Depth or thickness of the concrete slab",
+    "waste_factor": "Waste Factor (%)",
+    "waste_factor_tooltip": "Percentage of extra material for spills and uneven ground (usually 5-10%)",
+    "result_volume": "Required Concrete Volume",
+    "cubic_meters": "Cubic Meters",
+    "cubic_yards": "Cubic Yards",
+    "cement_bags": "Cement Bags Needed",
+    "bags_25kg": "25kg Bags",
+    "bags_50kg": "50kg Bags",
+    "with_waste": "Volume with Waste",
+    "total_weight": "Total Concrete Weight",
+    "kg": "kg",
+    "materials": "Material Breakdown (1:2:4 Mix)",
+    "cement": "Cement",
+    "sand": "Sand",
+    "aggregate": "Aggregate (Gravel)",
+    "formula_title": "Calculation Formula",
+    "formula": "Volume = Length × Width × Depth. Materials are calculated based on standard density (2400 kg/m³) and mix ratio.",
+    "info_title": "About Concrete Calculation",
+    "info_description": "Accurately estimating concrete prevents ordering too much or running out mid-pour. This calculator uses standard density and mix ratios for general construction.",
+    "use_cases_title": "Common Uses",
+    "use_case_1": "Driveways and patios",
+    "use_case_2": "Foundations and footings",
+    "use_case_3": "Floor slabs and walkways",
+    "errors": {
+      "invalid_dimensions": "Please enter valid dimensions",
+      "positive_values": "Dimensions must be greater than zero",
+      "invalid_waste": "Waste factor must be between 0 and 100"
     },
-    "concrete-calculator": {
-        "title": "Concrete Calculator - Cubic Yards & Meters",
-        "description": "Calculate concrete volume needed for your project in cubic yards or meters. Our free concrete calculator helps contractors and DIY builders estimate cement, sand, aggregate, and water quantities. Perfect for slabs, footings, and foundations."
-    }
+    "placeholders": {
+      "length": "10",
+      "width": "5",
+      "depth": "0.15",
+      "waste": "5"
+    },
+    "howItWorks": {
+      "title": "How the Concrete Calculator Works",
+      "formula": "Volume = Length × Width × Depth",
+      "explanation": "This calculator determines the exact volume of concrete needed by multiplying your project dimensions. It then calculates cement bags, sand, and aggregate quantities based on a standard 1:2:4 mix ratio and concrete density of 2400 kg/m³.",
+      "steps": [
+        {
+          "name": "Step 1",
+          "text": "Enter the length, width, and depth of your concrete project"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select your preferred measurement unit (meters or feet)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Add a waste factor percentage (5-10% recommended)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review the calculated volume and material quantities"
+        },
+        {
+          "name": "Step 5",
+          "text": "Use the cement bag count for ordering materials"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Residential Driveways",
+        "description": "Calculate concrete for standard driveways with typical depths of 10-15cm for vehicle traffic."
+      },
+      {
+        "title": "Foundation Slabs",
+        "description": "Estimate concrete volume for house foundations requiring proper thickness for structural support."
+      },
+      {
+        "title": "Patio and Walkway Projects",
+        "description": "Determine material needs for outdoor living spaces with appropriate 7-10cm thickness."
+      },
+      {
+        "title": "Commercial Floor Slabs",
+        "description": "Calculate large-scale concrete pours for warehouses, workshops, and industrial facilities."
+      }
+    ],
+    "seoTips": [
+      "Always order 5-10% extra concrete to account for spillage, uneven ground, and formwork variations",
+      "For structural applications, consult an engineer to determine the correct concrete mix ratio and reinforcement needs",
+      "Concrete should be poured and finished within 90 minutes of mixing to ensure proper strength",
+      "Consider weather conditions - avoid pouring in extreme heat or freezing temperatures",
+      "Use proper curing methods for at least 7 days to achieve optimal concrete strength"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Underestimating volume needed",
+        "solution": "Always include a 5-10% waste factor and round up when ordering"
+      },
+      {
+        "mistake": "Incorrect depth measurement",
+        "solution": "Measure depth at multiple points as ground is often uneven"
+      },
+      {
+        "mistake": "Forgetting reinforcement",
+        "solution": "Include rebar or wire mesh for slabs over 10cm thick or in high-traffic areas"
+      },
+      {
+        "mistake": "Poor site preparation",
+        "solution": "Compact and level the sub-base before pouring to prevent settling and cracking"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How many bags of cement do I need per cubic meter of concrete?",
+        "answer": "For a standard 1:2:4 mix ratio, you need approximately 6-7 bags of 50kg cement per cubic meter of concrete. This calculator automatically determines the exact quantity based on your project dimensions."
+      },
+      {
+        "question": "What is the standard concrete mix ratio?",
+        "answer": "The most common mix ratio is 1:2:4 (cement:sand:aggregate by volume). This produces concrete suitable for most residential and light commercial applications with adequate strength."
+      },
+      {
+        "question": "How thick should a concrete slab be?",
+        "answer": "Residential patios and walkways require 7-10cm thickness. Driveways need 10-15cm for car traffic. Heavy vehicle areas require 15-20cm with proper reinforcement."
+      },
+      {
+        "question": "How much does concrete weigh per cubic meter?",
+        "answer": "Standard concrete weighs approximately 2400 kg per cubic meter (150 lbs per cubic foot). Lightweight concrete weighs around 1800 kg/m³."
+      },
+      {
+        "question": "Can I mix concrete by hand for small projects?",
+        "answer": "Yes, for projects under 0.5 cubic meters, hand mixing is feasible. For larger projects, consider renting a concrete mixer or ordering ready-mix concrete delivery."
+      }
+    ]
+  },
+  "concrete-calculator": {
+    "title": "Concrete Calculator - Cubic Yards & Meters",
+    "description": "Calculate concrete volume needed for your project in cubic yards or meters. Our free concrete calculator helps contractors and DIY builders estimate cement, sand, aggregate, and water quantities. Perfect for slabs, footings, and foundations."
+  }
 }

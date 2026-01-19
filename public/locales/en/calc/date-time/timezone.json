@@ -7,11 +7,26 @@
       "formula": "Target Time = Source Time + (Target UTC Offset - Source UTC Offset)",
       "explanation": "This converter transforms time from one timezone to another using UTC (Coordinated Universal Time) offsets. It automatically accounts for daylight saving time when applicable in certain regions, ensuring accurate conversions year-round.",
       "steps": [
-        "Select the source timezone from the dropdown",
-        "Enter the time you want to convert",
-        "Select the target timezone",
-        "View the converted time instantly",
-        "Check for any date changes that may occur"
+        {
+          "name": "Step 1",
+          "text": "Select the source timezone from the dropdown"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the time you want to convert"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the target timezone"
+        },
+        {
+          "name": "Step 4",
+          "text": "View the converted time instantly"
+        },
+        {
+          "name": "Step 5",
+          "text": "Check for any date changes that may occur"
+        }
       ]
     },
     "useCases": [

@@ -36,11 +36,26 @@
       "formula": "Total Value = Sum of individual letter values",
       "explanation": "Abjad numerals, also known as Hisab al-Jummal or Arabic Gematria, is an ancient alphanumeric code where each Arabic letter is assigned a numerical value. This system dates back thousands of years and was used for arithmetic, chronograms, and mystical purposes.",
       "steps": [
-        "Enter your Arabic text in the input field",
-        "Select the calculation system (Standard, Maghrebi, or Small Abjad)",
-        "The calculator processes each Arabic letter and assigns its numerical value",
-        "Non-Arabic characters, spaces, and punctuation are automatically ignored",
-        "The total sum is calculated by adding all individual letter values"
+        {
+          "name": "Step 1",
+          "text": "Enter your Arabic text in the input field"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the calculation system (Standard, Maghrebi, or Small Abjad)"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator processes each Arabic letter and assigns its numerical value"
+        },
+        {
+          "name": "Step 4",
+          "text": "Non-Arabic characters, spaces, and punctuation are automatically ignored"
+        },
+        {
+          "name": "Step 5",
+          "text": "The total sum is calculated by adding all individual letter values"
+        }
       ]
     },
     "useCases": [
@@ -118,11 +133,26 @@
       "formula": "Cycle Value = sin(2π × Days Since Birth / Cycle Period)",
       "explanation": "Biorhythm theory suggests that our lives are influenced by rhythmic biological cycles. The physical cycle (23 days) affects strength and coordination, the emotional cycle (28 days) influences mood and creativity, and the intellectual cycle (33 days) impacts analytical thinking and decision-making.",
       "steps": [
-        "Enter your birth date in the input field",
-        "Optionally select a target date (defaults to today)",
-        "The calculator computes days elapsed since birth",
-        "Each cycle is calculated using sine wave formulas",
-        "Results show where you are in each cycle (positive is high, negative is low)"
+        {
+          "name": "Step 1",
+          "text": "Enter your birth date in the input field"
+        },
+        {
+          "name": "Step 2",
+          "text": "Optionally select a target date (defaults to today)"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator computes days elapsed since birth"
+        },
+        {
+          "name": "Step 4",
+          "text": "Each cycle is calculated using sine wave formulas"
+        },
+        {
+          "name": "Step 5",
+          "text": "Results show where you are in each cycle (positive is high, negative is low)"
+        }
       ]
     },
     "useCases": [
@@ -175,11 +205,26 @@
       "formula": "Random Value = Cryptographic Random Function within [Min, Max]",
       "explanation": "This generator uses cryptographically secure random number generation to produce truly random values within your specified range. Unlike simple pseudo-random generators, it provides higher-quality randomness suitable for security-sensitive applications.",
       "steps": [
-        "Enter the minimum value (smallest number allowed)",
-        "Enter the maximum value (largest number allowed)",
-        "Specify how many random numbers you want to generate",
-        "Choose whether to allow duplicate numbers",
-        "Click generate to get your random numbers instantly"
+        {
+          "name": "Step 1",
+          "text": "Enter the minimum value (smallest number allowed)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the maximum value (largest number allowed)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify how many random numbers you want to generate"
+        },
+        {
+          "name": "Step 4",
+          "text": "Choose whether to allow duplicate numbers"
+        },
+        {
+          "name": "Step 5",
+          "text": "Click generate to get your random numbers instantly"
+        }
       ]
     },
     "useCases": [
@@ -233,11 +278,26 @@
       "formula": "Converted Size = (Source Size × Conversion Factor) + Regional Offset",
       "explanation": "Shoe sizes vary significantly between countries and genders. This converter uses standardized conversion tables based on foot length in centimeters to accurately translate between US, UK, European, and metric sizing systems.",
       "steps": [
-        "Select your gender (men's or women's sizing differs)",
-        "Enter your current shoe size",
-        "Choose the sizing system you're converting from (US, UK, EU, or CM)",
-        "View the equivalent sizes in all other systems",
-        "Use the converted size for international shoe shopping"
+        {
+          "name": "Step 1",
+          "text": "Select your gender (men's or women's sizing differs)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your current shoe size"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose the sizing system you're converting from (US, UK, EU, or CM)"
+        },
+        {
+          "name": "Step 4",
+          "text": "View the equivalent sizes in all other systems"
+        },
+        {
+          "name": "Step 5",
+          "text": "Use the converted size for international shoe shopping"
+        }
       ]
     },
     "useCases": [
@@ -391,11 +451,26 @@
       "formula": "Converted Size = Regional Size Mapping based on Body Measurements",
       "explanation": "Clothing sizes vary dramatically across countries and even between brands. This converter uses standardized sizing charts that map body measurements (chest, waist, hip) to regional size systems including US, UK, EU, and International (S, M, L, XL).",
       "steps": [
-        "Select your gender (men's and women's sizing systems differ)",
-        "Choose the clothing type (shirts, pants, or dresses)",
-        "Enter your current size in your regional system",
-        "Select the system you're converting from (US, UK, EU, or International)",
-        "View equivalent sizes in all other regional systems"
+        {
+          "name": "Step 1",
+          "text": "Select your gender (men's and women's sizing systems differ)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Choose the clothing type (shirts, pants, or dresses)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter your current size in your regional system"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select the system you're converting from (US, UK, EU, or International)"
+        },
+        {
+          "name": "Step 5",
+          "text": "View equivalent sizes in all other regional systems"
+        }
       ]
     },
     "useCases": [

@@ -54,11 +54,26 @@
       "formula": "Glass Size = Rough Opening - Frame Allowance",
       "explanation": "This calculator determines the actual glass size needed based on rough opening dimensions and frame type. Different frame materials require different installation allowances.",
       "steps": [
-        "Measure rough opening width and height",
-        "Select frame type (vinyl, aluminum, wood, etc.)",
-        "Review calculated glass dimensions",
-        "Check glass area for ordering",
-        "Order window to fit calculated size"
+        {
+          "name": "Step 1",
+          "text": "Measure rough opening width and height"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select frame type (vinyl, aluminum, wood, etc.)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Review calculated glass dimensions"
+        },
+        {
+          "name": "Step 4",
+          "text": "Check glass area for ordering"
+        },
+        {
+          "name": "Step 5",
+          "text": "Order window to fit calculated size"
+        }
       ]
     },
     "useCases": [
@@ -185,11 +200,26 @@
       "formula": "Door Size = Rough Opening - Frame Allowance",
       "explanation": "This calculator determines the correct door size based on your rough opening dimensions and door type. Different door types require different allowances for frames, hinges, and thresholds.",
       "steps": [
-        "Measure rough opening width and height",
-        "Select the door type you plan to install",
-        "Review calculated door size and standard sizes",
-        "Check frame allowances for installation clearance",
-        "Order appropriate door size for your opening"
+        {
+          "name": "Step 1",
+          "text": "Measure rough opening width and height"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the door type you plan to install"
+        },
+        {
+          "name": "Step 3",
+          "text": "Review calculated door size and standard sizes"
+        },
+        {
+          "name": "Step 4",
+          "text": "Check frame allowances for installation clearance"
+        },
+        {
+          "name": "Step 5",
+          "text": "Order appropriate door size for your opening"
+        }
       ]
     },
     "useCases": [
@@ -327,11 +357,26 @@
       "formula": "Total Length = (Fixtures × Distance) + Fittings Equivalent + Waste",
       "explanation": "This calculator estimates total pipe needed by counting fixtures, multiplying by average run distance, and adding equivalent lengths for fittings. Fittings create flow resistance equal to additional straight pipe.",
       "steps": [
-        "Select pipe diameter for your system",
-        "Enter number of fixtures to connect",
-        "Specify average pipe run distance",
-        "Add fittings count (elbows, tees, valves)",
-        "Review total length and number of standard pipes needed"
+        {
+          "name": "Step 1",
+          "text": "Select pipe diameter for your system"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter number of fixtures to connect"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify average pipe run distance"
+        },
+        {
+          "name": "Step 4",
+          "text": "Add fittings count (elbows, tees, valves)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review total length and number of standard pipes needed"
+        }
       ]
     },
     "useCases": [
@@ -496,11 +541,26 @@
       "formula": "Fill % = (Total Wire Area / Conduit Area) × 100",
       "explanation": "This calculator determines the minimum conduit size needed based on wire gauge, count, and NEC fill requirements. NEC limits fill percentage to prevent heat buildup and wire damage.",
       "steps": [
-        "Select conduit type (EMT, PVC, rigid, etc.)",
-        "Choose wire gauge (AWG) for your circuit",
-        "Enter the number of wires to run",
-        "Specify the run length for material ordering",
-        "Review recommended conduit size and fill percentage"
+        {
+          "name": "Step 1",
+          "text": "Select conduit type (EMT, PVC, rigid, etc.)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Choose wire gauge (AWG) for your circuit"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the number of wires to run"
+        },
+        {
+          "name": "Step 4",
+          "text": "Specify the run length for material ordering"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review recommended conduit size and fill percentage"
+        }
       ]
     },
     "useCases": [

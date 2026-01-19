@@ -23,10 +23,22 @@
       "formula": "AWG based on I = A × (CM / 1000) / k",
       "explanation": "Calculates the appropriate wire gauge (AWG) based on current capacity and voltage drop requirements. Uses conductor material resistivity and ampacity tables to recommend safe wire sizes.",
       "steps": [
-        "Enter the current load in amperes",
-        "Enter the cable run distance (one way)",
-        "Select the system voltage",
-        "Choose conductor material (copper or aluminum)"
+        {
+          "name": "Step 1",
+          "text": "Enter the current load in amperes"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the cable run distance (one way)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the system voltage"
+        },
+        {
+          "name": "Step 4",
+          "text": "Choose conductor material (copper or aluminum)"
+        }
       ]
     },
     "useCases": [
@@ -82,10 +94,22 @@
       "formula": "λ = c / f, where c = 299,792,458 m/s",
       "explanation": "Calculates antenna element lengths based on the relationship between frequency and wavelength. Antennas must be proportional to the wavelength of the signal they transmit or receive.",
       "steps": [
-        "Enter the operating frequency",
-        "Select the antenna type (dipole, monopole, or loop)",
-        "View calculated wavelength fractions",
-        "Apply velocity factor for wire antenna construction"
+        {
+          "name": "Step 1",
+          "text": "Enter the operating frequency"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the antenna type (dipole, monopole, or loop)"
+        },
+        {
+          "name": "Step 3",
+          "text": "View calculated wavelength fractions"
+        },
+        {
+          "name": "Step 4",
+          "text": "Apply velocity factor for wire antenna construction"
+        }
       ]
     },
     "useCases": [
@@ -169,10 +193,22 @@
       "formula": "Vdrop = 2 × I × R × L (single-phase), Vdrop = √3 × I × R × L (three-phase)",
       "explanation": "Calculates voltage loss in electrical cables due to wire resistance. Excessive voltage drop causes equipment malfunction, reduced efficiency, and energy waste.",
       "steps": [
-        "Enter the system voltage and load current",
-        "Enter the cable run distance (one way)",
-        "Select wire size and material",
-        "Choose single-phase or three-phase"
+        {
+          "name": "Step 1",
+          "text": "Enter the system voltage and load current"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the cable run distance (one way)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select wire size and material"
+        },
+        {
+          "name": "Step 4",
+          "text": "Choose single-phase or three-phase"
+        }
       ]
     },
     "useCases": [
@@ -246,10 +282,22 @@
       "formula": "W = Area / (Thickness × 1.378) based on IPC-2221",
       "explanation": "Calculates minimum PCB trace width to safely carry current based on IPC-2221 standards. The calculation considers copper thickness, temperature rise, and whether the trace is internal or external.",
       "steps": [
-        "Enter the maximum current through the trace",
-        "Specify allowable temperature rise (typically 10-20°C)",
-        "Select copper thickness (1oz, 2oz, etc.)",
-        "Optionally enter trace length for resistance calculation"
+        {
+          "name": "Step 1",
+          "text": "Enter the maximum current through the trace"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify allowable temperature rise (typically 10-20°C)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select copper thickness (1oz, 2oz, etc.)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Optionally enter trace length for resistance calculation"
+        }
       ]
     },
     "useCases": [
@@ -326,10 +374,22 @@
       "formula": "I = P / (√3 × V × PF × η) for 3-phase",
       "explanation": "Calculates motor electrical parameters from mechanical power output. Accounts for efficiency losses and power factor to determine actual current draw from the supply.",
       "steps": [
-        "Select phase type (single or three-phase)",
-        "Enter motor power in kW or HP",
-        "Enter supply voltage and efficiency",
-        "Enter motor power factor"
+        {
+          "name": "Step 1",
+          "text": "Select phase type (single or three-phase)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter motor power in kW or HP"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter supply voltage and efficiency"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter motor power factor"
+        }
       ]
     },
     "useCases": [

@@ -207,11 +207,26 @@
       "formula": "Final Grade = Sum of (Category Score x Category Weight) / 100",
       "explanation": "The grade calculator uses the weighted average principle, where each score is multiplied by its assigned weight and the results are summed to obtain the final grade. This reflects the relative importance of each assessment component.",
       "steps": [
-        "Enter the name of each assessment category (e.g., assignments, quizzes, final exam)",
-        "Specify the relative weight for each category (total must equal 100%)",
-        "Enter the score you received in each category",
-        "The calculator will automatically compute your final grade",
-        "You can add a target grade to see what you need on the final exam"
+        {
+          "name": "Step 1",
+          "text": "Enter the name of each assessment category (e.g., assignments, quizzes, final exam)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify the relative weight for each category (total must equal 100%)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the score you received in each category"
+        },
+        {
+          "name": "Step 4",
+          "text": "The calculator will automatically compute your final grade"
+        },
+        {
+          "name": "Step 5",
+          "text": "You can add a target grade to see what you need on the final exam"
+        }
       ]
     },
     "useCases": [
@@ -280,10 +295,22 @@
       "formula": "GPA = Sum of (Course Grade Points x Credits) / Total Credits",
       "explanation": "The cumulative GPA is calculated by converting each letter grade to grade points (e.g., A=4.0, B=3.0), then multiplying each course's grade points by its credit hours, and finally dividing the sum by the total credits.",
       "steps": [
-        "Select the GPA scale used by your institution (4.0 or 5.0)",
-        "Enter your current cumulative GPA and credit hours (optional)",
-        "Add your current semester courses with their grades and credits",
-        "The semester and new cumulative GPA will be displayed automatically"
+        {
+          "name": "Step 1",
+          "text": "Select the GPA scale used by your institution (4.0 or 5.0)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your current cumulative GPA and credit hours (optional)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Add your current semester courses with their grades and credits"
+        },
+        {
+          "name": "Step 4",
+          "text": "The semester and new cumulative GPA will be displayed automatically"
+        }
       ]
     },
     "useCases": [
@@ -362,10 +389,22 @@
       "formula": "Required Score = (Target - Current x (1 - Weight)) / Weight",
       "explanation": "This tool calculates the score you need on the final exam to reach your target grade, based on your current grade and the weight of the final exam.",
       "steps": [
-        "Enter your current grade in the course (before the final exam)",
-        "Specify your target final grade",
-        "Enter the weight of the final exam as a percentage of the total grade",
-        "The required final exam score will be displayed"
+        {
+          "name": "Step 1",
+          "text": "Enter your current grade in the course (before the final exam)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify your target final grade"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the weight of the final exam as a percentage of the total grade"
+        },
+        {
+          "name": "Step 4",
+          "text": "The required final exam score will be displayed"
+        }
       ]
     },
     "useCases": [
@@ -427,10 +466,22 @@
       "formula": "Attendance Percentage = (Classes Attended / Total Classes) x 100",
       "explanation": "This tool calculates your current attendance percentage and determines how many classes you can miss while maintaining your target percentage.",
       "steps": [
-        "Enter the total number of classes in the course",
-        "Enter the number of classes you have attended",
-        "Set your target attendance percentage (usually 75% or 80%)",
-        "Your current percentage and allowed absences will be displayed"
+        {
+          "name": "Step 1",
+          "text": "Enter the total number of classes in the course"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the number of classes you have attended"
+        },
+        {
+          "name": "Step 3",
+          "text": "Set your target attendance percentage (usually 75% or 80%)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Your current percentage and allowed absences will be displayed"
+        }
       ]
     },
     "useCases": [
@@ -491,10 +542,22 @@
       "formula": "Average = Sum of (Course Grade x Credits) / Total Credits",
       "explanation": "This tool calculates the weighted average of your grades for the semester, taking into account the credit hours for each course.",
       "steps": [
-        "Add each course with its name for organization",
-        "Enter the percentage grade for each course",
-        "Specify the credit hours for each course",
-        "The calculator will compute the weighted average and letter grade"
+        {
+          "name": "Step 1",
+          "text": "Add each course with its name for organization"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the percentage grade for each course"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify the credit hours for each course"
+        },
+        {
+          "name": "Step 4",
+          "text": "The calculator will compute the weighted average and letter grade"
+        }
       ]
     },
     "useCases": [
@@ -550,10 +613,22 @@
       "formula": "Percentage = ((Total Questions - Wrong Answers) / Total Questions) x 100",
       "explanation": "This tool calculates your percentage score and converts it to a letter grade based on the total number of questions and wrong answers.",
       "steps": [
-        "Enter the total number of test questions",
-        "Enter the number of wrong answers",
-        "The percentage and letter grade will be displayed automatically",
-        "You can view the grading scale being used"
+        {
+          "name": "Step 1",
+          "text": "Enter the total number of test questions"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the number of wrong answers"
+        },
+        {
+          "name": "Step 3",
+          "text": "The percentage and letter grade will be displayed automatically"
+        },
+        {
+          "name": "Step 4",
+          "text": "You can view the grading scale being used"
+        }
       ]
     },
     "useCases": [
@@ -620,10 +695,22 @@
       "formula": "Completion Rate = (Completed Assignments / Total Assignments) x 100",
       "explanation": "This tracker helps you organize your assignments and tasks in one place, while monitoring deadlines and completion rate.",
       "steps": [
-        "Add each assignment or task with the course name",
-        "Set the due date for each assignment",
-        "Mark assignments as complete when finished",
-        "Track your overall completion rate"
+        {
+          "name": "Step 1",
+          "text": "Add each assignment or task with the course name"
+        },
+        {
+          "name": "Step 2",
+          "text": "Set the due date for each assignment"
+        },
+        {
+          "name": "Step 3",
+          "text": "Mark assignments as complete when finished"
+        },
+        {
+          "name": "Step 4",
+          "text": "Track your overall completion rate"
+        }
       ]
     },
     "useCases": [
@@ -680,10 +767,22 @@
       "formula": "Study Hours = Credit Hours x Difficulty Factor x 2-3",
       "explanation": "This tool calculates optimal study time based on credit hours and course difficulty level, taking into account available study days.",
       "steps": [
-        "Enter your total weekly credit hours",
-        "Specify the number of days available for study",
-        "Select the average difficulty level of your courses",
-        "Get a daily and weekly study plan"
+        {
+          "name": "Step 1",
+          "text": "Enter your total weekly credit hours"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify the number of days available for study"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the average difficulty level of your courses"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get a daily and weekly study plan"
+        }
       ]
     },
     "useCases": [
@@ -748,10 +847,22 @@
       "formula": "Reading Speed (WPM) = Number of Words / Time in Minutes",
       "explanation": "This tool measures your reading speed in Words Per Minute (WPM) and estimates the time needed to read texts of various lengths.",
       "steps": [
-        "Press the start button and read a specific text",
-        "Press the stop button when finished",
-        "Enter the number of words you read",
-        "Get your speed and estimated reading times"
+        {
+          "name": "Step 1",
+          "text": "Press the start button and read a specific text"
+        },
+        {
+          "name": "Step 2",
+          "text": "Press the stop button when finished"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the number of words you read"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get your speed and estimated reading times"
+        }
       ]
     },
     "useCases": [

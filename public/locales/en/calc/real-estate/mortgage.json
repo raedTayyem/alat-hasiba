@@ -57,11 +57,26 @@
       "formula": "Monthly Payment = [r × P × (1+r)^n] / [(1+r)^n - 1]",
       "explanation": "This calculator uses the standard amortization formula to calculate your monthly payments. Where (r) is the monthly interest rate, (P) is the loan amount, and (n) is the number of payments.",
       "steps": [
-        "Enter the total loan amount you need",
-        "Specify the expected annual interest rate",
-        "Choose the loan term in years",
-        "Add the down payment if applicable",
-        "Enter taxes and insurance for a complete picture"
+        {
+          "name": "Step 1",
+          "text": "Enter the total loan amount you need"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify the expected annual interest rate"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose the loan term in years"
+        },
+        {
+          "name": "Step 4",
+          "text": "Add the down payment if applicable"
+        },
+        {
+          "name": "Step 5",
+          "text": "Enter taxes and insurance for a complete picture"
+        }
       ]
     },
     "useCases": [
@@ -159,10 +174,22 @@
       "formula": "Closing Costs = Title Fees + Appraisal + Attorney + Recording + Transfer Tax + Lender Fees",
       "explanation": "This calculator aggregates all fees associated with completing a property purchase to give you a clear picture of cash needed.",
       "steps": [
-        "Enter purchase price and loan amount",
-        "Specify various fees (title, appraisal, attorney)",
-        "Enter tax and fee rates",
-        "Get total closing costs estimate"
+        {
+          "name": "Step 1",
+          "text": "Enter purchase price and loan amount"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify various fees (title, appraisal, attorney)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter tax and fee rates"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get total closing costs estimate"
+        }
       ]
     },
     "useCases": [
@@ -230,9 +257,18 @@
       "formula": "DTI = (Total Monthly Debt Payments / Gross Monthly Income) × 100",
       "explanation": "This ratio measures how much of your monthly income goes to debt payments, a key metric used by lenders.",
       "steps": [
-        "Enter your gross monthly income before taxes",
-        "Enter total monthly debt payments",
-        "The calculator gives you your DTI ratio and qualification assessment"
+        {
+          "name": "Step 1",
+          "text": "Enter your gross monthly income before taxes"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter total monthly debt payments"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator gives you your DTI ratio and qualification assessment"
+        }
       ]
     },
     "useCases": [
@@ -311,10 +347,22 @@
       "formula": "Maximum Payment = Monthly Income × 28-36%",
       "explanation": "This calculator uses standard lender rules to determine the maximum home price you can afford based on your income and debts.",
       "steps": [
-        "Enter your gross annual income",
-        "Enter your current monthly debts",
-        "Specify down payment and interest rate",
-        "Get maximum home price that fits your budget"
+        {
+          "name": "Step 1",
+          "text": "Enter your gross annual income"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your current monthly debts"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify down payment and interest rate"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get maximum home price that fits your budget"
+        }
       ]
     },
     "useCases": [
@@ -374,9 +422,18 @@
       "formula": "Available HELOC = (Home Value × 80-90%) - Mortgage Balance",
       "explanation": "This tool calculates how much home equity you can borrow against through a HELOC line of credit.",
       "steps": [
-        "Enter the current market value of your home",
-        "Enter remaining mortgage balance",
-        "Get the maximum HELOC amount available"
+        {
+          "name": "Step 1",
+          "text": "Enter the current market value of your home"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter remaining mortgage balance"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get the maximum HELOC amount available"
+        }
       ]
     },
     "useCases": [
@@ -472,9 +529,18 @@
       "formula": "Annual PMI = Loan Amount × PMI Rate",
       "explanation": "This tool calculates the cost of private mortgage insurance required when your down payment is less than 20%.",
       "steps": [
-        "Enter home price and down payment",
-        "Specify PMI rate (typically 0.3-1.5%)",
-        "Get monthly and annual PMI costs"
+        {
+          "name": "Step 1",
+          "text": "Enter home price and down payment"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify PMI rate (typically 0.3-1.5%)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get monthly and annual PMI costs"
+        }
       ]
     },
     "useCases": [
@@ -564,10 +630,22 @@
       "formula": "Break-Even = Closing Costs / Monthly Savings",
       "explanation": "This tool compares your current loan to a potential new loan to determine if refinancing makes financial sense.",
       "steps": [
-        "Enter current loan details (balance, rate, payment)",
-        "Specify expected new interest rate",
-        "Enter refinancing closing costs",
-        "Get monthly savings and break-even point"
+        {
+          "name": "Step 1",
+          "text": "Enter current loan details (balance, rate, payment)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify expected new interest rate"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter refinancing closing costs"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get monthly savings and break-even point"
+        }
       ]
     },
     "useCases": [
@@ -649,9 +727,18 @@
       "formula": "Down Payment = Home Price × Down Payment Percentage",
       "explanation": "This tool calculates the required down payment amount and shows its impact on loan amount and PMI.",
       "steps": [
-        "Enter the desired home price",
-        "Specify desired down payment percentage",
-        "Get down payment amount, loan amount, and LTV ratio"
+        {
+          "name": "Step 1",
+          "text": "Enter the desired home price"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify desired down payment percentage"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get down payment amount, loan amount, and LTV ratio"
+        }
       ]
     },
     "useCases": [
@@ -728,11 +815,26 @@
       "formula": "Home Equity = Current Market Value - Remaining Mortgage Balance",
       "explanation": "This calculator determines how much of your home you actually own by subtracting your outstanding mortgage balance from your property's current market value. It also calculates your loan-to-value ratio (LTV) and potential HELOC availability.",
       "steps": [
-        "Enter your home's current market value based on recent appraisals or comparable sales",
-        "Input your remaining mortgage balance from your latest statement",
-        "The calculator subtracts the mortgage from the value to find your equity",
-        "LTV ratio is calculated to show what percentage of your home is still mortgaged",
-        "Potential HELOC amount is estimated based on 85% LTV lending limits"
+        {
+          "name": "Step 1",
+          "text": "Enter your home's current market value based on recent appraisals or comparable sales"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input your remaining mortgage balance from your latest statement"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator subtracts the mortgage from the value to find your equity"
+        },
+        {
+          "name": "Step 4",
+          "text": "LTV ratio is calculated to show what percentage of your home is still mortgaged"
+        },
+        {
+          "name": "Step 5",
+          "text": "Potential HELOC amount is estimated based on 85% LTV lending limits"
+        }
       ]
     },
     "useCases": [

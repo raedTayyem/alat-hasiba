@@ -126,11 +126,26 @@
       "formula": "Range = (Battery Capacity × Battery Health%) / Adjusted Efficiency",
       "explanation": "EV range depends on usable battery capacity divided by energy consumption per mile. The calculator adjusts for factors like temperature, terrain, and driving style that significantly impact real-world range.",
       "steps": [
-        "Enter your EV's battery capacity in kWh",
-        "Enter energy consumption rate (kWh per mile)",
-        "Adjust battery health percentage if not 100%",
-        "Enter outside temperature and select terrain/driving conditions",
-        "View estimated range with factor adjustments"
+        {
+          "name": "Step 1",
+          "text": "Enter your EV's battery capacity in kWh"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter energy consumption rate (kWh per mile)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Adjust battery health percentage if not 100%"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter outside temperature and select terrain/driving conditions"
+        },
+        {
+          "name": "Step 5",
+          "text": "View estimated range with factor adjustments"
+        }
       ]
     },
     "useCases": [
@@ -302,11 +317,26 @@
       "formula": "Charging Time = (Battery Capacity × (Target% - Current%)) / (Charger Power × 100)",
       "explanation": "This calculator determines how long it takes to charge your electric vehicle and the electricity cost. Charging time depends on battery size, current charge level, target level, and charger power output.",
       "steps": [
-        "Enter your EV's total battery capacity in kWh",
-        "Enter current battery charge percentage",
-        "Enter your target charge percentage",
-        "Optionally specify charger power and electricity rate",
-        "View charging time for different charger levels and total cost"
+        {
+          "name": "Step 1",
+          "text": "Enter your EV's total battery capacity in kWh"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter current battery charge percentage"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter your target charge percentage"
+        },
+        {
+          "name": "Step 4",
+          "text": "Optionally specify charger power and electricity rate"
+        },
+        {
+          "name": "Step 5",
+          "text": "View charging time for different charger levels and total cost"
+        }
       ]
     },
     "useCases": [

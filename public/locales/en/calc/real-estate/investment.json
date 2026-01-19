@@ -32,10 +32,22 @@
       "formula": "Cap Rate = (Net Operating Income / Property Value) × 100",
       "explanation": "The capitalization rate measures the expected annual return from an investment property by dividing net operating income by property value.",
       "steps": [
-        "Enter the property's market value or purchase price",
-        "Specify the gross annual rental income",
-        "Enter annual operating expenses",
-        "The calculator computes NOI and cap rate"
+        {
+          "name": "Step 1",
+          "text": "Enter the property's market value or purchase price"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify the gross annual rental income"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter annual operating expenses"
+        },
+        {
+          "name": "Step 4",
+          "text": "The calculator computes NOI and cap rate"
+        }
       ]
     },
     "useCases": [
@@ -98,9 +110,18 @@
       "formula": "Cash-on-Cash Return = (Annual Cash Flow / Total Cash Invested) × 100",
       "explanation": "This calculator measures the actual annual return on the cash you've invested in the property, helping you evaluate investment efficiency.",
       "steps": [
-        "Calculate total cash invested (down payment + closing + repairs)",
-        "Determine annual cash flow after expenses",
-        "The calculator gives you the return percentage on your cash investment"
+        {
+          "name": "Step 1",
+          "text": "Calculate total cash invested (down payment + closing + repairs)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Determine annual cash flow after expenses"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator gives you the return percentage on your cash investment"
+        }
       ]
     },
     "useCases": [
@@ -160,9 +181,18 @@
       "formula": "Property Value = Net Operating Income / Cap Rate",
       "explanation": "This calculator uses the income approach to value commercial properties by dividing net operating income by the prevailing market cap rate.",
       "steps": [
-        "Calculate annual net operating income",
-        "Determine the appropriate market cap rate",
-        "The calculator gives you the estimated property value"
+        {
+          "name": "Step 1",
+          "text": "Calculate annual net operating income"
+        },
+        {
+          "name": "Step 2",
+          "text": "Determine the appropriate market cap rate"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator gives you the estimated property value"
+        }
       ]
     },
     "useCases": [
@@ -277,11 +307,26 @@
       "formula": "Profit = Selling Price - (Purchase Price + Renovation + Holding Costs)",
       "explanation": "This tool calculates potential profit from buying, renovating, and reselling a property at a higher price.",
       "steps": [
-        "Enter expected purchase price",
-        "Estimate renovation and repair costs",
-        "Specify expected selling price (ARV)",
-        "Add holding costs (taxes, insurance, utilities)",
-        "Get estimated profit and ROI"
+        {
+          "name": "Step 1",
+          "text": "Enter expected purchase price"
+        },
+        {
+          "name": "Step 2",
+          "text": "Estimate renovation and repair costs"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify expected selling price (ARV)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Add holding costs (taxes, insurance, utilities)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Get estimated profit and ROI"
+        }
       ]
     },
     "useCases": [
@@ -355,11 +400,26 @@
       "formula": "ROI = [(Selling Price - Purchase Price + Rental Income) / Total Investment] × 100",
       "explanation": "This tool calculates total return on your real estate investment, including appreciation and rental income.",
       "steps": [
-        "Enter original purchase price",
-        "Enter selling price (actual or expected)",
-        "Specify total cash invested",
-        "Add accumulated net rental income",
-        "Get total ROI"
+        {
+          "name": "Step 1",
+          "text": "Enter original purchase price"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter selling price (actual or expected)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify total cash invested"
+        },
+        {
+          "name": "Step 4",
+          "text": "Add accumulated net rental income"
+        },
+        {
+          "name": "Step 5",
+          "text": "Get total ROI"
+        }
       ]
     },
     "useCases": [
@@ -427,10 +487,22 @@
       "formula": "NOI = Effective Gross Income - Operating Expenses",
       "explanation": "This tool calculates net operating income for a property, a fundamental metric for real estate performance.",
       "steps": [
-        "Enter gross annual rental income",
-        "Specify expected vacancy rate",
-        "Enter annual operating expenses",
-        "Get net operating income"
+        {
+          "name": "Step 1",
+          "text": "Enter gross annual rental income"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify expected vacancy rate"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter annual operating expenses"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get net operating income"
+        }
       ]
     },
     "useCases": [

@@ -58,11 +58,26 @@
       "formula": "Bonus = Base Salary × (Target Bonus % / 100) × Performance Factor",
       "explanation": "Performance bonuses are calculated as a percentage of base salary, adjusted by a performance multiplier. Target bonus represents expected payout for meeting expectations; the performance factor scales this up or down based on actual performance.",
       "steps": [
-        "Enter your annual base salary",
-        "Input your target bonus percentage (stated in offer letter)",
-        "Specify the performance factor based on your review",
-        "Calculator applies performance factor to target bonus",
-        "View actual bonus amount and total compensation"
+        {
+          "name": "Step 1",
+          "text": "Enter your annual base salary"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input your target bonus percentage (stated in offer letter)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify the performance factor based on your review"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator applies performance factor to target bonus"
+        },
+        {
+          "name": "Step 5",
+          "text": "View actual bonus amount and total compensation"
+        }
       ]
     },
     "useCases": [
@@ -186,11 +201,26 @@
       "formula": "Annual Salary = Hourly Rate × Hours Per Week × Weeks Per Year",
       "explanation": "The salary calculator converts compensation between different pay frequencies: annual, monthly, bi-weekly, weekly, and hourly. It accounts for work hours and weeks to provide accurate conversions for comparing job offers or budgeting.",
       "steps": [
-        "Enter your salary amount in any frequency",
-        "Select the pay frequency (annual, monthly, hourly, etc.)",
-        "Specify hours per week if converting to/from hourly",
-        "Enter weeks worked per year (typically 52)",
-        "Calculator converts to all other pay frequencies"
+        {
+          "name": "Step 1",
+          "text": "Enter your salary amount in any frequency"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the pay frequency (annual, monthly, hourly, etc.)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify hours per week if converting to/from hourly"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter weeks worked per year (typically 52)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator converts to all other pay frequencies"
+        }
       ]
     },
     "useCases": [
@@ -306,11 +336,26 @@
       "formula": "Hourly Rate = Annual Salary / (Hours Per Week × Weeks Per Year)",
       "explanation": "Converting annual salary to hourly rate reveals true earning power per hour worked. This is essential for comparing salaried positions to hourly jobs, calculating freelance rates, or understanding the value of your time.",
       "steps": [
-        "Enter your annual salary (gross, before taxes)",
-        "Input standard hours worked per week (typically 40)",
-        "Specify weeks worked per year (52, or less for unpaid time off)",
-        "Calculator divides salary by total annual hours",
-        "View hourly rate and breakdowns by day, week, and month"
+        {
+          "name": "Step 1",
+          "text": "Enter your annual salary (gross, before taxes)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input standard hours worked per week (typically 40)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify weeks worked per year (52, or less for unpaid time off)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator divides salary by total annual hours"
+        },
+        {
+          "name": "Step 5",
+          "text": "View hourly rate and breakdowns by day, week, and month"
+        }
       ]
     },
     "useCases": [
@@ -430,11 +475,26 @@
       "formula": "Total Pay = (Regular Hours × Rate) + (Overtime Hours × Rate × Multiplier)",
       "explanation": "Overtime pay compensates workers for hours beyond the standard work week, typically 40 hours in the US. The Fair Labor Standards Act requires non-exempt employees receive at least 1.5x their regular rate for overtime hours.",
       "steps": [
-        "Enter your regular hours (usually up to 40)",
-        "Input overtime hours worked beyond regular schedule",
-        "Enter your standard hourly rate",
-        "Select overtime multiplier (typically 1.5x)",
-        "Calculator computes regular pay, overtime pay, and total"
+        {
+          "name": "Step 1",
+          "text": "Enter your regular hours (usually up to 40)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input overtime hours worked beyond regular schedule"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter your standard hourly rate"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select overtime multiplier (typically 1.5x)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator computes regular pay, overtime pay, and total"
+        }
       ]
     },
     "useCases": [
@@ -536,11 +596,26 @@
       "formula": "Commission = Sales Amount × (Commission Rate / 100)",
       "explanation": "Commission compensates salespeople based on their sales performance. It can be the sole compensation (straight commission) or combined with a base salary. Total earnings equal base salary plus commission earned.",
       "steps": [
-        "Enter the total sales amount generated",
-        "Input the commission rate percentage",
-        "Optionally add a base salary amount",
-        "Calculator computes the commission earned",
-        "View total earnings (base + commission)"
+        {
+          "name": "Step 1",
+          "text": "Enter the total sales amount generated"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the commission rate percentage"
+        },
+        {
+          "name": "Step 3",
+          "text": "Optionally add a base salary amount"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator computes the commission earned"
+        },
+        {
+          "name": "Step 5",
+          "text": "View total earnings (base + commission)"
+        }
       ]
     },
     "useCases": [
@@ -662,11 +737,26 @@
       "formula": "Total Labor Cost = Wages + Benefits + Overhead",
       "explanation": "True labor cost extends far beyond base wages. Benefits (healthcare, retirement, paid time off) typically add 20-40% to wages. Overhead (workspace, equipment, management) adds another 10-30%. The effective hourly rate can be 1.5-2x the base wage.",
       "steps": [
-        "Enter base hourly rate for employees",
-        "Input hours worked per week",
-        "Add benefits percentage (healthcare, PTO, retirement contributions)",
-        "Include overhead percentage (workspace, equipment, admin support)",
-        "Specify number of employees to calculate total team cost"
+        {
+          "name": "Step 1",
+          "text": "Enter base hourly rate for employees"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input hours worked per week"
+        },
+        {
+          "name": "Step 3",
+          "text": "Add benefits percentage (healthcare, PTO, retirement contributions)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Include overhead percentage (workspace, equipment, admin support)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Specify number of employees to calculate total team cost"
+        }
       ]
     },
     "useCases": [

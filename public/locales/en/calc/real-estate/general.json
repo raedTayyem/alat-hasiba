@@ -17,9 +17,18 @@
       "formula": "Cost per Unit = Total Price / Total Area",
       "explanation": "This calculator divides the property price by its area to give you the cost per square meter or square foot.",
       "steps": [
-        "Enter the total property price",
-        "Enter the total area",
-        "Get the cost per area unit"
+        {
+          "name": "Step 1",
+          "text": "Enter the total property price"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the total area"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get the cost per area unit"
+        }
       ]
     },
     "useCases": [
@@ -100,10 +109,22 @@
       "formula": "Value = (Area × Price per Unit) × Adjustment Factors",
       "explanation": "This estimator calculates an approximate value based on area and market price, with adjustments for condition, location, and age.",
       "steps": [
-        "Enter property area and price per unit in the area",
-        "Specify property age and condition",
-        "Choose location quality",
-        "Get estimated market value"
+        {
+          "name": "Step 1",
+          "text": "Enter property area and price per unit in the area"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify property age and condition"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose location quality"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get estimated market value"
+        }
       ]
     },
     "useCases": [

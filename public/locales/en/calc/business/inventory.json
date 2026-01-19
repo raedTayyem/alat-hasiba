@@ -39,11 +39,26 @@
       "formula": "EOQ = sqrt(2 × Annual Demand × Order Cost / Holding Cost)",
       "explanation": "Economic Order Quantity finds the optimal order size that minimizes total inventory costs. It balances ordering costs (which decrease with larger orders) against holding costs (which increase with larger inventory). The EOQ is where these two cost curves intersect.",
       "steps": [
-        "Enter annual demand in units",
-        "Input fixed cost per order (shipping, processing, handling)",
-        "Specify holding cost per unit per year (storage, insurance, depreciation)",
-        "Calculator applies the EOQ formula",
-        "View optimal order quantity, orders per year, and total costs"
+        {
+          "name": "Step 1",
+          "text": "Enter annual demand in units"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input fixed cost per order (shipping, processing, handling)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify holding cost per unit per year (storage, insurance, depreciation)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator applies the EOQ formula"
+        },
+        {
+          "name": "Step 5",
+          "text": "View optimal order quantity, orders per year, and total costs"
+        }
       ]
     },
     "useCases": [
@@ -150,11 +165,26 @@
       "formula": "Inventory Turnover = Cost of Goods Sold / Average Inventory",
       "explanation": "Inventory turnover measures how many times a company sells and replaces its inventory during a period. Higher turnover indicates efficient inventory management - products sell quickly without sitting in warehouses. Lower turnover may indicate overstocking or slow sales.",
       "steps": [
-        "Enter Cost of Goods Sold (COGS) for the period",
-        "Input average inventory value (beginning + ending / 2)",
-        "Calculator divides COGS by average inventory",
-        "View turnover ratio and days to sell inventory",
-        "Compare to industry benchmarks to assess performance"
+        {
+          "name": "Step 1",
+          "text": "Enter Cost of Goods Sold (COGS) for the period"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input average inventory value (beginning + ending / 2)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator divides COGS by average inventory"
+        },
+        {
+          "name": "Step 4",
+          "text": "View turnover ratio and days to sell inventory"
+        },
+        {
+          "name": "Step 5",
+          "text": "Compare to industry benchmarks to assess performance"
+        }
       ]
     },
     "useCases": [

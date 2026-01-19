@@ -32,11 +32,26 @@
       "formula": "Total cost = Initial adoption fee + Monthly expenses × 12",
       "explanation": "This calculator estimates the true cost of pet ownership, including initial adoption costs and ongoing monthly expenses for food, vet care, and supplies.",
       "steps": [
-        "Select the type of pet (dog or cat)",
-        "Choose the pet size",
-        "Select food quality level",
-        "View initial and ongoing cost breakdown",
-        "See monthly and annual totals"
+        {
+          "name": "Step 1",
+          "text": "Select the type of pet (dog or cat)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Choose the pet size"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select food quality level"
+        },
+        {
+          "name": "Step 4",
+          "text": "View initial and ongoing cost breakdown"
+        },
+        {
+          "name": "Step 5",
+          "text": "See monthly and annual totals"
+        }
       ]
     },
     "useCases": [
@@ -114,11 +129,26 @@
       "formula": "Total Cost = Initial Costs + (Monthly Food + Vet + Supplies) × 12",
       "explanation": "This calculator provides a comprehensive breakdown of pet ownership costs including one-time adoption expenses and recurring monthly costs for food, veterinary care, and supplies.",
       "steps": [
-        "Select the type of pet (dog or cat)",
-        "Choose the pet's size category",
-        "Select your preferred food quality level",
-        "View initial and ongoing cost breakdown",
-        "See monthly and annual totals"
+        {
+          "name": "Step 1",
+          "text": "Select the type of pet (dog or cat)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Choose the pet's size category"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select your preferred food quality level"
+        },
+        {
+          "name": "Step 4",
+          "text": "View initial and ongoing cost breakdown"
+        },
+        {
+          "name": "Step 5",
+          "text": "See monthly and annual totals"
+        }
       ]
     },
     "useCases": [
@@ -208,11 +238,26 @@
       "formula": "Premium based on pet type, age, coverage level, and deductible",
       "explanation": "This calculator estimates pet insurance costs based on key factors that insurers use to determine premiums, helping you budget for coverage.",
       "steps": [
-        "Select your pet type (dog or cat)",
-        "Enter your pet's age",
-        "Choose desired coverage level",
-        "Select your preferred deductible",
-        "View estimated monthly and annual premiums"
+        {
+          "name": "Step 1",
+          "text": "Select your pet type (dog or cat)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your pet's age"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose desired coverage level"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select your preferred deductible"
+        },
+        {
+          "name": "Step 5",
+          "text": "View estimated monthly and annual premiums"
+        }
       ]
     },
     "useCases": [
@@ -302,11 +347,26 @@
       "formula": "Premium based on pet type, age, coverage level, and deductible",
       "explanation": "This calculator estimates pet insurance costs based on key factors that insurers use to determine premiums, helping you budget for coverage.",
       "steps": [
-        "Select your pet type (dog or cat)",
-        "Enter your pet's age",
-        "Choose desired coverage level",
-        "Select your preferred deductible",
-        "View estimated monthly and annual premiums"
+        {
+          "name": "Step 1",
+          "text": "Select your pet type (dog or cat)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your pet's age"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose desired coverage level"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select your preferred deductible"
+        },
+        {
+          "name": "Step 5",
+          "text": "View estimated monthly and annual premiums"
+        }
       ]
     },
     "useCases": [
@@ -384,11 +444,26 @@
       "formula": "Total cost = Carrier + Health certificate + Transport fees",
       "explanation": "This calculator estimates the cost of traveling with your pet, including required documentation, appropriate carriers, and transport fees for domestic or international travel.",
       "steps": [
-        "Select your pet type",
-        "Enter your pet's weight",
-        "Choose domestic or international travel",
-        "Select transport mode (air or ground)",
-        "View itemized cost breakdown"
+        {
+          "name": "Step 1",
+          "text": "Select your pet type"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your pet's weight"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose domestic or international travel"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select transport mode (air or ground)"
+        },
+        {
+          "name": "Step 5",
+          "text": "View itemized cost breakdown"
+        }
       ]
     },
     "useCases": [
@@ -469,11 +544,26 @@
       "formula": "Total Cost = Transport Fee + Carrier Cost + Health Certificates + Documentation",
       "explanation": "This calculator estimates the total cost of traveling with your pet, including transportation, required documentation, carriers, and health certificates.",
       "steps": [
-        "Select your pet type and weight",
-        "Choose domestic or international travel",
-        "Select transport mode (air or ground)",
-        "View itemized cost breakdown",
-        "Review required documentation"
+        {
+          "name": "Step 1",
+          "text": "Select your pet type and weight"
+        },
+        {
+          "name": "Step 2",
+          "text": "Choose domestic or international travel"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select transport mode (air or ground)"
+        },
+        {
+          "name": "Step 4",
+          "text": "View itemized cost breakdown"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review required documentation"
+        }
       ]
     },
     "useCases": [

@@ -19,9 +19,18 @@
       "formula": "Capital Gain = Sale Price - Purchase Price - Improvement Costs",
       "explanation": "This tool calculates the profit from selling a property and the tax due based on the difference between sale and purchase prices.",
       "steps": [
-        "Enter the original purchase price of the property",
-        "Enter the actual or expected sale price",
-        "The calculator determines the capital gain and estimated tax"
+        {
+          "name": "Step 1",
+          "text": "Enter the original purchase price of the property"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the actual or expected sale price"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator determines the capital gain and estimated tax"
+        }
       ]
     },
     "useCases": [
@@ -85,9 +94,18 @@
       "formula": "Annual Maintenance Cost = Home Value × 1-4%",
       "explanation": "This calculator uses common rules of thumb to estimate what you should save annually for maintenance and repairs.",
       "steps": [
-        "Enter the current market value of the home",
-        "Enter the age of the home in years",
-        "Get estimated annual and monthly maintenance costs"
+        {
+          "name": "Step 1",
+          "text": "Enter the current market value of the home"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the age of the home in years"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get estimated annual and monthly maintenance costs"
+        }
       ]
     },
     "useCases": [
@@ -175,9 +193,18 @@
       "formula": "Annual Tax = Assessed Value × Tax Rate",
       "explanation": "This tool calculates annual property tax based on the assessed value and local tax rate.",
       "steps": [
-        "Enter the assessed value for tax purposes",
-        "Specify the property tax rate in your area",
-        "Get annual tax and monthly escrow amounts"
+        {
+          "name": "Step 1",
+          "text": "Enter the assessed value for tax purposes"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify the property tax rate in your area"
+        },
+        {
+          "name": "Step 3",
+          "text": "Get annual tax and monthly escrow amounts"
+        }
       ]
     },
     "useCases": [
@@ -239,8 +266,14 @@
       "formula": "Annual Cost = Monthly Fee × 12",
       "explanation": "This tool calculates total HOA fees monthly and annually to help you budget for housing costs.",
       "steps": [
-        "Enter monthly fee paid to association",
-        "Get total annual cost"
+        {
+          "name": "Step 1",
+          "text": "Enter monthly fee paid to association"
+        },
+        {
+          "name": "Step 2",
+          "text": "Get total annual cost"
+        }
       ]
     },
     "useCases": [

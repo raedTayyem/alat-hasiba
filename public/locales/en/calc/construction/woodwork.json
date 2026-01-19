@@ -1,674 +1,749 @@
 {
-    "stair": {
-        "title": "Stair Calculator",
-        "description": "Calculate staircase dimensions including riser height, tread depth, and number of steps for safe stair design.",
-        "unit": "Measurement Unit",
-        "unit_tooltip": "Select centimeters or inches for measurements",
-        "centimeters": "Centimeters",
-        "inches": "Inches",
-        "total_rise": "Total Rise",
-        "total_rise_tooltip": "Vertical distance from bottom to top floor",
-        "desired_riser_height": "Desired Riser Height",
-        "desired_riser_height_tooltip": "Preferred height of each step (typically 17-19cm or 7-7.5in)",
-        "result_steps": "Number of Steps",
-        "risers_unit": "risers",
-        "dimensions": "Stair Dimensions",
-        "riser_height": "Riser Height",
-        "tread_depth": "Tread Depth",
-        "number_of_treads": "Number of Treads",
-        "stair_angle": "Stair Angle",
-        "cm": "cm",
-        "in": "in",
-        "ft": "ft",
-        "total_run_section": "Total Run",
-        "total_run": "Total Run (Horizontal)",
-        "total_run_feet": "Total Run",
-        "compliance_title": "Building Code Compliance",
-        "compliance": {
-            "compliant": "Stair dimensions meet standard building codes",
-            "riser_too_low": "Warning: Riser height is below minimum (10cm/4in)",
-            "riser_too_high": "Warning: Riser height exceeds maximum (19.7cm/7.75in)",
-            "tread_too_shallow": "Warning: Tread depth is below minimum (25.4cm/10in)",
-            "angle_steep": "Note: Stair angle is steep (over 42°)"
-        },
-        "formula_title": "Calculation Formula",
-        "formula": "Steps = Total Rise / Riser Height. Tread Depth uses the comfort rule: 2R + T = 63.5cm (25in).",
-        "info_title": "About Stair Calculation",
-        "info_description": "Proper stair design ensures safety and comfort. The comfort rule (2R + T = 25in) provides optimal riser-to-tread ratio for easy climbing.",
-        "use_cases_title": "Common Uses",
-        "use_case_1": "Residential staircase design",
-        "use_case_2": "Deck and porch stairs",
-        "use_case_3": "Building code compliance checks",
-        "errors": {
-            "invalid_rise": "Please enter a valid total rise",
-            "positive_values": "Values must be greater than zero",
-            "invalid_riser_height": "Please enter a valid riser height"
-        },
-        "placeholders": {
-            "total_rise": "280",
-            "riser_height": "18"
-        },
-        "howItWorks": {
-            "title": "How the Stair Calculator Works",
-            "formula": "Steps = Total Rise / Riser Height; Tread Depth = 63.5cm - (2 × Riser Height)",
-            "explanation": "This calculator determines the optimal number of steps and dimensions using the comfort rule (2R + T = 63.5cm). It ensures stairs meet building codes for safe, comfortable climbing.",
-            "steps": [
-                "Measure total rise (floor-to-floor height)",
-                "Enter desired riser height (17-19cm ideal)",
-                "Review calculated step count and dimensions",
-                "Check building code compliance warnings",
-                "Adjust riser height if needed for whole steps"
-            ]
-        },
-        "useCases": [
-            {
-                "title": "Interior Staircases",
-                "description": "Design code-compliant stairs between floors in homes and buildings."
-            },
-            {
-                "title": "Deck and Porch Steps",
-                "description": "Calculate outdoor stair dimensions for proper rise and run."
-            },
-            {
-                "title": "Basement Access",
-                "description": "Plan stairs for basement entry with often limited headroom."
-            },
-            {
-                "title": "Building Permits",
-                "description": "Verify stair designs meet local building code requirements."
-            }
-        ],
-        "seoTips": [
-            "Ideal riser height is 17-19cm (7-7.5 inches) for comfortable climbing",
-            "Use the comfort rule: 2 × Riser + Tread = 63.5cm (25 inches)",
-            "All risers must be uniform height - code allows max 3/8 inch variance",
-            "Minimum tread depth is 25.4cm (10 inches) per most building codes",
-            "Consider headroom requirements - minimum 6'8\" (203cm) clearance"
-        ],
-        "commonMistakes": [
-            {
-                "mistake": "Unequal riser heights",
-                "solution": "Calculate exact rise per step - all risers must be within 3/8 inch of each other"
-            },
-            {
-                "mistake": "Treads too shallow",
-                "solution": "Maintain minimum 10-inch (25.4cm) tread depth for safety"
-            },
-            {
-                "mistake": "Ignoring nosing",
-                "solution": "Add 3/4 to 1-1/4 inch nosing overhang to effective tread depth"
-            },
-            {
-                "mistake": "Forgetting headroom",
-                "solution": "Ensure 6'8\" minimum headroom throughout the stairway"
-            }
-        ],
-        "faqs": [
-            {
-                "question": "What is the ideal stair riser height?",
-                "answer": "The ideal riser height is 17-19cm (7-7.5 inches). Building codes typically allow 10-19.7cm (4-7.75 inches) maximum."
-            },
-            {
-                "question": "What is the 2R + T rule for stairs?",
-                "answer": "The comfort rule states that 2 × Riser Height + Tread Depth should equal approximately 63.5cm (25 inches) for comfortable climbing."
-            },
-            {
-                "question": "How many steps do I need for a 9-foot ceiling?",
-                "answer": "For a 9-foot (274cm) floor-to-floor rise with 18cm risers, you need approximately 15-16 steps."
-            },
-            {
-                "question": "What is the maximum stair angle allowed?",
-                "answer": "Most codes limit residential stairs to 42 degrees. Steeper angles are uncomfortable and potentially hazardous."
-            },
-            {
-                "question": "Do I need a landing in my staircase?",
-                "answer": "Landings are required when stairs exceed 12 feet (3.7m) vertical rise. They must be at least as deep as the stair width."
-            }
-        ]
+  "stair": {
+    "title": "Stair Calculator",
+    "description": "Calculate staircase dimensions including riser height, tread depth, and number of steps for safe stair design.",
+    "unit": "Measurement Unit",
+    "unit_tooltip": "Select centimeters or inches for measurements",
+    "centimeters": "Centimeters",
+    "inches": "Inches",
+    "total_rise": "Total Rise",
+    "total_rise_tooltip": "Vertical distance from bottom to top floor",
+    "desired_riser_height": "Desired Riser Height",
+    "desired_riser_height_tooltip": "Preferred height of each step (typically 17-19cm or 7-7.5in)",
+    "result_steps": "Number of Steps",
+    "risers_unit": "risers",
+    "dimensions": "Stair Dimensions",
+    "riser_height": "Riser Height",
+    "tread_depth": "Tread Depth",
+    "number_of_treads": "Number of Treads",
+    "stair_angle": "Stair Angle",
+    "cm": "cm",
+    "in": "in",
+    "ft": "ft",
+    "total_run_section": "Total Run",
+    "total_run": "Total Run (Horizontal)",
+    "total_run_feet": "Total Run",
+    "compliance_title": "Building Code Compliance",
+    "compliance": {
+      "compliant": "Stair dimensions meet standard building codes",
+      "riser_too_low": "Warning: Riser height is below minimum (10cm/4in)",
+      "riser_too_high": "Warning: Riser height exceeds maximum (19.7cm/7.75in)",
+      "tread_too_shallow": "Warning: Tread depth is below minimum (25.4cm/10in)",
+      "angle_steep": "Note: Stair angle is steep (over 42°)"
     },
-    "stringer": {
-        "title": "Stringer Calculator",
-        "description": "Calculate stair stringer dimensions including length, angle, and layout for proper stair construction.",
-        "unit": "Measurement Unit",
-        "unit_tooltip": "Select centimeters or inches for measurements",
-        "centimeters": "Centimeters",
-        "inches": "Inches",
-        "total_rise": "Total Rise",
-        "total_rise_tooltip": "Vertical distance from bottom to top of stairs",
-        "total_run": "Total Run",
-        "total_run_tooltip": "Horizontal distance from first to last step",
-        "number_of_steps": "Number of Steps",
-        "number_of_steps_tooltip": "Total number of steps/risers in the staircase",
-        "stringer_width": "Stringer Board Width",
-        "stringer_width_tooltip": "Width of lumber for stringers (2x12 = 28.58cm/11.25in)",
-        "result_length": "Stringer Length",
-        "cm": "cm",
-        "ft": "ft",
-        "dimensions": "Stringer Dimensions",
-        "board_length": "Board Length Required",
-        "stringer_angle": "Stringer Angle",
-        "riser_height": "Riser Height",
-        "tread_depth": "Tread Depth",
-        "additional_details": "Additional Details",
-        "recommended_stringers": "Recommended Stringers",
-        "throat_width": "Throat Width",
-        "throat_warning": "Warning: Throat width is below the recommended minimum of 8.9cm (3.5in). Consider using wider lumber for structural integrity.",
-        "formula_title": "Calculation Formula",
-        "formula": "Stringer Length = √(Rise² + Run²). Board length includes 10% safety margin for cutting.",
-        "info_title": "About Stringer Calculation",
-        "info_description": "Accurate stringer calculations ensure proper stair construction. The Pythagorean theorem determines the exact length needed, while throat width ensures structural integrity.",
-        "use_cases_title": "Common Uses",
-        "use_case_1": "Custom staircase construction",
-        "use_case_2": "Deck stair stringers",
-        "use_case_3": "Lumber purchasing for stairs",
-        "errors": {
-            "invalid_dimensions": "Please enter valid rise and run dimensions",
-            "positive_values": "Dimensions must be greater than zero",
-            "invalid_width": "Stringer width must be greater than zero",
-            "invalid_steps": "Number of steps must be at least 2"
-        },
-        "placeholders": {
-            "total_rise": "280",
-            "total_run": "350",
-            "number_of_steps": "15",
-            "stringer_width": "28.58"
-        },
-        "howItWorks": {
-            "title": "How the Stringer Calculator Works",
-            "formula": "Stringer Length = √(Rise² + Run²)",
-            "explanation": "This calculator uses the Pythagorean theorem to determine stair stringer length. It also calculates the cutting angle, throat width, and recommends appropriate lumber sizes for structural integrity.",
-            "steps": [
-                "Enter total rise (vertical height)",
-                "Enter total run (horizontal distance)",
-                "Specify number of steps",
-                "Set stringer board width (2x12 typical)",
-                "Review stringer length and cutting dimensions"
-            ]
-        },
-        "useCases": [
-            {
-                "title": "Custom Stair Building",
-                "description": "Calculate precise stringer dimensions for custom residential stairs."
-            },
-            {
-                "title": "Deck Stair Construction",
-                "description": "Determine stringer requirements for exterior deck access stairs."
-            },
-            {
-                "title": "Lumber Purchasing",
-                "description": "Know exact board lengths needed before buying stringer material."
-            },
-            {
-                "title": "Carpentry Layout",
-                "description": "Get cutting angles and dimensions for accurate stringer fabrication."
-            }
-        ],
-        "seoTips": [
-            "Use 2x12 lumber for stringers to maintain adequate throat width",
-            "Minimum throat width should be 3.5 inches (8.9cm) for structural integrity",
-            "Cut stringers from straight, clear lumber without large knots",
-            "Use metal stringer brackets at top and bottom for secure attachment",
-            "Most codes require minimum 3 stringers for stairs wider than 36 inches"
-        ],
-        "commonMistakes": [
-            {
-                "mistake": "Insufficient throat width",
-                "solution": "Use wider lumber or adjust rise/run to maintain 3.5 inch minimum throat"
-            },
-            {
-                "mistake": "Using knotty lumber",
-                "solution": "Select straight, clear boards - knots at cuts weaken stringers"
-            },
-            {
-                "mistake": "Incorrect number of stringers",
-                "solution": "Use 3 stringers for stairs over 30 inches wide, 4 for over 45 inches"
-            },
-            {
-                "mistake": "Poor attachment",
-                "solution": "Use approved metal connectors at top and bottom, not just nails"
-            }
-        ],
-        "faqs": [
-            {
-                "question": "What size lumber should I use for stair stringers?",
-                "answer": "2x12 boards are standard for most residential stairs. They provide adequate throat width after cutting notches for typical rise and run dimensions."
-            },
-            {
-                "question": "What is throat width and why does it matter?",
-                "answer": "Throat width is the narrowest part of the stringer after cutting. It must be at least 3.5 inches (8.9cm) for structural integrity."
-            },
-            {
-                "question": "How many stringers do I need?",
-                "answer": "Use 2 stringers for stairs up to 30 inches wide, 3 stringers for 30-45 inches, and 4 stringers for wider stairs."
-            },
-            {
-                "question": "How do I mark stringer cuts?",
-                "answer": "Use a framing square with stair gauges set to your rise and run measurements. Mark each step consistently along the board."
-            },
-            {
-                "question": "Should I drop the first riser?",
-                "answer": "Yes, drop the bottom of the stringer by one tread thickness so the first step height equals all other steps after tread installation."
-            }
-        ]
+    "formula_title": "Calculation Formula",
+    "formula": "Steps = Total Rise / Riser Height. Tread Depth uses the comfort rule: 2R + T = 63.5cm (25in).",
+    "info_title": "About Stair Calculation",
+    "info_description": "Proper stair design ensures safety and comfort. The comfort rule (2R + T = 25in) provides optimal riser-to-tread ratio for easy climbing.",
+    "use_cases_title": "Common Uses",
+    "use_case_1": "Residential staircase design",
+    "use_case_2": "Deck and porch stairs",
+    "use_case_3": "Building code compliance checks",
+    "errors": {
+      "invalid_rise": "Please enter a valid total rise",
+      "positive_values": "Values must be greater than zero",
+      "invalid_riser_height": "Please enter a valid riser height"
     },
-    "fence": {
-        "title": "Fence Calculator",
-        "description": "Calculate fence materials including posts, panels, and rails needed for your fencing project.",
-        "unit": "Measurement Unit",
-        "unit_tooltip": "Select meters or feet for measurements",
-        "meters": "Meters",
-        "feet": "Feet",
-        "fence_length": "Fence Length",
-        "fence_length_tooltip": "Total length of the fence line",
-        "fence_height": "Fence Height",
-        "fence_height_tooltip": "Height of the fence above ground",
-        "post_spacing": "Post Spacing",
-        "post_spacing_tooltip": "Distance between fence posts (typically 2.4m or 8ft)",
-        "panel_width": "Panel Width",
-        "panel_width_tooltip": "Width of each fence panel (typically 1.8m or 6ft)",
-        "result_posts": "Total Posts Needed",
-        "posts_unit": "posts",
-        "materials_breakdown": "Materials Breakdown",
-        "total_panels": "Total Panels",
-        "total_rails": "Total Rails",
-        "rails_per_section": "per section",
-        "fence_area": "Fence Area",
-        "sq_meters": "sq m",
-        "sq_feet": "sq ft",
-        "concrete_needed": "Concrete for Posts",
-        "cubic_meters": "m³",
-        "installation_details": "Installation Details",
-        "post_hole_depth": "Recommended Post Hole Depth",
-        "meters_short": "m",
-        "concrete_per_post": "Concrete per Post",
-        "formula_title": "Calculation Formula",
-        "formula": "Posts = (Length / Spacing) + 1. Panels = Length / Panel Width. Rails depend on fence height.",
-        "info_title": "About Fence Calculation",
-        "info_description": "Accurate fence material estimation ensures you have enough posts, panels, and rails. Post spacing and panel width vary by fence type and local codes.",
-        "use_cases_title": "Common Uses",
-        "use_case_1": "Residential property fencing",
-        "use_case_2": "Garden and yard enclosures",
-        "use_case_3": "Commercial perimeter fencing",
-        "errors": {
-            "invalid_dimensions": "Please enter valid fence dimensions",
-            "positive_values": "Dimensions must be greater than zero",
-            "invalid_spacing": "Post spacing must be greater than zero",
-            "invalid_panel_width": "Panel width must be greater than zero"
-        },
-        "placeholders": {
-            "fence_length": "30",
-            "fence_height": "1.8",
-            "post_spacing": "2.4",
-            "panel_width": "1.8"
-        },
-        "howItWorks": {
-            "title": "How the Fence Calculator Works",
-            "formula": "Posts = (Length / Spacing) + 1; Panels = Length / Panel Width",
-            "explanation": "This calculator determines the number of posts, panels, and rails needed based on fence length and standard spacing intervals. It also estimates concrete requirements for post installation.",
-            "steps": [
-                "Measure the total fence line length",
-                "Enter fence height (above ground)",
-                "Specify post spacing (typically 6-8 feet)",
-                "Set panel width based on your fence type",
-                "Review posts, panels, rails, and concrete needed"
-            ]
-        },
-        "useCases": [
-            {
-                "title": "Privacy Fencing",
-                "description": "Calculate materials for 6-foot privacy fences around residential properties."
-            },
-            {
-                "title": "Picket Fences",
-                "description": "Estimate pickets, posts, and rails for decorative front yard fencing."
-            },
-            {
-                "title": "Pool Enclosures",
-                "description": "Plan code-compliant pool fencing with proper height and gate allowances."
-            },
-            {
-                "title": "Farm and Ranch Fencing",
-                "description": "Calculate post and rail quantities for large agricultural fencing projects."
-            }
-        ],
-        "seoTips": [
-            "Set posts at least 1/3 of total post length below ground for stability",
-            "Use pressure-treated or cedar posts for ground contact to prevent rot",
-            "Space posts 6-8 feet apart for most residential fencing applications",
-            "Check local codes for fence height limits and setback requirements",
-            "Add extra posts at corners and gate locations for reinforcement"
-        ],
-        "commonMistakes": [
-            {
-                "mistake": "Posts too shallow",
-                "solution": "Bury posts 1/3 of their length (minimum 2 feet) for stability"
-            },
-            {
-                "mistake": "No concrete for posts",
-                "solution": "Set posts in concrete for wind resistance and longevity"
-            },
-            {
-                "mistake": "Forgetting gates",
-                "solution": "Add extra posts and hardware for each gate location"
-            },
-            {
-                "mistake": "Ignoring property lines",
-                "solution": "Verify property boundaries before installation to avoid disputes"
-            }
-        ],
-        "faqs": [
-            {
-                "question": "How deep should fence posts be?",
-                "answer": "Fence posts should be buried 1/3 of their total length, with a minimum of 2 feet. For a 6-foot fence, use 8-foot posts with 2 feet below ground."
-            },
-            {
-                "question": "How much concrete per fence post?",
-                "answer": "Each post typically requires 1-2 bags (40-80 lbs) of concrete, depending on hole size. A 10-inch diameter hole, 2 feet deep needs about 1.5 bags."
-            },
-            {
-                "question": "What is the standard fence post spacing?",
-                "answer": "Standard spacing is 6-8 feet between posts for most residential fences. Shorter spacing provides more stability in high-wind areas."
-            },
-            {
-                "question": "Do I need a permit for a fence?",
-                "answer": "Most areas require permits for fences over 6 feet. Check local codes for height limits, setback requirements, and permit needs."
-            },
-            {
-                "question": "How long does a wooden fence last?",
-                "answer": "Cedar fences last 15-20 years, pressure-treated pine 15-20 years, and untreated pine 5-10 years. Proper maintenance extends lifespan."
-            }
-        ]
+    "placeholders": {
+      "total_rise": "280",
+      "riser_height": "18"
     },
-    "lumber": {
-        "title": "Lumber Calculator",
-        "description": "Calculate board feet and lumber quantities for framing and construction projects.",
-        "unit": "Measurement Unit",
-        "unit_tooltip": "Select measurement unit for lumber dimensions",
-        "inches": "Inches",
-        "feet": "Feet",
-        "meters": "Meters",
-        "lumber_type": "Lumber Type",
-        "lumber_type_tooltip": "Select common lumber dimension",
-        "types": {
-            "2x4": "2×4 (38×89mm)",
-            "2x6": "2×6 (38×140mm)",
-            "2x8": "2×8 (38×184mm)",
-            "2x10": "2×10 (38×235mm)",
-            "2x12": "2×12 (38×286mm)",
-            "4x4": "4×4 (89×89mm)",
-            "custom": "Custom Dimensions"
+    "howItWorks": {
+      "title": "How the Stair Calculator Works",
+      "formula": "Steps = Total Rise / Riser Height; Tread Depth = 63.5cm - (2 × Riser Height)",
+      "explanation": "This calculator determines the optimal number of steps and dimensions using the comfort rule (2R + T = 63.5cm). It ensures stairs meet building codes for safe, comfortable climbing.",
+      "steps": [
+        {
+          "name": "Step 1",
+          "text": "Measure total rise (floor-to-floor height)"
         },
-        "quantity": "Number of Pieces",
-        "quantity_tooltip": "How many pieces of lumber",
-        "length": "Length per Piece",
-        "length_tooltip": "Length of each piece in feet",
-        "result_board_feet": "Total Board Feet",
-        "bf": "board feet",
-        "details": "Lumber Details",
-        "total_linear": "Total Linear Feet",
-        "weight_estimate": "Estimated Weight",
-        "formula_title": "Calculation Formula",
-        "formula": "Board Feet = (Thickness × Width × Length) / 12. For dimensional lumber in inches and feet.",
-        "info_title": "About Lumber Calculation",
-        "info_description": "Board feet is the standard unit for lumber volume. Understanding board feet helps estimate costs and plan material orders.",
-        "use_cases_title": "Common Uses",
-        "use_case_1": "Wall framing studs",
-        "use_case_2": "Floor and ceiling joists",
-        "use_case_3": "Deck and outdoor construction",
-        "errors": {
-            "invalid_quantity": "Please enter valid quantity",
-            "invalid_length": "Please enter valid length",
-            "positive_values": "Values must be greater than zero"
+        {
+          "name": "Step 2",
+          "text": "Enter desired riser height (17-19cm ideal)"
         },
-        "placeholders": {
-            "quantity": "50",
-            "length": "8"
+        {
+          "name": "Step 3",
+          "text": "Review calculated step count and dimensions"
         },
-        "howItWorks": {
-            "title": "How the Lumber Calculator Works",
-            "formula": "Board Feet = (Thickness × Width × Length in inches) / 144",
-            "explanation": "This calculator converts lumber dimensions to board feet, the standard volume measurement for lumber. It helps estimate material quantities and costs for construction projects.",
-            "steps": [
-                "Select lumber dimension or enter custom size",
-                "Enter number of pieces needed",
-                "Specify length of each piece",
-                "Review total board feet and linear feet",
-                "Use board feet for cost estimation"
-            ]
+        {
+          "name": "Step 4",
+          "text": "Check building code compliance warnings"
         },
-        "useCases": [
-            {
-                "title": "Wall Framing",
-                "description": "Calculate studs for interior and exterior wall framing."
-            },
-            {
-                "title": "Floor Joist Systems",
-                "description": "Estimate joist quantities for floor and ceiling framing."
-            },
-            {
-                "title": "Deck Construction",
-                "description": "Plan lumber needs for deck framing and railing."
-            },
-            {
-                "title": "Woodworking Projects",
-                "description": "Calculate board feet for furniture and custom millwork."
-            }
-        ],
-        "seoTips": [
-            "Nominal dimensions differ from actual - 2×4 is actually 1.5×3.5 inches",
-            "Kiln-dried lumber (KD) is preferred for interior framing",
-            "Pressure-treated lumber is required for ground contact and exterior use",
-            "Standard stud spacing is 16 inches on center, 24 inches for some applications",
-            "Order 5-10% extra lumber for waste, warped boards, and cutting"
-        ],
-        "commonMistakes": [
-            {
-                "mistake": "Using nominal instead of actual dimensions",
-                "solution": "A 2×4 is actually 1.5×3.5 inches - use actual for precise calculations"
-            },
-            {
-                "mistake": "Not checking for straight lumber",
-                "solution": "Sight down each board for crowns, twists, and warps before purchasing"
-            },
-            {
-                "mistake": "Wrong lumber for application",
-                "solution": "Use pressure-treated for exterior, SPF for interior framing"
-            },
-            {
-                "mistake": "Insufficient header sizing",
-                "solution": "Size headers based on span and load - consult span tables"
-            }
-        ],
-        "faqs": [
-            {
-                "question": "What is a board foot of lumber?",
-                "answer": "A board foot equals 144 cubic inches (1 inch thick × 12 inches wide × 12 inches long). It is the standard unit for lumber volume and pricing."
-            },
-            {
-                "question": "How many 2×4s in a wall?",
-                "answer": "For 16-inch on center spacing, divide wall length (in inches) by 16, add 1 for the end, plus extra for headers, cripples, and corners."
-            },
-            {
-                "question": "What is the actual size of a 2×4?",
-                "answer": "Actual dimensions are 1.5×3.5 inches (38×89mm). Nominal sizes are pre-drying dimensions that changed due to processing."
-            },
-            {
-                "question": "How much does lumber weigh?",
-                "answer": "Softwood lumber (pine, fir) weighs approximately 2.5-3 lbs per board foot when dried. Green lumber is heavier."
-            },
-            {
-                "question": "What is the difference between SPF and treated lumber?",
-                "answer": "SPF (Spruce-Pine-Fir) is untreated softwood for interior use. Pressure-treated lumber has preservatives for moisture and insect resistance in exterior applications."
-            }
-        ]
+        {
+          "name": "Step 5",
+          "text": "Adjust riser height if needed for whole steps"
+        }
+      ]
     },
-    "deck": {
-        "title": "Deck Calculator",
-        "description": "Calculate decking boards, joists, posts, and fasteners for outdoor deck construction.",
-        "unit": "Measurement Unit",
-        "unit_tooltip": "Select meters or feet for deck dimensions",
-        "meters": "Meters",
-        "feet": "Feet",
-        "deck_length": "Deck Length",
-        "deck_length_tooltip": "Total length of the deck",
-        "deck_width": "Deck Width",
-        "deck_width_tooltip": "Total width of the deck",
-        "board_size": "Decking Board Size",
-        "board_size_tooltip": "Select the size of decking boards",
-        "board_sizes": {
-            "5_4x6": "5/4×6 (Standard Deck Board)",
-            "2x6": "2×6 (Heavier Deck Board)",
-            "2x4": "2×4 (Light Deck Board)",
-            "composite": "Composite (Standard Width)"
-        },
-        "board_length": "Board Length",
-        "board_length_tooltip": "Length of decking boards available",
-        "board_lengths": {
-            "8ft": "8 feet",
-            "10ft": "10 feet",
-            "12ft": "12 feet",
-            "14ft": "14 feet",
-            "16ft": "16 feet"
-        },
-        "joist_spacing": "Joist Spacing",
-        "joist_spacing_tooltip": "Center-to-center spacing between joists (inches)",
-        "joist_options": {
-            "12": "12 inches (heavy duty)",
-            "16": "16 inches (standard)",
-            "24": "24 inches (light duty)"
-        },
-        "waste_factor": "Waste Factor (%)",
-        "waste_factor_tooltip": "Extra material for cuts and waste (typically 10-15%)",
-        "result_area": "Total Deck Area",
-        "sqft": "sq ft",
-        "decking_materials": "Decking Materials",
-        "decking_boards": "Decking Boards",
-        "board_feet": "board feet",
-        "joists": "Joists",
-        "posts": "Posts",
-        "posts_label": "posts",
-        "footings": "Concrete Footings",
-        "beams": "Beams",
-        "doubled": "doubled",
-        "hardware": "Hardware & Fasteners",
-        "screws": "Deck Screws",
-        "boxes": "Boxes",
-        "screws_total": "screws total",
-        "formula_title": "Calculation Formula",
-        "formula": "Deck Area = Length × Width. Boards = (Area / Board Coverage) × (1 + Waste). Joists based on spacing.",
-        "info_title": "About Deck Calculation",
-        "info_description": "This calculator estimates all materials needed for deck construction including boards, framing lumber, posts, and fasteners based on your deck dimensions.",
-        "use_cases_title": "Common Uses",
-        "use_case_1": "Backyard deck construction",
-        "use_case_2": "Porch and patio decking",
-        "use_case_3": "Pool surrounds and outdoor living spaces",
-        "errors": {
-            "invalid_dimensions": "Please enter valid deck dimensions",
-            "positive_values": "Dimensions must be greater than zero",
-            "invalid_board_length": "Please enter a valid board length",
-            "invalid_waste": "Waste factor must be between 0 and 50%"
-        },
-        "placeholders": {
-            "length": "16",
-            "width": "12",
-            "waste": "10"
-        },
-        "howItWorks": {
-            "title": "How the Deck Calculator Works",
-            "formula": "Decking Boards = (Deck Area / Board Coverage) × (1 + Waste)",
-            "explanation": "This calculator determines decking boards based on surface area and board width. It also calculates joists, beams, posts, and fasteners needed for complete deck construction.",
-            "steps": [
-                "Enter deck length and width dimensions",
-                "Select decking board width",
-                "Choose joist spacing (16 inches is standard)",
-                "Set waste factor for cuts and scrap",
-                "Review all materials: boards, framing, fasteners"
-            ]
-        },
-        "useCases": [
-            {
-                "title": "Ground-Level Deck",
-                "description": "Calculate materials for freestanding ground-level decks."
-            },
-            {
-                "title": "Elevated Deck",
-                "description": "Plan materials for raised decks with post and beam framing."
-            },
-            {
-                "title": "Multi-Level Deck",
-                "description": "Estimate materials for complex multi-tier deck designs."
-            },
-            {
-                "title": "Deck Replacement",
-                "description": "Determine decking board quantities for surface replacement."
-            }
-        ],
-        "seoTips": [
-            "Use 16-inch joist spacing for most decking materials",
-            "Composite and PVC decking may require 12-inch spacing - check manufacturer specs",
-            "Posts should be set in concrete at least 42 inches deep in cold climates",
-            "Leave 1/8-inch gap between boards for drainage and expansion",
-            "Use stainless steel or coated screws with pressure-treated and composite decking"
-        ],
-        "commonMistakes": [
-            {
-                "mistake": "Joist spacing too wide",
-                "solution": "Follow decking manufacturer recommendations - typically 16 inches maximum"
-            },
-            {
-                "mistake": "Inadequate post depth",
-                "solution": "Set posts below frost line (42+ inches) to prevent heaving"
-            },
-            {
-                "mistake": "Wrong fasteners",
-                "solution": "Use approved screws for your decking type - ACQ-compatible for treated lumber"
-            },
-            {
-                "mistake": "No drainage slope",
-                "solution": "Install deck with slight slope (1/8 inch per foot) away from house"
-            }
-        ],
-        "faqs": [
-            {
-                "question": "How many deck boards do I need?",
-                "answer": "Divide deck square footage by board coverage (5.5-inch board covers 0.46 sq ft per linear foot). Add 10-15% for waste."
-            },
-            {
-                "question": "What size joists for a deck?",
-                "answer": "2×8 joists span up to 12 feet, 2×10 up to 15 feet, 2×12 up to 18 feet at 16-inch spacing. Check local codes for specific requirements."
-            },
-            {
-                "question": "How many screws per deck board?",
-                "answer": "Use 2 screws per joist crossing. A 12-foot board across 9 joists needs 18 screws. Plan for approximately 350 screws per 100 sq ft of decking."
-            },
-            {
-                "question": "Should I use treated lumber or composite?",
-                "answer": "Treated lumber costs less initially but requires maintenance. Composite costs more but is low-maintenance and lasts longer."
-            },
-            {
-                "question": "Do I need a permit for a deck?",
-                "answer": "Most areas require permits for decks over 200 sq ft or more than 30 inches above grade. Check local building codes."
-            }
-        ]
+    "useCases": [
+      {
+        "title": "Interior Staircases",
+        "description": "Design code-compliant stairs between floors in homes and buildings."
+      },
+      {
+        "title": "Deck and Porch Steps",
+        "description": "Calculate outdoor stair dimensions for proper rise and run."
+      },
+      {
+        "title": "Basement Access",
+        "description": "Plan stairs for basement entry with often limited headroom."
+      },
+      {
+        "title": "Building Permits",
+        "description": "Verify stair designs meet local building code requirements."
+      }
+    ],
+    "seoTips": [
+      "Ideal riser height is 17-19cm (7-7.5 inches) for comfortable climbing",
+      "Use the comfort rule: 2 × Riser + Tread = 63.5cm (25 inches)",
+      "All risers must be uniform height - code allows max 3/8 inch variance",
+      "Minimum tread depth is 25.4cm (10 inches) per most building codes",
+      "Consider headroom requirements - minimum 6'8\" (203cm) clearance"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Unequal riser heights",
+        "solution": "Calculate exact rise per step - all risers must be within 3/8 inch of each other"
+      },
+      {
+        "mistake": "Treads too shallow",
+        "solution": "Maintain minimum 10-inch (25.4cm) tread depth for safety"
+      },
+      {
+        "mistake": "Ignoring nosing",
+        "solution": "Add 3/4 to 1-1/4 inch nosing overhang to effective tread depth"
+      },
+      {
+        "mistake": "Forgetting headroom",
+        "solution": "Ensure 6'8\" minimum headroom throughout the stairway"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is the ideal stair riser height?",
+        "answer": "The ideal riser height is 17-19cm (7-7.5 inches). Building codes typically allow 10-19.7cm (4-7.75 inches) maximum."
+      },
+      {
+        "question": "What is the 2R + T rule for stairs?",
+        "answer": "The comfort rule states that 2 × Riser Height + Tread Depth should equal approximately 63.5cm (25 inches) for comfortable climbing."
+      },
+      {
+        "question": "How many steps do I need for a 9-foot ceiling?",
+        "answer": "For a 9-foot (274cm) floor-to-floor rise with 18cm risers, you need approximately 15-16 steps."
+      },
+      {
+        "question": "What is the maximum stair angle allowed?",
+        "answer": "Most codes limit residential stairs to 42 degrees. Steeper angles are uncomfortable and potentially hazardous."
+      },
+      {
+        "question": "Do I need a landing in my staircase?",
+        "answer": "Landings are required when stairs exceed 12 feet (3.7m) vertical rise. They must be at least as deep as the stair width."
+      }
+    ]
+  },
+  "stringer": {
+    "title": "Stringer Calculator",
+    "description": "Calculate stair stringer dimensions including length, angle, and layout for proper stair construction.",
+    "unit": "Measurement Unit",
+    "unit_tooltip": "Select centimeters or inches for measurements",
+    "centimeters": "Centimeters",
+    "inches": "Inches",
+    "total_rise": "Total Rise",
+    "total_rise_tooltip": "Vertical distance from bottom to top of stairs",
+    "total_run": "Total Run",
+    "total_run_tooltip": "Horizontal distance from first to last step",
+    "number_of_steps": "Number of Steps",
+    "number_of_steps_tooltip": "Total number of steps/risers in the staircase",
+    "stringer_width": "Stringer Board Width",
+    "stringer_width_tooltip": "Width of lumber for stringers (2x12 = 28.58cm/11.25in)",
+    "result_length": "Stringer Length",
+    "cm": "cm",
+    "ft": "ft",
+    "dimensions": "Stringer Dimensions",
+    "board_length": "Board Length Required",
+    "stringer_angle": "Stringer Angle",
+    "riser_height": "Riser Height",
+    "tread_depth": "Tread Depth",
+    "additional_details": "Additional Details",
+    "recommended_stringers": "Recommended Stringers",
+    "throat_width": "Throat Width",
+    "throat_warning": "Warning: Throat width is below the recommended minimum of 8.9cm (3.5in). Consider using wider lumber for structural integrity.",
+    "formula_title": "Calculation Formula",
+    "formula": "Stringer Length = √(Rise² + Run²). Board length includes 10% safety margin for cutting.",
+    "info_title": "About Stringer Calculation",
+    "info_description": "Accurate stringer calculations ensure proper stair construction. The Pythagorean theorem determines the exact length needed, while throat width ensures structural integrity.",
+    "use_cases_title": "Common Uses",
+    "use_case_1": "Custom staircase construction",
+    "use_case_2": "Deck stair stringers",
+    "use_case_3": "Lumber purchasing for stairs",
+    "errors": {
+      "invalid_dimensions": "Please enter valid rise and run dimensions",
+      "positive_values": "Dimensions must be greater than zero",
+      "invalid_width": "Stringer width must be greater than zero",
+      "invalid_steps": "Number of steps must be at least 2"
     },
-    "stair-calculator": {
-        "title": "Stair Calculator - Staircase Dimensions",
-        "description": "Calculate staircase dimensions and materials needed. Our free stair calculator determines riser height, tread depth, and total steps. Essential for building code compliance and safe stairway design."
+    "placeholders": {
+      "total_rise": "280",
+      "total_run": "350",
+      "number_of_steps": "15",
+      "stringer_width": "28.58"
     },
-    "stringer-calculator": {
-        "title": "Stringer Calculator - Stair Stringer Layout",
-        "description": "Calculate stair stringer cuts and dimensions. Our free stringer calculator helps layout wooden stair stringers with precise riser and tread cuts. Essential for carpenters building custom staircases."
+    "howItWorks": {
+      "title": "How the Stringer Calculator Works",
+      "formula": "Stringer Length = √(Rise² + Run²)",
+      "explanation": "This calculator uses the Pythagorean theorem to determine stair stringer length. It also calculates the cutting angle, throat width, and recommends appropriate lumber sizes for structural integrity.",
+      "steps": [
+        {
+          "name": "Step 1",
+          "text": "Enter total rise (vertical height)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter total run (horizontal distance)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify number of steps"
+        },
+        {
+          "name": "Step 4",
+          "text": "Set stringer board width (2x12 typical)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review stringer length and cutting dimensions"
+        }
+      ]
     },
-    "fence-calculator": {
-        "title": "Fence Calculator - Fencing Material Estimator",
-        "description": "Calculate fence materials needed for your property. Our free fence calculator estimates posts, panels, rails, and fasteners required. Perfect for wood, vinyl, and chain-link fence installation projects."
+    "useCases": [
+      {
+        "title": "Custom Stair Building",
+        "description": "Calculate precise stringer dimensions for custom residential stairs."
+      },
+      {
+        "title": "Deck Stair Construction",
+        "description": "Determine stringer requirements for exterior deck access stairs."
+      },
+      {
+        "title": "Lumber Purchasing",
+        "description": "Know exact board lengths needed before buying stringer material."
+      },
+      {
+        "title": "Carpentry Layout",
+        "description": "Get cutting angles and dimensions for accurate stringer fabrication."
+      }
+    ],
+    "seoTips": [
+      "Use 2x12 lumber for stringers to maintain adequate throat width",
+      "Minimum throat width should be 3.5 inches (8.9cm) for structural integrity",
+      "Cut stringers from straight, clear lumber without large knots",
+      "Use metal stringer brackets at top and bottom for secure attachment",
+      "Most codes require minimum 3 stringers for stairs wider than 36 inches"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Insufficient throat width",
+        "solution": "Use wider lumber or adjust rise/run to maintain 3.5 inch minimum throat"
+      },
+      {
+        "mistake": "Using knotty lumber",
+        "solution": "Select straight, clear boards - knots at cuts weaken stringers"
+      },
+      {
+        "mistake": "Incorrect number of stringers",
+        "solution": "Use 3 stringers for stairs over 30 inches wide, 4 for over 45 inches"
+      },
+      {
+        "mistake": "Poor attachment",
+        "solution": "Use approved metal connectors at top and bottom, not just nails"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What size lumber should I use for stair stringers?",
+        "answer": "2x12 boards are standard for most residential stairs. They provide adequate throat width after cutting notches for typical rise and run dimensions."
+      },
+      {
+        "question": "What is throat width and why does it matter?",
+        "answer": "Throat width is the narrowest part of the stringer after cutting. It must be at least 3.5 inches (8.9cm) for structural integrity."
+      },
+      {
+        "question": "How many stringers do I need?",
+        "answer": "Use 2 stringers for stairs up to 30 inches wide, 3 stringers for 30-45 inches, and 4 stringers for wider stairs."
+      },
+      {
+        "question": "How do I mark stringer cuts?",
+        "answer": "Use a framing square with stair gauges set to your rise and run measurements. Mark each step consistently along the board."
+      },
+      {
+        "question": "Should I drop the first riser?",
+        "answer": "Yes, drop the bottom of the stringer by one tread thickness so the first step height equals all other steps after tread installation."
+      }
+    ]
+  },
+  "fence": {
+    "title": "Fence Calculator",
+    "description": "Calculate fence materials including posts, panels, and rails needed for your fencing project.",
+    "unit": "Measurement Unit",
+    "unit_tooltip": "Select meters or feet for measurements",
+    "meters": "Meters",
+    "feet": "Feet",
+    "fence_length": "Fence Length",
+    "fence_length_tooltip": "Total length of the fence line",
+    "fence_height": "Fence Height",
+    "fence_height_tooltip": "Height of the fence above ground",
+    "post_spacing": "Post Spacing",
+    "post_spacing_tooltip": "Distance between fence posts (typically 2.4m or 8ft)",
+    "panel_width": "Panel Width",
+    "panel_width_tooltip": "Width of each fence panel (typically 1.8m or 6ft)",
+    "result_posts": "Total Posts Needed",
+    "posts_unit": "posts",
+    "materials_breakdown": "Materials Breakdown",
+    "total_panels": "Total Panels",
+    "total_rails": "Total Rails",
+    "rails_per_section": "per section",
+    "fence_area": "Fence Area",
+    "sq_meters": "sq m",
+    "sq_feet": "sq ft",
+    "concrete_needed": "Concrete for Posts",
+    "cubic_meters": "m³",
+    "installation_details": "Installation Details",
+    "post_hole_depth": "Recommended Post Hole Depth",
+    "meters_short": "m",
+    "concrete_per_post": "Concrete per Post",
+    "formula_title": "Calculation Formula",
+    "formula": "Posts = (Length / Spacing) + 1. Panels = Length / Panel Width. Rails depend on fence height.",
+    "info_title": "About Fence Calculation",
+    "info_description": "Accurate fence material estimation ensures you have enough posts, panels, and rails. Post spacing and panel width vary by fence type and local codes.",
+    "use_cases_title": "Common Uses",
+    "use_case_1": "Residential property fencing",
+    "use_case_2": "Garden and yard enclosures",
+    "use_case_3": "Commercial perimeter fencing",
+    "errors": {
+      "invalid_dimensions": "Please enter valid fence dimensions",
+      "positive_values": "Dimensions must be greater than zero",
+      "invalid_spacing": "Post spacing must be greater than zero",
+      "invalid_panel_width": "Panel width must be greater than zero"
     },
-    "lumber-calculator": {
-        "title": "Lumber Calculator - Wood Board Feet",
-        "description": "Calculate lumber quantities needed for construction projects. Our free lumber calculator estimates board feet, studs, and framing materials required. Perfect for carpentry, framing, and woodworking projects."
+    "placeholders": {
+      "fence_length": "30",
+      "fence_height": "1.8",
+      "post_spacing": "2.4",
+      "panel_width": "1.8"
     },
-    "deck-calculator": {
-        "title": "Deck Calculator - Wood Decking Materials",
-        "description": "Calculate deck materials needed for outdoor projects. Our free deck calculator estimates decking boards, joists, posts, and fasteners required. Perfect for building patios, porches, and outdoor living spaces."
-    }
+    "howItWorks": {
+      "title": "How the Fence Calculator Works",
+      "formula": "Posts = (Length / Spacing) + 1; Panels = Length / Panel Width",
+      "explanation": "This calculator determines the number of posts, panels, and rails needed based on fence length and standard spacing intervals. It also estimates concrete requirements for post installation.",
+      "steps": [
+        {
+          "name": "Step 1",
+          "text": "Measure the total fence line length"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter fence height (above ground)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify post spacing (typically 6-8 feet)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Set panel width based on your fence type"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review posts, panels, rails, and concrete needed"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Privacy Fencing",
+        "description": "Calculate materials for 6-foot privacy fences around residential properties."
+      },
+      {
+        "title": "Picket Fences",
+        "description": "Estimate pickets, posts, and rails for decorative front yard fencing."
+      },
+      {
+        "title": "Pool Enclosures",
+        "description": "Plan code-compliant pool fencing with proper height and gate allowances."
+      },
+      {
+        "title": "Farm and Ranch Fencing",
+        "description": "Calculate post and rail quantities for large agricultural fencing projects."
+      }
+    ],
+    "seoTips": [
+      "Set posts at least 1/3 of total post length below ground for stability",
+      "Use pressure-treated or cedar posts for ground contact to prevent rot",
+      "Space posts 6-8 feet apart for most residential fencing applications",
+      "Check local codes for fence height limits and setback requirements",
+      "Add extra posts at corners and gate locations for reinforcement"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Posts too shallow",
+        "solution": "Bury posts 1/3 of their length (minimum 2 feet) for stability"
+      },
+      {
+        "mistake": "No concrete for posts",
+        "solution": "Set posts in concrete for wind resistance and longevity"
+      },
+      {
+        "mistake": "Forgetting gates",
+        "solution": "Add extra posts and hardware for each gate location"
+      },
+      {
+        "mistake": "Ignoring property lines",
+        "solution": "Verify property boundaries before installation to avoid disputes"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How deep should fence posts be?",
+        "answer": "Fence posts should be buried 1/3 of their total length, with a minimum of 2 feet. For a 6-foot fence, use 8-foot posts with 2 feet below ground."
+      },
+      {
+        "question": "How much concrete per fence post?",
+        "answer": "Each post typically requires 1-2 bags (40-80 lbs) of concrete, depending on hole size. A 10-inch diameter hole, 2 feet deep needs about 1.5 bags."
+      },
+      {
+        "question": "What is the standard fence post spacing?",
+        "answer": "Standard spacing is 6-8 feet between posts for most residential fences. Shorter spacing provides more stability in high-wind areas."
+      },
+      {
+        "question": "Do I need a permit for a fence?",
+        "answer": "Most areas require permits for fences over 6 feet. Check local codes for height limits, setback requirements, and permit needs."
+      },
+      {
+        "question": "How long does a wooden fence last?",
+        "answer": "Cedar fences last 15-20 years, pressure-treated pine 15-20 years, and untreated pine 5-10 years. Proper maintenance extends lifespan."
+      }
+    ]
+  },
+  "lumber": {
+    "title": "Lumber Calculator",
+    "description": "Calculate board feet and lumber quantities for framing and construction projects.",
+    "unit": "Measurement Unit",
+    "unit_tooltip": "Select measurement unit for lumber dimensions",
+    "inches": "Inches",
+    "feet": "Feet",
+    "meters": "Meters",
+    "lumber_type": "Lumber Type",
+    "lumber_type_tooltip": "Select common lumber dimension",
+    "types": {
+      "2x4": "2×4 (38×89mm)",
+      "2x6": "2×6 (38×140mm)",
+      "2x8": "2×8 (38×184mm)",
+      "2x10": "2×10 (38×235mm)",
+      "2x12": "2×12 (38×286mm)",
+      "4x4": "4×4 (89×89mm)",
+      "custom": "Custom Dimensions"
+    },
+    "quantity": "Number of Pieces",
+    "quantity_tooltip": "How many pieces of lumber",
+    "length": "Length per Piece",
+    "length_tooltip": "Length of each piece in feet",
+    "result_board_feet": "Total Board Feet",
+    "bf": "board feet",
+    "details": "Lumber Details",
+    "total_linear": "Total Linear Feet",
+    "weight_estimate": "Estimated Weight",
+    "formula_title": "Calculation Formula",
+    "formula": "Board Feet = (Thickness × Width × Length) / 12. For dimensional lumber in inches and feet.",
+    "info_title": "About Lumber Calculation",
+    "info_description": "Board feet is the standard unit for lumber volume. Understanding board feet helps estimate costs and plan material orders.",
+    "use_cases_title": "Common Uses",
+    "use_case_1": "Wall framing studs",
+    "use_case_2": "Floor and ceiling joists",
+    "use_case_3": "Deck and outdoor construction",
+    "errors": {
+      "invalid_quantity": "Please enter valid quantity",
+      "invalid_length": "Please enter valid length",
+      "positive_values": "Values must be greater than zero"
+    },
+    "placeholders": {
+      "quantity": "50",
+      "length": "8"
+    },
+    "howItWorks": {
+      "title": "How the Lumber Calculator Works",
+      "formula": "Board Feet = (Thickness × Width × Length in inches) / 144",
+      "explanation": "This calculator converts lumber dimensions to board feet, the standard volume measurement for lumber. It helps estimate material quantities and costs for construction projects.",
+      "steps": [
+        {
+          "name": "Step 1",
+          "text": "Select lumber dimension or enter custom size"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter number of pieces needed"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify length of each piece"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review total board feet and linear feet"
+        },
+        {
+          "name": "Step 5",
+          "text": "Use board feet for cost estimation"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Wall Framing",
+        "description": "Calculate studs for interior and exterior wall framing."
+      },
+      {
+        "title": "Floor Joist Systems",
+        "description": "Estimate joist quantities for floor and ceiling framing."
+      },
+      {
+        "title": "Deck Construction",
+        "description": "Plan lumber needs for deck framing and railing."
+      },
+      {
+        "title": "Woodworking Projects",
+        "description": "Calculate board feet for furniture and custom millwork."
+      }
+    ],
+    "seoTips": [
+      "Nominal dimensions differ from actual - 2×4 is actually 1.5×3.5 inches",
+      "Kiln-dried lumber (KD) is preferred for interior framing",
+      "Pressure-treated lumber is required for ground contact and exterior use",
+      "Standard stud spacing is 16 inches on center, 24 inches for some applications",
+      "Order 5-10% extra lumber for waste, warped boards, and cutting"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Using nominal instead of actual dimensions",
+        "solution": "A 2×4 is actually 1.5×3.5 inches - use actual for precise calculations"
+      },
+      {
+        "mistake": "Not checking for straight lumber",
+        "solution": "Sight down each board for crowns, twists, and warps before purchasing"
+      },
+      {
+        "mistake": "Wrong lumber for application",
+        "solution": "Use pressure-treated for exterior, SPF for interior framing"
+      },
+      {
+        "mistake": "Insufficient header sizing",
+        "solution": "Size headers based on span and load - consult span tables"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "What is a board foot of lumber?",
+        "answer": "A board foot equals 144 cubic inches (1 inch thick × 12 inches wide × 12 inches long). It is the standard unit for lumber volume and pricing."
+      },
+      {
+        "question": "How many 2×4s in a wall?",
+        "answer": "For 16-inch on center spacing, divide wall length (in inches) by 16, add 1 for the end, plus extra for headers, cripples, and corners."
+      },
+      {
+        "question": "What is the actual size of a 2×4?",
+        "answer": "Actual dimensions are 1.5×3.5 inches (38×89mm). Nominal sizes are pre-drying dimensions that changed due to processing."
+      },
+      {
+        "question": "How much does lumber weigh?",
+        "answer": "Softwood lumber (pine, fir) weighs approximately 2.5-3 lbs per board foot when dried. Green lumber is heavier."
+      },
+      {
+        "question": "What is the difference between SPF and treated lumber?",
+        "answer": "SPF (Spruce-Pine-Fir) is untreated softwood for interior use. Pressure-treated lumber has preservatives for moisture and insect resistance in exterior applications."
+      }
+    ]
+  },
+  "deck": {
+    "title": "Deck Calculator",
+    "description": "Calculate decking boards, joists, posts, and fasteners for outdoor deck construction.",
+    "unit": "Measurement Unit",
+    "unit_tooltip": "Select meters or feet for deck dimensions",
+    "meters": "Meters",
+    "feet": "Feet",
+    "deck_length": "Deck Length",
+    "deck_length_tooltip": "Total length of the deck",
+    "deck_width": "Deck Width",
+    "deck_width_tooltip": "Total width of the deck",
+    "board_size": "Decking Board Size",
+    "board_size_tooltip": "Select the size of decking boards",
+    "board_sizes": {
+      "5_4x6": "5/4×6 (Standard Deck Board)",
+      "2x6": "2×6 (Heavier Deck Board)",
+      "2x4": "2×4 (Light Deck Board)",
+      "composite": "Composite (Standard Width)"
+    },
+    "board_length": "Board Length",
+    "board_length_tooltip": "Length of decking boards available",
+    "board_lengths": {
+      "8ft": "8 feet",
+      "10ft": "10 feet",
+      "12ft": "12 feet",
+      "14ft": "14 feet",
+      "16ft": "16 feet"
+    },
+    "joist_spacing": "Joist Spacing",
+    "joist_spacing_tooltip": "Center-to-center spacing between joists (inches)",
+    "joist_options": {
+      "12": "12 inches (heavy duty)",
+      "16": "16 inches (standard)",
+      "24": "24 inches (light duty)"
+    },
+    "waste_factor": "Waste Factor (%)",
+    "waste_factor_tooltip": "Extra material for cuts and waste (typically 10-15%)",
+    "result_area": "Total Deck Area",
+    "sqft": "sq ft",
+    "decking_materials": "Decking Materials",
+    "decking_boards": "Decking Boards",
+    "board_feet": "board feet",
+    "joists": "Joists",
+    "posts": "Posts",
+    "posts_label": "posts",
+    "footings": "Concrete Footings",
+    "beams": "Beams",
+    "doubled": "doubled",
+    "hardware": "Hardware & Fasteners",
+    "screws": "Deck Screws",
+    "boxes": "Boxes",
+    "screws_total": "screws total",
+    "formula_title": "Calculation Formula",
+    "formula": "Deck Area = Length × Width. Boards = (Area / Board Coverage) × (1 + Waste). Joists based on spacing.",
+    "info_title": "About Deck Calculation",
+    "info_description": "This calculator estimates all materials needed for deck construction including boards, framing lumber, posts, and fasteners based on your deck dimensions.",
+    "use_cases_title": "Common Uses",
+    "use_case_1": "Backyard deck construction",
+    "use_case_2": "Porch and patio decking",
+    "use_case_3": "Pool surrounds and outdoor living spaces",
+    "errors": {
+      "invalid_dimensions": "Please enter valid deck dimensions",
+      "positive_values": "Dimensions must be greater than zero",
+      "invalid_board_length": "Please enter a valid board length",
+      "invalid_waste": "Waste factor must be between 0 and 50%"
+    },
+    "placeholders": {
+      "length": "16",
+      "width": "12",
+      "waste": "10"
+    },
+    "howItWorks": {
+      "title": "How the Deck Calculator Works",
+      "formula": "Decking Boards = (Deck Area / Board Coverage) × (1 + Waste)",
+      "explanation": "This calculator determines decking boards based on surface area and board width. It also calculates joists, beams, posts, and fasteners needed for complete deck construction.",
+      "steps": [
+        {
+          "name": "Step 1",
+          "text": "Enter deck length and width dimensions"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select decking board width"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose joist spacing (16 inches is standard)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Set waste factor for cuts and scrap"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review all materials: boards, framing, fasteners"
+        }
+      ]
+    },
+    "useCases": [
+      {
+        "title": "Ground-Level Deck",
+        "description": "Calculate materials for freestanding ground-level decks."
+      },
+      {
+        "title": "Elevated Deck",
+        "description": "Plan materials for raised decks with post and beam framing."
+      },
+      {
+        "title": "Multi-Level Deck",
+        "description": "Estimate materials for complex multi-tier deck designs."
+      },
+      {
+        "title": "Deck Replacement",
+        "description": "Determine decking board quantities for surface replacement."
+      }
+    ],
+    "seoTips": [
+      "Use 16-inch joist spacing for most decking materials",
+      "Composite and PVC decking may require 12-inch spacing - check manufacturer specs",
+      "Posts should be set in concrete at least 42 inches deep in cold climates",
+      "Leave 1/8-inch gap between boards for drainage and expansion",
+      "Use stainless steel or coated screws with pressure-treated and composite decking"
+    ],
+    "commonMistakes": [
+      {
+        "mistake": "Joist spacing too wide",
+        "solution": "Follow decking manufacturer recommendations - typically 16 inches maximum"
+      },
+      {
+        "mistake": "Inadequate post depth",
+        "solution": "Set posts below frost line (42+ inches) to prevent heaving"
+      },
+      {
+        "mistake": "Wrong fasteners",
+        "solution": "Use approved screws for your decking type - ACQ-compatible for treated lumber"
+      },
+      {
+        "mistake": "No drainage slope",
+        "solution": "Install deck with slight slope (1/8 inch per foot) away from house"
+      }
+    ],
+    "faqs": [
+      {
+        "question": "How many deck boards do I need?",
+        "answer": "Divide deck square footage by board coverage (5.5-inch board covers 0.46 sq ft per linear foot). Add 10-15% for waste."
+      },
+      {
+        "question": "What size joists for a deck?",
+        "answer": "2×8 joists span up to 12 feet, 2×10 up to 15 feet, 2×12 up to 18 feet at 16-inch spacing. Check local codes for specific requirements."
+      },
+      {
+        "question": "How many screws per deck board?",
+        "answer": "Use 2 screws per joist crossing. A 12-foot board across 9 joists needs 18 screws. Plan for approximately 350 screws per 100 sq ft of decking."
+      },
+      {
+        "question": "Should I use treated lumber or composite?",
+        "answer": "Treated lumber costs less initially but requires maintenance. Composite costs more but is low-maintenance and lasts longer."
+      },
+      {
+        "question": "Do I need a permit for a deck?",
+        "answer": "Most areas require permits for decks over 200 sq ft or more than 30 inches above grade. Check local building codes."
+      }
+    ]
+  },
+  "stair-calculator": {
+    "title": "Stair Calculator - Staircase Dimensions",
+    "description": "Calculate staircase dimensions and materials needed. Our free stair calculator determines riser height, tread depth, and total steps. Essential for building code compliance and safe stairway design."
+  },
+  "stringer-calculator": {
+    "title": "Stringer Calculator - Stair Stringer Layout",
+    "description": "Calculate stair stringer cuts and dimensions. Our free stringer calculator helps layout wooden stair stringers with precise riser and tread cuts. Essential for carpenters building custom staircases."
+  },
+  "fence-calculator": {
+    "title": "Fence Calculator - Fencing Material Estimator",
+    "description": "Calculate fence materials needed for your property. Our free fence calculator estimates posts, panels, rails, and fasteners required. Perfect for wood, vinyl, and chain-link fence installation projects."
+  },
+  "lumber-calculator": {
+    "title": "Lumber Calculator - Wood Board Feet",
+    "description": "Calculate lumber quantities needed for construction projects. Our free lumber calculator estimates board feet, studs, and framing materials required. Perfect for carpentry, framing, and woodworking projects."
+  },
+  "deck-calculator": {
+    "title": "Deck Calculator - Wood Decking Materials",
+    "description": "Calculate deck materials needed for outdoor projects. Our free deck calculator estimates decking boards, joists, posts, and fasteners required. Perfect for building patios, porches, and outdoor living spaces."
+  }
 }

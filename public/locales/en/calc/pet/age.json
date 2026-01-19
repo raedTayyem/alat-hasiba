@@ -40,10 +40,22 @@
       "formula": "Year 1 = 15 human years, Year 2 = +9 years, Each year after = +4 years",
       "explanation": "Cats mature rapidly in their first two years, then age approximately 4 human years for each cat year after that. This calculator provides accurate human age equivalents.",
       "steps": [
-        "Enter your cat's age in years",
-        "Click Calculate to convert to human years",
-        "View the life stage classification",
-        "Review age-appropriate health tips"
+        {
+          "name": "Step 1",
+          "text": "Enter your cat's age in years"
+        },
+        {
+          "name": "Step 2",
+          "text": "Click Calculate to convert to human years"
+        },
+        {
+          "name": "Step 3",
+          "text": "View the life stage classification"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review age-appropriate health tips"
+        }
       ]
     },
     "useCases": [
@@ -130,10 +142,22 @@
       "formula": "Year 1 = 15 human years, Year 2 = +9 years, Each year after = +4 years",
       "explanation": "Cats mature rapidly in their first two years, then age approximately 4 human years for each cat year after that. This calculator provides accurate human age equivalents.",
       "steps": [
-        "Enter your cat's age in years",
-        "Click Calculate to convert to human years",
-        "View the life stage classification",
-        "Review age-appropriate health tips"
+        {
+          "name": "Step 1",
+          "text": "Enter your cat's age in years"
+        },
+        {
+          "name": "Step 2",
+          "text": "Click Calculate to convert to human years"
+        },
+        {
+          "name": "Step 3",
+          "text": "View the life stage classification"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review age-appropriate health tips"
+        }
       ]
     },
     "useCases": [
@@ -224,10 +248,22 @@
       "formula": "Age varies by size: Small dogs age slower after maturity, giant breeds age faster",
       "explanation": "This calculator converts dog years to human years accounting for breed size. Dogs age rapidly in their first two years, then aging slows but varies significantly by size category.",
       "steps": [
-        "Enter your dog's age in years",
-        "Select your dog's size category",
-        "Click Calculate to see the equivalent human age",
-        "Review the life stage and appropriate health tips"
+        {
+          "name": "Step 1",
+          "text": "Enter your dog's age in years"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select your dog's size category"
+        },
+        {
+          "name": "Step 3",
+          "text": "Click Calculate to see the equivalent human age"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review the life stage and appropriate health tips"
+        }
       ]
     },
     "useCases": [
@@ -318,10 +354,22 @@
       "formula": "Age varies by size: Small dogs age slower after maturity, giant breeds age faster",
       "explanation": "This calculator converts dog years to human years accounting for breed size. Dogs age rapidly in their first two years, then aging slows but varies significantly by size category.",
       "steps": [
-        "Enter your dog's age in years",
-        "Select your dog's size category",
-        "Click Calculate to see the equivalent human age",
-        "Review the life stage and appropriate health tips"
+        {
+          "name": "Step 1",
+          "text": "Enter your dog's age in years"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select your dog's size category"
+        },
+        {
+          "name": "Step 3",
+          "text": "Click Calculate to see the equivalent human age"
+        },
+        {
+          "name": "Step 4",
+          "text": "Review the life stage and appropriate health tips"
+        }
       ]
     },
     "useCases": [
@@ -403,10 +451,22 @@
       "formula": "Lifespan varies by species: Syrian 2-3 years, Dwarf 1.5-2 years, Roborovski 3-3.5 years",
       "explanation": "This calculator estimates your hamster's age in human terms and predicts remaining lifespan based on species-specific life expectancy data.",
       "steps": [
-        "Select your hamster's species",
-        "Enter their current age in months",
-        "View estimated human age equivalent",
-        "See life stage and remaining time estimate"
+        {
+          "name": "Step 1",
+          "text": "Select your hamster's species"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter their current age in months"
+        },
+        {
+          "name": "Step 3",
+          "text": "View estimated human age equivalent"
+        },
+        {
+          "name": "Step 4",
+          "text": "See life stage and remaining time estimate"
+        }
       ]
     },
     "useCases": [
@@ -488,10 +548,22 @@
       "formula": "Lifespan varies by species: Syrian 2-3 years, Dwarf 1.5-2 years, Roborovski 3-3.5 years",
       "explanation": "This calculator estimates your hamster's age in human terms and predicts remaining lifespan based on species-specific life expectancy data.",
       "steps": [
-        "Select your hamster's species",
-        "Enter their current age in months",
-        "View estimated human age equivalent",
-        "See life stage and remaining time estimate"
+        {
+          "name": "Step 1",
+          "text": "Select your hamster's species"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter their current age in months"
+        },
+        {
+          "name": "Step 3",
+          "text": "View estimated human age equivalent"
+        },
+        {
+          "name": "Step 4",
+          "text": "See life stage and remaining time estimate"
+        }
       ]
     },
     "useCases": [
@@ -571,10 +643,22 @@
       "formula": "Adult weight estimate based on current weight and age growth curve",
       "explanation": "This calculator tracks your kitten's growth progress and predicts adult weight based on standard feline growth patterns.",
       "steps": [
-        "Enter your kitten's current weight",
-        "Enter their age in weeks",
-        "View projected adult weight",
-        "Check if growth is on track"
+        {
+          "name": "Step 1",
+          "text": "Enter your kitten's current weight"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter their age in weeks"
+        },
+        {
+          "name": "Step 3",
+          "text": "View projected adult weight"
+        },
+        {
+          "name": "Step 4",
+          "text": "Check if growth is on track"
+        }
       ]
     },
     "useCases": [
@@ -654,10 +738,22 @@
       "formula": "Adult weight projection based on current weight at age, using growth curve data",
       "explanation": "This calculator tracks your kitten's development against standard growth curves, projecting adult size and identifying potential weight concerns.",
       "steps": [
-        "Enter your kitten's current weight",
-        "Input their age in weeks",
-        "View projected adult weight",
-        "Check growth status against healthy ranges"
+        {
+          "name": "Step 1",
+          "text": "Enter your kitten's current weight"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input their age in weeks"
+        },
+        {
+          "name": "Step 3",
+          "text": "View projected adult weight"
+        },
+        {
+          "name": "Step 4",
+          "text": "Check growth status against healthy ranges"
+        }
       ]
     },
     "useCases": [
@@ -740,10 +836,22 @@
       "formula": "Adult weight prediction based on current weight, age, and breed size",
       "explanation": "This calculator predicts your puppy's adult weight using growth curves specific to different breed sizes. Small breeds mature faster than giant breeds.",
       "steps": [
-        "Enter your puppy's current weight",
-        "Enter their age in months",
-        "Select their breed size category",
-        "View predicted adult weight and maturity timeline"
+        {
+          "name": "Step 1",
+          "text": "Enter your puppy's current weight"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter their age in months"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select their breed size category"
+        },
+        {
+          "name": "Step 4",
+          "text": "View predicted adult weight and maturity timeline"
+        }
       ]
     },
     "useCases": [
@@ -826,10 +934,22 @@
       "formula": "Adult weight prediction based on current weight, age, and breed size",
       "explanation": "This calculator predicts your puppy's adult weight using growth curves specific to different breed sizes. Small breeds mature faster than giant breeds.",
       "steps": [
-        "Enter your puppy's current weight",
-        "Enter their age in months",
-        "Select their breed size category",
-        "View predicted adult weight and maturity timeline"
+        {
+          "name": "Step 1",
+          "text": "Enter your puppy's current weight"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter their age in months"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select their breed size category"
+        },
+        {
+          "name": "Step 4",
+          "text": "View predicted adult weight and maturity timeline"
+        }
       ]
     },
     "useCases": [

@@ -54,11 +54,26 @@
       "formula": "Straight-Line: (Cost - Salvage) / Useful Life",
       "explanation": "Depreciation allocates an asset's cost over its useful life. Straight-line spreads cost evenly each year. Declining balance methods front-load depreciation, providing larger deductions in early years. The method chosen affects tax benefits and financial statements.",
       "steps": [
-        "Enter the original asset cost (purchase price)",
-        "Input the estimated salvage value at end of useful life",
-        "Specify the useful life in years",
-        "Select depreciation method (straight-line, declining balance)",
-        "Calculator shows annual depreciation, accumulated depreciation, and book value schedule"
+        {
+          "name": "Step 1",
+          "text": "Enter the original asset cost (purchase price)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the estimated salvage value at end of useful life"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify the useful life in years"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select depreciation method (straight-line, declining balance)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator shows annual depreciation, accumulated depreciation, and book value schedule"
+        }
       ]
     },
     "useCases": [

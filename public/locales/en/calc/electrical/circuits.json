@@ -35,10 +35,22 @@
       "formula": "Vout = 1.25V × (1 + R2/R1)",
       "explanation": "The LM317 is an adjustable linear voltage regulator that uses two external resistors to set the output voltage. It maintains a constant 1.25V reference between the output and adjust pins.",
       "steps": [
-        "Enter your desired output voltage (1.25V to 37V)",
-        "Set R1 value (typically 240Ω for optimal stability)",
-        "The calculator computes the required R2 value",
-        "Select the nearest standard resistor value"
+        {
+          "name": "Step 1",
+          "text": "Enter your desired output voltage (1.25V to 37V)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Set R1 value (typically 240Ω for optimal stability)"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator computes the required R2 value"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select the nearest standard resistor value"
+        }
       ]
     },
     "useCases": [
@@ -100,10 +112,22 @@
       "formula": "f₀ = 1 / (2π√LC)",
       "explanation": "Calculates the resonant frequency where inductive and capacitive reactances are equal and cancel out. At resonance, the circuit exhibits minimum impedance (series) or maximum impedance (parallel).",
       "steps": [
-        "Enter the inductance value (L)",
-        "Enter the capacitance value (C)",
-        "Enter resistance for Q factor calculation",
-        "View resonant frequency, Q factor, and bandwidth"
+        {
+          "name": "Step 1",
+          "text": "Enter the inductance value (L)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the capacitance value (C)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter resistance for Q factor calculation"
+        },
+        {
+          "name": "Step 4",
+          "text": "View resonant frequency, Q factor, and bandwidth"
+        }
       ]
     },
     "useCases": [
@@ -162,10 +186,22 @@
       "formula": "E = ½LI², XL = 2πfL",
       "explanation": "Calculates energy stored in an inductor's magnetic field and its reactance at a given frequency. Inductors store energy proportional to current squared and oppose changes in current.",
       "steps": [
-        "Enter the inductance value (L)",
-        "Enter the current through the inductor",
-        "Optionally enter frequency for reactance calculation",
-        "View stored energy and inductive reactance"
+        {
+          "name": "Step 1",
+          "text": "Enter the inductance value (L)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the current through the inductor"
+        },
+        {
+          "name": "Step 3",
+          "text": "Optionally enter frequency for reactance calculation"
+        },
+        {
+          "name": "Step 4",
+          "text": "View stored energy and inductive reactance"
+        }
       ]
     },
     "useCases": [
@@ -237,10 +273,22 @@
       "formula": "XL = 2πfL, XC = 1/(2πfC)",
       "explanation": "Calculates the opposition to AC current flow from inductors and capacitors. Inductive reactance increases with frequency, while capacitive reactance decreases with frequency.",
       "steps": [
-        "Select reactance type (inductive or capacitive)",
-        "Enter the component value (L or C)",
-        "Enter the AC frequency",
-        "View the calculated reactance in ohms"
+        {
+          "name": "Step 1",
+          "text": "Select reactance type (inductive or capacitive)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the component value (L or C)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the AC frequency"
+        },
+        {
+          "name": "Step 4",
+          "text": "View the calculated reactance in ohms"
+        }
       ]
     },
     "useCases": [
@@ -312,10 +360,22 @@
       "formula": "P = √3 × VL × IL × cos(φ)",
       "explanation": "Calculates power relationships in three-phase systems, which are more efficient than single-phase for high-power applications. Supports both star (Y) and delta (Δ) configurations.",
       "steps": [
-        "Select the connection type (Star or Delta)",
-        "Enter line voltage and line current",
-        "Enter the power factor",
-        "View active, reactive, and apparent power"
+        {
+          "name": "Step 1",
+          "text": "Select the connection type (Star or Delta)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter line voltage and line current"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the power factor"
+        },
+        {
+          "name": "Step 4",
+          "text": "View active, reactive, and apparent power"
+        }
       ]
     },
     "useCases": [
@@ -384,10 +444,22 @@
       "formula": "Inverting: Av = -R2/R1 | Non-inverting: Av = 1 + R2/R1",
       "explanation": "Calculates voltage gain and output for operational amplifier circuits. Inverting configuration inverts the signal, while non-inverting maintains polarity.",
       "steps": [
-        "Select configuration (inverting or non-inverting)",
-        "Enter input voltage (Vin)",
-        "Enter resistor values R1 and R2",
-        "View calculated gain and output voltage"
+        {
+          "name": "Step 1",
+          "text": "Select configuration (inverting or non-inverting)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter input voltage (Vin)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter resistor values R1 and R2"
+        },
+        {
+          "name": "Step 4",
+          "text": "View calculated gain and output voltage"
+        }
       ]
     },
     "useCases": [
@@ -456,10 +528,22 @@
       "formula": "f = 1.44 / ((R1 + 2R2) × C)",
       "explanation": "Calculates timing parameters for the versatile 555 timer IC. In astable mode, it generates a continuous square wave. In monostable mode, it produces a single pulse when triggered.",
       "steps": [
-        "Select operation mode (Astable or Monostable)",
-        "Enter resistor R1 value",
-        "Enter resistor R2 value (astable mode)",
-        "Enter capacitor C value"
+        {
+          "name": "Step 1",
+          "text": "Select operation mode (Astable or Monostable)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter resistor R1 value"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter resistor R2 value (astable mode)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter capacitor C value"
+        }
       ]
     },
     "useCases": [
@@ -513,10 +597,22 @@
       "formula": "Z = √(R² + (XL - XC)²)",
       "explanation": "Calculates impedance, phase angle, and power for AC circuits containing resistance, inductance, and capacitance. AC circuits behave differently from DC due to reactive components.",
       "steps": [
-        "Enter resistance (R), inductance (L), and capacitance (C)",
-        "Enter the AC voltage and frequency",
-        "View impedance, phase angle, and power factor",
-        "Calculate active, reactive, and apparent power"
+        {
+          "name": "Step 1",
+          "text": "Enter resistance (R), inductance (L), and capacitance (C)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the AC voltage and frequency"
+        },
+        {
+          "name": "Step 3",
+          "text": "View impedance, phase angle, and power factor"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculate active, reactive, and apparent power"
+        }
       ]
     },
     "useCases": [
@@ -578,10 +674,22 @@
       "formula": "Q = CV, E = ½CV², XC = 1/(2πfC)",
       "explanation": "Calculates the charge stored, energy stored, and reactance of a capacitor. Capacitors store energy in an electric field and oppose voltage changes in AC circuits.",
       "steps": [
-        "Enter capacitance value in µF",
-        "Enter applied voltage",
-        "Optionally enter frequency for reactance calculation",
-        "View charge, energy, reactance, and AC current"
+        {
+          "name": "Step 1",
+          "text": "Enter capacitance value in µF"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter applied voltage"
+        },
+        {
+          "name": "Step 3",
+          "text": "Optionally enter frequency for reactance calculation"
+        },
+        {
+          "name": "Step 4",
+          "text": "View charge, energy, reactance, and AC current"
+        }
       ]
     },
     "useCases": [
@@ -648,10 +756,22 @@
       "formula": "dB = 10 × log₁₀(P1/P2) or dB = 20 × log₁₀(V1/V2)",
       "explanation": "Converts ratios to decibels using logarithmic scales. Power ratios use factor of 10, while voltage/current ratios use factor of 20 due to the square relationship between power and voltage.",
       "steps": [
-        "Select calculation type (power or voltage/current ratio)",
-        "Enter the two values to compare",
-        "View the result in decibels",
-        "Or enter dB to find the ratio"
+        {
+          "name": "Step 1",
+          "text": "Select calculation type (power or voltage/current ratio)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the two values to compare"
+        },
+        {
+          "name": "Step 3",
+          "text": "View the result in decibels"
+        },
+        {
+          "name": "Step 4",
+          "text": "Or enter dB to find the ratio"
+        }
       ]
     },
     "useCases": [
@@ -724,10 +844,22 @@
       "formula": "f = 1/T, λ = c/f, ω = 2πf",
       "explanation": "Calculates the relationships between frequency, period, wavelength, and angular frequency. These are fundamental properties of all wave phenomena.",
       "steps": [
-        "Select what you want to calculate",
-        "Enter the known value (frequency, period, or wavelength)",
-        "View all related wave properties",
-        "Use angular frequency for circuit analysis"
+        {
+          "name": "Step 1",
+          "text": "Select what you want to calculate"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the known value (frequency, period, or wavelength)"
+        },
+        {
+          "name": "Step 3",
+          "text": "View all related wave properties"
+        },
+        {
+          "name": "Step 4",
+          "text": "Use angular frequency for circuit analysis"
+        }
       ]
     },
     "useCases": [
@@ -792,10 +924,22 @@
       "formula": "Z = √(R² + X²), φ = arctan(X/R)",
       "explanation": "Calculates total impedance from resistance and reactance components. Impedance is the AC equivalent of resistance, including the phase angle between voltage and current.",
       "steps": [
-        "Enter the resistance value (R) in ohms",
-        "Enter the reactance value (X) in ohms",
-        "Positive X = inductive, negative X = capacitive",
-        "View impedance magnitude and phase angle"
+        {
+          "name": "Step 1",
+          "text": "Enter the resistance value (R) in ohms"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the reactance value (X) in ohms"
+        },
+        {
+          "name": "Step 3",
+          "text": "Positive X = inductive, negative X = capacitive"
+        },
+        {
+          "name": "Step 4",
+          "text": "View impedance magnitude and phase angle"
+        }
       ]
     },
     "useCases": [

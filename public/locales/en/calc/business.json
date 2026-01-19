@@ -39,11 +39,26 @@
       "formula": "Break-Even Point = Fixed Costs / (Selling Price - Variable Cost per Unit)",
       "explanation": "Break-even analysis determines the point where total revenue equals total costs, resulting in neither profit nor loss. The contribution margin (selling price minus variable cost) represents how much each unit sold contributes to covering fixed costs.",
       "steps": [
-        "Enter your total fixed costs (rent, salaries, insurance, etc.)",
-        "Input the selling price per unit of your product or service",
-        "Enter the variable cost to produce or acquire each unit",
-        "The calculator divides fixed costs by the contribution margin",
-        "Result shows the number of units needed to break even"
+        {
+          "name": "Step 1",
+          "text": "Enter your total fixed costs (rent, salaries, insurance, etc.)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the selling price per unit of your product or service"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the variable cost to produce or acquire each unit"
+        },
+        {
+          "name": "Step 4",
+          "text": "The calculator divides fixed costs by the contribution margin"
+        },
+        {
+          "name": "Step 5",
+          "text": "Result shows the number of units needed to break even"
+        }
       ]
     },
     "useCases": [
@@ -155,11 +170,26 @@
       "formula": "Profit Margin = (Net Profit / Revenue) × 100",
       "explanation": "Profit margin measures how much of each dollar in revenue translates to profit. There are three key margins: Gross margin (after COGS), Operating margin (after operating expenses), and Net margin (after all expenses including taxes and interest).",
       "steps": [
-        "Enter your total revenue from sales",
-        "Input cost of goods sold (direct production costs)",
-        "Add operating expenses (rent, salaries, utilities)",
-        "Include other expenses (taxes, interest, depreciation)",
-        "Calculator shows gross, operating, and net profit margins"
+        {
+          "name": "Step 1",
+          "text": "Enter your total revenue from sales"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input cost of goods sold (direct production costs)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Add operating expenses (rent, salaries, utilities)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Include other expenses (taxes, interest, depreciation)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator shows gross, operating, and net profit margins"
+        }
       ]
     },
     "useCases": [
@@ -278,11 +308,26 @@
       "formula": "Productivity Score = (Completion Rate + Time Efficiency) / 2",
       "explanation": "Productivity measurement combines task completion rate (tasks completed vs planned) with time efficiency (time allocated vs actual time spent). A balanced score considers both getting work done and doing it within expected timeframes.",
       "steps": [
-        "Enter the number of tasks planned for the period",
-        "Input the number of tasks actually completed",
-        "Specify the time allocated for these tasks",
-        "Enter the actual time spent on the tasks",
-        "Calculator computes completion rate, time efficiency, and overall productivity score"
+        {
+          "name": "Step 1",
+          "text": "Enter the number of tasks planned for the period"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the number of tasks actually completed"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify the time allocated for these tasks"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter the actual time spent on the tasks"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator computes completion rate, time efficiency, and overall productivity score"
+        }
       ]
     },
     "useCases": [
@@ -380,11 +425,26 @@
       "formula": "Quick Ratio = (Current Assets - Inventory) / Current Liabilities",
       "explanation": "The quick ratio, also called the acid-test ratio, measures a company's ability to pay short-term obligations using only its most liquid assets. By excluding inventory (which may take time to sell), it provides a more conservative measure of liquidity than the current ratio.",
       "steps": [
-        "Enter total current assets (cash, receivables, marketable securities, inventory)",
-        "Input the value of inventory separately",
-        "Enter total current liabilities (debts due within one year)",
-        "Calculator subtracts inventory from current assets",
-        "Quick ratio is computed by dividing liquid assets by current liabilities"
+        {
+          "name": "Step 1",
+          "text": "Enter total current assets (cash, receivables, marketable securities, inventory)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the value of inventory separately"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter total current liabilities (debts due within one year)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator subtracts inventory from current assets"
+        },
+        {
+          "name": "Step 5",
+          "text": "Quick ratio is computed by dividing liquid assets by current liabilities"
+        }
       ]
     },
     "useCases": [
@@ -475,11 +535,26 @@
       "formula": "Working Capital = Current Assets - Current Liabilities",
       "explanation": "Working capital measures the short-term financial health of a business by comparing assets that can be converted to cash within a year against liabilities due within the same period. Positive working capital indicates ability to fund day-to-day operations and invest in growth.",
       "steps": [
-        "Enter total current assets (cash, inventory, receivables, prepaid expenses)",
-        "Input total current liabilities (payables, short-term debt, accrued expenses)",
-        "Calculator subtracts liabilities from assets",
-        "Positive result means excess liquidity; negative means potential cash shortage",
-        "Current ratio is also calculated (assets divided by liabilities)"
+        {
+          "name": "Step 1",
+          "text": "Enter total current assets (cash, inventory, receivables, prepaid expenses)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input total current liabilities (payables, short-term debt, accrued expenses)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator subtracts liabilities from assets"
+        },
+        {
+          "name": "Step 4",
+          "text": "Positive result means excess liquidity; negative means potential cash shortage"
+        },
+        {
+          "name": "Step 5",
+          "text": "Current ratio is also calculated (assets divided by liabilities)"
+        }
       ]
     },
     "useCases": [
@@ -582,11 +657,26 @@
       "formula": "Commission = Sales Amount × (Commission Rate / 100)",
       "explanation": "Commission compensates salespeople based on their sales performance. It can be the sole compensation (straight commission) or combined with a base salary. Total earnings equal base salary plus commission earned.",
       "steps": [
-        "Enter the total sales amount generated",
-        "Input the commission rate percentage",
-        "Optionally add a base salary amount",
-        "Calculator computes the commission earned",
-        "View total earnings (base + commission)"
+        {
+          "name": "Step 1",
+          "text": "Enter the total sales amount generated"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the commission rate percentage"
+        },
+        {
+          "name": "Step 3",
+          "text": "Optionally add a base salary amount"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator computes the commission earned"
+        },
+        {
+          "name": "Step 5",
+          "text": "View total earnings (base + commission)"
+        }
       ]
     },
     "useCases": [
@@ -678,11 +768,26 @@
       "formula": "Current Ratio = Current Assets / Current Liabilities",
       "explanation": "The current ratio measures a company's ability to pay short-term obligations with short-term assets. A ratio above 1.0 means the company has more current assets than current liabilities, indicating it can meet its short-term financial obligations.",
       "steps": [
-        "Enter total current assets (cash, receivables, inventory, prepaid expenses)",
-        "Input total current liabilities (payables, short-term debt, accrued expenses)",
-        "Calculator divides current assets by current liabilities",
-        "Ratio above 1.0 indicates positive liquidity",
-        "Higher ratios generally indicate better ability to pay debts"
+        {
+          "name": "Step 1",
+          "text": "Enter total current assets (cash, receivables, inventory, prepaid expenses)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input total current liabilities (payables, short-term debt, accrued expenses)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator divides current assets by current liabilities"
+        },
+        {
+          "name": "Step 4",
+          "text": "Ratio above 1.0 indicates positive liquidity"
+        },
+        {
+          "name": "Step 5",
+          "text": "Higher ratios generally indicate better ability to pay debts"
+        }
       ]
     },
     "useCases": [
@@ -774,11 +879,26 @@
       "formula": "Debt to Equity Ratio = Total Debt / Total Shareholders' Equity",
       "explanation": "The debt-to-equity ratio measures how much debt a company uses to finance its operations compared to shareholders' equity. A higher ratio indicates more leverage and potentially higher financial risk, while a lower ratio suggests more conservative financing.",
       "steps": [
-        "Enter total debt (short-term and long-term liabilities)",
-        "Input total shareholders' equity (assets minus liabilities)",
-        "Calculator divides total debt by total equity",
-        "Result shows how much debt is used per dollar of equity",
-        "Compare to industry benchmarks to assess risk level"
+        {
+          "name": "Step 1",
+          "text": "Enter total debt (short-term and long-term liabilities)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input total shareholders' equity (assets minus liabilities)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator divides total debt by total equity"
+        },
+        {
+          "name": "Step 4",
+          "text": "Result shows how much debt is used per dollar of equity"
+        },
+        {
+          "name": "Step 5",
+          "text": "Compare to industry benchmarks to assess risk level"
+        }
       ]
     },
     "useCases": [
@@ -884,11 +1004,26 @@
       "formula": "Payback Period = Initial Investment / Annual Cash Flow",
       "explanation": "The payback period measures how long it takes to recover the initial investment from cash flows generated by the project. Shorter payback periods indicate lower risk as the investment is recovered sooner, but this metric ignores the time value of money and cash flows beyond the payback point.",
       "steps": [
-        "Enter the initial investment amount",
-        "Input the expected annual cash flow from the investment",
-        "Optionally add salvage value for equipment investments",
-        "Calculator divides net investment by annual cash flow",
-        "Result shows years and months to recover the investment"
+        {
+          "name": "Step 1",
+          "text": "Enter the initial investment amount"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the expected annual cash flow from the investment"
+        },
+        {
+          "name": "Step 3",
+          "text": "Optionally add salvage value for equipment investments"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator divides net investment by annual cash flow"
+        },
+        {
+          "name": "Step 5",
+          "text": "Result shows years and months to recover the investment"
+        }
       ]
     },
     "useCases": [
@@ -993,11 +1128,26 @@
       "formula": "ROI = ((Final Value - Initial Investment) / Initial Investment) × 100",
       "explanation": "ROI measures the percentage return on an investment by comparing the gain or loss to the initial cost. Annualized ROI adjusts for the investment period to enable fair comparisons between investments of different durations.",
       "steps": [
-        "Enter the initial investment amount",
-        "Input the final or current value of the investment",
-        "Specify the investment period in years",
-        "Calculator computes total and annualized ROI",
-        "Review the net profit and payback analysis"
+        {
+          "name": "Step 1",
+          "text": "Enter the initial investment amount"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the final or current value of the investment"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify the investment period in years"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator computes total and annualized ROI"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review the net profit and payback analysis"
+        }
       ]
     },
     "useCases": [
@@ -1121,11 +1271,26 @@
       "formula": "VAT Amount = Price × (VAT Rate / 100)",
       "explanation": "VAT (Value Added Tax) is calculated as a percentage of the net price. To add VAT, multiply the price by (1 + rate/100). To extract VAT from a gross price, divide by (1 + rate/100) to find the net price.",
       "steps": [
-        "Select whether to add VAT or extract VAT from total",
-        "Enter the price (net price for adding, gross price for extracting)",
-        "Input your country's VAT rate percentage",
-        "Calculator shows the VAT amount and final price",
-        "View the breakdown of net price, VAT, and total"
+        {
+          "name": "Step 1",
+          "text": "Select whether to add VAT or extract VAT from total"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the price (net price for adding, gross price for extracting)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Input your country's VAT rate percentage"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator shows the VAT amount and final price"
+        },
+        {
+          "name": "Step 5",
+          "text": "View the breakdown of net price, VAT, and total"
+        }
       ]
     },
     "useCases": [
@@ -1452,11 +1617,26 @@
       "formula": "CPM = (Total Ad Cost / Total Impressions) × 1000",
       "explanation": "CPM (Cost Per Mille) measures the cost to reach 1,000 impressions with your advertisement. It's the standard metric for comparing display advertising costs across different platforms, publications, and campaign types.",
       "steps": [
-        "Enter the total cost of your advertising campaign",
-        "Input the total number of impressions delivered",
-        "Calculator divides cost by impressions and multiplies by 1000",
-        "Result shows your cost per thousand impressions",
-        "Compare against industry benchmarks and other campaigns"
+        {
+          "name": "Step 1",
+          "text": "Enter the total cost of your advertising campaign"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the total number of impressions delivered"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator divides cost by impressions and multiplies by 1000"
+        },
+        {
+          "name": "Step 4",
+          "text": "Result shows your cost per thousand impressions"
+        },
+        {
+          "name": "Step 5",
+          "text": "Compare against industry benchmarks and other campaigns"
+        }
       ]
     },
     "useCases": [
@@ -1556,11 +1736,26 @@
       "formula": "CPC = Total Ad Cost / Total Clicks",
       "explanation": "CPC (Cost Per Click) measures how much you pay each time someone clicks on your advertisement. It's the primary metric for pay-per-click (PPC) advertising on platforms like Google Ads, Facebook, and Bing. Lower CPC with high-quality traffic means more efficient ad spend.",
       "steps": [
-        "Enter the total amount spent on your PPC campaign",
-        "Input the total number of clicks received",
-        "Calculator divides total cost by total clicks",
-        "Result shows your average cost per click",
-        "Compare to industry benchmarks to evaluate efficiency"
+        {
+          "name": "Step 1",
+          "text": "Enter the total amount spent on your PPC campaign"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the total number of clicks received"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator divides total cost by total clicks"
+        },
+        {
+          "name": "Step 4",
+          "text": "Result shows your average cost per click"
+        },
+        {
+          "name": "Step 5",
+          "text": "Compare to industry benchmarks to evaluate efficiency"
+        }
       ]
     },
     "useCases": [
@@ -1660,11 +1855,26 @@
       "formula": "CPA = Total Marketing Cost / Total Conversions",
       "explanation": "CPA (Cost Per Acquisition) measures how much you spend to acquire one customer or conversion. It's the ultimate efficiency metric for performance marketing, connecting marketing spend directly to business outcomes like sales, sign-ups, or leads.",
       "steps": [
-        "Enter total marketing and advertising costs",
-        "Input the total number of conversions achieved",
-        "Calculator divides total cost by conversions",
-        "Result shows your average cost per acquisition",
-        "Compare to customer lifetime value to ensure profitability"
+        {
+          "name": "Step 1",
+          "text": "Enter total marketing and advertising costs"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the total number of conversions achieved"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator divides total cost by conversions"
+        },
+        {
+          "name": "Step 4",
+          "text": "Result shows your average cost per acquisition"
+        },
+        {
+          "name": "Step 5",
+          "text": "Compare to customer lifetime value to ensure profitability"
+        }
       ]
     },
     "useCases": [
@@ -1765,11 +1975,26 @@
       "formula": "ROAS = Revenue from Ads / Ad Cost (or expressed as ratio like 4:1)",
       "explanation": "ROAS (Return on Ad Spend) measures how much revenue you generate for every dollar spent on advertising. A ROAS of 4:1 means you earn $4 for every $1 spent on ads. It's the key metric for determining advertising profitability and budget allocation.",
       "steps": [
-        "Enter total revenue attributed to advertising campaigns",
-        "Input total advertising cost for those campaigns",
-        "Calculator divides revenue by ad cost",
-        "Result shows your return multiplier (e.g., 4x or 400%)",
-        "Net profit is also calculated (revenue minus ad cost)"
+        {
+          "name": "Step 1",
+          "text": "Enter total revenue attributed to advertising campaigns"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input total advertising cost for those campaigns"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator divides revenue by ad cost"
+        },
+        {
+          "name": "Step 4",
+          "text": "Result shows your return multiplier (e.g., 4x or 400%)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Net profit is also calculated (revenue minus ad cost)"
+        }
       ]
     },
     "useCases": [
@@ -1881,11 +2106,26 @@
       "formula": "Conversion Rate = (Conversions / Total Visitors) × 100%",
       "explanation": "Conversion rate measures the percentage of visitors who complete a desired action - purchasing, signing up, downloading, or any defined goal. It's the fundamental metric for measuring website and marketing effectiveness.",
       "steps": [
-        "Enter the total number of conversions (sales, sign-ups, etc.)",
-        "Input the total number of visitors to your page or site",
-        "Calculator divides conversions by visitors and multiplies by 100",
-        "Result shows your conversion rate as a percentage",
-        "Compare to industry benchmarks and track improvements"
+        {
+          "name": "Step 1",
+          "text": "Enter the total number of conversions (sales, sign-ups, etc.)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the total number of visitors to your page or site"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator divides conversions by visitors and multiplies by 100"
+        },
+        {
+          "name": "Step 4",
+          "text": "Result shows your conversion rate as a percentage"
+        },
+        {
+          "name": "Step 5",
+          "text": "Compare to industry benchmarks and track improvements"
+        }
       ]
     },
     "useCases": [
@@ -1999,11 +2239,26 @@
       "formula": "Engagement Rate = (Likes + Comments + Shares) / Followers × 100%",
       "explanation": "Engagement rate measures how actively your audience interacts with your content relative to your follower count. It's the key metric for evaluating content quality, audience connection, and social media performance beyond vanity metrics like follower count.",
       "steps": [
-        "Enter the total likes on your post or average across posts",
-        "Add the total number of comments received",
-        "Include shares, retweets, or saves as applicable",
-        "Input your total follower count",
-        "Calculator computes engagement rate and provides performance rating"
+        {
+          "name": "Step 1",
+          "text": "Enter the total likes on your post or average across posts"
+        },
+        {
+          "name": "Step 2",
+          "text": "Add the total number of comments received"
+        },
+        {
+          "name": "Step 3",
+          "text": "Include shares, retweets, or saves as applicable"
+        },
+        {
+          "name": "Step 4",
+          "text": "Input your total follower count"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator computes engagement rate and provides performance rating"
+        }
       ]
     },
     "useCases": [
@@ -2124,11 +2379,26 @@
       "formula": "Shipping Cost = Max(Actual Weight, Dimensional Weight) × Rate × Distance Factor",
       "explanation": "Carriers charge based on the greater of actual weight or dimensional weight (calculated from package dimensions). Dimensional weight accounts for space the package occupies, not just its mass. This ensures fair pricing for lightweight but bulky items.",
       "steps": [
-        "Enter the actual weight of your package",
-        "Input package dimensions (length, width, height)",
-        "Specify the shipping distance",
-        "Enter the carrier rate per kilogram",
-        "Calculator determines billable weight and total shipping cost"
+        {
+          "name": "Step 1",
+          "text": "Enter the actual weight of your package"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input package dimensions (length, width, height)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify the shipping distance"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter the carrier rate per kilogram"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator determines billable weight and total shipping cost"
+        }
       ]
     },
     "useCases": [
@@ -2327,11 +2597,26 @@
       "formula": "Total Startup Cost = Equipment + Legal + Marketing + Inventory + Operating Reserve",
       "explanation": "Startup costs include all one-time expenses needed to launch a business plus operating reserves to sustain the business until it becomes profitable. Accurate estimation prevents underfunding, a leading cause of startup failure.",
       "steps": [
-        "Enter equipment and facilities costs (computers, furniture, renovations)",
-        "Add legal and professional fees (registration, licenses, legal advice)",
-        "Include marketing and branding expenses (website, logo, advertising)",
-        "Input initial inventory requirements",
-        "Add operating reserve (3-6 months of expected expenses)"
+        {
+          "name": "Step 1",
+          "text": "Enter equipment and facilities costs (computers, furniture, renovations)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Add legal and professional fees (registration, licenses, legal advice)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Include marketing and branding expenses (website, logo, advertising)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Input initial inventory requirements"
+        },
+        {
+          "name": "Step 5",
+          "text": "Add operating reserve (3-6 months of expected expenses)"
+        }
       ]
     },
     "useCases": [
@@ -2449,11 +2734,26 @@
       "formula": "Business Value = Annual Profit × Industry Multiplier",
       "explanation": "The earnings multiplier method values a business based on its profit-generating capacity. The multiplier reflects industry risk, growth potential, and market conditions. This simplified approach provides a starting point for negotiations, though professional valuations consider many additional factors.",
       "steps": [
-        "Enter the business's annual revenue",
-        "Input the profit margin percentage",
-        "Select or enter an appropriate industry multiplier",
-        "Calculator computes annual profit and applies multiplier",
-        "Result shows estimated business value"
+        {
+          "name": "Step 1",
+          "text": "Enter the business's annual revenue"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the profit margin percentage"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select or enter an appropriate industry multiplier"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator computes annual profit and applies multiplier"
+        },
+        {
+          "name": "Step 5",
+          "text": "Result shows estimated business value"
+        }
       ]
     },
     "useCases": [
@@ -2572,11 +2872,26 @@
       "formula": "Total Cost = Franchise Fee + (Revenue × (Royalty Rate + Marketing Fee))",
       "explanation": "Franchise costs include the initial franchise fee plus ongoing royalties and marketing fees as a percentage of revenue. Understanding total costs helps evaluate if projected revenue can support these fees while generating acceptable profit.",
       "steps": [
-        "Enter the initial franchise fee (one-time payment)",
-        "Input the royalty rate as a percentage of revenue",
-        "Add the marketing fee percentage (if applicable)",
-        "Enter projected annual revenue",
-        "Calculator shows total first-year cost and ongoing annual fees"
+        {
+          "name": "Step 1",
+          "text": "Enter the initial franchise fee (one-time payment)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the royalty rate as a percentage of revenue"
+        },
+        {
+          "name": "Step 3",
+          "text": "Add the marketing fee percentage (if applicable)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter projected annual revenue"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator shows total first-year cost and ongoing annual fees"
+        }
       ]
     },
     "useCases": [
@@ -2688,11 +3003,26 @@
       "formula": "Discount Amount = Original Price × (Discount % / 100)",
       "explanation": "Discounts reduce the original price by a percentage. The final price equals the original price minus the discount amount. You can also reverse-calculate to find what discount percentage was applied given the original and final prices.",
       "steps": [
-        "Enter the original price before any discount",
-        "Input the discount percentage (or the final sale price)",
-        "Calculator computes the discount amount",
-        "See the final price you'll pay",
-        "View your total savings"
+        {
+          "name": "Step 1",
+          "text": "Enter the original price before any discount"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the discount percentage (or the final sale price)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator computes the discount amount"
+        },
+        {
+          "name": "Step 4",
+          "text": "See the final price you'll pay"
+        },
+        {
+          "name": "Step 5",
+          "text": "View your total savings"
+        }
       ]
     },
     "useCases": [
@@ -2804,11 +3134,26 @@
       "formula": "Selling Price = Cost × (1 + Markup%/100)",
       "explanation": "Markup is the percentage added to the cost price to determine the selling price. It's calculated based on cost, not selling price. This differs from profit margin, which is calculated based on revenue.",
       "steps": [
-        "Enter your product cost (what you paid or spent to produce it)",
-        "Input your desired markup percentage",
-        "Calculator adds the markup to your cost",
-        "View the selling price and profit amount",
-        "See the equivalent profit margin percentage"
+        {
+          "name": "Step 1",
+          "text": "Enter your product cost (what you paid or spent to produce it)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input your desired markup percentage"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator adds the markup to your cost"
+        },
+        {
+          "name": "Step 4",
+          "text": "View the selling price and profit amount"
+        },
+        {
+          "name": "Step 5",
+          "text": "See the equivalent profit margin percentage"
+        }
       ]
     },
     "useCases": [
@@ -2943,11 +3288,26 @@
       "formula": "Total = Subtotal × (1 + Tax Rate / 100)",
       "explanation": "Sales tax is a percentage added to the subtotal at the point of sale. Unlike VAT, sales tax is only collected once at the final consumer sale. Rates vary by state, county, and city in the US, and by region in other countries.",
       "steps": [
-        "Enter the subtotal (price before tax) or total (price including tax)",
-        "Input your local sales tax rate",
-        "Calculator computes the tax amount",
-        "Result shows subtotal, tax, and total",
-        "Extract mode reverses the calculation from tax-inclusive prices"
+        {
+          "name": "Step 1",
+          "text": "Enter the subtotal (price before tax) or total (price including tax)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input your local sales tax rate"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator computes the tax amount"
+        },
+        {
+          "name": "Step 4",
+          "text": "Result shows subtotal, tax, and total"
+        },
+        {
+          "name": "Step 5",
+          "text": "Extract mode reverses the calculation from tax-inclusive prices"
+        }
       ]
     },
     "useCases": [
@@ -3074,11 +3434,26 @@
       "formula": "Straight-Line: (Cost - Salvage) / Useful Life",
       "explanation": "Depreciation allocates an asset's cost over its useful life. Straight-line spreads cost evenly each year. Declining balance methods front-load depreciation, providing larger deductions in early years. The method chosen affects tax benefits and financial statements.",
       "steps": [
-        "Enter the original asset cost (purchase price)",
-        "Input the estimated salvage value at end of useful life",
-        "Specify the useful life in years",
-        "Select depreciation method (straight-line, declining balance)",
-        "Calculator shows annual depreciation, accumulated depreciation, and book value schedule"
+        {
+          "name": "Step 1",
+          "text": "Enter the original asset cost (purchase price)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the estimated salvage value at end of useful life"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify the useful life in years"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select depreciation method (straight-line, declining balance)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator shows annual depreciation, accumulated depreciation, and book value schedule"
+        }
       ]
     },
     "useCases": [
@@ -3193,11 +3568,26 @@
       "formula": "NPV = Σ(Cash Flow / (1 + r)^t) - Initial Investment",
       "explanation": "NPV calculates the present value of all future cash flows, discounted at a required rate of return, minus the initial investment. A positive NPV indicates the investment should generate value; negative NPV suggests the investment will destroy value.",
       "steps": [
-        "Enter the initial investment amount",
-        "Set your discount rate (cost of capital or required return)",
-        "Input expected cash flows for each future year",
-        "Calculator discounts each cash flow to present value",
-        "NPV = sum of discounted cash flows minus initial investment"
+        {
+          "name": "Step 1",
+          "text": "Enter the initial investment amount"
+        },
+        {
+          "name": "Step 2",
+          "text": "Set your discount rate (cost of capital or required return)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Input expected cash flows for each future year"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator discounts each cash flow to present value"
+        },
+        {
+          "name": "Step 5",
+          "text": "NPV = sum of discounted cash flows minus initial investment"
+        }
       ]
     },
     "useCases": [
@@ -3310,11 +3700,26 @@
       "formula": "IRR = Discount rate where NPV equals zero",
       "explanation": "IRR (Internal Rate of Return) is the discount rate that makes the net present value of all cash flows equal to zero. It represents the annualized rate of return on an investment, allowing comparison between projects of different sizes and durations.",
       "steps": [
-        "Enter the initial investment amount (as a negative cash flow)",
-        "Input expected cash flows for each future year",
-        "Calculator iteratively finds the rate where NPV = 0",
-        "Result shows the IRR as an annual percentage",
-        "Compare IRR to your required return or cost of capital"
+        {
+          "name": "Step 1",
+          "text": "Enter the initial investment amount (as a negative cash flow)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input expected cash flows for each future year"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator iteratively finds the rate where NPV = 0"
+        },
+        {
+          "name": "Step 4",
+          "text": "Result shows the IRR as an annual percentage"
+        },
+        {
+          "name": "Step 5",
+          "text": "Compare IRR to your required return or cost of capital"
+        }
       ]
     },
     "useCases": [
@@ -3417,11 +3822,26 @@
       "formula": "Net Cash Flow = Total Cash Inflows - Total Cash Outflows",
       "explanation": "Cash flow analysis tracks actual money movement in and out of a business. Unlike profit (which includes non-cash items), cash flow shows real liquidity. Positive cash flow means more money coming in than going out; negative cash flow indicates a cash drain.",
       "steps": [
-        "Enter cash inflows for each period (sales receipts, investments, loans)",
-        "Input cash outflows for each period (expenses, purchases, debt payments)",
-        "Add multiple periods to track trends over time",
-        "Calculator shows net cash flow for each period",
-        "View total and average cash flow across all periods"
+        {
+          "name": "Step 1",
+          "text": "Enter cash inflows for each period (sales receipts, investments, loans)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input cash outflows for each period (expenses, purchases, debt payments)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Add multiple periods to track trends over time"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator shows net cash flow for each period"
+        },
+        {
+          "name": "Step 5",
+          "text": "View total and average cash flow across all periods"
+        }
       ]
     },
     "useCases": [
@@ -3532,11 +3952,26 @@
       "formula": "Future Value = Present Value × (1 + Inflation Rate)^Years",
       "explanation": "Inflation erodes purchasing power over time. The calculator shows how much more you'll need in the future to buy what a certain amount buys today. Conversely, it shows how much less your current savings will be worth in real terms.",
       "steps": [
-        "Enter the current value or amount of money",
-        "Input the expected annual inflation rate",
-        "Specify the time period in years",
-        "Calculator compounds inflation over the period",
-        "Result shows future equivalent value and purchasing power loss"
+        {
+          "name": "Step 1",
+          "text": "Enter the current value or amount of money"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the expected annual inflation rate"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify the time period in years"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator compounds inflation over the period"
+        },
+        {
+          "name": "Step 5",
+          "text": "Result shows future equivalent value and purchasing power loss"
+        }
       ]
     },
     "useCases": [
@@ -3688,11 +4123,26 @@
       "formula": "Annual Salary = Hourly Rate × Hours Per Week × Weeks Per Year",
       "explanation": "The salary calculator converts compensation between different pay frequencies: annual, monthly, bi-weekly, weekly, and hourly. It accounts for work hours and weeks to provide accurate conversions for comparing job offers or budgeting.",
       "steps": [
-        "Enter your salary amount in any frequency",
-        "Select the pay frequency (annual, monthly, hourly, etc.)",
-        "Specify hours per week if converting to/from hourly",
-        "Enter weeks worked per year (typically 52)",
-        "Calculator converts to all other pay frequencies"
+        {
+          "name": "Step 1",
+          "text": "Enter your salary amount in any frequency"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the pay frequency (annual, monthly, hourly, etc.)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify hours per week if converting to/from hourly"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter weeks worked per year (typically 52)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator converts to all other pay frequencies"
+        }
       ]
     },
     "useCases": [
@@ -3808,11 +4258,26 @@
       "formula": "Hourly Rate = Annual Salary / (Hours Per Week × Weeks Per Year)",
       "explanation": "Converting annual salary to hourly rate reveals true earning power per hour worked. This is essential for comparing salaried positions to hourly jobs, calculating freelance rates, or understanding the value of your time.",
       "steps": [
-        "Enter your annual salary (gross, before taxes)",
-        "Input standard hours worked per week (typically 40)",
-        "Specify weeks worked per year (52, or less for unpaid time off)",
-        "Calculator divides salary by total annual hours",
-        "View hourly rate and breakdowns by day, week, and month"
+        {
+          "name": "Step 1",
+          "text": "Enter your annual salary (gross, before taxes)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input standard hours worked per week (typically 40)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify weeks worked per year (52, or less for unpaid time off)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator divides salary by total annual hours"
+        },
+        {
+          "name": "Step 5",
+          "text": "View hourly rate and breakdowns by day, week, and month"
+        }
       ]
     },
     "useCases": [
@@ -3962,11 +4427,26 @@
       "formula": "Total Pay = (Regular Hours × Rate) + (Overtime Hours × Rate × Multiplier)",
       "explanation": "Overtime pay compensates workers for hours beyond the standard work week, typically 40 hours in the US. The Fair Labor Standards Act requires non-exempt employees receive at least 1.5x their regular rate for overtime hours.",
       "steps": [
-        "Enter your regular hours (usually up to 40)",
-        "Input overtime hours worked beyond regular schedule",
-        "Enter your standard hourly rate",
-        "Select overtime multiplier (typically 1.5x)",
-        "Calculator computes regular pay, overtime pay, and total"
+        {
+          "name": "Step 1",
+          "text": "Enter your regular hours (usually up to 40)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input overtime hours worked beyond regular schedule"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter your standard hourly rate"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select overtime multiplier (typically 1.5x)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator computes regular pay, overtime pay, and total"
+        }
       ]
     },
     "useCases": [
@@ -4094,11 +4574,26 @@
       "formula": "Bonus = Base Salary × (Target Bonus % / 100) × Performance Factor",
       "explanation": "Performance bonuses are calculated as a percentage of base salary, adjusted by a performance multiplier. Target bonus represents expected payout for meeting expectations; the performance factor scales this up or down based on actual performance.",
       "steps": [
-        "Enter your annual base salary",
-        "Input your target bonus percentage (stated in offer letter)",
-        "Specify the performance factor based on your review",
-        "Calculator applies performance factor to target bonus",
-        "View actual bonus amount and total compensation"
+        {
+          "name": "Step 1",
+          "text": "Enter your annual base salary"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input your target bonus percentage (stated in offer letter)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify the performance factor based on your review"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator applies performance factor to target bonus"
+        },
+        {
+          "name": "Step 5",
+          "text": "View actual bonus amount and total compensation"
+        }
       ]
     },
     "useCases": [
@@ -4207,11 +4702,26 @@
       "formula": "EOQ = sqrt(2 × Annual Demand × Order Cost / Holding Cost)",
       "explanation": "Economic Order Quantity finds the optimal order size that minimizes total inventory costs. It balances ordering costs (which decrease with larger orders) against holding costs (which increase with larger inventory). The EOQ is where these two cost curves intersect.",
       "steps": [
-        "Enter annual demand in units",
-        "Input fixed cost per order (shipping, processing, handling)",
-        "Specify holding cost per unit per year (storage, insurance, depreciation)",
-        "Calculator applies the EOQ formula",
-        "View optimal order quantity, orders per year, and total costs"
+        {
+          "name": "Step 1",
+          "text": "Enter annual demand in units"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input fixed cost per order (shipping, processing, handling)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify holding cost per unit per year (storage, insurance, depreciation)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator applies the EOQ formula"
+        },
+        {
+          "name": "Step 5",
+          "text": "View optimal order quantity, orders per year, and total costs"
+        }
       ]
     },
     "useCases": [
@@ -4318,11 +4828,26 @@
       "formula": "Inventory Turnover = Cost of Goods Sold / Average Inventory",
       "explanation": "Inventory turnover measures how many times a company sells and replaces its inventory during a period. Higher turnover indicates efficient inventory management - products sell quickly without sitting in warehouses. Lower turnover may indicate overstocking or slow sales.",
       "steps": [
-        "Enter Cost of Goods Sold (COGS) for the period",
-        "Input average inventory value (beginning + ending / 2)",
-        "Calculator divides COGS by average inventory",
-        "View turnover ratio and days to sell inventory",
-        "Compare to industry benchmarks to assess performance"
+        {
+          "name": "Step 1",
+          "text": "Enter Cost of Goods Sold (COGS) for the period"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input average inventory value (beginning + ending / 2)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator divides COGS by average inventory"
+        },
+        {
+          "name": "Step 4",
+          "text": "View turnover ratio and days to sell inventory"
+        },
+        {
+          "name": "Step 5",
+          "text": "Compare to industry benchmarks to assess performance"
+        }
       ]
     },
     "useCases": [
@@ -4459,11 +4984,26 @@
       "formula": "Total Labor Cost = Wages + Benefits + Overhead",
       "explanation": "True labor cost extends far beyond base wages. Benefits (healthcare, retirement, paid time off) typically add 20-40% to wages. Overhead (workspace, equipment, management) adds another 10-30%. The effective hourly rate can be 1.5-2x the base wage.",
       "steps": [
-        "Enter base hourly rate for employees",
-        "Input hours worked per week",
-        "Add benefits percentage (healthcare, PTO, retirement contributions)",
-        "Include overhead percentage (workspace, equipment, admin support)",
-        "Specify number of employees to calculate total team cost"
+        {
+          "name": "Step 1",
+          "text": "Enter base hourly rate for employees"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input hours worked per week"
+        },
+        {
+          "name": "Step 3",
+          "text": "Add benefits percentage (healthcare, PTO, retirement contributions)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Include overhead percentage (workspace, equipment, admin support)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Specify number of employees to calculate total team cost"
+        }
       ]
     },
     "useCases": [
@@ -4730,11 +5270,26 @@
       "formula": "Unit Price = Total Price / Quantity or Size",
       "explanation": "Price comparison calculates the cost per unit (ounce, gram, count) for different products or package sizes. The lowest unit price represents the best value, though you should also consider freshness, storage, and whether you'll use the larger quantity.",
       "steps": [
-        "Enter product name or description for each option",
-        "Input the total price for each product",
-        "Specify the quantity or size (same units for all)",
-        "Add more products as needed for comparison",
-        "Calculator shows unit price and identifies best value"
+        {
+          "name": "Step 1",
+          "text": "Enter product name or description for each option"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the total price for each product"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify the quantity or size (same units for all)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Add more products as needed for comparison"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator shows unit price and identifies best value"
+        }
       ]
     },
     "useCases": [
@@ -4871,11 +5426,26 @@
       "formula": "Price Elasticity = (% Change in Quantity) / (% Change in Price)",
       "explanation": "Price elasticity measures how sensitive demand is to price changes. Elastic demand (>1) means quantity changes more than price - a 10% price increase causes more than 10% drop in sales. Inelastic demand (<1) means quantity changes less than price changes.",
       "steps": [
-        "Enter the initial price before the change",
-        "Input the new price after the change",
-        "Specify quantity demanded at the initial price",
-        "Enter quantity demanded at the new price",
-        "Calculator determines elasticity coefficient and demand type"
+        {
+          "name": "Step 1",
+          "text": "Enter the initial price before the change"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the new price after the change"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify quantity demanded at the initial price"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter quantity demanded at the new price"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator determines elasticity coefficient and demand type"
+        }
       ]
     },
     "useCases": [
@@ -4994,11 +5564,26 @@
       "formula": "Discounted Price = Base Price × (1 - Discount Percentage / 100)",
       "explanation": "Bulk pricing offers lower per-unit prices for larger quantities. Each tier defines quantity ranges and corresponding discounts. The calculator helps determine which tier offers the best value and whether ordering more to reach the next tier makes economic sense.",
       "steps": [
-        "Enter the base unit price without any discount",
-        "Define pricing tiers with quantity ranges and discounts",
-        "Specify the quantity you want to purchase",
-        "Calculator determines your tier and discount",
-        "Compare total costs at different tier thresholds"
+        {
+          "name": "Step 1",
+          "text": "Enter the base unit price without any discount"
+        },
+        {
+          "name": "Step 2",
+          "text": "Define pricing tiers with quantity ranges and discounts"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify the quantity you want to purchase"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator determines your tier and discount"
+        },
+        {
+          "name": "Step 5",
+          "text": "Compare total costs at different tier thresholds"
+        }
       ]
     },
     "useCases": [
@@ -5118,11 +5703,26 @@
       "formula": "FV = PV(1+r)^n + PMT × ((1+r)^n - 1) / r",
       "explanation": "Retirement savings grow through both contributions and compound interest. The calculator projects how current savings plus regular contributions grow over time at an expected rate of return. Compound interest means your earnings generate more earnings.",
       "steps": [
-        "Enter your current retirement savings balance",
-        "Specify planned monthly contribution amount",
-        "Input years until retirement",
-        "Set expected annual rate of return",
-        "Calculator shows projected retirement balance and growth breakdown"
+        {
+          "name": "Step 1",
+          "text": "Enter your current retirement savings balance"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify planned monthly contribution amount"
+        },
+        {
+          "name": "Step 3",
+          "text": "Input years until retirement"
+        },
+        {
+          "name": "Step 4",
+          "text": "Set expected annual rate of return"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator shows projected retirement balance and growth breakdown"
+        }
       ]
     },
     "useCases": [
@@ -5247,11 +5847,26 @@
       "formula": "Total Contribution = Your Contribution + Employer Match",
       "explanation": "A 401(k) grows through your pre-tax contributions, employer matching contributions (free money), and investment growth. The calculator projects growth over time, showing how maximizing employer match dramatically increases retirement savings.",
       "steps": [
-        "Enter your annual salary",
-        "Specify your contribution percentage",
-        "Input employer match percentage and match limit",
-        "Add current 401(k) balance and years to retirement",
-        "Set expected annual return rate for projections"
+        {
+          "name": "Step 1",
+          "text": "Enter your annual salary"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify your contribution percentage"
+        },
+        {
+          "name": "Step 3",
+          "text": "Input employer match percentage and match limit"
+        },
+        {
+          "name": "Step 4",
+          "text": "Add current 401(k) balance and years to retirement"
+        },
+        {
+          "name": "Step 5",
+          "text": "Set expected annual return rate for projections"
+        }
       ]
     },
     "useCases": [
@@ -5379,11 +5994,26 @@
       "formula": "LTV = (Loan Amount / Property Value) × 100%",
       "explanation": "Loan-to-Value ratio compares your loan amount to the property's appraised value. Lower LTV means more equity and less risk for lenders, resulting in better rates and no PMI requirement. Higher LTV means less down payment but higher costs and stricter qualification.",
       "steps": [
-        "Enter the loan amount you need to borrow",
-        "Input the property's appraised or purchase value",
-        "Calculator divides loan by property value",
-        "View LTV percentage and risk assessment",
-        "See down payment amount and equity position"
+        {
+          "name": "Step 1",
+          "text": "Enter the loan amount you need to borrow"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the property's appraised or purchase value"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator divides loan by property value"
+        },
+        {
+          "name": "Step 4",
+          "text": "View LTV percentage and risk assessment"
+        },
+        {
+          "name": "Step 5",
+          "text": "See down payment amount and equity position"
+        }
       ]
     },
     "useCases": [

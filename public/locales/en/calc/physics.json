@@ -71,10 +71,22 @@
       "formula": "F = m × a (Force = Mass × Acceleration)",
       "explanation": "This calculator applies Newton's Second Law of Motion to calculate the force acting on an object. Force is directly proportional to both mass and acceleration.",
       "steps": [
-        "Enter the mass of the object in kilograms",
-        "Enter the acceleration in meters per second squared",
-        "Select appropriate units if needed",
-        "Click Calculate to find the resulting force"
+        {
+          "name": "Step 1",
+          "text": "Enter the mass of the object in kilograms"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the acceleration in meters per second squared"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select appropriate units if needed"
+        },
+        {
+          "name": "Step 4",
+          "text": "Click Calculate to find the resulting force"
+        }
       ]
     },
     "useCases": [
@@ -197,10 +209,22 @@
       "formula": "v = d/t | a = Δv/t | v² = v₀² + 2ad",
       "explanation": "This calculator uses fundamental kinematic equations to calculate velocity, acceleration, distance, and time. Choose the appropriate mode based on the values you know.",
       "steps": [
-        "Select the calculation type (velocity, acceleration, or final velocity)",
-        "Enter the known values in the appropriate fields",
-        "Choose your preferred units",
-        "Click Calculate to get the result"
+        {
+          "name": "Step 1",
+          "text": "Select the calculation type (velocity, acceleration, or final velocity)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the known values in the appropriate fields"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose your preferred units"
+        },
+        {
+          "name": "Step 4",
+          "text": "Click Calculate to get the result"
+        }
       ]
     },
     "useCases": [
@@ -328,10 +352,22 @@
       "formula": "p = m × v (Momentum = Mass × Velocity)",
       "explanation": "This calculator computes linear momentum of objects, impulse from forces, and applies the conservation of momentum principle to collision problems.",
       "steps": [
-        "Select the calculation type: linear momentum, impulse, or conservation",
-        "Enter mass and velocity for linear momentum",
-        "Enter force and time for impulse calculations",
-        "Enter data for both objects in collision problems"
+        {
+          "name": "Step 1: Select the calculation type",
+          "text": "linear momentum, impulse, or conservation"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter mass and velocity for linear momentum"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter force and time for impulse calculations"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter data for both objects in collision problems"
+        }
       ]
     },
     "useCases": [
@@ -473,10 +509,22 @@
       "formula": "P = W/t | P = Fv | P = VI | η = Pout/Pin",
       "explanation": "This calculator computes power in its various forms: mechanical and electrical, plus efficiency and work calculations.",
       "steps": [
-        "Select the calculation type: mechanical, work/time, electrical, or efficiency",
-        "Enter the known values",
-        "Choose appropriate units",
-        "Click Calculate to get the result"
+        {
+          "name": "Step 1: Select the calculation type",
+          "text": "mechanical, work/time, electrical, or efficiency"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the known values"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose appropriate units"
+        },
+        {
+          "name": "Step 4",
+          "text": "Click Calculate to get the result"
+        }
       ]
     },
     "useCases": [
@@ -574,10 +622,22 @@
       "formula": "v = ωr | ac = ω²r | L = Iω | KE = ½Iω²",
       "explanation": "This calculator computes rotational motion properties including linear velocity, centripetal acceleration, angular momentum, and rotational kinetic energy.",
       "steps": [
-        "Enter the angular velocity in radians per second",
-        "Enter the radius in meters",
-        "Enter the mass for calculations that require it",
-        "Click Calculate to get all results"
+        {
+          "name": "Step 1",
+          "text": "Enter the angular velocity in radians per second"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the radius in meters"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the mass for calculations that require it"
+        },
+        {
+          "name": "Step 4",
+          "text": "Click Calculate to get all results"
+        }
       ]
     },
     "useCases": [
@@ -658,10 +718,22 @@
       "formula": "a = (v - v₀) / t",
       "explanation": "This calculator computes acceleration, the rate of change of velocity with respect to time. Positive acceleration means increasing speed, negative means deceleration.",
       "steps": [
-        "Enter the initial velocity of the object",
-        "Enter the final velocity of the object",
-        "Enter the time elapsed for the change",
-        "Click Calculate to get the acceleration"
+        {
+          "name": "Step 1",
+          "text": "Enter the initial velocity of the object"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the final velocity of the object"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the time elapsed for the change"
+        },
+        {
+          "name": "Step 4",
+          "text": "Click Calculate to get the acceleration"
+        }
       ]
     },
     "useCases": [
@@ -744,10 +816,22 @@
       "formula": "v = ωr | ac = ω²r | T = 2π/ω",
       "explanation": "This calculator computes all rotational motion variables including linear velocity, centripetal acceleration, angular momentum, and rotational kinetic energy.",
       "steps": [
-        "Enter the angular velocity in radians per second",
-        "Enter the radius in meters",
-        "Enter the mass if you want force and energy calculations",
-        "Click Calculate to get all results"
+        {
+          "name": "Step 1",
+          "text": "Enter the angular velocity in radians per second"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the radius in meters"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the mass if you want force and energy calculations"
+        },
+        {
+          "name": "Step 4",
+          "text": "Click Calculate to get all results"
+        }
       ]
     },
     "useCases": [
@@ -856,10 +940,22 @@
       "formula": "KE = ½mv² | PE = mgh | W = Fd cos θ",
       "explanation": "This calculator computes different types of energy: kinetic energy related to motion, potential energy related to position, and work done by forces.",
       "steps": [
-        "Select the type of energy to calculate",
-        "Enter mass and velocity for kinetic energy",
-        "Enter mass and height for potential energy",
-        "Enter force, distance, and angle for work"
+        {
+          "name": "Step 1",
+          "text": "Select the type of energy to calculate"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter mass and velocity for kinetic energy"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter mass and height for potential energy"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter force, distance, and angle for work"
+        }
       ]
     },
     "useCases": [
@@ -940,10 +1036,22 @@
       "formula": "F = m × a",
       "explanation": "This calculator applies Newton's Second Law which states that the net force on an object equals its mass times its acceleration.",
       "steps": [
-        "Select what you want to calculate: force, mass, or acceleration",
-        "Enter the two known variables",
-        "Choose appropriate units",
-        "Click Calculate to get the result"
+        {
+          "name": "Step 1: Select what you want to calculate",
+          "text": "force, mass, or acceleration"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the two known variables"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose appropriate units"
+        },
+        {
+          "name": "Step 4",
+          "text": "Click Calculate to get the result"
+        }
       ]
     },
     "useCases": [
@@ -1045,10 +1153,22 @@
       "formula": "ρ = m / V (Density = Mass ÷ Volume)",
       "explanation": "This calculator computes density, which is the amount of mass per unit volume. You can also calculate mass or volume if you know the density.",
       "steps": [
-        "Select what you want to calculate: density, mass, or volume",
-        "Enter the two known variables",
-        "Choose appropriate units",
-        "Click Calculate to get the result"
+        {
+          "name": "Step 1: Select what you want to calculate",
+          "text": "density, mass, or volume"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the two known variables"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose appropriate units"
+        },
+        {
+          "name": "Step 4",
+          "text": "Click Calculate to get the result"
+        }
       ]
     },
     "useCases": [
@@ -1151,10 +1271,22 @@
       "formula": "P₁ × V₁ = P₂ × V₂",
       "explanation": "Boyle's Law describes the inverse relationship between gas pressure and volume at constant temperature. When pressure increases, volume decreases and vice versa.",
       "steps": [
-        "Select the variable you want to calculate",
-        "Enter pressure and volume in both states (before and after)",
-        "Choose units for pressure and volume",
-        "Click Calculate to get the result"
+        {
+          "name": "Step 1",
+          "text": "Select the variable you want to calculate"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter pressure and volume in both states (before and after)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Choose units for pressure and volume"
+        },
+        {
+          "name": "Step 4",
+          "text": "Click Calculate to get the result"
+        }
       ]
     },
     "useCases": [

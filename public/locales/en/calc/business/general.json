@@ -39,11 +39,26 @@
       "formula": "Break-Even Point = Fixed Costs / (Selling Price - Variable Cost per Unit)",
       "explanation": "Break-even analysis determines the point where total revenue equals total costs, resulting in neither profit nor loss. The contribution margin (selling price minus variable cost) represents how much each unit sold contributes to covering fixed costs.",
       "steps": [
-        "Enter your total fixed costs (rent, salaries, insurance, etc.)",
-        "Input the selling price per unit of your product or service",
-        "Enter the variable cost to produce or acquire each unit",
-        "The calculator divides fixed costs by the contribution margin",
-        "Result shows the number of units needed to break even"
+        {
+          "name": "Step 1",
+          "text": "Enter your total fixed costs (rent, salaries, insurance, etc.)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the selling price per unit of your product or service"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the variable cost to produce or acquire each unit"
+        },
+        {
+          "name": "Step 4",
+          "text": "The calculator divides fixed costs by the contribution margin"
+        },
+        {
+          "name": "Step 5",
+          "text": "Result shows the number of units needed to break even"
+        }
       ]
     },
     "useCases": [
@@ -162,11 +177,26 @@
       "formula": "Total Cost = Franchise Fee + (Revenue × (Royalty Rate + Marketing Fee))",
       "explanation": "Franchise costs include the initial franchise fee plus ongoing royalties and marketing fees as a percentage of revenue. Understanding total costs helps evaluate if projected revenue can support these fees while generating acceptable profit.",
       "steps": [
-        "Enter the initial franchise fee (one-time payment)",
-        "Input the royalty rate as a percentage of revenue",
-        "Add the marketing fee percentage (if applicable)",
-        "Enter projected annual revenue",
-        "Calculator shows total first-year cost and ongoing annual fees"
+        {
+          "name": "Step 1",
+          "text": "Enter the initial franchise fee (one-time payment)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the royalty rate as a percentage of revenue"
+        },
+        {
+          "name": "Step 3",
+          "text": "Add the marketing fee percentage (if applicable)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter projected annual revenue"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator shows total first-year cost and ongoing annual fees"
+        }
       ]
     },
     "useCases": [
@@ -279,11 +309,26 @@
       "formula": "Total Startup Cost = Equipment + Legal + Marketing + Inventory + Operating Reserve",
       "explanation": "Startup costs include all one-time expenses needed to launch a business plus operating reserves to sustain the business until it becomes profitable. Accurate estimation prevents underfunding, a leading cause of startup failure.",
       "steps": [
-        "Enter equipment and facilities costs (computers, furniture, renovations)",
-        "Add legal and professional fees (registration, licenses, legal advice)",
-        "Include marketing and branding expenses (website, logo, advertising)",
-        "Input initial inventory requirements",
-        "Add operating reserve (3-6 months of expected expenses)"
+        {
+          "name": "Step 1",
+          "text": "Enter equipment and facilities costs (computers, furniture, renovations)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Add legal and professional fees (registration, licenses, legal advice)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Include marketing and branding expenses (website, logo, advertising)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Input initial inventory requirements"
+        },
+        {
+          "name": "Step 5",
+          "text": "Add operating reserve (3-6 months of expected expenses)"
+        }
       ]
     },
     "useCases": [
@@ -396,11 +441,26 @@
       "formula": "Shipping Cost = Max(Actual Weight, Dimensional Weight) × Rate × Distance Factor",
       "explanation": "Carriers charge based on the greater of actual weight or dimensional weight (calculated from package dimensions). Dimensional weight accounts for space the package occupies, not just its mass. This ensures fair pricing for lightweight but bulky items.",
       "steps": [
-        "Enter the actual weight of your package",
-        "Input package dimensions (length, width, height)",
-        "Specify the shipping distance",
-        "Enter the carrier rate per kilogram",
-        "Calculator determines billable weight and total shipping cost"
+        {
+          "name": "Step 1",
+          "text": "Enter the actual weight of your package"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input package dimensions (length, width, height)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify the shipping distance"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter the carrier rate per kilogram"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator determines billable weight and total shipping cost"
+        }
       ]
     },
     "useCases": [
@@ -509,11 +569,26 @@
       "formula": "Fuel Cost = (Distance / Fuel Efficiency) × Fuel Price × Number of Trips",
       "explanation": "Fuel cost calculation determines the total expense for fuel based on distance traveled, vehicle fuel efficiency, current fuel prices, and the number of trips. This helps businesses and individuals budget for travel expenses accurately and make cost-effective decisions.",
       "steps": [
-        "Enter the total distance to be traveled in kilometers",
-        "Input your vehicle's fuel efficiency (km per liter)",
-        "Specify the current fuel price per liter",
-        "Add the number of trips if making multiple journeys",
-        "Calculator computes total fuel needed and associated cost"
+        {
+          "name": "Step 1",
+          "text": "Enter the total distance to be traveled in kilometers"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input your vehicle's fuel efficiency (km per liter)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify the current fuel price per liter"
+        },
+        {
+          "name": "Step 4",
+          "text": "Add the number of trips if making multiple journeys"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator computes total fuel needed and associated cost"
+        }
       ]
     },
     "useCases": [
@@ -627,11 +702,26 @@
       "formula": "Total Cost = Transportation + ((Lodging + Meals + Incidentals) × Number of Days)",
       "explanation": "Business travel cost calculation aggregates all trip expenses including one-time transportation costs and daily expenses for lodging, meals, and incidentals. This provides a complete picture of trip costs for budgeting and expense management.",
       "steps": [
-        "Enter transportation costs (flights, trains, rental cars)",
-        "Input per-night lodging costs for accommodations",
-        "Specify daily meal budget or allowance",
-        "Add daily incidental expenses (tips, local transport, parking)",
-        "Enter trip duration in days to calculate total expense"
+        {
+          "name": "Step 1",
+          "text": "Enter transportation costs (flights, trains, rental cars)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input per-night lodging costs for accommodations"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify daily meal budget or allowance"
+        },
+        {
+          "name": "Step 4",
+          "text": "Add daily incidental expenses (tips, local transport, parking)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Enter trip duration in days to calculate total expense"
+        }
       ]
     },
     "useCases": [
@@ -750,11 +840,26 @@
       "formula": "Productivity Score = (Completion Rate + Time Efficiency) / 2",
       "explanation": "Productivity measurement combines task completion rate (tasks completed vs planned) with time efficiency (time allocated vs actual time spent). A balanced score considers both getting work done and doing it within expected timeframes.",
       "steps": [
-        "Enter the number of tasks planned for the period",
-        "Input the number of tasks actually completed",
-        "Specify the time allocated for these tasks",
-        "Enter the actual time spent on the tasks",
-        "Calculator computes completion rate, time efficiency, and overall productivity score"
+        {
+          "name": "Step 1",
+          "text": "Enter the number of tasks planned for the period"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the number of tasks actually completed"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify the time allocated for these tasks"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter the actual time spent on the tasks"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator computes completion rate, time efficiency, and overall productivity score"
+        }
       ]
     },
     "useCases": [
@@ -847,11 +952,26 @@
       "formula": "Quick Ratio = (Current Assets - Inventory) / Current Liabilities",
       "explanation": "The quick ratio, also called the acid-test ratio, measures a company's ability to pay short-term obligations using only its most liquid assets. By excluding inventory (which may take time to sell), it provides a more conservative measure of liquidity than the current ratio.",
       "steps": [
-        "Enter total current assets (cash, receivables, marketable securities, inventory)",
-        "Input the value of inventory separately",
-        "Enter total current liabilities (debts due within one year)",
-        "Calculator subtracts inventory from current assets",
-        "Quick ratio is computed by dividing liquid assets by current liabilities"
+        {
+          "name": "Step 1",
+          "text": "Enter total current assets (cash, receivables, marketable securities, inventory)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the value of inventory separately"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter total current liabilities (debts due within one year)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator subtracts inventory from current assets"
+        },
+        {
+          "name": "Step 5",
+          "text": "Quick ratio is computed by dividing liquid assets by current liabilities"
+        }
       ]
     },
     "useCases": [
@@ -942,11 +1062,26 @@
       "formula": "Working Capital = Current Assets - Current Liabilities",
       "explanation": "Working capital measures the short-term financial health of a business by comparing assets that can be converted to cash within a year against liabilities due within the same period. Positive working capital indicates ability to fund day-to-day operations and invest in growth.",
       "steps": [
-        "Enter total current assets (cash, inventory, receivables, prepaid expenses)",
-        "Input total current liabilities (payables, short-term debt, accrued expenses)",
-        "Calculator subtracts liabilities from assets",
-        "Positive result means excess liquidity; negative means potential cash shortage",
-        "Current ratio is also calculated (assets divided by liabilities)"
+        {
+          "name": "Step 1",
+          "text": "Enter total current assets (cash, inventory, receivables, prepaid expenses)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input total current liabilities (payables, short-term debt, accrued expenses)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator subtracts liabilities from assets"
+        },
+        {
+          "name": "Step 4",
+          "text": "Positive result means excess liquidity; negative means potential cash shortage"
+        },
+        {
+          "name": "Step 5",
+          "text": "Current ratio is also calculated (assets divided by liabilities)"
+        }
       ]
     },
     "useCases": [
@@ -1038,11 +1173,26 @@
       "formula": "Current Ratio = Current Assets / Current Liabilities",
       "explanation": "The current ratio measures a company's ability to pay short-term obligations with short-term assets. A ratio above 1.0 means the company has more current assets than current liabilities, indicating it can meet its short-term financial obligations.",
       "steps": [
-        "Enter total current assets (cash, receivables, inventory, prepaid expenses)",
-        "Input total current liabilities (payables, short-term debt, accrued expenses)",
-        "Calculator divides current assets by current liabilities",
-        "Ratio above 1.0 indicates positive liquidity",
-        "Higher ratios generally indicate better ability to pay debts"
+        {
+          "name": "Step 1",
+          "text": "Enter total current assets (cash, receivables, inventory, prepaid expenses)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input total current liabilities (payables, short-term debt, accrued expenses)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator divides current assets by current liabilities"
+        },
+        {
+          "name": "Step 4",
+          "text": "Ratio above 1.0 indicates positive liquidity"
+        },
+        {
+          "name": "Step 5",
+          "text": "Higher ratios generally indicate better ability to pay debts"
+        }
       ]
     },
     "useCases": [
@@ -1134,11 +1284,26 @@
       "formula": "Debt to Equity Ratio = Total Debt / Total Shareholders' Equity",
       "explanation": "The debt-to-equity ratio measures how much debt a company uses to finance its operations compared to shareholders' equity. A higher ratio indicates more leverage and potentially higher financial risk, while a lower ratio suggests more conservative financing.",
       "steps": [
-        "Enter total debt (short-term and long-term liabilities)",
-        "Input total shareholders' equity (assets minus liabilities)",
-        "Calculator divides total debt by total equity",
-        "Result shows how much debt is used per dollar of equity",
-        "Compare to industry benchmarks to assess risk level"
+        {
+          "name": "Step 1",
+          "text": "Enter total debt (short-term and long-term liabilities)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input total shareholders' equity (assets minus liabilities)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator divides total debt by total equity"
+        },
+        {
+          "name": "Step 4",
+          "text": "Result shows how much debt is used per dollar of equity"
+        },
+        {
+          "name": "Step 5",
+          "text": "Compare to industry benchmarks to assess risk level"
+        }
       ]
     },
     "useCases": [
@@ -1251,12 +1416,30 @@
       "formula": "Monthly Payment = P × [r(1+r)^n] / [(1+r)^n - 1]",
       "explanation": "Loan amortization is the process of paying off debt through regular monthly payments that cover both principal and interest. Each payment is the same amount, but early payments are mostly interest while later payments are mostly principal. The amortization schedule shows this breakdown for every payment over the life of the loan.",
       "steps": [
-        "Enter the total loan principal (amount borrowed)",
-        "Input the annual interest rate as a percentage",
-        "Specify the loan term in months (e.g., 360 months = 30 years)",
-        "Calculator uses amortization formula to compute fixed monthly payment",
-        "Schedule generated showing principal, interest, and remaining balance for each month",
-        "Review total interest paid over life of loan to understand true borrowing cost"
+        {
+          "name": "Step 1",
+          "text": "Enter the total loan principal (amount borrowed)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the annual interest rate as a percentage"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify the loan term in months (e.g., 360 months = 30 years)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator uses amortization formula to compute fixed monthly payment"
+        },
+        {
+          "name": "Step 5",
+          "text": "Schedule generated showing principal, interest, and remaining balance for each month"
+        },
+        {
+          "name": "Step 6",
+          "text": "Review total interest paid over life of loan to understand true borrowing cost"
+        }
       ]
     },
     "useCases": [
@@ -1366,12 +1549,30 @@
       "formula": "Monthly Payment = (Asset Price - Residual Value) / Term + (Asset Price + Residual Value) × Interest Rate / 24",
       "explanation": "A lease payment consists of two components: depreciation (the asset's value loss over the lease term) and interest (the cost of financing). The depreciation portion is calculated by dividing the difference between the asset price and residual value by the lease term. The interest portion is calculated using the money factor (interest rate divided by 24) applied to the sum of the asset price and residual value.",
       "steps": [
-        "Enter the total asset price (MSRP or negotiated price)",
-        "Input the residual value (estimated end-of-lease value, typically 50-60% for 3-year vehicle leases)",
-        "Specify the lease term in months (common terms: 24, 36, or 48 months)",
-        "Enter the annual interest rate (also called money factor when expressed as rate/2400)",
-        "Calculator computes depreciation and interest components",
-        "Result shows your total monthly lease payment and cost breakdown"
+        {
+          "name": "Step 1",
+          "text": "Enter the total asset price (MSRP or negotiated price)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the residual value (estimated end-of-lease value, typically 50-60% for 3-year vehicle leases)"
+        },
+        {
+          "name": "Step 3: Specify the lease term in months (common terms",
+          "text": "24, 36, or 48 months)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter the annual interest rate (also called money factor when expressed as rate/2400)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator computes depreciation and interest components"
+        },
+        {
+          "name": "Step 6",
+          "text": "Result shows your total monthly lease payment and cost breakdown"
+        }
       ]
     },
     "useCases": [
@@ -1489,13 +1690,34 @@
       "formula": "Net Cost = Total Payments + Maintenance - End Value",
       "explanation": "This calculator compares the total cost of ownership between leasing and buying an asset over a specific period. For the buy option, it calculates the purchase price plus maintenance costs, minus the asset's residual value at the end of the term. For the lease option, it totals all lease payments, down payment, and maintenance costs. The option with the lower net cost is typically more financially advantageous, though other factors like flexibility, tax benefits, and cash flow should also be considered.",
       "steps": [
-        "Enter the full purchase price of the asset",
-        "Input monthly lease payment and any down payment required",
-        "Specify the comparison term in months (typically 24-60 months)",
-        "Estimate the asset's value at the end of the term if purchased",
-        "Include monthly maintenance costs for both scenarios",
-        "Calculator compares total net costs and shows potential savings",
-        "Review recommendation while considering non-financial factors"
+        {
+          "name": "Step 1",
+          "text": "Enter the full purchase price of the asset"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input monthly lease payment and any down payment required"
+        },
+        {
+          "name": "Step 3",
+          "text": "Specify the comparison term in months (typically 24-60 months)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Estimate the asset's value at the end of the term if purchased"
+        },
+        {
+          "name": "Step 5",
+          "text": "Include monthly maintenance costs for both scenarios"
+        },
+        {
+          "name": "Step 6",
+          "text": "Calculator compares total net costs and shows potential savings"
+        },
+        {
+          "name": "Step 7",
+          "text": "Review recommendation while considering non-financial factors"
+        }
       ]
     },
     "useCases": [
@@ -1595,11 +1817,26 @@
       "formula": "CPM = (Total Ad Cost / Total Impressions) × 1000",
       "explanation": "CPM (Cost Per Mille) measures the cost to reach 1,000 impressions with your advertisement. It's the standard metric for comparing display advertising costs across different platforms, publications, and campaign types.",
       "steps": [
-        "Enter the total cost of your advertising campaign",
-        "Input the total number of impressions delivered",
-        "Calculator divides cost by impressions and multiplies by 1000",
-        "Result shows your cost per thousand impressions",
-        "Compare against industry benchmarks and other campaigns"
+        {
+          "name": "Step 1",
+          "text": "Enter the total cost of your advertising campaign"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the total number of impressions delivered"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator divides cost by impressions and multiplies by 1000"
+        },
+        {
+          "name": "Step 4",
+          "text": "Result shows your cost per thousand impressions"
+        },
+        {
+          "name": "Step 5",
+          "text": "Compare against industry benchmarks and other campaigns"
+        }
       ]
     },
     "useCases": [
@@ -1699,11 +1936,26 @@
       "formula": "CPC = Total Ad Cost / Total Clicks",
       "explanation": "CPC (Cost Per Click) measures how much you pay each time someone clicks on your advertisement. It's the primary metric for pay-per-click (PPC) advertising on platforms like Google Ads, Facebook, and Bing. Lower CPC with high-quality traffic means more efficient ad spend.",
       "steps": [
-        "Enter the total amount spent on your PPC campaign",
-        "Input the total number of clicks received",
-        "Calculator divides total cost by total clicks",
-        "Result shows your average cost per click",
-        "Compare to industry benchmarks to evaluate efficiency"
+        {
+          "name": "Step 1",
+          "text": "Enter the total amount spent on your PPC campaign"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the total number of clicks received"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator divides total cost by total clicks"
+        },
+        {
+          "name": "Step 4",
+          "text": "Result shows your average cost per click"
+        },
+        {
+          "name": "Step 5",
+          "text": "Compare to industry benchmarks to evaluate efficiency"
+        }
       ]
     },
     "useCases": [
@@ -1803,11 +2055,26 @@
       "formula": "CPA = Total Marketing Cost / Total Conversions",
       "explanation": "CPA (Cost Per Acquisition) measures how much you spend to acquire one customer or conversion. It's the ultimate efficiency metric for performance marketing, connecting marketing spend directly to business outcomes like sales, sign-ups, or leads.",
       "steps": [
-        "Enter total marketing and advertising costs",
-        "Input the total number of conversions achieved",
-        "Calculator divides total cost by conversions",
-        "Result shows your average cost per acquisition",
-        "Compare to customer lifetime value to ensure profitability"
+        {
+          "name": "Step 1",
+          "text": "Enter total marketing and advertising costs"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the total number of conversions achieved"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator divides total cost by conversions"
+        },
+        {
+          "name": "Step 4",
+          "text": "Result shows your average cost per acquisition"
+        },
+        {
+          "name": "Step 5",
+          "text": "Compare to customer lifetime value to ensure profitability"
+        }
       ]
     },
     "useCases": [
@@ -1908,11 +2175,26 @@
       "formula": "ROAS = Revenue from Ads / Ad Cost (or expressed as ratio like 4:1)",
       "explanation": "ROAS (Return on Ad Spend) measures how much revenue you generate for every dollar spent on advertising. A ROAS of 4:1 means you earn $4 for every $1 spent on ads. It's the key metric for determining advertising profitability and budget allocation.",
       "steps": [
-        "Enter total revenue attributed to advertising campaigns",
-        "Input total advertising cost for those campaigns",
-        "Calculator divides revenue by ad cost",
-        "Result shows your return multiplier (e.g., 4x or 400%)",
-        "Net profit is also calculated (revenue minus ad cost)"
+        {
+          "name": "Step 1",
+          "text": "Enter total revenue attributed to advertising campaigns"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input total advertising cost for those campaigns"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator divides revenue by ad cost"
+        },
+        {
+          "name": "Step 4",
+          "text": "Result shows your return multiplier (e.g., 4x or 400%)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Net profit is also calculated (revenue minus ad cost)"
+        }
       ]
     },
     "useCases": [
@@ -2016,11 +2298,26 @@
       "formula": "Conversion Rate = (Conversions / Total Visitors) × 100%",
       "explanation": "Conversion rate measures the percentage of visitors who complete a desired action - purchasing, signing up, downloading, or any defined goal. It's the fundamental metric for measuring website and marketing effectiveness.",
       "steps": [
-        "Enter the total number of conversions (sales, sign-ups, etc.)",
-        "Input the total number of visitors to your page or site",
-        "Calculator divides conversions by visitors and multiplies by 100",
-        "Result shows your conversion rate as a percentage",
-        "Compare to industry benchmarks and track improvements"
+        {
+          "name": "Step 1",
+          "text": "Enter the total number of conversions (sales, sign-ups, etc.)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input the total number of visitors to your page or site"
+        },
+        {
+          "name": "Step 3",
+          "text": "Calculator divides conversions by visitors and multiplies by 100"
+        },
+        {
+          "name": "Step 4",
+          "text": "Result shows your conversion rate as a percentage"
+        },
+        {
+          "name": "Step 5",
+          "text": "Compare to industry benchmarks and track improvements"
+        }
       ]
     },
     "useCases": [
@@ -2134,11 +2431,26 @@
       "formula": "Engagement Rate = (Likes + Comments + Shares) / Followers × 100%",
       "explanation": "Engagement rate measures how actively your audience interacts with your content relative to your follower count. It's the key metric for evaluating content quality, audience connection, and social media performance beyond vanity metrics like follower count.",
       "steps": [
-        "Enter the total likes on your post or average across posts",
-        "Add the total number of comments received",
-        "Include shares, retweets, or saves as applicable",
-        "Input your total follower count",
-        "Calculator computes engagement rate and provides performance rating"
+        {
+          "name": "Step 1",
+          "text": "Enter the total likes on your post or average across posts"
+        },
+        {
+          "name": "Step 2",
+          "text": "Add the total number of comments received"
+        },
+        {
+          "name": "Step 3",
+          "text": "Include shares, retweets, or saves as applicable"
+        },
+        {
+          "name": "Step 4",
+          "text": "Input your total follower count"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator computes engagement rate and provides performance rating"
+        }
       ]
     },
     "useCases": [
@@ -4327,12 +4639,30 @@
       "formula": "Net Profit = Product Price - Product Cost - Referral Fee - Fulfillment Fee - Storage Fee",
       "explanation": "Amazon FBA (Fulfillment by Amazon) fees consist of three main components: referral fees (8-15% based on category), fulfillment fees (based on size and weight tier), and monthly storage fees. Understanding these costs is critical for maintaining healthy profit margins on the Amazon marketplace.",
       "steps": [
-        "Enter your product selling price on Amazon",
-        "Input your product cost (COGS - Cost of Goods Sold)",
-        "Select the appropriate product category for accurate referral fee calculation",
-        "Enter package dimensions (length, width, height) and weight",
-        "Calculator determines size tier and calculates all applicable FBA fees",
-        "Review net profit, profit margin, and detailed fee breakdown"
+        {
+          "name": "Step 1",
+          "text": "Enter your product selling price on Amazon"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input your product cost (COGS - Cost of Goods Sold)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the appropriate product category for accurate referral fee calculation"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter package dimensions (length, width, height) and weight"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator determines size tier and calculates all applicable FBA fees"
+        },
+        {
+          "name": "Step 6",
+          "text": "Review net profit, profit margin, and detailed fee breakdown"
+        }
       ]
     },
     "useCases": [
@@ -4465,12 +4795,30 @@
       "formula": "Net Profit = Sale Price + Shipping Charged - Product Cost - Shipping Cost - Insertion Fee - Final Value Fee - Payment Processing Fee",
       "explanation": "eBay fees include insertion fees (listing fees), final value fees (percentage of total sale including shipping), and payment processing fees through eBay's Managed Payments system. Understanding the total fee structure is essential for pricing items competitively while maintaining profitability.",
       "steps": [
-        "Enter the final sale price of your item on eBay",
-        "Input your product cost or acquisition cost",
-        "Select the appropriate eBay product category for accurate final value fee calculation",
-        "Enter shipping amount charged to buyer and your actual shipping cost",
-        "Input any insertion fees (eBay provides 250 free listings monthly for most sellers)",
-        "Calculator computes final value fee, payment processing fee, and net profit after all costs"
+        {
+          "name": "Step 1",
+          "text": "Enter the final sale price of your item on eBay"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input your product cost or acquisition cost"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the appropriate eBay product category for accurate final value fee calculation"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter shipping amount charged to buyer and your actual shipping cost"
+        },
+        {
+          "name": "Step 5",
+          "text": "Input any insertion fees (eBay provides 250 free listings monthly for most sellers)"
+        },
+        {
+          "name": "Step 6",
+          "text": "Calculator computes final value fee, payment processing fee, and net profit after all costs"
+        }
       ]
     },
     "useCases": [
@@ -4576,12 +4924,30 @@
       "formula": "Taxable Income = Gross Income - Deductions; Tax = Sum of (Income in Each Bracket × Bracket Rate)",
       "explanation": "Federal income tax uses a progressive bracket system where different portions of income are taxed at different rates. After subtracting standard or itemized deductions from gross income, the resulting taxable income is calculated through tax brackets. Understanding marginal vs effective tax rates is essential for accurate tax planning.",
       "steps": [
-        "Enter your total gross annual income from all sources",
-        "Select your filing status (Single, Married Filing Jointly, Head of Household)",
-        "Input standard deduction or itemized deductions total",
-        "Calculator determines taxable income by subtracting deductions from gross income",
-        "Tax is calculated progressively through federal tax brackets for your filing status",
-        "Review total tax liability, effective tax rate, taxable income, and after-tax income"
+        {
+          "name": "Step 1",
+          "text": "Enter your total gross annual income from all sources"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select your filing status (Single, Married Filing Jointly, Head of Household)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Input standard deduction or itemized deductions total"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator determines taxable income by subtracting deductions from gross income"
+        },
+        {
+          "name": "Step 5",
+          "text": "Tax is calculated progressively through federal tax brackets for your filing status"
+        },
+        {
+          "name": "Step 6",
+          "text": "Review total tax liability, effective tax rate, taxable income, and after-tax income"
+        }
       ]
     },
     "useCases": [
@@ -4695,12 +5061,30 @@
       "formula": "Total Budget = (Materials + Labor + Overhead) × (1 + Contingency%)",
       "explanation": "Project budgeting combines all direct costs (materials and labor), indirect costs (overhead), and adds a contingency buffer to account for unforeseen expenses. The contingency percentage typically ranges from 5-20% depending on project complexity and risk factors.",
       "steps": [
-        "Calculate total materials cost including all supplies, equipment, and raw materials needed",
-        "Sum up labor costs including wages, contractor fees, and personnel expenses",
-        "Add overhead costs such as permits, insurance, utilities, and administrative expenses",
-        "Determine appropriate contingency percentage based on project risk and complexity",
-        "Calculator adds all costs and applies contingency multiplier for final budget",
-        "Review breakdown to identify largest cost drivers and optimization opportunities"
+        {
+          "name": "Step 1",
+          "text": "Calculate total materials cost including all supplies, equipment, and raw materials needed"
+        },
+        {
+          "name": "Step 2",
+          "text": "Sum up labor costs including wages, contractor fees, and personnel expenses"
+        },
+        {
+          "name": "Step 3",
+          "text": "Add overhead costs such as permits, insurance, utilities, and administrative expenses"
+        },
+        {
+          "name": "Step 4",
+          "text": "Determine appropriate contingency percentage based on project risk and complexity"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator adds all costs and applies contingency multiplier for final budget"
+        },
+        {
+          "name": "Step 6",
+          "text": "Review breakdown to identify largest cost drivers and optimization opportunities"
+        }
       ]
     },
     "useCases": [
@@ -4822,12 +5206,30 @@
       "formula": "Net Profit = (Selling Price + Shipping Charged) - Product Cost - Shipping Cost - Payment Processing Fee - Transaction Fee",
       "explanation": "Shopify profit calculation accounts for payment processing fees and transaction fees that vary by plan. Basic Shopify charges 2.9% + 30¢ for online credit cards plus 2% transaction fee if not using Shopify Payments. Understanding these fees is crucial for accurate profit margin analysis.",
       "steps": [
-        "Enter your product selling price",
-        "Input product cost of goods sold (COGS)",
-        "Add shipping amount charged to customer and your actual shipping cost",
-        "Select your Shopify plan (Basic, Shopify, Advanced, or Plus)",
-        "Calculator applies appropriate payment processing rate based on plan selection",
-        "Review net profit, profit margin, and comprehensive fee breakdown"
+        {
+          "name": "Step 1",
+          "text": "Enter your product selling price"
+        },
+        {
+          "name": "Step 2",
+          "text": "Input product cost of goods sold (COGS)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Add shipping amount charged to customer and your actual shipping cost"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select your Shopify plan (Basic, Shopify, Advanced, or Plus)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Calculator applies appropriate payment processing rate based on plan selection"
+        },
+        {
+          "name": "Step 6",
+          "text": "Review net profit, profit margin, and comprehensive fee breakdown"
+        }
       ]
     },
     "useCases": [
@@ -4940,12 +5342,30 @@
       "formula": "Total Invoice = (Hours Worked × Hourly Rate) + Reimbursable Expenses",
       "explanation": "Time-based invoicing calculates billable labor by multiplying hours worked by your hourly rate, then adds any reimbursable expenses incurred on behalf of the client. This method is common for consultants, freelancers, contractors, and professional services.",
       "steps": [
-        "Track all billable hours spent on client work using time tracking tools or manual logs",
-        "Set your hourly rate based on market rates, expertise level, and desired income",
-        "Record reimbursable expenses like travel, software, materials, or subcontractors",
-        "Calculator multiplies hours by rate to get labor cost",
-        "Add expense reimbursements for total invoice amount",
-        "Review effective rate (total ÷ hours) to ensure profitability after expenses"
+        {
+          "name": "Step 1",
+          "text": "Track all billable hours spent on client work using time tracking tools or manual logs"
+        },
+        {
+          "name": "Step 2",
+          "text": "Set your hourly rate based on market rates, expertise level, and desired income"
+        },
+        {
+          "name": "Step 3",
+          "text": "Record reimbursable expenses like travel, software, materials, or subcontractors"
+        },
+        {
+          "name": "Step 4",
+          "text": "Calculator multiplies hours by rate to get labor cost"
+        },
+        {
+          "name": "Step 5",
+          "text": "Add expense reimbursements for total invoice amount"
+        },
+        {
+          "name": "Step 6",
+          "text": "Review effective rate (total ÷ hours) to ensure profitability after expenses"
+        }
       ]
     },
     "useCases": [
@@ -5056,12 +5476,30 @@
       "formula": "Unit Cost = (Fixed Costs + Variable Costs) / Units Produced",
       "explanation": "Unit cost represents the total cost to produce one item, calculated by adding all fixed costs (expenses that don't change with volume) and variable costs (expenses that scale with production), then dividing by total units produced. This reveals your cost per unit and helps determine profitable pricing.",
       "steps": [
-        "Identify all fixed costs - rent, salaries, equipment, insurance, utilities that stay constant regardless of production volume",
-        "Calculate total variable costs - raw materials, packaging, direct labor, shipping costs that increase with each unit produced",
-        "Count total units produced or planned production volume for the period",
-        "Add fixed and variable costs together for total production costs",
-        "Divide total costs by number of units to get cost per unit",
-        "Compare unit cost to selling price to determine profit margin and pricing strategy"
+        {
+          "name": "Step 1",
+          "text": "Identify all fixed costs - rent, salaries, equipment, insurance, utilities that stay constant regardless of production volume"
+        },
+        {
+          "name": "Step 2",
+          "text": "Calculate total variable costs - raw materials, packaging, direct labor, shipping costs that increase with each unit produced"
+        },
+        {
+          "name": "Step 3",
+          "text": "Count total units produced or planned production volume for the period"
+        },
+        {
+          "name": "Step 4",
+          "text": "Add fixed and variable costs together for total production costs"
+        },
+        {
+          "name": "Step 5",
+          "text": "Divide total costs by number of units to get cost per unit"
+        },
+        {
+          "name": "Step 6",
+          "text": "Compare unit cost to selling price to determine profit margin and pricing strategy"
+        }
       ]
     },
     "useCases": [

@@ -24,10 +24,22 @@
       "formula": "Total = (kWh × Price) + Fixed Charge + Tax",
       "explanation": "Calculates your electricity bill by multiplying energy consumption in kilowatt-hours by the unit rate, then adding fixed charges and applicable taxes.",
       "steps": [
-        "Enter your total energy consumption in kWh",
-        "Enter the price per kWh from your tariff",
-        "Add any fixed monthly charges",
-        "Specify the tax rate percentage"
+        {
+          "name": "Step 1",
+          "text": "Enter your total energy consumption in kWh"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the price per kWh from your tariff"
+        },
+        {
+          "name": "Step 3",
+          "text": "Add any fixed monthly charges"
+        },
+        {
+          "name": "Step 4",
+          "text": "Specify the tax rate percentage"
+        }
       ]
     },
     "useCases": [
@@ -86,10 +98,22 @@
       "formula": "Runtime = (Capacity × Efficiency) / Load Current",
       "explanation": "Estimates how long a battery will power a device by dividing the battery capacity (in mAh or Ah) by the device's current draw, adjusted for efficiency losses.",
       "steps": [
-        "Enter the battery capacity (mAh or Ah)",
-        "Enter the device's current consumption",
-        "Adjust efficiency percentage (accounts for losses)",
-        "View estimated runtime in hours, days, or weeks"
+        {
+          "name": "Step 1",
+          "text": "Enter the battery capacity (mAh or Ah)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the device's current consumption"
+        },
+        {
+          "name": "Step 3",
+          "text": "Adjust efficiency percentage (accounts for losses)"
+        },
+        {
+          "name": "Step 4",
+          "text": "View estimated runtime in hours, days, or weeks"
+        }
       ]
     },
     "useCases": [
@@ -161,10 +185,22 @@
       "formula": "Panels = Daily Consumption / (Panel Wattage × Sun Hours × Efficiency)",
       "explanation": "Calculates the number of solar panels needed based on daily energy consumption, peak sun hours, and system efficiency. Also sizes battery capacity for autonomy.",
       "steps": [
-        "Enter your daily energy consumption (Wh)",
-        "Specify average peak sun hours for your location",
-        "Select system voltage (12V, 24V, 48V)",
-        "Enter the wattage of your chosen panels"
+        {
+          "name": "Step 1",
+          "text": "Enter your daily energy consumption (Wh)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Specify average peak sun hours for your location"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select system voltage (12V, 24V, 48V)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter the wattage of your chosen panels"
+        }
       ]
     },
     "useCases": [
@@ -228,10 +264,22 @@
       "formula": "P = V × I × PF (single-phase), P = √3 × V × I × PF (three-phase)",
       "explanation": "Calculates active, reactive, and apparent power for electrical systems. Active power does useful work, reactive power oscillates in inductive/capacitive loads, and apparent power is the total supplied.",
       "steps": [
-        "Select phase system (single or three-phase)",
-        "Enter voltage and current values",
-        "Enter the power factor (0-1)",
-        "View all power components and energy consumption"
+        {
+          "name": "Step 1",
+          "text": "Select phase system (single or three-phase)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter voltage and current values"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the power factor (0-1)"
+        },
+        {
+          "name": "Step 4",
+          "text": "View all power components and energy consumption"
+        }
       ]
     },
     "useCases": [
@@ -294,10 +342,22 @@
       "formula": "PF = P/S = cos(φ), C = Qc/(2πfV²)",
       "explanation": "Calculates current power factor and determines the capacitor size needed to improve it to a target value. Power factor correction reduces energy waste and utility penalties.",
       "steps": [
-        "Enter active power (kW) and reactive power (kVAR)",
-        "Enter target power factor (typically 0.95)",
-        "Enter system voltage and frequency",
-        "View required capacitor rating and size"
+        {
+          "name": "Step 1",
+          "text": "Enter active power (kW) and reactive power (kVAR)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter target power factor (typically 0.95)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter system voltage and frequency"
+        },
+        {
+          "name": "Step 4",
+          "text": "View required capacitor rating and size"
+        }
       ]
     },
     "useCases": [
@@ -362,10 +422,22 @@
       "formula": "Vp/Vs = Np/Ns, Ip/Is = Ns/Np",
       "explanation": "Calculates transformer parameters based on the relationship between primary and secondary windings. Voltage ratio equals turns ratio, while current ratio is inverse.",
       "steps": [
-        "Enter primary and secondary voltages",
-        "Or enter primary and secondary turns",
-        "Enter power rating and efficiency",
-        "View currents, losses, and ratios"
+        {
+          "name": "Step 1",
+          "text": "Enter primary and secondary voltages"
+        },
+        {
+          "name": "Step 2",
+          "text": "Or enter primary and secondary turns"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter power rating and efficiency"
+        },
+        {
+          "name": "Step 4",
+          "text": "View currents, losses, and ratios"
+        }
       ]
     },
     "useCases": [
@@ -429,10 +501,22 @@
       "formula": "Total Current = Total Power / (Voltage × Power Factor)",
       "explanation": "Sums all electrical loads to determine total power demand, then calculates the current draw to recommend appropriate panel and cable sizes for safe installation.",
       "steps": [
-        "Enter system voltage and power factor",
-        "Add each electrical load with its power and quantity",
-        "View total power and current demand",
-        "Get recommended panel and cable sizes"
+        {
+          "name": "Step 1",
+          "text": "Enter system voltage and power factor"
+        },
+        {
+          "name": "Step 2",
+          "text": "Add each electrical load with its power and quantity"
+        },
+        {
+          "name": "Step 3",
+          "text": "View total power and current demand"
+        },
+        {
+          "name": "Step 4",
+          "text": "Get recommended panel and cable sizes"
+        }
       ]
     },
     "useCases": [
@@ -497,10 +581,22 @@
       "formula": "Inrush = Steady State × Multiplier (varies by load type)",
       "explanation": "Estimates the initial surge current when equipment starts. Different load types have different inrush characteristics based on their electrical behavior during startup.",
       "steps": [
-        "Select the load type (motor, transformer, capacitor, etc.)",
-        "Enter the rated power and voltage",
-        "View the inrush current peak value",
-        "See inrush duration and multiplier"
+        {
+          "name": "Step 1",
+          "text": "Select the load type (motor, transformer, capacitor, etc.)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the rated power and voltage"
+        },
+        {
+          "name": "Step 3",
+          "text": "View the inrush current peak value"
+        },
+        {
+          "name": "Step 4",
+          "text": "See inrush duration and multiplier"
+        }
       ]
     },
     "useCases": [

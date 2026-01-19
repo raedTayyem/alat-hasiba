@@ -201,10 +201,22 @@
       "formula": "Sidewall Height = Width × (Aspect Ratio / 100) | Tire Diameter = (2 × Sidewall Height) + Rim Diameter",
       "explanation": "Tire sizes follow a standard format: Width/Aspect Ratio + R + Rim Diameter. This calculator decodes that information and calculates the actual physical dimensions including diameter, circumference, and revolutions per mile.",
       "steps": [
-        "Enter your tire size string (e.g., P225/65R17) or individual dimensions",
-        "The calculator parses the width, aspect ratio, and rim size",
-        "View calculated sidewall height, overall diameter, and circumference",
-        "See revolutions per mile/km for speedometer calculations"
+        {
+          "name": "Step 1",
+          "text": "Enter your tire size string (e.g., P225/65R17) or individual dimensions"
+        },
+        {
+          "name": "Step 2",
+          "text": "The calculator parses the width, aspect ratio, and rim size"
+        },
+        {
+          "name": "Step 3",
+          "text": "View calculated sidewall height, overall diameter, and circumference"
+        },
+        {
+          "name": "Step 4",
+          "text": "See revolutions per mile/km for speedometer calculations"
+        }
       ]
     },
     "useCases": [
@@ -292,11 +304,26 @@
       "formula": "Adjusted PSI = Base PSI + (Temperature Change / 10°F × 1 PSI) + Load Adjustment",
       "explanation": "Tire pressure changes approximately 1 PSI for every 10°F temperature change. This calculator adjusts your manufacturer-recommended pressure for current conditions and vehicle load.",
       "steps": [
-        "Enter your vehicle's recommended tire pressure (found on door jamb)",
-        "Select temperature unit and enter reference temperature",
-        "Enter current ambient temperature",
-        "Select your current load condition",
-        "View adjusted recommended pressure"
+        {
+          "name": "Step 1",
+          "text": "Enter your vehicle's recommended tire pressure (found on door jamb)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select temperature unit and enter reference temperature"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter current ambient temperature"
+        },
+        {
+          "name": "Step 4",
+          "text": "Select your current load condition"
+        },
+        {
+          "name": "Step 5",
+          "text": "View adjusted recommended pressure"
+        }
       ]
     },
     "useCases": [
@@ -467,10 +494,22 @@
       "formula": "Backspacing = (Wheel Width / 2) + (Offset / 25.4)",
       "explanation": "Wheel offset is the distance in millimeters from the wheel's centerline to its mounting surface. Positive offset means the mounting surface is toward the front (street side), while negative offset pushes the wheel outward for a wider stance.",
       "steps": [
-        "Choose your calculation mode (from offset or backspacing)",
-        "Enter the wheel width in inches",
-        "Enter the offset in mm or backspacing in inches",
-        "View calculated measurements and fitment information"
+        {
+          "name": "Step 1",
+          "text": "Choose your calculation mode (from offset or backspacing)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the wheel width in inches"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the offset in mm or backspacing in inches"
+        },
+        {
+          "name": "Step 4",
+          "text": "View calculated measurements and fitment information"
+        }
       ]
     },
     "useCases": [

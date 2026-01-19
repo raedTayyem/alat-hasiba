@@ -51,10 +51,22 @@
       "formula": "Fuel Consumption (L/100km) = (Fuel Used / Distance) × 100",
       "explanation": "This calculator measures how efficiently your vehicle uses fuel by comparing the amount of fuel consumed to the distance traveled. Lower values indicate better fuel efficiency.",
       "steps": [
-        "Enter the distance traveled in kilometers or miles",
-        "Enter the amount of fuel consumed in liters or gallons",
-        "Optionally enter fuel price and annual distance for cost estimates",
-        "View your consumption rate, annual costs, and CO2 emissions"
+        {
+          "name": "Step 1",
+          "text": "Enter the distance traveled in kilometers or miles"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the amount of fuel consumed in liters or gallons"
+        },
+        {
+          "name": "Step 3",
+          "text": "Optionally enter fuel price and annual distance for cost estimates"
+        },
+        {
+          "name": "Step 4",
+          "text": "View your consumption rate, annual costs, and CO2 emissions"
+        }
       ]
     },
     "useCases": [
@@ -149,10 +161,22 @@
       "formula": "MPG = Distance (miles) / Fuel Used (gallons) | km/L = Distance (km) / Fuel Used (liters)",
       "explanation": "Fuel economy measures how far your vehicle can travel on a given amount of fuel. Higher MPG or km/L values indicate better fuel efficiency, meaning you spend less on fuel for the same distance.",
       "steps": [
-        "Select your preferred unit system (Imperial or Metric)",
-        "Enter the amount of fuel used during your trip",
-        "Enter the distance traveled with that fuel",
-        "Optionally add fuel price and annual mileage for cost projections"
+        {
+          "name": "Step 1",
+          "text": "Select your preferred unit system (Imperial or Metric)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the amount of fuel used during your trip"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the distance traveled with that fuel"
+        },
+        {
+          "name": "Step 4",
+          "text": "Optionally add fuel price and annual mileage for cost projections"
+        }
       ]
     },
     "useCases": [
@@ -458,10 +482,22 @@
       "formula": "MPG = Miles Driven / Gallons Used | km/L = Kilometers Driven / Liters Used",
       "explanation": "Gas mileage measures how efficiently your vehicle converts fuel into distance traveled. By tracking the distance since your last fill-up and the amount of fuel added, you can calculate your real-world fuel efficiency.",
       "steps": [
-        "Fill your tank completely and reset your trip odometer",
-        "Drive normally until you need to refuel",
-        "Fill the tank completely again and note the gallons/liters added",
-        "Enter the distance driven and fuel added to calculate MPG or km/L"
+        {
+          "name": "Step 1",
+          "text": "Fill your tank completely and reset your trip odometer"
+        },
+        {
+          "name": "Step 2",
+          "text": "Drive normally until you need to refuel"
+        },
+        {
+          "name": "Step 3",
+          "text": "Fill the tank completely again and note the gallons/liters added"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter the distance driven and fuel added to calculate MPG or km/L"
+        }
       ]
     },
     "useCases": [
@@ -662,11 +698,26 @@
       "formula": "Trip Cost = (Distance / Fuel Economy) × Fuel Price",
       "explanation": "This calculator estimates your total fuel expense for a road trip by dividing the distance by your vehicle's fuel economy to determine gallons needed, then multiplying by the fuel price.",
       "steps": [
-        "Select your unit system (Imperial or Metric)",
-        "Enter the total trip distance",
-        "Enter your vehicle's fuel economy (MPG or km/L)",
-        "Enter the current fuel price per gallon or liter",
-        "View total cost, fuel needed, and cost per mile/km"
+        {
+          "name": "Step 1",
+          "text": "Select your unit system (Imperial or Metric)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the total trip distance"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter your vehicle's fuel economy (MPG or km/L)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter the current fuel price per gallon or liter"
+        },
+        {
+          "name": "Step 5",
+          "text": "View total cost, fuel needed, and cost per mile/km"
+        }
       ]
     },
     "useCases": [
@@ -813,13 +864,7 @@
     },
     "placeholders": {
       "distance": "1000",
-      "distance_km": "1000",
-      "distance_miles": "620",
-      "fuel_consumption": "7.5",
-      "consumption_l100km": "7.5",
-      "consumption_mpg": "31",
-      "annual_km": "15000",
-      "annual_miles": "9320"
+      "fuel_consumption": "7.5"
     },
     "results": {
       "total_emissions": "Total CO2 Emissions",
@@ -847,10 +892,6 @@
       "positive_distance": "Distance must be greater than zero",
       "positive_consumption": "Fuel consumption must be greater than zero",
       "calculation": "An error occurred during calculation"
-    },
-    "placeholders": {
-      "distance": "1000",
-      "fuel_consumption": "7.5"
     }
   },
   "carbon-emissions-calculator": {

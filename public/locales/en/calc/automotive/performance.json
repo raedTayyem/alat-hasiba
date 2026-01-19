@@ -37,10 +37,22 @@
       "formula": "HP = (Torque × RPM) / 5252",
       "explanation": "Horsepower measures the rate at which work is done - specifically, the power output of an engine. It's calculated from torque (rotational force) and engine speed (RPM). The constant 5252 comes from the mathematical relationship between these units.",
       "steps": [
-        "Select your torque unit (lb-ft or Nm)",
-        "Enter the torque value from your engine specs or dyno test",
-        "Enter the RPM at which that torque is produced",
-        "View the calculated horsepower and conversions to kW and PS"
+        {
+          "name": "Step 1",
+          "text": "Select your torque unit (lb-ft or Nm)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the torque value from your engine specs or dyno test"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the RPM at which that torque is produced"
+        },
+        {
+          "name": "Step 4",
+          "text": "View the calculated horsepower and conversions to kW and PS"
+        }
       ]
     },
     "useCases": [
@@ -189,10 +201,22 @@
       "formula": "Torque (lb-ft) = (HP × 5252) / RPM",
       "explanation": "Torque is the rotational force produced by an engine. This calculator determines torque when you know the horsepower and RPM. Torque is what you feel pushing you back in your seat during acceleration.",
       "steps": [
-        "Enter the horsepower rating of the engine",
-        "Enter the RPM at which that horsepower is measured",
-        "View the calculated torque in lb-ft and Nm",
-        "Use the conversion to compare international specifications"
+        {
+          "name": "Step 1",
+          "text": "Enter the horsepower rating of the engine"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the RPM at which that horsepower is measured"
+        },
+        {
+          "name": "Step 3",
+          "text": "View the calculated torque in lb-ft and Nm"
+        },
+        {
+          "name": "Step 4",
+          "text": "Use the conversion to compare international specifications"
+        }
       ]
     },
     "useCases": [
@@ -552,11 +576,26 @@
       "formula": "v = ∛(2P / (ρ × Cd × A))",
       "explanation": "Top speed is limited by aerodynamic drag, which increases with the cube of velocity. At top speed, all engine power is used to overcome air resistance. This calculator uses physics to estimate theoretical maximum velocity.",
       "steps": [
-        "Enter your engine's maximum horsepower output",
-        "Enter the aerodynamic drag coefficient (Cd)",
-        "Enter the vehicle's frontal area in square meters",
-        "Optionally enter weight for power-to-weight calculations",
-        "View theoretical top speed and related metrics"
+        {
+          "name": "Step 1",
+          "text": "Enter your engine's maximum horsepower output"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the aerodynamic drag coefficient (Cd)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the vehicle's frontal area in square meters"
+        },
+        {
+          "name": "Step 4",
+          "text": "Optionally enter weight for power-to-weight calculations"
+        },
+        {
+          "name": "Step 5",
+          "text": "View theoretical top speed and related metrics"
+        }
       ]
     },
     "useCases": [
@@ -852,11 +891,26 @@
       "formula": "Total Distance = Reaction Distance + Braking Distance = (Speed × Reaction Time) + (Speed² / (2 × g × friction))",
       "explanation": "Stopping distance includes two parts: reaction distance (traveled while you process and begin braking) and braking distance (from brake application to stop). Both increase significantly with speed.",
       "steps": [
-        "Select your unit system (Metric or Imperial)",
-        "Enter your current or typical driving speed",
-        "Select the road surface condition",
-        "Enter your expected reaction time (average is 1.5 seconds)",
-        "View total stopping distance and breakdown"
+        {
+          "name": "Step 1",
+          "text": "Select your unit system (Metric or Imperial)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your current or typical driving speed"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the road surface condition"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter your expected reaction time (average is 1.5 seconds)"
+        },
+        {
+          "name": "Step 5",
+          "text": "View total stopping distance and breakdown"
+        }
       ]
     },
     "useCases": [
@@ -1032,12 +1086,30 @@
       "formula": "Distance = v² / (2g(μ ± grade))",
       "explanation": "Hill grade affects stopping by adding or subtracting from effective friction. Going uphill, gravity helps slow you (shorter distance). Going downhill, gravity works against brakes (longer distance).",
       "steps": [
-        "Select your unit system",
-        "Enter your vehicle speed",
-        "Select the road surface type",
-        "Choose slope direction (uphill, downhill, or flat)",
-        "Enter the grade percentage",
-        "View stopping distance with grade adjustment"
+        {
+          "name": "Step 1",
+          "text": "Select your unit system"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your vehicle speed"
+        },
+        {
+          "name": "Step 3",
+          "text": "Select the road surface type"
+        },
+        {
+          "name": "Step 4",
+          "text": "Choose slope direction (uphill, downhill, or flat)"
+        },
+        {
+          "name": "Step 5",
+          "text": "Enter the grade percentage"
+        },
+        {
+          "name": "Step 6",
+          "text": "View stopping distance with grade adjustment"
+        }
       ]
     },
     "useCases": [

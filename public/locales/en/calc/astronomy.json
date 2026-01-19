@@ -44,10 +44,22 @@
       "formula": "Weight on Planet = Earth Weight × (Planet's Surface Gravity / Earth's Surface Gravity)",
       "explanation": "Weight is the force of gravity acting on your mass. Since each planet has different mass and radius, their surface gravity varies. This calculator multiplies your Earth weight by each planet's gravity ratio to show what you would weigh there.",
       "steps": [
-        "Enter your weight as measured on Earth in kilograms",
-        "The calculator retrieves the gravity ratio for each planet (based on NASA data)",
-        "Your Earth weight is multiplied by each planet's gravity ratio",
-        "Results are displayed showing your weight on all planets and moons"
+        {
+          "name": "Step 1",
+          "text": "Enter your weight as measured on Earth in kilograms"
+        },
+        {
+          "name": "Step 2",
+          "text": "The calculator retrieves the gravity ratio for each planet (based on NASA data)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Your Earth weight is multiplied by each planet's gravity ratio"
+        },
+        {
+          "name": "Step 4",
+          "text": "Results are displayed showing your weight on all planets and moons"
+        }
       ]
     },
     "useCases": [
@@ -137,10 +149,22 @@
       "formula": "Planetary Age = Earth Age (in days) / Planet's Orbital Period (in Earth days)",
       "explanation": "A 'year' is defined as one complete orbit around the Sun. Since each planet orbits at different distances and speeds, their years vary dramatically in length. This calculator converts your Earth age into planetary years by dividing by each planet's orbital period.",
       "steps": [
-        "Enter your date of birth",
-        "The calculator computes your age in Earth days from birth to today",
-        "Your Earth age is divided by each planet's orbital period",
-        "Results show how many 'birthdays' you would have celebrated on each planet"
+        {
+          "name": "Step 1",
+          "text": "Enter your date of birth"
+        },
+        {
+          "name": "Step 2",
+          "text": "The calculator computes your age in Earth days from birth to today"
+        },
+        {
+          "name": "Step 3",
+          "text": "Your Earth age is divided by each planet's orbital period"
+        },
+        {
+          "name": "Step 4",
+          "text": "Results show how many 'birthdays' you would have celebrated on each planet"
+        }
       ]
     },
     "useCases": [
@@ -221,10 +245,22 @@
       "formula": "1 Light Year = 9.461 × 10^12 km = 63,241 AU = 0.3066 Parsecs",
       "explanation": "This converter uses precise astronomical conversion factors to translate between different distance units used in space science. Each unit serves different purposes: light years for general astronomy, parsecs for stellar distances, AU for solar system scales, and kilometers for precise measurements.",
       "steps": [
-        "Enter a distance value in your chosen unit",
-        "Select the input unit (light years, parsecs, AU, or kilometers)",
-        "The calculator applies standard astronomical conversion factors",
-        "All equivalent distances are displayed simultaneously"
+        {
+          "name": "Step 1",
+          "text": "Enter a distance value in your chosen unit"
+        },
+        {
+          "name": "Step 2",
+          "text": "Select the input unit (light years, parsecs, AU, or kilometers)"
+        },
+        {
+          "name": "Step 3",
+          "text": "The calculator applies standard astronomical conversion factors"
+        },
+        {
+          "name": "Step 4",
+          "text": "All equivalent distances are displayed simultaneously"
+        }
       ]
     },
     "useCases": [
@@ -319,11 +355,26 @@
       "formula": "Magnification = Telescope Focal Length / Eyepiece Focal Length",
       "explanation": "Magnification determines how much larger an object appears through your telescope. The focal length ratio between telescope and eyepiece creates the magnifying effect. Additional calculations include exit pupil (brightness indicator) and true field of view (how much sky you can see).",
       "steps": [
-        "Enter your telescope's focal length (found on the tube, e.g., 1200mm)",
-        "Enter your eyepiece's focal length (printed on the eyepiece, e.g., 25mm)",
-        "Optionally add aperture to calculate exit pupil",
-        "Optionally add apparent field of view to calculate true FOV",
-        "Review all calculated values for optimal viewing setup"
+        {
+          "name": "Step 1",
+          "text": "Enter your telescope's focal length (found on the tube, e.g., 1200mm)"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your eyepiece's focal length (printed on the eyepiece, e.g., 25mm)"
+        },
+        {
+          "name": "Step 3",
+          "text": "Optionally add aperture to calculate exit pupil"
+        },
+        {
+          "name": "Step 4",
+          "text": "Optionally add apparent field of view to calculate true FOV"
+        },
+        {
+          "name": "Step 5",
+          "text": "Review all calculated values for optimal viewing setup"
+        }
       ]
     },
     "useCases": [
@@ -412,10 +463,22 @@
       "formula": "Distance (parsecs) = 1 / Parallax Angle (arcseconds)",
       "explanation": "Stellar parallax is the fundamental method for measuring distances to nearby stars. As Earth orbits the Sun, nearby stars appear to shift position relative to distant background stars. This shift, measured in arcseconds, allows us to calculate distance using simple geometry.",
       "steps": [
-        "Enter the parallax angle in arcseconds (from astronomical catalogs like Gaia)",
-        "The calculator divides 1 by the parallax to get distance in parsecs",
-        "Distance is converted to light years (multiply by 3.262)",
-        "Additional conversions to AU and kilometers are displayed"
+        {
+          "name": "Step 1",
+          "text": "Enter the parallax angle in arcseconds (from astronomical catalogs like Gaia)"
+        },
+        {
+          "name": "Step 2",
+          "text": "The calculator divides 1 by the parallax to get distance in parsecs"
+        },
+        {
+          "name": "Step 3",
+          "text": "Distance is converted to light years (multiply by 3.262)"
+        },
+        {
+          "name": "Step 4",
+          "text": "Additional conversions to AU and kilometers are displayed"
+        }
       ]
     },
     "useCases": [

@@ -38,11 +38,26 @@
       "formula": "Annual Savings = Current Usage × Efficiency Gain × 365 × Electricity Rate",
       "explanation": "This calculator estimates potential energy and cost savings from various home efficiency improvements by comparing current consumption with projected consumption after upgrades.",
       "steps": [
-        "Select the type of energy improvement",
-        "Enter your current daily energy usage in kWh",
-        "Enter the quantity or number of units",
-        "Click Calculate to see annual savings",
-        "View payback period and CO₂ reduction"
+        {
+          "name": "Step 1",
+          "text": "Select the type of energy improvement"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter your current daily energy usage in kWh"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter the quantity or number of units"
+        },
+        {
+          "name": "Step 4",
+          "text": "Click Calculate to see annual savings"
+        },
+        {
+          "name": "Step 5",
+          "text": "View payback period and CO₂ reduction"
+        }
       ]
     },
     "useCases": [
@@ -122,12 +137,30 @@
       "formula": "Total Cost = Σ (Category kWh × Monthly × 12 × Electricity rate)",
       "explanation": "This calculator analyzes your home energy consumption by category, calculating monthly costs, annual expenses, CO₂ emissions, and identifying potential savings opportunities.",
       "steps": [
-        "Enter monthly lighting and general electricity usage in kWh",
-        "Enter heating consumption",
-        "Enter air conditioning consumption",
-        "Enter water heater consumption",
-        "Enter home appliances consumption",
-        "Click Calculate to see detailed audit results"
+        {
+          "name": "Step 1",
+          "text": "Enter monthly lighting and general electricity usage in kWh"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter heating consumption"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter air conditioning consumption"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter water heater consumption"
+        },
+        {
+          "name": "Step 5",
+          "text": "Enter home appliances consumption"
+        },
+        {
+          "name": "Step 6",
+          "text": "Click Calculate to see detailed audit results"
+        }
       ]
     },
     "useCases": [
@@ -211,11 +244,26 @@
       "formula": "Annual Production = System size (kW) × Sun hours × 365 × 0.8 (efficiency factor)",
       "explanation": "This calculator estimates your return on investment for solar panels by calculating annual energy production, savings, and the time needed to recover your investment.",
       "steps": [
-        "Enter your solar system size in kilowatts",
-        "Enter the total installation cost",
-        "Enter your average monthly electricity bill",
-        "Enter average daily peak sun hours in your area",
-        "Click Calculate to see payback period and ROI"
+        {
+          "name": "Step 1",
+          "text": "Enter your solar system size in kilowatts"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the total installation cost"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter your average monthly electricity bill"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter average daily peak sun hours in your area"
+        },
+        {
+          "name": "Step 5",
+          "text": "Click Calculate to see payback period and ROI"
+        }
       ]
     },
     "useCases": [
@@ -297,12 +345,30 @@
       "formula": "Annual Waste = Daily waste × 365 | Landfill Emissions = Organic waste × Methane factor",
       "explanation": "This calculator estimates your household waste production and its environmental impact, including landfill emissions from organic waste decomposition.",
       "steps": [
-        "Enter daily food waste in kilograms",
-        "Enter daily plastic waste",
-        "Enter daily paper waste",
-        "Enter daily other waste",
-        "Enter household size for per-capita calculations",
-        "Click Calculate to see total waste and emissions"
+        {
+          "name": "Step 1",
+          "text": "Enter daily food waste in kilograms"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter daily plastic waste"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter daily paper waste"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter daily other waste"
+        },
+        {
+          "name": "Step 5",
+          "text": "Enter household size for per-capita calculations"
+        },
+        {
+          "name": "Step 6",
+          "text": "Click Calculate to see total waste and emissions"
+        }
       ]
     },
     "useCases": [
@@ -393,11 +459,26 @@
       "formula": "ROI = ((Annual savings × 25 years) - Installation cost) / Installation cost × 100%",
       "explanation": "This calculator projects your solar investment return by estimating annual energy production based on system size and local sun hours, then calculating savings over the typical 25-year panel lifespan.",
       "steps": [
-        "Enter your proposed solar system size in kilowatts",
-        "Enter the total installation cost including panels and labor",
-        "Enter your current average monthly electricity bill",
-        "Enter average peak sun hours in your area",
-        "Click Calculate to see payback period and ROI"
+        {
+          "name": "Step 1",
+          "text": "Enter your proposed solar system size in kilowatts"
+        },
+        {
+          "name": "Step 2",
+          "text": "Enter the total installation cost including panels and labor"
+        },
+        {
+          "name": "Step 3",
+          "text": "Enter your current average monthly electricity bill"
+        },
+        {
+          "name": "Step 4",
+          "text": "Enter average peak sun hours in your area"
+        },
+        {
+          "name": "Step 5",
+          "text": "Click Calculate to see payback period and ROI"
+        }
       ]
     },
     "useCases": [
