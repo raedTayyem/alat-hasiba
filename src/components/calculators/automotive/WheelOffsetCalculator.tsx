@@ -144,7 +144,6 @@ export default function WheelOffsetCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("wheel_offset.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

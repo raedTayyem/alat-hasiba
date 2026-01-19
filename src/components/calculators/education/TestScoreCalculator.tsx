@@ -101,7 +101,6 @@ export default function TestScoreCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t('common.errors.calculationError'));
-        console.error('Test Score Calculation error:', err);
       }
     }, 300);
   };

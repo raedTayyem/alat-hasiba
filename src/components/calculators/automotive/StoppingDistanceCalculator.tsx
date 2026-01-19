@@ -153,7 +153,6 @@ export default function StoppingDistanceCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("stopping_distance.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

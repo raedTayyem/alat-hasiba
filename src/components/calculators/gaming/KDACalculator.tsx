@@ -103,7 +103,6 @@ export default function KDACalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("kda.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

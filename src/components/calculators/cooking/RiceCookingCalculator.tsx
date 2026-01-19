@@ -130,7 +130,6 @@ export default function RiceCookingCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("rice-cooking-calculator.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

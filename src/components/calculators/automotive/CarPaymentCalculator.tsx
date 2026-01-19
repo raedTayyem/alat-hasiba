@@ -149,7 +149,6 @@ export default function CarPaymentCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("car_payment.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

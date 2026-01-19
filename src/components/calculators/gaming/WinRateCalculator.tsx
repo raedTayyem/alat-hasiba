@@ -106,7 +106,6 @@ export default function WinRateCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("win_rate.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

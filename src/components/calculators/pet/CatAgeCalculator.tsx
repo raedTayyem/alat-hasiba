@@ -114,7 +114,6 @@ export default function CatAgeCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("cat_age_calculator.error_calculation")); // Fallback or reuse generic error
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

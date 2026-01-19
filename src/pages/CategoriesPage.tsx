@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
-import { ChevronRight, Layers } from 'lucide-react';
+import { ChevronRight, Layers } from '@/utils/icons';
 import { getCategories, getCalculatorsByCategory } from '../data/calculators';
 import { getCalculatorName } from '../utils/calculatorTranslation';
 import { getCategoryIcon } from '../utils/categoryIcons';

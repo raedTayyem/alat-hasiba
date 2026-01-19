@@ -77,7 +77,6 @@ export default function ParallelogramCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("parallelogram_calculator.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

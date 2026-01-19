@@ -177,7 +177,6 @@ export default function AmazonFBACalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("errors.calculation_error"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

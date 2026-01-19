@@ -1,6 +1,6 @@
 import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
-import { Mail, Coffee, ExternalLink } from 'lucide-react';
+import { Mail, Coffee, ExternalLink } from '@/utils/icons';
 
 const ContactPage = () => {
   const { t, i18n } = useTranslation('pages');

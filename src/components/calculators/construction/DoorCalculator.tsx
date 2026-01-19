@@ -211,7 +211,6 @@ export default function DoorCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("common:common.errors.calculationError"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

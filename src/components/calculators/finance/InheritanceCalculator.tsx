@@ -16,7 +16,7 @@ import {
   Briefcase,
   DollarSign,
   Info
-} from "lucide-react";
+} from "@/utils/icons";
 import { FormField } from '@/components/ui/form-field';
 import { NumberInput } from '@/components/ui/number-input';
 import { Combobox } from '@/components/ui/combobox';
@@ -150,8 +150,7 @@ export default function InheritanceCalculator() {
     });
 
     navigator.clipboard.writeText(sharesText)
-      .catch(err => {
-        console.error('Failed to copy: ', err);
+      .catch(() => {
       });
   };
 

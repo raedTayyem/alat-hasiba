@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
-import { ChevronRight, Layers, Search, ArrowLeft, Home } from 'lucide-react';
+import { ChevronRight, Layers, Search, ArrowLeft, Home } from '@/utils/icons';
 import { Calculator, getCalculatorsByCategory, getCategoryBySlug } from '../data/calculators';
 import CalculatorCard from '../components/CalculatorCard';
 import { getCalculatorName, getCalculatorDescription } from '../utils/calculatorTranslation';

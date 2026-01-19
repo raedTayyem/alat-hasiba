@@ -126,7 +126,6 @@ export default function AttendanceCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t('common.errors.calculationError'));
-        console.error('Attendance Calculation error:', err);
       }
     }, 300);
   };

@@ -89,7 +89,6 @@ export default function CoordinatesCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("coordinates_calculator.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

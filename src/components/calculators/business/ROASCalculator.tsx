@@ -79,7 +79,6 @@ export default function ROASCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("errors.calculation_error"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

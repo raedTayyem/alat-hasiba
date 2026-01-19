@@ -112,7 +112,6 @@ export default function WaterUsageCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("calculators.environmental.water_usage.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

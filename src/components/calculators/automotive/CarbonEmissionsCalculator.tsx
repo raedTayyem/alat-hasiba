@@ -153,7 +153,6 @@ export default function CarbonEmissionsCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("carbon_emissions.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

@@ -124,7 +124,6 @@ export default function DogAgeCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("dog_age_calculator.error_calculation")); // Fallback or reuse generic error
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

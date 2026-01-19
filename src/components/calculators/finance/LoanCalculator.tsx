@@ -156,7 +156,6 @@ const LoanCalculator: React.FC = () => {
 
       setErrors({});
     } catch (error) {
-      console.error('Calculation error:', error);
       setErrors({ general: t('common.errors.calculationError') });
       setResults(null);
     }

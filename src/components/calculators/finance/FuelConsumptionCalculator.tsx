@@ -130,7 +130,6 @@ export default function FuelConsumptionCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("fuel_consumption.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

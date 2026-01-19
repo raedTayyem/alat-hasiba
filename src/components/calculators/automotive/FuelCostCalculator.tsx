@@ -118,7 +118,6 @@ export default function FuelCostCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("fuel_cost.errors.calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

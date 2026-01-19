@@ -129,7 +129,6 @@ export default function TurkeyCookingCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("turkey-cooking-calculator.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

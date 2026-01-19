@@ -87,7 +87,6 @@ export default function TripCostCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("trip_cost.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

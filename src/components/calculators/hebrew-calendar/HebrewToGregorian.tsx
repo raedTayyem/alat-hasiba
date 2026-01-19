@@ -165,7 +165,6 @@ export default function HebrewToGregorian({ year, onYearChange }: HebrewToGregor
         setShowResult(true);
       } catch (err) {
         setError(t("hebrew-to-gregorian.error_conversion"));
-        console.error(err);
       }
     }, 300);
   };

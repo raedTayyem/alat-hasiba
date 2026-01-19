@@ -117,7 +117,6 @@ export default function LevelUpCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("level_up.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

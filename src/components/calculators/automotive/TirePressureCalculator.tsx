@@ -120,7 +120,6 @@ export default function TirePressureCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t('tire_pressure.error_calculation'));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

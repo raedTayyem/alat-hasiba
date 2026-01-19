@@ -127,7 +127,6 @@ export default function CopticToGregorian({ year, onYearChange }: CopticToGregor
       }, 300);
     } catch (err) {
       setError(t("coptic-to-gregorian.error_conversion"));
-      console.error(err);
     }
   };
 

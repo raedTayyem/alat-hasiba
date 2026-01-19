@@ -88,7 +88,6 @@ export default function CapRateCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("cap_rate_calculator.calculation_error") || t("calculators.calculation_error"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

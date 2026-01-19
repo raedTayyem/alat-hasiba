@@ -119,7 +119,6 @@ export default function TreePlantingImpactCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("calculators.environmental.tree_planting.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

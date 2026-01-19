@@ -60,7 +60,6 @@ export default function AnalyticGeometryCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("analytic_geometry_calculator.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

@@ -2,7 +2,7 @@ import { useState, useEffect } from 'react';
 import { Link, useSearchParams } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
-import { Search, ArrowLeft, ChevronRight } from 'lucide-react';
+import { Search, ArrowLeft, ChevronRight } from '@/utils/icons';
 import { searchCalculators } from '../data/calculators';
 import { Calculator } from '../data/calculators/types';
 // getCalculatorName and getCalculatorDescription are used in CalculatorCard component

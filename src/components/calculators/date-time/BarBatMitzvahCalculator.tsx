@@ -191,7 +191,6 @@ export default function BarBatMitzvahCalculator() {
       }, 300);
     } catch (err) {
       setError(t("bar_bat_mitzvah_calculator.error_calculation"));
-      console.error(err);
     }
   };
   

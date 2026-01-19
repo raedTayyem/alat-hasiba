@@ -100,7 +100,6 @@ export default function CircleCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("circle_calculator.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

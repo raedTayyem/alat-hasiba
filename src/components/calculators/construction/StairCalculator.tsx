@@ -192,7 +192,6 @@ export default function StairCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("common:common.errors.calculationError"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

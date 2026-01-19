@@ -90,7 +90,6 @@ export default function VacancyRateCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("calculators.calculation_error"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

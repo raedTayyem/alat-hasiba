@@ -78,7 +78,6 @@ export default function GasMileageCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("gas_mileage.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

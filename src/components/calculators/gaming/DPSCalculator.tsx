@@ -100,7 +100,6 @@ export default function DPSCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("dps.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

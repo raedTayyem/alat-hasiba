@@ -125,7 +125,6 @@ export default function TriangleCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("triangle_calculator.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

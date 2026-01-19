@@ -116,7 +116,6 @@ export default function CookingTimeCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("cooking-time.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

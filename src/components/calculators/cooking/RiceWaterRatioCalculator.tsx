@@ -85,7 +85,6 @@ export default function RiceWaterRatioCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("rice-water-ratio-calculator.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

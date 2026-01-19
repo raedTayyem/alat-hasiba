@@ -128,7 +128,6 @@ export default function CarTradeInCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t('car_trade_in.error_calculation'));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

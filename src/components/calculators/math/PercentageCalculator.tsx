@@ -86,7 +86,6 @@ export default function PercentageCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("percentage.calculation_error"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   }, [validateInputs, value1, value2, calculationType, t]);

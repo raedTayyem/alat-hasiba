@@ -156,7 +156,6 @@ export default function ShoeSizeConverter() {
         setShowResult(true);
       } catch (err) {
         setError(t("calculators.calculation_error"));
-        console.error('Conversion error:', err);
       }
     }, 300);
   };

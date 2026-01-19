@@ -103,7 +103,6 @@ export default function CoffeeRatioCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("coffee-ratio-calculator.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

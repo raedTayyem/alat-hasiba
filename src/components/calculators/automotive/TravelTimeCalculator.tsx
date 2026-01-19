@@ -168,7 +168,6 @@ export default function TravelTimeCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("travel_time.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

@@ -40,7 +40,6 @@ export default function CalculusCalculator() {
       }
     } catch (e) {
       setError(t("calculus.errors.calculation_error"));
-      console.error(e);
     }
   };
 

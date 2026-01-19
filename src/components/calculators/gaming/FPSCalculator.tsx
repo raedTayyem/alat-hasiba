@@ -78,7 +78,6 @@ export default function FPSCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("fps.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

@@ -139,7 +139,6 @@ export default function ProbabilityCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("probability_calculator.calculation_error"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

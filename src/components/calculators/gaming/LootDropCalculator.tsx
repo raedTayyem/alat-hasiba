@@ -96,7 +96,6 @@ export default function LootDropCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("loot_drop.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

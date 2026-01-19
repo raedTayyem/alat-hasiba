@@ -156,7 +156,6 @@ export default function CarMaintenanceCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("car_maintenance.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

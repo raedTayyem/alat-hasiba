@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
-import { TrendingUp, ArrowLeft, Search } from 'lucide-react';
+import { TrendingUp, ArrowLeft, Search } from '@/utils/icons';
 import { getMostPopularCalculators } from '../data/calculators';
 import CalculatorCard from '../components/CalculatorCard';
 

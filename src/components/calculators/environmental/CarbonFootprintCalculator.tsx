@@ -120,7 +120,6 @@ export default function CarbonFootprintCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("carbon_footprint.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

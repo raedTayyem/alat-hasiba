@@ -111,7 +111,6 @@ export default function ProfitMarginCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("common.errors.calculationError"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

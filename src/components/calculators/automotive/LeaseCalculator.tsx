@@ -157,7 +157,6 @@ export default function LeaseCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("lease.errors.calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

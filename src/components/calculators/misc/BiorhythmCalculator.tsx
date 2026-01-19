@@ -90,7 +90,6 @@ export default function BiorhythmCalculator() {
         setShowResult(true);
       }, 300);
     } catch (err) {
-      console.error(err);
       setError(t("calc/misc:biorhythm.calc_error"));
     }
   };

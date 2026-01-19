@@ -123,7 +123,6 @@ export default function OvenTemperatureConverter() {
         setShowResult(true);
       } catch (err) {
         setError(t("oven-temperature-converter.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

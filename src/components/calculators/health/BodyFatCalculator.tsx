@@ -132,7 +132,6 @@ export default function BodyFatCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("common.errors.calculationError"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

@@ -105,7 +105,6 @@ export default function TopSpeedCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t('top_speed.error_calculation'));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

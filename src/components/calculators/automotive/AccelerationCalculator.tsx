@@ -143,7 +143,6 @@ export default function AccelerationCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("acceleration.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

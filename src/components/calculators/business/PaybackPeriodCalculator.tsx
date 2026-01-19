@@ -91,7 +91,6 @@ export default function PaybackPeriodCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("errors.calculation_error", { ns: 'common' }));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

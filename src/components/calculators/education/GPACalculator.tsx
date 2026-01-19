@@ -172,7 +172,6 @@ export default function GPACalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t('common.errors.calculationError'));
-        console.error('GPA Calculation error:', err);
       }
     }, 300);
   };

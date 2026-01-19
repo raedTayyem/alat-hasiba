@@ -116,7 +116,6 @@ export default function FertilizerCalculator() {
         setError('');
       } catch (err) {
         setError(t("fertilizer.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

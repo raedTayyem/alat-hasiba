@@ -141,7 +141,6 @@ export default function CarLoanCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("car_loan.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

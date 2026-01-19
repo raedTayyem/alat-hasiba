@@ -4,7 +4,7 @@ import { useState, useEffect, Suspense } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { useTranslation } from 'react-i18next';
-import { ChevronRight, Home, ChevronDown, Lightbulb, AlertTriangle, BookOpen, Target } from 'lucide-react';
+import { ChevronRight, Home, ChevronDown, Lightbulb, AlertTriangle, BookOpen, Target } from '@/utils/icons';
 import { getCalculatorComponentBySlug, getRelatedCalculators } from '../utils/calculatorLoader';
 import CalculatorSkeleton from '../components/CalculatorSkeleton';
 import { Calculator, getCategoryBySlug, getCalculatorBySlug } from '../data/calculators';

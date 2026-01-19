@@ -189,7 +189,6 @@ export default function GearRatioCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("gear.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

@@ -106,7 +106,6 @@ export default function CarDepreciationCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("car_depreciation.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

@@ -116,7 +116,6 @@ export default function FuelEconomyCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("fuel_economy.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

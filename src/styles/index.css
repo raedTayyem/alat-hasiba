@@ -1,6 +1,6 @@
-@import 'tailwindcss/base';
-@import 'tailwindcss/components';
-@import 'tailwindcss/utilities';
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* RTL Support - Enhanced */
 html[dir="rtl"] {
@@ -40,20 +40,6 @@ input[type="number"]::-webkit-inner-spin-button {
 input[type="number"] {
   -moz-appearance: textfield;
   appearance: textfield;
-}
-
-/* Smooth RTL/LTR transition */
-html {
-  transition: direction 0.2s ease-in-out;
-}
-
-* {
-  transition: margin 0.15s ease-in-out, padding 0.15s ease-in-out;
-}
-
-/* Flip icons and control elements that need LTR orientation */
-.flip-horizontal {
-  transform: scaleX(-1);
 }
 
 @layer base {
@@ -157,20 +143,9 @@ html {
 
 @layer components {
 
-  /* Button styles - Modern Clean */
-  .btn-primary {
-    @apply bg-primary text-white rounded-lg px-4 py-2 font-medium transition-all hover:bg-primary-hover focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 shadow-sm;
-    box-shadow: 0 2px 4px rgba(var(--color-primary-rgb), 0.2);
-  }
-
-  .btn-secondary {
-    @apply bg-background-alternate text-foreground border border-border rounded-lg px-4 py-2 font-medium transition-all hover:bg-background focus:outline-none focus:ring-2 focus:ring-primary focus:ring-offset-2 shadow-sm;
-  }
-
   /* Enhanced button styles for calculators */
   .primary-button {
     @apply bg-primary text-white font-semibold rounded-xl px-6 py-3 transition-all duration-200 hover:bg-primary-hover hover:shadow-xl shadow-lg focus:outline-none focus:ring-4 focus:ring-primary focus:ring-opacity-30 active:scale-[0.98] disabled:opacity-50 disabled:cursor-not-allowed;
-    /* box-shadow: 0 4px 12px rgba(var(--color-primary-rgb), 0.25); */
   }
 
   .secondary-button {
@@ -245,19 +220,6 @@ html {
     backdrop-filter: blur(12px);
   }
 
-  /* Enhanced card variations */
-  .card-bg {
-    @apply bg-background-alternate rounded-xl border border-border;
-  }
-
-  .card-elevated {
-    @apply bg-card rounded-xl border border-border p-6 transition-all duration-300 hover:shadow-xl hover:-translate-y-1;
-    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
-  }
-
-  .card-interactive {
-    @apply bg-card rounded-xl border border-border p-6 cursor-pointer transition-all duration-200 hover:border-primary-50 hover:shadow-lg active:scale-98;
-  }
 
   /* Result cards */
   .result-card {
@@ -276,57 +238,7 @@ html {
     @apply bg-gradient-to-br from-error-5 to-error-10 border-2 border-error-20 rounded-xl p-6 backdrop-blur-sm;
   }
 
-  /* Divider styles */
-  .divider {
-    @apply border-t border-border;
-  }
 
-  .divider-primary {
-    @apply border-t-2 border-primary-20;
-  }
-
-}
-
-/* Utility classes */
-.text-primary {
-  color: var(--color-primary);
-}
-
-.text-foreground {
-  color: var(--color-foreground);
-}
-
-.text-foreground-70 {
-  color: var(--color-foreground-70);
-}
-
-.text-foreground-50 {
-  color: var(--color-foreground-50);
-}
-
-.bg-background {
-  background-color: var(--color-background);
-}
-
-.bg-background-alternate {
-  background-color: var(--color-background-alternate);
-}
-
-.bg-primary {
-  background-color: var(--color-primary);
-  color: var(--color-card);
-}
-
-.bg-card {
-  background-color: var(--color-card);
-}
-
-.border-border {
-  border-color: var(--color-border);
-}
-
-.border-primary {
-  border-color: var(--color-primary);
 }
 
 /* Performance optimizations */
@@ -334,13 +246,6 @@ img,
 video {
   max-width: 100%;
   height: auto;
-}
-
-/* Prevent Cumulative Layout Shift */
-img,
-iframe,
-video {
-  aspect-ratio: attr(width) / attr(height);
 }
 
 /* Print styles for better accessibility */
@@ -526,68 +431,6 @@ video {
   }
 }
 
-/* Custom radio button styles */
-.custom-radio input[type="radio"] {
-  @apply sr-only;
-}
-
-.custom-radio input[type="radio"]:checked+span {
-  @apply bg-primary-10 border-primary text-primary;
-}
-
-.custom-radio span {
-  @apply inline-flex items-center justify-center px-4 py-2 rounded-lg border-2 border-border transition-all duration-200 cursor-pointer hover:border-primary-50 hover:bg-primary-5;
-}
-
-/* Custom checkbox styles */
-.custom-checkbox input[type="checkbox"] {
-  @apply sr-only;
-}
-
-.custom-checkbox input[type="checkbox"]:checked+span::before {
-  @apply bg-primary border-primary;
-  content: '✓';
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.custom-checkbox span {
-  @apply inline-flex items-center gap-2 cursor-pointer;
-}
-
-.custom-checkbox span::before {
-  content: '';
-  @apply w-5 h-5 rounded border-2 border-border transition-all duration-200 hover:border-primary-50;
-}
-
-/* Tooltip enhancements */
-.tooltip-wrapper {
-  @apply relative inline-block;
-}
-
-.tooltip-content {
-  @apply invisible absolute z-50 px-3 py-2 text-sm bg-gray-900 text-white rounded-lg shadow-lg transition-all duration-200 opacity-0 bottom-full left-1/2 transform -translate-x-1/2 -translate-y-2;
-  white-space: nowrap;
-}
-
-.tooltip-wrapper:hover .tooltip-content {
-  @apply visible opacity-100;
-}
-
-/* Loading skeleton */
-.skeleton {
-  @apply bg-foreground-10 rounded animate-pulse;
-}
-
-.skeleton-text {
-  @apply h-4 bg-foreground-10 rounded animate-pulse;
-}
-
-.skeleton-circle {
-  @apply rounded-full bg-foreground-10 animate-pulse;
-}
 
 /* Arabic date input styles */
 .date-input-rtl {

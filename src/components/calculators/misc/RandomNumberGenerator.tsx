@@ -119,7 +119,6 @@ export default function RandomNumberGenerator() {
         setShowResult(true);
       } catch (err) {
         setError(t("calculators.calculation_error"));
-        console.error('Generation error:', err);
       }
     }, 300);
   };

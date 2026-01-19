@@ -202,7 +202,6 @@ export default function RegistrationFeeCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("registration_fee.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

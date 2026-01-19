@@ -178,7 +178,6 @@ export default function AbjadCalculator() {
         setShowResult(true);
       }, 300);
     } catch (error) {
-      console.error(error);
       setError(t("calc/misc:abjad.calc_error"));
     }
   };

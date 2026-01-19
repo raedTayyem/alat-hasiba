@@ -80,7 +80,6 @@ export default function CakeServingCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("cake-serving-calculator.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

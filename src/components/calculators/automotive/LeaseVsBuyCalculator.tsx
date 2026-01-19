@@ -203,7 +203,6 @@ export default function LeaseVsBuyCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("lease_vs_buy.errors.calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

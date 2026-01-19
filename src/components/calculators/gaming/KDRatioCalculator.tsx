@@ -90,7 +90,6 @@ export default function KDRatioCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("kd_ratio.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

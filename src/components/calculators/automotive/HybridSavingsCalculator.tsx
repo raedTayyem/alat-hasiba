@@ -138,7 +138,6 @@ export default function HybridSavingsCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("hybrid_savings.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

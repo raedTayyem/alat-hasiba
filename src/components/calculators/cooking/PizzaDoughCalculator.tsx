@@ -119,7 +119,6 @@ export default function PizzaDoughCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("pizza-dough-calculator.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

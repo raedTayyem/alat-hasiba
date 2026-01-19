@@ -117,7 +117,6 @@ export default function BakingConversionCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("baking-conversion.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

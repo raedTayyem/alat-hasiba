@@ -164,7 +164,6 @@ export default function TireSizeCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("tire_size.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

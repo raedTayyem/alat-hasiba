@@ -94,7 +94,6 @@ export default function PastaCookingCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("pasta-cooking-calculator.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

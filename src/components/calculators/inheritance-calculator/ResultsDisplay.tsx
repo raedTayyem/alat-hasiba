@@ -2,7 +2,7 @@
 
 import { Heir } from './types';
 import { Button } from "@/components/ui/button";
-import { Copy } from "lucide-react";
+import { Copy } from "@/utils/icons";
 import { useTranslation } from 'react-i18next';
 
 interface ResultsDisplayProps {

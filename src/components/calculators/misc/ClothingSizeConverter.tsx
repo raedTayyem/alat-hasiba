@@ -130,7 +130,6 @@ export default function ClothingSizeConverter() {
         setShowResult(true);
       } catch (err) {
         setError(t("calc/misc:clothing_size_converter.calculation_error") || t("calculators.calculation_error"));
-        console.error('Conversion error:', err);
       }
     }, 300);
   };

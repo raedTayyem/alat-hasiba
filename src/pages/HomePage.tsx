@@ -9,7 +9,7 @@ import {
   ArrowRight,
   TrendingUp,
   Star
-} from 'lucide-react';
+} from '@/utils/icons';
 import { getCategories, getMostPopularCalculators, getCalculators } from '../data/calculators';
 import SearchAutocomplete from '../components/ui/SearchAutocomplete';
 import { getCalculatorName } from '../utils/calculatorTranslation';

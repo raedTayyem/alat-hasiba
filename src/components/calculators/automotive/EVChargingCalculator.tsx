@@ -144,7 +144,6 @@ export default function EVChargingCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("ev_charging.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

@@ -78,7 +78,6 @@ export default function BezierCurveCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("bezier_curve_calculator.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

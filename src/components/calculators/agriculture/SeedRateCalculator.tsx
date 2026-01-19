@@ -131,7 +131,6 @@ export default function SeedRateCalculator() {
         setError('');
       } catch (err) {
         setError(t("seed_rate.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

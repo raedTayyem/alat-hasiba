@@ -4,6 +4,13 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  safelist: [
+    // Safelist dynamic classes that are constructed programmatically
+    'animate-fadeIn',
+    'animate-slideInRight',
+    'animate-slideInLeft',
+    'animate-scaleIn',
+  ],
   darkMode: 'class',
   theme: {
     extend: {

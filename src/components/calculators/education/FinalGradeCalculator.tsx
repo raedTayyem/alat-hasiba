@@ -116,7 +116,6 @@ export default function FinalGradeCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t('common.errors.calculationError'));
-        console.error('Final Grade Calculation error:', err);
       }
     }, 300);
   };

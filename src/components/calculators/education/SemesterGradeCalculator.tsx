@@ -132,7 +132,6 @@ export default function SemesterGradeCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t('common.errors.calculationError'));
-        console.error('Semester Grade Calculation error:', err);
       }
     }, 300);
   };

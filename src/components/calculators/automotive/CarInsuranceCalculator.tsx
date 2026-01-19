@@ -157,7 +157,6 @@ export default function CarInsuranceCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("car_insurance.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

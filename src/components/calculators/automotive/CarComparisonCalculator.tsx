@@ -139,7 +139,6 @@ export default function CarComparisonCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t('car_comparison.error_calculation'));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

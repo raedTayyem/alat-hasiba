@@ -139,7 +139,6 @@ export default function ClosingCostCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("closing_cost_calculator.calculation_error") || t("calculators.calculation_error"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

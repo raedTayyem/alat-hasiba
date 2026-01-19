@@ -84,7 +84,6 @@ export default function RectangleCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("rectangle_calculator.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

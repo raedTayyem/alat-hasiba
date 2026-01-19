@@ -140,7 +140,6 @@ export default function EVRangeCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t('ev_range.error_calculation'));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

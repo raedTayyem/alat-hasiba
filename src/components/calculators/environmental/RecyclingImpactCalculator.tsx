@@ -97,7 +97,6 @@ export default function RecyclingImpactCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("recycling_impact.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

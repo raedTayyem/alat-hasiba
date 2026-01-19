@@ -161,7 +161,6 @@ export default function MinecraftCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("minecraft_calculator.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

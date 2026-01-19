@@ -99,7 +99,6 @@ export default function XPCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("xp.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };

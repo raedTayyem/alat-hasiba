@@ -134,7 +134,6 @@ export default function BrakingDistanceCalculator() {
         setShowResult(true);
       } catch (err) {
         setError(t("braking_distance.error_calculation"));
-        console.error('Calculation error:', err);
       }
     }, 300);
   };
